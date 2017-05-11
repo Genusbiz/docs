@@ -4,11 +4,11 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 ## Developers
 * [Overview](developers/overview/what is genus app platform.md)
 * Get started
-* Defining the app model
-* Installation and configuration
-* Security and privacy
-* Guidelines and best practices
-* How to
+* [Defining the app model](developers/defining the application model.md)
+* [Installation and configuration](developers/installation and configuration.md)
+* [Security and privacy](developers/security and privacy.md)
+* [Guidelines and best practices](developers/guidelines and best practices.md)
+* [How to](developers/how to.md)
 * Release notes
 
 ## Users

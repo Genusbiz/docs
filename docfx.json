@@ -24,7 +24,15 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "**/.jpg",
+          "**/.gif",
+          "**/.png",
+          "developers/**.jpg",
+          "developers/**.gif",
+          "developers/**.png",
+          "users/**.jpg",
+          "users/**.gif",
+          "users/**.png"
         ],
         "exclude": [
           "_site/**"
