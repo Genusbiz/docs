@@ -1,6 +1,6 @@
 ## Getting Started
 
-Genus Desktop Client is an application which requires installation on your computer. The client requires a connection to the relevant application server over a local network or the internet. Genus App Services must be installed on the application server, for more information on system requiremens, server installation and configuration, and client installation, see [Installation and Configuration](installation and configuration.md).
+Genus Desktop Client is an application which requires installation on your computer. The client requires a connection to the relevant application server over a local network or the internet. Genus App Services must be installed on the application server, for more information on system requiremens, server installation and configuration, and client installation, see [Installation and Configuration](installation and configuration.md). 
 
 <table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
 
