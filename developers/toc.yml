@@ -1,5 +1,5 @@
 - name: Overview
-  href: overview/
+  href: index.md
   items:
   - name: What is Genus App Platform?
     href: overview/what is genus app platform.md
@@ -9,3 +9,147 @@
     href: overview/architecture.md
   - name: Terminology
     href: overview/terminology.md
+- name: Keyboard shortcuts
+  href: keyboard shortcuts.md
+- name: Defining the Application Model
+  href: defining the application model.md
+  items:
+  - name: Genus Studio basics
+    href: defining the application model/genus studio basics.md
+  - name: General settings
+    href: defining the application model/general settings.md
+    items:
+    - name: Data Sets
+      href: defining the application model/general settings/data sets.md
+    - name: Calendar Settings
+      href: defining the application model/general settings/calendar settings.md
+    - name: Search Settings
+      href: defining the application model/general settings/search settings.md
+    - name: Advanced Settings
+      href: defining the application model/general settings/advanced settings.md
+  - name: Navigation pane
+    href: defining the application model/navigation pane.md
+  - name: Tables
+    href: defining the application model/tables.md
+    items:
+    - name: General Settings
+      href: defining the application model/tables/general settings.md
+    - name: Data Sources
+      href: defining the application model/tables/data sources.md
+    - name: Layout
+      href: defining the application model/tables/layout.md
+    - name: Views
+      href: defining the application model/tables/views.md
+    - name: Events
+      href: defining the application model/tables/events.md
+  - name: Forms
+    href: defining the application model/forms.md
+    items:
+    - name: General Settings
+      href: defining the application model/forms/general settings.md
+    - name: Data Sources
+      href: defining the application model/tables/data sources.md
+    - name: Views
+      href: defining the application model/forms/views.md
+      items:
+      - name: Add a View
+        href: defining the application model/forms/views/add a view.md
+      - name: Desktop Controls
+        href: defining the application model/forms/views/desktop controls.md
+        items:
+        - name: Containers
+          href: defining the application model/forms/views/desktop controls/containers.md
+          items:
+          - name: Group
+            href: defining the application model/forms/views/desktop controls/containers/group.md
+          - name: Group Box
+            href: defining the application model/forms/views/desktop controls/containers/group box.md
+          - name: Conditional Groups
+            href: defining the application model/forms/views/desktop controls/containers/conditional groups.md
+          - name: Tab Sheets
+            href: defining the application model/forms/views/desktop controls/containers/tab sheets.md
+          - name: Common Container Properties
+            href: defining the application model/forms/views/desktop controls/containers/common container properties.md
+        - name: Text and Number Controls
+          href: defining the application model/forms/views/desktop controls/text and number controls.md
+        - name: Time and Date Controls
+          href: defining the application model/forms/views/desktop controls/time and date controls.md
+        - name: List and Lookup Controls
+          href: defining the application model/forms/views/desktop controls/list and lookup controls.md
+        - name: Button Controls
+          href: defining the application model/forms/views/desktop controls/button controls.md
+        - name: File and Folder Controls
+          href: defining the application model/forms/views/desktop controls/file and folder controls.md
+        - name: Graphic Controls
+          href: defining the application model/forms/views/desktop controls/graphic controls.md
+        - name: Tabular Controls
+          href: defining the application model/forms/views/desktop controls/tabular controls.md
+        - name: Scheduling Controls
+          href: defining the application model/forms/views/desktop controls/scheduling controls.md
+        - name: Reporting and Visualization Controls
+          href: defining the application model/forms/views/desktop controls/reporting and visualization controls.md
+        - name: Common Control Propterties
+          href: defining the application model/forms/views/desktop controls/common control properties.md
+      - name: View Layout Fundamentals
+        href: defining the application model/forms/views/view layout fundamentals.md
+      - name: View Properties
+        href: defining the application model/forms/views/view properties.md
+    - name: Commands
+      href: defining the application model/forms/commands.md
+    - name: Events
+      href: defining the application model/forms/events.md
+    - name: Tasks
+      href: defining the application model/forms/tasks.md
+    - name: Form Designer
+      href: defining the application model/forms/form designer.md
+  - name: Action orchestration
+    href: defining the application model/action orchestration.md
+  - name: Tasks
+    href: defining the application model/tasks.md
+  - name: Agents
+    href: defining the application model/agents.md
+  - name: Web services
+    href: defining the application model/web services.md
+  - name: Object Class Diagram
+    href: defining the application model/object class diagram.md
+  - name: Object Class
+    href: defining the application model/object class.md
+  - name: Object Class Property
+    href: defining the application model/object class property.md
+  - name: Schemas
+    href: defining the application model/schemas.md
+  - name: Data Marts
+    href: defining the application model/data marts.md
+  - name: Search Folders
+    href: defining the application model/search folders.md
+  - name: Refiners
+    href: defining the application model/refiners.md
+  - name: Data Filters
+    href: defining the application model/data filters.md
+  - name: Nodes and Node Groups
+    href: defining the application model/nodes and node groups.md
+  - name: Translate the app model to other languages
+    href: defining the application model/translate the application model to other languages.md
+  - name: Common concepts
+    href: defining the application model/common concepts.md
+- name: Installation and configuration
+  href: installation and configuration.md
+  items:
+  - name: Sytem requirements
+    href: installation and configuration/system requirements.md
+- name: Security and Privacy
+  href: security and privacy.md
+  items:
+  - name: Account Profiles
+    href: security and privacy/account profiles.md
+- name: Guidelines and best practices
+  href: guidelines and best practices.md
+  items:
+  - name: Action orchestration performance and maintainability
+    href: guidelines and best practices/action orchestration performance and maintainability.md
+- name: How to
+  href: how to.md
+  items:
+  - name: Attach a file or an email to an object
+    href: how to/attach a file or an email to an object.md
+
