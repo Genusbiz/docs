@@ -72,22 +72,130 @@
             href: defining the application model/forms/views/desktop controls/containers/common container properties.md
         - name: Text and Number Controls
           href: defining the application model/forms/views/desktop controls/text and number controls.md
+          items:
+          - name: E-mail Address Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/email address edit.md
+          - name: HTML Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/html edit.md
+          - name: Label
+            href: defining the application model/forms/views/desktop controls/text and number controls/label.md
+          - name: Number Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/number edit.md
+          - name: Password Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/password edit.md
+          - name: Rich Text Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/rich text edit.md
+          - name: Text
+            href: defining the application model/forms/views/desktop controls/text and number controls/text.md
+          - name: Text Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/text edit.md
+          - name: Text Popup Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/text popup edit.md
+          - name: Url Edit
+            href: defining the application model/forms/views/desktop controls/text and number controls/url edit.md
         - name: Time and Date Controls
           href: defining the application model/forms/views/desktop controls/time and date controls.md
+          items:
+          - name: Date Time Edit
+            href: defining the application model/forms/views/desktop controls/time and date controls/date time edit.md
+          - name: Duration Edit
+            href: defining the application model/forms/views/desktop controls/time and date controls/duration edit.md
+          - name: Integer Time Edit
+            href: defining the application model/forms/views/desktop controls/time and date controls/integer time edit.md
+          - name: Integer Date Edit
+            href: defining the application model/forms/views/desktop controls/time and date controls/integer date edit.md
+          - name: Date Range Bar
+            href: defining the application model/forms/views/desktop controls/time and date controls/date range bar.md
         - name: List and Lookup Controls
           href: defining the application model/forms/views/desktop controls/list and lookup controls.md
+          items:
+          - name: Combo Box
+            href: defining the application model/forms/views/desktop controls/list and lookup controls/combo box.md
+          - name: List Box
+            href: defining the application model/forms/views/desktop controls/list and lookup controls/list box.md
+          - name: Search Box
+            href: defining the application model/forms/views/desktop controls/list and lookup controls/search box.md
         - name: Button Controls
           href: defining the application model/forms/views/desktop controls/button controls.md
+          items:
+          - name: Button
+            href: defining the application model/forms/views/desktop controls/button controls/button.md
+          - name: Check Box
+            href: defining the application model/forms/views/desktop controls/button controls/check box.md
+          - name: Radio Button
+            href: defining the application model/forms/views/desktop controls/button controls/radio button.md
+          - name: Track Bar
+            href: defining the application model/forms/views/desktop controls/button controls/track bar.md
         - name: File and Folder Controls
           href: defining the application model/forms/views/desktop controls/file and folder controls.md
+          items:
+          - name: File Browser Edit
+            href: defining the application model/forms/views/desktop controls/file and folder controls/file browser edit.md
+          - name: File Name Edit
+            href: defining the application model/forms/views/desktop controls/file and folder controls/file name edit.md
+          - name: File Preview
+            href: defining the application model/forms/views/desktop controls/file and folder controls/file preview.md
+          - name: File Size Edit
+            href: defining the application model/forms/views/desktop controls/file and folder controls/file size edit.md
+          - name: Folder Browser Edit
+            href: defining the application model/forms/views/desktop controls/file and folder controls/folder browser edit.md
         - name: Graphic Controls
           href: defining the application model/forms/views/desktop controls/graphic controls.md
+          items:
+          - name: Image
+            href: defining the application model/forms/views/desktop controls/graphic controls/image.md
+          - name: Symbol
+            href: defining the application model/forms/views/desktop controls/graphic controls/symbol.md
         - name: Tabular Controls
           href: defining the application model/forms/views/desktop controls/tabular controls.md
+          items:
+          - name: Grid
+            href: defining the application model/forms/views/desktop controls/tabular controls/grid.md
+          - name: Table
+            href: defining the application model/forms/views/desktop controls/tabular controls/table.md
+          - name: Tree
+            href: defining the application model/forms/views/desktop controls/tabular controls/tree.md
         - name: Scheduling Controls
           href: defining the application model/forms/views/desktop controls/scheduling controls.md
+          items:
+          - name: Gantt
+            href: defining the application model/forms/views/desktop controls/scheduling controls/gantt.md
+            items:
+            - name: Examples / How To
+              href: defining the application model/forms/views/desktop controls/scheduling controls/gantt/examples  how to.md
+            - name: Properties
+              href: defining the application model/forms/views/desktop controls/scheduling controls/gantt/properties.md
+          - name: Timeline
+            href: defining the application model/forms/views/desktop controls/scheduling controls/timeline.md
+            items:
+            - name: Examples / How To
+              href: defining the application model/forms/views/desktop controls/scheduling controls/timeline/examples  how to.md
+            - name: Properties
+              href: defining the application model/forms/views/desktop controls/scheduling controls/timeline/properties.md
         - name: Reporting and Visualization Controls
           href: defining the application model/forms/views/desktop controls/reporting and visualization controls.md
+          items:
+          - name: Chart
+            href: defining the application model/forms/views/desktop controls/reporting and visualization controls/chart.md
+            items:
+            - name: Examples / How To
+              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/chart/examples  how to.md
+            - name: Properties
+              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/chart/properties.md
+          - name: Diagram
+            href: defining the application model/forms/views/desktop controls/reporting and visualization controls/diagram.md
+            items:
+            - name: Examples / How To
+              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/diagram/examples  how to.md
+            - name: Properties
+              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/diagram/properties.md
+          - name: Tree Map
+            href: defining the application model/forms/views/desktop controls/reporting and visualization controls/tree map.md
+            items:
+            - name: Examples / How To
+              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/tree map/examples  how to.md
+            - name: Properties
+              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/tree map/properties.md
         - name: Common Control Propterties
           href: defining the application model/forms/views/desktop controls/common control properties.md
       - name: View Layout Fundamentals
@@ -104,22 +212,200 @@
       href: defining the application model/forms/form designer.md
   - name: Action orchestration
     href: defining the application model/action orchestration.md
+    items:
+    - name: Data Sources
+      href: defining the application model/action orchestration/data sources.md
+      items:
+      - name: Add a Data Source
+        href: defining the application model/action orchestration/data sources/add a data source.md
+      - name: Add a Local Object Data Source
+        href: defining the application model/action orchestration/data sources/add a local object data source.md
+      - name: Specifying a Data Filter for a Data Source
+        href: defining the application model/action orchestration/data sources/specifying a data filter for a data source.md
+      - name: The Account Data Source
+        href: defining the application model/action orchestration/data sources/the account data source.md
+      - name: File Data Sources
+        href: defining the application model/action orchestration/data sources/file data sources.md
+    - name: Actions
+      href: defining the application model/action orchestration/actions.md
+      items:
+      - name: Blocks
+        href: defining the application model/action orchestration/actions/blocks.md
+        items:
+        - name: Decision
+          href: defining the application model/action orchestration/actions/blocks/decision.md
+        - name: Scope
+          href: defining the application model/action orchestration/actions/blocks/scope.md
+        - name: Enumerator
+          href: defining the application model/action orchestration/actions/blocks/enumerator.md
+        - name: While Loop
+          href: defining the application model/action orchestration/actions/blocks/while loop.md
+        - name: Catch Exception
+          href: defining the application model/action orchestration/actions/blocks/catch exception.md
+      - name: Controls
+        href: defining the application model/action orchestration/actions/controls.md
+        items:
+        - name: Redirect Execution
+          href: defining the application model/action orchestration/actions/controls/redirect execution.md
+        - name: Throw Exception
+          href: defining the application model/action orchestration/actions/controls/throw exception.md
+      - name: Effects
+        href: defining the application model/action orchestration/actions/effects.md
+        items:
+        - name: Consume a REST Service
+          href: defining the application model/action orchestration/actions/effects/consume a rest service.md
+        - name: Consume a WEB Service
+          href: defining the application model/action orchestration/actions/effects/consume a web service.md
+        - name: Copy Data to the Clipboard
+          href: defining the application model/action orchestration/actions/effects/copy data to the clipboard.md
+        - name: Create a Data Aggregate
+          href: defining the application model/action orchestration/actions/effects/create a data aggregate.md
+        - name: Create a File
+          href: defining the application model/action orchestration/actions/effects/create a file.md
+        - name: Create a Mail Message
+          href: defining the application model/action orchestration/actions/effects/create a mail message.md
+        - name: Create Objects and Modify Objects
+          href: defining the application model/action orchestration/actions/effects/create objects and modify objects.md
+        - name: Delete Objects
+          href: defining the application model/action orchestration/actions/effects/delete objects.md
+        - name: Export Data
+          href: defining the application model/action orchestration/actions/effects/export data.md
+        - name: Import Data
+          href: defining the application model/action orchestration/actions/effects/import data.md
+        - name: Invoke a File
+          href: defining the application model/action orchestration/actions/effects/invoke a file.md
+        - name: Merge Data to a Document
+          href: defining the application model/action orchestration/actions/effects/merge data to a document.md
+        - name: Modify a User Account
+          href: defining the application model/action orchestration/actions/effects/modify a user account.md
+        - name: Open a Form
+          href: defining the application model/action orchestration/actions/effects/open a form.md
+        - name: Print Objects
+          href: defining the application model/action orchestration/actions/effects/print objects.md
+        - name: Read Objects
+          href: defining the application model/action orchestration/actions/effects/read objects.md
+        - name: Run a Data Extract
+          href: defining the application model/action orchestration/actions/effects/run a data extract.md
+        - name: Run a Program
+          href: defining the application model/action orchestration/actions/effects/run a program.md
+        - name: Run a Task
+          href: defining the application model/action orchestration/actions/effects/run a task.md
+        - name: Run a Report
+          href: defining the application model/action orchestration/actions/effects/run a report.md
+        - name: Set a Field's Value
+          href: defining the application model/action orchestration/actions/effects/set a fields value.md
+        - name: Show a Confirmation Message
+          href: defining the application model/action orchestration/actions/effects/show a confirmation message.md
+        - name: Show a Message
+          href: defining the application model/action orchestration/actions/effects/show a message.md
+        - name: Sort Objects
+          href: defining the application model/action orchestration/actions/effects/sort objects.md
+        - name: Transform XML Data
+          href: defining the application model/action orchestration/actions/effects/transform xml data.md
+        - name: Upload a File
+          href: defining the application model/action orchestration/actions/effects/upload a file.md
+      - name: Defining Actions
+        href: defining the application model/action orchestration/actions/defining actions.md
+      - name: Action Diagram
+        href: defining the application model/action orchestration/actions/action diagram.md
+    - name: Exception Handling
+      href: defining the application model/action orchestration/exception handling.md
   - name: Tasks
     href: defining the application model/tasks.md
   - name: Agents
     href: defining the application model/agents.md
-  - name: Web services
+  - name: Web Services
     href: defining the application model/web services.md
+    items:
+    - name: Create a Web Services
+      href: defining the application model/web services/create a web service.md
+    - name: Web Service References
+      href: defining the application model/web services/web service references.md
+    - name: SOAP Faults
+      href: defining the application model/web services/soap faults.md
+    - name: View the Execution History for a Web Service
+      href: defining the application model/web services/view the execution history for a web service.md
   - name: Object Class Diagram
     href: defining the application model/object class diagram.md
   - name: Object Class
     href: defining the application model/object class.md
+    items:
+    - name: Create or Modify a Code Domain
+      href: defining the application model/object class/create or modify a code domain.md
+    - name: Create a New Identifier Domain
+      href: defining the application model/object class/create a new identifier domain.md
+    - name: Create a New Object Domain
+      href: defining the application model/object class/create a new object domain.md
+    - name: Modify an Object- or Identifier Domain
+      href: defining the application model/object class/modify an object or identifier domain.md
+      items:
+      - name: General Settings
+        href: defining the application model/object class/modify an object- or identifier domain/general settings.md
+      - name: Data Provider
+        href: defining the application model/object class/modify an object- or identifier domain/data provider.md
+      - name: Data Integrity
+        href: defining the application model/object class/modify an object- or identifier domain/data integrity.md
+      - name: Rules
+        href: defining the application model/object class/modify an object- or identifier domain/rules.md
+      - name: Data Filtering
+        href: defining the application model/object class/modify an object- or identifier domain/data filtering.md
+      - name: Data Sorting
+        href: defining the application model/object class/modify an object- or identifier domain/data sorting.md
+      - name: Data Aggregation
+        href: defining the application model/object class/modify an object- or identifier domain/data aggregation.md
+      - name: Data Dependencies
+        href: defining the application model/object class/modify an object- or identifier domain/data dependencies.md
+      - name: Search
+        href: defining the application model/object class/modify an object- or identifier domain/search.md
+      - name: Explore
+        href: defining the application model/object class/modify an object- or identifier domain/explore.md
+      - name: Display
+        href: defining the application model/object class/modify an object- or identifier domain/display.md
+      - name: Events
+        href: defining the application model/object class/modify an object- or identifier domain/events.md
+      - name: Security
+        href: defining the application model/object class/modify an object- or identifier domain/security.md
+      - name: Data Exchange
+        href: defining the application model/object class/modify an object- or identifier domain/data exchange.md
+      - name: Follow Up
+        href: defining the application model/object class/modify an object- or identifier domain/follow up.md
   - name: Object Class Property
     href: defining the application model/object class property.md
+    items:
+    - name: Add Properties to an Object Class from an RDBMS Table
+      href: defining the application model/object class property/add properties to an object class from an rdbms table.md
+    - name: Modify an Object Class Property
+      href: defining the application model/object class property/modify an object class property.md
+      items:
+      - name: General Settings
+        href: defining the application model/object class property/modify an object class property/general settings.md
+      - name: Data Calculation
+        href: defining the application model/object class property/modify an object class property/data calculation.md
+      - name: Data Filtering
+        href: defining the application model/object class property/modify an object class property/data filtering.md
+      - name: Data Validation
+        href: defining the application model/object class property/modify an object class property/data validation.md
+      - name: Data Aggregation
+        href: defining the application model/object class property/modify an object class property/data aggregation.md
+      - name: Display
+        href: defining the application model/object class property/modify an object class property/display.md
+      - name: Security
+        href: defining the application model/object class property/modify an object class property/security.md
+    - name: Change the Data Type for an Object Class Property
+      href: defining the application model/object class property/change the data type for an object class property.md
   - name: Schemas
     href: defining the application model/schemas.md
   - name: Data Marts
     href: defining the application model/data marts.md
+    items:
+    - name: Data Mart Fundamentals
+      href: defining the application model/data marts/data mart fundamentals.md
+    - name: Data Sources
+      href: defining the application model/data marts/data sources.md
+    - name: Data View
+      href: defining the application model/data marts/data view.md
+    - name: Tasks
+      href: defining the application model/data marts/tasks.md
   - name: Search Folders
     href: defining the application model/search folders.md
   - name: Refiners
@@ -130,8 +416,64 @@
     href: defining the application model/nodes and node groups.md
   - name: Translate the app model to other languages
     href: defining the application model/translate the application model to other languages.md
-  - name: Common concepts
+  - name: Common Concepts
     href: defining the application model/common concepts.md
+    items:
+    - name: Active Object
+      href: defining the application model/common concepts/active object.md
+    - name: Advanced Expressions
+      href: defining the application model/common concepts/advanced expressions.md
+      items:
+      - name: Operators and Precedence
+        href: defining the application model/common concepts/advanced expressions/operators and precedence.md
+      - name: Comments and Constructs
+        href: defining the application model/common concepts/advanced expressions/comments and constructs.md
+      - name: Value Types
+        href: defining the application model/common concepts/advanced expressions/value types.md
+      - name: Date and Time Types
+        href: defining the application model/common concepts/advanced expressions/date and time types.md
+      - name: Object Types
+        href: defining the application model/common concepts/advanced expressions/object types.md
+      - name: Collection Types
+        href: defining the application model/common concepts/advanced expressions/collection types.md
+      - name: Enumeration Types
+        href: defining the application model/common concepts/advanced expressions/enumeration types.md
+      - name: Function Library Types
+        href: defining the application model/common concepts/advanced expressions/function library types.md
+      - name: Formula Editor
+        href: defining the application model/common concepts/advanced expressions/formula editor.md
+      - name: Examples
+        href: defining the application model/common concepts/advanced expressions/examples.md
+    - name: Automatic Formatting
+      href: defining the application model/common concepts/automatic formatting.md
+    - name: Conditions
+      href: defining the application model/common concepts/conditions.md
+      items:
+      - name: Groups and Expressions
+        href: defining the application model/common concepts/conditions/groups and expressions.md
+      - name: Operands
+        href: defining the application model/common concepts/conditions/operands.md
+      - name: Condition Syntax Structure
+        href: defining the application model/common concepts/conditions/condition syntax structure.md
+      - name: Examples
+        href: defining the application model/common concepts/conditions/examples.md
+      - name: Condition Editor
+        href: defining the application model/common concepts/conditions/condition editor.md
+        items:
+        - name: Add an Expression or Group
+          href: defining the application model/common concepts/conditions/condition editor/add an expression or group.md
+        - name: Change the Logical Operator for an Expression or Group
+          href: defining the application model/common concepts/conditions/condition editor/change the logical operator for an expression or group.md
+        - name: Edit an Expression
+          href: defining the application model/common concepts/conditions/condition editor/edit an expression.md
+        - name: Defining Operands
+          href: defining the application model/common concepts/conditions/condition editor/defining operands.md
+        - name: Change the Order of Expressions and Groups
+          href: defining the application model/common concepts/conditions/condition editor/change the order of expressions and groups.md
+        - name: Remove an Expression or Group
+          href: defining the application model/common concepts/conditions/condition editor/remove an expression or group.md
+    - name: Data Binding
+      href: defining the application model/common concepts/data binding.md
 - name: Installation and configuration
   href: installation and configuration.md
   items:

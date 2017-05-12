@@ -41,7 +41,7 @@ Advanced Expressions are case sensitive.
 
 <td valign="top" class="cdclvCategoryCol1">[Value Types](advanced expressions/value types.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Data and Time Types](advanced expressions/data and time types.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Date and Time Types](advanced expressions/date and time types.md)</td>
 
 </tr>
 
