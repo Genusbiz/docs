@@ -1,6 +1,8 @@
 ## Defining the Application Model
 
-To provide functionality to the end user, Genus App Platform employs declarative data about your business objects and logic. This collection of [metadata](defining the application model/glossary.md) are stored in the directory for your application and maintained in **Genus Studio**. From the first moment you start describing the necessary metadata, your application is alive. This truly supports scenario and evolutionary driven capture of critical functionality. 
+To provide functionality to the end user, Genus App Platform employs declarative data about your business objects and logic. This collection of [metadata](defining the application model/glossary.md) are stored in the directory for your application and maintained in **Genus Studio**. From the first moment you start describing the necessary metadata, your application is alive. This truly supports scenario and evolutionary driven capture of critical functionality.
+
+Here is a splling eror or tree.
 
 <table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
 
