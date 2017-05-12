@@ -4,7 +4,7 @@ Genus App Platform employs declarative data about your business objects, logic, 
 
 When you make changes in your directory, these changes have to be deployed to clients connected to your application server(s), and when the version is deployed, all signed in users are forced to restart their client.
 
-# Topics in "Genus Studio Basics
+### Topics in "Genus Studio Basics
 
 * [How to Open Genus Studio](genus studio basics/how to open genus studio.md)
 * [Search and Organization](genus studio basics/search and organization.md)
