@@ -1,5 +1,31 @@
 - name: Overview
-  href: overview/
+  href: index.md
   items:
   - name: What is a Genus solution?
     href: overview/what is a genus solution.md
+  - name: How to report an error
+    href: overview/how to report an error.md
+- name: Getting started
+  href: getting started.md
+  items:
+  - name: Start the Genus Desktop Client
+    href: getting started/start the genus desktop client.md
+  - name: Error Handling and Support Mail
+    href: getting started/error handling and support mail.md
+    items:
+    - name: Genus Desktop Client Error Reporting
+      href: getting started/error handling and support mail/genus desktop client error reporting.md
+    - name: Genus Messages in Windows Events
+      href: getting started/error handling and support mail/genus messages in windows events.md
+    - name: Windows Events Monitoring
+      href: getting started/error handling and support mail/windows events monitoring.md
+- name: Create and Modify
+  href: create and modify.md
+- name: Search and Refine
+  href: search and refine.md
+- name: Analyze, Report and Discover
+  href: analyze report and discover.md
+- name: Monitor and Alert
+  href: monitor and alert.md
+- name: How to
+  href: how to.md
