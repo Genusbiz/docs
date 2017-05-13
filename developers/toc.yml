@@ -477,21 +477,141 @@
 - name: Installation and configuration
   href: installation and configuration.md
   items:
-  - name: Sytem requirements
+  - name: Sytem Requirements
     href: installation and configuration/system requirements.md
+  - name: Genus App Platform Release Stages
+    href: installation and configuration/genus app platform release stages.md
+  - name: Install Genus Desktop Client on Your Computer
+    href: installation and configuration/install genus desktop client on your computer.md
+  - name: Install Genus Desktop Clients Silently for Your Users
+    href: installation and configuration/install genus desktop clients silently for your users.md
+  - name: Genus Desktop Client - Installer Details
+    href: installation and configuration/genus desktop client  installer details.md
+  - name: Install Genus Server on an Application Server
+    href: installation and configuration/install genus server on an application server.md
+  - name: Install License on Genus Server
+    href: installation and configuration/install license on genus server.md
+  - name: Configure and Maintain Genus Server
+    href: installation and configuration/configure and maintain genus server.md
+    items:
+    - name: Genus Server Configuration
+      href: installation and configuration/configure and maintain genus server/genus server configuration.md
+      items:
+      - name: Options
+        href: installation and configuration/configure and maintain genus server/genus server configuration/options.md
+      - name: Directory Properties
+        href: installation and configuration/configure and maintain genus server/genus server configuration/directory properties.md
+      - name: Data Set Properties
+        href: installation and configuration/configure and maintain genus server/genus server configuration/data set properties.md
+    - name: Configure Genus Server - Step by Step
+      href: installation and configuration/configure and maintain genus server/configure genus server  step by step.md
+    - name: Install License on Genus Server
+      href: installation and configuration/install license on genus server.md
+    - name: Genus Server - Logical Services
+      href: installation and configuration/configure and maintain genus server/genus server  logical services.md
+    - name: App Services Recycling
+      href: installation and configuration/configure and maintain genus server/app services recycling.md
+    - name: Special Considerations for MySQL
+      href: installation and configuration/configure and maintain genus server/special considerations for mysql.md
+    - name: Special Considerations for Oracle
+      href: installation and configuration/configure and maintain genus server/special considerations for oracle.md
+    - name: Special Considerations for Sybase
+      href: installation and configuration/configure and maintain genus server/special considerations for sybase.md
+    - name: Automatically Delete Old Log Files
+      href: installation and configuration/configure and maintain genus server/automatically delete old log files.md
+    - name: Tuning Web Service Performance
+      href: installation and configuration/configure and maintain genus server/tuning web service performance.md
+    - name: Monitoring Genus Server
+      href: installation and configuration/configure and maintain genus server/monitoring genus server.md
 - name: Security and Privacy
   href: security and privacy.md
   items:
   - name: Account Profiles
     href: security and privacy/account profiles.md
+  - name: Security Groups and User Accounts
+    href: security and privacy/security groups and user accounts.md
+  - name: Sign In History
+    href: security and privacy/sign in history.md
+  - name: Security Permissions
+    href: security and privacy/security permissions.md
+  - name: Security Privileges
+    href: security and privacy/security privileges.md
+  - name: Security Data Sets
+    href: security and privacy/security data sets.md
+  - name: Security Overview and Review
+    href: security and privacy/security overview and review.md
+  - name: Trusted Users
+    href: security and privacy/trusted users.md
 - name: Guidelines and best practices
   href: guidelines and best practices.md
   items:
-  - name: Action orchestration performance and maintainability
+  - name: Action Orchestration Performance and Maintainability
     href: guidelines and best practices/action orchestration performance and maintainability.md
+  - name: Deleting Event History and Account Session History
+    href: guidelines and best practices/deleting event history and account session history.md
+  - name: Improving Desktop Client Startup Performance
+    href: guidelines and best practices/improving desktop client startup performance.md
+  - name: Improving Report Performance
+    href: guidelines and best practices/improving report performance.md
+  - name: Improving Search Performance
+    href: guidelines and best practices/improving search performance.md
+  - name: Improving Mobile Client Performance
+    href: guidelines and best practices/improving mobile client performance.md
+  - name: Security on Search
+    href: guidelines and best practices/security on search.md
+  - name: Web Service Guidelines
+    href: guidelines and best practices/web service guidelines.md
+    items:
+    - name: Web Service Styles
+      href: guidelines and best practices/web service guidelines/web service styles.md
+    - name: Request / Response Message Exchange Pattern
+      href: guidelines and best practices/web service guidelines/request  response message exchange pattern.md
+    - name: Identifying and Naming the Web Service
+      href: guidelines and best practices/web service guidelines/identifying and naming the web service.md
+    - name: Identifying and Naming the Web Service Operations
+      href: guidelines and best practices/web service guidelines/identifying and naming the web service operations.md
+    - name: Identifying and Naming XML Schemas and Elements for use with Web Services
+      href: guidelines and best practices/web service guidelines/identifying and naming xml schemas and elements for use with web services.md
+    - name: Endpoint Naming Conventions
+      href: guidelines and best practices/web service guidelines/endpoint naming conventions.md
+    - name: XML and Web Service Namespaces
+      href: guidelines and best practices/web service guidelines/xml and web service namespaces.md
+    - name: Consuming a Genus Web Service from an External Client
+      href: guidelines and best practices/web service guidelines/consuming a genus web service from an external client.md
+    - name: Testing a Web Service
+      href: guidelines and best practices/web service guidelines/testing a web service.md
 - name: How to
   href: how to.md
   items:
   - name: Attach a file or an email to an object
     href: how to/attach a file or an email to an object.md
+  - name: Exchange Data with Other Applications
+    href: how to/exchange data with other applications.md
+    items:
+    - name: Exchanging Files and Objects
+      href: how to/exchange data with other applications/exchanging files and objects.md
+    - name: Export and Import Data
+      href: how to/exchange data with other applications/export and import data.md
+    - name: Copy and Paste Data
+      href: how to/exchange data with other applications/copy and paste data.md
+    - name: Microsoft Outlook Integrations
+      href: how to/exchange data with other applications/microsoft outlook integrations.md
+  - name: Merge Data to a Document
+    href: how to/merge data to a document.md
+    items:
+    - name: Merge Data to a Microsoft Excel Document
+      href: how to/merge data to a document/merge data to a microsoft excel document.md
+      items:
+      - name: Merge Table Data to a Microsoft Excel Document
+        href: how to/merge data to a document/merge data to a microsoft excel document/merge table data to a microsoft excel document.md
+      - name: Merge Report Data to a Microsoft Excel Document
+        href: how to/merge data to a document/merge data to a microsoft excel document/merge report data to a microsoft excel document.md
+    - name: Merge Data to a Microsoft Word Document
+      href: how to/merge data to a document/merge data to a microsoft word document.md
+    - name: Test Run Merging Template
+      href: how to/merge data to a document/test run merging template.md
+  - name: Search Across Many Data Sources
+    href: how to/search across many data sources.md
+  - name: Upload and Download Large Files
+    href: how to/upload and download large files.md
 
