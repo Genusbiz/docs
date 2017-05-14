@@ -54,7 +54,7 @@ Click Sales Territory to open the refiner and show the refinement links. Press a
 
 To change the selected refinement links of a refiner, you must click the refiner summary in the search pane to remove the refiner. You can then you make a new selection of one or more refinement links from the refiner, as described above.
 
-For information on how to add more refiners, see [Refiners](defining the application model/refiners.md).
+For information on how to add more refiners, see [Refiners](../developers/defining the application model/refiners.md).
 
 
 

@@ -22,41 +22,41 @@
 
 <tr>
 
-<td valign="top" class="cdclvCategoryCol1">[Getting Started](../../developers/getting started.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Getting Started](../../users/getting started.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Navigation Pane](../../developers/navigation pane.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Personalize](../../developers/personalize.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Working in Tables](../../developers/working in tables.md)</td>
-
-</tr>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Working in Forms](../../developers/working in forms.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Running Actions](../../developers/running actions.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Navigation Pane](../../users/navigation pane.md)</td>
 
 </tr>
 
 <tr class="cdclvCategoryRowAlt">
 
-<td valign="top" class="cdclvCategoryCol1">[Exploring Data](../../developers/exploring data.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Personalize](../../users/personalize.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Reporting on Data](../../developers/reporting on data.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Working in Tables](../../users/working in tables.md)</td>
 
 </tr>
 
 <tr>
 
-<td valign="top" class="cdclvCategoryCol1">[Searching for Data](../../developers/searching for data.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Working in Forms](../../users/working in forms.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Refining Search Results](../../developers/refining search results.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Running Actions](../../users/running actions.md)</td>
+
+</tr>
+
+<tr class="cdclvCategoryRowAlt">
+
+<td valign="top" class="cdclvCategoryCol1">[Exploring Data](../../users/exploring data.md)</td>
+
+<td valign="top" class="cdclvCategoryCol2">[Reporting on Data](../../users/reporting on data.md)</td>
+
+</tr>
+
+<tr>
+
+<td valign="top" class="cdclvCategoryCol1">[Searching for Data](../../users/searching for data.md)</td>
+
+<td valign="top" class="cdclvCategoryCol2">[Refining Search Results](../../users/refining search results.md)</td>
 
 </tr>
 

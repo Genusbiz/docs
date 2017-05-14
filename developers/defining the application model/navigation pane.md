@@ -9,7 +9,7 @@ To modify the content of your Navigation Pane, do the following:
 
 The content of the Navigation Pane is displayed in a tree view. View buttons are displayed at the first level in the tree. You can add folders, groups and shortcuts to a view button. Below a group or folder, you can add folders and shortcuts.
 
-More information on the functionality provided by the Navigation Pane to end users are described in the article [Navigation Pane](../navigation pane.md).
+More information on the functionality provided by the Navigation Pane to end users are described in the article [Navigation Pane](../../users/navigation pane.md).
 
 In this article
 

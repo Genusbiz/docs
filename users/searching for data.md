@@ -10,7 +10,7 @@ To learn more about search, explore the topics below.
 
 See Also
 
-*   [Security on Search](guidelines and best practices/security on search.md)
+*   [Security on Search](../developers/guidelines and best practices/security on search.md)
 
 <table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
 

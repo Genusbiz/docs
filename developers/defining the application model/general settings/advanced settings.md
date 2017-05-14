@@ -1,6 +1,6 @@
 ## Advanced Settings
 
-Some of these settings are defaults that can be [personalized](../../personalize.md) by individual users.
+Some of these settings are defaults that can be [personalized](../../../users/personalize.md) by individual users.
 
 **Print Color Settings**
 

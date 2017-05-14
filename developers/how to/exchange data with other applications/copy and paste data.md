@@ -117,5 +117,5 @@ An URL to an object in a Genus desktop application is defined by the protocol **
 
 **genuslink:_<application-server-url>_?LinkType=OpenLink&Verb=open&ClassId=_<a-class-id>_&ObjectId=_<an-object-id>_**
 
-To change what happens when opening a link, see [Change What Happens When Opening a Link](../../personalize.md).
+To change what happens when opening a link, see [Change What Happens When Opening a Link](../../../users/personalize.md).
 

@@ -2,7 +2,7 @@
 
 Genus offers dynamic refinement of search results, by aggregating the result into categories, called Refiners. Each refiner has one or more refinement links which represents the items in that category, and each refinement link represents a filter that can be applied to the search result. By selecting a refinement link, the search result is narrowed and only matching objects are kept. Only the refinement links that are relevant in the search result are shown, and they are continuously updated in the background to reflect changes in the search result. The refiners and refinement links are available in the refinement pane, and each refinement link displays the exact number of matching objects, so you immediately know how many objects you will get by selecting the refinement link.
 
-For more information on how to filter search results using refiners, see [Refining Search Results](../refining search results.md).
+For more information on how to filter search results using refiners, see [Refining Search Results](../../users/refining search results.md).
 
 A refiner can be mapped directly to properties, or through conditions to create custom intervals or categories.
 

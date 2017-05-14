@@ -1,6 +1,6 @@
 ## Open a Table
 
-In your [Navigation Pane](../../developers/navigation pane.md "Navigation Pane"), click a shortcut to open a table.
+In your [Navigation Pane](../../users/navigation pane.md "Navigation Pane"), click a shortcut to open a table.
 
 ![IDD3CC9A70A07249CA.ID7DDF461FA9F0416C.png](media/IDD3CC9A70A07249CA.ID7DDF461FA9F0416C.png)
 

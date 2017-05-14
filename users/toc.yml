@@ -1,10 +1,10 @@
 - name: Overview
   href: index.md
-  items:
-  - name: What is a Genus solution?
-    href: overview/what is a genus solution.md
-  - name: How to report an error
-    href: overview/how to report an error.md
+  # items:
+  # - name: What is a Genus solution?
+  #   href: overview/what is a genus solution.md
+  # - name: How to report an error
+  #   href: overview/how to report an error.md
 - name: Getting started
   href: getting started.md
   items:
@@ -19,13 +19,172 @@
       href: getting started/error handling and support mail/genus messages in windows events.md
     - name: Windows Events Monitoring
       href: getting started/error handling and support mail/windows events monitoring.md
-- name: Create and Modify
-  href: create and modify.md
-- name: Search and Refine
-  href: search and refine.md
-- name: Analyze, Report and Discover
-  href: analyze report and discover.md
-- name: Monitor and Alert
-  href: monitor and alert.md
-- name: How to
-  href: how to.md
+# - name: Create and Modify
+#   href: create and modify.md
+# - name: Search and Refine
+#   href: search and refine.md
+# - name: Analyze, Report and Discover
+#   href: analyze report and discover.md
+# - name: Monitor and Alert
+#   href: monitor and alert.md
+# - name: How to
+#   href: how to.md
+- name: Navigation Pane
+  href: navigation pane.md
+- name: Personalize
+  href: personalize.md
+- name: Working in Tables
+  href: working in tables.md
+  items:
+  - name: What is a table?
+    href: working in tables/what is a table.md
+  - name: Open a Table
+    href: working in tables/open a table.md
+  - name: Open an Object
+    href: working in tables/open an object.md
+  - name: Add a New Object
+    href: working in tables/add a new object.md
+  - name: Modify an Object
+    href: working in tables/modify an object.md
+  - name: Delete an Object
+    href: working in tables/delete an object.md
+  - name: Save Changes
+    href: working in tables/save changes.md
+  - name: Select Objects
+    href: working in tables/select objects.md
+  - name: Copy and Paste
+    href: working in tables/copy and paste.md
+  - name: Sort, Group and Autofilter Objects
+    href: working in tables/sort group and autofilter objects.md
+  - name: Refresh a View
+    href: working in tables/refresh a view.md
+  - name: Print a View
+    href: working in tables/print a view.md
+  - name: Open a Report
+    href: working in tables/open a report.md
+  - name: Advanced
+    href: working in tables/advanced.md
+    items:
+    - name: Send Objects
+      href: working in tables/advanced/send objects.md
+    - name: Save a View to File
+      href: working in tables/advanced/save a view to file.md
+    - name: View Settings
+      href: working in tables/advanced/view settings.md
+    - name: View History
+      href: working in tables/advanced/view history.md
+    - name: Size Columns
+      href: working in tables/advanced/size columns.md
+- name: Working in Forms
+  href: working in forms.md
+  items:
+  - name: What is a Form?
+    href: working in forms/what is a form.md
+  - name: Open a Form
+    href: working in forms/open a form.md
+  - name: Modify an Object
+    href: working in forms/modify an object.md
+  - name: Save Changes
+    href: working in forms/save changes.md
+  - name: Refresh a Form
+    href: working in forms/refresh a form.md
+  - name: Print an Object
+    href: working in forms/print an object.md
+  - name: Open a Report
+    href: working in forms/open a report.md
+  - name: Advanced
+    href: working in forms/advanced.md
+    items:
+    - name: Add a New Object
+      href: working in forms/advanced/add a new object.md
+    - name: Send an Object
+      href: working in forms/advanced/send an object.md
+    - name: View History
+      href: working in forms/advanced/view history.md
+    - name: View Settings
+      href: working in forms/advanced/view settings.md
+- name: Running Actions
+  href: running actions.md
+  items:
+  - name: Follow Up
+    href: running actions/follow up.md
+    items:
+    - name: Reminders
+      href: running actions/follow up/reminders.md
+    - name: Notifcations
+      href: running actions/follow up/notifications.md
+    - name: Alerts
+      href: running actions/follow up/alerts.md
+  - name: Modify Merging of Reports
+    href: running actions/modify merging of reports.md
+- name: Exploring Data
+  href: exploring data.md
+- name: Reporting on Data
+  href: reporting on data.md
+  items:
+  - name: Analysis
+    href: reporting on data/analysis.md
+    items:
+    - name: Open an Analysis
+      href: reporting on data/analysis/open an analysis.md
+    - name: Use an Analysis
+      href: reporting on data/analysis/use an analysis.md
+  - name: Data Extract
+    href: reporting on data/data extract.md
+  - name: Report
+    href: reporting on data/report.md
+    items:
+    - name: The Workface
+      href: reporting on data/report/the workface.md
+    - name: Values
+      href: reporting on data/report/values.md
+    - name: Grouping and Filtering
+      href: reporting on data/report/grouping and filtering.md
+      items:
+      - name: Data Sources
+        href: reporting on data/report/grouping and filtering/data sources.md
+      - name: Time Data Sources
+        href: reporting on data/report/grouping and filtering/time data sources.md
+    - name: Value Calculations
+      href: reporting on data/report/value calculations.md
+    - name: Navigate Filters and Explore Data
+      href: reporting on data/report/navigate filters and explore data.md
+    - name: View Options
+      href: reporting on data/report/view options.md
+    - name: Chart Types
+      href: reporting on data/report/chart types.md
+    - name: Formatting
+      href: reporting on data/report/formatting.md
+    - name: Running the Report
+      href: reporting on data/report/running the report.md
+    - name: Publishing Functions and Options
+      href: reporting on data/report/publishing functions and options.md
+    - name: Export or Distribute a Report
+      href: reporting on data/report/export or distribute a report.md
+    - name: Save to File or Print a Report
+      href: reporting on data/report/save to file or print a report.md
+- name: Searching for Data
+  href: searching for data.md
+  items:
+  - name: Search for an Object
+    href: searching for data/search for an object.md
+  - name: Search For Other Data Sources
+    href: searching for data/search for other data sources.md
+  - name: Search Based on Other Data Sources
+    href: searching for data/search based on other data sources.md
+  - name: Using Advanced Search
+    href: searching for data/using advanced search.md
+  - name: Search with Accelerators
+    href: searching for data/search with accelerators.md
+  - name: Search in History
+    href: searching for data/search in history.md
+  - name: Save Searches and Selections
+    href: searching for data/save searches and selections.md
+  - name: Open a Search
+    href: searching for data/open a search.md
+  - name: Viewing Search Results
+    href: searching for data/viewing search results.md
+  - name: Search Options
+    href: searching for data/search options.md
+- name: Refining Seach Results
+  href: refining search results.md
