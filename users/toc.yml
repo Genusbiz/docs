@@ -166,8 +166,8 @@
 - name: Searching for Data
   href: searching for data.md
   items:
-  - name: Search for an Object
-    href: searching for data/search for an object.md
+  - name: Search for Objects
+    href: searching for data/search for objects.md
   - name: Search For Other Data Sources
     href: searching for data/search for other data sources.md
   - name: Search Based on Other Data Sources
