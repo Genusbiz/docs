@@ -11,36 +11,6 @@ The content of the Navigation Pane is displayed in a tree view. View buttons are
 
 More information on the functionality provided by the Navigation Pane to end users are described in the article [Navigation Pane](../../users/navigation pane.md).
 
-In this article
-
-* * *
-
-*   [Add a View Button](#add-a-view-button)
-
-*   [Add a Group to a View Button](#add-a-group-to-a-view-button)
-
-*   [Add a Folder to a View Button, Group or Folder](#add-a-folder-to-a-view-button-group-or-folder)
-
-*   [Add a Shortcut to a View Button, Group or Folder](#add-a-shortcut-to-a-view-button-group-or-folder)
-
-*   [Change the Symbol for a View Button or a Folder](#change-the-symbol-for-a-view-button-or-a-folder)
-
-*   [Change the Display Order for Items in the Navigation Pane](#change-the-display-order-for-items-in-the-navigation-pane)
-
-*   [Set a Default Entry for a View Button](#set-a-default-entry-for-a-view-button)
-
-*   [Hide an Item in the Navigation Pane](#hide-an-item-in-the-navigation-pane)
-
-*   [Grant Permissions to an Item in the Navigation Pane](#grant-permissions-to-an-item-in-the-navigation-pane)
-
-*   [Bind an Item in the Navigation Pane to a Data Set](#bind-an-item-in-the-navigation-pane-to-a-data-set)
-
-*   [View Detailed Information for Items in the Navigation Pane Tree](#view-detailed-information-for-items-in-the-navigation-pane-tree)
-
-*   [Add ScreenTip to a View Button, Group, Folder or Shortcut](#add-screentip-to-a-view-button-group-folder-or-shortcut)
-
-* * *
-
 ## Add a View Button
 
 1.  Right-click in the white area of the tree view, and then in the shortcut menu, click **Add View Button**.
@@ -98,8 +68,8 @@ Note that the folder not can contain any sub folders. In addition, only shortcut
 
 1.  Right-click the shortcut, and then in the shortcut menu, click **Properties**.
 2.  In the **Properties** dialog box, click **Edit**.
-3.  In the **Views** section click **Add one shortcut** <span style="FONT-WEIGHT: normal">and select a view to be used initially.
-4.  <span style="FONT-WEIGHT: normal">To add individual shortcuts to several of the views in the table, click **Add one shortcut to each of the following views** <span style="FONT-WEIGHT: normal">and then click **Add** <span style="FONT-WEIGHT: normal">or **R****emove** <span style="FONT-WEIGHT: normal">to specify the shortcuts.
+3.  In the **Views** section click **Add one shortcut** and select a view to be used initially.
+4.  To add individual shortcuts to several of the views in the table, click **Add one shortcut to each of the following views** and then click **Add** or **Remove** to specify the shortcuts.
 
 **Specify a Symbol for the Shortcut**
 
@@ -111,29 +81,25 @@ Note that the folder not can contain any sub folders. In addition, only shortcut
 
 **Specify to Open in the Same Window or a New Window**
 
-**** **1.  <span style="FONT-WEIGHT: normal">Right-click the shortcut, and then in the shortcut menu, click Properties<span style="FONT-WEIGHT: normal">.
-2.  <span style="FONT-WEIGHT: normal">In the Properties <span style="FONT-WEIGHT: normal">dialog box, click Edit<span style="FONT-WEIGHT: normal">.
-3.  <span style="FONT-WEIGHT: normal">In the Open target in <span style="FONT-WEIGHT: normal">section, click The current window <span style="FONT-WEIGHT: normal">to open the shortcut in the same windos, or click A new window <span style="FONT-WEIGHT: normal">to open the shortcut in a new window,
+1.  Right-click the shortcut, and then in the shortcut menu, click **Properties**.
+2.  In the Properties dialog box, click **Edit**.
+3.  In the Open target in section, click the current window to open the shortcut in the same windos, or click a new window to open the shortcut in a new window.
 
  **Show the Number of Objects Next to a Shortcut on Start** 
 
- <span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">
-
 Shortcut to Tables can display the number of objects on start, i.e. even before the shortcut has been activated.
 
-1.  <span style="FONT-WEIGHT: normal">Right-click the shortcut, and then in the shortcut menu, click Properties<span style="FONT-WEIGHT: normal">.
-2.  <span style="FONT-WEIGHT: normal">In the Properties <span style="FONT-WEIGHT: normal">dialog box, click <span style="FONT-WEIGHT: normal">Edit<span style="FONT-WEIGHT: normal">.
-3.  <span style="FONT-WEIGHT: normal">In the Open target in <span style="FONT-WEIGHT: normal">section, under The current window<span style="FONT-WEIGHT: normal">, <span style="FONT-WEIGHT: normal">select the Show Number of Objects on Start <span style="FONT-WEIGHT: normal">check box to <span style="FONT-WEIGHT: normal">let the number of objects be displayed on start<span style="FONT-WEIGHT: normal">. This option is only available for shortcuts that open in the current window.
+1.  Right-click the shortcut, and then in the shortcut menu, click **Properties**.
+2.  In the Properties dialog box, click **Edit**.
+3.  In the Open target section, under The current window, select the Show Number of Objects on Start check box to let the number of objects be displayed on start. This option is only available for shortcuts that open in the current window.
 
 Refresh the content every time you activate the shortcut
 
- <span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">
-
 The content of the shortcut can be refreshed when the shortcut is activated. This is useful for example, when moving between tables with frequently changing content. 
 
-1.  <span style="FONT-WEIGHT: normal">Right-click the shortcut, and then in the shortcut menu, click Properties<span style="FONT-WEIGHT: normal">.
-2.  <span style="FONT-WEIGHT: normal">In the Properties <span style="FONT-WEIGHT: normal">dialog box, click <span style="FONT-WEIGHT: normal">Edit<span style="FONT-WEIGHT: normal">.
-3.  <span style="FONT-WEIGHT: normal">In the Open target in <span style="FONT-WEIGHT: normal">section, under **The current window**, <span style="FONT-WEIGHT: normal">select the Refresh on Activate <span style="FONT-WEIGHT: normal">check box to <span style="FONT-WEIGHT: normal">let the target of the shortcut refresh every time it is activated<span style="FONT-WEIGHT: normal">. This option is only available for shortcuts that open in the current window.** 
+1.  Right-click the shortcut, and then in the shortcut menu, click **Properties**.
+2.  In the Properties dialog box, click **Edit**.
+3.  In the Open target section, under **The current window**, select the Refresh on Activate check box to let the target of the shortcut refresh every time it is activated. This option is only available for shortcuts that open in the current window.
 
 **Specifying Data Filters for Shortcuts to Reports**
 
@@ -229,6 +195,5 @@ To view detailed information, such as data set binding and type, for items in th
 
 ## Add ScreenTip to a View Button, Group, Folder or Shortcut <a name="add-screentip-to-a-view-button-group-folder-or-shortcut"/>
 
-1\. Right-click **View Button**, **Group**, **Folder** or **Shortcut**, and then in the menu, click **Properties**.  
-2\. In the **ScreenTip**box, enter the screen tip text.
-
+1. Right-click **View Button**, **Group**, **Folder** or **Shortcut**, and then in the menu, click **Properties**.  
+2. In the **ScreenTip**box, enter the screen tip text.
