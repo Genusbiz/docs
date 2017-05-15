@@ -24,7 +24,7 @@ In this article
 
 Controls which language to use as the default for users of your application. The language can be changed in the personal setup for individual users.
 
-Supported languages are **English (US)** and **Norwegian (BokmC%l)**.
+Supported languages are **English (US)** and **Norwegian (Bokm&aring;l)**.
 
 
 
