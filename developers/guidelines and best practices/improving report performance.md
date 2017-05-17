@@ -6,7 +6,7 @@ This article discusses how to improve report performance by providing some hints
 
 **Hide Empty Rows**
 
-If your data is sparse, empty rows may be hidden by pressing the **Hide Empty Rows** button. ![IDEFE332B600C244BB.ID2030D48E597B4548.png](media/IDEFE332B600C244BB.ID2030D48E597B4548.png) Most often this will give you the desired effect without hurting performance.
+If your data is sparse, empty rows may be hidden by pressing the **Hide Empty Rows** button. Most often this will give you the desired effect without hurting performance.
 
 However, if you have more than one data source in the vertical axis, you must pay attention.
 
@@ -30,7 +30,7 @@ Reports with an unfortunate use of **Hide Empty Rows** and lack of connected axi
 
 **Hide Empty Columns**
 
-For the **Hide Empty Columns** button ![IDEFE332B600C244BB.ID05F4A693A2EB45B0.png](media/IDEFE332B600C244BB.ID05F4A693A2EB45B0.png), the same guidelines apply as for the **Hide Empty Rows** button (see above), except that the data sources along the **Horizontal Axis** need to be connected.
+For the **Hide Empty Columns** button, the same guidelines apply as for the **Hide Empty Rows** button (see above), except that the data sources along the **Horizontal Axis** need to be connected.
 
 **Formula Evaluation**
 
@@ -52,7 +52,7 @@ Using a fixed local filter for one or more of your axis data sources will hurt p
 
 For instance, consider creating a code domain to reflect the fixed filter, and adding a reference to this code domain from your data source. You may then change to a criteria based local filter, using a code domain value as the criteria.
 
-To change local filter, right-click your data source, and in the menu point to **Local Filter.** <span style="FONT-WEIGHT: normal">The local filter alternatives will appear in the sub-menu.
+To change local filter, right-click your data source, and in the menu point to **Local Filter.** The local filter alternatives will appear in the sub-menu.
 
 ![IDEFE332B600C244BB.ID7A5846AC1B1D4115.png](media/IDEFE332B600C244BB.ID7A5846AC1B1D4115.png)
 
