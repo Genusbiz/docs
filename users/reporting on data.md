@@ -16,50 +16,7 @@ To create a new Report, in the **Task** section click **Create a new Report**.
 
 For advanced users, note that Genus App Platform supports distribution of reports by making or spreading out copies for a selection of objects in a variety of formats. See [Distribute a Report](../users/reporting on data/report/export or distribute a report.md) for more information.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Reporting on Data"</td>
-
-<td class="cdclvSuggestTitle"><nobr>3 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Analysis](../users/reporting on data/analysis.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Data Extract](../users/reporting on data/data extract.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Report](../users/reporting on data/report.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2"></td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Reporting on Data"**
+* [Analysis](../users/reporting on data/analysis.md)
+* [Data Extract](../users/reporting on data/data extract.md)
+* [Report](../users/reporting on data/report.md)

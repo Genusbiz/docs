@@ -10,82 +10,16 @@ Reports can be published as shortcut in Navigation Pane, or published to a table
 
 ![ID5336D6F0476B4412.ID6493E593B5C64C4A.png](media/ID5336D6F0476B4412.ID6493E593B5C64C4A.png)
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Report"</td>
-
-<td class="cdclvSuggestTitle"><nobr>12 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[The Workface](report/the workface.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Values](report/values.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Grouping and Filtering](report/grouping and filtering.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Value Calculations](report/value calculations.md)</td>
-
-</tr>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Navigate Filters and Explore Data](report/navigate filters and explore data.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[View Options](report/view options.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Chart Types](report/chart types.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Formatting](report/formatting.md)</td>
-
-</tr>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Running the Report](report/running the report.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Publishing Functions and Options](report/publishing functions and options.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Export or Distribute a Report](report/export or distribute a report.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Save to File or Print a Report](report/save to file or print a report.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Report"**
+* [The Workface](report/the workface.md)
+* [Values](report/values.md)
+* [Grouping and Filtering](report/grouping and filtering.md)
+* [Value Calculations](report/value calculations.md)
+* [Navigate Filters and Explore Data](report/navigate filters and explore data.md)
+* [View Options](report/view options.md)
+* [Chart Types](report/chart types.md)
+* [Formatting](report/formatting.md)
+* [Running the Report](report/running the report.md)
+* [Publishing Functions and Options](report/publishing functions and options.md)
+* [Export or Distribute a Report](report/export or distribute a report.md)
+* [Save to File or Print a Report](report/save to file or print a report.md)

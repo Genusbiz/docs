@@ -26,42 +26,6 @@ Some actions are more intuitively activated from other menus or keyboard shortcu
 
 Special actions to follow up objects are located in the <span style="FONT-WEIGHT: normal">[Follow Up](../users/running actions/follow up.md) section in the Action Task Pane.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Running Actions"</td>
-
-<td class="cdclvSuggestTitle"><nobr>2 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Follow Up](../users/running actions/follow up.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Modify Merging of Reports](../users/running actions/modify merging of reports.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Running Actions"**
+* [Follow Up](../users/running actions/follow up.md)
+* [Modify Merging of Reports](../users/running actions/modify merging of reports.md)
