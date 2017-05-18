@@ -20,58 +20,9 @@ The [group box](containers/group box.md) has a header with title and a border. T
 
 [Tab sheets](containers/tab sheets.md) can contain other container controls and displays a tab for each of them. One tab can be active at a given time, and the corresponding container is then displayed with its content.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Containers"</td>
-
-<td class="cdclvSuggestTitle"><nobr>5 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Group](containers/group.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Group Box](containers/group box.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Conditional Groups](containers/conditional groups.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Tab Sheets](containers/tab sheets.md)</td>
-
-</tr>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Common Container Properties](containers/common container properties.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2"></td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Containers"**
+* [Group](containers/group.md)
+* [Group Box](containers/group box.md)
+* [Conditional Groups](containers/conditional groups.md)
+* [Tab Sheets](containers/tab sheets.md)
+* [Common Container Properties](containers/common container properties.md)

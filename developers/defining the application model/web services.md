@@ -9,50 +9,8 @@ See Also
 *   [Consume a Web Service](action orchestration/actions/effects/consume a web service.md)
 *   [Web Service Guidelines](../guidelines and best practices/web service guidelines.md)
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Web Services"</td>
-
-<td class="cdclvSuggestTitle"><nobr>4 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Create a Web Service](web services/create a web service.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Web Service References](web services/web service references.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[SOAP Faults](web services/soap faults.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[View the Execution History for a Web Service](web services/view the execution history for a web service.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Web Services"**
+* [Create a Web Service](web services/create a web service.md)
+* [Web Service References](web services/web service references.md)
+* [SOAP Faults](web services/soap faults.md)
+* [View the Execution History for a Web Service](web services/view the execution history for a web service.md)

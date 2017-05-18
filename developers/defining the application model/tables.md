@@ -42,58 +42,9 @@ A multidimensional table presents objects with a common set of values laid out i
 
 
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Tables"</td>
-
-<td class="cdclvSuggestTitle"><nobr>5 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[General Settings](tables/general settings.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Data Sources](tables/data sources.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Layout](tables/layout.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Views](tables/views.md)</td>
-
-</tr>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Events](tables/events.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2"></td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Tables"**
+* [General Settings](tables/general settings.md)
+* [Data Sources](tables/data sources.md)
+* [Layout](tables/layout.md)
+* [Views](tables/views.md)
+* [Events](tables/events.md)

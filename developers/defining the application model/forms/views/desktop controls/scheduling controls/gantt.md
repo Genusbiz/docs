@@ -18,42 +18,6 @@ Specify where information on dependencies between tasks are held.
 
 Add the columns you want to display to the left in the grid area. Typical fields are name, start date, and finish date.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Gantt"</td>
-
-<td class="cdclvSuggestTitle"><nobr>2 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Examples / How To](gantt/examples  how to.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Properties](gantt/properties.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Gantt"**
+* [Examples / How To](gantt/examples  how to.md)
+* [Properties](gantt/properties.md)

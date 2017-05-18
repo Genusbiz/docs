@@ -10,42 +10,6 @@ Add a series for each data source to visualize, and specify how to visually repr
 
 Add different views for different sets of series, and which of them is the default. Specify which series to show in a view, and how to scroll, zoom, perform grouping, etc. Also specify which time units to allow, for example day, Month, and year, or hour and minute.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Timeline"</td>
-
-<td class="cdclvSuggestTitle"><nobr>2 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Examples / How To](timeline/examples  how to.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Properties](timeline/properties.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Timeline"**
+* [Examples / How To](timeline/examples  how to.md)
+* [Properties](timeline/properties.md)

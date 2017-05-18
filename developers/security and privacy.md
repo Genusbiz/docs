@@ -4,66 +4,12 @@ A successful application must ensure that only properly authenticated users can 
 
 The security services provided by Genus App Platform are based on MicrosoftB. Active Directory mechanisms, and may optionally be integrated with an Active Directory-based domain controller.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Security And Privacy"</td>
-
-<td class="cdclvSuggestTitle"><nobr>8 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Account Profiles](security and privacy/account profiles.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Security Groups and User Accounts](security and privacy/security groups and user accounts.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Sign In History](security and privacy/sign in history.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Security Permissions](security and privacy/security permissions.md)</td>
-
-</tr>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Security Privileges](security and privacy/security privileges.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Security Data Sets](security and privacy/security data sets.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Security Overview and Review](security and privacy/security overview and review.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Trusted Users](security and privacy/trusted users.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Security And Privacy"**
+* [Account Profiles](security and privacy/account profiles.md)
+* [Security Groups and User Accounts](security and privacy/security groups and user accounts.md)
+* [Sign In History](security and privacy/sign in history.md)
+* [Security Permissions](security and privacy/security permissions.md)
+* [Security Privileges](security and privacy/security privileges.md)
+* [Security Data Sets](security and privacy/security data sets.md)
+* [Security Overview and Review](security and privacy/security overview and review.md)
+* [Trusted Users](security and privacy/trusted users.md)

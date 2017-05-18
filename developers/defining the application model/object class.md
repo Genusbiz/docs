@@ -10,50 +10,8 @@ Object Classes are categorized in three types of domains:
 *   **Code Domains**. Describes a finite set of named code values used to classify domain objects. For example, a _person_ can be classified by code domains such as _gender (male, female)_, _civil status (single, married, cohabitant)_ and _nationality_.
 *   **Identifier Domains**. Used to assign a unique identifier to a domain object. There are two types of identifier domains: **Sequential Counter** and **Pool**. A Sequential Counter generates a unique numeric identifier which is incremented by one each time an identifier is assigned to a domain object. A Pool contains a finite set of identifiers used for identifying a domain object. For example a set of employee numbers. When a number is assigned to an employee, the number is marked as taken and can not be assigned to another employee.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Object Class"</td>
-
-<td class="cdclvSuggestTitle"><nobr>4 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Create or Modify a Code Domain](object class/create or modify a code domain.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Create a New Identifier Domain](object class/create a new identifier domain.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Create a New Object Domain](object class/create a new object domain.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Modify an Object- or Identifier Domain](object class/modify an object or identifier domain.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Object Class"**
+* [Create or Modify a Code Domain](object class/create or modify a code domain.md)
+* [Create a New Identifier Domain](object class/create a new identifier domain.md)
+* [Create a New Object Domain](object class/create a new object domain.md)
+* [Modify an Object- or Identifier Domain](object class/modify an object or identifier domain.md)

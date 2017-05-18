@@ -17,42 +17,6 @@ A layout contains the basic settings for how the nodes and edges are organized i
 **Views**  
 A view defines which nodes and edges are relevant, and how they are laid out. One or more views must be defined.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Diagram"</td>
-
-<td class="cdclvSuggestTitle"><nobr>2 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Examples / How To](diagram/examples  how to.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Properties](diagram/properties.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Diagram"**
+* [Examples / How To](diagram/examples  how to.md)
+* [Properties](diagram/properties.md)

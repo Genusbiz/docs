@@ -8,50 +8,8 @@ The complexity is reduced, not only indirectly by reducing the data volume, but 
 
 The data mart also provides the possibility to enrich the existing data by defining new supplements to the data. Fields and data sources that do not exist in the enterprise data can be added by defining how the values are calculated when the data mart is loaded. For example, an aggregate of the sales data can be created to improve performance for the users, or an extra field calculating the number of days between the order date and shipping date can be added to the internet sales data source.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Data Marts"</td>
-
-<td class="cdclvSuggestTitle"><nobr>4 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Data Mart Fundamentals](data marts/data mart fundamentals.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Data Sources](data marts/data sources.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Data View](data marts/data view.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Tasks](data marts/tasks.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Data Marts"**
+* [Data Mart Fundamentals](data marts/data mart fundamentals.md)
+* [Data Sources](data marts/data sources.md)
+* [Data View](data marts/data view.md)
+* [Tasks](data marts/tasks.md)

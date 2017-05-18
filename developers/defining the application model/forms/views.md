@@ -8,50 +8,8 @@ By using [events](events.md) that trigger [commands](commands.md) with the effec
 
 To see if a view is used within the form, right click the view , and click **Find Local References**.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Views"</td>
-
-<td class="cdclvSuggestTitle"><nobr>4 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Add a View](views/add a view.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Desktop Controls](views/desktop controls.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[View Layout Fundamentals](views/view layout fundamentals.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[View Properties](views/view properties.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Views"**
+* [Add a View](views/add a view.md)
+* [Desktop Controls](views/desktop controls.md)
+* [View Layout Fundamentals](views/view layout fundamentals.md)
+* [View Properties](views/view properties.md)

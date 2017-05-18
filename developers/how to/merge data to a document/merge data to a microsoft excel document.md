@@ -12,42 +12,6 @@ The output of the merge operation is not confined to the Microsoft Excel Documen
 *   Rich Text Format (RTF)
 *   XML Paper Specification (XPS)
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Merge Data to a Microsoft Excel Document"</td>
-
-<td class="cdclvSuggestTitle"><nobr>2 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Merge Table Data to a Microsoft Excel Document](merge data to a microsoft excel document/merge table data to a microsoft excel document.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Merge Report Data to a Microsoft Excel Document](merge data to a microsoft excel document/merge report data to a microsoft excel document.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Merge Data to a Microsoft Excel Document"**
+* [Merge Table Data to a Microsoft Excel Document](merge data to a microsoft excel document/merge table data to a microsoft excel document.md)
+* [Merge Report Data to a Microsoft Excel Document](merge data to a microsoft excel document/merge report data to a microsoft excel document.md)

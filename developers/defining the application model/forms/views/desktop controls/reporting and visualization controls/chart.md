@@ -26,42 +26,6 @@ There can be several titles in the chart, and they can be placed at different lo
 
 Each series can be apart of the legend, or not. Use horizontal position, vertical position, and orientation to place the legend box in the chart, and the standard format setting to control the visual expression.
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Chart"</td>
-
-<td class="cdclvSuggestTitle"><nobr>2 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Examples / How To](chart/examples  how to.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Properties](chart/properties.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Chart"**
+* [Examples / How To](chart/examples  how to.md)
+* [Properties](chart/properties.md)

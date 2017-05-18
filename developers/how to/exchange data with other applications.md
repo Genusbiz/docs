@@ -20,50 +20,8 @@ Web services is mostly used for system-to-system communication over the network 
 
 When using the database to exchange data between applications, the actual exchange is performed by a database system or a third party application, and is therefore transparent to Genus. Data from another application is available in a database table that Genus can access, or Genus will populate a table with data that another application can access. For more information on defining objecst to access data in database tables, see [Object Class](../defining the application model/object class.md).
 
-<table cellpadding="0" cellspacing="0" width="100%" class="cdclvSuggestTable">
-
-<tbody>
-
-<tr>
-
-<td width="100%" class="cdclvSuggestTitle">Topics in "Exchange Data with Other Applications"</td>
-
-<td class="cdclvSuggestTitle"><nobr>4 items</nobr></td>
-
-</tr>
-
-<tr>
-
-<td class="cdclvCategoryCont" colspan="2">
-
-<table cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-
-<tr>
-
-<td valign="top" class="cdclvCategoryCol1">[Exchanging Files and Objects](exchange data with other applications/exchanging files and objects.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Export and Import Data](exchange data with other applications/export and import data.md)</td>
-
-</tr>
-
-<tr class="cdclvCategoryRowAlt">
-
-<td valign="top" class="cdclvCategoryCol1">[Copy and Paste Data](exchange data with other applications/copy and paste data.md)</td>
-
-<td valign="top" class="cdclvCategoryCol2">[Microsoft Outlook Integrations](exchange data with other applications/microsoft outlook integrations.md)</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+**Topics in "Exchange Data with Other Applications"**
+* [Exchanging Files and Objects](exchange data with other applications/exchanging files and objects.md)
+* [Export and Import Data](exchange data with other applications/export and import data.md)
+* [Copy and Paste Data](exchange data with other applications/copy and paste data.md)
+* [Microsoft Outlook Integrations](exchange data with other applications/microsoft outlook integrations.md)
