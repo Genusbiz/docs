@@ -5,4 +5,4 @@ You can use Genus App Platform to create or change enterprise software applicati
 
 You can create various types of applications, either rich on user interface, rich on business logic or rich on services - or a combination of these.
 
-aha - en linje til!
+a new line
