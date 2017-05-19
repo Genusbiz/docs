@@ -3,18 +3,8 @@
     "content": [
       {
         "files": [
-          "users/**.md",
-          "users/**/toc.yml",
-          "toc.yml",
-          "*.md"
-        ]
-      },
-      {
-        "files": [
-          "developers/**.md",
-          "developers/**/toc.yml",
-          "toc.yml",
-          "*.md"
+          "**.*md",
+          "**.*yml"
         ],
         "exclude": [
           "_site/**"
@@ -24,15 +14,9 @@
     "resource": [
       {
         "files": [
-          "**/.jpg",
-          "**/.gif",
-          "**/.png",
-          "developers/**.jpg",
-          "developers/**.gif",
-          "developers/**.png",
-          "users/**.jpg",
-          "users/**.gif",
-          "users/**.png"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.png"
         ],
         "exclude": [
           "_site/**"
