@@ -39,6 +39,9 @@
         ]
       }
     ],
+    "globalMetadata": {
+      "_enableSearch": true
+    },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
