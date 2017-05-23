@@ -1,6 +1,11 @@
 ## Application Scenarios
-Genus App Platform offers a reliable and flexible platform that enables you to write and run many types of business applications and services. These application or apps may be run on your desktop or in your web browser. You may build small apps for just a few users, or large, business critical apps for thousands of users.
+Genus App Platform is a reliable and flexible platform that supports development, deployment and execution of applications, services and business solutions without the need for traditional application programming skills. The platform is suitable for a variety of application scenarios, ranging from tactical to strategic and stand-alone to integrated. 
+Based on our experience and current customer implementation, we claim that Genus App Platform is ideal for the following categories of applications:
+1.	Digital transformation projects 
+2.	Modernizing existing applications
+3.	Customized enterprise applications 
+4.	Integrated data reporting and data visualization
+5.	Innovation projects requiring rapid iterations
+6.	Extending COTS or SaaS applications 
+We can’t wait to see what you build! 
 
-Genus App Platform is ideal for the following categories of applications:
-1. ...
-2. ...
