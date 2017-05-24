@@ -53,8 +53,8 @@ Then do one of the following:
 Then do the following:
 
 *   In the **File Format** box, select the format for the input data file.
-*   If the file format is XML File, validation of the XML data is enabled by default. To disable validation, click to clear the **Validate XML Data** check box.
-*   If a file or folder does not exists, choose if you want to ignore and continue execution of succeeding actions, or if the execution of succeeding actions should be aborted. If you choose to abort, the effect will report an error.
+*   If the selected format is Text File, in the **Encoding** box, select the character encoding used by the text file.
+*   Choose how to handle that the file or folder does not exist. If you choose to abort execution of succeeding actions, the effect throws an exception of type *On File not Found* or *On Path not Found*.
 *   In the **Data Source** box, select the data source to import data into.
 *   If you are importing unformatted text, in the **Field** box, select a field to import data into.
 
@@ -449,8 +449,8 @@ Fields that are not mapped to a column will not be assigned a value, and columns
 
 Click the **Settings** tab.
 
-*   Select **Validate XML Data** to perform a validation of the XML data based on its XML Schema.
-*   In the **XML Root Path** box, enter an XPath expression to only store a specific part of the XML.
+* Validation of an XML document based on its XML schema is enabled by default. To disable validation, click to clear the **Validate XML Data** check box.
+* In the **XML Root Path** box, enter an XPath expression to only store a specific part of the XML.
 
 
 
