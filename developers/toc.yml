@@ -517,6 +517,8 @@
       href: installation and configuration/configure and maintain genus server/special considerations for oracle.md
     - name: Special Considerations for Sybase
       href: installation and configuration/configure and maintain genus server/special considerations for sybase.md
+    - name: Special Considerations for Azure SQL
+      href: installation and configuration/configure and maintain genus server/special considerations for azure sql.md
     - name: Automatically Delete Old Log Files
       href: installation and configuration/configure and maintain genus server/automatically delete old log files.md
     - name: Tuning Web Service Performance
