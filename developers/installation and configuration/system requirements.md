@@ -166,11 +166,11 @@ The Genus document mail merge feature does <span style="FONT-STYLE: italic">not 
 
 We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. The Genus Desktop client requires a Genus App Services installation on an application server, which will be provided for you by your system administrator or your business partner.
 
-**Network Requirements**
+**Network requirements**
 
 The Genus Desktop client supports Web Proxy Auto-Discovery Protocol (WPAD) using DNS (not DHCP). Therefore, if WPAD is enabled in the network, it must be configured, at least, for DNS. If a strict WPAD, DHCP only, scheme is configured for all connections, the Genus Desktop client may not work. For information on startup performance in networks without WPAD, see [Improving Desktop Client Startup Performance](../guidelines and best practices/improving desktop client startup performance.md).
 
-**Exchange Server Requirements**
+**Exchange server requirements**
 
 Genus Desktop now requires on-premises Exchange Server 2007 SP1 or better or Exchange Online. When using legacy Exchange Server versions older than Exchange 2010 SP1 the administrator needs to specify the correct Exchange Server version in the Genus Configuration Tool's e-mail settings.
 
@@ -190,7 +190,7 @@ For more information on the integrations and other considerations, see [Microsof
 
 The minimum hardware and software requirements for an application server running Genus App Services are listed below.
 
-**Hardware Requirements**
+**Hardware requirements**
 
 Monitor: Minimum 1024x768 screen resolution.
 
@@ -206,7 +206,7 @@ We do <span style="FONT-STYLE: italic">not recommend running Genus App Services 
 
 The server may very well be a virtual server, but virtual servers are recommended to be configured to use more than one CPU core.
 
-**Software Requirements**
+**Software requirements**
 
 Genus App Services runs on the following operating systems:
 
@@ -265,7 +265,7 @@ We recommend using the latest version of Windows Server, and to keep your server
 
 The Genus App Services document mail merge feature runs on the application server, but does <span style="FONT-STYLE: italic">not require Microsoft Word to be installed.
 
-**Database Access Software Requirements**
+**Database access software requirements**
 
 The application server manages connectivity to the database layer, and communicates with the Relational Data Base Management System (RDBMS) using native .NET Data Providers for Microsoft SQL Server, Oracle, Sybase, MySQL, and DB2\. Other .NET native data providers will be added based on customer demand.
 
