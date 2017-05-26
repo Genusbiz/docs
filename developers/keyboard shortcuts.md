@@ -1,116 +1,26 @@
 # Keyboard Shortcuts
 
-The keyboard shortcuts that are described in this topic refer to the U.S. keyboard layout. Keys on other layouts might not correspond exactly to the keys on a U.S. keyboard.
+These keyboard shortcuts apply for Genus Desktop and Genus Studio, and not Genus Apps.
+
+The keyboard shortcuts refer to the U.S. keyboard layout. Keys on other layouts might not correspond exactly to the keys on a U.S. keyboard.
 
 For keyboard shortcuts in which you press two or more keys simultaneously, the keys to press are separated by a plus sign (+).
 
 ## Basics
 
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>To do this</th>
-
-<th>Press</th>
-
-</tr>
-
-<tr>
-
-<td>Get help on Genus</td>
-
-<td>F1</td>
-
-</tr>
-
-<tr>
-
-<td>Get custom help for your application</td>
-
-<td>CTRL+F1</td>
-
-</tr>
-
-<tr>
-
-<td>Send support request</td>
-
-<td>SHIFT+F1</td>
-
-</tr>
-
-<tr>
-
-<td>View or hide the Navigation Pane</td>
-
-<td>ALT+F1</td>
-
-</tr>
-
-<tr>
-
-<td>View or hide the Task Pane</td>
-
-<td>ALT + F2</td>
-
-</tr>
-
-<tr>
-
-<td>View the next visisted page in the Navigation Pane</td>
-
-<td>CTRL+F10</td>
-
-</tr>
-
-<tr>
-
-<td>View the previous visited page in the Navigation Pane</td>
-
-<td>CTRL+SHIFT+F10</td>
-
-</tr>
-
-<tr>
-
-<td>Restart Genus Desktop client</td>
-
-<td>CTRL+SHIFT+F5</td>
-
-</tr>
-
-<tr>
-
-<td>Open Genus Studio</td>
-
-<td>CTRL+SHIFT+Y</td>
-
-</tr>
-
-<tr>
-
-<td>Open the Alerts window</td>
-
-<td>CTRL+SHIFT+X</td>
-
-</tr>
-
-<tr>
-
-<td>Switch to or open the main window</td>
-
-<td>CTRL+SHIFT+G</td>
-
-</tr>
-
-</tbody>
-
-<colgroup><col width="80%" style="WIDTH: 80%"><col width="20%" style="WIDTH: 20%"></colgroup></table>
-
-
+| To do this                                               | Press          |
+| -------------------------------------------------------- | -------------- |
+| Get help on Genus                                        | F1             |
+| Get custom help for your application                     | CTRL+F1        |
+| Send support request                                     | SHIFT+F1       |
+| View or hide the Navigation Pane                         | ALT+F1         |
+| View or hide the Task Pane                               | ALT+F2         |
+| View the next visisted page in the Navigation Pane       | CTRL+F10       |
+| View the previous visited page in the Navigation Pane    | CTRL+SHIFT+F10 |
+| Restart Genus Desktop client                             | CTRL+SHIFT+F5  |
+| Open Genus Studio                                        | CTRL+SHIFT+Y   |
+| Open the Alerts window                                   | CTRL+SHIFT+X   |
+| Switch to or open the main window                        | CTRL+SHIFT+G   |
 
 ## Working with objects
 
