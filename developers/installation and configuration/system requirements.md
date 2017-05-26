@@ -1,22 +1,8 @@
-## System Requirements
+# System Requirements
 
 See below for the system requirements for your personal computer running the Genus Client for Desktop, and the application server running Genus App Services.
 
-In this article
-
-* * *
-
-*   [System Requirements for Genus Apps](#system-requirements-for-genus-apps)
-
-*   [System Requirements for the Genus Desktop Client](#system-requirements-for-the-genus-desktop-client)
-
-*   [System Requirements for an Application Server Running Genus App Services](#system-requirements-for-an-application-server-running-genus-app-services)
-
-*   [Supported Database System Vendors](#supported-database-system-vendors)
-
-* * *
-
-## System Requirements for Genus Apps
+## System requirements for Genus Apps
 
 Genus Apps runs on all major evergreen browsers on all devices, and as an app on iOS (8.x and later), Android (version 4.4 and later), Windows Phone 8.1, and Windows 8.1 and 10.  
 
@@ -32,7 +18,7 @@ In general, support for operating systems and browsers with a market share of 5%
 
 
 
-## System Requirements for the Genus Desktop Client
+## System requirements for the Genus Desktop client
 
 The minimum hardware and software requirements for running a Genus Desktop client on your computer are listed below.
 
@@ -200,7 +186,7 @@ For more information on the integrations and other considerations, see [Microsof
 
 
 
-## System Requirements for an Application Server Running Genus App Services
+## System requirements for an application server running Genus App Services
 
 The minimum hardware and software requirements for an application server running Genus App Services are listed below.
 
@@ -360,7 +346,7 @@ The required package can be downloaded from [https://www.ibm.com/support/docview
 
 
 
-## Supported Database System Vendors
+## Supported database system vendors
 
 Genus App Platform supports the following database system vendors:
 
