@@ -23,7 +23,7 @@ You can submit updates to the Genus App Platform documentation as follows:
 
 Note that a commit automatically will trigger a rebuild of the docs site, which will be available at [docs.genus.no](http://genusdocs.azurewebsites.net) in about 5 minutes.
 
-Please provide commit comments in English.
+Please provide any commit comments in English. It is not necessary to provide commit comments for minor changes like correcting spelling errors or similar.
 
 ## How to use markdown
 
