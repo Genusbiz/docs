@@ -23,6 +23,8 @@ You can submit updates to the Genus App Platform documentation as follows:
 
 Note that a commit automatically will trigger a rebuild of the docs site, which will be available at [docs.genus.no](http://genusdocs.azurewebsites.net) in about 5 minutes.
 
+Please provide commit comments in English.
+
 ## How to use markdown
 
 All the articles in the repository use GitHub and DocFX flavored markdown. Here is a list of resources.
