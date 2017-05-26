@@ -1,4 +1,4 @@
-## Keyboard Shortcuts
+# Keyboard Shortcuts
 
 The keyboard shortcuts that are described in this topic refer to the U.S. keyboard layout. Keys on other layouts might not correspond exactly to the keys on a U.S. keyboard.
 
@@ -126,7 +126,7 @@ In this article
 
 
 
-## Working with Objects
+## Working with objects
 
 <table style="WIDTH: 100%">
 
@@ -446,7 +446,7 @@ F8
 
 
 
-## Genus Directory
+## Genus Studio
 
 <table style="WIDTH: 100%">
 
@@ -546,7 +546,7 @@ F8
 
 
 
-## Object Class Diagram
+## Object class diagram
 
 <table style="WIDTH: 100%">
 
