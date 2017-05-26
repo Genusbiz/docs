@@ -11,6 +11,7 @@ Our guidelines are as follows:
 * Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished. Please return to finish it as soon as possible.
 * Use images sparingly, as these are hard to maintain over time. Put any images in the images subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information.
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
+* Use [title case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) in the article main heading only. Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) everywhere else. See example [here](https://github.com/GenusAS/docs/blob/master/developers/installation%20and%20configuration/system%20requirements.md).
 
 ## Ways to contribute
 
