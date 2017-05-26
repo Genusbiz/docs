@@ -3,7 +3,6 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 
 ## Developers
 * [Overview](developers/overview/what is genus app platform.md)
-* Get started
 * [Keyboard Shortcuts](developers/keyboard shortcuts.md)
 * [Defining the Application Model](developers/defining the application model.md)
 * [Installation and Configuration](developers/installation and configuration.md)
