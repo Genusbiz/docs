@@ -477,7 +477,7 @@
 - name: Installation and configuration
   href: installation and configuration.md
   items:
-  - name: Sytem Requirements
+  - name: System Requirements
     href: installation and configuration/system requirements.md
   - name: Genus App Platform Release Stages
     href: installation and configuration/genus app platform release stages.md
