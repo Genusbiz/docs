@@ -17,7 +17,7 @@ Our guidelines are as follows:
 ## Ways to contribute
 
 You can submit updates to the Genus App Platform documentation as follows:
-* Use the [GitHub](https://github.com/GenusAS/docs) user interface. Either find the article in this repository, or visit the article on [docs.genus.no](http://genusdocs.azurewebsites.net) and click the "Improve this doc" link, which will take you to the article in GitHub.
+* If your are making small changes, like adjusting content of an article, use the [GitHub](https://github.com/GenusAS/docs) user interface. Either find the article in this repository, or visit the article on [docs.genus.no](http://genusdocs.azurewebsites.net) and click the "Improve this doc" link, which will take you to the article in GitHub.
 * All articles are written in [markdown](https://en.wikipedia.org/wiki/Markdown). You may contribute directly by submitting pull requests. Employees of Genus may commit directly. All pull requests and commits are reviewed by the internal Genus editorial board.
 * If you are making substantial changes to an existing article or a series of articles or adding several new articles, you need to fork this repository, install Git for revision control, a Markdown editor (like [Visual Studio Code](https://code.visualstudio.com/)), [DocFX](https://dotnet.github.io/docfx/) for previewing, and more.
 
