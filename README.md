@@ -1,11 +1,9 @@
-# Genus docs
-This is the publically available documentation for the Genus App Platform&copy;.
+# Genus App Platform&reg; Documentation Contributor Guide
+This is the publically available documentation for the Genus App Platform published at [docs.genus.no](http://genusdocs.azurewebsites.net).
 
 Feel free to contribute! See [Ways to contribute](#ways-to-contribute) on how to do it.
 
 See www.genus.no for more general information about our products and our company.
-
-## Contributor guidelines
 
 Our guidelines are as follows:
 * Keep the articles short and to the point.
