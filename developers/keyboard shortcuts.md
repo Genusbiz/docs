@@ -4,20 +4,6 @@ The keyboard shortcuts that are described in this topic refer to the U.S. keyboa
 
 For keyboard shortcuts in which you press two or more keys simultaneously, the keys to press are separated by a plus sign (+).
 
-In this article
-
-* * *
-
-*   [Basics](#basics)
-
-*   [Working with Objects](#working-with-objects)
-
-*   [Genus Directory](#genus-directory)
-
-*   [Object Class Diagram](#object-class-diagram)
-
-* * *
-
 ## Basics
 
 <table style="WIDTH: 100%">
