@@ -22,147 +22,19 @@ In general, support for operating systems and browsers with a market share of 5%
 
 The minimum hardware and software requirements for running a Genus Desktop client on your computer are listed below.
 
- <table>
-
-<tbody>
-
-<tr>
-
-<th></th>
-
-<th>
-
-Genus App Platform
-
-version 2015.2
-
-</th>
-
-<th>
-
-Genus App Plattform
-
-versions from 2016.1
-
-</th>
-
-</tr>
-
-<tr>
-
-<td>**Hardware Requirements**</td>
-
-<td></td>
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-Monitor Resolution
-
-</td>
-
-<td>
-
-1280 x 800
-
-Certain components, like Genus Discovery,
-
-requires higher resolution
-
-(recommended 1920x1080 or higher)
-
-</td>
-
-<td>
-
-1280 x 800
-
-Certain components, like Genus Discovery,  
-requires higher resolution  
-(recommended 1920x1080 or higher)
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>Computer</td>
-
-<td>1 GHZ x86- or x64-bit processor</td>
-
-<td>1 GHZ x64-bit processor</td>
-
-</tr>
-
-<tr>
-
-<td>Memory (RAM)</td>
-
-<td>1 GB</td>
-
-<td>2 GB</td>
-
-</tr>
-
-<tr>
-
-<td>Disk Space</td>
-
-<td>500 MB</td>
-
-<td>500 MB</td>
-
-</tr>
-
-<tr>
-
-<td>**Software Requirements**</td>
-
-<td></td>
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>Operating System</td>
-
-<td>Windows 10 (32-bit or 64-bit)  
-Windows 8.1 (32-bit or 64-bit)  
-Windows 8 (32-bit or 64-bit)  
-Windows 7 (32-bit or 64-bit)  
-Windows Server 2012 R2  
-Windows Server 2012  
-Windows Server 2008 R2 SP1  
-
-all with .NET Framework 4.5 or later.</td>
-
-<td>Windows 10 (64-bit)  
-Windows 8.1 (64-bit)  
-Windows 8 (64-bit)  
-Windows 7 (64-bit)  
-Windows Server 2012 R2  
-Windows Server 2012  
-Windows Server 2008 R2 SP1  
-
-all with .NET Framework 4.6.1 or later.</td>
-
-</tr>
-
-</tbody>
-
-</table> 
+|                           | **Genus App Platform version 2015.2** | **Genus App Platform versions from 2016.1**
+| --------------------------| ------------------------------------- | -------------------------------------------
+| **Hardware requirements** |                                       |
+| Monitor resolution        | 1280x800. Certain components, like Genus Discovery, require higher resolution (recommended 1920x1080 or higher) | 1280x800. Certain components, like Genus Discovery,  require higher resolution  (recommended 1920x1080 or higher)
+| Computer                  | 1 GHZ x86- or x64-bit processor       | 1 GHZ x64-bit processor
+| Memory (RAM)              | 1 GB                                  | 2 GB
+| Disk space                | 500 MB                                | 500 MB
+| **Software requirements** |                                       |
+| Operating system          |Windows 10 (32-bit or 64-bit), Windows 8.1 (32-bit or 64-bit), Windows 8 (32-bit or 64-bit), Windows 7 (32-bit or 64-bit), Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 SP1. All with .NET Framework 4.5 or later. | Windows 10 (64-bit), Windows 8.1 (64-bit), Windows 8 (64-bit), Windows 7 (64-bit), Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 SP1. All with .NET Framework 4.6.1 or later.
 
 Integration with Microsoft Office is supported for both 32-bit and 64-bit editions of Microsoft Office.
 
-The Genus document mail merge feature does <span style="FONT-STYLE: italic">not require Microsoft Word to be installed.
+The Genus document mail merge feature does not require Microsoft Word to be installed.
 
 We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. The Genus Desktop client requires a Genus App Services installation on an application server, which will be provided for you by your system administrator or your business partner.
 
