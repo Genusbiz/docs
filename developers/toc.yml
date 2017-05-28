@@ -2,620 +2,620 @@
   href: index.md
   items:
   - name: What is Genus App Platform?
-    href: overview/what is genus app platform.md
+    href: overview/what-is-genus-app-platform.md
   - name: Application scenarios
-    href: overview/application scenarios.md
+    href: overview/application-scenarios.md
   - name: Architecture
     href: overview/architecture.md
   - name: Terminology
     href: overview/terminology.md
 - name: Keyboard shortcuts
-  href: keyboard shortcuts.md
+  href: keyboard-shortcuts.md
 - name: Defining the Application Model
-  href: defining the application model.md
+  href: defining-the-application-model.md
   items:
   - name: Genus Studio basics
-    href: defining the application model/genus studio basics.md
+    href: defining-the-application-model/genus-studio-basics.md
   - name: General settings
-    href: defining the application model/general settings.md
+    href: defining-the-application-model/general-settings.md
     items:
     - name: Data Sets
-      href: defining the application model/general settings/data sets.md
+      href: defining-the-application-model/general-settings/data-sets.md
     - name: Calendar Settings
-      href: defining the application model/general settings/calendar settings.md
+      href: defining-the-application-model/general-settings/calendar-settings.md
     - name: Search Settings
-      href: defining the application model/general settings/search settings.md
+      href: defining-the-application-model/general-settings/search-settings.md
     - name: Advanced Settings
-      href: defining the application model/general settings/advanced settings.md
+      href: defining-the-application-model/general-settings/advanced-settings.md
   - name: Navigation pane
-    href: defining the application model/navigation pane.md
+    href: defining-the-application-model/navigation-pane.md
   - name: Tables
-    href: defining the application model/tables.md
+    href: defining-the-application-model/tables.md
     items:
     - name: General Settings
-      href: defining the application model/tables/general settings.md
+      href: defining-the-application-model/tables/general-settings.md
     - name: Data Sources
-      href: defining the application model/tables/data sources.md
+      href: defining-the-application-model/tables/data-sources.md
     - name: Layout
-      href: defining the application model/tables/layout.md
+      href: defining-the-application-model/tables/layout.md
     - name: Views
-      href: defining the application model/tables/views.md
+      href: defining-the-application-model/tables/views.md
     - name: Events
-      href: defining the application model/tables/events.md
+      href: defining-the-application-model/tables/events.md
   - name: Forms
-    href: defining the application model/forms.md
+    href: defining-the-application-model/forms.md
     items:
     - name: General Settings
-      href: defining the application model/forms/general settings.md
+      href: defining-the-application-model/forms/general-settings.md
     - name: Data Sources
-      href: defining the application model/tables/data sources.md
+      href: defining-the-application-model/tables/data-sources.md
     - name: Views
-      href: defining the application model/forms/views.md
+      href: defining-the-application-model/forms/views.md
       items:
       - name: Add a View
-        href: defining the application model/forms/views/add a view.md
+        href: defining-the-application-model/forms/views/add-a-view.md
       - name: Desktop Controls
-        href: defining the application model/forms/views/desktop controls.md
+        href: defining-the-application-model/forms/views/desktop-controls.md
         items:
         - name: Containers
-          href: defining the application model/forms/views/desktop controls/containers.md
+          href: defining-the-application-model/forms/views/desktop-controls/containers.md
           items:
           - name: Group
-            href: defining the application model/forms/views/desktop controls/containers/group.md
+            href: defining-the-application-model/forms/views/desktop-controls/containers/group.md
           - name: Group Box
-            href: defining the application model/forms/views/desktop controls/containers/group box.md
+            href: defining-the-application-model/forms/views/desktop-controls/containers/group-box.md
           - name: Conditional Groups
-            href: defining the application model/forms/views/desktop controls/containers/conditional groups.md
+            href: defining-the-application-model/forms/views/desktop-controls/containers/conditional-groups.md
           - name: Tab Sheets
-            href: defining the application model/forms/views/desktop controls/containers/tab sheets.md
+            href: defining-the-application-model/forms/views/desktop-controls/containers/tab-sheets.md
           - name: Common Container Properties
-            href: defining the application model/forms/views/desktop controls/containers/common container properties.md
+            href: defining-the-application-model/forms/views/desktop-controls/containers/common-container-properties.md
         - name: Text and Number Controls
-          href: defining the application model/forms/views/desktop controls/text and number controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls.md
           items:
           - name: E-mail Address Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/email address edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/email-address-edit.md
           - name: HTML Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/html edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/html-edit.md
           - name: Label
-            href: defining the application model/forms/views/desktop controls/text and number controls/label.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/label.md
           - name: Number Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/number edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/number-edit.md
           - name: Password Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/password edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/password-edit.md
           - name: Rich Text Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/rich text edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/rich-text-edit.md
           - name: Text
-            href: defining the application model/forms/views/desktop controls/text and number controls/text.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text.md
           - name: Text Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/text edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text-edit.md
           - name: Text Popup Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/text popup edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text-popup-edit.md
           - name: Url Edit
-            href: defining the application model/forms/views/desktop controls/text and number controls/url edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/url-edit.md
         - name: Time and Date Controls
-          href: defining the application model/forms/views/desktop controls/time and date controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls.md
           items:
           - name: Date Time Edit
-            href: defining the application model/forms/views/desktop controls/time and date controls/date time edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/date-time-edit.md
           - name: Duration Edit
-            href: defining the application model/forms/views/desktop controls/time and date controls/duration edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/duration-edit.md
           - name: Integer Time Edit
-            href: defining the application model/forms/views/desktop controls/time and date controls/integer time edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/integer-time-edit.md
           - name: Integer Date Edit
-            href: defining the application model/forms/views/desktop controls/time and date controls/integer date edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/integer-date-edit.md
           - name: Date Range Bar
-            href: defining the application model/forms/views/desktop controls/time and date controls/date range bar.md
+            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/date-range-bar.md
         - name: List and Lookup Controls
-          href: defining the application model/forms/views/desktop controls/list and lookup controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls.md
           items:
           - name: Combo Box
-            href: defining the application model/forms/views/desktop controls/list and lookup controls/combo box.md
+            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/combo-box.md
           - name: List Box
-            href: defining the application model/forms/views/desktop controls/list and lookup controls/list box.md
+            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/list-box.md
           - name: Search Box
-            href: defining the application model/forms/views/desktop controls/list and lookup controls/search box.md
+            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/search-box.md
         - name: Button Controls
-          href: defining the application model/forms/views/desktop controls/button controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/button-controls.md
           items:
           - name: Button
-            href: defining the application model/forms/views/desktop controls/button controls/button.md
+            href: defining-the-application-model/forms/views/desktop-controls/button-controls/button.md
           - name: Check Box
-            href: defining the application model/forms/views/desktop controls/button controls/check box.md
+            href: defining-the-application-model/forms/views/desktop-controls/button-controls/check-box.md
           - name: Radio Button
-            href: defining the application model/forms/views/desktop controls/button controls/radio button.md
+            href: defining-the-application-model/forms/views/desktop-controls/button-controls/radio-button.md
           - name: Track Bar
-            href: defining the application model/forms/views/desktop controls/button controls/track bar.md
+            href: defining-the-application-model/forms/views/desktop-controls/button-controls/track-bar.md
         - name: File and Folder Controls
-          href: defining the application model/forms/views/desktop controls/file and folder controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls.md
           items:
           - name: File Browser Edit
-            href: defining the application model/forms/views/desktop controls/file and folder controls/file browser edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-browser-edit.md
           - name: File Name Edit
-            href: defining the application model/forms/views/desktop controls/file and folder controls/file name edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-name-edit.md
           - name: File Preview
-            href: defining the application model/forms/views/desktop controls/file and folder controls/file preview.md
+            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-preview.md
           - name: File Size Edit
-            href: defining the application model/forms/views/desktop controls/file and folder controls/file size edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-size-edit.md
           - name: Folder Browser Edit
-            href: defining the application model/forms/views/desktop controls/file and folder controls/folder browser edit.md
+            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/folder-browser-edit.md
         - name: Graphic Controls
-          href: defining the application model/forms/views/desktop controls/graphic controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/graphic-controls.md
           items:
           - name: Image
-            href: defining the application model/forms/views/desktop controls/graphic controls/image.md
+            href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/image.md
           - name: Symbol
-            href: defining the application model/forms/views/desktop controls/graphic controls/symbol.md
+            href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/symbol.md
         - name: Tabular Controls
-          href: defining the application model/forms/views/desktop controls/tabular controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/tabular-controls.md
           items:
           - name: Grid
-            href: defining the application model/forms/views/desktop controls/tabular controls/grid.md
+            href: defining-the-application-model/forms/views/desktop-controls/tabular-controls/grid.md
           - name: Table
-            href: defining the application model/forms/views/desktop controls/tabular controls/table.md
+            href: defining-the-application-model/forms/views/desktop-controls/tabular-controls/table.md
           - name: Tree
-            href: defining the application model/forms/views/desktop controls/tabular controls/tree.md
+            href: defining-the-application-model/forms/views/desktop-controls/tabular-controls/tree.md
         - name: Scheduling Controls
-          href: defining the application model/forms/views/desktop controls/scheduling controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls.md
           items:
           - name: Gantt
-            href: defining the application model/forms/views/desktop controls/scheduling controls/gantt.md
+            href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/gantt.md
             items:
             - name: Examples / How To
-              href: defining the application model/forms/views/desktop controls/scheduling controls/gantt/examples  how to.md
+              href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/gantt/examples--how-to.md
             - name: Properties
-              href: defining the application model/forms/views/desktop controls/scheduling controls/gantt/properties.md
+              href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/gantt/properties.md
           - name: Timeline
-            href: defining the application model/forms/views/desktop controls/scheduling controls/timeline.md
+            href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/timeline.md
             items:
             - name: Examples / How To
-              href: defining the application model/forms/views/desktop controls/scheduling controls/timeline/examples  how to.md
+              href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/timeline/examples--how-to.md
             - name: Properties
-              href: defining the application model/forms/views/desktop controls/scheduling controls/timeline/properties.md
+              href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/timeline/properties.md
         - name: Reporting and Visualization Controls
-          href: defining the application model/forms/views/desktop controls/reporting and visualization controls.md
+          href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls.md
           items:
           - name: Chart
-            href: defining the application model/forms/views/desktop controls/reporting and visualization controls/chart.md
+            href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md
             items:
             - name: Examples / How To
-              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/chart/examples  how to.md
+              href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/chart/examples--how-to.md
             - name: Properties
-              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/chart/properties.md
+              href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/chart/properties.md
           - name: Diagram
-            href: defining the application model/forms/views/desktop controls/reporting and visualization controls/diagram.md
+            href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/diagram.md
             items:
             - name: Examples / How To
-              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/diagram/examples  how to.md
+              href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/examples--how-to.md
             - name: Properties
-              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/diagram/properties.md
+              href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/properties.md
           - name: Tree Map
-            href: defining the application model/forms/views/desktop controls/reporting and visualization controls/tree map.md
+            href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map.md
             items:
             - name: Examples / How To
-              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/tree map/examples  how to.md
+              href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md
             - name: Properties
-              href: defining the application model/forms/views/desktop controls/reporting and visualization controls/tree map/properties.md
+              href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/properties.md
         - name: Common Control Propterties
-          href: defining the application model/forms/views/desktop controls/common control properties.md
+          href: defining-the-application-model/forms/views/desktop-controls/common-control-properties.md
       - name: View Layout Fundamentals
-        href: defining the application model/forms/views/view layout fundamentals.md
+        href: defining-the-application-model/forms/views/view-layout-fundamentals.md
       - name: View Properties
-        href: defining the application model/forms/views/view properties.md
+        href: defining-the-application-model/forms/views/view-properties.md
     - name: Commands
-      href: defining the application model/forms/commands.md
+      href: defining-the-application-model/forms/commands.md
     - name: Events
-      href: defining the application model/forms/events.md
+      href: defining-the-application-model/forms/events.md
     - name: Tasks
-      href: defining the application model/forms/tasks.md
+      href: defining-the-application-model/forms/tasks.md
     - name: Form Designer
-      href: defining the application model/forms/form designer.md
+      href: defining-the-application-model/forms/form-designer.md
   - name: Action orchestration
-    href: defining the application model/action orchestration.md
+    href: defining-the-application-model/action-orchestration.md
     items:
     - name: Data Sources
-      href: defining the application model/action orchestration/data sources.md
+      href: defining-the-application-model/action-orchestration/data-sources.md
       items:
       - name: Add a Data Source
-        href: defining the application model/action orchestration/data sources/add a data source.md
+        href: defining-the-application-model/action-orchestration/data-sources/add-a-data-source.md
       - name: Add a Local Object Data Source
-        href: defining the application model/action orchestration/data sources/add a local object data source.md
+        href: defining-the-application-model/action-orchestration/data-sources/add-a-local-object-data-source.md
       - name: Specifying a Data Filter for a Data Source
-        href: defining the application model/action orchestration/data sources/specifying a data filter for a data source.md
+        href: defining-the-application-model/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md
       - name: The Account Data Source
-        href: defining the application model/action orchestration/data sources/the account data source.md
+        href: defining-the-application-model/action-orchestration/data-sources/the-account-data-source.md
       - name: File Data Sources
-        href: defining the application model/action orchestration/data sources/file data sources.md
+        href: defining-the-application-model/action-orchestration/data-sources/file-data-sources.md
     - name: Actions
-      href: defining the application model/action orchestration/actions.md
+      href: defining-the-application-model/action-orchestration/actions.md
       items:
       - name: Blocks
-        href: defining the application model/action orchestration/actions/blocks.md
+        href: defining-the-application-model/action-orchestration/actions/blocks.md
         items:
         - name: Decision
-          href: defining the application model/action orchestration/actions/blocks/decision.md
+          href: defining-the-application-model/action-orchestration/actions/blocks/decision.md
         - name: Scope
-          href: defining the application model/action orchestration/actions/blocks/scope.md
+          href: defining-the-application-model/action-orchestration/actions/blocks/scope.md
         - name: Enumerator
-          href: defining the application model/action orchestration/actions/blocks/enumerator.md
+          href: defining-the-application-model/action-orchestration/actions/blocks/enumerator.md
         - name: While Loop
-          href: defining the application model/action orchestration/actions/blocks/while loop.md
+          href: defining-the-application-model/action-orchestration/actions/blocks/while-loop.md
         - name: Catch Exception
-          href: defining the application model/action orchestration/actions/blocks/catch exception.md
+          href: defining-the-application-model/action-orchestration/actions/blocks/catch-exception.md
       - name: Controls
-        href: defining the application model/action orchestration/actions/controls.md
+        href: defining-the-application-model/action-orchestration/actions/controls.md
         items:
         - name: Redirect Execution
-          href: defining the application model/action orchestration/actions/controls/redirect execution.md
+          href: defining-the-application-model/action-orchestration/actions/controls/redirect-execution.md
         - name: Throw Exception
-          href: defining the application model/action orchestration/actions/controls/throw exception.md
+          href: defining-the-application-model/action-orchestration/actions/controls/throw-exception.md
       - name: Effects
-        href: defining the application model/action orchestration/actions/effects.md
+        href: defining-the-application-model/action-orchestration/actions/effects.md
         items:
         - name: Consume a REST Service
-          href: defining the application model/action orchestration/actions/effects/consume a rest service.md
+          href: defining-the-application-model/action-orchestration/actions/effects/consume-a-rest-service.md
         - name: Consume a WEB Service
-          href: defining the application model/action orchestration/actions/effects/consume a web service.md
+          href: defining-the-application-model/action-orchestration/actions/effects/consume-a-web-service.md
         - name: Copy Data to the Clipboard
-          href: defining the application model/action orchestration/actions/effects/copy data to the clipboard.md
+          href: defining-the-application-model/action-orchestration/actions/effects/copy-data-to-the-clipboard.md
         - name: Create a Data Aggregate
-          href: defining the application model/action orchestration/actions/effects/create a data aggregate.md
+          href: defining-the-application-model/action-orchestration/actions/effects/create-a-data-aggregate.md
         - name: Create a File
-          href: defining the application model/action orchestration/actions/effects/create a file.md
+          href: defining-the-application-model/action-orchestration/actions/effects/create-a-file.md
         - name: Create a Mail Message
-          href: defining the application model/action orchestration/actions/effects/create a mail message.md
+          href: defining-the-application-model/action-orchestration/actions/effects/create-a-mail-message.md
         - name: Create Objects and Modify Objects
-          href: defining the application model/action orchestration/actions/effects/create objects and modify objects.md
+          href: defining-the-application-model/action-orchestration/actions/effects/create-objects-and-modify-objects.md
         - name: Delete Objects
-          href: defining the application model/action orchestration/actions/effects/delete objects.md
+          href: defining-the-application-model/action-orchestration/actions/effects/delete-objects.md
         - name: Export Data
-          href: defining the application model/action orchestration/actions/effects/export data.md
+          href: defining-the-application-model/action-orchestration/actions/effects/export-data.md
         - name: Import Data
-          href: defining the application model/action orchestration/actions/effects/import data.md
+          href: defining-the-application-model/action-orchestration/actions/effects/import-data.md
         - name: Invoke a File
-          href: defining the application model/action orchestration/actions/effects/invoke a file.md
+          href: defining-the-application-model/action-orchestration/actions/effects/invoke-a-file.md
         - name: Merge Data to a Document
-          href: defining the application model/action orchestration/actions/effects/merge data to a document.md
+          href: defining-the-application-model/action-orchestration/actions/effects/merge-data-to-a-document.md
         - name: Modify a User Account
-          href: defining the application model/action orchestration/actions/effects/modify a user account.md
+          href: defining-the-application-model/action-orchestration/actions/effects/modify-a-user-account.md
         - name: Open a Form
-          href: defining the application model/action orchestration/actions/effects/open a form.md
+          href: defining-the-application-model/action-orchestration/actions/effects/open-a-form.md
         - name: Print Objects
-          href: defining the application model/action orchestration/actions/effects/print objects.md
+          href: defining-the-application-model/action-orchestration/actions/effects/print-objects.md
         - name: Read Objects
-          href: defining the application model/action orchestration/actions/effects/read objects.md
+          href: defining-the-application-model/action-orchestration/actions/effects/read-objects.md
         - name: Run a Data Extract
-          href: defining the application model/action orchestration/actions/effects/run a data extract.md
+          href: defining-the-application-model/action-orchestration/actions/effects/run-a-data-extract.md
         - name: Run a Program
-          href: defining the application model/action orchestration/actions/effects/run a program.md
+          href: defining-the-application-model/action-orchestration/actions/effects/run-a-program.md
         - name: Run a Task
-          href: defining the application model/action orchestration/actions/effects/run a task.md
+          href: defining-the-application-model/action-orchestration/actions/effects/run-a-task.md
         - name: Run a Report
-          href: defining the application model/action orchestration/actions/effects/run a report.md
+          href: defining-the-application-model/action-orchestration/actions/effects/run-a-report.md
         - name: Set a Field's Value
-          href: defining the application model/action orchestration/actions/effects/set a fields value.md
+          href: defining-the-application-model/action-orchestration/actions/effects/set-a-fields-value.md
         - name: Show a Confirmation Message
-          href: defining the application model/action orchestration/actions/effects/show a confirmation message.md
+          href: defining-the-application-model/action-orchestration/actions/effects/show-a-confirmation-message.md
         - name: Show a Message
-          href: defining the application model/action orchestration/actions/effects/show a message.md
+          href: defining-the-application-model/action-orchestration/actions/effects/show-a-message.md
         - name: Sort Objects
-          href: defining the application model/action orchestration/actions/effects/sort objects.md
+          href: defining-the-application-model/action-orchestration/actions/effects/sort-objects.md
         - name: Transform XML Data
-          href: defining the application model/action orchestration/actions/effects/transform xml data.md
+          href: defining-the-application-model/action-orchestration/actions/effects/transform-xml-data.md
         - name: Upload a File
-          href: defining the application model/action orchestration/actions/effects/upload a file.md
+          href: defining-the-application-model/action-orchestration/actions/effects/upload-a-file.md
       - name: Defining Actions
-        href: defining the application model/action orchestration/actions/defining actions.md
+        href: defining-the-application-model/action-orchestration/actions/defining-actions.md
       - name: Action Diagram
-        href: defining the application model/action orchestration/actions/action diagram.md
+        href: defining-the-application-model/action-orchestration/actions/action-diagram.md
     - name: Exception Handling
-      href: defining the application model/action orchestration/exception handling.md
+      href: defining-the-application-model/action-orchestration/exception-handling.md
   - name: Tasks
-    href: defining the application model/tasks.md
+    href: defining-the-application-model/tasks.md
   - name: Agents
-    href: defining the application model/agents.md
+    href: defining-the-application-model/agents.md
   - name: Web Services
-    href: defining the application model/web services.md
+    href: defining-the-application-model/web-services.md
     items:
     - name: Create a Web Services
-      href: defining the application model/web services/create a web service.md
+      href: defining-the-application-model/web-services/create-a-web-service.md
     - name: Web Service References
-      href: defining the application model/web services/web service references.md
+      href: defining-the-application-model/web-services/web-service-references.md
     - name: SOAP Faults
-      href: defining the application model/web services/soap faults.md
+      href: defining-the-application-model/web-services/soap-faults.md
     - name: View the Execution History for a Web Service
-      href: defining the application model/web services/view the execution history for a web service.md
+      href: defining-the-application-model/web-services/view-the-execution-history-for-a-web-service.md
   - name: Object Class Diagram
-    href: defining the application model/object class diagram.md
+    href: defining-the-application-model/object-class-diagram.md
   - name: Object Class
-    href: defining the application model/object class.md
+    href: defining-the-application-model/object-class.md
     items:
     - name: Create or Modify a Code Domain
-      href: defining the application model/object class/create or modify a code domain.md
+      href: defining-the-application-model/object-class/create-or-modify-a-code-domain.md
     - name: Create a New Identifier Domain
-      href: defining the application model/object class/create a new identifier domain.md
+      href: defining-the-application-model/object-class/create-a-new-identifier-domain.md
     - name: Create a New Object Domain
-      href: defining the application model/object class/create a new object domain.md
+      href: defining-the-application-model/object-class/create-a-new-object-domain.md
     - name: Modify an Object- or Identifier Domain
-      href: defining the application model/object class/modify an object or identifier domain.md
+      href: defining-the-application-model/object-class/modify-an-object-or-identifier-domain.md
       items:
       - name: General Settings
-        href: defining the application model/object class/modify an object- or identifier domain/general settings.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/general-settings.md
       - name: Data Provider
-        href: defining the application model/object class/modify an object- or identifier domain/data provider.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-provider.md
       - name: Data Integrity
-        href: defining the application model/object class/modify an object- or identifier domain/data integrity.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-integrity.md
       - name: Rules
-        href: defining the application model/object class/modify an object- or identifier domain/rules.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/rules.md
       - name: Data Filtering
-        href: defining the application model/object class/modify an object- or identifier domain/data filtering.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-filtering.md
       - name: Data Sorting
-        href: defining the application model/object class/modify an object- or identifier domain/data sorting.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-sorting.md
       - name: Data Aggregation
-        href: defining the application model/object class/modify an object- or identifier domain/data aggregation.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-aggregation.md
       - name: Data Dependencies
-        href: defining the application model/object class/modify an object- or identifier domain/data dependencies.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-dependencies.md
       - name: Search
-        href: defining the application model/object class/modify an object- or identifier domain/search.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/search.md
       - name: Explore
-        href: defining the application model/object class/modify an object- or identifier domain/explore.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/explore.md
       - name: Display
-        href: defining the application model/object class/modify an object- or identifier domain/display.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/display.md
       - name: Events
-        href: defining the application model/object class/modify an object- or identifier domain/events.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/events.md
       - name: Security
-        href: defining the application model/object class/modify an object- or identifier domain/security.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md
       - name: Data Exchange
-        href: defining the application model/object class/modify an object- or identifier domain/data exchange.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
       - name: Follow Up
-        href: defining the application model/object class/modify an object- or identifier domain/follow up.md
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
   - name: Object Class Property
-    href: defining the application model/object class property.md
+    href: defining-the-application-model/object-class-property.md
     items:
     - name: Add Properties to an Object Class from an RDBMS Table
-      href: defining the application model/object class property/add properties to an object class from an rdbms table.md
+      href: defining-the-application-model/object-class-property/add-properties-to-an-object-class-from-an-rdbms-table.md
     - name: Modify an Object Class Property
-      href: defining the application model/object class property/modify an object class property.md
+      href: defining-the-application-model/object-class-property/modify-an-object-class-property.md
       items:
       - name: General Settings
-        href: defining the application model/object class property/modify an object class property/general settings.md
+        href: defining-the-application-model/object-class-property/modify-an-object-class-property/general-settings.md
       - name: Data Calculation
-        href: defining the application model/object class property/modify an object class property/data calculation.md
+        href: defining-the-application-model/object-class-property/modify-an-object-class-property/data-calculation.md
       - name: Data Filtering
-        href: defining the application model/object class property/modify an object class property/data filtering.md
+        href: defining-the-application-model/object-class-property/modify-an-object-class-property/data-filtering.md
       - name: Data Validation
-        href: defining the application model/object class property/modify an object class property/data validation.md
+        href: defining-the-application-model/object-class-property/modify-an-object-class-property/data-validation.md
       - name: Data Aggregation
-        href: defining the application model/object class property/modify an object class property/data aggregation.md
+        href: defining-the-application-model/object-class-property/modify-an-object-class-property/data-aggregation.md
       - name: Display
-        href: defining the application model/object class property/modify an object class property/display.md
+        href: defining-the-application-model/object-class-property/modify-an-object-class-property/display.md
       - name: Security
-        href: defining the application model/object class property/modify an object class property/security.md
+        href: defining-the-application-model/object-class-property/modify-an-object-class-property/security.md
     - name: Change the Data Type for an Object Class Property
-      href: defining the application model/object class property/change the data type for an object class property.md
+      href: defining-the-application-model/object-class-property/change-the-data-type-for-an-object-class-property.md
   - name: Schemas
-    href: defining the application model/schemas.md
+    href: defining-the-application-model/schemas.md
   - name: Data Marts
-    href: defining the application model/data marts.md
+    href: defining-the-application-model/data-marts.md
     items:
     - name: Data Mart Fundamentals
-      href: defining the application model/data marts/data mart fundamentals.md
+      href: defining-the-application-model/data-marts/data-mart-fundamentals.md
     - name: Data Sources
-      href: defining the application model/data marts/data sources.md
+      href: defining-the-application-model/data-marts/data-sources.md
     - name: Data View
-      href: defining the application model/data marts/data view.md
+      href: defining-the-application-model/data-marts/data-view.md
     - name: Tasks
-      href: defining the application model/data marts/tasks.md
+      href: defining-the-application-model/data-marts/tasks.md
   - name: Search Folders
-    href: defining the application model/search folders.md
+    href: defining-the-application-model/search-folders.md
   - name: Refiners
-    href: defining the application model/refiners.md
+    href: defining-the-application-model/refiners.md
   - name: Data Filters
-    href: defining the application model/data filters.md
+    href: defining-the-application-model/data-filters.md
   - name: Nodes and Node Groups
-    href: defining the application model/nodes and node groups.md
+    href: defining-the-application-model/nodes-and-node-groups.md
   - name: Translate the app model to other languages
-    href: defining the application model/translate the application model to other languages.md
+    href: defining-the-application-model/translate-the-application-model-to-other-languages.md
   - name: Common Concepts
-    href: defining the application model/common concepts.md
+    href: defining-the-application-model/common-concepts.md
     items:
     - name: Active Object
-      href: defining the application model/common concepts/active object.md
+      href: defining-the-application-model/common-concepts/active-object.md
     - name: Advanced Expressions
-      href: defining the application model/common concepts/advanced expressions.md
+      href: defining-the-application-model/common-concepts/advanced-expressions.md
       items:
       - name: Operators and Precedence
-        href: defining the application model/common concepts/advanced expressions/operators and precedence.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/operators-and-precedence.md
       - name: Comments and Constructs
-        href: defining the application model/common concepts/advanced expressions/comments and constructs.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/comments-and-constructs.md
       - name: Value Types
-        href: defining the application model/common concepts/advanced expressions/value types.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/value-types.md
       - name: Date and Time Types
-        href: defining the application model/common concepts/advanced expressions/date and time types.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/date-and-time-types.md
       - name: Object Types
-        href: defining the application model/common concepts/advanced expressions/object types.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/object-types.md
       - name: Collection Types
-        href: defining the application model/common concepts/advanced expressions/collection types.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/collection-types.md
       - name: Enumeration Types
-        href: defining the application model/common concepts/advanced expressions/enumeration types.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/enumeration-types.md
       - name: Function Library Types
-        href: defining the application model/common concepts/advanced expressions/function library types.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/function-library-types.md
       - name: Formula Editor
-        href: defining the application model/common concepts/advanced expressions/formula editor.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/formula-editor.md
       - name: Examples
-        href: defining the application model/common concepts/advanced expressions/examples.md
+        href: defining-the-application-model/common-concepts/advanced-expressions/examples.md
     - name: Automatic Formatting
-      href: defining the application model/common concepts/automatic formatting.md
+      href: defining-the-application-model/common-concepts/automatic-formatting.md
     - name: Conditions
-      href: defining the application model/common concepts/conditions.md
+      href: defining-the-application-model/common-concepts/conditions.md
       items:
       - name: Groups and Expressions
-        href: defining the application model/common concepts/conditions/groups and expressions.md
+        href: defining-the-application-model/common-concepts/conditions/groups-and-expressions.md
       - name: Operands
-        href: defining the application model/common concepts/conditions/operands.md
+        href: defining-the-application-model/common-concepts/conditions/operands.md
       - name: Condition Syntax Structure
-        href: defining the application model/common concepts/conditions/condition syntax structure.md
+        href: defining-the-application-model/common-concepts/conditions/condition-syntax-structure.md
       - name: Examples
-        href: defining the application model/common concepts/conditions/examples.md
+        href: defining-the-application-model/common-concepts/conditions/examples.md
       - name: Condition Editor
-        href: defining the application model/common concepts/conditions/condition editor.md
+        href: defining-the-application-model/common-concepts/conditions/condition-editor.md
         items:
         - name: Add an Expression or Group
-          href: defining the application model/common concepts/conditions/condition editor/add an expression or group.md
+          href: defining-the-application-model/common-concepts/conditions/condition-editor/add-an-expression-or-group.md
         - name: Change the Logical Operator for an Expression or Group
-          href: defining the application model/common concepts/conditions/condition editor/change the logical operator for an expression or group.md
+          href: defining-the-application-model/common-concepts/conditions/condition-editor/change-the-logical-operator-for-an-expression-or-group.md
         - name: Edit an Expression
-          href: defining the application model/common concepts/conditions/condition editor/edit an expression.md
+          href: defining-the-application-model/common-concepts/conditions/condition-editor/edit-an-expression.md
         - name: Defining Operands
-          href: defining the application model/common concepts/conditions/condition editor/defining operands.md
+          href: defining-the-application-model/common-concepts/conditions/condition-editor/defining-operands.md
         - name: Change the Order of Expressions and Groups
-          href: defining the application model/common concepts/conditions/condition editor/change the order of expressions and groups.md
+          href: defining-the-application-model/common-concepts/conditions/condition-editor/change-the-order-of-expressions-and-groups.md
         - name: Remove an Expression or Group
-          href: defining the application model/common concepts/conditions/condition editor/remove an expression or group.md
+          href: defining-the-application-model/common-concepts/conditions/condition-editor/remove-an-expression-or-group.md
     - name: Data Binding
-      href: defining the application model/common concepts/data binding.md
+      href: defining-the-application-model/common-concepts/data-binding.md
 - name: Installation and configuration
-  href: installation and configuration.md
+  href: installation-and-configuration.md
   items:
   - name: System Requirements
-    href: installation and configuration/system requirements.md
+    href: installation-and-configuration/system-requirements.md
   - name: Genus App Platform Release Stages
-    href: installation and configuration/genus app platform release stages.md
+    href: installation-and-configuration/genus-app-platform-release-stages.md
   - name: Install Genus Desktop Client on Your Computer
-    href: installation and configuration/install genus desktop client on your computer.md
+    href: installation-and-configuration/install-genus-desktop-client-on-your-computer.md
   - name: Install Genus Desktop Clients Silently for Your Users
-    href: installation and configuration/install genus desktop clients silently for your users.md
+    href: installation-and-configuration/install-genus-desktop-clients-silently-for-your-users.md
   - name: Genus Desktop Client - Installer Details
-    href: installation and configuration/genus desktop client  installer details.md
+    href: installation-and-configuration/genus-desktop-client--installer-details.md
   - name: Install Genus Server on an Application Server
-    href: installation and configuration/install genus server on an application server.md
+    href: installation-and-configuration/install-genus-server-on-an-application-server.md
   - name: Install License on Genus Server
-    href: installation and configuration/install license on genus server.md
+    href: installation-and-configuration/install-license-on-genus-server.md
   - name: Configure and Maintain Genus Server
-    href: installation and configuration/configure and maintain genus server.md
+    href: installation-and-configuration/configure-and-maintain-genus-server.md
     items:
     - name: Genus Server Configuration
-      href: installation and configuration/configure and maintain genus server/genus server configuration.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration.md
       items:
       - name: Options
-        href: installation and configuration/configure and maintain genus server/genus server configuration/options.md
+        href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.md
       - name: Directory Properties
-        href: installation and configuration/configure and maintain genus server/genus server configuration/directory properties.md
+        href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md
       - name: Data Set Properties
-        href: installation and configuration/configure and maintain genus server/genus server configuration/data set properties.md
+        href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/data-set-properties.md
     - name: Configure Genus Server - Step by Step
-      href: installation and configuration/configure and maintain genus server/configure genus server  step by step.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md
     - name: Install License on Genus Server
-      href: installation and configuration/install license on genus server.md
+      href: installation-and-configuration/install-license-on-genus-server.md
     - name: Genus Server - Logical Services
-      href: installation and configuration/configure and maintain genus server/genus server  logical services.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md
     - name: App Services Recycling
-      href: installation and configuration/configure and maintain genus server/app services recycling.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/app-services-recycling.md
     - name: Special Considerations for MySQL
-      href: installation and configuration/configure and maintain genus server/special considerations for mysql.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-mysql.md
     - name: Special Considerations for Oracle
-      href: installation and configuration/configure and maintain genus server/special considerations for oracle.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-oracle.md
     - name: Special Considerations for Sybase
-      href: installation and configuration/configure and maintain genus server/special considerations for sybase.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sybase.md
     - name: Special Considerations for Azure SQL
-      href: installation and configuration/configure and maintain genus server/special considerations for azure sql.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-azure-sql.md
     - name: Automatically Delete Old Log Files
-      href: installation and configuration/configure and maintain genus server/automatically delete old log files.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/automatically-delete-old-log-files.md
     - name: Tuning Web Service Performance
-      href: installation and configuration/configure and maintain genus server/tuning web service performance.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
     - name: Monitoring Genus Server
-      href: installation and configuration/configure and maintain genus server/monitoring genus server.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
 - name: Security and Privacy
-  href: security and privacy.md
+  href: security-and-privacy.md
   items:
   - name: Account Profiles
-    href: security and privacy/account profiles.md
+    href: security-and-privacy/account-profiles.md
   - name: Security Groups and User Accounts
-    href: security and privacy/security groups and user accounts.md
+    href: security-and-privacy/security-groups-and-user-accounts.md
   - name: Sign In History
-    href: security and privacy/sign in history.md
+    href: security-and-privacy/sign-in-history.md
   - name: Security Permissions
-    href: security and privacy/security permissions.md
+    href: security-and-privacy/security-permissions.md
   - name: Security Privileges
-    href: security and privacy/security privileges.md
+    href: security-and-privacy/security-privileges.md
   - name: Security Data Sets
-    href: security and privacy/security data sets.md
+    href: security-and-privacy/security-data-sets.md
   - name: Security Overview and Review
-    href: security and privacy/security overview and review.md
+    href: security-and-privacy/security-overview-and-review.md
   - name: Trusted Users
-    href: security and privacy/trusted users.md
+    href: security-and-privacy/trusted-users.md
   - name: Dette er en test
-    href: security and privacy/Dette er en test.md
+    href: security-and-privacy/Dette-er-en-test.md
 - name: Guidelines and best practices
-  href: guidelines and best practices.md
+  href: guidelines-and-best-practices.md
   items:
   - name: Action Orchestration Performance and Maintainability
-    href: guidelines and best practices/action orchestration performance and maintainability.md
+    href: guidelines-and-best-practices/action-orchestration-performance-and-maintainability.md
   - name: Deleting Event History and Account Session History
-    href: guidelines and best practices/deleting event history and account session history.md
+    href: guidelines-and-best-practices/deleting-event-history-and-account-session-history.md
   - name: Improving Desktop Client Startup Performance
-    href: guidelines and best practices/improving desktop client startup performance.md
+    href: guidelines-and-best-practices/improving-desktop-client-startup-performance.md
   - name: Improving Report Performance
-    href: guidelines and best practices/improving report performance.md
+    href: guidelines-and-best-practices/improving-report-performance.md
   - name: Improving Search Performance
-    href: guidelines and best practices/improving search performance.md
+    href: guidelines-and-best-practices/improving-search-performance.md
   - name: Improving Mobile Client Performance
-    href: guidelines and best practices/improving mobile client performance.md
+    href: guidelines-and-best-practices/improving-mobile-client-performance.md
   - name: Security on Search
-    href: guidelines and best practices/security on search.md
+    href: guidelines-and-best-practices/security-on-search.md
   - name: Web Service Guidelines
-    href: guidelines and best practices/web service guidelines.md
+    href: guidelines-and-best-practices/web-service-guidelines.md
     items:
     - name: Web Service Styles
-      href: guidelines and best practices/web service guidelines/web service styles.md
+      href: guidelines-and-best-practices/web-service-guidelines/web-service-styles.md
     - name: Request / Response Message Exchange Pattern
-      href: guidelines and best practices/web service guidelines/request  response message exchange pattern.md
+      href: guidelines-and-best-practices/web-service-guidelines/request--response-message-exchange-pattern.md
     - name: Identifying and Naming the Web Service
-      href: guidelines and best practices/web service guidelines/identifying and naming the web service.md
+      href: guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-the-web-service.md
     - name: Identifying and Naming the Web Service Operations
-      href: guidelines and best practices/web service guidelines/identifying and naming the web service operations.md
+      href: guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-the-web-service-operations.md
     - name: Identifying and Naming XML Schemas and Elements for use with Web Services
-      href: guidelines and best practices/web service guidelines/identifying and naming xml schemas and elements for use with web services.md
+      href: guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-xml-schemas-and-elements-for-use-with-web-services.md
     - name: Endpoint Naming Conventions
-      href: guidelines and best practices/web service guidelines/endpoint naming conventions.md
+      href: guidelines-and-best-practices/web-service-guidelines/endpoint-naming-conventions.md
     - name: XML and Web Service Namespaces
-      href: guidelines and best practices/web service guidelines/xml and web service namespaces.md
+      href: guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md
     - name: Consuming a Genus Web Service from an External Client
-      href: guidelines and best practices/web service guidelines/consuming a genus web service from an external client.md
+      href: guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md
     - name: Testing a Web Service
-      href: guidelines and best practices/web service guidelines/testing a web service.md
+      href: guidelines-and-best-practices/web-service-guidelines/testing-a-web-service.md
 - name: How to
-  href: how to.md
+  href: how-to.md
   items:
   - name: Attach a file or an email to an object
-    href: how to/attach a file or an email to an object.md
+    href: how-to/attach-a-file-or-an-email-to-an-object.md
   - name: Exchange Data with Other Applications
-    href: how to/exchange data with other applications.md
+    href: how-to/exchange-data-with-other-applications.md
     items:
     - name: Exchanging Files and Objects
-      href: how to/exchange data with other applications/exchanging files and objects.md
+      href: how-to/exchange-data-with-other-applications/exchanging-files-and-objects.md
     - name: Export and Import Data
-      href: how to/exchange data with other applications/export and import data.md
+      href: how-to/exchange-data-with-other-applications/export-and-import-data.md
     - name: Copy and Paste Data
-      href: how to/exchange data with other applications/copy and paste data.md
+      href: how-to/exchange-data-with-other-applications/copy-and-paste-data.md
     - name: Microsoft Outlook Integrations
-      href: how to/exchange data with other applications/microsoft outlook integrations.md
+      href: how-to/exchange-data-with-other-applications/microsoft-outlook-integrations.md
   - name: Merge Data to a Document
-    href: how to/merge data to a document.md
+    href: how-to/merge-data-to-a-document.md
     items:
     - name: Merge Data to a Microsoft Excel Document
-      href: how to/merge data to a document/merge data to a microsoft excel document.md
+      href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md
       items:
       - name: Merge Table Data to a Microsoft Excel Document
-        href: how to/merge data to a document/merge data to a microsoft excel document/merge table data to a microsoft excel document.md
+        href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/merge-table-data-to-a-microsoft-excel-document.md
       - name: Merge Report Data to a Microsoft Excel Document
-        href: how to/merge data to a document/merge data to a microsoft excel document/merge report data to a microsoft excel document.md
+        href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/merge-report-data-to-a-microsoft-excel-document.md
     - name: Merge Data to a Microsoft Word Document
-      href: how to/merge data to a document/merge data to a microsoft word document.md
+      href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md
     - name: Test Run Merging Template
-      href: how to/merge data to a document/test run merging template.md
+      href: how-to/merge-data-to-a-document/test-run-merging-template.md
   - name: Search Across Many Data Sources
-    href: how to/search across many data sources.md
+    href: how-to/search-across-many-data-sources.md
   - name: Upload and Download Large Files
-    href: how to/upload and download large files.md
+    href: how-to/upload-and-download-large-files.md
 

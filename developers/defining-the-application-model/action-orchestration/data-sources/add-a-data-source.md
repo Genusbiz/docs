@@ -1,0 +1,12 @@
+## Add a Data Source
+
+1.  In the data source list, right-click, and thn click **Add**. Then in the shortcut list, select the type of data source you want to add; **Object**, **Local Object**, **XML Document**, **File**, **Reports**, or **System**.
+2.  For all types except Local Object, choose the data source.
+3.  If you have selected an XML Document with multiple root elements, in the **Root Element** box, select which root element to use.
+4.  In the **Name** box, type a name.
+5.  Optionally enter a description in the **Description** box.
+6.  Specify the cardinality for the data source. This decision is important with respect to how the data source can be accessed in actions. Choose if the data source can contain one object or more than one object.
+7.  Select the **Cannot be blank** check box if data are required for the data source. If this constraint is violated, no actions will be executed. Do not use this constraint unless an empty set of data should be regarded as an error.
+8.  If the data source is defined for use in a Task, you can limit access to the data source by selecting the **Private** check box. Private data sources can not be accessed from outside the Task. This is useful to secure that the data filter for the data source is not modified when the Task is run from an effect of type [Run a Task](../actions/effects/run-a-task.md). In addition, information hiding is a fundamental part of designing the public interface for a Task.
+9.  If changes to the objects in the data source should not be saved in the database, click to clear the **Persistable** check box, This option is only available for data sources of type **Object**. In effects that normally would save and commit changes, for example [Create a Data Aggregate](../actions/effects/create-a-data-aggregate.md), [Create Objects and Modify Objects](../actions/effects/create-objects-and-modify-objects.md), [Delete Objects](../actions/effects/delete-objects.md) and [Open a Form](../actions/effects/open-a-form.md), changes are written to the data source and discarded when all actions have finished running.
+10.  If the data source is a local object, see [how to define a local object data source](add-a-local-object-data-source.md) for more information on how to add fields to the local object.
