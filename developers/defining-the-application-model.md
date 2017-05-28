@@ -16,7 +16,6 @@ To provide functionality to the end user, Genus App Platform employs declarative
 * [Action orchestration](defining-the-application-model/action-orchestration.md)
 * [Tasks](defining-the-application-model/tasks.md)
 * [Agents](defining-the-application-model/agents.md)
-* [Data Filters](defining-the-application-model/data-filters.md)
 ### Services
 * [Web services](defining-the-application-model/web-services.md)
 * [Nodes and Node Groups](defining-the-application-model/nodes-and-node-groups.md)
@@ -30,5 +29,6 @@ To provide functionality to the end user, Genus App Platform employs declarative
 * [Refiners](defining-the-application-model/refiners.md)
 ### Discovery
 * [Data Marts](defining-the-application-model/data-marts.md)
+* [Data Filters](defining-the-application-model/data-filters.md)
 ### Security
 * [Security and privacy](security-and-privacy.md)
