@@ -26,6 +26,8 @@ In the **Output Document** tab specify the output **File Data Source**, the **Fi
 
 In the **File Name** box you may insert fields from your data sources to create dynamic file names. To insert a field, right-click inside the **File Name** box, and in the menu click **Insert Field**.
 
+**Encrypt with Password**. You can protect the document by using a password to help prevent unauthorized access. Password protection is supported for the following file formats: *.docx, *.docm, *.dotx, and *.dotm.
+
 ![ID3316C4D2D93C4E35.png](media/ID3316C4D2D93C4E35.png)
 
 Select the **Print Document** check box if you want to automatically print the merged document. You may specify a condition, which simplifies your setup in case you want to give your users several options (save to file, print, open). Select a **Print Settings Data Source** to apply any printer settings, these settings can for example have been input from the user in an earlier step.
