@@ -83,7 +83,7 @@ Do one of the following:
 
 ## Change What Happens When Opening a Link
 
-When opening a [link](../developers/how to/exchange data with other applications/copy and paste data.md) to an object, the main windows can be opened at the same time. This is useful if one frequently uses links, as it reduces the time it takes to open a link, after the first time. If the main window is not open when a link is used, the whole application is loaded before the target of the link is shown.
+When opening a [link](../developers/how-to/exchange-data-with-other-applications/copy-and-paste-data.md) to an object, the main windows can be opened at the same time. This is useful if one frequently uses links, as it reduces the time it takes to open a link, after the first time. If the main window is not open when a link is used, the whole application is loaded before the target of the link is shown.
 
 To change whether to open the main window minimized whenever a link is opened, do the following:
 
