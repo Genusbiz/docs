@@ -6,9 +6,7 @@ To modify General Settings, do the following:
 *   In the ribbon, click **General Settings**.
 *   In the General Settings dialog box, click the tab for the appropriate settings.
 
-Explore the topics below to learn more about the general settings in Genus Studio.
-
-### Topics in General Settings
+Explore the topics below to learn more.
 
 * [Data Sets](general-settings/data-sets.md)
 * [Calendar Settings](general-settings/calendar-settings.md)
