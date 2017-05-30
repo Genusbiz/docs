@@ -1,4 +1,4 @@
-## Tasks
+# Tasks
 
 Tasks defined within a form are local to the form, which means that they are not accessible from anywhere outside the form. This can be useful when a task which is required within a form, has no purpose outside the form, as it helps reduce the number of tasks one has to deal with in the rest of the application model.
 

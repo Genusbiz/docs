@@ -1,4 +1,4 @@
-## Views
+# Views
 
 A view specifies the visual content and appearance of a form, by defining the layout of controls which present various elements of data. The layout offers a high degree of flexibility, which demands a well thought-through design. For fundamental information on createing layouts, see [View Layout Fundamentals](views/view-layout-fundamentals.md).
 

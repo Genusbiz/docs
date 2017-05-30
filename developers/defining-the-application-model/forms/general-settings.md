@@ -1,4 +1,4 @@
-## General Settings
+# General Settings
 
 To open General Settings, in the **File** menu click **General Settings**.
 
