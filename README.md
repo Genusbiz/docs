@@ -17,8 +17,9 @@ See www.genus.no for more general information about our products and our company
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:
 * Change the term "Application" to "App".
-* Convert Html tables to [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables). Who completes [this](developers/keyboard-shortcuts.md) article?
-* Article main headers are supposed to be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. See [here](developers/defining-the-application-model/general-settings/data-sets.md) for an example of an article with correct headers.
+* Convert Html tables to [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables). (Who completes [this](developers/keyboard-shortcuts.md) article?)
+* Article main headers are supposed to be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-the-application-model/general-settings/data-sets.md).
+* Change header capitalisation to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles). Example [here](developers/installation-and-configuration/system-requirements.md).
 
 ## Ways to contribute
 You can submit updates to the Genus App Platform documentation as follows:
@@ -26,7 +27,7 @@ You can submit updates to the Genus App Platform documentation as follows:
 * All articles are written in [markdown](https://en.wikipedia.org/wiki/Markdown). You may contribute directly by submitting pull requests. Employees of Genus may commit directly. All pull requests and commits are reviewed by the internal Genus editorial board.
 * If you are making substantial changes to an existing article or a series of articles or adding several new articles, you may want to [do the work locally on your computer](editing-docs-locally.md).
 
-Note that a commit automatically will trigger a rebuild of the docs site, which will be available at [docs.genus.no](http://genusdocs.azurewebsites.net) in about 5 minutes.
+Note that a commit automatically will trigger a rebuild of the docs site, which will be available at [docs.genus.no](http://docs.genus.no) in about 5 minutes.
 
 Please provide any commit comments in English. It is not necessary to provide commit comments for minor changes like correcting spelling errors or similar.
 
