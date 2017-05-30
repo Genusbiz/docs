@@ -22,7 +22,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Increment</td>
+<td>Increment</td>
 
 <td>The number to increase or decrease the value of the control with, when using the spin buttons, or when pressing the UP ARROW key or the DOWN ARROW key.</td>
 
@@ -30,7 +30,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Is Float Value</td>
+<td>Is Float Value</td>
 
 <td>The control displays and accepts decimal values.</td>
 
@@ -38,7 +38,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Min Value</td>
+<td>Min Value</td>
 
 <td>The minimum allowed value. Leave the property blank for no limit.</td>
 
@@ -46,7 +46,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Max Value</td>
+<td>Max Value</td>
 
 <td>The maximum allowed value. Leave the property blank for no limit.</td>
 
@@ -54,7 +54,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Show Spin Button</td>
+<td>Show Spin Button</td>
 
 <td>Displays two small buttons inside the control, that can be used to change the value in increments by clicking on them.</td>
 
@@ -62,7 +62,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Spin Button Orientation</td>
+<td>Spin Button Orientation</td>
 
 <td>
 

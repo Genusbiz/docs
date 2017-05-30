@@ -6,17 +6,6 @@ To view modifications to your object, on the **File** menu, click **History**.
 
 In the **History** dialog box, specify a search in the **Search** pane and click Refresh. See [here](../../working-in-tables/advanced/view-history.md "View History") for more information.
 
-In this article
-
-* * *
-
-*   [Event Types](#event-types)
-
-*   [Modify Auditing for an Object](#modify-auditing-for-an-object)
-
-*   [Search the Event History](#search-the-event-history)
-
-* * *
 
 ## Event Types
 

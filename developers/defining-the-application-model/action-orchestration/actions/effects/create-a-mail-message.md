@@ -7,19 +7,6 @@ You can fill out the message manually, or from a data source containing a messag
 *   In the **Name** box, optionally enter a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
 *   In the **Description** box, optionally enter a description.
 
-In this article
-
-* * *
-
-*   [Fill Out a Mail Message Manually](#fill-out-a-mail-message-manually)
-
-*   [Fill Out a Mail Message from a Data Source](#fill-out-a-mail-message-from-a-data-source)
-
-*   [Send or Write the Mail Message to a Data Source](#send-or-write-the-mail-message-to-a-data-source)
-
-*   [Use SMTP as Mail Transfer Protocol](#use-smtp-as-mail-transfer-protocol)
-
-* * *
 
 ## Fill Out a Mail Message Manually
 

@@ -2,13 +2,6 @@
 
 Data Exchange offers added functionality in integration with external applications.
 
-In this article
-
-* * *
-
-*   [Data Exchange - Microsoft Outlook - Mail Mail Messages](#data-exchange---microsoft-outlook---mail-mail-messages)
-
-* * *
 
 ## Data Exchange - Microsoft Outlook - Mail Mail Messages
 

@@ -52,7 +52,7 @@ To consume a REST Service, do the following:
 10.  Click **Body** to add body information.
 11.  To use information in a data source for the body, click **Read from Data Source**.
 12.  In the **Format** list select the format for the body when reading it from a data source. Options are **XML**, **JSON** and **File**.
-13.  In the Data Source list, select the data source to use. Some data source types must have <span style="FONT-STYLE: italic">Occurrences equal to <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">One. The format defines what data sources are available. <table>
+13.  In the Data Source list, select the data source to use. Some data source types must have *Occurrences equal to One. The format defines what data sources are available*. <table>
 
     <tbody>
 
@@ -104,7 +104,7 @@ To consume a REST Service, do the following:
 16.  To compose a text for the body, click **Composed Text**. And then compose a body by typing text, and inserting formulas and fields from your data sources. See the article [Generate Dynamic Values for Text Fields](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") for more information.
 17.  Click **OK**, to close the Body window.
 18.  Specify how to handle the response in the **Response Handlers** section. Several response handlers can be added, each one with a condition. The response handlers are evaluated in the defined sequence, and the first handler with a condition that is fulfilled, is used to handle the respons. To change the priority of the response handlers, select a handler in the list and click **Move Up** or **Move Down**. To add a response handler, click **Add**.
-19.  In the Condition box, click **...** to add a [condition](../../../common-concepts/conditions.md). To create a condition based on the HTTP Status Code of the response, use the field <span style="FONT-STYLE: italic">actionOrchestration.httpStatusCode. If no condition is specified, the handler defaults to handling responses with <span style="FONT-STYLE: italic">HTTP Status Code = 200.
+19.  In the Condition box, click **...** to add a [condition](../../../common-concepts/conditions.md). To create a condition based on the HTTP Status Code of the response, use the field *actionOrchestration.httpStatusCode. If no condition is specified, the handler defaults to handling responses with HTTP Status Code = 200*.
 20.  In the **Expected Format** box select the format the service is expected to return. If the content type of the result does not match the expected format, an [On HTTP Content Type Mismatch](../../exception-handling.md) violation is thrown.
 21.  In the **Import Format** box select the format you want to use to handle the response. It is possible to import the response in a different format than it is received. <table>
 
@@ -184,8 +184,8 @@ To consume a REST Service, do the following:
 
     </table> 
 22.  In the **Data Source** box, select the data source to store the response to. A new object is always created in the selected data source for the response data.
-23.  In the **Field** <span style="FONT-WEIGHT: normal">box, select the field in the data source to store the response to. Only applicable for the text response format.
+23.  In the **Field** box, select the field in the data source to store the response to. Only applicable for the text response format.
 24.  In the **XML Root Path** box, enter an XPath expression to only store a specific part of the XML. Only applicable for XML expected response format.
-25.  In the **JSON Root Path** box, enter a path to only store a specific part of the JSON document. Only applicable for JSON expected response format. To access object properties, use the dot-notation <span style="FONT-STYLE: italic">store.name or the bracket-notation <span style="FONT-STYLE: italic">store['name']. To access array elements, use the subscript operator <span style="FONT-STYLE: italic">store.books[0]. Array indices always start by 0.
-26.  Select **Validate XML Data** to perform a validation of an XML response based on its XML Schema. Only applicable for <span style="FONT-STYLE: italic">XML expected response format and import format.
-27.  Select **Ignore Unexpected Format** to avoid raising the <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">On HTTP Content Type Mismatch exception if the received format does not correspond to the expected format.
+25.  In the **JSON Root Path** box, enter a path to only store a specific part of the JSON document. Only applicable for JSON expected response format. To access object properties, use the dot-notation *store.name or the bracket-notation store['name']. To access array elements, use the subscript operator store.books[0]. Array indices always start by 0*.
+26.  Select **Validate XML Data** to perform a validation of an XML response based on its XML Schema. Only applicable for *XML expected response format and import format*.
+27.  Select **Ignore Unexpected Format** to avoid raising the *On HTTP Content Type Mismatch exception if the received format does not correspond to the expected format*.

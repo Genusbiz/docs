@@ -22,15 +22,6 @@ Custom categories are always defined by Code Domains in your Directory. For a gi
 
 For information on how to publish your refiners, see [Search](object-class/modify-an-object--or-identifier-domain/search.md) and [Views](tables/views.md).
 
-In this article
-
-* * *
-
-*   [Create a Refiner](#create-a-refiner)
-
-*   [Create a Conditional Refiner](#create-a-conditional-refiner)
-
-* * *
 
 ## Create a Refiner
 
@@ -56,7 +47,7 @@ In this article
 3.  [Create a code domain](object-class/create-or-modify-a-code-domain.md) representing your custom category. For example a set of Age Groups:  
     ![ID75E4356DB5A047C9.png](media/ID75E4356DB5A047C9.png)
 4.  In the **Directory** tree, click the **Refiners** folder, and then on the toolbar, click **New**.
-5.  In the **Name** box, type a name for the <span style="FONT-WEIGHT: normal">Refiner. For example Age
+5.  In the **Name** box, type a name for the Refiner. For example Age
 6.  Optionally type a description in the **Description** box.
 7.  In the **Object Class** box, select the code domain you created in step 3,which is then used as the dimension for the refiner.
 8.  In the **Search Term Property** box, select the identifying property of the code domain.

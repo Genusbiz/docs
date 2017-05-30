@@ -168,31 +168,6 @@ For information on specific properties see Axis Properties below.
 
 </table>
 
-In this article
-
-* * *
-
-*   [Axis Properties](#axis-properties)
-
-*   [Axis Title Properties](#axis-title-properties)
-
-*   [Axis Tick Marks / Grid Lines Properties](#axis-tick-marks-grid-lines-properties)
-
-*   [Axis Labels Properties](#axis-labels-properties)
-
-*   [Axis Constant Line Properties](#axis-constant-line-properties)
-
-*   [Pane Properties](#pane-properties)
-
-*   [Series Properties](#series-properties)
-
-*   [Auto Series Properties](#auto-series-properties)
-
-*   [Titles Properties](#titles-properties)
-
-*   [Legend Properties](#legend-properties)
-
-* * *
 
 ## Axis Properties
 
@@ -558,15 +533,15 @@ For example: if the data type is set to <span style="FONT-STYLE: italic">Company
 
 **Center**
 
-<span style="FONT-WEIGHT: normal">Specifies that the title is aligned to the center of the axis.
+Specifies that the title is aligned to the center of the axis.
 
 **Far**
 
-<span style="FONT-WEIGHT: normal">Specifies that the title is aligned far from the beginning of the axis.
+Specifies that the title is aligned far from the beginning of the axis.
 
 **Near**
 
-<span style="FONT-WEIGHT: normal">Specifies that the title is aligned near the beginning of the axis.
+Specifies that the title is aligned near the beginning of the axis.
 
 </td>
 
@@ -954,15 +929,15 @@ Enter a text, or click "...", to use [data binding](../../../../../../../users/s
 
 <td>**Center**
 
-<span style="FONT-WEIGHT: normal">Specifies that the title is aligned to the center of the axis.
+Specifies that the title is aligned to the center of the axis.
 
 **Far**
 
-<span style="FONT-WEIGHT: normal">Specifies that the title is aligned far from the beginning of the axis.
+Specifies that the title is aligned far from the beginning of the axis.
 
 **Near**
 
-<span style="FONT-WEIGHT: normal">Specifies that the title is aligned near the beginning of the axis.
+Specifies that the title is aligned near the beginning of the axis.
 
 </td>
 

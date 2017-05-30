@@ -24,7 +24,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Data Filter</td>
+<td>Data Filter</td>
 
 <td>Filters the data for the control.</td>
 
@@ -32,7 +32,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Display Value</td>
+<td>Display Value</td>
 
 <td>A field in the data source to display as the value in the list.</td>
 
@@ -48,7 +48,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Hierarchy</td>
+<td>Hierarchy</td>
 
 <td>The hierarchy to use when displaying items in the data source. This is useful when selecting from items that are structured in an hierarchical manner. For example when selecting from units in an organisation with the following levels <span style="FONT-STYLE: italic">Company - Department - Unit.</td>
 

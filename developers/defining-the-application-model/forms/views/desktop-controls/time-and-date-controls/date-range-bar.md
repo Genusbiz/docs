@@ -4,7 +4,7 @@ The date range bar provides an easy and visual way to display and select a range
 
 **Properties**
 
-See [Common Control Properties](../common-control-properties.md "Common Control Properties"), in addition to the control specific <span style="FONT-WEIGHT: normal">properties below.
+See [Common Control Properties](../common-control-properties.md "Common Control Properties"), in addition to the control specific properties below.
 
 **General**
 
@@ -22,7 +22,7 @@ See [Common Control Properties](../common-control-properties.md "Common Control 
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Intervals</td>
+<td>Intervals</td>
 
 <td>
 

@@ -12,13 +12,6 @@ See [Event History](../../../developers/defining-the-application-model/glossary.
 
 The availability of **History** is dependent on your specific application. Contact your system administrator if the **History** feature seems to lack in your specific context.
 
-In this article
-
-* * *
-
-*   [Event Types](#event-types)
-
-* * *
 
 ## Event Types
 

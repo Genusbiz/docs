@@ -4,13 +4,6 @@ Tasks defined within a data mart are local to the data mart, which means that th
 
 A task can only be activated if the user has the permissions to execute it. Set security permissions to allow the appropriate users and groups to execute the actions. In the list of tasks, right click the task and select Properties. Select the Security tab, and add permissions. To re-use the permissions of one task on other tasks, in the list of tasks, right click the task and select Copy, and then right click another task, and select Paste Security. Select Add to add permissions to the existing, or Replace to replace the existing permissions. If the task should be accessible for all users of the form, it can be useful to grant permissions for the task to Everyone.  
 
-In this article
-
-* * *
-
-*   [Add a Task](#add-a-task)
-
-* * *
 
 ## Add a Task
 

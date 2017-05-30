@@ -2,19 +2,6 @@
 
 Each control has a set of properties which configures various aspects of the controls appearance and functionality. Some properties are valid only for specific controls, and these are described for the individual control. Other properties are more general and are described below. There may be general properties that are not valid for all controls.
 
-In this article
-
-* * *
-
-*   [General Properties](#general-properties)
-
-*   [Size and Position Properties](#size-and-position-properties)
-
-*   [Format Properties](#format-properties)
-
-*   [Screen Tip Properties](#screen-tip-properties)
-
-* * *
 
 ## General Properties
 
@@ -44,7 +31,7 @@ In this article
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The type of binding between the control and the data source. For most controls this is option is not available, as the inherent nature of the control only allows one of the two. See also [Data Binding Fundamentals](list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").
+The type of binding between the control and the data source. For most controls this is option is not available, as the inherent nature of the control only allows one of the two. See also [Data Binding Fundamentals](list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").
 
 **Value**
 
@@ -72,7 +59,7 @@ The control is bound to a data source, and a selection of objects is transferred
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The control is enabled. If not enabled, the control is dimmed and read only. If the control that is not enabled is a [container](containers.md), all the controls in the container control is set not enabled. See also **Read Only** <span style="FONT-WEIGHT: normal">above.
+The control is enabled. If not enabled, the control is dimmed and read only. If the control that is not enabled is a [container](containers.md), all the controls in the container control is set not enabled. See also **Read Only** above.
 
 **Yes**
 
@@ -144,7 +131,7 @@ A [condition](../../../common-concepts/conditions.md) determines if the control 
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The field value is not possible to edit, but is displayed as normal. If the control is a [container](containers.md), all the controls in the container control is set read only. See also **Enabled** <span style="FONT-WEIGHT: normal">below.
+The field value is not possible to edit, but is displayed as normal. If the control is a [container](containers.md), all the controls in the container control is set read only. See also **Enabled** below.
 
 **Yes**
 
@@ -228,7 +215,7 @@ A [condition](../../../common-concepts/conditions.md) determines if the field is
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Height</td>
+<td>Height</td>
 
 <td>The Height of the control. Auto height is used when the Vertical Alignment is set to Stretch.</td>
 
@@ -236,7 +223,7 @@ A [condition](../../../common-concepts/conditions.md) determines if the field is
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Horizontal Alignment</td>
+<td>Horizontal Alignment</td>
 
 <td>
 
@@ -314,7 +301,7 @@ Margin- Left
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Padding - Bottom</td>
+<td>Padding - Bottom</td>
 
 <td>Bottom padding.</td>
 
@@ -322,7 +309,7 @@ Margin- Left
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Padding - Left</td>
+<td>Padding - Left</td>
 
 <td>Left padding</td>
 
@@ -330,7 +317,7 @@ Margin- Left
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Padding - Right</td>
+<td>Padding - Right</td>
 
 <td>Right padding.</td>
 
@@ -338,7 +325,7 @@ Margin- Left
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Padding - Top</td>
+<td>Padding - Top</td>
 
 <td>Top padding.</td>
 
@@ -346,7 +333,7 @@ Margin- Left
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Vertical Alignment</td>
+<td>Vertical Alignment</td>
 
 <td>
 
@@ -372,7 +359,7 @@ The control is stretched in vertical direction to fill the container. The height
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Width</td>
+<td>Width</td>
 
 <td>The width of the control. Auto width is used when the Horizontal Alignment is set to Stretch.</td>
 
@@ -400,7 +387,7 @@ The control is stretched in vertical direction to fill the container. The height
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Automatic Formatting</td>
+<td>Automatic Formatting</td>
 
 <td></td>
 
@@ -408,7 +395,7 @@ The control is stretched in vertical direction to fill the container. The height
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Background Color</td>
+<td>Background Color</td>
 
 <td>The background color of the control.</td>
 
@@ -416,7 +403,7 @@ The control is stretched in vertical direction to fill the container. The height
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Border Color</td>
+<td>Border Color</td>
 
 <td>The color of the border surrounding the control.</td>
 
@@ -424,7 +411,7 @@ The control is stretched in vertical direction to fill the container. The height
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Border Thickness</td>
+<td>Border Thickness</td>
 
 <td>The thickness of the border surrounding the control.</td>
 
@@ -432,7 +419,7 @@ The control is stretched in vertical direction to fill the container. The height
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Display Format String</td>
+<td>Display Format String</td>
 
 <td>Format the value and add any text to its textual representation. The formatted text is displayed if the value is not currently edited (if it is not focused or it is read-only).  
 
@@ -446,7 +433,7 @@ Standard format specifiers for composing the format pattern are described in the
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Font Size</td>
+<td>Font Size</td>
 
 <td>The size of the text in the control.</td>
 
@@ -454,7 +441,7 @@ Standard format specifiers for composing the format pattern are described in the
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Font Style</td>
+<td>Font Style</td>
 
 <td>
 
@@ -466,7 +453,7 @@ The style of the text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Font Weight</td>
+<td>Font Weight</td>
 
 <td>The weight of the text in the control: **Normal** or **Bold**.</td>
 
@@ -474,7 +461,7 @@ The style of the text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Foreground Color</td>
+<td>Foreground Color</td>
 
 <td>The color of the text in the control.</td>
 
@@ -482,7 +469,7 @@ The style of the text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Background Color</td>
+<td>Label Background Color</td>
 
 <td>The background color for the label.</td>
 
@@ -490,7 +477,7 @@ The style of the text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Font Size</td>
+<td>Label Font Size</td>
 
 <td>The size of the font for the label.</td>
 
@@ -498,7 +485,7 @@ The style of the text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Foreground Color</td>
+<td>Label Foreground Color</td>
 
 <td>The color of the label text.</td>
 
@@ -506,7 +493,7 @@ The style of the text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Font Style</td>
+<td>Label Font Style</td>
 
 <td>
 
@@ -518,7 +505,7 @@ The style of the label text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Font Weight</td>
+<td>Label Font Weight</td>
 
 <td>The weight of the label text in the control: **Normal** or **Bold**.</td>
 
@@ -526,11 +513,11 @@ The style of the label text in the control: **Normal** or **Italic**.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Horizontal Alignment</td>
+<td>Label Horizontal Alignment</td>
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The alignment of the label text within the available horizontal space:
+The alignment of the label text within the available horizontal space:
 
 **Left**
 
@@ -550,7 +537,7 @@ Align the label text to the right.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Position</td>
+<td>Label Position</td>
 
 <td>
 
@@ -568,11 +555,11 @@ Display label for control above the control.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Label Vertical Alignment</td>
+<td>Label Vertical Alignment</td>
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The alignment of the label text within the available vertical space:
+The alignment of the label text within the available vertical space:
 
 **Top**
 
@@ -592,7 +579,7 @@ Align the label text to the bottom.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Show Border</td>
+<td>Show Border</td>
 
 <td>The border is displayed.</td>
 

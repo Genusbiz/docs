@@ -16,7 +16,7 @@ In **General** tab:
 *   To assign a value to full name, select the **Full Name** check box, and then select **Default** to use the default value as defined in the Account Profile, or select **Override** and enter a value. If the account profile is not associated with an object class, the **Default** option is not available.
 *   To assign a value to mail address, select the **Mail** check box, and then select **Default** to use the default value as defined in the Account Profile, or select **Override** and enter a value. If the account profile is not associated with an object class, the **Default** option is not available.
 *   To assign a value to password, select the **Password** check box and enter a value.
-*   The effect attempts to find an existing user account by looking up the User Name. **If the account does not exist**, one of the following three options can be selected: <span style="FONT-WEIGHT: normal"><table style="WIDTH: 100%">
+*   The effect attempts to find an existing user account by looking up the User Name. **If the account does not exist**, one of the following three options can be selected: <table style="WIDTH: 100%">
 
     <tbody>
 
@@ -48,20 +48,20 @@ In **General** tab:
 
     </table> 
 
-<span style="FONT-WEIGHT: normal">In **Memberships** <span style="FONT-WEIGHT: normal">tab:
+In **Memberships** tab:
 
 *   Select **Grant or withdraw memberships** to modify the existing memberships, or select **Replace existing memberships** to remove existing memberships before adding new.
 *   Click the **Add** button, to add a new security group to the list.
 *   If you selected **Grant or withdraw memberships**, for each security group in the list, select either **Grant** to add the membership, or **Withdraw** to remove the membership.
 
-<span style="FONT-WEIGHT: normal">In **Advanced** <span style="FONT-WEIGHT: normal">tab:
+In **Advanced** tab:
 
-*   <span style="FONT-WEIGHT: normal">To assign a value to language, select the **Language** <span style="FONT-WEIGHT: normal">check box, and then from the list select a language.
-*   <span style="FONT-WEIGHT: normal">To assign a start page, select the **Start Page** <span style="FONT-WEIGHT: normal">check box, and then from the list select a short cut.
-*   <span style="FONT-WEIGHT: normal">To set the state, select the **State** <span style="FONT-WEIGHT: normal">check box, and then select **Enabled** <span style="FONT-WEIGHT: normal">or **Disabled**<span style="FONT-WEIGHT: normal">.
-*   <span style="FONT-WEIGHT: normal">To unlock the account if it is locked, select **Unlock Account**<span style="FONT-WEIGHT: normal">.
-*   <span style="FONT-WEIGHT: normal">Select the **Run with Highest Privileges** <span style="FONT-WEIGHT: normal">check box to run the effect with elevated permissions. The effect will be run with administrator rights, which is useful to ensure that the action can be performed disregarding any lack of permissions of the user.
+*   To assign a value to language, select the **Language** check box, and then from the list select a language.
+*   To assign a start page, select the **Start Page** check box, and then from the list select a short cut.
+*   To set the state, select the **State** check box, and then select **Enabled** or **Disabled**.
+*   To unlock the account if it is locked, select **Unlock Account**.
+*   Select the **Run with Highest Privileges** check box to run the effect with elevated permissions. The effect will be run with administrator rights, which is useful to ensure that the action can be performed disregarding any lack of permissions of the user.
 
 When modifying a user account, all values that are not assigned a value will be left unchanged. If the user account does not exist, and a new is created, default values are assigned to fields without assignment. The Password field requires a value when creating a new account.
 
-In the User Name, Full Name Override, Mail Override, and Password fields, you can generate values dynamically by <span style="FONT-WEIGHT: normal">[inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") as part of the field.
+In the User Name, Full Name Override, Mail Override, and Password fields, you can generate values dynamically by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") as part of the field.

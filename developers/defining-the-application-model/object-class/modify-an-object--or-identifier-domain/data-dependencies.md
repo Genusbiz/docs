@@ -6,15 +6,6 @@ Range properties provide a powerful means to search for data within a period of 
 
 A special set of filter operators is provided when filtering data on a Range Property. The filter operators are described below.
 
-In this article
-
-* * *
-
-*   [Add a Range Property](#add-a-range-property)
-
-*   [Filter Operators for Range Properties](#filter-operators-for-range-properties)
-
-* * *
 
 ## Add a Range Property
 

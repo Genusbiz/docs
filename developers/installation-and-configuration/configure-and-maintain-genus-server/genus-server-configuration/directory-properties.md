@@ -7,25 +7,6 @@ To open the Genus Directory Properties in the **Genus Configuration** applicatio
 
 The directory properties are grouped according to area and presented in tabs. For more information on the individual tabs, see the articles below.
 
-In this article
-
-* * *
-
-*   [General](#general)
-
-*   [Database Objects](#database-objects)
-
-*   [Authentication](#authentication)
-
-*   [Logical Databases](#logical-databases)
-
-*   [Physical Databases](#physical-databases)
-
-*   [Allowed Origins](#allowed-origins)
-
-*   [Trusted Users](#trusted-users)
-
-* * *
 
 ## General
 
@@ -286,7 +267,7 @@ Identifies which part of the directory the database objects resides.
 
 The status of the database object. The status of an object is also indicated by the font color of the item.
 
-*   **Ok** <span style="FONT-WEIGHT: normal">(black font)
+*   **Ok** (black font)
 *   **Not Found** - The database object is required by Genus, but could not be found in the database (blue font)
 *   **Unknown** - The database object exists in the database, but is not recognized by Genus (red font)
 
@@ -778,7 +759,7 @@ The default is that there are no entries, and origins should be added with cauti
 
 To add an allowed origin, do the following:
 
-*   Click **Add**<span style="FONT-WEIGHT: normal">.
+*   Click **Add**.
 *   In the **Origin** box type the origin as a combination of protocol, host name, and port number.
 *   Click **OK**.
 

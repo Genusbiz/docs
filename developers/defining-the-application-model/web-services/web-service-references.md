@@ -14,13 +14,6 @@ To create a Web Service Reference, do the following:
 
 You may browse the content of the selected service contract by examining the **Endpoints** and **Operations** tabs. The Operations tab shows **what** features the selected contract offers, and the Endpoints tab shows **how** the features are offered.  
 
-In this article
-
-* * *
-
-*   [Endpoints](#endpoints)
-
-* * *
 
 ## Endpoints
 

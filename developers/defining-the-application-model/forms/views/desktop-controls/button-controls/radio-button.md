@@ -27,7 +27,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Data Filter</td>
+<td>Data Filter</td>
 
 <td> Filters the data for the control.
 
@@ -38,7 +38,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Default Selection</td>
+<td>Default Selection</td>
 
 <td>
 
@@ -62,7 +62,7 @@ A condition defines which item is initially selected.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Display Value</td>
+<td>Display Value</td>
 
 <td>A field in the data source to display as the value in the list.</td>
 
@@ -70,11 +70,11 @@ A condition defines which item is initially selected.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Orientation</td>
+<td>Orientation</td>
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The orientation to prioritize when displaying items.
+The orientation to prioritize when displaying items.
 
 **Horizontal**
 
@@ -90,7 +90,7 @@ The items are displayed from top to bottom, then left to right.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Sort Order</td>
+<td>Sort Order</td>
 
 <td>
 
@@ -106,7 +106,7 @@ Sort alphabetically ascending.
 
 **Descending**
 
-<span style="FONT-WEIGHT: normal">Sort alphabetically descending.
+Sort alphabetically descending.
 
 </td>
 

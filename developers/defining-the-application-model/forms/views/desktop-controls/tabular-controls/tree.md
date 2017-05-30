@@ -16,17 +16,6 @@ Allows you to display brief information about the rows. For example, you can dis
 
 The auto option of the scrollbar visibility settings are convenient, but can lead to performance issues. Consider turning off the auto option wherever possible.
 
-In this article
-
-* * *
-
-*   [Tree Properties](#tree-properties)
-
-*   [Column Properties](#column-properties)
-
-*   [Total Summary Properties](#total-summary-properties)
-
-* * *
 
 ## Tree Properties
 

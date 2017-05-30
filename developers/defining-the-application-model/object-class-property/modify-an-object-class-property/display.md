@@ -36,7 +36,7 @@ Determines if the text for the property is converted to uppercase or lowercase w
 
 **Enable Auto Complete**
 
-<span style="FONT-WEIGHT: normal">Applies to properties with a data type referencing an object class. The value of the property is therefore a key which identifies an object in an object class.
+Applies to properties with a data type referencing an object class. The value of the property is therefore a key which identifies an object in an object class.
 
 When Auto Complete is disabled, the key is displayed instead of the name of the object defined for the referenced object class. It is also not possible to type a key or a name to automatically look up a new object when entering a value.
 

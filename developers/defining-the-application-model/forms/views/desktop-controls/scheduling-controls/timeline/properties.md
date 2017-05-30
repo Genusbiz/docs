@@ -1,6 +1,6 @@
 ## Properties
 
- <span style="FONT-WEIGHT: normal">
+ 
 
 See [Common Control Properties](../../common-control-properties.md), in addition to the control specific properties below.
 
@@ -52,19 +52,6 @@ For information on specific properties, see View Properties below.
 
 </table>
 
-In this article
-
-* * *
-
-*   [Series Properties](#series-properties)
-
-*   [Series Field Properties](#series-field-properties)
-
-*   [View Properties](#view-properties)
-
-*   [View Interval Properties](#view-interval-properties)
-
-* * *
 
 ## Series Properties
 
@@ -118,7 +105,7 @@ In this article
 
 <td>End Date Field</td>
 
-<td>The field wich contains the end date of the event. <span style="FONT-WEIGHT: normal">This field is not possible to specify if the end duration field is specified.</td>
+<td>The field wich contains the end date of the event. This field is not possible to specify if the end duration field is specified.</td>
 
 </tr>
 
@@ -350,17 +337,17 @@ See [Automatic Formatting](../../../../../common-concepts/automatic-formatting.m
 
 <td>Horizontal Alignment</td>
 
-<td><span style="FONT-WEIGHT: normal">The alignment of the text for the field. ****Left**  
-<span style="FONT-WEIGHT: normal">The text is aligned to the left.**  
+<td>The alignment of the text for the field. ****Left**  
+The text is aligned to the left.**  
 
 **Center**  
-<span style="FONT-WEIGHT: normal">The text is center aligned.  
+The text is center aligned.  
 
 **Right**  
-<span style="FONT-WEIGHT: normal">The text is aligned to the right.  
+The text is aligned to the right.  
 
 **Stretch**  
-<span style="FONT-WEIGHT: normal">The text is stretched, if possible.</td>
+The text is stretched, if possible.</td>
 
 </tr>
 
@@ -624,7 +611,7 @@ Scrolling and zooming is not possible.
 
 <td>
 
-The unit to display along the timeline. Available values are: **Century**, **Decade**, **Year**, **Quarter**, **Month**, **Week**, **Day**, **Hour**, **Minute**, **Second**, **Millisecond**<span style="FONT-WEIGHT: normal">.
+The unit to display along the timeline. Available values are: **Century**, **Decade**, **Year**, **Quarter**, **Month**, **Week**, **Day**, **Hour**, **Minute**, **Second**, **Millisecond**.
 
 </td>
 

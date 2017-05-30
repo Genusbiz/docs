@@ -6,7 +6,7 @@ This control allows you to display and edit passwords. While the password is acc
 
 Properties**
 
-<span style="FONT-WEIGHT: normal">See [<span style="FONT-WEIGHT: normal">Common Control Properties](../common-control-properties.md)<span style="FONT-WEIGHT: normal">, in addition to the control specific properties below.
+See [Common Control Properties](../common-control-properties.md), in addition to the control specific properties below.
 
 General
 
@@ -24,7 +24,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Password Char</td>
+<td>Password Char</td>
 
 <td>The character to display for each of the entered characters in the passoword.</td>
 

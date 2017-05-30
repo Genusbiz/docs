@@ -8,14 +8,6 @@ The diagram is just another way to present the logic of an action.
 
 ![ID6A0D6791EA374BF9.jpg](media/ID6A0D6791EA374BF9.jpg)
 
-In this article
-
-* * *
-
-*   [Graphical Notation](#graphical-notation)
-
-* * *
-
 ## Graphical Notation
 
 The graphical notation is influenced by the Business Process Modeling Notation (BPMN). BPMN is a standardized graphical notation for drawing business processes in a workflow.

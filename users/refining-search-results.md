@@ -6,17 +6,6 @@ The **Refine Task Pane** can be opened by clicking **Refine** on the toolbar, an
 
 ![IDD9168C4FD64E4B15.png](media/IDD9168C4FD64E4B15.png)
 
-In this article
-
-* * *
-
-*   [Refiners](#refiners)
-
-*   [Find on This Page](#find-on-this-page)
-
-*   [Refine Options](#refine-options)
-
-* * *
 
 ## Refiners
 

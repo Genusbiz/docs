@@ -64,27 +64,6 @@ The following built-in users and groups are available:
 
 </table>
 
-In this article
-
-* * *
-
-*   [Add a Security Group](#add-a-security-group)
-
-*   [Add a User- or Computer Account](#add-a-user--or-computer-account)
-
-*   [View a User Account](#view-a-user-account)
-
-*   [Change Password for a User Account](#change-password-for-a-user-account)
-
-*   [Disable or Enable a User Account](#disable-or-enable-a-user-account)
-
-*   [Unlock a Locked User Account](#unlock-a-locked-user-account)
-
-*   [Change the Default Language for a User Account](#change-the-default-language-for-a-user-account)
-
-*   [Change the Start Page in the Navigation Pane for a User Account](#change-the-start-page-in-the-navigation-pane-for-a-user-account)
-
-* * *
 
 ## Add a Security Group
 

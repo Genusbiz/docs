@@ -8,21 +8,6 @@ The search and organization features in the Directory Explorer help you readily 
 *   **View Settings**. The layout for all views in the Directory Explorer can be customized to suit your preferences. A view is composed of fields and settings controlling the way objects are sorted and grouped. The settings are stored as part of your personal setup.
 *   **Auto Filter**. Using Auto Filter to filter data is a quick and easy way to find and work with a subset of data in a table.
 
-In this article
-
-* * *
-
-*   [Organize Your Objects in the Directory using Metadata](#organize-your-objects-in-the-directory-using-metadata)
-
-*   [Groups](#groups)
-
-*   [Tags](#tags)
-
-*   [Search](#search)
-
-*   [View Settings](#view-settings)
-
-* * *
 
 ## Organize Your Objects in the Directory using Metadata
 

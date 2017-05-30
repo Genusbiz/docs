@@ -7,21 +7,6 @@ To add a view:
 
 For information on settings for the view, see [View Properties](view-properties.md). For more information on creating a layout, see [Layout Fundamentals](view-layout-fundamentals.md).
 
-In this article
-
-* * *
-
-*   [Add a Control](#add-a-control)
-
-*   [Move a Control](#move-a-control)
-
-*   [Modify a Control's Properties](#modify-a-controls-properties)
-
-*   [Select a Control](#select-a-control)
-
-*   [Browse the Control Hierarchy](#browse-the-control-hierarchy)
-
-* * *
 
 ## Add a Control
 
@@ -35,7 +20,7 @@ If you use a data source field to add a control, the default control for the fie
 **Drag a control or data source field from the task pane**
 
 1.  In the task pane header, click the down arrow.
-2.  Select **Data Sources**<span style="FONT-WEIGHT: normal">, and then expand the data source to locate the field to add.  or  Select **Desktop Controls**, and then locate the control to add.
+2.  Select **Data Sources**, and then expand the data source to locate the field to add.  or  Select **Desktop Controls**, and then locate the control to add.
 3.  Drag the item to the correct position in the layout.
 
 While dragging the item, observe the layout for temporary placeholders, which indicates where the item will be positioned. For more information on dragging controls in the layout, see [Move a Control](add-a-view.md).

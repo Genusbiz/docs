@@ -4,13 +4,6 @@ When adding user accounts, you have to select an account profile for the user. T
 
 If users are authenticated by MicrosoftB. Active Directory, the account policies are determined by Active Directory. Genus App Platform provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../defining-the-application-model/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus App Services Configuration](../installation-and-configuration/configure-and-maintain-genus-server.md).
 
-In this article
-
-* * *
-
-*   [Add an Account Profile](#add-an-account-profile)
-
-* * *
 
 ## Add an Account Profile
 
@@ -38,7 +31,7 @@ In this article
 
 <span style="FONT-STYLE: italic">Active Directory
 
-*   **On missing account.** <span style="FONT-WEIGHT: normal">For a sign in attempt through Active Directory, it is possible to automatically create a new account if one does not already exist. To create an account automatically, select **Automatically create an account**<span style="FONT-WEIGHT: normal">. To reject a sign in attempt with a missing account, select **Reject sign in attempt<span style="FONT-WEIGHT: normal">.**
+*   **On missing account.** For a sign in attempt through Active Directory, it is possible to automatically create a new account if one does not already exist. To create an account automatically, select **Automatically create an account**. To reject a sign in attempt with a missing account, select **Reject sign in attempt.**
 
 <span style="FONT-STYLE: italic">ID-porten
 

@@ -4,17 +4,6 @@ During execution of a Web Service operation, errors may occur that could result 
 
 If the consumer is expected to take some action when a request fails, you should return a SOAP Fault instead of the WCF Exception. To return a SOAP Fault you need to handle the exception inside the action orchestration, and then create a SOAP Fault that is recognized and agreed upon by both parties.
 
-In this article
-
-* * *
-
-*   [Returning SOAP Faults to Web Service Consumers](#returning-soap-faults-to-web-service-consumers)
-
-*   [Receiving and Handling SOAP Faults](#receiving-and-handling-soap-faults)
-
-*   [Translation of SOAP Faults for POX/JSON](#translation-of-soap-faults-for-pox-json)
-
-* * *
 
 ## Returning SOAP Faults to Web Service Consumers
 

@@ -11,13 +11,6 @@ To run a task do the following:
 
 If you use this effect in a Task it is not allowed to call itself recursively, but it is possible to call itself indirectly via other tasks. In these cases special attention is required to avoid etarnal loops.
 
-In this article
-
-* * *
-
-*   [Specifying a Data Filter for a Data Source](#specifying-a-data-filter-for-a-data-source)
-
-* * *
 
 ## Specifying a Data Filter for a Data Source
 
@@ -53,7 +46,7 @@ Select how to filter a data source from the following methods:
 
 <td>**Set equal to active user account**</td>
 
-<td>Only available when filtering data for a data source that is associated with a [Account Profile](../../../../security-and-privacy/account-profiles.md), for example <span style="FONT-STYLE: italic">Person. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
+<td>Only available when filtering data for a data source that is associated with a [Account Profile](../../../../security-and-privacy/account-profiles.md), for example *Person*. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
 
 </tr>
 
@@ -77,7 +70,7 @@ Select how to filter a data source from the following methods:
 
 <td>**All objects**</td>
 
-<td>Populates the data source with all objects of a given type, for example all <span style="FONT-STYLE: italic">Product Categories.</td>
+<td>Populates the data source with all objects of a given type, for example all *Product Categories*.</td>
 
 </tr>
 
@@ -101,7 +94,7 @@ Select how to filter a data source from the following methods:
 
 <td>**Select a specific set of objects**</td>
 
-<td>Populates the data source with a static selection of objects, for example a selection of <span style="FONT-STYLE: italic">Product Categories.</td>
+<td>Populates the data source with a static selection of objects, for example a selection of *Product Categories*.</td>
 
 </tr>
 
@@ -119,7 +112,7 @@ Select how to filter a data source from the following methods:
 
 <td>
 
-Populates the data source with a dynamic selection of objects which satisfies a condition, for example all <span style="FONT-STYLE: italic">employees working in a <span style="FONT-STYLE: italic">department. Follow the instructions in the [step-by-step procedure](../../../common-concepts/conditions.md) on how to define a condition. To read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
+Populates the data source with a dynamic selection of objects which satisfies a condition, for example all *employees working in a department*. Follow the instructions in the [step-by-step procedure](../../../common-concepts/conditions.md) on how to define a condition. To read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
 
 </td>
 
@@ -150,6 +143,6 @@ To sort data, do the following:
 
 To limit the number of objects to read, click **Read the first object(s)** and then do one of the following:
 
-*   Click in the **Read the first object(s) field** and in the menu, click **Enter a number** or press <span style="FONT-WEIGHT: normal">F2 and then enter a value.
+*   Click in the **Read the first object(s) field** and in the menu, click **Enter a number** or press F2 and then enter a value.
 *   To select a field from one of your data sources, in the **Read the first object(s)** field, click **Select field or group**. In the **Select Field or Group** dialog box, select a field of data type Integer.  
 

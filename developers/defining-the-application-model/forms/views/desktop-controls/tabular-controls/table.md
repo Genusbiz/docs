@@ -2,13 +2,6 @@
 
 The table control allows the use of a predefined [table](../../../../tables.md) to be used within a form. A table can be advanced and rich on functionality. For simpler listings, the [grid](grid.md) may be a more suited option.
 
-In this article
-
-* * *
-
-*   [Properties](#properties)
-
-* * *
 
 ## Properties
 
@@ -56,7 +49,7 @@ When Allow Search is not selected, the value is Off.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Data Filter</td>
+<td>Data Filter</td>
 
 <td>
 
@@ -70,7 +63,7 @@ The public data sources in the table are listed. Each data source by default use
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Default Filter</td>
+<td>Default Filter</td>
 
 <td>
 
@@ -98,7 +91,7 @@ The public data sources in the table are listed, and foreach data source, a bind
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Show No of Objects</td>
+<td>Show No of Objects</td>
 
 <td>Displays the number of objects in the table.</td>
 
@@ -108,7 +101,7 @@ The public data sources in the table are listed, and foreach data source, a bind
 
 <td>
 
-<span style="FONT-WEIGHT: normal">Table
+Table
 
 </td>
 
@@ -118,7 +111,7 @@ The public data sources in the table are listed, and foreach data source, a bind
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">View</td>
+<td>View</td>
 
 <td>The [view](../../../../tables/views.md) of the selected table to use.</td>
 

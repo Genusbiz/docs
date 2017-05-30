@@ -6,19 +6,6 @@ The example below shows a possible result after merging a selection of Employees
 
 Note that the Excel merge feature is made possible by using special tags called [Smart Markers](merge-table-data-to-a-microsoft-excel-document.md), since Microsoft Excel natively do <span style="FONT-STYLE: italic">not support the same flexibility as Microsoft Word. The native Excel mechanisms - which are <span style="FONT-STYLE: italic">not used - is to connect to external data sources through a data connection, which is a set of information that describes how to locate, sign in, query, and access the external data source.
 
-In this article
-
-* * *
-
-*   [Basic Steps](#basic-steps)
-
-*   [Grouping of Data](#grouping-of-data)
-
-*   [Smart Markers](#smart-markers)
-
-*   [Smart Marker Parameters](#smart-marker-parameters)
-
-* * *
 
 ## Basic Steps
 
@@ -32,11 +19,11 @@ Follow these steps to perform an Excel merge.
 
 ![ID3193B3746DDE4629.ID1B8CAE359CE44BA0.png](media/ID3193B3746DDE4629.ID1B8CAE359CE44BA0.png)
 
-**Step 3.** <span style="FONT-WEIGHT: normal">In your Task, Web Service or Agent, add data sources which can hold the XML document, the template and the output document. The XML document can be imported from file, or you can create an XML document by assigning values from other data sources.
+**Step 3.** In your Task, Web Service or Agent, add data sources which can hold the XML document, the template and the output document. The XML document can be imported from file, or you can create an XML document by assigning values from other data sources.
 
 ![ID3193B3746DDE4629.IDA2599F74FF5D4E96.png](media/ID3193B3746DDE4629.IDA2599F74FF5D4E96.png)
 
-**Step 4\.** <span style="FONT-WEIGHT: normal">In your Task, Web Service or Agent, include a merge effect describing which template to use, the data source containing the XML data, the data source where the merged document should be written to, and the file format for the merged document. See [here](../../../defining-the-application-model/action-orchestration/actions/effects/merge-data-to-a-document.md "The Merge Data to a Document Effect") for more information.
+**Step 4\.** In your Task, Web Service or Agent, include a merge effect describing which template to use, the data source containing the XML data, the data source where the merged document should be written to, and the file format for the merged document. See [here](../../../defining-the-application-model/action-orchestration/actions/effects/merge-data-to-a-document.md "The Merge Data to a Document Effect") for more information.
 
 ![ID3193B3746DDE4629.ID717FD4EA4FDD4F55.png](media/ID3193B3746DDE4629.ID717FD4EA4FDD4F55.png)
 
@@ -48,7 +35,7 @@ Using Smart Markers you may break data into groups and insert calculations for e
 
 The data are broken into groups using the [Smart Marker Parameter](merge-table-data-to-a-microsoft-excel-document.md) **group** with the options **normal**, **repeat** or **merge**. Note that the data which you want break into groups, have to be sorted in advance. It is not possible to combine smart markers for grouping and sorting.
 
-Calculations per group is set up using the special Smart Marker **&=****subtotalN:Data Marker**<span style="FONT-WEIGHT: normal">. **N** is a number between 1 and 11, and specifies which summary function to apply, i.e. 1=AVERAGE, 2 =COUNT, 3=COUNTA, 4=MAX, 5=MIN, 6=PRODUCT, 7=STDEV, 8=STDEVP, 9=SUM, 10=VAR, 11=VARP. The number is equivalent to the **function_num** argument in the **SUBTOTAL** function in Excel. **:Data Marker** refers back to the data marker with the group option. The formula in cell D6 in the template, is a standard Excel formula =**SUBTOTAL(D4:D4)**.
+Calculations per group is set up using the special Smart Marker **&=****subtotalN:Data Marker**. **N** is a number between 1 and 11, and specifies which summary function to apply, i.e. 1=AVERAGE, 2 =COUNT, 3=COUNTA, 4=MAX, 5=MIN, 6=PRODUCT, 7=STDEV, 8=STDEVP, 9=SUM, 10=VAR, 11=VARP. The number is equivalent to the **function_num** argument in the **SUBTOTAL** function in Excel. **:Data Marker** refers back to the data marker with the group option. The formula in cell D6 in the template, is a standard Excel formula =**SUBTOTAL(D4:D4)**.
 
 The example below shows the grouping of **Actual Sales** per **Sales Territory**.
 
@@ -140,9 +127,9 @@ Note that Formula Markers may contain any valid Excel formula like:
 
 **Hints and tips**
 
-<span style="FONT-WEIGHT: normal">Using Formula Markers may result that inserted data in Excel cells is not valid. To avoid this, you can disable background error checking in your Excel sheet.
+Using Formula Markers may result that inserted data in Excel cells is not valid. To avoid this, you can disable background error checking in your Excel sheet.
 
-<span style="FONT-WEIGHT: normal">1\. In the On the **File** <span style="FONT-WEIGHT: normal">menu in Excel, click **Options** <span style="FONT-WEIGHT: normal">****<span style="FONT-WEIGHT: normal">2\. In the **Excel Options** <span style="FONT-WEIGHT: normal">box click **Formulas**<span style="FONT-WEIGHT: normal">, and clear the **Enable background error checking** <span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">check box. 
+1\. In the On the **File** menu in Excel, click **Options** ****2\. In the **Excel Options** box click **Formulas**, and clear the **Enable background error checking** check box. 
 
 
 

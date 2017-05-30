@@ -8,25 +8,6 @@ An Agent is defined by:
 *   Adding actions used to perform dfferent kinds of tasks.
 *   Defining a schedule.
 
-In this article
-
-* * *
-
-*   [Create an Agent](#create-an-agent)
-
-*   [Add Data Sources to an Agent](#add-data-sources-to-an-agent)
-
-*   [Add Actions to an Agent](#add-actions-to-an-agent)
-
-*   [Define a Schedule for an Agent](#define-a-schedule-for-an-agent)
-
-*   [Enable or Disable an Agent](#enable-or-disable-an-agent)
-
-*   [View the Execution History for an Agent](#view-the-execution-history-for-an-agent)
-
-*   [Test Run an Agent](#test-run-an-agent)
-
-* * *
 
 ## Create an Agent
 
@@ -37,7 +18,7 @@ In this article
 5.  If you want to receive an alert each time the Agent has finished running, select the **Notify owner each time the agent has finished running** check box. To change the owner for an agent, see below.
 6.  Follow the instructions described below for adding data sources, adding actions, defining a time schedule, and enabling the Agent.
 
-If there are more than one <span style="FONT-WEIGHT: normal">[Data Set](general-settings/data-sets.md), the agent schedules one execution for each data set. To limit the execution to one data set, do the following:
+If there are more than one [Data Set](general-settings/data-sets.md), the agent schedules one execution for each data set. To limit the execution to one data set, do the following:
 
 1.  In the **File** menu, click **Properties**.
 2.  In the **Data Set Binding** section, click **Data Set** and then select the data set from the list.
@@ -74,7 +55,7 @@ To schedule an Agent do the following:
 
 1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
-3.  In the list of Agents, right-click the Agent to schedule, and click **Schedule**<span style="FONT-WEIGHT: normal">.
+3.  In the list of Agents, right-click the Agent to schedule, and click **Schedule**.
 4.  In the **Schedule Type** list, select the type of schedule. You can choose between a daily, weekly or monthly schedule, or if the Agent should be run only once.
 5.  In the **Start Time** box, enter the time to run the Agent.
 
@@ -176,7 +157,7 @@ The agent may be interrupted before max running time is exceeded, due to the [Ap
 
 1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
-3.  In the list of Agents, right-click the Agent to copy the schedule from, and click **Copy**<span style="FONT-WEIGHT: normal">.
+3.  In the list of Agents, right-click the Agent to copy the schedule from, and click **Copy**.
 4.  Click the Agent to copy the schedule to, and click **Paste Schedule**. 
 
 
@@ -209,12 +190,12 @@ You can also view the executions for an Agent under the **History** entry in the
 
 An execution will report one of the following statuses:
 
-*   **Stopped**<span style="FONT-WEIGHT: normal">. The agent is stopped, either temporarily by the system, or after being disabled by a user.
-*   **Scheduled**<span style="FONT-WEIGHT: normal">. <span style="FONT-WEIGHT: normal">An agent is scheduled for execution after having been stopped.
-*   **Queued**<span style="FONT-WEIGHT: normal">. The next run time is passed, and the Agent is placed in queue for execution.
-*   **Timed Out**<span style="FONT-WEIGHT: normal">. <span style="FONT-WEIGHT: normal">The Agent has been queued for a period longer than the defined maximum queue time.
+*   **Stopped**. The agent is stopped, either temporarily by the system, or after being disabled by a user.
+*   **Scheduled**. An agent is scheduled for execution after having been stopped.
+*   **Queued**. The next run time is passed, and the Agent is placed in queue for execution.
+*   **Timed Out**. The Agent has been queued for a period longer than the defined maximum queue time.
 *   **Running**. The Agent is still running.
-*   **Succeeded**<span style="FONT-WEIGHT: normal">. Execution of the Agent finished successfully.
+*   **Succeeded**. Execution of the Agent finished successfully.
 *   **Failed**. Execution of the Agent failed. You should inspect the details for the execution to find the source of the error.
 
 By default only the last 100 executions are displayed. If you want to change the number of executions displayed, do one of the following:

@@ -2,7 +2,7 @@
 
  **
 
-<span style="FONT-WEIGHT: normal">See** [<span style="FONT-WEIGHT: normal">Common Control Properties](../../common-control-properties.md)<span style="FONT-WEIGHT: normal">, in addition to the control specific properties below.
+See** [Common Control Properties](../../common-control-properties.md), in addition to the control specific properties below.
 
  **General**
 
@@ -193,7 +193,7 @@ The start of Task 1 determines the finish of Task 2.
 
 <td>Task Fields - Is Summary Field</td>
 
-<td><span style="FONT-WEIGHT: normal">The field that contains <span style="FONT-WEIGHT: normal">a boolean value specifying if this task is a summary task.</td>
+<td>The field that contains a boolean value specifying if this task is a summary task.</td>
 
 </tr>
 
@@ -344,13 +344,6 @@ The starting point in the initially visible range. Typically use this property t
 
 </table>
 
-In this article
-
-* * *
-
-*   [Column Properties](#column-properties)
-
-* * *
 
 ## Column Properties
 

@@ -24,23 +24,6 @@ When displaying large data volumes performance considerations are imporant. Cons
 
 The auto option of the scrollbar visibility settings are convenient, but can lead to performance issues. Consider turning off the auto option wherever possible.
 
-In this article
-
-* * *
-
-*   [Properties](#properties)
-
-*   [Column Properties](#column-properties)
-
-*   [Total Summary Properties](#total-summary-properties)
-
-*   [Detail View Settings Properties](#detail-view-settings-properties)
-
-*   [Tab Item Properties](#tab-item-properties)
-
-*   [Special Considerations for Events](#special-considerations-for-events)
-
-* * *
 
 ## Properties
 
@@ -1111,7 +1094,7 @@ For information on specific properties, see Grid Properties.
 
 To simplify the definition of a Grid, it handles certain events specially.
 
-Events with the **On Activate** event type handles double clicking or pressing enter in the grid. Often you want these events to open the item in a new window, but to also enable the Open in a new window menu, you are required to define the **On** **Menu Item Click** event type with the **Open in a new window** <span style="FONT-WEIGHT: normal">menu setting as well<span style="FONT-WEIGHT: normal">.
+Events with the **On Activate** event type handles double clicking or pressing enter in the grid. Often you want these events to open the item in a new window, but to also enable the Open in a new window menu, you are required to define the **On** **Menu Item Click** event type with the **Open in a new window** menu setting as well.
 
-<span style="FONT-WEIGHT: normal">To simplify the setup, the combination of the **On Menu Item Click** <span style="FONT-WEIGHT: normal">event type and the **Open in a new window** <span style="FONT-WEIGHT: normal">menu setting is therefore also triggered by double clicking and pressing enter in the grid, as long as there are no events with the **On Activate** <span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">event type defined.
+To simplify the setup, the combination of the **On Menu Item Click** event type and the **Open in a new window** menu setting is therefore also triggered by double clicking and pressing enter in the grid, as long as there are no events with the **On Activate** event type defined.
 

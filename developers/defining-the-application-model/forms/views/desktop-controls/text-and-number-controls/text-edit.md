@@ -6,7 +6,7 @@ A control for displaying or editing single or multi-line unformatted text.
 
 Properties**
 
-<span style="FONT-WEIGHT: normal">See [<span style="FONT-WEIGHT: normal">Common Control Properties](../common-control-properties.md)<span style="FONT-WEIGHT: normal">, in addition to the control specific properties below.
+See [Common Control Properties](../common-control-properties.md), in addition to the control specific properties below.
 
 General
 
@@ -24,7 +24,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Multiline</td>
+<td>Multiline</td>
 
 <td>The control displays and accepts newline characters.</td>
 
@@ -32,7 +32,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Scrollbar</td>
+<td>Scrollbar</td>
 
 <td>Displays scrollbars inside the control to allow scrolling the text horizontally, vertically, or both directions.</td>
 
@@ -40,7 +40,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Word Wrap</td>
+<td>Word Wrap</td>
 
 <td>Lines of text are wrapped to the next line, if they are too long to be displayed on one line in the control.</td>
 
@@ -66,7 +66,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Font Effect</td>
+<td>Font Effect</td>
 
 <td>
 

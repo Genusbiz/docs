@@ -36,7 +36,7 @@ The Yes and No buttons are shown.
 
 **Yes, No, and Cancel**
 
-<span style="FONT-WEIGHT: normal">The Yes, No, and Cancel buttons are shown.
+The Yes, No, and Cancel buttons are shown.
 
 </td>
 

@@ -1,10 +1,10 @@
 ## General Settings
 
-<span style="FONT-WEIGHT: normal">To open General Settings, in the **File** <span style="FONT-WEIGHT: normal">menu click **General Settings**<span style="FONT-WEIGHT: normal">.
+To open General Settings, in the **File** menu click **General Settings**.
 
 **Add a symbol**
 
-<span style="FONT-WEIGHT: normal">You can define a symbol for your table. The symbol will appear in shortcuts. To select a symbol for Table, click **Browse** <span style="FONT-WEIGHT: normal">and select a bitmap file. The size of the bitmap can be maximum of 16x16 pixels. To remove the symbol, click **Clear**<span style="FONT-WEIGHT: normal">. You can also save the existing symbol to your computer by clicking **Save**<span style="FONT-WEIGHT: normal">.
+You can define a symbol for your table. The symbol will appear in shortcuts. To select a symbol for Table, click **Browse** and select a bitmap file. The size of the bitmap can be maximum of 16x16 pixels. To remove the symbol, click **Clear**. You can also save the existing symbol to your computer by clicking **Save**.
 
 **Automatically save changes to objects**
 
@@ -32,4 +32,4 @@ By default, users are allowed to select multiple rows in a table. If you want to
 
 **Display or hide the number of rows**
 
-For multi dimensional tables, the number of rows listed in the table is by default not displayed. To display the number of rows click to select **Show number of objects**<span style="FONT-WEIGHT: normal">. For simple tables, the number of objects is always displayed, and this option is not available.
+For multi dimensional tables, the number of rows listed in the table is by default not displayed. To display the number of rows click to select **Show number of objects**. For simple tables, the number of objects is always displayed, and this option is not available.

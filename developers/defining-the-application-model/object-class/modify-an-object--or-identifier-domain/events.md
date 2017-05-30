@@ -4,19 +4,6 @@ Genus App Platform allows you to add auditing capabilities to an Object Class. A
 
 If an Object Class is part of a [composition](../../../installation-and-configuration/composition.md "Composition"), audit trails for an object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if _Contact Person_ is part of _Customer_, and a new _contact person_ is added to a _customer_, the event is logged as a **Create** event on the _contact person_ and a **Modified** event on the _customer_.
 
-In this article
-
-* * *
-
-*   [Events Tracked in the Event History](#events-tracked-in-the-event-history)
-
-*   [Activating Auditing for an Object Class](#activating-auditing-for-an-object-class)
-
-*   [Advanced Auditing Options](#advanced-auditing-options)
-
-*   [Live Update](#live-update)
-
-* * *
 
 ## Events Tracked in the Event History
 

@@ -8,7 +8,7 @@ To specify advanced operations, the scope is used in combination with effects, c
 
 ![ID790B8250AA5F448B.png](media/ID790B8250AA5F448B.png)
 
-*   **Name**. The name is optional, and if there is no name, <span style="FONT-STYLE: italic">Enumerator (<data source>) is displayed in the Action tree.
+*   **Name**. The name is optional, and if there is no name, *Enumerator (<data source>) is displayed in the Action tree*.
 *   **Description**. The description is optional.'
 *   **Enumerate Objects in Data Sourece**. A data source with many objects to enumerate.
 *   **Enabled**. Default selected. Clear the check box to disable the enumerator and all actions within it.

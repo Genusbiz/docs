@@ -2,21 +2,6 @@
 
 A reminder will send you and/or other users an alert to follow up on an object when the reminder is due.
 
-In this article
-
-* * *
-
-*   [Add a Reminder](#add-a-reminder)
-
-*   [Advanced Options](#advanced-options)
-
-*   [Complete a Reminder](#complete-a-reminder)
-
-*   [Remove a Reminder](#remove-a-reminder)
-
-*   [Modify Reminder Categories](#modify-reminder-categories)
-
-* * *
 
 ## Add a Reminder
 

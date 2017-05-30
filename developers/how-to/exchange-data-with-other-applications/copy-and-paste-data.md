@@ -4,19 +4,6 @@ Copy and Paste of is an intuitive and useful feature for exchanging data between
 
 In many casese it is also possible to [export and import](export-and-import-data.md "Export and Import Data") these data, and the coice is a matter of preference and requirements. The basic steps are similar for export/import and copy/paste, the main difference being that while export and import access the file system to exchange files, copy and paste access the system clipboard to exchange files and other data.
 
-In this article
-
-* * *
-
-*   [Copy and Paste an Object as a Business Card or a Calendar Item](#copy-and-paste-an-object-as-a-business-card-or-a-calendar-item)
-
-*   [Copy and Paste Files and E-mails](#copy-and-paste-files-and-e-mails)
-
-*   [Copy and Paste Data Between Two Genus Desktop Applications](#copy-and-paste-data-between-two-genus-desktop-applications)
-
-*   [Copy an Object as a Shortcut](#copy-an-object-as-a-shortcut)
-
-* * *
 
 ## Copy and Paste an Object as a Business Card or a Calendar Item
 

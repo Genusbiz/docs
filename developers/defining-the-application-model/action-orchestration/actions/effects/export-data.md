@@ -84,19 +84,6 @@ Use this effect to export data from one of your data sources to a file or a file
 
 When you export data to a PDF Document, please note the software requirements described in the article [Export Data to a PDF Document - Software Requirements](export-data-to-a-pdf-document--software-requirements.md "Export Data to a PDF Document - Software Requirements").
 
-In this article
-
-* * *
-
-*   [Select a Data Source and Specify a File Format](#select-a-data-source-and-specify-a-file-format)
-
-*   [Select which Fields and Groups to Export](#select-which-fields-and-groups-to-export)
-
-*   [Spool Data Directly to a Delimited Text File](#spool-data-directly-to-a-delimited-text-file)
-
-*   [Defining the Output File](#defining-the-output-file)
-
-* * *
 
 ## Select a Data Source and Specify a File Format
 

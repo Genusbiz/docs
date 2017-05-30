@@ -10,17 +10,6 @@ The following value calculations are available:
 
 ![IDD2B18ED448D14A2C.ID11F24ADBE762424A.png](media/IDD2B18ED448D14A2C.ID11F24ADBE762424A.png)
 
-In this article
-
-* * *
-
-*   [Formula](#formula)
-
-*   [Function](#function)
-
-*   [If](#if)
-
-* * *
 
 ## Formula
 

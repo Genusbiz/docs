@@ -1,18 +1,9 @@
 ## Data Aggregation
 
-Applies to bound properties with data type **Float** and **Integer** data types, and properties with a <span style="FONT-WEIGHT: normal">complex data interpretation.
+Applies to bound properties with data type **Float** and **Integer** data types, and properties with a complex data interpretation.
 
 Aggregations are built by changing the granularity on specific dimensions and aggregating up measures along these dimensions. Dimensions in an Object Class are represented by properties with a complex data interpretation. Measures are represented by numeric properties with a simple data interpretation.
 
-In this article
-
-* * *
-
-*   [Setup for Properties with a Simple Data Interpretation](#setup-for-properties-with-a-simple-data-interpretation)
-
-*   [Setup for Properties with a Complex Data Interpretation](#setup-for-properties-with-a-complex-data-interpretation)
-
-* * *
 
 ## Setup for Properties with a Simple Data Interpretation
 

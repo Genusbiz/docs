@@ -25,7 +25,7 @@ With this effect you can read objects into a data source restricted by a data fi
 
 Normally when data is read from another data source, objects are copied from the source to the target data source. Read objects are marked as synchronized with storage to avoid that uncommitted changes in the source are applied twice. In some cases you may want to move an object from one data source to another and keep the current state of the object (i.e. that the object is in creating or changing state). To do this, select the option "Transfer objects".  
 
-<span style="FONT-STYLE: italic">Example  
+*Example*
 
 **Task 1**  
 

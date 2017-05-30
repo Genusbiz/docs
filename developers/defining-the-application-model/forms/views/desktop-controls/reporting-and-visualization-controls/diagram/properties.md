@@ -58,7 +58,7 @@ Navigator Position
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The navigator displays an overview of the diagram, with a rectangle identifying the section that is currently displayed when zooming and scrolling the diagram
+The navigator displays an overview of the diagram, with a rectangle identifying the section that is currently displayed when zooming and scrolling the diagram
 
 **None**
 
@@ -78,7 +78,7 @@ The navigator is displayed in the bottom left of the diagram.
 
 **Bottom Right**
 
-<span style="FONT-WEIGHT: normal">The navigator is displayed in the bottom right of the diagram.
+The navigator is displayed in the bottom right of the diagram.
 
 </td>
 
@@ -116,29 +116,6 @@ For information on specific properties see View Properties below.
 
 </table>
 
-In this article
-
-* * *
-
-*   [Node Properties](#node-properties)
-
-*   [Node Group Properties](#node-group-properties)
-
-*   [Node Style Properties](#node-style-properties)
-
-*   [Field Properties](#field-properties)
-
-*   [Caption Properties](#caption-properties)
-
-*   [Edge Properties](#edge-properties)
-
-*   [Layout Properties](#layout-properties)
-
-*   [View Properties](#view-properties)
-
-*   [View Node Properties](#view-node-properties)
-
-* * *
 
 ## Node Properties
 
@@ -308,7 +285,7 @@ For information on specific properties, see Caption Properties below.
 
 <td>Fields</td>
 
-<td><span style="FONT-WEIGHT: normal">A list of fields that are displayed for a node. Fields are displayed inside the node. <span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">For information on specific properties, see Field Properties below.</td>
+<td>A list of fields that are displayed for a node. Fields are displayed inside the node. For information on specific properties, see Field Properties below.</td>
 
 </tr>
 
@@ -593,7 +570,7 @@ Attempt to stretch the text from left to right.
 
 <tr>
 
-<td>Label - Colon <span style="FONT-WEIGHT: normal">Suffix</td>
+<td>Label - Colon Suffix</td>
 
 <td>Show a colon ":" after the label.</td>
 
@@ -613,7 +590,7 @@ Attempt to stretch the text from left to right.
 
 <td>
 
-The position of the caption outside the node. Select from **Center**, **North**<span style="FONT-WEIGHT: normal">, **North East**<span style="FONT-WEIGHT: normal">, **East**<span style="FONT-WEIGHT: normal">, **South East**<span style="FONT-WEIGHT: normal">, **South**<span style="FONT-WEIGHT: normal">, **South West**<span style="FONT-WEIGHT: normal">, **West**<span style="FONT-WEIGHT: normal">, **North West**<span style="FONT-WEIGHT: normal">.
+The position of the caption outside the node. Select from **Center**, **North**, **North East**, **East**, **South East**, **South**, **South West**, **West**, **North West**.
 
 </td>
 
@@ -669,7 +646,7 @@ Property
 
 <td>Font Style</td>
 
-<td>Style of the caption text: **Normal** or **Italic**<span style="FONT-WEIGHT: normal">.</td>
+<td>Style of the caption text: **Normal** or **Italic**.</td>
 
 </tr>
 
@@ -905,7 +882,7 @@ Smaller values result in less compact drawings, greater values result in more co
 
 <td>
 
-The orientation to use for the layout. Not applicable for all types of layout. Select from **Top-to-bottom**<span style="FONT-WEIGHT: normal">, **Left-to-right**, **Right-to-left**, **Bottom-to-top**
+The orientation to use for the layout. Not applicable for all types of layout. Select from **Top-to-bottom**, **Left-to-right**, **Right-to-left**, **Bottom-to-top**
 
 </td>
 

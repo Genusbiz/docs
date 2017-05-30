@@ -1,6 +1,6 @@
 ## Defining Operands
 
-<span style="FONT-WEIGHT: normal">The condition editor allows you to use a wide range of operands. For more information on the meaning of the operands, see <span style="FONT-WEIGHT: normal">[Conditions](../../conditions.md)<span style="FONT-WEIGHT: normal">.
+The condition editor allows you to use a wide range of operands. For more information on the meaning of the operands, see [Conditions](../../conditions.md).
 
 **Field or Group**
 
@@ -60,9 +60,9 @@ The data source Department can contain one object, but the group Employee under 
 
 **Active User Account**
 
-To access the object associated with the currently signed in user, or fields from this object, right click the operand and click **Select Field or Group**<span style="FONT-WEIGHT: normal">, and then in the list of data sources select a data source suffixed **(User Account)**<span style="FONT-WEIGHT: normal">. There can be several such data sources available if the application is defined to support sign in for different user groups (for example employees and customer contacts). The top level of a user account data source always contains one object.
+To access the object associated with the currently signed in user, or fields from this object, right click the operand and click **Select Field or Group**, and then in the list of data sources select a data source suffixed **(User Account)**. There can be several such data sources available if the application is defined to support sign in for different user groups (for example employees and customer contacts). The top level of a user account data source always contains one object.
 
-<span style="FONT-WEIGHT: normal">![ID2A01F73EFD87409D.png](media/ID2A01F73EFD87409D.png)
+![ID2A01F73EFD87409D.png](media/ID2A01F73EFD87409D.png)
 
 **Active Object Selection**
 

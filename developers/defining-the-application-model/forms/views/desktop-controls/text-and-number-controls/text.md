@@ -24,7 +24,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Content</td>
+<td>Content</td>
 
 <td>A static text, to be used if data binding is not defined.</td>
 
@@ -32,7 +32,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Text Alignment</td>
+<td>Text Alignment</td>
 
 <td>
 

@@ -92,17 +92,6 @@ A rule can be triggered by the following events:
 
 </table>
 
-In this article
-
-* * *
-
-*   [Add a Rule](#add-a-rule)
-
-*   [Add Data Sources to a Rule](#add-data-sources-to-a-rule)
-
-*   [Add Actions to a Rule](#add-actions-to-a-rule)
-
-* * *
 
 ## Add a Rule
 

@@ -2,15 +2,6 @@
 
 The formatting options help you to improve the look of your report and make them easier to read.
 
-In this article
-
-* * *
-
-*   [Formatting Tables](#formatting-tables)
-
-*   [Formatting Charts](#formatting-charts)
-
-* * *
 
 ## Formatting Tables
 
@@ -60,7 +51,7 @@ Insert rows and add indent in a report.
 To insert rows, do the following:
 
 1\. Select an empty cell, where you want to insert a row.  
-2\. On the **Format** <span style="FONT-WEIGHT: normal">menu, point to **Rows** and then click **Insert Rows**.
+2\. On the **Format** menu, point to **Rows** and then click **Insert Rows**.
 
 ![IDCEFAF468CE1D442D.IDC6C7AB3F5CA84CD7.png](media/IDCEFAF468CE1D442D.IDC6C7AB3F5CA84CD7.png)
 

@@ -6,11 +6,11 @@ When creating the report, it is possible to publish the filters that should be a
 
 **Data Source along vertical axis and horizontal axis.**
 
-<span style="FONT-WEIGHT: normal">To change settings for a data source, right-click on the data source and select from the menu.
+To change settings for a data source, right-click on the data source and select from the menu.
 
 ![ID78CACD5A00414262.ID46E914FB33934F2B.png](media/ID78CACD5A00414262.ID46E914FB33934F2B.png)
 
- <span style="FONT-WEIGHT: normal"><table style="WIDTH: 100%">
+ <table style="WIDTH: 100%">
 
 <tbody>
 
@@ -208,15 +208,6 @@ To set default filters, right-click the data sources in filter or in the axis an
 
 </table>
 
-In this article
-
-* * *
-
-*   [Data Source associated with user account](#data-source-associated-with-user-account)
-
-*   [Using a Predefined Data Filter in a Report](#using-a-predefined-data-filter-in-a-report)
-
-* * *
 
 ## Data Source associated with user account
 

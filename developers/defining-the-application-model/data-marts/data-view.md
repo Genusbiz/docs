@@ -4,25 +4,6 @@ The data view shows a visual diagram of the data sources, properties and connect
 
 For more information on the features of the data view, see the articles below.
 
-In this article
-
-* * *
-
-*   [Add a Data Source](#add-a-data-source)
-
-*   [Publish Fields for a Data Source](#publish-fields-for-a-data-source)
-
-*   [Connect Two Data Sources](#connect-two-data-sources)
-
-*   [Add a Local Object Data Source](#add-a-local-object-data-source)
-
-*   [Add a Link Table](#add-a-link-table)
-
-*   [Add a Text or a Container](#add-a-text-or-a-container)
-
-*   [Format and Layout the Data View](#format-and-layout-the-data-view)
-
-* * *
 
 ## Add a Data Source
 
@@ -30,8 +11,8 @@ To add a data source in the data view, do the following:
 
 *   Right click in the diagram.
 *   In the menu, click **New**, and then select **Data Source**.
-*   In the **Select Data Source Type** window, select **Object**<span style="FONT-WEIGHT: normal">, and click **OK**<span style="FONT-WEIGHT: normal">.
-*   <span style="FONT-WEIGHT: normal">In the list, select one or more Object Classes, and then click **OK**<span style="FONT-WEIGHT: normal">.
+*   In the **Select Data Source Type** window, select **Object**, and click **OK**.
+*   In the list, select one or more Object Classes, and then click **OK**.
 
 A data source added this way has no fields published, and no connections to other data sources.
 
@@ -58,7 +39,7 @@ Fields that are published are available in the data mart. To keep the data mart 
 To specify which fields are published, do the following:
 
 *   In the Data View
-*   Select the data source to change, and then in the **Properties** area locate the **Published Fields** property, and click **[...]** <span style="FONT-WEIGHT: normal">OR  
+*   Select the data source to change, and then in the **Properties** area locate the **Published Fields** property, and click **[...]** OR  
     Right click the data source to change, and select **Published Fields**
 *   To add a published field, in the **Select Fields** window, in the **Available Fields** list, select a field and click **Add**.
 *   To remove a published field, in the **Select Fields** window, in the **Published Fields** list, select a field and click **Remove**.

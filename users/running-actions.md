@@ -24,7 +24,7 @@ The actions that are available will vary depending on the form and the type of o
 
 Some actions are more intuitively activated from other menus or keyboard shortcuts, and are therefore <span style="FONT-STYLE: italic">not made available in the Action Task Pane. Examples of such actions are <span style="FONT-STYLE: italic">New Applicant, <span style="FONT-STYLE: italic">Copy Documents, <span style="FONT-STYLE: italic">Send Invoice as E-mail, <span style="FONT-STYLE: italic">Paste Contacts from Outlook.
 
-Special actions to follow up objects are located in the <span style="FONT-WEIGHT: normal">[Follow Up](../users/running-actions/follow-up.md) section in the Action Task Pane.
+Special actions to follow up objects are located in the [Follow Up](../users/running-actions/follow-up.md) section in the Action Task Pane.
 
 **Topics in "Running Actions"**
 * [Follow Up](../users/running-actions/follow-up.md)

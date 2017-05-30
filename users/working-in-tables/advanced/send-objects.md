@@ -4,7 +4,7 @@ To send objects, on the **File** menu, point to **Send**, and then click an acti
 
 ![IDBD4A4D1D5E9F47ED.ID79B06E9E75214FC7.png](media/IDBD4A4D1D5E9F47ED.ID79B06E9E75214FC7.png)
 
-In this case a Microsoft Outlook mail window appears, with a link to the object. You may edit the mail contents before clicking **Send** <span style="FONT-WEIGHT: normal">inside Microsoft Outlook.
+In this case a Microsoft Outlook mail window appears, with a link to the object. You may edit the mail contents before clicking **Send** inside Microsoft Outlook.
 
 When the recipient opens the received mail and clicks the link, the object is opened as shown below.
 

@@ -6,19 +6,6 @@ Controls are combined and arranged visually to establish a layout for the view. 
 
 The most important controls during layout are the [containers](desktop-controls/containers.md) and especially the [group](desktop-controls/containers/group.md) and the [group box](desktop-controls/containers/group-box.md). Since the group and group boxes are interchangable, we will use group as a common term in this article. In the following figures, some groups are blown up and have been given different colors for illustration purposes.
 
-In this article
-
-* * *
-
-*   [Grouping Controls](#grouping-controls)
-
-*   [Grouping Groups](#grouping-groups)
-
-*   [Spacing](#spacing)
-
-*   [Alignment](#alignment)
-
-* * *
 
 ## Grouping Controls
 
@@ -30,9 +17,9 @@ or horizontally,
 
 ![ID31B8E91C5BFF43AA.png](media/ID31B8E91C5BFF43AA.png)
 
-by setting the **Orientation**<span style="FONT-WEIGHT: normal">.
+by setting the **Orientation**.
 
-<span style="FONT-WEIGHT: normal">The container control which holds a control, is often called the parent of the control.
+The container control which holds a control, is often called the parent of the control.
 
 
 

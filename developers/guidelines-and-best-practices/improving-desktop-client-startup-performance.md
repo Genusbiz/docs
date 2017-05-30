@@ -8,11 +8,11 @@ To disable WPAD on your computer, do the following:
 
 1.  In the **Control Panel**, locate and open the **Internet Options**.
 2.  Click the **Connections** tab.
-3.  In the **Local Area Network (LAN) settings** section, click **LAN settings**<span style="FONT-WEIGHT: normal">.
-4.  <span style="FONT-WEIGHT: normal">In the **Automatic Configuration** <span style="FONT-WEIGHT: normal">section, click to clear **Automatically detect settings**<span style="FONT-WEIGHT: normal">.
+3.  In the **Local Area Network (LAN) settings** section, click **LAN settings**.
+4.  In the **Automatic Configuration** section, click to clear **Automatically detect settings**.
 
 In Windows 8 it is also possible to do the following:
 
-1.  Go to the start menu, and search by entering <span style="FONT-STYLE: italic">network proxy settings<span style="FONT-WEIGHT: normal">.
-2.  Start **Network Proxy Settings**<span style="FONT-WEIGHT: normal">.
-3.  <span style="FONT-WEIGHT: normal">In the **Automatic proxy setup** <span style="FONT-WEIGHT: normal">section, c<span style="FONT-WEIGHT: normal">lick to turn off **Automatically detect settings**<span style="FONT-WEIGHT: normal">.
+1.  Go to the start menu, and search by entering <span style="FONT-STYLE: italic">network proxy settings.
+2.  Start **Network Proxy Settings**.
+3.  In the **Automatic proxy setup** section, click to turn off **Automatically detect settings**.

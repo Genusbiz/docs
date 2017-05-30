@@ -62,15 +62,6 @@ Formula
 
 Note that you can specify formulas for properties of type Data. This gives you the opportunity to store calculated values, for example to use for searching and in reports. It is however, important to be aware of a specific situation that may occur ff your formula uses properties from other object classes, or properties that are updated outside Genus, for example through a database interface. Since the formula is evaluated whenever the object is read, a user may see a value which is correctly calculated based on current values in the database. The calculated value is however, not stored to the database until the object is explicitly saved.
 
-In this article
-
-* * *
-
-*   [Specifying a Default Value or Formula](#specifying-a-default-value-or-formula)
-
-*   [Entering an RDBMS expression](#entering-an-rdbms-expression)
-
-* * *
 
 ## Specifying a Default Value or Formula
 

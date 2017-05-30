@@ -135,7 +135,7 @@ If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communica
 
 [A restart of Genus Services](../../defining-the-application-model/general-settings/restart-genus-app-services.md "Restart Genus App Services") is required to make your changes take effect.
 
-**Step 13 - Install License** **<span style="FONT-WEIGHT: normal">A license file is required in order to start the Genus App Platform. See** [<span style="FONT-WEIGHT: normal">Install License on Genus App Services applicaion server](../install-license-on-genus-server.md) <span style="FONT-WEIGHT: normal">for more information. 
+**Step 13 - Install License** **A license file is required in order to start the Genus App Platform. See** [Install License on Genus App Services applicaion server](../install-license-on-genus-server.md) for more information. 
 
 **Step 14 - Install the Genus Desktop Client Application**
 
@@ -145,19 +145,19 @@ See [Install Genus on Your Computer](../install-genus-desktop-client-on-your-com
 
  **Step 15 - Define Nodes and Node Groups
 
- **<span style="FONT-WEIGHT: normal">Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus App Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.**
+ **Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus App Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.**
 
-<span style="FONT-WEIGHT: normal">If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.**
+If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.**
 
-1.  [<span style="FONT-WEIGHT: normal">Open Genus Studio](../../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md)
-2.  <span style="FONT-WEIGHT: normal">To add a Node, i<span style="FONT-WEIGHT: normal">n the Directory tree, locate Resources <span style="FONT-WEIGHT: normal">and then click on Nodes<span style="FONT-WEIGHT: normal">.
-3.  <span style="FONT-WEIGHT: normal">In the File menu, click New<span style="FONT-WEIGHT: normal">.
-4.  <span style="FONT-WEIGHT: normal">Specify the node settings, and click OK<span style="FONT-WEIGHT: normal">.
-5.  <span style="FONT-WEIGHT: normal">To add a Node Group<span style="FONT-WEIGHT: normal">, in the Directory tree, locate Resources <span style="FONT-WEIGHT: normal">and then click on Nodes Groups<span style="FONT-WEIGHT: normal">.
-6.  <span style="FONT-WEIGHT: normal">In the File menu, click New<span style="FONT-WEIGHT: normal">.
-7.  <span style="FONT-WEIGHT: normal">Specify the node group settings, and click OK<span style="FONT-WEIGHT: normal">.
+1.  [Open Genus Studio](../../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md)
+2.  To add a Node, in the Directory tree, locate Resources and then click on Nodes.
+3.  In the File menu, click New.
+4.  Specify the node settings, and click OK.
+5.  To add a Node Group, in the Directory tree, locate Resources and then click on Nodes Groups.
+6.  In the File menu, click New.
+7.  Specify the node group settings, and click OK.
 
-<span style="FONT-WEIGHT: normal">For more information on specific settings, see <span style="FONT-WEIGHT: normal">[Nodes and Node Groups](../../defining-the-application-model/nodes-and-node-groups.md). Step 16 - Deploy the Directory 
+For more information on specific settings, see [Nodes and Node Groups](../../defining-the-application-model/nodes-and-node-groups.md). Step 16 - Deploy the Directory 
 
 The initial set of metadata needs to be deployed to Genus desktop clients. This can be done from the computer where you installed the Genus desktop client in step 15\.
 

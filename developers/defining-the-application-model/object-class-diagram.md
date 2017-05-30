@@ -8,53 +8,6 @@ Bi-directional synchronization of the object model and the database is supported
 
 ![IDB81D167AE8E245C3.png](media/IDB81D167AE8E245C3.png)
 
-In this article
-
-* * *
-
-*   [How to Open the Object Class Diagram](#how-to-open-the-object-class-diagram)
-
-*   [Add, Rearrange, Delete and Rename Pages](#add-rearrange-delete-and-rename-pages)
-
-*   [Change the Style for Connectors on a Page](#change-the-style-for-connectors-on-a-page)
-
-*   [Add Object Classes to a Page](#add-object-classes-to-a-page)
-
-*   [Add a Draft Class to a Page](#add-a-draft-class-to-a-page)
-
-*   [Replace a Draft with an Object Class](#replace-a-draft-with-an-object-class)
-
-*   [Add a Draft Property to a Class](#add-a-draft-property-to-a-class)
-
-*   [Hide or Unhide a Property in a Class](#hide-or-unhide-a-property-in-a-class)
-
-*   [Hide or Unhide an Outbound Connector from a Class](#hide-or-unhide-an-outbound-connector-from-a-class)
-
-*   [Change the Display Order for Properties in a Class](#change-the-display-order-for-properties-in-a-class)
-
-*   [Add a Text Box to a Page](#add-a-text-box-to-a-page)
-
-*   [Copy or Move Shapes between Pages](#copy-or-move-shapes-between-pages)
-
-*   [Delete or Remove Shapes](#delete-or-remove-shapes)
-
-*   [Format a Shape](#format-a-shape)
-
-*   [Group Shapes in a Container](#group-shapes-in-a-container)
-
-*   [Zoom In or Out of a Page](#zoom-in-or-out-of-a-page)
-
-*   [View the Diagram in Full Screen View](#view-the-diagram-in-full-screen-view)
-
-*   [Forward Engineering](#forward-engineering)
-
-*   [Reverse Engineering](#reverse-engineering)
-
-*   [Insert Shapes as a Picture in a Document](#insert-shapes-as-a-picture-in-a-document)
-
-*   [Keyboard Shortcuts](#keyboard-shortcuts)
-
-* * *
 
 ## How to Open the Object Class Diagram
 
@@ -391,7 +344,7 @@ You can zoom in to get a close-up view of a page, or zoom out to see more of a p
 
 To chooze a particular zoom setting, do the following:
 
-*   On the status bar, click **Zoom** **![ID6F25B1E0ABF0470D.png](media/ID6F25B1E0ABF0470D.png)<span style="FONT-WEIGHT: normal">.**
+*   On the status bar, click **Zoom** **![ID6F25B1E0ABF0470D.png](media/ID6F25B1E0ABF0470D.png).**
 *   In the **Zoom** dialog box, enter a percentage or choose one of the predefined zoom settings.
 
 To zoom the page to 100% of the normal size, do the following:
@@ -406,7 +359,7 @@ To zoom the page so that all shapes fits in the window, do the following:
 
 ## View the Diagram in Full Screen View
 
-On the status bar, click **Slide Show** **![ID8EE4621C110B40C2.png](media/ID8EE4621C110B40C2.png)<span style="FONT-WEIGHT: normal">.**
+On the status bar, click **Slide Show** **![ID8EE4621C110B40C2.png](media/ID8EE4621C110B40C2.png).**
 
 The current page is displayed in full screen view. To page through the diagram, click the arrows?in the upper-right corner of the window. To turn off full screen view, click Close in the upper-right corner of the screen, or press ESC.
 

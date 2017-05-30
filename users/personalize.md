@@ -1,26 +1,5 @@
 ## Personalize
 
-In this article
-
-* * *
-
-*   [Change Your Password](#change-your-password)
-
-*   [Change the Default Language](#change-the-default-language)
-
-*   [Change the Start Page in the Navigation Pane](#change-the-start-page-in-the-navigation-pane)
-
-*   [Change the Default Print Color Setting](#change-the-default-print-color-setting)
-
-*   [Change the Default Color Scheme](#change-the-default-color-scheme)
-
-*   [Turn Confirmation on Exit On or Off](#turn-confirmation-on-exit-on-or-off)
-
-*   [Show or Hide the Genus Button on the Taskbar](#show-or-hide-the-genus-button-on-the-taskbar)
-
-*   [Change What Happens When Opening a Link](#change-what-happens-when-opening-a-link)
-
-* * *
 
 ## Change Your Password
 
@@ -56,7 +35,7 @@ Note that you can't change your password if you are authenticated by MicrosoftB.
 ## Change the Default Color Scheme
 
 1.  In the **Tools** menu, click **Options**.
-2.  In the **Color Scheme** box in the section **Application**, select which theme colors to use as; **Default**<span style="FONT-WEIGHT: normal">, ******Office 2007 Blue******, **Office 2007 Silver**, or **Office 2007 Black**. When **Default** is selected, the default application Color Scheme is used.
+2.  In the **Color Scheme** box in the section **Application**, select which theme colors to use as; **Default**, ******Office 2007 Blue******, **Office 2007 Silver**, or **Office 2007 Black**. When **Default** is selected, the default application Color Scheme is used.
 
 
 
@@ -88,6 +67,6 @@ When opening a [link](../developers/how-to/exchange-data-with-other-applications
 To change whether to open the main window minimized whenever a link is opened, do the following:
 
 *   In the **Tools** menu, click **Options**.
-*   To open the main window, in the **Application** section, select **Start main window when opening a link**<span style="FONT-WEIGHT: normal">.
-*   <span style="FONT-WEIGHT: normal">To only open the link target, in the Application section, click to clear **Start main window when opening a link**<span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">.
+*   To open the main window, in the **Application** section, select **Start main window when opening a link**.
+*   To only open the link target, in the Application section, click to clear **Start main window when opening a link**.
 

@@ -10,7 +10,7 @@ An error can occur anywhere, also while cleaning up after another error within a
 
 ![IDABBD6004D5CF4FE0.png](media/IDABBD6004D5CF4FE0.png)
 
-*   **Name**. The name is optional, and if there is no name, <span style="FONT-STYLE: italic">Catch Exception is displayed in the Action tree.
+*   **Name**. The name is optional, and if there is no name, *Catch Exception is displayed in the Action tree*.
 *   **Description**. The description is optional.
 *   **Catch All Exceptions**. The catch exception block should be executed if any type of error occurs.
 *   **Catch Selected Exceptions**. The catch exception block should only be executed if the error is among the selected [types](../../exception-handling.md).

@@ -24,7 +24,7 @@ For more information about publishing functions, see [Publishing Functions and O
 
 <td>**![IDFF43C8202A264908.IDA06DC1A2DC494D81.png](media/IDFF43C8202A264908.IDA06DC1A2DC494D81.png) Drill down** and **Drill Up**</td>
 
-<td><span style="FONT-WEIGHT: normal">Navigate down and up to display detail data in different levels.
+<td>Navigate down and up to display detail data in different levels.
 
 Note that to drill, the axis has to contain a hierarchic data source and the data source has to be published. To get back on the preceding level, use the back function.
 

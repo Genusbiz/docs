@@ -10,13 +10,6 @@ A task can only be activated if the user has the permissions to execute it. Set 
 
 To see if a task is used within the form, right click the task, and click **Find Local References**.
 
-In this article
-
-* * *
-
-*   [Add a Task](#add-a-task)
-
-* * *
 
 ## Add a Task
 

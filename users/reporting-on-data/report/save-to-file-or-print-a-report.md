@@ -1,16 +1,5 @@
 ## Save to File or Print a Report
 
-In this article
-
-* * *
-
-*   [Save to File](#save-to-file)
-
-*   [Print](#print)
-
-*   [Page Setup](#page-setup)
-
-* * *
 
 ## Save to File
 
@@ -287,7 +276,7 @@ Custom
 
 </table>
 
-To specify the header and footer, click **Header and Footer**<span style="FONT-WEIGHT: normal">, and then in both the header and footer section select the values to be displayed. In both sections, for each of the positions; left, center, and right, select from the pre-defined values below:
+To specify the header and footer, click **Header and Footer**, and then in both the header and footer section select the values to be displayed. In both sections, for each of the positions; left, center, and right, select from the pre-defined values below:
 
 <table style="WIDTH: 100%">
 

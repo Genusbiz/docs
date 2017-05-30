@@ -1,16 +1,5 @@
 ## Follow Up
 
-In this article
-
-* * *
-
-*   [Flags](#flags)
-
-*   [Reminders](#reminders)
-
-*   [Notifications](#notifications)
-
-* * *
 
 ## Flags
 

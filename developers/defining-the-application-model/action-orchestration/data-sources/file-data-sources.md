@@ -82,23 +82,6 @@ The File Data Sources are internal representations of external file formats. Thi
 
 For more information on the different types of File Data Sources explore the topics below:
 
-In this article
-
-* * *
-
-*   [Calendar Item - iCalendar](#calendar-item---icalendar)
-
-*   [Contact - vCard](#contact---vcard)
-
-*   [File Folder](#file-folder)
-
-*   [General File](#general-file)
-
-*   [Mail Message](#mail-message)
-
-*   [Microsoft Project](#microsoft-project)
-
-* * *
 
 ## Calendar Item - iCalendar
 

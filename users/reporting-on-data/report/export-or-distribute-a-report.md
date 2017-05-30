@@ -2,15 +2,6 @@
 
 It can be useful to export a report, and continue working with it in other applications, or to send a report to other people, maybe with personalized content. See the topics below for more information.
 
-In this article
-
-* * *
-
-*   [Export a Report](#export-a-report)
-
-*   [Distribute a Report](#distribute-a-report)
-
-* * *
 
 ## Export a Report
 

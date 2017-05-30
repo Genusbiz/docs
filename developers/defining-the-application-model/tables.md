@@ -16,15 +16,6 @@ To edit a table in the designer, go to the list of tables in Genus Studio, locat
 
 To view the table definition in a read only mode, press and hold the CTRL+SHIFT keys when opening the table. This prevents the table from being locked for other modelers, and it is not possible to save any changes to the table.
 
-In this article
-
-* * *
-
-*   [Basic Table](#basic-table)
-
-*   [Multidimensional Table](#multidimensional-table)
-
-* * *
 
 ## Basic Table
 

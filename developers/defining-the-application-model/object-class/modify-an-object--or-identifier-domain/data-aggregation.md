@@ -4,15 +4,6 @@ Aggregations are built by changing the granularity on specific dimensions and ag
 
 To allow users to aggregate data from other Object Classes along objects from this Object Class in reports, select the **Enable as dimension in reports** check box.
 
-In this article
-
-* * *
-
-*   [Data Paths](#data-paths)
-
-*   [Data Aggregates](#data-aggregates)
-
-* * *
 
 ## Data Paths
 

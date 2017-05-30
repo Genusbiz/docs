@@ -1,6 +1,6 @@
 ## App Services Recycling
 
- **<span style="FONT-WEIGHT: normal">The Core Service is been fully integrated into the Internet Information Services (IIS) Application Pool used by the Genus App Services Web Site.  
+ **The Core Service is been fully integrated into the Internet Information Services (IIS) Application Pool used by the Genus App Services Web Site.  
 
 In order to configure application pooling properties, like when to recycle to host process, do the following:
 

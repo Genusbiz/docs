@@ -1,25 +1,25 @@
 ## Data Mart Fundamentals
 
-  **<span style="FONT-WEIGHT: normal">The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. An application model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through Analyses and Data Extracts.**
+  **The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. An application model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through Analyses and Data Extracts.**
 
-<span style="FONT-WEIGHT: normal">The main steps when creating a data mart includes:
+The main steps when creating a data mart includes:
 
-*   <span style="FONT-WEIGHT: normal">Add data sources and specify data filters.
-*   <span style="FONT-WEIGHT: normal">Publish fields for the data sources.
-*   <span style="FONT-WEIGHT: normal">Define connections between data sources.
-*   <span style="FONT-WEIGHT: normal">Add any local fields or data sources to enrich the data mart.
+*   Add data sources and specify data filters.
+*   Publish fields for the data sources.
+*   Define connections between data sources.
+*   Add any local fields or data sources to enrich the data mart.
 
-<span style="FONT-WEIGHT: normal">When designing a data mart there are many considerations to make, and some of these topics are briefly discussed below.
+When designing a data mart there are many considerations to make, and some of these topics are briefly discussed below.
 
 Data Sources and Fields
 
-<span style="FONT-WEIGHT: normal">The data mart reduces the data volume by defining a subset of the data in the application. Only the data sources and fields that are relevant to the purpose of the data mart are added. For example; in a data mart focusing on sales we only add data sources for sales representatives, product hierarchies, and actual sales with fields like names, amounts and dates. In addition, data filters are defined for the data sources to include only data that is relevant. For example; only sales for the last 12 months for a specific product category.
+The data mart reduces the data volume by defining a subset of the data in the application. Only the data sources and fields that are relevant to the purpose of the data mart are added. For example; in a data mart focusing on sales we only add data sources for sales representatives, product hierarchies, and actual sales with fields like names, amounts and dates. In addition, data filters are defined for the data sources to include only data that is relevant. For example; only sales for the last 12 months for a specific product category.
 
-<span style="FONT-WEIGHT: normal">The fact that only relevant data sources, fields, and data are included in the data mart does not only reduce the data volume, but also the complexity.
+The fact that only relevant data sources, fields, and data are included in the data mart does not only reduce the data volume, but also the complexity.
 
-<span style="FONT-WEIGHT: normal">When a data mart is initiated, the entire subset of data is loaded into memory, even if every part of the mart is not used every time. This data load requires resources on the server, network, and client computer. The size of the data mart is therefore an important consideration. Try to make the data marts as focused and small as possible while still fulfulling their purpose. Consider splitting data marts that serve more than one purpose, into several smaller ones. **<span style="FONT-WEIGHT: normal">**Connections**
+When a data mart is initiated, the entire subset of data is loaded into memory, even if every part of the mart is not used every time. This data load requires resources on the server, network, and client computer. The size of the data mart is therefore an important consideration. Try to make the data marts as focused and small as possible while still fulfulling their purpose. Consider splitting data marts that serve more than one purpose, into several smaller ones. ****Connections**
 
- **<span style="FONT-WEIGHT: normal">  
+ **  
 The complexity is reduced, not only indirectly by reducing the data volume, but more importantly by explicitly specifying which connections to use between data sources. In enterprise data there are very often many connections available between two data sources. For example; an invoice is connected to the month data source through the invoice date, the due date, and the payment received date fields.**** 
 
 In the application model a connection between two object classes means that one object class has a a reference to the other object class, or one object class has a property that can contain values from the other object class. For objects in the data sources

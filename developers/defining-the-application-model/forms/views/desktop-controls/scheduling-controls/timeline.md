@@ -1,6 +1,6 @@
 ## Timeline
 
-<span style="FONT-WEIGHT: normal">Use the timeline control to visualize a sequence of events or a timelines in a user friendly manner. <span style="FONT-WEIGHT: normal">Present various occurences like business events, project events, or observations related to a criminal investigation. The events can have a duration or not, and can be placed in a groups for improved readability. Unlike the Gantt control, which requires one recursive data source, the timeline control can visualize event from several different data sources.
+Use the timeline control to visualize a sequence of events or a timelines in a user friendly manner. Present various occurences like business events, project events, or observations related to a criminal investigation. The events can have a duration or not, and can be placed in a groups for improved readability. Unlike the Gantt control, which requires one recursive data source, the timeline control can visualize event from several different data sources.
 
 **Series**
 

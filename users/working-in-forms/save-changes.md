@@ -10,6 +10,6 @@ Click the **Save** arrow, and in the menu click **Save and Close** to save and c
 
 **Keyboard shortcuts:**
 
-*   <span style="FONT-WEIGHT: normal">To save, press CTRL + S.
-*   To s<span style="FONT-WEIGHT: normal">ave and close the form in one operation, press CTRL + ALT + S.
+*   To save, press CTRL + S.
+*   To save and close the form in one operation, press CTRL + ALT + S.
 *   To save and open the next object in the table in one operation, press CTRL + SHIFT + S.

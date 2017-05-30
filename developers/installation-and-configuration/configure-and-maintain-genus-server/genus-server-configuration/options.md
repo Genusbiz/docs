@@ -2,17 +2,6 @@
 
 To open the Genus App Services Options, in the **Genus Configuration** Application, open the **Tools** menu, and select **Options**.
 
-In this article
-
-* * *
-
-*   [General](#general)
-
-*   [App](#app)
-
-*   [Log](#log)
-
-* * *
 
 ## General
 
@@ -98,7 +87,7 @@ There are some exceptions from the general rule on how host names are used. For 
 
 **Session Token Lifetime**
 
-<span style="FONT-WEIGHT: normal">The amount of time before a Session Token cookie expires.
+The amount of time before a Session Token cookie expires.
 
 <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Default value: 20 minutes
 
@@ -128,7 +117,7 @@ Specifies the external URL from which Genus App Services is visible from the Gen
 
 ## Log
 
-<span style="FONT-WEIGHT: normal">Logging of the server side operations is specified here. Logging can affect performance and should only be used for limited periods of time, for example <span style="FONT-WEIGHT: normal">for troubleshooting purposes.
+Logging of the server side operations is specified here. Logging can affect performance and should only be used for limited periods of time, for example for troubleshooting purposes.
 
 **Log to File**
 

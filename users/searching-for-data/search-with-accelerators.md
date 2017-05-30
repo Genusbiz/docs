@@ -2,7 +2,7 @@
 
 An accelerator search is a fast way to use some of the information in the form, to search for other data.
 
-Place the cursor in a box with the text you want to search for, and then right-click and select **Search for " ... " in**<span style="FONT-WEIGHT: normal">. In the list of available accelerators, select the accelerator to use.
+Place the cursor in a box with the text you want to search for, and then right-click and select **Search for " ... " in**. In the list of available accelerators, select the accelerator to use.
 
 ![ID27BF83630E274AEB.jpg](media/ID27BF83630E274AEB.jpg)
 

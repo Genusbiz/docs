@@ -2,23 +2,6 @@
 
 A permission regulates which users that can gain access to an object and in what manner. Permissions are granted to individual user accounts or security groups. Permissions can be granted to all objects of a given type, to individual objects and to object properties.
 
-In this article
-
-* * *
-
-*   [Object Permissions that can be Granted to a User](#object-permissions-that-can-be-granted-to-a-user)
-
-*   [Grant Permissions to All Objects to a Security Group](#grant-permissions-to-all-objects-to-a-security-group)
-
-*   [Grant Permissions to All Objects Satisfying Conditions to a Security Group](#grant-permissions-to-all-objects-satisfying-conditions-to-a-security-group)
-
-*   [Grant Permissions to an Individual Object to a User](#grant-permissions-to-an-individual-object-to-a-user)
-
-*   [Property Permissions that can be Granted to a Security Group](#property-permissions-that-can-be-granted-to-a-security-group)
-
-*   [Grant Permissions to a Property to a Security Group](#grant-permissions-to-a-property-to-a-security-group)
-
-* * *
 
 ## Object Permissions that can be Granted to a User
 

@@ -14,21 +14,6 @@ The dialog box below will appear.
 
 ![IDC956C6E520DC420B.ID8FB3EA37EA0242AC.png](media/IDC956C6E520DC420B.ID8FB3EA37EA0242AC.png)
 
-In this article
-
-* * *
-
-*   [Add, Remove or Move a Field](#add-remove-or-move-a-field)
-
-*   [Group Objects](#group-objects)
-
-*   [Sort Objects](#sort-objects)
-
-*   [Other Settings](#other-settings)
-
-*   [Filter Data](#filter-data)
-
-* * *
 
 ## Add, Remove or Move a Field <a name="add-remove-or-move-a-field"/>
 

@@ -8,15 +8,6 @@ To achieve the desired [layout](../../view-layout-fundamentals.md), combine seve
 
 The group box control can easily be changed into a [group](group.md) control, by changing the **Container Type**.  
 
-In this article
-
-* * *
-
-*   [Properties](#properties)
-
-*   [Summary Field Properties](#summary-field-properties)
-
-* * *
 
 ## Properties
 

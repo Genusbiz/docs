@@ -15,33 +15,6 @@ In a view you can define elements such as:
 *   Legend.
 *   Restrict access to a view by granting read permissions to user accounts and groups.
 
-In this article
-
-* * *
-
-*   [Add or Copy a View](#add-or-copy-a-view)
-
-*   [General Settings](#general-settings)
-
-*   [Display Settings](#display-settings)
-
-*   [Print Settings](#print-settings)
-
-*   [Filtering Data in a View](#filtering-data-in-a-view)
-
-*   [Search Settings](#search-settings)
-
-*   [Refiners](#refiners)
-
-*   [Summarize Applied Data Filters in the Filter Pane](#summarize-applied-data-filters-in-the-filter-pane)
-
-*   [Define a Reading Pane to Preview Objects](#define-a-reading-pane-to-preview-objects)
-
-*   [Identify Icons and Colors by Using a Legend](#identify-icons-and-colors-by-using-a-legend)
-
-*   [Grant Permissions to a View](#grant-permissions-to-a-view)
-
-* * *
 
 ## Add or Copy a View
 
@@ -375,7 +348,7 @@ For more information on how to define a data filter, see the article [Specifying
 
 To modify search settings, click the view in the **Views** list, and then in the **Properties** area, click the **Search** tab.
 
-To allow users to search for data, select the **Enable Search** check box. To allow users to use this view to search and view search results, select the **Enable as Search View** <span style="FONT-WEIGHT: normal">check box. To allow users to use this view to perform [accelerator searches](../../../users/searching-for-data/search-with-accelerators.md), select the **Enable as Accelerator Search** check box. If you want to expand the search pane when the table is opened, select the **Expand Search Pane on Open** check box.
+To allow users to search for data, select the **Enable Search** check box. To allow users to use this view to search and view search results, select the **Enable as Search View** check box. To allow users to use this view to perform [accelerator searches](../../../users/searching-for-data/search-with-accelerators.md), select the **Enable as Accelerator Search** check box. If you want to expand the search pane when the table is opened, select the **Expand Search Pane on Open** check box.
 
 You can configure the search pane in two ways:
 

@@ -9,19 +9,6 @@ You can create notifications for the following events:
 *   **Linked/Unlinked**. Occurs when an object is linked/unlinked to/from another object. For example, if an _employee_ is assigned as a key account manager for a _customer_, this will generate a link event on the _employee_ object.
 *   **Authorized**. Occurs when permissions are granted/revoked for a security group or a user account on an object.
 
-In this article
-
-* * *
-
-*   [Add a Notification](#add-a-notification)
-
-*   [Advanced Options](#advanced-options)
-
-*   [Remove a Notification](#remove-a-notification)
-
-*   [Modify Notification Categories](#modify-notification-categories)
-
-* * *
 
 ## Add a Notification
 

@@ -129,5 +129,5 @@ To sort data, do the following:
 
 To limit the number of objects to read, click **Read the first object(s)** and then do one of the following:
 
-*   Click in the **Read the first object(s) field** and in the menu, click **Enter a number** or press <span style="FONT-WEIGHT: normal">F2 and then enter a value.
+*   Click in the **Read the first object(s) field** and in the menu, click **Enter a number** or press F2 and then enter a value.
 *   To select a field from one of your data sources, in the **Read the first object(s)** field, click **Select field or group**. In the **Select Field or Group** dialog box, select a field of data type Integer.

@@ -2,19 +2,6 @@
 
 The main concept of an Analysis is to let the user select items of interest, and then provide feedback based on the current selection. All elements in the analysis are immediately updated based on which items in the underlying data mart are now relevant. All aggregated information like measures and charts are updated, lists display wich items are relevant and which are excluded, and so on.
 
-In this article
-
-* * *
-
-*   [Selected, Qualified, and Excluded Items](#selected-qualified-and-excluded-items)
-
-*   [Selecting and Deselecting Items](#selecting-and-deselecting-items)
-
-*   [Back and Forward](#back-and-forward)
-
-*   [Bookmarks](#bookmarks)
-
-* * *
 
 ## Selected, Qualified, and Excluded Items <a name="selected-qualified-and-excluded-items"/>
 
@@ -95,7 +82,7 @@ This is the normal state for all items in lists when an analysis is opened.
 
 **Excluded**
 
-<span style="FONT-WEIGHT: normal">Items in a list are excluded if they have no connection to the selected items, and these items are displayed:
+Items in a list are excluded if they have no connection to the selected items, and these items are displayed:
 
 <table>
 

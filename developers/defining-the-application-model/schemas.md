@@ -11,17 +11,6 @@ In Genus App Platform the XML Schema is mainly used within Action Orchestration 
 *   When copying data between two Genus applications, an XML Schema is used to exchange data between the applications. For more information on how to copy and paste between two Genus applications, see [Copy and Paste Data Between Two Genus Applications](../how-to/exchange-data-with-other-applications/copy-and-paste-data.md).
 *   In Web Services, XML- messages are passed between the service endpoint and the consumer endpoint. The formats of these messages are defined by a XML Schema stored within your application model. For more information on how to setup a Web Service in Genus Studio, see [Create a Web Service](web-services/create-a-web-service.md).
 
-In this article
-
-* * *
-
-*   [Create a Schema](#create-a-schema)
-
-*   [Working with Schemas](#working-with-schemas)
-
-*   [Schema Elements and Attributes](#schema-elements-and-attributes)
-
-* * *
 
 ## Create a Schema
 
@@ -39,7 +28,7 @@ In this article
 
 The Schema workface screen is divided into the following 3 areas. The main area, where the schema elements are organized as nodes in a tree structure. The properties pane to the right, showing the attributes of the selected schema element. And the Log pane at the bottom, showing warnings and errors when the defined schema is in an invalid state.
 
-You may preview the XML Schema at any time. To show the textual representation of your XML Schema, which is an XSD, on the **Data** menu, click **Preview XML Schema**. To export the schema as an .xsd file, on the **File** menu, click **Save to File**<span style="FONT-WEIGHT: normal">.
+You may preview the XML Schema at any time. To show the textual representation of your XML Schema, which is an XSD, on the **Data** menu, click **Preview XML Schema**. To export the schema as an .xsd file, on the **File** menu, click **Save to File**.
 
 **Elements**
 

@@ -26,7 +26,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <td>
 
-<span style="FONT-WEIGHT: normal">Data Binding - End
+Data Binding - End
 
 </td>
 
@@ -36,7 +36,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Data Binding - Start</td>
+<td>Data Binding - Start</td>
 
 <td>A [data binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") that defines the start of the range. Only applicable if Style is Range.</td>
 
@@ -44,7 +44,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Large Step</td>
+<td>Large Step</td>
 
 <td>
 
@@ -59,7 +59,7 @@ The number of ticks to move the thumb if
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Max Value</td>
+<td>Max Value</td>
 
 <td>The maximum value for the track bar.</td>
 
@@ -67,7 +67,7 @@ The number of ticks to move the thumb if
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Min Value</td>
+<td>Min Value</td>
 
 <td>The minimum value for the track bar.</td>
 
@@ -75,7 +75,7 @@ The number of ticks to move the thumb if
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Move To Point</td>
+<td>Move To Point</td>
 
 <td>Allow the user to click anywhere on the track bar line to move the thumb to this point.</td>
 
@@ -83,7 +83,7 @@ The number of ticks to move the thumb if
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Orientation</td>
+<td>Orientation</td>
 
 <td>
 
@@ -101,7 +101,7 @@ The track bar is oriented from top to bottom.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Show Step Buttons</td>
+<td>Show Step Buttons</td>
 
 <td>A button is displayed on each end of the track bar. These can be used to change the value.</td>
 
@@ -109,7 +109,7 @@ The track bar is oriented from top to bottom.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Small Step</td>
+<td>Small Step</td>
 
 <td>
 
@@ -124,7 +124,7 @@ The number of ticks to move the thumb if
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Style</td>
+<td>Style</td>
 
 <td>
 
@@ -142,7 +142,7 @@ The trackbar has two thumbs, which can be operated independently, and thereby de
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Tick Frequency</td>
+<td>Tick Frequency</td>
 
 <td>A tick is displayed for every n positions, if tick placement is not set to None. For example, a tick frequency of 10 displays 11 ticks for a trackbar from 0 to 100.</td>
 
@@ -150,7 +150,7 @@ The trackbar has two thumbs, which can be operated independently, and thereby de
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Tick Placement</td>
+<td>Tick Placement</td>
 
 <td>
 

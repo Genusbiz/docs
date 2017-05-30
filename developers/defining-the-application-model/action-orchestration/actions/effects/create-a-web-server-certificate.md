@@ -2,19 +2,6 @@
 
 Creation of a Web Server Certificate involves creating a request, sending it to the applicable authority and receiving the response before assigning it.
 
-In this article
-
-* * *
-
-*   [Step 1 - Create a Certificate Request](#step-1---create-a-certificate-request)
-
-*   [Step 2 - Send a Certificate Request](#step-2---send-a-certificate-request)
-
-*   [Step 3 - Install the Certification Authority Response](#step-3---install-the-certification-authority-response)
-
-*   [Step 4 - Assign a Web Server Certificate](#step-4---assign-a-web-server-certificate)
-
-* * *
 
 ## Step 1 - Create a Certificate Request
 

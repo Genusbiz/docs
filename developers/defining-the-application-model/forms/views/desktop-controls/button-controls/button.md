@@ -10,7 +10,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 **General**
 
- <span style="FONT-WEIGHT: normal"><table style="WIDTH: 100%">
+ <table style="WIDTH: 100%">
 
 <tbody>
 

@@ -8,17 +8,6 @@ The report illustrated below is merged to a Microsoft Excel spreadsheet represen
 
 When merging report data to a Microsoft Excel spreadsheet, you can access aggregated data in a report through a data source. The data can be accessed from the group named **Data Set**. The data set contains one field for each axis dimension, and one field for each value. Hidden values are excluded in the data set.
 
-In this article
-
-* * *
-
-*   [Basic Steps](#basic-steps)
-
-*   [Smart Markers](#smart-markers)
-
-*   [Smart Marker Parameters](#smart-marker-parameters)
-
-* * *
 
 ## Basic Steps
 
@@ -146,9 +135,9 @@ Note that Formula Markers may contain any valid Excel formula like:
 
 **Hints and tips**
 
-<span style="FONT-WEIGHT: normal">Using Formula Markers may result that inserted data in Excel cells is not valid. To avoid this, you can disable background error checking in your Excel sheet.
+Using Formula Markers may result that inserted data in Excel cells is not valid. To avoid this, you can disable background error checking in your Excel sheet.
 
-<span style="FONT-WEIGHT: normal">1\. In the On the **File** <span style="FONT-WEIGHT: normal">menu in Excel, click **Options** <span style="FONT-WEIGHT: normal">****<span style="FONT-WEIGHT: normal">2\. In the **Excel Options** <span style="FONT-WEIGHT: normal">box click **Formulas**<span style="FONT-WEIGHT: normal">, and clear the **Enable background error checking** <span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">check box. 
+1\. In the On the **File** menu in Excel, click **Options** ****2\. In the **Excel Options** box click **Formulas**, and clear the **Enable background error checking** check box. 
 
 
 

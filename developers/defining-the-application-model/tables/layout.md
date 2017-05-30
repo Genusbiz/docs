@@ -18,23 +18,6 @@ Depending of the type of table, the **Layout Grid** is divided into different ar
 
 ![IDAB6E7DCF4B9B4890.ID05B61B20510C470F.jpg](media/IDAB6E7DCF4B9B4890.ID05B61B20510C470F.jpg)
 
-In this article
-
-* * *
-
-*   [Add a Row Template](#add-a-row-template)
-
-*   [Add a Column](#add-a-column)
-
-*   [Bind a Cell Template to a Field](#bind-a-cell-template-to-a-field)
-
-*   [Add a Data Field](#add-a-data-field)
-
-*   [Bind a Row Template to another Row Template, Columns or Data Fields](#bind-a-row-template-to-another-row-template-columns-or-data-fields)
-
-*   [Special Considerations when Filtering Data for a Data Field](#special-considerations-when-filtering-data-for-a-data-field)
-
-* * *
 
 ## Add a Row Template
 
@@ -551,7 +534,7 @@ To set the visibility of the column, do one of the following:
 
 <td>
 
-Controls the width of a column. By default, the width is adjusted to fit the column label and the contents in the column (**Auto**)**.** <span style="FONT-WEIGHT: normal">To prevent the automatic width from taking up too much space, specify the maximum width in the **max characters** <span style="FONT-WEIGHT: normal">box. To adjust the width to fit the contents only, click **Value**. To specify a specific width, click **Fixed**, and then type the width of the column measured in characters.
+Controls the width of a column. By default, the width is adjusted to fit the column label and the contents in the column (**Auto**)**.** To prevent the automatic width from taking up too much space, specify the maximum width in the **max characters** box. To adjust the width to fit the contents only, click **Value**. To specify a specific width, click **Fixed**, and then type the width of the column measured in characters.
 
 </td>
 
@@ -619,7 +602,7 @@ Defines the type of control used for editing and presenting data.
 *   **Search Box**. Text box with a search button. Enables users to search for an object by clicking the search button, or type a text to look up an object. Applies to cells bound to fields with a complex data type pointing to an object domain. Generally you should use a Search Box if the complex data type contains a large number of objects to choose from.
 *   **Drop-Down List Box**. Presents a list of objects when the user clicks the arrow to the right of the drop-down list. Applies to cells bound to fields with a complex data type. Generally you should use a Drop-Down List Box if the complex data type contains a limited number of objects to choose from.
 *   **Check Box**. Enables users to make a true/false or yes/no choice. Check boxes are shown on the screen as a square box that can contain white space (for false) or a check mark (for true). Applies to cells bound to a boolean field or a complex type pointing to a code domain. If the cell is bound to a field with a complex type, you can specify the value when the check box is cleared and checked. For example, in a code domain representing the state for an employee as either <span style="FONT-STYLE: italic">Employed or <span style="FONT-STYLE: italic">Left, you could add a column labeled <span style="FONT-STYLE: italic">Employed, bind the cell to the <span style="FONT-STYLE: italic">Employee.State field, and set the value to <span style="FONT-STYLE: italic">Left when the check box is cleared, and <span style="FONT-STYLE: italic">Employed when the check box is selected.
-*   **Radio Button**. Enables users to make a single choice within a limited set of mutually exclusive choices. Radio buttons are shown on the screen as small circles that can contain white space (for unselected) or a dot (for selected). Applies to cells located in **Restricted Data** <span style="FONT-WEIGHT: normal">columns. For example, if you are designing a questionnaire where responses are graded on a scale from <span style="FONT-STYLE: italic">Strongly Agree to <span style="FONT-STYLE: italic">Strongly Disagree, you may want to display each choice using a radio button.
+*   **Radio Button**. Enables users to make a single choice within a limited set of mutually exclusive choices. Radio buttons are shown on the screen as small circles that can contain white space (for unselected) or a dot (for selected). Applies to cells located in **Restricted Data** columns. For example, if you are designing a questionnaire where responses are graded on a scale from <span style="FONT-STYLE: italic">Strongly Agree to <span style="FONT-STYLE: italic">Strongly Disagree, you may want to display each choice using a radio button.
 
 </td>
 
@@ -905,7 +888,7 @@ To filter products on the selected subcategory, a data binding has been establis
 
 ![ID49F95CFBE56A4FDB.jpg](media/ID49F95CFBE56A4FDB.jpg)
 
-<span style="FONT-WEIGHT: normal">When binding a row template for a data source with a nested data definition, the binding can be applied to objects on <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">all levels<span style="FONT-WEIGHT: normal">, or to <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">top level objects <span style="FONT-WEIGHT: normal">only. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data.
+When binding a row template for a data source with a nested data definition, the binding can be applied to objects on <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">all levels, or to <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">top level objects only. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data.
 
 **Bind a Row Template to another Row Template**
 
@@ -923,7 +906,7 @@ The table contains three data sources: <span style="FONT-STYLE: italic">Product 
 
 The row template for <span style="FONT-STYLE: italic">Product Subcategory is bound to the <span style="FONT-STYLE: italic">Product Category data source by the <span style="FONT-STYLE: italic">Product Subcategory.Product Category field. In the same way, the row template for <span style="FONT-STYLE: italic">Product is bound to the <span style="FONT-STYLE: italic">Product Subcategory data source by the <span style="FONT-STYLE: italic">Product.Subcategory field.
 
-<span style="FONT-WEIGHT: normal">When binding a row template for a data source with a nested data definition, the binding can be applied to objects <span style="FONT-WEIGHT: normal">on <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">all levels<span style="FONT-WEIGHT: normal">, or to <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">top level objects <span style="FONT-WEIGHT: normal">only. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data.
+When binding a row template for a data source with a nested data definition, the binding can be applied to objects on <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">all levels, or to <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">top level objects only. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data.
 
  ********** ****Bind a Row Template to a Column****** ******** 
 
@@ -945,7 +928,7 @@ When you bind a row template to a data source which not is bound to a **Repeated
 
 Note that when you bind a row template to other data sources repeated as rows and/or columns, the fields used to bind the row template to these data sources must uniquely identifiy an object. In the example above, it is assumed that no more than one sales quota is registered for any given employee in any given month.
 
- <span style="FONT-WEIGHT: normal">When binding a row template for a data source with a nested data definition, the binding can be applied to objects on <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">all levels<span style="FONT-WEIGHT: normal">, or to <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">top level objects <span style="FONT-WEIGHT: normal">only. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data. 
+ When binding a row template for a data source with a nested data definition, the binding can be applied to objects on <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">all levels, or to <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">top level objects only. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data. 
 
 
 

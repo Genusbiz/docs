@@ -145,13 +145,6 @@ Display Text
 
 </table>
 
-In this article
-
-* * *
-
-*   [Automatic Formatting using Data Bars](#automatic-formatting-using-data-bars)
-
-* * *
 
 ## Automatic Formatting using Data Bars
 

@@ -16,22 +16,22 @@ Note! The use of copy and paste is highly dependent on your specific application
 
 **Copy and Paste Text**
 
-<span style="FONT-WEIGHT: normal">You can copy text from a cell, single row or a range of row from the table. **** 
+You can copy text from a cell, single row or a range of row from the table. **** 
 
-1.  <span style="FONT-WEIGHT: normal">Do one of the following:
+1.  Do one of the following:
 
-<span style="FONT-WEIGHT: normal">- To copy text from a single row, select the whole row by clicking on the row heading.
+- To copy text from a single row, select the whole row by clicking on the row heading.
 
-<span style="FONT-WEIGHT: normal">- To copy text from a cell, select a cell. The active cell is bounded by a dashed border. Only one cell is active at a time.
+- To copy text from a cell, select a cell. The active cell is bounded by a dashed border. Only one cell is active at a time.
 
-<span style="FONT-WEIGHT: normal">- To copy text from range of row, hold down SHIFT and click on another row heading.
+- To copy text from range of row, hold down SHIFT and click on another row heading.
 
-<span style="FONT-WEIGHT: normal">- To copy nonadjacent rows, hold down CTRL while you select nonadjacent rows.
+- To copy nonadjacent rows, hold down CTRL while you select nonadjacent rows.
 
-<span style="FONT-WEIGHT: normal">2\. <span style="FONT-WEIGHT: normal">On the **menu**<span style="FONT-WEIGHT: normal">, click **Copy****![ID6D53A539F3904A1F.ID5F6A2930EEBC4F7C.png](media/ID6D53A539F3904A1F.ID5F6A2930EEBC4F7C.png)**<span style="FONT-WEIGHT: normal">. <span style="FONT-WEIGHT: normal">**Keyboard shortcut:** <span style="FONT-WEIGHT: normal">You can also press CTRL+C.
+2\. On the **menu**, click **Copy****![ID6D53A539F3904A1F.ID5F6A2930EEBC4F7C.png](media/ID6D53A539F3904A1F.ID5F6A2930EEBC4F7C.png)**. **Keyboard shortcut:** You can also press CTRL+C.
 
-<span style="FONT-WEIGHT: normal">3\. <span style="FONT-WEIGHT: normal">Select the paste area, and on the **menu**<span style="FONT-WEIGHT: normal">, click<span style="FONT-FAMILY: Calibri; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Paste<span style="FONT-FAMILY: Calibri; FONT-SIZE: 10pt; FONT-WEIGHT: bold">![ID6D53A539F3904A1F.ID3A46D6A561BC433A.png](media/ID6D53A539F3904A1F.ID3A46D6A561BC433A.png)<span style="FONT-WEIGHT: normal">. <span style="FONT-WEIGHT: normal">**Keyboard shortcut:** <span style="FONT-WEIGHT: normal">You can also press CTRL+V.
+3\. Select the paste area, and on the **menu**, click<span style="FONT-FAMILY: Calibri; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Paste<span style="FONT-FAMILY: Calibri; FONT-SIZE: 10pt; FONT-WEIGHT: bold">![ID6D53A539F3904A1F.ID3A46D6A561BC433A.png](media/ID6D53A539F3904A1F.ID3A46D6A561BC433A.png). **Keyboard shortcut:** You can also press CTRL+V.
 
-<span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">![ID6D53A539F3904A1F.ID236D3AA5D5DF453D.png](media/ID6D53A539F3904A1F.ID236D3AA5D5DF453D.png)
+![ID6D53A539F3904A1F.ID236D3AA5D5DF453D.png](media/ID6D53A539F3904A1F.ID236D3AA5D5DF453D.png)
 
 When copying from HTML formatted text, the default format when pasting into a Genus desktop client is regular text. To paste as HTML formatted text or another format, right click and select **Paste Special**, then in the list of available formats, select the format to paste.

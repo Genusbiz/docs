@@ -1,20 +1,5 @@
 ## Explore
 
-In this article
-
-* * *
-
-*   [Views](#views)
-
-*   [Browse Paths](#browse-paths)
-
-*   [Report Links](#report-links)
-
-*   [Associated Object Classes](#associated-object-classes)
-
-*   [Default Form](#default-form)
-
-* * *
 
 ## Views
 
@@ -188,7 +173,7 @@ To add Basic View, in the **View** section, click **Modify** and click **Add**.
 
 **Table View**
 
-<span style="FONT-WEIGHT: normal">A Table View is a view defined in Table. The table view can be re-used for the object class, for example as a default view. **** 
+A Table View is a view defined in Table. The table view can be re-used for the object class, for example as a default view. **** 
 
 1.  To add Table View, in the **View** section, click **Modify** and click ![IDACC168F80DC1495F.IDB0443BB7368C408D.png](media/IDACC168F80DC1495F.IDB0443BB7368C408D.png) on **Add** button.
 
@@ -216,15 +201,6 @@ To add a browse path, do the following:
 6.  Click **OK**.
 7.  Click **OK**.
 
-In this article
-
-* * *
-
-*   [Path Condition](#path-condition)
-
-* * *
-
-
 
 ## Path Condition
 
@@ -237,8 +213,8 @@ To add a step in the path condition, do the following:
     ![ID6FE78B10200C43CF.ID5542AD8FA2124201.jpg](media/ID6FE78B10200C43CF.ID5542AD8FA2124201.jpg)
 3.  In the list, select the correct object class.
 4.  In the immediately followin **By** section, define the condition between the two object classes. To enter conditions for more than one set of proerties, click **Add>>**. For more information on defining conditinos see [Conditions](../../common-concepts/conditions.md "Conditions").  ![ID6FE78B10200C43CF.IDCAA7AE065E8D4BD1.jpg](media/ID6FE78B10200C43CF.IDCAA7AE065E8D4BD1.jpg)
-5.  If the path condition is finished, click **OK,** <span style="FONT-WEIGHT: normal">then click **OK,** <span style="FONT-WEIGHT: normal">then click **OK.**
-6.  Or, to add another step in the path, click **Click to modify the right side of join**<span style="FONT-WEIGHT: normal">.
+5.  If the path condition is finished, click **OK,** then click **OK,** then click **OK.**
+6.  Or, to add another step in the path, click **Click to modify the right side of join**.
 7.  Repeat from 1)
 
 
@@ -286,7 +262,7 @@ The default form is used whenever an object is opened and a form is not specifie
 
 To define the default form, in the **Default Form** box select a form. The default view in the form is used.
 
-It is only possible to select a form with a data source based on the object class, where the data source can contain only one object, and is set as <span style="FONT-WEIGHT: normal">Is Master. The **Master Data Soure** **** box displays this data source from the selected form.
+It is only possible to select a form with a data source based on the object class, where the data source can contain only one object, and is set as Is Master. The **Master Data Soure** **** box displays this data source from the selected form.
 
 Currently this setting is only applicable when opening an object through a shortcut, for example from the navigation pane, an e-mail, or the desktop.
 

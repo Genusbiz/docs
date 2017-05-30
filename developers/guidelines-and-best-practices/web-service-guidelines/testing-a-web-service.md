@@ -4,13 +4,6 @@ To test run a Web Service published on your application server, we recommend usi
 
 In addition, early testing can be performed by utilizing the Genus feature for test running a Web Service from a rich client. See below for more information.  
 
-In this article
-
-* * *
-
-*   [Test Run a Web Service Operation from a desktop client](#test-run-a-web-service-operation-from-a-desktop-client)
-
-* * *
 
 ## Test Run a Web Service Operation from a desktop client
 

@@ -1,6 +1,6 @@
 ## Properties
 
-See [Common Control Properties](../../common-control-properties.md), in addition to the control specific <span style="FONT-WEIGHT: normal">properties below.
+See [Common Control Properties](../../common-control-properties.md), in addition to the control specific properties below.
 
 **General**
 
@@ -112,7 +112,7 @@ For information on specific properties see Level Properties below.
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The direction to stack the slices. Only applicable for layout slice and dice.
+The direction to stack the slices. Only applicable for layout slice and dice.
 
 **Vertical**
 
@@ -162,11 +162,11 @@ Stack the slices horizontally.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Colorizer Type</td>
+<td>Colorizer Type</td>
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The type of colorizer to use to automatically calculate a color for each box based on its size. Only applicable for nested levels data structures. For information on colorizing single level data structures, see <span style="FONT-WEIGHT: normal">[Groups](properties.md)<span style="FONT-WEIGHT: normal">.
+The type of colorizer to use to automatically calculate a color for each box based on its size. Only applicable for nested levels data structures. For information on colorizing single level data structures, see [Groups](properties.md).
 
 **Desaturation**
 
@@ -212,19 +212,6 @@ For information on specific properties see Colorizer Gradient Properties below.
 
 </table>
 
-In this article
-
-* * *
-
-*   [Groups](#groups)
-
-*   [Levels](#levels)
-
-*   [Colorizer Desaturation](#colorizer-desaturation)
-
-*   [Colorizer Gradient](#colorizer-gradient)
-
-* * *
 
 ## Groups
 
@@ -278,11 +265,11 @@ In this article
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Colorizer Type</td>
+<td>Colorizer Type</td>
 
 <td>
 
-<span style="FONT-WEIGHT: normal">The type of colorizer to use for this group, to automatically calculate a color for each box based on its size.
+The type of colorizer to use for this group, to automatically calculate a color for each box based on its size.
 
 **Desaturation**
 

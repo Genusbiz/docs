@@ -22,13 +22,6 @@ The group control can easily be changed into a [group box](group-box.md) control
 
 It is not possible to move groups by dragging them with the mouse. To do this, first change the group to a group box, move the group box, and change the group box to a group.  
 
-In this article
-
-* * *
-
-*   [Properties](#properties)
-
-* * *
 
 ## Properties
 

@@ -73,7 +73,7 @@ To preload several instances of the model to achieve better response in a multi 
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">WarmUpController:CoreServiceObjectPoolWorkerEnabled</td>
+<td>WarmUpController:CoreServiceObjectPoolWorkerEnabled</td>
 
 <td>The default value is <span style="FONT-STYLE: italic">true, which should normally not be changed.</td>
 

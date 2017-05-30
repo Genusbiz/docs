@@ -44,7 +44,7 @@ To set default filters, right-click the data sources in filter or in the axis an
 
 ![ID7FEFE85AED014BFB.ID1AB9B6AF7E17486B.png](media/ID7FEFE85AED014BFB.ID1AB9B6AF7E17486B.png)
 
-*   **[Saved Data Filter](../../../../developers/defining-the-application-model/data-filters.md)** <span style="FONT-WEIGHT: normal">(inserts predefined data filter as filter)
+*   **[Saved Data Filter](../../../../developers/defining-the-application-model/data-filters.md)** (inserts predefined data filter as filter)
 
 </td>
 
@@ -54,7 +54,7 @@ To set default filters, right-click the data sources in filter or in the axis an
 
 <td>**Required**</td>
 
-<td><span style="FONT-WEIGHT: normal">Set whether the time data source is required or not. If required, the user has to set filter to run the report.</td>
+<td>Set whether the time data source is required or not. If required, the user has to set filter to run the report.</td>
 
 </tr>
 
@@ -64,7 +64,7 @@ To set default filters, right-click the data sources in filter or in the axis an
 
 <td>
 
-<span style="FONT-WEIGHT: normal">Set whether the user can select one or many members in filter.
+Set whether the user can select one or many members in filter.
 
 </td>
 
@@ -74,7 +74,7 @@ To set default filters, right-click the data sources in filter or in the axis an
 
 <td>**Published**</td>
 
-<td><span style="FONT-WEIGHT: normal">Publish the time data source, so users have rights to change the filter in report in run mode.</td>
+<td>Publish the time data source, so users have rights to change the filter in report in run mode.</td>
 
 </tr>
 
@@ -98,13 +98,6 @@ To set default filters, right-click the data sources in filter or in the axis an
 
 </table>
 
-In this article
-
-* * *
-
-*   [Absolute and Relative Time Filter](#absolute-and-relative-time-filter)
-
-* * *
 
 ## Absolute and Relative Time Filter
 

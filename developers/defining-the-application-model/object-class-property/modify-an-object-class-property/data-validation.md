@@ -8,17 +8,6 @@ Several types of data validation are supported:
 *   **Required value**. The value for a Property can not be blank.
 *   **Condition-based validation**. Defined by describing a condition which expresses what is regarded as erroneous data. For example that the start date for a project not can occur after the end date.
 
-In this article
-
-* * *
-
-*   [Data Type Validation](#data-type-validation)
-
-*   [Make a Property Required](#make-a-property-required)
-
-*   [Add a Condition-Based Data Validation](#add-a-condition-based-data-validation)
-
-* * *
 
 ## Data Type Validation
 

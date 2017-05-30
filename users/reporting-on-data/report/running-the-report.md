@@ -4,13 +4,6 @@ To run the report, click **Refresh** or press **F5**.
 
 ![ID2A84FC5BC875451B.ID7F99B2D5573B4DCC.png](media/ID2A84FC5BC875451B.ID7F99B2D5573B4DCC.png)
 
-In this article
-
-* * *
-
-*   [Automatic Refresh](#automatic-refresh)
-
-* * *
 
 ## Automatic Refresh
 

@@ -31,7 +31,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Data Filter</td>
+<td>Data Filter</td>
 
 <td> Filters the data for the control.
 
@@ -42,7 +42,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Default Selection</td>
+<td>Default Selection</td>
 
 <td>
 
@@ -66,7 +66,7 @@ A condition defines which items are initially selected.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Display Value</td>
+<td>Display Value</td>
 
 <td>A field in the data source to display as the value in the list.</td>
 
@@ -74,7 +74,7 @@ A condition defines which items are initially selected.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Orientation</td>
+<td>Orientation</td>
 
 <td>
 
@@ -92,11 +92,11 @@ The items in the list is displayed from top to bottom.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Selection Mode</td>
+<td>Selection Mode</td>
 
 <td>
 
-<span style="FONT-WEIGHT: normal">Defines how the control accepts selection of items.
+Defines how the control accepts selection of items.
 
 **Single**
 
@@ -116,13 +116,13 @@ Several items can be selected at the same time. To select consecutive items, cli
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Show Special Items</td>
+<td>Show Special Items</td>
 
 <td>
 
 Show items to assist user with selection
 
-*   **None -** <span style="FONT-WEIGHT: normal">the user can click this item to clear the value. Only displayed for Native style Single selection mode.
+*   **None -** the user can click this item to clear the value. Only displayed for Native style Single selection mode.
 *   **(Select All)** - the user can click this item to select all the items. Only displayed for Check Box style.
 
 </td>
@@ -131,7 +131,7 @@ Show items to assist user with selection
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Sort Order</td>
+<td>Sort Order</td>
 
 <td>
 
@@ -147,7 +147,7 @@ Sort alphabetically ascending.
 
 **Descending**
 
-<span style="FONT-WEIGHT: normal">Sort alphabetically descending.
+Sort alphabetically descending.
 
 </td>
 
@@ -155,7 +155,7 @@ Sort alphabetically ascending.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Style</td>
+<td>Style</td>
 
 <td>
 
@@ -195,7 +195,7 @@ Displays a list of items where each item is preceeded by a radio button. Only av
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Maximum Lines</td>
+<td>Maximum Lines</td>
 
 <td>The maximum number of lines the list box can display without scroll bars. If there are less items to display the size of the control is reduced accordingly.</td>
 

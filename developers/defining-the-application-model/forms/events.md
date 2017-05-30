@@ -2,19 +2,6 @@
 
 Events are used to make specific [Commands](commands.md) available to the users through menu items and buttons, and to react to a number of other occurences in the form, like when a view is opened or a control receives focus.
 
-In this article
-
-* * *
-
-*   [Add an Event](#add-an-event)
-
-*   [General Settings for an Event](#general-settings-for-an-event)
-
-*   [Event Types](#event-types)
-
-*   [Menus](#menus)
-
-* * *
 
 ## Add an Event
 

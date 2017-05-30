@@ -4,7 +4,7 @@ A control for editing unformatted multiline text. When the control is not active
 
  **Properties**
 
-<span style="FONT-WEIGHT: normal">See [<span style="FONT-WEIGHT: normal">Common Control Properties](../common-control-properties.md)<span style="FONT-WEIGHT: normal">, in addition to the control specific properties below.
+See [Common Control Properties](../common-control-properties.md), in addition to the control specific properties below.
 
 General 
 
@@ -22,7 +22,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Accepts Tab</td>
+<td>Accepts Tab</td>
 
 <td>Accepts TAB characters as part of the text.</td>
 
@@ -30,7 +30,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Allow Resize</td>
+<td>Allow Resize</td>
 
 <td>Allows the user to resize the popup window.</td>
 
@@ -38,7 +38,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Popup Height</td>
+<td>Popup Height</td>
 
 <td>Limits the number of lines in the popup window.</td>
 
@@ -46,7 +46,7 @@ General
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Scrollbar</td>
+<td>Scrollbar</td>
 
 <td>
 
@@ -58,7 +58,7 @@ Displays scrollbars inside the control to allow scrolling the text horizontally,
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Word Wrap</td>
+<td>Word Wrap</td>
 
 <td>Lines of text are wrapped to the next line, if they are too long to be displayed on one line in the control.</td>
 

@@ -20,7 +20,7 @@ Not all properties below are applicable to all container controls.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Allow Horizontal Sizing</td>
+<td>Allow Horizontal Sizing</td>
 
 <td>Offers handles on the left and right borders of the layout control wich allows the user to drag the border to resize the container control horisontally. Not applicable for conditional group.</td>
 
@@ -28,7 +28,7 @@ Not all properties below are applicable to all container controls.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Allow Vertical Sizing</td>
+<td>Allow Vertical Sizing</td>
 
 <td>Offers handles on the top and bottom borders of the layout control wich allows the user to drag the border to resize the container control vertically. Not applicable for conditional group.</td>
 
@@ -36,7 +36,7 @@ Not all properties below are applicable to all container controls.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Container Type</td>
+<td>Container Type</td>
 
 <td>The type of container. Enables changing the type of a container between group and group box. Only applicable for group and group box.</td>
 
@@ -92,7 +92,7 @@ The controls are aligned horizontally within the group, disregarding controls in
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Orientation</td>
+<td>Orientation</td>
 
 <td>
 

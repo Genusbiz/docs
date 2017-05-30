@@ -22,7 +22,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Type</td>
+<td>Type</td>
 
 <td>
 

@@ -4,23 +4,6 @@ All of the data that appears in a form or table are stored in the form or table'
 
 To see if a data source is used within the form, right click the data source, and click **Find Local References**. To see if a specific field of a data source is used within the form, click the data source, and then in the list of fields, right click the field, and click **Find Local References**.
 
-In this article
-
-* * *
-
-*   [Add a Data Source](#add-a-data-source)
-
-*   [Data Binding](#data-binding)
-
-*   [Add a New Field to a Data Source](#add-a-new-field-to-a-data-source)
-
-*   [Customize a Field Bound to an Object Class Property](#customize-a-field-bound-to-an-object-class-property)
-
-*   [Add a Rule to a Data Source](#add-a-rule-to-a-data-source)
-
-*   [Reading Data into a Data Source](#reading-data-into-a-data-source)
-
-* * *
 
 ## Add a Data Source
 
@@ -177,7 +160,7 @@ To add a new field, do the following:
 Data calculation lets you define a default value, a formula or an aggregated measure.
 
 *   **A default value** for a field is calculated when an object is created. For example, you may want to set the <span style="FONT-STYLE: italic">state for a <span style="FONT-STYLE: italic">customer to <span style="FONT-STYLE: italic">Active by default when a new <span style="FONT-STYLE: italic">customer is created. For more information on how to specify a default value, see the article [Specifying a Default Value or Formula](../object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data**.
-*   **A formula** is calculated whenever data are read or modified. For example you could calculate the deviation between actual and budget figures. For more information on how to specify a formula, see the article [Specifying a Default Value or Formula](../object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data** and **Function**<span style="FONT-WEIGHT: normal">.
+*   **A formula** is calculated whenever data are read or modified. For example you could calculate the deviation between actual and budget figures. For more information on how to specify a formula, see the article [Specifying a Default Value or Formula](../object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data** and **Function**.
 *   **An aggregated measure** is built by changing the granularity on specific dimensions and aggregating up a measure along these dimensions. For example, in a data source based on the Object Class <span style="FONT-STYLE: italic">Customer, you could calculate <span style="FONT-STYLE: italic">total sales year to date or <span style="FONT-STYLE: italic">outstanding debt. For more information on how to specify an aggregate measure, see the article [Specifying an Aggregated Measure](../../installation-and-configuration/configure-and-maintain-genus-server/specifying-an-aggregated-measure.md "Specifying an Aggregated Measure"). Applies to fields of type **Function**.
 
 </td>
@@ -233,7 +216,7 @@ Use data validation to ensure that values entered for a field satisfies certain 
 
 Most property settings for fields which are bound to an [Object Class Property](../object-class-property.md "Object Class Property") are inherited, and you are only allowed to modify the following properties:
 
-*   **Default Value**<span style="FONT-WEIGHT: normal">. To specify a default value, in the **Data Calculation** <span style="FONT-WEIGHT: normal">section, select the **Override** <span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">check box.
+*   **Default Value**. To specify a default value, in the **Data Calculation** section, select the **Override** check box.
 *   **Allow Blank Value**. If the bound Property not requires a value, you are allowed to make the field required.
 *   **Condition-Based Data Validations**. You can add any number of data validations. Note that data validations defined for a field are evaluated after data validations defined for the bound Property.
 
@@ -250,7 +233,7 @@ Note that Rules defined in the Object Class which the data source is based on, a
 **Auto Delete** If Auto delete objects when these fields are clear is selected, an object will automatically be deleted when the specified fields are cleared. In a multidimensional table layout where changes to objects are automatically saved, you can enable this option to simplify the data entry task. For example, in a table used for entering budget figures for a predefined set of accounts and periods, you might want to automatically delete a budget entry when the amount for a given account and period is cleared. 
 
 1\. Select the **Auto delete objects when these fields are clear** check box.  
-2\. Click <span style="FONT-WEIGHT: normal">Modify.  
+2\. Click Modify.  
 3\. In the **Fields** list box, click the field of your choice. Hold down CTRL and click, if you want to choose more than one field.  
 4\. Click **Add**, and then **OK**.  
 

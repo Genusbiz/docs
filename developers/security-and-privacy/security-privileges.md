@@ -4,15 +4,6 @@ A privilege is a users right to perform a specific task, usually one that affect
 
 To ease the task of user account administration, privileges can only be assigned to security groups. When you assign privileges to a security group, users are automatically assigned those privileges when they become a member of that group. This method of administering privileges is far easier than assigning individual privileges to each user account when the account is created.
 
-In this article
-
-* * *
-
-*   [Privileges that can be Granted to a Security Group](#privileges-that-can-be-granted-to-a-security-group)
-
-*   [Grant a Privilege to a Security Group](#grant-a-privilege-to-a-security-group)
-
-* * *
 
 ## Privileges that can be Granted to a Security Group
 

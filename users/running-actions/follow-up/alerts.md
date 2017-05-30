@@ -2,15 +2,7 @@
 
 An alert is a notification to follow up on an item or an event. When you receive an alert, the alert appears in the **Alerts window** used to manage incoming alerts. The source of an alert can be such as a Reminder that is due, a Notification triggered by a specified event or an Agent reporting that an execution has failed.
 
-In this article
 
-* * *
-
-*   [View Alerts](#view-alerts)
-
-*   [Working with Alerts](#working-with-alerts)
-
-* * *
 
 ## View Alerts
 

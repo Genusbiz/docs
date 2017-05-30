@@ -10,13 +10,6 @@ During design, a tab is displayed for each group, and by selecting a tab it is p
 
 To remove a group, select the tab for the group, and press DELETE. To change the order of the groups, right click one of the tabs, and click **Sort Groups**. To add a new group, select the conditional group control and then double click the Group control or the Group Box control in the control pane.
 
-In this article
-
-* * *
-
-*   [Conditional Groups Properties](#conditional-groups-properties)
-
-* * *
 
 ## Conditional Groups Properties
 

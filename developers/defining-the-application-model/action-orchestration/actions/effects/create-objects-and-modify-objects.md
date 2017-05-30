@@ -12,23 +12,6 @@ For each field or group you can assign a value, either by typing a formula or a 
 
 For information on committing changes, adjusting transaction timeouts, running with elevated privileges, and supressing user notifications see [Scope](../blocks/scope.md).
 
-In this article
-
-* * *
-
-*   [Add a Group](#add-a-group)
-
-*   [Assign a Value to a Group](#assign-a-value-to-a-group)
-
-*   [Assign a Value to a Field](#assign-a-value-to-a-field)
-
-*   [Filter Data for a Group](#filter-data-for-a-group)
-
-*   [Sort Data in a Group](#sort-data-in-a-group)
-
-*   [Advanced Options](#advanced-options)
-
-* * *
 
 ## Add a Group
 
@@ -71,7 +54,7 @@ If you are creating new objects, one object would be created for each object in 
 
 If you are modifying objects, you need to provide a data binding to pair objects in the data source you are modifying, with objects in the bound group. For example, if you are updating employee data with data received in an XML, where an employee is identified by an employee number, you would define a data binding such as:
 
-<span style="FONT-STYLE: italic">Employee.Employee Number = EmployeeSchema.Employee.EmployeeNumber
+*Employee.Employee Number = EmployeeSchema.Employee.EmployeeNumber*
 
 Data binding can be defined when modifying objects with values from other data sources, in all other cases, a data filter can be defined.
 
@@ -113,7 +96,7 @@ If you choose to save objects in separate transactions, select the **Stop if an 
 
 Applies to data sources of type object. If the effect is run from an interactive client, the maximum timeout is limited to 5 minutes.
 
-To specify a custom <span style="FONT-WEIGHT: normal">timeout, click **Allow transactions to run for** , and then type the maximum number of minutes transactions are allowed to run.
+To specify a custom timeout, click **Allow transactions to run for** , and then type the maximum number of minutes transactions are allowed to run.
 
 **Security Options**
 
@@ -123,5 +106,5 @@ Select the **Run with Highest Privileges** check box to run the effect with elev
 
 Enable User Notifiation Contstraints**
 
-<span style="FONT-WEIGHT: normal">Enable User Notification Constraints is available for effect in task and data sources of the type Object. To disable evaluation of the [Uniqueness Constraints](../../../object-class/modify-an-object--or-identifier-domain/data-integrity.md) and [Consistency Constraints](../../../object-class/modify-an-object--or-identifier-domain/data-integrity.md), click to clear** Enable User Notification Constraints<span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">. Only constraints of the type Notify user and ask for confirmation to proceed will be disable.  
+Enable User Notification Constraints is available for effect in task and data sources of the type Object. To disable evaluation of the [Uniqueness Constraints](../../../object-class/modify-an-object--or-identifier-domain/data-integrity.md) and [Consistency Constraints](../../../object-class/modify-an-object--or-identifier-domain/data-integrity.md), click to clear** Enable User Notification Constraints. Only constraints of the type Notify user and ask for confirmation to proceed will be disable.  
 

@@ -8,21 +8,6 @@ A Task is defined by:
 *   Adding actions used to perform different kinds of tasks.
 *   Publish the Task to Forms and Tables.
 
-In this article
-
-* * *
-
-*   [Create a Task](#create-a-task)
-
-*   [Add Data Sources to a Task](#add-data-sources-to-a-task)
-
-*   [Add Actions to a Task](#add-actions-to-a-task)
-
-*   [Publish a Task](#publish-a-task)
-
-*   [View the Execution History for a Task](#view-the-execution-history-for-a-task)
-
-* * *
 
 ## Create a Task
 

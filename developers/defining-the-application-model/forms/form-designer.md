@@ -8,13 +8,6 @@ To edit a form in the designer, go to the list of forms in Genus Studio, locate 
 
 To view the form definition in a read only mode, press and hold the CTRL+SHIFT keys when opening the form. This prevents the form from being locked for other modelers, and it is not possible to save any changes to the form.
 
-In this article
-
-* * *
-
-*   [Designer Window Content](#designer-window-content)
-
-* * *
 
 ## Designer Window Content
 

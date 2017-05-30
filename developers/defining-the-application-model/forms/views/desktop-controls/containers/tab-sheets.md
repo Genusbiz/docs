@@ -8,13 +8,6 @@ Tab sheets can can contain several group controls, and displays a tab for each o
 
 To remove a tab sheet, select the tab, and press DELETE. To change the order of the tab sheets, right click one of the tabs, and click **Sort Tab Sheets**. To add a new tab sheet, select the tab sheets control and then double click the Group control or the Group Box control in the control pane. To modify the content of a tab sheet, select the tab, and then select the group in the tab sheet.
 
-In this article
-
-* * *
-
-*   [Properties](#properties)
-
-* * *
 
 ## Properties
 
@@ -40,7 +33,7 @@ See [Common Container Properties](common-container-properties.md) and [Common Co
 
 <td>
 
-The tabs are displayed along one of the sides within the control: **Top**, **Bottom**, **Left**, or **Right**<span style="FONT-WEIGHT: normal">.
+The tabs are displayed along one of the sides within the control: **Top**, **Bottom**, **Left**, or **Right**.
 
 </td>
 

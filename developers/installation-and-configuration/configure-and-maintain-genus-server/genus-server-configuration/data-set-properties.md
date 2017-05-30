@@ -6,21 +6,6 @@ In the console tree in the left pane, expand the **Directories** folder, locate 
 
 The data set properties are grouped according to area and presented in tabs. For more information on the individual tabs, see the articles below.
 
-In this article
-
-* * *
-
-*   [General](#general)
-
-*   [Database Connections](#database-connections)
-
-*   [Services](#services)
-
-*   [Automatic Updates](#automatic-updates)
-
-*   [Help and Support](#help-and-support)
-
-* * *
 
 ## General
 

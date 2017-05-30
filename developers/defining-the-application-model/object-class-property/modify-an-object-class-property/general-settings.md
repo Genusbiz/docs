@@ -10,7 +10,7 @@ The display name for the property.
 
 **Type**
 
-A property can be defined as a **Data** or a **Function** property. Values for properties of type **Data** are stored in the database in the table column specified as **RDBMS Column Name** if data binding is **One-Way Bound** or **Two-Way Bound**<span style="FONT-WEIGHT: normal">, or in memory if data binding is **Unbound**<span style="FONT-WEIGHT: normal">. Values for properties of type **Function** are calculated using a [formula or a RDBMS expression](data-calculation.md). The value for a function property is recalculated whenever data are read or modified.
+A property can be defined as a **Data** or a **Function** property. Values for properties of type **Data** are stored in the database in the table column specified as **RDBMS Column Name** if data binding is **One-Way Bound** or **Two-Way Bound**, or in memory if data binding is **Unbound**. Values for properties of type **Function** are calculated using a [formula or a RDBMS expression](data-calculation.md). The value for a function property is recalculated whenever data are read or modified.
 
 **Data Type**
 
@@ -49,7 +49,7 @@ The number of decimals used when comparing floating-point data during concurrenc
 
 Defines how to interpret data of a given type. For example, string data can be interpreted as an e-mail address or an Internet URL. Most data types have a default interpretation, that is, data are interpreted based on the data type itself.
 
-Data can be interpreted as a **simple type,** <span style="FONT-WEIGHT: normal">a **complex** **type** or a **complex association**.
+Data can be interpreted as a **simple type,** a **complex** **type** or a **complex association**.
 
 *   **Simple types** represents a single piece of information, such as a number or a text. For more information, see the article [Simple Data Interpretations for a Property](../../simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property").
 *   A **complex type** represents an Object Class in your Directory. For example, a numeric property containing the employee id for the manager of a project, should be interpreted as an employee. In the context of relational databases, this represents a foreign key, which is a referential constraint between two tables. Note that only Object Classes which has [a primary key which comprises a single property](../../object-class/modify-an-object--or-identifier-domain/data-integrity.md) can be used for complex interpretation. In addition, only Object Classes which has a primary key with the same data type and size as the property are available as complex interpretations. A special case exists for the property which represent the primary key for an Object Class. Data interpretation for this property has to be defined as the Object Class itself.
@@ -71,7 +71,7 @@ Represents the height in pixels the thumbnail image is resized to, if it is high
 
 **Provider Name**
 
-For properties of type **Data**, with data binding **One-Way Bound** or **Two-Way Bound**<span style="FONT-WEIGHT: normal">, the value is required and specifies the name of the column in the table or view where data for the Object Class Property is stored.
+For properties of type **Data**, with data binding **One-Way Bound** or **Two-Way Bound**, the value is required and specifies the name of the column in the table or view where data for the Object Class Property is stored.
 
 For other properties a value is not required, and is only used in certain situations, like when using name binding to/from JSON or XML. For example when using the [Import Data](../../action-orchestration/actions/effects/import-data.md) effect.
 
@@ -91,7 +91,7 @@ Normally the outbound reference constraint should be enabled to enforce referent
 
 **Data Binding**
 
-<span style="FONT-WEIGHT: normal">The data binding defines the connection between the property and the RDBMS column. The data flow can go from the RDBMS column to the property, for example when data are changed by Live Update, and/or from the property to the RDBMS column, for example when the content of a property is changed by a user. Unbound properties are not connected to an RDBMS column, and data must flow from/to the property through other means, like data calculations, rules, tasks etc.
+The data binding defines the connection between the property and the RDBMS column. The data flow can go from the RDBMS column to the property, for example when data are changed by Live Update, and/or from the property to the RDBMS column, for example when the content of a property is changed by a user. Unbound properties are not connected to an RDBMS column, and data must flow from/to the property through other means, like data calculations, rules, tasks etc.
 
 *   **Unbound**. There is no connection to an RDBMS column. Data is not retrieved or persisted directly, but the data flow must be defined specifically in each case.
 *   **One-Way Bound**. Changes in the data only flows from the RDBMS column to the property. This type of binding is appropriate for data which are read-only.
@@ -101,16 +101,16 @@ Normally the outbound reference constraint should be enabled to enforce referent
 
 Read on Demand
 
-<span style="FONT-WEIGHT: normal">Applies to properties with a binary data type and functions calculated using an RDBMS expression.
+Applies to properties with a binary data type and functions calculated using an RDBMS expression.
 
-<span style="FONT-WEIGHT: normal">When reading object data from the database, the value for a property with this option selected, would not be read. For example, if the property represents a calculated measure which only is used for aggregation purposes, you should select this option.
+When reading object data from the database, the value for a property with this option selected, would not be read. For example, if the property represents a calculated measure which only is used for aggregation purposes, you should select this option.
 
-<span style="FONT-WEIGHT: normal">For example, a <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales data <span style="FONT-WEIGHT: normal">object contains information about <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">quantity <span style="FONT-WEIGHT: normal">and <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">price<span style="FONT-WEIGHT: normal">. The <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales amount <span style="FONT-WEIGHT: normal">is calculated as <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">quantity * price <span style="FONT-WEIGHT: normal">using an [<span style="FONT-WEIGHT: normal">RDBMS expression](data-calculation.md)<span style="FONT-WEIGHT: normal">. The <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales amount <span style="FONT-WEIGHT: normal">should not be read as part of the object data when accessing a single <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales data <span style="FONT-WEIGHT: normal">object. However, when aggregating data, the <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales amount <span style="FONT-WEIGHT: normal">should be used to calculate an aggregated value.
+For example, a <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales data object contains information about <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">quantity and <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">price. The <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales amount is calculated as <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">quantity * price using an [RDBMS expression](data-calculation.md). The <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales amount should not be read as part of the object data when accessing a single <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales data object. However, when aggregating data, the <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">sales amount should be used to calculate an aggregated value.
 
-<span style="FONT-WEIGHT: normal">Applies to properties with a binary data type and functions calculated using an RDBMS expression.
+Applies to properties with a binary data type and functions calculated using an RDBMS expression.
 
 Description  
-<span style="FONT-WEIGHT: normal">Documentation of the purpose and content of the property.
+Documentation of the purpose and content of the property.
 
 ** 
 

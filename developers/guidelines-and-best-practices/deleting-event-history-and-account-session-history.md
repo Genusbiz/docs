@@ -1,6 +1,6 @@
 ## Deleting Event History and Account Session History
 
- <span style="FONT-WEIGHT: normal">
+ 
 
 To control the growth of history, Genus provides capabilities to define "retention rules" for history logs, like Account Session History, Agent Execution History, and Event History, using the [Delete Objects](../defining-the-application-model/action-orchestration/actions/effects/delete-objects.md) effect. The effect can be included in any action-based concept, such as an Agent, a Task, a Web Service, or a Rule. One reason that the Event History grows large is the logging of Executed events for Web Services, Agents and Tasks. During development and testing, you would often select the option Save Detailed Execution Trace in History, which may generate a large amount of data for each execution.
 

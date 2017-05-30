@@ -27,7 +27,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Data Filter</td>
+<td>Data Filter</td>
 
 <td>
 
@@ -42,7 +42,7 @@ Filters the data for the control.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Display Value</td>
+<td>Display Value</td>
 
 <td>A field in the data source to display as the value in the list.</td>
 
@@ -73,7 +73,7 @@ Show items to assist the user with selection
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Sort Order</td>
+<td>Sort Order</td>
 
 <td>
 
@@ -89,7 +89,7 @@ Sort alphabetically ascending.
 
 **Descending**
 
-<span style="FONT-WEIGHT: normal">Sort alphabetically descending.
+Sort alphabetically descending.
 
 </td>
 
@@ -97,7 +97,7 @@ Sort alphabetically ascending.
 
 <tr>
 
-<td><span style="FONT-WEIGHT: normal">Style</td>
+<td>Style</td>
 
 <td>
 

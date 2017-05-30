@@ -16,27 +16,6 @@ Supported file formats:
 *   General file (any file format)
 *   File folder
 
-In this article
-
-* * *
-
-*   [Select an Input Data File and a Data Source to Import Data into](#select-an-input-data-file-and-a-data-source-to-import-data-into)
-
-*   [Specifying a Log File](#specifying-a-log-file)
-
-*   [Specifying an Error File](#specifying-an-error-file)
-
-*   [Specifying a Discard File](#specifying-a-discard-file)
-
-*   [Specifying the Row- and Column Format for a Text File](#specifying-the-row--and-column-format-for-a-text-file)
-
-*   [Specifying the Source Data and Column Mappings for an MS Excel File](#specifying-the-source-data-and-column-mappings-for-an-ms-excel-file)
-
-*   [Options for an XML File](#options-for-an-xml-file)
-
-*   [Options for a JSON File](#options-for-a-json-file)
-
-* * *
 
 ## Select an Input Data File and a Data Source to Import Data into
 
@@ -458,7 +437,7 @@ Click the **Settings** tab.
 
 Click the **Settings** tab.
 
-*   In the **JSON Root Path** box, enter a path to only store a specific part of the JSON document. To access object properties, use the dot-notation <span style="FONT-STYLE: italic">store.name or the bracket-notation <span style="FONT-STYLE: italic">store['name']. To access array elements, use the subscript operator <span style="FONT-STYLE: italic">store.books[0]. Array indices always start by 0.
+*   In the **JSON Root Path** box, enter a path to only store a specific part of the JSON document. To access object properties, use the dot-notation *store.name or the bracket-notation store['name']. To access array elements, use the subscript operator store.books[0]. Array indices always start by 0*.
 
 
 

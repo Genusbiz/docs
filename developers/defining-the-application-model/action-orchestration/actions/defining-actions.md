@@ -2,21 +2,6 @@
 
 ![IDF036A2BF3D414749.png](media/IDF036A2BF3D414749.png)
 
-In this article
-
-* * *
-
-*   [Add Actions](#add-actions)
-
-*   [Modify Action Properties](#modify-action-properties)
-
-*   [Move Actions](#move-actions)
-
-*   [Clone Actions](#clone-actions)
-
-*   [Delete Actions](#delete-actions)
-
-* * *
 
 ## Add Actions
 

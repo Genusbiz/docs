@@ -5,25 +5,6 @@ This part of the setup allows you to define how users can interact with objects 
 *   Built-in effects. such as <span style="FONT-STYLE: italic">New and <span style="FONT-STYLE: italic">Open, available to users.
 *   Tasks and Reports available to users in the Task Pane and menus.
 
-In this article
-
-* * *
-
-*   [Add an Event](#add-an-event)
-
-*   [General Settings for an Event](#general-settings-for-an-event)
-
-*   [Available Menus for an Event](#available-menus-for-an-event)
-
-*   [Available Effect Types for an Event](#available-effect-types-for-an-event)
-
-*   [Restrict Access to an Event](#restrict-access-to-an-event)
-
-*   [Filtering Data for an Event](#filtering-data-for-an-event)
-
-*   [Sort Events](#sort-events)
-
-* * *
 
 ## Add an Event
 
@@ -83,7 +64,7 @@ In this article
 
 <td>Effect Type</td>
 
-<td>The operation performed by the event: **Insert a New Row**, **Open a Form**, **Run a Task**<span style="FONT-WEIGHT: normal">, **Delete Objects**<span style="FONT-WEIGHT: normal"><span style="FONT-WEIGHT: normal">, **Open a Report**<span style="FONT-WEIGHT: normal">, **Drill Aggregated Field**, or **Open Associated Objects**. For more information, see the article below describing available effects for an event.</td>
+<td>The operation performed by the event: **Insert a New Row**, **Open a Form**, **Run a Task**, **Delete Objects**, **Open a Report**, **Drill Aggregated Field**, or **Open Associated Objects**. For more information, see the article below describing available effects for an event.</td>
 
 </tr>
 

@@ -6,17 +6,6 @@ Choose from a wide range of effect types that are characteristic for forms, or r
 
 To see if a command is used within the form, right click the command, and click **Find Local References**.
 
-In this article
-
-* * *
-
-*   [Add a Command](#add-a-command)
-
-*   [General Settings for a Command](#general-settings-for-a-command)
-
-*   [Command Types](#command-types)
-
-* * *
 
 ## Add a Command
 
@@ -68,7 +57,7 @@ The control or view the command is associated with. For some controls commands c
 
 <td>Create Data</td>
 
-<td>Specifies how to create new data for data sources when opening a form. Only applicable for the **Open a Form** <span style="FONT-WEIGHT: normal">command type.</td>
+<td>Specifies how to create new data for data sources when opening a form. Only applicable for the **Open a Form** command type.</td>
 
 </tr>
 
@@ -211,7 +200,7 @@ The type of effect for the command. For more information, see Command Types belo
 
 <td>
 
-The view to use when opening the form specified in the **Effect** <span style="FONT-WEIGHT: normal">option. Only applicable for the **Open A Form** command type.
+The view to use when opening the form specified in the **Effect** option. Only applicable for the **Open A Form** command type.
 
 </td>
 

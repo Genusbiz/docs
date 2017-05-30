@@ -6,25 +6,6 @@ Also, in corporate environments the Genus desktop client may be [preinstalled](i
 
 Note that any other running Genus desktop clients on your computer must be terminated before starting the Genus desktop client installation. The installation program will warn you if any other Genus desktop clients are running, and wait for you to terminate them.
 
-In this article
-
-* * *
-
-*   [Install Genus Desktop Client Using the Genus Installer](#install-genus-desktop-client-using-the-genus-installer)
-
-*   [Install Genus Desktop Client Using an Internet Address (URL)](#install-genus-desktop-client-using-an-internet-address-url)
-
-*   [Install Genus Desktop Client Using a Provided Setup File](#install-genus-desktop-client-using-a-provided-setup-file)
-
-*   [Install Genus Desktop Client on a Terminal Server](#install-genus-desktop-client-on-a-terminal-server)
-
-*   [Genus Desktop Client Installation Files Footprint](#genus-desktop-client-installation-files-footprint)
-
-*   [Genus Desktop Client Startup Logic](#genus-desktop-client-startup-logic)
-
-*   [Uninstall Genus Desktop Client from Your Computer](#uninstall-genus-desktop-client-from-your-computer)
-
-* * *
 
 ## Install Genus Desktop Client Using the Genus Installer
 
@@ -37,15 +18,6 @@ This installer program can also be downloaded from an internet address, se [Inst
 In special cases, typically in corporate environments, you do not have enough rights on your computer to run the Genus Desktop Client Installer. In such cases the Genus desktop client application will be installed for you by your system administrator. See [Install Genus Desktop Client Silently for Your Users](install-genus-desktop-clients-silently-for-your-users.md) for more information.
 
 See below for technical information regarding the Genus Desktop Client Installer.
-
-In this article
-
-* * *
-
-*   [Genus Desktop Client Installer](#genus-desktop-client-installer)
-
-* * *
-
 
 
 ## Genus Desktop Client Installer

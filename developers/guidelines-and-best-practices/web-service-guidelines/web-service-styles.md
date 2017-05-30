@@ -6,15 +6,6 @@ The "document/literal wrapped" binding style is also preferred when consuming an
 
 See also: [Which style of WSDL should I use?](https://www.ibm.com/developerworks/webservices/library/ws-whichwsdl/)
 
-In this article
-
-* * *
-
-*   [Document / Literal Wrapped Style Web Services](#document-literal-wrapped-style-web-services)
-
-*   [RPC/Literal Style Web Services](#rpc-literal-style-web-services)
-
-* * *
 
 ## Document / Literal Wrapped Style Web Services <a name="document-literal-wrapped-style-web-services"/>
 
