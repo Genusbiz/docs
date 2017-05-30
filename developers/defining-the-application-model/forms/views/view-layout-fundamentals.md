@@ -1,4 +1,4 @@
-## View Layout Fundamentals
+# View Layout Fundamentals
 
 Creating a good layout is perhaps one of the most important, and difficult, tasks of building a view. The characteristics of a good layout can be intangible, and small changes can make a big difference.
 

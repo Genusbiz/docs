@@ -1,4 +1,4 @@
-## Commands
+# Commands
 
 Commands are used to specify tasks and operations in the form. A command is triggered through the Ribbon, or by an [Event](events.md).
 

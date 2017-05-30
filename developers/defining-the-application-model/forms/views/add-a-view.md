@@ -1,4 +1,4 @@
-## Add a View
+# Add a View
 
 To add a view:
 

@@ -1,4 +1,4 @@
-## View Properties
+# View Properties
 
 **General**
 
