@@ -5,7 +5,7 @@ Feel free to contribute! See [Ways to contribute](#ways-to-contribute) on how to
 
 See www.genus.no for more general information about our products and our company.
 
-Our guidelines are as follows:
+## Guidelines
 * Keep the articles short and to the point.
 * It is better to start out small and then iterate and evolve more content later.
 * Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished. Please return to finish it as soon as possible.
@@ -14,8 +14,13 @@ Our guidelines are as follows:
 * Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like those defined in the [Glossary](developers/defining-the-application-model/glossary.md) (Genus App Platform, Genus Apps etc). See example [here](https://github.com/GenusAS/docs/blob/master/developers/installation-and-configuration/system-requirements.md).
 * Use hyphens (-) in article file and folder names, since the markdown previewers do not like spaces in article cross references.
 
-## Ways to contribute
+## Transition period guidelines
+We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:
+* Change the term "Application" to "App".
+* Convert Html tables to [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables). Who completes [this](developers/keyboard-shortcuts.md) article?
+* Article main headers are supposed to be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. See [here](developers/defining-the-application-model/general-settings/data-sets.md) for an example of an article with correct headers.
 
+## Ways to contribute
 You can submit updates to the Genus App Platform documentation as follows:
 * If your are making small changes, like adjusting content of an article, use the [GitHub](https://github.com/GenusAS/docs) user interface. Either find the article in this repository, or visit the article on [docs.genus.no](http://genusdocs.azurewebsites.net) and click the "Improve this doc" link, which will take you to the article in GitHub.
 * All articles are written in [markdown](https://en.wikipedia.org/wiki/Markdown). You may contribute directly by submitting pull requests. Employees of Genus may commit directly. All pull requests and commits are reviewed by the internal Genus editorial board.
@@ -26,8 +31,8 @@ Note that a commit automatically will trigger a rebuild of the docs site, which 
 Please provide any commit comments in English. It is not necessary to provide commit comments for minor changes like correcting spelling errors or similar.
 
 ## How to use markdown
-
-All the articles in the repository use GitHub and DocFX flavored markdown. Here is a list of resources.
+All the articles in the repository use GitHub and DocFX flavored Markdown. Here is a list of resources.
 * [Markdown basics](https://help.github.com/articles/markdown-basics/) (from GitHub)
-* [DocFX flavoured markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html)
-* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [DocFX flavoured Markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html)
+* [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Printable Markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
