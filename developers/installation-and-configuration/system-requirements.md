@@ -1,4 +1,4 @@
-# System Requirements
+# System requirements
 
 See below for the system requirements for your personal computer running the Genus Client for Desktop, and the application server running Genus App Services.
 
