@@ -19,7 +19,7 @@ Depending of the type of table, the **Layout Grid** is divided into different ar
 ![IDAB6E7DCF4B9B4890.ID05B61B20510C470F.jpg](media/IDAB6E7DCF4B9B4890.ID05B61B20510C470F.jpg)
 
 
-## Add a Row template
+## Add a row template
 
 Do one of the following:
 
@@ -47,7 +47,7 @@ Screen Tip                    | Text displayed when the user hovers the mouse ov
 Visible                       | To set the visibility of all the rows of a row template, do one of the following:<br><br><ul><li>If the rows are alvways visible, select **Yes**.</li><li>If the rows are never visible, click **No**.</li><li>If the rows are visible if a specified condition is true, click **Enter a condition**, and then [specify a condition](../common-concepts/conditions.md).</li></ul>
 
 
-## Add a Column
+## Add a column
 
 A column can be one of the following types:
 
@@ -79,7 +79,7 @@ Identifying Data | To present a common set of values for all objects on a row, y
 Repeated Data | To present more than one object on a row, you can add a **Repeated Data** column to the layout. In the example above, sales quotas are repeated for a given set of months. To determine the number of months data should be repeated for, the column is bound to a data source containing months:<br><br>![ID93DC94C24DF249CF.jpg](media/ID93DC94C24DF249CF.jpg)<br><br>![IDEE1710B087D34386.jpg](media/IDEE1710B087D34386.jpg)<br><br>Note that when you bind a row template to other data sources repeated as rows and/or columns, the fields used to bind the row template to these data sources must uniquely identify an object. In the example above, it is assumed that no more than one sales quota is registered for any given employee in any given month. | <ol><li>In the **Layout Grid**, select the columns which you want to repeat, and then in the **Task Pane**, click **Repeat Columns**. To select more than one column, press the CTRL key, and then click which columns to repeat.</li><li>To bind the column to a data source, in the **Properties** area, in the **Data Source** box, select a data source.</li></ol><br><br>To establish a relationship between the column and a row template, you need to bind the row template to the column. For more information, see the article [Bind a Row Template to another Row Template, Columns, or Data Fields](layout.md).
 Summary Data | In a multidimensional table containing one or more **Repeated Data** columns, you can add **Summary Data** columns in order to present summarized values, such as total amount for all objects on a row. In the example above, the last column, *Total*, presents the total sales quota for an employee for all months. The total amount is fetched from a data source where data have been read into the data source by aggregating sales quota by employee for all months present in the table. Since summary columns presents data for more than one object, you need to bind cell templates located below a **Summary Data** column to the data source(s) which identifies the objects on a row:<br><br>![IDAAB31B2910D44C12.jpg](media/IDAAB31B2910D44C12.jpg)<br><br>![IDD6BD5CE9FF6448E9.jpg](media/IDD6BD5CE9FF6448E9.jpg)<br><br>![ID635259BFC527432D.jpg](media/ID635259BFC527432D.jpg) | <ol><li>Drag a field from the **Data Sources** page in the **Task Pane** into the **Summary****Columns** area of the **Layout Grid**.</li><li>Make sure the cell is selected.</li><li>In the **Properties** area, in the **Row Binding** box, click ![ID354A38E26B574FFF.jpg](media/ID354A38E26B574FFF.jpg).</li><li>Specify a condition which expresses which object(s) in the summary data source that should be presented on a given row.</li></ol>
 
-### Column Properties
+### Column properties
 
 Property                      | Description
 ------------------------------|----------------------------
@@ -103,7 +103,7 @@ Visible                       | To set the visibility of the column, do one of t
 Width                         | Controls the width of a column. By default, the width is adjusted to fit the column label and the contents in the column (**Auto**)**.** To prevent the automatic width from taking up too much space, specify the maximum width in the **max characters** box. To adjust the width to fit the contents only, click **Value**. To specify a specific width, click **Fixed**, and then type the width of the column measured in characters.
 
 
-## Bind a Cell Template to a Field
+## Bind a cell template to a field
 
 Do one of the following:
 
@@ -118,7 +118,7 @@ If you bind a cell to a field located in a data source which not is bound to the
 
 Row binding is also used to map objects in cell templates located below **Summary Data** columns.
 
-### Cell Template Properties
+### Cell template properties
 
 Property                      | Description
 ------------------------------|----------------------------
@@ -141,7 +141,7 @@ Show Field Value Icon         | Available if the cell is bound to a field with a
 Tab Stop                      | Specifies if the cell is included in the tab sequence. To never include the cell in the tab sequence, select **No**. To always include the cell in the tab sequence, select **Yes**. To include the cell in the tab sequence only if a specified condition is true, select **Enter a condition**, and then click **[...]** to [specify a condition](../common-concepts/conditions.md).
 
 
-## Add a Data Field
+## Add a data field
 
 In the table illustrated below, products are filtered by a data field bound to a data source containing product subcategories:
 
@@ -165,7 +165,7 @@ When you drag a data source from the **Task Pane** to add a new data field, the 
 
 You can [bind a row template to a data field](layout.md) in order to filter data in the data source bound to the row template, and for assigning a default value to the field connecting the row template with the data field.
 
-### Data Field properties
+### Data field properties
 
 Property                      | Description
 ------------------------------|----------------------------
@@ -177,9 +177,9 @@ Visible                       | To set the visibility of the data field, do one 
 
 
 
-## Bind a Row Template to another Row Template, Columns or Data Fields
+## Bind a row template to another row template, columns or data fields
 
-### Bind a Row Template to a Data Field
+### Bind a row template to a data field
 
 A row template can be bound to a data field by specifying which field in the data source bound to the row template that should be used to establish the relationship. The data type for the field has to be the same as the data type for the data source bound to the data field.
 
@@ -201,7 +201,7 @@ To filter products on the selected subcategory, a data binding has been establis
 
 When binding a row template for a data source with a nested data definition, the binding can be applied to objects on *all levels*, or to *top level objects only*. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data.
 
-### Bind a Row Template to another Row Template
+### Bind a row template to another row template
 
 Data binding between row templates enables you to design a table where objects are presented in a hierarchical structure.
 
@@ -219,7 +219,7 @@ The row template for *Product Subcategory* is bound to the *Product Category* da
 
 When binding a row template for a data source with a nested data definition, the binding can be applied to objects on *all levels*, or to *top level objects only*. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data.
 
-### Bind a Row Template to a Column
+### Bind a row template to a column
 
 Column binding enables you to design a multidimensional table where objects with a common set of values are laid out in a fixed number of rows and columns.
 
@@ -243,7 +243,7 @@ Note that when you bind a row template to other data sources repeated as rows an
 
 
 
-## Special considerations when filtering data for a Data Field
+## Special considerations when filtering data for a data field
 
 The following considerations applies for data fields bound to data sources where only one object can be present.
 
