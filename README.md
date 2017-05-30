@@ -9,9 +9,9 @@ Our guidelines are as follows:
 * Keep the articles short and to the point.
 * It is better to start out small and then iterate and evolve more content later.
 * Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished. Please return to finish it as soon as possible.
-* Use images sparingly, as these are hard to maintain over time. Put any images in the images subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information.
+* Use images sparingly, as these are hard to maintain over time. Put any images in the media subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information.
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
-* Use [title case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) in the article main heading only. Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) everywhere else, including references to articles. See example [here](https://github.com/GenusAS/docs/blob/master/developers/installation-and-configuration/system-requirements.md).
+* Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like those defined in the [Glossary](developers/defining-the-application-model/glossary.md) (Genus App Platform, Genus Apps etc). See example [here](https://github.com/GenusAS/docs/blob/master/developers/installation-and-configuration/system-requirements.md).
 * Use hyphens (-) in article file and folder names, since the markdown previewers do not like spaces in article cross references.
 
 ## Ways to contribute
