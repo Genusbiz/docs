@@ -1,4 +1,4 @@
-## Specifying a Condition-Based Data Validation
+# Specifying a Condition-Based Data Validation
 
 1.  In the **If this condition is true** boxes enter the [condition](../common-concepts/conditions.md "Conditions") which expresses what is regarded as erroneous data for the Property or Field.
 2.  Choose if the validation is a constraint or a check. A constraint enforces rules for maintaining data integrity. Any attempt to save an object which violates the constraint will be denied. A check will inform the user, but does not prevent the user from saving the object. That is, constraints are to be satisfied, while checks only express a preference of some kind.
