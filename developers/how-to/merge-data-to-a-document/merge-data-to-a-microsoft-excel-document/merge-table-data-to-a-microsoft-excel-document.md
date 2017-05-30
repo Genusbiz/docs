@@ -4,7 +4,7 @@ The example below shows a possible result after merging a selection of Employees
 
 ![IDB865F463DFAB4AA7.IDDEEF7BA7524047D1.png](media/IDB865F463DFAB4AA7.IDDEEF7BA7524047D1.png)
 
-Note that the Excel merge feature is made possible by using special tags called [Smart Markers](merge-table-data-to-a-microsoft-excel-document.md), since Microsoft Excel natively do <span style="FONT-STYLE: italic">not support the same flexibility as Microsoft Word. The native Excel mechanisms - which are <span style="FONT-STYLE: italic">not used - is to connect to external data sources through a data connection, which is a set of information that describes how to locate, sign in, query, and access the external data source.
+Note that the Excel merge feature is made possible by using special tags called [Smart Markers](merge-table-data-to-a-microsoft-excel-document.md), since Microsoft Excel natively do *not* support the same flexibility as Microsoft Word. The native Excel mechanisms - which are *not* used - is to connect to external data sources through a data connection, which is a set of information that describes how to locate, sign in, query, and access the external data source.
 
 
 ## Basic Steps
