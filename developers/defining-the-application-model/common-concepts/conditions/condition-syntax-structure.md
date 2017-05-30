@@ -1,4 +1,4 @@
-## Condition Syntax Structure
+# Condition syntax structure
 
 A condition evaluates to a logical true value or logical false value, according to the structure described below.
 
@@ -10,7 +10,7 @@ A condition evaluates to a logical true value or logical false value, according 
 
 <th>
 
-<span style="TEXT-DECORATION: underline">Condition
+_Condition_
 
 - is defined as one of the following
 
@@ -54,7 +54,7 @@ A condition evaluates to a logical true value or logical false value, according 
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">Group  
+<th>_Group_
 - is defined as</th>
 
 <th></th>
@@ -79,7 +79,7 @@ A condition evaluates to a logical true value or logical false value, according 
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">LogicalOperator  
+<th>_LogicalOperator_  
 - is defined as one of the following  
 (listed in order of precedence)</th>
 
@@ -125,7 +125,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">Expression  
+<th>_Expression_  
 - is defined as one of the following</th>
 
 <th></th>
@@ -178,7 +178,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <th>
 
-<span style="TEXT-DECORATION: underline">BooleanExpression
+_BooleanExpression_
 
 - is defined as
 
@@ -206,7 +206,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">Operand  
+<th>_Operand_  
 - is defined as one of the following</th>
 
 <th></th>
@@ -263,7 +263,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">Field - is defined as</th>
+<th>_Field_ - is defined as</th>
 
 <th></th>
 
@@ -287,7 +287,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">Lookup - is defined as</th>
+<th>_Lookup_ - is defined as</th>
 
 <th></th>
 
@@ -313,7 +313,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <th>
 
-<span style="TEXT-DECORATION: underline">ActiveObjectSelection
+_ActiveObjectSelection_
 
 - is defined as
 
@@ -341,7 +341,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">Formula - is defined as</th>
+<th>_Formula_ - is defined as</th>
 
 <th></th>
 
@@ -365,7 +365,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">Constant - is defined as</th>
+<th>_Constant_ - is defined as</th>
 
 <th></th>
 
@@ -389,7 +389,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">SetOperation - is defined as</th>
+<th>_SetOperation_ - is defined as</th>
 
 <th></th>
 
@@ -413,7 +413,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">SetOperator  
+<th>_SetOperator_  
 - is defined as one of the following</th>
 
 <th></th>
@@ -472,7 +472,7 @@ Evaluates to true if the expression evaluates to false for every member of the s
 
 <tr>
 
-<th><span style="TEXT-DECORATION: underline">UnaryOperator  
+<th>_UnaryOperator_  
 - is defined as one of the following</th>
 
 <th></th>
@@ -507,7 +507,7 @@ Evaluates to true if the expression evaluates to false for every member of the s
 
 <th>
 
-<span style="TEXT-DECORATION: underline">BinaryOperator
+_BinaryOperator_
 
 - is defined as one of the following
 

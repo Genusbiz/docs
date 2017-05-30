@@ -1,4 +1,4 @@
-## Open a Form
+# Open a Form
 
 Use this effect to open a form where the user can fill out and save data for a new or existing objects, work with data in a table, or view the content of a Report or a web page.
 
@@ -86,7 +86,7 @@ Open the standard windows print settings dialog.
 2.  In the **Description** box, optionally type a description.
 3.  In the **Type** box, select *Print Settings Window.*
 4.  In the **Data Source** box, select a print settings data soure.
-5.  In the **Target** box, select <span style="FONT-STYLE: italic; FONT-WEIGHT: normal">Microsoft Word Print Settings window or<span style="FONT-STYLE: italic; FONT-WEIGHT: normal">Microsoft Excel Print Settings window to specify which type of print settings window to use.
+5.  In the **Target** box, select *Microsoft Word Print Settings* window or *Microsoft Excel Print Settings* window to specify which type of print settings window to use.
 6.  To create a new print settings object when the form is opened, in the **Action** section, click **Create**. To assign default values for the new object, click **Default Values**, and [assign values](create-objects-and-modify-objects.md "Create Objects and Modify Objects") to the groups and fields in the data source. To modify an existing print settings data source, in the **Action** section, click **Modify**.
 7.  Select the **Exit Task** **on cancel** check box if you do not want to execute suceeding effects if the user chooses the **Cancel** button in the form. This option is only available if the **Wait until the form is closed** check box is selected.
 8.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.

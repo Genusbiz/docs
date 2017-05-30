@@ -1,4 +1,4 @@
-## Set a Field's Value
+# Set a Field's Value
 
 Use this effect to set the value for a field in one of your data sources equal to a specified value, a value from another field or a calculated value. This effect is commonly used in [Rules](../../../object-class/modify-an-object--or-identifier-domain/rules.md) to set the value for a field based on the value for another field. For example, when a user enters a *ZIP code*, the *State field* is automatically populated with the correct state.
 
@@ -10,7 +10,7 @@ Use this effect to set the value for a field in one of your data sources equal t
 *   To select a field from one of your data sources, in the **Value** box, click **Select field or group**. In the **Select Field or Group** dialog box, select a field with the same data type as the field whose value you want to set.
 *   To enter a formula, in the **Value** box, click **Enter a formula**. See the article [Enter a Formula in the Formula Editor](../../../common-concepts/advanced-expressions/formula-editor.md) for more information.
 
-If the selected field contains text data, you can compose a text by typing text, and inserting formulas and fields from your data sources. The text can contain line breaks and sections used for collecting data from repeating groups. To compose a text, click **Composed Text**. See the article [<span style="FONT-FAMILY: Segoe UI">Generate Dynamic Values for Text Fields](mk:@MSITStore:D:\WSRoot\Genus\Evolution\doc\Help\GenusLogixHelp_1033.chm::/../generate-dynamic-values-for-text-fields.md) for more information.
+If the selected field contains text data, you can compose a text by typing text, and inserting formulas and fields from your data sources. The text can contain line breaks and sections used for collecting data from repeating groups. To compose a text, click **Composed Text**. See the article [Generate Dynamic Values for Text Fields](mk:@MSITStore:D:\WSRoot\Genus\Evolution\doc\Help\GenusLogixHelp_1033.chm::/../generate-dynamic-values-for-text-fields.md) for more information.
 
 See Also
 

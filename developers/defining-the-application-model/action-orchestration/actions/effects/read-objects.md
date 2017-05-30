@@ -1,4 +1,4 @@
-## Read Objects
+# Read Objects
 
 With this effect you can read objects into a data source restricted by a data filter, and optionally display a dialog where the user can select one or more objects from the read objects (only available for Tasks). You can choose if the objects are added to, kept in or removed from existing objects in the data source, or if existing objects are replaced by the read objects. The objects can be read from the database or from another datasource of the same type.
 
@@ -29,20 +29,20 @@ Normally when data is read from another data source, objects are copied from the
 
 **Task 1**  
 
-<span style="TEXT-DECORATION: underline">Data sources:  
+*Data sources*:
 1) All Transactions  
 
-<span style="TEXT-DECORATION: underline">Actions:  
+*Actions*:
 1) Scope (with commit)  
 1.1) Run a Task: Task 2, two way binding to All Transactions  
 
 **Task 2**  
 
-<span style="TEXT-DECORATION: underline">Data sources:  
+*Data sources*:
 1) Single Transaction (private)  
 2) All Transactions (public)  
 
-<span style="TEXT-DECORATION: underline">Actions:  
+*Actions*:
 1) Create Objects: Single Transaction  
 2)...some logic with the need to access the created object in Single Transaction before it is appended to All Transactions  
 3) Read Objects: All Transactions. Read all objects from datasource Single Transaction. Add and transfer objects.  

@@ -1,4 +1,4 @@
-## Automatic Formatting
+# Automatic Formatting
 
 Automatic formatting helps you visualize specific aspects of your data. You can apply automatic formatting to a row or cell in a table view. Whenever you analyze data, you often ask yourself questions, such as:
 
@@ -148,11 +148,9 @@ Display Text
 
 ## Automatic Formatting using Data Bars
 
-<span lang="EN-US" style="LINE-HEIGHT: 115%; COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">A data bar helps you see the value of a cell relative to other cells. The length of the data bar represents the value in the cell. A longer bar represents a higher value, and a shorter bar represents a lower value. Data bars are useful in spotting higher and lower numbers, especially with large amounts of data, such as top selling and bottom selling toys in a holiday sales report.</font>
+A data bar helps you see the value of a cell relative to other cells. The length of the data bar represents the value in the cell. A longer bar represents a higher value, and a shorter bar represents a lower value. Data bars are useful in spotting higher and lower numbers, especially with large amounts of data, such as top selling and bottom selling toys in a holiday sales report.</font>
 
-<span lang="EN-US" style="LINE-HEIGHT: 115%; COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Data Bar <span lang="EN-US" style="LINE-HEIGHT: 115%; COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Properties</font> :</font>
-
- <span lang="EN-US" style="LINE-HEIGHT: 115%; COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US">
+Data bar properties:
 
 <table style="WIDTH: 100%">
 
@@ -170,7 +168,7 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">**Bar Range and Position**</font>
+**Bar Range and Position**</font>
 
 </td>
 
@@ -182,11 +180,11 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Type - Minimum</font>
+Type - Minimum</font>
 
 </td>
 
-<td><span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Defines what value the shortest bar should be based on. To use the smallest value in the column, select **Automatic**, to use a specific number select **Fixed Value**.</font></td>
+<td>Defines what value the shortest bar should be based on. To use the smallest value in the column, select **Automatic**, to use a specific number select **Fixed Value**.</font></td>
 
 </tr>
 
@@ -194,11 +192,11 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Value - Minimum</font>
+Value - Minimum</font>
 
 </td>
 
-<td><span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">If the minimum type was set to **Fixed Value**, this field contains the value the shortest bar should be based on.</font></td>
+<td>If the minimum type was set to **Fixed Value**, this field contains the value the shortest bar should be based on.</font></td>
 
 </tr>
 
@@ -206,11 +204,11 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Type - Maximum</font>
+Type - Maximum</font>
 
 </td>
 
-<td><span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Defines what value the longest bar should be based on. To use the largest value in the column, select **Automatic**, to use a specific number select **Fixed Value**.</font></td>
+<td>Defines what value the longest bar should be based on. To use the largest value in the column, select **Automatic**, to use a specific number select **Fixed Value**.</font></td>
 
 </tr>
 
@@ -218,11 +216,11 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Value - Maximum</font>
+Value - Maximum</font>
 
 </td>
 
-<td><span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">If the maximum type was set to **Fixed Value**, this field contains the value the longest bar should be based on.</font></td>
+<td>If the maximum type was set to **Fixed Value**, this field contains the value the longest bar should be based on.</font></td>
 
 </tr>
 
@@ -230,13 +228,13 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Direction</font>
+Direction</font>
 
 </td>
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">The direction of the bar for increasing values, **Left to Right** or **Right to Left**.</font>
+The direction of the bar for increasing values, **Left to Right** or **Right to Left**.</font>
 
 </td>
 
@@ -246,7 +244,7 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">**Zero Position**:</font>
+**Zero Position**:</font>
 
 </td>
 
@@ -258,29 +256,13 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">- Automatic</font>
+- Automatic</font>
 
 </td>
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Display the zero position at variable position based on the range of negative and positive values.</font>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">- Cell Midpoint</font>
-
-</td>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Display the zero position at the cell midpoint regardless of the range of negative and positive values.</font>
+Display the zero position at variable position based on the range of negative and positive values.</font>
 
 </td>
 
@@ -290,29 +272,13 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">- Cell Edge</font>
+- Cell Midpoint</font>
 
 </td>
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Display the zero position at the left or right cell edge depending on the bar direction. Negative and positive bars are shown in the same direction.</font>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Show Bar Only</font>
-
-</td>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Hides the value of the field in the cell.</font>
+Display the zero position at the cell midpoint regardless of the range of negative and positive values.</font>
 
 </td>
 
@@ -322,7 +288,39 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">**Bar Appearance**</font>
+- Cell Edge</font>
+
+</td>
+
+<td>
+
+Display the zero position at the left or right cell edge depending on the bar direction. Negative and positive bars are shown in the same direction.</font>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Show Bar Only</font>
+
+</td>
+
+<td>
+
+Hides the value of the field in the cell.</font>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+**Bar Appearance**</font>
 
 </td>
 
@@ -334,29 +332,13 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Fill</font>
+Fill</font>
 
 </td>
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">The type of fill used for the bar, **Solid Fill** or **Gradient Fill**.</font>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Border</font>
-
-</td>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">The type of border used for the bar, **No Border** or **Solid Border**.</font>
+The type of fill used for the bar, **Solid Fill** or **Gradient Fill**.</font>
 
 </td>
 
@@ -366,29 +348,13 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Fill Color - Positive Bar</font>
+Border</font>
 
 </td>
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">The color of the bar for positive values.</font>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Border Color - Positive Bar</font>
-
-</td>
-
-<td>
-
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">The color of the border of the bar for positive values.</font>
+The type of border used for the bar, **No Border** or **Solid Border**.</font>
 
 </td>
 
@@ -398,13 +364,13 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Fill Color - Negative Bar</font>
+Fill Color - Positive Bar</font>
 
 </td>
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">The color of the bar for negative values.</font>
+The color of the bar for positive values.</font>
 
 </td>
 
@@ -414,13 +380,45 @@ Display Text
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">Border Color - Negative Bar</font>
+Border Color - Positive Bar</font>
 
 </td>
 
 <td>
 
-<span lang="EN-US" style="COLOR: #454545; FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-ansi-language: EN-US"><font face="Calibri">The color of the border of the bar for negative values.</font>
+The color of the border of the bar for positive values.</font>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Fill Color - Negative Bar</font>
+
+</td>
+
+<td>
+
+The color of the bar for negative values.</font>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Border Color - Negative Bar</font>
+
+</td>
+
+<td>
+
+The color of the border of the bar for negative values.</font>
 
 </td>
 
