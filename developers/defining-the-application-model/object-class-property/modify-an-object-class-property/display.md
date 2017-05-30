@@ -40,7 +40,7 @@ Applies to properties with a data type referencing an object class. The value of
 
 When Auto Complete is disabled, the key is displayed instead of the name of the object defined for the referenced object class. It is also not possible to type a key or a name to automatically look up a new object when entering a value.
 
-This is possible for both foreign keys and primary keys, but the main usage is for object classes where the primary key is also a meaningful value to the user. For example, in a <span style="FONT-STYLE: italic">Bank Account object class, where the <span style="FONT-STYLE: italic">Bank Account No is also the primary key, the Enable Auto Complete can be cleared to make it possible to both enter and display the value in a form or a table.
+This is possible for both foreign keys and primary keys, but the main usage is for object classes where the primary key is also a meaningful value to the user. For example, in a *Bank Account object class*, where the *Bank Account No* is also the primary key, the Enable Auto Complete can be cleared to make it possible to both enter and display the value in a form or a table.
 
 **Important****:** Auto Complete requires that the object you are looking up, has a default view defined.  
 For example, the property Department in the object Employee has Auto Complete enabled. If the object Department has no default view, you have to define a default view for the object Department.

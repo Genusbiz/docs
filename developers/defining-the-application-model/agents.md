@@ -221,7 +221,7 @@ By default only the last 100 executions are displayed. If you want to change the
 3.  In the **File** menu, point to **Test Run** and then click **Agent**.
 4.  Follow the instructions in the **Test Run** wizard.
 
-Note that it is important to follow the steps above in the given sequence. Do <span style="FONT-STYLE: italic">not change the definition of the agent or related parts of your application model <span style="FONT-STYLE: italic">after the deploy, and <span style="FONT-STYLE: italic">then do the test run. In such circumstances the test run might fail of subtle technical reasons.
+Note that it is important to follow the steps above in the given sequence. Do *not change the definition of the agent or related parts of your application model after the deploy, and then do the test run. In such circumstances the test run might fail of subtle technical reasons.*
 
 
 

@@ -50,7 +50,7 @@ See [Common Control Properties](../common-control-properties.md), in addition to
 
 <td>Hierarchy</td>
 
-<td>The hierarchy to use when displaying items in the data source. This is useful when selecting from items that are structured in an hierarchical manner. For example when selecting from units in an organisation with the following levels <span style="FONT-STYLE: italic">Company - Department - Unit.</td>
+<td>The hierarchy to use when displaying items in the data source. This is useful when selecting from items that are structured in an hierarchical manner. For example when selecting from units in an organisation with the following levels *Company - Department - Unit*.</td>
 
 </tr>
 

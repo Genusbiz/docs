@@ -4,8 +4,8 @@ The Advanced Expressions in Genus App Platform are declarative, and you may expr
 
 All functions and values are members of a data type, and there are two kinds of members:
 
-*   Type members: The function or value may only be used on the type itself, i.e. on the type or class level. Example: <span style="FONT-STYLE: italic">String.new.
-*   Instance members: The function or value may only be used on an instance or object of the type. Example: <span style="FONT-STYLE: italic">Company.Name<span style="FONT-STYLE: italic">.toLower<span style="FONT-STYLE: italic">.
+*   Type members: The function or value may only be used on the type itself, i.e. on the type or class level. Example: *String.new*.
+*   Instance members: The function or value may only be used on an instance or object of the type. Example: *Company.Name.toLower*.
 
 Advanced Expressions are case sensitive.
 

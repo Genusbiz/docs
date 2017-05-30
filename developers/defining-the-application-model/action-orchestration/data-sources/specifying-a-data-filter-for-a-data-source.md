@@ -32,7 +32,7 @@ Select how to filter a data source from the following methods:
 
 <td>**Set equal to active user account**</td>
 
-<td>Only available when filtering data for a data source that is associated with a [Account Profile](../../../security-and-privacy/account-profiles.md), for example <span style="FONT-STYLE: italic">Person. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
+<td>Only available when filtering data for a data source that is associated with a [Account Profile](../../../security-and-privacy/account-profiles.md), for example *Person*. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
 
 </tr>
 
@@ -56,7 +56,7 @@ Select how to filter a data source from the following methods:
 
 <td>**All objects**</td>
 
-<td>Populates the data source with all objects of a given type, for example all <span style="FONT-STYLE: italic">Product Categories.</td>
+<td>Populates the data source with all objects of a given type, for example all *Product Categories*.</td>
 
 </tr>
 
@@ -80,7 +80,7 @@ Select how to filter a data source from the following methods:
 
 <td>**Select a specific set of objects**</td>
 
-<td>Populates the data source with a static selection of objects, for example a selection of <span style="FONT-STYLE: italic">Product Categories.</td>
+<td>Populates the data source with a static selection of objects, for example a selection of *Product Categories*.</td>
 
 </tr>
 
@@ -98,7 +98,7 @@ Select how to filter a data source from the following methods:
 
 <td>
 
-Populates the data source with a dynamic selection of objects which satisfies a condition, for example all <span style="FONT-STYLE: italic">employees working in a <span style="FONT-STYLE: italic">department. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions.md) on how to define a condition. To read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
+Populates the data source with a dynamic selection of objects which satisfies a condition, for example all *employees* working in a *department*. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions.md) on how to define a condition. To read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
 
 </td>
 

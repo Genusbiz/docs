@@ -35,7 +35,7 @@ If the service provider requires user authentication, do the following:
 3.  If the Web Service requires certificate based authentication, the certificate must be installed on the application server. Follow the instructions in the [step-by-step procedure](../data-marts/consuming-web-services-with-certificate-based-authentication.md "Consuming Web Services with certificate based authentication") on how to install the certificate.
 4.  In the **Certificate Thumbprint** box, type the certificate thumbprint found in the step-by-step procedure.  
 
-To use another encoding than the default <span style="FONT-STYLE: italic">UTF-8, in the **Text Encoding** box enter the code for the encoding. For example, <span style="FONT-STYLE: italic">ISO-8859-1.
+To use another encoding than the default *UTF-8*, in the **Text Encoding** box enter the code for the encoding. For example, *ISO-8859-1*.
 
 The Envelope Version box displays the applicable SOAP version for the external web service.
 

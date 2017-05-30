@@ -1,6 +1,6 @@
 ## Set a Field's Value
 
-Use this effect to set the value for a field in one of your data sources equal to a specified value, a value from another field or a calculated value. This effect is commonly used in [Rules](../../../object-class/modify-an-object--or-identifier-domain/rules.md) to set the value for a field based on the value for another field. For example, when a user enters a <span style="FONT-STYLE: italic">ZIP code, the <span style="FONT-STYLE: italic">State field is automatically populated with the correct state.
+Use this effect to set the value for a field in one of your data sources equal to a specified value, a value from another field or a calculated value. This effect is commonly used in [Rules](../../../object-class/modify-an-object--or-identifier-domain/rules.md) to set the value for a field based on the value for another field. For example, when a user enters a *ZIP code*, the *State field* is automatically populated with the correct state.
 
 1.  In the **Name** box, optionally type a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
 2.  In the **Description** box, optionally type a description.

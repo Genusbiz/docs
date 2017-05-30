@@ -625,11 +625,11 @@ The unit to display along the timeline. Available values are: **Century**, **Dec
 
 An integer number which specifies the number of intervals that can be grouped together if required, for example during zooming.
 
-<span style="FONT-STYLE: italic">For example: the Interval is set to Week, and Spans is set to 4\. When zooming in and out the timeline may show individual weeks or groups of four and four weeks.
+*For example: the Interval is set to Week, and Spans is set to 4\. When zooming in and out the timeline may show individual weeks or groups of four and four weeks.*
 
 It is possible to allow an interval to span several different values by entering them with a comma between.
 
-<span style="FONT-STYLE: italic">For example: Interval is Minute, Span is "10, 15, 30, 60".
+*For example: Interval is Minute, Span is "10, 15, 30, 60".*
 
 </td>
 

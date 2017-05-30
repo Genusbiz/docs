@@ -168,7 +168,7 @@ Evaluates to true if either of the expressions are true, otherwise the result is
 
 </table>
 
-<span style="FONT-STYLE: italic">Not all combinations of operands and operators are applicable.
+*Not all combinations of operands and operators are applicable.*
 
 <table style="WIDTH: 100%">
 

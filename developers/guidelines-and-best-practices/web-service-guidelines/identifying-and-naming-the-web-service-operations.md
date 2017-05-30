@@ -2,7 +2,7 @@
 
 A Web Service offers a set of operations. These operations can be implemented in the same way as functions are implemented in common programming languages.
 
-E.g. <span style="FONT-STYLE: italic">public ProductList GetProductList( integer ProductCategory )
+E.g. *public ProductList GetProductList( integer ProductCategory )*
 
 The operation GetProductList returns a list of products (ProductList) based on the input parameter ProductCategory.
 

@@ -423,11 +423,11 @@ The control is stretched in vertical direction to fill the container. The height
 
 <td>Format the value and add any text to its textual representation. The formatted text is displayed if the value is not currently edited (if it is not focused or it is read-only).  
 
-<span style="FONT-STYLE: italic">For example, to display currency values, set the DisplayFormatString property to 'c2'. If the editor's value is 99.9, its formatted equivalent will be $99.90.  
+*For example, to display currency values, set the DisplayFormatString property to 'c2'. If the editor's value is 99.9, its formatted equivalent will be $99.90.  
 
 The specified display format should match the value's type, otherwise, it is ignored and is not applied.  
 
-Standard format specifiers for composing the format pattern are described in the Format Strings topics in MSDN.</td>
+Standard format specifiers for composing the format pattern are described in the Format Strings topics in MSDN.*</td>
 
 </tr>
 

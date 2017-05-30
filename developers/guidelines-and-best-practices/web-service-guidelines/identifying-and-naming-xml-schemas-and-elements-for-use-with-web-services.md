@@ -8,7 +8,7 @@ It is recommended to create one XML schema for each web service, and name the sc
 
 For example.
 
-If the web service is named <span style="FONT-STYLE: italic">PayrollTransactions, the schema could be called <span style="FONT-STYLE: italic">PayrollTransactionSchema.
+If the web service is named *PayrollTransactions*, the schema could be called *PayrollTransactionSchema*.
 
 Often it can be neccessary to use the same complex types in schemas for different web services. To re-use these types across different web services, define the types in a separate schema and import it into the web service specific schemas.
 
@@ -18,6 +18,6 @@ The root elements used with an operation should be named according to the operat
 
 For example:
 
-For an operation named <span style="FONT-STYLE: italic">GetItem, the XML element used for the request should be named <span style="FONT-STYLE: italic">GetItem, and the XML element used for the response should be named <span style="FONT-STYLE: italic">GetItemResponse.
+For an operation named *GetItem*, the XML element used for the request should be named *GetItem*, and the XML element used for the response should be named *GetItemResponse*.
 
 The same XML root element can therefore not be used for two different operations within the same web service. To use the same XML structure for two different operations, simply create extra elements, with the correct names, based on the same type.

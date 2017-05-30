@@ -5,7 +5,7 @@ Use this effect to resource efficiently transfer large files from the client to 
 Uploading is supported by the new effect Upload a File. The file can be uploaded to a new or an existing object. If the file is uploaded to a new object, you can define default values as part of the setup. Known properties, such as file name, file type, and file size, are updated automatically by the Application Server when the file has been successfully uploaded and should not be assigned in the default values setup.
 
 1.  In the **File Name** box, enter the full path to the file to upload. You can [compose](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") a file name by typing text, and inserting formulas and fields from your data sources.
-2.  In the Data Source box, select the data source to upload the file to. It is only possible to select a data source that fulfills certain requirements, for more information see <span style="FONT-STYLE: italic">Requirements and considerations for uploading a file below.
+2.  In the Data Source box, select the data source to upload the file to. It is only possible to select a data source that fulfills certain requirements, for more information see *Requirements and considerations for uploading a file below*.
 3.  To create a new object for the uploaded file, click **Create a new object**, and then click **Default Values** to enter default values for the new object.
 4.  To upload the file to an existing object, click **Modify existing object**. This option is only available if the data source can only hold one object.
 

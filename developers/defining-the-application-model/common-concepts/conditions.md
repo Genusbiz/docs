@@ -1,6 +1,6 @@
 ## Conditions
 
-A condition consists of comparisons which evaluates to a TRUE or FALSE value. A comparison states a logical relationship between two values, for example <span style="FONT-STYLE: italic">Person.Name = "Peter Keating", or <span style="FONT-STYLE: italic">100 > 200. A condition is often a logical statement about the state or existence of an object, or the relationship between objects.
+A condition consists of comparisons which evaluates to a TRUE or FALSE value. A comparison states a logical relationship between two values, for example *Person.Name = "Peter Keating"*, or *100 > 200*. A condition is often a logical statement about the state or existence of an object, or the relationship between objects.
 
 Conditions are used extensively throughout the application model. Some examples of usages are:
 

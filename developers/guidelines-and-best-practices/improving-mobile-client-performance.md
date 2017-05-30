@@ -16,7 +16,7 @@ Tasks in a Form with Local Scope are only available in the context of a Form. Be
 
 **Logging on Genus App Services application server**
 
-In the Genus Configuration application, there are several options to turn on extended logging for various categories. To set which file the log should be written to, you must first create a .txt-file. The recommended place to put this file is: <span style="FONT-STYLE: italic">C:\ProgramData\Genus\Server\LogFiles\. Click **Log to file**, and select the file.
+In the Genus Configuration application, there are several options to turn on extended logging for various categories. To set which file the log should be written to, you must first create a .txt-file. The recommended place to put this file is: *C:\\ProgramData\\Genus\\Server\\LogFiles\\*. Click **Log to file**, and select the file.
 
 The detailed logging is useful for debugging, testing and optimization of Genus Apps.
 

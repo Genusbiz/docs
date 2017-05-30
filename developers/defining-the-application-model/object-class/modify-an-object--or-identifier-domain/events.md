@@ -63,7 +63,7 @@ If an Object Class is part of a [composition](../../../installation-and-configur
 
 <td>**Link and Unlink**</td>
 
-<td>Occurs when an object is linked/unlinked to/from another object. For example, if an <span style="FONT-STYLE: italic">employee is assigned as a key account manager for a <span style="FONT-STYLE: italic">customer, this will generate a link event on the <span style="FONT-STYLE: italic">employee object.</td>
+<td>Occurs when an object is linked/unlinked to/from another object. For example, if an *employee* is assigned as a key account manager for a *customer*, this will generate a link event on the *employee object*.</td>
 
 </tr>
 

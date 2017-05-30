@@ -76,9 +76,9 @@ To allow granting of permissions to individual objects, select **Allow granting 
 
 If the Object Class i part of a composition, select **Allow granting of permissions to**, and then select the **all objects within individual compositions** check box, to allow granting of permissions to all objects for a given composition object.
 
-<span style="FONT-STYLE: italic">Example:
+*Example:*
 
-For example, an Object Class Project is composed of two other Object Classes, Activity and Activity Code. Permissions to activities are granted for each activity. However, permissions to add and modify activity codes in a given project, should only be granted to a limited number of users. If a user has sufficient permissions, these permissions should apply to all activity codes in the given project. That is, you do no want to grant permissions for each activity code.
+*For example, an Object Class Project is composed of two other Object Classes, Activity and Activity Code. Permissions to activities are granted for each activity. However, permissions to add and modify activity codes in a given project, should only be granted to a limited number of users. If a user has sufficient permissions, these permissions should apply to all activity codes in the given project. That is, you do no want to grant permissions for each activity code.*
 
 The security setup for the Object Classes in the example above would then be:
 
@@ -150,7 +150,7 @@ All objects within individual compositions
 
 </table>
 
-Note that you must allow granting of permissions to individual objects for the <span style="FONT-STYLE: italic">Project Object Class, since permissions to <span style="FONT-STYLE: italic">activity codes are granted for individual <span style="FONT-STYLE: italic">projects. How to grant permissions to all objects within a composition is described in the article [Grant Permissions to an Individual Object to a User](../../../security-and-privacy/security-permissions.md).
+Note that you must allow granting of permissions to individual objects for the *Project Object Class*, since permissions to *activity codes* are granted for individual *projects*. How to grant permissions to all objects within a composition is described in the article [Grant Permissions to an Individual Object to a User](../../../security-and-privacy/security-permissions.md).
 
 See Also
 

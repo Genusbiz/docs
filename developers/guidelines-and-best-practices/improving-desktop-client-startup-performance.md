@@ -13,6 +13,6 @@ To disable WPAD on your computer, do the following:
 
 In Windows 8 it is also possible to do the following:
 
-1.  Go to the start menu, and search by entering <span style="FONT-STYLE: italic">network proxy settings.
+1.  Go to the start menu, and search by entering *network proxy settings*.
 2.  Start **Network Proxy Settings**.
 3.  In the **Automatic proxy setup** section, click to turn off **Automatically detect settings**.

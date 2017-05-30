@@ -499,7 +499,7 @@ For information on specific properties see Tick Marks / Grid Lines Properties be
 
 The field of a complex data type to use for values along the axis.
 
-For example: if the data type is set to <span style="FONT-STYLE: italic">Company, the value field can be set to <span style="FONT-STYLE: italic">Company.Name to use the name of the companies along the axis, or the value field can be set to <span style="FONT-STYLE: italic">Company.Organizational Code, to use this value along the axis.
+For example: if the data type is set to *Company*, the value field can be set to *Company.Name* to use the name of the companies along the axis, or the value field can be set to *Company.Organizational Code*, to use this value along the axis.
 
 </td>
 
@@ -1403,7 +1403,7 @@ For example: if the series category is set to Company, the display name can be s
 
 <td>Type</td>
 
-<td>The type of series to automatically generate. For exampel, <span style="FONT-STYLE: italic">Line2D or <span style="FONT-STYLE: italic">Area2D.</td>
+<td>The type of series to automatically generate. For exampel, *Line2D* or *Area2D*.</td>
 
 </tr>
 

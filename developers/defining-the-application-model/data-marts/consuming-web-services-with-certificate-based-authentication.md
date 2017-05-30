@@ -10,7 +10,7 @@ To set up certificate based authentication, follow the steps below:
 2.  Navigate to **Genus App Services | Certificates (Local Computer) | Personal | Certificates**, right-click and select **All Tasks | Import**...
 3.  In the **Welcome to the Certificate Import Wizard**, click **Next**.
 4.  On the **File to Import** page, click **Browse**...
-5.  In the **Open** dialog, change the file name filter box to the appropriate format (typical <span style="FONT-STYLE: italic">Personal Information Exchange <span style="FONT-STYLE: italic">(*.pfx, *.p12)), select the file and click **Open**.
+5.  In the **Open** dialog, change the file name filter box to the appropriate format (typical *Personal Information Exchange (\*.pfx, \*.p12)), select the file and click **Open***.
 6.  Back in the **File to Import** page, click **Next**.
 7.  On the **Password** page, enter the certificate password. Click to clear the **Enable** strong private key protection box. Then click **Next**.
 8.  On the **Certificate Store** page, select **Automatically select the certificate store based on the type of certificate** and click **Next**.
@@ -24,7 +24,7 @@ The certificate must be accessible to the identity under which the IIS Applicati
 2.  Navigate to the **Genus App Services | Certificates (Local Computer) | Personal | Certificates** folder.
 3.  Locate the imported certificate, right-click and select **All Tasks | Manage Private Keys**.
 4.  In the **Permissions** dialog, click **Add**...
-5.  In the **Select Users, Computers, Service Accounts, or Groups** dialog, type <span style="FONT-STYLE: italic">NETWORK SERVICE and click OK.
+5.  In the **Select Users, Computers, Service Accounts, or Groups** dialog, type *NETWORK SERVICE* and click OK.
 6.  In the **Group or user names list**, click **NETWORK SERVICE**.
 7.  In the **Permissions for NETWORK SERVICE** box, click to clear the **Full control** check box and keep the **Read** check box selected.
 8.  Click **OK**.

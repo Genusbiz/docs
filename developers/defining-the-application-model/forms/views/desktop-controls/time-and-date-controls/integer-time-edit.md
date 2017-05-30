@@ -2,7 +2,7 @@
 
 The integer time edit control is used for integer encoded time in the form HHMM, two digit hour and two digit minute.
 
-For example: <span style="FONT-STYLE: italic">10:15.
+For example: *10:15*.
 
 **Properties**
 

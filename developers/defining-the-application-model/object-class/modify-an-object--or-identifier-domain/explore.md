@@ -208,7 +208,7 @@ A path condition defines the path from one object class to another, via other ob
 
 To add a step in the path condition, do the following:
 
-1.  The current object class in the path is shown on the left, and the operator in the middle box is <span style="FONT-STYLE: italic">Join with. To select the object class to join with in the box on the right, do this:
+1.  The current object class in the path is shown on the left, and the operator in the middle box is *Join with*. To select the object class to join with in the box on the right, do this:
 2.  Click the down arrow and then click **Select Field or Group**.  
     ![ID6FE78B10200C43CF.ID5542AD8FA2124201.jpg](media/ID6FE78B10200C43CF.ID5542AD8FA2124201.jpg)
 3.  In the list, select the correct object class.

@@ -4,9 +4,9 @@ The search functionality in the Genus desktop client is powerful, and easy to us
 
 **The Model**
 
-When using the search box to [search for objects](../../users/searching-for-data/search-for-objects.md), a set of relevant fields are searched. To offer wider searches, more fields can be defined as relevant when setting up [search](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/search.md). If "too many" fields are added, the performance may be affected. Also, adding fields from connected objects can affect performance, for example adding the field <span style="FONT-STYLE: italic">Contact.Company.Name in the search box for <span style="FONT-STYLE: italic">Contact. If the users require many fields to be searched, a useful approach is to search only one large hidden text field, which is populated with the concatenated values of the other fields using [rules](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/rules.md). This field is then normally searched using full text search. Date properties are not recommended for this approach, as several different date formats may apply.
+When using the search box to [search for objects](../../users/searching-for-data/search-for-objects.md), a set of relevant fields are searched. To offer wider searches, more fields can be defined as relevant when setting up [search](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/search.md). If "too many" fields are added, the performance may be affected. Also, adding fields from connected objects can affect performance, for example adding the field *Contact.Company.Name* in the search box for *Contact*. If the users require many fields to be searched, a useful approach is to search only one large hidden text field, which is populated with the concatenated values of the other fields using [rules](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/rules.md). This field is then normally searched using full text search. Date properties are not recommended for this approach, as several different date formats may apply.
 
-For properties and when defining named search fields in the search pane, it is possible to set the default search operator. Consider this especially for text fields, and where possible choose the less demanding operators <span style="FONT-STYLE: italic">Equal To and <span style="FONT-STYLE: italic">Starting With over <span style="FONT-STYLE: italic">Containing.
+For properties and when defining named search fields in the search pane, it is possible to set the default search operator. Consider this especially for text fields, and where possible choose the less demanding operators *Equal To* and *Starting With* over *Containing*.
 
 The object model in Genus can be compared to an ER-diagram, and the rules of normalization also applies. A good clean object model is always easier to work with and should be the norm. In some cases however, usually connected to performance issues, it is necessary to have a pragmatic approach to these rules. Denormalization is probably one of the easiest and most efficient ways to improve search performance, when required to search based on related objects.
 
@@ -18,13 +18,13 @@ Use indexes. A base rule is that all columns used for searching should have an i
 
 Index statistics should be updated regurarly. Newer database versions perform this task automatically, but if not schedule scripts or maintenance plans, usually on a daily or weekly basis.
 
-<span style="FONT-STYLE: italic; FONT-WEIGHT: bold">MSSQL
+***MSSQL***
 
-In certain cases a Clustered Indexe can improve performnce. To put it simply, if a table has a clustered index, the data is ordered physically on disk according to that index. Therefore a table can only have one clustered index. This improves performance in the cases where the result of a search is a sequential set of data, and the clustered index should therefore be for a property which is "always", or at least very often, used in search. Examples can be a <span style="FONT-STYLE: italic">Date column in a <span style="FONT-STYLE: italic">Transaction table, or the Company column of the <span style="FONT-STYLE: italic; FONT-WEIGHT: normal">Contacttable.
+In certain cases a Clustered Indexe can improve performnce. To put it simply, if a table has a clustered index, the data is ordered physically on disk according to that index. Therefore a table can only have one clustered index. This improves performance in the cases where the result of a search is a sequential set of data, and the clustered index should therefore be for a property which is "always", or at least very often, used in search. Examples can be a *Date column* in a *Transaction table*, or the Company column of the *Contacttable*.
 
 It is rarely necessary with more than one column per index for MSSQL, as it seems to be quite efficient at combining them automatically.
 
-<span style="FONT-STYLE: italic; FONT-WEIGHT: bold">Oracle
+***Oracle***
 
 In the cases where a function property (RDBMS Expression) is required, it is possible to create a function index, or even a function column to improve performance. For more information, follow the link at the bottom of the page.
 

@@ -213,24 +213,24 @@ The start of Task 1 determines the finish of Task 2.
 
 The field that contains an order index. The order index is a number identifying the order of the item in relation to the other items on the same level and within the same summary (parent).
 
-<span style="FONT-STYLE: italic">For example (order index in parenthesis):
+*For example (order index in parenthesis):*
 
-<span style="FONT-STYLE: italic">Summary 1 (1)
+*Summary 1 (1)*
 
-<span style="FONT-STYLE: italic">Summary 1.1 (1)
+*Summary 1.1 (1)*
 
-<span style="FONT-STYLE: italic">Task 1.1.1 (1)
+*Task 1.1.1 (1)*
 
-<span style="FONT-STYLE: italic">Task 1.1.2 (2)
+*Task 1.1.2 (2)*
 
-<span style="FONT-STYLE: italic">Summary 1.2 (2)
+*Summary 1.2 (2)*
 
-<span style="FONT-STYLE: italic">Task 1.2.1 (1)  
-<span style="FONT-STYLE: italic">Task 1.2.2 (2)  
-<span style="FONT-STYLE: italic">Summary 2 (2)
+*Task 1.2.1 (1)*
+*Task 1.2.2 (2)*
+*Summary 2 (2)*
 
-<span style="FONT-STYLE: italic">Task 2.1 (1)  
-<span style="FONT-STYLE: italic">Task 2.2 (2)
+*Task 2.1 (1)*
+*Task 2.2 (2)*
 
 If order index is blank for any of the items tasks, all ordering functionality is disabled and a warning is displayed. If the order index is not unique for all items within a group, ordering may behave erratically.
 
@@ -568,7 +568,7 @@ Only the header is used.
 
 Format the value and add any text to its textual representation. The formatted text is displayed if the value is not currently edited (if it is not focused or it is read-only).  
 
-<span style="FONT-STYLE: italic">For example, to display currency values, set the DisplayFormatString property to 'c2'. If the editor's value is 99.9, its formatted equivalent will be $99.90.  
+*For example, to display currency values, set the DisplayFormatString property to 'c2'. If the editor's value is 99.9, its formatted equivalent will be $99.90.*
 
 The specified display format should match the value's type, otherwise, it is ignored and is not applied.
 

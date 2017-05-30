@@ -2,7 +2,7 @@
 
 This part of the setup allows you to define how users can interact with objects in data sources bound to row templates. In the setup, you can define:
 
-*   Built-in effects. such as <span style="FONT-STYLE: italic">New and <span style="FONT-STYLE: italic">Open, available to users.
+*   Built-in effects. such as *New* and *Open*, available to users.
 *   Tasks and Reports available to users in the Task Pane and menus.
 
 
@@ -48,7 +48,7 @@ This part of the setup allows you to define how users can interact with objects 
 
 <td>Column</td>
 
-<td>Which column in the table layout the event is associated with. For example, an event associated with the **Open** command can be bound to a column to open an outbound object in a cell, such as the <span style="FONT-STYLE: italic">Department column in a table presenting employees.</td>
+<td>Which column in the table layout the event is associated with. For example, an event associated with the **Open** command can be bound to a column to open an outbound object in a cell, such as the *Department* column in a table presenting *employees*.</td>
 
 </tr>
 
