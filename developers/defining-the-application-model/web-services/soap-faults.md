@@ -1,4 +1,4 @@
-## SOAP Faults
+# SOAP Faults
 
 During execution of a Web Service operation, errors may occur that could result in a disruption of the normal execution flow. These errors are often referred to as exceptions. Exceptions that are not handled by [Exception Handlers](../action-orchestration/exception-handling.md "Exception Handlers") within the action orchestration are returned to the Web Service consumer as a response message containing a Windows Communication Foundation (WCF) exception.
 
@@ -33,73 +33,44 @@ If the Web Service is configured to return SOAP faults (defined in WSDL), the da
 
 
 
-## Translation of SOAP Faults for POX/JSON <a name="translation-of-soap-faults-for-pox-json"/>
+## Translation of SOAP Faults for POX/JSON
 
 Generally speaking, there exists no standardized format to be used for returning a SOAP fault that has been created on the server side to a client that consumes a web service using a POX/JSON endpoint. For SOAP faults that originates from Genus App Platform web services, however, we have defined a data format that will be used for this purpose.
 
-**POX**
+### POX
 
 Data returned as Content-Type "text/xml" or "application/xml".
 
 The data returned will be a <WebFault> element according to the following XML Schema:
 
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><?xml version="1.0"?>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:schema xmlns:tns="http://schemas.genus.net/2013/02/WebFault"
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000">elementFormDefault="qualified"
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000">targetNamespace="http://schemas.genus.net/2013/02/WebFault"
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000">xmlns:xs="http://www.w3.org/2001/XMLSchema"
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000">xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:complexType name="WebFault">
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:sequence>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:element minOccurs="0" name="DetailName" nillable="true" type="xs:string" />
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:element minOccurs="0" name="DetailNamespace" nillable="true" type="xs:string" />
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:element minOccurs="0" name="Detail" nillable="true" type="xs:anyType" />
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"></xs:sequence>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"></xs:complexType>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><xs:element name="WebFault" nillable="true" type="tns:WebFault" />
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"></xs:schema>
+```xml
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://schemas.genus.net/2013/02/WebFault" elementFormDefault="qualified" targetNamespace="http://schemas.genus.net/2013/02/WebFault" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xs:complexType name="WebFault">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DetailName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DetailNamespace" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Detail" nillable="true" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WebFault" nillable="true" type="tns:WebFault" />
+</xs:schema>
+```
 
 An example of such a POX response with a custom <MyFault> SOAP Fault detail sub-element is shown below:
 
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><WebFault xmlns="http://schemas.genus.net/2013/02/WebFault"
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000">xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><Message>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000">This is a message
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"></Message>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><DetailName>MyFault</DetailName>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><DetailNamespace>http://tempuri.org/MyFaultNamespace</DetailNamespace>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><Detail xsi:type="a:MyFaultType" xmlns:a="http://tempuri.org/MyFaultNamespace">
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><a:MyDetailItem1>some value</a:MyDetailItem1>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"><a:MyDetailItem2>some other value</a:MyDetailItem2>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"></Detail>
-
-<span style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: #000000"></WebFault>
+```xml
+<WebFault xmlns="http://schemas.genus.net/2013/02/WebFault" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Message>This is a message</Message>
+  <DetailName>MyFault</DetailName>
+  <DetailNamespace>http://tempuri.org/MyFaultNamespace</DetailNamespace>
+  <Detail xsi:type="a:MyFaultType" xmlns:a="http://tempuri.org/MyFaultNamespace">
+    <a:MyDetailItem1>some value</a:MyDetailItem1>
+    <a:MyDetailItem2>some other value</a:MyDetailItem2>
+  </Detail>
+</WebFault>
+```
 
 The elements are explained below:
 
@@ -110,31 +81,22 @@ The elements are explained below:
 
 The client may use the Message value to display the original error message. The DetailName/DetailNamespace values may be used to detect the type of SOAP fault that was thrown by the web service, and the Detail value represents the actual detail document returned.  
 
-**JSON**
+### JSON
 
 Data returned as Content-Type "text/json" or "application/json".  
 
 A JSON response, corresponding to the POX example above, will be the following:  
 
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US">{
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">"Message":"This is a message",
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">"DetailName":"MyFault",
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">"DetailNamespace":"http://tempuri.org/MyFaultNamespace",
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">"Detail":
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">{
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">"__type", "MyFaultType:http://tempuri.org/MyFaultNamespace",
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">"MyDetailItem1", "some value",
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">"MyDetailItemN", "some other value",
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US"><span style="mso-spacerun: yes">}
-
-<span lang="EN-US" style="FONT-SIZE: 10pt; FONT-FAMILY: Consolas; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US">}
+```json
+{
+    "Message":"This is a message",
+    "DetailName":"MyFault",
+    "DetailNamespace":"http://tempuri.org/MyFaultNamespace",
+    "Detail":
+        {
+            "__type", "MyFaultType:http://tempuri.org/MyFaultNamespace",
+            "MyDetailItem1", "some value",
+            "MyDetailItemN", "some other value",
+        }
+}
 

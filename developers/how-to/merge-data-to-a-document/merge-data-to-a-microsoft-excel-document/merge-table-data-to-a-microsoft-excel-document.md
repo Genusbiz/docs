@@ -211,7 +211,7 @@ Parameters are appended to the end of the smart marker in parenthesis as a comma
 
 <colgroup><col width="300" style="WIDTH: 300px"><col width="300" style="WIDTH: 300px"></colgroup></table>
 
-If you have multiple parameters, separate them with a comma, <span style="FONT-STYLE: italic">but no space.
+If you have multiple parameters, separate them with a comma, *but no space*.
 
 **noadd and skip**
 

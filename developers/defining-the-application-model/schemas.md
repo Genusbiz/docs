@@ -316,10 +316,10 @@ The following tables shows a brief description of the Element Types and Element 
 
 <td>
 
-<span style="TEXT-DECORATION: underline">For the Import element:  
+_For the Import element_:  
 Specifies the URI of the namespace to import.
 
-<span style="TEXT-DECORATION: underline">For the anyAttribute element:
+_For the anyAttribute element_:
 
 Specifies the namespaces containing the attributes that can be used. Can be set to one of the following:
 

@@ -1,4 +1,4 @@
-## Operands
+# Operands
 
 The operands are key elements to build [expressions](groups-and-expressions.md), and there are many different types of operands to choose from. Which operands are available depends on the context in an expression it is used. For a simplified overview of the possible combinations of operands and operators, see [Groups and Expressions](groups-and-expressions.md). For ? more complete and technical description see [Condition Syntax Structure](condition-syntax-structure.md).
 
@@ -122,7 +122,7 @@ In a form there is a list of applicants and hired employees, and a button "Hire 
 
 The button is enabled if a condition is fulfilled.
 
-<span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Applicants.SingleSelectedObject.State = EmployeeState.Applicant
+*Applicants.SingleSelectedObject.State = EmployeeState.Applicant*
 
 The Active Object Selection consists of three elements:
 
@@ -138,9 +138,9 @@ A code domain contains a set of code values that can be used directly as an oper
 
 For example:
 
-<span style="FONT-STYLE: italic">Employee.State = EmployeeState.Applicant
+*Employee.State = EmployeeState.Applicant*
 
-<span style="FONT-STYLE: italic">Employee.Gender = Gender.Female
+*Employee.Gender = Gender.Female*
 
 **Lookup**  
 
@@ -148,9 +148,9 @@ A lookup is used to find a set of objects based on a separate condition, and the
 
 For Example:
 
-<span style="FONT-STYLE: italic">// find orders where the responsible is no longer employed
+*// find orders where the responsible is no longer employed*
 
-<span style="FONT-STYLE: italic">Orders.Responsible = Lookup Employee where (Employee_Lookup.State = EmployeeState.Inactive)
+*Orders.Responsible = Lookup Employee where (Employee_Lookup.State = EmployeeState.Inactive)*
 
 **Time Function**
 
@@ -165,15 +165,15 @@ A time offset does one of the following:
 
 For example:
 
-<span style="FONT-STYLE: italic">Time Reference: Today
+*Time Reference: Today*
 
-<span style="FONT-STYLE: italic">Time Offset 1: Shift 14 Days Back
+*Time Offset 1: Shift 14 Days Back*
 
-<span style="FONT-STYLE: italic">Time Offset 2: Shift to First in Month
+*Time Offset 2: Shift to First in Month*
 
 This can also be expressed as a formula:
 
-<span style="FONT-STYLE: italic">CalendarTime.now(TimeResolution.day).addDays(-14 ).firstInMonth
+*CalendarTime.now(TimeResolution.day).addDays(-14 ).firstInMonth*
 
 **Formula**
 
@@ -181,9 +181,9 @@ A formula can contain simple calculations or advanced functions.
 
 For example:
 
-<span style="FONT-STYLE: italic">Box.Volume = box.width * box.length * box.height
+*Box.Volume = box.width * box.length * box.height*
 
-<span style="FONT-STYLE: italic">Summary.MaxAmount = transactions.amount.asOrderedSet().sort(true).last
+*Summary.MaxAmount = transactions.amount.asOrderedSet().sort(true).last*
 
 For more information on formulas, see [Advanced Expressions](../advanced-expressions.md).
 
@@ -193,8 +193,8 @@ A constant can be used as an operand when the data type for the other operand is
 
 For example:
 
-<span style="FONT-STYLE: italic">Person.Age >=18
+*Person.Age >=18*
 
-<span style="FONT-STYLE: italic">Order.DiscountCode = "XMAS2014"
+*Order.DiscountCode = "XMAS2014"*
 
-<span style="FONT-STYLE: italic">Vehicle.RegisteredDate <01.01.2000
+*Vehicle.RegisteredDate < 01.01.2000*
