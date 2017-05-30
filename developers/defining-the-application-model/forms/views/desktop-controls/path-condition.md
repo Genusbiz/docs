@@ -1,4 +1,4 @@
-## Path Condition
+# Path Condition
 
 A path condition defines the path from one object class to another, via other object classes if necessary. The step between two object classes is defined by conditions between the properties of the two object classes. In database terms this would be referred to as "a join" between two object classes.
 

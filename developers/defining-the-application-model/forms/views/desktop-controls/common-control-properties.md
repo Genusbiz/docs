@@ -1,4 +1,4 @@
-## Common Control Properties
+# Common Control Properties
 
 Each control has a set of properties which configures various aspects of the controls appearance and functionality. Some properties are valid only for specific controls, and these are described for the individual control. Other properties are more general and are described below. There may be general properties that are not valid for all controls.
 

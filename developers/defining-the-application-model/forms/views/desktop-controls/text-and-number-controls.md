@@ -1,8 +1,8 @@
-## Text and Number Controls
+# Text and Number Controls
 
 Text and number controls are used to display and edit textual and numeric information in various formats, and are typically bound to a single field in a data source.
 
-**Topics in "Text and Number Controls"**
+## Topics in "Text and Number Controls"
 * [E-Mail Address Edit](text-and-number-controls/email-address-edit.md)
 * [HTML Edit](text-and-number-controls/html-edit.md)
 * [Label](text-and-number-controls/label.md)

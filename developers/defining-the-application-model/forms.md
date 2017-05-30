@@ -1,4 +1,4 @@
-## Forms
+# Forms
 
 A form presents bound data in various highly customizable formats using a range of controls, such as text edits, number edits, labels, combo box edits, buttons, tables, charts, graphs, etc. The layout is easily customized by using container controls, such as groups, group box and tab sheets.
 
@@ -8,7 +8,7 @@ When you design a form you must consider how to lay out and configure the contro
 
 Actions can be enabled and made available in the task pane, or from a button or directly from another control.  
 
-**Topics in "Forms"**
+## Topics in "Forms"
 * [General Settings](forms/general-settings.md)
 * [Data Sources](tables/data-sources.md)
 * [Views](forms/views.md)

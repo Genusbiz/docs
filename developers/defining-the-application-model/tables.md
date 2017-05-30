@@ -1,4 +1,4 @@
-## Tables
+# Tables
 
 A table presents bound data in a tabular format, where columns represent data fields and rows represent objects. Numerous data management and layout customization features are supported.
 
@@ -33,7 +33,7 @@ A multidimensional table presents objects with a common set of values laid out i
 
 
 
-**Topics in "Tables"**
+## Topics in "Tables"
 * [General Settings](tables/general-settings.md)
 * [Data Sources](tables/data-sources.md)
 * [Layout](tables/layout.md)
