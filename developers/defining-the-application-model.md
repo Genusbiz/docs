@@ -1,6 +1,6 @@
-# Defining the App Model
+# Defining an app model
 
-To provide functionality to the end user, Genus App Platform employs declarative data about your business objects and logic. This collection of [metadata](defining-the-application-model/glossary.md) are stored in the directory for your application and maintained in Genus Studio.
+To provide functionality to the end user, Genus App Platform employs declarative data about your business objects and logic. This collection of [metadata](defining-the-application-model/glossary.md) are stored in the directory for your app and maintained in Genus Studio.
 
 **Getting started**
 
@@ -14,7 +14,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 * [Navigation pane](defining-the-application-model/navigation-pane.md)
 * [Tables](defining-the-application-model/tables.md)
 * [Forms](defining-the-application-model/forms.md)
-* [Translate the Application Model to other languages](defining-the-application-model/translate-the-application-model-to-other-languages.md)
+* [Translate the app model to other languages](defining-the-application-model/translate-the-application-model-to-other-languages.md)
 
 **Logic**
 
