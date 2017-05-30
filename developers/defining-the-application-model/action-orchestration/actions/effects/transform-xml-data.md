@@ -10,17 +10,21 @@ The effect can be useful for several purposes:
 
 To transform XML Data, do the following:
 
-1.  In the **Name** box, optionally type a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
-2.  In the **Description** box, optionally type a description.
-3.  In the **Input XML** section, do one of the following:
-4.  If the XML data is located in a data source (General File or XML), in the **Data Source** box, select the data source.
-5.  If the XML data is located in a field (File Data or String), click **Field**, and then click **[...]** to select a field.
-6.  In the **Transformation Stylesheet (XSLT)** section, do one of the following:
-7.  If the XSLT is located in a data source (File), in the **Data Source** box, select the data source.
-8.  If the XSLT is located in a field (File Data or String), click **Field**, and then click [...] to select a field.
-9.  If you are defining the XSLT within the effect, click the **Script** box and enter the XSLT as text.
-10.  In the **Output** section, do the following:
-11.  In the **Data Source** box, select the data source (File or XML).
+1. In the **Name** box, optionally type a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
+1. In the **Description** box, optionally type a description.
+1. On the **Input XML** tab, do one of the following:
+   * If the XML data is located in a data source (General File or XML), in the **Data Source** box, select the data source.
+   * If the XML data is located in a field (File Data or String), click **Field**, and then click **[...]** to select a field.
+   * If the Xml data is located in a file or an url, click **Url** and enter the url.
+1. On the **Transformation Stylesheet (XSLT)** tab, do one of the following:
+   * If the XML data is located in a data source (General File or XML), in the **Data Source** box, select the data source.
+   * If the XML data is located in a field (File Data or String), click **Field**, and then click **[...]** to select a field.
+   * If the Xml data is located in a file or an url, click **Url** and enter the url.
+   * If you are defining the XSLT within the effect, click the **Script** box and enter the XSLT as text.
+1. On the **Output** tab, do the following:
+   * In the **Data Source** box, select the data source (File or XML).
+   * Select the proper encoding for the output data.
+1. On the **Permissions** tab, it is possible to override some restrictions to allow the stylesheet to access data from external sources. It is recommended to keep these settings off unless required by the specific Xsl stylesheet.  
 
 See Also
 
