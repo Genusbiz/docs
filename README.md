@@ -1,4 +1,4 @@
-# Genus App Platform&reg; Documentation Contributor Guide
+# Genus App Platform&reg; documentation contributor guide
 This is the publically available documentation for the Genus App Platform published at [docs.genus.no](http://genusdocs.azurewebsites.net).
 
 Feel free to contribute! See [Ways to contribute](#ways-to-contribute) on how to do it.
