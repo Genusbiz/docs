@@ -1,4 +1,4 @@
-## Account Profiles
+# Account Profiles
 
 When adding user accounts, you have to select an account profile for the user. The profile describes the account policies for users, and optionally a description on how to associate a user with a business object, such as an employee or a customer.
 
@@ -21,7 +21,7 @@ If users are authenticated by MicrosoftB. Active Directory, the account policies
 
 **Identity Settings**
 
-<span style="FONT-STYLE: italic">Native
+Native
 
 *   **Password will expire in [ ] days**. Type or select the maximum password age in days. This setting determines how long the users can keep a password before they have to change it. The aim is to periodically force users to change their password. When this feature is used, set a value that makes sense for the environment it is being applied to. A value of zero specifies that passwords do not expire.
 *   **Password must be at least [ ] characters**. Type or select a minimum password length in characters. A value of zero specifies that empty passwords are allowed. For security reasons, passwords of at least eight characters are recommended. The reason for this is that long passwords are usually harder to crack than short ones.
@@ -29,7 +29,7 @@ If users are authenticated by MicrosoftB. Active Directory, the account policies
 *   **Account is locked out for [ ] minutes**. Type or select the length of time an account is locked when the lockout threshold specified above is violated. The best security policy is to lock the account indefinitely by setting the lockout duration to zero. When this is done, only an administrator can unlock the account. This will prevent hackers from trying to access the system again, and will force users who are locked out to seek help from an administrator. By talking to the user, the administrator can determine what the user is doing wrong and help the user avoid problems.
 *   **Reset account lockout counter after [ ] minutes**. Every time a sign in attempt fails, the value for the counter that tracks the number of failed sign in attempts is raised. This option determines how long the counter is maintained. This counter is reset in one of two ways. If a user signs in successfully, the counter is reset. If the waiting period has elapsed since the last failed sign in attempt, the counter is also reset. Select a value that balances the security needs against user access needs. A good value is from one to two hours. This waiting period should be long enough to force hackers to wait longer than they want to before trying to access the account again.
 
-<span style="FONT-STYLE: italic">Active Directory
+Active Directory
 
 *   **On missing account.** For a sign in attempt through Active Directory, it is possible to automatically create a new account if one does not already exist. To create an account automatically, select **Automatically create an account**. To reject a sign in attempt with a missing account, select **Reject sign in attempt.**
 
