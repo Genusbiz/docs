@@ -1,4 +1,4 @@
-# Keyboard Shortcuts
+# Keyboard shortcuts
 
 These keyboard shortcuts apply for Genus Desktop and Genus Studio, and not Genus Apps.
 
