@@ -9,6 +9,7 @@ See www.genus.no for more general information about our products and our company
 * Keep the articles short and to the point.
 * It is better to start out small and then iterate and evolve more content later.
 * Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished. Please return to finish it as soon as possible.
+* If you are trying to improve upon an article, but find it hard to describe the functionality, it may be Genus App Platform that needs improvement. Please let us know through your support channel!
 * Use images sparingly, as these are hard to maintain over time. Put any images in the media subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information.
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
 * Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like those defined in the [Glossary](developers/defining-the-application-model/glossary.md) (Genus App Platform, Genus Apps etc). See example [here](https://github.com/GenusAS/docs/blob/master/developers/installation-and-configuration/system-requirements.md).
@@ -20,6 +21,7 @@ We are currently in a transition period from our old documentation structure. Mo
 * Convert Html tables to [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables). (Who completes [this](developers/keyboard-shortcuts.md) article?)
 * Article main headers are supposed to be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-the-application-model/general-settings/data-sets.md).
 * Change header capitalisation to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles). Example [here](developers/installation-and-configuration/system-requirements.md).
+* Automatically converted media files have ended up with a GUID file name like "ID3C264089A1BE49C2.IDC90AF0450EE242F6.png". Please change to a "normal" descriptive name - or simply delete the file if it is a screen dump that is hard to maintain (ref. the guidelines regarding screen shots above).
 
 ## Ways to contribute
 You can submit updates to the Genus App Platform documentation as follows:
