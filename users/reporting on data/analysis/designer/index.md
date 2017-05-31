@@ -1,6 +1,6 @@
 # Analysis Designer
 
-To design an *Analysis* you will add [Tiles](../concepts/tile.md) to the (current [View](../concepts/view.md)). You do this by clicking the red circular plus button.
+To design an *Analysis* you will add [Tiles](../concepts/tile.md) to the current [View](../concepts/view.md). You do this by clicking the red circular plus button.
 
 In the TILE pane you can select the kind of [Visualization](../visualizations/index.md) you want for the *Tile*.
 
@@ -26,9 +26,16 @@ Assume an "Invoice" is connected to a "Customer", and that there is a field call
 8. Select *Preview* in the *Tools* menu
 
 ## How To
-*  Add a view
-
-
+### Add a view
 An *Analysis* can contain multilpe *Views*, which can contain multiple *Tiles*. Adding a *View* is done by clicking the plus symbol on the *View* tab at the bottom of the designer.
+### Delete a view
+Clik the menu dots on the view tab. Select *Delete*.
+### Add a tile
+A *View* can contain multiple *Tiles*. Add a tile by clicking the red plus button.
+### Make a copy of a tile
+Clik the menu dots in the upper right corner of the tile. Select *Duplicate*.
+### Delete a tile
+Clik the menu dots in the upper right corner of the tile. Select *Delete*.
+
 
 

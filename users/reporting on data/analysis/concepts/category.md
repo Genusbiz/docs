@@ -1,6 +1,6 @@
 # Category
 
-A *Category* is a set of objects of some type.
+A *Category* is a set of objects selected from a data source.
 A *Category* will appear in [Visualizations](../visualizations/index.md) as an axis in a [Bar Chart](../visualizations/bar-chart.md) or rows in a [Table](../visualizations/table.md)
 
 [Visualizations](../visualizations/index.md) that use *Categories* have different options for controlling them:
