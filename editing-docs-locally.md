@@ -19,9 +19,9 @@
 2. Associate md files to your favorite editor.
 
 ## Connect your local repos to GitHub "Genus docs" repos.
-1. Create a folder on your laptop or PC, like "D:\Git\Docs" or similar.
+1. Create a folder on your computer, like "D:\Git\Docs" or similar.
 2. Open a cmd shell at D:\git\docs.
-3. Run the command "git init" to create a local repos on your laptop or PC. This should produce something like "Initialized empty Git repository in D:/git/docs/.git/".
+3. Run the command "git init" to create a local repos on your computer. This should produce something like "Initialized empty Git repository in D:/git/docs/.git/".
 4. Run the command "git remote add origin https://github.com/GenusAS/docs.git" to connect your local repos to the github repos.
 
 ## Using Git
