@@ -1,0 +1,28 @@
+## Scope
+
+A scope groups a set of actions, and provides control of transaction and timeout, allows running with elevated permissions, and allows disabling of certain user notifications. To save new or modified objects to a persistent storage, the effects must be contained within a scope with the **Commit Object Changes** selected.
+
+![ID46092F37FE67410C.png](media/ID46092F37FE67410C.png)
+
+To spedify advanced operations, the scope is used in combination with effects, controls, and other blocks. See also these articles for information on [enumerating](enumerator.md) over more than one object, repeating operations in a [while loop](while-loop.md), making [decisions](decision.md), and [redirecting](../controls/redirect-execution.md) the execution flow.
+
+![ID49E17C0B99C44F0D.png](media/ID49E17C0B99C44F0D.png)
+
+*   **Name**. The name is optional, and if there is no name, *Scope is displayed in the Action tree*.
+*   **Description**. The description is optional.
+*   **Commit Object Changes**. Data modifications performed within the scope are commited and made permanent. A scope which is defined to commit object changes, defines a transaction. A transaction is a unit of work used to ensure data consistency and integrity. If a transaction is successful, all of the data modifications performed during the transaction are committed and made permanent. If an exception occurs during execution of a transaction, the preceeding actions within the scope are rolled back, to ensure a consistent state.
+*   **Timeout**.  To specify a custom timeout for the transaction, click **Allow transactions to run for** , and then type the maximum number of minutes transactions are allowed to run. If the effect is run from an interactive client, the maximum timeout is limited to 5 minutes. This option applies to effects wich are able to commit data to persistent storage, for example, [Modify a User Account](../effects/modify-a-user-account.md), [Delete Object(s)](../effects/delete-objects.md), [Create a Data Aggregate](../effects/create-a-data-aggregate.md), and [Create Object(s) and Modify Object(s)](../effects/create-objects-and-modify-objects.md) effects, in combination with data sources that are defined as [persistent](../../data-sources.md).
+*   **Override Deadlock Avoidance**. The deadlock avoidance mechanism attempts to minimize deadlocks by employing an algorithm for ordering the execution of the steps within the scope. By enabling this option, the transaction steps within the scope are executed according to the defined effect sequence. This can be useful if the order of steps is significant, for example if objects are first created and then modified in the scope.
+
+*   **Run with Highest Privileges**. Runs actions with elevated permissions. scope with the **Run with Highest Privileges** option enabled, runs the contained actions with elevated permissions. The actions is run with administrator rights, which is useful to ensure that the action can be performed disregarding any lack of permissions of the user. For example, this can be used by a task to create or modify a log object that the user should only have read access to.
+*   **Diable Audit Trail**. Suppresses logging of changes to history. A scope with the **Disable Audit Trail** option enabled will not log any events to history . This is useful for operations on large volumes of data where performance is critical.
+*   **Disable User Notifications**. Suppresses constraint notifications asking for confirmation from users. A scope with the **Disable User Notification** option enabled will not run certain constraints. The evaluation of the Uniqueness Constraints and Consistency Constraints of the type **Notify user and ask for confirmation to proceed** will be disabled. This applies to tasks with the **Enable Run on Application Server** option disabled. This is useful to hide certain aspects of the process from the user when the task performs complex operations and takes responsibility for the consistency.
+*   **Enable Raw Create**.
+*   **Disable Live Update**.
+*   **Execute Asynchronously.** The effects in the scope are not executed in sequence but are started in parallell. The scope waits to finish until all effect are finished. There are certain requirements for a scope to run asynchronously:  
+    1\. The Scope can only contain other blocks of the type Decision.  
+    2\. The Scope can only contain effects that support asynchronous execution; currently the Read Objects effect and the Consume a Web Service effect.  
+    3\. Any Read Objects effects within the scope must read data from a persistent data source, and not a memory based data source like code domains, time domains, or read from other data sources.  
+    Known limitations: When consuming internal web services, these web services are executed synchronously.
+*   **Validate Data Constraints.** Determines when data constraint validations are performed for the data sources affected by steps within the scope. **After each step (default)** - the validations are performed individually after every step. **At end of scope** - the validations of the data sources are deferred until all the steps within the current scope are executed. **Before commit** - the validations of the data sources are deferred until all the changes are committed, by this scope, or a scope outside this scope. The two latter options can be useful in situations where, for example objects are first created but needs to be updated with more information to be valid.
+*   **Enabled**. Default selected. Clear the check box to disable the scope and all actions within it.

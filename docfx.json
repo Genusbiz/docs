@@ -16,7 +16,8 @@
         "files": [
           "**/*.jpg",
           "**/*.gif",
-          "**/*.png"
+          "**/*.png",
+          "**/*.ico"
         ],
         "exclude": [
           "_site/**"
@@ -24,7 +25,13 @@
       }
     ],
     "globalMetadata": {
-      "_enableSearch": true
+      "_enableSearch": true,
+      "_appTitle": "Genus Docs",
+      "_appName": "Genus Docs",
+      "_appFaviconPath": "genus_favicon.ico",
+      "_appLogoPath": "genus_logo.png",
+      "_appFooter": "&copy; Copyright <a href=\"http://www.genus.no\">Genus AS</a>, Norway. All rights reserved.",
+      "_enableNewTab": true
     },
     "dest": "_site",
     "globalMetadataFiles": [],
