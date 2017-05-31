@@ -1,11 +1,11 @@
 # Contribute by editing articles locally on your computer
 
 ## Install Git for revision control
-1. Download and install Git from https://git-scm.com/downloads. Optional: Install a Git GUI Client. Click [here](https://git-scm.com/downloads/guis) for a list of GUI Clients.
+1. Download and install Git from [here](https://git-scm.com/downloads). Optional: Install a Git GUI Client. Click [here](https://git-scm.com/downloads/guis) for a list of GUI Clients.
 2. In Windows 10, we recommend adding the Git installation folder (_c:\program files\git\cmd_) to your PATH variable by following the steps [here](#how-to-add-a-folder-to-your-windows-10-path-environment-variable).
 
 ## GitHub
-1. If you do not have a GitHub user account, create one at www.github.com.
+1. If you do not have a GitHub user account, create one at [GitHub](www.github.com).
 2. If you are a Genus employee, ask the docs editors group to add you to the Genus organization on GitHub. This will allow you to commit directly (to the master branch).
 
 ## DocFX
@@ -15,7 +15,7 @@
 4. We recommend adding D:\DocFX (or your choice of path) to your Windows PATH environment variable following the steps [here](#how-to-add-a-folder-to-your-windows-10-path-environment-variable).
 
 ## Markdown editor
-1. Install your favorite editor for markdown files, like Visual Studio Code (https://code.visualstudio.com/download).
+1. Install your favorite editor for markdown files, like [Visual Studio Code](https://code.visualstudio.com/download).
 2. Associate md files to your favorite editor.
 
 ## Connect your local repos to GitHub "Genus docs" repos.
@@ -36,8 +36,8 @@
 
 ## Build and preview the documentation on your computer
 1. Open a cmd shell at d:\git\docs and type "docfx --serve"
-2. Open your browser on url localhost:8080 to view the documentation.
-3. Later, use ctrl+c i in your cmd shell to exit "docfx --serve".
+2. Open your browser on url http://localhost:8080 to view the documentation.
+3. Later, use Ctrl+C i in your cmd shell to exit "docfx --serve".
 
 ---
 
