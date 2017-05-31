@@ -91,31 +91,31 @@ Genus App Platform's set of services offered to Genus Desktop, Genus Apps, other
 
 Genus App Services were previously called Genus Server, but to better differentiate between _services_ and _servers_, the name was changed.
 
-### Genus Studio
+## Genus Studio
 
-Genus App Platform's client for defining and maintaining [app models](glossary.md).
+Genus App Platform's client for defining and maintaining [app models](#app-model).
 
-### Globally Unique Identifier (GUID)
+## Globally Unique Identifier (GUID)
 
-A **Globally Unique Identifier** or **GUID** is a special type of identifier which is unique across all networked computers in the world. While each generated GUID is not guaranteed to be unique, the total number of unique keys (2<sup>122</sup>) is so large that the probability of the same number being generated twice is very small.
+A Globally Unique Identifier or GUID is a special type of identifier which is unique across all networked computers in the world. While each generated GUID is not guaranteed to be unique, the total number of unique keys (2<sup>122</sup>) is so large that the probability of the same number being generated twice is very small.
 
 A GUID is frequently useful for identifying objects when similar data from multiple database systems must be merged. For example, in a customer billing system with data located in various company subsidiaries around the world. When the data are merged into the central site for consolidation and reporting, using GUIDs prevents customers in different countries from having the same billing number or customer ID.
 
 An example of a GUID value is 826E89DC-BD93-4120-8198-0B6B2D459905 (written in text as a sequence of hexadecimal digits). Often braces are added to enclose the above format, as such: {826E89DC-BD93-4120-8198-0B6B2D459905}.
 
-### JSON
+## JSON
 
 JavaScript Object Notation (JSON) is a text-based open standard designed for human-readable data interchange. It is derived from the JavaScript scripting language for representing simple data structures and associative arrays, called objects. Despite its relationship to JavaScript, it is language-independent, with parsers available for many languages.  
 
 The JSON format is often used for serializing and transmitting structured data over a network connection. It is used primarily to transmit data between a server and web application, serving as an alternative to XML.  
 
-### Metadata
+## Metadata
 
 Any item of data is a description of something. Metadata is a type of data where the _something_ being described is data. Or, as it is often put, metadata is data about data. Metadata is used to facilitate the understanding, use and management of data. For example, _"004767832000"_ is data. With no additional context, it is meaningless. When _"004767832000"_ is given a meaningful name (metadata) of _"Phone Number"_, one can understand that _"004767832000"_ refers to the phone number to a company or a person located in Norway (based on the two-digit country code 47).
 
 There are hierarchies or levels of data and metadata. However, any particular item of data may be on different levels of a hierarchy depending on the context. Considering the phone number to Genus AS, _"004767832000"_ would be data and _"Phone Number"_ would be metadata. But, when considering a computer system that manages phone data, _"Phone Number"_ might be data, and then _"data item name"_ and _"12 numbers, starting with 00 followed by a two-digit country code"_ would be metadata.
 
-### POX
+## POX
 
 Plain Old XML (POX) is the basic XML, sometimes mixed in with other, blendable specifications like XML Namespaces, Dublin Core, XInclude and XLink. This contrasts with complicated, multilayered XML specifications like those for web services or RDF.  
 
@@ -125,11 +125,11 @@ POX is complementary to REST: REST refers to a communication pattern, while POX 
 
 The primary competitors to POX are more strictly-defined XML-based information formats such as RDF and SOAP section 5 encoding, as well as general non-XML information formats such as JSON and CSV.  
 
-### Recursion
+## Recursion
 
-See [Recursion](glossary.md).
+See [Recursion](#recursion).
 
-### SOAP
+## SOAP
 
 SOAP, originally defined as Simple Object Access Protocol, is a protocol specification for exchanging structured information in the implementation of Web Services in computer networks. It relies on Extensible Markup Language (XML) for its message format, and usually relies on other Application Layer protocols, most notably Hypertext Transfer Protocol (HTTP) or Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.
 
