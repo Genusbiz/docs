@@ -94,9 +94,9 @@ A JSON response, corresponding to the POX example above, will be the following:
     "DetailNamespace":"http://tempuri.org/MyFaultNamespace",
     "Detail":
         {
-            "__type": "MyFaultType:http://tempuri.org/MyFaultNamespace",
-            "MyDetailItem1": "some value",
-            "MyDetailItemN": "some other value"
+            "__type":"MyFaultType:http://tempuri.org/MyFaultNamespace",
+            "MyDetailItem1":"some value",
+            "MyDetailItemN":"some other value"
         }
 }
-
+```
