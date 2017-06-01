@@ -72,27 +72,6 @@
             href: defining-the-application-model/forms/views/desktop-controls/containers/common-container-properties.md
         - name: Text and number controls
           href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls.md
-          items:
-          - name: E-mail Address Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/email-address-edit.md
-          - name: HTML Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/html-edit.md
-          - name: Label
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/label.md
-          - name: Number Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/number-edit.md
-          - name: Password Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/password-edit.md
-          - name: Rich Text Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/rich-text-edit.md
-          - name: Text
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text.md
-          - name: Text Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text-edit.md
-          - name: Text Popup Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text-popup-edit.md
-          - name: Url Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/url-edit.md
         - name: Time and date controls
           href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls.md
           items:
@@ -132,11 +111,6 @@
             href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/folder-browser-edit.md
         - name: Graphic controls
           href: defining-the-application-model/forms/views/desktop-controls/graphic-controls.md
-          items:
-          - name: Image
-            href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/image.md
-          - name: Symbol
-            href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/symbol.md
         - name: Tabular controls
           href: defining-the-application-model/forms/views/desktop-controls/tabular-controls.md
           items:
