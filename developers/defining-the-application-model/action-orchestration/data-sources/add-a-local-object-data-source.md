@@ -21,7 +21,7 @@ A field is defined by:
 2.  **Screen Tip**. Text displayed when the user hovers the mouse over the field.
 3.  **Data Type**. The kind of data the field can store.
 4.  **Data Interpretation.** The meaning of the value in the field. E.g. a string field is interpreted as an E-mail address.
-5.  **Complex Association.** The field can refer to different types of objects. See [Complex Association Data Interpretation](../../forms/views/desktop-controls/tabular-controls/complex-association-data-interpretation-for-a-property.md "Complex Association Data Interpretation for a Property").
+5.  **Complex Association.** The field can refer to different types of objects. See [Complex Association Data Interpretation](../../object-class-property/complex-association-data-interpretation-for-a-property.md "Complex Association Data Interpretation for a Property").
 6.  **Data Calculation**. The initial value the field has when an object is created.
 7.  **Data Filter**. A condition restricting valid values for the field. Only available for complex data types.
 8.  **Cannot be blank**. Determines if the field must contain a value.
