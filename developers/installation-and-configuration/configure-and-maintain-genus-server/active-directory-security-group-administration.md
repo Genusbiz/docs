@@ -9,4 +9,4 @@ The following limitations and functionalities applies:
 *   You may also specify Data Set access.
 *   The security group Everyone is still accessible within **Genus Studio**.
 
-See [Configure Genus App Services - Step by Step](../../../../../installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md) for how to configure **Active Directory** Security Group Administration.
+See [Configure Genus App Services - Step by Step](configure-genus-server--step-by-step.md) for how to configure **Active Directory** Security Group Administration.
