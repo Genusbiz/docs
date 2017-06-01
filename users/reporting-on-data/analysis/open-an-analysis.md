@@ -1,4 +1,4 @@
-## Open an Analysis
+# Open an Analysis
 
 Analyses are opened from the Navigation Pane, or from the Discover Task Pane.
 

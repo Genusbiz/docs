@@ -1,4 +1,4 @@
-## Use an Analysis
+# Use an Analysis
 
 The main concept of an Analysis is to let the user select items of interest, and then provide feedback based on the current selection. All elements in the analysis are immediately updated based on which items in the underlying data mart are now relevant. All aggregated information like measures and charts are updated, lists display wich items are relevant and which are excluded, and so on.
 
@@ -110,7 +110,7 @@ Items in a list are excluded if they have no connection to the selected items, a
 
 
 
-## Selecting and Deselecting Items
+## Selecting and deselecting items
 
 There are several ways to change the selections in an analysis. The simplest way is by clicking elements, sometimes in combination with pressing **CTRL** or **SHIFT** keys. It is also possible to right click and select from the shortcut menu. The shortcut menu also contains additional options for changing selections. Items can be selected in charts, lists, grids, etc. In this article <span style="FONT-STYLE: italic">List is used as a common term for various forms of item listings.
 
@@ -160,7 +160,7 @@ To remove the selections of all items that are selected anywhere, right click th
 
 
 
-## Back and Forward
+## Back and forward
 
 When using an analysis to discover new insight about your data, each selection that is made is like a step into uncharted territory. Sometimes it reveals new discoveries, sometimes it leads nowhere. Instead of having to remember each step, to be able to retreat the same way you came, use **Back** to undo the last steps. If you change your mind, use **Forward** to re-do the selection again. The last 100 steps are stored, so step back and forward freely to re-play the sequence and better visualize and understand the data.
 
@@ -207,4 +207,3 @@ To manage your bookmarks, in the toolbar click the down arrow next tot the add b
 ![IDE490C95842EA4C22.jpg](media/IDE490C95842EA4C22.jpg)
 
 In the **Manage Bookmarks** window select the bookmark to manage and click the button that corresponds to the action you want to perform; **Modify**, **Remove**, **Send**, or click **History** to view the history.
-

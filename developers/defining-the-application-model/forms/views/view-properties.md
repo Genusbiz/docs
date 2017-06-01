@@ -1,6 +1,6 @@
-# View Properties
+# View properties
 
-**General**
+## General
 
 <table style="WIDTH: 100%">
 
@@ -226,7 +226,8 @@ The view is used in forms on app clients.
 
 </table>
 
-**Size and Position**
+
+## Size and position
 
 <table style="WIDTH: 100%">
 
@@ -350,36 +351,11 @@ The size is set to a A5 landscape format. The width and height shows the size ac
 
 </table>
 
-**Format**
 
-<table style="WIDTH: 100%">
+## Format
 
-<tbody>
 
-<tr>
-
-<th>Property</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>Automatic Formatting</td>
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>Background Color</td>
-
-<td>The background color of the view.</td>
-
-</tr>
-
-</tbody>
-
-</table>
+Property             | Description
+---------------------|-----------------------
+Automatic formatting |
+Background Color     | The background color of the view.

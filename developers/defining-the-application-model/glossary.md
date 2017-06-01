@@ -1,12 +1,12 @@
-## Glossary
+# Glossary
 
 Below you will find explanations of selected concepts important for the understanding of Genus App Platform.
 
-### Account Session
+## Account Session
 
 Each time an account signs in, an entry is logged in the Account Session History. The log entry contains information such as sign in date, computer name, and IP-address.
 
-### Advanced Expressions
+## Advanced Expressions
 
 To be able to compute or calculate values, Genus App Platform offers Advanced Expressions.
 
@@ -20,47 +20,50 @@ The advanced expressions are strongly typed, specifying restrictions on how oper
 
 For a complete description of the data types and members, see [here](common-concepts/advanced-expressions.md).
 
-### Application Model (App Model)
+## App
+An app is an abbreviated form of the word application. An app or application is a computer program designed to perform a set of functions to the benefit of users, either directly or indirectly. The abbreviated form "app" was previously used primarily about specialized computer programs downloaded on mobile devices, where as "application" was used about computer programs on desktop and server computers. However, with the advent of cross platform applications, the word app is generally preferred and considered the more modern term.
 
-An **Application Model** is a formalized description of a software application's user interface, logic and data, expressed using the Genus App Platform.
+## App Model
 
-The behavior and appearance of your Genus application is determined by the content of your **Application Model**, i.e. the model is the application. The Application Model is stored in the [Directory](glossary.md) and maintained in [Genus Studio](glossary.md).
+An App Model is a formalized description of a software app's user interface, logic and data, expressed using the Genus App Platform. App Model is short for Application Model, but the shorter term is generally preferred and considered the more modern term.
 
-### Cardinality
+The behavior and appearance of your Genus app is determined by the content of your App Model, i.e. the model is the app. The App Model is stored in the [Directory](glossary.md) and maintained by using [Genus Studio](glossary.md).
 
-The cardinality of a data source or a group specifies whether they can contain **One** or **Many** objects. A data source with cardinality = One, can contain zero or one object, while a data source with cardinality = Many, can contain zero, one, or many objects.
+## Cardinality
+
+The cardinality of a data source or a group specifies whether they can contain One or Many objects. A data source with cardinality = One, can contain zero or one object, while a data source with cardinality = Many, can contain zero, one, or many objects.
 
 While this definition only contains two possible values for cardinality, the mathematical definition of cardinality is the number of elements in a set, thereby having infinite possible values.
 
-### Code Domain
+## Code Domain
 
-**Code Domains** describe a finite set of named code values used to classify domain objects. For example, a person can be classified by code domains such as gender (male, female), civil status (single, married, cohabitant) and nationality.
+Code Domains describe a finite set of named code values used to classify domain objects. For example, a person can be classified by code domains such as gender (male, female), civil status (single, married, cohabitant) and nationality.
 
 See [Create or Modify a Code Domain](object-class/create-or-modify-a-code-domain.md) for more information.
 
-### Data Provider
+## Data Provider
 
 A Data Provider is a software component enabling access to data from a data source, typically a database.
 
-### Directory
+## Directory
 
 In general, a directory is a structured listing and storage of information.
 
-In Genus App Platform, the **Directory** is the structured storage of a [Genus Application Model](glossary.md). The Directory is maintained using [Genus Studio](glossary.md).
+In Genus App Platform, the Directory is the structured storage of a [Genus App Model](#app-model). The Directory is maintained using [Genus Studio](#genus-studio).
 
-### Directory GUID
+## Directory GUID
 
-The Directory [GUID](glossary.md "Globally Unique Identifier (GUID)") is the system generated identifier for your [Directory](glossary.md) containing your [Application Model](glossary.md), which uniquely identifies your Directory and Application Model.
+The Directory [GUID](#guid "Globally Unique Identifier") is the system generated identifier for your [Directory](#directory) containing your [App Model](#app-model), which uniquely identifies your Directory and App Model.
 
-### Event History
+## Event History
 
-An **Event History** is a chronological sequence of audit trails for objects, each of which contains evidence directly pertaining to and resulting from an event. The **Event History** enables you to reconstruct and examine the sequence of events and/or changes in an event for an object.
+An Event History is a chronological sequence of audit trails for objects, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables you to reconstruct and examine the sequence of events and/or changes in an event for an object.
 
 See [here](../../users/working-in-tables/advanced/view-history.md) for more information on how to view the event history for an object.
 
 See [here](object-class/modify-an-object--or-identifier-domain/events.md "Events") for more information on how to active auditing for your object classes.
 
-### Formula
+## Formula
 
 Formulas are made up of functions, references to other fields or groups, static values (such as a number) and mathematical operators.
 
@@ -74,43 +77,45 @@ employee.firstName + ", " + employee.surname
 
 For more information see [Advanced Expressions](common-concepts/advanced-expressions.md).
 
-### Genus Desktop
+## Genus Desktop
 
-Genus App Platform's client (runtime/executable) for desktop devices, like Windows 8 or 10, laptops or PCs.
+Genus App Platform's client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
 
-### Genus Apps
+## Genus Apps
 
 Genus App Platform's client (runtime/executable) for mobile devices, like iPhones, iPads and Android devices.
 
-### Genus App Services
+## Genus App Services
 
-Genus App Platform's application server, offering services to Genus Desktop, Genus Apps or other Genus App Services, and more.
+Genus App Platform's set of services offered to Genus Desktop, Genus Apps, other Genus App Services, or third party service consumers. Genus App Services run on a set of one or more Microsoft Windows Servers. Such servers are often called application servers.
 
-### Genus Studio
+Genus App Services were previously called Genus Server, but to better differentiate between _services_ and _servers_, the name was changed.
 
-Genus App Platform's client for defining and maintaining [application models](glossary.md).
+## Genus Studio
 
-### Globally Unique Identifier (GUID)
+Genus App Platform's client for defining and maintaining [app models](#app-model).
 
-A **Globally Unique Identifier** or **GUID** is a special type of identifier which is unique across all networked computers in the world. While each generated GUID is not guaranteed to be unique, the total number of unique keys (2<sup>122</sup>) is so large that the probability of the same number being generated twice is very small.
+## Globally Unique Identifier (GUID)
+
+A Globally Unique Identifier or GUID is a special type of identifier which is unique across all networked computers in the world. While each generated GUID is not guaranteed to be unique, the total number of unique keys (2<sup>122</sup>) is so large that the probability of the same number being generated twice is very small.
 
 A GUID is frequently useful for identifying objects when similar data from multiple database systems must be merged. For example, in a customer billing system with data located in various company subsidiaries around the world. When the data are merged into the central site for consolidation and reporting, using GUIDs prevents customers in different countries from having the same billing number or customer ID.
 
 An example of a GUID value is 826E89DC-BD93-4120-8198-0B6B2D459905 (written in text as a sequence of hexadecimal digits). Often braces are added to enclose the above format, as such: {826E89DC-BD93-4120-8198-0B6B2D459905}.
 
-### JSON
+## JSON
 
 JavaScript Object Notation (JSON) is a text-based open standard designed for human-readable data interchange. It is derived from the JavaScript scripting language for representing simple data structures and associative arrays, called objects. Despite its relationship to JavaScript, it is language-independent, with parsers available for many languages.  
 
 The JSON format is often used for serializing and transmitting structured data over a network connection. It is used primarily to transmit data between a server and web application, serving as an alternative to XML.  
 
-### Metadata
+## Metadata
 
 Any item of data is a description of something. Metadata is a type of data where the _something_ being described is data. Or, as it is often put, metadata is data about data. Metadata is used to facilitate the understanding, use and management of data. For example, _"004767832000"_ is data. With no additional context, it is meaningless. When _"004767832000"_ is given a meaningful name (metadata) of _"Phone Number"_, one can understand that _"004767832000"_ refers to the phone number to a company or a person located in Norway (based on the two-digit country code 47).
 
 There are hierarchies or levels of data and metadata. However, any particular item of data may be on different levels of a hierarchy depending on the context. Considering the phone number to Genus AS, _"004767832000"_ would be data and _"Phone Number"_ would be metadata. But, when considering a computer system that manages phone data, _"Phone Number"_ might be data, and then _"data item name"_ and _"12 numbers, starting with 00 followed by a two-digit country code"_ would be metadata.
 
-### POX
+## POX
 
 Plain Old XML (POX) is the basic XML, sometimes mixed in with other, blendable specifications like XML Namespaces, Dublin Core, XInclude and XLink. This contrasts with complicated, multilayered XML specifications like those for web services or RDF.  
 
@@ -120,11 +125,11 @@ POX is complementary to REST: REST refers to a communication pattern, while POX 
 
 The primary competitors to POX are more strictly-defined XML-based information formats such as RDF and SOAP section 5 encoding, as well as general non-XML information formats such as JSON and CSV.  
 
-### Recursion
+## Recursion
 
-See [Recursion](glossary.md).
+See [Recursion](#recursion).
 
-### SOAP
+## SOAP
 
 SOAP, originally defined as Simple Object Access Protocol, is a protocol specification for exchanging structured information in the implementation of Web Services in computer networks. It relies on Extensible Markup Language (XML) for its message format, and usually relies on other Application Layer protocols, most notably Hypertext Transfer Protocol (HTTP) or Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.
 

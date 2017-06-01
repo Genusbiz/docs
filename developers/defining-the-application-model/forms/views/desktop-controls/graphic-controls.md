@@ -1,5 +1,5 @@
-# Graphic Controls
+# Graphic controls
 
-## Topics in "Graphic Controls"
+## Topics
 * [Image](graphic-controls/image.md)
 * [Symbol](graphic-controls/symbol.md)

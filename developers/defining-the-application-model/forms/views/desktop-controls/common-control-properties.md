@@ -1,9 +1,9 @@
-# Common Control Properties
+# Common control properties
 
 Each control has a set of properties which configures various aspects of the controls appearance and functionality. Some properties are valid only for specific controls, and these are described for the individual control. Other properties are more general and are described below. There may be general properties that are not valid for all controls.
 
 
-## General Properties
+## General properties
 
 <table style="WIDTH: 100%">
 
@@ -199,7 +199,7 @@ A [condition](../../../common-concepts/conditions.md) determines if the field is
 
 </table>
 
-## Size and Position Properties
+## Size and position properties
 
 <table style="WIDTH: 100%">
 
@@ -371,7 +371,7 @@ The control is stretched in vertical direction to fill the container. The height
 
 
 
-## Format Properties
+## Format properties
 
 <table style="WIDTH: 100%">
 
@@ -589,9 +589,9 @@ Align the label text to the bottom.
 
 </table>
 
-## Screen Tip Properties
+## Screen tip properties
 
-**General**
+### General
 
 <table style="WIDTH: 100%">
 
@@ -645,7 +645,7 @@ Label
 
 </table>
 
-**Size and Position**
+### Size and position
 
 <table style="WIDTH: 100%">
 
