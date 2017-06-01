@@ -9,10 +9,10 @@ When you design a form you must consider how to lay out and configure the contro
 Actions can be enabled and made available in the task pane, or from a button or directly from another control.  
 
 ## Topics in "Forms"
-* [General Settings](forms/general-settings.md)
-* [Data Sources](tables/data-sources.md)
+* [General settings](forms/general-settings.md)
+* [Data sources](tables/data-sources.md)
 * [Views](forms/views.md)
 * [Commands](forms/commands.md)
 * [Events](forms/events.md)
 * [Tasks](forms/tasks.md)
-* [Form Designer](forms/form-designer.md)
+* [Form designer](forms/form-designer.md)

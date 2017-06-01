@@ -20,7 +20,7 @@ The form designer window is structured to provide an efficient and consistent wo
 *   In the lower left corner, the properties of the currently selected item are listed. For views the properties of a control in the layout are listed. For data sources, the properties of data source or data source field that is selected are listed. For events and tasks the properties for these are selected.
 *   On the right is the task pane which can display different types of available controls or data sources, or a hierarchical structure of the controls in the current view layout.
 
-### Data Sources
+### Data sources
 
 Add or remove [data sources](../tables/data-sources.md "Data Sources") by right clicking in the data source list. Select a data source in the list to see its properties and fields, or select a field to see its properties.
 
@@ -44,7 +44,7 @@ Lists the [tasks](tasks.md "Tasks") that are local to the form. Add or remove ta
 
 ![ID5100057D816F4297.jpg](media/ID5100057D816F4297.jpg)
 
-### Task Pane
+### Task pane
 
 The task pane provides access to data sources, layout controls, etc. depending on the current context. To view the different contents of the task pane, in the task pane header, click the down arrow, and then select the content to view.
 

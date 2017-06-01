@@ -1,4 +1,4 @@
-# Using Environment Variables as Part of a File Location in Effects
+# Using environment variables as part of a file location in effects
 
 In effects where a file location is requested, you can include environment variables defined in Windows as part of the location. The environment variable strings will be replaced with the values defined for the current user when the effect is run.
 

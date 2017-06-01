@@ -1,4 +1,4 @@
-# Add a View
+# Add a view
 
 To add a view:
 
@@ -8,7 +8,7 @@ To add a view:
 For information on settings for the view, see [View Properties](view-properties.md). For more information on creating a layout, see [Layout Fundamentals](view-layout-fundamentals.md).
 
 
-## Add a Control
+## Add a control
 
 There are two ways to add a control to a view;
 
@@ -17,7 +17,7 @@ There are two ways to add a control to a view;
 
 If you use a data source field to add a control, the default control for the field is added. Which control is the default control for a field, is determined by a combination of the data type and the data interpretation of the field. Some fields can provide an alternative to the default control by pressing **SHIFT** when adding the field. For example the default for a field referencing other objects is a Combo Box, but by pressing SHIFT while adding the field, a Search Box is added instead.
 
-**Drag a control or data source field from the task pane**
+### Drag a control or data source field from the task pane
 
 1.  In the task pane header, click the down arrow.
 2.  Select **Data Sources**, and then expand the data source to locate the field to add.  or  Select **Desktop Controls**, and then locate the control to add.
@@ -25,7 +25,7 @@ If you use a data source field to add a control, the default control for the fie
 
 While dragging the item, observe the layout for temporary placeholders, which indicates where the item will be positioned. For more information on dragging controls in the layout, see [Move a Control](add-a-view.md).
 
-**Double-click a control or data source field in the task pane**
+### Double-click a control or data source field in the task pane
 
 1.  [Select a control](add-a-view.md) in the layout, according to where you want to positin the new control.
 2.  In the task pane header, click the down arrow.
@@ -37,7 +37,7 @@ If you select a [container control](desktop-controls/containers.md), the new con
 
 
 
-## Move a Control
+## Move a control
 
 To move a control within the layout, a drag-and-drop operation is performed on the control. All controls can be moved, except the [group](desktop-controls/containers/group.md) control, which must temporarily be changed to a group box to be moved.
 
@@ -51,7 +51,7 @@ In complex layouts, it can sometimes be difficult to position controls precisely
 
 
 
-## Modify a Control's Properties <a name="modify-a-controls-properties"/>
+## Modify a control's properties <a name="modify-a-controls-properties"/>
 
 To modify the properties of a control
 
@@ -62,7 +62,7 @@ For information on the properties of a control, see [Desktop Controls](desktop-c
 
 
 
-## Select a Control
+## Select a control
 
 It is necessary to select a control to
 
@@ -147,7 +147,7 @@ Then press ESC to select parent
 
 
 
-## Browse the Control Hierarchy
+## Browse the control hierarchy
 
 The nature of the container controls, that they can contain one or more other controls, results in a hierarchy of controls. In many cases it can be difficult to get an overview of the structure of the controls, only by looking at the layout. The correct positioning of a control can also be challenging in a complex structure.
 

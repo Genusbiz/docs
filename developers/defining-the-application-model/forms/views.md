@@ -9,7 +9,7 @@ By using [events](events.md) that trigger [commands](commands.md) with the effec
 To see if a view is used within the form, right click the view , and click **Find Local References**.
 
 ## Topics in "Views"
-* [Add a View](views/add-a-view.md)
-* [Desktop Controls](views/desktop-controls.md)
-* [View Layout Fundamentals](views/view-layout-fundamentals.md)
-* [View Properties](views/view-properties.md)
+* [Add a view](views/add-a-view.md)
+* [Desktop controls](views/desktop-controls.md)
+* [View layout fundamentals](views/view-layout-fundamentals.md)
+* [View properties](views/view-properties.md)

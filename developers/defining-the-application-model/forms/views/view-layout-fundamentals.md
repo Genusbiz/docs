@@ -1,4 +1,4 @@
-# View Layout Fundamentals
+# View layout fundamentals
 
 Creating a good layout is perhaps one of the most important, and difficult, tasks of building a view. The characteristics of a good layout can be intangible, and small changes can make a big difference.
 
@@ -7,7 +7,7 @@ Controls are combined and arranged visually to establish a layout for the view. 
 The most important controls during layout are the [containers](desktop-controls/containers.md) and especially the [group](desktop-controls/containers/group.md) and the [group box](desktop-controls/containers/group-box.md). Since the group and group boxes are interchangable, we will use group as a common term in this article. In the following figures, some groups are blown up and have been given different colors for illustration purposes.
 
 
-## Grouping Controls
+## Grouping controls
 
 A group can contain other controls, and stack them either vertically,
 
@@ -23,7 +23,7 @@ The container control which holds a control, is often called the parent of the c
 
 
 
-## Grouping Groups
+## Grouping groups
 
 The key to creating advanced layouts is to use groups within groups with different orientation. For example, to create the following layout
 

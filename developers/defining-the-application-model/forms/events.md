@@ -3,7 +3,7 @@
 Events are used to make specific [Commands](commands.md) available to the users through menu items and buttons, and to react to a number of other occurences in the form, like when a view is opened or a control receives focus.
 
 
-## Add an Event
+## Add an event
 
 1.  In the **Form Description** area, click **Events**.
 2.  In the **Task Pane**, click **Add**.
@@ -11,7 +11,7 @@ Events are used to make specific [Commands](commands.md) available to the users 
 
 
 
-## General Settings for an Event
+## General settings for an Event
 
 Property                   | Description
 ---------------------------|------------------------------
@@ -22,7 +22,7 @@ Menu                       | Determines where the event appear in menus, and whe
 Type                       | The type of event that has occured. For information on the available types see Event Types below.
 
 
-## Event Types
+## Event types
 
 The available event types and what controls they are applicable for.
 
