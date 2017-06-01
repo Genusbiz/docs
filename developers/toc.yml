@@ -11,7 +11,7 @@
     href: overview/terminology.md
 - name: Keyboard shortcuts
   href: keyboard-shortcuts.md
-- name: Defining the Application Model
+- name: Defining an App Model
   href: defining-the-application-model.md
   items:
   - name: Genus Studio basics
@@ -54,7 +54,7 @@
       items:
       - name: Add a View
         href: defining-the-application-model/forms/views/add-a-view.md
-      - name: Desktop Controls
+      - name: Desktop controls
         href: defining-the-application-model/forms/views/desktop-controls.md
         items:
         - name: Containers
@@ -70,7 +70,7 @@
             href: defining-the-application-model/forms/views/desktop-controls/containers/tab-sheets.md
           - name: Common Container Properties
             href: defining-the-application-model/forms/views/desktop-controls/containers/common-container-properties.md
-        - name: Text and Number Controls
+        - name: Text and number controls
           href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls.md
           items:
           - name: E-mail Address Edit
@@ -93,7 +93,7 @@
             href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text-popup-edit.md
           - name: Url Edit
             href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/url-edit.md
-        - name: Time and Date Controls
+        - name: Time and date controls
           href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls.md
           items:
           - name: Date Time Edit
@@ -106,7 +106,7 @@
             href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/integer-date-edit.md
           - name: Date Range Bar
             href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/date-range-bar.md
-        - name: List and Lookup Controls
+        - name: List and lookup controls
           href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls.md
           items:
           - name: Combo Box
@@ -115,18 +115,9 @@
             href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/list-box.md
           - name: Search Box
             href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/search-box.md
-        - name: Button Controls
+        - name: Button controls
           href: defining-the-application-model/forms/views/desktop-controls/button-controls.md
-          items:
-          - name: Button
-            href: defining-the-application-model/forms/views/desktop-controls/button-controls/button.md
-          - name: Check Box
-            href: defining-the-application-model/forms/views/desktop-controls/button-controls/check-box.md
-          - name: Radio Button
-            href: defining-the-application-model/forms/views/desktop-controls/button-controls/radio-button.md
-          - name: Track Bar
-            href: defining-the-application-model/forms/views/desktop-controls/button-controls/track-bar.md
-        - name: File and Folder Controls
+        - name: File and folder controls
           href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls.md
           items:
           - name: File Browser Edit
@@ -139,14 +130,14 @@
             href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-size-edit.md
           - name: Folder Browser Edit
             href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/folder-browser-edit.md
-        - name: Graphic Controls
+        - name: Graphic controls
           href: defining-the-application-model/forms/views/desktop-controls/graphic-controls.md
           items:
           - name: Image
             href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/image.md
           - name: Symbol
             href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/symbol.md
-        - name: Tabular Controls
+        - name: Tabular controls
           href: defining-the-application-model/forms/views/desktop-controls/tabular-controls.md
           items:
           - name: Grid
@@ -155,7 +146,7 @@
             href: defining-the-application-model/forms/views/desktop-controls/tabular-controls/table.md
           - name: Tree
             href: defining-the-application-model/forms/views/desktop-controls/tabular-controls/tree.md
-        - name: Scheduling Controls
+        - name: Scheduling controls
           href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls.md
           items:
           - name: Gantt
@@ -172,7 +163,7 @@
               href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/timeline/examples--how-to.md
             - name: Properties
               href: defining-the-application-model/forms/views/desktop-controls/scheduling-controls/timeline/properties.md
-        - name: Reporting and Visualization Controls
+        - name: Reporting and visualization controls
           href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls.md
           items:
           - name: Chart
@@ -196,7 +187,7 @@
               href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md
             - name: Properties
               href: defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/properties.md
-        - name: Common Control Propterties
+        - name: Common control propterties
           href: defining-the-application-model/forms/views/desktop-controls/common-control-properties.md
       - name: View Layout Fundamentals
         href: defining-the-application-model/forms/views/view-layout-fundamentals.md
