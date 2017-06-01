@@ -268,7 +268,7 @@ If order index is blank for any of the items tasks, all ordering functionality i
 
 <td>
 
-The starting point in the initially visible range. Typically use this property to zoom to a certain range. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").
+The starting point in the initially visible range. Typically use this property to zoom to a certain range. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").
 
 </td>
 
@@ -278,7 +278,7 @@ The starting point in the initially visible range. Typically use this property t
 
 <td>Visible Range To</td>
 
-<td>The ending point in the initially visible range. Typically use this property to zoom to a certain range. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The ending point in the initially visible range. Typically use this property to zoom to a certain range. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
@@ -365,7 +365,7 @@ The starting point in the initially visible range. Typically use this property t
 
 <td>Data Binding</td>
 
-<td>The data for the column. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data for the column. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 

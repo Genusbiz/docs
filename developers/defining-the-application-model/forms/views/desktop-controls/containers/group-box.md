@@ -129,7 +129,7 @@ See below for details on the summary field properties.
 
 <td>Data Binding</td>
 
-<td>The value for the field. See [Data Binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The value for the field. See [Data Binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 

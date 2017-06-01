@@ -384,7 +384,7 @@ On Menu Item Click, On Switch View, On Value Changed
 
 **Data Binding**
 
-Specifies the location of the data to edit. For more information, see [Data Binding](../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](views/desktop-controls/list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").
+Specifies the location of the data to edit. For more information, see [Data Binding](../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](views/desktop-controls/data-binding-fundamentals.md "Data Binding Fundamentals").
 
 **Default Font - Size**
 

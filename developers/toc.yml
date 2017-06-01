@@ -87,13 +87,6 @@
             href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/date-range-bar.md
         - name: List and lookup controls
           href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls.md
-          items:
-          - name: Combo Box
-            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/combo-box.md
-          - name: List Box
-            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/list-box.md
-          - name: Search Box
-            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/search-box.md
         - name: Button controls
           href: defining-the-application-model/forms/views/desktop-controls/button-controls.md
         - name: File and folder controls
