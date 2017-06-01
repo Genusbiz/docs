@@ -1,10 +1,10 @@
-# Time and Date Controls
+# Time and date controls
 
 The date and time controls are used to display and edit time and date information in various formats. Some controls are bound to a single field in a data source, while some are more advanced and are bound to more than one field.
 
-## Topics in "Time and Date Controls"
-* [Date Time Edit](time-and-date-controls/date-time-edit.md)
-* [Duration Edit](time-and-date-controls/duration-edit.md)
-* [Integer Time Edit](time-and-date-controls/integer-time-edit.md)
-* [Integer Date Edit](time-and-date-controls/integer-date-edit.md)
-* [Date Range Bar](time-and-date-controls/date-range-bar.md)
+## Topics
+* [Date time edit](time-and-date-controls/date-time-edit.md)
+* [Duration edit](time-and-date-controls/duration-edit.md)
+* [Integer time edit](time-and-date-controls/integer-time-edit.md)
+* [Integer date edit](time-and-date-controls/integer-date-edit.md)
+* [Date range bar](time-and-date-controls/date-range-bar.md)
