@@ -72,176 +72,77 @@ It is necessary to select a control to
 
 Different scenarios for selecting controls in the view are described in the table below.
 
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>To select:</th>
-
-<th>Do the following:</th>
-
-</tr>
-
-<tr>
-
-<td>Visible control</td>
-
-<td>Click the control.</td>
-
-</tr>
-
-<tr>
-
-<td>Visible or non-visible parent of selected control</td>
-
-<td>Press ESC once.</td>
-
-</tr>
-
-<tr>
-
-<td>View</td>
-
-<td>Click a control, and then press ESC repeatedly to select the topmost parent, which is the view itself.</td>
-
-</tr>
-
-</tbody>
-
-</table>
+To select                                         | Do the following
+--------------------------------------------------|-------------------------------
+Visible control                                   | Click the control.
+Visible or non-visible parent of selected control | Press ESC once.
+View                                              | Click a control, and then press ESC repeatedly to select the topmost parent, which is the view itself.
 
 The figures below illustrate how parent controls are selected when a control is selected, and then ESC is pressed repeatedly until the view is selected.
 
 <table style="WIDTH: 100%">
-
 <tbody>
 
 <tr>
-
 <td>
-
-Select
-
-control
-
+Select control
 </td>
-
 <td>
-
 ![ID0FFDED4324C8465E.png](media/ID0FFDED4324C8465E.png)
-
 </td>
-
 <td>
-
 ![ID187C1CE2B0E04509.png](media/ID187C1CE2B0E04509.png)
-
 </td>
-
 <td>
-
 ![IDD5AA27F28E8949BD.png](media/IDD5AA27F28E8949BD.png)
-
 </td>
-
 </tr>
 
 <tr>
-
 <td>
-
-Then
-
-press
-
-ESC
-
-to
-
-select
-
-parent
-
+Then press ESC to select parent
 </td>
-
 <td>
-
 ![IDDE1CBC36008C448C.png](media/IDDE1CBC36008C448C.png)
-
 </td>
-
 <td>
-
 ![IDCB817D7F92F646C7.png](media/IDCB817D7F92F646C7.png)
-
 </td>
-
 <td>
-
 ![ID85C2D8AA55D14814.png](media/ID85C2D8AA55D14814.png)
-
 </td>
-
 </tr>
 
 <tr>
-
-<td>Then  
-press  
-ESC  
-to  
-select  
-parent</td>
-
 <td>
-
+Then press ESC to select parent
+</td>
+<td>
 ![ID79E4B603228F40BD.png](media/ID79E4B603228F40BD.png)
-
 </td>
-
 <td>
-
 ![ID6D258BF349BA454C.png](media/ID6D258BF349BA454C.png)
-
 </td>
-
 <td>
-
 ![ID3A514507A71843FB.png](media/ID3A514507A71843FB.png)
-
 </td>
-
 </tr>
 
 <tr>
-
-<td>Then  
-press  
-ESC  
-to  
-select  
-parent</td>
-
-<td></td>
-
 <td>
-
+Then press ESC to select parent
+</td>
+<td>
+</td>
+<td>
 ![ID590D8925158C45C7.png](media/ID590D8925158C45C7.png)
-
 </td>
-
 <td>
-
 ![ID4034990F2E2647CD.png](media/ID4034990F2E2647CD.png)
-
 </td>
-
 </tr>
 
 </tbody>
-
 </table>
 
 
