@@ -160,6 +160,14 @@ There are some exceptions from the general rule on how host names are used. For 
 
 </tr>
 
+<tr>
+
+<td>**Genus Docs URL**</td>
+
+<td>The URL associated with the online help for Genus App Platform. The default URL is [https://docs.genus.no/](https://docs.genus.no/).  Leave this field blank if you do not need to host the online help on a local web server.</td>
+
+</tr>
+
 </tbody>
 
 </table>
