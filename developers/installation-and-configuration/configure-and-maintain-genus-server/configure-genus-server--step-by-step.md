@@ -1,6 +1,6 @@
 # Configure Genus Server - Step by Step
 
-[Start](../../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Configuration Application.
+[Start](how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Configuration Application.
 
 **Step 1 - Assign a Web Server Certificate**
 
