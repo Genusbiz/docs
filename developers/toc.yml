@@ -499,6 +499,8 @@
     href: guidelines-and-best-practices/improving-mobile-client-performance.md
   - name: Security on Search
     href: guidelines-and-best-practices/security-on-search.md
+  - name: HTTPS Security headers - Genus Apps Hardening
+    href: guidelines-and-best-practices/https-security-headers.md
   - name: Web Service Guidelines
     href: guidelines-and-best-practices/web-service-guidelines.md
     items:
