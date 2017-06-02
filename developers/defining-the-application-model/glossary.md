@@ -20,14 +20,11 @@ The advanced expressions are strongly typed, specifying restrictions on how oper
 
 For a complete description of the data types and members, see [here](common-concepts/advanced-expressions.md).
 
-## App
-An app is an abbreviated form of the word application. An app or application is a computer program designed to perform a set of functions to the benefit of users, either directly or indirectly. The abbreviated form "app" was previously used primarily about specialized computer programs downloaded on mobile devices, where as "application" was used about computer programs on desktop and server computers. However, with the advent of cross platform applications, the word app is generally preferred and considered the more modern term.
-
 ## App Model
 
-An App Model is a formalized description of a software app's user interface, logic and data, expressed using the Genus App Platform. App Model is short for Application Model, but the shorter term is generally preferred and considered the more modern term.
+First, an app is an abbreviated form of the word application. An app or application is a computer program designed to perform a set of functions to the benefit of users, either directly or indirectly. The abbreviated form "app" was previously used primarily about specialized computer programs downloaded on mobile devices, where as "application" was used about computer programs on desktop and server computers. However, with the advent of cross platform applications, the word app is generally preferred and considered the more modern term.
 
-The behavior and appearance of your Genus app is determined by the content of your App Model, i.e. the model is the app. The App Model is stored in the [Directory](glossary.md) and maintained by using [Genus Studio](glossary.md).
+Second, an App Model is a formalized description of a software app's user interface, logic and data, expressed using the Genus App Platform. App Model is short for Application Model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your App Model, i.e. the model is the app. The App Model is stored in the [Directory](glossary.md) and maintained by using [Genus Studio](glossary.md).
 
 ## Cardinality
 
@@ -53,7 +50,7 @@ In Genus App Platform, the Directory is the structured storage of a [Genus App M
 
 ## Directory GUID
 
-The Directory [GUID](#guid "Globally Unique Identifier") is the system generated identifier for your [Directory](#directory) containing your [App Model](#app-model), which uniquely identifies your Directory and App Model.
+The Directory [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) is the system generated identifier for your [Directory](#directory) containing your [App Model](#app-model), which uniquely identifies your Directory and App Model.
 
 ## Event History
 
@@ -95,52 +92,8 @@ Genus App Services were previously called Genus Server, but to better differenti
 
 Genus App Platform's client for defining and maintaining [app models](#app-model).
 
-## Globally Unique Identifier (GUID)
-
-A Globally Unique Identifier or GUID is a special type of identifier which is unique across all networked computers in the world. While each generated GUID is not guaranteed to be unique, the total number of unique keys (2<sup>122</sup>) is so large that the probability of the same number being generated twice is very small.
-
-A GUID is frequently useful for identifying objects when similar data from multiple database systems must be merged. For example, in a customer billing system with data located in various company subsidiaries around the world. When the data are merged into the central site for consolidation and reporting, using GUIDs prevents customers in different countries from having the same billing number or customer ID.
-
-An example of a GUID value is 826E89DC-BD93-4120-8198-0B6B2D459905 (written in text as a sequence of hexadecimal digits). Often braces are added to enclose the above format, as such: {826E89DC-BD93-4120-8198-0B6B2D459905}.
-
-## JSON
-
-JavaScript Object Notation (JSON) is a text-based open standard designed for human-readable data interchange. It is derived from the JavaScript scripting language for representing simple data structures and associative arrays, called objects. Despite its relationship to JavaScript, it is language-independent, with parsers available for many languages.  
-
-The JSON format is often used for serializing and transmitting structured data over a network connection. It is used primarily to transmit data between a server and web application, serving as an alternative to XML.  
-
 ## Metadata
 
 Any item of data is a description of something. Metadata is a type of data where the _something_ being described is data. Or, as it is often put, metadata is data about data. Metadata is used to facilitate the understanding, use and management of data. For example, _"004767832000"_ is data. With no additional context, it is meaningless. When _"004767832000"_ is given a meaningful name (metadata) of _"Phone Number"_, one can understand that _"004767832000"_ refers to the phone number to a company or a person located in Norway (based on the two-digit country code 47).
 
 There are hierarchies or levels of data and metadata. However, any particular item of data may be on different levels of a hierarchy depending on the context. Considering the phone number to Genus AS, _"004767832000"_ would be data and _"Phone Number"_ would be metadata. But, when considering a computer system that manages phone data, _"Phone Number"_ might be data, and then _"data item name"_ and _"12 numbers, starting with 00 followed by a two-digit country code"_ would be metadata.
-
-## POX
-
-Plain Old XML (POX) is the basic XML, sometimes mixed in with other, blendable specifications like XML Namespaces, Dublin Core, XInclude and XLink. This contrasts with complicated, multilayered XML specifications like those for web services or RDF.  
-
-POX is compatible with XML Schema, but is not required, and is often not used.  
-
-POX is complementary to REST: REST refers to a communication pattern, while POX refers to an information format style.  
-
-The primary competitors to POX are more strictly-defined XML-based information formats such as RDF and SOAP section 5 encoding, as well as general non-XML information formats such as JSON and CSV.  
-
-## Recursion
-
-See [Recursion](#recursion).
-
-## SOAP
-
-SOAP, originally defined as Simple Object Access Protocol, is a protocol specification for exchanging structured information in the implementation of Web Services in computer networks. It relies on Extensible Markup Language (XML) for its message format, and usually relies on other Application Layer protocols, most notably Hypertext Transfer Protocol (HTTP) or Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.
-
-SOAP can form the foundation layer of a web services protocol stack, providing a basic messaging framework upon which web services can be built. This XML based protocol consists of three parts: an envelope, which defines what is in the message and how to process it, a set of encoding rules for expressing instances of application-defined datatypes, and a convention for representing procedure calls and responses.
-
-SOAP has three major characteristics:
-
-*   Extensibility (security and WS-routing are among the extensions under development).
-*   Neutrality (SOAP can be used over any transport protocol such as HTTP, SMTP, TCP, or JMS).
-*   Independence (SOAP allows for any programming model).
-
-As an example of how SOAP procedures can be used, a SOAP message could be sent to a web site that has web services enabled, such as a real-estate price database, with the parameters needed for a search. The site would then return an XML-formatted document with the resulting data, e.g., prices, location, features. With the data being returned in a standardized machine-parsable format, it can then be integrated directly into a third-party web site or application.
-
-The SOAP architecture consists of several layers of specifications for: message format, Message Exchange Patterns (MEP), underlying transport protocol bindings, message processing models, and protocol extensibility. SOAP is the successor of XML-RPC, though it borrows its transport and interaction neutrality and the envelope/header/body from elsewhere (probably from WDDX).
