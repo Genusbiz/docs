@@ -1,4 +1,4 @@
-## Table
+# Table
 
 The table control allows the use of a predefined [table](../../../../tables.md) to be used within a form. A table can be advanced and rich on functionality. For simpler listings, the [grid](grid.md) may be a more suited option.
 

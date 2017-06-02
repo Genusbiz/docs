@@ -1,4 +1,4 @@
-## Tree
+# Tree
 
 Displays information for a recursive data source in a tree hierarchical structure. Nodes with children can be collapsed or expanded, and additional information is displayed in separate columns.
 

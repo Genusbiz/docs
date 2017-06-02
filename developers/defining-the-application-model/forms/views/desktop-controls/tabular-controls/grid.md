@@ -1,4 +1,4 @@
-## Grid
+# Grid
 
 The grid displays displays data in a two-dimensional table. The bound data is arranged in columns and rows. Grid columns correspond to fields in a data source, while rows represent data records.
 
