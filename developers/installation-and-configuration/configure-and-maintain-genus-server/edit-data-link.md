@@ -1,4 +1,4 @@
-## Edit Data Link
+# Edit Data Link
 
 A data link specifies a connection between your Genus App Services application server and your database server. The data link specification depends on your database system.
 
