@@ -1,7 +1,7 @@
 ## Special considerations for Azure SQL Database
 
 _prerequisite_
-* Make sure you have created one database for the directory (e.g: g_dir) with two schemas for Active and Descriptive partition, e.g: g_desc and g_active.
+* Make sure the database for the directory (e.g: g_dir) has two schemas for Active and Descriptive partition, e.g: g_desc and g_active.
 
 There are certain settings that should be adjusted in the Azure SQL installation in "Genus Configuration"
 * Specify "Microsoft SQL Server 2016 as the vendor version.
