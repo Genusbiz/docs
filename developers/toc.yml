@@ -80,17 +80,6 @@
           href: defining-the-application-model/forms/views/desktop-controls/button-controls.md
         - name: File and folder controls
           href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls.md
-          items:
-          - name: File Browser Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-browser-edit.md
-          - name: File Name Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-name-edit.md
-          - name: File Preview
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-preview.md
-          - name: File Size Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-size-edit.md
-          - name: Folder Browser Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/folder-browser-edit.md
         - name: Graphic controls
           href: defining-the-application-model/forms/views/desktop-controls/graphic-controls.md
         - name: Tabular controls
