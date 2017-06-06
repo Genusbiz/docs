@@ -10,10 +10,10 @@ The directory properties are grouped according to area and presented in tabs. Fo
 
 ## General
 
-|  |  |
+| Property | Description |
 |--|--|
 | **Name** | Name of the directory / application model. |
-| **Internet Host Name** | The Internet Host Name is, by default, used to redirect all client requests to an "official" URL. When a single application server is used, the Internet Host Name is used as the fully qualified domain name of the application server. When two or more application servers are located behind a load balancer, the Internet Host Name represents the fully qualified domain name of the load balancer. The name is typically a combination of the local name for the server and the name for its parent domain. For example, the Internet hostname yourserver.yourdomain.com consists of a local hostname (yourserver) and the domain name (yourdomain.com). See also [Naming the Virtual Directory](../../../defining-the-application-model/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory") for more information.In a few cases you may want to add an application server that deviates from scenarios above- For more informtion see [Redirect Internet Host Name](options.md). There are some exceptions from the general rule on how host names are used. For more information, see [Host Name Usage Exceptions](../../../../users/working-in-tables/host-name-usage-exceptions.md "Host Name Usage Exceptions"). |
+| **Internet Host Name** | The Internet Host Name is, by default, used to redirect all client requests to an "official" URL. When a single application server is used, the Internet Host Name is used as the fully qualified domain name of the application server. When two or more application servers are located behind a load balancer, the Internet Host Name represents the fully qualified domain name of the load balancer. The name is typically a combination of the local name for the server and the name for its parent domain. For example, the Internet hostname yourserver.yourdomain.com consists of a local hostname (yourserver) and the domain name (yourdomain.com). See also [Naming the Virtual Directory](../../../defining-the-application-model/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory") for more information. In a few cases you may want to add an application server that deviates from scenarios above- For more information see [Redirect Internet Host Name](options.md). There are some exceptions from the general rule on how host names are used. For more information, see [Host Name Usage Exceptions](../../../../users/working-in-tables/host-name-usage-exceptions.md "Host Name Usage Exceptions"). |
 | **Database Connections** | Specifies the connections used to access the two database parts of the directory. |
 | **Descriptive Partition** | The database connection for the descriptive partition of the directory. The Descriptive Partition contains the definition of Object Classes, Rules, Forms and concepts like Reports, Tasks, Agents and Web Services. |
 | **Data Link** | The data link string for the descriptive partition connection. Type the string in the box, or click **Edit** to open the **Edit Data Link** window described below. | 
@@ -35,21 +35,19 @@ The directory properties are grouped according to area and presented in tabs. Fo
 
 The edit data link window lets you enter the individual fields, and then constructs the data link string for you.
 
-|  |  |
+| Property | Description |
 |--|--|
-| **Server Name** | Name of the database server. |
+| **Server Name** | Property of the database server. |
 | **Sign in to the server using** | Specify how to sign in to the database server. |
 | **Windows Authentication** | Use windows authentication to sign in. |
-| **Database System Authentication** | Use authentication provided by the database by specifying the two next fields. |
-| **User Name** | User name for database authentication. |
-| **Password** | Password for database authentication. |
+| **Database System Authentication** | Use authentication provided by the database using the following credential values:<ul><li>**User Name** - User name for database authentication.</li><li>**Password** - Password for database authentication.</li></ul> |
 
 
 ## Database Objects
 
 The list of database objects which are stored in the directory database is populated by quering the database dictionary.
 
-|  |  |
+| Property | Description |
 |--|--|
 | **Name** | Name of the database object |
 | **Partition** | Identifies which part of the directory the database objects resides. <ul><li>**Descriptive** - The descriptive part of the directory, which is static during execution.</li><li>**Active** - The active part of the directory, which may change during execution.</li></ul> |
@@ -81,7 +79,7 @@ Or
 *   Click **Next**.
 *   Select the check box for each type of script to create:  
 
-    |  |  |
+    | SQL Statement | Description |
     |--|--|
     | **DROP TABLE** | Script to drop the selected database objects. |
     | **CREATE TABLE** | Script to create the selected database objects. |
@@ -97,14 +95,14 @@ Or
 ## Authentication
 
 ### Active Directory Address
-|  |  |
+| Property | Description |
 |--|--|
 | **Default LDAP Path** | Use the default LDAP path for Active Directory. |
 | **Specified LDAP Path** | Use this option to limit the scope for LDAP queries, or direct the queries to a specific domain controller. For more information, see [The LDAP URL Format](https://tools.ietf.org/html/rfc2255), and [Object Naming](https://technet.microsoft.com/library/cc977992). |
 | **Host Name [:Port No]** | Specify the host name, and optionally the port, for the domain controller to use for LDAP queries. |
 | **Distinguished Name** | Objects are located within Active Directory domains according to a hierarchical path, which includes the labels of the Active Directory domain name and each level of container objects. The full path to the object is defined by the distinguished name (also known as a "DN"). |
 ### Active Directory Identification
-|  |  |
+| Property | Description |
 |--|--|
 | **Genus accounts are identified using the following Active Directory account field** | The following options are available:<ul><li>**objectGUID** - The unique identifier for the object in Active Directory. This attribute is a Globally Unique Identifier (GUID). When an object is created in the Active Directory, the Active Directory server generates a GUID and assigns it to the object's objectGUID attribute.</li><li>**objectSID** - The security identifier (SID) of the user. The SID is a unique value used to identify the user as a security principal. Each user has a unique SID issued by a Windows domain and stored in objectSid attribute of the user object in the Active Directory.</li><li>**sAMAccountName** - The sign in name for the user, used to support clients and servers from a previous version of Windows. The sAMAccountName should be less than 20 characters to support these clients and servers. For more information, see [User Naming Attributes](https://msdn.microsoft.com/library/ms677605.aspx).</li></ul> |
 | **Identity to be used when performing Active Directory queries** | Specify which identity to use for queries to Active Directory. The chosen identity must have the required privileges and permissions to Active Directory to perform the queries. |
@@ -114,7 +112,7 @@ Or
 | **Password** | The password for the identity to use for LDAP queries. |
 
 ### App Clients
-|  |  |
+| Property | Description |
 |--|--|
 | **Sign out after n seconds of inactivity** | The app clients without any activity are signed out automatically after the specified number of seconds. If no number is specified the app clients are signed in indefinetely. |
 | **Allow Remember Credentials** | The app clients are offered an option to remember credentials upon sign-in. |
@@ -123,19 +121,16 @@ Or
 | **Allow Reset Password** | The app clients are offered a link to reset the password from the sign in screen. | 
 
 ### Desktop Clients
-|  |  |
+| Property | Description |
 |--|--|
-| **Desktop Credential Store** | Specify which credential store to use for the desktop client users. |
-| **Genus Directory** | Use Genus Directory to store credentials for user accounts when signing in to Genus Desktop. |
-| **Active Directory** | Use Active Directory to store credentials for user accounts when signing in to Genus Desktop. |
+| **Credential Store** | Specify which credential store to use for the desktop client users. The following options are available: <ul><li>**Genus Directory** - Use Genus Directory to store credentials for user accounts when signing in to Genus Desktop.</li><li>**Active Directory** - Use Active Directory to store credentials for user accounts when signing in to Genus Desktop.</li></ul> |
 
 ### Security Group Administration
 
-Specifies where the security groupes are managed. The following options are available:
-|  |  |
+
+| Property | Description |
 |--|--|
-| **Genus Directory** | The security groups are managed in Genus Directory. |
-| **Active Directory** | The security groups are managed in Active Directory. This option is only available if the Desktop Credential Store is set to Active Directory. | 
+| **Security Group Administration** | Specifies where the security groupes are managed. The following options are available:<ul><li>**Genus Directory** - The security groups are managed in Genus Directory.</li><li>**Active Directory** - The security groups are managed in Active Directory. This option is only available if the Desktop Credential Store is set to Active Directory.</li></ul> | 
 
 
 ## Logical Databases
@@ -157,27 +152,27 @@ There are many scenarios where there are several physical databases defined. For
 
 To add a physical database, click **Add**.
 
-|  |  |
+| Property | Description |
 |--|--|
 | **Name** | The name of the physical database. |
 | **Data Link** | The data link string for the connection. Type the string in the box, or click **Edit** to open the **Edit Data Link** window described below. |
 | **Vendor Version** |The vendor and version of the database where the physical database resides. |
 | **Optionally specify the database and schema** | |
-| **Database** | Name of database. |
-| **Schema** | Name of schema. |
+| **Database** | Property of database. |
+| **Schema** | Property of schema. |
 | **Connection is read only** | Specifies that no changes to the data in this database is allowed. |
 | **Database supports case insensitive search** | Specifies that the search operations in the database are case insensitive. If the search is case sensitive, extra case modifers are added to string expressions in the where-clauses. |
 | **Delimit names** | |
 
 To test the connection using the entered settings, click **Test Connection**.
 
- **Edit Data Link**
+ ### Edit Data Link
 
 The edit data link window lets you enter the individual fields, and then constructs the data link string for you.
 
-|                                    |  |
+| Property                               | Description |
 |------------------------------------|--|
-| **Server Name**                    | Name of the database server. |
+| **Server Name**                    | Property of the database server. |
 | **Sign in to the server using**    | Specify how to sign in to the database server. |
 | **Windows Authentication**         | Use windows authentication to sign in. |
 | **Database System Authentication** | Use authentication provided by the database by specifying the two next fields. |
