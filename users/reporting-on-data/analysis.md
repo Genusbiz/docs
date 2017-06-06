@@ -7,3 +7,4 @@ Selected groups of users can be granted permsissions to create new analyses. The
 **Topics in "Analysis"**
 * [Open an Analysis](analysis/open-an-analysis.md)
 * [Use an Analysis](analysis/use-an-analysis.md)
+* [Design an Analysis](analysis/designer/index.md)
