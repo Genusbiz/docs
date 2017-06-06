@@ -5,7 +5,7 @@
 2. In Windows 10, we recommend adding the Git installation folder (_c:\program files\git\cmd_) to your PATH variable by following the steps [here](#how-to-add-a-folder-to-your-windows-10-path-environment-variable).
 
 ## GitHub
-1. If you do not have a GitHub user account, create one at [GitHub](www.github.com).
+1. If you do not have a GitHub user account, create one at [GitHub](https://www.github.com).
 2. If you are a Genus employee, ask the docs editors group to add you to the Genus organization on GitHub. This will allow you to commit directly (to the master branch).
 
 ## DocFX

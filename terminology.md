@@ -18,7 +18,7 @@ An advanced expression is declarative, meaning that the logic of the computation
 
 The advanced expressions are strongly typed, specifying restrictions on how operations involving values of different data types may be intermixed.
 
-For a complete description of the data types and members, see [here](common-concepts/advanced-expressions.md).
+For a complete description of the data types and members, see [here](developers/defining-the-application-model/common-concepts/advanced-expressions.md).
 
 ## App Model
 
@@ -36,7 +36,7 @@ While this definition only contains two possible values for cardinality, the mat
 
 Code Domains describe a finite set of named code values used to classify domain objects. For example, a person can be classified by code domains such as gender (male, female), civil status (single, married, cohabitant) and nationality.
 
-See [Create or Modify a Code Domain](object-class/create-or-modify-a-code-domain.md) for more information.
+See [Create or Modify a Code Domain](developers/defining-the-application-model/object-class/create-or-modify-a-code-domain.md) for more information.
 
 ## Data Provider
 
@@ -56,9 +56,9 @@ The Directory [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier
 
 An Event History is a chronological sequence of audit trails for objects, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables you to reconstruct and examine the sequence of events and/or changes in an event for an object.
 
-See [here](../../users/working-in-tables/advanced/view-history.md) for more information on how to view the event history for an object.
+See [here](users/working-in-tables/advanced/view-history.md) for more information on how to view the event history for an object.
 
-See [here](object-class/modify-an-object--or-identifier-domain/events.md "Events") for more information on how to active auditing for your object classes.
+See [here](developers/defining-the-application-model/object-class/modify-an-object--or-identifier-domain/events.md "Events") for more information on how to active auditing for your object classes.
 
 ## Formula
 
@@ -72,7 +72,7 @@ For example, to define a formula which concatenates the first name and the surna
 employee.firstName + ", " + employee.surname
 ```
 
-For more information see [Advanced Expressions](common-concepts/advanced-expressions.md).
+For more information see [Advanced Expressions](developers/defining-the-application-model/common-concepts/advanced-expressions.md).
 
 ## Genus Desktop
 

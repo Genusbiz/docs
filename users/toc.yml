@@ -5,6 +5,8 @@
     href: overview/what-is-a-genus-solution.md
   - name: How to Report an Error
     href: overview/how-to-report-an-error.md
+  - name: Terminology
+    href: ../terminology.md
 - name: Get Started
   href: getting-started.md
   items:
