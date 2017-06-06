@@ -1,4 +1,4 @@
-## Tree
+# Tree
 
 Displays information for a recursive data source in a tree hierarchical structure. Nodes with children can be collapsed or expanded, and additional information is displayed in separate columns.
 
@@ -398,7 +398,7 @@ The Auto option is convenient, but can in complex forms lead to performance issu
 
 <td>Data Binding</td>
 
-<td>The data for the column. See [Data Binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data for the column. See [Data Binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 

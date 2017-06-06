@@ -13,4 +13,4 @@ In order to use the web service proxy classes generated above, you typically hav
 3.  Assign credentials according to the authentication scheme used by the web service by setting _yourwebserviceClient._ClientCredentials.UserName.UserName and _yourwebserviceClient_.ClientCredentials.UserName.Password, or -- if Windows Authentication is used -- by setting _yourwebserviceClient._ClientCredentials.Windows.ClientCredential.
 4.  Call the web service operation, e.g. _yourwebserviceClient.youroperation()_, passing any expected input parameters, and process any returned response.  
 
-A code example written in C# is provided [here](../defining-the-application-model/forms/views/desktop-controls/reporting-and-visualization-controls/chart/consuming-a-web-service-from-microsoft-visual-studio--code-example.md "Consuming a Web Service from Microsoft Visual Studio - Code Example").
+A code example written in C# is provided [here](consuming-a-web-service-from-microsoft-visual-studio--code-example.md "Consuming a Web Service from Microsoft Visual Studio - Code Example").

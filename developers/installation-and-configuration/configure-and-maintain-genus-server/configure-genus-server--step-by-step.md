@@ -1,6 +1,6 @@
-## Configure Genus Server - Step by Step
+# Configure Genus Server - Step by Step
 
-[Start](../../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Configuration Application.
+[Start](how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Configuration Application.
 
 **Step 1 - Assign a Web Server Certificate**
 
@@ -55,7 +55,7 @@ A physical database is defined by a datalink and a database or schema, and is us
 1.  Click the **Physical Databases** tab.
 2.  Click **Add**.
 3.  In the **Name** box, type a name for the database.
-4.  Click **Edit** to the right of the **Data Link** box to define the data link to use when connecting to the database. See [Edit Data Link](../../defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/edit-data-link.md "Edit Data Link") for more information.
+4.  Click **Edit** to the right of the **Data Link** box to define the data link to use when connecting to the database. See [Edit Data Link](edit-data-link.md "Edit Data Link") for more information.
 5.  In the **Vendor Version** box, select a database vendor version. See [Supported Database System Vendors](../system-requirements.md) for more information.
 6.  In the **Database** and **Schema** boxes, type a database or schema. Depending on the database system vendor, you must either provide a database or a schema. See [Specifying a Database and a Schema for a Data Link](../specifying-a-database-and-a-schema-for-a-data-link.md "Specifying a Database and a Schema for a Data Link") for more information.
 7.  Select the **Connection is read only** check box if data never are written to this database.

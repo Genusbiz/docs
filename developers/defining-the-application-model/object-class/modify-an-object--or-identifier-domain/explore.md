@@ -196,7 +196,7 @@ To add a browse path, do the following:
 2.  In the **Name** box, type a name for the path.  
     ![IDF950FDE4E6C94159.ID96E4D069AB2F493B.jpg](media/IDF950FDE4E6C94159.ID96E4D069AB2F493B.jpg)
 3.  To define a path, click **Modify**.
-4.  A path condition defines the path from one object class to another, via other object classes if necessary. The step between two object classes is defined by conditions between the properties of the two object classes. For further information see [path conditions](../../forms/views/desktop-controls/path-condition.md "Path Condition").
+4.  A path condition defines the path from one object class to another, via other object classes if necessary. The step between two object classes is defined by conditions between the properties of the two object classes. For further information see [path conditions](path-condition.md "Path Condition").
 5.  In the **View** list, select the view to use for displaying the objects found using this browse path.
 6.  Click **OK**.
 7.  Click **OK**.

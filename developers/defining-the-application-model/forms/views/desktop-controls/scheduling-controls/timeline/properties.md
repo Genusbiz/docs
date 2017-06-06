@@ -81,7 +81,7 @@ For information on specific properties, see View Properties below.
 
 <td>Data Binding</td>
 
-<td>The data source that contains the data for this series. For more information see [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data source that contains the data for this series. For more information see [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
@@ -287,7 +287,7 @@ See [Automatic Formatting](../../../../../common-concepts/automatic-formatting.m
 
 <td>Data Binding</td>
 
-<td>The data binding for the field. For more information see [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals")</td>
+<td>The data binding for the field. For more information see [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals")</td>
 
 </tr>
 

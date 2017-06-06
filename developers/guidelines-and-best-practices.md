@@ -12,4 +12,5 @@ In this section we provide articles focused on optimization, both in regards to 
 * [Improving search performance](guidelines-and-best-practices/improving-search-performance.md)
 * [Improving Genus Apps performance](guidelines-and-best-practices/improving-mobile-client-performance.md)
 * [Security on search](guidelines-and-best-practices/security-on-search.md)
+* [HTTPS Security headers - Genus Apps hardening](guidelines-and-best-practices/https-security-headers.md)
 * [Web wervice guidelines](guidelines-and-best-practices/web-service-guidelines.md)

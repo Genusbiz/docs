@@ -1,4 +1,4 @@
-## Group
+# Group
 
 The group is a box without header and border that can contain other controls. The main usage of the group is to divide the form into smaller parts and stack other controls vertically or horizontally.
 

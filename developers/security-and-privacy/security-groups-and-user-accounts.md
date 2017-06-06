@@ -2,7 +2,7 @@
 
 Genus App Platform uses a **user or computer account** to authenticate the identity of the user or computer, and to authorize or deny access to application resources (data and functions). The account establishes an identity for the user. The identity is then used to authenticate the user and to grant the user authorization to access specific application resources.
 
-You collect users, computers and other groups into a **security group**_,_ and then assign appropriate privileges and permissions to the security group. This simplifies administration by letting you assign privileges and permissions once to the group instead of multiple times to each individual user. When you add a user to an existing group, the user automatically gains the privileges and permissions already assigned to that group. Another feature that makes it easier to manage users is that you can nest groups, that is, you can add a group as a member of another group. This is referred to as the [effective memberships](../defining-the-application-model/forms/views/desktop-controls/tabular-controls/effective-memberships-and-permissions.md "Effective Memberships and Permissions") for a group or user account.
+You collect users, computers and other groups into a **security group**_,_ and then assign appropriate privileges and permissions to the security group. This simplifies administration by letting you assign privileges and permissions once to the group instead of multiple times to each individual user. When you add a user to an existing group, the user automatically gains the privileges and permissions already assigned to that group. Another feature that makes it easier to manage users is that you can nest groups, that is, you can add a group as a member of another group. This is referred to as the [effective memberships](effective-memberships-and-permissions.md "Effective Memberships and Permissions") for a group or user account.
 
 The following built-in users and groups are available:
 
@@ -78,7 +78,7 @@ Required [security privilege](security-privileges.md): **Administer Security Gro
 7.  To add existing groups or users as member of the group, click the **Members** tab.
 8.  To add one or more users as members of the group, click **Add Users**. To add one or more groups as members of the group, click **Add Groups**. Type the name of the group or user you want to add, and then click **OK**.
 9.  To include the group as a member of another group, click the **Member Of** tab, and then click **Add**. Type the name of the group, and then click **OK**.
-10.  To view the [effective memberships](../defining-the-application-model/forms/views/desktop-controls/tabular-controls/effective-memberships-and-permissions.md "Effective Memberships and Permissions") for the group, click **Memberships**.
+10.  To view the [effective memberships](effective-memberships-and-permissions.md "Effective Memberships and Permissions") for the group, click **Memberships**.
 11.  To grant permissions to the group, click the **Security** tab. Follow the [step-by-step procedure](security-permissions.md) on how to grant permissions to an object.
 
 
@@ -205,5 +205,5 @@ See Also
 
 *   [Security Privileges](security-privileges.md)
 *   [Security Permissions](security-permissions.md)
-*   [Effective Memberships and Permissions](../defining-the-application-model/forms/views/desktop-controls/tabular-controls/effective-memberships-and-permissions.md)
+*   [Effective Memberships and Permissions](effective-memberships-and-permissions.md)
 *   [Account Profiles](account-profiles.md)

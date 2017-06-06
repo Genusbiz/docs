@@ -31,7 +31,7 @@ Each control has a set of properties which configures various aspects of the con
 
 <td>
 
-The type of binding between the control and the data source. For most controls this is option is not available, as the inherent nature of the control only allows one of the two. See also [Data Binding Fundamentals](list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").
+The type of binding between the control and the data source. For most controls this is option is not available, as the inherent nature of the control only allows one of the two. See also [Data Binding Fundamentals](data-binding-fundamentals.md "Data Binding Fundamentals").
 
 **Value**
 
@@ -609,7 +609,7 @@ Align the label text to the bottom.
 
 <td>Data Binding</td>
 
-<td>The data binding specifies the field to use for the screen tip value. For more information see [Data Binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data binding specifies the field to use for the screen tip value. For more information see [Data Binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 

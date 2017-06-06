@@ -72,71 +72,16 @@
             href: defining-the-application-model/forms/views/desktop-controls/containers/common-container-properties.md
         - name: Text and number controls
           href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls.md
-          items:
-          - name: E-mail Address Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/email-address-edit.md
-          - name: HTML Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/html-edit.md
-          - name: Label
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/label.md
-          - name: Number Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/number-edit.md
-          - name: Password Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/password-edit.md
-          - name: Rich Text Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/rich-text-edit.md
-          - name: Text
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text.md
-          - name: Text Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text-edit.md
-          - name: Text Popup Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/text-popup-edit.md
-          - name: Url Edit
-            href: defining-the-application-model/forms/views/desktop-controls/text-and-number-controls/url-edit.md
         - name: Time and date controls
           href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls.md
-          items:
-          - name: Date Time Edit
-            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/date-time-edit.md
-          - name: Duration Edit
-            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/duration-edit.md
-          - name: Integer Time Edit
-            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/integer-time-edit.md
-          - name: Integer Date Edit
-            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/integer-date-edit.md
-          - name: Date Range Bar
-            href: defining-the-application-model/forms/views/desktop-controls/time-and-date-controls/date-range-bar.md
         - name: List and lookup controls
           href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls.md
-          items:
-          - name: Combo Box
-            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/combo-box.md
-          - name: List Box
-            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/list-box.md
-          - name: Search Box
-            href: defining-the-application-model/forms/views/desktop-controls/list-and-lookup-controls/search-box.md
         - name: Button controls
           href: defining-the-application-model/forms/views/desktop-controls/button-controls.md
         - name: File and folder controls
           href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls.md
-          items:
-          - name: File Browser Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-browser-edit.md
-          - name: File Name Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-name-edit.md
-          - name: File Preview
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-preview.md
-          - name: File Size Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/file-size-edit.md
-          - name: Folder Browser Edit
-            href: defining-the-application-model/forms/views/desktop-controls/file-and-folder-controls/folder-browser-edit.md
         - name: Graphic controls
           href: defining-the-application-model/forms/views/desktop-controls/graphic-controls.md
-          items:
-          - name: Image
-            href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/image.md
-          - name: Symbol
-            href: defining-the-application-model/forms/views/desktop-controls/graphic-controls/symbol.md
         - name: Tabular controls
           href: defining-the-application-model/forms/views/desktop-controls/tabular-controls.md
           items:
@@ -554,6 +499,8 @@
     href: guidelines-and-best-practices/improving-mobile-client-performance.md
   - name: Security on Search
     href: guidelines-and-best-practices/security-on-search.md
+  - name: HTTPS Security headers - Genus Apps Hardening
+    href: guidelines-and-best-practices/https-security-headers.md
   - name: Web Service Guidelines
     href: guidelines-and-best-practices/web-service-guidelines.md
     items:

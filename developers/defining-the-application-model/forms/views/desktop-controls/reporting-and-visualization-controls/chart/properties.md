@@ -1199,7 +1199,7 @@ To add a new series, in the **Add Item of Type** list, select the type of series
 
 <td>Data Binding</td>
 
-<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
@@ -1329,7 +1329,7 @@ The screen tip which is displayed when the mouse cursor is moved over the series
 
 <td>Data Binding</td>
 
-<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../list-and-lookup-controls/data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
