@@ -9,13 +9,12 @@
 // media files belonging to other articles. The latter are copied, not moved.
 // If a target filename is given (and not only a target folder), the article is renamed, including all references.
 // You may use the program to rename an article's filename in a folder.
-// See TODO below for a list of missing features etc.
 //
 // NOTE! ALWAYS RUN THE PROGRAM FROM YOUR ROOT DOCS FOLDER! (like d:\git\docs)
 // 
 // The program is written specifically for Genus AS (www.genus.no) style of use of DocFX markdown files,
 // and may not suit other usage. For instance, the code assumes media files are in a local 'media' folder for each article.
-// But contributions are appreciated!
+// But feel free to contribute.
 // 
 // Usage:
 // 1) Download and install node.js from nodejs.org
@@ -28,6 +27,8 @@
 //      node movearticles developers/defining-the-application-model/glossary.md terminology.md
 //    Example 3: Renaming an article without moving it:
 //      node movearticles developers/defining-the-application-model.md developers/defining-an-app-model.md
+// 
+// See also https://github.com/GenusAS/docs/blob/master/editing-docs-locally.md
 //
 // TODO:
 //   - Add some try/catch on IO commands.
