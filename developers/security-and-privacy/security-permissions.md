@@ -143,7 +143,7 @@ To grant permissions to all objects, the option **Allow granting of permissions 
 6.  To allow a permission, in the **Permissions** box, select the **Allow** check box. To withdraw a permission, clear the **Allow** check box.
 7.  To withdraw all permissions from an existing group, click **Remove**.
 
-To view the [effective permissions](effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group, click **Advanced**, and then click **Effective Permissions**.
+To view the [effective permissions](../defining-the-application-model/security/effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group, click **Advanced**, and then click **Effective Permissions**.
 
 ## Grant Permissions to All Objects Satisfying Conditions to a Security Group
 
@@ -159,7 +159,7 @@ To grant permissions to all objects satisfying conditions, the option **Allow gr
 6.  To specify a condition for a permission, in the **Condition** column, click **...** and enter the condition. If no condition is given, the permission is always granted.
 7.  To withdraw all permissions from an existing group, click **Remove**.
 
-To view the [effective permissions](effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group, click **Advanced**, and then click **Effective Permissions**.
+To view the [effective permissions](../defining-the-application-model/security/effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group, click **Advanced**, and then click **Effective Permissions**.
 
 ## Grant Permissions to an Individual Object to a User
 
@@ -184,7 +184,7 @@ If the current object represents a [composition](../installation-and-configurati
 4.  To allow a permission, in the **Permissions** box, select the **Allow** check box. To withdraw a permission, clear the **Allow** check box.
 5.  To withdraw all permissions from an existing group or user, click **Remove**.
 
-To view the [effective permissions](effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group or user, click **Advanced**, and the click **Effective Permissions**.
+To view the [effective permissions](../defining-the-application-model/security/effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group or user, click **Advanced**, and the click **Effective Permissions**.
 
 
 
@@ -213,9 +213,9 @@ To grant permissions to a property, the option **Allow granting of permissions t
 7.  To allow a permission, in the **Permissions** box, select the **Allow** check box. To withdraw a permission, clear the **Allow** check box.
 8.  To withdraw all permissions from an existing group, click **Remove**.
 
-To view the [effective permissions](effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group, click **Advanced**, and then click **Effective Permissions**.
+To view the [effective permissions](../defining-the-application-model/security/effective-memberships-and-permissions.md "Effective Memberships and Permissions") granted to a group, click **Advanced**, and then click **Effective Permissions**.
 
 See Also
 
-*   [Effective Memberships and Permissions](effective-memberships-and-permissions.md)
+*   [Effective Memberships and Permissions](../defining-the-application-model/security/effective-memberships-and-permissions.md)
 *   [Security Privileges](security-privileges.md)

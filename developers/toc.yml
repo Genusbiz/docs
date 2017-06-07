@@ -414,6 +414,8 @@
     items:
     - name: Account profiles
       href: defining-the-application-model/security/account-profiles.md
+    - name: Effective memberships and permissions
+      href: defining-the-application-model/security/effective-memberships-and-permissions.md
 - name: Installation and configuration
   href: installation-and-configuration.md
   items:
