@@ -5,7 +5,7 @@ A successful application must ensure that only properly authenticated users can 
 The security services provided by Genus App Platform are based on MicrosoftB. Active Directory mechanisms, and may optionally be integrated with an Active Directory-based domain controller.
 
 **Topics in "Security and privacy"**
-* [Account Profiles](security-and-privacy/account-profiles.md)
+* [Account Profiles](defining-the-application-model/security/account-profiles.md)
 * [Security Groups and User Accounts](security-and-privacy/security-groups-and-user-accounts.md)
 * [Sign In History](security-and-privacy/sign-in-history.md)
 * [Security Permissions](security-and-privacy/security-permissions.md)

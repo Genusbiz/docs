@@ -410,6 +410,10 @@
           href: defining-the-application-model/common-concepts/conditions/condition-editor/remove-an-expression-or-group.md
     - name: Data Binding
       href: defining-the-application-model/common-concepts/data-binding.md
+  - name: Security
+    items:
+    - name: Account profiles
+      href: defining-the-application-model/security/account-profiles.md
 - name: Installation and configuration
   href: installation-and-configuration.md
   items:
@@ -461,11 +465,9 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
     - name: Monitoring Genus Server
       href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
-- name: Security and Privacy
+- name: Security
   href: security-and-privacy.md
   items:
-  - name: Account Profiles
-    href: security-and-privacy/account-profiles.md
   - name: Security Groups and User Accounts
     href: security-and-privacy/security-groups-and-user-accounts.md
   - name: Sign In History

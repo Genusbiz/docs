@@ -89,7 +89,7 @@ Required [security privilege](security-privileges.md): **Administer users**.
 
 Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus App Platform provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../defining-the-application-model/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../installation-and-configuration/configure-and-maintain-genus-server.md).
 
-When you add a user account, you have to select an [account profile](account-profiles.md) for the user. The profile describes the password- and lockout policy for a user, and optionally a description on how to associate a user account with a business object. For example, a user account can be associated with an employee. If users are authenticated by MicrosoftB. Active Directory, the password- and lockout policy is determined by Active Directory.
+When you add a user account, you have to select an [account profile](../defining-the-application-model/security/account-profiles.md) for the user. The profile describes the password- and lockout policy for a user, and optionally a description on how to associate a user account with a business object. For example, a user account can be associated with an employee. If users are authenticated by MicrosoftB. Active Directory, the password- and lockout policy is determined by Active Directory.
 
 If your application uses **custom authentication**, follow these steps:
 
@@ -179,7 +179,7 @@ Note that passwords cannot be changed for user accounts authenticated by Microso
 
 ## Unlock a Locked User Account
 
-Based on the lockout policy defined in the [account profile setup](account-profiles.md), a user may be locked out after one or more invalid sign in attempts. The account is automatically unlocked after a specified number of minutes. To manually unlock a user, follow these steps:
+Based on the lockout policy defined in the [account profile setup](../defining-the-application-model/security/account-profiles.md), a user may be locked out after one or more invalid sign in attempts. The account is automatically unlocked after a specified number of minutes. To manually unlock a user, follow these steps:
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **User Acccount Properties** dialog box, clear the **Account is locked out** check box.
@@ -206,4 +206,4 @@ See Also
 *   [Security Privileges](security-privileges.md)
 *   [Security Permissions](security-permissions.md)
 *   [Effective Memberships and Permissions](effective-memberships-and-permissions.md)
-*   [Account Profiles](account-profiles.md)
+*   [Account Profiles](../defining-the-application-model/security/account-profiles.md)
