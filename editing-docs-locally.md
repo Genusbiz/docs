@@ -46,11 +46,11 @@
 4. If you have used Git to pull from the Genus docs repos above, you will find a file named movearticles.js in your docs project folder.
 5. You are now ready to use movearticles.js in your command line window. Examples:
 
-   a. Move an article from an folder to another.
+   a. Move an article from a folder to another.
       ```
       node movearticles.js developers/security-and-privacy.md developers/defining-the-application-model
       ```
-   b. Move an article from an folder to another, including renaming the article. In this case the article is moved to the docs project folder.
+   b. Move an article from a folder to another, including renaming the article. In this case the article is moved to the docs project folder.
       ```
       node movearticles.js developers/defining-the-application-model/glossary.md terminology.md
       ```
