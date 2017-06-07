@@ -1,3 +1,4 @@
+# Effective memberships and permissions
 
 A group or user can be a member of one or more groups. The memberships defined for these groups are inherited by the group or user. When calculating effective memberships for a group or user, both the group which the group or user is a member of, and the memberships inherited from these groups are considered.
 
