@@ -10,6 +10,6 @@ The security services provided by Genus App Platform are based on MicrosoftB. Ac
 * [Sign In History](security-and-privacy/sign-in-history.md)
 * [Security Permissions](security-and-privacy/security-permissions.md)
 * [Security Privileges](security-and-privacy/security-privileges.md)
-* [Security Data Sets](security-and-privacy/security-data-sets.md)
+* [Security Data Sets](defining-the-application-model/security/security-data-sets.md)
 * [Security Overview and Review](security-and-privacy/security-overview-and-review.md)
 * [Trusted Users](security-and-privacy/trusted-users.md)

@@ -416,6 +416,8 @@
       href: defining-the-application-model/security/account-profiles.md
     - name: Effective memberships and permissions
       href: defining-the-application-model/security/effective-memberships-and-permissions.md
+    - name: Security data sets
+      href: defining-the-application-model/security/security-data-sets.md
 - name: Installation and configuration
   href: installation-and-configuration.md
   items:
@@ -478,8 +480,6 @@
     href: security-and-privacy/security-permissions.md
   - name: Security Privileges
     href: security-and-privacy/security-privileges.md
-  - name: Security Data Sets
-    href: security-and-privacy/security-data-sets.md
   - name: Security Overview and Review
     href: security-and-privacy/security-overview-and-review.md
   - name: Trusted Users

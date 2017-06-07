@@ -171,7 +171,7 @@ If you did not close Genus Studio in the previous step, skip step 1 below.
 
 **Next step**
 
-You should also consider creating [security groups](../../security-and-privacy/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../security-and-privacy/security-privileges.md), [permissions](../../security-and-privacy/security-permissions.md), and [access to data sets](../../security-and-privacy/security-data-sets.md).
+You should also consider creating [security groups](../../security-and-privacy/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../security-and-privacy/security-privileges.md), [permissions](../../security-and-privacy/security-permissions.md), and [access to data sets](../../defining-the-application-model/security/security-data-sets.md).
 
 You may also want to create a Windows Scheduled Task to [automatically delete old log files](automatically-delete-old-log-files.md) created by Genus App Services.
 
