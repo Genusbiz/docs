@@ -411,6 +411,7 @@
     - name: Data Binding
       href: defining-the-application-model/common-concepts/data-binding.md
   - name: Security
+    href: defining-the-application-model/security.md
     items:
     - name: Account profiles
       href: defining-the-application-model/security/account-profiles.md
@@ -420,6 +421,16 @@
       href: defining-the-application-model/security/security-data-sets.md
     - name: Security groups and user accounts
       href: defining-the-application-model/security/security-groups-and-user-accounts.md
+    - name: Sign In History
+      href: defining-the-application-model/security/sign-in-history.md
+    - name: Security Permissions
+      href: defining-the-application-model/security/security-permissions.md
+    - name: Security Privileges
+      href: defining-the-application-model/security/security-privileges.md
+    - name: Security Overview and Review
+      href: defining-the-application-model/security/security-overview-and-review.md
+    - name: Trusted Users
+      href: defining-the-application-model/security/trusted-users.md
 - name: Installation and configuration
   href: installation-and-configuration.md
   items:
@@ -471,19 +482,6 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
     - name: Monitoring Genus Server
       href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
-- name: Security
-  href: security-and-privacy.md
-  items:
-  - name: Sign In History
-    href: security-and-privacy/sign-in-history.md
-  - name: Security Permissions
-    href: security-and-privacy/security-permissions.md
-  - name: Security Privileges
-    href: security-and-privacy/security-privileges.md
-  - name: Security Overview and Review
-    href: security-and-privacy/security-overview-and-review.md
-  - name: Trusted Users
-    href: security-and-privacy/trusted-users.md
 - name: Guidelines and best practices
   href: guidelines-and-best-practices.md
   items:

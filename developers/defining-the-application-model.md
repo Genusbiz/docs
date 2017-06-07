@@ -46,4 +46,4 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 **Security**
 
-* [Security and privacy](security-and-privacy.md)
+* [Security and privacy](defining-the-application-model/security.md)

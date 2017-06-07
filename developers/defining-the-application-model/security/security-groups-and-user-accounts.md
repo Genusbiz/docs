@@ -67,7 +67,7 @@ The following built-in users and groups are available:
 
 ## Add a Security Group
 
-Required [security privilege](../../security-and-privacy/security-privileges.md): **Administer Security Groups**.
+Required [security privilege](security-privileges.md): **Administer Security Groups**.
 
 1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Groups** folder.
@@ -79,13 +79,13 @@ Required [security privilege](../../security-and-privacy/security-privileges.md)
 8.  To add one or more users as members of the group, click **Add Users**. To add one or more groups as members of the group, click **Add Groups**. Type the name of the group or user you want to add, and then click **OK**.
 9.  To include the group as a member of another group, click the **Member Of** tab, and then click **Add**. Type the name of the group, and then click **OK**.
 10.  To view the [effective memberships](effective-memberships-and-permissions.md "Effective Memberships and Permissions") for the group, click **Memberships**.
-11.  To grant permissions to the group, click the **Security** tab. Follow the [step-by-step procedure](../../security-and-privacy/security-permissions.md) on how to grant permissions to an object.
+11.  To grant permissions to the group, click the **Security** tab. Follow the [step-by-step procedure](security-permissions.md) on how to grant permissions to an object.
 
 
 
 ## Add a User- or Computer Account
 
-Required [security privilege](../../security-and-privacy/security-privileges.md): **Administer users**.
+Required [security privilege](security-privileges.md): **Administer users**.
 
 Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus App Platform provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).
 
@@ -203,7 +203,7 @@ Based on the lockout policy defined in the [account profile setup](account-profi
 
 See Also
 
-*   [Security Privileges](../../security-and-privacy/security-privileges.md)
-*   [Security Permissions](../../security-and-privacy/security-permissions.md)
+*   [Security Privileges](security-privileges.md)
+*   [Security Permissions](security-permissions.md)
 *   [Effective Memberships and Permissions](effective-memberships-and-permissions.md)
 *   [Account Profiles](account-profiles.md)

@@ -62,15 +62,15 @@ If the Object Class has properties referencing other object classes, permissions
 
 **Granting Permissions to All Objects**
 
-To allow granting of permissions to all objects, select **Allow granting of permissions to**, and then select the **all objects** check box. Only [trusted users](../../../security-and-privacy/trusted-users.md) can grant permissions to all objects. How to grant permissions to all objects is described in the article [Grant Permissions to All Objects to a Security Group](../../../security-and-privacy/security-permissions.md).
+To allow granting of permissions to all objects, select **Allow granting of permissions to**, and then select the **all objects** check box. Only [trusted users](../../security/trusted-users.md) can grant permissions to all objects. How to grant permissions to all objects is described in the article [Grant Permissions to All Objects to a Security Group](../../security/security-permissions.md).
 
 **Granting Permissions to All Objects Satisfying Conditions**
 
-To allow granting of permissions to all objects based on a condition, select **Allow granting of permissions to**, and then select the **all objects satisfying conditions** check box. Only [trusted users](../../../security-and-privacy/trusted-users.md) can grant permissions to all objects satisfying conditions. How to grant permissions to all objects satisfying conditions is described in the article [Grant Permissions to All Objects Satisfying Conditions to a Security Group](../../../security-and-privacy/security-permissions.md).
+To allow granting of permissions to all objects based on a condition, select **Allow granting of permissions to**, and then select the **all objects satisfying conditions** check box. Only [trusted users](../../security/trusted-users.md) can grant permissions to all objects satisfying conditions. How to grant permissions to all objects satisfying conditions is described in the article [Grant Permissions to All Objects Satisfying Conditions to a Security Group](../../security/security-permissions.md).
 
 **Granting Permissions to Individual Objects**
 
-To allow granting of permissions to individual objects, select **Allow granting of permissions to**, and then select the **individual objects** check box. If the Object Class is part of a composition, select the **Copy permissions from composition on create** check box, if you want to copy permissions from the composition object when a new object is created. How to grant permissions to individual objects is described in the article [Grant Permissions to an Individual Object to a User](../../../security-and-privacy/security-permissions.md).
+To allow granting of permissions to individual objects, select **Allow granting of permissions to**, and then select the **individual objects** check box. If the Object Class is part of a composition, select the **Copy permissions from composition on create** check box, if you want to copy permissions from the composition object when a new object is created. How to grant permissions to individual objects is described in the article [Grant Permissions to an Individual Object to a User](../../security/security-permissions.md).
 
 **Granting Permissions to All Objects Within Individual Composition**
 
@@ -150,10 +150,10 @@ All objects within individual compositions
 
 </table>
 
-Note that you must allow granting of permissions to individual objects for the *Project Object Class*, since permissions to *activity codes* are granted for individual *projects*. How to grant permissions to all objects within a composition is described in the article [Grant Permissions to an Individual Object to a User](../../../security-and-privacy/security-permissions.md).
+Note that you must allow granting of permissions to individual objects for the *Project Object Class*, since permissions to *activity codes* are granted for individual *projects*. How to grant permissions to all objects within a composition is described in the article [Grant Permissions to an Individual Object to a User](../../security/security-permissions.md).
 
 See Also
 
 *   [Security Groups and User Accounts](../../security/security-groups-and-user-accounts.md)
-*   [Security Permissions](../../../security-and-privacy/security-permissions.md)
-*   [Trusted Users](../../../security-and-privacy/trusted-users.md)
+*   [Security Permissions](../../security/security-permissions.md)
+*   [Trusted Users](../../security/trusted-users.md)

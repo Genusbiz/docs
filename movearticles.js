@@ -33,10 +33,11 @@
 //   - Add some try/catch on IO commands.
 //   - Handle delimiters (forward and backward slashes) in a better way?
 //   - Table of contents files (toc.yml) are NOT updated (yet).
-//   - Moving of all articles (and subarticles) in a folder is not supported - yet.
+//   - Moving of articles in a folder is supported - but not recursively (yet).
 //   - Drag and drop UI.
 //   - Upgrade code to ES6 (using class etc).
 //   - Change ArticleClass.findCrossRef and ArticleClass.findExt into static methods (belonging to the CrossRefClass instead).
+//   - Add support for renaming media files.
 
 var fs = require("fs");
 var fsExtra = require('fs-extra');
@@ -47,127 +48,158 @@ var excludedFolders = [".git","_site","_exported_templates",".vscode"];
 
 var usageDescription = "Usage: node movearticle.js <a markdown source article filename> <target folder>";
 
-// ------------------------------------------------------------
 // Read and check command line arguments.
 if (process.argv.length != 4) {
     console.log(usageDescription);
     process.exit(1);
 }
 
+// Check source command line arguments.
 if (!fs.existsSync(process.argv[2])) {
     console.log( "Source article '" + process.argv[2] + "' not found." );
     console.log( usageDescription );
     process.exit(1);
 }
 
-if (path.extname(process.argv[2]).toLowerCase() != ".md") {
+var isMovingDirectory = false;
+if (fs.lstatSync(process.argv[2]).isDirectory()) {
+    isMovingDirectory = true;
+}
+else if (path.extname(process.argv[2]).toLowerCase() != ".md") {
     console.log( "Source article must be a Markdown file with extension '.md'." );
     console.log( usageDescription );
     process.exit(1);
 }
 
-var sourceFoldername     = toForwardSlash(path.dirname(process.argv[2]));
-var sourceFilename       = toForwardSlash(path.basename(process.argv[2]));
-var sourceFullFoldername = toForwardSlash(path.join(__dirname,sourceFoldername));
-var sourceFullFilename   = toForwardSlash(path.join(sourceFullFoldername,sourceFilename));
+var sourceFullFilename = toForwardSlash(process.argv[2]);
+var sourceFilename = "";
+if (!isMovingDirectory)
+    sourceFilename = path.basename(sourceFullFilename);
 
-if (!fs.existsSync(process.argv[3])) {
-    try {
-        fs.mkdirSync(process.argv[3]);
-    }
-    catch (e) {
-        console.log("Failed creating target folder " + process.argv[3]);
-        process.exit(1);
-    }
-}
+// Make sure source filename has full path.
+if (sourceFullFilename.indexOf(__dirname) == -1)
+    sourceFullFilename = toForwardSlash(path.join(__dirname,sourceFullFilename));
 
 // path.basename always return last path segment, which could be a folder.
 // Therefore some extra code here...
-var targetFoldername = "";
-var targetFilename   = "";
-if (fs.lstatSync(process.argv[3]).isDirectory())
-    targetFoldername = toForwardSlash(process.argv[3]);
-else {
-    targetFoldername = toForwardSlash(path.dirname(process.argv[3])); 
-    targetFilename   = toForwardSlash(path.basename(process.argv[3]));
-}
-var targetMediaFoldername = path.join(targetFoldername,"media");
+var targetFullFilename = process.argv[3];
+var targetFilename = "";
+var isTargetAFolder = (targetFullFilename.indexOf(".") == -1); // Improve this check later.
 
-// Make full path editions of the variables above.
-var targetFullFoldername = toForwardSlash(path.join(__dirname,targetFoldername));
-var targetFullFilename;
-if (targetFilename == "")
-    targetFullFilename = toForwardSlash(path.join(targetFullFoldername,sourceFilename));
-else
-    targetFullFilename = toForwardSlash(path.join(targetFullFoldername,targetFilename,sourceFilename));
+if (isTargetAFolder) {
+    if (!fs.existsSync(targetFullFilename)) {
+        try {
+            fs.mkdirSync(targetFullFilename);
+        }
+        catch (e) {
+            console.log("Failed creating target folder " + targetFullFilename);
+            process.exit(1);
+        }
+    }
+    targetFullFilename = toForwardSlash(targetFullFilename);
+    targetFilename = sourceFilename;
+}
+else {
+    targetFullFilename = toForwardSlash(path.dirname(process.argv[3])); 
+    targetFilename = path.basename(process.argv[3]);
+}
+
+targetFullFilename = toForwardSlash(path.join(targetFullFilename,targetFilename));
+
+// Make sure target filename has full path.
+if (targetFullFilename.indexOf(__dirname) == -1)
+    targetFullFilename = toForwardSlash(path.join(__dirname,targetFullFilename));
 
 // Count changes and report to console at end.
 var changeCount = 0;
 
-//
-// Fix references in source article and copy/move any media files.
-//
-var sourceArticle = new ArticleClass(sourceFullFilename);
-console.log("Processing source article " + sourceArticle.filename);
-var reference = sourceArticle.findCrossRef(reference);
-while (reference != null) {
-    if (reference.isMediaRef()) {
-        if (reference.referencedFromOtherArticles()) {
-            copyMediaFile(reference,targetMediaFoldername);
-            changeCount++;
-        }
-        else {
-            moveMediaFile(reference,targetMediaFoldername);
-            changeCount++;
-        }
+if (isMovingDirectory) {
+    console.log("Moving many articles.");
+    var filelist = readDir(sourceFullFilename,filelist);
+    for (i=0;i<filelist.length;i++) {
+        var sourceFile = filelist[i];
+        var targetFile = toForwardSlash(path.join(targetFullFilename,path.basename(sourceFile)));
+        moveOneArticle(sourceFile,targetFile);
     }
-    else if (reference.isMarkdownRef())
-    {
-        console.log("Adjusting reference " + reference.text());
-        var oldLength = reference.text().length;
-        reference.adjustRefByOwnerChange(targetFullFoldername);
-        sourceArticle.update(reference,oldLength);
-        changeCount++;
-    }
-
-    reference = sourceArticle.findCrossRef(reference);
+}
+else {
+    console.log("Moving one article.");
+    moveOneArticle(sourceFullFilename,targetFullFilename);
 }
 
-sourceArticle.save();
+console.log(changeCount + " changes. Note that any table of contents files (toc.yml) must be updated manually and any empty folders deleted.");
 
-//
-// Move article.
-//
-console.log("Moving article " + path.join(sourceFoldername,sourceFilename));
-moveFile(path.join(sourceFoldername,sourceFilename),targetFullFilename)
-changeCount++;
+// ------------------------------------------------------------
 
-//
-// Fix references in any article refering to our source article.
-//
-var filelist = readDirSync(__dirname,filelist);
-for(var i=0;i<filelist.length;i++){
-    var file = filelist[i];
-    if (file != sourceFullFilename ) {
-        var art = new ArticleClass(file);
-        var ref = art.findCrossRef(ref);
-        var isModified = false;
-        while (ref != null) {
-            if (ref.absoluteRef() == sourceFullFilename) {
-                console.log(art.filename + ": Adjusting reference " + ref.text());
-                var oldLength = ref.text().length;
-                ref.adjustRefByTargetChange(targetFullFilename);
-                art.update(ref,oldLength);
-                isModified = true;
+function moveOneArticle(sourceFullFilename,targetFullFilename) {
+    var targetMediaFoldername = toForwardSlash(path.join(path.dirname(targetFullFilename),"media"));
+    var targetFullFoldername = toForwardSlash(path.dirname(targetFullFilename));
+
+    //
+    // Fix references in source article and copy/move any media files.
+    //
+    var sourceArticle = new ArticleClass(sourceFullFilename);
+    console.log("Processing source article " + sourceArticle.filename);
+    var reference = sourceArticle.findCrossRef(reference);
+    while (reference != null) {
+        if (reference.isMediaRef()) {
+            if (reference.referencedFromOtherArticles()) {
+                copyMediaFile(reference,targetMediaFoldername);
                 changeCount++;
             }
-            ref = art.findCrossRef(ref);
+            else {
+                moveMediaFile(reference,targetMediaFoldername);
+                changeCount++;
+            }
         }
-        if (isModified)
-            art.save();
+        else if (reference.isMarkdownRef())
+        {
+            console.log("Adjusting reference " + reference.text());
+            var oldLength = reference.text().length;
+            reference.adjustRefByOwnerChange(targetFullFoldername);
+            sourceArticle.update(reference,oldLength);
+            changeCount++;
+        }
+
+        reference = sourceArticle.findCrossRef(reference);
+    }
+
+    sourceArticle.save();
+
+    //
+    // Move article.
+    //
+    console.log("Moving article " + sourceFullFilename);
+    moveFile(sourceFullFilename,targetFullFilename)
+    changeCount++;
+
+    //
+    // Fix references in any article refering to our source article.
+    //
+    var filelist = readDirRecursively(__dirname,filelist);
+    for(var i=0;i<filelist.length;i++){
+        var file = filelist[i];
+        if (file != sourceFullFilename ) {
+            var art = new ArticleClass(file);
+            var ref = art.findCrossRef(ref);
+            var isModified = false;
+            while (ref != null) {
+                if (ref.absoluteRef() == sourceFullFilename) {
+                    console.log(art.filename + ": Adjusting reference " + ref.text());
+                    var oldLength = ref.text().length;
+                    ref.adjustRefByTargetChange(targetFullFilename);
+                    art.update(ref,oldLength);
+                    isModified = true;
+                    changeCount++;
+                }
+                ref = art.findCrossRef(ref);
+            }
+            if (isModified)
+                art.save();
+        }
     }
 }
-console.log(changeCount + " changes. Note that any table of contents files (toc.yml) must be updated manually.");
+
 
 // ------------------------------------------------------------
 
@@ -240,7 +272,7 @@ function CrossRefClass(ownerFilename) {
 
     // Returns true if this reference is referenced from other articles than itself.
     this.referencedFromOtherArticles = function() {
-        var filelist = readDirSync(__dirname,filelist);
+        var filelist = readDirRecursively(__dirname,filelist);
         for(var i=0;i<filelist.length;i++){
             var file = filelist[i];
             if (file != this.ownerFilename ) {
@@ -404,16 +436,36 @@ function saveToFile(filename, content){
 // Read dir recursively and return filelist
 // For no filtering provide empty fileext.
 // For filtering, provide a file extension like ".md" (default)
-function readDirSync(dir,filelist,fileext = ".md"){
+function readDirRecursively(dir,filelist,fileext = ".md"){
     files = fs.readdirSync(dir);
     filelist = filelist || [];
     files.forEach(function(file) {
         var filename = toForwardSlash(path.join(dir, file));
         if (fs.statSync(filename).isDirectory()) {
             if (!inExcludedFolders(filename))
-                filelist = readDirSync(filename,filelist,fileext);
+                filelist = readDirRecursively(filename,filelist,fileext);
         }
         else {
+            // Always collect if no filter.
+            if (fileext == '')
+                filelist.push(toForwardSlash(filename))
+            else if (filename.lastIndexOf(fileext) != -1)
+                filelist.push(toForwardSlash(filename))
+        }
+    });
+    return filelist;
+};
+
+// ------------------------------------------------------------
+// Read dir non-recursively and return filelist
+// For no filtering provide empty fileext.
+// For filtering, provide a file extension like ".md" (default)
+function readDir(dir,filelist,fileext = ".md"){
+    files = fs.readdirSync(dir);
+    filelist = filelist || [];
+    files.forEach(function(file) {
+        var filename = toForwardSlash(path.join(dir, file));
+        if (!fs.statSync(filename).isDirectory()) {
             // Always collect if no filter.
             if (fileext == '')
                 filelist.push(toForwardSlash(filename))
