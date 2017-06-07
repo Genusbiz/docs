@@ -45,6 +45,7 @@
 3. In the command line window, run "npm install fs-extra". This will install a library required by movearticles.js.
 4. If you have used Git to pull from the Genus docs repos above, you will find a file named movearticles.js in your docs project folder.
 5. You are now ready to use movearticles.js in your command line window. Examples:
+
    a. Move an article from an folder to another.
       ```
       node movearticles.js developers/security-and-privacy.md developers/defining-the-application-model
