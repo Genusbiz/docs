@@ -32,11 +32,11 @@ Before running through [Administrative Genus Desktop Client Installation - Step 
 
 **[INSTALLDIR]** is the Genus desktop client installation directory. The Genus desktop client installer program installs the executable under _**CSIDL_PROGRAM_FILES\Genus\Client\Genus.exe**_. CSIDL_PROGRAM_FILES is the standard installation directory for programs, typically being _**C:\Program Files**_ in an English version of Windows. With default settings in an English version of Windows, _[INSTALLDIR]Genus.exe_ will be expanded to _"C:\Program Files\Genus\Client\Genus.exe"_. Note the use of double backslashes in Registry files.
 
-**[CSIDL_PROGRAMS]** is the Programs menu within the Windows Start menu for the current user. A typical value is _"C:\Documents and Settings\**user**\Start Menu\Programs"_ where **_user_** is the current user. Used in a "Per-User" installation.
+**[CSIDL_PROGRAMS]** is the Programs menu within the Windows Start menu for the current user. A typical value is _"C:\\Documents and Settings\\**user**\\Start Menu\\Programs"_ where **_user_** is the current user. Used in a "Per-User" installation.
 
 **[CSIDL_COMMON_PROGRAMS]** is the Programs menu within the Windows Start menu for all users. A typical value is _"C:\Documents and Settings\All Users\Start Menu\Programs"_. Used in a **Per-Machine** installation.
 
-**[CSIDL_DESKTOP]** is the desktop for the current user. A typical value is _"C:\Documents and Settings\**user**\Desktop"_, where **_user_** is the current user. Used in a **Per-User** installation.
+**[CSIDL_DESKTOP]** is the desktop for the current user. A typical value is _"C:\\Documents and Settings\\**user**\\Desktop"_, where **_user_** is the current user. Used in a **Per-User** installation.
 
 **[CSIDL_COMMON_DESKTOP]** is the common desktop for all users. A typical value is _"C:\Documents and Settings\All Users\Desktop"_. Used in a **Per-Machine** installation.
 
