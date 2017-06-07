@@ -60,6 +60,6 @@ To allow granting of permissions to individual security groups, select the **All
 
 See Also
 
-*   [Security Groups and User Accounts](../../../security-and-privacy/security-groups-and-user-accounts.md)
+*   [Security Groups and User Accounts](../../security/security-groups-and-user-accounts.md)
 *   [Security Permissions](../../../security-and-privacy/security-permissions.md)
 *   [Trusted Users](../../../security-and-privacy/trusted-users.md)

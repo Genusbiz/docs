@@ -418,6 +418,8 @@
       href: defining-the-application-model/security/effective-memberships-and-permissions.md
     - name: Security data sets
       href: defining-the-application-model/security/security-data-sets.md
+    - name: Security groups and user accounts
+      href: defining-the-application-model/security/security-groups-and-user-accounts.md
 - name: Installation and configuration
   href: installation-and-configuration.md
   items:
@@ -472,8 +474,6 @@
 - name: Security
   href: security-and-privacy.md
   items:
-  - name: Security Groups and User Accounts
-    href: security-and-privacy/security-groups-and-user-accounts.md
   - name: Sign In History
     href: security-and-privacy/sign-in-history.md
   - name: Security Permissions

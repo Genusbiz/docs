@@ -154,6 +154,6 @@ Note that you must allow granting of permissions to individual objects for the *
 
 See Also
 
-*   [Security Groups and User Accounts](../../../security-and-privacy/security-groups-and-user-accounts.md)
+*   [Security Groups and User Accounts](../../security/security-groups-and-user-accounts.md)
 *   [Security Permissions](../../../security-and-privacy/security-permissions.md)
 *   [Trusted Users](../../../security-and-privacy/trusted-users.md)

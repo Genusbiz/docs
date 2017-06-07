@@ -52,7 +52,7 @@ Calendar Service
 
 **Service User**
 
-The Logical Services that require a user account to operate, use the built in **[Service user](../../security-and-privacy/security-groups-and-user-accounts.md).**
+The Logical Services that require a user account to operate, use the built in **[Service user](../../defining-the-application-model/security/security-groups-and-user-accounts.md).**
 
 ****Physical Windows Server Hosting of Logical Services****
 
