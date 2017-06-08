@@ -1,5 +1,5 @@
 //
-// Move articles from one folder to another attending to all references in all files.
+// Move articles from one folder to another (recursively) attending to all references in all files.
 //
 // References inside the article is updated with new relative paths.
 // References in all articles referring to the moved article are also updated.
@@ -34,7 +34,6 @@
 //   - Add some try/catch on IO commands.
 //   - Handle delimiters (forward and backward slashes) in a better way?
 //   - Table of contents files (toc.yml) are NOT updated (yet).
-//   - Moving of articles in a folder is supported - but not recursively (yet).
 //   - Drag and drop UI.
 //   - Upgrade code to ES6 (using class etc).
 //   - Change ArticleClass.findCrossRef and ArticleClass.findExt into static methods (belonging to the CrossRefClass instead).
