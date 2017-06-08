@@ -4,7 +4,7 @@ The Navigation Pane which appears in the main window in the Genus desktop client
 
 To modify the content of your Navigation Pane, do the following:
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Navigation Pane** folder.
 
 The content of the Navigation Pane is displayed in a tree view. View buttons are displayed at the first level in the tree. You can add folders, groups and shortcuts to a view button. Below a group or folder, you can add folders and shortcuts.

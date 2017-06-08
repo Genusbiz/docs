@@ -1,6 +1,6 @@
 ## Create or Modify a Code Domain
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Classes** folder.
 3.  To create a new code domain, in the **File** menu, point to **New**, and then click **Code Domain**. To modify an exisiting code domain, right-click the code domain in the table to to the right, and then in the shortcut menu, click **Open**.
 4.  In the **Name** box, type a name for the code domain.

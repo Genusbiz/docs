@@ -11,7 +11,7 @@ A Task is defined by:
 
 ## Create a Task
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md "How to Open Genus Directory").
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md "How to Open Genus Directory").
 2.  In the **Directory** tree, click the **Tasks** folder, and then on the toolbar, click **New**![IDB95B882E01694F78.IDFB9EB60B2D1641C4.jpg](media/IDB95B882E01694F78.IDFB9EB60B2D1641C4.jpg).
 3.  In the **Name** box, type a name for the Task.
 4.  Optionally type a description in the **Description** box.

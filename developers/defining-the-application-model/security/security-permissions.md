@@ -135,7 +135,7 @@ Only [trusted users](trusted-users.md) have access to grant permissions to all o
 
 To grant permissions to all objects, the option **Allow granting of permissions to all objects** has to be selected in the [security setup](../object-class/modify-an-object--or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Permissions** folder.
 3.  In the table to the right, right-click the Object Class which you want to grant permissions to, and then in the shortcut menu, click **Properties**.
 4.  Click the **Security** tab.
@@ -151,7 +151,7 @@ Only [trusted users](trusted-users.md) have access to grant permissions to all o
 
 To grant permissions to all objects satisfying conditions, the option **Allow granting of permissions to all objects satisfying conditions** has to be selected in the [security setup](../object-class/modify-an-object--or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Permissions** folder.
 3.  In the table to the right, right-click the Object Class which you want to grant permissions to, and then in the shortcut menu, click **Open**.
 4.  To set permissions for a group that does not appear in the **Group names** box, click **Add**. In the **Select Groups** dialog box, type the name of the group you want to set permissions for and then click **Check Names**. To allow or withdraw permissions from an existing group, click the name of the group.
@@ -204,7 +204,7 @@ Only [trusted users](trusted-users.md) have access to grant permissions to a pro
 
 To grant permissions to a property, the option **Allow granting of permissions to property** has to be selected in the [security setup](../object-class-property/modify-an-object-class-property/security.md) for the property. Permissions can only be granted to security groups and not individual user accounts.
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Permissions** folder.
 3.  In the table to the right, find the Object Class containing the property you want to grant permissions to. Click ![ID91A35E9DF27F4D29.ID9EA9F9ECB2394D0B.jpg](media/ID91A35E9DF27F4D29.ID9EA9F9ECB2394D0B.jpg) to view all properties which allows permissions to be granted to a security group.
 4.  Right-click the property which you want to grant permissions to, and then in the shortcut menu, click **Properties**.

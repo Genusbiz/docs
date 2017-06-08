@@ -78,7 +78,7 @@ if (!isMovingDirectory)
     sourceFilename = path.basename(sourceFullFilename);
 
 // Make sure source filename has full path.
-if (sourceFullFilename.indexOf(__dirname) == -1)
+if (sourceFullFilename.toLowerCase().indexOf(toForwardSlash(__dirname)) == -1)
     sourceFullFilename = toForwardSlash(path.join(__dirname,sourceFullFilename));
 
 // path.basename always return last path segment, which could be a folder.
@@ -108,7 +108,7 @@ else {
 targetFullFilename = toForwardSlash(path.join(targetFullFilename,targetFilename));
 
 // Make sure target filename has full path.
-if (targetFullFilename.indexOf(__dirname) == -1)
+if (targetFullFilename.toLowerCase().indexOf(toForwardSlash(__dirname)) == -1)
     targetFullFilename = toForwardSlash(path.join(__dirname,targetFullFilename));
 
 // Count changes and report to console at end.

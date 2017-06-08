@@ -1,6 +1,6 @@
 ## Create a New Identifier Domain
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Classes** folder.
 3.  In the **File** menu, point to **New**, and then click **Identifier Domain**.
 4.  Select the logical database where the table for the Object Class is located. Logical databases are defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).

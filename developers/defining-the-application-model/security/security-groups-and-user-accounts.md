@@ -69,7 +69,7 @@ The following built-in users and groups are available:
 
 Required [security privilege](security-privileges.md): **Administer Security Groups**.
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Groups** folder.
 3.  On the toolbar, click **New**![ID72DD9A50754F4903.IDB8369AB86B864B52.jpg](media/ID72DD9A50754F4903.IDB8369AB86B864B52.jpg).
 4.  In the **Name** box, type a name for the Security Group.
@@ -93,7 +93,7 @@ When you add a user account, you have to select an [account profile](account-pro
 
 If your application uses **custom authentication**, follow these steps:
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
 3.  On the toolbar, click **New**![ID398340EF4A3244CA.ID28F0DE726047425A.jpg](media/ID398340EF4A3244CA.ID28F0DE726047425A.jpg).
 4.  In the **User Account Wizard**, select an account profile for the user. This page is only displayed if more than one account profile is available.
@@ -114,7 +114,7 @@ If your application uses **Active Directory authentication**, follow these steps
 
 **Add a User Account**
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
 3.  On the toolbar, click **New**![ID398340EF4A3244CA.IDE15C45886BC34293.jpg](media/ID398340EF4A3244CA.IDE15C45886BC34293.jpg).
 4.  In the **User Account Wizard**, select an account profile for the user. This page is only displayed if more than one account profile is available.
@@ -132,7 +132,7 @@ If your application uses **Active Directory authentication**, follow these steps
 
 **Add a Computer Account**
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Computers** folder.
 3.  On the toolbar, click **New**![ID398340EF4A3244CA.ID3B04130E0A194070.jpg](media/ID398340EF4A3244CA.ID3B04130E0A194070.jpg).
 4.  In the **Computer Account Wizard**, type a computer name.
@@ -148,7 +148,7 @@ If your application uses **Active Directory authentication**, follow these steps
 
 ## View a User Account
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
 3.  In the **Search** pane at the top, enter search criteria to find users, and then click **Finish**.
 4.  In the table to the right, double click the user, or right-click the user, and then in the shortcut menu, click **Properties**.

@@ -1,6 +1,6 @@
 ## Change the Data Type for an Object Class Property
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Object Classes** folder, and then expand the folder for the Object Class which contains the property. Click the **Properties** folder. In the table to the right, right-click the property which you want to modify, and then in the shortcut menu, click **Change Data Type for Property**.
 3.  In the **Change Data Type** wizard, select a new data type and/or data interpretation for the property. You can also change the data size for data types supporting a size specification.
 4.  Click **Next**.

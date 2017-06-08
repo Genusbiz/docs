@@ -16,6 +16,6 @@ The sign in history is available to search and list, by users with the following
 *   Manage Users
 *   Combine Event History for all Users
 
-To search the sign in history, [open Studio](../genus-studio-basics/how-to-open-genus-studio.md), and in the navigation pane locate the **History** entry and then then **Sign In History** entry.
+To search the sign in history, [open Studio](../getting-started/how-to-open-genus-studio.md), and in the navigation pane locate the **History** entry and then then **Sign In History** entry.
 
 Over time the sign in history will take up much space, and in many cases it is necessary to schedule regular deletion of the oldest account session history entries. For more information, see [Deleting Event History and Account Session History](../../guidelines-and-best-practices/deleting-event-history-and-account-session-history.md).

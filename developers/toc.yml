@@ -14,8 +14,15 @@
 - name: Defining an App Model
   href: defining-the-application-model.md
   items:
-  - name: Genus Studio basics
-    href: defining-the-application-model/genus-studio-basics.md
+  - name: Getting started
+    href: defining-the-application-model/getting-started/getting-started.md
+    items:
+    - name: How to open Genus Studio
+      href: defining-the-application-model/getting-started/how-to-open-genus-studio.md
+    - name: Search and organization
+      href: defining-the-application-model/getting-started/search-and-organization.md
+    - name: Deploy changes in the Directory
+      href: defining-the-application-model/getting-started/deploy-changes-in-the-directory.md
   - name: General settings
     href: defining-the-application-model/general-settings.md
     items:

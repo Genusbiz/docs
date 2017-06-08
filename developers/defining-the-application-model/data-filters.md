@@ -7,7 +7,7 @@ Data Filters can for example be used in an accounting system, to create groups o
 
 ## Create a Data Filter
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Data Filters** folder, and then on the toolbar, click **New**.
 3.  In the **Name** box, type a name for the Data Filter.
 4.  In the **Data Source** list, select the data source for the data filter.

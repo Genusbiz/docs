@@ -7,7 +7,7 @@ If users are authenticated by Microsoft Active Directory, the account policies a
 
 ## Add an Account Profile
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Account Profiles** folder.
 3.  On the toolbar, click **New**.
 4.  In the **Name** box enter the name of the account profile.

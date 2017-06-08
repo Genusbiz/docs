@@ -177,7 +177,7 @@ If there is, Genus compares the application model version with the version avail
 
 If there is not, the application model cache file is downloaded from your application server.
 
-If you have access to Genus Studio, you may force a deploy of the application model cache file to your computer. See [Deploy Changes in the Directory](../defining-the-application-model/genus-studio-basics/deploy-changes-in-the-directory.md) for more information. In such cases, the local copy of the Application Model Cache File will be preferred and read on startup.
+If you have access to Genus Studio, you may force a deploy of the application model cache file to your computer. See [Deploy Changes in the Directory](../defining-the-application-model/getting-started/deploy-changes-in-the-directory.md) for more information. In such cases, the local copy of the Application Model Cache File will be preferred and read on startup.
 
 **Automatic Update of the Genus Desktop client**
 
