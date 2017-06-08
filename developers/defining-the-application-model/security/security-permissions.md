@@ -5,7 +5,7 @@ A permission regulates which users that can gain access to an object and in what
 
 ## Object Permissions that can be Granted to a User
 
-The number of permissions that can be granted to a user is determined by the [security setup](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md "Security") for the Object Class.
+The number of permissions that can be granted to a user is determined by the [security setup](../object-class/modify-an-object--or-identifier-domain/security.md "Security") for the Object Class.
 
 <table style="WIDTH: 100%">
 
@@ -73,7 +73,7 @@ The number of permissions that can be granted to a user is determined by the [se
 
 <td>
 
-Allows the user to read the Event History for an object. Can only be granted if [auditing is activated for the Object Class](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/events.md "Events").
+Allows the user to read the Event History for an object. Can only be granted if [auditing is activated for the Object Class](../object-class/modify-an-object--or-identifier-domain/events.md "Events").
 
 </td>
 
@@ -85,7 +85,7 @@ Allows the user to read the Event History for an object. Can only be granted if 
 
 <td>
 
-Allows the user to modify the auditing setup for an object. Can only be granted if [auditing is activated for the Object Class](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/events.md "Events"), and users are allowed to modify auditing on individual objects.
+Allows the user to modify the auditing setup for an object. Can only be granted if [auditing is activated for the Object Class](../object-class/modify-an-object--or-identifier-domain/events.md "Events"), and users are allowed to modify auditing on individual objects.
 
 </td>
 
@@ -133,9 +133,9 @@ Allows the user to modify the auditing setup for an object. Can only be granted 
 
 Only [trusted users](trusted-users.md) have access to grant permissions to all objects.
 
-To grant permissions to all objects, the option **Allow granting of permissions to all objects** has to be selected in the [security setup](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
+To grant permissions to all objects, the option **Allow granting of permissions to all objects** has to be selected in the [security setup](../object-class/modify-an-object--or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Permissions** folder.
 3.  In the table to the right, right-click the Object Class which you want to grant permissions to, and then in the shortcut menu, click **Properties**.
 4.  Click the **Security** tab.
@@ -149,9 +149,9 @@ To view the [effective permissions](effective-memberships-and-permissions.md "Ef
 
 Only [trusted users](trusted-users.md) have access to grant permissions to all objects satisfying conditions.
 
-To grant permissions to all objects satisfying conditions, the option **Allow granting of permissions to all objects satisfying conditions** has to be selected in the [security setup](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
+To grant permissions to all objects satisfying conditions, the option **Allow granting of permissions to all objects satisfying conditions** has to be selected in the [security setup](../object-class/modify-an-object--or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Permissions** folder.
 3.  In the table to the right, right-click the Object Class which you want to grant permissions to, and then in the shortcut menu, click **Open**.
 4.  To set permissions for a group that does not appear in the **Group names** box, click **Add**. In the **Select Groups** dialog box, type the name of the group you want to set permissions for and then click **Check Names**. To allow or withdraw permissions from an existing group, click the name of the group.
@@ -165,7 +165,7 @@ To view the [effective permissions](effective-memberships-and-permissions.md "Ef
 
 Required [security permission](security-permissions.md "Object Permissions that can be Granted to a User"): **Modify Permissions**
 
-To grant permissions to an individual object, the option **Allow granting of permissions to individual objects** has to be selected in the [security setup](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md "Security") for the Object Class.
+To grant permissions to an individual object, the option **Allow granting of permissions to individual objects** has to be selected in the [security setup](../object-class/modify-an-object--or-identifier-domain/security.md "Security") for the Object Class.
 
 1.  Select the object you want to grant permissions to.
 2.  In the **File** menu, click **Properties**.
@@ -176,7 +176,7 @@ To grant permissions to an individual object, the option **Allow granting of per
 
 To change the ownership of the object, click **Advanced**. To take ownership, click **Take Ownership**. To transfer the ownership to another user, click **Set Ownership**. Type the name of the user you want to set as owner for the object and then click **OK**. The owner of an object can always change permissions on it, regardless of any existing permissions that protect the object. If you are not the owner of the object, you need the permission **Set Ownership** to change the ownership of the object.
 
-If the current object represents a [composition](../installation-and-configuration/composition.md "Composition"), that is, an object composed of objects from one or more Object Classes, you can grant permissions to all objects within the composition. For example, an Object Class _Project_ is composed of two other Object Classes, _Activity_ and _Activity Code_. Permissions to _activities_ are granted for each _activity_. However, permissions to add and modify _activity codes_ in a given _project_, should only be granted to a limited number of users. If a user has sufficient permissions, these permissions should apply to all _activity codes_ in the given _project_. That is, you do no want to grant permissions for each _activity code_. To grant permissions to all objects within a composition, the option **Allow granting permissions to all objects within composition** has to be selected in the [security setup](../defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md "Security") for the Object Classes which is part of the composition (in the example above, this option should be selected for the Object Class _Activity Code_). To grant permissions to all objects within a composition, do the following:
+If the current object represents a [composition](../../installation-and-configuration/composition.md "Composition"), that is, an object composed of objects from one or more Object Classes, you can grant permissions to all objects within the composition. For example, an Object Class _Project_ is composed of two other Object Classes, _Activity_ and _Activity Code_. Permissions to _activities_ are granted for each _activity_. However, permissions to add and modify _activity codes_ in a given _project_, should only be granted to a limited number of users. If a user has sufficient permissions, these permissions should apply to all _activity codes_ in the given _project_. That is, you do no want to grant permissions for each _activity code_. To grant permissions to all objects within a composition, the option **Allow granting permissions to all objects within composition** has to be selected in the [security setup](../object-class/modify-an-object--or-identifier-domain/security.md "Security") for the Object Classes which is part of the composition (in the example above, this option should be selected for the Object Class _Activity Code_). To grant permissions to all objects within a composition, do the following:
 
 1.  Click **Advanced**.
 2.  In the **Permissions** list, click the Object Class which you want to grant permissions to, and then click **Modify**.
@@ -190,7 +190,7 @@ To view the [effective permissions](effective-memberships-and-permissions.md "Ef
 
 ## Property Permissions that can be Granted to a Security Group
 
-The number of permissions that can be granted to a security group is determined by the [security setup](../defining-the-application-model/object-class-property/modify-an-object-class-property/security.md "Security") for the property.
+The number of permissions that can be granted to a security group is determined by the [security setup](../object-class-property/modify-an-object-class-property/security.md "Security") for the property.
 
 *   **Read**. Allows the user to read data for the property.
 *   **Create**. Allows the user to modify data for the property when creating a new object.
@@ -202,9 +202,9 @@ The number of permissions that can be granted to a security group is determined 
 
 Only [trusted users](trusted-users.md) have access to grant permissions to a property.
 
-To grant permissions to a property, the option **Allow granting of permissions to property** has to be selected in the [security setup](../defining-the-application-model/object-class-property/modify-an-object-class-property/security.md) for the property. Permissions can only be granted to security groups and not individual user accounts.
+To grant permissions to a property, the option **Allow granting of permissions to property** has to be selected in the [security setup](../object-class-property/modify-an-object-class-property/security.md) for the property. Permissions can only be granted to security groups and not individual user accounts.
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Permissions** folder.
 3.  In the table to the right, find the Object Class containing the property you want to grant permissions to. Click ![ID91A35E9DF27F4D29.ID9EA9F9ECB2394D0B.jpg](media/ID91A35E9DF27F4D29.ID9EA9F9ECB2394D0B.jpg) to view all properties which allows permissions to be granted to a security group.
 4.  Right-click the property which you want to grant permissions to, and then in the shortcut menu, click **Properties**.

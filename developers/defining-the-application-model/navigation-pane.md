@@ -153,7 +153,7 @@ To grant permissions to an item in the Navigation Pane, do the following:
 
 1.  Right-click the item, and then in the shortcut menu, click **Properties**.
 2.  Click the **Security** tab.
-3.  Follow the [step-by-step procedure on how to grant permissions to a user](../security-and-privacy/security-permissions.md "Grant Permissions to an Individual Object to a User").
+3.  Follow the [step-by-step procedure on how to grant permissions to a user](security/security-permissions.md "Grant Permissions to an Individual Object to a User").
 
 Note that when you add an item to a view button, group or folder, permissions are by default copied from the view button, group or folder. You can also copy permissions from one item to another item. To copy permissions, do the following:
 

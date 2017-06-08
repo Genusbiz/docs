@@ -51,7 +51,7 @@ Note that if an object is part of a [composition](../../../developers/installati
 
 ## Modify Auditing for an Object
 
-Required [security permission](../../../developers/security-and-privacy/security-permissions.md "Security Permissions"): **Modify auditing**.
+Required [security permission](../../../developers/defining-the-application-model/security/security-permissions.md "Security Permissions"): **Modify auditing**.
 
 1.  Select the object for which you want to modify auditing.
 2.  In the **File** menu, click **Properties**.
@@ -76,13 +76,13 @@ Specify your search per field as shown below and click **Search**.
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/security-and-privacy/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 ![IDFED753EC048E440C.IDDEDB0B82B12F4791.png](media/4e5afa1ef32646e284ae7810258e257d.png)
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/security-and-privacy/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 To search in History for changes, deletions, etc, click **Search** to open the **Search** Task Pane to the right. In the **Search** Task Pane, click **More**.
 
@@ -96,10 +96,10 @@ Specify your search per field as shown below and click **Search**.
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/security-and-privacy/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 ![IDFED753EC048E440C.IDDEDB0B82B12F4791.png](media/be6b98316e3c400eb82c2478cae9766f.png)
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/security-and-privacy/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.

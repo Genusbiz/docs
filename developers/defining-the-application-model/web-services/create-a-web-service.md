@@ -47,7 +47,7 @@ To successfully setup a Web Service, you should at least specify one endpoint.
 4.  In the **Address** section, type the **Default** address of the endpoint.
 5.  In the **Authentication** section, you should specify how the communication with the endpoint is authenticated.
 6.  Click **Credential Type** to specify the message security type.  
-    Note that if the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the web service operations may be invoked by any unknown and potentially malicious client. When the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the service is run as the built-in [Guest](../../security-and-privacy/security-groups-and-user-accounts.md) user.
+    Note that if the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the web service operations may be invoked by any unknown and potentially malicious client. When the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the service is run as the built-in [Guest](../security/security-groups-and-user-accounts.md) user.
 7.  Click the desired **Credential Store** to specify the credential store to use for authentication.  
     Available option depends on the selected Credential Type.
 8.  In the **Envelope Version**, select a version of SOAP, or select None to use POX or JSON. For more information on using POX and JSON, see [Consuming a Genus Web Service from an External Client](../../guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md).

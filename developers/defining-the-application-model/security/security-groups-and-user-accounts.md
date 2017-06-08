@@ -26,7 +26,7 @@ The following built-in users and groups are available:
 
 <td>User</td>
 
-<td>Anonymous [Web Services](../defining-the-application-model/web-services.md) run as this user. Permissions and memberships must be granted as necessary.</td>
+<td>Anonymous [Web Services](../web-services.md) run as this user. Permissions and memberships must be granted as necessary.</td>
 
 </tr>
 
@@ -36,7 +36,7 @@ The following built-in users and groups are available:
 
 <td>User</td>
 
-<td>[Logical Services](../installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md) run as this user. Permissions and memberships must be granted as necessary.</td>
+<td>[Logical Services](../../installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md) run as this user. Permissions and memberships must be granted as necessary.</td>
 
 </tr>
 
@@ -69,7 +69,7 @@ The following built-in users and groups are available:
 
 Required [security privilege](security-privileges.md): **Administer Security Groups**.
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Groups** folder.
 3.  On the toolbar, click **New**![ID72DD9A50754F4903.IDB8369AB86B864B52.jpg](media/ID72DD9A50754F4903.IDB8369AB86B864B52.jpg).
 4.  In the **Name** box, type a name for the Security Group.
@@ -87,13 +87,13 @@ Required [security privilege](security-privileges.md): **Administer Security Gro
 
 Required [security privilege](security-privileges.md): **Administer users**.
 
-Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus App Platform provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../defining-the-application-model/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../installation-and-configuration/configure-and-maintain-genus-server.md).
+Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus App Platform provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).
 
 When you add a user account, you have to select an [account profile](account-profiles.md) for the user. The profile describes the password- and lockout policy for a user, and optionally a description on how to associate a user account with a business object. For example, a user account can be associated with an employee. If users are authenticated by MicrosoftB. Active Directory, the password- and lockout policy is determined by Active Directory.
 
 If your application uses **custom authentication**, follow these steps:
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
 3.  On the toolbar, click **New**![ID398340EF4A3244CA.ID28F0DE726047425A.jpg](media/ID398340EF4A3244CA.ID28F0DE726047425A.jpg).
 4.  In the **User Account Wizard**, select an account profile for the user. This page is only displayed if more than one account profile is available.
@@ -107,14 +107,14 @@ If your application uses **custom authentication**, follow these steps:
 12.  Click **Next**.
 13.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 14.  Click **Next**.
-15.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../users/personalize.md).
+15.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
 16.  Click **Finish**.
 
 If your application uses **Active Directory authentication**, follow these steps:
 
 **Add a User Account**
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
 3.  On the toolbar, click **New**![ID398340EF4A3244CA.IDE15C45886BC34293.jpg](media/ID398340EF4A3244CA.IDE15C45886BC34293.jpg).
 4.  In the **User Account Wizard**, select an account profile for the user. This page is only displayed if more than one account profile is available.
@@ -127,12 +127,12 @@ If your application uses **Active Directory authentication**, follow these steps
 11.  Click **Next**.
 12.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 13.  Click **Next**.
-14.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../users/personalize.md).
+14.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
 15.  Click **Finish**.
 
 **Add a Computer Account**
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Computers** folder.
 3.  On the toolbar, click **New**![ID398340EF4A3244CA.ID3B04130E0A194070.jpg](media/ID398340EF4A3244CA.ID3B04130E0A194070.jpg).
 4.  In the **Computer Account Wizard**, type a computer name.
@@ -148,7 +148,7 @@ If your application uses **Active Directory authentication**, follow these steps
 
 ## View a User Account
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
 3.  In the **Search** pane at the top, enter search criteria to find users, and then click **Finish**.
 4.  In the table to the right, double click the user, or right-click the user, and then in the shortcut menu, click **Properties**.
@@ -190,14 +190,14 @@ Based on the lockout policy defined in the [account profile setup](account-profi
 ## Change the Default Language for a User Account
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
-2.  In the **Language** box, select the default language for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../users/personalize.md).
+2.  In the **Language** box, select the default language for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
 
 
 
 ## Change the Start Page in the Navigation Pane for a User Account
 
 1.  [Open the user account.](security-groups-and-user-accounts.md)
-2.  In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop application. This setting can be modfied by the user in [the personal setup for individual user accounts](../../users/personalize.md).
+2.  In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop application. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
 
 
 
