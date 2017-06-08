@@ -7,7 +7,7 @@ A *Value* can be;
 * a field of an object in a data source
 * an aggregated numeric property of a set of objects
 * the result of a [Function](function.md)
-* the result of a [Calculation](calculation.md)
+* the result of a [Formula](formula.md)
 
 *Values* can be pies in a [Pie Chart](../visualizations/pie-chart.md) or bars in a [Bar Chart](../visualizations/bar-chart.md)
 Some [Visualizations](../visualizations/index.md) use a different name for *Value*. E.g. a [Table](../visualizations/table.md) calls them *Columns*.
