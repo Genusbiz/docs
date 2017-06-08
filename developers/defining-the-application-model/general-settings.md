@@ -2,7 +2,7 @@
 
 To modify General Settings, do the following:
 
-*   [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+*   [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 *   In the ribbon, click **General Settings**.
 *   In the General Settings dialog box, click the tab for the appropriate settings.
 

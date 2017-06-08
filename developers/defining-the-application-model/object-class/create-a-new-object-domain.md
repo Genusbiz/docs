@@ -1,6 +1,6 @@
 ## Create a New Object Domain
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Classes** folder.
 3.  In the **File** menu, point to **New**, and then click **Object Domain**.
 4.  In the Data Provider box, select **RDBMS**to bind the object class to a RDBMS table, or select **None** to create an unbound object class.

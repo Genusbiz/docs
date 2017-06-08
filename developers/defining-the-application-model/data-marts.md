@@ -13,3 +13,4 @@ The data mart also provides the possibility to enrich the existing data by defin
 * [Data Sources](data-marts/data-sources.md)
 * [Data View](data-marts/data-view.md)
 * [Tasks](data-marts/tasks.md)
+* [Loading and Scheduling Strategies](data-marts/data-mart-loading.md)

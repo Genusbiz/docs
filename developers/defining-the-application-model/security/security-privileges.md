@@ -127,7 +127,7 @@ Note that privileges of type **Create and modify...** do not override permission
 
 Required security privilege: **Manage privileges**.
 
-1.  [Open Genus Studio](../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Privileges** folder.
 3.  In the table to the right, select the check box for the privilege which you want to grant to a security group.
 

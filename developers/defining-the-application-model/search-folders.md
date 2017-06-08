@@ -8,7 +8,7 @@ Search folders of type Specific Objects, allow you to save criteria based search
 
 To create a new specific objects search folder, do the following:
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click **Search Folders**.
 3.  On the toolbar, click **New****![IDB6F929FA50A049EB.png](media/IDB6F929FA50A049EB.png)** **** and click **Search Folders (Specific Objects)**. Optionally, right-click anywhere in the **Search Folder** window, and in the shortcut menu, point to **New** and then click **Search Folder (Specific Objects)**.
 4.  In the **General** tab and in the **Name** box, type the name for the search folder. In the **Data Source** box, select available [basic view](object-class/modify-an-object--or-identifier-domain/explore.md) or [table view](tables/views.md). Note that only views that are enabled for Search View are available in the Data Source box. To enable execution of the search folder, **Enable Search** for the data source or the table view has to be selected.

@@ -149,7 +149,7 @@ See [Install Genus on Your Computer](../install-genus-desktop-client-on-your-com
 
 If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.**
 
-1.  [Open Genus Studio](../../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md)
+1.  [Open Genus Studio](../../defining-the-application-model/getting-started/how-to-open-genus-studio.md)
 2.  To add a Node, in the Directory tree, locate Resources and then click on Nodes.
 3.  In the File menu, click New.
 4.  Specify the node settings, and click OK.
@@ -165,13 +165,13 @@ If you are using Active Directory authentication, you must sign in to the comput
 
 If you did not close Genus Studio in the previous step, skip step 1 below.
 
-1.  [Open Genus Studio](../../defining-the-application-model/genus-studio-basics/how-to-open-genus-studio.md)
+1.  [Open Genus Studio](../../defining-the-application-model/getting-started/how-to-open-genus-studio.md)
 2.  In the **File** menu, click **Deploy Directory to All Computers**.
 3.  Click **OK**.
 
 **Next step**
 
-You should also consider creating [security groups](../../security-and-privacy/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../security-and-privacy/security-privileges.md), [permissions](../../security-and-privacy/security-permissions.md), and [access to data sets](../../security-and-privacy/security-data-sets.md).
+You should also consider creating [security groups](../../defining-the-application-model/security/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../defining-the-application-model/security/security-privileges.md), [permissions](../../defining-the-application-model/security/security-permissions.md), and [access to data sets](../../defining-the-application-model/security/security-data-sets.md).
 
 You may also want to create a Windows Scheduled Task to [automatically delete old log files](automatically-delete-old-log-files.md) created by Genus App Services.
 

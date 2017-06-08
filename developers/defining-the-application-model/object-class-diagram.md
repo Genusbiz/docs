@@ -11,7 +11,7 @@ Bi-directional synchronization of the object model and the database is supported
 
 ## How to Open the Object Class Diagram
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory Tree**, click the **Object Classes** folder.
 3.  On the status bar at the lower right-part of the window, click **Diagram**![IDE6AFB151D08243E4.IDE6547F2F3B85460A.jpg](media/IDE6AFB151D08243E4.IDE6547F2F3B85460A.jpg).
 

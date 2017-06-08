@@ -1,6 +1,6 @@
 ## Create a Web Service
 
-1.  [Open Genus Studio](../genus-studio-basics.md).
+1.  [Open Genus Studio](../getting-started/getting-started.md).
 2.  In the **Directory** tree, click the **Web Services** folder and on the **toolbar**, click **New ****![IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg](media/IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg) and then click** **Web Service**.
 3.  In the **Name** box, type a name for the Web Service. For guidelines on naming a web service, see [Identifying and Naming the Web Service](../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-the-web-service.md).
 4.  In the **Namespace** box, type a namespace for the Web Service. By default, the namespace [http://tempuri.org/<name-of-web-service](http://tempuri.org/%3Cname-of-web-service)> is used for this purpose. While this is suitable for Web Services under development, published services should use a unique, permanent namespace. Your Web Service should be identified by a namespace that you control. For more guidelines and best practices on creating a namespace, see Web Service and [XML-Schema Namespaces](../../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
@@ -8,7 +8,7 @@
 6.  In the **Shared Service Data** section, you can select a Data Source to share data between operations. See [Define Shared Service Data](create-a-web-service.md) below.
 7.  In the **Output Namespace Style** box, select the desired namespace prefix to be used for the output message. If the Web Service consumer does not prefer elements with namespace prefix, you should select the "Create unprefixed elements with default namespace".
 8.  By default the metadata for the Web Service is available in the form of an entry in the list of services, and a WSDL. If you do not want to expose the metadata for the Web Service to external consumers, click to clear the **Metadata (WSDL) is available** check box. This option is typically enabled in a development phase, but for security reasons, the option should be disabled for Web Services that are in production. For information on accessing the WSDL see [Consuming a Genus Service from an External Client](../../guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md).
-9.  By default the Web Service is enabled and can be accessed by external consumers as soon as changes in your directory have been [deployed to all computers](../genus-studio-basics/deploy-changes-in-the-directory.md). If you do not want to expose the Web Service to external consumers at this moment, click to clear the **Enabled** check box.
+9.  By default the Web Service is enabled and can be accessed by external consumers as soon as changes in your directory have been [deployed to all computers](../getting-started/deploy-changes-in-the-directory.md). If you do not want to expose the Web Service to external consumers at this moment, click to clear the **Enabled** check box.
 
 
 ## Shared Service Data
@@ -47,7 +47,7 @@ To successfully setup a Web Service, you should at least specify one endpoint.
 4.  In the **Address** section, type the **Default** address of the endpoint.
 5.  In the **Authentication** section, you should specify how the communication with the endpoint is authenticated.
 6.  Click **Credential Type** to specify the message security type.  
-    Note that if the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the web service operations may be invoked by any unknown and potentially malicious client. When the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the service is run as the built-in [Guest](../../security-and-privacy/security-groups-and-user-accounts.md) user.
+    Note that if the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the web service operations may be invoked by any unknown and potentially malicious client. When the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the service is run as the built-in [Guest](../security/security-groups-and-user-accounts.md) user.
 7.  Click the desired **Credential Store** to specify the credential store to use for authentication.  
     Available option depends on the selected Credential Type.
 8.  In the **Envelope Version**, select a version of SOAP, or select None to use POX or JSON. For more information on using POX and JSON, see [Consuming a Genus Web Service from an External Client](../../guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md).
