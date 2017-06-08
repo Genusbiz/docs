@@ -11,7 +11,7 @@ An Agent is defined by:
 
 ## Create an Agent
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Agents** folder, and then on the toolbar, click **New**  ![ID51D3C2D9C7E84ECD.IDE73D4C586E0C4198.jpg](media/ID51D3C2D9C7E84ECD.IDE73D4C586E0C4198.jpg).
 3.  In the **Name** box, type a name for the Agent.
 4.  Optionally type a description in the **Description** box.
@@ -53,7 +53,7 @@ Scheduling of Agents are done in the Execution Monitor. You can add new schedule
 
 To schedule an Agent do the following:
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  In the list of Agents, right-click the Agent to schedule, and click **Schedule**.
 4.  In the **Schedule Type** list, select the type of schedule. You can choose between a daily, weekly or monthly schedule, or if the Agent should be run only once.
@@ -155,7 +155,7 @@ The agent may be interrupted before max running time is exceeded, due to the [Ap
 
  To copy an existing schedule from an Agent, do the following:
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  In the list of Agents, right-click the Agent to copy the schedule from, and click **Copy**.
 4.  Click the Agent to copy the schedule to, and click **Paste Schedule**. 
@@ -170,7 +170,7 @@ To enable or disable an agent, or to see the current status of an agent, open th
 
 To disable or enable an agent do the following
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md)
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md)
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  If the agent is disabled, right-click the agent and click **Enable**.
 4.  If the agent is enabled, right click the agent and click **Disable**.
@@ -179,7 +179,7 @@ To disable or enable an agent do the following
 
 ## View the Execution History for an Agent
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  Right-click the Agent, and then on the shortcut menu, click **Execution History**.
 4.  To view more details for an execution, select the execution in the log and click **View Event**.
@@ -205,7 +205,7 @@ By default only the last 100 executions are displayed. If you want to change the
 
  The amount of information traced for each execution can be specified in the history setup for the Agent. To change this setting do the following:
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the Directory tree, expand the **Agents** folder.
 3.  Right-click the Agent, and then click **Open**.
 4.  In the **File** menu, click **Properties**.
@@ -216,7 +216,7 @@ By default only the last 100 executions are displayed. If you want to change the
 
 ## Test Run an Agent
 
-1.  If you have changed the definition for the Agent, you must [deploy](genus-studio-basics/deploy-changes-in-the-directory.md) these changes to your computer (i.e. **Deploy Directory to This Computer**).
+1.  If you have changed the definition for the Agent, you must [deploy](getting-started/deploy-changes-in-the-directory.md) these changes to your computer (i.e. **Deploy Directory to This Computer**).
 2.  Start the Genus desktop client.
 3.  In the **File** menu, point to **Test Run** and then click **Agent**.
 4.  Follow the instructions in the **Test Run** wizard.

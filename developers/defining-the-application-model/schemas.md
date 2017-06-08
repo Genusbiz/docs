@@ -14,7 +14,7 @@ In Genus App Platform the XML Schema is mainly used within Action Orchestration 
 
 ## Create a Schema
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Schemas** folder, and then on the toolbar, click **New**![ID411C232771A74FFC.IDA38907B2641C4C6E.jpg](media/ID411C232771A74FFC.IDA38907B2641C4C6E.jpg).
 3.  To create a new blank schema, select **New Blank Schema** and specify a **Namespace** for the Schema. For guidelines and best practices on creating a namespace, see [Web Service and XML and Web Service Namespaces](../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
 4.  To import the XML schema from file, select **Import XML Schema From File**, and then click [...] to select an existing XSD file.

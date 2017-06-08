@@ -51,7 +51,7 @@ In addition to selecting the type of objects to show, and the type of permission
 
 ## Data Sets View
 
-The view summarizes access to [data sets](../defining-the-application-model/general-settings/data-sets.md) granted to security groups. If access is granted directly to a security group, the grant is indicated with a green circle. If access is granted through a membership in another group, the grant is indicated with a gray circle
+The view summarizes access to [data sets](../general-settings/data-sets.md) granted to security groups. If access is granted directly to a security group, the grant is indicated with a green circle. If access is granted through a membership in another group, the grant is indicated with a gray circle
 
 ![ID588A7E0CA50E4F8D.png](media/ID588A7E0CA50E4F8D.png)
 

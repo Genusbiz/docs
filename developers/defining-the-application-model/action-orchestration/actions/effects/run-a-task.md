@@ -46,7 +46,7 @@ Select how to filter a data source from the following methods:
 
 <td>**Set equal to active user account**</td>
 
-<td>Only available when filtering data for a data source that is associated with a [Account Profile](../../../../security-and-privacy/account-profiles.md), for example *Person*. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
+<td>Only available when filtering data for a data source that is associated with a [Account Profile](../../../security/account-profiles.md), for example *Person*. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
 
 </tr>
 

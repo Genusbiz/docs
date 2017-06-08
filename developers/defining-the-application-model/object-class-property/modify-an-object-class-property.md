@@ -2,7 +2,7 @@
 
 To modify a property, do the following:
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Object Classes** folder, and then expand the folder for the Object Class which contains the property. Click the **Properties** folder.  
     OR  
     In the **Directory** tree, click the **Object Class Properties** folder to list all the Properties of all the Object Classes.

@@ -8,14 +8,65 @@
   - name: Architecture
     href: overview/architecture.md
   - name: Terminology
-    href: overview/terminology.md
+    href: ../terminology.md
 - name: Keyboard shortcuts
   href: keyboard-shortcuts.md
 - name: Defining an App Model
   href: defining-the-application-model.md
   items:
-  - name: Genus Studio basics
-    href: defining-the-application-model/genus-studio-basics.md
+  - name: Getting started
+    href: defining-the-application-model/getting-started/getting-started.md
+    items:
+    - name: How to open Genus Studio
+      href: defining-the-application-model/getting-started/how-to-open-genus-studio.md
+    - name: Search and organization
+      href: defining-the-application-model/getting-started/search-and-organization.md
+    - name: Deploy changes in the Directory
+      href: defining-the-application-model/getting-started/deploy-changes-in-the-directory.md
+  - name: Data
+    href: defining-the-application-model/data/data.md
+    items:
+    - name: Object Class
+      href: defining-the-application-model/object-class.md
+    - name: Create or Modify a Code Domain
+      href: defining-the-application-model/data/object-class/create-or-modify-a-code-domain.md
+    - name: Create a New Identifier Domain
+      href: defining-the-application-model/data/object-class/create-a-new-identifier-domain.md
+    - name: Create a New Object Domain
+      href: defining-the-application-model/data/object-class/create-a-new-object-domain.md
+    - name: Modify an Object- or Identifier Domain
+      href: defining-the-application-model/data/object-class/modify-an-object-or-identifier-domain.md
+      items:
+      - name: General Settings
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/general-settings.md
+      - name: Data Provider
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-provider.md
+      - name: Data Integrity
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-integrity.md
+      - name: Rules
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/rules.md
+      - name: Data Filtering
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-filtering.md
+      - name: Data Sorting
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-sorting.md
+      - name: Data Aggregation
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-aggregation.md
+      - name: Data Dependencies
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-dependencies.md
+      - name: Search
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/search.md
+      - name: Explore
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/explore.md
+      - name: Display
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/display.md
+      - name: Events
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/events.md
+      - name: Security
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md
+      - name: Data Exchange
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
+      - name: Follow Up
+        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
   - name: General settings
     href: defining-the-application-model/general-settings.md
     items:
@@ -263,48 +314,6 @@
       href: defining-the-application-model/web-services/view-the-execution-history-for-a-web-service.md
   - name: Object Class Diagram
     href: defining-the-application-model/object-class-diagram.md
-  - name: Object Class
-    href: defining-the-application-model/object-class.md
-    items:
-    - name: Create or Modify a Code Domain
-      href: defining-the-application-model/object-class/create-or-modify-a-code-domain.md
-    - name: Create a New Identifier Domain
-      href: defining-the-application-model/object-class/create-a-new-identifier-domain.md
-    - name: Create a New Object Domain
-      href: defining-the-application-model/object-class/create-a-new-object-domain.md
-    - name: Modify an Object- or Identifier Domain
-      href: defining-the-application-model/object-class/modify-an-object-or-identifier-domain.md
-      items:
-      - name: General Settings
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/general-settings.md
-      - name: Data Provider
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-provider.md
-      - name: Data Integrity
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-integrity.md
-      - name: Rules
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/rules.md
-      - name: Data Filtering
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-filtering.md
-      - name: Data Sorting
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-sorting.md
-      - name: Data Aggregation
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-aggregation.md
-      - name: Data Dependencies
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-dependencies.md
-      - name: Search
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/search.md
-      - name: Explore
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/explore.md
-      - name: Display
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/display.md
-      - name: Events
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/events.md
-      - name: Security
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/security.md
-      - name: Data Exchange
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
-      - name: Follow Up
-        href: defining-the-application-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
   - name: Object Class Property
     href: defining-the-application-model/object-class-property.md
     items:
@@ -342,6 +351,8 @@
       href: defining-the-application-model/data-marts/data-view.md
     - name: Tasks
       href: defining-the-application-model/data-marts/tasks.md
+    - name: Loading and Scheduling Strategies
+      href: defining-the-application-model/data-marts/data-mart-loading.md
   - name: Search Folders
     href: defining-the-application-model/search-folders.md
   - name: Refiners
@@ -410,6 +421,27 @@
           href: defining-the-application-model/common-concepts/conditions/condition-editor/remove-an-expression-or-group.md
     - name: Data Binding
       href: defining-the-application-model/common-concepts/data-binding.md
+  - name: Security
+    href: defining-the-application-model/security.md
+    items:
+    - name: Account profiles
+      href: defining-the-application-model/security/account-profiles.md
+    - name: Effective memberships and permissions
+      href: defining-the-application-model/security/effective-memberships-and-permissions.md
+    - name: Security data sets
+      href: defining-the-application-model/security/security-data-sets.md
+    - name: Security groups and user accounts
+      href: defining-the-application-model/security/security-groups-and-user-accounts.md
+    - name: Sign In History
+      href: defining-the-application-model/security/sign-in-history.md
+    - name: Security Permissions
+      href: defining-the-application-model/security/security-permissions.md
+    - name: Security Privileges
+      href: defining-the-application-model/security/security-privileges.md
+    - name: Security Overview and Review
+      href: defining-the-application-model/security/security-overview-and-review.md
+    - name: Trusted Users
+      href: defining-the-application-model/security/trusted-users.md
 - name: Installation and configuration
   href: installation-and-configuration.md
   items:
@@ -461,27 +493,6 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
     - name: Monitoring Genus Server
       href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
-- name: Security and Privacy
-  href: security-and-privacy.md
-  items:
-  - name: Account Profiles
-    href: security-and-privacy/account-profiles.md
-  - name: Security Groups and User Accounts
-    href: security-and-privacy/security-groups-and-user-accounts.md
-  - name: Sign In History
-    href: security-and-privacy/sign-in-history.md
-  - name: Security Permissions
-    href: security-and-privacy/security-permissions.md
-  - name: Security Privileges
-    href: security-and-privacy/security-privileges.md
-  - name: Security Data Sets
-    href: security-and-privacy/security-data-sets.md
-  - name: Security Overview and Review
-    href: security-and-privacy/security-overview-and-review.md
-  - name: Trusted Users
-    href: security-and-privacy/trusted-users.md
-  - name: Dette er en test
-    href: security-and-privacy/Dette-er-en-test.md
 - name: Guidelines and best practices
   href: guidelines-and-best-practices.md
   items:

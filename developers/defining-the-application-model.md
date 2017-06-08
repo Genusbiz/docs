@@ -2,12 +2,11 @@
 
 To provide functionality to the end user, Genus App Platform employs declarative data about your business objects and logic. This collection of [metadata](defining-the-application-model/glossary.md) are stored in the directory for your app and maintained in Genus Studio.
 
-**Getting started**
+**[Getting started](defining-the-application-model/getting-started/getting-started.md)**
 
-* [Genus Studio basics](defining-the-application-model/genus-studio-basics.md)
 * [General settings](defining-the-application-model/general-settings.md)
 * [Common concepts](defining-the-application-model/common-concepts.md)
-* [Glossary](defining-the-application-model/glossary.md)
+* [Terminology](defining-the-application-model/glossary.md)
 
 **User Interface**
 
@@ -46,4 +45,4 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 **Security**
 
-* [Security and privacy](security-and-privacy.md)
+* [Security and privacy](defining-the-application-model/security.md)

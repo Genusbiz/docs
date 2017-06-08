@@ -4,7 +4,7 @@ The Navigation Pane which appears in the main window in the Genus desktop client
 
 To modify the content of your Navigation Pane, do the following:
 
-1.  [Open Genus Studio](genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Navigation Pane** folder.
 
 The content of the Navigation Pane is displayed in a tree view. View buttons are displayed at the first level in the tree. You can add folders, groups and shortcuts to a view button. Below a group or folder, you can add folders and shortcuts.
@@ -153,7 +153,7 @@ To grant permissions to an item in the Navigation Pane, do the following:
 
 1.  Right-click the item, and then in the shortcut menu, click **Properties**.
 2.  Click the **Security** tab.
-3.  Follow the [step-by-step procedure on how to grant permissions to a user](../security-and-privacy/security-permissions.md "Grant Permissions to an Individual Object to a User").
+3.  Follow the [step-by-step procedure on how to grant permissions to a user](security/security-permissions.md "Grant Permissions to an Individual Object to a User").
 
 Note that when you add an item to a view button, group or folder, permissions are by default copied from the view button, group or folder. You can also copy permissions from one item to another item. To copy permissions, do the following:
 

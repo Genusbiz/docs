@@ -4,7 +4,7 @@ The Web Service Reference is a component that locally represents the exposed fun
 
 To create a Web Service Reference, do the following:
 
-1.  [Open Genus Studio](../genus-studio-basics/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the Directory tree, click the Web Services folder, and then on the toolbar, click New and then click **Web Service Reference**.
 3.  In the **Name** box, type a name for the Web Service Reference.
 4.  Select the location of the Web Service. You can call a Web Service published on your Application Server, or a Web Service published at a specified address. If you type an address, click **Update Metadata** to retrieve the description of the Web Service.
