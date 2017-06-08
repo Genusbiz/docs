@@ -58,7 +58,7 @@
       ```
       node movearticles.js developers/defining-the-application-model.md developers/defining-an-app-model.md
       ```
-   d. Move all articles in a folder. Note! Subfolders not supported yet!
+   d. Move all articles in a folder (including subfolders).
       ```
       node movearticles.js developers/security-and-privacy developers/define-an-app-model/security
       ```
