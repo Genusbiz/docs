@@ -11,7 +11,7 @@ Object Classes are categorized in three types of domains:
 *   **Identifier Domains**. Used to assign a unique identifier to a domain object. There are two types of identifier domains: **Sequential Counter** and **Pool**. A Sequential Counter generates a unique numeric identifier which is incremented by one each time an identifier is assigned to a domain object. A Pool contains a finite set of identifiers used for identifying a domain object. For example a set of employee numbers. When a number is assigned to an employee, the number is marked as taken and can not be assigned to another employee.
 
 **Topics in "Object Class"**
-* [Create or Modify a Code Domain](object-class/create-or-modify-a-code-domain.md)
-* [Create a New Identifier Domain](object-class/create-a-new-identifier-domain.md)
-* [Create a New Object Domain](object-class/create-a-new-object-domain.md)
-* [Modify an Object- or Identifier Domain](object-class/modify-an-object-or-identifier-domain.md)
+* [Create or Modify a Code Domain](data/object-class/create-or-modify-a-code-domain.md)
+* [Create a New Identifier Domain](data/object-class/create-a-new-identifier-domain.md)
+* [Create a New Object Domain](data/object-class/create-a-new-object-domain.md)
+* [Modify an Object- or Identifier Domain](data/object-class/modify-an-object-or-identifier-domain.md)

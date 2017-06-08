@@ -55,6 +55,9 @@ if (process.argv.length != 4) {
     process.exit(1);
 }
 
+process.argv[2] = process.argv[2].toLowerCase();
+process.argv[3] = process.argv[3].toLowerCase();
+
 // Check source command line arguments.
 if (!fs.existsSync(process.argv[2])) {
     console.log( "Source article '" + process.argv[2] + "' not found." );
@@ -66,7 +69,7 @@ var isMovingDirectory = false;
 if (fs.lstatSync(process.argv[2]).isDirectory()) {
     isMovingDirectory = true;
 }
-else if (path.extname(process.argv[2]).toLowerCase() != ".md") {
+else if (path.extname(process.argv[2]) != ".md") {
     console.log( "Source article must be a Markdown file with extension '.md'." );
     console.log( usageDescription );
     process.exit(1);
@@ -78,7 +81,7 @@ if (!isMovingDirectory)
     sourceFilename = path.basename(sourceFullFilename);
 
 // Make sure source filename has full path.
-if (sourceFullFilename.toLowerCase().indexOf(toForwardSlash(__dirname)) == -1)
+if (sourceFullFilename.indexOf(toForwardSlash(__dirname)) == -1)
     sourceFullFilename = toForwardSlash(path.join(__dirname,sourceFullFilename));
 
 // path.basename always return last path segment, which could be a folder.
@@ -108,7 +111,7 @@ else {
 targetFullFilename = toForwardSlash(path.join(targetFullFilename,targetFilename));
 
 // Make sure target filename has full path.
-if (targetFullFilename.toLowerCase().indexOf(toForwardSlash(__dirname)) == -1)
+if (targetFullFilename.indexOf(toForwardSlash(__dirname)) == -1)
     targetFullFilename = toForwardSlash(path.join(__dirname,targetFullFilename));
 
 // Count changes and report to console at end.
@@ -116,12 +119,7 @@ var changeCount = 0;
 
 if (isMovingDirectory) {
     console.log("Moving many articles.");
-    var filelist = readDir(sourceFullFilename,filelist);
-    for (i=0;i<filelist.length;i++) {
-        var sourceFile = filelist[i];
-        var targetFile = toForwardSlash(path.join(targetFullFilename,path.basename(sourceFile)));
-        moveOneArticle(sourceFile,targetFile);
-    }
+    moveArticlesRecursively(sourceFullFilename,targetFullFilename,sourceFullFilename);
 }
 else {
     console.log("Moving one article.");
@@ -131,10 +129,27 @@ else {
 console.log(changeCount + " changes. Note that any table of contents files (toc.yml) must be updated manually and any empty folders deleted.");
 
 // ------------------------------------------------------------
+function moveArticlesRecursively(source,target,dir){
+    var files = fs.readdirSync(dir);
+    for(i=0;i<files.length;i++) {
+        var file = toForwardSlash(path.join(dir,files[i]));
+        if (fs.statSync(file).isDirectory()) {
+            if (!inExcludedFolders(file) && file.lastIndexOf("/media/") != -1)
+                moveArticlesRecursively(source,target,file);
+        }
+        else if (file.lastIndexOf(".md") != -1) {
+            var targetFile = toForwardSlash(path.join(target,path.basename(file)));
+            moveOneArticle(file,targetFile);
+        }
+    }
+};
+
+
 
 function moveOneArticle(sourceFullFilename,targetFullFilename) {
-    var targetMediaFoldername = toForwardSlash(path.join(path.dirname(targetFullFilename),"media"));
+var targetMediaFoldername = toForwardSlash(path.join(path.dirname(targetFullFilename),"media"));
     var targetFullFoldername = toForwardSlash(path.dirname(targetFullFilename));
+    createMissingFolders(targetFullFoldername);
 
     //
     // Fix references in source article and copy/move any media files.
@@ -398,6 +413,23 @@ function ArticleClass(filename) {
         return null;
     }
 }
+
+// ------------------------------------------------------------
+function createMissingFolders(folder){
+    var folders = folder.split("/");
+    var intermediateFolder = toForwardSlash(path.parse(folder).root);
+    for (var i=1;i<folders.length;i++) { // Start at 1, skipping root.
+        intermediateFolder = toForwardSlash(path.join(intermediateFolder,folders[i]));
+        try {
+          if (!fs.existsSync(intermediateFolder))
+              fs.mkdirSync(intermediateFolder);
+        } catch (error) {
+            console.log(error);
+            process.exit(1);
+        }
+    }
+}
+
 
 // ------------------------------------------------------------
 function copyMediaFile(crossRef,targetFoldername) {

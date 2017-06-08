@@ -36,7 +36,7 @@ While this definition only contains two possible values for cardinality, the mat
 
 Code Domains describe a finite set of named code values used to classify domain objects. For example, a person can be classified by code domains such as gender (male, female), civil status (single, married, cohabitant) and nationality.
 
-See [Create or Modify a Code Domain](developers/defining-the-application-model/object-class/create-or-modify-a-code-domain.md) for more information.
+See [Create or Modify a Code Domain](developers/defining-the-application-model/data/object-class/create-or-modify-a-code-domain.md) for more information.
 
 ## Data Provider
 

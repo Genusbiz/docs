@@ -44,7 +44,7 @@ For information on how to publish your refiners, see [Search](object-class/modif
 
 1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Class** folder
-3.  [Create a code domain](object-class/create-or-modify-a-code-domain.md) representing your custom category. For example a set of Age Groups:  
+3.  [Create a code domain](data/object-class/create-or-modify-a-code-domain.md) representing your custom category. For example a set of Age Groups:  
     ![ID75E4356DB5A047C9.png](media/ID75E4356DB5A047C9.png)
 4.  In the **Directory** tree, click the **Refiners** folder, and then on the toolbar, click **New**.
 5.  In the **Name** box, type a name for the Refiner. For example Age
