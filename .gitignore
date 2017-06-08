@@ -1,6 +1,7 @@
-###############
-#    folder   #
-###############
+# Ignore these folders.
 _site
 _exported_templates
 .vscode
+
+# Ignore MS Office backup/temp files (starting with the 2 chars ~ and $)
+**/~$*
