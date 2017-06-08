@@ -342,6 +342,8 @@
       href: defining-the-application-model/data-marts/data-view.md
     - name: Tasks
       href: defining-the-application-model/data-marts/tasks.md
+    - name: Data Mart Loading and Scheduling Strategies
+      href: defining-the-application-model/data-marts/data-mart-loading.md
   - name: Search Folders
     href: defining-the-application-model/search-folders.md
   - name: Refiners
