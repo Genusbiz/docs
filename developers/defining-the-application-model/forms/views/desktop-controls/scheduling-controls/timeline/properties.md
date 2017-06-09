@@ -1,4 +1,4 @@
-## Properties
+# Properties
 
  
 
@@ -8,49 +8,11 @@ See [Common Control Properties](../../common-control-properties.md), in addition
 
  **General**
 
-<table style="WIDTH: 100%">
+Property      | Description
+--------------|-----------
+Series        | A list of series bound to data sources, representing the events to present.<br><br>For information on specific properties, see Series Properties below.
+Views         | A list of views for how to present which series.<br><br>For information on specific properties, see View Properties below.
 
-<tbody>
-
-<tr>
-
-<th>Property</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>Series</td>
-
-<td>
-
-A list of series bound to data sources, representing the events to present.
-
-For information on specific properties, see Series Properties below.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>Views</td>
-
-<td>
-
-A list of views for how to present which series.
-
-For information on specific properties, see View Properties below.
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 
 ## Series Properties
