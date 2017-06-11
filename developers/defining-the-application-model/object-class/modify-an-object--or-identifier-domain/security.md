@@ -1,6 +1,6 @@
 ## Security
 
-Defines the maximum set of permissions that can be granted to any user account to an object, and if permissions can be granted to individual security groups and user accounts.
+Defines the maximum set of permissions that can be granted to any user account to an object, and if permissions can be granted to individual security groups.
 
 **Maximum Permissions**
 
