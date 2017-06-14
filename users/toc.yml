@@ -21,8 +21,35 @@
       href: getting-started/error-handling-and-support-mail/genus-messages-in-windows-events.md
     - name: Windows Events Monitoring
       href: getting-started/error-handling-and-support-mail/windows-events-monitoring.md
-# - name: Create and Modify
-#   href: create-and-modify.md
+- name: Navigate, view, modify and control
+  href: navigate-view-modify-and-control/index.md
+  items:
+  - name: What is a Form?
+    href: navigate-view-modify-and-control/what-is-a-form.md
+  - name: Open a Form
+    href: navigate-view-modify-and-control/open-a-form.md
+  - name: Modify an Object
+    href: navigate-view-modify-and-control/modify-an-object.md
+  - name: Save Changes
+    href: navigate-view-modify-and-control/save-changes.md
+  - name: Refresh a Form
+    href: navigate-view-modify-and-control/refresh-a-form.md
+  - name: Print an Object
+    href: navigate-view-modify-and-control/print-an-object.md
+  - name: Open a Report
+    href: navigate-view-modify-and-control/open-a-report.md
+  - name: Advanced
+    href: navigate-view-modify-and-control/advanced.md
+    items:
+    - name: Add a new Object
+      href: navigate-view-modify-and-control/advanced/add-a-new-object.md
+    - name: Send an Object
+      href: navigate-view-modify-and-control/advanced/send-an-object.md
+    - name: View History
+      href: navigate-view-modify-and-control/advanced/view-history.md
+    - name: View Settings
+      href: navigate-view-modify-and-control/advanced/view-settings.md
+  
 # - name: Search and Refine
 #   href: search-and-refine.md
 # - name: Analyze, Report and Discover
@@ -77,34 +104,6 @@
       href: working-in-tables/advanced/view-history.md
     - name: Size Columns
       href: working-in-tables/advanced/size-columns.md
-- name: Working in Forms
-  href: working-in-forms.md
-  items:
-  - name: What is a Form?
-    href: working-in-forms/what-is-a-form.md
-  - name: Open a Form
-    href: working-in-forms/open-a-form.md
-  - name: Modify an Object
-    href: working-in-forms/modify-an-object.md
-  - name: Save Changes
-    href: working-in-forms/save-changes.md
-  - name: Refresh a Form
-    href: working-in-forms/refresh-a-form.md
-  - name: Print an Object
-    href: working-in-forms/print-an-object.md
-  - name: Open a Report
-    href: working-in-forms/open-a-report.md
-  - name: Advanced
-    href: working-in-forms/advanced.md
-    items:
-    - name: Add a new Object
-      href: working-in-forms/advanced/add-a-new-object.md
-    - name: Send an Object
-      href: working-in-forms/advanced/send-an-object.md
-    - name: View History
-      href: working-in-forms/advanced/view-history.md
-    - name: View Settings
-      href: working-in-forms/advanced/view-settings.md
 - name: Running Actions
   href: running-actions.md
   items:

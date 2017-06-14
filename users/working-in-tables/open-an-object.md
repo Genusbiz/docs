@@ -4,7 +4,7 @@ Double-click a row in a table to open an object.
 
 ![ID1EC9C910BCE64147.ID83F6F236A3AD4C4B.png](media/ID1EC9C910BCE64147.ID83F6F236A3AD4C4B.png)
 
-The object is opened inside a Form. See [What is a Form](../working-in-forms/what-is-a-form.md "What is a Form?") for more information.
+The object is opened inside a Form. See [What is a Form](../navigate-view-modify-and-control/what-is-a-form.md "What is a Form?") for more information.
 
 Alternatively, you may right-click a row, and in the menu, click **Open in a New Window**.
 

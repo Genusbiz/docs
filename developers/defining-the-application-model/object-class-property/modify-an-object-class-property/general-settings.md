@@ -31,7 +31,7 @@ Defines the kind of data the property can hold. For example integer or character
 
 For more information, see [Mapping of Property Data Types and RDBMS Data Types](../../data-marts/mapping-of-property-data-types-and-rdbms-data-types.md "Mapping of Property Data Types and RDBMS Data Types").
 
-For <span style="FONT-STYLE: italic">Character or String or <span style="FONT-STYLE: italic">Textual Large Objects some characters are illegal. See [Character String Requirements](../../../../users/working-in-forms/advanced/character-string-requirements.md "Character String Requirements") for more information.
+For <span style="FONT-STYLE: italic">Character or String or <span style="FONT-STYLE: italic">Textual Large Objects some characters are illegal. See [Character String Requirements](../../../../users/navigate-view-modify-and-control/advanced/character-string-requirements.md "Character String Requirements") for more information.
 
 **Data Size**
 

@@ -118,7 +118,7 @@ var changeCount = 0;
 
 if (isMovingDirectory) {
     console.log("Moving many articles.");
-    moveArticlesRecursively(sourceFullFilename,targetFullFilename,sourceFullFilename);
+    moveArticlesRecursively(sourceFullFilename,targetFullFilename);
 }
 else {
     console.log("Moving one article.");
@@ -128,17 +128,18 @@ else {
 console.log(changeCount + " changes. Note that any table of contents files (toc.yml) must be updated manually and any empty folders deleted.");
 
 // ------------------------------------------------------------
-function moveArticlesRecursively(source,target,dir){
-    var files = fs.readdirSync(dir);
-    for(i=0;i<files.length;i++) {
-        var file = toForwardSlash(path.join(dir,files[i]));
-        if (fs.statSync(file).isDirectory()) {
-            if (!inExcludedFolders(file) && file.lastIndexOf("/media/") != -1)
-                moveArticlesRecursively(source,target,file);
+function moveArticlesRecursively(sourceFolder,targetFolder){
+    var sourceFiles = fs.readdirSync(sourceFolder);
+    for(var i=0;i<sourceFiles.length;i++) {
+        var sourceFileBase = sourceFiles[i];
+        var sourceFile = toForwardSlash(path.join(sourceFolder,sourceFileBase));
+        if (fs.statSync(sourceFile).isDirectory()) {
+            if (!inExcludedFolders(sourceFile) && sourceFile.lastIndexOf("/media/") == -1)
+                moveArticlesRecursively(sourceFile,path.join(targetFolder,sourceFileBase));
         }
-        else if (file.lastIndexOf(".md") != -1) {
-            var targetFile = toForwardSlash(path.join(target,path.basename(file)));
-            moveOneArticle(file,targetFile);
+        else if (sourceFile.lastIndexOf(".md") != -1) {
+            var targetFile = toForwardSlash(path.join(targetFolder,path.basename(sourceFile)));
+            moveOneArticle(sourceFile,targetFile);
         }
     }
 };
@@ -146,7 +147,7 @@ function moveArticlesRecursively(source,target,dir){
 
 
 function moveOneArticle(sourceFullFilename,targetFullFilename) {
-var targetMediaFoldername = toForwardSlash(path.join(path.dirname(targetFullFilename),"media"));
+    var targetMediaFoldername = toForwardSlash(path.join(path.dirname(targetFullFilename),"media"));
     var targetFullFoldername = toForwardSlash(path.dirname(targetFullFilename));
     createMissingFolders(targetFullFoldername);
 

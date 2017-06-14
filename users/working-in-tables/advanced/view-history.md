@@ -8,7 +8,7 @@ In the **History** dialog box, specify a search in the **Search** pane and click
 
 ![ID4DAC55F434E142E0.IDDF44B0F4E8214230.png](media/ID4DAC55F434E142E0.IDDF44B0F4E8214230.png)
 
-See [Event History](../../../developers/defining-the-application-model/glossary.md "Event History") for more information. For information on how to search the history, see [Search in History](../../working-in-forms/advanced/view-history.md).
+See [Event History](../../../developers/defining-the-application-model/glossary.md "Event History") for more information. For information on how to search the history, see [Search in History](../../navigate-view-modify-and-control/advanced/view-history.md).
 
 The availability of **History** is dependent on your specific application. Contact your system administrator if the **History** feature seems to lack in your specific context.
 

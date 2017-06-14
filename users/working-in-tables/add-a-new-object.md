@@ -4,7 +4,7 @@ In the **New** menu, click the object name, like **Employee** shown below.
 
 ![IDB42A29A41B3E468D.IDC3F83F13689D4A04.png](media/IDB42A29A41B3E468D.IDC3F83F13689D4A04.png)
 
-A new blank Form will appear. Fill in the required information indicated by the small red triangles and click the save button. See [Modify Objects](../working-in-forms/modify-an-object.md "Modify Objects") for more information.
+A new blank Form will appear. Fill in the required information indicated by the small red triangles and click the save button. See [Modify Objects](../navigate-view-modify-and-control/modify-an-object.md "Modify Objects") for more information.
 
 ![IDB42A29A41B3E468D.IDB9CA896FA1434D37.png](media/IDB42A29A41B3E468D.IDB9CA896FA1434D37.png)
 
