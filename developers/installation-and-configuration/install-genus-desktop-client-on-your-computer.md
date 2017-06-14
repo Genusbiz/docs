@@ -76,7 +76,7 @@ This information is intended for system administrators who want to deploy the Ge
 
 On the Terminal Server, perform a Genus desktop client installation using an internet address or a provided setup file.
 
-If the Genus Server is configured with automatic update, see [Configure Automatic Update](../../users/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") for considerations regarding terminal servers.
+If the Genus Server is configured with automatic update, see [Configure Automatic Update](../../users/navigate-view-modify-and-control/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") for considerations regarding terminal servers.
 
 If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files. See [Terminal Server Optimizations](../defining-the-application-model/action-orchestration/actions/effects/terminal-server-optimizations.md "Terminal Server Optimizations") for details.
 
@@ -181,7 +181,7 @@ If you have access to Genus Studio, you may force a deploy of the application mo
 
 **Automatic Update of the Genus Desktop client**
 
-Genus desktop clients may be [configured to automatically update](../../users/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") themselves.
+Genus desktop clients may be [configured to automatically update](../../users/navigate-view-modify-and-control/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") themselves.
 
 If the Genus desktop client finds that the Genus Server on the application server run a <span style="FONT-STYLE: italic">newer version than itself, the following steps take place:
 

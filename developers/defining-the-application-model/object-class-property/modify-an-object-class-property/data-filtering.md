@@ -8,7 +8,7 @@ When filtering data for an Object Class, the user enters one or more search crit
 
 Determines which search operators that are available to the user when filtering data. Available filter methods vary based on the data type for the property. If the data interpretation for the property is of a complex type, the filter method **Object Selection** is provided for all data types. When filtering data, the user can select an object from the Object Class the property refers to.
 
-For more information about available filter methods, see the article [Filter Methods](../../../../users/working-in-tables/filter-methods.md "Filter Methods").
+For more information about available filter methods, see the article [Filter Methods](../../../../users/navigate-view-modify-and-control/working-in-tables/filter-methods.md "Filter Methods").
 
 **Default Operator**
 

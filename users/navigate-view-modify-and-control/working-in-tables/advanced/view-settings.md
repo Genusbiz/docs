@@ -57,7 +57,7 @@ A group is a set of objects with one common attribute, for example <span style="
 
 **![ID79E7CB9C84804014.IDE76C08B82D964027.png](media/ID79E7CB9C84804014.IDE76C08B82D964027.png)**
 
-**Note**. If a field is a reference to a [code domain](../../../developers/defining-the-application-model/glossary.md), data are sorted according to the logical sort order defined for the code domain, which not necessarily equals the alphanumeric order. For example, in a code domain which defines some kind of workflow status, the codes may be specified in the following sort order: <span style="FONT-STYLE: italic">Not Started, <span style="FONT-STYLE: italic">In Progress and <span style="FONT-STYLE: italic">Completed.
+**Note**. If a field is a reference to a [code domain](../../../../developers/defining-the-application-model/glossary.md), data are sorted according to the logical sort order defined for the code domain, which not necessarily equals the alphanumeric order. For example, in a code domain which defines some kind of workflow status, the codes may be specified in the following sort order: <span style="FONT-STYLE: italic">Not Started, <span style="FONT-STYLE: italic">In Progress and <span style="FONT-STYLE: italic">Completed.
 
 
 
@@ -81,5 +81,5 @@ A filter is an easy way to see only those objects that meets the conditions you 
 
 1.  In the table, right-click the column headings, and then click **View Settings**.
 2.  Click **Filter**.
-3.  In the **Filter** dialog box, specify a [condition](../../../developers/defining-the-application-model/common-concepts/conditions.md "Conditions") stating which objects to display, for example, _timesheets submitted by employees this week which not have been approved_.
+3.  In the **Filter** dialog box, specify a [condition](../../../../developers/defining-the-application-model/common-concepts/conditions.md "Conditions") stating which objects to display, for example, _timesheets submitted by employees this week which not have been approved_.
 

@@ -79,9 +79,11 @@ var sourceFilename = "";
 if (!isMovingDirectory)
     sourceFilename = path.basename(sourceFullFilename);
 
+var dirnameLowercase = __dirname.toLowerCase();
+
 // Make sure source filename has full path.
-if (sourceFullFilename.indexOf(toForwardSlash(__dirname)) == -1)
-    sourceFullFilename = toForwardSlash(path.join(__dirname,sourceFullFilename));
+if (sourceFullFilename.indexOf(toForwardSlash(dirnameLowercase)) == -1)
+    sourceFullFilename = toForwardSlash(path.join(dirnameLowercase,sourceFullFilename));
 
 // path.basename always return last path segment, which could be a folder.
 // Therefore some extra code here...
@@ -110,8 +112,8 @@ else {
 targetFullFilename = toForwardSlash(path.join(targetFullFilename,targetFilename));
 
 // Make sure target filename has full path.
-if (targetFullFilename.indexOf(toForwardSlash(__dirname)) == -1)
-    targetFullFilename = toForwardSlash(path.join(__dirname,targetFullFilename));
+if (targetFullFilename.indexOf(toForwardSlash(dirnameLowercase)) == -1)
+    targetFullFilename = toForwardSlash(path.join(dirnameLowercase,targetFullFilename));
 
 // Count changes and report to console at end.
 var changeCount = 0;
@@ -192,7 +194,7 @@ function moveOneArticle(sourceFullFilename,targetFullFilename) {
     //
     // Fix references in any article refering to our source article.
     //
-    var filelist = readDirRecursively(__dirname,filelist);
+    var filelist = readDirRecursively(dirnameLowercase,filelist);
     for(var i=0;i<filelist.length;i++){
         var file = filelist[i];
         if (file != sourceFullFilename ) {
@@ -288,7 +290,7 @@ function CrossRefClass(ownerFilename) {
 
     // Returns true if this reference is referenced from other articles than itself.
     this.referencedFromOtherArticles = function() {
-        var filelist = readDirRecursively(__dirname,filelist);
+        var filelist = readDirRecursively(dirnameLowercase,filelist);
         for(var i=0;i<filelist.length;i++){
             var file = filelist[i];
             if (file != this.ownerFilename ) {
@@ -416,6 +418,7 @@ function ArticleClass(filename) {
 
 // ------------------------------------------------------------
 function createMissingFolders(folder){
+    console.log("Create any missing folders in: " + folder);
     var folders = folder.split("/");
     var intermediateFolder = toForwardSlash(path.parse(folder).root);
     for (var i=1;i<folders.length;i++) { // Start at 1, skipping root.

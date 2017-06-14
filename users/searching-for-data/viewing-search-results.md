@@ -10,7 +10,7 @@ The results of your searches are available under the Search Results button until
 
 When an object in the search result is opened for the first time, the color of that row in the table changes from blue to black, to indicate that the object has been read. This feature is only available in tables under the Search Results button.
 
-There are many possibilities for viewing the search results, like grouping, sorting, and auto filtering. To learn more, see [Working in Tables](../../users/working-in-tables.md). The search results can also be further modified. If you would like to remove parts of you results, select the objects you wish to keep or remove, and right-click the selection. Click on **Search Results** in the menu that appears, and then on **Keep Selected** or **Remove Selected**.
+There are many possibilities for viewing the search results, like grouping, sorting, and auto filtering. To learn more, see [Working in Tables](../navigate-view-modify-and-control/working-in-tables/working-in-tables.md). The search results can also be further modified. If you would like to remove parts of you results, select the objects you wish to keep or remove, and right-click the selection. Click on **Search Results** in the menu that appears, and then on **Keep Selected** or **Remove Selected**.
 
  ![IDE344EA821E484F4A.jpg](media/IDE344EA821E484F4A.jpg)  
 

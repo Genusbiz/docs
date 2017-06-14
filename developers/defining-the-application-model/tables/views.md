@@ -133,7 +133,7 @@ To define a named search fields, do the following:
 3.  In the **Name** box, enter a name for the search field.
 4.  In the **Screen Tip** box, optionally enter a short description.
 5.  In the **Data Type** box, select the kind of data to search for.
-6.  In the **Filter Method** box, select which search operators that are available to users when filtering data. Available filter methods vary based on the data type for the search field. For more information about available filter methods, see the article [Filter Methods](../../../users/working-in-tables/filter-methods.md "Filter Methods").
+6.  In the **Filter Method** box, select which search operators that are available to users when filtering data. Available filter methods vary based on the data type for the search field. For more information about available filter methods, see the article [Filter Methods](../../../users/navigate-view-modify-and-control/working-in-tables/filter-methods.md "Filter Methods").
 7.  In the **Default Operator** box, select the search operator which should be selected as default in the search pane.
 8.  When users enter a search text in the search box located at the top-right corner of a table, all search fields where the **Allow Generic Search** option is selected, are included when searching for data. Typically you would select this option for columns containing data which identifies an object in some way, such as the name of a customer or the number for an invoice.
 9.  For search fields where the **Allow Generic Search** option is selected, you may not want to add the field to the search pane. To do this, click to clear the **Enable as Search Field** check box.

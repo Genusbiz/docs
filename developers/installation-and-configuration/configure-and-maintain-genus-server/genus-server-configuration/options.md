@@ -77,7 +77,7 @@ In a load balanced scenario you may want to add an additional application server
 
 Please note that you should never specify a value for Redirect Internet Host Name, if this would be the same as the Internet Host Name.
 
-There are some exceptions from the general rule on how host names are used. For more information, see [Host Name Usage Exceptions](../../../../users/working-in-tables/host-name-usage-exceptions.md "Host Name Usage Exceptions").
+There are some exceptions from the general rule on how host names are used. For more information, see [Host Name Usage Exceptions](../../../../users/navigate-view-modify-and-control/working-in-tables/host-name-usage-exceptions.md "Host Name Usage Exceptions").
 
 <span style="FONT-STYLE: italic">Default value: blank
 

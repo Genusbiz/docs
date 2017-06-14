@@ -194,5 +194,5 @@ By default, Genus will start to search as you type, and there is no need to pres
 
 The layout for all views in the Directory Explorer can be customized to suit your preferences. A view is composed of fields and settings controlling the way objects are sorted and grouped. The settings are stored as part of your personal setup.
 
-For more information on how to customize the layout for a view, see [View Settings](../../../users/working-in-tables/advanced/view-settings.md "View Settings")
+For more information on how to customize the layout for a view, see [View Settings](../../../users/navigate-view-modify-and-control/working-in-tables/advanced/view-settings.md "View Settings")
 

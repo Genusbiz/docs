@@ -8,7 +8,7 @@ In the **History** dialog box, specify a search in the **Search** pane and click
 
 ![ID4DAC55F434E142E0.IDDF44B0F4E8214230.png](media/ID4DAC55F434E142E0.IDDF44B0F4E8214230.png)
 
-See [Event History](../../../developers/defining-the-application-model/glossary.md "Event History") for more information. For information on how to search the history, see [Search in History](../../navigate-view-modify-and-control/advanced/view-history.md).
+See [Event History](../../../../developers/defining-the-application-model/glossary.md "Event History") for more information. For information on how to search the history, see [Search in History](../../working-in-forms/advanced/view-history.md).
 
 The availability of **History** is dependent on your specific application. Contact your system administrator if the **History** feature seems to lack in your specific context.
 
@@ -21,9 +21,9 @@ The format and contents of the details for an event vary depending on the <span 
 
 A detailed execution log containing the start time, end time and status for the execution. The amount of information traced for each execution can be specified in the history setup for the object. Available for Tasks, Agents and Web Services. For more information, see:****
 
-*   [**View the execution history for a Task**](../../../developers/defining-the-application-model/tasks.md)
-*   [**View the execution history for an Agent**](../../../developers/defining-the-application-model/agents.md)
-*   [**View the execution history for a Web Service**](../../../developers/defining-the-application-model/web-services/view-the-execution-history-for-a-web-service.md)
+*   [**View the execution history for a Task**](../../../../developers/defining-the-application-model/tasks.md)
+*   [**View the execution history for an Agent**](../../../../developers/defining-the-application-model/agents.md)
+*   [**View the execution history for a Web Service**](../../../../developers/defining-the-application-model/web-services/view-the-execution-history-for-a-web-service.md)
 
 **Modify**
 
@@ -51,5 +51,5 @@ The permissions granted or revoked for a security group or a user account on an 
 
 No details are logged for the event types **Read** and **Created**.
 
-Note that if an object is part of a [composition](../../../developers/installation-and-configuration/composition.md "Composition"), audit trails for the object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if <span style="FONT-STYLE: italic">Contact Person is part of <span style="FONT-STYLE: italic">Customer, and a new <span style="FONT-STYLE: italic">contact person is added to a <span style="FONT-STYLE: italic">customer, the event is logged as a **Create** event on the <span style="FONT-STYLE: italic">contact person and a **Modified** event on the <span style="FONT-STYLE: italic">customer.
+Note that if an object is part of a [composition](../../../../developers/installation-and-configuration/composition.md "Composition"), audit trails for the object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if <span style="FONT-STYLE: italic">Contact Person is part of <span style="FONT-STYLE: italic">Customer, and a new <span style="FONT-STYLE: italic">contact person is added to a <span style="FONT-STYLE: italic">customer, the event is logged as a **Create** event on the <span style="FONT-STYLE: italic">contact person and a **Modified** event on the <span style="FONT-STYLE: italic">customer.
 

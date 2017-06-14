@@ -13,7 +13,7 @@ To save a search or selection, do the following:
 
 ![ID849E474FEA2B4213.IDF821A62D77A946EF.png](media/ID849E474FEA2B4213.IDF821A62D77A946EF.png)
 
-You can also save specific objects from the search result as selection by [selecting the objects](../working-in-tables/select-objects.md "Select Objects") you want to save. Right-click on one of the selected objects, and in the menu, point to **Search Result**, and then click **Save Selected as Selection**.
+You can also save specific objects from the search result as selection by [selecting the objects](../navigate-view-modify-and-control/working-in-tables/select-objects.md "Select Objects") you want to save. Right-click on one of the selected objects, and in the menu, point to **Search Result**, and then click **Save Selected as Selection**.
 
 ![ID849E474FEA2B4213.ID6E2496CA22074740.png](media/ID849E474FEA2B4213.ID6E2496CA22074740.png)
 

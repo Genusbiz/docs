@@ -14,4 +14,4 @@ To select among <span style="FONT-STYLE: italic">all available reports, in the *
 
 ![ID367B357F787A4E32.IDA606166530D7414B.png](media/ID367B357F787A4E32.IDA606166530D7414B.png)
 
-For advanced users, note that Genus supports distribution of reports by making or spreading out copies for a selection of objects in a variety of formats. See [Distribute a Report](../reporting-on-data/report/export-or-distribute-a-report.md) for more information.
+For advanced users, note that Genus supports distribution of reports by making or spreading out copies for a selection of objects in a variety of formats. See [Distribute a Report](../../reporting-on-data/report/export-or-distribute-a-report.md) for more information.

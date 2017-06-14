@@ -1,6 +1,6 @@
 ## Search in History
 
-Sometimes it is useful to find data based on, for example, when it was changed, or who changed it. This is possible by searching the history of changes to data. For information on viewing the history for an object, see [View History](../working-in-tables/advanced/view-history.md "View History").,
+Sometimes it is useful to find data based on, for example, when it was changed, or who changed it. This is possible by searching the history of changes to data. For information on viewing the history for an object, see [View History](../navigate-view-modify-and-control/working-in-tables/advanced/view-history.md "View History").,
 
  To search in History for changes, deletions, etc, click **Search** to open the **Search** Task Pane to the right. In the **Search** Task Pane, click **More**.
 

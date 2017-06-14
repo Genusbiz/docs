@@ -32,13 +32,13 @@
 
 <td valign="top" class="cdclvCategoryCol1">[Personalize](../../users/personalize.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Working in Tables](../../users/working-in-tables.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Working in Tables](../navigate-view-modify-and-control/working-in-tables/working-in-tables.md)</td>
 
 </tr>
 
 <tr>
 
-<td valign="top" class="cdclvCategoryCol1">[Working in Forms](../../users/working-in-forms.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Working in Forms](../navigate-view-modify-and-control/working-in-forms/working-in-forms.md)</td>
 
 <td valign="top" class="cdclvCategoryCol2">[Running Actions](../../users/running-actions.md)</td>
 

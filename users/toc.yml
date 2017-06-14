@@ -24,31 +24,76 @@
 - name: Navigate, view, modify and control
   href: navigate-view-modify-and-control/index.md
   items:
-  - name: What is a Form?
-    href: navigate-view-modify-and-control/what-is-a-form.md
-  - name: Open a Form
-    href: navigate-view-modify-and-control/open-a-form.md
-  - name: Modify an Object
-    href: navigate-view-modify-and-control/modify-an-object.md
-  - name: Save Changes
-    href: navigate-view-modify-and-control/save-changes.md
-  - name: Refresh a Form
-    href: navigate-view-modify-and-control/refresh-a-form.md
-  - name: Print an Object
-    href: navigate-view-modify-and-control/print-an-object.md
-  - name: Open a Report
-    href: navigate-view-modify-and-control/open-a-report.md
-  - name: Advanced
-    href: navigate-view-modify-and-control/advanced.md
+  - name: Working in Forms
+    href: navigate-view-modify-and-control/working-in-forms/working-in-forms.md
     items:
+    - name: What is a Form?
+      href: navigate-view-modify-and-control/working-in-forms/what-is-a-form.md
+    - name: Open a Form
+      href: navigate-view-modify-and-control/working-in-forms/open-a-form.md
+    - name: Modify an Object
+      href: navigate-view-modify-and-control/working-in-forms/modify-an-object.md
+    - name: Save Changes
+      href: navigate-view-modify-and-control/working-in-forms/save-changes.md
+    - name: Refresh a Form
+      href: navigate-view-modify-and-control/working-in-forms/refresh-a-form.md
+    - name: Print an Object
+      href: navigate-view-modify-and-control/working-in-forms/print-an-object.md
+    - name: Open a Report
+      href: navigate-view-modify-and-control/working-in-forms/open-a-report.md
+    - name: Advanced
+      href: navigate-view-modify-and-control/working-in-forms/advanced/advanced.md
+      items:
+      - name: Add a new Object
+        href: navigate-view-modify-and-control/working-in-forms/advanced/add-a-new-object.md
+      - name: Send an Object
+        href: navigate-view-modify-and-control/working-in-forms/advanced/send-an-object.md
+      - name: View History
+        href: navigate-view-modify-and-control/working-in-forms/advanced/view-history.md
+      - name: View Settings
+        href: navigate-view-modify-and-control/working-in-forms/advanced/view-settings.md
+  - name: Working in Tables
+    href: navigate-view-modify-and-control/working-in-tables/working-in-tables.md
+    items:
+    - name: What is a Table?
+      href: navigate-view-modify-and-control/working-in-tables/what-is-a-table.md
+    - name: Open a Table
+      href: navigate-view-modify-and-control/working-in-tables/open-a-table.md
+    - name: Open an Object
+      href: navigate-view-modify-and-control/working-in-tables/open-an-object.md
     - name: Add a new Object
-      href: navigate-view-modify-and-control/advanced/add-a-new-object.md
-    - name: Send an Object
-      href: navigate-view-modify-and-control/advanced/send-an-object.md
-    - name: View History
-      href: navigate-view-modify-and-control/advanced/view-history.md
-    - name: View Settings
-      href: navigate-view-modify-and-control/advanced/view-settings.md
+      href: navigate-view-modify-and-control/working-in-tables/add-a-new-object.md
+    - name: Modify an Object
+      href: navigate-view-modify-and-control/working-in-tables/modify-an-object.md
+    - name: Delete an Object
+      href: navigate-view-modify-and-control/working-in-tables/delete-an-object.md
+    - name: Save Changes
+      href: navigate-view-modify-and-control/working-in-tables/save-changes.md
+    - name: Select Objects
+      href: navigate-view-modify-and-control/working-in-tables/select-objects.md
+    - name: Copy and Paste
+      href: navigate-view-modify-and-control/working-in-tables/copy-and-paste.md
+    - name: Sort, Group and Autofilter Objects
+      href: navigate-view-modify-and-control/working-in-tables/sort-group-and-autofilter-objects.md
+    - name: Refresh a View
+      href: navigate-view-modify-and-control/working-in-tables/refresh-a-view.md
+    - name: Print a View
+      href: navigate-view-modify-and-control/working-in-tables/print-a-view.md
+    - name: Open a Report
+      href: navigate-view-modify-and-control/working-in-tables/open-a-report.md
+    - name: Advanced
+      href: navigate-view-modify-and-control/working-in-tables/advanced/advanced.md
+      items:
+      - name: Send Objects
+        href: navigate-view-modify-and-control/working-in-tables/advanced/send-objects.md
+      - name: Save a View to File
+        href: navigate-view-modify-and-control/working-in-tables/advanced/save-a-view-to-file.md
+      - name: View Settings
+        href: navigate-view-modify-and-control/working-in-tables/advanced/view-settings.md
+      - name: View History
+        href: navigate-view-modify-and-control/working-in-tables/advanced/view-history.md
+      - name: Size Columns
+        href: navigate-view-modify-and-control/working-in-tables/advanced/size-columns.md
   
 # - name: Search and Refine
 #   href: search-and-refine.md
@@ -62,48 +107,6 @@
   href: navigation-pane.md
 - name: Personalize
   href: personalize.md
-- name: Working in Tables
-  href: working-in-tables.md
-  items:
-  - name: What is a Table?
-    href: working-in-tables/what-is-a-table.md
-  - name: Open a Table
-    href: working-in-tables/open-a-table.md
-  - name: Open an Object
-    href: working-in-tables/open-an-object.md
-  - name: Add a new Object
-    href: working-in-tables/add-a-new-object.md
-  - name: Modify an Object
-    href: working-in-tables/modify-an-object.md
-  - name: Delete an Object
-    href: working-in-tables/delete-an-object.md
-  - name: Save Changes
-    href: working-in-tables/save-changes.md
-  - name: Select Objects
-    href: working-in-tables/select-objects.md
-  - name: Copy and Paste
-    href: working-in-tables/copy-and-paste.md
-  - name: Sort, Group and Autofilter Objects
-    href: working-in-tables/sort-group-and-autofilter-objects.md
-  - name: Refresh a View
-    href: working-in-tables/refresh-a-view.md
-  - name: Print a View
-    href: working-in-tables/print-a-view.md
-  - name: Open a Report
-    href: working-in-tables/open-a-report.md
-  - name: Advanced
-    href: working-in-tables/advanced.md
-    items:
-    - name: Send Objects
-      href: working-in-tables/advanced/send-objects.md
-    - name: Save a View to File
-      href: working-in-tables/advanced/save-a-view-to-file.md
-    - name: View Settings
-      href: working-in-tables/advanced/view-settings.md
-    - name: View History
-      href: working-in-tables/advanced/view-history.md
-    - name: Size Columns
-      href: working-in-tables/advanced/size-columns.md
 - name: Running Actions
   href: running-actions.md
   items:

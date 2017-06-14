@@ -56,7 +56,7 @@ The Directory [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier
 
 An Event History is a chronological sequence of audit trails for objects, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables you to reconstruct and examine the sequence of events and/or changes in an event for an object.
 
-See [here](users/working-in-tables/advanced/view-history.md) for more information on how to view the event history for an object.
+See [here](users/navigate-view-modify-and-control/working-in-tables/advanced/view-history.md) for more information on how to view the event history for an object.
 
 See [here](developers/defining-the-application-model/object-class/modify-an-object--or-identifier-domain/events.md "Events") for more information on how to active auditing for your object classes.
 
