@@ -24,6 +24,8 @@
 - name: Navigate, view, modify and control
   href: navigate-view-modify-and-control/index.md
   items:
+  - name: Navigation Pane
+    href: navigate-view-modify-and-control/navigation-pane.md
   - name: Working in Forms
     href: navigate-view-modify-and-control/working-in-forms/working-in-forms.md
     items:
@@ -103,8 +105,6 @@
 #   href: monitor-and-alert.md
 # - name: How to
 #   href: how-to.md
-- name: Navigation Pane
-  href: navigation-pane.md
 - name: Personalize
   href: personalize.md
 - name: Running Actions

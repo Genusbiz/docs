@@ -1,6 +1,11 @@
 # Navigate, view, modify and control
 
-Working in Forms:
+The Genus Desktop Navigation Pane:
+
+* [Navigation Pane](navigation-pane.md)
+
+
+Working in Genus Desktop Forms:
 
 * [What is a Form?](working-in-forms/what-is-a-form.md)
 * [Open a Form](working-in-forms/open-a-form.md)
@@ -11,7 +16,7 @@ Working in Forms:
 * [Open a report](working-in-forms/open-a-report.md)
 * [Advanced](working-in-forms/advanced/advanced.md)
 
-Working in Tables:
+Working in Genus Desktop Tables:
 
 * [What is a Table?](working-in-tables/what-is-a-table.md)
 * [Open a Table](working-in-tables/open-a-table.md)

@@ -24,7 +24,7 @@
 
 <td valign="top" class="cdclvCategoryCol1">[Getting Started](../../users/getting-started.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Navigation Pane](../../users/navigation-pane.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Navigation Pane](../navigate-view-modify-and-control/navigation-pane.md)</td>
 
 </tr>
 
