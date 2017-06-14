@@ -14,7 +14,6 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 * [Overview](users/overview/what-is-a-genus-solution.md)
 * [Get started](users/getting-started.md)
 * [Navigate, view, modify and control](users/navigate-view-modify-and-control/index.md)
-* [Navigation pane](users/navigate-view-modify-and-control/navigation-pane.md)
 * [Personalize](users/personalize.md)
 * [Running actions](users/running-actions.md)
 * [Exploring data](users/exploring-data.md)
