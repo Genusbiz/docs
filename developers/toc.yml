@@ -567,4 +567,5 @@
     href: how-to/search-across-many-data-sources.md
   - name: Upload and Download Large Files
     href: how-to/upload-and-download-large-files.md
-
+  - name: Report an error
+    href: how-to/report-an-error.md

@@ -1,4 +1,4 @@
-## Architecture
+# Architecture
 
 Genus Studio is the Microsoft Windows desktop client used by modelers for defining your Genus App Model. The app model is stored in a database of your choice on the database infrastructure layer.
 

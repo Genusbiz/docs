@@ -151,7 +151,7 @@ See also the app client options in [Authentication](directory-properties.md "Aut
 
 E-mail address for sending error reporting and support e-mails.
 
-See also, [Genus Desktop Client Error Reporting](../../../../users/getting-started/error-handling-and-support-mail/genus-desktop-client-error-reporting.md "Genus Desktop Client Error Reporting").
+See also [error reporting](../../../how-to/report-an-error.md).
 
 </td>
 

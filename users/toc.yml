@@ -3,8 +3,6 @@
   items:
   - name: What is a Genus solution?
     href: overview/what-is-a-genus-solution.md
-  - name: How to Report an Error
-    href: overview/how-to-report-an-error.md
   - name: Terminology
     href: ../terminology.md
 - name: Get Started
@@ -12,15 +10,6 @@
   items:
   - name: Start the Genus Desktop Client
     href: getting-started/start-the-genus-desktop-client.md
-  - name: Error Handling and Support Mail
-    href: getting-started/error-handling-and-support-mail.md
-    items:
-    - name: Genus Desktop Client Error Reporting
-      href: getting-started/error-handling-and-support-mail/genus-desktop-client-error-reporting.md
-    - name: Genus Messages in Windows Events
-      href: getting-started/error-handling-and-support-mail/genus-messages-in-windows-events.md
-    - name: Windows Events Monitoring
-      href: getting-started/error-handling-and-support-mail/windows-events-monitoring.md
 - name: Navigate, view, modify and control
   href: navigate-view-modify-and-control/index.md
   items:
