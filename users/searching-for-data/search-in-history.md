@@ -14,13 +14,13 @@ Specify your search per field as shown below and click **Search**.
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 ![IDFED753EC048E440C.IDDEDB0B82B12F4791.png](media/4508254083054121a06e75a54d2f9794.png)
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 To search in History for changes, deletions, etc, click **Search** to open the **Search** Task Pane to the right. In the **Search** Task Pane, click **More**.
 
@@ -34,10 +34,10 @@ Specify your search per field as shown below and click **Search**.
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 ![IDFED753EC048E440C.IDDEDB0B82B12F4791.png](media/5535085ddad04d1780af762ebd42a295.png)
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-the-application-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.

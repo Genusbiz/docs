@@ -10,20 +10,20 @@ If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communica
 
 A secure HTTP communication requires a Web Server Certificate.
 
-If you do not have a certificate, see the article [Create a Web Server Certificate](../../defining-the-application-model/action-orchestration/actions/effects/create-a-web-server-certificate.md "Create a Web Server Certificate") for more information about how to create one. This involves creating a certificate request and getting a certificate response back from your system administrator or third party. Once you have such a certificate response available, see the article [Assign a Web Server Certificate](../../defining-the-application-model/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate") for more information about how to assign it.
+If you do not have a certificate, see the article [Create a Web Server Certificate](../../defining-an-app-model/action-orchestration/actions/effects/create-a-web-server-certificate.md "Create a Web Server Certificate") for more information about how to create one. This involves creating a certificate request and getting a certificate response back from your system administrator or third party. Once you have such a certificate response available, see the article [Assign a Web Server Certificate](../../defining-an-app-model/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate") for more information about how to assign it.
 
-If you have a certificate available already, see the article [Assign a Web Server Certificate](../../defining-the-application-model/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate"). This applies for example if you have a wildcard certificate <span style="FONT-STYLE: italic">*.yourdomain.com and want to assign <span style="FONT-STYLE: italic">yourserver.yourdomain.com.
+If you have a certificate available already, see the article [Assign a Web Server Certificate](../../defining-an-app-model/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate"). This applies for example if you have a wildcard certificate <span style="FONT-STYLE: italic">*.yourdomain.com and want to assign <span style="FONT-STYLE: italic">yourserver.yourdomain.com.
 
 **Step 2 - Create a Directory**
 
-To provide functionality to the end user, Genus employs declarative data about your business objects and logic. This collection of [metadata](../../defining-the-application-model/glossary.md) are maintained in **Genus Studio** and stored in a central database.
+To provide functionality to the end user, Genus employs declarative data about your business objects and logic. This collection of [metadata](../../defining-an-app-model/glossary.md) are maintained in **Genus Studio** and stored in a central database.
 
 The Directory is split into two partitions: **Descriptive Partition** and **Active Partition**. The Descriptive Partition contains the definition of Object Classes, Rules, Forms and concepts like Reports, Tasks, Agents and Web Services. The Active Partition contains information related to the run-time environment for your application, for example user accounts and audit trails.
 
 1.  Create a separate database or schema for the Descriptive Partition and the Active Partition. It is recommended that the two partitions are stored in separate databases or schemas for maintenance reasons.
 2.  In the console tree of the Genus Configuration application, right-click the **Directories** folder. In the shortcut menu, point to **New** and then click **Directory**.
 3.  In the **Name** box, type name for the Directory. The name will appear as part of the title bar in the Genus desktop client.
-4.  In the **Internet Host Name** box, type a name which identifies your server (host) on the network. The name is typically a combination of the local name for the server and the name for its parent domain. For example, the Internet hostname <span style="FONT-STYLE: italic">yourserver.yourdomain.com consists of a local hostname (<span style="FONT-STYLE: italic">yourserver) and the domain name (<span style="FONT-STYLE: italic">yourdomain.com). See also [Naming the Virtual Directory](../../defining-the-application-model/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory") for more information.
+4.  In the **Internet Host Name** box, type a name which identifies your server (host) on the network. The name is typically a combination of the local name for the server and the name for its parent domain. For example, the Internet hostname <span style="FONT-STYLE: italic">yourserver.yourdomain.com consists of a local hostname (<span style="FONT-STYLE: italic">yourserver) and the domain name (<span style="FONT-STYLE: italic">yourdomain.com). See also [Naming the Virtual Directory](../../defining-an-app-model/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory") for more information.
 5.  In the **Descriptive Partition** and **Active Partition** sections, click **Edit** to define a data link to the database where the descriptive- and active partition data are stored. In the **Database** and **Schema** boxes, type a database or schema. Depending on the database system vendor, you must either provide a database or a schema. See [Specifying a Database and a Schema for a Data Link](../specifying-a-database-and-a-schema-for-a-data-link.md "Specifying a Database and a Schema for a Data Link") for more information.
 6.  In the **Vendor Version** box, select a database vendor version. See [Supported Database System Vendors](../system-requirements.md) for more information.
 7.  If the database supports case insensitive search, select the **Database supports case insensitive search** check box.
@@ -89,7 +89,7 @@ The authentication service in Genus App Services provides sign in authentication
 
 1.  In the console tree, right-click the folder for your Directory, and then in the shortcut menu, click **Properties**.
 2.  Click the **Authentication** tab.
-3.  If you want to use your own user account data to authenticate users, click **Genus Directory**. If you want users to be authenticated by Active Directory, click **Active Directory**. See [Genus App Services Authentication](../../defining-the-application-model/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication") for more information.
+3.  If you want to use your own user account data to authenticate users, click **Genus Directory**. If you want users to be authenticated by Active Directory, click **Active Directory**. See [Genus App Services Authentication](../../defining-an-app-model/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication") for more information.
 4.  If you have selected **Active Directory**, specify LDAP Path and Account identifier information as needed. If you want to manage your security groups within Genus Studio, under the **Security Group Administration** group, click **Genus Directory**. If you want to manage your security groups within Active Directory, click **Active Directory**. See [Active Directory Security Group Administration](active-directory-security-group-administration.md "Active Directory Security Group Administration") for more information.
 
 Genus App Services now offers authentication against multiple Active Directory domains simultaneously. Please make sure that your application server(s) is granted the necessary privileges to access the required domain controllers. You need to use a unique account identifier across your domains, so unless you can guarantee that sAMAccountName is unique across your domains, you should opt for objectGUID or objectSID as your account identifier.
@@ -133,7 +133,7 @@ If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communica
 
  **Step 12 - Restart Genus Services** 
 
-[A restart of Genus Services](../../defining-the-application-model/general-settings/restart-genus-app-services.md "Restart Genus App Services") is required to make your changes take effect.
+[A restart of Genus Services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus App Services") is required to make your changes take effect.
 
 **Step 13 - Install License** **A license file is required in order to start the Genus App Platform. See** [Install License on Genus App Services applicaion server](../install-license-on-genus-server.md) for more information. 
 
@@ -149,7 +149,7 @@ See [Install Genus on Your Computer](../install-genus-desktop-client-on-your-com
 
 If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.**
 
-1.  [Open Genus Studio](../../defining-the-application-model/getting-started/how-to-open-genus-studio.md)
+1.  [Open Genus Studio](../../defining-an-app-model/getting-started/how-to-open-genus-studio.md)
 2.  To add a Node, in the Directory tree, locate Resources and then click on Nodes.
 3.  In the File menu, click New.
 4.  Specify the node settings, and click OK.
@@ -157,7 +157,7 @@ If you are using Active Directory authentication, you must sign in to the comput
 6.  In the File menu, click New.
 7.  Specify the node group settings, and click OK.
 
-For more information on specific settings, see [Nodes and Node Groups](../../defining-the-application-model/nodes-and-node-groups.md). Step 16 - Deploy the Directory 
+For more information on specific settings, see [Nodes and Node Groups](../../defining-an-app-model/nodes-and-node-groups.md). Step 16 - Deploy the Directory 
 
 The initial set of metadata needs to be deployed to Genus desktop clients. This can be done from the computer where you installed the Genus desktop client in step 15\.
 
@@ -165,13 +165,13 @@ If you are using Active Directory authentication, you must sign in to the comput
 
 If you did not close Genus Studio in the previous step, skip step 1 below.
 
-1.  [Open Genus Studio](../../defining-the-application-model/getting-started/how-to-open-genus-studio.md)
+1.  [Open Genus Studio](../../defining-an-app-model/getting-started/how-to-open-genus-studio.md)
 2.  In the **File** menu, click **Deploy Directory to All Computers**.
 3.  Click **OK**.
 
 **Next step**
 
-You should also consider creating [security groups](../../defining-the-application-model/security/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../defining-the-application-model/security/security-privileges.md), [permissions](../../defining-the-application-model/security/security-permissions.md), and [access to data sets](../../defining-the-application-model/security/security-data-sets.md).
+You should also consider creating [security groups](../../defining-an-app-model/security/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../defining-an-app-model/security/security-privileges.md), [permissions](../../defining-an-app-model/security/security-permissions.md), and [access to data sets](../../defining-an-app-model/security/security-data-sets.md).
 
 You may also want to create a Windows Scheduled Task to [automatically delete old log files](automatically-delete-old-log-files.md) created by Genus App Services.
 

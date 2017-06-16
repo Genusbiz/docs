@@ -78,7 +78,7 @@ On the Terminal Server, perform a Genus desktop client installation using an int
 
 If the Genus Server is configured with automatic update, see [Configure Automatic Update](../../users/navigate-view-modify-and-control/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") for considerations regarding terminal servers.
 
-If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files. See [Terminal Server Optimizations](../defining-the-application-model/action-orchestration/actions/effects/terminal-server-optimizations.md "Terminal Server Optimizations") for details.
+If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files. See [Terminal Server Optimizations](../defining-an-app-model/action-orchestration/actions/effects/terminal-server-optimizations.md "Terminal Server Optimizations") for details.
 
 
 
@@ -113,7 +113,7 @@ Note that these files must be located in the same directory as the application e
 
 **Application Model Cache File**
 
-To improve performance, a copy of your application model is automatically stored on your client after the directory is deployed to all computers. This cache file is named <span style="FONT-STYLE: italic">DeployedDirectory.gcm and stored in the folder [CSIDL_LOCAL_APPDATA](../../users/navigate-view-modify-and-control/advanced/csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../defining-the-application-model/glossary.md)<span style="FONT-STYLE: italic">}.
+To improve performance, a copy of your application model is automatically stored on your client after the directory is deployed to all computers. This cache file is named <span style="FONT-STYLE: italic">DeployedDirectory.gcm and stored in the folder [CSIDL_LOCAL_APPDATA](../../users/navigate-view-modify-and-control/advanced/csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../defining-an-app-model/glossary.md)<span style="FONT-STYLE: italic">}.
 
 An example on Windows 8 for a user with user name John is <span style="FONT-STYLE: italic">C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\DeployedDirectory.gcm.
 
@@ -131,7 +131,7 @@ First, the text strings which are a inherent in the Genus desktop client applica
 
 An example of such a file on Windows 8 for a translation to Norwegian is <span style="FONT-STYLE: italic">C:\Program Files (x86)\Genus\Client\Translations\Genus.nb-NO.gct, where <span style="FONT-STYLE: italic">nb-NO is the culture name specifying the language and country. Note that if you have changed the default folder in the Genus installation program during first time install, the placement of the language translation cache files will change accordingly.
 
-Secondly, any translated text strings part of your application model are stored in one file per language in the folder [CSIDL_LOCAL_APPDATA](../../users/navigate-view-modify-and-control/advanced/csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../defining-the-application-model/glossary.md)<span style="FONT-STYLE: italic">}\Translations. The translation files are named <span style="FONT-STYLE: italic">LanguageStrings.{Culture}.gct, where <span style="FONT-STYLE: italic">{Culture} is the culture name specifying the language and country.
+Secondly, any translated text strings part of your application model are stored in one file per language in the folder [CSIDL_LOCAL_APPDATA](../../users/navigate-view-modify-and-control/advanced/csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../defining-an-app-model/glossary.md)<span style="FONT-STYLE: italic">}\Translations. The translation files are named <span style="FONT-STYLE: italic">LanguageStrings.{Culture}.gct, where <span style="FONT-STYLE: italic">{Culture} is the culture name specifying the language and country.
 
 An example of such a file on Windows 8 for a translation to Norwegian is <span style="FONT-STYLE: italic">C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\Translations\LanguageStrings.nb-NO.gct
 
@@ -139,7 +139,7 @@ An example of such a file on Windows 8 for a translation to Norwegian is <span s
 
 Help files are downloaded automatically to your computer the first time you invoke Genus Help.
 
-Help files are stored in the folder [CSIDL_LOCAL_APPDATA](../../users/navigate-view-modify-and-control/advanced/csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../defining-the-application-model/glossary.md)<span style="FONT-STYLE: italic">}\HelpFiles\{Culture} on your computer.
+Help files are stored in the folder [CSIDL_LOCAL_APPDATA](../../users/navigate-view-modify-and-control/advanced/csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../defining-an-app-model/glossary.md)<span style="FONT-STYLE: italic">}\HelpFiles\{Culture} on your computer.
 
 <span style="FONT-STYLE: italic">{Culture} is the help text culture name specifying the language and sublanguage.
 
@@ -177,7 +177,7 @@ If there is, Genus compares the application model version with the version avail
 
 If there is not, the application model cache file is downloaded from your application server.
 
-If you have access to Genus Studio, you may force a deploy of the application model cache file to your computer. See [Deploy Changes in the Directory](../defining-the-application-model/getting-started/deploy-changes-in-the-directory.md) for more information. In such cases, the local copy of the Application Model Cache File will be preferred and read on startup.
+If you have access to Genus Studio, you may force a deploy of the application model cache file to your computer. See [Deploy Changes in the Directory](../defining-an-app-model/getting-started/deploy-changes-in-the-directory.md) for more information. In such cases, the local copy of the Application Model Cache File will be preferred and read on startup.
 
 **Automatic Update of the Genus Desktop client**
 

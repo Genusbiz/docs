@@ -1,6 +1,6 @@
 ## Merge Report Data to a Microsoft Excel Document
 
-Access to the source data in an report is a powerful feature which opens new ways to utilize a report in effects, both for reporting and calculation purposes. Combined with the lookup functions in Excel, you can define customer tailored reports, such as financial statements which require a more complex layout. Data can be queried using a [condition](../../../defining-the-application-model/common-concepts/conditions.md) or an [Advanced Expression](../../../defining-the-application-model/common-concepts/advanced-expressions.md).
+Access to the source data in an report is a powerful feature which opens new ways to utilize a report in effects, both for reporting and calculation purposes. Combined with the lookup functions in Excel, you can define customer tailored reports, such as financial statements which require a more complex layout. Data can be queried using a [condition](../../../defining-an-app-model/common-concepts/conditions.md) or an [Advanced Expression](../../../defining-an-app-model/common-concepts/advanced-expressions.md).
 
 The report illustrated below is merged to a Microsoft Excel spreadsheet represented as a list and as a pivot table.
 

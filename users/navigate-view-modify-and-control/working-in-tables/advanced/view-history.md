@@ -8,7 +8,7 @@ In the **History** dialog box, specify a search in the **Search** pane and click
 
 ![ID4DAC55F434E142E0.IDDF44B0F4E8214230.png](media/ID4DAC55F434E142E0.IDDF44B0F4E8214230.png)
 
-See [Event History](../../../../developers/defining-the-application-model/glossary.md "Event History") for more information. For information on how to search the history, see [Search in History](../../working-in-forms/advanced/view-history.md).
+See [Event History](../../../../developers/defining-an-app-model/glossary.md "Event History") for more information. For information on how to search the history, see [Search in History](../../working-in-forms/advanced/view-history.md).
 
 The availability of **History** is dependent on your specific application. Contact your system administrator if the **History** feature seems to lack in your specific context.
 
@@ -21,9 +21,9 @@ The format and contents of the details for an event vary depending on the <span 
 
 A detailed execution log containing the start time, end time and status for the execution. The amount of information traced for each execution can be specified in the history setup for the object. Available for Tasks, Agents and Web Services. For more information, see:****
 
-*   [**View the execution history for a Task**](../../../../developers/defining-the-application-model/tasks.md)
-*   [**View the execution history for an Agent**](../../../../developers/defining-the-application-model/agents.md)
-*   [**View the execution history for a Web Service**](../../../../developers/defining-the-application-model/web-services/view-the-execution-history-for-a-web-service.md)
+*   [**View the execution history for a Task**](../../../../developers/defining-an-app-model/tasks.md)
+*   [**View the execution history for an Agent**](../../../../developers/defining-an-app-model/agents.md)
+*   [**View the execution history for a Web Service**](../../../../developers/defining-an-app-model/web-services/view-the-execution-history-for-a-web-service.md)
 
 **Modify**
 

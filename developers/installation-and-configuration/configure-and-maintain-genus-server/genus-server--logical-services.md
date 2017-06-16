@@ -1,14 +1,14 @@
 ## Genus Server - Logical Services
 
-Genus App Services is composed of a number of logical services at that are either data set independent or [data set](../../defining-the-application-model/general-settings/data-sets.md) dependent. These services may be configured for each physical server by defining [nodes and node groups](../../defining-the-application-model/nodes-and-node-groups.md).
+Genus App Services is composed of a number of logical services at that are either data set independent or [data set](../../defining-an-app-model/general-settings/data-sets.md) dependent. These services may be configured for each physical server by defining [nodes and node groups](../../defining-an-app-model/nodes-and-node-groups.md).
 
 **Data Set Independent Services**
 
 <span style="FONT-STYLE: italic">Mail Service
 
-*   This service provides server-based e-mail, and is used when server-side [actions](../../defining-the-application-model/action-orchestration/actions.md) submits e-mail using SMTP.
+*   This service provides server-based e-mail, and is used when server-side [actions](../../defining-an-app-model/action-orchestration/actions.md) submits e-mail using SMTP.
 *   Enable this service in order to send e-mails from server-side actions.
-*   Settings for the mail service can be found in [general settings](../../defining-the-application-model/general-settings.md).
+*   Settings for the mail service can be found in [general settings](../../defining-an-app-model/general-settings.md).
 
 **Data Set Dependent Services**
 
@@ -22,7 +22,7 @@ Genus App Services is composed of a number of logical services at that are eithe
 
 Agent Service
 
-*   This service is responsible for executing [Agents](../../defining-the-application-model/agents.md) at scheduled intervals.
+*   This service is responsible for executing [Agents](../../defining-an-app-model/agents.md) at scheduled intervals.
 *   The Agent Service should be enabled in order to execute Agents.
 
 Calendar Service
@@ -47,12 +47,12 @@ Calendar Service
 
 <span style="FONT-STYLE: italic">Web Service
 
-*   This service is responsible for providing access to external [web services](../../defining-the-application-model/web-services.md) (consume) and to web services created in Genus Studio (publish).
+*   This service is responsible for providing access to external [web services](../../defining-an-app-model/web-services.md) (consume) and to web services created in Genus Studio (publish).
 *   The Web Service should be enabled in order to publish or consume external web services.
 
 **Service User**
 
-The Logical Services that require a user account to operate, use the built in **[Service user](../../defining-the-application-model/security/security-groups-and-user-accounts.md).**
+The Logical Services that require a user account to operate, use the built in **[Service user](../../defining-an-app-model/security/security-groups-and-user-accounts.md).**
 
 ****Physical Windows Server Hosting of Logical Services****
 

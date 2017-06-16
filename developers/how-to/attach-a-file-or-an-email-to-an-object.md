@@ -14,7 +14,7 @@ There are many properties that can be defined for an attached file, where the mo
 
 <th>Data Type</th>
 
-<th>[Data Interpretation](../defining-the-application-model/simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property")</th>
+<th>[Data Interpretation](../defining-an-app-model/simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property")</th>
 
 </tr>
 
@@ -84,7 +84,7 @@ There are many properties that can be defined for an attached file, where the mo
 
 (*) Required
 
-For a complete list of meaningful file properties, see [General File](../defining-the-application-model/action-orchestration/data-sources/file-data-sources.md "General File"). For more information on defining object class properties see [Object Class Property](../defining-the-application-model/object-class-property.md "Object Class Property").
+For a complete list of meaningful file properties, see [General File](../defining-an-app-model/action-orchestration/data-sources/file-data-sources.md "General File"). For more information on defining object class properties see [Object Class Property](../defining-an-app-model/object-class-property.md "Object Class Property").
 
 It is only possible to attach one file to an object, but a very common approach is to define a File object with the sole purpose of storing a file. Properties referencing other relevant objects are then added to the File object, effectively creating a document archive. Several such document classes can be added, to differentiate between areas of use, types of document, security access, etc. For example it can be useful to keep document templates apart from live documents, or to keep documents and e-mails separated. The figure below shows an example of properties for an object class designed to hold documents connected to a Project, an Activity, a Company or a Contact.
 

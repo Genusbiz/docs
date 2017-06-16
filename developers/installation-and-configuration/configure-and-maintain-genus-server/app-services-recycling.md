@@ -11,7 +11,7 @@ In order to configure application pooling properties, like when to recycle to ho
 5.  In the list of application pools, select **Genus App Services Web Site**.
 6.  and use the appropriate actions from the ones that are listed.
 
-Note: the **Shutdown Time Limit (seconds)** settings should be set high enough to allow any [agent](../../defining-the-application-model/agents.md) to finish before it is terminated. In reality, this means that the time limit must accommodate for the longest running agent.
+Note: the **Shutdown Time Limit (seconds)** settings should be set high enough to allow any [agent](../../defining-an-app-model/agents.md) to finish before it is terminated. In reality, this means that the time limit must accommodate for the longest running agent.
 
 Genus specific configuration of the Core Service, like maximum number of concurrent Core Service request threads, is controlled by adding/editing relevant properties in the [appSettingsOverrides.config](tuning-web-service-performance.md) directly.  
 **

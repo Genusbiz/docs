@@ -8,7 +8,7 @@ Please review [System Requirements](system-requirements.md) and make sure that y
 
 **Step 2: Install Genus App Services**
 
-To install Genus App Services, run Setup on your server using the Genus App ServicesInstallation Wizard. See [Server Installation](../defining-the-application-model/action-orchestration/genus-app-services-installation--step-by-step.md "Genus App Services Installation - Step by Step") for the detailed step by step procedure.
+To install Genus App Services, run Setup on your server using the Genus App ServicesInstallation Wizard. See [Server Installation](../defining-an-app-model/action-orchestration/genus-app-services-installation--step-by-step.md "Genus App Services Installation - Step by Step") for the detailed step by step procedure.
 
 **Step 3: Install License on Genus application server**
 
