@@ -2,7 +2,7 @@
 Learn how to use Genus App Platform to quickly create, deploy and change customized software solutions. The tutorials and articles show you how to use this high-productivity, no-code development platform to build and use line-of-business software solutions.
 
 ## Developers
-* [Overview](developers/overview/what-is-genus-app-platform.md)
+* [Overview](developers/overview/index.md)
 * [Defining an app model](developers/defining-the-application-model.md)
 * [Installation and configuration](developers/installation-and-configuration.md)
 * [Security](developers/defining-the-application-model/security.md)
@@ -11,7 +11,7 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 * [Release notes](https://www.genus.no/?PageKey=3afcf63a-acd1-4f47-9eb7-e6a68e7eafd8)
 
 ## Users
-* [Overview](users/overview/what-is-a-genus-solution.md)
+* [Overview](users/overview/index.md)
 * [Get started](users/getting-started.md)
 * [Navigate, view, modify and control](users/navigate-view-modify-and-control/index.md)
 * [Personalize](users/personalize.md)

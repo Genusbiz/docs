@@ -1,2 +1,3 @@
-## How to Report an Error?
-How to report an error...
+# How to report an error?
+
+

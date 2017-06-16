@@ -1,6 +1,6 @@
 - name: Developers
   href: developers/
-  homepage: developers/index.md
+  homepage: developers/overview/index.md
 - name: Users
   href: users/
-  homepage: users/index.md
+  homepage: users/overview/index.md
