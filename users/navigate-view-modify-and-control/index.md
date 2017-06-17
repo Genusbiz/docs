@@ -1,8 +1,10 @@
 # Navigate, view, modify and control
 
-The Genus Desktop Navigation Pane:
+Key concepts
 
 * [Navigation Pane](navigation-pane.md)
+* [Personalize your Genus Desktop](personalize-your-genus-desktop.md)
+* [Running Actions](running-actions/index.md)
 
 
 Working in Genus Desktop Forms:

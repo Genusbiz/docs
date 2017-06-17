@@ -16,7 +16,7 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 * [Navigate, view, modify and control](users/navigate-view-modify-and-control/index.md)
 * [Search and refine](users/search-and-refine/index.md)
 * [Analyze, report and discover](users/analyze-report-and-discover/index.md)
-* [Running actions](users/running-actions.md)
+* [Automate, monitor and alert](users/automate-monitor-and-alert/index.md)
 
 ---
 

@@ -40,7 +40,7 @@
 
 <td valign="top" class="cdclvCategoryCol1">[Working in Forms](../navigate-view-modify-and-control/working-in-forms/working-in-forms.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Running Actions](../running-actions.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Running Actions](../navigate-view-modify-and-control/running-actions/index.md)</td>
 
 </tr>
 
