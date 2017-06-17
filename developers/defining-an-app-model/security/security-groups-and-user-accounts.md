@@ -107,7 +107,7 @@ If your application uses **custom authentication**, follow these steps:
 12.  Click **Next**.
 13.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 14.  Click **Next**.
-15.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
+15.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 16.  Click **Finish**.
 
 If your application uses **Active Directory authentication**, follow these steps:
@@ -127,7 +127,7 @@ If your application uses **Active Directory authentication**, follow these steps
 11.  Click **Next**.
 12.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 13.  Click **Next**.
-14.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
+14.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 15.  Click **Finish**.
 
 **Add a Computer Account**
@@ -190,14 +190,14 @@ Based on the lockout policy defined in the [account profile setup](account-profi
 ## Change the Default Language for a User Account
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
-2.  In the **Language** box, select the default language for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
+2.  In the **Language** box, select the default language for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 
 
 
 ## Change the Start Page in the Navigation Pane for a User Account
 
 1.  [Open the user account.](security-groups-and-user-accounts.md)
-2.  In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop application. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/personalize.md).
+2.  In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop application. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 
 
 

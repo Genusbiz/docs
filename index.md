@@ -16,7 +16,6 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 * [Navigate, view, modify and control](users/navigate-view-modify-and-control/index.md)
 * [Search and refine](users/search-and-refine/index.md)
 * [Analyze, report and discover](users/analyze-report-and-discover/index.md)
-* [Personalize](users/personalize.md)
 * [Running actions](users/running-actions.md)
 
 ---
@@ -24,5 +23,6 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 **Quick links**
 * [Keyboard shortcuts](developers/keyboard-shortcuts.md)
 * [System requirements](developers/installation-and-configuration/system-requirements.md)
+* [Personalize your Genus Desktop](users/navigate-view-modify-and-control/personalize-your-genus-desktop.md)
 * [How to report an error](developers/how-to/report-an-error.md)
 * [Terminology](terminology.md)

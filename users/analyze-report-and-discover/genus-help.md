@@ -30,7 +30,7 @@
 
 <tr class="cdclvCategoryRowAlt">
 
-<td valign="top" class="cdclvCategoryCol1">[Personalize](../personalize.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Personalize](../navigate-view-modify-and-control/personalize-your-genus-desktop.md)</td>
 
 <td valign="top" class="cdclvCategoryCol2">[Working in Tables](../navigate-view-modify-and-control/working-in-tables/working-in-tables.md)</td>
 

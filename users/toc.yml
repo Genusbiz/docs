@@ -85,6 +85,8 @@
         href: navigate-view-modify-and-control/working-in-tables/advanced/view-history.md
       - name: Size Columns
         href: navigate-view-modify-and-control/working-in-tables/advanced/size-columns.md
+  - name: Personalize your Genus Desktop
+    href: navigate-view-modify-and-control/personalize-your-genus-desktop.md
 - name: Search and refine
   href: search-and-refine/index.md
   items:
@@ -166,8 +168,6 @@
 #   href: monitor-and-alert.md
 # - name: How to
 #   href: how-to.md
-- name: Personalize
-  href: personalize.md
 - name: Running Actions
   href: running-actions.md
   items:

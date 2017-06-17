@@ -1,6 +1,6 @@
 ## Advanced Settings
 
-Some of these settings are defaults that can be [personalized](../../../users/personalize.md) by individual users.
+Some of these settings are defaults that can be [personalized](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md) by individual users.
 
 **Print Color Settings**
 
