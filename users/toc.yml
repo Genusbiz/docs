@@ -85,9 +85,34 @@
         href: navigate-view-modify-and-control/working-in-tables/advanced/view-history.md
       - name: Size Columns
         href: navigate-view-modify-and-control/working-in-tables/advanced/size-columns.md
+- name: Search and refine
+  href: search-and-refine/index.md
+  items:
+  - name: Search for objects
+    href: search-and-refine/search-for-objects.md
+  - name: Search for other data sources
+    href: search-and-refine/search-for-other-data-sources.md
+  - name: Search based on other data sources
+    href: search-and-refine/search-based-on-other-data-sources.md
+  - name: Using advanced search
+    href: search-and-refine/using-advanced-search.md
+  - name: Search with accelerators
+    href: search-and-refine/search-with-accelerators.md
+  - name: Search in history
+    href: search-and-refine/search-in-history.md
+  - name: Save searches and selections
+    href: search-and-refine/save-searches-and-selections.md
+  - name: Open a search
+    href: search-and-refine/open-a-search.md
+  - name: Viewing search results
+    href: search-and-refine/viewing-search-results.md
+  - name: Search options
+    href: search-and-refine/search-options.md
+  - name: Refining search results
+    href: search-and-refine/refining-search-results.md    
+  - name: Exploring data
+    href: search-and-refine/exploring-data.md
   
-# - name: Search and Refine
-#   href: search-and-refine.md
 # - name: Analyze, Report and Discover
 #   href: analyze-report-and-discover.md
 # - name: Monitor and Alert
@@ -110,8 +135,6 @@
       href: running-actions/follow-up/alerts.md
   - name: Modify merging of Reports
     href: running-actions/modify-merging-of-reports.md
-- name: Exploring Data
-  href: exploring-data.md
 - name: Reporting on Data
   href: reporting-on-data.md
   items:
@@ -156,28 +179,3 @@
       href: reporting-on-data/report/export-or-distribute-a-report.md
     - name: Save to File or Print a Report
       href: reporting-on-data/report/save-to-file-or-print-a-report.md
-- name: Searching for Data
-  href: searching-for-data.md
-  items:
-  - name: Search for Objects
-    href: searching-for-data/search-for-objects.md
-  - name: Search for Other Data Sources
-    href: searching-for-data/search-for-other-data-sources.md
-  - name: Search based on Other Data Sources
-    href: searching-for-data/search-based-on-other-data-sources.md
-  - name: Using Advanced Search
-    href: searching-for-data/using-advanced-search.md
-  - name: Search with Accelerators
-    href: searching-for-data/search-with-accelerators.md
-  - name: Search in History
-    href: searching-for-data/search-in-history.md
-  - name: Save Searches and Selections
-    href: searching-for-data/save-searches-and-selections.md
-  - name: Open a Search
-    href: searching-for-data/open-a-search.md
-  - name: Viewing Search Results
-    href: searching-for-data/viewing-search-results.md
-  - name: Search Options
-    href: searching-for-data/search-options.md
-- name: Refining Search Results
-  href: refining-search-results.md

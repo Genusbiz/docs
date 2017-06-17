@@ -46,7 +46,7 @@
 
 <tr class="cdclvCategoryRowAlt">
 
-<td valign="top" class="cdclvCategoryCol1">[Exploring Data](../../users/exploring-data.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Exploring Data](../search-and-refine/exploring-data.md)</td>
 
 <td valign="top" class="cdclvCategoryCol2">[Reporting on Data](../../users/reporting-on-data.md)</td>
 
@@ -54,9 +54,9 @@
 
 <tr>
 
-<td valign="top" class="cdclvCategoryCol1">[Searching for Data](../../users/searching-for-data.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Searching for Data](../search-and-refine/index.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Refining Search Results](../../users/refining-search-results.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Refining Search Results](../search-and-refine/refining-search-results.md)</td>
 
 </tr>
 

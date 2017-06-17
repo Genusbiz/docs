@@ -35,7 +35,7 @@ Transparent Title Area   | Removes the background color for the title area, and 
 
 Property                 | Description
 -------------------------|--------------------------------
-Data Binding             | The value for the field. See [Data Binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").
+Data Binding             | The value for the field. See [Data Binding](../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").
 Label                    | The label for the field. Enter a text in the box, or click the "..." button in the box to select a field.
 Label - Colon Suffix     | Show a colon ":" after the label.
 Show Label in Title      | By default the value is displayed in the group box title, and the label and value are displayed in the tool tip. Enable this option to include the label in the group box title.

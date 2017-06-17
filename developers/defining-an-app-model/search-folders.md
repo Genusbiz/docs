@@ -1,6 +1,6 @@
 ## Search Folders
 
-Search Folders makes it easy to find and organize objects. A Search Folder is a logical view of related objects, and is simply a saved search with custom view settings. If the user has access to a search folders, it can be accessed from [Search Task Pane](../../users/searching-for-data.md). When the search folder is opened, the saved search is executed.
+Search Folders makes it easy to find and organize objects. A Search Folder is a logical view of related objects, and is simply a saved search with custom view settings. If the user has access to a search folders, it can be accessed from [Search Task Pane](../../users/search-and-refine/index.md). When the search folder is opened, the saved search is executed.
 
 **Specific Objects Search Folders**  
 

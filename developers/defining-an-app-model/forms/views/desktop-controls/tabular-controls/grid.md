@@ -78,7 +78,7 @@ Property                |  Description
 Control                 | The control used to display and edit a cell in the column. Currently only Text Edit is available.
 Control Settings        | Settings specific for the selected control.
 Control Settings - Word Wrap | Enables wrapping of text that is too long to display on one line. Only applicable to the Text Edit control
-Data Binding            | The data for the column. See [Data Binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").
+Data Binding            | The data for the column. See [Data Binding](../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").
 Initially Selected      | The column is selected when the control is initially opened.
 Label                   | The label for the column. Enter a text in the box, or click the "..." button in the box to select a field.
 Label - Colon Suffix    | Show a colon ":" after the label.

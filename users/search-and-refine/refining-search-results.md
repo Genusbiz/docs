@@ -1,4 +1,4 @@
-## Refining Search Results
+# Refining Search Results
 
 A search result can be refined by dynamic filtering as-you-type in the **Find on This Page** box, or by using the advanced **Refiner** features.
 
@@ -43,7 +43,7 @@ Click Sales Territory to open the refiner and show the refinement links. Press a
 
 To change the selected refinement links of a refiner, you must click the refiner summary in the search pane to remove the refiner. You can then you make a new selection of one or more refinement links from the refiner, as described above.
 
-For information on how to add more refiners, see [Refiners](../developers/defining-an-app-model/refiners.md).
+For information on how to add more refiners, see [Refiners](../../developers/defining-an-app-model/refiners.md).
 
 
 

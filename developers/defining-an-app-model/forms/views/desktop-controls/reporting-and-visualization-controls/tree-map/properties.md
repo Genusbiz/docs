@@ -22,7 +22,7 @@ See [Common Control Properties](../../common-control-properties.md), in addition
 
 <td>
 
-Defines the location of the data to be visualized, using a standard [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding"). Only applicable for single level data structure.
+Defines the location of the data to be visualized, using a standard [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding"). Only applicable for single level data structure.
 
 </td>
 
@@ -335,7 +335,7 @@ For information on specific properties see Colorizer Gradient Properties below.
 
 <td>Data Binding</td>
 
-<td>Defines the location of the data to be visualized for this level, using a standard [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding").</td>
+<td>Defines the location of the data to be visualized for this level, using a standard [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding").</td>
 
 </tr>
 

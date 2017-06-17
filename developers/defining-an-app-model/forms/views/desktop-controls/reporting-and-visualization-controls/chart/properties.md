@@ -615,7 +615,7 @@ Specifies that the title is aligned near the beginning of the axis.
 
 <td>Title</td>
 
-<td>Enter a text to use as the title, or click "...", to use [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") to get dynamic text from a field in a data source.</td>
+<td>Enter a text to use as the title, or click "...", to use [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") to get dynamic text from a field in a data source.</td>
 
 </tr>
 
@@ -779,7 +779,7 @@ Specifies that the title is aligned near the beginning of the axis.
 
 A text that is added after the label.
 
-Enter a text, or click "...", to use [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") to get dynamic text from a field in a data source.
+Enter a text, or click "...", to use [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") to get dynamic text from a field in a data source.
 
 </td>
 
@@ -791,7 +791,7 @@ Enter a text, or click "...", to use [data binding](../../../../../../../users/s
 
 <td>A text that is added after the label.  
 
-Enter a text, or click "...", to use [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") to get dynamic text from a field in a data source.</td>
+Enter a text, or click "...", to use [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") to get dynamic text from a field in a data source.</td>
 
 </tr>
 
@@ -871,7 +871,7 @@ Enter a text, or click "...", to use [data binding](../../../../../../../users/s
 
 Add a legend text to include an item in the legend
 
-Enter a text, or click "...", to use [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") to get dynamic text from a field in a data source.
+Enter a text, or click "...", to use [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") to get dynamic text from a field in a data source.
 
 </td>
 
@@ -917,7 +917,7 @@ Enter a text, or click "...", to use [data binding](../../../../../../../users/s
 
 Add a title text to display a title for the constant line.
 
-Enter a text, or click "...", to use [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") to get dynamic text from a field in a data source.
+Enter a text, or click "...", to use [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") to get dynamic text from a field in a data source.
 
 </td>
 
@@ -1005,7 +1005,7 @@ Align the title text to the right.
 
 The axis value at which to display the constant line.
 
-Enter a value, or click "...", to use [data binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") to get dynamic value from a field in a data source.
+Enter a value, or click "...", to use [data binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") to get dynamic value from a field in a data source.
 
 </td>
 
@@ -1199,7 +1199,7 @@ To add a new series, in the **Add Item of Type** list, select the type of series
 
 <td>Data Binding</td>
 
-<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
@@ -1329,7 +1329,7 @@ The screen tip which is displayed when the mouse cursor is moved over the series
 
 <td>Data Binding</td>
 
-<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data that is used to plot the series. See [Data Binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 

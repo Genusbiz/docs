@@ -49,7 +49,7 @@ The control is bound to a data source, and a selection of objects is transferred
 
 <td>Data Binding</td>
 
-<td>The binding to the data for the control. See [Data Binding](../../../../../users/searching-for-data/data-binding.md "Data Binding").</td>
+<td>The binding to the data for the control. See [Data Binding](../../../../../users/search-and-refine/data-binding.md "Data Binding").</td>
 
 </tr>
 
@@ -609,7 +609,7 @@ Align the label text to the bottom.
 
 <td>Data Binding</td>
 
-<td>The data binding specifies the field to use for the screen tip value. For more information see [Data Binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data binding specifies the field to use for the screen tip value. For more information see [Data Binding](../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 

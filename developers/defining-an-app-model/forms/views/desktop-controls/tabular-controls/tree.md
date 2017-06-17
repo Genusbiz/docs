@@ -398,7 +398,7 @@ The Auto option is convenient, but can in complex forms lead to performance issu
 
 <td>Data Binding</td>
 
-<td>The data for the column. See [Data Binding](../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data for the column. See [Data Binding](../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 

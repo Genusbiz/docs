@@ -57,8 +57,8 @@ The control data bindings can be bound to properties of data type integer or rea
 
 Property                 | Description
 -------------------------|--------------------------------
-Data Binding - End       | A [data binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") that defines the end of the range. Only applicable if Style is Range.
-Data Binding - Start     | A [data binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") that defines the start of the range. Only applicable if Style is Range.
+Data Binding - End       | A [data binding](../../../../../users/search-and-refine/data-binding.md "Data Binding") that defines the end of the range. Only applicable if Style is Range.
+Data Binding - Start     | A [data binding](../../../../../users/search-and-refine/data-binding.md "Data Binding") that defines the start of the range. Only applicable if Style is Range.
 Large Step               | The number of ticks to move the thumb if<br><ul><li>pressing the PAGE UP or PAGE DOWN keys</li><li>clicking on the track bar line on either side of the thumb, if the Move To Point option is disabled.</li></ul>
 Max Value                | The maximum value for the track bar.
 Min Value                | The minimum value for the track bar.

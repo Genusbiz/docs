@@ -5,7 +5,7 @@ If you are unfamiliar with Genus Forms, explore the topics below to learn more.
 See Also
 
 *   [Running Actions](../../running-actions.md)
-*   [Exploring Data](../../exploring-data.md)
+*   [Exploring Data](../../search-and-refine/exploring-data.md)
 *   [Reporting on Data](../../reporting-on-data.md)
 
 **Topics in "Working in Forms"**

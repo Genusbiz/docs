@@ -106,7 +106,7 @@ For more information on how to define a data filter, see the article [Specifying
 
 To modify search settings, click the view in the **Views** list, and then in the **Properties** area, click the **Search** tab.
 
-To allow users to search for data, select the **Enable Search** check box. To allow users to use this view to search and view search results, select the **Enable as Search View** check box. To allow users to use this view to perform [accelerator searches](../../../users/searching-for-data/search-with-accelerators.md), select the **Enable as Accelerator Search** check box. If you want to expand the search pane when the table is opened, select the **Expand Search Pane on Open** check box.
+To allow users to search for data, select the **Enable Search** check box. To allow users to use this view to search and view search results, select the **Enable as Search View** check box. To allow users to use this view to perform [accelerator searches](../../../users/search-and-refine/search-with-accelerators.md), select the **Enable as Accelerator Search** check box. If you want to expand the search pane when the table is opened, select the **Expand Search Pane on Open** check box.
 
 You can configure the search pane in two ways:
 

@@ -5,10 +5,10 @@ If you are unfamiliar with Genus Tables, explore the topics below to learn more.
 See Also
 
 *   [Running Actions](../../running-actions.md)
-*   [Exploring Data](../../exploring-data.md)
+*   [Exploring Data](../../search-and-refine/exploring-data.md)
 *   [Reporting on Data](../../reporting-on-data.md)
-*   [Search](../../searching-for-data.md)
-*   [Refining Search Results](../../refining-search-results.md)
+*   [Search](../../search-and-refine/index.md)
+*   [Refining Search Results](../../search-and-refine/refining-search-results.md)
 
 **Topics in "Working in Tables"**
 * [What is a Table?](what-is-a-table.md)

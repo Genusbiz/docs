@@ -48,8 +48,8 @@ The date range bar provides an easy and visual way to display and select a range
 Property                |  Description
 ------------------------|------------------------------------------------------------------------
 Intervals               | The intervals that are available to choose from. One or more intervals can be included, even if they are not adjacent.<br><br><ul><li> **Year**</li><li>**Quarter**</li><li>**Month**</li><li>**Day**</li><li>**Hour**</li><li>**Minute**</li><li>**Second**</li></ul>
-Range End               | A [data binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") for the last value in the range to select from.
-Range Start             | A [data binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") for the first value in the range to select from.
-Selection Start         | A [data binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") for the first value in the range currently selected.
-Selection End           | A [data binding](../../../../../users/searching-for-data/data-binding.md "Data Binding") for the last value in the range currently selected.
+Range End               | A [data binding](../../../../../users/search-and-refine/data-binding.md "Data Binding") for the last value in the range to select from.
+Range Start             | A [data binding](../../../../../users/search-and-refine/data-binding.md "Data Binding") for the first value in the range to select from.
+Selection Start         | A [data binding](../../../../../users/search-and-refine/data-binding.md "Data Binding") for the first value in the range currently selected.
+Selection End           | A [data binding](../../../../../users/search-and-refine/data-binding.md "Data Binding") for the last value in the range currently selected.
 

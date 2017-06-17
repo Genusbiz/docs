@@ -137,7 +137,7 @@ For information on specific properties see View Properties below.
 
 <td>Data Binding</td>
 
-<td>The data source that contains the data for the nodes. See [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>The data source that contains the data for the nodes. See [Data Binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
@@ -455,7 +455,7 @@ Property
 
 <td>Data Binding</td>
 
-<td>Specify where to get the value for the field. See also [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>Specify where to get the value for the field. See also [Data Binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
@@ -556,7 +556,7 @@ Attempt to stretch the text from left to right.
 
 <td>Data Binding</td>
 
-<td>Specify the field to get the value for the caption from. See also [Data Binding](../../../../../../../users/searching-for-data/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
+<td>Specify the field to get the value for the caption from. See also [Data Binding](../../../../../../../users/search-and-refine/data-binding.md "Data Binding") and [Data Binding Fundamentals](../../data-binding-fundamentals.md "Data Binding Fundamentals").</td>
 
 </tr>
 
