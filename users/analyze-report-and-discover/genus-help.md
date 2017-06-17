@@ -22,7 +22,7 @@
 
 <tr>
 
-<td valign="top" class="cdclvCategoryCol1">[Getting Started](../../users/getting-started.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Getting Started](../getting-started.md)</td>
 
 <td valign="top" class="cdclvCategoryCol2">[Navigation Pane](../navigate-view-modify-and-control/navigation-pane.md)</td>
 
@@ -30,7 +30,7 @@
 
 <tr class="cdclvCategoryRowAlt">
 
-<td valign="top" class="cdclvCategoryCol1">[Personalize](../../users/personalize.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Personalize](../personalize.md)</td>
 
 <td valign="top" class="cdclvCategoryCol2">[Working in Tables](../navigate-view-modify-and-control/working-in-tables/working-in-tables.md)</td>
 
@@ -40,7 +40,7 @@
 
 <td valign="top" class="cdclvCategoryCol1">[Working in Forms](../navigate-view-modify-and-control/working-in-forms/working-in-forms.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Running Actions](../../users/running-actions.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Running Actions](../running-actions.md)</td>
 
 </tr>
 
@@ -48,7 +48,7 @@
 
 <td valign="top" class="cdclvCategoryCol1">[Exploring Data](../search-and-refine/exploring-data.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Reporting on Data](../../users/reporting-on-data.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Reporting on Data](index.md)</td>
 
 </tr>
 

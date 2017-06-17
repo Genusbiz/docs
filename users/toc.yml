@@ -112,9 +112,56 @@
     href: search-and-refine/refining-search-results.md    
   - name: Exploring data
     href: search-and-refine/exploring-data.md
-  
-# - name: Analyze, Report and Discover
-#   href: analyze-report-and-discover.md
+- name: Analyze, report and discover
+  href: analyze-report-and-discover/index.md
+  items:
+  - name: Analysis
+    href: analyze-report-and-discover/analysis.md
+    items:
+    - name: Design an Analysis
+      href: analyze-report-and-discover/analysis/designer/index.md
+    - name: Open an Analysis
+      href: analyze-report-and-discover/analysis/open-an-analysis.md
+    - name: Use an Analysis
+      href: analyze-report-and-discover/analysis/use-an-analysis.md
+    - name: Analysis concepts
+      href: analyze-report-and-discover/analysis/concepts/index.md
+    - name: Analysis visualizations
+      href: analyze-report-and-discover/analysis/visualizations/index.md
+  - name: Data Extract
+    href: analyze-report-and-discover/data-extract.md
+  - name: Report
+    href: analyze-report-and-discover/report.md
+    items:
+    - name: The Workface
+      href: analyze-report-and-discover/report/the-workface.md
+    - name: Values
+      href: analyze-report-and-discover/report/values.md
+    - name: Grouping and Filtering
+      href: analyze-report-and-discover/report/grouping-and-filtering.md
+      items:
+      - name: Data Sources
+        href: analyze-report-and-discover/report/grouping-and-filtering/data-sources.md
+      - name: Time Data Sources
+        href: analyze-report-and-discover/report/grouping-and-filtering/time-data-sources.md
+    - name: Value Calculations
+      href: analyze-report-and-discover/report/value-calculations.md
+    - name: Navigate Filters and Explore Data
+      href: analyze-report-and-discover/report/navigate-filters-and-explore-data.md
+    - name: View Options
+      href: analyze-report-and-discover/report/view-options.md
+    - name: Chart Yypes
+      href: analyze-report-and-discover/report/chart-types.md
+    - name: Formatting
+      href: analyze-report-and-discover/report/formatting.md
+    - name: Running the Report
+      href: analyze-report-and-discover/report/running-the-report.md
+    - name: Publishing Functions and Options
+      href: analyze-report-and-discover/report/publishing-functions-and-options.md
+    - name: Export or Distribute a Report
+      href: analyze-report-and-discover/report/export-or-distribute-a-report.md
+    - name: Save to File or Print a Report
+      href: analyze-report-and-discover/report/save-to-file-or-print-a-report.md  
 # - name: Monitor and Alert
 #   href: monitor-and-alert.md
 # - name: How to
@@ -135,47 +182,3 @@
       href: running-actions/follow-up/alerts.md
   - name: Modify merging of Reports
     href: running-actions/modify-merging-of-reports.md
-- name: Reporting on Data
-  href: reporting-on-data.md
-  items:
-  - name: Analysis
-    href: reporting-on-data/analysis.md
-    items:
-    - name: Open an Analysis
-      href: reporting-on-data/analysis/open-an-analysis.md
-    - name: Use an Analysis
-      href: reporting-on-data/analysis/use-an-analysis.md
-  - name: Data Extract
-    href: reporting-on-data/data-extract.md
-  - name: Report
-    href: reporting-on-data/report.md
-    items:
-    - name: The Workface
-      href: reporting-on-data/report/the-workface.md
-    - name: Values
-      href: reporting-on-data/report/values.md
-    - name: Grouping and Filtering
-      href: reporting-on-data/report/grouping-and-filtering.md
-      items:
-      - name: Data Sources
-        href: reporting-on-data/report/grouping-and-filtering/data-sources.md
-      - name: Time Data Sources
-        href: reporting-on-data/report/grouping-and-filtering/time-data-sources.md
-    - name: Value Calculations
-      href: reporting-on-data/report/value-calculations.md
-    - name: Navigate Filters and Explore Data
-      href: reporting-on-data/report/navigate-filters-and-explore-data.md
-    - name: View Options
-      href: reporting-on-data/report/view-options.md
-    - name: Chart Yypes
-      href: reporting-on-data/report/chart-types.md
-    - name: Formatting
-      href: reporting-on-data/report/formatting.md
-    - name: Running the Report
-      href: reporting-on-data/report/running-the-report.md
-    - name: Publishing Functions and Options
-      href: reporting-on-data/report/publishing-functions-and-options.md
-    - name: Export or Distribute a Report
-      href: reporting-on-data/report/export-or-distribute-a-report.md
-    - name: Save to File or Print a Report
-      href: reporting-on-data/report/save-to-file-or-print-a-report.md

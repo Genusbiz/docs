@@ -34,7 +34,7 @@ Use this effect to export data from one of your data sources to a file or a file
 
 <td>Report</td>
 
-<td>Supported file formats provided by the Report. If the file format is an image, the size of the image is determined by the report [Page Setup](../../../../../users/reporting-on-data/report/save-to-file-or-print-a-report.md).</td>
+<td>Supported file formats provided by the Report. If the file format is an image, the size of the image is determined by the report [Page Setup](../../../../../users/analyze-report-and-discover/report/save-to-file-or-print-a-report.md).</td>
 
 </tr>
 

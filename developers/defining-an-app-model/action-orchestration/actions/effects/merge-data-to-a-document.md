@@ -22,7 +22,7 @@ To copy a merge data source, righ-click in the list and in the menu click **Add 
 
 Note that report and Excel files as merge data sources apply to merging data to Word documents and not to Excel documents.
 
-In the **Output Document** tab specify the output **File Data Source**, the **File Format** and the **File Name**. If the data source is an report, and the file format is an image, the size of the image is determined by the report [Page Setup](../../../../../users/reporting-on-data/report/save-to-file-or-print-a-report.md).
+In the **Output Document** tab specify the output **File Data Source**, the **File Format** and the **File Name**. If the data source is an report, and the file format is an image, the size of the image is determined by the report [Page Setup](../../../../../users/analyze-report-and-discover/report/save-to-file-or-print-a-report.md).
 
 In the **File Name** box you may insert fields from your data sources to create dynamic file names. To insert a field, right-click inside the **File Name** box, and in the menu click **Insert Field**.
 

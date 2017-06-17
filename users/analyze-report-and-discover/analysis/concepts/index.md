@@ -1,4 +1,4 @@
-# Concepts
+# Analysis concepts
 
 An Analysis consists of a set of [Views](view.md).
 In each [View](view.md) there is a set of [Tiles](tile.md).

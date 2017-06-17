@@ -6,7 +6,7 @@ See Also
 
 *   [Running Actions](../../running-actions.md)
 *   [Exploring Data](../../search-and-refine/exploring-data.md)
-*   [Reporting on Data](../../reporting-on-data.md)
+*   [Reporting on Data](../../analyze-report-and-discover/index.md)
 
 **Topics in "Working in Forms"**
 * [What is a Form?](what-is-a-form.md)

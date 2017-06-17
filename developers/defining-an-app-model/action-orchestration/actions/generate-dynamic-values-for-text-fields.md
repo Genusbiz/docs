@@ -2,7 +2,7 @@
 
 **Inserting a** **[formula](../../glossary.md) **or a field from one of your data sources****
 
-Right-click in the text field, and then in the shortcut menu, click **Insert Field**. In the **Display Name** box, select a field or a group from one of your data sources, or click **Enter a formula**. If the data source is a report, and the field is a file with image format , the size of the image is determined by the report [Page Setup](../../../../users/reporting-on-data/report/save-to-file-or-print-a-report.md).
+Right-click in the text field, and then in the shortcut menu, click **Insert Field**. In the **Display Name** box, select a field or a group from one of your data sources, or click **Enter a formula**. If the data source is a report, and the field is a file with image format , the size of the image is determined by the report [Page Setup](../../../../users/analyze-report-and-discover/report/save-to-file-or-print-a-report.md).
 
 **Inserting a hyperlink**
 

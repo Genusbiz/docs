@@ -1,6 +1,6 @@
 ## Run a Data Extract
 
-Use this effect to run a [data extract](../../../../../users/reporting-on-data/data-extract.md). The result can be saved, opened, or printed. Use an iterator or a loop to save or print many documents for individual objects.
+Use this effect to run a [data extract](../../../../../users/analyze-report-and-discover/data-extract.md). The result can be saved, opened, or printed. Use an iterator or a loop to save or print many documents for individual objects.
 
 1.  In the **Name** box, optionally type a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
 2.  In the **Description** box, optionally type a description.

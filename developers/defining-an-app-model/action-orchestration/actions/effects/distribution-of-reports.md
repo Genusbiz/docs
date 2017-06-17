@@ -16,4 +16,4 @@ To make an report available for distribution, define a link to it by following t
 *   Click the **Explore** tab.
 *   [Add a link to the report](../../../object-class/modify-an-object--or-identifier-domain/explore.md).
 
-Follow the instructions in [this step-by-step procedure](../../../../../users/reporting-on-data/report/export-or-distribute-a-report.md) on how to Distribute a Report.
+Follow the instructions in [this step-by-step procedure](../../../../../users/analyze-report-and-discover/report/export-or-distribute-a-report.md) on how to Distribute a Report.

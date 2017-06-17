@@ -4,7 +4,7 @@ The result of a search is presented in the table where the search was performed,
 
 ![ID3F7F6C22D21246E5.jpg](media/ID3F7F6C22D21246E5.jpg)
 
-In some cases the result is only available under the **Search Results** button in the navigation pane, for example when [searching in other data sources](search-for-other-data-sources.md) or <a id="ID485CC88469A94C62" title="" class="articleLink">exploring related data</a>. An exception is when [exploring data from a Report](../reporting-on-data/report/navigate-filters-and-explore-data.md), where the result is presented in a table in a new window, and is not available in Search Results.
+In some cases the result is only available under the **Search Results** button in the navigation pane, for example when [searching in other data sources](search-for-other-data-sources.md) or <a id="ID485CC88469A94C62" title="" class="articleLink">exploring related data</a>. An exception is when [exploring data from a Report](../analyze-report-and-discover/report/navigate-filters-and-explore-data.md), where the result is presented in a table in a new window, and is not available in Search Results.
 
 The results of your searches are available under the Search Results button until you exit the application. See also [Open a Search](open-a-search.md) for more information on how to find all your recent searches.
 

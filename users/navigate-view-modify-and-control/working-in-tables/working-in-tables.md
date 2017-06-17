@@ -6,7 +6,7 @@ See Also
 
 *   [Running Actions](../../running-actions.md)
 *   [Exploring Data](../../search-and-refine/exploring-data.md)
-*   [Reporting on Data](../../reporting-on-data.md)
+*   [Reporting on Data](../../analyze-report-and-discover/index.md)
 *   [Search](../../search-and-refine/index.md)
 *   [Refining Search Results](../../search-and-refine/refining-search-results.md)
 
