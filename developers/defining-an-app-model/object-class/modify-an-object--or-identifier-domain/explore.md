@@ -3,7 +3,7 @@
 
 ## Views
 
-Define views used when displaying objects from Object Class. A view is composed of properties and settings controlling the way objects are sorted and grouped. To set a view to be the default view for the object class, select the **Default** check box. Only one view can be set as default, but you can re-use a view from a table as the default view. You can also [create shortcut](../../navigation-pane.md "Add a Shortcut to a View Button, Group or Folder") for the basic views. To allows user to search in the Data Source with the basic view, select **Search View** check box.
+Define views used when displaying objects from Object Class. A view is composed of properties and settings controlling the way objects are sorted and grouped. To set a view to be the default view for the object class, select the **Default** check box. Only one view can be set as default, but you can re-use a view from a table as the default view. You can also [create shortcut](../../user-interface/navigation-pane.md "Add a Shortcut to a View Button, Group or Folder") for the basic views. To allows user to search in the Data Source with the basic view, select **Search View** check box.
 
 **Basic View**  
 

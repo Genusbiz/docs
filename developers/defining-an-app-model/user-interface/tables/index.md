@@ -34,8 +34,8 @@ A multidimensional table presents objects with a common set of values laid out i
 
 
 ## Topics in "Tables"
-* [General Settings](tables/general-settings.md)
-* [Data Sources](tables/data-sources.md)
-* [Layout](tables/layout.md)
-* [Views](tables/views.md)
-* [Events](tables/events.md)
+* [General Settings](../../tables/general-settings.md)
+* [Data Sources](../../tables/data-sources.md)
+* [Layout](../../tables/layout.md)
+* [Views](../../tables/views.md)
+* [Events](../../tables/events.md)

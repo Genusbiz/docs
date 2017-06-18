@@ -69,6 +69,9 @@
         href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
   - name: User interface
     href: defining-an-app-model/user-interface/index.md
+    items:
+    - name: Navigation pane
+      href: defining-an-app-model/user-interface/navigation-pane.md
   - name: General settings
     href: defining-an-app-model/general-settings.md
     items:
@@ -80,10 +83,8 @@
       href: defining-an-app-model/general-settings/search-settings.md
     - name: Advanced Settings
       href: defining-an-app-model/general-settings/advanced-settings.md
-  - name: Navigation pane
-    href: defining-an-app-model/navigation-pane.md
   - name: Tables
-    href: defining-an-app-model/tables.md
+    href: defining-an-app-model/user-interface/tables/index.md
     items:
     - name: General Settings
       href: defining-an-app-model/tables/general-settings.md

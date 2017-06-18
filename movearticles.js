@@ -566,7 +566,7 @@ function indexOfSet(str,strSet) {
 
 // ------------------------------------------------------------
 function moveFile(source,target){
-    if (source == target)
+    if (toForwardSlash(source.toLowerCase()) == toForwardSlash(target.toLowerCase()))
         return;
     try {
         fsExtra.copySync(source, target);
