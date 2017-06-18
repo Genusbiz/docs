@@ -57,7 +57,7 @@ A group is a set of objects with one common attribute, for example <span style="
 
 **![ID79E7CB9C84804014.IDE76C08B82D964027.png](media/ID79E7CB9C84804014.IDE76C08B82D964027.png)**
 
-**Note**. If a field is a reference to a [code domain](../../../../developers/defining-an-app-model/glossary.md), data are sorted according to the logical sort order defined for the code domain, which not necessarily equals the alphanumeric order. For example, in a code domain which defines some kind of workflow status, the codes may be specified in the following sort order: <span style="FONT-STYLE: italic">Not Started, <span style="FONT-STYLE: italic">In Progress and <span style="FONT-STYLE: italic">Completed.
+**Note**. If a field is a reference to a [code domain](../../../../terminology.md), data are sorted according to the logical sort order defined for the code domain, which not necessarily equals the alphanumeric order. For example, in a code domain which defines some kind of workflow status, the codes may be specified in the following sort order: <span style="FONT-STYLE: italic">Not Started, <span style="FONT-STYLE: italic">In Progress and <span style="FONT-STYLE: italic">Completed.
 
 
 

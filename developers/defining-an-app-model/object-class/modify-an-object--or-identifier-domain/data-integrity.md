@@ -23,7 +23,7 @@ To define a Primary Key, do the following:
     * Simple Primary Key comprises single property  
     * Composite Primary Key comprises a set of properties.
 5.  Select the Generate identifiers automatically check box to let the system genereate identifiers for the key.  
-    Note: This option is only available for properties with data type integer or string. A numeric key is generated as a sequential number that uniquely identifies an object. A text key is generated using a [GUID (Globally Unique Identifier)](../../glossary.md "Globally Unique Identifier (GUID)"). The data size for the property must be at least 32 characters to store a GUID.
+    Note: This option is only available for properties with data type integer or string. A numeric key is generated as a sequential number that uniquely identifies an object. A text key is generated using a [GUID (Globally Unique Identifier)](../../../../terminology.md "Globally Unique Identifier (GUID)"). The data size for the property must be at least 32 characters to store a GUID.
 
 
 

@@ -20,7 +20,7 @@ To disable commands for adding or removing relations in the shortcut menu, click
 
 **Nested Data**
 
-If data for an Object Class is organized in a parent-child relationship, you must specify which property that identifies this relationship. This is sometimes termed a [recursive](../../glossary.md) or self-referential data structure, since it contains pointers or references to itself. At the first-, or top level in the structure, the objects has no reference to a parent object. To identify objects at this level, you must specify a condition. For example, <span style="FONT-STYLE: italic">parent has no value or <span style="FONT-STYLE: italic">level = 1.
+If data for an Object Class is organized in a parent-child relationship, you must specify which property that identifies this relationship. This is sometimes termed a [recursive](../../../../terminology.md) or self-referential data structure, since it contains pointers or references to itself. At the first-, or top level in the structure, the objects has no reference to a parent object. To identify objects at this level, you must specify a condition. For example, <span style="FONT-STYLE: italic">parent has no value or <span style="FONT-STYLE: italic">level = 1.
 
 Examples of recursive data structures are
 

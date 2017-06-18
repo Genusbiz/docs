@@ -16,7 +16,7 @@ If you have a certificate available already, see the article [Assign a Web Serve
 
 **Step 2 - Create a Directory**
 
-To provide functionality to the end user, Genus employs declarative data about your business objects and logic. This collection of [metadata](../../defining-an-app-model/glossary.md) are maintained in **Genus Studio** and stored in a central database.
+To provide functionality to the end user, Genus employs declarative data about your business objects and logic. This collection of [metadata](../../../terminology.md) are maintained in **Genus Studio** and stored in a central database.
 
 The Directory is split into two partitions: **Descriptive Partition** and **Active Partition**. The Descriptive Partition contains the definition of Object Classes, Rules, Forms and concepts like Reports, Tasks, Agents and Web Services. The Active Partition contains information related to the run-time environment for your application, for example user accounts and audit trails.
 

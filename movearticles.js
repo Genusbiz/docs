@@ -127,7 +127,7 @@ else {
     moveOneArticle(sourceFullFilename,targetFullFilename);
 }
 
-console.log(changeCount + " changes. Note that any table of contents files (toc.yml) must be updated manually and any empty folders deleted.");
+console.log(changeCount + " changes. Note that any table of contents files (toc.yml) must be updated manually.");
 
 // ------------------------------------------------------------
 function moveArticlesRecursively(sourceFolder,targetFolder){
@@ -381,13 +381,34 @@ function ArticleClass(filename) {
         return null; // Nothing found.
     }
 
+    // Find end parenthesis in strings like (../../glossary.md "Globally Unique Identifier (GUID)").
+    // Note! All parenthesis and quotation marks must be balanced within the string.
+    this.findEndParenthesis = function(str,afterPos){
+        var i = afterPos;
+        var countParenthesis = 0;
+        var withinQuotation = false;
+        while (i < str.length){
+            var thisChar = str[i];
+            var nextChar = (i < str.length-1)?str[i+1]:'';
+            if (thisChar == '(') countParenthesis++;
+            if (thisChar == ')') countParenthesis--;
+            if (thisChar == '"' ) withinQuotation = !withinQuotation;
+            if (thisChar == '\\' && nextChar == '"') i++; // Skip escaped quotation marks.
+            if (thisChar == ')' && countParenthesis == 0)
+                return i;
+            i++;
+        }
+        return -1;
+    }
+
+
     // Find extension in cross reference string on format .nn, .nnn or .nnnn.
     // Pos is the start position of the reference in the inputed string.
     // Returns object containg extension string and position.
     this.findExt = function(str,afterPos){
         // Find end parenthesis, then trace backwards until first . (punctuation mark), skipping any title string enclosed by " (quotation marks).
         // (and potentially containing punctuation marks).
-        var pos = str.indexOf(")",afterPos);
+        var pos = this.findEndParenthesis(str,afterPos);
         if (pos == -1) {
             console.log("ArticleClass.findExt: Could not find end parenthesis.");
             process.exit(1);

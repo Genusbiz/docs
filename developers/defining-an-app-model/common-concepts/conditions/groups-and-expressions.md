@@ -14,7 +14,7 @@ An expression consists of values (operands) and operators, and the result evalua
 *   Left-Operand Operator
 *   Left-Operand Operator Right-Operand
 
-The possible combinations are determined by the type and [cardinality](../../glossary.md) of the operands, the operator, and by the context in which the condition is used.
+The possible combinations are determined by the type and [cardinality](../../../../terminology.md) of the operands, the operator, and by the context in which the condition is used.
 
 The table below gives a simplified overview of the possible combinations of operands and operators in an expression. For C% more complete and technical description see [Condition Syntax Structure](condition-syntax-structure.md).
 

@@ -177,7 +177,7 @@ A publication is used to make the Task available to users in Forms and Tables. Y
 ## View the Execution History for a Task
 
 1.  Right-click the Task, and then in the shortcut menu, click **Edit**.
-2.  In the **File** menu, click **History**. The [event history](glossary.md "Event History") for the Task is shown.
+2.  In the **File** menu, click **History**. The [event history](../../terminology.md "Event History") for the Task is shown.
 
 You can also view the executions for a Task under the History entry in the navigation pane, by clicking the Execute History entry. Here it is possible to view the execution history for all Tasks.
 

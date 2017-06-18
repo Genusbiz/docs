@@ -37,7 +37,7 @@ Next you have to specify a data filter for the data source.
 
 ## Endpoints
 
-The main purpose of the Web Service endpoint is to provide the communication point accessed by the consumers. An endpoint is actively listening for incoming connections on a specific location (URI) using a specific protocol and data format. Endpoints support [SOAP](../glossary.md), [POX](../glossary.md), and [JSON](../glossary.md).  
+The main purpose of the Web Service endpoint is to provide the communication point accessed by the consumers. An endpoint is actively listening for incoming connections on a specific location (URI) using a specific protocol and data format. Endpoints support [SOAP](../../../terminology.md), [POX](../../../terminology.md), and [JSON](../../../terminology.md).  
 
 To successfully setup a Web Service, you should at least specify one endpoint.  
 

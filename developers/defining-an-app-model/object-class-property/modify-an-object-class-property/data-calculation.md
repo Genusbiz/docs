@@ -227,7 +227,7 @@ Assign a unique id from an Identifier Domain when an object is created. Typicall
 
 <td>GUID</td>
 
-<td>Assign a [Globally Unique Identifier](../../glossary.md). If the data type for the property is Character or String, the property must be at least 32 characters long. If the data type for the property is GUID, this option is only available if the property is defined as the primary key in the Object Class.</td>
+<td>Assign a [Globally Unique Identifier](../../../../terminology.md). If the data type for the property is Character or String, the property must be at least 32 characters long. If the data type for the property is GUID, this option is only available if the property is defined as the primary key in the Object Class.</td>
 
 <td>Yes</td>
 

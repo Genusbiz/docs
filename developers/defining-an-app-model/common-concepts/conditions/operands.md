@@ -130,7 +130,7 @@ The Active Object Selection consists of three elements:
 *   **Selection**: **Single Selected Object** defines that the active object selection is only valid if one object in the group is selected. **Selected Objects** defines that the active object selection is valid if one or more objects in the group are selected.
 *   **Field**: A field (or a group) in the data source or group specified in the **Group** box.
 
-The number of objects found in an Active Object Selection depends on the combination of the specified selection and the [cardinality](../../glossary.md) of the specified field.
+The number of objects found in an Active Object Selection depends on the combination of the specified selection and the [cardinality](../../../../terminology.md) of the specified field.
 
 **Code Domain**
 
