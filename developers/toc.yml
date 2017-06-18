@@ -72,6 +72,19 @@
     items:
     - name: Navigation pane
       href: defining-an-app-model/user-interface/navigation-pane.md
+    - name: Tables
+      href: defining-an-app-model/user-interface/tables/index.md
+      items:
+      - name: General Settings
+        href: defining-an-app-model/user-interface/tables/general-settings.md
+      - name: Data Sources
+        href: defining-an-app-model/user-interface/tables/data-sources.md
+      - name: Layout
+        href: defining-an-app-model/user-interface/tables/layout.md
+      - name: Views
+        href: defining-an-app-model/user-interface/tables/views.md
+      - name: Events
+        href: defining-an-app-model/user-interface/tables/events.md
   - name: General settings
     href: defining-an-app-model/general-settings.md
     items:
@@ -83,26 +96,13 @@
       href: defining-an-app-model/general-settings/search-settings.md
     - name: Advanced Settings
       href: defining-an-app-model/general-settings/advanced-settings.md
-  - name: Tables
-    href: defining-an-app-model/user-interface/tables/index.md
-    items:
-    - name: General Settings
-      href: defining-an-app-model/tables/general-settings.md
-    - name: Data Sources
-      href: defining-an-app-model/tables/data-sources.md
-    - name: Layout
-      href: defining-an-app-model/tables/layout.md
-    - name: Views
-      href: defining-an-app-model/tables/views.md
-    - name: Events
-      href: defining-an-app-model/tables/events.md
   - name: Forms
     href: defining-an-app-model/forms.md
     items:
     - name: General Settings
       href: defining-an-app-model/forms/general-settings.md
     - name: Data Sources
-      href: defining-an-app-model/tables/data-sources.md
+      href: defining-an-app-model/user-interface/tables/data-sources.md
     - name: Views
       href: defining-an-app-model/forms/views.md
       items:

@@ -184,7 +184,7 @@ Open the view in a dialog box, witout
 
 **Reading Pane**
 
-Use the view as a [reading pane](../../tables/views.md) in a table.
+Use the view as a [reading pane](../../user-interface/tables/views.md) in a table.
 
 </td>
 

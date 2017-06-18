@@ -10,7 +10,7 @@ Actions can be enabled and made available in the task pane, or from a button or 
 
 ## Topics in "Forms"
 * [General settings](forms/general-settings.md)
-* [Data sources](tables/data-sources.md)
+* [Data sources](user-interface/tables/data-sources.md)
 * [Views](forms/views.md)
 * [Commands](forms/commands.md)
 * [Events](forms/events.md)

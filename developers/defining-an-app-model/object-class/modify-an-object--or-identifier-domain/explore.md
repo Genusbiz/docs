@@ -183,7 +183,7 @@ A Table View is a view defined in Table. The table view can be re-used for the o
 
 ![IDACC168F80DC1495F.ID6847125DF4864A19.png](media/IDACC168F80DC1495F.ID6847125DF4864A19.png)
 
-For more information about defining views in tables, see the article about [Views](../../tables/views.md "Views") in a Table.
+For more information about defining views in tables, see the article about [Views](../../user-interface/tables/views.md "Views") in a Table.
 
 ## Browse Paths
 

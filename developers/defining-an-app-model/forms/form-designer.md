@@ -22,7 +22,7 @@ The form designer window is structured to provide an efficient and consistent wo
 
 ### Data sources
 
-Add or remove [data sources](../tables/data-sources.md "Data Sources") by right clicking in the data source list. Select a data source in the list to see its properties and fields, or select a field to see its properties.
+Add or remove [data sources](../user-interface/tables/data-sources.md "Data Sources") by right clicking in the data source list. Select a data source in the list to see its properties and fields, or select a field to see its properties.
 
 ![IDFB521EF34FCD4BEB.jpg](media/IDFB521EF34FCD4BEB.jpg)
 

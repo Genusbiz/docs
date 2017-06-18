@@ -16,4 +16,4 @@ Default Filter          | Specifies how the data sources are initially filtered,
 Detail Master Binding   | The detail master bindings are used when creating new objects in the table. The table data sources (detail) is bound to a parent data source (master) in the form. The bindings are used to check that the user has access to create new objects, and link the new object to its parent object.<br><br>The public data sources in the table are listed, and foreach data source, a binding can be specified. To specify a binding for a data source, in the **Field** cell, click "**...**" to select the field to bind to the master data source. Then in the **Master Group** cell, click "**...**" to select the data source or group to bind the detail data source to.
 Show No of Objects      | Displays the number of objects in the table.
 Table                   | The [table](../../../../user-interface/tables/index.md) to use.
-View                    | The [view](../../../../tables/views.md) of the selected table to use.
+View                    | The [view](../../../../user-interface/tables/views.md) of the selected table to use.
