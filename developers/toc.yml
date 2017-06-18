@@ -12,7 +12,7 @@
 - name: Keyboard shortcuts
   href: keyboard-shortcuts.md
 - name: Defining an App Model
-  href: defining-an-app-model/defining-an-app-model.md
+  href: defining-an-app-model/index.md
   items:
   - name: Getting started
     href: defining-an-app-model/getting-started/getting-started.md
@@ -24,7 +24,7 @@
     - name: Deploy changes in the Directory
       href: defining-an-app-model/getting-started/deploy-changes-in-the-directory.md
   - name: Data
-    href: defining-an-app-model/data/data.md
+    href: defining-an-app-model/data/index.md
     items:
     - name: Object Class
       href: defining-an-app-model/object-class.md
@@ -67,6 +67,8 @@
         href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
       - name: Follow Up
         href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
+  - name: User interface
+    href: defining-an-app-model/user-interface/index.md
   - name: General settings
     href: defining-an-app-model/general-settings.md
     items:

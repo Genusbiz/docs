@@ -8,7 +8,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 * [Common concepts](common-concepts.md)
 * [Terminology](../../terminology.md)
 
-**User Interface**
+**[User interface](user-interface/index.md)**
 
 * [Navigation pane](navigation-pane.md)
 * [Tables](tables.md)

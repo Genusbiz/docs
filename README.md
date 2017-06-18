@@ -14,6 +14,7 @@ See www.genus.no for more general information about our products and our company
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
 * Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like those defined in the [Terminology](terminology.md) (Genus App Platform, Genus Apps etc). See example [here](https://github.com/GenusAS/docs/blob/master/developers/installation-and-configuration/system-requirements.md).
 * Use hyphens (-) in article file and folder names, since the markdown previewers do not like spaces in article cross references.
+* The main article in each folder is to be named index.md. In this way, everyone refering to the subject contained in all the articles in this folder, may simply refer to this index.md article.
 
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:
