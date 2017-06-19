@@ -28,13 +28,17 @@
 1. To fetch repos and/or latest changes from the Genus docs GitHub.com to your computer
 
    a. Open a cmd shell at d:\git\docs.
+   
    b. Run **git pull origin master** (in command line Git, origin is always the remote repos, while master is the local repos).
    
 2. To do a change locally (like editing an index.md article) and push it to GitHub
 
    a. Edit the file using your favorite Markdown editor
+   
    b. In the cmd shell, run "git add index.md"
+   
    c. Then "git commit -m "I changed something"
+   
    d. Then "git push -u origin master"
 
 ## Build and preview the documentation on your computer
