@@ -20,7 +20,7 @@ Please note that support or error incidents forwarded to Genus support may be re
 
 If you are a Genus employee, you are required to provide the steps to reproduce the error in a debug solution at Genus main offices. Remember to attach URL, username and password to the debug solution.
 
-## <a name="genus_apps_error_reporting"></a> Genus Apps error reporting
+## Genus Apps error reporting
 
 Genus Apps will automatically send crash reports to our real-time error tracking system (we are using [Sentry](https://sentry.io/)). This will help us correct the error. We often still need your error description, so do not forget to follow our [guidelines for error reporting](#guidelines-for-error-reporting).
 
