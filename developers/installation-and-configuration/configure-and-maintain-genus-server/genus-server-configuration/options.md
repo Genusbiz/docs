@@ -113,6 +113,8 @@ Specifies the minimum version number which is required for platform specific App
 
 Specifies the external URL from which Genus App Services is visible from the Genus App. This URL may differ from Internet Host Name specified in Genus Directory. The URL must contain protocol and data set. For example: <span style="FONT-STYLE: italic">"https://demo.example.com/dataSet".
 
+**Enabled automatic crash report**
+Toggles wether or not to use [Genus Apps error reporting](../../../how-to.md#Genus%20Apps%20error%20reporting)
 
 
 ## Log
