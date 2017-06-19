@@ -115,7 +115,7 @@ Specifies the external URL from which Genus App Services is visible from the Gen
 
 **Enabled automatic crash report**
 
-Toggles wether or not to use [Genus Apps error reporting](../../../how-to/report-an-error.md#genus_apps_error_reporting)
+Toggles wether or not to use [Genus Apps error reporting](../../../how-to/report-an-error.md#genus-apps-error-reporting)
 
 
 ## Log
