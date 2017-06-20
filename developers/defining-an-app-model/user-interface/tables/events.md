@@ -424,7 +424,7 @@ Display a new item row to enter data and create a new object.
 
 <td>Run a Task</td>
 
-<td>Run the Task selected as target. If the command equals **Copy**, the content of data sources in the Task which represent an XML document or a file, are placed on the clibpoard after the Task is run. Note that if the Task contains any effects of type [Copy Data to the Clipboard](../../action-orchestration/actions/effects/copy-data-to-the-clipboard.md), the content of the data sources are not placed on the clipboard. That is, the data placed on the clipboard by effects are prioritized. If the command equals **Paste Special**, the Task will appear in the **Paste Special** dialog box. The task will only appear in the dialog if a) the option **Get object(s) from the clipboard** is selected as data filter for one or more data sources and b) the clipboard contains data that can be used to populate these data sources. See [copy and paste data](../../../how-to/exchange-data-with-other-applications/copy-and-paste-data.md) for more information.</td>
+<td>Run the Task selected as target. If the command equals **Copy**, the content of data sources in the Task which represent an XML document or a file, are placed on the clibpoard after the Task is run. Note that if the Task contains any effects of type [Copy Data to the Clipboard](../../logic/action-orchestration/actions/effects/copy-data-to-the-clipboard.md), the content of the data sources are not placed on the clipboard. That is, the data placed on the clipboard by effects are prioritized. If the command equals **Paste Special**, the Task will appear in the **Paste Special** dialog box. The task will only appear in the dialog if a) the option **Get object(s) from the clipboard** is selected as data filter for one or more data sources and b) the clipboard contains data that can be used to populate these data sources. See [copy and paste data](../../../how-to/exchange-data-with-other-applications/copy-and-paste-data.md) for more information.</td>
 
 </tr>
 
@@ -602,7 +602,7 @@ To filter data for an event, in the **Properties** area, click the **Data Filter
 
 Data filtering enables you to run context sensitive actions with respect to the current active object in a table, or the selected objects. If the target for the action is a Task or a Report, you can specify a data filter for each data source provided by the Task or the Report. If the target is an Object Class, that is, the purpose of the action is to explore associated objects, you can filter data in the Object Class.
 
-For more information on how to filter a data source, see the article [Specifying a Data Filter for a Data Source](../../action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md).
+For more information on how to filter a data source, see the article [Specifying a Data Filter for a Data Source](../../logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md).
 
 
 

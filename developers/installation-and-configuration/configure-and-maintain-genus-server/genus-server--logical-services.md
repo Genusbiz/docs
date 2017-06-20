@@ -6,7 +6,7 @@ Genus App Services is composed of a number of logical services at that are eithe
 
 <span style="FONT-STYLE: italic">Mail Service
 
-*   This service provides server-based e-mail, and is used when server-side [actions](../../defining-an-app-model/action-orchestration/actions.md) submits e-mail using SMTP.
+*   This service provides server-based e-mail, and is used when server-side [actions](../../defining-an-app-model/logic/action-orchestration/actions.md) submits e-mail using SMTP.
 *   Enable this service in order to send e-mails from server-side actions.
 *   Settings for the mail service can be found in [general settings](../../defining-an-app-model/general-settings.md).
 

@@ -73,7 +73,7 @@ Represents the height in pixels the thumbnail image is resized to, if it is high
 
 For properties of type **Data**, with data binding **One-Way Bound** or **Two-Way Bound**, the value is required and specifies the name of the column in the table or view where data for the Object Class Property is stored.
 
-For other properties a value is not required, and is only used in certain situations, like when using name binding to/from JSON or XML. For example when using the [Import Data](../../action-orchestration/actions/effects/import-data.md) effect.
+For other properties a value is not required, and is only used in certain situations, like when using name binding to/from JSON or XML. For example when using the [Import Data](../../logic/action-orchestration/actions/effects/import-data.md) effect.
 
 **Outbound Reference Constraint**
 

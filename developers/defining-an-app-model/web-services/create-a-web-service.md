@@ -52,7 +52,7 @@ To successfully setup a Web Service, you should at least specify one endpoint.
     Available option depends on the selected Credential Type.
 8.  In the **Envelope Version**, select a version of SOAP, or select None to use POX or JSON. For more information on using POX and JSON, see [Consuming a Genus Web Service from an External Client](../../guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md).
 
-For further information on methods of authentication in Genus App Platform, see [Genus App Services User Authentication](../action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication").
+For further information on methods of authentication in Genus App Platform, see [Genus App Services User Authentication](../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication").
 
 
 
@@ -72,7 +72,7 @@ To add SOAP headers to your Web Service, follow these steps:
 
 Note that consumers of the Web Service must provide data for all **Request SOAP Headers** defined in the Web Service. If data for a header is missing, the request is rejected.
 
-The SOAP headers defined for the Web Service is available along with the data sources defined in the service's operations. For example, to return data for a **Response SOAP Header**, add an effect of type [Create Object(s)](../action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") to an action and select the **Response SOAP Header** as the data source. Operations, actions and effects are described below.  
+The SOAP headers defined for the Web Service is available along with the data sources defined in the service's operations. For example, to return data for a **Response SOAP Header**, add an effect of type [Create Object(s)](../logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") to an action and select the **Response SOAP Header** as the data source. Operations, actions and effects are described below.  
 
 
 
@@ -89,7 +89,7 @@ To add an operation to your Web Service, follow these steps:
 5.  Next you need to configure the Request-Response messages used by the operation. To read more about this Message Exchange Pattern, see [Response Message Exchange Pattern](../../guidelines-and-best-practices/web-service-guidelines/request--response-message-exchange-pattern.md). To define which data to request or return, Click the **Messages** tab and select an XML schema from your Directory. To select an XML schema, click **XML Schema**, and then click **Browse**. For information on naming of XML schemas used with web services, see [Identifying and Naming XML Schemas and Elements for use with Web Services](../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-xml-schemas-and-elements-for-use-with-web-services.md). For information on using namespaces for XML schemas and web services, see [XML and Web Service Namespaces](../../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
 6.  If you have selected an XML schema with multiple root elements, in the **Root Element** box, select which root element to use. For information on the naming of XML root elements used with web service operations, see [Identifying and Naming XML Schemas and Elements for use with Web Services](../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-xml-schemas-and-elements-for-use-with-web-services.md).
 
-The XML schemas defining the data requested or returned to consumers is available along with the data sources defined for the operation. For example, you can filter your data sources based on the data received from consumers. To return data to consumers, add an effect of type [Create Object(s)](../action-orchestration/actions/effects/create-objects-and-modify-objects.md) to an action, and select the XML schema used to return data as the data source.  
+The XML schemas defining the data requested or returned to consumers is available along with the data sources defined for the operation. For example, you can filter your data sources based on the data received from consumers. To return data to consumers, add an effect of type [Create Object(s)](../logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md) to an action, and select the XML schema used to return data as the data source.  
 
 **Specify Time to Live**  
 The Time to Live option provides a simple mechanism for caching the operation response message. The default option, "Lifespan for request", is equivalent to disable the operation caching and forcing the application server to generate a new response each time.
@@ -116,9 +116,9 @@ The XML schema validation may introduce some performance penalties. You should a
 
 **Add Data Sources to an Operation**  
 1\. Click the **Data Sources** tab.  
-2\. Follow the instructions in the [step-by-step procedure](../action-orchestration/data-sources.md) for adding a new data source.  
+2\. Follow the instructions in the [step-by-step procedure](../logic/action-orchestration/data-sources.md) for adding a new data source.  
 
 **Add Actions to an Operation**  
 1\. Click the **Actions** tab.  
-2\. Follow the instructions in the [step-by-step procedure](../action-orchestration/actions.md) for adding a new action.  
+2\. Follow the instructions in the [step-by-step procedure](../logic/action-orchestration/actions.md) for adding a new action.  
 

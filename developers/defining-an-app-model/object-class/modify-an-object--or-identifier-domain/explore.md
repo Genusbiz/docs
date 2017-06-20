@@ -223,7 +223,7 @@ To add a step in the path condition, do the following:
 
 A link to a Report is defined by specifying a data filter for the data sources provided by the Report. The objects selected by users in a table or form are sent as input when the linked is opened. These objects can be used for filtering the data sources provided by the Report, and gives you the opportunity to define context sensitive links.
 
-The links to reports defined here, are displayed in the Report **Task Pane** and available for [distribution](../../action-orchestration/actions/effects/distribution-of-reports.md "Distribution of Reports"). You may also display links to a report from other places, like tab sheets in a Form and shortcuts in the Navigation Pane. See [Edit Report Links](../../../how-to/exchange-data-with-other-applications/edit-report-links.md "Edit Report Links") for more information.
+The links to reports defined here, are displayed in the Report **Task Pane** and available for [distribution](../../logic/action-orchestration/actions/effects/distribution-of-reports.md "Distribution of Reports"). You may also display links to a report from other places, like tab sheets in a Form and shortcuts in the Navigation Pane. See [Edit Report Links](../../../how-to/exchange-data-with-other-applications/edit-report-links.md "Edit Report Links") for more information.
 
 Follow these steps to create an Report Link in the Report **Task Pane**:
 

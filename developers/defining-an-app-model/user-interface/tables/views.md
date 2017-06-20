@@ -96,7 +96,7 @@ To filter data in a view, click the view in the **Views** list, and then in the 
 
 For each data source you can define a mandatory and a default data filter. Users are not allowed to search outside the restriction given by the mandatory data filter. The default data filter is applied when the table is opened. The first time a user searches for data, this filter is overwritten. Data filters for data sources which not are bound to a row template can not be overwritten by users.
 
-For more information on how to define a data filter, see the article [Specifying a Data Filter for a Data Source](../../action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md "Specifying a Data Filter for a Data Source").
+For more information on how to define a data filter, see the article [Specifying a Data Filter for a Data Source](../../logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md "Specifying a Data Filter for a Data Source").
 
 **Note!** The data filter defined for a data source in the data source setup is appended to the mandatory data filter defined in a view.
 

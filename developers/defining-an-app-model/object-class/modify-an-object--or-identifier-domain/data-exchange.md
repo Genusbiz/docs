@@ -16,7 +16,7 @@ To set up Data Exchange for Microsoft Outlook Mail Items, do the following:
 3.  Select the **Exchange Setup** tab.
 4.  In the **Replied and forwarded mail messages** section, click **Modify**.  
     ![IDBC2C4AA8AB964E2D.ID03737721EF0C4D6C.jpg](media/IDBC2C4AA8AB964E2D.ID03737721EF0C4D6C.jpg)
-5.  In the **General Tab** assign values to the fields for the new object. For more information on assigning values see [Create Objects and Modify Objects](../../action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects").  
+5.  In the **General Tab** assign values to the fields for the new object. For more information on assigning values see [Create Objects and Modify Objects](../../logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects").  
     ![IDBC2C4AA8AB964E2D.ID8A71774CE08D4D8C.jpg](media/IDBC2C4AA8AB964E2D.ID8A71774CE08D4D8C.jpg)
 6.  Click **OK** to close.
 

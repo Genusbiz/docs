@@ -189,6 +189,109 @@
         href: defining-an-app-model/user-interface/forms/tasks.md
       - name: Form Designer
         href: defining-an-app-model/user-interface/forms/form-designer.md
+  - name: Logic
+    href: defining-an-app-model/logic/index.md
+    items:
+    - name: Action orchestration
+      href: defining-an-app-model/logic/action-orchestration/index.md
+      items:
+      - name: Data Sources
+        href: defining-an-app-model/logic/action-orchestration/data-sources.md
+        items:
+        - name: Add a Data Source
+          href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-data-source.md
+        - name: Add a Local Object Data Source
+          href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-local-object-data-source.md
+        - name: Specifying a Data Filter for a Data Source
+          href: defining-an-app-model/logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md
+        - name: The Account Data Source
+          href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
+        - name: File Data Sources
+          href: defining-an-app-model/logic/action-orchestration/data-sources/file-data-sources.md
+      - name: Actions
+        href: defining-an-app-model/logic/action-orchestration/actions.md
+        items:
+        - name: Blocks
+          href: defining-an-app-model/logic/action-orchestration/actions/blocks.md
+          items:
+          - name: Decision
+            href: defining-an-app-model/logic/action-orchestration/actions/blocks/decision.md
+          - name: Scope
+            href: defining-an-app-model/logic/action-orchestration/actions/blocks/scope.md
+          - name: Enumerator
+            href: defining-an-app-model/logic/action-orchestration/actions/blocks/enumerator.md
+          - name: While Loop
+            href: defining-an-app-model/logic/action-orchestration/actions/blocks/while-loop.md
+          - name: Catch Exception
+            href: defining-an-app-model/logic/action-orchestration/actions/blocks/catch-exception.md
+        - name: Controls
+          href: defining-an-app-model/logic/action-orchestration/actions/controls.md
+          items:
+          - name: Redirect Execution
+            href: defining-an-app-model/logic/action-orchestration/actions/controls/redirect-execution.md
+          - name: Throw Exception
+            href: defining-an-app-model/logic/action-orchestration/actions/controls/throw-exception.md
+        - name: Effects
+          href: defining-an-app-model/logic/action-orchestration/actions/effects.md
+          items:
+          - name: Consume a REST Service
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-rest-service.md
+          - name: Consume a WEB Service
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-web-service.md
+          - name: Copy Data to the Clipboard
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/copy-data-to-the-clipboard.md
+          - name: Create a Data Aggregate
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-a-data-aggregate.md
+          - name: Create a File
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-a-file.md
+          - name: Create a Mail Message
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-a-mail-message.md
+          - name: Create Objects and Modify Objects
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md
+          - name: Delete Objects
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/delete-objects.md
+          - name: Export Data
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/export-data.md
+          - name: Import Data
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/import-data.md
+          - name: Invoke a File
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/invoke-a-file.md
+          - name: Merge Data to a Document
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/merge-data-to-a-document.md
+          - name: Modify a User Account
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/modify-a-user-account.md
+          - name: Open a Form
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/open-a-form.md
+          - name: Print Objects
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/print-objects.md
+          - name: Read Objects
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/read-objects.md
+          - name: Run a Data Extract
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-data-extract.md
+          - name: Run a Program
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-program.md
+          - name: Run a Task
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-task.md
+          - name: Run a Report
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-report.md
+          - name: Set a Field's Value
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/set-a-fields-value.md
+          - name: Show a Confirmation Message
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/show-a-confirmation-message.md
+          - name: Show a Message
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/show-a-message.md
+          - name: Sort Objects
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/sort-objects.md
+          - name: Transform XML Data
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/transform-xml-data.md
+          - name: Upload a File
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/upload-a-file.md
+        - name: Defining Actions
+          href: defining-an-app-model/logic/action-orchestration/actions/defining-actions.md
+        - name: Action Diagram
+          href: defining-an-app-model/logic/action-orchestration/actions/action-diagram.md
+      - name: Exception Handling
+        href: defining-an-app-model/logic/action-orchestration/exception-handling.md
   - name: General settings
     href: defining-an-app-model/general-settings.md
     items:
@@ -200,106 +303,6 @@
       href: defining-an-app-model/general-settings/search-settings.md
     - name: Advanced Settings
       href: defining-an-app-model/general-settings/advanced-settings.md
-  - name: Action orchestration
-    href: defining-an-app-model/action-orchestration.md
-    items:
-    - name: Data Sources
-      href: defining-an-app-model/action-orchestration/data-sources.md
-      items:
-      - name: Add a Data Source
-        href: defining-an-app-model/action-orchestration/data-sources/add-a-data-source.md
-      - name: Add a Local Object Data Source
-        href: defining-an-app-model/action-orchestration/data-sources/add-a-local-object-data-source.md
-      - name: Specifying a Data Filter for a Data Source
-        href: defining-an-app-model/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md
-      - name: The Account Data Source
-        href: defining-an-app-model/action-orchestration/data-sources/the-account-data-source.md
-      - name: File Data Sources
-        href: defining-an-app-model/action-orchestration/data-sources/file-data-sources.md
-    - name: Actions
-      href: defining-an-app-model/action-orchestration/actions.md
-      items:
-      - name: Blocks
-        href: defining-an-app-model/action-orchestration/actions/blocks.md
-        items:
-        - name: Decision
-          href: defining-an-app-model/action-orchestration/actions/blocks/decision.md
-        - name: Scope
-          href: defining-an-app-model/action-orchestration/actions/blocks/scope.md
-        - name: Enumerator
-          href: defining-an-app-model/action-orchestration/actions/blocks/enumerator.md
-        - name: While Loop
-          href: defining-an-app-model/action-orchestration/actions/blocks/while-loop.md
-        - name: Catch Exception
-          href: defining-an-app-model/action-orchestration/actions/blocks/catch-exception.md
-      - name: Controls
-        href: defining-an-app-model/action-orchestration/actions/controls.md
-        items:
-        - name: Redirect Execution
-          href: defining-an-app-model/action-orchestration/actions/controls/redirect-execution.md
-        - name: Throw Exception
-          href: defining-an-app-model/action-orchestration/actions/controls/throw-exception.md
-      - name: Effects
-        href: defining-an-app-model/action-orchestration/actions/effects.md
-        items:
-        - name: Consume a REST Service
-          href: defining-an-app-model/action-orchestration/actions/effects/consume-a-rest-service.md
-        - name: Consume a WEB Service
-          href: defining-an-app-model/action-orchestration/actions/effects/consume-a-web-service.md
-        - name: Copy Data to the Clipboard
-          href: defining-an-app-model/action-orchestration/actions/effects/copy-data-to-the-clipboard.md
-        - name: Create a Data Aggregate
-          href: defining-an-app-model/action-orchestration/actions/effects/create-a-data-aggregate.md
-        - name: Create a File
-          href: defining-an-app-model/action-orchestration/actions/effects/create-a-file.md
-        - name: Create a Mail Message
-          href: defining-an-app-model/action-orchestration/actions/effects/create-a-mail-message.md
-        - name: Create Objects and Modify Objects
-          href: defining-an-app-model/action-orchestration/actions/effects/create-objects-and-modify-objects.md
-        - name: Delete Objects
-          href: defining-an-app-model/action-orchestration/actions/effects/delete-objects.md
-        - name: Export Data
-          href: defining-an-app-model/action-orchestration/actions/effects/export-data.md
-        - name: Import Data
-          href: defining-an-app-model/action-orchestration/actions/effects/import-data.md
-        - name: Invoke a File
-          href: defining-an-app-model/action-orchestration/actions/effects/invoke-a-file.md
-        - name: Merge Data to a Document
-          href: defining-an-app-model/action-orchestration/actions/effects/merge-data-to-a-document.md
-        - name: Modify a User Account
-          href: defining-an-app-model/action-orchestration/actions/effects/modify-a-user-account.md
-        - name: Open a Form
-          href: defining-an-app-model/action-orchestration/actions/effects/open-a-form.md
-        - name: Print Objects
-          href: defining-an-app-model/action-orchestration/actions/effects/print-objects.md
-        - name: Read Objects
-          href: defining-an-app-model/action-orchestration/actions/effects/read-objects.md
-        - name: Run a Data Extract
-          href: defining-an-app-model/action-orchestration/actions/effects/run-a-data-extract.md
-        - name: Run a Program
-          href: defining-an-app-model/action-orchestration/actions/effects/run-a-program.md
-        - name: Run a Task
-          href: defining-an-app-model/action-orchestration/actions/effects/run-a-task.md
-        - name: Run a Report
-          href: defining-an-app-model/action-orchestration/actions/effects/run-a-report.md
-        - name: Set a Field's Value
-          href: defining-an-app-model/action-orchestration/actions/effects/set-a-fields-value.md
-        - name: Show a Confirmation Message
-          href: defining-an-app-model/action-orchestration/actions/effects/show-a-confirmation-message.md
-        - name: Show a Message
-          href: defining-an-app-model/action-orchestration/actions/effects/show-a-message.md
-        - name: Sort Objects
-          href: defining-an-app-model/action-orchestration/actions/effects/sort-objects.md
-        - name: Transform XML Data
-          href: defining-an-app-model/action-orchestration/actions/effects/transform-xml-data.md
-        - name: Upload a File
-          href: defining-an-app-model/action-orchestration/actions/effects/upload-a-file.md
-      - name: Defining Actions
-        href: defining-an-app-model/action-orchestration/actions/defining-actions.md
-      - name: Action Diagram
-        href: defining-an-app-model/action-orchestration/actions/action-diagram.md
-    - name: Exception Handling
-      href: defining-an-app-model/action-orchestration/exception-handling.md
   - name: Tasks
     href: defining-an-app-model/tasks.md
   - name: Agents

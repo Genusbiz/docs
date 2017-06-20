@@ -16,11 +16,11 @@ Supported file formats:
 *   Contact (vCard)
 *   Calendar (iCalendar or vCalendar)
 *   General File (any file format)
-*   File formats supported by Reports (HTML Document, PDF Document, Enhanced Meta File, Comma Separated Values, Bitmap image, JPEG Image, GIF image and more). When you export data to a PDF Document, please note the software requirements described in the article [Export Data to a PDF Document - Software Requirements](../../defining-an-app-model/action-orchestration/actions/effects/export-data-to-a-pdf-document--software-requirements.md "Export Data to a PDF Document - Software Requirements").
+*   File formats supported by Reports (HTML Document, PDF Document, Enhanced Meta File, Comma Separated Values, Bitmap image, JPEG Image, GIF image and more). When you export data to a PDF Document, please note the software requirements described in the article [Export Data to a PDF Document - Software Requirements](../../defining-an-app-model/logic/action-orchestration/actions/effects/export-data-to-a-pdf-document--software-requirements.md "Export Data to a PDF Document - Software Requirements").
 
 In addition you can export binary file data attached to an object using the associated file format.
 
-To learn more, see the [step-by-step procedure on how to define an effect for exporting data](../../defining-an-app-model/action-orchestration/actions/effects/export-data.md).
+To learn more, see the [step-by-step procedure on how to define an effect for exporting data](../../defining-an-app-model/logic/action-orchestration/actions/effects/export-data.md).
 
 **Exporting aggregated data from Reports and Searches to a delimited text file**
 
@@ -59,5 +59,5 @@ Supported file formats:
 *   General file (any file format)
 *   File folder
 
-To learn more, see the [step-by-step procedure on how to define an effect for importing data](../../defining-an-app-model/action-orchestration/actions/effects/import-data.md).
+To learn more, see the [step-by-step procedure on how to define an effect for importing data](../../defining-an-app-model/logic/action-orchestration/actions/effects/import-data.md).
 

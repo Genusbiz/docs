@@ -17,7 +17,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 **Logic**
 
-* [Action orchestration](action-orchestration.md)
+* [Action orchestration](logic/action-orchestration/index.md)
 * [Tasks](tasks.md)
 * [Agents](agents.md)
 

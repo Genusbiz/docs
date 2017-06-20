@@ -19,7 +19,7 @@ The examples below shows how to exchange contact information with Microsoft Outl
 2.  Add a data source for the object you want to copy data from, for example a customer contact.
 3.  Add a file data source of type **Contact**.
 4.  Add an action.
-5.  Add an effect of type [Create object(s)](../../defining-an-app-model/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") to the action. In the list **Select the data source to use for creating new objects**, select the contact data source. Populate the contact data source with data from the data source you are copying data from.
+5.  Add an effect of type [Create object(s)](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") to the action. In the list **Select the data source to use for creating new objects**, select the contact data source. Populate the contact data source with data from the data source you are copying data from.
 6.  Publish the Task to a data source of the same type as the data source you are copying data from. Select **Copy** as action for the publication. In the data filter for the data source you are copying data from, select **Set equal to objects selected from the context**. See also the [step-by-step procedure](../../defining-an-app-model/tasks.md "Publish a Task") on how to publish a Task.
 
 To copy data from the context for the publication, in the **File** menu, click **Copy**. The object is placed on the clipboard as a vCard. To paste the object as a Outlook Contact record, open Microsoft Outlook, and then in the **Edit** menu click **Paste**.
@@ -32,13 +32,13 @@ Note! If you have published more than one Task for copying objects to a given co
 2.  Add a data source for the object you want to create, for example a customer contact.
 3.  Add a file data source of type **Contact**.
 4.  Add an action.
-5.  Add an effect of type [Create object(s)](../../defining-an-app-model/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") to the action. In the list **Select the data source to use for creating new objects**, select the data source added in step 2\. Populate the data source with data from the contact data source.
+5.  Add an effect of type [Create object(s)](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") to the action. In the list **Select the data source to use for creating new objects**, select the data source added in step 2\. Populate the data source with data from the contact data source.
 6.  Add an publication.
 7.  Publish the Task to a data source of the same type as the data source for the object you want to create. Select **Paste Special** as action for the publication. To populate the contact data source with data placed on the clipboard, select **Get object(s) from the clipboard** as data filter. See also the [step-by-step procedure](../../defining-an-app-model/tasks.md "Publish a Task") on how to publish a Task.
 
 Select a contact in Microsoft Outlook. In the **Edit** menu click **Copy**. To paste data in the context for the publication, in the Edit menu, click **Paste Special**. In the **Paste Special** dialog box click the Task. Note that the **Paste Special** dialog box only is displayed if you have published more than one Task for pasting data to the given context.
 
-If you only want to update contact information for an existing object, use an effect of type [Modify object(s)](../../defining-an-app-model/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") in step 5.
+If you only want to update contact information for an existing object, use an effect of type [Modify object(s)](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") in step 5.
 
 
 
@@ -73,7 +73,7 @@ To copy and paste data between two Genus desktop applications, you define a Sche
 3.  Add the Schema created in step 1 as a data source in the Task.
 4.  Add a data source for the object(s) you want to copy data from.
 5.  Add an action.
-6.  Add an effect of type [Create Object(s)](../../defining-an-app-model/action-orchestration/actions/effects/create-objects-and-modify-objects.md) to the action. Select the Schema used for exchanging data as the source for the XML document. Populate the XML document with data from the data source containing the object(s) you want to copy data from.
+6.  Add an effect of type [Create Object(s)](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md) to the action. Select the Schema used for exchanging data as the source for the XML document. Populate the XML document with data from the data source containing the object(s) you want to copy data from.
 7.  Publish the Task to a data source of the same type as the data source you are copying object(s) from. Select **Copy** as action for the publication. In the data filter for the data source you are copying data from, select **Set equal to objects from the context**. See also the [step-by-step procedure](../../defining-an-app-model/tasks.md) on how to publish a Task.
 
 When the task is run, information that XML data based on the selected Schema is available, will be placed on the clipboard. The actual data will not be placed on the clipboard until someone requests access to the data. To copy data from the context for the publication, in the **File** menu, click **Copy**.
@@ -87,7 +87,7 @@ Note! If you have published more than one Task for copying objects to a given co
 3.  Add the Schema created in step 1 as a data source in the Task.
 4.  Add a data source for the object(s) you want to create.
 5.  Add an action.
-6.  Add an effect of type [Create object(s)](../../defining-an-app-model/action-orchestration/actions/effects/create-objects-and-modify-objects.md) to the action. In the drop-down list **Select the data source to use for creating new objects**, select the data source added in step 4\. Populate the objects with data from the Schema used for exchanging data.
+6.  Add an effect of type [Create object(s)](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md) to the action. In the drop-down list **Select the data source to use for creating new objects**, select the data source added in step 4\. Populate the objects with data from the Schema used for exchanging data.
 7.  Publish the Task to a data source of the same type as the data source for the object(s) you want to create. Select **Paste Special** as action for the publication. To populate the Schema with data placed on the clipboard, select **Get object(s) from the clipboard** in the data filter for the Schema. See also the [step-by-step procedure](../../defining-an-app-model/tasks.md) on how to publish a Task.
 
 To paste data in the context for the publication, click **Paste Special**. In the **Paste Special** dialog box click the Task. Note that the **Paste Special** dialog box only is displayed if you have published more than one Task for pasting data to the given context.

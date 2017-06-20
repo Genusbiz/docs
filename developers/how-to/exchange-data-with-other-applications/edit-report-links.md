@@ -10,7 +10,7 @@ A link is defined by specifying a data filter for the data sources provided by t
 
 If you define a link as an entry in the **Task Pane**, in the section **Allow opening this link when**, choose if the link can be opened if a) **The user has selected one object**, b) **The user has selected one or more objects** or c) **Always**. These choices are not available when you define links as tabsheets in a Form (always one object selected) or as shortcuts (no objects are selected).
 
-To filter data for a data source provided by the report, click the data source in the **Data Filter** list, and then click **Customize**. If you are defining a link as an entry in the **Task Pane**, or as a tabsheet in a Form, the objects selected from the context are available from the data source named **Context: <type>**, for example, *Context: Customer. For more information on how to filter data for a data source, see the article [Data Sources](../../defining-an-app-model/action-orchestration/data-sources.md)*.
+To filter data for a data source provided by the report, click the data source in the **Data Filter** list, and then click **Customize**. If you are defining a link as an entry in the **Task Pane**, or as a tabsheet in a Form, the objects selected from the context are available from the data source named **Context: <type>**, for example, *Context: Customer. For more information on how to filter data for a data source, see the article [Data Sources](../../defining-an-app-model/logic/action-orchestration/data-sources.md)*.
 
 Links to not consider the various settings for the filters within the definition of a report, e.g. **Published** is not considered. The only exception is the cardinality set by **Max Occurrences** (**One** or **Many**).  
 
