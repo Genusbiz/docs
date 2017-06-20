@@ -24,7 +24,7 @@ If you are a Genus employee, you are required to provide the steps to reproduce 
 
 Genus Apps will automatically send crash reports to our real-time error tracking system (we are using [Sentry](https://sentry.io/)). This will help us correct the error. We often still need your error description, so do not forget to follow our [guidelines for error reporting](#guidelines-for-error-reporting).
 
-Note that it is possible to turn off the real-time error tracking system per Genus solution, since not all solutions have internet access.
+Note that it is possible to turn off the real-time error tracking system per Genus solution, since not all solutions have internet access. For information on how set this option, see [Genus Configuration](../installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.md#app)
 
 ## Genus Desktop error reporting
 
