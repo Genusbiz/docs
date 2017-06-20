@@ -4,11 +4,11 @@ Exchanging data with other applications can often be an important part of the fu
 
 **Export and Import**
 
-Export and import can be performed both by a [Task](../defining-an-app-model/tasks.md) by an interactive clients as a part of a manual process, or by an [Agent](../defining-an-app-model/agents.md) on a server as part of an automated exchange of data. The operations uses the Windows file system to exchange data in the form of files. Define a Task or an Agent to perform
+Export and import can be performed both by a [Task](../defining-an-app-model/logic/tasks.md) by an interactive clients as a part of a manual process, or by an [Agent](../defining-an-app-model/agents.md) on a server as part of an automated exchange of data. The operations uses the Windows file system to exchange data in the form of files. Define a Task or an Agent to perform
 
 **Copy and Paste**
 
-Copy and paste is an intuitive and useful feature for exchanging data between applications, and is defined in a [Task](../defining-an-app-model/tasks.md). The operations are only meaningful for interactive clients, and is often performed as a drag and drop operation by the user. Copy and paste uses the Windows system clipboard to exchange data in the form of files or other formats. The copy operation places data on the clipboard where it is available for other applications. The paste operations retrieves data from the clipboard where it may have been placed by another application.
+Copy and paste is an intuitive and useful feature for exchanging data between applications, and is defined in a [Task](../defining-an-app-model/logic/tasks.md). The operations are only meaningful for interactive clients, and is often performed as a drag and drop operation by the user. Copy and paste uses the Windows system clipboard to exchange data in the form of files or other formats. The copy operation places data on the clipboard where it is available for other applications. The paste operations retrieves data from the clipboard where it may have been placed by another application.
 
 In many cases it is possible to use both export/import and copy/paste for the same exchange of data, and the coice is a matter of preference and functional requirements.
 

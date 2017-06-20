@@ -2,7 +2,7 @@
 
 Commands are used to specify tasks and operations in the form. A command is triggered through the Ribbon, or by an [Event](events.md).
 
-Choose from a wide range of effect types that are characteristic for forms, or run a [task](../../tasks.md) to employ the full functionality of [action orchestration](../../logic/action-orchestration/index.md).
+Choose from a wide range of effect types that are characteristic for forms, or run a [task](../../logic/tasks.md) to employ the full functionality of [action orchestration](../../logic/action-orchestration/index.md).
 
 To see if a command is used within the form, right click the command, and click **Find Local References**.
 
@@ -474,7 +474,7 @@ On Activate, On Active Object Changed, On Click, On Focused, On Menu Item Click,
 
 <td>Run a Task (Global Scope)</td>
 
-<td>Run a [task](../../tasks.md) which is not defined within the form.</td>
+<td>Run a [task](../../logic/tasks.md) which is not defined within the form.</td>
 
 <td>Select a task from the directory.</td>
 

@@ -11,5 +11,5 @@ To add a task within the Data Mart.
 
 1.  In the **Data Mart Description** area, click **Tasks**.
 2.  In the Task Pane , click **Add**.
-3.  For information on how to define a task, see [Tasks](../tasks.md).
+3.  For information on how to define a task, see [Tasks](../logic/tasks.md).
 

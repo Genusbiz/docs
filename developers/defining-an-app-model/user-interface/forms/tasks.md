@@ -17,5 +17,5 @@ To add a task within the form.
 
 1.  In the **Form Description** area, click **Tasks**.
 2.  In the Task Pane , click **Add**.
-3.  For information on how to define a task, see [Tasks](../../tasks.md).
+3.  For information on how to define a task, see [Tasks](../../logic/tasks.md).
 

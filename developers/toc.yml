@@ -292,6 +292,8 @@
           href: defining-an-app-model/logic/action-orchestration/actions/action-diagram.md
       - name: Exception Handling
         href: defining-an-app-model/logic/action-orchestration/exception-handling.md
+    - name: Tasks
+      href: defining-an-app-model/logic/tasks.md
   - name: General settings
     href: defining-an-app-model/general-settings.md
     items:
@@ -303,8 +305,6 @@
       href: defining-an-app-model/general-settings/search-settings.md
     - name: Advanced Settings
       href: defining-an-app-model/general-settings/advanced-settings.md
-  - name: Tasks
-    href: defining-an-app-model/tasks.md
   - name: Agents
     href: defining-an-app-model/agents.md
   - name: Web Services
