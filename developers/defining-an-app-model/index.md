@@ -12,7 +12,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 * [Navigation pane](user-interface/navigation-pane.md)
 * [Tables](user-interface/tables/index.md)
-* [Forms](forms.md)
+* [Forms](user-interface/forms/index.md)
 * [Translate the app model to other languages](translate-the-application-model-to-other-languages.md)
 
 **Logic**

@@ -114,7 +114,7 @@ Employee = Active User Account(Employee)
 
 **Active Object Selection**
 
-A condition defined inside a [Table](../../user-interface/tables/index.md) or a [Form](../../forms.md) can access data sources and fields based on [Active Object Selection](../active-object.md), which are objects selected by the user in the user interface. This is useful to create interactive functionality where for example visibility of certain elements or enabling of buttons, depend on specific properties of the selected object(s) in a table or a list.
+A condition defined inside a [Table](../../user-interface/tables/index.md) or a [Form](../../user-interface/forms/index.md) can access data sources and fields based on [Active Object Selection](../active-object.md), which are objects selected by the user in the user interface. This is useful to create interactive functionality where for example visibility of certain elements or enabling of buttons, depend on specific properties of the selected object(s) in a table or a list.
 
 For example:
 

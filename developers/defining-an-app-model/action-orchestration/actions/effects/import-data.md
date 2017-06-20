@@ -328,7 +328,7 @@ Note. If you are importing file data from a field located in one of your data so
 The log file records all events during import.
 
 1.  Click the **Event Handling** tab.
-2.  In the **Log File** section, type a name for the log file. Click **Browse** to select an existing file. You can generate a dynamic file name by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") and [environment variables](../../../forms/using-environment-variables-as-part-of-a-file-location-in-effects.md "Using Environment Variables as Part of a File Location in Effects") as part of the name.
+2.  In the **Log File** section, type a name for the log file. Click **Browse** to select an existing file. You can generate a dynamic file name by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") and [environment variables](../../../user-interface/forms/using-environment-variables-as-part-of-a-file-location-in-effects.md "Using Environment Variables as Part of a File Location in Effects") as part of the name.
 
 
 
@@ -337,7 +337,7 @@ The log file records all events during import.
 The error file contains records rejected due to a mismatch in the specification of the data format and the actual data.
 
 1.  Click the **Event Handling** tab.
-2.  In the **Error File** section, type a name for the error file. Click **Browse** to select an existing file. You can generate a dynamic file name by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") and [environment variables](../../../forms/using-environment-variables-as-part-of-a-file-location-in-effects.md "Using Environment Variables as Part of a File Location in Effects") as part of the name.
+2.  In the **Error File** section, type a name for the error file. Click **Browse** to select an existing file. You can generate a dynamic file name by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") and [environment variables](../../../user-interface/forms/using-environment-variables-as-part-of-a-file-location-in-effects.md "Using Environment Variables as Part of a File Location in Effects") as part of the name.
 3.  Click **Stop import if any records contains errors** to force the import to halt if an error is encountered. If this option not is selected, the record is rejected and the import continues to the next record.
 
 
@@ -347,7 +347,7 @@ The error file contains records rejected due to a mismatch in the specification 
 The discard file contains records that do not satisfy the requirements imposed by data validations defined in the import data source.
 
 1.  Click the **Event Handling** tab.
-2.  In the **Discard File** section, type a name for the discard file. Click **Browse** to select an existing file. You can generate a dynamic file name by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") and [environment variables](../../../forms/using-environment-variables-as-part-of-a-file-location-in-effects.md "Using Environment Variables as Part of a File Location in Effects") as part of the name.
+2.  In the **Discard File** section, type a name for the discard file. Click **Browse** to select an existing file. You can generate a dynamic file name by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") and [environment variables](../../../user-interface/forms/using-environment-variables-as-part-of-a-file-location-in-effects.md "Using Environment Variables as Part of a File Location in Effects") as part of the name.
 3.  Click **Stop import if any records are discarded** to force the import to halt if a record is discarded. If this option not is selected, the record is rejected and the import continues to the next record.
 
 
@@ -444,4 +444,4 @@ Click the **Settings** tab.
 See Also
 
 *   [Generate Dynamic Values for Text Fields](../generate-dynamic-values-for-text-fields.md)
-*   [Using Environment Variables as Part of a File Location in Effects](../../../forms/using-environment-variables-as-part-of-a-file-location-in-effects.md)
+*   [Using Environment Variables as Part of a File Location in Effects](../../../user-interface/forms/using-environment-variables-as-part-of-a-file-location-in-effects.md)

@@ -66,7 +66,7 @@ To access the object associated with the currently signed in user, or fields fro
 
 **Active Object Selection**
 
-A condition defined inside a [Table](../../../user-interface/tables/index.md) or a [Form](../../../forms.md) can access data sources and fields based on Active Object Selection, which are objects selected by the user in the user interface.
+A condition defined inside a [Table](../../../user-interface/tables/index.md) or a [Form](../../../user-interface/forms/index.md) can access data sources and fields based on Active Object Selection, which are objects selected by the user in the user interface.
 
 To access an active object selection, right click the operand and click **Active Object Selection**.  
 

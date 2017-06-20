@@ -38,6 +38,7 @@
 //   - Upgrade code to ES6 (using class etc).
 //   - Change ArticleClass.findCrossRef and ArticleClass.findExt into static methods (belonging to the CrossRefClass instead).
 //   - Add support for renaming media files.
+//   - Handle references containing hash (#), like: [Text Edit](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/text-and-number-controls.md#text-edit)
 
 var fs = require("fs");
 var fsExtra = require('fs-extra');

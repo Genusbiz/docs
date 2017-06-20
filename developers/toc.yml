@@ -85,6 +85,110 @@
         href: defining-an-app-model/user-interface/tables/views.md
       - name: Events
         href: defining-an-app-model/user-interface/tables/events.md
+    - name: Forms
+      href: defining-an-app-model/user-interface/forms/index.md
+      items:
+      - name: General Settings
+        href: defining-an-app-model/user-interface/forms/general-settings.md
+      - name: Data Sources
+        href: defining-an-app-model/user-interface/tables/data-sources.md
+      - name: Views
+        href: defining-an-app-model/user-interface/forms/views.md
+        items:
+        - name: Add a View
+          href: defining-an-app-model/user-interface/forms/views/add-a-view.md
+        - name: Desktop controls
+          href: defining-an-app-model/user-interface/forms/views/desktop-controls.md
+          items:
+          - name: Containers
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers.md
+            items:
+            - name: Group
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/group.md
+            - name: Group Box
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/group-box.md
+            - name: Conditional Groups
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/conditional-groups.md
+            - name: Tab Sheets
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/tab-sheets.md
+            - name: Common Container Properties
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/common-container-properties.md
+          - name: Text and number controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/text-and-number-controls.md
+          - name: Time and date controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/time-and-date-controls.md
+          - name: List and lookup controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/list-and-lookup-controls.md
+          - name: Button controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/button-controls.md
+          - name: File and folder controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/file-and-folder-controls.md
+          - name: Graphic controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/graphic-controls.md
+          - name: Tabular controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls.md
+            items:
+            - name: Grid
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls/grid.md
+            - name: Table
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls/table.md
+            - name: Tree
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls/tree.md
+          - name: Scheduling controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls.md
+            items:
+            - name: Gantt
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt.md
+              items:
+              - name: Examples / How To
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/examples--how-to.md
+              - name: Properties
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/properties.md
+            - name: Timeline
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline.md
+              items:
+              - name: Examples / How To
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/examples--how-to.md
+              - name: Properties
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/properties.md
+          - name: Reporting and visualization controls
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls.md
+            items:
+            - name: Chart
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md
+              items:
+              - name: Examples / How To
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/examples--how-to.md
+              - name: Properties
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/properties.md
+            - name: Diagram
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram.md
+              items:
+              - name: Examples / How To
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/examples--how-to.md
+              - name: Properties
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/properties.md
+            - name: Tree Map
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map.md
+              items:
+              - name: Examples / How To
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md
+              - name: Properties
+                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/properties.md
+          - name: Common control propterties
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/common-control-properties.md
+        - name: View Layout Fundamentals
+          href: defining-an-app-model/user-interface/forms/views/view-layout-fundamentals.md
+        - name: View Properties
+          href: defining-an-app-model/user-interface/forms/views/view-properties.md
+      - name: Commands
+        href: defining-an-app-model/user-interface/forms/commands.md
+      - name: Events
+        href: defining-an-app-model/user-interface/forms/events.md
+      - name: Tasks
+        href: defining-an-app-model/user-interface/forms/tasks.md
+      - name: Form Designer
+        href: defining-an-app-model/user-interface/forms/form-designer.md
   - name: General settings
     href: defining-an-app-model/general-settings.md
     items:
@@ -96,110 +200,6 @@
       href: defining-an-app-model/general-settings/search-settings.md
     - name: Advanced Settings
       href: defining-an-app-model/general-settings/advanced-settings.md
-  - name: Forms
-    href: defining-an-app-model/forms.md
-    items:
-    - name: General Settings
-      href: defining-an-app-model/forms/general-settings.md
-    - name: Data Sources
-      href: defining-an-app-model/user-interface/tables/data-sources.md
-    - name: Views
-      href: defining-an-app-model/forms/views.md
-      items:
-      - name: Add a View
-        href: defining-an-app-model/forms/views/add-a-view.md
-      - name: Desktop controls
-        href: defining-an-app-model/forms/views/desktop-controls.md
-        items:
-        - name: Containers
-          href: defining-an-app-model/forms/views/desktop-controls/containers.md
-          items:
-          - name: Group
-            href: defining-an-app-model/forms/views/desktop-controls/containers/group.md
-          - name: Group Box
-            href: defining-an-app-model/forms/views/desktop-controls/containers/group-box.md
-          - name: Conditional Groups
-            href: defining-an-app-model/forms/views/desktop-controls/containers/conditional-groups.md
-          - name: Tab Sheets
-            href: defining-an-app-model/forms/views/desktop-controls/containers/tab-sheets.md
-          - name: Common Container Properties
-            href: defining-an-app-model/forms/views/desktop-controls/containers/common-container-properties.md
-        - name: Text and number controls
-          href: defining-an-app-model/forms/views/desktop-controls/text-and-number-controls.md
-        - name: Time and date controls
-          href: defining-an-app-model/forms/views/desktop-controls/time-and-date-controls.md
-        - name: List and lookup controls
-          href: defining-an-app-model/forms/views/desktop-controls/list-and-lookup-controls.md
-        - name: Button controls
-          href: defining-an-app-model/forms/views/desktop-controls/button-controls.md
-        - name: File and folder controls
-          href: defining-an-app-model/forms/views/desktop-controls/file-and-folder-controls.md
-        - name: Graphic controls
-          href: defining-an-app-model/forms/views/desktop-controls/graphic-controls.md
-        - name: Tabular controls
-          href: defining-an-app-model/forms/views/desktop-controls/tabular-controls.md
-          items:
-          - name: Grid
-            href: defining-an-app-model/forms/views/desktop-controls/tabular-controls/grid.md
-          - name: Table
-            href: defining-an-app-model/forms/views/desktop-controls/tabular-controls/table.md
-          - name: Tree
-            href: defining-an-app-model/forms/views/desktop-controls/tabular-controls/tree.md
-        - name: Scheduling controls
-          href: defining-an-app-model/forms/views/desktop-controls/scheduling-controls.md
-          items:
-          - name: Gantt
-            href: defining-an-app-model/forms/views/desktop-controls/scheduling-controls/gantt.md
-            items:
-            - name: Examples / How To
-              href: defining-an-app-model/forms/views/desktop-controls/scheduling-controls/gantt/examples--how-to.md
-            - name: Properties
-              href: defining-an-app-model/forms/views/desktop-controls/scheduling-controls/gantt/properties.md
-          - name: Timeline
-            href: defining-an-app-model/forms/views/desktop-controls/scheduling-controls/timeline.md
-            items:
-            - name: Examples / How To
-              href: defining-an-app-model/forms/views/desktop-controls/scheduling-controls/timeline/examples--how-to.md
-            - name: Properties
-              href: defining-an-app-model/forms/views/desktop-controls/scheduling-controls/timeline/properties.md
-        - name: Reporting and visualization controls
-          href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls.md
-          items:
-          - name: Chart
-            href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md
-            items:
-            - name: Examples / How To
-              href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/chart/examples--how-to.md
-            - name: Properties
-              href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/chart/properties.md
-          - name: Diagram
-            href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/diagram.md
-            items:
-            - name: Examples / How To
-              href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/examples--how-to.md
-            - name: Properties
-              href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/properties.md
-          - name: Tree Map
-            href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map.md
-            items:
-            - name: Examples / How To
-              href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md
-            - name: Properties
-              href: defining-an-app-model/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/properties.md
-        - name: Common control propterties
-          href: defining-an-app-model/forms/views/desktop-controls/common-control-properties.md
-      - name: View Layout Fundamentals
-        href: defining-an-app-model/forms/views/view-layout-fundamentals.md
-      - name: View Properties
-        href: defining-an-app-model/forms/views/view-properties.md
-    - name: Commands
-      href: defining-an-app-model/forms/commands.md
-    - name: Events
-      href: defining-an-app-model/forms/events.md
-    - name: Tasks
-      href: defining-an-app-model/forms/tasks.md
-    - name: Form Designer
-      href: defining-an-app-model/forms/form-designer.md
   - name: Action orchestration
     href: defining-an-app-model/action-orchestration.md
     items:
