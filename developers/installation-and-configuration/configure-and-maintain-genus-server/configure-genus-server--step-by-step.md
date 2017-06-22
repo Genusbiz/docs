@@ -157,7 +157,7 @@ If you are using Active Directory authentication, you must sign in to the comput
 6.  In the File menu, click New.
 7.  Specify the node group settings, and click OK.
 
-For more information on specific settings, see [Nodes and Node Groups](../../defining-an-app-model/nodes-and-node-groups.md). Step 16 - Deploy the Directory 
+For more information on specific settings, see [Nodes and Node Groups](../../defining-an-app-model/services/nodes-and-node-groups.md). Step 16 - Deploy the Directory 
 
 The initial set of metadata needs to be deployed to Genus desktop clients. This can be done from the computer where you installed the Genus desktop client in step 15\.
 

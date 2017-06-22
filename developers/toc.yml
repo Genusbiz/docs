@@ -279,6 +279,8 @@
         href: defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
     - name: REST services
       href: defining-an-app-model/services/rest-services/index.md
+    - name: Nodes and node groups
+      href: defining-an-app-model/services/nodes-and-node-groups.md
   - name: Data
     href: defining-an-app-model/data/index.md
     items:
@@ -354,10 +356,6 @@
         href: defining-an-app-model/data/object-class-property/mapping-of-property-data-types-and-rdbms-data-types.md
     - name: Schemas
       href: defining-an-app-model/data/schemas.md
-  - name: Nodes and Node Groups
-    href: defining-an-app-model/nodes-and-node-groups.md
-  - name: Translate the app model to other languages
-    href: defining-an-app-model/translate-the-application-model-to-other-languages.md
   - name: Common Concepts
     href: defining-an-app-model/common-concepts.md
     items:
@@ -562,5 +560,7 @@
     href: how-to/search-across-many-data-sources.md
   - name: Upload and Download Large Files
     href: how-to/upload-and-download-large-files.md
+  - name: Translate the app model to other languages
+    href: how-to/translate-the-application-model-to-other-languages.md
   - name: Report an error
     href: how-to/report-an-error.md

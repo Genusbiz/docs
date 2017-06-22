@@ -13,7 +13,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 * [Navigation pane](user-interface/navigation-pane.md)
 * [Tables](user-interface/tables/index.md)
 * [Forms](user-interface/forms/index.md)
-* [Translate the app model to other languages](translate-the-application-model-to-other-languages.md)
+* [Translate the app model to other languages](../how-to/translate-the-application-model-to-other-languages.md)
 
 **Logic**
 
@@ -24,7 +24,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 **Services**
 
 * [Web services](services/web-services/index.md)
-* [Nodes and Node Groups](nodes-and-node-groups.md)
+* [Nodes and Node Groups](services/nodes-and-node-groups.md)
 
 **Data**
 
