@@ -4,7 +4,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 **[Getting started](getting-started/getting-started.md)**
 
-* [General settings](general-settings.md)
+* [General settings](general-settings/index.md)
 * [Common concepts](common-concepts.md)
 * [Terminology](../../terminology.md)
 

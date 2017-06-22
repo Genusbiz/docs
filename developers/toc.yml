@@ -23,6 +23,17 @@
       href: defining-an-app-model/getting-started/search-and-organization.md
     - name: Deploy changes in the Directory
       href: defining-an-app-model/getting-started/deploy-changes-in-the-directory.md
+  - name: General settings
+    href: defining-an-app-model/general-settings/index.md
+    items:
+    - name: Data Sets
+      href: defining-an-app-model/general-settings/data-sets.md
+    - name: Calendar Settings
+      href: defining-an-app-model/general-settings/calendar-settings.md
+    - name: Search Settings
+      href: defining-an-app-model/general-settings/search-settings.md
+    - name: Advanced Settings
+      href: defining-an-app-model/general-settings/advanced-settings.md
   - name: Data
     href: defining-an-app-model/data/index.md
     items:
@@ -294,17 +305,6 @@
         href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Tasks
       href: defining-an-app-model/logic/tasks.md
-  - name: General settings
-    href: defining-an-app-model/general-settings.md
-    items:
-    - name: Data Sets
-      href: defining-an-app-model/general-settings/data-sets.md
-    - name: Calendar Settings
-      href: defining-an-app-model/general-settings/calendar-settings.md
-    - name: Search Settings
-      href: defining-an-app-model/general-settings/search-settings.md
-    - name: Advanced Settings
-      href: defining-an-app-model/general-settings/advanced-settings.md
   - name: Agents
     href: defining-an-app-model/agents.md
   - name: Web Services
