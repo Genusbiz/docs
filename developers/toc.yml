@@ -11,7 +11,7 @@
     href: ../terminology.md
 - name: Keyboard shortcuts
   href: defining-the-app-model/user-interface/keyboard-shortcuts.md
-- name: Defining the app model
+- name: Defining the App Model
   href: defining-the-app-model/index.md
   items:
   - name: Getting started
