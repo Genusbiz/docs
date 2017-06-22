@@ -12,7 +12,7 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 
 ## Users
 * [Overview](users/overview/index.md)
-* [Get started](users/getting-started.md)
+* [Getting started](users/getting-started.md)
 * [Navigate, view, modify and control](users/navigate-view-modify-and-control/index.md)
 * [Search and refine](users/search-and-refine/index.md)
 * [Analyze, report and discover](users/analyze-report-and-discover/index.md)
