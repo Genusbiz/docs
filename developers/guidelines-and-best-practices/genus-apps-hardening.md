@@ -1,14 +1,15 @@
-# HTTPS Security headers - Genus Apps hardening
-**Go to the last section if you want to skip the theory and only want the config options for IIS.**
+# Genus Apps hardening (HTTPS security headers)
 
-Genus Apps is a web based client for Genus Application Framework and runs completely in the browser. In other words, there are no active components running server side in IIS. The webserver is only serving static html, css and javascript files to the browser. After these files are loaded by the browser, it will start to communicate with Genus Server to fetch the model and data. This is done with ajax requests directly from the browser.
+**Go to the last section ([Recommended settings for security headers](#recommended-settings-for-security-headers)) if you want to skip the theory and only want the config options for IIS.**
+
+Genus Apps is a web based client for Genus App Platform and runs completely in the browser. In other words, there are no active components running server side in IIS. The web server is only serving static html, css and JavaScript files to the browser. After these files are loaded by the browser, it will start to communicate with Genus App Services to fetch app model and data. This is done with AJAX requests directly from the browser.
 
 This article will cover some possible attack vectors and how we can protect against us against them. In the end there is a section that will cover the actual implementation in IIS.
 
 
-# Attack vectors
+## Attack vectors
 
-## Clickjacking
+### Clickjacking
 
 > Wikipedia: Clickjacking (User Interface redress attack, UI redress attack, UI redressing) is a malicious technique of tricking a Web user into clicking on something different from what the user perceives they are clicking on, thus potentially revealing confidential information or taking control of their computer while clicking on seemingly innocuous web pages."
 
@@ -27,7 +28,7 @@ The following lines can be used to prevent the site from being included in a fra
 </system.webserver>
 ```
 
-## Cross site scripting
+### Cross site scripting
 This is an attack vector where an evil part may run arbitrary code on a legitimate web application. This can potentially be used to steal the user's credentials or any other bad stuff you can think of.
 
 Unfortunately, there are no quick fix or headers that will protect against this type of attack. It is a continuous process to patch these holes as soon as they are discovered.
@@ -35,7 +36,7 @@ Unfortunately, there are no quick fix or headers that will protect against this 
 **As of today there are no known cross site vulnerabilities present in Genus.** However, the technical nature of Genus may cause pen testers to flag some APIs as potentially harmful. To mitigate this, it is possible to enable B64 encoded responses from the server. Enabling this will result in a performace penalty and is only recomennded when strictrly needed from a security point of view.
 
 
-## Downgrade attack
+### Downgrade attack
 #### Problem
 Every production systems with HTTPS enable have two endpoints in IIS. One for http on port 80 and one for https on port 443. All requests for port 80 will be redirected to 443. So far so good, but this means that the first request to the sever will always hit port 80 and thus be unencrypted. Potentially a man in the middle can then do a downgrade attack and force the client to continue the communication unencrypted and he will then be able to listen in on all the traffic between the server and client.
 
@@ -44,10 +45,10 @@ To mitigate this problem, we can apply a header that will make the browser remem
 
 The name of the header used is **Strict-Transport-Security**. It has a value **max-age** that defined how long, in seconds, the browser should remember to only use https. This is a sliding value, which means that the browser will remember it for as long as the header states in the last request done to the server.
 
-##### Remove the TOFU-problem
+#### Remove the TOFU-problem
 There is a way to remove the TOFU problem as well. However, this means registering the domain in a central registry so that future browsers will know that your site is https only even before it has made any requests. One of the requirements is that all subdomains use https. The process is therefore out of scope of this article.
 
-## Encrypted man in the middle
+### Encrypted man in the middle
 
 #### Problem
 In some instances, there may be possible to listen in on a user's traffic even though it is encrypted. One way is if the attacker in the middle has an encrypted connection to the victim and one to the server and just forwards the traffic. From the user, it will still look like the connection is secure.
@@ -58,9 +59,9 @@ To prevent this, the server can send information in the header on which certific
 If you are to use public key pinning, do the proper research on this matter. Implementing it wrong can lead to your legitimate users being permanently blocked from the site. **Do not rely on a simple copy/paste config from the internet. Understand what you are actually doing!**
 
 
-# Recommended settings for security headers
+## Recommended settings for security headers
 
-## Normal mode
+### Normal mode
 This is the settings we currently recommend when using Genus Apps for Web.
 
 ```
@@ -75,7 +76,7 @@ This is the settings we currently recommend when using Genus Apps for Web.
 </system.webServer>
 ```
 
-## Strict mode
+### Strict mode
 This mode will disable any third party services included in Genus Apps. This mode cannot be used if the customer use the Google Analytics integration in Genus Apps. Sentry, a third party service for automatic crash reporting, will also be disabled if this mode is used.
 
 ```

@@ -491,23 +491,23 @@
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
-  - name: Action Orchestration Performance and Maintainability
+  - name: Action orchestration performance and maintainability
     href: guidelines-and-best-practices/action-orchestration-performance-and-maintainability.md
-  - name: Deleting Event History and Account Session History
+  - name: Deleting event history and account session history
     href: guidelines-and-best-practices/deleting-event-history-and-account-session-history.md
-  - name: Improving Desktop Client Startup Performance
+  - name: Improving Genus Desktop startup performance
     href: guidelines-and-best-practices/improving-desktop-client-startup-performance.md
-  - name: Improving Report Performance
+  - name: Improving report performance
     href: guidelines-and-best-practices/improving-report-performance.md
-  - name: Improving Search Performance
+  - name: Improving search performance
     href: guidelines-and-best-practices/improving-search-performance.md
-  - name: Improving Mobile Client Performance
+  - name: Improving Genus Apps performance
     href: guidelines-and-best-practices/improving-mobile-client-performance.md
-  - name: Security on Search
+  - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
-  - name: HTTPS Security headers - Genus Apps Hardening
-    href: guidelines-and-best-practices/https-security-headers.md
-  - name: Web Service Guidelines
+  - name: Genus Apps hardening (HTTPS security headers)
+    href: guidelines-and-best-practices/genus-apps-hardening.md
+  - name: Web service guidelines
     href: guidelines-and-best-practices/web-service-guidelines.md
     items:
     - name: Web Service Styles

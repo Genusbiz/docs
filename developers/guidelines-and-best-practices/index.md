@@ -12,5 +12,5 @@ In this section we provide articles focused on optimization, both in regards to 
 * [Improving search performance](improving-search-performance.md)
 * [Improving Genus Apps performance](improving-mobile-client-performance.md)
 * [Security on search](security-on-search.md)
-* [HTTPS Security headers - Genus Apps hardening](https-security-headers.md)
+* [Genus Apps hardening (HTTPS security headers)](genus-apps-hardening.md)
 * [Web wervice guidelines](web-service-guidelines.md)
