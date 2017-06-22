@@ -1,11 +1,11 @@
-# Data Sources
+# Data sources
 
 All of the data that appears in a form or table are stored in the form or table's data sources. A data source is made up of fields and groups. The kind of data stored in a field or group is defined by the **data type**. Data types are categorized in **simple data types** and **complex data types**. Simple data types include Boolean, Calendar Time, Integer, Integer Date, Integer Time, Internet Address, Large Integer, Real, Stream Data and String. Complex data types are defined in your Directory. For example *Customer* or a Schema. A field can store data for both simple and complex data types. A group is by definition a complex data type. For example, if you add a data source of type *Customer*, the data type for the top-level group in the data source is *Customer*. Within a data source, a group can be defined as **repeating**, meaning that data for the group occurs more than once. For example all *Products* in a given *Product Category*.
 
 To see if a data source is used within the form, right click the data source, and click **Find Local References**. To see if a specific field of a data source is used within the form, click the data source, and then in the list of fields, right click the field, and click **Find Local References**.
 
 
-## Add a Data Source
+## Add a data source
 
 1.  In the **Table Description** area, click **Data Sources**.
 2.  In the **Task Pane**, click **Add a Data Source**, and then click the type of data source you want to add; **Object**, **Local Object**, **XML Document**, or **File**.
@@ -22,57 +22,22 @@ To see if a data source is used within the form, right click the data source, an
 
 
 
-## Data Binding
+## Data binding
 
 The data binding defines the connection between the user interface and the business logic. The data flow can go from the data source to the user interface, for example when data are changed by [Live Update](../../data/object-class/modify-an-object-or-identifier-domain/events.md "Live Update"), and/or from the user interface to the data source, for example when the user edits the content of a table cell.
 
 You may want your form or table to enable users to change the data and propagate it back to the data source. Or you may not want to enable users to update the data source. You can control this by setting the data binding mode of your data source. The following table describes the different data binding modes:
 
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>Data Binding Mode</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>**One Time**</td>
-
-<td>Updates the user interface with source data when the binding is created. This type of binding is appropriate if you are using data where either a snapshot of the current state is appropriate to use, or the data is truly static. This is essentially a simpler form of **One Way** binding that provides better performance in cases where the source does not change.</td>
-
-</tr>
-
-<tr>
-
-<td>**One Way**</td>
-
-<td>Updates the user interface with source data when the binding is created and anytime the data changes. This type of binding is appropriate for data which are read-only.</td>
-
-</tr>
-
-<tr>
-
-<td>**Two Way**</td>
-
-<td>Updates both the user interface and the source when either changes. This type of binding is appropriate for fully interactive UI-scenarios.</td>
-
-</tr>
-
-</tbody>
-
-</table>
+| Data Binding Mode                 | Description                                         |
+|-----------------------------------|-----------------------------------------------------|
+| **One Time**                      | Updates the user interface with source data when the binding is created. This type of binding is appropriate if you are using data where either a snapshot of the current state is appropriate to use, or the data is truly static. This is essentially a simpler form of **One Way** binding that provides better performance in cases where the source does not change. |
+| **One Way**                       | Updates the user interface with source data when the binding is created and anytime the data changes. This type of binding is appropriate for data which are read-only. |
+| **Two Way**                       | Updates both the user interface and the source when either changes. This type of binding is appropriate for fully interactive UI-scenarios. |
 
 Bindings that are **One Way** or **Two Way** listen for changes in the data source. **Two Way** bindings listen for changes in the user interface as well, and propagate them back to the data source.
 
 
-
-## Add a New Field to a Data Source
+## Add a new field to a data source
 
 A data source in a form or table that is is based on an [Object Class](../../data/object-class/index.md) defined in your Directory, have fields in the data source that corresponds to [properties](../../data/object-class-property/index.md "Object Class Property") in the Object Class. A data source of the type Local Object, have all the fields defined locally.
 
@@ -81,138 +46,26 @@ To add a new field, do the following:
 1.  In the **Data Sources** list, click the data source of your choice.
 2.  In the **Task Pane**, click **Add a Field**.
 
-**Field Properties**
-
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>Property</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>Name</td>
-
-<td>Display name for the field.</td>
-
-</tr>
-
-<tr>
-
-<td>Type</td>
-
-<td>A field can be defined as a **Data** or **Function** field. Values for fields of type **Data** can be modified by users in your form or table. Note that changes made to fields of type **Data** not are written to the database, but can be accessed as long as your form or table is open. For example, you could add a field of type **Data** to collect various input parameters from users, and then use these parameters in other calculations. Values for fields of type **Function** are calculated using a formula or an aggregated measure.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Type</td>
-
-<td>Defines the kind of data the field can hold. Data types are categorized in simple- and complex data types. Simple data types include types such as String, Integer and Calendar Time. Complex data types are defined by [Object Classes](../../data/object-class/index.md) in your Directory.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Size</td>
-
-<td>The maximum number of characters a field with data type String can hold.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Interpretation</td>
-
-<td>Defines how to interpret data of a given type. For example, string data can be interpreted as an e-mail address or a file URL. Most data types have a default interpretation, that is, data are interpreted based on the data type itself.</td>
-
-</tr>
-
-<tr>
-
-<td>Significant Decimals</td>
-
-<td>Applies to properties with data type Real. Defines the number of decimals used when comparing floating-point data during concurrency control. Concurrency control is performed when data for an object is updated.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Encoding</td>
-
-<td>Determines how to encode binary data. Supported binary to text encoding schemes are Base64.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Calculation</td>
-
-<td>
-
-Data calculation lets you define a default value, a formula or an aggregated measure.
-
-*   **A default value** for a field is calculated when an object is created. For example, you may want to set the *state* for a *customer* to *Active* by default when a new *customer* is created. For more information on how to specify a default value, see the article [Specifying a Default Value or Formula](../../data/object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data**.
-*   **A formula** is calculated whenever data are read or modified. For example you could calculate the deviation between actual and budget figures. For more information on how to specify a formula, see the article [Specifying a Default Value or Formula](../../data/object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data** and **Function**.
-*   **An aggregated measure** is built by changing the granularity on specific dimensions and aggregating up a measure along these dimensions. For example, in a data source based on the Object Class *Customer*, you could calculate *total sales year to date* or *outstanding debt*. For more information on how to specify an aggregate measure, see the article [Specifying an Aggregated Measure](../../../installation-and-configuration/configure-and-maintain-genus-server/specifying-an-aggregated-measure.md "Specifying an Aggregated Measure"). Applies to fields of type **Function**.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>Data Validation</td>
-
-<td>
-
-Use data validation to ensure that values entered for a field satisfies certain requirements for correctness and accuracy. In addition to data type validation, that is, the value for a field has to be of a particular type, such as a whole number or date, you can make a field required, add condition-based data validations and define restrictions on fields with a complex data type:
-
-*   **Make a field required**. Click to clear the **Allow blank value** check box.
-*   **Add a condition-based data validation**. A condition-based data validation is defined by describing a condition which expresses what is regarded as erroneous data. For example that the start date for a project not can occur after the end date. In the **Data Validations** box, click **Modify**, and then in the **Data Validations** dialog box click **Add**. Follow the instructions in the [step-by-step procedure](specifying-a-conditionbased-data-validation.md "Specifying a Condition-Based Data Validation") on how to define a condition-based data validation.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>Screen Tip</td>
-
-<td>Text displayed when the user hovers the mouse over a control bound to the field.</td>
-
-</tr>
-
-<tr>
-
-<td>Case Conversion</td>
-
-<td>Applies to fields with data type String. Determines if the text for the field is converted to uppercase or lowercase when displayed in a control. The converted value is stored if the user has access to modify the field.</td>
-
-</tr>
-
-<tr>
-
-<td>Description</td>
-
-<td>Documentation of the purpose and content of the field.</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-
-
-## Customize a Field Bound to an Object Class Property
+### Field properties
+
+| Property                         | Description                                          |
+|----------------------------------|------------------------------------------------------|
+| Name                             | Display name for the field.                          |
+| Type                             | A field can be defined as a **Data** or **Function** field. Values for fields of type **Data** can be modified by users in your form or table. Note that changes made to fields of type **Data** not are written to the database, but can be accessed as long as your form or table is open. For example, you could add a field of type **Data** to collect various input parameters from users, and then use these parameters in other calculations. Values for fields of type **Function** are calculated using a formula or an aggregated measure. |
+| Data Type                        | Defines the kind of data the field can hold. Data types are categorized in simple- and complex data types. Simple data types include types such as String, Integer and Calendar Time. Complex data types are defined by [Object Classes](../../data/object-class/index.md) in your Directory. |
+| Data Size                        | The maximum number of characters a field with data type String can hold. |
+| Data Interpretation              | Defines how to interpret data of a given type. For example, string data can be interpreted as an e-mail address or a file URL. Most data types have a default interpretation, that is, data are interpreted based on the data type itself. |
+| Significant Decimals             | Applies to properties with data type Real. Defines the number of decimals used when comparing floating-point data during concurrency control. Concurrency control is performed when data for an object is updated. |
+| Data Encoding                    | Determines how to encode binary data. Supported binary to text encoding schemes are Base64. |
+| Data Calculation                 | Data calculation lets you define a default value, a formula or an aggregated measure.<br><br><ul><li>**A default value** for a field is calculated when an object is created. For example, you may want to set the *state* for a *customer* to *Active* by default when a new *customer* is created. For more information on how to specify a default value, see the article [Specifying a Default Value or Formula]</li><li>../../data/object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data**.</li><li>**A formula** is calculated whenever data are read or modified. For example you could calculate the deviation between actual and budget figures. For more information on how to specify a formula, see the article [Specifying a Default Value or Formula](../../data/object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data** and **Function**.</li><li>**An aggregated measure** is built by changing the granularity on specific dimensions and aggregating up a measure along these dimensions. For example, in a data source based on the Object Class *Customer*, you could calculate *total sales year to date* or *outstanding debt*. For more information on how to specify an aggregate measure, see the article [Specifying an Aggregated Measure](../../../installation-and-configuration/configure-and-maintain-genus-server/specifying-an-aggregated-measure.md "Specifying an Aggregated Measure"). Applies to fields of type **Function**.</li></ul> |
+| Data Validation                  | Use data validation to ensure that values entered for a field satisfies certain requirements for correctness and accuracy. In addition to data type validation, that is, the value for a field has to be of a particular type, such as a whole number or date, you can make a field required, add condition-based data validations and define restrictions on fields with a complex data type:<br><br><ul><li>**Make a field required**. Click to clear the **Allow blank value** check box.</li><li>**Add a condition-based data validation**. A condition-based data validation is defined by describing a condition which expresses what is regarded as erroneous data. For example that the start date for a project not can occur after the end date. In the **Data Validations** box, click **Modify**, and then in the **Data Validations** dialog box click **Add**. Follow the instructions in the [step-by-step procedure](specifying-a-conditionbased-data-validation.md "Specifying a Condition-Based Data Validation") on how to define a condition-based data validation.</li></ul> |
+| Screen Tip                        | Text displayed when the user hovers the mouse over a control bound to the field. |
+| Case Conversion                   | Applies to fields with data type String. Determines if the text for the field is converted to uppercase or lowercase when displayed in a control. The converted value is stored if the user has access to modify the field. |
+| Description                       | Documentation of the purpose and content of the field. |
+
+
+
+## Customize a field bound to an object class property
 
 Most property settings for fields which are bound to an [Object Class Property](../../data/object-class-property/index.md "Object Class Property") are inherited, and you are only allowed to modify the following properties:
 
@@ -222,7 +75,7 @@ Most property settings for fields which are bound to an [Object Class Property](
 
 
 
-## Add a Rule to a Data Source
+## Add a rule to a data source
 
 Applicable to data sources of type Object or Local Object.
 
@@ -241,11 +94,11 @@ Note that Rules defined in the Object Class which the data source is based on, a
 
 
 
-## Reading Data into a Data Source
+## Reading data into a data source
 
 One of the most common way to read data into a data sources is by filtering data. Another way is by aggregating data. Applicable to data sources of type Object.  
 
-**Filter Data for a Data Source**
+### Filter data for a data source
 
 1.  In the **Data Sources** list, click the data source of your choice.
 2.  In the **Properties** area, click the **Data Filter** tab.
@@ -260,7 +113,7 @@ It is possible to define filters for selected groups in the data source. These g
 
 You can also [define a mandatory and default data filter for a data source in a view](views.md). Note that the data filter defined here is appended to the mandatory data filter defined in a view. Users are not allowed to search outside the restriction given by the data filter defined for a data source or a mandatory data filter defined in a view.
 
-**Aggregating Data**
+### Aggregating Data
 
 Aggregations are built from a base data source by changing the granularity on specific dimensions and aggregating measures along these dimensions. The base data source consists of measurements or metrics of a business process, such as *sales volume* by *day* and *product*. The measures act as independent variables by which dimensional attributes are analyzed.
 
