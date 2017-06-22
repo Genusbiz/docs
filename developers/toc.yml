@@ -282,49 +282,50 @@
   - name: Data
     href: defining-an-app-model/data/index.md
     items:
-    - name: Object Class
-      href: defining-an-app-model/object-class.md
-    - name: Create or Modify a Code Domain
-      href: defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md
-    - name: Create a New Identifier Domain
-      href: defining-an-app-model/data/object-class/create-a-new-identifier-domain.md
-    - name: Create a New Object Domain
-      href: defining-an-app-model/data/object-class/create-a-new-object-domain.md
-    - name: Modify an Object- or Identifier Domain
-      href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain.md
+    - name: Object class diagram
+      href: defining-an-app-model/data/object-class-diagram.md
+    - name: Object class
+      href: defining-an-app-model/data/object-class/index.md
       items:
-      - name: General Settings
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/general-settings.md
-      - name: Data Provider
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-provider.md
-      - name: Data Integrity
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-integrity.md
-      - name: Rules
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/rules.md
-      - name: Data Filtering
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-filtering.md
-      - name: Data Sorting
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-sorting.md
-      - name: Data Aggregation
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-aggregation.md
-      - name: Data Dependencies
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-dependencies.md
-      - name: Search
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/search.md
-      - name: Explore
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/explore.md
-      - name: Display
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/display.md
-      - name: Events
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/events.md
-      - name: Security
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/security.md
-      - name: Data Exchange
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
-      - name: Follow Up
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
-  - name: Object Class Diagram
-    href: defining-an-app-model/object-class-diagram.md
+      - name: Create or modify a code domain
+        href: defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md
+      - name: Create a new identifier domain
+        href: defining-an-app-model/data/object-class/create-a-new-identifier-domain.md
+      - name: Create a new object domain
+        href: defining-an-app-model/data/object-class/create-a-new-object-domain.md
+      - name: Modify an object- or identifier domain
+        href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain.md
+        items:
+        - name: General Settings
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/general-settings.md
+        - name: Data Provider
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-provider.md
+        - name: Data Integrity
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-integrity.md
+        - name: Rules
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/rules.md
+        - name: Data Filtering
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-filtering.md
+        - name: Data Sorting
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-sorting.md
+        - name: Data Aggregation
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-aggregation.md
+        - name: Data Dependencies
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-dependencies.md
+        - name: Search
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/search.md
+        - name: Explore
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/explore.md
+        - name: Display
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/display.md
+        - name: Events
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md
+        - name: Security
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/security.md
+        - name: Data Exchange
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md
+        - name: Follow Up
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/follow-up.md
   - name: Object Class Property
     href: defining-an-app-model/object-class-property.md
     items:

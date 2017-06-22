@@ -410,5 +410,5 @@ For example, if an Object Class contains data for <span style="FONT-STYLE: itali
 
 <span style="FONT-STYLE: italic">?-1.sales_price * ?.exchange_rate
 
-Note that properties using RDBMS expressions with a placeholderdata source, can only be used in contexts where SQL queries can be executed. For example, such a property cannot be used to [define the display name for an object class](../../object-class/modify-an-object--or-identifier-domain/display.md).
+Note that properties using RDBMS expressions with a placeholderdata source, can only be used in contexts where SQL queries can be executed. For example, such a property cannot be used to [define the display name for an object class](../../data/object-class/modify-an-object-or-identifier-domain/display.md).
 

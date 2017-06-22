@@ -24,7 +24,7 @@
 22.  Click **Next**.
 23.  To define how objects are named, add one or more properties from the Object Class. The name identify an object to the user, and does not have to be unique. For example, the *article number* and *name* of a *product*. For a given object, the name is constructed by concatenating the values for the selected properties.
 24.  Click **Next**.
-25.  To make this Object Class a part of an existing Object Class, a Composition, select **Part of Object Class** and in the list select the Object Class. In the **Parent/Child Property** box, select the property that identifies the connection between the Object Classes. If the Object Class defines a simple relation between two Object Classes, for example, tags used to categorize pictures or files, you can specify a **Domain Property**. For more information on these settings, see [Object Class General Settings](../../object-class/modify-an-object--or-identifier-domain/general-settings.md).
+25.  To make this Object Class a part of an existing Object Class, a Composition, select **Part of Object Class** and in the list select the Object Class. In the **Parent/Child Property** box, select the property that identifies the connection between the Object Classes. If the Object Class defines a simple relation between two Object Classes, for example, tags used to categorize pictures or files, you can specify a **Domain Property**. For more information on these settings, see [Object Class General Settings](modify-an-object-or-identifier-domain/general-settings.md).
 26.  To save the Object Class, click **Finish**.
 
 See Also

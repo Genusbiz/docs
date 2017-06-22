@@ -32,7 +32,7 @@ To make a report available for distribution, define a link to it by following th
 
 *   [Open the Object Class for modification](../../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain.md).
 *   Click the **Explore** tab.
-*   [Add a link to the report](../../../developers/defining-an-app-model/object-class/modify-an-object--or-identifier-domain/explore.md). 
+*   [Add a link to the report](../../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/explore.md). 
 
 The steps for [distributing a report](../../../developers/defining-an-app-model/logic/action-orchestration/actions/effects/distribution-of-reports.md "Distribution of Reports") are as follows:
 

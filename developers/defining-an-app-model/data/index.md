@@ -4,7 +4,7 @@
 
 **Topics in Data**
 
-* [Object Class](../object-class.md)
+* [Object Class](object-class/index.md)
 * [Create or Modify a Code Domain](object-class/create-or-modify-a-code-domain.md)
 * [Create a New Identifier Domain](object-class/create-a-new-identifier-domain.md)
 * [Create a New Object Domain](object-class/create-a-new-object-domain.md)

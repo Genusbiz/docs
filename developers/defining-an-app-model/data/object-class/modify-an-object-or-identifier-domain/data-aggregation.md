@@ -27,7 +27,7 @@ A data aggregate is defined by associating an Object Class with another Object C
 
 The following rules applies for associating properties and connections:
 
-*   Available **Base Properties** are restricted to properties with a complex data interpretation, numeric properties with a simple data interpretation [enabled as measures](../../object-class-property/modify-an-object-class-property/data-aggregation.md), and connections.
+*   Available **Base Properties** are restricted to properties with a complex data interpretation, numeric properties with a simple data interpretation [enabled as measures](../../../object-class-property/modify-an-object-class-property/data-aggregation.md), and connections.
 *   If the **Base Property** is a property, the associated **Aggregate Property** has to be a property.
 *   If the **Base Property** is a connection, the associated **Aggregate Property** can be either a property or a connection.
 *   The data interpretation for the **Base Property** and the **Aggregate Property** has to be the same.

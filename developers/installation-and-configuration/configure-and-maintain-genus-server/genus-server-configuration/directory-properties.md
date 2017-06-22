@@ -135,7 +135,7 @@ Or
 
 ## Logical Databases
 
-The logical databases are used in the application model to [specify the location of object classes](../../../defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-provider.md). The logical databases are then [mapped](data-set-properties.md) to physical databases depending on which data set the user are signed in.
+The logical databases are used in the application model to [specify the location of object classes](../../../defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-provider.md). The logical databases are then [mapped](data-set-properties.md) to physical databases depending on which data set the user are signed in.
 
 A logical database can be shared between all data sets, and the mapping to a physical database is then done only once in the logical database itself.
 

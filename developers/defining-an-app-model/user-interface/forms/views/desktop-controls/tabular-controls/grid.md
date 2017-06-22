@@ -83,7 +83,7 @@ Initially Selected      | The column is selected when the control is initially o
 Label                   | The label for the column. Enter a text in the box, or click the "..." button in the box to select a field.
 Label - Colon Suffix    | Show a colon ":" after the label.
 Name                    | Used to identify the column in a list of columns.
-Open in Default Form    | The selected object can be opened using the [default form](../../../../../object-class/modify-an-object--or-identifier-domain/explore.md) for the object class.
+Open in Default Form    | The selected object can be opened using the [default form](../../../../../data/object-class/modify-an-object-or-identifier-domain/explore.md) for the object class.
 Read Only               | It is not possible to edit the cells in column. This option is currently always true.
 Screen Tip              | The screen tip which is displayed when the mouse cursor is moved over the column. Enter a text in the box, or click the "..." button in the box to select a field.
 Tab Index               | The number in the tab sequence order for the column.

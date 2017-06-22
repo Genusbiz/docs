@@ -442,7 +442,7 @@ Label
 
 <td>Open in Default Form</td>
 
-<td>The selected object can be opened using the [default form](../../../../../object-class/modify-an-object--or-identifier-domain/explore.md) for the object class.</td>
+<td>The selected object can be opened using the [default form](../../../../../data/object-class/modify-an-object-or-identifier-domain/explore.md) for the object class.</td>
 
 </tr>
 

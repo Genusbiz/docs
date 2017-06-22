@@ -106,5 +106,5 @@ Select the **Run with Highest Privileges** check box to run the effect with elev
 
 Enable User Notifiation Contstraints**
 
-Enable User Notification Constraints is available for effect in task and data sources of the type Object. To disable evaluation of the [Uniqueness Constraints](../../../../object-class/modify-an-object--or-identifier-domain/data-integrity.md) and [Consistency Constraints](../../../../object-class/modify-an-object--or-identifier-domain/data-integrity.md), click to clear** Enable User Notification Constraints. Only constraints of the type Notify user and ask for confirmation to proceed will be disable.  
+Enable User Notification Constraints is available for effect in task and data sources of the type Object. To disable evaluation of the [Uniqueness Constraints](../../../../data/object-class/modify-an-object-or-identifier-domain/data-integrity.md) and [Consistency Constraints](../../../../data/object-class/modify-an-object-or-identifier-domain/data-integrity.md), click to clear** Enable User Notification Constraints. Only constraints of the type Notify user and ask for confirmation to proceed will be disable.  
 

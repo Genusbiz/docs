@@ -1,8 +1,8 @@
 ## Events
 
-Genus App Platform allows you to add auditing capabilities to an Object Class. Audit trails for an Object Class is stored in the [Event History](../../../../terminology.md) which is a chronological sequence of audit trails, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables users to reconstruct and examine the sequence of events and/or changes in an event for an object.
+Genus App Platform allows you to add auditing capabilities to an Object Class. Audit trails for an Object Class is stored in the [Event History](../../../../../terminology.md) which is a chronological sequence of audit trails, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables users to reconstruct and examine the sequence of events and/or changes in an event for an object.
 
-If an Object Class is part of a [composition](../../../installation-and-configuration/composition.md "Composition"), audit trails for an object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if _Contact Person_ is part of _Customer_, and a new _contact person_ is added to a _customer_, the event is logged as a **Create** event on the _contact person_ and a **Modified** event on the _customer_.
+If an Object Class is part of a [composition](../../../../installation-and-configuration/composition.md "Composition"), audit trails for an object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if _Contact Person_ is part of _Customer_, and a new _contact person_ is added to a _customer_, the event is logged as a **Create** event on the _contact person_ and a **Modified** event on the _customer_.
 
 
 ## Events Tracked in the Event History
@@ -93,7 +93,7 @@ If an Object Class is part of a [composition](../../../installation-and-configur
 2.  Right-click the Object Class, and then on the shortcut menu, click **Open**.
 3.  Click the **Events** tab.
 4.  In the section **Auditing**, select the **Enabling auditing** check box.
-5.  Choose which events you want to track in the Event History. If the event should be tracked for all objects, click the **Mandatory** check box. To allow users to [select if the event should be tracked for individual objects](../../../../users/navigate-view-modify-and-control/working-in-forms/advanced/view-history.md "Modify Auditing for an Object"), click the **Optional** check box. Note that the events **Create** and **Delete** not can be omitted from the Event History when auditing is activated. To disable auditing for an event, click the **Never** check box.
+5.  Choose which events you want to track in the Event History. If the event should be tracked for all objects, click the **Mandatory** check box. To allow users to [select if the event should be tracked for individual objects](../../../../../users/navigate-view-modify-and-control/working-in-forms/advanced/view-history.md "Modify Auditing for an Object"), click the **Optional** check box. Note that the events **Create** and **Delete** not can be omitted from the Event History when auditing is activated. To disable auditing for an event, click the **Never** check box.
 
 
 

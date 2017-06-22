@@ -12,7 +12,7 @@ Store E-mails in the application connected to the relevant business data. Define
 
 **Reply and Forward to E-mails stored in the application**
 
-Reply and Forward directly to E-mails stored in the application, and make sure the dialog is complete by storing the reply alongside the original. For more information see [Data Exchange settings](../../defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md) in Object Class.
+Reply and Forward directly to E-mails stored in the application, and make sure the dialog is complete by storing the reply alongside the original. For more information see [Data Exchange settings](../../defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md) in Object Class.
 
 **Copy and Paste E-mails, Contacts, and Calendar Items**
 

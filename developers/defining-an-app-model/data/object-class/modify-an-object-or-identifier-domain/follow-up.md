@@ -21,21 +21,21 @@ To add a flag on all objects for this Object Class, do the following:
 3.  In the **Flag Color** box, select a flag color indicating the importance for the flag.
 4.  Optionally type a description in the **Description** box.
 5.  To display the flag in the information bar when an object is opened, select the **Show flag in the information bar when the object is opened** check box.
-6.  In the section **Show this flag if the following condition is true**, click **Change** to enter a [condition](../../common-concepts/conditions.md "Conditions") that must be satisifed for any given object if the flag should be displayed.
+6.  In the section **Show this flag if the following condition is true**, click **Change** to enter a [condition](../../../common-concepts/conditions.md "Conditions") that must be satisifed for any given object if the flag should be displayed.
 
 ## Reminders
 
-Reminders will send users an alert to follow up on an object when the reminder is due. To allow users to [add reminders on individual objects](../../../../users/navigate-view-modify-and-control/running-actions/follow-up/reminders.md), select the **Reminders** check box.
+Reminders will send users an alert to follow up on an object when the reminder is due. To allow users to [add reminders on individual objects](../../../../../users/navigate-view-modify-and-control/running-actions/follow-up/reminders.md), select the **Reminders** check box.
 
 
 
 ## Notifications
 
-A notification will send users an alert when a specified event occurs for an object. To allow users to [add notifications to individual objects](../../../../users/navigate-view-modify-and-control/running-actions/follow-up/notifications.md), select the **Notifications** check box.
+A notification will send users an alert when a specified event occurs for an object. To allow users to [add notifications to individual objects](../../../../../users/navigate-view-modify-and-control/running-actions/follow-up/notifications.md), select the **Notifications** check box.
 
 
 
 See Also
 
-*   [Reminders](../../../../users/navigate-view-modify-and-control/running-actions/follow-up/reminders.md)
-*   [Notifications](../../../../users/navigate-view-modify-and-control/running-actions/follow-up/notifications.md)
+*   [Reminders](../../../../../users/navigate-view-modify-and-control/running-actions/follow-up/reminders.md)
+*   [Notifications](../../../../../users/navigate-view-modify-and-control/running-actions/follow-up/notifications.md)

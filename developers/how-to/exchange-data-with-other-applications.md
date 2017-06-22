@@ -18,7 +18,7 @@ Web services is mostly used for system-to-system communication over the network 
 
 **Database**
 
-When using the database to exchange data between applications, the actual exchange is performed by a database system or a third party application, and is therefore transparent to Genus. Data from another application is available in a database table that Genus can access, or Genus will populate a table with data that another application can access. For more information on defining objecst to access data in database tables, see [Object Class](../defining-an-app-model/object-class.md).
+When using the database to exchange data between applications, the actual exchange is performed by a database system or a third party application, and is therefore transparent to Genus. Data from another application is available in a database table that Genus can access, or Genus will populate a table with data that another application can access. For more information on defining objecst to access data in database tables, see [Object Class](../defining-an-app-model/data/object-class/index.md).
 
 **Topics in "Exchange Data with Other Applications"**
 * [Exchanging Files and Objects](exchange-data-with-other-applications/exchanging-files-and-objects.md)

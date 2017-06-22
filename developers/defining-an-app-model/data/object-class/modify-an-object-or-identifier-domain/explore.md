@@ -3,7 +3,7 @@
 
 ## Views
 
-Define views used when displaying objects from Object Class. A view is composed of properties and settings controlling the way objects are sorted and grouped. To set a view to be the default view for the object class, select the **Default** check box. Only one view can be set as default, but you can re-use a view from a table as the default view. You can also [create shortcut](../../user-interface/navigation-pane.md "Add a Shortcut to a View Button, Group or Folder") for the basic views. To allows user to search in the Data Source with the basic view, select **Search View** check box.
+Define views used when displaying objects from Object Class. A view is composed of properties and settings controlling the way objects are sorted and grouped. To set a view to be the default view for the object class, select the **Default** check box. Only one view can be set as default, but you can re-use a view from a table as the default view. You can also [create shortcut](../../../user-interface/navigation-pane.md "Add a Shortcut to a View Button, Group or Folder") for the basic views. To allows user to search in the Data Source with the basic view, select **Search View** check box.
 
 **Basic View**  
 
@@ -57,7 +57,7 @@ To add Basic View, in the **View** section, click **Modify** and click **Add**.
 
 <td>Automatic Formatting</td>
 
-<td>Visualize specific aspects of the data. See also, [Automatic Formatting](../../common-concepts/automatic-formatting.md "Automatic Formatting").</td>
+<td>Visualize specific aspects of the data. See also, [Automatic Formatting](../../../common-concepts/automatic-formatting.md "Automatic Formatting").</td>
 
 </tr>
 
@@ -183,7 +183,7 @@ A Table View is a view defined in Table. The table view can be re-used for the o
 
 ![IDACC168F80DC1495F.ID6847125DF4864A19.png](media/IDACC168F80DC1495F.ID6847125DF4864A19.png)
 
-For more information about defining views in tables, see the article about [Views](../../user-interface/tables/views.md "Views") in a Table.
+For more information about defining views in tables, see the article about [Views](../../../user-interface/tables/views.md "Views") in a Table.
 
 ## Browse Paths
 
@@ -212,7 +212,7 @@ To add a step in the path condition, do the following:
 2.  Click the down arrow and then click **Select Field or Group**.  
     ![ID6FE78B10200C43CF.ID5542AD8FA2124201.jpg](media/ID6FE78B10200C43CF.ID5542AD8FA2124201.jpg)
 3.  In the list, select the correct object class.
-4.  In the immediately followin **By** section, define the condition between the two object classes. To enter conditions for more than one set of proerties, click **Add>>**. For more information on defining conditinos see [Conditions](../../common-concepts/conditions.md "Conditions").  ![ID6FE78B10200C43CF.IDCAA7AE065E8D4BD1.jpg](media/ID6FE78B10200C43CF.IDCAA7AE065E8D4BD1.jpg)
+4.  In the immediately followin **By** section, define the condition between the two object classes. To enter conditions for more than one set of proerties, click **Add>>**. For more information on defining conditinos see [Conditions](../../../common-concepts/conditions.md "Conditions").  ![ID6FE78B10200C43CF.IDCAA7AE065E8D4BD1.jpg](media/ID6FE78B10200C43CF.IDCAA7AE065E8D4BD1.jpg)
 5.  If the path condition is finished, click **OK,** then click **OK,** then click **OK.**
 6.  Or, to add another step in the path, click **Click to modify the right side of join**.
 7.  Repeat from 1)
@@ -223,13 +223,13 @@ To add a step in the path condition, do the following:
 
 A link to a Report is defined by specifying a data filter for the data sources provided by the Report. The objects selected by users in a table or form are sent as input when the linked is opened. These objects can be used for filtering the data sources provided by the Report, and gives you the opportunity to define context sensitive links.
 
-The links to reports defined here, are displayed in the Report **Task Pane** and available for [distribution](../../logic/action-orchestration/actions/effects/distribution-of-reports.md "Distribution of Reports"). You may also display links to a report from other places, like tab sheets in a Form and shortcuts in the Navigation Pane. See [Edit Report Links](../../../how-to/exchange-data-with-other-applications/edit-report-links.md "Edit Report Links") for more information.
+The links to reports defined here, are displayed in the Report **Task Pane** and available for [distribution](../../../logic/action-orchestration/actions/effects/distribution-of-reports.md "Distribution of Reports"). You may also display links to a report from other places, like tab sheets in a Form and shortcuts in the Navigation Pane. See [Edit Report Links](../../../../how-to/exchange-data-with-other-applications/edit-report-links.md "Edit Report Links") for more information.
 
 Follow these steps to create an Report Link in the Report **Task Pane**:
 
 1.  In the **Report Links** section, click **Modify**.
 2.  Click **Add**, and then select an Report.
-3.  Follow the instructions in the [step-by-step procedure](../../../how-to/exchange-data-with-other-applications/edit-report-links.md "Edit Report Links") on how to edit a Report Link.
+3.  Follow the instructions in the [step-by-step procedure](../../../../how-to/exchange-data-with-other-applications/edit-report-links.md "Edit Report Links") on how to edit a Report Link.
 
 
 
@@ -245,7 +245,7 @@ To add a new association, do the following:
 2.  In the **Associated Object Class** box, select the Object Class which you want to associate.
 3.  Type a name in the **Name** box.
 4.  In the list below, associate properties and connections in the Object Class (**Base Property**) with a property or connection in the associated Object Class (**Associated Property**).
-5.  In the **Data Filter** box, click **Modify** to specify a data filter for the associated Object Class. In the **Data Filter** dialog box, specify a [condition](../../common-concepts/conditions.md) for restricting which objects to associate. In the example above, you would typically match the request with employees which not are absent or quitted.
+5.  In the **Data Filter** box, click **Modify** to specify a data filter for the associated Object Class. In the **Data Filter** dialog box, specify a [condition](../../../common-concepts/conditions.md) for restricting which objects to associate. In the example above, you would typically match the request with employees which not are absent or quitted.
 
 The following rules applies for associating properties and connections:
 

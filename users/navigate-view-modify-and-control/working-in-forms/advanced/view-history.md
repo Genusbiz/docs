@@ -56,7 +56,7 @@ Required [security permission](../../../../developers/defining-an-app-model/secu
 1.  Select the object for which you want to modify auditing.
 2.  In the **File** menu, click **Properties**.
 3.  Click the **History** tab.
-4.  In the list **Auditing**, click the events you want to track in the Event History. Events marked with the text **All objects** are activated for all objects, and can not be deactivated for an individual object. The number of events that can be selected for an individual object is defined in the [auditing setup for all objects in the Directory](../../../../developers/defining-an-app-model/object-class/modify-an-object--or-identifier-domain/events.md "Events").
+4.  In the list **Auditing**, click the events you want to track in the Event History. Events marked with the text **All objects** are activated for all objects, and can not be deactivated for an individual object. The number of events that can be selected for an individual object is defined in the [auditing setup for all objects in the Directory](../../../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md "Events").
 
 
 

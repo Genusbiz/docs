@@ -1,6 +1,6 @@
-## Object Class Property
+# Object class property
 
-Applies to: [Object Class](object-class.md "Object Class")
+Applies to: [Object Class](data/object-class/index.md)
 
 Properties express static descriptions of data for an Object Class. A property can be defined as a **Data** or **Function** property. Values for properties of type **Data** are stored in the database. Values for properties of type **Function** is calculated using a formula or a RDBMS expression. The kind of data a property can hold, is defined by its data type and data interpretation.
 

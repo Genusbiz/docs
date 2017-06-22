@@ -24,7 +24,7 @@ To see if a data source is used within the form, right click the data source, an
 
 ## Data Binding
 
-The data binding defines the connection between the user interface and the business logic. The data flow can go from the data source to the user interface, for example when data are changed by [Live Update](../../object-class/modify-an-object--or-identifier-domain/events.md "Live Update"), and/or from the user interface to the data source, for example when the user edits the content of a table cell.
+The data binding defines the connection between the user interface and the business logic. The data flow can go from the data source to the user interface, for example when data are changed by [Live Update](../../data/object-class/modify-an-object-or-identifier-domain/events.md "Live Update"), and/or from the user interface to the data source, for example when the user edits the content of a table cell.
 
 You may want your form or table to enable users to change the data and propagate it back to the data source. Or you may not want to enable users to update the data source. You can control this by setting the data binding mode of your data source. The following table describes the different data binding modes:
 
@@ -74,7 +74,7 @@ Bindings that are **One Way** or **Two Way** listen for changes in the data sour
 
 ## Add a New Field to a Data Source
 
-A data source in a form or table that is is based on an [Object Class](../../object-class.md "Object Class") defined in your Directory, have fields in the data source that corresponds to [properties](../../object-class-property.md "Object Class Property") in the Object Class. A data source of the type Local Object, have all the fields defined locally.
+A data source in a form or table that is is based on an [Object Class](../../data/object-class/index.md) defined in your Directory, have fields in the data source that corresponds to [properties](../../object-class-property.md "Object Class Property") in the Object Class. A data source of the type Local Object, have all the fields defined locally.
 
 To add a new field, do the following:
 
@@ -115,7 +115,7 @@ To add a new field, do the following:
 
 <td>Data Type</td>
 
-<td>Defines the kind of data the field can hold. Data types are categorized in simple- and complex data types. Simple data types include types such as String, Integer and Calendar Time. Complex data types are defined by [Object Classes](../../object-class.md "Object Class") in your Directory.</td>
+<td>Defines the kind of data the field can hold. Data types are categorized in simple- and complex data types. Simple data types include types such as String, Integer and Calendar Time. Complex data types are defined by [Object Classes](../../data/object-class/index.md) in your Directory.</td>
 
 </tr>
 
@@ -226,7 +226,7 @@ Most property settings for fields which are bound to an [Object Class Property](
 
 Applicable to data sources of type Object or Local Object.
 
-Rules enables you to define a rule base for a data source which contains the knowledge on how to respond to different events. When an event occurs, e.g. when the value for a field is modified, the Rule is triggered and all actions specified are carried out. For more information on how to define a rule, see the article [Rules](../../object-class/modify-an-object--or-identifier-domain/rules.md "Rules") which describes the setup for an Object Class rule.
+Rules enables you to define a rule base for a data source which contains the knowledge on how to respond to different events. When an event occurs, e.g. when the value for a field is modified, the Rule is triggered and all actions specified are carried out. For more information on how to define a rule, see the article [Rules](../../data/object-class/modify-an-object-or-identifier-domain/rules.md "Rules") which describes the setup for an Object Class rule.
 
 Note that Rules defined in the Object Class which the data source is based on, are evaluated before any rules specified in the data source.  
 

@@ -20,7 +20,7 @@ Typical scenarios for condition mapped refiners could be:
 
 Custom categories are always defined by Code Domains in your Directory. For a given Conditional refiner bound to a Code Domain, a mapping to an Object Class is defined by specifying a condition for each value in that Code Domain.
 
-For information on how to publish your refiners, see [Search](object-class/modify-an-object--or-identifier-domain/search.md) and [Views](user-interface/tables/views.md).
+For information on how to publish your refiners, see [Search](data/object-class/modify-an-object-or-identifier-domain/search.md) and [Views](user-interface/tables/views.md).
 
 
 ## Create a Refiner
@@ -59,5 +59,5 @@ For information on how to publish your refiners, see [Search](object-class/modif
 12.  Repeat 10 and 11 for all object classes to map.
 13.  Click **OK**.
 
-For information on how to publish your refiners, see [Search](object-class/modify-an-object--or-identifier-domain/search.md) and [Views](user-interface/tables/views.md).
+For information on how to publish your refiners, see [Search](data/object-class/modify-an-object-or-identifier-domain/search.md) and [Views](user-interface/tables/views.md).
 

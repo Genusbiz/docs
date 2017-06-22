@@ -19,7 +19,7 @@ Property                |  Description
 ------------------------|------------------------------------------------------------------------
 Data Filter             | Filters the data for the control.<br><br><ul><li>For data binding type Object, the data binding data source is filtered.</li><li>For data binding type Value, the data source referenced by the data binding field is filtered.</li></ul>
 Display Value           | A field in the data source to display as the value in the list.
-Open in Default Form    | The selected object can be opened using the [default form](../../../../object-class/modify-an-object--or-identifier-domain/explore.md) for the object class.
+Open in Default Form    | The selected object can be opened using the [default form](../../../../data/object-class/modify-an-object-or-identifier-domain/explore.md) for the object class.
 Show Special Items      | Show items to assist the user with selection<br><br><ul><li>**None** - the user can click to clear the value. Only displayed for Native and Radio Button styles.</li><li>**Select All** - the user can click this item to select all the items. Only displayed for Check Box style.</li></ul>
 Sort Order              | Sort the list by display value<br><br><ul><li>**None** - Do not sort.</li><li>**Ascending** - Sort alphabetically ascending.</li><li>**Descending** - Sort alphabetically descending.</li></ul>
 Style                   | Defines the visual style of the control<br><br><ul><li>**Native** - Show as standard combo box.</li><li>**Check Box** - Show as a list of check boxes.</li><li>**Radio Button** - Show as a list of radio buttons.</li></ul>
@@ -67,6 +67,6 @@ Property                |  Description
 ------------------------|------------------------------------------------------------------------
 Data Filter             | Filters the data for the control.
 Display Value           | A field in the data source to display as the value in the list.
-Open in Default Form    | The selected object can be opened using the [default form](../../../../object-class/modify-an-object--or-identifier-domain/explore.md) for the object class.
+Open in Default Form    | The selected object can be opened using the [default form](../../../../data/object-class/modify-an-object-or-identifier-domain/explore.md) for the object class.
 Hierarchy               | The hierarchy to use when displaying items in the data source. This is useful when selecting from items that are structured in an hierarchical manner. For example when selecting from units in an organisation with the following levels *Company - Department - Unit*.
 

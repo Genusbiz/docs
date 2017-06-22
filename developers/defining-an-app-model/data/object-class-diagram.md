@@ -11,7 +11,7 @@ Bi-directional synchronization of the object model and the database is supported
 
 ## How to Open the Object Class Diagram
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory Tree**, click the **Object Classes** folder.
 3.  On the status bar at the lower right-part of the window, click **Diagram**![IDE6AFB151D08243E4.IDE6547F2F3B85460A.jpg](media/IDE6AFB151D08243E4.IDE6547F2F3B85460A.jpg).
 
@@ -439,5 +439,5 @@ If you want to insert shapes as a picture in a document, for example in a spread
 
 ## Keyboard Shortcuts
 
-Keyboard shortcuts available in the Object Class diagram are described in the article [Keyboard Shortcuts for Genus Desktop Client](../keyboard-shortcuts.md).
+Keyboard shortcuts available in the Object Class diagram are described in the article [Keyboard Shortcuts for Genus Desktop Client](../../keyboard-shortcuts.md).
 
