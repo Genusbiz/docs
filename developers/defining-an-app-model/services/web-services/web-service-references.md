@@ -9,7 +9,7 @@ To create a Web Service Reference, do the following:
 3.  In the **Name** box, type a name for the Web Service Reference.
 4.  Select the location of the Web Service. You can call a Web Service published on your Application Server, or a Web Service published at a specified address. If you type an address, click **Update Metadata** to retrieve the description of the Web Service.
 5.  If user authentication is required, type a user name and password in the **User Name** and **Password** boxes.
-6.  If the Web Service requires certificate based authentication, you will be prompted for a **Certificate Thumbprint**. Follow the instructions in the [step-by-step procedure](../../data-marts/consuming-web-services-with-certificate-based-authentication.md "Consuming Web Services with certificate based authentication") on how to install the certificate and retrieve the certificate thumbprint.
+6.  If the Web Service requires certificate based authentication, you will be prompted for a **Certificate Thumbprint**. Follow the instructions in the [step-by-step procedure](consuming-web-services-with-certificate-based-authentication.md "Consuming Web Services with certificate based authentication") on how to install the certificate and retrieve the certificate thumbprint.
 7.  In the **Contract** box, select the appropriate service contract.
 
 You may browse the content of the selected service contract by examining the **Endpoints** and **Operations** tabs. The Operations tab shows **what** features the selected contract offers, and the Endpoints tab shows **how** the features are offered.  
@@ -32,7 +32,7 @@ If the service provider requires user authentication, do the following:
 
 1.  In the **Credential** **Type** box, select the preferred credential type.
 2.  Type a user name and password in the **User Name** and **Password** boxes.
-3.  If the Web Service requires certificate based authentication, the certificate must be installed on the application server. Follow the instructions in the [step-by-step procedure](../../data-marts/consuming-web-services-with-certificate-based-authentication.md "Consuming Web Services with certificate based authentication") on how to install the certificate.
+3.  If the Web Service requires certificate based authentication, the certificate must be installed on the application server. Follow the instructions in the [step-by-step procedure](consuming-web-services-with-certificate-based-authentication.md "Consuming Web Services with certificate based authentication") on how to install the certificate.
 4.  In the **Certificate Thumbprint** box, type the certificate thumbprint found in the step-by-step procedure.  
 
 To use another encoding than the default *UTF-8*, in the **Text Encoding** box enter the code for the encoding. For example, *ISO-8859-1*.

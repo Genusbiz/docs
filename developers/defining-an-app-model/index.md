@@ -40,7 +40,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 **Discovery**
 
-* [Data Marts](data-marts.md)
+* [Data Marts](../../users/analyze-report-and-discover/data-marts/index.md)
 * [Data Filters](../../users/analyze-report-and-discover/report/data-filters.md)
 
 **Security**

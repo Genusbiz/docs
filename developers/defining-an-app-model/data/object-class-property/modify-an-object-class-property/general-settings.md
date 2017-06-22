@@ -29,7 +29,7 @@ Defines the kind of data the property can hold. For example integer or character
 *   Binary Large Object
 *   Textual Large Object
 
-For more information, see [Mapping of Property Data Types and RDBMS Data Types](../../../data-marts/mapping-of-property-data-types-and-rdbms-data-types.md "Mapping of Property Data Types and RDBMS Data Types").
+For more information, see [Mapping of Property Data Types and RDBMS Data Types](../mapping-of-property-data-types-and-rdbms-data-types.md "Mapping of Property Data Types and RDBMS Data Types").
 
 For <span style="FONT-STYLE: italic">Character or String or <span style="FONT-STYLE: italic">Textual Large Objects some characters are illegal. See [Character String Requirements](../../../../../users/navigate-view-modify-and-control/advanced/character-string-requirements.md "Character String Requirements") for more information.
 
@@ -116,6 +116,6 @@ Documentation of the purpose and content of the property.
 
 See Also
 
-*   [Mapping of Property Data Types and RDBMS Data Types](../../../data-marts/mapping-of-property-data-types-and-rdbms-data-types.md)
+*   [Mapping of Property Data Types and RDBMS Data Types](../mapping-of-property-data-types-and-rdbms-data-types.md)
 *   [Simple Data Interpretations for a Property](../../../simple-data-interpretations-for-a-property.md)
 *   [Complex Association Data Interpretation for a Property](../complex-association-data-interpretation-for-a-property.md)

@@ -1,4 +1,4 @@
-## Data Mart Fundamentals
+# Data mart fundamentals
 
   **The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. An application model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through Analyses and Data Extracts.**
 

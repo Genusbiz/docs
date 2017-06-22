@@ -1,6 +1,6 @@
-## Data View
+# Data view
 
-The data view shows a visual diagram of the data sources, properties and connections added to the data mart. The data view helps improve the understanding of the data mart model while it is being built, and the diagram is also available in [Analyses](../../../users/analyze-report-and-discover/analysis.md) and [Data Extracts](../../../users/analyze-report-and-discover/data-extract.md) to provide information on the content of the data mart.
+The data view shows a visual diagram of the data sources, properties and connections added to the data mart. The data view helps improve the understanding of the data mart model while it is being built, and the diagram is also available in [Analyses](../analysis.md) and [Data Extracts](../data-extract.md) to provide information on the content of the data mart.
 
 For more information on the features of the data view, see the articles below.
 

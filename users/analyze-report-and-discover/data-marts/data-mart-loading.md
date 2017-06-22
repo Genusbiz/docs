@@ -1,4 +1,4 @@
-## Data Mart Loading and Scheduling Strategies ##
+# Data mart loading and scheduling
 
   **A data mart needs to be loaded before it is ready to provide data for Analyses or DataExtracts. Loading a data mart may be a resource-intensive event, and should be planned accordingly.**
 
@@ -22,7 +22,7 @@ Data mart load scheduling is configured in the Schedules table found when expand
 
 **Node Group**
 
-A Schedule must specify which Node Group that should handle requests for this data mart. There must be at least one Node within this Node Group configured to handle data mart requests. More information on how to enable Nodes in the Node Group to load data marts may be found in [Nodes and Node Groups](../nodes-and-node-groups.md)
+A Schedule must specify which Node Group that should handle requests for this data mart. There must be at least one Node within this Node Group configured to handle data mart requests. More information on how to enable Nodes in the Node Group to load data marts may be found in [Nodes and Node Groups](../../../developers/defining-an-app-model/nodes-and-node-groups.md)
 
 **Schedule**
 

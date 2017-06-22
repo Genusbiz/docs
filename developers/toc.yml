@@ -350,21 +350,10 @@
           href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/security.md
       - name: Change the Data Type for an Object Class Property
         href: defining-an-app-model/data/object-class-property/change-the-data-type-for-an-object-class-property.md
+      - name: Mapping of property data types and rdbms data types
+        href: defining-an-app-model/data/object-class-property/mapping-of-property-data-types-and-rdbms-data-types.md
     - name: Schemas
       href: defining-an-app-model/data/schemas.md
-  - name: Data Marts
-    href: defining-an-app-model/data-marts.md
-    items:
-    - name: Data Mart Fundamentals
-      href: defining-an-app-model/data-marts/data-mart-fundamentals.md
-    - name: Data Sources
-      href: defining-an-app-model/data-marts/data-sources.md
-    - name: Data View
-      href: defining-an-app-model/data-marts/data-view.md
-    - name: Tasks
-      href: defining-an-app-model/data-marts/tasks.md
-    - name: Loading and Scheduling Strategies
-      href: defining-an-app-model/data-marts/data-mart-loading.md
   - name: Nodes and Node Groups
     href: defining-an-app-model/nodes-and-node-groups.md
   - name: Translate the app model to other languages
