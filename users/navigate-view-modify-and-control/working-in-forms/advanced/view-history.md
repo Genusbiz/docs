@@ -16,7 +16,7 @@ The format and contents of the details for an event vary depending on the <span 
 A detailed execution log containing the start time, end time and status for the execution. The amount of information traced for each execution can be specified in the history setup for the object. Available for Tasks, Agents and Web Services. For more information, see:****
 
 *   [**View the execution history for a Task**](../../../../developers/defining-an-app-model/logic/tasks.md)
-*   [**View the execution history for an Agent**](../../../../developers/defining-an-app-model/agents.md)
+*   [**View the execution history for an Agent**](../../../../developers/defining-an-app-model/logic/agents.md)
 *   [**View the execution history for a Web Service**](../../../../developers/defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md)
 
 **Modify**

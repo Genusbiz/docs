@@ -22,7 +22,7 @@ Genus App Services is composed of a number of logical services at that are eithe
 
 Agent Service
 
-*   This service is responsible for executing [Agents](../../defining-an-app-model/agents.md) at scheduled intervals.
+*   This service is responsible for executing [Agents](../../defining-an-app-model/logic/agents.md) at scheduled intervals.
 *   The Agent Service should be enabled in order to execute Agents.
 
 Calendar Service

@@ -1,24 +1,24 @@
-## Agents
+# Agents
 
-With an Agent, you can define actions to perform once or recurring at a scheduled time.
+With an agent, you can define actions to perform once or recurring at a scheduled time.
 
-An Agent is defined by:
+An agent is defined by:
 
 *   Adding data sources used by actions as sources of information.
 *   Adding actions used to perform dfferent kinds of tasks.
 *   Defining a schedule.
 
 
-## Create an Agent
+## Create an agent
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Agents** folder, and then on the toolbar, click **New**  ![ID51D3C2D9C7E84ECD.IDE73D4C586E0C4198.jpg](media/ID51D3C2D9C7E84ECD.IDE73D4C586E0C4198.jpg).
 3.  In the **Name** box, type a name for the Agent.
 4.  Optionally type a description in the **Description** box.
 5.  If you want to receive an alert each time the Agent has finished running, select the **Notify owner each time the agent has finished running** check box. To change the owner for an agent, see below.
 6.  Follow the instructions described below for adding data sources, adding actions, defining a time schedule, and enabling the Agent.
 
-If there are more than one [Data Set](general-settings/data-sets.md), the agent schedules one execution for each data set. To limit the execution to one data set, do the following:
+If there are more than one [Data Set](../general-settings/data-sets.md), the agent schedules one execution for each data set. To limit the execution to one data set, do the following:
 
 1.  In the **File** menu, click **Properties**.
 2.  In the **Data Set Binding** section, click **Data Set** and then select the data set from the list.
@@ -34,14 +34,14 @@ If the Agent fails to execute, the owner or the delegate for the Agent will rece
 ## Add Data Sources to an Agent
 
 1.  Click the **Data Sources** tab.
-2.  Follow the instructions in the [step-by-step procedure](logic/action-orchestration/data-sources.md "Data Sources") for adding a new data source.
+2.  Follow the instructions in the [step-by-step procedure](action-orchestration/data-sources.md "Data Sources") for adding a new data source.
 
 
 
 ## Add Actions to an Agent
 
 1.  Click the **Actions** tab.
-2.  Follow the instructions in the [step-by-step procedure](logic/action-orchestration/actions.md "Actions") for adding a new action.
+2.  Follow the instructions in the [step-by-step procedure](action-orchestration/actions.md "Actions") for adding a new action.
 
 
 
@@ -53,7 +53,7 @@ Scheduling of Agents are done in the Execution Monitor. You can add new schedule
 
 To schedule an Agent do the following:
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  In the list of Agents, right-click the Agent to schedule, and click **Schedule**.
 4.  In the **Schedule Type** list, select the type of schedule. You can choose between a daily, weekly or monthly schedule, or if the Agent should be run only once.
@@ -149,13 +149,13 @@ Specify max running time:
 
 *   This setting allows you to limit the amount of time an Agent is allowed to run. Select the **Max Running Time** check box, and specify the maximum number of seconds the Agent is allowed to run. If the Agent is forced to stop when this time limit is exceeded, the owner or the delegate for the Agent will receive an alert.
 
-The agent may be interrupted before max running time is exceeded, due to the [App Services Recycling](../installation-and-configuration/configure-and-maintain-genus-server/app-services-recycling.md) settings on the application server.
+The agent may be interrupted before max running time is exceeded, due to the [App Services Recycling](../../installation-and-configuration/configure-and-maintain-genus-server/app-services-recycling.md) settings on the application server.
 
 **Copy Schedule**
 
  To copy an existing schedule from an Agent, do the following:
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  In the list of Agents, right-click the Agent to copy the schedule from, and click **Copy**.
 4.  Click the Agent to copy the schedule to, and click **Paste Schedule**. 
@@ -170,7 +170,7 @@ To enable or disable an agent, or to see the current status of an agent, open th
 
 To disable or enable an agent do the following
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md)
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md)
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  If the agent is disabled, right-click the agent and click **Enable**.
 4.  If the agent is enabled, right click the agent and click **Disable**.
@@ -179,7 +179,7 @@ To disable or enable an agent do the following
 
 ## View the Execution History for an Agent
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Agents** folder, and then click the **Execution Monitor** folder.
 3.  Right-click the Agent, and then on the shortcut menu, click **Execution History**.
 4.  To view more details for an execution, select the execution in the log and click **View Event**.
@@ -205,7 +205,7 @@ By default only the last 100 executions are displayed. If you want to change the
 
  The amount of information traced for each execution can be specified in the history setup for the Agent. To change this setting do the following:
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the Directory tree, expand the **Agents** folder.
 3.  Right-click the Agent, and then click **Open**.
 4.  In the **File** menu, click **Properties**.
@@ -216,7 +216,7 @@ By default only the last 100 executions are displayed. If you want to change the
 
 ## Test Run an Agent
 
-1.  If you have changed the definition for the Agent, you must [deploy](getting-started/deploy-changes-in-the-directory.md) these changes to your computer (i.e. **Deploy Directory to This Computer**).
+1.  If you have changed the definition for the Agent, you must [deploy](../getting-started/deploy-changes-in-the-directory.md) these changes to your computer (i.e. **Deploy Directory to This Computer**).
 2.  Start the Genus desktop client.
 3.  In the **File** menu, point to **Test Run** and then click **Agent**.
 4.  Follow the instructions in the **Test Run** wizard.
@@ -227,7 +227,7 @@ Note that it is important to follow the steps above in the given sequence. Do *n
 
 See Also
 
-*   [Data Sources](logic/action-orchestration/data-sources.md)
-*   [Conditions](common-concepts/conditions.md)
-*   [Actions](logic/action-orchestration/actions.md)
-*   [Effects](logic/action-orchestration/actions/effects.md)
+*   [Data Sources](action-orchestration/data-sources.md)
+*   [Conditions](../common-concepts/conditions.md)
+*   [Actions](action-orchestration/actions.md)
+*   [Effects](action-orchestration/actions/effects.md)

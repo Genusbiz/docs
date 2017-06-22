@@ -13,7 +13,7 @@ To save a report to file:
 *   In the **Save as Type** box, select the format for the file.
 *   Click **Save**.
 
-A report can also be saved to file as a step in a [task](../../../developers/defining-an-app-model/logic/tasks.md), [agent](../../../developers/defining-an-app-model/agents.md), [web service](../../../developers/defining-an-app-model/services/web-services/index.md) or [rule](../../../developers/defining-an-app-model/object-class/modify-an-object--or-identifier-domain/rules.md).  
+A report can also be saved to file as a step in a [task](../../../developers/defining-an-app-model/logic/tasks.md), [agent](../../../developers/defining-an-app-model/logic/agents.md), [web service](../../../developers/defining-an-app-model/services/web-services/index.md) or [rule](../../../developers/defining-an-app-model/object-class/modify-an-object--or-identifier-domain/rules.md).  
 
 The following formats are available:
 

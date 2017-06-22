@@ -261,6 +261,8 @@
         href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Tasks
       href: defining-an-app-model/logic/tasks.md
+    - name: Agents
+      href: defining-an-app-model/logic/agents.md
   - name: Services
     href: defining-an-app-model/services/index.md
     items:
@@ -321,8 +323,6 @@
         href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
       - name: Follow Up
         href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
-  - name: Agents
-    href: defining-an-app-model/agents.md
   - name: Object Class Diagram
     href: defining-an-app-model/object-class-diagram.md
   - name: Object Class Property

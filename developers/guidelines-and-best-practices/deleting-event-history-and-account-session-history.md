@@ -6,7 +6,7 @@ When establishing routines for deleting aged data from the history tables, one s
 
 Each instance of the effect is transformed into one DELETE command when executed. A DELETE command physically removes one row at the time and logs this in the transaction log. The transacction log is emptied at COMMIT, i.e. when the DELETE command has completed without fault. When deleting large amount of data from big tables, like the Event History and Account Session History, the transaction log will grow and result in IO performance degradation, and if the transaction log runs out of space, the command will fail and result in a ROLLBACK.
 
-In most cases it will be neccessary to perform a manual cleanup of the history table before starting any automatic routines. Otherwise the first run will probably result in a major hang situation for the system, and at worst it will eventually fail. For example you can use the delete effect in a task to perform narrow and controlled delete operations before initiating automated delete operations, for example in an [Agent](../defining-an-app-model/agents.md). 
+In most cases it will be neccessary to perform a manual cleanup of the history table before starting any automatic routines. Otherwise the first run will probably result in a major hang situation for the system, and at worst it will eventually fail. For example you can use the delete effect in a task to perform narrow and controlled delete operations before initiating automated delete operations, for example in an [Agent](../defining-an-app-model/logic/agents.md). 
 
 ## Deleting Account Session history
 

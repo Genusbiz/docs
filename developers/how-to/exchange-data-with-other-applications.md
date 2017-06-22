@@ -4,7 +4,7 @@ Exchanging data with other applications can often be an important part of the fu
 
 **Export and Import**
 
-Export and import can be performed both by a [Task](../defining-an-app-model/logic/tasks.md) by an interactive clients as a part of a manual process, or by an [Agent](../defining-an-app-model/agents.md) on a server as part of an automated exchange of data. The operations uses the Windows file system to exchange data in the form of files. Define a Task or an Agent to perform
+Export and import can be performed both by a [Task](../defining-an-app-model/logic/tasks.md) by an interactive clients as a part of a manual process, or by an [Agent](../defining-an-app-model/logic/agents.md) on a server as part of an automated exchange of data. The operations uses the Windows file system to exchange data in the form of files. Define a Task or an Agent to perform
 
 **Copy and Paste**
 

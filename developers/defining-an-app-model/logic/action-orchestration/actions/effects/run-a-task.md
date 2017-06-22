@@ -14,7 +14,7 @@ If you use this effect in a Task it is not allowed to call itself recursively, b
 
 ## Specifying a Data Filter for a Data Source
 
-A data source in a [Rule](../../../../object-class/modify-an-object--or-identifier-domain/rules.md), [Agent](../../../../agents.md), or [Web Service](../../../../services/web-services/index.md) can be filtered and sorted using one of several methods. A data source in a [Task](../../../tasks.md) can be filtered in the publication of the task.
+A data source in a [Rule](../../../../object-class/modify-an-object--or-identifier-domain/rules.md), [Agent](../../../agents.md), or [Web Service](../../../../services/web-services/index.md) can be filtered and sorted using one of several methods. A data source in a [Task](../../../tasks.md) can be filtered in the publication of the task.
 
 To filter and sort a data source, select the data source, and click the **Data Filter** tab.
 
