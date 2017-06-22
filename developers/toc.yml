@@ -438,7 +438,7 @@
     - name: Trusted users
       href: defining-an-app-model/security/trusted-users.md
 - name: Installation and configuration
-  href: installation-and-configuration.md
+  href: installation-and-configuration/index.md
   items:
   - name: System Requirements
     href: installation-and-configuration/system-requirements.md
@@ -489,7 +489,7 @@
     - name: Monitoring Genus Server
       href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
 - name: Guidelines and best practices
-  href: guidelines-and-best-practices.md
+  href: guidelines-and-best-practices/index.md
   items:
   - name: Action Orchestration Performance and Maintainability
     href: guidelines-and-best-practices/action-orchestration-performance-and-maintainability.md
@@ -529,7 +529,7 @@
     - name: Testing a Web Service
       href: guidelines-and-best-practices/web-service-guidelines/testing-a-web-service.md
 - name: How to
-  href: how-to.md
+  href: how-to/index.md
   items:
   - name: Attach a file or an email to an object
     href: how-to/attach-a-file-or-an-email-to-an-object.md

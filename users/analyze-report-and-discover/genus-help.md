@@ -70,7 +70,7 @@
 
 <tr>
 
-<td valign="top" class="cdclvCategoryCol1">[Installation and Configuration](../../developers/installation-and-configuration.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Installation and Configuration](../../developers/installation-and-configuration/index.md)</td>
 
 <td valign="top" class="cdclvCategoryCol2">[Security And Privacy](../../developers/defining-an-app-model/security/index.md)</td>
 
@@ -78,9 +78,9 @@
 
 <tr class="cdclvCategoryRowAlt">
 
-<td valign="top" class="cdclvCategoryCol1">[Guidelines and Best Practices](../../developers/guidelines-and-best-practices.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Guidelines and Best Practices](../../developers/guidelines-and-best-practices/index.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[How To...](../../developers/how-to.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[How To...](../../developers/how-to/index.md)</td>
 
 </tr>
 
