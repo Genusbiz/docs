@@ -62,7 +62,7 @@
 
 <tr class="cdclvCategoryRowAlt">
 
-<td valign="top" class="cdclvCategoryCol1">[Keyboard Shortcuts](../../developers/keyboard-shortcuts.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Keyboard Shortcuts](../../developers/defining-an-app-model/user-interface/keyboard-shortcuts.md)</td>
 
 <td valign="top" class="cdclvCategoryCol2">[Defining an app model](../../developers/defining-an-app-model/index.md)</td>
 

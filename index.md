@@ -21,7 +21,7 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 ---
 
 **Quick links**
-* [Keyboard shortcuts](developers/keyboard-shortcuts.md)
+* [Keyboard shortcuts](developers/defining-an-app-model/user-interface/keyboard-shortcuts.md)
 * [System requirements](developers/installation-and-configuration/system-requirements.md)
 * [Personalize your Genus Desktop](users/navigate-view-modify-and-control/personalize-your-genus-desktop.md)
 * [How to report an error](developers/how-to/report-an-error.md)

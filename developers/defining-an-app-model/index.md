@@ -29,6 +29,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 * [Navigation pane](user-interface/navigation-pane.md)
 * [Tables](user-interface/tables/index.md)
 * [Forms](user-interface/forms/index.md)
+* [Keyboard shortcuts](user-interface/keyboard-shortcuts.md)
 
 **[Logic](logic/index.md)**
 

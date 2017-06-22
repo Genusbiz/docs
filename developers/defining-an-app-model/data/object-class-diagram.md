@@ -439,5 +439,5 @@ If you want to insert shapes as a picture in a document, for example in a spread
 
 ## Keyboard Shortcuts
 
-Keyboard shortcuts available in the Object Class diagram are described in the article [Keyboard Shortcuts for Genus Desktop Client](../../keyboard-shortcuts.md).
+Keyboard shortcuts available in the Object Class diagram are described in the article [Keyboard Shortcuts for Genus Desktop Client](../user-interface/keyboard-shortcuts.md).
 
