@@ -6,17 +6,17 @@ An XML Schema is a set of components such as type definitions and element declar
 
 In Genus App Platform the XML Schema is mainly used within Action Orchestration and Web Services.
 
-*   Within Action Orchestration you may define a [data source](logic/action-orchestration/data-sources.md) containing an XML document. The structure of the data source is established from a XML Schema defined within your application model. Any data [exported or imported](../how-to/exchange-data-with-other-applications/export-and-import-data.md) using this data source should comply with the defined schema.
-*   The [Merge Data to a Document](../how-to/merge-data-to-a-document.md) effect uses a XML document as input. The structure of the input document is defined by a XML Schema.
-*   When copying data between two Genus applications, an XML Schema is used to exchange data between the applications. For more information on how to copy and paste between two Genus applications, see [Copy and Paste Data Between Two Genus Applications](../how-to/exchange-data-with-other-applications/copy-and-paste-data.md).
-*   In Web Services, XML- messages are passed between the service endpoint and the consumer endpoint. The formats of these messages are defined by a XML Schema stored within your application model. For more information on how to setup a Web Service in Genus Studio, see [Create a Web Service](services/web-services/create-a-web-service.md).
+*   Within Action Orchestration you may define a [data source](../logic/action-orchestration/data-sources.md) containing an XML document. The structure of the data source is established from a XML Schema defined within your application model. Any data [exported or imported](../../how-to/exchange-data-with-other-applications/export-and-import-data.md) using this data source should comply with the defined schema.
+*   The [Merge Data to a Document](../../how-to/merge-data-to-a-document.md) effect uses a XML document as input. The structure of the input document is defined by a XML Schema.
+*   When copying data between two Genus applications, an XML Schema is used to exchange data between the applications. For more information on how to copy and paste between two Genus applications, see [Copy and Paste Data Between Two Genus Applications](../../how-to/exchange-data-with-other-applications/copy-and-paste-data.md).
+*   In Web Services, XML- messages are passed between the service endpoint and the consumer endpoint. The formats of these messages are defined by a XML Schema stored within your application model. For more information on how to setup a Web Service in Genus Studio, see [Create a Web Service](../services/web-services/create-a-web-service.md).
 
 
 ## Create a Schema
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Schemas** folder, and then on the toolbar, click **New**![ID411C232771A74FFC.IDA38907B2641C4C6E.jpg](media/ID411C232771A74FFC.IDA38907B2641C4C6E.jpg).
-3.  To create a new blank schema, select **New Blank Schema** and specify a **Namespace** for the Schema. For guidelines and best practices on creating a namespace, see [Web Service and XML and Web Service Namespaces](../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
+3.  To create a new blank schema, select **New Blank Schema** and specify a **Namespace** for the Schema. For guidelines and best practices on creating a namespace, see [Web Service and XML and Web Service Namespaces](../../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
 4.  To import the XML schema from file, select **Import XML Schema From File**, and then click [...] to select an existing XSD file.
 5.  Click **OK** to open the Schema Editor.
 6.  The structure of the Schema is displayed in a tree structure. If you started with a new blank Schema, the structure only contains the schema root element.

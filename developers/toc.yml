@@ -350,8 +350,8 @@
           href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/security.md
       - name: Change the Data Type for an Object Class Property
         href: defining-an-app-model/data/object-class-property/change-the-data-type-for-an-object-class-property.md
-  - name: Schemas
-    href: defining-an-app-model/schemas.md
+    - name: Schemas
+      href: defining-an-app-model/data/schemas.md
   - name: Data Marts
     href: defining-an-app-model/data-marts.md
     items:

@@ -68,7 +68,7 @@ To copy and paste data between two Genus desktop applications, you define a Sche
 
 **To copy data, do the following:**
 
-1.  Create the schema that should be used for exchanging data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/schemas.md) on how to create a Schema. It is important that you specify a namespace for the Schema. The namespace is used by the other application to identify data placed on the clipboard.
+1.  Create the schema that should be used for exchanging data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/data/schemas.md) on how to create a Schema. It is important that you specify a namespace for the Schema. The namespace is used by the other application to identify data placed on the clipboard.
 2.  Create a Task that should be used for copying data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/logic/tasks.md) on how to create a Task.
 3.  Add the Schema created in step 1 as a data source in the Task.
 4.  Add a data source for the object(s) you want to copy data from.
