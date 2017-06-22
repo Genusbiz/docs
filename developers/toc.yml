@@ -15,25 +15,83 @@
   href: defining-an-app-model/index.md
   items:
   - name: Getting started
-    href: defining-an-app-model/getting-started/getting-started.md
+    href: defining-an-app-model/getting-started/index.md
     items:
     - name: How to open Genus Studio
       href: defining-an-app-model/getting-started/how-to-open-genus-studio.md
-    - name: Search and organization
-      href: defining-an-app-model/getting-started/search-and-organization.md
+    - name: Search and organize
+      href: defining-an-app-model/getting-started/search-and-organize.md
     - name: Deploy changes in the Directory
       href: defining-an-app-model/getting-started/deploy-changes-in-the-directory.md
   - name: General settings
     href: defining-an-app-model/general-settings/index.md
     items:
-    - name: Data Sets
+    - name: Data sets
       href: defining-an-app-model/general-settings/data-sets.md
-    - name: Calendar Settings
+    - name: Calendar settings
       href: defining-an-app-model/general-settings/calendar-settings.md
-    - name: Search Settings
+    - name: Search settings
       href: defining-an-app-model/general-settings/search-settings.md
-    - name: Advanced Settings
+    - name: Advanced settings
       href: defining-an-app-model/general-settings/advanced-settings.md
+  - name: Common concepts
+    href: defining-an-app-model/common-concepts/index.md
+    items:
+    - name: Active object
+      href: defining-an-app-model/common-concepts/active-object.md
+    - name: Advanced expressions
+      href: defining-an-app-model/common-concepts/advanced-expressions.md
+      items:
+      - name: Operators and precedence
+        href: defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.md
+      - name: Comments and constructs
+        href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
+      - name: Value types
+        href: defining-an-app-model/common-concepts/advanced-expressions/value-types.md
+      - name: Date and time types
+        href: defining-an-app-model/common-concepts/advanced-expressions/date-and-time-types.md
+      - name: Object types
+        href: defining-an-app-model/common-concepts/advanced-expressions/object-types.md
+      - name: Collection types
+        href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
+      - name: Enumeration types
+        href: defining-an-app-model/common-concepts/advanced-expressions/enumeration-types.md
+      - name: Function library types
+        href: defining-an-app-model/common-concepts/advanced-expressions/function-library-types.md
+      - name: Formula editor
+        href: defining-an-app-model/common-concepts/advanced-expressions/formula-editor.md
+      - name: Examples
+        href: defining-an-app-model/common-concepts/advanced-expressions/examples.md
+    - name: Automatic formatting
+      href: defining-an-app-model/common-concepts/automatic-formatting.md
+    - name: Conditions
+      href: defining-an-app-model/common-concepts/conditions.md
+      items:
+      - name: Groups and expressions
+        href: defining-an-app-model/common-concepts/conditions/groups-and-expressions.md
+      - name: Operands
+        href: defining-an-app-model/common-concepts/conditions/operands.md
+      - name: Condition syntax structure
+        href: defining-an-app-model/common-concepts/conditions/condition-syntax-structure.md
+      - name: Examples
+        href: defining-an-app-model/common-concepts/conditions/examples.md
+      - name: Condition editor
+        href: defining-an-app-model/common-concepts/conditions/condition-editor.md
+        items:
+        - name: Add an expression or group
+          href: defining-an-app-model/common-concepts/conditions/condition-editor/add-an-expression-or-group.md
+        - name: Change the logical operator for an expression or group
+          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-logical-operator-for-an-expression-or-group.md
+        - name: Edit an expression
+          href: defining-an-app-model/common-concepts/conditions/condition-editor/edit-an-expression.md
+        - name: Defining operands
+          href: defining-an-app-model/common-concepts/conditions/condition-editor/defining-operands.md
+        - name: Change the order of expressions and groups
+          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-order-of-expressions-and-groups.md
+        - name: Remove an expression or group
+          href: defining-an-app-model/common-concepts/conditions/condition-editor/remove-an-expression-or-group.md
+    - name: Data binding
+      href: defining-an-app-model/common-concepts/data-binding.md
   - name: User interface
     href: defining-an-app-model/user-interface/index.md
     items:
@@ -356,66 +414,8 @@
         href: defining-an-app-model/data/object-class-property/mapping-of-property-data-types-and-rdbms-data-types.md
     - name: Schemas
       href: defining-an-app-model/data/schemas.md
-  - name: Common Concepts
-    href: defining-an-app-model/common-concepts.md
-    items:
-    - name: Active Object
-      href: defining-an-app-model/common-concepts/active-object.md
-    - name: Advanced Expressions
-      href: defining-an-app-model/common-concepts/advanced-expressions.md
-      items:
-      - name: Operators and Precedence
-        href: defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.md
-      - name: Comments and Constructs
-        href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
-      - name: Value Types
-        href: defining-an-app-model/common-concepts/advanced-expressions/value-types.md
-      - name: Date and Time Types
-        href: defining-an-app-model/common-concepts/advanced-expressions/date-and-time-types.md
-      - name: Object Types
-        href: defining-an-app-model/common-concepts/advanced-expressions/object-types.md
-      - name: Collection Types
-        href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
-      - name: Enumeration Types
-        href: defining-an-app-model/common-concepts/advanced-expressions/enumeration-types.md
-      - name: Function Library Types
-        href: defining-an-app-model/common-concepts/advanced-expressions/function-library-types.md
-      - name: Formula Editor
-        href: defining-an-app-model/common-concepts/advanced-expressions/formula-editor.md
-      - name: Examples
-        href: defining-an-app-model/common-concepts/advanced-expressions/examples.md
-    - name: Automatic Formatting
-      href: defining-an-app-model/common-concepts/automatic-formatting.md
-    - name: Conditions
-      href: defining-an-app-model/common-concepts/conditions.md
-      items:
-      - name: Groups and Expressions
-        href: defining-an-app-model/common-concepts/conditions/groups-and-expressions.md
-      - name: Operands
-        href: defining-an-app-model/common-concepts/conditions/operands.md
-      - name: Condition Syntax Structure
-        href: defining-an-app-model/common-concepts/conditions/condition-syntax-structure.md
-      - name: Examples
-        href: defining-an-app-model/common-concepts/conditions/examples.md
-      - name: Condition Editor
-        href: defining-an-app-model/common-concepts/conditions/condition-editor.md
-        items:
-        - name: Add an Expression or Group
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/add-an-expression-or-group.md
-        - name: Change the Logical Operator for an Expression or Group
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-logical-operator-for-an-expression-or-group.md
-        - name: Edit an Expression
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/edit-an-expression.md
-        - name: Defining Operands
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/defining-operands.md
-        - name: Change the Order of Expressions and Groups
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-order-of-expressions-and-groups.md
-        - name: Remove an Expression or Group
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/remove-an-expression-or-group.md
-    - name: Data Binding
-      href: defining-an-app-model/common-concepts/data-binding.md
   - name: Security
-    href: defining-an-app-model/security.md
+    href: defining-an-app-model/security/index.md
     items:
     - name: Account profiles
       href: defining-an-app-model/security/account-profiles.md
@@ -427,13 +427,13 @@
       href: defining-an-app-model/security/security-groups-and-user-accounts.md
     - name: Sign In History
       href: defining-an-app-model/security/sign-in-history.md
-    - name: Security Permissions
+    - name: Security permissions
       href: defining-an-app-model/security/security-permissions.md
-    - name: Security Privileges
+    - name: Security privileges
       href: defining-an-app-model/security/security-privileges.md
-    - name: Security Overview and Review
+    - name: Security overview and review
       href: defining-an-app-model/security/security-overview-and-review.md
-    - name: Trusted Users
+    - name: Trusted users
       href: defining-an-app-model/security/trusted-users.md
 - name: Installation and configuration
   href: installation-and-configuration.md

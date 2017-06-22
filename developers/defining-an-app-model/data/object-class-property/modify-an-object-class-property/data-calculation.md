@@ -134,7 +134,7 @@ Assign a unique id from an Identifier Domain when an object is created. Typicall
 
 <td>Enter a Conditional Formula</td>
 
-<td>Calculate a value using a [conditional formula](../../../define-a-conditional-formula.md "Define a Conditional Formula"). A conditional formula gives you the opportunity to define one or more formulas with a conditional statement. The conditional statement is used to determine which formula to apply when calculating the value.</td>
+<td>Calculate a value using a [conditional formula](../../../logic/action-orchestration/define-a-conditional-formula.md "Define a Conditional Formula"). A conditional formula gives you the opportunity to define one or more formulas with a conditional statement. The conditional statement is used to determine which formula to apply when calculating the value.</td>
 
 <td>No</td>
 

@@ -1,6 +1,6 @@
 ## Create a Web Service
 
-1.  [Open Genus Studio](../../getting-started/getting-started.md).
+1.  [Open Genus Studio](../../getting-started/index.md).
 2.  In the **Directory** tree, click the **Web Services** folder and on the **toolbar**, click **New ****![IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg](media/IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg) and then click** **Web Service**.
 3.  In the **Name** box, type a name for the Web Service. For guidelines on naming a web service, see [Identifying and Naming the Web Service](../../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-the-web-service.md).
 4.  In the **Namespace** box, type a namespace for the Web Service. By default, the namespace [http://tempuri.org/<name-of-web-service](http://tempuri.org/%3Cname-of-web-service)> is used for this purpose. While this is suitable for Web Services under development, published services should use a unique, permanent namespace. Your Web Service should be identified by a namespace that you control. For more guidelines and best practices on creating a namespace, see Web Service and [XML-Schema Namespaces](../../../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
@@ -31,7 +31,7 @@ Next you have to specify a data filter for the data source.
 1.  Click **Filter Data**.
 2.  Do one of the following:  
     * To select one or more objects, click **Select a specific set of objects**, and then click **Select**.  
-    * To select one or more objects which satisfy a given condition, click **Select objects that meet the following condition**. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions.md "Conditions")[](../../define-a-conditional-formula.md "Define a Conditional Formula")on how to define a condition.  
+    * To select one or more objects which satisfy a given condition, click **Select objects that meet the following condition**. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions.md "Conditions")[](../../logic/action-orchestration/define-a-conditional-formula.md "Define a Conditional Formula")on how to define a condition.  
 
 
 

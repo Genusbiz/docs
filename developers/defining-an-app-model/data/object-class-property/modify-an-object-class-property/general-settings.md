@@ -51,7 +51,7 @@ Defines how to interpret data of a given type. For example, string data can be i
 
 Data can be interpreted as a **simple type,** a **complex** **type** or a **complex association**.
 
-*   **Simple types** represents a single piece of information, such as a number or a text. For more information, see the article [Simple Data Interpretations for a Property](../../../simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property").
+*   **Simple types** represents a single piece of information, such as a number or a text. For more information, see the article [Simple Data Interpretations for a Property](../simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property").
 *   A **complex type** represents an Object Class in your Directory. For example, a numeric property containing the employee id for the manager of a project, should be interpreted as an employee. In the context of relational databases, this represents a foreign key, which is a referential constraint between two tables. Note that only Object Classes which has [a primary key which comprises a single property](../../object-class/modify-an-object-or-identifier-domain/data-integrity.md) can be used for complex interpretation. In addition, only Object Classes which has a primary key with the same data type and size as the property are available as complex interpretations. A special case exists for the property which represent the primary key for an Object Class. Data interpretation for this property has to be defined as the Object Class itself.
 *   **Complex association** is used when the property can represent any Object Class within a predefined set of Object Classes. A common use of complex association is an Object Class containing a single outbound reference to a varying number of Object Classes. For example, an Object Class which represents a document can be attached to an employee, a customer, a project or an activity. For more information, see the article [Complex Association Data Interpretation for a Property](../complex-association-data-interpretation-for-a-property.md "Complex Association Data Interpretation for a Property").
 
@@ -117,5 +117,5 @@ Documentation of the purpose and content of the property.
 See Also
 
 *   [Mapping of Property Data Types and RDBMS Data Types](../mapping-of-property-data-types-and-rdbms-data-types.md)
-*   [Simple Data Interpretations for a Property](../../../simple-data-interpretations-for-a-property.md)
+*   [Simple Data Interpretations for a Property](../simple-data-interpretations-for-a-property.md)
 *   [Complex Association Data Interpretation for a Property](../complex-association-data-interpretation-for-a-property.md)

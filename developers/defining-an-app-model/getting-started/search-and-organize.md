@@ -1,6 +1,6 @@
-## Search and Organization
+# Search and organize
 
-The search and organization features in the Directory Explorer help you readily find, sort and organize objects. The Directory Explorer combines elements such as:
+The search and organize features in the Directory Explorer help you readily find, sort and organize objects. The Directory Explorer combines elements such as:
 
 *   **Metadata for objects**, used to find, organize and sort objects.
 *   **Instant Search**, which is always available and find objects rapidly.
@@ -13,7 +13,7 @@ The search and organization features in the Directory Explorer help you readily 
 
 In addition to the actual content of an object, there is information about the object itself. Genus Studio keeps track of details about each object in the directory, for example when it was created and when it was last modified. You can also store extra details for an object, such as category, tags, comments, owner and delegate.
 
-Maintaining metadata properties requires some up-front work, but it has a profound pay-off in a networked office where many users share objects. When you use the [advanced search pane](search-and-organization.md "Search") in Directory to find objects, you can search by any property for any object. In the **Directory** **Explorer** the various metadata properties can be used to sort and organize objects.
+Maintaining metadata properties requires some up-front work, but it has a profound pay-off in a networked office where many users share objects. When you use the [advanced search pane](search-and-organize.md "Search") in Directory to find objects, you can search by any property for any object. In the **Directory** **Explorer** the various metadata properties can be used to sort and organize objects.
 
 **Metadata that can be assigned to an object**
 
@@ -31,7 +31,7 @@ Maintaining metadata properties requires some up-front work, but it has a profou
 
 <tr>
 
-<td>[Groups](search-and-organization.md "Groups")[](search-and-organization.md "Groups")</td>
+<td>[Groups](search-and-organize.md "Groups")[](search-and-organize.md "Groups")</td>
 
 <td>Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help users to filter out somewhat irrelevant data.</td>
 
@@ -39,7 +39,7 @@ Maintaining metadata properties requires some up-front work, but it has a profou
 
 <tr>
 
-<td>[Tags](search-and-organization.md "Tags")</td>
+<td>[Tags](search-and-organize.md "Tags")</td>
 
 <td>A tag is a keyword or term which helps describe an object and allows it to be found by browsing or searching. You can assign as many tags as you want to an object.</td>
 

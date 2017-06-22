@@ -14,7 +14,7 @@ There are many properties that can be defined for an attached file, where the mo
 
 <th>Data Type</th>
 
-<th>[Data Interpretation](../defining-an-app-model/simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property")</th>
+<th>[Data Interpretation](../defining-an-app-model/data/object-class-property/simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property")</th>
 
 </tr>
 

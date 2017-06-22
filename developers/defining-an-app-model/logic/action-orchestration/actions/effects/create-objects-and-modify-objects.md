@@ -42,7 +42,7 @@ To assign a value by typing a formula or a constant value, right-click the field
 *   To enter a constant value, click the first item in the list (**Enter a text**, **Enter a number** etc.), or press **F2**, and then enter a value. If the field is an outbound reference to a code domain, the list contains one item for each code. In the list, click the code to use.
 *   To compose a text, with dynamic values, click **Compose Text**. For more information, see [Generate Dynamic Values for Text Fields](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields").
 *   To enter a formula, in the list click **Enter a formula**. See the article [Enter a Formula in the Formula Editor](../../../../common-concepts/advanced-expressions/formula-editor.md) for more information.
-*   To enter a conditional formula, in the list click **Use a conditional formula**. See the article [Define a Conditional Formula](../../../../define-a-conditional-formula.md "Define a Conditional Formula") for more information.
+*   To enter a conditional formula, in the list click **Use a conditional formula**. See the article [Define a Conditional Formula](../../define-a-conditional-formula.md "Define a Conditional Formula") for more information.
 
 
 

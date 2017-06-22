@@ -5,5 +5,5 @@ Genus App Platform employs declarative data about your business objects, logic, 
 When you make changes in your directory, these changes have to be deployed to clients and app services. A deployment forces a restart of the clients and the app services.
 
 * [How to open Genus Studio](how-to-open-genus-studio.md)
-* [Search and organization](search-and-organization.md)
+* [Search and organize](search-and-organize.md)
 * [Deploy changes in the Directory](deploy-changes-in-the-directory.md)
