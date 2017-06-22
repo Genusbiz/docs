@@ -4,15 +4,15 @@ Genus integrates with Microsoft Outlook on several levels and in different ways,
 
 **Send E-mails from the application**
 
-Send E-mails from the application, either directly based on information from an object, or edit the E-mail before sending. E-mails can also be sent automatically from the application server, triggered by rules or a schedule. For more information see: [Create a Mail Message](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-a-mail-message.md), [Tasks](../../defining-an-app-model/logic/tasks.md), [Agents](../../defining-an-app-model/logic/agents.md).
+Send E-mails from the application, either directly based on information from an object, or edit the E-mail before sending. E-mails can also be sent automatically from the application server, triggered by rules or a schedule. For more information see: [Create a Mail Message](../../defining-the-app-model/logic/action-orchestration/actions/effects/create-a-mail-message.md), [Tasks](../../defining-the-app-model/logic/tasks.md), [Agents](../../defining-the-app-model/logic/agents.md).
 
 **Store E-mails in the application**
 
-Store E-mails in the application connected to the relevant business data. Define an object in the directory with at least the necessary properties from the [Mail Message Data Source](../../defining-an-app-model/logic/action-orchestration/data-sources/file-data-sources.md), and then also define some of the tasks described in this article to start using the object. For more information on how to store e-mails attached to objects, see [Attach a File or an E-mail To an Object](../attach-a-file-or-an-email-to-an-object.md).
+Store E-mails in the application connected to the relevant business data. Define an object in the directory with at least the necessary properties from the [Mail Message Data Source](../../defining-the-app-model/logic/action-orchestration/data-sources/file-data-sources.md), and then also define some of the tasks described in this article to start using the object. For more information on how to store e-mails attached to objects, see [Attach a File or an E-mail To an Object](../attach-a-file-or-an-email-to-an-object.md).
 
 **Reply and Forward to E-mails stored in the application**
 
-Reply and Forward directly to E-mails stored in the application, and make sure the dialog is complete by storing the reply alongside the original. For more information see [Data Exchange settings](../../defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md) in Object Class.
+Reply and Forward directly to E-mails stored in the application, and make sure the dialog is complete by storing the reply alongside the original. For more information see [Data Exchange settings](../../defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md) in Object Class.
 
 **Copy and Paste E-mails, Contacts, and Calendar Items**
 

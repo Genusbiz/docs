@@ -63,7 +63,7 @@
       ```
    c. Renaming an article without moving it.
       ```
-      node movearticles.js developers/defining-the-application-model.md developers/defining-an-app-model.md
+      node movearticles.js developers/defining-the-application-model.md developers/defining-the-app-model.md
       ```
    d. Move all articles in a folder (including subfolders).
       ```

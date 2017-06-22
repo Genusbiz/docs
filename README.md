@@ -19,8 +19,8 @@ See www.genus.no for more general information about our products and our company
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:
 * Change the term "Application" to "App".
-* Convert Html tables to [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables). (Who completes [this](developers/defining-an-app-model/user-interface/keyboard-shortcuts.md) article?)
-* Article main headers are supposed to be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-an-app-model/general-settings/data-sets.md).
+* Convert Html tables to [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables). (Who completes [this](developers/defining-the-app-model/user-interface/keyboard-shortcuts.md) article?)
+* Article main headers are supposed to be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-the-app-model/general-settings/data-sets.md).
 * Change header capitalisation to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles). Example [here](developers/installation-and-configuration/system-requirements.md).
 * Automatically converted media files have ended up with a GUID file name like "ID3C264089A1BE49C2.IDC90AF0450EE242F6.png". Please change to a "normal" descriptive name - or simply delete the file if it is a screen dump that is hard to maintain (ref. the guidelines regarding screen shots above).
 

@@ -3,9 +3,9 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 
 ## Developers
 * [Overview](developers/overview/index.md)
-* [Defining an app model](developers/defining-an-app-model/index.md)
+* [Defining the app model](developers/defining-the-app-model/index.md)
 * [Installation and configuration](developers/installation-and-configuration/index.md)
-* [Security](developers/defining-an-app-model/security/index.md)
+* [Security](developers/defining-the-app-model/security/index.md)
 * [Guidelines and best practices](developers/guidelines-and-best-practices/index.md)
 * [How to](developers/how-to/index.md)
 * [Release notes](https://www.genus.no/?PageKey=3afcf63a-acd1-4f47-9eb7-e6a68e7eafd8)
@@ -21,7 +21,7 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 ---
 
 **Quick links**
-* [Keyboard shortcuts](developers/defining-an-app-model/user-interface/keyboard-shortcuts.md)
+* [Keyboard shortcuts](developers/defining-the-app-model/user-interface/keyboard-shortcuts.md)
 * [System requirements](developers/installation-and-configuration/system-requirements.md)
 * [Personalize your Genus Desktop](users/navigate-view-modify-and-control/personalize-your-genus-desktop.md)
 * [How to report an error](developers/how-to/report-an-error.md)

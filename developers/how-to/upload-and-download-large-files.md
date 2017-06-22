@@ -4,7 +4,7 @@ Genus App Platform supports upload and download of large files, in the tens to h
 
 **Uploading a File**
 
-Uploading is supported by the effect **Upload a File**. The file can be uploaded to a new or an existing object. There are certain required special properties for the data source to upload files to. For more information, see [Upload a File](../defining-an-app-model/logic/action-orchestration/actions/effects/upload-a-file.md).
+Uploading is supported by the effect **Upload a File**. The file can be uploaded to a new or an existing object. There are certain required special properties for the data source to upload files to. For more information, see [Upload a File](../defining-the-app-model/logic/action-orchestration/actions/effects/upload-a-file.md).
 
 **Downloading a File**
 

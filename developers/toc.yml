@@ -10,433 +10,433 @@
   - name: Terminology
     href: ../terminology.md
 - name: Keyboard shortcuts
-  href: defining-an-app-model/user-interface/keyboard-shortcuts.md
-- name: Defining an App Model
-  href: defining-an-app-model/index.md
+  href: defining-the-app-model/user-interface/keyboard-shortcuts.md
+- name: Defining the app model
+  href: defining-the-app-model/index.md
   items:
   - name: Getting started
-    href: defining-an-app-model/getting-started/index.md
+    href: defining-the-app-model/getting-started/index.md
     items:
     - name: How to open Genus Studio
-      href: defining-an-app-model/getting-started/how-to-open-genus-studio.md
+      href: defining-the-app-model/getting-started/how-to-open-genus-studio.md
     - name: Search and organize
-      href: defining-an-app-model/getting-started/search-and-organize.md
+      href: defining-the-app-model/getting-started/search-and-organize.md
     - name: Deploy changes in the Directory
-      href: defining-an-app-model/getting-started/deploy-changes-in-the-directory.md
+      href: defining-the-app-model/getting-started/deploy-changes-in-the-directory.md
   - name: General settings
-    href: defining-an-app-model/general-settings/index.md
+    href: defining-the-app-model/general-settings/index.md
     items:
     - name: Data sets
-      href: defining-an-app-model/general-settings/data-sets.md
+      href: defining-the-app-model/general-settings/data-sets.md
     - name: Calendar settings
-      href: defining-an-app-model/general-settings/calendar-settings.md
+      href: defining-the-app-model/general-settings/calendar-settings.md
     - name: Search settings
-      href: defining-an-app-model/general-settings/search-settings.md
+      href: defining-the-app-model/general-settings/search-settings.md
     - name: Advanced settings
-      href: defining-an-app-model/general-settings/advanced-settings.md
+      href: defining-the-app-model/general-settings/advanced-settings.md
   - name: Common concepts
-    href: defining-an-app-model/common-concepts/index.md
+    href: defining-the-app-model/common-concepts/index.md
     items:
     - name: Active object
-      href: defining-an-app-model/common-concepts/active-object.md
+      href: defining-the-app-model/common-concepts/active-object.md
     - name: Advanced expressions
-      href: defining-an-app-model/common-concepts/advanced-expressions.md
+      href: defining-the-app-model/common-concepts/advanced-expressions.md
       items:
       - name: Operators and precedence
-        href: defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/operators-and-precedence.md
       - name: Comments and constructs
-        href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
       - name: Value types
-        href: defining-an-app-model/common-concepts/advanced-expressions/value-types.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/value-types.md
       - name: Date and time types
-        href: defining-an-app-model/common-concepts/advanced-expressions/date-and-time-types.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/date-and-time-types.md
       - name: Object types
-        href: defining-an-app-model/common-concepts/advanced-expressions/object-types.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/object-types.md
       - name: Collection types
-        href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/collection-types.md
       - name: Enumeration types
-        href: defining-an-app-model/common-concepts/advanced-expressions/enumeration-types.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/enumeration-types.md
       - name: Function library types
-        href: defining-an-app-model/common-concepts/advanced-expressions/function-library-types.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/function-library-types.md
       - name: Formula editor
-        href: defining-an-app-model/common-concepts/advanced-expressions/formula-editor.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/formula-editor.md
       - name: Examples
-        href: defining-an-app-model/common-concepts/advanced-expressions/examples.md
+        href: defining-the-app-model/common-concepts/advanced-expressions/examples.md
     - name: Automatic formatting
-      href: defining-an-app-model/common-concepts/automatic-formatting.md
+      href: defining-the-app-model/common-concepts/automatic-formatting.md
     - name: Conditions
-      href: defining-an-app-model/common-concepts/conditions.md
+      href: defining-the-app-model/common-concepts/conditions.md
       items:
       - name: Groups and expressions
-        href: defining-an-app-model/common-concepts/conditions/groups-and-expressions.md
+        href: defining-the-app-model/common-concepts/conditions/groups-and-expressions.md
       - name: Operands
-        href: defining-an-app-model/common-concepts/conditions/operands.md
+        href: defining-the-app-model/common-concepts/conditions/operands.md
       - name: Condition syntax structure
-        href: defining-an-app-model/common-concepts/conditions/condition-syntax-structure.md
+        href: defining-the-app-model/common-concepts/conditions/condition-syntax-structure.md
       - name: Examples
-        href: defining-an-app-model/common-concepts/conditions/examples.md
+        href: defining-the-app-model/common-concepts/conditions/examples.md
       - name: Condition editor
-        href: defining-an-app-model/common-concepts/conditions/condition-editor.md
+        href: defining-the-app-model/common-concepts/conditions/condition-editor.md
         items:
         - name: Add an expression or group
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/add-an-expression-or-group.md
+          href: defining-the-app-model/common-concepts/conditions/condition-editor/add-an-expression-or-group.md
         - name: Change the logical operator for an expression or group
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-logical-operator-for-an-expression-or-group.md
+          href: defining-the-app-model/common-concepts/conditions/condition-editor/change-the-logical-operator-for-an-expression-or-group.md
         - name: Edit an expression
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/edit-an-expression.md
+          href: defining-the-app-model/common-concepts/conditions/condition-editor/edit-an-expression.md
         - name: Defining operands
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/defining-operands.md
+          href: defining-the-app-model/common-concepts/conditions/condition-editor/defining-operands.md
         - name: Change the order of expressions and groups
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-order-of-expressions-and-groups.md
+          href: defining-the-app-model/common-concepts/conditions/condition-editor/change-the-order-of-expressions-and-groups.md
         - name: Remove an expression or group
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/remove-an-expression-or-group.md
+          href: defining-the-app-model/common-concepts/conditions/condition-editor/remove-an-expression-or-group.md
     - name: Data binding
-      href: defining-an-app-model/common-concepts/data-binding.md
+      href: defining-the-app-model/common-concepts/data-binding.md
   - name: User interface
-    href: defining-an-app-model/user-interface/index.md
+    href: defining-the-app-model/user-interface/index.md
     items:
     - name: Navigation pane
-      href: defining-an-app-model/user-interface/navigation-pane.md
+      href: defining-the-app-model/user-interface/navigation-pane.md
     - name: Tables
-      href: defining-an-app-model/user-interface/tables/index.md
+      href: defining-the-app-model/user-interface/tables/index.md
       items:
       - name: General Settings
-        href: defining-an-app-model/user-interface/tables/general-settings.md
+        href: defining-the-app-model/user-interface/tables/general-settings.md
       - name: Data Sources
-        href: defining-an-app-model/user-interface/tables/data-sources.md
+        href: defining-the-app-model/user-interface/tables/data-sources.md
       - name: Layout
-        href: defining-an-app-model/user-interface/tables/layout.md
+        href: defining-the-app-model/user-interface/tables/layout.md
       - name: Views
-        href: defining-an-app-model/user-interface/tables/views.md
+        href: defining-the-app-model/user-interface/tables/views.md
       - name: Events
-        href: defining-an-app-model/user-interface/tables/events.md
+        href: defining-the-app-model/user-interface/tables/events.md
     - name: Forms
-      href: defining-an-app-model/user-interface/forms/index.md
+      href: defining-the-app-model/user-interface/forms/index.md
       items:
       - name: General Settings
-        href: defining-an-app-model/user-interface/forms/general-settings.md
+        href: defining-the-app-model/user-interface/forms/general-settings.md
       - name: Data Sources
-        href: defining-an-app-model/user-interface/tables/data-sources.md
+        href: defining-the-app-model/user-interface/tables/data-sources.md
       - name: Views
-        href: defining-an-app-model/user-interface/forms/views.md
+        href: defining-the-app-model/user-interface/forms/views.md
         items:
         - name: Add a View
-          href: defining-an-app-model/user-interface/forms/views/add-a-view.md
+          href: defining-the-app-model/user-interface/forms/views/add-a-view.md
         - name: Desktop controls
-          href: defining-an-app-model/user-interface/forms/views/desktop-controls.md
+          href: defining-the-app-model/user-interface/forms/views/desktop-controls.md
           items:
           - name: Containers
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/containers.md
             items:
             - name: Group
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/group.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/containers/group.md
             - name: Group Box
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/group-box.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/containers/group-box.md
             - name: Conditional Groups
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/conditional-groups.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/containers/conditional-groups.md
             - name: Tab Sheets
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/tab-sheets.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/containers/tab-sheets.md
             - name: Common Container Properties
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/common-container-properties.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/containers/common-container-properties.md
           - name: Text and number controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/text-and-number-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/text-and-number-controls.md
           - name: Time and date controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/time-and-date-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/time-and-date-controls.md
           - name: List and lookup controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/list-and-lookup-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/list-and-lookup-controls.md
           - name: Button controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/button-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/button-controls.md
           - name: File and folder controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/file-and-folder-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/file-and-folder-controls.md
           - name: Graphic controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/graphic-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/graphic-controls.md
           - name: Tabular controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/tabular-controls.md
             items:
             - name: Grid
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls/grid.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/tabular-controls/grid.md
             - name: Table
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls/table.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/tabular-controls/table.md
             - name: Tree
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls/tree.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/tabular-controls/tree.md
           - name: Scheduling controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/scheduling-controls.md
             items:
             - name: Gantt
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt.md
               items:
               - name: Examples / How To
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/examples--how-to.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/examples--how-to.md
               - name: Properties
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/properties.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/properties.md
             - name: Timeline
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline.md
               items:
               - name: Examples / How To
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/examples--how-to.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/examples--how-to.md
               - name: Properties
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/properties.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/properties.md
           - name: Reporting and visualization controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls.md
             items:
             - name: Chart
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md
               items:
               - name: Examples / How To
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/examples--how-to.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/examples--how-to.md
               - name: Properties
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/properties.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/properties.md
             - name: Diagram
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram.md
               items:
               - name: Examples / How To
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/examples--how-to.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/examples--how-to.md
               - name: Properties
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/properties.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/properties.md
             - name: Tree Map
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map.md
+              href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map.md
               items:
               - name: Examples / How To
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md
               - name: Properties
-                href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/properties.md
+                href: defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/properties.md
           - name: Common control propterties
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/common-control-properties.md
+            href: defining-the-app-model/user-interface/forms/views/desktop-controls/common-control-properties.md
         - name: View Layout Fundamentals
-          href: defining-an-app-model/user-interface/forms/views/view-layout-fundamentals.md
+          href: defining-the-app-model/user-interface/forms/views/view-layout-fundamentals.md
         - name: View Properties
-          href: defining-an-app-model/user-interface/forms/views/view-properties.md
+          href: defining-the-app-model/user-interface/forms/views/view-properties.md
       - name: Commands
-        href: defining-an-app-model/user-interface/forms/commands.md
+        href: defining-the-app-model/user-interface/forms/commands.md
       - name: Events
-        href: defining-an-app-model/user-interface/forms/events.md
+        href: defining-the-app-model/user-interface/forms/events.md
       - name: Tasks
-        href: defining-an-app-model/user-interface/forms/tasks.md
+        href: defining-the-app-model/user-interface/forms/tasks.md
       - name: Form Designer
-        href: defining-an-app-model/user-interface/forms/form-designer.md
+        href: defining-the-app-model/user-interface/forms/form-designer.md
     - name: Keyboard shortcuts
-      href: defining-an-app-model/user-interface/keyboard-shortcuts.md
+      href: defining-the-app-model/user-interface/keyboard-shortcuts.md
   - name: Logic
-    href: defining-an-app-model/logic/index.md
+    href: defining-the-app-model/logic/index.md
     items:
     - name: Action orchestration
-      href: defining-an-app-model/logic/action-orchestration/index.md
+      href: defining-the-app-model/logic/action-orchestration/index.md
       items:
       - name: Data Sources
-        href: defining-an-app-model/logic/action-orchestration/data-sources.md
+        href: defining-the-app-model/logic/action-orchestration/data-sources.md
         items:
         - name: Add a Data Source
-          href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-data-source.md
+          href: defining-the-app-model/logic/action-orchestration/data-sources/add-a-data-source.md
         - name: Add a Local Object Data Source
-          href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-local-object-data-source.md
+          href: defining-the-app-model/logic/action-orchestration/data-sources/add-a-local-object-data-source.md
         - name: Specifying a Data Filter for a Data Source
-          href: defining-an-app-model/logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md
+          href: defining-the-app-model/logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md
         - name: The Account Data Source
-          href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
+          href: defining-the-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
         - name: File Data Sources
-          href: defining-an-app-model/logic/action-orchestration/data-sources/file-data-sources.md
+          href: defining-the-app-model/logic/action-orchestration/data-sources/file-data-sources.md
       - name: Actions
-        href: defining-an-app-model/logic/action-orchestration/actions.md
+        href: defining-the-app-model/logic/action-orchestration/actions.md
         items:
         - name: Blocks
-          href: defining-an-app-model/logic/action-orchestration/actions/blocks.md
+          href: defining-the-app-model/logic/action-orchestration/actions/blocks.md
           items:
           - name: Decision
-            href: defining-an-app-model/logic/action-orchestration/actions/blocks/decision.md
+            href: defining-the-app-model/logic/action-orchestration/actions/blocks/decision.md
           - name: Scope
-            href: defining-an-app-model/logic/action-orchestration/actions/blocks/scope.md
+            href: defining-the-app-model/logic/action-orchestration/actions/blocks/scope.md
           - name: Enumerator
-            href: defining-an-app-model/logic/action-orchestration/actions/blocks/enumerator.md
+            href: defining-the-app-model/logic/action-orchestration/actions/blocks/enumerator.md
           - name: While Loop
-            href: defining-an-app-model/logic/action-orchestration/actions/blocks/while-loop.md
+            href: defining-the-app-model/logic/action-orchestration/actions/blocks/while-loop.md
           - name: Catch Exception
-            href: defining-an-app-model/logic/action-orchestration/actions/blocks/catch-exception.md
+            href: defining-the-app-model/logic/action-orchestration/actions/blocks/catch-exception.md
         - name: Controls
-          href: defining-an-app-model/logic/action-orchestration/actions/controls.md
+          href: defining-the-app-model/logic/action-orchestration/actions/controls.md
           items:
           - name: Redirect Execution
-            href: defining-an-app-model/logic/action-orchestration/actions/controls/redirect-execution.md
+            href: defining-the-app-model/logic/action-orchestration/actions/controls/redirect-execution.md
           - name: Throw Exception
-            href: defining-an-app-model/logic/action-orchestration/actions/controls/throw-exception.md
+            href: defining-the-app-model/logic/action-orchestration/actions/controls/throw-exception.md
         - name: Effects
-          href: defining-an-app-model/logic/action-orchestration/actions/effects.md
+          href: defining-the-app-model/logic/action-orchestration/actions/effects.md
           items:
           - name: Consume a REST Service
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-rest-service.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/consume-a-rest-service.md
           - name: Consume a WEB Service
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-web-service.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/consume-a-web-service.md
           - name: Copy Data to the Clipboard
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/copy-data-to-the-clipboard.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/copy-data-to-the-clipboard.md
           - name: Create a Data Aggregate
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-a-data-aggregate.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/create-a-data-aggregate.md
           - name: Create a File
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-a-file.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/create-a-file.md
           - name: Create a Mail Message
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-a-mail-message.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/create-a-mail-message.md
           - name: Create Objects and Modify Objects
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md
           - name: Delete Objects
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/delete-objects.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/delete-objects.md
           - name: Export Data
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/export-data.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/export-data.md
           - name: Import Data
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/import-data.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/import-data.md
           - name: Invoke a File
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/invoke-a-file.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/invoke-a-file.md
           - name: Merge Data to a Document
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/merge-data-to-a-document.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/merge-data-to-a-document.md
           - name: Modify a User Account
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/modify-a-user-account.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/modify-a-user-account.md
           - name: Open a Form
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/open-a-form.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/open-a-form.md
           - name: Print Objects
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/print-objects.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/print-objects.md
           - name: Read Objects
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/read-objects.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/read-objects.md
           - name: Run a Data Extract
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-data-extract.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/run-a-data-extract.md
           - name: Run a Program
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-program.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/run-a-program.md
           - name: Run a Task
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-task.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/run-a-task.md
           - name: Run a Report
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-report.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/run-a-report.md
           - name: Set a Field's Value
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/set-a-fields-value.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/set-a-fields-value.md
           - name: Show a Confirmation Message
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/show-a-confirmation-message.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/show-a-confirmation-message.md
           - name: Show a Message
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/show-a-message.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/show-a-message.md
           - name: Sort Objects
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/sort-objects.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/sort-objects.md
           - name: Transform XML Data
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/transform-xml-data.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/transform-xml-data.md
           - name: Upload a File
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/upload-a-file.md
+            href: defining-the-app-model/logic/action-orchestration/actions/effects/upload-a-file.md
         - name: Defining Actions
-          href: defining-an-app-model/logic/action-orchestration/actions/defining-actions.md
+          href: defining-the-app-model/logic/action-orchestration/actions/defining-actions.md
         - name: Action Diagram
-          href: defining-an-app-model/logic/action-orchestration/actions/action-diagram.md
+          href: defining-the-app-model/logic/action-orchestration/actions/action-diagram.md
       - name: Exception Handling
-        href: defining-an-app-model/logic/action-orchestration/exception-handling.md
+        href: defining-the-app-model/logic/action-orchestration/exception-handling.md
     - name: Tasks
-      href: defining-an-app-model/logic/tasks.md
+      href: defining-the-app-model/logic/tasks.md
     - name: Agents
-      href: defining-an-app-model/logic/agents.md
+      href: defining-the-app-model/logic/agents.md
   - name: Services
-    href: defining-an-app-model/services/index.md
+    href: defining-the-app-model/services/index.md
     items:
     - name: Web services
-      href: defining-an-app-model/services/web-services/index.md
+      href: defining-the-app-model/services/web-services/index.md
       items:
       - name: Create a Web Services
-        href: defining-an-app-model/services/web-services/create-a-web-service.md
+        href: defining-the-app-model/services/web-services/create-a-web-service.md
       - name: Web Service References
-        href: defining-an-app-model/services/web-services/web-service-references.md
+        href: defining-the-app-model/services/web-services/web-service-references.md
       - name: SOAP Faults
-        href: defining-an-app-model/services/web-services/soap-faults.md
+        href: defining-the-app-model/services/web-services/soap-faults.md
       - name: View the Execution History for a Web Service
-        href: defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
+        href: defining-the-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
     - name: REST services
-      href: defining-an-app-model/services/rest-services/index.md
+      href: defining-the-app-model/services/rest-services/index.md
     - name: Nodes and node groups
-      href: defining-an-app-model/services/nodes-and-node-groups.md
+      href: defining-the-app-model/services/nodes-and-node-groups.md
   - name: Data
-    href: defining-an-app-model/data/index.md
+    href: defining-the-app-model/data/index.md
     items:
     - name: Object class diagram
-      href: defining-an-app-model/data/object-class-diagram.md
+      href: defining-the-app-model/data/object-class-diagram.md
     - name: Object class
-      href: defining-an-app-model/data/object-class/index.md
+      href: defining-the-app-model/data/object-class/index.md
       items:
       - name: Create or modify a code domain
-        href: defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md
+        href: defining-the-app-model/data/object-class/create-or-modify-a-code-domain.md
       - name: Create a new identifier domain
-        href: defining-an-app-model/data/object-class/create-a-new-identifier-domain.md
+        href: defining-the-app-model/data/object-class/create-a-new-identifier-domain.md
       - name: Create a new object domain
-        href: defining-an-app-model/data/object-class/create-a-new-object-domain.md
+        href: defining-the-app-model/data/object-class/create-a-new-object-domain.md
       - name: Modify an object- or identifier domain
-        href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain.md
+        href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain.md
         items:
         - name: General Settings
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/general-settings.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/general-settings.md
         - name: Data Provider
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-provider.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-provider.md
         - name: Data Integrity
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-integrity.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-integrity.md
         - name: Rules
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/rules.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/rules.md
         - name: Data Filtering
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-filtering.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-filtering.md
         - name: Data Sorting
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-sorting.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-sorting.md
         - name: Data Aggregation
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-aggregation.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-aggregation.md
         - name: Data Dependencies
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-dependencies.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-dependencies.md
         - name: Search
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/search.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/search.md
         - name: Explore
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/explore.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/explore.md
         - name: Display
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/display.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/display.md
         - name: Events
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md
         - name: Security
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/security.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/security.md
         - name: Data Exchange
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md
         - name: Follow Up
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/follow-up.md
+          href: defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/follow-up.md
     - name: Object class property
-      href: defining-an-app-model/data/object-class-property/index.md
+      href: defining-the-app-model/data/object-class-property/index.md
       items:
       - name: Add Properties to an Object Class from an RDBMS Table
-        href: defining-an-app-model/data/object-class-property/add-properties-to-an-object-class-from-an-rdbms-table.md
+        href: defining-the-app-model/data/object-class-property/add-properties-to-an-object-class-from-an-rdbms-table.md
       - name: Modify an Object Class Property
-        href: defining-an-app-model/data/object-class-property/modify-an-object-class-property.md
+        href: defining-the-app-model/data/object-class-property/modify-an-object-class-property.md
         items:
         - name: General Settings
-          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/general-settings.md
+          href: defining-the-app-model/data/object-class-property/modify-an-object-class-property/general-settings.md
         - name: Data Calculation
-          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-calculation.md
+          href: defining-the-app-model/data/object-class-property/modify-an-object-class-property/data-calculation.md
         - name: Data Filtering
-          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-filtering.md
+          href: defining-the-app-model/data/object-class-property/modify-an-object-class-property/data-filtering.md
         - name: Data Validation
-          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-validation.md
+          href: defining-the-app-model/data/object-class-property/modify-an-object-class-property/data-validation.md
         - name: Data Aggregation
-          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-aggregation.md
+          href: defining-the-app-model/data/object-class-property/modify-an-object-class-property/data-aggregation.md
         - name: Display
-          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/display.md
+          href: defining-the-app-model/data/object-class-property/modify-an-object-class-property/display.md
         - name: Security
-          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/security.md
+          href: defining-the-app-model/data/object-class-property/modify-an-object-class-property/security.md
       - name: Change the Data Type for an Object Class Property
-        href: defining-an-app-model/data/object-class-property/change-the-data-type-for-an-object-class-property.md
+        href: defining-the-app-model/data/object-class-property/change-the-data-type-for-an-object-class-property.md
       - name: Mapping of property data types and rdbms data types
-        href: defining-an-app-model/data/object-class-property/mapping-of-property-data-types-and-rdbms-data-types.md
+        href: defining-the-app-model/data/object-class-property/mapping-of-property-data-types-and-rdbms-data-types.md
     - name: Schemas
-      href: defining-an-app-model/data/schemas.md
+      href: defining-the-app-model/data/schemas.md
   - name: Security
-    href: defining-an-app-model/security/index.md
+    href: defining-the-app-model/security/index.md
     items:
     - name: Account profiles
-      href: defining-an-app-model/security/account-profiles.md
+      href: defining-the-app-model/security/account-profiles.md
     - name: Effective memberships and permissions
-      href: defining-an-app-model/security/effective-memberships-and-permissions.md
+      href: defining-the-app-model/security/effective-memberships-and-permissions.md
     - name: Security data sets
-      href: defining-an-app-model/security/security-data-sets.md
+      href: defining-the-app-model/security/security-data-sets.md
     - name: Security groups and user accounts
-      href: defining-an-app-model/security/security-groups-and-user-accounts.md
+      href: defining-the-app-model/security/security-groups-and-user-accounts.md
     - name: Sign In History
-      href: defining-an-app-model/security/sign-in-history.md
+      href: defining-the-app-model/security/sign-in-history.md
     - name: Security permissions
-      href: defining-an-app-model/security/security-permissions.md
+      href: defining-the-app-model/security/security-permissions.md
     - name: Security privileges
-      href: defining-an-app-model/security/security-privileges.md
+      href: defining-the-app-model/security/security-privileges.md
     - name: Security overview and review
-      href: defining-an-app-model/security/security-overview-and-review.md
+      href: defining-the-app-model/security/security-overview-and-review.md
     - name: Trusted users
-      href: defining-an-app-model/security/trusted-users.md
+      href: defining-the-app-model/security/trusted-users.md
 - name: Installation and configuration
   href: installation-and-configuration/index.md
   items:

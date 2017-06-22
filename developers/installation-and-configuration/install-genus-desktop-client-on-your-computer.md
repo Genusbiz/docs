@@ -78,7 +78,7 @@ On the Terminal Server, perform a Genus desktop client installation using an int
 
 If the Genus Server is configured with automatic update, see [Configure Automatic Update](../../users/navigate-view-modify-and-control/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") for considerations regarding terminal servers.
 
-If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files. See [Terminal Server Optimizations](../defining-an-app-model/logic/action-orchestration/actions/effects/terminal-server-optimizations.md "Terminal Server Optimizations") for details.
+If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files. See [Terminal Server Optimizations](../defining-the-app-model/logic/action-orchestration/actions/effects/terminal-server-optimizations.md "Terminal Server Optimizations") for details.
 
 
 
@@ -177,7 +177,7 @@ If there is, Genus compares the application model version with the version avail
 
 If there is not, the application model cache file is downloaded from your application server.
 
-If you have access to Genus Studio, you may force a deploy of the application model cache file to your computer. See [Deploy Changes in the Directory](../defining-an-app-model/getting-started/deploy-changes-in-the-directory.md) for more information. In such cases, the local copy of the Application Model Cache File will be preferred and read on startup.
+If you have access to Genus Studio, you may force a deploy of the application model cache file to your computer. See [Deploy Changes in the Directory](../defining-the-app-model/getting-started/deploy-changes-in-the-directory.md) for more information. In such cases, the local copy of the Application Model Cache File will be preferred and read on startup.
 
 **Automatic Update of the Genus Desktop client**
 

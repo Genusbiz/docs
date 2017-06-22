@@ -1,4 +1,4 @@
-# Defining an app model
+# Defining the app model
 
 To provide functionality to the end user, Genus App Platform employs declarative data about your business objects and logic. This collection of [metadata](../../terminology.md) are stored in the directory for your app and maintained in Genus Studio.
 

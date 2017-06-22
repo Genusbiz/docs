@@ -4,7 +4,7 @@ Web services defined and published by Genus are made available to external consu
 
 ## Browse Published Web Services
 
-Using your favorite web browser you can browse the list of published web services by navigating to https://*yourserver*/*yourdataset*/services/, where *yourserver* is the name of your Genus App Services server and *yourdataset* is the name of the virtual directory corresponding to a Genus [Data Set](../../defining-an-app-model/general-settings/data-sets.md). To see documentation on a single web service, click one of the web service listed or navigate to [https://yourserver/yourdataset/services/yourwebservice.svc](https://yourserver/yourdataset/services/yourwebservice.svc).
+Using your favorite web browser you can browse the list of published web services by navigating to https://*yourserver*/*yourdataset*/services/, where *yourserver* is the name of your Genus App Services server and *yourdataset* is the name of the virtual directory corresponding to a Genus [Data Set](../../defining-the-app-model/general-settings/data-sets.md). To see documentation on a single web service, click one of the web service listed or navigate to [https://yourserver/yourdataset/services/yourwebservice.svc](https://yourserver/yourdataset/services/yourwebservice.svc).
 
 ### SOAP
 
