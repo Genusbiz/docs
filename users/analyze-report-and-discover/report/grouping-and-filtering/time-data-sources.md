@@ -44,7 +44,7 @@ To set default filters, right-click the data sources in filter or in the axis an
 
 ![ID7FEFE85AED014BFB.ID1AB9B6AF7E17486B.png](media/ID7FEFE85AED014BFB.ID1AB9B6AF7E17486B.png)
 
-*   **[Saved Data Filter](../../../../developers/defining-an-app-model/data-filters.md)** (inserts predefined data filter as filter)
+*   **[Saved Data Filter](../data-filters.md)** (inserts predefined data filter as filter)
 
 </td>
 

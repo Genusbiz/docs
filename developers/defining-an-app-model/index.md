@@ -35,13 +35,13 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 **Search**
 
-* [Search Folders](search-folders.md)
-* [Refiners](refiners.md)
+* [Search Folders](../../users/search-and-refine/search-folders.md)
+* [Refiners](../../users/search-and-refine/refiners.md)
 
 **Discovery**
 
 * [Data Marts](data-marts.md)
-* [Data Filters](data-filters.md)
+* [Data Filters](../../users/analyze-report-and-discover/report/data-filters.md)
 
 **Security**
 

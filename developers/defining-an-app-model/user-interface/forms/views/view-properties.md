@@ -136,7 +136,7 @@ A condition determines if the view is read only for the end user. Use a conditio
 
 <td>
 
-Specifies which [refiners](../../../refiners.md) are available in the view, and which data sources they refine.
+Specifies which [refiners](../../../../../users/search-and-refine/refiners.md) are available in the view, and which data sources they refine.
 
 To add a refiner, in the **Refiners** window, click **Add**. Then in the **Select Refiners** window, select a refiner in the **Available Refiners** list and click **Add** to move it to the **Selected Refiners** list. Click **OK**. A refiner that is added is by default specified to affect all the data sources it has the ability to filter. To modify these settings, locate the refiner to modify in the list of refiners, and click the down arrow in the **Refined Data Sources** cell. Then select the data sources to refine, or click to clear the data sources that should not be refined.
 

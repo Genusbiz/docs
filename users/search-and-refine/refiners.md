@@ -1,8 +1,8 @@
-## Refiners
+# Refiners
 
 Genus offers dynamic refinement of search results, by aggregating the result into categories, called Refiners. Each refiner has one or more refinement links which represents the items in that category, and each refinement link represents a filter that can be applied to the search result. By selecting a refinement link, the search result is narrowed and only matching objects are kept. Only the refinement links that are relevant in the search result are shown, and they are continuously updated in the background to reflect changes in the search result. The refiners and refinement links are available in the refinement pane, and each refinement link displays the exact number of matching objects, so you immediately know how many objects you will get by selecting the refinement link.
 
-For more information on how to filter search results using refiners, see [Refining Search Results](../../users/search-and-refine/refining-search-results.md).
+For more information on how to filter search results using refiners, see [Refining Search Results](refining-search-results.md).
 
 A refiner can be mapped directly to properties, or through conditions to create custom intervals or categories.
 
@@ -20,12 +20,12 @@ Typical scenarios for condition mapped refiners could be:
 
 Custom categories are always defined by Code Domains in your Directory. For a given Conditional refiner bound to a Code Domain, a mapping to an Object Class is defined by specifying a condition for each value in that Code Domain.
 
-For information on how to publish your refiners, see [Search](data/object-class/modify-an-object-or-identifier-domain/search.md) and [Views](user-interface/tables/views.md).
+For information on how to publish your refiners, see [Search](../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/search.md) and [Views](../../developers/defining-an-app-model/user-interface/tables/views.md).
 
 
 ## Create a Refiner
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md)
+1.  [Open Genus Studio](../../developers/defining-an-app-model/getting-started/how-to-open-genus-studio.md)
 2.  In the **Directory** tree, click the **Refiners** folder, and then on the toolbar, click **New.**  
     ![ID6E57586E65A045CA.png](media/ID6E57586E65A045CA.png)
 3.  In the **Name** box, type a name for the Refiner.
@@ -42,9 +42,9 @@ For information on how to publish your refiners, see [Search](data/object-class/
 
 ## Create a Conditional Refiner
 
-1.  [Open Genus Studio](getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../../developers/defining-an-app-model/getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Class** folder
-3.  [Create a code domain](data/object-class/create-or-modify-a-code-domain.md) representing your custom category. For example a set of Age Groups:  
+3.  [Create a code domain](../../developers/defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md) representing your custom category. For example a set of Age Groups:  
     ![ID75E4356DB5A047C9.png](media/ID75E4356DB5A047C9.png)
 4.  In the **Directory** tree, click the **Refiners** folder, and then on the toolbar, click **New**.
 5.  In the **Name** box, type a name for the Refiner. For example Age
@@ -54,10 +54,10 @@ For information on how to publish your refiners, see [Search](data/object-class/
 9.  In the **Sort Items By** box, select **Code Domain Order** to list the refinement links in the logical order of the values in the code domain .
 10.  Click the **Add** arrow in the **Mappings** section, and select **Conditions** to open the **Refiner Mapping** dialog.  
     ![IDD593DB163D904BCB.png](media/IDD593DB163D904BCB.png)
-11.  In the **Map to Object Class** box select the object class to filter, and for each of the values in the code domain define the [conditions](common-concepts/conditions.md) to use for filtering the object class. Note! If the conditions are very similar , you can copy a condition from one value to another, and then modify the condition. To do this, right-click a condition, and then in the shortcut menu, click **Copy**.  
+11.  In the **Map to Object Class** box select the object class to filter, and for each of the values in the code domain define the [conditions](../../developers/defining-an-app-model/common-concepts/conditions.md) to use for filtering the object class. Note! If the conditions are very similar , you can copy a condition from one value to another, and then modify the condition. To do this, right-click a condition, and then in the shortcut menu, click **Copy**.  
     ![IDF8F8552DF8FE4DEA.png](media/IDF8F8552DF8FE4DEA.png)
 12.  Repeat 10 and 11 for all object classes to map.
 13.  Click **OK**.
 
-For information on how to publish your refiners, see [Search](data/object-class/modify-an-object-or-identifier-domain/search.md) and [Views](user-interface/tables/views.md).
+For information on how to publish your refiners, see [Search](../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/search.md) and [Views](../../developers/defining-an-app-model/user-interface/tables/views.md).
 

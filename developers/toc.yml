@@ -365,12 +365,6 @@
       href: defining-an-app-model/data-marts/tasks.md
     - name: Loading and Scheduling Strategies
       href: defining-an-app-model/data-marts/data-mart-loading.md
-  - name: Search Folders
-    href: defining-an-app-model/search-folders.md
-  - name: Refiners
-    href: defining-an-app-model/refiners.md
-  - name: Data Filters
-    href: defining-an-app-model/data-filters.md
   - name: Nodes and Node Groups
     href: defining-an-app-model/nodes-and-node-groups.md
   - name: Translate the app model to other languages

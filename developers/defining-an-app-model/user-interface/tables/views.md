@@ -146,7 +146,7 @@ To change the display order for a search field, click the field in the list, and
 
 ## Refiners
 
-[Refiners](../../refiners.md "Refiners") enables users to narrow broad searches and get to the right content faster. You can choose to include all refiners enabled for the data sources defined in your table, or select a specific set of refiners defined in your Directory.
+[Refiners](../../../../users/search-and-refine/refiners.md "Refiners") enables users to narrow broad searches and get to the right content faster. You can choose to include all refiners enabled for the data sources defined in your table, or select a specific set of refiners defined in your Directory.
 
 1.  Click the view in the **Views** list.
 2.  In the **Properties** area, click the **Refiners** tab.

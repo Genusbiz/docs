@@ -124,10 +124,14 @@
     href: search-and-refine/viewing-search-results.md
   - name: Search options
     href: search-and-refine/search-options.md
+  - name: Refiners
+    href: search-and-refine/refiners.md
   - name: Refining search results
     href: search-and-refine/refining-search-results.md    
   - name: Exploring data
     href: search-and-refine/exploring-data.md
+  - name: Search folders
+    href: search-and-refine/search-folders.md
 - name: Analyze, report and discover
   href: analyze-report-and-discover/index.md
   items:
@@ -178,5 +182,7 @@
       href: analyze-report-and-discover/report/export-or-distribute-a-report.md
     - name: Save to File or Print a Report
       href: analyze-report-and-discover/report/save-to-file-or-print-a-report.md  
+    - name: Data filters
+      href: analyze-report-and-discover/report/data-filters.md
 - name: Automate, monitor and alert
   href: automate-monitor-and-alert/index.md
