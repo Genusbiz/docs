@@ -326,30 +326,30 @@
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md
         - name: Follow Up
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/follow-up.md
-  - name: Object Class Property
-    href: defining-an-app-model/object-class-property.md
-    items:
-    - name: Add Properties to an Object Class from an RDBMS Table
-      href: defining-an-app-model/object-class-property/add-properties-to-an-object-class-from-an-rdbms-table.md
-    - name: Modify an Object Class Property
-      href: defining-an-app-model/object-class-property/modify-an-object-class-property.md
+    - name: Object class property
+      href: defining-an-app-model/data/object-class-property/index.md
       items:
-      - name: General Settings
-        href: defining-an-app-model/object-class-property/modify-an-object-class-property/general-settings.md
-      - name: Data Calculation
-        href: defining-an-app-model/object-class-property/modify-an-object-class-property/data-calculation.md
-      - name: Data Filtering
-        href: defining-an-app-model/object-class-property/modify-an-object-class-property/data-filtering.md
-      - name: Data Validation
-        href: defining-an-app-model/object-class-property/modify-an-object-class-property/data-validation.md
-      - name: Data Aggregation
-        href: defining-an-app-model/object-class-property/modify-an-object-class-property/data-aggregation.md
-      - name: Display
-        href: defining-an-app-model/object-class-property/modify-an-object-class-property/display.md
-      - name: Security
-        href: defining-an-app-model/object-class-property/modify-an-object-class-property/security.md
-    - name: Change the Data Type for an Object Class Property
-      href: defining-an-app-model/object-class-property/change-the-data-type-for-an-object-class-property.md
+      - name: Add Properties to an Object Class from an RDBMS Table
+        href: defining-an-app-model/data/object-class-property/add-properties-to-an-object-class-from-an-rdbms-table.md
+      - name: Modify an Object Class Property
+        href: defining-an-app-model/data/object-class-property/modify-an-object-class-property.md
+        items:
+        - name: General Settings
+          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/general-settings.md
+        - name: Data Calculation
+          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-calculation.md
+        - name: Data Filtering
+          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-filtering.md
+        - name: Data Validation
+          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-validation.md
+        - name: Data Aggregation
+          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/data-aggregation.md
+        - name: Display
+          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/display.md
+        - name: Security
+          href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/security.md
+      - name: Change the Data Type for an Object Class Property
+        href: defining-an-app-model/data/object-class-property/change-the-data-type-for-an-object-class-property.md
   - name: Schemas
     href: defining-an-app-model/schemas.md
   - name: Data Marts

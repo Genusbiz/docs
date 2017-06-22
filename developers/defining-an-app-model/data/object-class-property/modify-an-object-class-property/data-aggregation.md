@@ -14,7 +14,7 @@ Select the **Enable as Measure in Reports** check box if the property should be 
 **Enable Series Calculation at Detailed Level**  
 To aggregate data for the property, select the **Enable Series Calculation at Detailed Level**. This option will take effects for the property in Basic View.
 
-To read more about Basic View, see [View](../../data/object-class/modify-an-object-or-identifier-domain/explore.md).
+To read more about Basic View, see [View](../../object-class/modify-an-object-or-identifier-domain/explore.md).
 
 **Aggregation Method**
 

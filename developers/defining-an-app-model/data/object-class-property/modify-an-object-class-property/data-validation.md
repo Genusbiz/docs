@@ -30,5 +30,5 @@ Data type validation for a property is performed by validating a value against t
 2.  Right-click the Property, and then in the shortcut menu, click **Open**.
 3.  Click the **Data Validation** tab.
 4.  Click **Add**.
-5.  Follow the instructions in the [step-by-step procedure](../../user-interface/tables/specifying-a-conditionbased-data-validation.md "Specifying a Condition-Based Data Validation") on how to define a condition-based data validation.
+5.  Follow the instructions in the [step-by-step procedure](../../../user-interface/tables/specifying-a-conditionbased-data-validation.md "Specifying a Condition-Based Data Validation") on how to define a condition-based data validation.
 

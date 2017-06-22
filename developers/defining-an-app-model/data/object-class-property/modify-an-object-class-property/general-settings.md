@@ -29,9 +29,9 @@ Defines the kind of data the property can hold. For example integer or character
 *   Binary Large Object
 *   Textual Large Object
 
-For more information, see [Mapping of Property Data Types and RDBMS Data Types](../../data-marts/mapping-of-property-data-types-and-rdbms-data-types.md "Mapping of Property Data Types and RDBMS Data Types").
+For more information, see [Mapping of Property Data Types and RDBMS Data Types](../../../data-marts/mapping-of-property-data-types-and-rdbms-data-types.md "Mapping of Property Data Types and RDBMS Data Types").
 
-For <span style="FONT-STYLE: italic">Character or String or <span style="FONT-STYLE: italic">Textual Large Objects some characters are illegal. See [Character String Requirements](../../../../users/navigate-view-modify-and-control/advanced/character-string-requirements.md "Character String Requirements") for more information.
+For <span style="FONT-STYLE: italic">Character or String or <span style="FONT-STYLE: italic">Textual Large Objects some characters are illegal. See [Character String Requirements](../../../../../users/navigate-view-modify-and-control/advanced/character-string-requirements.md "Character String Requirements") for more information.
 
 **Data Size**
 
@@ -51,8 +51,8 @@ Defines how to interpret data of a given type. For example, string data can be i
 
 Data can be interpreted as a **simple type,** a **complex** **type** or a **complex association**.
 
-*   **Simple types** represents a single piece of information, such as a number or a text. For more information, see the article [Simple Data Interpretations for a Property](../../simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property").
-*   A **complex type** represents an Object Class in your Directory. For example, a numeric property containing the employee id for the manager of a project, should be interpreted as an employee. In the context of relational databases, this represents a foreign key, which is a referential constraint between two tables. Note that only Object Classes which has [a primary key which comprises a single property](../../data/object-class/modify-an-object-or-identifier-domain/data-integrity.md) can be used for complex interpretation. In addition, only Object Classes which has a primary key with the same data type and size as the property are available as complex interpretations. A special case exists for the property which represent the primary key for an Object Class. Data interpretation for this property has to be defined as the Object Class itself.
+*   **Simple types** represents a single piece of information, such as a number or a text. For more information, see the article [Simple Data Interpretations for a Property](../../../simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property").
+*   A **complex type** represents an Object Class in your Directory. For example, a numeric property containing the employee id for the manager of a project, should be interpreted as an employee. In the context of relational databases, this represents a foreign key, which is a referential constraint between two tables. Note that only Object Classes which has [a primary key which comprises a single property](../../object-class/modify-an-object-or-identifier-domain/data-integrity.md) can be used for complex interpretation. In addition, only Object Classes which has a primary key with the same data type and size as the property are available as complex interpretations. A special case exists for the property which represent the primary key for an Object Class. Data interpretation for this property has to be defined as the Object Class itself.
 *   **Complex association** is used when the property can represent any Object Class within a predefined set of Object Classes. A common use of complex association is an Object Class containing a single outbound reference to a varying number of Object Classes. For example, an Object Class which represents a document can be attached to an employee, a customer, a project or an activity. For more information, see the article [Complex Association Data Interpretation for a Property](../complex-association-data-interpretation-for-a-property.md "Complex Association Data Interpretation for a Property").
 
 **Data Encoding**
@@ -73,7 +73,7 @@ Represents the height in pixels the thumbnail image is resized to, if it is high
 
 For properties of type **Data**, with data binding **One-Way Bound** or **Two-Way Bound**, the value is required and specifies the name of the column in the table or view where data for the Object Class Property is stored.
 
-For other properties a value is not required, and is only used in certain situations, like when using name binding to/from JSON or XML. For example when using the [Import Data](../../logic/action-orchestration/actions/effects/import-data.md) effect.
+For other properties a value is not required, and is only used in certain situations, like when using name binding to/from JSON or XML. For example when using the [Import Data](../../../logic/action-orchestration/actions/effects/import-data.md) effect.
 
 **Outbound Reference Constraint**
 
@@ -85,7 +85,7 @@ An outbound reference constraint prevents this situation. The contraint enforces
 
 In some cases you may want to delete linked objects when an object in the referenced Object Class is deleted. To enable this option, click **Cascade Delete**.
 
-For example, if an Object Class represents a <span style="FONT-STYLE: italic">membership in a <span style="FONT-STYLE: italic">student union, and a property represents a link to a <span style="FONT-STYLE: italic">student, the <span style="FONT-STYLE: italic">membership should be deleted whenever a <span style="FONT-STYLE: italic">student is deleted. The <span style="FONT-STYLE: italic">membership is owned by the <span style="FONT-STYLE: italic">student union, that is, it is part of the <span style="FONT-STYLE: italic">student union [composition](../../../installation-and-configuration/composition.md "Composition"). If a <span style="FONT-STYLE: italic">student union is deleted, all <span style="FONT-STYLE: italic">memberships are automatically deleted. However, the <span style="FONT-STYLE: italic">membership is not automatically deleted if a <span style="FONT-STYLE: italic">student is deleted unless this option is selected.
+For example, if an Object Class represents a <span style="FONT-STYLE: italic">membership in a <span style="FONT-STYLE: italic">student union, and a property represents a link to a <span style="FONT-STYLE: italic">student, the <span style="FONT-STYLE: italic">membership should be deleted whenever a <span style="FONT-STYLE: italic">student is deleted. The <span style="FONT-STYLE: italic">membership is owned by the <span style="FONT-STYLE: italic">student union, that is, it is part of the <span style="FONT-STYLE: italic">student union [composition](../../../../installation-and-configuration/composition.md "Composition"). If a <span style="FONT-STYLE: italic">student union is deleted, all <span style="FONT-STYLE: italic">memberships are automatically deleted. However, the <span style="FONT-STYLE: italic">membership is not automatically deleted if a <span style="FONT-STYLE: italic">student is deleted unless this option is selected.
 
 Normally the outbound reference constraint should be enabled to enforce referential integerity. However, you are allowed to disable the contstraint. For example, if an Object Class are based on a read only RDBMS view, you do not want that the link between the view and the referenced Object Class prevents users to delete objects in the referenced Object Class.
 
@@ -116,6 +116,6 @@ Documentation of the purpose and content of the property.
 
 See Also
 
-*   [Mapping of Property Data Types and RDBMS Data Types](../../data-marts/mapping-of-property-data-types-and-rdbms-data-types.md)
-*   [Simple Data Interpretations for a Property](../../simple-data-interpretations-for-a-property.md)
+*   [Mapping of Property Data Types and RDBMS Data Types](../../../data-marts/mapping-of-property-data-types-and-rdbms-data-types.md)
+*   [Simple Data Interpretations for a Property](../../../simple-data-interpretations-for-a-property.md)
 *   [Complex Association Data Interpretation for a Property](../complex-association-data-interpretation-for-a-property.md)

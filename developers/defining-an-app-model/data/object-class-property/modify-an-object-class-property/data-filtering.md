@@ -8,7 +8,7 @@ When filtering data for an Object Class, the user enters one or more search crit
 
 Determines which search operators that are available to the user when filtering data. Available filter methods vary based on the data type for the property. If the data interpretation for the property is of a complex type, the filter method **Object Selection** is provided for all data types. When filtering data, the user can select an object from the Object Class the property refers to.
 
-For more information about available filter methods, see the article [Filter Methods](../../../../users/navigate-view-modify-and-control/working-in-tables/filter-methods.md "Filter Methods").
+For more information about available filter methods, see the article [Filter Methods](../../../../../users/navigate-view-modify-and-control/working-in-tables/filter-methods.md "Filter Methods").
 
 **Default Operator**
 
@@ -18,4 +18,4 @@ The operator which is selected as default in search dialog boxes.
 
 Applies to properties with data type **Character or String**. By default, this option is selected, and text searches are case sensitive. If case should be ignored when filtering data, click the **Case Sensitive** check box to clear this option. Note that this can have a negative impact on the performance if your database not is indexed properly.
 
-If the table associated with the Object Class is located in a database supporting case insensitive search, all text searches are by default case insensitive, and the setting for this option will not affect the search result. Whether the database supports cases insensitive search is defined in the [physical database setup in Genus Configuration](../../../installation-and-configuration/configure-and-maintain-genus-server.md).
+If the table associated with the Object Class is located in a database supporting case insensitive search, all text searches are by default case insensitive, and the setting for this option will not affect the search result. Whether the database supports cases insensitive search is defined in the [physical database setup in Genus Configuration](../../../../installation-and-configuration/configure-and-maintain-genus-server.md).

@@ -30,7 +30,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 * [Object Class Diagram](data/object-class-diagram.md)
 * [Object Class](data/object-class/index.md)
-* [Object Class Property](object-class-property.md)
+* [Object Class Property](data/object-class-property/index.md)
 * [Schemas](schemas.md)
 
 **Search**

@@ -2,7 +2,7 @@
 
 You can add properties to an existing Object Class.
 
-1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../../getting-started/how-to-open-genus-studio.md).
 2.  In the Directory tree, click the **Object Classes** folder.
 3.  In the table to the right, double-click the Object Class which you want to add properties to, and then double-click the **Properties** folder.
 4.  Right-click in the list of properties, and select **New**, and then select Bound or Unbound. A bound property is connected to an RDBMS column, while an unbound property is not.
@@ -10,7 +10,7 @@ You can add properties to an existing Object Class.
 
 You can also add properties to an existing Object Class based on the columns in the RDBMS table associated with the Object Class.
 
-1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Classes** folder.
 3.  In the table to the right, right-click the Object Class which you want to add properties to, and then in the shortcut menu, click **Add Object Class Properties**.
 4.  In the **Object Class Wizard**, click **Next**.

@@ -190,7 +190,7 @@ To view the [effective permissions](effective-memberships-and-permissions.md "Ef
 
 ## Property Permissions that can be Granted to a Security Group
 
-The number of permissions that can be granted to a security group is determined by the [security setup](../object-class-property/modify-an-object-class-property/security.md "Security") for the property.
+The number of permissions that can be granted to a security group is determined by the [security setup](../data/object-class-property/modify-an-object-class-property/security.md "Security") for the property.
 
 *   **Read**. Allows the user to read data for the property.
 *   **Create**. Allows the user to modify data for the property when creating a new object.
@@ -202,7 +202,7 @@ The number of permissions that can be granted to a security group is determined 
 
 Only [trusted users](trusted-users.md) have access to grant permissions to a property.
 
-To grant permissions to a property, the option **Allow granting of permissions to property** has to be selected in the [security setup](../object-class-property/modify-an-object-class-property/security.md) for the property. Permissions can only be granted to security groups and not individual user accounts.
+To grant permissions to a property, the option **Allow granting of permissions to property** has to be selected in the [security setup](../data/object-class-property/modify-an-object-class-property/security.md) for the property. Permissions can only be granted to security groups and not individual user accounts.
 
 1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Permissions** folder.

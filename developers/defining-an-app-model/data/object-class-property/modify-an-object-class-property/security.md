@@ -56,10 +56,10 @@ Applies to bound properties.
 
 **Granting of Permissions to Security Groups**
 
-To allow granting of permissions to individual security groups, select the **Allow granting of permissions to property** check box. Only [trusted users](../../security/trusted-users.md "Trusted Users") can grant permissions to a property. How to grant permissions to a property is described in the article [Grant Permissions to a Property to a Security Group](../../security/security-permissions.md "Grant Permissions to a Property to a Security Group").
+To allow granting of permissions to individual security groups, select the **Allow granting of permissions to property** check box. Only [trusted users](../../../security/trusted-users.md "Trusted Users") can grant permissions to a property. How to grant permissions to a property is described in the article [Grant Permissions to a Property to a Security Group](../../../security/security-permissions.md "Grant Permissions to a Property to a Security Group").
 
 See Also
 
-*   [Security Groups and User Accounts](../../security/security-groups-and-user-accounts.md)
-*   [Security Permissions](../../security/security-permissions.md)
-*   [Trusted Users](../../security/trusted-users.md)
+*   [Security Groups and User Accounts](../../../security/security-groups-and-user-accounts.md)
+*   [Security Permissions](../../../security/security-permissions.md)
+*   [Trusted Users](../../../security/trusted-users.md)

@@ -134,7 +134,7 @@ Assign a unique id from an Identifier Domain when an object is created. Typicall
 
 <td>Enter a Conditional Formula</td>
 
-<td>Calculate a value using a [conditional formula](../../define-a-conditional-formula.md "Define a Conditional Formula"). A conditional formula gives you the opportunity to define one or more formulas with a conditional statement. The conditional statement is used to determine which formula to apply when calculating the value.</td>
+<td>Calculate a value using a [conditional formula](../../../define-a-conditional-formula.md "Define a Conditional Formula"). A conditional formula gives you the opportunity to define one or more formulas with a conditional statement. The conditional statement is used to determine which formula to apply when calculating the value.</td>
 
 <td>No</td>
 
@@ -152,7 +152,7 @@ Assign a unique id from an Identifier Domain when an object is created. Typicall
 
 <td>Enter a Formula</td>
 
-<td>Calculate a value using a [formula](../../common-concepts/advanced-expressions/formula-editor.md) which combines functions, references to other fields, static values (such as a number) and mathematical operators.</td>
+<td>Calculate a value using a [formula](../../../common-concepts/advanced-expressions/formula-editor.md) which combines functions, references to other fields, static values (such as a number) and mathematical operators.</td>
 
 <td>Yes</td>
 
@@ -227,7 +227,7 @@ Assign a unique id from an Identifier Domain when an object is created. Typicall
 
 <td>GUID</td>
 
-<td>Assign a [Globally Unique Identifier](../../../../terminology.md). If the data type for the property is Character or String, the property must be at least 32 characters long. If the data type for the property is GUID, this option is only available if the property is defined as the primary key in the Object Class.</td>
+<td>Assign a [Globally Unique Identifier](../../../../../terminology.md). If the data type for the property is Character or String, the property must be at least 32 characters long. If the data type for the property is GUID, this option is only available if the property is defined as the primary key in the Object Class.</td>
 
 <td>Yes</td>
 
@@ -410,5 +410,5 @@ For example, if an Object Class contains data for <span style="FONT-STYLE: itali
 
 <span style="FONT-STYLE: italic">?-1.sales_price * ?.exchange_rate
 
-Note that properties using RDBMS expressions with a placeholderdata source, can only be used in contexts where SQL queries can be executed. For example, such a property cannot be used to [define the display name for an object class](../../data/object-class/modify-an-object-or-identifier-domain/display.md).
+Note that properties using RDBMS expressions with a placeholderdata source, can only be used in contexts where SQL queries can be executed. For example, such a property cannot be used to [define the display name for an object class](../../object-class/modify-an-object-or-identifier-domain/display.md).
 

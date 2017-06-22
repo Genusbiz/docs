@@ -43,7 +43,7 @@ Spin Button Orientation | The orientation of the spin buttons.<br><br><ul><li>**
 
 ## Password Edit
 
-This control allows you to display and edit passwords. While the password is accepted as the actual text that is entered, it is not displayed legibly, but every charachter is displayed as the same optional character (for example: "*" or "#"). For ensuring password strength, authentication, etc. use [data validation](../../../../object-class-property/modify-an-object-class-property/data-validation.md), [actions](../../../../logic/action-orchestration/index.md), etc.
+This control allows you to display and edit passwords. While the password is accepted as the actual text that is entered, it is not displayed legibly, but every charachter is displayed as the same optional character (for example: "*" or "#"). For ensuring password strength, authentication, etc. use [data validation](../../../../data/object-class-property/modify-an-object-class-property/data-validation.md), [actions](../../../../logic/action-orchestration/index.md), etc.
 
 
 Property      | Description

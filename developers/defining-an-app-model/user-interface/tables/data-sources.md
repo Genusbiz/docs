@@ -74,7 +74,7 @@ Bindings that are **One Way** or **Two Way** listen for changes in the data sour
 
 ## Add a New Field to a Data Source
 
-A data source in a form or table that is is based on an [Object Class](../../data/object-class/index.md) defined in your Directory, have fields in the data source that corresponds to [properties](../../object-class-property.md "Object Class Property") in the Object Class. A data source of the type Local Object, have all the fields defined locally.
+A data source in a form or table that is is based on an [Object Class](../../data/object-class/index.md) defined in your Directory, have fields in the data source that corresponds to [properties](../../data/object-class-property/index.md "Object Class Property") in the Object Class. A data source of the type Local Object, have all the fields defined locally.
 
 To add a new field, do the following:
 
@@ -159,8 +159,8 @@ To add a new field, do the following:
 
 Data calculation lets you define a default value, a formula or an aggregated measure.
 
-*   **A default value** for a field is calculated when an object is created. For example, you may want to set the *state* for a *customer* to *Active* by default when a new *customer* is created. For more information on how to specify a default value, see the article [Specifying a Default Value or Formula](../../object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data**.
-*   **A formula** is calculated whenever data are read or modified. For example you could calculate the deviation between actual and budget figures. For more information on how to specify a formula, see the article [Specifying a Default Value or Formula](../../object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data** and **Function**.
+*   **A default value** for a field is calculated when an object is created. For example, you may want to set the *state* for a *customer* to *Active* by default when a new *customer* is created. For more information on how to specify a default value, see the article [Specifying a Default Value or Formula](../../data/object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data**.
+*   **A formula** is calculated whenever data are read or modified. For example you could calculate the deviation between actual and budget figures. For more information on how to specify a formula, see the article [Specifying a Default Value or Formula](../../data/object-class-property/modify-an-object-class-property/data-calculation.md "Specifying a Default Value or Formula"). Applies to fields of type **Data** and **Function**.
 *   **An aggregated measure** is built by changing the granularity on specific dimensions and aggregating up a measure along these dimensions. For example, in a data source based on the Object Class *Customer*, you could calculate *total sales year to date* or *outstanding debt*. For more information on how to specify an aggregate measure, see the article [Specifying an Aggregated Measure](../../../installation-and-configuration/configure-and-maintain-genus-server/specifying-an-aggregated-measure.md "Specifying an Aggregated Measure"). Applies to fields of type **Function**.
 
 </td>
@@ -214,7 +214,7 @@ Use data validation to ensure that values entered for a field satisfies certain 
 
 ## Customize a Field Bound to an Object Class Property
 
-Most property settings for fields which are bound to an [Object Class Property](../../object-class-property.md "Object Class Property") are inherited, and you are only allowed to modify the following properties:
+Most property settings for fields which are bound to an [Object Class Property](../../data/object-class-property/index.md "Object Class Property") are inherited, and you are only allowed to modify the following properties:
 
 *   **Default Value**. To specify a default value, in the **Data Calculation** section, select the **Override** check box.
 *   **Allow Blank Value**. If the bound Property not requires a value, you are allowed to make the field required.

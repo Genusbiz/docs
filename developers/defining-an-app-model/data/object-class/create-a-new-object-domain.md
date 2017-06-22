@@ -20,7 +20,7 @@
 18.  Select the **Generate Identifiers Automatically** check box to let the system generate identifiers for the key. This option is only available for properties with data type integer or string. A numeric key is generated as a sequential number that uniquely identifies an object. A text key is generated using a [GUID (Globally Unique Identifier)](../../../../terminology.md). Note that the data size for the property must be at least 32 characters to store a GUID.
 19.  Select the **Change Data Interpretation to Concept** check box to give the primary key property a complex data interpretation of the object class. This is often the case for objects with an internal identifier as primary key, while objects with a code or a number as primary key will use the content of the property directly. This option is always selected when the **Generate Identifiers Automatically** is selected.
 20.  Click **Next**.
-21.  For each table column selected in step 9, a property is created. To modify the definition for a property, click the property in the list, and then click **Modify**. More information on how to define a property is described in the article [Modify an Object Class Property](../../object-class-property/modify-an-object-class-property.md).
+21.  For each table column selected in step 9, a property is created. To modify the definition for a property, click the property in the list, and then click **Modify**. More information on how to define a property is described in the article [Modify an Object Class Property](../object-class-property/modify-an-object-class-property.md).
 22.  Click **Next**.
 23.  To define how objects are named, add one or more properties from the Object Class. The name identify an object to the user, and does not have to be unique. For example, the *article number* and *name* of a *product*. For a given object, the name is constructed by concatenating the values for the selected properties.
 24.  Click **Next**.
@@ -30,4 +30,4 @@
 See Also
 
 *   [Modify an Object or Identifier Domain](modify-an-object-or-identifier-domain.md)
-*   [Modify an Object Class Property](../../object-class-property/modify-an-object-class-property.md)
+*   [Modify an Object Class Property](../object-class-property/modify-an-object-class-property.md)
