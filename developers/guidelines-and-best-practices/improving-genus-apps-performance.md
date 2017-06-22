@@ -1,4 +1,4 @@
-## Improving Mobile Client Performance
+# Improving Genus Apps performance
 
 When modeling an app or web app, it is sometimes easy to forget that server side modeling also matters when it comes to end user performance.
 

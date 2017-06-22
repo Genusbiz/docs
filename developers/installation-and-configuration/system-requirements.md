@@ -40,7 +40,7 @@ We recommend keeping your computer up to date with the latest updates and servic
 
 **Network requirements**
 
-The Genus Desktop client supports Web Proxy Auto-Discovery Protocol (WPAD) using DNS (not DHCP). Therefore, if WPAD is enabled in the network, it must be configured, at least, for DNS. If a strict WPAD, DHCP only, scheme is configured for all connections, the Genus Desktop client may not work. For information on startup performance in networks without WPAD, see [Improving Desktop Client Startup Performance](../guidelines-and-best-practices/improving-desktop-client-startup-performance.md).
+The Genus Desktop client supports Web Proxy Auto-Discovery Protocol (WPAD) using DNS (not DHCP). Therefore, if WPAD is enabled in the network, it must be configured, at least, for DNS. If a strict WPAD, DHCP only, scheme is configured for all connections, the Genus Desktop client may not work. For information on startup performance in networks without WPAD, see [Improving Desktop Client Startup Performance](../guidelines-and-best-practices/improving-genus-desktop-startup-performance.md).
 
 **Exchange server requirements**
 

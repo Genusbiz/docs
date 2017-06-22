@@ -1,4 +1,4 @@
-## Improving Desktop Client Startup Performance
+# Improving Genus Desktop startup performance
 
 Windows supports the Web Proxy Auto-Discovery Protocol (WPAD), which is a method used by clients to locate a URL of a configuration file using DHCP and/or DNS discovery methods. The Genus Desktop client [only supports DNS](../installation-and-configuration/system-requirements.md).
 

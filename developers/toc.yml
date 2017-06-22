@@ -496,13 +496,13 @@
   - name: Deleting event history and account session history
     href: guidelines-and-best-practices/deleting-event-history-and-account-session-history.md
   - name: Improving Genus Desktop startup performance
-    href: guidelines-and-best-practices/improving-desktop-client-startup-performance.md
+    href: guidelines-and-best-practices/improving-genus-desktop-startup-performance.md
   - name: Improving report performance
     href: guidelines-and-best-practices/improving-report-performance.md
   - name: Improving search performance
     href: guidelines-and-best-practices/improving-search-performance.md
   - name: Improving Genus Apps performance
-    href: guidelines-and-best-practices/improving-mobile-client-performance.md
+    href: guidelines-and-best-practices/improving-genus-apps-performance.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
   - name: Genus Apps hardening (HTTPS security headers)
