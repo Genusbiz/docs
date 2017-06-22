@@ -47,7 +47,7 @@ Calendar Service
 
 <span style="FONT-STYLE: italic">Web Service
 
-*   This service is responsible for providing access to external [web services](../../defining-an-app-model/web-services.md) (consume) and to web services created in Genus Studio (publish).
+*   This service is responsible for providing access to external [web services](../../defining-an-app-model/services/web-services/index.md) (consume) and to web services created in Genus Studio (publish).
 *   The Web Service should be enabled in order to publish or consume external web services.
 
 **Service User**

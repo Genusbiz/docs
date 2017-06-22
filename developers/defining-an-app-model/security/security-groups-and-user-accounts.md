@@ -26,7 +26,7 @@ The following built-in users and groups are available:
 
 <td>User</td>
 
-<td>Anonymous [Web Services](../web-services.md) run as this user. Permissions and memberships must be granted as necessary.</td>
+<td>Anonymous [Web Services](../services/web-services/index.md) run as this user. Permissions and memberships must be granted as necessary.</td>
 
 </tr>
 

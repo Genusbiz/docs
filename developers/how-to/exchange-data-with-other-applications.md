@@ -14,7 +14,7 @@ In many cases it is possible to use both export/import and copy/paste for the sa
 
 **Web Services**
 
-Web services is mostly used for system-to-system communication over the network or internet using the HTTP protocol. For more information see [Web Services](../defining-an-app-model/web-services.md).
+Web services is mostly used for system-to-system communication over the network or internet using the HTTP protocol. For more information see [Web Services](../defining-an-app-model/services/web-services/index.md).
 
 **Database**
 

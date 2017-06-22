@@ -1,6 +1,6 @@
 # SOAP Faults
 
-During execution of a Web Service operation, errors may occur that could result in a disruption of the normal execution flow. These errors are often referred to as exceptions. Exceptions that are not handled by [Exception Handlers](../logic/action-orchestration/exception-handling.md "Exception Handlers") within the action orchestration are returned to the Web Service consumer as a response message containing a Windows Communication Foundation (WCF) exception.
+During execution of a Web Service operation, errors may occur that could result in a disruption of the normal execution flow. These errors are often referred to as exceptions. Exceptions that are not handled by [Exception Handlers](../../logic/action-orchestration/exception-handling.md "Exception Handlers") within the action orchestration are returned to the Web Service consumer as a response message containing a Windows Communication Foundation (WCF) exception.
 
 If the consumer is expected to take some action when a request fails, you should return a SOAP Fault instead of the WCF Exception. To return a SOAP Fault you need to handle the exception inside the action orchestration, and then create a SOAP Fault that is recognized and agreed upon by both parties.
 

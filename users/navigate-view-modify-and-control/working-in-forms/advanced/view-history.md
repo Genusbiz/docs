@@ -17,7 +17,7 @@ A detailed execution log containing the start time, end time and status for the 
 
 *   [**View the execution history for a Task**](../../../../developers/defining-an-app-model/logic/tasks.md)
 *   [**View the execution history for an Agent**](../../../../developers/defining-an-app-model/agents.md)
-*   [**View the execution history for a Web Service**](../../../../developers/defining-an-app-model/web-services/view-the-execution-history-for-a-web-service.md)
+*   [**View the execution history for a Web Service**](../../../../developers/defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md)
 
 **Modify**
 

@@ -34,50 +34,6 @@
       href: defining-an-app-model/general-settings/search-settings.md
     - name: Advanced Settings
       href: defining-an-app-model/general-settings/advanced-settings.md
-  - name: Data
-    href: defining-an-app-model/data/index.md
-    items:
-    - name: Object Class
-      href: defining-an-app-model/object-class.md
-    - name: Create or Modify a Code Domain
-      href: defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md
-    - name: Create a New Identifier Domain
-      href: defining-an-app-model/data/object-class/create-a-new-identifier-domain.md
-    - name: Create a New Object Domain
-      href: defining-an-app-model/data/object-class/create-a-new-object-domain.md
-    - name: Modify an Object- or Identifier Domain
-      href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain.md
-      items:
-      - name: General Settings
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/general-settings.md
-      - name: Data Provider
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-provider.md
-      - name: Data Integrity
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-integrity.md
-      - name: Rules
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/rules.md
-      - name: Data Filtering
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-filtering.md
-      - name: Data Sorting
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-sorting.md
-      - name: Data Aggregation
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-aggregation.md
-      - name: Data Dependencies
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-dependencies.md
-      - name: Search
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/search.md
-      - name: Explore
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/explore.md
-      - name: Display
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/display.md
-      - name: Events
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/events.md
-      - name: Security
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/security.md
-      - name: Data Exchange
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
-      - name: Follow Up
-        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
   - name: User interface
     href: defining-an-app-model/user-interface/index.md
     items:
@@ -305,19 +261,68 @@
         href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Tasks
       href: defining-an-app-model/logic/tasks.md
+  - name: Services
+    href: defining-an-app-model/services/index.md
+    items:
+    - name: Web services
+      href: defining-an-app-model/services/web-services/index.md
+      items:
+      - name: Create a Web Services
+        href: defining-an-app-model/services/web-services/create-a-web-service.md
+      - name: Web Service References
+        href: defining-an-app-model/services/web-services/web-service-references.md
+      - name: SOAP Faults
+        href: defining-an-app-model/services/web-services/soap-faults.md
+      - name: View the Execution History for a Web Service
+        href: defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
+    - name: REST services
+      href: defining-an-app-model/services/rest-services/index.md
+  - name: Data
+    href: defining-an-app-model/data/index.md
+    items:
+    - name: Object Class
+      href: defining-an-app-model/object-class.md
+    - name: Create or Modify a Code Domain
+      href: defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md
+    - name: Create a New Identifier Domain
+      href: defining-an-app-model/data/object-class/create-a-new-identifier-domain.md
+    - name: Create a New Object Domain
+      href: defining-an-app-model/data/object-class/create-a-new-object-domain.md
+    - name: Modify an Object- or Identifier Domain
+      href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain.md
+      items:
+      - name: General Settings
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/general-settings.md
+      - name: Data Provider
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-provider.md
+      - name: Data Integrity
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-integrity.md
+      - name: Rules
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/rules.md
+      - name: Data Filtering
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-filtering.md
+      - name: Data Sorting
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-sorting.md
+      - name: Data Aggregation
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-aggregation.md
+      - name: Data Dependencies
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-dependencies.md
+      - name: Search
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/search.md
+      - name: Explore
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/explore.md
+      - name: Display
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/display.md
+      - name: Events
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/events.md
+      - name: Security
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/security.md
+      - name: Data Exchange
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/data-exchange.md
+      - name: Follow Up
+        href: defining-an-app-model/object-class/modify-an-object--or-identifier-domain/follow-up.md
   - name: Agents
     href: defining-an-app-model/agents.md
-  - name: Web Services
-    href: defining-an-app-model/web-services.md
-    items:
-    - name: Create a Web Services
-      href: defining-an-app-model/web-services/create-a-web-service.md
-    - name: Web Service References
-      href: defining-an-app-model/web-services/web-service-references.md
-    - name: SOAP Faults
-      href: defining-an-app-model/web-services/soap-faults.md
-    - name: View the Execution History for a Web Service
-      href: defining-an-app-model/web-services/view-the-execution-history-for-a-web-service.md
   - name: Object Class Diagram
     href: defining-an-app-model/object-class-diagram.md
   - name: Object Class Property

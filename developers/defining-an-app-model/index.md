@@ -23,7 +23,7 @@ To provide functionality to the end user, Genus App Platform employs declarative
 
 **Services**
 
-* [Web services](web-services.md)
+* [Web services](services/web-services/index.md)
 * [Nodes and Node Groups](nodes-and-node-groups.md)
 
 **Data**
