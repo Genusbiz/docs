@@ -1,4 +1,4 @@
-## Delete an Object
+# Delete an Object
 
 To delete an object, right-click a row, and in the menu, click **Delete**.
 

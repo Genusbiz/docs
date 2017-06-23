@@ -1,4 +1,4 @@
-## Open an Object
+# Open an Object
 
 Double-click a row in a table to open an object.
 

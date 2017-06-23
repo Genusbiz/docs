@@ -1,4 +1,4 @@
-## Notifications
+# Notifications
 
 A notification will send you and/or other users an alert when a specified event occurs for an object.
 

@@ -1,4 +1,4 @@
-## Exploring Data
+# Exploring Data
 
 Genus offers functionality for exploring related objects through the object network. The object network is made up of objects with properties which refeferences other objects, and these paths in the network can be used to browse surrounding objects.
 

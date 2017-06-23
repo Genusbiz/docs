@@ -1,4 +1,4 @@
-## Using Advanced Search
+# Using Advanced Search
 
 Advanced Search allows you to perform a search using [conditions](../../developers/defining-the-app-model/common-concepts/conditions.md "Conditions"). This is useful to express more advanced search criteria to find objects. You can combine different criteria using the And / Or operands, and collect the search result in one search operation.
 

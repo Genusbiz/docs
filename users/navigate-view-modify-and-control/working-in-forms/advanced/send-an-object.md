@@ -1,4 +1,4 @@
-## Send an Object
+# Send an Object
 
 To send an object, on the **File** menu, point to **Send**, and then click an action, like **Product as Link** shown below.
 

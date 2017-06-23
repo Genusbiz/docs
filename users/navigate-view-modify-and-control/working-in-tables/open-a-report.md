@@ -1,4 +1,4 @@
-## Open a Report
+# Open a Report
 
 To open a Report, in the menu, click **Report** to open the **Report** pane to the right. In the **Report** pane, click a report, like **Sales Trend** shown below.
 

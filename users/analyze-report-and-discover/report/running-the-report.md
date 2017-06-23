@@ -1,4 +1,4 @@
-## Running the Report
+# Running the Report
 
 To run the report, click **Refresh** or press **F5**.
 

@@ -1,4 +1,4 @@
-## Data Extract
+# Data Extract
 
 The Data Extract offers users powerful functionality to define and execute exports of data to a wide range of formats.
 

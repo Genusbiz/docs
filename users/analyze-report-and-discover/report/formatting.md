@@ -1,4 +1,4 @@
-## Formatting
+# Formatting
 
 The formatting options help you to improve the look of your report and make them easier to read.
 

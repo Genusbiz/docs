@@ -1,4 +1,4 @@
-## Search for Objects
+# Search for Objects
 
 To search for objects, in the table header, click inside the search box, type the text you want to find and press enter or click the magnifying glass. You can also press F3 to access the search field. The search will be performed on relevant fields, and the result is presented in the table.
 

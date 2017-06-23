@@ -1,4 +1,4 @@
-## What is a Table?
+# What is a Table?
 
 A Genus Table displays your data on screen in rows, columns and cells. You can use a table to add new rows, delete rows or change the content of your rows or cells.
 

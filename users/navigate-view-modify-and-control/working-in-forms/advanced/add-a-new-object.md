@@ -1,4 +1,4 @@
-## Add a New Object
+# Add a New Object
 
 To add a new object, click **New**.
 

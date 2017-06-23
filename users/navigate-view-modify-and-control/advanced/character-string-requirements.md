@@ -1,4 +1,4 @@
-## Character String Requirements
+# Character String Requirements
 
 Any data in your database(s) with data type _Character or String_ or _Textual Large Object_ must be in accordance with the valid set of characters as given in the XML 1.0 specification.
 

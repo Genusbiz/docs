@@ -1,4 +1,4 @@
-## Open a Form
+# Open a Form
 
 Forms are usually opened from a table, see [Open an Object](../working-in-tables/open-an-object.md "Open an Object") for more information.
 

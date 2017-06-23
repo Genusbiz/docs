@@ -1,4 +1,4 @@
-## Modify an Object
+# Modify an Object
 
 Objects may be modified directly in the table, for example by clicking a dropdown and selecting a new value, as seen below.
 

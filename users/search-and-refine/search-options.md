@@ -1,4 +1,4 @@
-## Search Options
+# Search Options
 
 To change the default settings for search, do the following:
 

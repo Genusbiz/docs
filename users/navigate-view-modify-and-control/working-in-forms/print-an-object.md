@@ -1,4 +1,4 @@
-## Print an Object
+# Print an Object
 
 To print an object, click the **Print** button, and in the menu click a report, like **Employee Card** below.
 

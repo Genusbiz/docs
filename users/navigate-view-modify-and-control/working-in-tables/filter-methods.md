@@ -1,4 +1,4 @@
-## Filter Methods
+# Filter Methods
 
 Character or String
 

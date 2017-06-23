@@ -1,4 +1,4 @@
-## Search with Accelerators
+# Search with Accelerators
 
 An accelerator search is a fast way to use some of the information in the form, to search for other data.
 

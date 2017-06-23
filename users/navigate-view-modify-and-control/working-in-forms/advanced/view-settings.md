@@ -1,4 +1,4 @@
-## View Settings
+# View Settings
 
 You may specify if forms by default should be opened in the same window or in a new window. See [here](../../working-in-tables/advanced/view-settings.md "Other Settings") for more information.
 

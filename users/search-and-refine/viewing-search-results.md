@@ -1,4 +1,4 @@
-## Viewing Search Results
+# Viewing Search Results
 
 The result of a search is presented in the table where the search was performed, if possible. See [Search for Objects](search-for-objects.md) for more information. The result is also available under the **Search Results** button in the navigation pane.
 

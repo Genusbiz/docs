@@ -1,4 +1,4 @@
-## Host Name Usage Exceptions
+# Host Name Usage Exceptions
 
 There are some exceptions from the general rules on how host names are used as described in Directory Properties and Directory Options.
 

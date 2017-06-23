@@ -1,4 +1,4 @@
-## Print a View
+# Print a View
 
 To print a table, on the **File** menu, click **Print**.
 

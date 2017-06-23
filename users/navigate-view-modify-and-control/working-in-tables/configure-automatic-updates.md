@@ -1,4 +1,4 @@
-## Configure Automatic Updates
+# Configure Automatic Updates
 
 [Start](../../../developers/installation-and-configuration/configure-and-maintain-genus-server/how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus App Services Configuration application.
 

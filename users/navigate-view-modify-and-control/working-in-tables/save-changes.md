@@ -1,4 +1,4 @@
-## Save Changes
+# Save Changes
 
 Some tables save your changes automatically when you exit your changed cell.
 

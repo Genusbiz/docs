@@ -1,4 +1,4 @@
-## Advanced
+# Advanced
 
 To learn more about advanced topics concerning Genus Forms, explore the topics below.
 

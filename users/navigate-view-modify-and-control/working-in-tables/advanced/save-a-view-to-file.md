@@ -1,4 +1,4 @@
-## Save a View to File
+# Save a View to File
 
 To save a table view to file, on the **File** menu, click **Save To File**.
 

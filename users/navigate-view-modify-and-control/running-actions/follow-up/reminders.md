@@ -1,4 +1,4 @@
-## Reminders
+# Reminders
 
 A reminder will send you and/or other users an alert to follow up on an object when the reminder is due.
 

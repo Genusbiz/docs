@@ -1,4 +1,4 @@
-## Data Filters
+# Data Filters
 
 A Data Filter is used to define a set of objects which can be used as groups in reports. A data filter can be defined as a static selection of objects, a dynamic criteria, or as a combination of other data filters.
 

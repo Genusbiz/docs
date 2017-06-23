@@ -1,4 +1,4 @@
-## Data Sources
+# Data Sources
 
 To filter data in a report, a data source must be placed in **Filters** field. To group data, one or more data sources must be placed in one or both of the **Vertical Axis** field and **Horizontal Axis** field. Data sources in vertical axis and horizontal axis can also function as filters.
 

@@ -1,4 +1,4 @@
-## Start the Genus Desktop Client
+# Start the Genus Desktop Client
 
 There are several ways to start the Genus Desktop Client.
 

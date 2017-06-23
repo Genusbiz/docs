@@ -1,4 +1,4 @@
-## Publishing Functions and Options
+# Publishing Functions and Options
 
 To allow the users of a report to navigate, explore, change chart types and view, these functions must be published for the report.  
 

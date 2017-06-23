@@ -1,4 +1,4 @@
-## Sort, Group and Autofilter Objects
+# Sort, Group and Autofilter Objects
 
 To sort your data, simply click the column header. Click one more time to reverse the sort order.
 

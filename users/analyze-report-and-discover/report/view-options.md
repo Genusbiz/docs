@@ -1,4 +1,4 @@
-## View Options
+# View Options
 
 View Options let you customize your view of the report. It is possible to hide different elements, such as empty row, empty column, filter pane, description pane and warnings.
 

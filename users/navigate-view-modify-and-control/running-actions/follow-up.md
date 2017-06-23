@@ -1,4 +1,4 @@
-## Follow Up
+# Follow Up
 
 Use Reminders and Notifications to help you follow up on objects.
 

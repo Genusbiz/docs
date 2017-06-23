@@ -1,4 +1,4 @@
-## Navigate Filters and Explore Data
+# Navigate Filters and Explore Data
 
 The navigation and explore functions make it easy to move back and forward. It let you also drill down filters of type hierarchy and explore more detailed data.
 

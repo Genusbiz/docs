@@ -1,4 +1,4 @@
-## Value Calculations
+# Value Calculations
 
 Value Calculations let you perform basic mathematical operations, advanced calculations, and compare values. You can create new values based on the existing values in the report, and do tests to check if a condition you specify is true, or false.  
 

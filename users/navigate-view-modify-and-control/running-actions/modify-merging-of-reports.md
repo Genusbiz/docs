@@ -1,4 +1,4 @@
-## Modify Merging of Reports
+# Modify Merging of Reports
 
 If you are granted the necessary access (see [Merging Reports](../../../developers/how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md) for more information), you may modify which reports are included in a mail merge and how these reports are filtered.
 

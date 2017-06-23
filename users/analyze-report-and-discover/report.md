@@ -1,4 +1,4 @@
-## Report
+# Report
 
 A Report offers powerful functionality to create multidimensional and aggregated reports based on your data.
 

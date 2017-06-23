@@ -1,4 +1,4 @@
-## Save Searches and Selections
+# Save Searches and Selections
 
 You can save your search as a Search Folder, or your search result as a selection for later use. A Search Folder is a saved search based on given criteria, and the result of the search can change over time. Each time you open a search folder, it will search for objects based on the saved criteria. It is useful for example when you want a list over Employees with age over 30\. A selection is a collection of the objects you have saved.
 

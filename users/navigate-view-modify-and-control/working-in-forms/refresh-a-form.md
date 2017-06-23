@@ -1,4 +1,4 @@
-## Refresh a Form
+# Refresh a Form
 
 Data is fetched the first time you open a form, and <span style="FONT-STYLE: italic">not automatically updated with changes done by other users.
 

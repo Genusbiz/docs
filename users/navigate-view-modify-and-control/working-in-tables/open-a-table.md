@@ -1,4 +1,4 @@
-## Open a Table
+# Open a Table
 
 In your [Navigation Pane](../navigation-pane.md "Navigation Pane"), click a shortcut to open a table.
 

@@ -1,4 +1,4 @@
-## Working in Forms
+# Working in Forms
 
 If you are unfamiliar with Genus Forms, explore the topics below to learn more.
 

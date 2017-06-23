@@ -1,4 +1,4 @@
-## Search Based on Other Data Sources
+# Search Based on Other Data Sources
 
 Genus App Platform allows you to search for data in a data source based on search criteria in other data sources. These types of searches are not always available or meaningful, but they can be enabled if necessary.
 

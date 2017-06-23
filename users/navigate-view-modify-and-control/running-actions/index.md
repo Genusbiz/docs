@@ -1,4 +1,4 @@
-## Running Actions
+# Running Actions
 
 The Action Task Pane is one of the five Task Panes in the Genus desktop client, and is availiable in the main window and in most forms. The Action Task Pane contains commonly used actions related to the objects in the form.
 

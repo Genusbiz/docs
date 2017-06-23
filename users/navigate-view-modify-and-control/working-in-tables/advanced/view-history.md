@@ -1,4 +1,4 @@
-## View History
+# View History
 
 To view the changes, deletions etc. to your objects, right-click a row in your table, and in the menu, click **History**.
 

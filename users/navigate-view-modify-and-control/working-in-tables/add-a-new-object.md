@@ -1,4 +1,4 @@
-## Add a New Object
+# Add a New Object
 
 In the **New** menu, click the object name, like **Employee** shown below.
 

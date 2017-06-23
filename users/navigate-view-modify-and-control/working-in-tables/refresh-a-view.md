@@ -1,4 +1,4 @@
-## Refresh a View
+# Refresh a View
 
 Data is fetched the first time you open a table, and <span style="FONT-STYLE: italic">not automatically updated with changes done by other users.
 

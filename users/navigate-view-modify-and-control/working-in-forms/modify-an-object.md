@@ -1,4 +1,4 @@
-## Modify an Object
+# Modify an Object
 
 To modify an object, click inside the field where you want to change data. Type your changes in the field, and press the TAB key to move to the next field.
 

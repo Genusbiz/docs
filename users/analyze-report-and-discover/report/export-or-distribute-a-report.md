@@ -1,4 +1,4 @@
-## Export or Distribute a Report
+# Export or Distribute a Report
 
 It can be useful to export a report, and continue working with it in other applications, or to send a report to other people, maybe with personalized content. See the topics below for more information.
 

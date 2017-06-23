@@ -1,4 +1,4 @@
-## View History
+# View History
 
 To view modifications to your object, on the **File** menu, click **History**.
 

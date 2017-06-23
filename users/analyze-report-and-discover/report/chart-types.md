@@ -1,4 +1,4 @@
-## Chart Types
+# Chart Types
 
 Reports support many types of charts to help you display data in ways that are meaningful to your audience. When you create a chart or change the type of an existing chart, you can select one of the following chart types:
 

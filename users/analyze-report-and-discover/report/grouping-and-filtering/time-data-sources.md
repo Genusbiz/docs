@@ -1,4 +1,4 @@
-## Time Data Sources
+# Time Data Sources
 
 Time data sources are used to filter on time, or to group data on a time period.
 

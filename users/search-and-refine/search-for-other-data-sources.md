@@ -1,4 +1,4 @@
-## Search For Other Data Sources
+# Search For Other Data Sources
 
 Through shortcuts in the [navigation pane](../navigate-view-modify-and-control/navigation-pane.md "Navigation Pane"), search for data in various data sources can be available through tables, or searches that are saved. To search in other data sources, click **Search** to open the search task pane.
 

@@ -1,4 +1,4 @@
-## Select Objects
+# Select Objects
 
 Click the left mouse button on a row in the table to select an object.
 

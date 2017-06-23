@@ -1,4 +1,4 @@
-## Working in Tables
+# Working in Tables
 
 If you are unfamiliar with Genus Tables, explore the topics below to learn more.
 

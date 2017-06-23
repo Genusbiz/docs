@@ -1,4 +1,4 @@
-## View Settings
+# View Settings
 
 A table displays its objects in a layout called a view.
 
