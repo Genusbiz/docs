@@ -440,53 +440,53 @@
 - name: Installation and configuration
   href: installation-and-configuration/index.md
   items:
-  - name: System Requirements
+  - name: System requirements
     href: installation-and-configuration/system-requirements.md
-  - name: Genus App Platform Release Stages
+  - name: Genus App Platform release stages
     href: installation-and-configuration/genus-app-platform-release-stages.md
-  - name: Install Genus Desktop Client on Your Computer
+  - name: Install Genus Desktop on your computer
     href: installation-and-configuration/install-genus-desktop-client-on-your-computer.md
-  - name: Install Genus Desktop Clients Silently for Your Users
+  - name: Install Genus Desktop silently for your users
     href: installation-and-configuration/install-genus-desktop-clients-silently-for-your-users.md
-  - name: Genus Desktop Client - Installer Details
+  - name: Genus Desktop installer details
     href: installation-and-configuration/genus-desktop-client--installer-details.md
-  - name: Install Genus Server on an Application Server
+  - name: Install Genus App Services on an application server
     href: installation-and-configuration/install-genus-server-on-an-application-server.md
-  - name: Install License on Genus Server
+  - name: Install a license on Genus App Services
     href: installation-and-configuration/install-license-on-genus-server.md
-  - name: Configure and Maintain Genus Server
+  - name: Configure and maintain Genus App Services
     href: installation-and-configuration/configure-and-maintain-genus-server.md
     items:
-    - name: Genus Server Configuration
+    - name: Genus App Services configuration
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration.md
       items:
       - name: Options
         href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.md
-      - name: Directory Properties
+      - name: Directory properties
         href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md
-      - name: Data Set Properties
+      - name: Data set properties
         href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/data-set-properties.md
-    - name: Configure Genus Server - Step by Step
+    - name: Configure Genus App Services - step by step
       href: installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md
-    - name: Install License on Genus Server
+    - name: Install a license on Genus App Services
       href: installation-and-configuration/install-license-on-genus-server.md
-    - name: Genus Server - Logical Services
+    - name: Genus App Services - logical services
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md
-    - name: App Services Recycling
+    - name: App Services recycling
       href: installation-and-configuration/configure-and-maintain-genus-server/app-services-recycling.md
-    - name: Special Considerations for MySQL
+    - name: Special considerations for MySQL
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-mysql.md
-    - name: Special Considerations for Oracle
+    - name: Special considerations for Oracle
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-oracle.md
-    - name: Special Considerations for Sybase
+    - name: Special considerations for Sybase
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sybase.md
-    - name: Special Considerations for Azure SQL
+    - name: Special considerations for Azure SQL
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-azure-sql.md
-    - name: Automatically Delete Old Log Files
+    - name: Automatically delete old log files
       href: installation-and-configuration/configure-and-maintain-genus-server/automatically-delete-old-log-files.md
-    - name: Tuning Web Service Performance
+    - name: Tuning Web Service performance
       href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
-    - name: Monitoring Genus Server
+    - name: Monitoring Genus App Services
       href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
