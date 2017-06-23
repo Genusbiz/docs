@@ -1,4 +1,4 @@
-## Scope
+# Scope
 
 A scope groups a set of actions, and provides control of transaction and timeout, allows running with elevated permissions, and allows disabling of certain user notifications. To save new or modified objects to a persistent storage, the effects must be contained within a scope with the **Commit Object Changes** selected.
 

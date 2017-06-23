@@ -1,4 +1,4 @@
-## Edit an Expression
+# Edit an Expression
 
 Editing an expression involves changing the operands and operator. There are many different scenarios where the available combinations of operands and operators vary. Typically the available options for the operands and operators are determined by the context it is used in, the available data sources, and the preceeding part of the expression. For more information on available combinations, see [Condtitions](../../conditions.md).
 

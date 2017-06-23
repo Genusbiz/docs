@@ -1,4 +1,4 @@
-## Import Data
+# Import Data
 
 Use this effect to import data from a file or folder into one of your data sources. You can import files located in a folder on your computer, or from a field in one of your data sources containing file data.
 

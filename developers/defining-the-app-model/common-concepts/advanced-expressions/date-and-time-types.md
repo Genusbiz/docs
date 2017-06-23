@@ -1,6 +1,6 @@
-## Data and Time Types
+# Data and Time Types
 
-### CalendarTime Type
+## CalendarTime Type
 
 Represents an instant in time or a period of a time unit (e.g. a specific day or month), typically expressed as a date and time of day.
 
@@ -1184,7 +1184,7 @@ Return Type: Integer
 
 * * *
 
-### CalendarTimeSpan Type
+## CalendarTimeSpan Type
 
 Represents the difference between two instances of CalendarTime. The type is also used to represent time of day.
 
@@ -1838,7 +1838,7 @@ Return Type: Integer
 
 * * *
 
-### Date Type
+## Date Type
 
 Represents an instant in time, expressed as a date.
 
@@ -2142,7 +2142,7 @@ Return Type: Integer
 
 * * *
 
-### DateTime Type
+## DateTime Type
 
 Represents an instant in time, expressed as a date and time of day.
 
@@ -2834,7 +2834,7 @@ Return Type: Integer
 
 * * *
 
-### IntegerDate Type
+## IntegerDate Type
 
 Represents an instant in time (year, month and day), using an integer on the form YYYYMMDD. The actual date's month and day part may be optional. E.g. the integer value 19750608 represents the date 8 June 1975.
 
@@ -3084,7 +3084,7 @@ Return Type: Integer
 
 * * *
 
-### IntegerTime Type
+## IntegerTime Type
 
 Represents an instant in time, expressed as the hour and minute of the day, using an integer on the form HHMM. E.g. the integer value 1356 represents the time of 1:56 PM.
 
@@ -3286,7 +3286,7 @@ Return Type: String
 
 * * *
 
-### Time Type
+## Time Type
 
 Represents an instant in time, expressed as time of day.
 

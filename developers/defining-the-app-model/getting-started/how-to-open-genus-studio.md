@@ -1,4 +1,4 @@
-## How to Open Genus Studio
+# How to Open Genus Studio
 
 To open Genus Studio, do one of the following:
 

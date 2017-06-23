@@ -1,4 +1,4 @@
-## Enumerator
+# Enumerator
 
 An enumerator groups a set of actions and executes them several times, once per object in the data source that is enumerated. The data source to enumerate must be allowed to contain many objects. Within the enumerator, the data source will appear to allow only one object. Use enumerators within enumerators to go through all combinations of two or more data sources.  
 

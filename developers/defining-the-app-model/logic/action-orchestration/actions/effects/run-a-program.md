@@ -1,4 +1,4 @@
-## Run a Program
+# Run a Program
 
 With this task you can run any script, program or document.
 

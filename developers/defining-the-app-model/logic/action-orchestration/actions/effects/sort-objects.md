@@ -1,4 +1,4 @@
-## Sort Objects
+# Sort Objects
 
 Use this effect to sort objects, and let the user sort objects interactively in tasks. This is useful, for example when a data source should be ordered after several read object effects, or when the user wants to control the order when merging or printing documents.
 

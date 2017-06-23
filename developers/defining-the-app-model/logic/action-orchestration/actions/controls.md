@@ -1,4 +1,4 @@
-## Controls
+# Controls
 
 Use Controls to change the normal execution flow, by transferring control to other actions.
 

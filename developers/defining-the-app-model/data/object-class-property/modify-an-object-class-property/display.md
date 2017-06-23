@@ -1,4 +1,4 @@
-## Display
+# Display
 
 Controls how the data for the property is displayed in the end-user interface, for example, in Forms and Reports.
 

@@ -1,4 +1,4 @@
-## Defining Actions
+# Defining Actions
 
 ![IDF036A2BF3D414749.png](media/IDF036A2BF3D414749.png)
 

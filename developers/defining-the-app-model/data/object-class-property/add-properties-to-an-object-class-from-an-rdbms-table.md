@@ -1,4 +1,4 @@
-## Add Properties to an Object Class from an RDBMS Table
+# Add Properties to an Object Class from an RDBMS Table
 
 You can add properties to an existing Object Class.
 

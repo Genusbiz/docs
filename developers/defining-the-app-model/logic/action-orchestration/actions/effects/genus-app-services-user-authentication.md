@@ -1,4 +1,4 @@
-## Genus App Services User Authentication
+# Genus App Services User Authentication
 
 There exist two user authentication methods: **Custom Authentication** and **Active Directory Authentication**.
 

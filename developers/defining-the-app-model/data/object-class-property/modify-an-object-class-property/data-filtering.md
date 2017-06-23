@@ -1,4 +1,4 @@
-## Data Filtering
+# Data Filtering
 
 Applies to bound properties of type **Data**, and properties of type **Function** where the value is calculated using an RDBMS expression. The data type for the property can not be a binary data type.
 

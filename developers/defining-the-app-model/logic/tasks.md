@@ -1,4 +1,4 @@
-## Tasks
+# Tasks
 
 With a Task you can define complex and often time consuming manual operations, and publish the Task to Forms and Tables.
 

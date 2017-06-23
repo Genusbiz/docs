@@ -1,4 +1,4 @@
-## Create a New Object Domain
+# Create a New Object Domain
 
 1.  [Open Genus Studio](../../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Classes** folder.

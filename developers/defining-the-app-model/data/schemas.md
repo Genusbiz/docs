@@ -1,4 +1,4 @@
-## Schemas
+# Schemas
 
 XML Schemas provides functionality for defining the structure, content and semantics of XML documents. XML (Extensible Markup Language) is a simple and flexible text format, and is playing an increasingly important role in the exchange of a wide variety of data.  
 

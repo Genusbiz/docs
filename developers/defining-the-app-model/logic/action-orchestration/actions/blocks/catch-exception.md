@@ -1,4 +1,4 @@
-## Catch Exception
+# Catch Exception
 
 A catch exception block is executed when an error occurs, and contains actions to resolve such situations. Typically a catch exception block attempts to clean up and restore a consistent state. An action can contain several catch exception blocks, and each can handle different sets of exceptions. The catch exception block that is executed when an error occurs, is the first catch exception block that handles the specific exception type after the location of the error.
 

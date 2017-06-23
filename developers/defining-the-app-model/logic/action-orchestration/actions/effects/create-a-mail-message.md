@@ -1,4 +1,4 @@
-## Create a Mail Message
+# Create a Mail Message
 
 With this effect you can create and send a mail message to one or more recipients containing a subject, message and attachments. The content of the message can be personalized for each recpient by associating the subject, message and attachments to your data sources.
 

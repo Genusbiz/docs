@@ -1,4 +1,4 @@
-## Active Object
+# Active Object
 
 Active Object is a term that denotes the object, or set of objects, in a data source, that are selected in the user interface at a given time. The concept is used in conditions and data filters to let the application react to selections the user makes.
 

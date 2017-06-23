@@ -1,4 +1,4 @@
-## Condition Editor
+# Condition Editor
 
 The condition editor offers easy point-and-click creation and modification of [conditions](../conditions.md), for a wide range of usages. It offers access to all relevant data sources for the context of the condition.
 

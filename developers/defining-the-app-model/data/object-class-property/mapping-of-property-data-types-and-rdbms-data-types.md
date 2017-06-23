@@ -1,4 +1,4 @@
-## Mapping of Property Data Types and RDBMS Data Types
+# Mapping of Property Data Types and RDBMS Data Types
 
 **ANSI String**
 

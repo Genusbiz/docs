@@ -1,4 +1,4 @@
-## Create a Web Service
+# Create a Web Service
 
 1.  [Open Genus Studio](../../getting-started/index.md).
 2.  In the **Directory** tree, click the **Web Services** folder and on the **toolbar**, click **New ****![IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg](media/IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg) and then click** **Web Service**.

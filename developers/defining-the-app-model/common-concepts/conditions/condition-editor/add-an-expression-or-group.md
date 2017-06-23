@@ -1,4 +1,4 @@
-## Add an Expression or Group
+# Add an Expression or Group
 
 To add an expression or a group, place the cursor where you want to add the element, and then click **Add** or **Add Group** respectively. Keyboard shortcuts are also available for these operations; press CTRL+A to add an expression, or press CTRL+SHIFT+A to add a group.
 

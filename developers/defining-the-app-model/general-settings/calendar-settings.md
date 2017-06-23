@@ -1,4 +1,4 @@
-## Calendar Settings
+# Calendar Settings
 
 Except for the start and end year, the default settings for the calendar applies in most cases.
 

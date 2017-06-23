@@ -1,4 +1,4 @@
-## Dialog Box Exit Codes
+# Dialog Box Exit Codes
 
 **Boolean Exit Codes**
 

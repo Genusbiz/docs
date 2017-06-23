@@ -1,4 +1,4 @@
-## Web Service References
+# Web Service References
 
 The Web Service Reference is a component that locally represents the exposed functionality of a Web Service. This representation is built by retrieving metadata from the WSDL published for the Web Service.
 

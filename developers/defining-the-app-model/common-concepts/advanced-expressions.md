@@ -1,4 +1,4 @@
-## Advanced Expressions
+# Advanced Expressions
 
 The Advanced Expressions in Genus App Platform are declarative, and you may express formulas consisting of functions, references to other fields or groups, static values (such as a number) and mathematical operators.
 

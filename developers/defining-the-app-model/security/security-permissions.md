@@ -1,4 +1,4 @@
-## Security Permissions
+# Security Permissions
 
 A permission regulates which users that can gain access to an object and in what manner. Permissions are granted to individual user accounts or security groups. Permissions can be granted to all objects of a given type, to individual objects and to object properties.
 

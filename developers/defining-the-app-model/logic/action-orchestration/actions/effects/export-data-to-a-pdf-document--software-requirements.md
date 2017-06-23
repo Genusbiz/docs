@@ -1,4 +1,4 @@
-## Export Data to a PDF Document - Software Requirements
+# Export Data to a PDF Document - Software Requirements
 
 When you export data to a PDF Document, in most cases please note the following software requirements:
 

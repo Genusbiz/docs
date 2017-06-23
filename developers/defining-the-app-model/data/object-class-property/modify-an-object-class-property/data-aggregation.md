@@ -1,4 +1,4 @@
-## Data Aggregation
+# Data Aggregation
 
 Applies to bound properties with data type **Float** and **Integer** data types, and properties with a complex data interpretation.
 

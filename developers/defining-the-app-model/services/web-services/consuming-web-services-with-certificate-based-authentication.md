@@ -1,4 +1,4 @@
-## Consuming Web Services with certificate based authentication
+# Consuming Web Services with certificate based authentication
 
 In order to consume web services that require certificate based authentication, the certificate must be installed on the application server and made accessible to the identity under which the IIS Application Pool **Genus App Services Web Site AppPool** is running. You will also need the Certificate Thumbprint to identify the certificate at a later stage.
 

@@ -1,4 +1,4 @@
-## Groups and Expressions
+# Groups and Expressions
 
 A condition consists of a sequence of groups and expressions, separated by logical operators (AND/OR). A group also contains a sequence of groups and expressions, separated by logical operators. This is a simplified view of a condition, and for a more complete and technical description see [Condition Syntax Structure](condition-syntax-structure.md).
 

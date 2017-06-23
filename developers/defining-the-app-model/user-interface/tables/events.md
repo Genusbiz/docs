@@ -1,4 +1,4 @@
-## Events
+# Events
 
 This part of the setup allows you to define how users can interact with objects in data sources bound to row templates. In the setup, you can define:
 

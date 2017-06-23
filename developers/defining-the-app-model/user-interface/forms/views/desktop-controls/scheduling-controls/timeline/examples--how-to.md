@@ -1,3 +1,3 @@
-## Examples / How To
+# Examples / How To
 
 Put article content here

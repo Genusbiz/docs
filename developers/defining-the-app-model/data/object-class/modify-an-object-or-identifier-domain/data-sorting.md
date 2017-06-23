@@ -1,4 +1,4 @@
-## Data Sorting
+# Data Sorting
 
 Defines the default sort order used when displaying objects from the Object Class in forms and tables. The data are sorted by the selected properties in the order shown.
 

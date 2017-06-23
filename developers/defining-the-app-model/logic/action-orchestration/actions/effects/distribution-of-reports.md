@@ -1,4 +1,4 @@
-## Distribution of Reports
+# Distribution of Reports
 
 Distribution is the act of scattering or spreading out. Genus allows you to distribute reports by making or spreading out copies for a selection of data filter objects.
 

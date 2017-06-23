@@ -1,4 +1,4 @@
-## File Data Sources
+# File Data Sources
 
 The File Data Sources are internal representations of external file formats. This enables the exchange of data through operations like import, export, copy, and paste. The supported File Data Sources are:
 

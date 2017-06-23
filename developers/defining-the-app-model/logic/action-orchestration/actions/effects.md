@@ -1,4 +1,4 @@
-## Effects
+# Effects
 
 An effect is used to perform a specific task within a a sequence of actions.
 

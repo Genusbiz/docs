@@ -1,4 +1,4 @@
-## Action Diagram
+# Action Diagram
 
 The diagram may be used as a tool to close the gap between business and IT. Invite customers to participate in the process of designing business rules.
 

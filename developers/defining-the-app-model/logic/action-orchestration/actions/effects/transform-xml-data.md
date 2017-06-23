@@ -1,4 +1,4 @@
-## Transform XML Data
+# Transform XML Data
 
 Use this effect to transform XML data to a new format or even to HTML or a text document. The effect outputs a new document by applying an XSLT to an input XML. XSLT stands for EXtensible Stylesheet Language Transformations and is a language for transforming XML documents into other XML documents, text documents or HTML documents.
 

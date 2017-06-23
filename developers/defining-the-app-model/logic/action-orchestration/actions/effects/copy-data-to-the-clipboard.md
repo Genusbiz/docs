@@ -1,4 +1,4 @@
-## Copy Data to the Clipboard
+# Copy Data to the Clipboard
 
 Use this effect to copy data to the clipboard from your data sources. This can be useful if you want to leave some data on the clipboard as a side effect, or if you want to use the clipboard as a means to exchange data with anoter application. Data is placed on the clipboard immediately when the effect is executed.
 

@@ -1,4 +1,4 @@
-## Run a Report
+# Run a Report
 
 Use this effect to populate a report data source with data. This is useful when using reports in action orchestration, and data filtering is not possible when defining the data source, at publication, or when calling a sub task, e.g. due to a combination of iterations and data source cardinality.
 

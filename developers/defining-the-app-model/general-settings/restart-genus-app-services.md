@@ -1,4 +1,4 @@
-## Restart Genus App Services
+# Restart Genus App Services
 
 1.  Sign in to your application server using Remote Desktop Connection, or manually at your server machine's console. In the **Start** menu, type "genus" and then click **Genus Configuration**.
 2.  In the **Tools** menu, click **Restart Services**.

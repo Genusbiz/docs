@@ -1,4 +1,4 @@
-## Rules
+# Rules
 
 With Rules you can define a rule base for an Object Class which contains the knowledge on how to respond to different events. When an event occurs, for example when a property is modified, the Rule is triggered and any actions specified for that rule are carried out.
 

@@ -1,4 +1,4 @@
-## Step 4 - Assign a Web Server Certificate
+# Step 4 - Assign a Web Server Certificate
 
 1.  Once the SSL certificate has been successfully installed to the server, you will need to assign that certificate to the appropriate website using IIS.  
 

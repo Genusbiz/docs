@@ -1,4 +1,4 @@
-## Improving Search Performance
+# Improving Search Performance
 
 The search functionality in the Genus desktop client is powerful, and easy to use for a large number of users. It is important to ensure good performance when many searches are performed at the same time, or there are large data volumes to search in, or both. There are several considerations to make when addressing this issue. There are no set answeres, and any measures, limits, or other considerations must be evaluated on a case to case basis.
 

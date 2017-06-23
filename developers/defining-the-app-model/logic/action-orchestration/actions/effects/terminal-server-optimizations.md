@@ -1,4 +1,4 @@
-## Terminal Server Optimizations
+# Terminal Server Optimizations
 
 If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files.
 

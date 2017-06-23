@@ -1,4 +1,4 @@
-## Naming the Virtual Directory
+# Naming the Virtual Directory
 
 During installation Genus App Services creates a web site on your application server. Genus App Services requires a unique virtual directory within this web site. This virtual directory must also be unique for each Data Set.
 

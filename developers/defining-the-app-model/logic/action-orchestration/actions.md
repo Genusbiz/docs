@@ -1,4 +1,4 @@
-## Actions
+# Actions
 
 Actions are used by Tasks, Agents, Web Services and Rules to define operations to perform during execution.
 

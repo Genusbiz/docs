@@ -1,4 +1,4 @@
-## Show a Confirmation Message
+# Show a Confirmation Message
 
 Displays a modal dialog box that contains a brief confirmation message and two or three buttons giving the user a choice to respond to the message. The button chosen by the user can be stored as a boolean or integer value that can be stored in a field from one of your data sources.
 

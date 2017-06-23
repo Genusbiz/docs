@@ -1,4 +1,4 @@
-## Decision
+# Decision
 
 A decision controls the flow of execution by grouping a set of actions that should only be executed if a certain condition is fulfilled. A decision can contain effects, controls, and other blocks.
 

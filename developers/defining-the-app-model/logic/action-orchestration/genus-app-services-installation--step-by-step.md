@@ -1,4 +1,4 @@
-## Genus App Services Installation - Step by Step
+# Genus App Services Installation - Step by Step
 
 Follow these steps to install Genus App Services on your application server:
 

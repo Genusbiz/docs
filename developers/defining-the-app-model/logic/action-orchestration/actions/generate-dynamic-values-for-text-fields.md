@@ -1,4 +1,4 @@
-## Generate Dynamic Values for Text Fields
+# Generate Dynamic Values for Text Fields
 
 **Inserting a** **[formula](../../../../../terminology.md) **or a field from one of your data sources****
 

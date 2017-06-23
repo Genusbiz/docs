@@ -1,4 +1,4 @@
-## Conditions
+# Conditions
 
 A condition consists of comparisons which evaluates to a TRUE or FALSE value. A comparison states a logical relationship between two values, for example *Person.Name = "Peter Keating"*, or *100 > 200*. A condition is often a logical statement about the state or existence of an object, or the relationship between objects.
 

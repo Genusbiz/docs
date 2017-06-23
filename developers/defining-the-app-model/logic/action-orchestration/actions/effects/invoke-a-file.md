@@ -1,4 +1,4 @@
-## Invoke a File
+# Invoke a File
 
 Invokes a file using the specified action. You can invoke files located in a file data source, a field containing file data, or in a folder on your computer. The action specifies the command to be carried out when the file is invoked. For example, open a file in the associated application or print the contents of a file. You can also open an URL in a browser window.
 

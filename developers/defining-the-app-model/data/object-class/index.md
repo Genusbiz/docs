@@ -1,4 +1,4 @@
-## Object Class
+# Object Class
 
 Object Classes express static descriptions of data and behaviour. Data for an Object Class is defined by adding [properties](../object-class-property/index.md). Behaviour is defined by adding [rules](modify-an-object-or-identifier-domain/rules.md) that contains the knowledge on how to respond to different events. The primary motiviation for identifying an Object Class, is to match the technical representation of an application more closely to the conceptual view of the world. Another motiviation is the desire to create a framework that is likely to be stable over time. The functionality provided by an application may change radically over time, while the structure of an application is relative stable over time.
 

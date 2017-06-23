@@ -1,6 +1,6 @@
-## Value Types
+# Value Types
 
-### Boolean Type
+## Boolean Type
 
 Represents a Boolean value. Instances of this type have values of either true or false.
 
@@ -42,7 +42,7 @@ Return Type: String
 
 * * *
 
-### Guid Type
+## Guid Type
 
 Represents a globally unique identifier (GUID). A GUID is a 128-bit integer (16 bytes) that can be used across all computers and networks wherever a unique identifier is required.
 
@@ -180,7 +180,7 @@ A single format specifier that indicates how to format the value of this Guid. T
 
 * * *
 
-### Integer Type
+## Integer Type
 
 Represents a 32-bit signed integer, with values ranging from negative 2,147,483,648 through positive 2,147,483,647.
 
@@ -314,7 +314,7 @@ The culture name. A NULL value or empty string is interpreted as InvariantCultur
 
 * * *
 
-### LargeInteger Type
+## LargeInteger Type
 
 Represents a 64-bit signed integer, with values ranging from negative 9,223,372,036,854,775,808 through positive 9,223,372,036,854,775,807.
 
@@ -434,7 +434,7 @@ The culture name. A NULL value or empty string is interpreted as InvariantCultur
 
 * * *
 
-### Real Type
+## Real Type
 
 Represents a 64-bit double-precision floating-point number with values ranging from negative 1.79769313486232e308 to positive 1.79769313486232e308.
 
@@ -728,7 +728,7 @@ The culture name. A NULL value or empty string is interpreted as InvariantCultur
 
 * * *
 
-### String Type
+## String Type
 
 A sequential collection of characters, typically used to represent text.
 
@@ -1682,7 +1682,7 @@ An optional string consisting of characters to be removed. If trimChars is left 
 
 * * *
 
-### Url Type
+## Url Type
 
 Represents the address (Uniform Resource Locator) to a resource on the Internet.
 

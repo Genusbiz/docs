@@ -1,4 +1,4 @@
-## Simple Data Interpretations for a Property
+# Simple Data Interpretations for a Property
 
 **Boolean**
 

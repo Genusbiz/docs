@@ -1,4 +1,4 @@
-## Gantt
+# Gantt
 
 The Gantt control lets you visualize and manage hierarchical project data. Visualize different item types like regular tasks, milestones, summaries and the relations between them. Highlight different types of important items like late or critical tasks. Modify the task dates, duration, and dependencies visually directly in the diagram. Zoom and scroll to see specific detail or the overall picture.
 

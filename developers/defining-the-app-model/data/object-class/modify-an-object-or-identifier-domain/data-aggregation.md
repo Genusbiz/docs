@@ -1,4 +1,4 @@
-## Data Aggregation
+# Data Aggregation
 
 Aggregations are built by changing the granularity on specific dimensions and aggregating up measures along these dimensions. Dimensions in an Object Class are represented by properties with a complex data interpretation. Measures are represented by numeric properties with a simple data interpretation.
 

@@ -1,4 +1,4 @@
-## Operators and Precedence
+# Operators and Precedence
 
 Unary operator expressions:
 

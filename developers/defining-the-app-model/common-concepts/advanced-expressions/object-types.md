@@ -1,6 +1,6 @@
-## Object Types
+# Object Types
 
-### Account Type
+## Account Type
 
 The Account type exposes the following members.
 
@@ -150,7 +150,7 @@ Return Type: String
 
 * * *
 
-### ActionOrchestrator Type
+## ActionOrchestrator Type
 
 The ActionOrchestrator type exposes the following members.
 
@@ -328,7 +328,7 @@ Return Type: Integer
 
 * * *
 
-### CalendarItem Type
+## CalendarItem Type
 
 The CalendarItem type exposes the following members.
 
@@ -562,7 +562,7 @@ Return Type: String
 
 * * *
 
-### Checksum Type
+## Checksum Type
 
 Contains functions for calculating and validating checksums.
 
@@ -828,7 +828,7 @@ TRUE if the checksum should be calculated based on digits weighted in a right to
 
 * * *
 
-### Collection Type
+## Collection Type
 
 The Collection type exposes the following members.
 
@@ -916,7 +916,7 @@ The collection to test.
 
 * * *
 
-### Contact Type
+## Contact Type
 
 The Contact type exposes the following members.
 
@@ -1094,7 +1094,7 @@ Return Type: Url
 
 * * *
 
-### ContactAddress Type
+## ContactAddress Type
 
 The ContactAddress type exposes the following members.
 
@@ -1188,7 +1188,7 @@ Return Type: String
 
 * * *
 
-### ContactPhoneNumbers Type
+## ContactPhoneNumbers Type
 
 The ContactPhoneNumbers type exposes the following members.
 
@@ -1254,7 +1254,7 @@ Return Type: String
 
 * * *
 
-### ContactPhoneNumbersLocation Type
+## ContactPhoneNumbersLocation Type
 
 The ContactPhoneNumbersLocation type exposes the following members.
 
@@ -1306,7 +1306,7 @@ Return Type: String
 
 * * *
 
-### DataSet Type
+## DataSet Type
 
 The DataSet type exposes the following members.
 
@@ -1392,7 +1392,7 @@ Return Type: String
 
 * * *
 
-### Directory Type
+## Directory Type
 
 The Directory type exposes the following members.
 
@@ -1496,7 +1496,7 @@ Return Type: String
 
 * * *
 
-### Environment Type
+## Environment Type
 
 The Environment type exposes the following members.
 
@@ -1536,7 +1536,7 @@ Return Type: Boolean
 
 * * *
 
-### FileFolder Type
+## FileFolder Type
 
 The FileFolder type exposes the following members.
 
@@ -1658,7 +1658,7 @@ Return Type: String
 
 * * *
 
-### GanttTaskDependency Type
+## GanttTaskDependency Type
 
 The GanttTaskDependency type exposes the following members.
 
@@ -2028,7 +2028,7 @@ Return Type: Integer
 
 * * *
 
-### GeneralFile Type
+## GeneralFile Type
 
 The GeneralFile type exposes the following members.
 
@@ -2458,7 +2458,7 @@ Return Type: Integer
 
 * * *
 
-### GeographicPosition Type
+## GeographicPosition Type
 
 The GeographicPosition type exposes the following members.
 
@@ -2510,7 +2510,7 @@ Return Type: Real
 
 * * *
 
-### HashAlgorithm Type
+## HashAlgorithm Type
 
 Represents a hash algorithm.
 
@@ -2618,7 +2618,7 @@ The input data for which to compute the hash code.
 
 * * *
 
-### HtmlDocument Type
+## HtmlDocument Type
 
 Represents an HTML document.
 
@@ -2796,7 +2796,7 @@ A string containing the text from the HTML document, but without the original fo
 
 * * *
 
-### IntegerCounterDomain Type
+## IntegerCounterDomain Type
 
 Used to assign a unique identifier to an object. Generates a unique numeric identifier which is incremented by one each time an identifier is assigned to an object.
 
@@ -2914,7 +2914,7 @@ An object which indicates the counter to use. Applies to counter domains contain
 
 * * *
 
-### IntegerIdentifierDomain Type
+## IntegerIdentifierDomain Type
 
 Used to assign a unique identifier to an object. Contains a finite set of identifiers.
 
@@ -2956,7 +2956,7 @@ Return Type: Integer
 
 * * *
 
-### MailAddressee Type
+## MailAddressee Type
 
 The MailAddressee type exposes the following members.
 
@@ -3022,7 +3022,7 @@ Return Type: AddressFormat
 
 * * *
 
-### MailMessage Type
+## MailMessage Type
 
 The MailMessage type exposes the following members.
 
@@ -3312,7 +3312,7 @@ Return Type: Bag(MailAddressee)
 
 * * *
 
-### MicrosoftProject Type
+## MicrosoftProject Type
 
 The MicrosoftProject type exposes the following members.
 
@@ -3406,13 +3406,13 @@ Return Type: Bag(Task)
 
 * * *
 
-### Object Type
+## Object Type
 
 This is the ultimate base class of all classes; it is the root of the type hierarchy. Because all classes are derived from this class, every function defined here is also available all classes.
 
 * * *
 
-### PrintSettings Type
+## PrintSettings Type
 
 The PrintSettings type exposes the following members.
 
@@ -3506,7 +3506,7 @@ Return Type: String
 
 * * *
 
-### RichTextDocument Type
+## RichTextDocument Type
 
 Represents a Rich Text document (RTF).
 
@@ -3598,7 +3598,7 @@ A string containing the text from the Rich Text document, but without the origin
 
 * * *
 
-### SecurityGroup Type
+## SecurityGroup Type
 
 The SecurityGroup type exposes the following members.
 
@@ -3664,7 +3664,7 @@ Return Type: String
 
 * * *
 
-### StreamData Type
+## StreamData Type
 
 Provides a generic view of a sequence of bytes.
 
@@ -4174,7 +4174,7 @@ Return Type: String
 
 * * *
 
-### StringIdentifierDomain Type
+## StringIdentifierDomain Type
 
 Used to assign a unique identifier to an object. Contains a finite set of identifiers.
 
@@ -4216,7 +4216,7 @@ Return Type: String
 
 * * *
 
-### Task Type
+## Task Type
 
 The Task type exposes the following members.
 
@@ -4604,7 +4604,7 @@ Return Type: Integer
 
 * * *
 
-### TaskDependency Type
+## TaskDependency Type
 
 The TaskDependency type exposes the following members.
 
@@ -4670,7 +4670,7 @@ Return Type: Integer
 
 * * *
 
-### TaskExtendedAttributes Type
+## TaskExtendedAttributes Type
 
 The TaskExtendedAttributes type exposes the following members.
 
@@ -4904,7 +4904,7 @@ Return Type: String
 
 * * *
 
-### UIControlOrientation Type
+## UIControlOrientation Type
 
 The UIControlOrientation type exposes the following members.
 
@@ -5246,7 +5246,7 @@ Return Type: Integer
 
 * * *
 
-### UserSession Type
+## UserSession Type
 
 The UserSession type exposes the following members.
 
@@ -5312,7 +5312,7 @@ Return Type: String
 
 * * *
 
-### XmlNode Type
+## XmlNode Type
 
 Represents a single node in an XML document.
 

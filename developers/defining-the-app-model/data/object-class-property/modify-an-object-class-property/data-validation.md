@@ -1,4 +1,4 @@
-## Data Validation
+# Data Validation
 
 Use data validation to ensure that values entered for a Property satisfies certain requirements for correctness and accuracy.
 

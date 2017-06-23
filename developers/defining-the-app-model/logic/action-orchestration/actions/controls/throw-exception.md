@@ -1,4 +1,4 @@
-## Throw Exception
+# Throw Exception
 
 Use this control to throw a custom exception to be handled by a following [catch exception](../blocks/catch-exception.md) block. A custom exception is useful to handle logical errors within an action orchestration, especially in complex scenarios where for example multiple calls to tasks are used to re-use logic.
 

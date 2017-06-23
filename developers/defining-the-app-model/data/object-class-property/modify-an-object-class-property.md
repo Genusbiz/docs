@@ -1,4 +1,4 @@
-## Modify an Object Class Property
+# Modify an Object Class Property
 
 To modify a property, do the following:
 

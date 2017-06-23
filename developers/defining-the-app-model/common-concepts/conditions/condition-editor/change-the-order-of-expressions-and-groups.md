@@ -1,4 +1,4 @@
-## Change the Order of Expressions and Groups
+# Change the Order of Expressions and Groups
 
 To change the order of expressions and groups, select the expression or group to move, and then click Move Up or Move Down. Keyboard shortcuts are also available for these operations; press SHIFT+ALT+UP ARROW to move the element up, or press SHIFT+ALT+DOWN ARROW to move the element down. To select a group, click one of the parentheses of the group, or the preceeding operator.
 

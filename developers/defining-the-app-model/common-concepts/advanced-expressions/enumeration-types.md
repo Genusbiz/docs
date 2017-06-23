@@ -1,6 +1,6 @@
-## Enumeration Types
+# Enumeration Types
 
-### ActionCommandType Enumeration
+## ActionCommandType Enumeration
 
 The ActionCommandType enumeration exposes the following members.
 
@@ -142,7 +142,7 @@ ActionCommandType.send
 
 * * *
 
-### ActionExceptionType Enumeration
+## ActionExceptionType Enumeration
 
 The ActionExceptionType enumeration exposes the following members.
 
@@ -560,7 +560,7 @@ ActionExceptionType.onWebServiceMessageSecurityError
 
 * * *
 
-### AddressFormat Enumeration
+## AddressFormat Enumeration
 
 The AddressFormat enumeration exposes the following members.
 
@@ -618,7 +618,7 @@ AddressFormat.sMTP
 
 * * *
 
-### CalendarItemSensitivity Enumeration
+## CalendarItemSensitivity Enumeration
 
 The CalendarItemSensitivity enumeration exposes the following members.
 
@@ -676,7 +676,7 @@ CalendarItemSensitivity.public
 
 * * *
 
-### DueDate Enumeration
+## DueDate Enumeration
 
 The DueDate class defines functions used to identify where a due date falls within a date interval.
 
@@ -728,7 +728,7 @@ Interest is calculated on the principal balance at the end of the payment period
 
 * * *
 
-### Encoding Enumeration
+## Encoding Enumeration
 
 Enumerates the available encodings available for a string.
 
@@ -794,7 +794,7 @@ UTF-8 encoding. Represents each Unicode code point as a sequence of one to four 
 
 * * *
 
-### FileFormat Enumeration
+## FileFormat Enumeration
 
 The FileFormat enumeration exposes the following members.
 
@@ -984,7 +984,7 @@ FileFormat.xPSDocument
 
 * * *
 
-### MessageAttachmentType Enumeration
+## MessageAttachmentType Enumeration
 
 The MessageAttachmentType enumeration exposes the following members.
 
@@ -1042,7 +1042,7 @@ MessageAttachmentType.oLEObject
 
 * * *
 
-### MessageBodyFormat Enumeration
+## MessageBodyFormat Enumeration
 
 The MessageBodyFormat enumeration exposes the following members.
 
@@ -1112,7 +1112,7 @@ MessageBodyFormat.rTF
 
 * * *
 
-### MessageImportance Enumeration
+## MessageImportance Enumeration
 
 The MessageImportance enumeration exposes the following members.
 
@@ -1170,7 +1170,7 @@ MessageImportance.normal
 
 * * *
 
-### MessageSensitivity Enumeration
+## MessageSensitivity Enumeration
 
 The MessageSensitivity enumeration exposes the following members.
 
@@ -1240,7 +1240,7 @@ MessageSensitivity.private
 
 * * *
 
-### NaturalLanguage Enumeration
+## NaturalLanguage Enumeration
 
 The NaturalLanguage enumeration exposes the following members.
 
@@ -1430,7 +1430,7 @@ NaturalLanguage.swedish_Sweden
 
 * * *
 
-### SortOrder Enumeration
+## SortOrder Enumeration
 
 The SortOrder enumeration exposes the following members.
 
@@ -1476,7 +1476,7 @@ SortOrder.descending
 
 * * *
 
-### TaskConstraintType Enumeration
+## TaskConstraintType Enumeration
 
 The TaskConstraintType enumeration exposes the following members.
 
@@ -1594,7 +1594,7 @@ TaskConstraintType.startNoLaterThan
 
 * * *
 
-### TextMatching Enumeration
+## TextMatching Enumeration
 
 Specifies the method of text matching.
 
@@ -1646,7 +1646,7 @@ Specifies that the string must contain words starting with the specified text.
 
 * * *
 
-### TimeResolution Enumeration
+## TimeResolution Enumeration
 
 Specifies the time resolution of a CalendarTime.
 
@@ -1768,7 +1768,7 @@ Specifies a resolution of year.
 
 * * *
 
-### TimeSpanResolution Enumeration
+## TimeSpanResolution Enumeration
 
 Specifies the time resolution of a CalendarTimeSpan.
 

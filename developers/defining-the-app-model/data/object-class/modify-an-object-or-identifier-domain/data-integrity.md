@@ -1,4 +1,4 @@
-## Data Integrity
+# Data Integrity
 
 You can use Primary Key Constraint to define uniqueness for an Object. You can also define rules to ensure the accuracy of data and its conformity to its expected value by using uniqueness constraints, consistency constraints and delete constraints.
 

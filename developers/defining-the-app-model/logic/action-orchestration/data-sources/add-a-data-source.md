@@ -1,4 +1,4 @@
-## Add a Data Source
+# Add a Data Source
 
 1.  In the data source list, right-click, and thn click **Add**. Then in the shortcut list, select the type of data source you want to add; **Object**, **Local Object**, **XML Document**, **File**, **Reports**, or **System**.
 2.  For all types except Local Object, choose the data source.

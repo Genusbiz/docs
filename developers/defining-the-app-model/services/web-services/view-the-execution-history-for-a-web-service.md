@@ -1,4 +1,4 @@
-## View the Execution History for a Web Service
+# View the Execution History for a Web Service
 
 1.  Right-click the Web Service, and then in the shortcut menu, click **Open**.
 2.  In the **File** menu, click **History**. The [event history](../../../../terminology.md) for the Web Service is shown.

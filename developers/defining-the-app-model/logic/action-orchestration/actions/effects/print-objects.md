@@ -1,4 +1,4 @@
-## Print Objects
+# Print Objects
 
 Use this effect to print the contents of a Report. To print a file, use the [Invoke a File](invoke-a-file.md) effect, and specify **print** as action.
 

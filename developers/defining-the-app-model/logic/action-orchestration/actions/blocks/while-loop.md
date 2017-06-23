@@ -1,4 +1,4 @@
-## While Loop
+# While Loop
 
 A while loop groups a set of actions and executes them several times, until the while condition is not fulfilled. If the while condition is not fulfulled on the first pass, the actions within the wile loop is never executed.
 

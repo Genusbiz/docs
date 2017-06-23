@@ -1,4 +1,4 @@
-## Improving Report Performance
+# Improving Report Performance
 
 A Report is capable of handling huge amounts of data and displaying these in a compact or aggregated way to your end user. As your data grows in size, it is increasingly important to focus on the performance of your report.
 

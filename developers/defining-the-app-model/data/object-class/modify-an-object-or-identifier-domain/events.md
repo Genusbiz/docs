@@ -1,4 +1,4 @@
-## Events
+# Events
 
 Genus App Platform allows you to add auditing capabilities to an Object Class. Audit trails for an Object Class is stored in the [Event History](../../../../../terminology.md) which is a chronological sequence of audit trails, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables users to reconstruct and examine the sequence of events and/or changes in an event for an object.
 

@@ -1,4 +1,4 @@
-## Remove an Expression or Group
+# Remove an Expression or Group
 
 To remove an expression or a group, select the element you want to remove, and then click **Remove**. A keyboard shortcut is also available for this operations; press CTRL+DELETE to remove the selected expression or group.
 

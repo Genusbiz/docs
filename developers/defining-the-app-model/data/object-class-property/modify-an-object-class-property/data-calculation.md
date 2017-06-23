@@ -1,4 +1,4 @@
-## Data Calculation
+# Data Calculation
 
 Data Calculation is used to define a **default value**, a **formula** or an **RDBMS expression**.
 

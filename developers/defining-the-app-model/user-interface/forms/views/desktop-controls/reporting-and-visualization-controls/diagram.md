@@ -1,4 +1,4 @@
-## Diagram
+# Diagram
 
 The diagram control offers clear presentation of complex networks, with interaction to modify the objects and relationships, or create new ones. The control supports any number of types of objects and relationships, which can be formatted individually to increase the visual recognition.
 

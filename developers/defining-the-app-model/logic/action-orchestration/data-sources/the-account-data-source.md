@@ -1,4 +1,4 @@
-## The Account Data Source
+# The Account Data Source
 
 The Account data source provides general information about an account, and which security groups the account is member of.
 

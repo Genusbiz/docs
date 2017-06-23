@@ -1,4 +1,4 @@
-## Upload a File
+# Upload a File
 
 Use this effect to resource efficiently transfer large files from the client to the server. The effect supports uploading of files of tens to hundreds of megabytes. Downloading large files is also supported, for more information see [How To - Upload and Download Large Files](../../../../../how-to/upload-and-download-large-files.md).
 

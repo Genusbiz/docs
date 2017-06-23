@@ -1,4 +1,4 @@
-## Show a Message
+# Show a Message
 
 Displays a modal dialog box that contains a system icon, an OK button, and a brief message, such as status or error information.
 

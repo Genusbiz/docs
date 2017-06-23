@@ -1,4 +1,4 @@
-## Collection Types
+# Collection Types
 
 A collection represents a group of objects, known as its elements. Some collections allow duplicate elements and others do not. Some are ordered and others unordered.
 
@@ -167,7 +167,7 @@ Note that the operations that is provided for Collection also applies for Bag, S
 
 * * *
 
-### Bag(<ElementType>) Type
+## Bag(<ElementType>) Type
 
 The Bag(<ElementType>) type exposes the following members.
 
@@ -847,7 +847,7 @@ Type: Set(<ElementType>)
 
 * * *
 
-### Collection(<ElementType>) Type
+## Collection(<ElementType>) Type
 
 The Collection(<ElementType>) type exposes the following members.
 
@@ -1395,7 +1395,7 @@ Return Type: <ElementType>
 
 * * *
 
-### Collection(CalendarTimeSpan) Type
+## Collection(CalendarTimeSpan) Type
 
 The Collection(CalendarTimeSpan) type exposes the following members.
 
@@ -2075,7 +2075,7 @@ Return Type: String
 
 * * *
 
-### Collection(Integer) Type
+## Collection(Integer) Type
 
 The Collection(Integer) type exposes the following members.
 
@@ -2923,7 +2923,7 @@ Return Type: Real
 
 * * *
 
-### Collection(Real) Type
+## Collection(Real) Type
 
 The Collection(Real) type exposes the following members.
 
@@ -3771,7 +3771,7 @@ Return Type: Real
 
 * * *
 
-### OrderedSet(<ElementType>) Type
+## OrderedSet(<ElementType>) Type
 
 The OrderedSet(<ElementType>) type exposes the following members.
 
@@ -4463,7 +4463,7 @@ Return Type: <ElementType>
 
 * * *
 
-### OrderedSet(Value) Type
+## OrderedSet(Value) Type
 
 The OrderedSet(Value) type exposes the following members.
 
@@ -4877,7 +4877,7 @@ Return Type: String
 
 * * *
 
-### Sequence(<ElementType>) Type
+## Sequence(<ElementType>) Type
 
 The Sequence(<ElementType>) type exposes the following members.
 
@@ -5569,7 +5569,7 @@ Return Type: <ElementType>
 
 * * *
 
-### Sequence(Value) Type
+## Sequence(Value) Type
 
 The Sequence(Value) type exposes the following members.
 
@@ -5983,7 +5983,7 @@ Return Type: String
 
 * * *
 
-### Set(<ElementType>) Type
+## Set(<ElementType>) Type
 
 The Set(<ElementType>) type exposes the following members.
 

@@ -1,4 +1,4 @@
-## Run a Data Extract
+# Run a Data Extract
 
 Use this effect to run a [data extract](../../../../../../users/analyze-report-and-discover/data-extract.md). The result can be saved, opened, or printed. Use an iterator or a loop to save or print many documents for individual objects.
 

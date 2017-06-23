@@ -1,4 +1,4 @@
-## General Settings
+# General Settings
 
 **Name**
 

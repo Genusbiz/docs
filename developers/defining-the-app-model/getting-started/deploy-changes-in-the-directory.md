@@ -1,4 +1,4 @@
-## Deploy Changes in the Directory
+# Deploy Changes in the Directory
 
 When you make changes in your directory, these changes have to be deployed to computers connected to your application server(s). If the directory contains changes which have not been deployed, a message is displayed in the **Information Bar** located at the top of the Genus Studio window. To deploy changes, do the following:
 

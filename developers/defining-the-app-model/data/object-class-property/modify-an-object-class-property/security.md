@@ -1,4 +1,4 @@
-## Security
+# Security
 
 Defines the maximum permissions that can be granted to any user account to a property, and if permissions can be granted to individual security groups.
 

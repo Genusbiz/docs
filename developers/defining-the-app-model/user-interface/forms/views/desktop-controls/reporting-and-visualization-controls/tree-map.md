@@ -1,4 +1,4 @@
-## Tree Map
+# Tree Map
 
 The TreeMap control can effortlessly turn hierarchical or grouped data into meaningful representations that are colorized and visualized to suit your needs.  
 

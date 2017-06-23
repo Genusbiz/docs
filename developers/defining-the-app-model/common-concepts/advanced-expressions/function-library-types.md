@@ -1,6 +1,6 @@
-## Function Library Types
+# Function Library Types
 
-### Finance Type
+## Finance Type
 
 The Finance type exposes the following members.
 
@@ -640,7 +640,7 @@ Indicates when payments are due.
 
 * * *
 
-### Math Type
+## Math Type
 
 The Math type exposes the following members.
 
@@ -1206,7 +1206,7 @@ A number.
 
 * * *
 
-### Regex Type
+## Regex Type
 
 Represents a regular expression.
 
@@ -1326,7 +1326,7 @@ The mask used to format the result.
 
 * * *
 
-### Statistics Type
+## Statistics Type
 
 The Statistics type exposes the following members.
 

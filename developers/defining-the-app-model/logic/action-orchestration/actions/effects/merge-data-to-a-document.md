@@ -1,4 +1,4 @@
-## Merge Data to a Document
+# Merge Data to a Document
 
 In the **Name** box, optionally type a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
 

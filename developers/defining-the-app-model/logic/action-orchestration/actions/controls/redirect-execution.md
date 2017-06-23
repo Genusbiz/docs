@@ -1,4 +1,4 @@
-## Redirect Execution
+# Redirect Execution
 
 Use this control to redirect the normal execution flow. Redirecting execution flow is useful to abort or break out of an [enumerator](../blocks/enumerator.md "Enumerator") or a [scope](../blocks/scope.md "Scope") in certain scenarios, and the control is therefore mostly used in combination with a [decision](../blocks/decision.md "Decision").
 

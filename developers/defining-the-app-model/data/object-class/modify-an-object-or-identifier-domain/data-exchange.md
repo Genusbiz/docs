@@ -1,4 +1,4 @@
-## Data Exchange
+# Data Exchange
 
 Data Exchange offers added functionality in integration with external applications.
 

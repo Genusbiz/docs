@@ -1,4 +1,4 @@
-## File Types Supported for Editing in Genus Desktop Client
+# File Types Supported for Editing in Genus Desktop Client
 
 <table style="WIDTH: 100%">
 

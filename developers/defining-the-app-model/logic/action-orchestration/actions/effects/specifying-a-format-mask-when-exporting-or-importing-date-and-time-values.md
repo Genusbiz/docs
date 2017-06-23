@@ -1,4 +1,4 @@
-## Specifying a Format Mask when Exporting or Importing Date and Time Values
+# Specifying a Format Mask when Exporting or Importing Date and Time Values
 
 Date and time formatting placeholders that can be included in a format mask:
 

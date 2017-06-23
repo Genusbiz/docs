@@ -1,4 +1,4 @@
-## Exception Handling
+# Exception Handling
 
 During execution of an action, there may occur errors that could result in a disruption of the normal execution flow. These errors are often referred to as exceptions, and can be handled by adding exception handlers to the action. [Catch Exception](actions/blocks/catch-exception.md) blocks are such exception handlers which are dedicated to resolving error situations, and are only executed if an error occurs.
 

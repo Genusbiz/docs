@@ -1,4 +1,4 @@
-## Chart
+# Chart
 
 The Chart control visualizes multiple series of data in a graphical manner. A chart can contain several panes, and each pane can display multiple axes and series. A variety of types of series are available, like bars, lines, points, area, etc. Series can be defined manually, or automatically in the so called auto series, and can be listed in a legend.
 

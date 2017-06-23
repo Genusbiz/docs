@@ -1,4 +1,4 @@
-## Security Privileges
+# Security Privileges
 
 A privilege is a users right to perform a specific task, usually one that affects the entire system rather than a particular object. Privileges are assigned by administrators to individual security groups.
 

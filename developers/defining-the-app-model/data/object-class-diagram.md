@@ -1,4 +1,4 @@
-## Object Class Diagram
+# Object Class Diagram
 
 Optimal database design is a key component of any application development effort. A well aligned information architecture is just as critical and can only be realized with clearly documented metadata. The **Object Class Diagram** addresses both requirements by allowing you to visualize and maintain your object model. It also promotes effective communications between the various stakeholders of your application, and enables you to address design issues and concerns prior to any significant resource investments.
 

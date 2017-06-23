@@ -1,4 +1,4 @@
-## Consume a Web Service
+# Consume a Web Service
 
 With this effect you can query or submit data to a Web Service. Consuming a Web Service is sometimes also referred to as calling a Web Service.
 

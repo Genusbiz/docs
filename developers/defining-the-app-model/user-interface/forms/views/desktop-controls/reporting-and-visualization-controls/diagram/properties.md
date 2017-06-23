@@ -1,4 +1,4 @@
-## Properties
+# Properties
 
 See [Common Control Properties](../../common-control-properties.md), in addition to the control specific properties below.
 

@@ -1,4 +1,4 @@
-## Sign In History
+# Sign In History
 
 Whenever a user attempts to sign in, certain details about the attempt are stored in the account session history, or sign in history.
 

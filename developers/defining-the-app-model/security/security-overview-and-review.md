@@ -1,4 +1,4 @@
-## Security Overview and Review
+# Security Overview and Review
 
 The **Privileges View,** **Permissions View**, and **Data Sets View** in the Directory facilitate a periodic review of important security aspects, such as privileges, Object Class permissions, and Data Set access granted to security groups. To open the views, select the **Security** folder in the **Directory** tree.
 

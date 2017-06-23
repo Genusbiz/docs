@@ -1,4 +1,4 @@
-## Change the Logical Operator for an Expression or Group
+# Change the Logical Operator for an Expression or Group
 
 For a condition consisting of more than one expression or group, these are separated by one of the logical operators; AND / OR. The default operator for new expressions and groups is the AND operator.
 

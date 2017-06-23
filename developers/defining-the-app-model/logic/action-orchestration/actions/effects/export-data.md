@@ -1,4 +1,4 @@
-## Export Data
+# Export Data
 
 Use this effect to export data from one of your data sources to a file or a file data source. Available file formats will vary depending on the type of data source exported:
 

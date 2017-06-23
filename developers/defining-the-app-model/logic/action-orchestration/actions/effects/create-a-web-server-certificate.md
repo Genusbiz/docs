@@ -1,4 +1,4 @@
-## Create a Web Server Certificate
+# Create a Web Server Certificate
 
 Creation of a Web Server Certificate involves creating a request, sending it to the applicable authority and receiving the response before assigning it.
 

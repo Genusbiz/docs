@@ -1,4 +1,4 @@
-## Run a Task
+# Run a Task
 
 Use this effect to run a task. This is useful to reuse common functionality and logic, and to break down complexity by modularizing large actions.
 

@@ -1,4 +1,4 @@
-## Nodes and Node Groups
+# Nodes and Node Groups
 
 Nodes and Node Groups are administrated in Genus Studio, and can be found in the Resource group in the navigation pane.  
 

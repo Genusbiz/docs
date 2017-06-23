@@ -1,4 +1,4 @@
-## Security Groups and User Accounts
+# Security Groups and User Accounts
 
 Genus App Platform uses a **user or computer account** to authenticate the identity of the user or computer, and to authorize or deny access to application resources (data and functions). The account establishes an identity for the user. The identity is then used to authenticate the user and to grant the user authorization to access specific application resources.
 

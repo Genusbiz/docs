@@ -1,4 +1,4 @@
-## Search Settings
+# Search Settings
 
 **Full Text**
 

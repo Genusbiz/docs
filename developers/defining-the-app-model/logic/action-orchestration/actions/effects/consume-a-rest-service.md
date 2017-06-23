@@ -1,4 +1,4 @@
-## Consume a REST Service
+# Consume a REST Service
 
 To consume a REST Service, do the following:
 

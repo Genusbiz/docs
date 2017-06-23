@@ -1,4 +1,4 @@
-## Modify a User Account
+# Modify a User Account
 
 Use this effect to hide or automate funcationality related to user administration. For example tasks can be tailor made for advanced rich client user administrators, or accounts can be automatically created in web services, for people registering on thin clients. The effect modifies an existing user account or creates a new user account.  
 

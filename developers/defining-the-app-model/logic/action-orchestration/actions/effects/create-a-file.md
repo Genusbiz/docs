@@ -1,4 +1,4 @@
-## Create a File
+# Create a File
 
 Use this effect to create a new file in a data source. The data source used is of type General File, and you can choose from a list of supported file types.
 

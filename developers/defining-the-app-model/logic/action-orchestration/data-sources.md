@@ -1,4 +1,4 @@
-## Data Sources
+# Data Sources
 
 Data sources are used by forms, tables and actions as sources of information. A data source is made up of fields and groups. The kind of data stored in a field or group is defined by the **data type**. Data types are categorized in **simple data types** and **complex data types**. Simple data types include Boolean, Calendar Time, Integer, Integer Date, Integer Time, Internet Address, Large Integer, Real, Stream Data and String. Complex data types are defined in your Directory. For example *Customer or a Schema*. A field can store data for both simple and complex data types. A group is by definition a complex data type. For example, if you add a data source of type *Customer*, the data type for the top-level group in the data source is *Customer*. Within a data source, a group can be defined as **repeating**, meaning that data for the group occurs more than once. For example all *Products* in a given *Product Category*.
 
