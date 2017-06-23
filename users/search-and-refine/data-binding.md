@@ -4,15 +4,15 @@ A data binding can provide objects or values, and can be used to provide the dat
 
 **Data to be Edited or Visualized**
 
-Many controls only has the one Data Binding, as the nature of the control does not require anything more, like [Text Edit](../../developers/defining-the-app-model/user-interface/forms/views/desktop-controls/text-and-number-controls.md#text-edit), [List Box](../../developers/defining-the-app-model/user-interface/forms/views/desktop-controls/list-and-lookup-controls.md#list-box), or [Check Box](../../developers/defining-the-app-model/user-interface/forms/views/desktop-controls/button-controls.md#check-box). In these examples, the Text Edit requires one value or field from one object, while the list box requires a set of objects.
+Many controls only has the one Data Binding, as the nature of the control does not require anything more, like [Text Edit](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/text-and-number-controls.md#text-edit), [List Box](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/list-and-lookup-controls.md#list-box), or [Check Box](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/button-controls.md#check-box). In these examples, the Text Edit requires one value or field from one object, while the list box requires a set of objects.
 
-For controls that require more than one data binding, the locations and names of the data bindings can vary. For example, the [Date Range Bar](../../developers/defining-the-app-model/user-interface/forms/views/desktop-controls/time-and-date-controls.md#date-range-bar) has the two such data bindings: Range Start, Range End, Selected Start, Selected End. The [Chart](../../developers/defining-the-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md) control has a list of Series, which each has a data binding that provides the points to plot in the chart.
+For controls that require more than one data binding, the locations and names of the data bindings can vary. For example, the [Date Range Bar](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/time-and-date-controls.md#date-range-bar) has the two such data bindings: Range Start, Range End, Selected Start, Selected End. The [Chart](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md) control has a list of Series, which each has a data binding that provides the points to plot in the chart.
 
 **Data to Configure the Control**
 
 Many of the properties in a control allow data to be provided by a data binding. This makes the controls more dynamic than if the configuration is based on constants during design.
 
-For example, the [Date Range Bar](../../developers/defining-the-app-model/user-interface/forms/views/desktop-controls/time-and-date-controls.md#date-range-bar) has the two such data bindings: Range Start, Range End. The [Track Bar](../../developers/defining-the-app-model/user-interface/forms/views/desktop-controls/button-controls.md#track-bar) has several data bindings to configure the control: Min Value, Max Value, Tick Frequency, Small Step, Large Step.
+For example, the [Date Range Bar](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/time-and-date-controls.md#date-range-bar) has the two such data bindings: Range Start, Range End. The [Track Bar](../../developers/defining-an-app-model/user-interface/forms/views/desktop-controls/button-controls.md#track-bar) has several data bindings to configure the control: Min Value, Max Value, Tick Frequency, Small Step, Large Step.
 
 **Properties**
 
@@ -58,4 +58,4 @@ A data binding consist of the following properties, in which the first is always
 
 </table>
 
-See also [Data Binding](../../developers/defining-the-app-model/common-concepts/data-binding.md), and [Active Object](../../developers/defining-the-app-model/common-concepts/active-object.md).
+See also [Data Binding](../../developers/defining-an-app-model/common-concepts/data-binding.md), and [Active Object](../../developers/defining-an-app-model/common-concepts/active-object.md).

@@ -23,7 +23,7 @@ Follow these steps to perform an Excel merge.
 
 ![ID3193B3746DDE4629.IDA2599F74FF5D4E96.png](media/ID3193B3746DDE4629.IDA2599F74FF5D4E96.png)
 
-**Step 4\.** In your Task, Web Service or Agent, include a merge effect describing which template to use, the data source containing the XML data, the data source where the merged document should be written to, and the file format for the merged document. See [here](../../../defining-the-app-model/logic/action-orchestration/actions/effects/merge-data-to-a-document.md "The Merge Data to a Document Effect") for more information.
+**Step 4\.** In your Task, Web Service or Agent, include a merge effect describing which template to use, the data source containing the XML data, the data source where the merged document should be written to, and the file format for the merged document. See [here](../../../defining-an-app-model/logic/action-orchestration/actions/effects/merge-data-to-a-document.md "The Merge Data to a Document Effect") for more information.
 
 ![ID3193B3746DDE4629.ID717FD4EA4FDD4F55.png](media/ID3193B3746DDE4629.ID717FD4EA4FDD4F55.png)
 

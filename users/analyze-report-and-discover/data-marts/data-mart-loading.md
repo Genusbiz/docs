@@ -22,7 +22,7 @@ Data mart load scheduling is configured in the Schedules table found when expand
 
 **Node Group**
 
-A Schedule must specify which Node Group that should handle requests for this data mart. There must be at least one Node within this Node Group configured to handle data mart requests. More information on how to enable Nodes in the Node Group to load data marts may be found in [Nodes and Node Groups](../../../developers/defining-the-app-model/services/nodes-and-node-groups.md)
+A Schedule must specify which Node Group that should handle requests for this data mart. There must be at least one Node within this Node Group configured to handle data mart requests. More information on how to enable Nodes in the Node Group to load data marts may be found in [Nodes and Node Groups](../../../developers/defining-an-app-model/services/nodes-and-node-groups.md)
 
 **Schedule**
 

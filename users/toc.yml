@@ -102,7 +102,7 @@
     - name: Modify merging of Reports
       href: navigate-view-modify-and-control/running-actions/modify-merging-of-reports.md
   - name: Keyboard shortcuts
-    href: ../developers/defining-the-app-model/user-interface/keyboard-shortcuts.md
+    href: ../developers/defining-an-app-model/user-interface/keyboard-shortcuts.md
 - name: Search and refine
   href: search-and-refine/index.md
   items:

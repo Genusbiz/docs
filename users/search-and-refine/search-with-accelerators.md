@@ -16,4 +16,4 @@ Due to performance issues, the maximum length of the search term is 150 characte
 
 ![IDA5A7B055C92B4A2B.png](media/IDA5A7B055C92B4A2B.png)
 
-For more information on how to make accelerator search available, see [Search Settings](../../developers/defining-the-app-model/user-interface/tables/views.md "Search Settings").
+For more information on how to make accelerator search available, see [Search Settings](../../developers/defining-an-app-model/user-interface/tables/views.md "Search Settings").

@@ -62,9 +62,9 @@
 
 <tr class="cdclvCategoryRowAlt">
 
-<td valign="top" class="cdclvCategoryCol1">[Keyboard Shortcuts](../../developers/defining-the-app-model/user-interface/keyboard-shortcuts.md)</td>
+<td valign="top" class="cdclvCategoryCol1">[Keyboard Shortcuts](../../developers/defining-an-app-model/user-interface/keyboard-shortcuts.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Defining the App Model](../../developers/defining-the-app-model/index.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Defining an App Model](../../developers/defining-an-app-model/index.md)</td>
 
 </tr>
 
@@ -72,7 +72,7 @@
 
 <td valign="top" class="cdclvCategoryCol1">[Installation and Configuration](../../developers/installation-and-configuration/index.md)</td>
 
-<td valign="top" class="cdclvCategoryCol2">[Security And Privacy](../../developers/defining-the-app-model/security/index.md)</td>
+<td valign="top" class="cdclvCategoryCol2">[Security And Privacy](../../developers/defining-an-app-model/security/index.md)</td>
 
 </tr>
 

@@ -8,17 +8,17 @@ Search folders of type Specific Objects, allow you to save criteria based search
 
 To create a new specific objects search folder, do the following:
 
-1.  [Open Genus Studio](../../developers/defining-the-app-model/getting-started/how-to-open-genus-studio.md).
+1.  [Open Genus Studio](../../developers/defining-an-app-model/getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click **Search Folders**.
 3.  On the toolbar, click **New****![IDB6F929FA50A049EB.png](media/IDB6F929FA50A049EB.png)** **** and click **Search Folders (Specific Objects)**. Optionally, right-click anywhere in the **Search Folder** window, and in the shortcut menu, point to **New** and then click **Search Folder (Specific Objects)**.
-4.  In the **General** tab and in the **Name** box, type the name for the search folder. In the **Data Source** box, select available [basic view](../../developers/defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/explore.md) or [table view](../../developers/defining-the-app-model/user-interface/tables/views.md). Note that only views that are enabled for Search View are available in the Data Source box. To enable execution of the search folder, **Enable Search** for the data source or the table view has to be selected.
+4.  In the **General** tab and in the **Name** box, type the name for the search folder. In the **Data Source** box, select available [basic view](../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/explore.md) or [table view](../../developers/defining-an-app-model/user-interface/tables/views.md). Note that only views that are enabled for Search View are available in the Data Source box. To enable execution of the search folder, **Enable Search** for the data source or the table view has to be selected.
 5.  Select **View Objects Found**, to view a list of found objects.
 6.  Select **View Number of Objects Found**, to only see the number of Objects Found. If it is uncertain how many objects the search will return, select this option to avoid unnecessary waiting.
 7.  In **Data Set Binding** section, click **Data Set** and select a data set
 8.  Click **OK**.
 9.  Right-click the search folder, and click **Open**, or double-click the search folder to open.
 10.  In the **Search Folder** dialog box, click **Criteria** tab.
-11.  Set the criteria for the search folder. For more information about how to set criteria, see [Conditions](../../developers/defining-the-app-model/common-concepts/conditions.md).
+11.  Set the criteria for the search folder. For more information about how to set criteria, see [Conditions](../../developers/defining-an-app-model/common-concepts/conditions.md).
 
 ![IDB7FA3DE0F8474DC0.png](media/IDB7FA3DE0F8474DC0.png)
 

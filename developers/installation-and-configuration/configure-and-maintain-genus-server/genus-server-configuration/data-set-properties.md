@@ -25,7 +25,7 @@ The data set properties are grouped according to area and presented in tabs. For
 
 <td>**Virtual Directory**</td>
 
-<td>Name of virtual directory used as part of the address to access the application and data set. See also, [Naming the Virtual Directory](../../../defining-the-app-model/data/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory").</td>
+<td>Name of virtual directory used as part of the address to access the application and data set. See also, [Naming the Virtual Directory](../../../defining-an-app-model/data/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory").</td>
 
 </tr>
 

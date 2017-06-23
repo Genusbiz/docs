@@ -15,9 +15,9 @@ The format and contents of the details for an event vary depending on the <span 
 
 A detailed execution log containing the start time, end time and status for the execution. The amount of information traced for each execution can be specified in the history setup for the object. Available for Tasks, Agents and Web Services. For more information, see:****
 
-*   [**View the execution history for a Task**](../../../../developers/defining-the-app-model/logic/tasks.md)
-*   [**View the execution history for an Agent**](../../../../developers/defining-the-app-model/logic/agents.md)
-*   [**View the execution history for a Web Service**](../../../../developers/defining-the-app-model/services/web-services/view-the-execution-history-for-a-web-service.md)
+*   [**View the execution history for a Task**](../../../../developers/defining-an-app-model/logic/tasks.md)
+*   [**View the execution history for an Agent**](../../../../developers/defining-an-app-model/logic/agents.md)
+*   [**View the execution history for a Web Service**](../../../../developers/defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md)
 
 **Modify**
 
@@ -51,12 +51,12 @@ Note that if an object is part of a [composition](../../../../developers/install
 
 ## Modify Auditing for an Object
 
-Required [security permission](../../../../developers/defining-the-app-model/security/security-permissions.md "Security Permissions"): **Modify auditing**.
+Required [security permission](../../../../developers/defining-an-app-model/security/security-permissions.md "Security Permissions"): **Modify auditing**.
 
 1.  Select the object for which you want to modify auditing.
 2.  In the **File** menu, click **Properties**.
 3.  Click the **History** tab.
-4.  In the list **Auditing**, click the events you want to track in the Event History. Events marked with the text **All objects** are activated for all objects, and can not be deactivated for an individual object. The number of events that can be selected for an individual object is defined in the [auditing setup for all objects in the Directory](../../../../developers/defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md "Events").
+4.  In the list **Auditing**, click the events you want to track in the Event History. Events marked with the text **All objects** are activated for all objects, and can not be deactivated for an individual object. The number of events that can be selected for an individual object is defined in the [auditing setup for all objects in the Directory](../../../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md "Events").
 
 
 
@@ -76,13 +76,13 @@ Specify your search per field as shown below and click **Search**.
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-the-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 ![IDFED753EC048E440C.IDDEDB0B82B12F4791.png](media/4e5afa1ef32646e284ae7810258e257d.png)
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-the-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 To search in History for changes, deletions, etc, click **Search** to open the **Search** Task Pane to the right. In the **Search** Task Pane, click **More**.
 
@@ -96,10 +96,10 @@ Specify your search per field as shown below and click **Search**.
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-the-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
 
 ![IDFED753EC048E440C.IDDEDB0B82B12F4791.png](media/be6b98316e3c400eb82c2478cae9766f.png)
 
 The result appears in the table below the search fields.
 
-By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-the-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.
+By default you can only search for events logged by yourself. Users which have been granted the [security privilege](../../../../developers/defining-an-app-model/security/security-privileges.md "Security Privileges")**Combine event history for all users,** can search for events logged by any user.

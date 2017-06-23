@@ -8,7 +8,7 @@ This article discusses how to improve performance by providing some hints and ti
 
 Audit trail on execute of tasks should only be used during debugging or testing. This applies for tasks of both local and public scopes. Turning on this option will result in considerably poorer performance, and it is therefore important to turn off this option for solutions that are in production environments. Also the **Save detailed execution trace in history** option should only be turned on for for debugging or testing purposes.
 
-To turn Execute Auditing on or off for a Task, right-click the Task, and then in the shortcut menu, click **Properties**. Click the **History** tab, and check/clear the **Execute Event** check box in the **Auditing** section. For more information, see [Events](../defining-the-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md).
+To turn Execute Auditing on or off for a Task, right-click the Task, and then in the shortcut menu, click **Properties**. Click the **History** tab, and check/clear the **Execute Event** check box in the **Auditing** section. For more information, see [Events](../defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md).
 
 **Security on Tasks with Local Scope**  
 
