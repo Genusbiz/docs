@@ -8,7 +8,8 @@ See www.genus.no for more general information about our products and our company
 ## Guidelines
 * Keep the articles short and to the point. But not too small - i.e. if you are describing a topic containing five concepts, each with 1-2 sections, it is probably better to collect these in one article to avoid unnecessary clicking and increase readability.
 * It is better to start out small and then iterate and evolve more content later.
-* Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished. Please return to finish it as soon as possible.
+* Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished, like the example below - and then return to finish it as soon as possible.
+> "_The contents of this article is under construction. We are sorry for the inconvenience._".
 * If you are trying to improve upon an article, but find it hard to describe the functionality, it may be Genus App Platform that needs improvement. Please let us know through your support channel!
 * Use images sparingly, as these are hard to maintain over time. Put any images in the media subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information. Use more images for _Users_ than _Developers_.
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
