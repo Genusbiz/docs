@@ -19,6 +19,7 @@ See www.genus.no for more general information about our products and our company
 
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:
+* Remove the old "Topics" section at the bottom of each article. The left (and right) side menu should give you the topics. We do not want to maintain a third one manually.
 * Change the term "Application" to "App".
 * Convert Html tables to [Markdown tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables). Also see [guidelines for html table conversion](guidelines-for-html-table-conversion.md) for examples and guidelines for converting tables from the old documentation structure.
 * Change header capitalisation to [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles). Example [here](developers/installation-and-configuration/system-requirements.md).
