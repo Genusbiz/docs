@@ -7,7 +7,8 @@
           "**.*yml"
         ],
         "exclude": [
-          "_site/**"
+          "_site/**",
+          "node_modules/**"
         ]
       }
     ],
