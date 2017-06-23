@@ -1,4 +1,4 @@
-## Edit Report Links
+# Edit Report Links
 
 You can define links to Reports as
 

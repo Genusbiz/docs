@@ -1,4 +1,4 @@
-## Request / Response Message Exchange Pattern
+# Request / Response Message Exchange Pattern
 
 Web Services exposed by Genus utilize the "Request-response" pattern. This is one of the most common message exchange patterns (MEP) describing how two parts of a message passing system connect and communicate with each other.
 

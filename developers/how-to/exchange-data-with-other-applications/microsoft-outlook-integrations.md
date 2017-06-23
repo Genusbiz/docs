@@ -1,4 +1,4 @@
-## Microsoft Outlook Integrations
+# Microsoft Outlook Integrations
 
 Genus integrates with Microsoft Outlook on several levels and in different ways, to enhance the experience and offer advanced functionality.
 

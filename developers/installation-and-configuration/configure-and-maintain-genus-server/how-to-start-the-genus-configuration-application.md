@@ -1,4 +1,4 @@
-## How to start the Genus Configuration application
+# How to start the Genus Configuration application
 
 To start the Genus Configuration application, sign in to your application server using Remote Desktop Connection, or manually at your server machine's console.
 

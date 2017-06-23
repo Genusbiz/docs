@@ -1,4 +1,4 @@
-## Exchanging Files and Objects
+# Exchanging Files and Objects
 
 When exchanging data with other applications using copy and paste or export and import, the intermediate format is almost always represented by a file. For copy and paste operations, the file is temporary placed on the clipboard, while for export and import, the file is placed in the Windows file system.
 

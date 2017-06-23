@@ -1,4 +1,4 @@
-## Genus Server - Logical Services
+# Genus Server - Logical Services
 
 Genus App Services is composed of a number of logical services at that are either data set independent or [data set](../../defining-the-app-model/general-settings/data-sets.md) dependent. These services may be configured for each physical server by defining [nodes and node groups](../../defining-the-app-model/services/nodes-and-node-groups.md).
 

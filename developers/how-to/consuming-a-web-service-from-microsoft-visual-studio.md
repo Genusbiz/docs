@@ -1,4 +1,4 @@
-## Consuming a Web Service from Microsoft Visual Studio
+# Consuming a Web Service from Microsoft Visual Studio
 
 To consume a Web Service from Microsoft Visual Studio 2012, select **Add Service Reference...** from the **Project** menu. Enter the address https://_yourserver/yourdataset_/services/_yourwebservice_.svc and click **Go**. In the **Namespace** box, change the default name to your preferred .NET namespace for the generated proxy classes. Then click **OK**.
 

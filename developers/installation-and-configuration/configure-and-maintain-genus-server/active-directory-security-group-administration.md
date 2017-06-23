@@ -1,4 +1,4 @@
-## Active Directory Security Group Administration
+# Active Directory Security Group Administration
 
 In order to streamline your security administration, or to comply with your organization's security requirements, you may want to handle your Genus App Services security group administration within **Active Directory**. In that case, the **Active Directory** security groups will be listed inside **Genus Studio**.
 

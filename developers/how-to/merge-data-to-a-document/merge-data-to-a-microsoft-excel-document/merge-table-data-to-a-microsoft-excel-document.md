@@ -1,4 +1,4 @@
-## Merge Table Data to a Microsoft Excel Document
+# Merge Table Data to a Microsoft Excel Document
 
 The example below shows a possible result after merging a selection of Employees.
 

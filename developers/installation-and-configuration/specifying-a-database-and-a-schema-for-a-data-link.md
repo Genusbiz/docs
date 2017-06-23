@@ -1,4 +1,4 @@
-## Specifying a Database and a Schema for a Data Link
+# Specifying a Database and a Schema for a Data Link
 
 Microsoft SQL Server:
 

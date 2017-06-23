@@ -1,4 +1,4 @@
-## Upload and Download Large Files
+# Upload and Download Large Files
 
 Genus App Platform supports upload and download of large files, in the tens to hundreds of megabytes order, using standard HTTP POST and HTTP GET mechanisms. Some of the advantages to uploading/downloading are, that it is more resource efficient, and that it is easier to cancel an ongoing operation.
 

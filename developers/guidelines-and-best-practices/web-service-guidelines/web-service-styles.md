@@ -1,4 +1,4 @@
-## Web Service Styles
+# Web Service Styles
 
 The SOAP standard offers a wide selection of various styles and flavors when it comes to the actual encoding of the SOAP message payloads. When a web service is published by Genus, a WSDL supporting the "document/literal wrapped" binding style is generated.
 

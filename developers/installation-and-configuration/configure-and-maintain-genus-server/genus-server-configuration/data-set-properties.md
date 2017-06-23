@@ -1,4 +1,4 @@
-## Data Set Properties
+# Data Set Properties
 
 To open the Genus Data Set Properties in the Genus Configuration Application, do the following:  
 

@@ -1,4 +1,4 @@
-## Automatically Delete Old Log Files
+# Automatically Delete Old Log Files
 
 Log files are written to a specific directory in your Genus App Services environment. Over time these log files may occupy a lot of space on your server. If you want to delete old log files automatically, we recommend that you create a Windows Schedule Task that runs the VBScript below once every day.
 

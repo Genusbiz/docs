@@ -1,4 +1,4 @@
-## Special Considerations for Sybase
+# Special Considerations for Sybase
 
 **Genus App Services Transaction Service** is executed as part of the IIS Default Application Pool. Special considerations apply if you are using Sybase Adaptive Server Enterprise (ASE). Due to problems with the Sybase Data Provider for .NET and database connection pooling, the IIS Default Application Pool must run as the **Local System** account rather than the preconfigured **Network Service** account. _If you are **not** using Sybase we recommend you to keep using the predefined Network Service account as this account has the least user rights that are required to run Web applications. This account provides the most security against attackers who might attempt to take over the computer on which the World Wide Web Publishing Service (WWW service) is running_
 

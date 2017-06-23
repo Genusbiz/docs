@@ -1,4 +1,4 @@
-## Monitoring Genus Server
+# Monitoring Genus Server
 
 The Genus App Services installation includes a Genus App Services Management Console tailored for managing the Genus App Services. This includes customized shortcuts to IIS, event viewer, services and certificates.
 

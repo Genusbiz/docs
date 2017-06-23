@@ -1,4 +1,4 @@
-## Identifying and Naming XML Schemas and Elements for use with Web Services
+# Identifying and Naming XML Schemas and Elements for use with Web Services
 
 With a large number of Schemas, Web Services and Operations, it is important to follow a scheme for naming which makes it easy to maintain a reasonable overview of all the elements. These naming conventions also reduce complexity for web service consumers which develop clients. For more information, see [Consuming a Genus Web Service from an External Client](consuming-a-genus-web-service-from-an-external-client.md).
 

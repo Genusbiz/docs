@@ -1,4 +1,4 @@
-## Directory Properties
+# Directory Properties
 
 To open the Genus Directory Properties in the **Genus Configuration** application, do the following:
 

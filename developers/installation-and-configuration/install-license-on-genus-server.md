@@ -1,4 +1,4 @@
-## Install License on Genus Server
+# Install License on Genus Server
 
 A license file is required in order to start the Genus App Platform. If you do not have a valid license file, please contact Genus AS.
 

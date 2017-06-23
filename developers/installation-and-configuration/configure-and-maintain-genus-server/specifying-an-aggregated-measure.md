@@ -1,4 +1,4 @@
-## Specifying an Aggregated Measure
+# Specifying an Aggregated Measure
 
 Applies to fields of type **Function**.
 

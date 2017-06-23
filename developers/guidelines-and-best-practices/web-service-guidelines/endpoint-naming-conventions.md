@@ -1,4 +1,4 @@
-## Endpoint Naming Conventions
+# Endpoint Naming Conventions
 
 Each endpoint should be given a name that is unique within a web service. Further, the name should only contain letters, numbers and the underscore character (_).
 

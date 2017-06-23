@@ -1,4 +1,4 @@
-## Genus Server Configuration
+# Genus Server Configuration
 
 The Genus Configuration application is installed on the application server as part of the app service installation. It lets you set up and configure the application server for your application.
 

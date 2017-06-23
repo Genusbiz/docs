@@ -1,4 +1,4 @@
-## Identifying and Naming the Web Service Operations
+# Identifying and Naming the Web Service Operations
 
 A Web Service offers a set of operations. These operations can be implemented in the same way as functions are implemented in common programming languages.
 

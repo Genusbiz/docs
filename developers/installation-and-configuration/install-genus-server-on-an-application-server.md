@@ -1,4 +1,4 @@
-## Install Genus Server on an Application Server
+# Install Genus Server on an Application Server
 
 The Genus App Services Installation Wizard is Microsoft Windows Installer-based, and provides a single feature tree for installation of all Genus App Services components.
 

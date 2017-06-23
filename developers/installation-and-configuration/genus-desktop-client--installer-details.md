@@ -1,4 +1,4 @@
-## Genus Desktop Client - Installer Details
+# Genus Desktop Client - Installer Details
 
 The Genus Desktop Client installer contains several files, and is executed in three layers:
 

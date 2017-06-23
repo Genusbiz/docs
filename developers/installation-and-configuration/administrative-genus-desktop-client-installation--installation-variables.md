@@ -1,4 +1,4 @@
-## Administrative Genus Desktop Client Installation - Installation Variables
+# Administrative Genus Desktop Client Installation - Installation Variables
 
 Before running through [Administrative Genus Desktop Client Installation - Step by Step](administrative-genus-desktop-client-installation--step-by-step.md "Administrative Genus Desktop Client Installation - Step by Step") you need to decide on some installation variables in the Registry as follows. The use of brackets indicates a variable.
 

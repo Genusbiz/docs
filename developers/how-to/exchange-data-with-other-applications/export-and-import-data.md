@@ -1,4 +1,4 @@
-## Export and Import Data
+# Export and Import Data
 
 Export and Import of data can be used to exchange data between applications, or between an application and a manual process. In most cases it is possible to use [copy and paste](copy-and-paste-data.md "Copy and Paste Data") functionality as an alternative to export and import for manual processes, and the choice it is usually only a matter of preferences and requirements. The basic steps are similar for export/import and copy/paste, the main difference being that while export and import access the file system to exchange files, copy and paste access the system clipboard to exchange files and other data.
 

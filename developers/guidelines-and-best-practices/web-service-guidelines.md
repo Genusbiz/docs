@@ -1,4 +1,4 @@
-## Web Service Guidelines
+# Web Service Guidelines
 
 Web services are often created to solve a certain problem or provide some data to an external application.
 

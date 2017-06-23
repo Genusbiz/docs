@@ -1,4 +1,4 @@
-## How To
+# How To
 
 **Topics in "How To"**
 * [Attach a File or an E-mail To an Object](attach-a-file-or-an-email-to-an-object.md)

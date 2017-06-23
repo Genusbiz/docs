@@ -1,4 +1,4 @@
-## Genus App Platform Release Stages
+# Genus App Platform Release Stages
 
 A software release is a distribution of an upgraded version of a software product.
 

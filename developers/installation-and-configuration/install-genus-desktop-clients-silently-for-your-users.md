@@ -1,4 +1,4 @@
-## Install Genus Desktop Clients Silently for Your Users
+# Install Genus Desktop Clients Silently for Your Users
 
 For deployment of the Genus Desktop Client in a corporate environment, there are two main approaches.
 

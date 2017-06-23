@@ -1,4 +1,4 @@
-## Test Run Merging Template
+# Test Run Merging Template
 
 To create a template there are often many adjustments involved. The possibility to test run merging template, to see the output result, is often useful, and may make it easier to design the template.
 

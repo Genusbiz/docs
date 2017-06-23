@@ -1,4 +1,4 @@
-## Exchange Data with Other Applications
+# Exchange Data with Other Applications
 
 Exchanging data with other applications can often be an important part of the functionality of an application, and there are different ways to achieve this.
 

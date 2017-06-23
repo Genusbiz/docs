@@ -1,4 +1,4 @@
-## Testing a Web Service
+# Testing a Web Service
 
 To test run a Web Service published on your application server, we recommend using a third- party software. The interoperability of the Web Service should be verified by a client not based on the WCF .NET Framework. E.g. soapUI. Be sure to [deploy](../../defining-the-app-model/getting-started/deploy-changes-in-the-directory.md) any changes in the the definition of the Web Service before testing. A log containing the SQL statements and other info can be retrieved by running the Genus trace log utility on the server.
 

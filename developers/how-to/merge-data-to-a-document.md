@@ -1,4 +1,4 @@
-## Merge Data to a Document
+# Merge Data to a Document
 
 Merging data is the process of producing one or more (and potentially large number of) documents from a template and a data source.
 

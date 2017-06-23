@@ -1,4 +1,4 @@
-## Attach a File or an E-mail To an Object
+# Attach a File or an E-mail To an Object
 
 It is possible to attach a file or an e-mail to an object defined in the directory, by adding properties for storing file data and file meta-data. This is useful to store documents together with related objects defined in the directory. For example to store the actual contract document together with the contract object, or the project plan togheter with the project object. It is possible to attach files of any type, and when attaching an e-mail, it is actually the e-mail file that is attached.
 

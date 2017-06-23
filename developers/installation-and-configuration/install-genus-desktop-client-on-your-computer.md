@@ -1,4 +1,4 @@
-## Install Genus Desktop Client on Your Computer
+# Install Genus Desktop Client on Your Computer
 
 You can install the Genus desktop client using an internet address (URL) or an otherwise provided setup file.
 

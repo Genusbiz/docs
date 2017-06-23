@@ -1,4 +1,4 @@
-## Options
+# Options
 
 To open the Genus App Services Options, in the **Genus Configuration** Application, open the **Tools** menu, and select **Options**.
 

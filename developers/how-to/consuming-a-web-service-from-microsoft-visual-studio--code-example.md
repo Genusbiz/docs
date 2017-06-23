@@ -1,4 +1,4 @@
-## Consuming a Web Service from Microsoft Visual Studio - Code Example
+# Consuming a Web Service from Microsoft Visual Studio - Code Example
 
 The code example below shows how a Web Service _CustomerRelationsService_ and its operation _GetAllCustomerContacts()_ can be called from Microsoft Visual Studio 2012 project using C#. Client proxy classes _CustomerReleationsServiceClient_, _CustomerContacts_, and _CustomerContact_ were generated using **Add Service Reference...** as described [here](consuming-a-web-service-from-microsoft-visual-studio.md "Consuming a Web Service from Microsoft Visual Studio").
 

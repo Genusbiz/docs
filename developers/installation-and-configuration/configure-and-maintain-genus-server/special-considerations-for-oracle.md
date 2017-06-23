@@ -1,4 +1,4 @@
-## Special Considerations for Oracle
+# Special Considerations for Oracle
 
 Reading large objects, for example BLOB or CLOB, from the database can be memory intensive operations, and sometimes performance can be improved by reading the data in chunks. Reading large objects in chunks, on the other hand, can lead to an increase in connections to the database, especially if there are many concurrent users. The optimal behaviour is therefore different from solution to solution, and this behaviour can therefore be modified by defining certain properties in the app.config or web.config files.
 

@@ -1,4 +1,4 @@
-## Identifying and Naming the Web Service
+# Identifying and Naming the Web Service
 
 Setting up a Web Service in Genus is both quick and easy. This is a great strength but also a pitfall if new Web Services are created as you go along. Without thinking the broader picture, the application model will soon end up with an unmanageable set of Web Services containing just a few operations each, and a large dictionary of ambiguous service names.
 

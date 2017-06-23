@@ -1,4 +1,4 @@
-## XML and Web Service Namespaces
+# XML and Web Service Namespaces
 
 XML schemas and web services are defined within a namespace. The namespace may be any valid URI, i.e. an URL like _http://www.w3.org/2001/XMLSchema_ or an URN like _urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66_. The namespace URI is simply a name, not an address of a document on the web.
 

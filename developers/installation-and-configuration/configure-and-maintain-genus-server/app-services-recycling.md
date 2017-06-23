@@ -1,4 +1,4 @@
-## App Services Recycling
+# App Services Recycling
 
  **The Core Service is been fully integrated into the Internet Information Services (IIS) Application Pool used by the Genus App Services Web Site.  
 

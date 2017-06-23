@@ -1,4 +1,4 @@
-## Special Considerations for MySQL
+# Special Considerations for MySQL
 
 There are certain default settings that should be adjusted in the MySQL installation. This can be done in the Options File which is available in MySQL Workbench, under Server Administration in the Configuration section.
 

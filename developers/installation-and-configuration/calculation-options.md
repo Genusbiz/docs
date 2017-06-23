@@ -1,4 +1,4 @@
-## Calculation Options
+# Calculation Options
 
 By default, an aggregate is recalculated when data are reloaded. You can however control when calculation occurs. An aggregate has two main calculation modes:
 

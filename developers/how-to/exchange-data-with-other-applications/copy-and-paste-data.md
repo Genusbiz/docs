@@ -1,4 +1,4 @@
-## Copy and Paste Data
+# Copy and Paste Data
 
 Copy and Paste of is an intuitive and useful feature for exchanging data between applications, and it can be used for almost any type of data, like contacts, calendar items, e-mails, files, folders, xml data.
 
