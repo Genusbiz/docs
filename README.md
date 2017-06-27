@@ -20,7 +20,7 @@ _The contents of this article is under construction. We are sorry for the inconv
 * Use hyphens (-) in article file and folder names, since markdown previewers do not like spaces in article cross references.
 * The main article in each folder is to be named index.md. In this way, everyone refering to the subject contained in all the articles in this folder, may simply refer to this index.md article.
 * Article main headers should be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-an-app-model/general-settings/data-sets.md).
-* Search Engine Optimalization (SEO): Each article should have metadata to improve visibility for web search engines. Read more here (reference to be added).
+* Search Engine Optimalization (SEO): Each article should have metadata to improve visibility for web search engines. Read more [here](metadata-for-search-engine-optimization.md).
 
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:

@@ -1,4 +1,9 @@
-# How To
+---
+title: Genus App Platform how-to guides for developers
+description: How-tos for developing apps using Genus Studio
+author: jtroset
+---
+# How to
 
 **Topics in "How To"**
 * [Attach a File or an E-mail To an Object](attach-a-file-or-an-email-to-an-object.md)

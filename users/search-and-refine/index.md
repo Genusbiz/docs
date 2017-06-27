@@ -1,3 +1,8 @@
+---
+title: Search and refine using Genus App Platform
+description: How end users can search and refine their searches using Genus App Platform
+author: OleGrytdal
+---
 # Search and refine
 
 Genus Desktop offers a number of ways to search in your business data. Anyone at any business or technical skill level across your corporation can search a large number of objects by simply opening an existing search. You can find objects by providing criteria with a simple search, or you can use a multi-step advanced search to execute more sophisticated search operations. Furthermore, you can search for objects with a given property or a given event, and consolidate the results into a uniform format and listing.

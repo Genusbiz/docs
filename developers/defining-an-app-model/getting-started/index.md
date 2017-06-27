@@ -1,3 +1,8 @@
+---
+title: Getting started using Genus App Platform
+description: Getting started using Genus App Platform as a developer
+author: jtroset
+---
 # Getting started
 
 Genus App Platform employs declarative data about your business objects, logic, and user interface. This collection of [metadata](../../../terminology.md) are stored in the directory for your application and maintained in Genus Studio.
