@@ -21,7 +21,7 @@ To view the table definition in a read only mode, press and hold the CTRL+SHIFT 
 
 A basic table presents objects in a standard tabular format, where a column represents a field value for an object, and a row represents an object. The following table illustrates a basic table presenting employee data.
 
-![ID3C264089A1BE49C2.IDC90AF0450EE242F6.png](media/ID3C264089A1BE49C2.IDC90AF0450EE242F6.png)
+![basic-table.png](media/basic-table.png)
 
 
 
@@ -29,4 +29,4 @@ A basic table presents objects in a standard tabular format, where a column repr
 
 A multidimensional table presents objects with a common set of values laid out in a fixed number of rows and columns. The following table illustrates a multidimensional table, where sales quotas are allocated by employee and month.
 
-![ID8331817BBC8D4B13.ID513DA091951B4677.png](media/ID8331817BBC8D4B13.ID513DA091951B4677.png)
+![multidimensional-table.png](media/multidimensional-table.png)
