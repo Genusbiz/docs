@@ -30,12 +30,3 @@ A basic table presents objects in a standard tabular format, where a column repr
 A multidimensional table presents objects with a common set of values laid out in a fixed number of rows and columns. The following table illustrates a multidimensional table, where sales quotas are allocated by employee and month.
 
 ![ID8331817BBC8D4B13.ID513DA091951B4677.png](media/ID8331817BBC8D4B13.ID513DA091951B4677.png)
-
-
-
-## Topics in "Tables"
-* [General Settings](general-settings.md)
-* [Data Sources](data-sources.md)
-* [Layout](layout.md)
-* [Views](views.md)
-* [Events](events.md)
