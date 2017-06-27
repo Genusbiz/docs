@@ -90,7 +90,7 @@ Note that Rules defined in the Object Class which the data source is based on, a
 3\. In the **Fields** list box, click the field of your choice. Hold down CTRL and click, if you want to choose more than one field.  
 4\. Click **Add**, and then **OK**.  
 
-![IDB8254E7A46834ED8.ID2F9F948816AB4386.png](media/IDB8254E7A46834ED8.ID2F9F948816AB4386.png)
+![data-source-auto-delete.png](media/data-source-auto-delete.png)
 
 
 
