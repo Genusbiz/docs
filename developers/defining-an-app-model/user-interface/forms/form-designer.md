@@ -2,7 +2,7 @@
 
 Use the form designer to define a form by adding the data sources to use, one or more views, the events to react to, and any local tasks.
 
-![ID429CE78D0F1548F5.jpg](media/ID429CE78D0F1548F5.jpg)
+![form-designer.jpg](media/form-designer.jpg)
 
 To edit a form in the designer, go to the list of forms in Genus Studio, locate the form, and double click it, or right click and select **Open**.
 
@@ -13,7 +13,7 @@ To view the form definition in a read only mode, press and hold the CTRL+SHIFT k
 
 The form designer window is structured to provide an efficient and consistent work area.
 
-![IDA827BFFACC454C43.jpg](media/IDA827BFFACC454C43.jpg)
+![designer-window-content.jpg](media/designer-window-content.jpg)
 
 *   In the upper left corner, the main parts of the form definition are listed; data sources, views (instances), events, and local tasks. To view or edit one of them, just click on the entry, to display the definition in the center area of the form designer.
 *   The center area displays detailed information for the part of the form definition that is selected in the upper left corner. For views the visual layout is displayed, and for the other parts, the data sources, events or tasks are listed, respectively. In this
@@ -24,37 +24,37 @@ The form designer window is structured to provide an efficient and consistent wo
 
 Add or remove [data sources](../tables/data-sources.md "Data Sources") by right clicking in the data source list. Select a data source in the list to see its properties and fields, or select a field to see its properties.
 
-![IDFB521EF34FCD4BEB.jpg](media/IDFB521EF34FCD4BEB.jpg)
+![form-designer-data-sources.jpg](media/form-designer-data-sources.jpg)
 
 ### Views
 
 To change a [view](views.md "Views"), click on it and edit the layout. To see the properties of the controls in the layout, select the control.
 
-![ID67AC6F2A4E604AD7.jpg](media/ID67AC6F2A4E604AD7.jpg)
+![form-designer-views.jpg](media/form-designer-views.jpg)
 
 ### Events
 
 Add or remove [events](events.md "Events") by right clicking in the event list. Select an event in the list to see its properties.
 
-![ID9F6A440A74E647D6.jpg](media/ID9F6A440A74E647D6.jpg)
+![form-designer-events.jpg](media/form-designer-events.jpg)
 
 ### Tasks
 
 Lists the [tasks](tasks.md "Tasks") that are local to the form. Add or remove tasks by right clicking in the list.
 
-![ID5100057D816F4297.jpg](media/ID5100057D816F4297.jpg)
+![form-designer-tasks.jpg](media/form-designer-tasks.jpg)
 
 ### Task pane
 
 The task pane provides access to data sources, layout controls, etc. depending on the current context. To view the different contents of the task pane, in the task pane header, click the down arrow, and then select the content to view.
 
-![ID02A0B85A528D4D10.jpg](media/ID02A0B85A528D4D10.jpg)
+![form-designer-task-pane-selector.jpg](media/form-designer-task-pane-selector.jpg)
 
 The content of the task pane varies depending on the context, and the current definition of the form, For example;
 
-![ID045D32AC5D154913.jpg](media/ID045D32AC5D154913.jpg) ![IDF9D95D7D008C48B4.jpg](media/IDF9D95D7D008C48B4.jpg)
+![form-designer-task-pane-desktop-controls.jpg](media/form-designer-task-pane-desktop-controls.jpg) ![form-designer-task-pane-data-sources.jpg](media/form-designer-task-pane-data-sources.jpg)
 
 The Control View displays the controls used in the view layout, but in a tree structure. This is useful for complex layouts to more easily access controls and change the layout.
 
-![ID526E12F79691452B.jpg](media/ID526E12F79691452B.jpg)
+![form-designer-task-pane-control-view.jpg](media/form-designer-task-pane-control-view.jpg)
 
