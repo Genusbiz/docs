@@ -12,11 +12,11 @@ Depending of the type of table, the **Layout Grid** is divided into different ar
 
 ### Basic table layout
 
-![IDAB6E7DCF4B9B4890.IDBE14269A1D964B5B.jpg](media/IDAB6E7DCF4B9B4890.IDBE14269A1D964B5B.jpg)
+![basic-table-layout.jpg](media/basic-table-layout.jpg)
 
 ### Multidimensional table layout
 
-![IDAB6E7DCF4B9B4890.ID05B61B20510C470F.jpg](media/IDAB6E7DCF4B9B4890.ID05B61B20510C470F.jpg)
+![multidimensional-table-layout.jpg](media/multidimensional-table-layout.jpg)
 
 
 ## Add a row template
@@ -41,7 +41,7 @@ Data Binding                  | Defines which data source the row template prese
 Draft missing objects         | Applies to tables with a multidimensional layout. When data is read for a data source bound to a row template, the objects are laid out in rows and columns based on the binding between the row and Identifying Data Columns and Repeated Data Columns. If the data is not yet complete, some combinations will not be populated by an object. However, you may want to fill out missing data points with new objects, and evaluate rules and data calculations for these objects. When an object is drafted, all initial rules, data calculations, and data validations are evaluated. The object is considered as a draft until the user enters a value in a cell. Drafted objects are not saved.
 Flatten Nested Data Structure | Represents nested (recursive) data as a data source without a nested structure. If this option is not checked, the data source is presented as a expandable and collapsable hierarchy of objects.<br><br>Note: **Flatten Nested Data Structure** check box is only avaiable, if the selected **Object Class** is defined as Nested Data.
 Format                        | Applies a static format to a row, such as font settings and background color.
-New Row Visible               | If you want to control if users are allowed to add objects by entering data in the new-item row displayed at the top of the table (as opposed to open a Form to enter data), you can make the new row visible or not.<br><br>![ID10E233AAEC404E7A.ID2DE8C4DF993C4AD1.jpg](media/ID10E233AAEC404E7A.ID2DE8C4DF993C4AD1.jpg)<br><br>This setting applies to tables with basic layout, and only one of the top level row templates can have the new row visible at the time.<br><br><ul><li>If the new row is never visible, select **No**.</li><li>If the new row is always visible, click **Yes**.</li><li>If the new row is visible if a specified condition is true, select **Enter a condition**, and then [specify a condition](../../common-concepts/conditions.md)</li></ul>
+New Row Visible               | If you want to control if users are allowed to add objects by entering data in the new-item row displayed at the top of the table (as opposed to open a Form to enter data), you can make the new row visible or not.<br><br>![new-row-visible.jpg](media/new-row-visible.jpg)<br><br>This setting applies to tables with basic layout, and only one of the top level row templates can have the new row visible at the time.<br><br><ul><li>If the new row is never visible, select **No**.</li><li>If the new row is always visible, click **Yes**.</li><li>If the new row is visible if a specified condition is true, select **Enter a condition**, and then [specify a condition](../../common-concepts/conditions.md)</li></ul>
 Read Only                     | If you want to control the users ability to change the contents of rows, you can make the control read-only or not. To control if the rows are read-only, do one of the following:<br><br><ul><li>If the rows are never read only, select **No**.</li><li>If the rows are always read only, select **Yes**.</li><li>If the rows are read only if a specified condition is true, click **Enter a condition**, and then [specify a condition](../../common-concepts/conditions.md).</li></ul>
 Screen Tip                    | Text displayed when the user hovers the mouse over the row. You can either enter a static text, select a field containing the value for the screen tip, or enter a formula to compose a text.
 Visible                       | To set the visibility of all the rows of a row template, do one of the following:<br><br><ul><li>If the rows are alvways visible, select **Yes**.</li><li>If the rows are never visible, click **No**.</li><li>If the rows are visible if a specified condition is true, click **Enter a condition**, and then [specify a condition](../../common-concepts/conditions.md).</li></ul>
@@ -62,11 +62,11 @@ The last three column types, Identifying Data, Repeated Data, and Summary Data, 
 
 ### Example 1:
 
-![IDBBDE4FFBA4414A7A.ID0C51D5A083B84B83.jpg](media/IDBBDE4FFBA4414A7A.ID0C51D5A083B84B83.jpg)
+![add-a-column-example-1.jpg](media/add-a-column-example-1.jpg)
 
 ### Example 2:
 
-![IDBBDE4FFBA4414A7A.ID83DAA7FA36D74406.jpg](media/IDBBDE4FFBA4414A7A.ID83DAA7FA36D74406.jpg)
+![add-a-column-example-2.jpg](media/add-a-column-example-2.jpg)
 
 
 Column Type                 | Description | To Add a Column of this Type
@@ -74,10 +74,10 @@ Column Type                 | Description | To Add a Column of this Type
 Data | A **Data** column contains cells used for editing and presenting data. | Do one of the following:<br><br><ul><li>In the **Task Pane**, click **Add a Column**.</li><li>Drag a field from the **Data Sources** page in the **Task Pane** into the **Columns** area of the **Layout Grid**.</li></ul><br><br>When you drag a field from the **Task Pane** to add a new column, the name, data type and data interpretation for the column is filled out automatically. If the table contains a row template bound to the data source for the field, the cell template is automatically bound to the field.<br><br>To add a data column for selecting one or many values from a domain, click to expand the **Groups** folder in the data source, and then drag a group to the columns area of the layout grid. The group must be an object class which is part of the data source object class, and have a domain property defined. For more information, see [Object Class Composition](../../data/object-class/modify-an-object-or-identifier-domain/general-settings.md).
 Group | A **Group** column can be added above one or more columns to divide the columns into logical groups. | In the **Layout Grid**, select the columns which you want to group, and then in the **Task Pane**, click **Group Columns**. To select more than one column, press the CTRL key, and then click which columns to group.
 Restricted Data | A **Restricted Data** column is used to create a layout which enables users to make a single choice within a limited set of mutually exclusive choices. Each choice is presented in a separate column, and users make a choice by clicking a radio button. In *Example 2* illustrated above, responses in a job satisfaction questionnaire are graded on a scale from *Strongly Agree* to *Strongly Disagre*. To create one column for each choice, a column of type **Restricted Data** has been added to the layout. To determine the number of choices, the column has to be bound to a data source containing all choices. The control type for the cell template located below the column will automatically be set to **Radio Button**. | <ol><li>In the **Task Pane**, click **Add a Column**.</li><li>In the **Properties** area, in the **Type** box, select **Restricted Data**.</li><li>To bind the column to a data source, in the **Data Source** box, select a data source.</li></ol>
-|| To illustrate the last three column types used in a multidimensional table layout; **Identifying Data**, **Repeated Data**, and **Summary Data**, we are going to use the following example:<br><br>![ID52E3912DB62E4E95.png](media/ID52E3912DB62E4E95.png)<br><br>This table presents sales quotas by employee and month. The green area represents **Identifying Data** columns, the blue area represents **Repeated Data** columns, and the read area represents **Summary Data** columns. |  
-Identifying Data | To present a common set of values for all objects on a row, you can add **Identifying Data** columns to the layout. In the example above, the columns labeled *First Name* and *Last Name* are of type **Identifying Data**, and the cell templates located below these columns are bound to the *First Name* and *Last Name* field in the *Employee* data source.<br><br>![ID1101F1AC880743E8.jpg](media/ID1101F1AC880743E8.jpg)<br><br>![IDD7C426CCAE484E90.jpg](media/IDD7C426CCAE484E90.jpg)<br><br>That is, all sales quotas on the first row refers to the employee named *Kim Abercrombie*. | Before you can add an identifying column, you need to bind the row template to the data source containing the common set of values. For more information, see the article [Bind a Row Template to another Row Template, Columns, or Data Fields](layout.md).<br><br>To add an identifying column, drag a field from the identifying data source in the **Data Sources** page in the **Task Pane** into the **Identifying Columns** area in the **Layout Grid**.
-Repeated Data | To present more than one object on a row, you can add a **Repeated Data** column to the layout. In the example above, sales quotas are repeated for a given set of months. To determine the number of months data should be repeated for, the column is bound to a data source containing months:<br><br>![ID93DC94C24DF249CF.jpg](media/ID93DC94C24DF249CF.jpg)<br><br>![IDEE1710B087D34386.jpg](media/IDEE1710B087D34386.jpg)<br><br>Note that when you bind a row template to other data sources repeated as rows and/or columns, the fields used to bind the row template to these data sources must uniquely identify an object. In the example above, it is assumed that no more than one sales quota is registered for any given employee in any given month. | <ol><li>In the **Layout Grid**, select the columns which you want to repeat, and then in the **Task Pane**, click **Repeat Columns**. To select more than one column, press the CTRL key, and then click which columns to repeat.</li><li>To bind the column to a data source, in the **Properties** area, in the **Data Source** box, select a data source.</li></ol><br><br>To establish a relationship between the column and a row template, you need to bind the row template to the column. For more information, see the article [Bind a Row Template to another Row Template, Columns, or Data Fields](layout.md).
-Summary Data | In a multidimensional table containing one or more **Repeated Data** columns, you can add **Summary Data** columns in order to present summarized values, such as total amount for all objects on a row. In the example above, the last column, *Total*, presents the total sales quota for an employee for all months. The total amount is fetched from a data source where data have been read into the data source by aggregating sales quota by employee for all months present in the table. Since summary columns presents data for more than one object, you need to bind cell templates located below a **Summary Data** column to the data source(s) which identifies the objects on a row:<br><br>![IDAAB31B2910D44C12.jpg](media/IDAAB31B2910D44C12.jpg)<br><br>![IDD6BD5CE9FF6448E9.jpg](media/IDD6BD5CE9FF6448E9.jpg)<br><br>![ID635259BFC527432D.jpg](media/ID635259BFC527432D.jpg) | <ol><li>Drag a field from the **Data Sources** page in the **Task Pane** into the **Summary****Columns** area of the **Layout Grid**.</li><li>Make sure the cell is selected.</li><li>In the **Properties** area, in the **Row Binding** box, click ![ID354A38E26B574FFF.jpg](media/ID354A38E26B574FFF.jpg).</li><li>Specify a condition which expresses which object(s) in the summary data source that should be presented on a given row.</li></ol>
+|| To illustrate the last three column types used in a multidimensional table layout; **Identifying Data**, **Repeated Data**, and **Summary Data**, we are going to use the following example:<br><br>![multidimensional-table-column-types.png](media/multidimensional-table-column-types.png)<br><br>This table presents sales quotas by employee and month. The green area represents **Identifying Data** columns, the blue area represents **Repeated Data** columns, and the read area represents **Summary Data** columns. |  
+Identifying Data | To present a common set of values for all objects on a row, you can add **Identifying Data** columns to the layout. In the example above, the columns labeled *First Name* and *Last Name* are of type **Identifying Data**, and the cell templates located below these columns are bound to the *First Name* and *Last Name* field in the *Employee* data source.<br><br>![multidimensional-table-identififying-data.jpg](media/multidimensional-table-identififying-data.jpg)<br><br>![multidimensional-table-identififying-data-binding.jpg](media/multidimensional-table-identififying-data-binding.jpg)<br><br>That is, all sales quotas on the first row refers to the employee named *Kim Abercrombie*. | Before you can add an identifying column, you need to bind the row template to the data source containing the common set of values. For more information, see the article [Bind a Row Template to another Row Template, Columns, or Data Fields](layout.md).<br><br>To add an identifying column, drag a field from the identifying data source in the **Data Sources** page in the **Task Pane** into the **Identifying Columns** area in the **Layout Grid**.
+Repeated Data | To present more than one object on a row, you can add a **Repeated Data** column to the layout. In the example above, sales quotas are repeated for a given set of months. To determine the number of months data should be repeated for, the column is bound to a data source containing months:<br><br>![multidimensional-table-repeated-data.jpg](media/multidimensional-table-repeated-data.jpg)<br><br>![multidimensional-table-repeated-data-binding.jpg](media/multidimensional-table-repeated-data-binding.jpg)<br><br>Note that when you bind a row template to other data sources repeated as rows and/or columns, the fields used to bind the row template to these data sources must uniquely identify an object. In the example above, it is assumed that no more than one sales quota is registered for any given employee in any given month. | <ol><li>In the **Layout Grid**, select the columns which you want to repeat, and then in the **Task Pane**, click **Repeat Columns**. To select more than one column, press the CTRL key, and then click which columns to repeat.</li><li>To bind the column to a data source, in the **Properties** area, in the **Data Source** box, select a data source.</li></ol><br><br>To establish a relationship between the column and a row template, you need to bind the row template to the column. For more information, see the article [Bind a Row Template to another Row Template, Columns, or Data Fields](layout.md).
+Summary Data | In a multidimensional table containing one or more **Repeated Data** columns, you can add **Summary Data** columns in order to present summarized values, such as total amount for all objects on a row. In the example above, the last column, *Total*, presents the total sales quota for an employee for all months. The total amount is fetched from a data source where data have been read into the data source by aggregating sales quota by employee for all months present in the table. Since summary columns presents data for more than one object, you need to bind cell templates located below a **Summary Data** column to the data source(s) which identifies the objects on a row:<br><br>![multidimensional-table-summary-data.jpg](media/multidimensional-table-summary-data.jpg)<br><br>![multidimensional-table-summary-data-binding.jpg](media/multidimensional-table-summary-data-binding.jpg)<br><br>![multidimensional-table-summary-data-condition.jpg](media/multidimensional-table-summary-data-condition.jpg) | <ol><li>Drag a field from the **Data Sources** page in the **Task Pane** into the **Summary****Columns** area of the **Layout Grid**.</li><li>Make sure the cell is selected.</li><li>In the **Properties** area, in the **Row Binding** box, click ![multidimensional-table-summary-data-property-button.jpg](media/multidimensional-table-summary-data-property-button.jpg).</li><li>Specify a condition which expresses which object(s) in the summary data source that should be presented on a given row.</li></ol>
 
 ### Column properties
 
@@ -145,13 +145,13 @@ Tab Stop                      | Specifies if the cell is included in the tab seq
 
 In the table illustrated below, products are filtered by a data field bound to a data source containing product subcategories:
 
-![ID0D9A041605FE4B9D.ID8E55324566114885.jpg](media/ID0D9A041605FE4B9D.ID8E55324566114885.jpg)
+![data-field-example.jpg](media/data-field-example.jpg)
 
 To filter products on the selected subcategory, a data binding has been established between the row template bound to product, and the data field bound to product subcategory:
 
-![ID22619BD87B2B4686.jpg](media/ID22619BD87B2B4686.jpg)
+![data-field-binding.jpg](media/data-field-binding.jpg)
 
-![ID0609441FD8374390.jpg](media/ID0609441FD8374390.jpg)
+![data-field-binding-setup.jpg](media/data-field-binding-setup.jpg)
 
 To add a data field, do one of the following:
 
@@ -191,13 +191,13 @@ If you only want to filter data on the active object in the data field, you do n
 
 In the table illustrated below, products are filtered by a data filed bound to a data source containing product subcategories:
 
-![ID69ECF54D365C4BF3.ID672112DB988D48B7.jpg](media/ID69ECF54D365C4BF3.ID672112DB988D48B7.jpg)
+![data-field-example.jpg](media/data-field-example.jpg)
 
 To filter products on the selected subcategory, a data binding has been established between the row template bound to product, and the data field bound to product subcategory:
 
-![ID0DDFEED652F44D1A.jpg](media/ID0DDFEED652F44D1A.jpg)
+![data-field-binding.jpg](media/data-field-binding.jpg)
 
-![ID49F95CFBE56A4FDB.jpg](media/ID49F95CFBE56A4FDB.jpg)
+![data-field-binding-setup.jpg](media/data-field-binding-setup.jpg)
 
 When binding a row template for a data source with a nested data definition, the binding can be applied to objects on *all levels*, or to *top level objects only*. This is a useful setting to avoid having to denormalize the bound field to all levels of the nested data.
 
@@ -207,13 +207,13 @@ Data binding between row templates enables you to design a table where objects a
 
 In the table illustrated below, products are grouped by product category, and product subcategory:
 
-![ID69ECF54D365C4BF3.IDB2B9A46E405F4256.jpg](media/ID69ECF54D365C4BF3.IDB2B9A46E405F4256.jpg)
+![multidimensional-table-row-template-example.jpg](media/multidimensional-table-row-template-example.jpg)
 
 The table contains three data sources: *Product Category*, *Product Subcategory*, and *Product*. Each data source is bound to a row template:
 
-![ID803F2D93A3F94298.jpg](media/ID803F2D93A3F94298.jpg) ![ID2F73A63DF16E4A3E.jpg](media/ID2F73A63DF16E4A3E.jpg)
+![multidimensional-table-select-sub-row.jpg](media/multidimensional-table-select-sub-row.jpg) ![data-field-binding.jpg](media/data-field-binding.jpg)
 
-![IDAB7562E5C68C492E.jpg](media/IDAB7562E5C68C492E.jpg)
+![multidimensional-table-select-sub-row-binding.jpg](media/multidimensional-table-select-sub-row-binding.jpg)
 
 The row template for *Product Subcategory* is bound to the *Product Category* data source by the *Product Subcategory.Product Category* field. In the same way, the row template for *Product* is bound to the *Product Subcategory* data source by the *Product.Subcategory* field.
 
@@ -225,15 +225,15 @@ Column binding enables you to design a multidimensional table where objects with
 
 In the multidimensional table illustrated below, sales quotas are presented by employee and month:
 
-![ID69ECF54D365C4BF3.ID5850B720B59A460F.jpg](media/ID69ECF54D365C4BF3.ID5850B720B59A460F.jpg)
+![multidimensional-bind-row-template-to-column.jpg](media/multidimensional-bind-row-template-to-column.jpg)
 
 The green area represents **Identifying Data** columns, and the blue area represents **Repeated Data** columns. The table contains one row template bound to the *Sales Quota* data source. In the row template setup for *Sales Quota*, the row template is bound to the *Employee* data source and the *Month* data source:
 
-![IDEE8DC55A5DA34701.jpg](media/IDEE8DC55A5DA34701.jpg)
+![multidimensional-table-select-row.jpg](media/multidimensional-table-select-row.jpg)
 
-![IDD22B5622BC4F465C.jpg](media/IDD22B5622BC4F465C.jpg)
+![data-field-binding.jpg](media/data-field-binding.jpg)
 
-![ID03828716389647A6.jpg](media/ID03828716389647A6.jpg)
+![row-bindings.jpg](media/row-bindings.jpg)
 
 When you bind a row template to a data source which not is bound to a **Repeated Data** column, the type of the binding can either be **Repeated Data Cell**, or **Identifying Data Cell**. In the example above, the binding to the *Employee* data source is of type **Repeated Data Cell**. That is, one row is displayed for each employee. If you do not want to create rows for all possible combinations, you can change the type to **Identifying Data Cell**. When data is read, rows are created for existing data points, and users has to add rows for new combinations. For example, in a table used for entering budget figures for a large amount of accounts, you might want users to select an account from a drop-down list box before entering budget figures.
 
