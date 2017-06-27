@@ -7,7 +7,7 @@ See www.genus.no for more general information about our products and our company
 
 ## Guidelines
 * Keep the articles short and to the point. But not too small - i.e. if you are describing a topic containing five concepts, each with 1-2 sections, it is probably better to collect these in one article to avoid unnecessary clicking and increase readability.
-* It is better to start out small and then iterate and evolve more content later.
+* It is nevertheless better to start out small and then iterate and evolve more content later.
 * Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished, like the example below - and then return to finish it as soon as possible. And yes, write it in _italics_ (copy and paste the text below).
 ```
 _The contents of this article is under construction. We are sorry for the inconvenience._
@@ -17,9 +17,10 @@ _The contents of this article is under construction. We are sorry for the inconv
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
 * Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like Genus App Platform, Genus Studio, Genus Apps, Genus Desktop, and Genus App Services - and of course other common, proper nouns like Windows, Wikipedia etc. Words like "app model", "navigation pane", "view button", "table", "data source" etc. are to be written in lowercase. The exception is when such words could be hard to read, like as a part of a sentence. In such cases we recommend stating the first occurrence of the term in **bold** (and in [title case](https://en.wikipedia.org/wiki/Letter_case#Title_case) - have a look [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for an example).
 * Use **bold** when refering to user interface elements.
-* Use hyphens (-) in article file and folder names, since the markdown previewers do not like spaces in article cross references.
+* Use hyphens (-) in article file and folder names, since markdown previewers do not like spaces in article cross references.
 * The main article in each folder is to be named index.md. In this way, everyone refering to the subject contained in all the articles in this folder, may simply refer to this index.md article.
 * Article main headers should be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-an-app-model/general-settings/data-sets.md).
+* Search Engine Optimalization (SEO): Each article should have metadata to improve visibility for web search engines. Read more here (reference to be added).
 
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:
