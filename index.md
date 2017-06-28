@@ -13,7 +13,7 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 * [Security](developers/defining-an-app-model/security/index.md)
 * [Guidelines and best practices](developers/guidelines-and-best-practices/index.md)
 * [How to](developers/how-to/index.md)
-* [Release notes](https://www.genus.no/?PageKey=3afcf63a-acd1-4f47-9eb7-e6a68e7eafd8)
+* [Release notes](developers/release-notes/index.md)
 
 ## Users
 * [Overview](users/overview/index.md)
