@@ -7,7 +7,7 @@ author: <your GitHub user alias, with correct capitalization.>
 # Template article
 _A short paragraph describing the content of the article._
 _Remember to update the [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md)._
-_Remember to update the __toc.yml__ in __developers/__ or _users/_._
+_Remember to update the __toc.yml__ in __developers/__ or __users/__._
 
 
 ## Sub-header
