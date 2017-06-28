@@ -1,28 +1,28 @@
 ---
 title: Genus Docs example article
-description: An example article demonstrationg the most common DocFX flavoured markdown used in Genus Docs for Genus App Platform
+description: An example article demonstrating the most common DocFX flavoured Markdown used in Genus Docs for Genus App Platform
 author: eriksandnes
 ---
 ````md
 ---
 title: Genus Docs example article
-description: Example article containing the most common DocFX flavoured markdown used in Genus Docs
+description: Example article containing the most common DocFX flavoured Markdown used in Genus Docs
 author: eriksandnes
 ---
 
 # Example article
-All articles should start with a meta data sesction for search engine optimization, see the article [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md).
+All articles should start with a meta data section for search engine optimization, see the article [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md).
 
-The first heading in an article shoulb an H1 heading. An article will typically start with a short paragraph describing the content of the article.
+The first heading in an article should be an H1 heading. An article will typically start with a short paragraph describing the content of the article.
 
 Remember to update the _toc.yml_ in _developers/_ or _users/_
 
 
 ## Usage of headers in an article
-Subsequent headers are defined by using two or more hash characters in the heading. These headers will define bookmarks in the _In this arictle_ section in the upper right corner.
+Subsequent headers are defined by using two or more hash characters in the heading. These headers will define bookmarks in the _In this article_ section in the upper right corner.
 
 ## Links
-Here is a link the [Genus AS](http://www.genus.no) website, a link to the [lists](#lists) section within this article and a link to the section [ways to contribute](readme.md#ways-to-contribute) in the [readme](readme.md) article.
+Here is a link to the [Genus AS](http://www.genus.no) web site, a link to the [lists](#lists) section within this article and a link to the section [ways to contribute](readme.md#ways-to-contribute) in the [readme](readme.md) article.
 
 
 ## Simple text formatting
@@ -56,7 +56,7 @@ Contect 1   | Content 2
 
     Ident by four space to create a code block.
 
-    A code block can space over multiple parahgraphs.
+    A code block can space over multiple paragraphs.
 
 It is also possible to use three backthicks to start and end code blocks. These can also be syntax highlighted using a syntax format tag, such as _xml_ after the three starting backthicks.
 
@@ -77,9 +77,9 @@ for i in range(10):
 ````
 
 # Example article
-All articles should start with a meta data sesction for search engine optimization, see the article [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md).
+All articles should start with a meta data section for search engine optimization, see the article [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md).
 
-The first heading in an article shoulb an H1 heading. An article will typically start with a short paragraph describing the content of the article.
+The first heading in an article should be an H1 heading. An article will typically start with a short paragraph describing the content of the article.
 
 Remember to update the _toc.yml_ in _developers/_ or _users/_
 
@@ -88,7 +88,7 @@ Remember to update the _toc.yml_ in _developers/_ or _users/_
 Subsequent headers are defined by using two or more hash characters in the heading. These headers will define bookmarks in the _In this arictle_ section in the upper right corner.
 
 ## Links
-Here is a link the [Genus AS](http://www.genus.no) website, a link to the [lists](#lists) section within this article and a link to the section [ways to contribute](readme.md#ways-to-contribute) in the [readme](readme.md) article.
+Here is a link to the [Genus AS](http://www.genus.no) web site, a link to the [lists](#lists) section within this article and a link to the section [ways to contribute](readme.md#ways-to-contribute) in the [readme](readme.md) article.
 
 
 ## Simple text formatting
@@ -122,7 +122,7 @@ Contect 1   | Content 2
 
     Ident by four space to create a code block.
 
-    A code block can space over multiple parahgraphs.
+    A code block can space over multiple paragraphs.
 
 It is also possible to use three backthicks to start and end code blocks. These can also be syntax highlighted using a syntax format tag, such as _xml_ after the three starting backthicks.
 
