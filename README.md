@@ -21,6 +21,7 @@ _The contents of this article is under construction. We are sorry for the inconv
 * The main article in each folder is to be named index.md. In this way, everyone refering to the subject contained in all the articles in this folder, may simply refer to this index.md article.
 * Article main headers should be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-an-app-model/general-settings/data-sets.md).
 * Search Engine Optimalization (SEO): Each article should have metadata to improve visibility for web search engines. Read more [here](metadata-for-search-engine-optimization.md).
+* A template article is available containing the SEO-section and the first headings. Copy the content of the file to the new article and start editing. The template article is located in the root folder [here](template-article.md).
 
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:

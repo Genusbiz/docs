@@ -1,10 +1,21 @@
-```
-_The contents of this article is under construction. We are sorry for the inconvenience._
-```
-
+---
+title: Genus Docs example article
+description: An example article demonstrationg the most common DocFX flavoured markdown used in Genus Docs for Genus App Platform
+author: eriksandnes
+---
 ````md
+---
+title: Genus Docs example article
+description: Example article containing the most common DocFX flavoured markdown used in Genus Docs
+author: eriksandnes
+---
+
 # Example article
-All articles should start with an H1 heading. An article will typically start with a short paragraph defining the content of the article
+All articles should start with a meta data sesction for search engine optimization, see the article [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md).
+
+The first heading in an article shoulb an H1 heading. An article will typically start with a short paragraph describing the content of the article.
+
+Remember to update the _toc.yml_ in _developers/_ or _users/_
 
 
 ## Usage of headers in an article
@@ -66,7 +77,11 @@ for i in range(10):
 ````
 
 # Example article
-All articles should start with an H1 heading. An article will typically start with a short paragraph defining the content of the article
+All articles should start with a meta data sesction for search engine optimization, see the article [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md).
+
+The first heading in an article shoulb an H1 heading. An article will typically start with a short paragraph describing the content of the article.
+
+Remember to update the _toc.yml_ in _developers/_ or _users/_
 
 
 ## Usage of headers in an article
