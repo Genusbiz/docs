@@ -9,7 +9,7 @@ author: henrikmj
 To consume a REST Service, do the following:
 
 1. Enter the address of the REST service to be consumed and the method that will be used. If required by the REST service, you may also specify credentials.
-2. If required by the REST service, enter custom HTTP headers using the syntax defined for [Header Field Definitions]http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html.
+2. If required by the REST service, enter custom HTTP headers using the syntax defined for [Header Field Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html).
 3. For methods that supports a body in the request, define a body based on either a composed text, output from a data source or as a multipart body based on multiple fields. The GET and DELETE methods do not support sending a body in the request.
 4. If the call to the REST service succeeds, the results may be handled conditionally by a Response Handler based on the HTTP result code returned from the method call. The Response Handler defines how the returned data should be stored back into a data source.
 		
