@@ -16,12 +16,13 @@ _The contents of this article is under construction. We are sorry for the inconv
 * Use images sparingly, as these are hard to maintain over time. Put any images in the media subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information. Use more images for _Users_ than _Developers_.
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
 * Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like Genus App Platform, Genus Studio, Genus Apps, Genus Desktop, and Genus App Services - and of course other common, proper nouns like Windows, Wikipedia etc. Words like "app model", "navigation pane", "view button", "table", "data source" etc. are to be written in lowercase. The exception is when such words could be hard to read. In such cases we recommend stating the first occurrence of the term in **bold** (and in [title case](https://en.wikipedia.org/wiki/Letter_case#Title_case) - have a look [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for an example).
-* Always use **bold** when refering to user interface elements.
-* Use hyphens (-) in article file and folder names, since markdown previewers do not like spaces in article cross references.
+* Always use **bold** when refering to user interface elements - have a look [here](developers/defining-an-app-model/user-interface/navigation-pane.md) for an example.
+* Use hyphens (-) in article file and folder names instead of spaces, since markdown previewers do not like spaces in article cross references.
 * The main article in each folder is to be named index.md. In this way, everyone refering to the subject contained in all the articles in this folder, may simply refer to this index.md article.
 * Article main headers should be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-an-app-model/general-settings/data-sets.md).
-* Search Engine Optimalization (SEO): Each article should have metadata to improve visibility for web search engines. Read more [here](metadata-for-search-engine-optimization.md).
+* Each article should have metadata to improve visibility for web search engines (Search Engine Optimalization - SEO). Read more [here](metadata-for-search-engine-optimization.md).
 * A template article is available containing the SEO-section and the first headings. Copy the content of the file to the new article and start editing. The template article is located in the root folder [here](template-article.md).
+* If your article describes functionality available only in specific releases of Genus App Platform, specify this inside the article. Example [here](developers/installation-and-configuration/system-requirements.md).
 
 ## Transition period guidelines
 We are currently in a transition period from our old documentation structure. Most of the old documentation has been converted automatically, but a couple of things remain. We appreciate your assistance with the following:
