@@ -80,9 +80,11 @@ employee.firstName + ", " + employee.surname
 
 For more information see [Advanced expressions](developers/defining-an-app-model/common-concepts/advanced-expressions.md).
 
-## Genus Desktop
+## Genus App Platform
 
-Genus App Platform's client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
+Genus App Platform is a high-productivity or rapid application development technology, which can be used to create or change enterprise software applications. The platform targets medium to large size enterprises, and professional and semi-professional developers.
+
+Genus App Platform consists of all software and products provided by Genus, whether provided for installation physically at your device, at your company's location, through third party service providers or through a cloud infrastructure. This includes Genus Apps, Genus Desktop, Genus App Services, Genus Studio, documentation, a support portal, and more.
 
 ## Genus Apps
 
@@ -93,6 +95,10 @@ Genus App Platform's client (runtime/executable) for mobile devices, like iPhone
 Genus App Platform's set of services offered to Genus Desktop, Genus Apps, other Genus App Services, or third party service consumers. Genus App Services run on a set of one or more Microsoft Windows Servers. Such servers are often called application servers.
 
 Genus App Services were previously called Genus Server, but to better differentiate between _services_ and _servers_, the name was changed.
+
+## Genus Desktop
+
+Genus App Platform's client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
 
 ## Genus Studio
 
