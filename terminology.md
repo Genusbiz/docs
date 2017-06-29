@@ -20,11 +20,15 @@ The advanced expressions are strongly typed, specifying restrictions on how oper
 
 For a complete description of the data types and members, see [here](developers/defining-an-app-model/common-concepts/advanced-expressions.md).
 
+## App or Application
+
+An app is an abbreviated form of the word application. An app or application is a computer program designed to perform a set of functions to the benefit of users, either directly or indirectly. The abbreviated form "app" was previously used primarily about specialized computer programs downloaded on mobile devices, where as "application" was used about computer programs on desktop and server computers. However, with the advent of cross platform computer programs, the word app is generally preferred and considered the more modern term.
+
+Apps installed on devices are usually named **Installed Apps** or **Mobile Apps**, as opposed to **Web Apps** or **Mobile Web**, which are apps simply opened within your web browser by clicking a web linke or specifying an url.
+
 ## App model
 
-First, an app is an abbreviated form of the word application. An app or application is a computer program designed to perform a set of functions to the benefit of users, either directly or indirectly. The abbreviated form "app" was previously used primarily about specialized computer programs downloaded on mobile devices, where as "application" was used about computer programs on desktop and server computers. However, with the advent of cross platform computer programs, the word app is generally preferred and considered the more modern term.
-
-Second, an app model is a formalized description of a software app's user interface, logic and data, expressed using the Genus App Platform. App model is short for application model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in the [Directory](#directory) and maintained by using [Genus Studio](#genus-studio).
+An app model is a formalized description of a software app's user interface, logic and data, expressed using the Genus App Platform. App model is short for application model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in the [Directory](#directory) and maintained by using [Genus Studio](#genus-studio).
 
 Note that our use of the term "model" does not imply that a model is some form of simplification. To us a model is distilled knowledge and a way of structuring a domain.
 
