@@ -9,7 +9,7 @@ Genus App Platform may be distributed in one of the following release stages:
 *   **Pre-alpha.** This version is not feature complete, and typically used by the developers prior to software testing. The activities performed on such a version can include requirements analysis, software design, software development and unit testing. The version is not distributed outside the development environment, but described here for the reason of completeness.
 *   **Alpha.** The version delivered to the software testers, i.e. persons different from the software developers. The version is not normally distributed outside the development and test environments.
 *   **Beta.** The first version released to outside testers or for evaluation purposes. The version generally includes all features, but may also include known issues and bugs of less serious variety. The software is not yet ready for release, and new source code will be added to this version.
-*   **Release candidate.** This version has the potential to be the final product upgrade. No new source code will be added to this version, but it may be bug-fixed (patched).
+*   **Release Candidate.** This version has the potential to be the final product upgrade. No new source code will be added to this version, but it may be bug-fixed (patched).
 *   **Release.** The final version of the upgrade with a quality suitable for wide distribution and use by developers and end-users.
 
 A release with a change in either of the major or minor parts of the version number, constitutes a **Major Release**.
