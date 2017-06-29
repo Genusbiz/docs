@@ -1,5 +1,5 @@
 # Genus App Platform&reg; documentation contributor guide
-This is the publically available documentation for the Genus App Platform published at [docs.genus.no](https://docs.genus.no).
+This is the publicly available documentation for the Genus App Platform published at [docs.genus.no](https://docs.genus.no).
 
 Feel free to contribute! See [Ways to contribute](#ways-to-contribute) on how to do it.
 
@@ -15,8 +15,8 @@ _The contents of this article is under construction. We are sorry for the inconv
 * If you are trying to improve upon an article, but find it hard to describe the functionality, it may be Genus App Platform that needs improvement. Please let us know through your support channel!
 * Use images sparingly, as these are hard to maintain over time. Put any images in the media subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information. Use more images for _Users_ than _Developers_.
 * If you are unsure of the article content, spelling, or otherwise, submit a pull request and our editors will help you out.
-* Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like Genus App Platform, Genus Studio, Genus Apps, Genus Desktop, and Genus App Services - and of course other common, proper nouns like Windows, Wikipedia etc. Words like "app model", "navigation pane", "view button", "table", "data source" etc. are to be written in lowercase. The exception is when such words could be hard to read, like as a part of a sentence. In such cases we recommend stating the first occurrence of the term in **bold** (and in [title case](https://en.wikipedia.org/wiki/Letter_case#Title_case) - have a look [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for an example).
-* Use **bold** when refering to user interface elements.
+* Use [sentence case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) almost everywhere, also in article main headings. The exception is proper nouns like Genus App Platform, Genus Studio, Genus Apps, Genus Desktop, and Genus App Services - and of course other common, proper nouns like Windows, Wikipedia etc. Words like "app model", "navigation pane", "view button", "table", "data source" etc. are to be written in lowercase. The exception is when such words could be hard to read. In such cases we recommend stating the first occurrence of the term in **bold** (and in [title case](https://en.wikipedia.org/wiki/Letter_case#Title_case) - have a look [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for an example).
+* Always use **bold** when refering to user interface elements.
 * Use hyphens (-) in article file and folder names, since markdown previewers do not like spaces in article cross references.
 * The main article in each folder is to be named index.md. In this way, everyone refering to the subject contained in all the articles in this folder, may simply refer to this index.md article.
 * Article main headers should be [H1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers) (`# H1`), subheadings H2 (`## H2`) etc. Example [here](developers/defining-an-app-model/general-settings/data-sets.md).
