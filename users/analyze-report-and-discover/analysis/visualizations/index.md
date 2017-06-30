@@ -20,3 +20,4 @@ These are the *Visualizations* available in an *Analysis*
 * [Pie Chart](pie-chart.md)
 * [Doughnut Chart](doughnut-chart.md)
 * [Deviation Table](deviation-table.md)
+* [Ticker] (ticker.md)
