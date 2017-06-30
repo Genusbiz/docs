@@ -19,3 +19,4 @@ These are the *Visualizations* available in an *Analysis*
 * [Combination Chart](combination-chart.md)
 * [Pie Chart](pie-chart.md)
 * [Doughnut Chart](doughnut-chart.md)
+* [Deviation Table](deviation-table.md)
