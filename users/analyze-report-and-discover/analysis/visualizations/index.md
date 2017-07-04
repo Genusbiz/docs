@@ -18,6 +18,7 @@ These are the *Visualizations* available in an *Analysis*
 * [Stacked Area Chart](normal-stacked-area-chart.md)
 * [Stacked Bar Chart](normal-stacked-bar-chart.md)
 * [Stacked Column Chart](normal-stacked-column-chart.md)
+* [Symbolic Distribution](symbolic-distribution.md)
 * [Text](markdown.md)
-* [Ticker] (ticker.md)
+* [Ticker](ticker.md)
 * [Value Chips](value-chips.md)
