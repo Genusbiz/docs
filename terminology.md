@@ -2,6 +2,8 @@
 
 Below you will find explanations of selected concepts important for the understanding of Genus App Platform.
 
+_Note: This article is referred to from Genus standard contract documents by its url. Any changes to the location of this article must be coordinated with VP Business Development. Normal guidelines apply to any changes to the contents of the article._
+
 ## Account session
 
 Each time an account signs in, an entry is logged in the account session history. The log entry contains information such as sign in date, computer name, and IP-address.
@@ -113,3 +115,7 @@ There are hierarchies or levels of data and metadata. However, any particular it
 ## Major release
 
 A major release is a distribution of an upgraded version of Genus App Platform, with changes in either of the major or minor parts of the version number. See [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for more information.
+
+## Release stage
+
+Genus App Platform goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade. These stages are called release stages. See [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for more information.
