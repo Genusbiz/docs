@@ -8,7 +8,7 @@ Learn how to use Genus App Platform to quickly create, deploy and change customi
 
 ## Developers
 * [Overview](developers/overview/index.md)
-* [Defining an App Model](developers/defining-an-app-model/index.md)
+* [Defining an app model](developers/defining-an-app-model/index.md)
 * [Installation and configuration](developers/installation-and-configuration/index.md)
 * [Security](developers/defining-an-app-model/security/index.md)
 * [Guidelines and best practices](developers/guidelines-and-best-practices/index.md)
