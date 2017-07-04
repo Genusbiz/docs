@@ -46,6 +46,10 @@ Code domains describe a finite set of named code values used to classify domain 
 
 See [Create or modify a code domain](developers/defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md) for more information.
 
+## Customer app or customer solution
+
+A customer app or customer solution is a computer program (software) based on Genus App Platform. Customer apps are defined in an customer specific app model. The word "app" and "application" are used synonymously.
+
 ## Data provider
 
 A data provider is a software component enabling access to data from a data source, typically a database.
@@ -94,17 +98,25 @@ Genus App Platform's client (runtime/executable) for mobile devices, like iPhone
 
 ## Genus App Services
 
-Genus App Platform's set of services offered to Genus Desktop, Genus Apps, other Genus App Services, or third party service consumers. Genus App Services run on a set of one or more Microsoft Windows Servers. Such servers are often called application servers.
+Genus App Platform's set of software components offering services to Genus Desktop, Genus Apps, other Genus App Services, or third party service consumers.
 
-Genus App Services were previously called Genus Server, but to better differentiate between _services_ and _servers_, the name was changed.
+Genus App Services run on a set of one or more Microsoft Windows Servers. See also [Genus Server](#genus-server).
 
 ## Genus Desktop
 
 Genus App Platform's client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
 
+## Genus Server
+
+Genus Server is almost synonymous with [Genus App Services](#genus-app-services).
+
+Use Genus Server when you talk about Genus App Services as a set of services running inside a Microsoft Windows Server, simply because it is easier to talk about a _Genus Server_ than a _Genus App Services Server_.
+
+Use Genus App Services when you talk about the services independently of one or more Microsoft Windows Servers.
+
 ## Genus Studio
 
-Genus App Platform's client for defining and maintaining [app models](#app-model).
+Genus App Platform's client for defining and maintaining an [app model](#app-model).
 
 ## Metadata
 
@@ -112,10 +124,14 @@ Any item of data is a description of something. Metadata is a type of data where
 
 There are hierarchies or levels of data and metadata. However, any particular item of data may be on different levels of a hierarchy depending on the context. Considering the phone number to Genus AS, _"004767832000"_ would be data and _"Phone Number"_ would be metadata. But, when considering a computer system that manages phone data, _"Phone Number"_ might be data, and then _"data item name"_ and _"12 numbers, starting with 00 followed by a two-digit country code"_ would be metadata.
 
-## Major release
+## Release and release stages
 
-A major release is a distribution of an upgraded version of Genus App Platform, with changes in either of the major or minor parts of the version number. See [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for more information.
+A distribution of an upgraded version of Genus App Platform is called a release, and comes in basically two flavours:
 
-## Release stage
+* A **Major Release** is an upgraded version with changes in either of the major or minor parts of the version number.
 
-Genus App Platform goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade. These stages are called release stages. See [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for more information.
+* A **Minor Release** is an upgraded version with no change in either major or minor parts of the version number (but with a change in the revision or build parts). A minor release may  also be called a **Release Update** or **Release Patch** or simply a **Patch**.
+
+Genus App Platform goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade. These stages are called **Release Stages**.
+
+See [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for more information.

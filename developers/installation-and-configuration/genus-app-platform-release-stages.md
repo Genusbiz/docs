@@ -14,7 +14,7 @@ Genus App Platform may be distributed in one of the following release stages:
 
 A release with a change in either of the major or minor parts of the version number, constitutes a **Major Release**.
 
-A release with no change in either major or minor parts of the version number, is called a **Release Update** or **Release Patch** or simply a **Patch**.
+A release with no change in either major or minor parts of the version number (but with a change in the revision or build parts), is called a **Minor Release**, **Release Update** or **Release Patch** or simply a **Patch**.
 
 The **Release Date** is the date of the initial shipping of a release.
 
