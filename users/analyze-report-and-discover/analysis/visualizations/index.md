@@ -4,6 +4,7 @@ These are the *Visualizations* available in an *Analysis*
 
 * [Area chart](area-chart.md)
 * [Bar chart](bar-chart.md)
+* [Circle packing](circle-packing.md)
 * [Column chart](column-chart.md)
 * [Combination chart](combination-chart.md)
 * [Deviation table](deviation-table.md)
