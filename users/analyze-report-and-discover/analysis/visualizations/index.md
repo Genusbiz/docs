@@ -12,6 +12,7 @@ These are the *Visualizations* available in an *Analysis*
 * [Full stacked area chart](percentage-stacked-area-chart.md)
 * [Full stacked bar chart](percentage-stacked-bar-chart.md)
 * [Full stacked column chart](percentage-stacked-column-chart.md)
+* [Heatmap](heatmap.md)
 * [Line chart](line-chart.md)
 * [Measure](measure.md)
 * [Measure list](measure-list.md)
