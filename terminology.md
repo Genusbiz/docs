@@ -110,7 +110,7 @@ Genus App Platform's client (runtime/executable) for desktop devices, like Windo
 
 Genus Server is almost synonymous with [Genus App Services](#genus-app-services).
 
-Use Genus Server when you talk about Genus App Services as a set of services running inside a Microsoft Windows Server, simply because it is easier to talk about a _Genus Server_ than a _Genus App Services Server_.
+Use Genus Server when you talk about Genus App Services as a set of one or more services running inside a Microsoft Windows Server, simply because it is easier to talk about a _Genus Server_ than a _Genus App Services Server_. This implies that you may use the term Genus Server for a server hosting only one service (like the _Genus Apps for Web_ service).
 
 Use Genus App Services when you talk about the services independently of one or more Microsoft Windows Servers.
 
