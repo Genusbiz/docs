@@ -28,3 +28,5 @@ These are the *Visualizations* available in an *Analysis*
 * [Transposed grid](transposed-grid.md)
 * [Two dimensional grid](two-dimensional-grid.md)
 * [Value chips](value-chips.md)
+* [Single Category Field](single-category-field.md)
+* [Dropdown](multi-category-dropdown.md)
