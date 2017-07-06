@@ -116,7 +116,7 @@ Use Genus App Services when you talk about the services independently of one or 
 
 ## Genus Studio
 
-Genus App Platform's client for defining and maintaining an [app model](#app-model).
+Genus App Platform's client for defining and maintaining an [app model](#app-model). Genus Studio is included in the Genus Desktop installation.
 
 ## Metadata
 
