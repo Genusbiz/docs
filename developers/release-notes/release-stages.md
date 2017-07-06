@@ -1,4 +1,10 @@
-# Genus App Platform release stages
+---
+title: Genus App Platform release stages
+description: The various stages Genus App Platform goes through for releasing new or changed functionality.
+author: jtroset
+---
+
+# Release stages
 
 A software release is a distribution of an upgraded version of a software product.
 

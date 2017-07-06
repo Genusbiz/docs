@@ -9,7 +9,7 @@ A Genus app includes an application client installation, an application server i
 
 **Topics in "Installation and Configuration"**
 * [System Requirements](system-requirements.md)
-* [Genus App Platform Release Stages](genus-app-platform-release-stages.md)
+* [Genus App Platform Release Stages](../release-notes/release-stages.md)
 * [Install Genus Desktop Client on Your Computer](install-genus-desktop-client-on-your-computer.md)
 * [Install Genus Desktop Clients Silently for Your Users](install-genus-desktop-clients-silently-for-your-users.md)
 * [Genus Desktop Client - Installer Details](genus-desktop-client--installer-details.md)

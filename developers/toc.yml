@@ -442,8 +442,6 @@
   items:
   - name: System requirements
     href: installation-and-configuration/system-requirements.md
-  - name: Genus App Platform release stages
-    href: installation-and-configuration/genus-app-platform-release-stages.md
   - name: Install Genus Desktop on your computer
     href: installation-and-configuration/install-genus-desktop-client-on-your-computer.md
   - name: Install Genus Desktop silently for your users
@@ -569,5 +567,7 @@
 - name: Release notes
   href: release-notes/index.md
   items:
+  - name: Release stages
+    href: release-notes/release-stages.md
   - name: Version 2017.3
     href: release-notes/release-notes-2017.3.md

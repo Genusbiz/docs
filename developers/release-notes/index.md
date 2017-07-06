@@ -9,7 +9,7 @@ Explore the menu to the left to learn about all user-visible changes to Genus Ap
  
 The release notes will be updated prior to a release and may also be updated as long as the release is available, e.g. with information of new patches or known issues. A change log is available at the end of each release note.
 
-For general information about our release stages, have a look [here](../installation-and-configuration/genus-app-platform-release-stages.md).
+For general information about our release stages, have a look [here](release-stages.md).
 
 Forward-looking statements like our roadmap is available [here](https://www.genus.no/?PageKey=e8d60929-9dd5-42bb-858e-bb7adf421fa3).
 
