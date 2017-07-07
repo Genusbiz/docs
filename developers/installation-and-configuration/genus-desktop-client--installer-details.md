@@ -58,7 +58,7 @@ The default name of the InstallShield executable file is "Setup.exe", which here
 
 <td>
 
-[http://helpnet.flexerasoftware.com / installshield20helplib / Content / helplibrary / IHelpSetup_EXECmdLine.htm](http://helpnet.flexerasoftware.com%20/%20installshield20helplib%20/%20Content%20/%20helplibrary%20/%20IHelpSetup_EXECmdLine.htm)
+[http://helpnet.flexerasoftware.com/installshield20helplib/Content/helplibrary/IHelpSetup_EXECmdLine.htm](http://helpnet.flexerasoftware.com/installshield20helplib/Content/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 </td>
 
