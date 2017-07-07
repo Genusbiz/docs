@@ -16,7 +16,7 @@ Utilize the standard mechanisms in the installation software to roll out the Gen
 Detailed technical information on the workings of the desktop client installer. This approach may be necessary when users do not have sufficient permissions on their own computer, or when several users share an installation on a terminal server. This approach is not recommended unless it is absoutely necessary.
 
 
-## Genus Desktop Client Manual Silent Installation (Administrative Installation) <a name="silent-installation" />
+## Genus Desktop Client Manual Silent Installation (Administrative Installation)
 
 This information is intended for system adminstrators who want to deploy the Genus desktop client application in a corporate environment. This is necessary in environments where users do not have sufficient rights on their Personal Computers or laptops. It is also necessary in terminal services environments, where several users share a single Genus desktop client application installation. Genus does not recommend such an administrative installation if it is not absolutely required.
 
@@ -26,9 +26,9 @@ Note that an upgrade of Genus App Services may require a new deployment of Windo
 
 ## Administrative Genus Desktop Client Installation - Installation Variables
 
-Before running through [Administrative Genus Desktop Client Installation - Step by Step](administrative-genus-desktop-client-installation--step-by-step.md "Administrative Genus Desktop Client Installation - Step by Step") you need to decide on some installation variables in the Registry as follows. The use of brackets indicates a variable.
+Before running through the steps in the next section you need to decide on some installation variables in the Registry as follows. The use of brackets indicates a variable.
 
-**[HKEY_USER_SELECTABLE]** is to be replaced with HKEY_LOCAL_MACHINE if you want the installation to be available to all users on the machine ("Per-Machine" installation). Replace with HKEY_CURRENT_USER if you want the installation to be available to a single user ("Per-User" installation).
+**[HKEY_USER_SELECTABLE]** is to be replaced with _HKEY_LOCAL_MACHINE_ if you want the installation to be available to all users on the machine ("Per-Machine" installation). Replace with _HKEY_CURRENT_USER_ if you want the installation to be available to a single user ("Per-User" installation).
 
 **[INSTALLDIR]** is the Genus desktop client installation directory. The Genus desktop client installer program installs the executable under _**CSIDL_PROGRAM_FILES\Genus\Client\Genus.exe**_. CSIDL_PROGRAM_FILES is the standard installation directory for programs, typically being _**C:\Program Files**_ in an English version of Windows. With default settings in an English version of Windows, _[INSTALLDIR]Genus.exe_ will be expanded to _"C:\Program Files\Genus\Client\Genus.exe"_. Note the use of double backslashes in Registry files.
 
@@ -52,8 +52,6 @@ Before running through [Administrative Genus Desktop Client Installation - Step 
 
 This step by step procedure equals the steps automatically done by the Genus desktop client installation program and the Genus desktop client upgrader.
 
-Please review [Administrative Genus Desktop Client Installation](install-genus-desktop-clients-silently-for-your-users.md) and [Installation Variables](administrative-genus-desktop-client-installation--installation-variables.md "Administrative Genus Desktop Client Installation - Installation Variables") before continuing.
-
 **Step 1**
 
 Decide on an installation root directory and create it, e.g. on a shared file server. Example: _**H:\\Programs\\Genus\\Client\\**_.
@@ -70,6 +68,7 @@ In environments running multiple versions of Genus, you must make sure that both
 
 Genus installs custom URL protocol handlers for "genuslink" and "genusstudiolink", used for handling shortcuts inside the Genus desktop client application. The document types **.genus** (Content Type = **application/x-genus**) is used for downloading genuslink shortcuts from the server and opening them. The following text, with replacement of variables with their values, constitute Registry content which you can save to a file and deploy in your corporate environment:
 
+```
 Windows Registry Editor Version 5.00  
 
 [HKEY_USER_SELECTABLE]  
@@ -156,15 +155,22 @@ Windows Registry Editor Version 5.00
 "AppName"="Genus.exe"  
 "AppPath"="[INSTALLDIR]"  
 
+```
+
 **Step 5**
 
 The Genus desktop client installation program enables automatic update of the Genus desktop client application by adding the following information to the Registry:
 
+```
 Windows Registry Editor Version 5.00  
+
 [HKEY_USER_SELECTABLE]  
+
 [HKEY_USER_SELECTABLE\Software]  
+
 [HKEY_USER_SELECTABLE\Software\Genus]  
 "IsOfficeAutoUpdateEnabled"=dword:00000001  
+```
 
 If this information is omitted, automatic update of the Genus desktop client application is disabled.
 
