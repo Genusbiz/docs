@@ -1,7 +1,13 @@
-# Installing Genus Desktop
+---
+title: Installing Genus Desktop
+description: How to install Genus Desktop both in a per user environment and a shared computer environment, inclduing terminal servers.
+author: balmlid
+---
 
 > [!NOTE]
 > The following content is valid for Genus App Platform version 2017.4 and forward.
+
+# Installing Genus Desktop
 
 
 ## Genus Desktop and the Genus Desktop _launcher_
@@ -25,32 +31,29 @@ For deployment of Genus Desktop in a corporate environment, there are three main
 
 There are generally several options for rolling out program installations to many users on the Windows platform, some are inherent in the platform, and many third-party software vendors offer dedicated products for this specific purpose. These will generally not be discussed here.
 
-
-## Installation option details
-
 Each of the installation options are described in more detail below.
 
-In the following a few special folders (shown as **[_\<SpecialFolderName\>_]**) is used. See [](install-genus-special-folders.md) for a description. For a detailed description of the GenusLauncher.exe command line syntax, see [The Genus Desktop launcher command line](genus-launcher-command-line.md).
+In the following a few special folders (shown as **[_\<SpecialFolderName\>_]**) is used. See [here][1] for a description. For a detailed description of the GenusLauncher.exe command line syntax, see [The Genus Desktop launcher command line](genus-launcher-command-line.md).
 
 
-### Option 1: The installation is fully managed by the end-users
+## Option 1: The installation is fully managed by the end-users
 
 This is the recommended option. The end-users downloads and executes Setup.exe, e.g. by clicking on a link to **http(s)://_\<your_app_server_host_name_here\>_/download/Setup.exe** distributed by e-mail. If a legacy (pre-2017.4) version is installed, the user first needs to uninstall that version from Programs and Features (WinKey+R, appwiz.cpl) before running the Setup.exe for the new installer.
 
-Setup.exe will install the Genus Desktop launcher (GenusLauncher.exe) in the user's local profile, located in the directory **[\[LocalApplicationData\]](install-genus-special-folders.md)\GenusLauncher**. The installer will also add a few registry keys and values in the HKEY\_CURRENT\_USER registry hive, including required configuration for the vendor specific protocol handlers "genuslink:" and "genusstudiolink:", and add an entry in the Programs Registry at **[HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncher]**. The installation is performed in the background without any user interaction. The launcher will also automatically update itself silently in the background.
+Setup.exe will install the Genus Desktop launcher (GenusLauncher.exe) in the user's local profile, located in the directory **[\[LocalApplicationData\]][1]\GenusLauncher**. The installer will also add a few registry keys and values in the HKEY\_CURRENT\_USER registry hive, including required configuration for the vendor specific protocol handlers "genuslink:" and "genusstudiolink:", and add an entry in the Programs Registry at **[HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncher]**. The installation is performed in the background without any user interaction. The launcher will also automatically update itself silently in the background.
 
-A shortcut to GenusLauncher.exe will be added to the user's Start menu (**[\[StartMenu\]](install-genus-special-folders.md)\Genus\Genus Desktop.lnk**). The user may right-click this shortcut and select **Pin to Start** and/or **Pin to taskbar**. The pinned shortcut provides a Jump List (displayed by right-clicking the shortcut) as an alternative way of launching Genus Desktop.
+A shortcut to GenusLauncher.exe will be added to the user's Start menu (**[\[StartMenu\]][1]\Genus\Genus Desktop.lnk**). The user may right-click this shortcut and select **Pin to Start** and/or **Pin to taskbar**. The pinned shortcut provides a Jump List (displayed by right-clicking the shortcut) as an alternative way of launching Genus Desktop.
 
 Whenever a new version is required local cache folders are searched in the following order ("x.x.x.x" below represents the file version of the corresponding Genus.exe):
 
-1. **[\[LocalApplicationData\]](install-genus-special-folders.md)\Genus\Client\VersionCache\x.x.x.x\Genus.exe**, the local per-user cache folder used for automatic updates
-1. **[\[CommonApplicationData\]](install-genus-special-folders.md)\Genus\Client\VersionCache\x.x.x.x\Genus.exe**, the local common cache folder used as the default folder for administrative downloads
-1. **[\[INSTALLDIR\]](install-genus-special-folders.md)\x.x.x.x\Genus.exe**, the alternative local common cache folder that may be used for administrative downloads
+1. **[\[LocalApplicationData\]][1]\Genus\Client\VersionCache\x.x.x.x\Genus.exe**, the local per-user cache folder used for automatic updates
+1. **[\[CommonApplicationData\]][1]\Genus\Client\VersionCache\x.x.x.x\Genus.exe**, the local common cache folder used as the default folder for administrative downloads
+1. **[\[INSTALLDIR\]][1]\x.x.x.x\Genus.exe**, the alternative local common cache folder that may be used for administrative downloads
 
-If not found, the launcher will download and unpack the required version of Genus Desktop in the user's local cache folder (**[\[LocalApplicationData\]](install-genus-special-folders.md)\Genus\Client\VersionCache**) before starting Genus.exe.
+If not found, the launcher will download and unpack the required version of Genus Desktop in the user's local cache folder (**[\[LocalApplicationData\]][1]\Genus\Client\VersionCache**) before starting Genus.exe.
 
 
-### Option 2: The installation is fully managed by an administrator
+## Option 2: The installation is fully managed by an administrator
 
 In some corporate environments users do not have sufficient privileges on their personal computers or laptops. In terminal services environments, the administrator may also need to control the disk footprint, preventing multiple copies of Genus Desktop executables across user profiles. Genus does not recommend such an administrative installation if it is not absolutely required.
 
@@ -70,12 +73,12 @@ Installation and maintenance of administrative installations is a two step proce
 
     > `GenusLauncher.exe admin-install --disable-auto-update`
 
-    (preventing end-users from downloading missing versions of Genus Desktop to the user's local cache). The Genus Desktop launcher will be installed under the default folder **[\[ProgramFiles\]](install-genus-special-folders.md)\Genus\Launcher**. If you want to install the Genus Desktop launcher in another folder, e.g. `"X:\Genus\Launcher"`, add the folder name (in quotes) at the end of the command line.
+    (preventing end-users from downloading missing versions of Genus Desktop to the user's local cache). The Genus Desktop launcher will be installed under the default folder **[\[ProgramFiles\]][1]\Genus\Launcher**. If you want to install the Genus Desktop launcher in another folder, e.g. "X:\Genus\Launcher", add the folder name (in quotes) at the end of the command line.
 
     The installer will also add a few registry keys and values in the HKEY\_LOCAL\_MACHINE registry hive, including required configuration for the vendor specific protocol handlers "genuslink:" and "genusstudiolink:", and add an entry in the Programs Registry at **[HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]**.
 
     > [!NOTE]
-    > As an installation of the Genus Desktop launcher may handle multiple versions of Genus.exe, make sure that the launcher installation has the highest version number available. Please note that GenusLauncher.exe is versioned separately from Genus.exe.
+    > As an installation of the Genus Desktop launcher will typically handle multiple versions of Genus.exe, make sure that the launcher installation has the highest version number available. Please note that GenusLauncher.exe is versioned separately from Genus.exe.
 
  2. Pre-cache required version of Genus Desktop
 
@@ -83,16 +86,16 @@ Installation and maintenance of administrative installations is a two step proce
 
     > `GenusLauncher.exe admin-unpack <source URL>`
 
-    where `<source URL>` is on the form **http(s)://_\<your_app_server_host_name_here\>_/_\<your_genus_dataset_virtual_directory_here\>_/**. The command will download a component package containing Genus.exe and its related files and unpack the files at the folder **[\[CommonApplicationData\]](install-genus-special-folders.md)\Genus\Client\x.x.x.x**.
+    where `<source URL>` is on the form **http(s)://_\<your_app_server_host_name_here\>_/_\<your_genus_dataset_virtual_directory_here\>_/**. The command will download a component package containing Genus.exe and its related files and unpack the files at the folder **[\[CommonApplicationData\]][1]\Genus\Client\x.x.x.x**.
     
     If you rather prefer to put the cache within the GenusLauncher.exe installation folder, run the command line
 
     > `GenusLauncher.exe admin-unpack --installdir <source URL>`
 
-    instead. **However, we strongly advice against using the installation folder option (i.e. --installdir option) for caching Genus Desktop versions. The reason for this is that Windows locks executables that are currently in use, thereby making installing/updating/uninstalling of the launcher unreliable.**
+    instead. **However, we strongly discourage using the installation folder option (i.e. --installdir option) for caching Genus Desktop versions. The reason for this is that Windows locks executables that are currently in use, thereby making installing/updating/uninstalling of the launcher unreliable.**
 
 
-### Option 3: Combining end-user installation and administrator pre-caching
+## Option 3: Combining end-user installation and administrator pre-caching
 
 If disk footprint in a shared computer environment (like a terminal server) is a major concern, but the end-users are allowed to perform installation on their local profile, we recommend a combined approach. Let the users install and automatically update the launcher, but let the administrator pre-cache required Genus Desktop versions locally in use to save disk space and bandwidth.
 
@@ -104,12 +107,10 @@ The GenusLauncher.exe `admin-unpack` command is available even if the launcher i
 
 By default, the Genus Desktop launcher will download and cache any missing version of the Genus Desktop executable. In order to prevent this in any case (e.g. the administrator has failed to provide the required version in the common cache) you may want to add the following into the registry:
 
->
 > `Windows Registry Editor Version 5.00`  
 >  
 > `[HKEY_LOCAL_MACHINE]\Software\Genus]`  
 > `"IsClientAutoUpdateEnabled"=dword:00000001`
->  
 
 If the registry setting is added and the required version is missing the launcher will fail silently. For troubleshooting, see below.
 
@@ -117,4 +118,6 @@ If the registry setting is added and the required version is missing the launche
 
 GenusLauncher.exe always logs to the text file **%TEMP%\GenusLauncher.exe.log**. The file should be used when you need to troubleshoot. During updating multiple instances of GenusLauncher.exe may be running simultaneously. In these cases the GenusLauncher.exe.log file may be locked and a separate log file named **%TEMP%\\\<some GUID\>GenusLauncher.exe.log** may be produced instead.
 
-The per-user installation of the Genus Desktop launcher uses [Squirrel](https://github.com/Squirrel/Squirrel.Windows) for installation and automatic updates. Squirrel may produce some independent log files at **[\[LocalApplicationData\]](install-genus-special-folders.md)\SquirrelTemp\SquirrelSetup.log** or at  **[\[LocalApplicationData\]](install-genus-special-folders.md)\GenusLauncher\packages\SquirrelTemp**.
+The per-user installation of the Genus Desktop launcher uses [Squirrel](https://github.com/Squirrel/Squirrel.Windows) for installation and automatic updates. Squirrel may produce some independent log files at **[\[LocalApplicationData\]][1]\SquirrelTemp\SquirrelSetup.log** or at  **[\[LocalApplicationData\]][1]\GenusLauncher\packages\SquirrelTemp**.
+
+[1]: install-genus-special-folders.md

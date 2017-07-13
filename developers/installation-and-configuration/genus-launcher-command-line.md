@@ -1,3 +1,9 @@
+---
+title: The Genus Desktop launcher command line
+description: How to use the GenusLauncher.exe command line, including how to install the Genus Desktop launcher as an administrator.
+author: balmlid
+---
+
 # The Genus Desktop launcher command line
 
 The Genus Desktop launcher executable, **GenusLauncher.exe**, is a multi-purpose executable. Its primary purpose is to launch the correct version of Genus Desktop (**Genus.exe**) and is normally installed with Setup.exe in a "Per User" installation scenario. If the Genus Desktop launcher is started without parameters it will prompt the user for an URL to be used and then launch the correct version of Genus Desktop. It may also be started with an URL argument directly or with one of the administrative commands. 
@@ -19,7 +25,7 @@ For an explanation of the special folders **[\<SpecialFolderName\>]** used below
   Prompts the user for an URL to be used for launching Genus Desktop.
 
 
-## Executing with a URL parameter
+## Executing with a URL parameterq
 > `GenusLauncher.exe <URL>`
 
   Launches Genus Desktop with the specified URL (starting with "genuslink:", "genusstudiolink:", 
@@ -36,24 +42,20 @@ For an explanation of the special folders **[\<SpecialFolderName\>]** used below
 
   Installs the Genus Desktop launcher for all users. If `<installation directory>` is omitted,
   the installation directory is defaulted to **[ProgramFiles]\Genus\Launcher**. Installation
-  information will be added to the registry under the key 
-  
-  > `[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]`.
+  information will be added to the registry under the key **[HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]**.
   
   Specify the option `--enable-auto-update` in order to _allow_ end-users to download missing Genus 
   Desktop versions (e.g. because the administrator forgot to update the latest version) to the
   user's **[LocalApplicationData]** cache folder.
 
   Specify the option `--disable-auto-update` in order to _prevent_ end-users from (accidentally)
-  updating Genus Desktop on their own, preventing duplicating the software for every user's
+  updating Genus Desktop on their own, avoiding duplicating the software for every user's
   **[LocalApplicationData]** cache folder.
 
 * **`admin-uninstall`**
 
   Uninstalls the Genus Desktop launcher for all users, based on the information found at the
-  registry key
-  
-  >`[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]`.
+  registry key **[HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]**.
 
 * **`admin-unpack`** `[--installdir] <source URL>`
 
