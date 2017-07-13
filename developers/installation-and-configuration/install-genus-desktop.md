@@ -115,6 +115,6 @@ If the registry setting is added and the required version is missing the launche
 
 GenusLauncher.exe always logs to the text file **%TEMP%\GenusLauncher.exe.log**. The file should be used when you need to troubleshoot. During updating multiple instances of GenusLauncher.exe may be running simultaneously. In these cases the GenusLauncher.exe.log file may be locked and a separate log file named **%TEMP%\\\<some GUID\>GenusLauncher.exe.log** may be produced instead.
 
-The per-user installation of the Genus Desktop launcher uses [Squirrel](https://github.com/Squirrel/Squirrel.Windows) for installation and automatic updates. Squirrel may produce some independent log files at **[\[LocalApplicationData\]][1]\SquirrelTemp\SquirrelSetup.log** or at  **[\[LocalApplicationData\]][1]\GenusLauncher\packages\SquirrelTemp**.
+The per user installation of the Genus Desktop launcher uses [Squirrel](https://github.com/Squirrel/Squirrel.Windows) for installation and automatic updates. Squirrel produces its own log file, named **SquirrelSetup.log**, at several locations, including the following folders: **[\[LocalApplicationData\]][1]\SquirrelTemp**, **[\[LocalApplicationData\]][1]\GenusLauncher**, and **[\[LocalApplicationData\]][1]\GenusLauncher\packages\SquirrelTemp**.
 
 [1]: install-genus-special-folders.md
