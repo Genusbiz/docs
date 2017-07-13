@@ -8,7 +8,7 @@ In the **Template** tab, specify the document **File Format** (i.e. merging to M
 
 ![ID4EF266F09FEB4DBF.png](media/ID4EF266F09FEB4DBF.png)
 
-It is generally *not recommended to use **Embedded File**, since this will increase the size of your [Application Model Cache File](../../../../../installation-and-configuration/install-genus-desktop-client-on-your-computer.md), which may lead to increased startup time of your Genus desktop clients and Genus App Services.*
+It is generally *not recommended to use **Embedded File**, since this will increase the size of your local application model cache file, which may lead to increased startup time for Genus Desktop and Genus App Services.*
 
 The **XML Document** tab displays a preview of your XML Document. You may use this as a source for copying field names to your Word template or Excel template.
 

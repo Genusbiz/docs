@@ -444,18 +444,24 @@
   items:
   - name: System requirements
     href: installation-and-configuration/system-requirements.md
+  - name: Installing Genus Desktop
+    href: installation-and-configuration/install-genus-desktop.md
   - name: Install Genus Desktop on your computer
-    href: installation-and-configuration/install-genus-desktop-client-on-your-computer.md
-  - name: Install Genus Desktop silently for your users
-    href: installation-and-configuration/install-genus-desktop-clients-silently-for-your-users.md
-  - name: Genus Desktop installer details
-    href: installation-and-configuration/genus-desktop-client--installer-details.md
-  - name: Install Genus App Services on an application server
     href: installation-and-configuration/install-genus-server-on-an-application-server.md
   - name: Install a license on Genus App Services
     href: installation-and-configuration/install-license-on-genus-server.md
   - name: Configure and maintain Genus App Services
     href: installation-and-configuration/configure-and-maintain-genus-server.md
+    items:
+    -name: Archived articles
+     href: installation-and-configuration/archive/index.md
+     items:
+      href: installation-and-configuration/archive/install-genus-desktop-client-on-your-computer.md
+    - name: Install Genus Desktop silently for your users
+      href: installation-and-configuration/archive/install-genus-desktop-clients-silently-for-your-users.md
+    - name: Genus Desktop installer details
+      href: installation-and-configuration/archive/genus-desktop-client--installer-details.md
+    - name: Install Genus App Services on an application server
     items:
     - name: Genus App Services configuration
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration.md

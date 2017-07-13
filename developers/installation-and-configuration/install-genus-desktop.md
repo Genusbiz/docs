@@ -4,9 +4,6 @@ description: How to install Genus Desktop both in a per user environment and a s
 author: balmlid
 ---
 
-> [!NOTE]
-> The following content is valid for Genus App Platform version 2017.4 and forward.
-
 # Installing Genus Desktop
 
 

@@ -1,3 +1,6 @@
+> [!NOTE]
+> Archived content. The following content is valid for Genus App Platform versions prior to 2017.4. Please see [here](../install-genus-desktop.md) for the most current content.
+
 # Install Genus Desktop Clients Silently for Your Users
 
 For deployment of the Genus Desktop Client in a corporate environment, there are two main approaches.

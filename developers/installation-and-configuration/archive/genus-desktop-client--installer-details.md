@@ -1,3 +1,6 @@
+> [!NOTE]
+> Archived content. The following content is valid for Genus App Platform versions prior to 2017.4. Please see [here](../install-genus-desktop.md) for the most current content.
+
 # Genus Desktop Client - Installer Details
 
 The Genus Desktop Client installer contains several files, and is executed in three layers:

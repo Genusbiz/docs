@@ -133,15 +133,15 @@ If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communica
 
  **Step 12 - Restart Genus Services** 
 
-[A restart of Genus Services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus App Services") is required to make your changes take effect.
+[A restart of Genus services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus App Services") is required to make your changes take effect.
 
 **Step 13 - Install License** **A license file is required in order to start the Genus App Platform. See** [Install License on Genus App Services applicaion server](../install-license-on-genus-server.md) for more information. 
 
-**Step 14 - Install the Genus Desktop Client Application**
+**Step 14 - Install the Genus Desktop**
 
-The client is normally installed on your personal computer, but may also be installed on your Genus App Services application server.
+The client is normally installed on your PC, but may also be installed on your Genus App Services application server.
 
-See [Install Genus on Your Computer](../install-genus-desktop-client-on-your-computer.md) for more information. The preferred client installation method at this point is by using an Internet Address.
+See [Installing Genus Desktop](../install-genus-desktop.md) for more information.
 
  **Step 15 - Define Nodes and Node Groups
 
