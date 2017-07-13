@@ -24,4 +24,4 @@ Collection Descendant | Description | Example
 
 Note that the operations that is provided for Collection also applies for Bag, Sequence, Set, and Ordered Set.
 
-All collection types is described in the article [Data types](data-types.md).
+All collection types are described in the article [Data types](data-types.md).
