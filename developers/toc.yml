@@ -48,18 +48,8 @@
         href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
       - name: Data types
         href: defining-an-app-model/common-concepts/advanced-expressions/data-types.md        
-      - name: Value types
-        href: defining-an-app-model/common-concepts/advanced-expressions/value-types.md
-      - name: Date and time types
-        href: defining-an-app-model/common-concepts/advanced-expressions/date-and-time-types.md
-      - name: Object types
-        href: defining-an-app-model/common-concepts/advanced-expressions/object-types.md
       - name: Collection types
         href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
-      - name: Enumeration types
-        href: defining-an-app-model/common-concepts/advanced-expressions/enumeration-types.md
-      - name: Function library types
-        href: defining-an-app-model/common-concepts/advanced-expressions/function-library-types.md
       - name: Formula editor
         href: defining-an-app-model/common-concepts/advanced-expressions/formula-editor.md
       - name: Examples
