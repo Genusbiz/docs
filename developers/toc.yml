@@ -446,6 +446,11 @@
     href: installation-and-configuration/system-requirements.md
   - name: Installing Genus Desktop
     href: installation-and-configuration/install-genus-desktop.md
+    items:
+    - name: Installation special folders
+      href: installation-and-configuration/install-genus-special-folders.md
+    - name: The Genus Desktop launcher command line
+      href: installation-and-configuration/genus-launcher-command-line.md
   - name: Install Genus App Services on an application server
     href: installation-and-configuration/install-genus-server-on-an-application-server.md
   - name: Install a license on Genus App Services
