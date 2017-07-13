@@ -1,4 +1,4 @@
-# Operators and Precedence
+# Operators and precedence
 
 Unary operator expressions:
 
@@ -8,7 +8,7 @@ Binary operator expressions:
 
 <operand1> <operator> <operand2>
 
-**Arithmetic Operators**
+**Arithmetic operators**
 
 <table>
 
@@ -78,7 +78,7 @@ Binary operator expressions:
 
 </table>
 
-**Logical Operators**
+**Logical operators**
 
 <table>
 
@@ -124,7 +124,7 @@ Binary operator expressions:
 
 </table>
 
-**Relational Operators**
+**Relational operators**
 
 <table>
 
@@ -182,7 +182,7 @@ Binary operator expressions:
 
 </table>
 
-**Equality Operators**
+**Equality operators**
 
 <table>
 
@@ -216,7 +216,7 @@ Binary operator expressions:
 
 </table>
 
-**Null Coalescing Operators**
+**Null coalescing operators**
 
 <table>
 
@@ -250,7 +250,7 @@ Binary operator expressions:
 
 </table>
 
-**Operator Precedence**
+**Operator precedence**
 
 The operators are grouped in order of precedence. Operators within the same group have the same precedence.
 
