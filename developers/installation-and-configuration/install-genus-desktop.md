@@ -1,3 +1,9 @@
+---
+title: Installing Genus Desktop
+description: How to install Genus Desktop both in a per user environment and a shared computer environment, inclduing terminal servers.
+author: balmlid
+---
+
 > [!NOTE]
 > The following content is valid for Genus App Platform version 2017.4 and forward.
 
@@ -86,7 +92,7 @@ Installation and maintenance of administrative installations is a two step proce
 
     > `GenusLauncher.exe admin-unpack --installdir <source URL>`
 
-    instead. **However, we strongly advice against using the installation folder option (i.e. --installdir option) for caching Genus Desktop versions. The reason for this is that Windows locks executables that are currently in use, thereby making installing/updating/uninstalling of the launcher unreliable.**
+    instead. **However, we strongly discourage using the installation folder option (i.e. --installdir option) for caching Genus Desktop versions. The reason for this is that Windows locks executables that are currently in use, thereby making installing/updating/uninstalling of the launcher unreliable.**
 
 
 ## Option 3: Combining end-user installation and administrator pre-caching
