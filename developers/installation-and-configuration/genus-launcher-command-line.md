@@ -45,7 +45,7 @@ For an explanation of the special folders **[\<SpecialFolderName\>]** used below
   user's **[LocalApplicationData]** cache folder.
 
   Specify the option `--disable-auto-update` in order to _prevent_ end-users from (accidentally)
-  updating Genus Desktop on their own, preventing duplicating the software for every user's
+  updating Genus Desktop on their own, avoiding duplicating the software for every user's
   **[LocalApplicationData]** cache folder.
 
 * **`admin-uninstall`**

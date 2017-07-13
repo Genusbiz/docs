@@ -12,6 +12,6 @@ The following lists a few special folders and the values to which they typically
 | ProgramFiles          | C:\Program Files                                          | The program files directory. |
 | StartMenu             | C:\Users\bal\AppData\Roaming\Microsoft\Windows\Start Menu | The directory that contains the current user's Start menu items. |
 
-In addition to the special folder names listed above we also use the special name **[INSTALLDIR]** to represent the directory used to install GenusLauncher.exe. For an administrative installation, common for all users on a computer, this defaults to **[Program Files]**\Genus\Launcher. For a per user installation this is always **[LocalApplicationData]**\GenusLauncher.
+In addition to the special folder names listed above we also use the special name **[INSTALLDIR]** to represent the directory used to install GenusLauncher.exe. For an administrative installation, common for all users on a computer, this defaults to **[ProgramFiles]**\Genus\Launcher. For a per user installation this is always **[LocalApplicationData]**\GenusLauncher.
 
 
