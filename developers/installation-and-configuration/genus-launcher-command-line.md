@@ -20,23 +20,29 @@ For an explanation of the special folders **[\<SpecialFolderName\>]** used below
 
 ## Executing without parameters
 
-> `GenusLauncher.exe`
+```
+GenusLauncher.exe
+```
 
-  Prompts the user for an URL to be used for launching Genus Desktop.
+Prompts the user for an URL to be used for launching Genus Desktop.
 
 
-## Executing with a URL parameterq
-> `GenusLauncher.exe <URL>`
+## Executing with a URL parameter
 
-  Launches Genus Desktop with the specified URL (starting with "genuslink:", "genusstudiolink:", 
-  "http://", or "https://").
+```
+GenusLauncher.exe <URL>
+```
+
+Launches Genus Desktop with the specified URL (starting with "genuslink:", "genusstudiolink:", "http://", or "https://").
 
 
 ## Executing an administrative command
 
-> `GenusLauncher.exe` **`<command>`** `[<command options>] [<other command arguments>]`
+```
+GenusLauncher.exe <command> [<command options>] [<other command arguments>]
+```
 
-  Executes one of the following administrative installation **`<command>`** commands:
+Executes one of the following administrative installation **`<command>`** commands:
 
 * **`admin-install`** `--enable-auto-update|--disable-auto-update [<installation directory>]`
 
