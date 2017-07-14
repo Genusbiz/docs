@@ -20,7 +20,7 @@ For an explanation of the special folders **[\<SpecialFolderName\>]** used below
 
 ## Executing without parameters
 
-```
+```batchfile
 GenusLauncher.exe
 ```
 
@@ -29,7 +29,7 @@ Prompts the user for an URL to be used for launching Genus Desktop.
 
 ## Executing with a URL parameter
 
-```
+```batchfile
 GenusLauncher.exe <URL>
 ```
 
@@ -38,14 +38,16 @@ Launches Genus Desktop with the specified URL (starting with "genuslink:", "genu
 
 ## Executing an administrative command
 
-```
+```batchfile
 GenusLauncher.exe <command> [<command options>] [<other command arguments>]
 ```
 
 Executes one of the following administrative installation **`<command>`** commands:
 
-* **`admin-install`** `--enable-auto-update|--disable-auto-update [<installation directory>]`
-
+* **admin-install**
+  ```batchfile
+  GenusLauncher.exe admin-install --enable-auto-update|--disable-auto-update [<installation directory>]
+  ```
   Installs the Genus Desktop launcher for all users. If `<installation directory>` is omitted,
   the installation directory is defaulted to **[ProgramFiles]\Genus\Launcher**. Installation
   information will be added to the registry under the key **[HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]**.
@@ -58,13 +60,17 @@ Executes one of the following administrative installation **`<command>`** comman
   updating Genus Desktop on their own, avoiding duplicating the software for every user's
   **[LocalApplicationData]** cache folder.
 
-* **`admin-uninstall`**
-
+* **admin-uninstall**
+  ```batchfile
+  GenusLauncher.exe admin-uninstall
+  ```
   Uninstalls the Genus Desktop launcher for all users, based on the information found at the
   registry key **[HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]**.
 
-* **`admin-unpack`** `[--installdir] <source URL>`
-
+* **admin-unpack**
+  ```batchfile
+  GenusLauncher.exe admin-unpack [--installdir] <source URL>
+  ```
   Downloads Genus Desktop from the specified URL and unpacks the files at a version
   number-specific directory under **[CommonApplicationData]\Genus\Client\VersionCache**,
   if `--installdir` is omitted, or below the current installation directory (default location
@@ -73,7 +79,9 @@ Executes one of the following administrative installation **`<command>`** comman
   The source URL is on the form
   **http(s)://_\<your_app_server_host_name_here\>_/_\<your_genus_dataset_virtual_directory_here\>_/**.
 
-* **`admin-version`**
-
+* **admin-version**
+  ```batchfile
+  GenusLauncher.exe admin-version
+  ```
   Shows the current version of the started GenusLauncher.exee and the administratively installed version (if any)
   of the Genus Desktop launcher.
