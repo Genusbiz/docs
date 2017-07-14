@@ -38,7 +38,8 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "_custom_templates/genus_template" // custom template overriding default template
     ],
     "postProcessors": [],
     "noLangKeyword": false

@@ -1,0 +1,11 @@
+/* Avoid items being cut from sideaffix*/
+.sideaffix .affix ul > li > a{
+    width: 95%;
+}
+
+/* Experimenting with higher line height on left-side menu*/
+/*
+.sidetoc .toc ul > li > a{
+    line-height: 24px;
+}
+*/
