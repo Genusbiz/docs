@@ -60,19 +60,19 @@ Installation and maintenance of administrative installations is a two step proce
 
     Download GenusLauncher.exe from a server that has the correct version of Genus App Services installed. The URL is on the form **http(s)://_\<your_app_server_host_name_here\>_/download/GenusLauncher.exe**. Check if the current version of the launcher (if already installed) is up to date by running the command line
 
-    ```
+    ```batchfile
     GenusLauncher.exe admin-version
     ```
 
     If the version is not up to date or the launcher is not installed at all install the launcher using the command line 
 
-    ```
+    ```batchfile
     GenusLauncher.exe admin-install --enable-auto-update
     ```
 
     (giving end-users permission to download missing versions of Genus Desktop to the user's local cache),  or
 
-    ```
+    ```batchfile
     GenusLauncher.exe admin-install --disable-auto-update
     ```
 
@@ -87,7 +87,7 @@ Installation and maintenance of administrative installations is a two step proce
 
     As described above, the Genus Desktop launcher looks for a locally cached version before it is downloaded from the server. In order to download and unpack Genus Desktop (Genus.exe and related files) run the command line
 
-    ```
+    ```batchfile
     GenusLauncher.exe admin-unpack <source URL>
     ```
 
@@ -95,7 +95,7 @@ Installation and maintenance of administrative installations is a two step proce
     
     If you rather prefer to put the cache within the GenusLauncher.exe installation folder, run the command line
 
-    ```
+    ```batchfile
     GenusLauncher.exe admin-unpack --installdir <source URL>
     ```
 
@@ -108,7 +108,7 @@ If disk footprint in a shared computer environment (like a terminal server) is a
 
 The end-user will install (with Setup.exe) and update the installation in the background, and the administrator will pre-cache required Genus Desktop versions using the command line
 
-```
+```batchfile
 GenusLauncher.exe admin-unpack <source URL>
 ```
 
@@ -116,7 +116,7 @@ The GenusLauncher.exe `admin-unpack` command is available even if the launcher i
 
 By default, the Genus Desktop launcher will download and cache any missing version of the Genus Desktop executable. In order to prevent this in any case (e.g. the administrator has failed to provide the required version in the common cache) you may want to add the following into the registry:
 
-```
+```batchfile
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE]\Software\Genus]
