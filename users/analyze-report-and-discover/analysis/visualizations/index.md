@@ -30,3 +30,4 @@ These are the *Visualizations* available in an *Analysis*
 * [Value chips](value-chips.md)
 * [Single Category Field](single-category-field.md)
 * [Dropdown](multi-category-dropdown.md)
+* [Value Grid](value-grid.md)
