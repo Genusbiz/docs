@@ -1,3 +1,6 @@
+> [!NOTE]
+> Archived content. The following content is valid for Genus App Platform versions prior to 2017.4. Please see [here](../install-genus-desktop.md) for the most current content.
+
 # Genus Desktop Client - Installer Details
 
 The Genus Desktop Client installer contains several files, and is executed in three layers:
@@ -58,7 +61,7 @@ The default name of the InstallShield executable file is "Setup.exe", which here
 
 <td>
 
-[http://helpnet.flexerasoftware.com / installshield20helplib / Content / helplibrary / IHelpSetup_EXECmdLine.htm](http://helpnet.flexerasoftware.com%20/%20installshield20helplib%20/%20Content%20/%20helplibrary%20/%20IHelpSetup_EXECmdLine.htm)
+[http://helpnet.flexerasoftware.com/installshield20helplib/Content/helplibrary/IHelpSetup_EXECmdLine.htm](http://helpnet.flexerasoftware.com/installshield20helplib/Content/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 </td>
 

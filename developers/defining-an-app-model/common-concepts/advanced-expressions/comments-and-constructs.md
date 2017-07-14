@@ -1,6 +1,6 @@
-# Comments and Constructs
+# Comments and constructs
 
- **Comments**
+ ## Comments
 
 Use comments to add descriptions to your expressions. This is especially useful when maintaining large and complex expressions.
 
@@ -10,7 +10,7 @@ Use comments to add descriptions to your expressions. This is especially useful 
 <expression2>
 ```
 
-**Conditional Expression**
+## Conditional expression
 
 Use the if-then-else construct to create conditional expressions. The conditional expression can be nested, or used as part of another expression.
 ```php

@@ -6,4 +6,6 @@ A **symbolic distribution** can be used in two ways:
 
 A symbol picker can be applied to choose a symbol to represent the aggregated value(s).
 
-When sorting is enabled, the distribution will be sorted on the aggregated values. This is done regardless of chosen category/value.
+Enabling sorting will only have an effect in the case of categorized data.
+
+*A typical example of use will be visualizing total hours grouped on projects.* 

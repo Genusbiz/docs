@@ -116,7 +116,7 @@ Use Genus App Services when you talk about the services independently of one or 
 
 ## Genus Studio
 
-Genus App Platform's client for defining and maintaining an [app model](#app-model).
+Genus App Platform's client for defining and maintaining an [app model](#app-model). Genus Studio is included in the Genus Desktop installation.
 
 ## Metadata
 
@@ -134,4 +134,4 @@ A distribution of an upgraded version of Genus App Platform is called a release,
 
 Genus App Platform goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade. These stages are called **Release Stages**.
 
-See [here](developers/installation-and-configuration/genus-app-platform-release-stages.md) for more information.
+See [here](developers/release-notes/release-stages.md) for more information.

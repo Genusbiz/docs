@@ -4,15 +4,15 @@ A license file is required in order to start the Genus App Platform. If you do n
 
 The license is installed by saving the file on each of your Genus application servers, at this exact location:
 
-*   <span style="FONT-STYLE: italic">[CommonAppDataFolder]\Genus\Server\Config\GenusLicense.xml
+*   _[CommonAppData]\Genus\Server\Config\GenusLicense.xml_
 
-The placeholder <span style="FONT-STYLE: italic">[CommonAppDataFolder] normally resolves to <span style="FONT-STYLE: italic">C:\ProgramData for all currently supported Microsoft Windows Server editions and versions, resulting in:
+The placeholder _[CommonAppData]_ normally resolves to _C:\ProgramData_ for all currently supported Microsoft Windows Server editions and versions, resulting in:
 
-*   <span style="FONT-STYLE: italic">C:\ProgramData\Genus\Server\Config\GenusLicense.xml
+*   _C:\ProgramData\Genus\Server\Config\GenusLicense.xml_
 
-If you suspect that <span style="FONT-STYLE: italic">[CommonAppDataFolder] resolves to another location for your Windows Server, you can check the Windows Server registry key :
+If you suspect that _[CommonAppData]_ resolves to another location for your Windows Server, you can check the Windows Server registry key:
 
-*   <span style="FONT-STYLE: italic">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+*   _HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders_
 
 Important information:
 
