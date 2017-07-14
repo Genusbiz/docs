@@ -60,15 +60,21 @@ Installation and maintenance of administrative installations is a two step proce
 
     Download GenusLauncher.exe from a server that has the correct version of Genus App Services installed. The URL is on the form **http(s)://_\<your_app_server_host_name_here\>_/download/GenusLauncher.exe**. Check if the current version of the launcher (if already installed) is up to date by running the command line
 
-    > `GenusLauncher.exe admin-version`
+    ```
+    GenusLauncher.exe admin-version
+    ```
 
     If the version is not up to date or the launcher is not installed at all install the launcher using the command line 
 
-    > `GenusLauncher.exe admin-install --enable-auto-update`
+    ```
+    GenusLauncher.exe admin-install --enable-auto-update
+    ```
 
     (giving end-users permission to download missing versions of Genus Desktop to the user's local cache),  or
 
-    > `GenusLauncher.exe admin-install --disable-auto-update`
+    ```
+    GenusLauncher.exe admin-install --disable-auto-update
+    ```
 
     (preventing end-users from downloading missing versions of Genus Desktop to the user's local cache). The Genus Desktop launcher will be installed under the default folder **[\[ProgramFiles\]][1]\Genus\Launcher**. If you want to install the Genus Desktop launcher in another folder, e.g. "X:\Genus\Launcher", add the folder name (in quotes) at the end of the command line.
 
@@ -81,13 +87,17 @@ Installation and maintenance of administrative installations is a two step proce
 
     As described above, the Genus Desktop launcher looks for a locally cached version before it is downloaded from the server. In order to download and unpack Genus Desktop (Genus.exe and related files) run the command line
 
-    > `GenusLauncher.exe admin-unpack <source URL>`
+    ```
+    GenusLauncher.exe admin-unpack <source URL>
+    ```
 
     where `<source URL>` is on the form **http(s)://_\<your_app_server_host_name_here\>_/_\<your_genus_dataset_virtual_directory_here\>_/**. The command will download a component package containing Genus.exe and its related files and unpack the files at the folder **[\[CommonApplicationData\]][1]\Genus\Client\x.x.x.x**.
     
     If you rather prefer to put the cache within the GenusLauncher.exe installation folder, run the command line
 
-    > `GenusLauncher.exe admin-unpack --installdir <source URL>`
+    ```
+    GenusLauncher.exe admin-unpack --installdir <source URL>
+    ```
 
     instead. **However, we strongly discourage using the installation folder option (i.e. --installdir option) for caching Genus Desktop versions. The reason for this is that Windows locks executables that are currently in use, thereby making installing/updating/uninstalling of the launcher unreliable.**
 
@@ -98,16 +108,20 @@ If disk footprint in a shared computer environment (like a terminal server) is a
 
 The end-user will install (with Setup.exe) and update the installation in the background, and the administrator will pre-cache required Genus Desktop versions using the command line
 
-> `GenusLauncher.exe admin-unpack <source URL>`
+```
+GenusLauncher.exe admin-unpack <source URL>
+```
 
 The GenusLauncher.exe `admin-unpack` command is available even if the launcher is not administratively installed. Compared with _Option 1_ the only difference a user will experience is faster updates as the administrator has already provided cached versions on the local disk.
 
 By default, the Genus Desktop launcher will download and cache any missing version of the Genus Desktop executable. In order to prevent this in any case (e.g. the administrator has failed to provide the required version in the common cache) you may want to add the following into the registry:
 
-> `Windows Registry Editor Version 5.00`  
->  
-> `[HKEY_LOCAL_MACHINE]\Software\Genus]`  
-> `"IsClientAutoUpdateEnabled"=dword:00000001`
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE]\Software\Genus]
+"IsClientAutoUpdateEnabled"=dword:00000001
+```
 
 If the registry setting is added and the required version is missing the launcher will fail silently. For troubleshooting, see below.
 
