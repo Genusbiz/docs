@@ -14,3 +14,15 @@ author: mja
   * Import configuration file
     * Select file path to exisiting file
 3. Install
+
+# Special configurations for Genus Apps for Web
+
+## Domain name and HTTPS
+
+## Reverse Proxy configuration
+
+## Forgotten password
+
+## Single sign on
+
+## Anti-clickjacking
