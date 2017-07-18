@@ -30,7 +30,7 @@ On the **Installation Progress** page, you can monitor installation progress as 
 
 **Step 7 - Completed Installation**
 
-When you receive the message _"You have successfully completed the Genus App Services Installation"_, click **Finish** to close the wizard.
+When you receive the message _"You have successfully completed the Genus App Services Installer!"_, click **Finish** to close the wizard.
 
 **Next Steps**
 
