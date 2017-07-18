@@ -44,16 +44,17 @@ Logical databases are used to define the location of database tables associated 
 It is also possible to define a logical database where data are shared between Data Sets, for example centralized code tables containing postal codes, countries, currencies etc.
 
 1.  Click the **Logical Databases** tab.
-2.  In the **Name** box, type a name for the database.
-3.  If data are shared between Data Sets, select the **Data in this logical database are shared between Data Sets** check box. In the **Physical Database** box, select a database (see step 5 for more information on how to define physical databases).
-4.  Click **OK**.
+2.  Click **Add...**
+3.  In the **Name** box, type a name for the database.
+4.  If data are shared between Data Sets, select the **Data in this logical database are shared between Data Sets** check box. In the **Physical Database** box, select a database (see step 5 for more information on how to define physical databases).
+5.  Click **OK**.
 
 **Step 5 - Create Physical Databases**
 
 A physical database is defined by a datalink and a database or schema, and is used to establish connection to your business data. As described in step 4, logical databases are associated with physical databases for each Data Set defined in your Directory.
 
 1.  Click the **Physical Databases** tab.
-2.  Click **Add**.
+2.  Click **Add...**
 3.  In the **Name** box, type a name for the database.
 4.  Click **Edit** to the right of the **Data Link** box to define the data link to use when connecting to the database. See [Edit Data Link](edit-data-link.md "Edit Data Link") for more information.
 5.  In the **Vendor Version** box, select a database vendor version. See [Supported Database System Vendors](../system-requirements.md) for more information.
@@ -72,7 +73,7 @@ A Data Set is a collection of data for a single unit of business. For example, m
 
 1.  In the console tree, expand the folder for your Directory. Right-click the **Data Sets** folder. In the shortcut menu, point to **New**, and then click **Data Set**.
 2.  In the **Name** box, type a name for the Data Set. The name will appear as part of the title bar in the Genus desktop client.
-3.  In the **Virtual Directory** box, type a name for the virtual directory associated with the Data Set. See Naming the Virtual Directory for more information.
+3.  In the **Virtual Directory** box, type a name for the virtual directory associated with the Data Set. See [Naming the Virtual Directory](../../defining-an-app-model/data/object-class-property/naming-the-virtual-directory.md) for more information.
 4.  Click **OK**.
 
 **Step 7 - Associate Logical Databases with Physical Databases**
@@ -87,7 +88,7 @@ Logical databases are used to define the location of database tables associated 
 
 The authentication service in Genus App Services provides sign in authentication and user authorization. Your users are granted access to your Genus application according to their credentials, based on Microsoft Active Directory principles. The authentication service is integrated with your Active Directory. However, it is possible to to configure Genus without Active Directory using your own user account data.
 
-1.  In the console tree, right-click the folder for your Directory, and then in the shortcut menu, click **Properties**.
+1.  In the console tree of the Genus Configuration application, right-click the directory, which was created in step 1, and select **Properties**.
 2.  Click the **Authentication** tab.
 3.  If you want to use your own user account data to authenticate users, click **Genus Directory**. If you want users to be authenticated by Active Directory, click **Active Directory**. See [Genus App Services Authentication](../../defining-an-app-model/logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication") for more information.
 4.  If you have selected **Active Directory**, specify LDAP Path and Account identifier information as needed. If you want to manage your security groups within Genus Studio, under the **Security Group Administration** group, click **Genus Directory**. If you want to manage your security groups within Active Directory, click **Active Directory**. See [Active Directory Security Group Administration](active-directory-security-group-administration.md "Active Directory Security Group Administration") for more information.
@@ -100,8 +101,7 @@ To be able to sign in to Genus Studio for the first time, you need to create an 
 
 1.  In the console tree of the Genus Configuration application, right-click the directory, which was created in step 1, and select **Properties**.
 2.  Click the **Database Objects** tab.
-3.  Click **Manage Database**. In the **Database Management** wizard, click **Create an administrator account**.
-4.  Click **Next**.
+3.  Click **Create an administrator account**.Jon
 
 If you are using Genus Directory authentication, follow these steps:
 
@@ -129,7 +129,7 @@ Metadata stored in the descriptive partition of the Directory can only be modifi
 
 **Step 11 - Redirect to secure connection**
 
-If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communication and a Web Server Certificate (see one of the previous steps), you must turn redirection to a secure connection off. To turn redirection to a secure connection off, in the **File** menu, point to Tools, and then click **Options**. Uncheck **Redirect to Secure Connection** and click OK.
+If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communication and a Web Server Certificate (see one of the previous steps), you must turn redirection to a secure connection off. To turn redirection to a secure connection off, in the **Tools** menu click **Options**. Uncheck **Redirect to Secure Connection** and click OK.
 
  **Step 12 - Restart Genus Services** 
 
@@ -143,7 +143,7 @@ The client is normally installed on your PC, but may also be installed on your G
 
 See [Installing Genus Desktop](../install-genus-desktop.md) for more information.
 
- **Step 15 - Define Nodes and Node Groups
+ **Step 15 - Define Nodes and Node Groups**
 
  **Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus App Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.**
 
