@@ -149,7 +149,7 @@
     - name: Analysis concepts
       href: analyze-report-and-discover/analysis/concepts/index.md
     - name: Analysis visualizations
-      href: analyze-report-and-discover/analysis/visualizations/index.md
+      href: analyze-report-and-discover/analysis/visualizations.md
   - name: Data marts
     href: analyze-report-and-discover/data-marts/index.md
     items:
