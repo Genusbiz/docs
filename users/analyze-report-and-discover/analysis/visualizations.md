@@ -36,7 +36,7 @@ The category objects appear in a layout of circles, where the size of a circle c
 
 Actions can be applied to header, content, button, and context menu.
 
-*The visualization is particularly useful for identifying deviating values.*
+*The visualization is particularly useful for identifying deviating values. A typical use case would be identifying outlier branches within a corporation. By showing revenue grouped on branches, and letting the color be set by the size segment, outliers can be identified as circles that differ in size from circles with the same color.*
 
 ## Circular distribution
 A *circular distribution* shows a single value grouped by one or two categories, in a circular visualization.
