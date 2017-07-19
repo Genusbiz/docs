@@ -163,6 +163,8 @@
       href: analyze-report-and-discover/data-marts/tasks.md
     - name: Loading and scheduling
       href: analyze-report-and-discover/data-marts/data-mart-loading.md
+    - name: Data Mart problem solving
+      href: analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md
   - name: Data extract
     href: analyze-report-and-discover/data-extract.md
   - name: Report

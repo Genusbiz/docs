@@ -26,7 +26,7 @@ Properties:
 
 <td>Identifying Name</td>
 
-<td>The name used to identify the server in the network. This name must correspond to the Computer Name, or NetBIOS name, of the server.</td>
+<td>The name used to identify the server in the network. This name must correspond to the Computer Name, or NetBIOS name, of the server. This name MUST NOT include the domain part of the machine address. Eg. "myserver", not "myserver.mynetwork.com"</td>
 
 </tr>
 
