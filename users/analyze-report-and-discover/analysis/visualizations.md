@@ -2,15 +2,15 @@
 
 These are the *Visualizations* available in an *Analysis*
 
-## Arc Gauge
+## Arc gauge
 Can display how a value measures between two other values.
 
 The first value is the data value. The second and third value determines the start and end of the gauge, respectively.
 
-## Area Chart
+## Area chart
 An *Area Chart* has the same functionality as a [Line Chart](line-chart.md).
 
-## Bar Chart
+## Bar chart
 A *Bar Chart* can be used in two ways:
 * Visualizing one or more [Values](../concepts/index.md) grouped by a single [Category](../concepts/index.md)
 * Visualizing a single [Value](../concepts/index.md) grouped by two [Categories](../concepts/index.md), where one acts as a Auto Series
@@ -21,7 +21,7 @@ In the second case, each object in the *Auto Series* will be a *Bar*.
 
 Actions can be applied to Header, Content, Button and Context Menu. 
 
-## Bubble Chart
+## Bubble chart
 Bubble chart vizualies one category data source using three of four values. 
 The first and second value represents the bubbles position on the x and y axis. 
 The third value determines the size of the bubble.
@@ -42,11 +42,11 @@ The value is visualized as the color of each slice, calculated using either a gr
 
 *A typical use case is to visualize when tasks are completed. The radial category would be hour of day, and the linear category day of week. The color would then represent the number of tasks completed at that hour and day.*
 
-## Column Chart
+## Column chart
 A *Column Chart* has the same functionality as a [Bar Chart](bar-chart.md).
 The data points are visualized in vertical columns rather than in horizontal bars.
 
-## Combination Chart
+## Combination chart
 A *Combination Chart* has more than one [Value](../concepts/index.md) grouped by a single [Category](../concepts/index.md)
 
 Each *Value* in a *Combination Chart* can be visualized as a *Column*, a *Line* or an *Area*.
@@ -61,7 +61,7 @@ Actions can be applied to header, content, button, context menu.
 
 *A typical use case would be showing the value of a stock or currency and comparing it to its value the previous day.*
 
-## Doughnut Chart
+## Doughnut chart
 A *Doughnut Chart* has the same functionality as a [Pie Chart](pie-chart.md).
 
 ## Dropdown
@@ -70,15 +70,15 @@ The *Dropdown* visualization is a Multi [Category](../concepts/category.md) Drop
 By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
 It supports sorting by state and selection.
 
-## Full Stacked Area Chart
+## Full stacked area chart
 A *Full Stacked Area Chart* has the same functionality as a [Stacked Area Chart](normal-stacked-area-chart.md).
 The total area will always be the entire area of the tile.
 
-## Full Stacked Bar Chart
+## Full stacked bar chart
 A *Full Stacked Bar Chart* has the same functionality as a [Stacked Bar Chart](normal-stacked-bar-chart.md).
 The bars will all be the same height, so they will not be used to compare the total value of objects in the primary *Category*, but to compare trhe distribution of *Auto Series* objects or *Values* in them.
 
-## Full Stacked Column Chart
+## Full stacked column chart
 A *Full Stacked Column Chart* has the same functionality as a [Full Stacked Bar Chart](percentage-stacked-bar-chart.md).
 The data points are visualized in vertical columns rather than in horizontal bars.
 
@@ -87,7 +87,7 @@ A *Heatmap* visualizes a single [Value](../concepts/index.md) grouped by two [Ca
 
 Actions can be applied to Header, Content, Button, Context Menu.
 
-## Line Chart
+## Line chart
 A *Line Chart* can be used in two ways:
 * Visualizing one or more [Values](../concepts/index.md) grouped by a [Category](../concepts/index.md)
 * Visualizing a single [Value](../concepts/index.md) grouped by two [Categories](../concepts/index.md) where one acts as a Auto Series.
@@ -122,7 +122,7 @@ A *Markdown* visualizes one or more [Values](../concepts/index.md) in a formatte
 The Values are merged into the markdown text definition of the visualization.
 To include a value in the markdown, add e.g. {2} to include the second *Value*.
 
-## Measure List
+## Measure list
 A *Measure List* visualizes one or more [Values](../concepts/index.md)
 
 The Values are listed top down in a two column table.
@@ -139,10 +139,10 @@ The data is put directly after the Label, with no spacing.
 
 Actions can be applied to the Values.
 
-## Stacked Area Chart
+## Stacked area chart
 A *Stacked Area Chart* has the same functionality as a [Stacked Column Chart](normal-stacked-column-chart.md).
 
-## Stacked Bar Chart
+## Stacked bar chart
 A *Stacked Bar Chart* can be used in two ways:
 * Visualizing one [Value](../concepts/index.md) grouped by a primary and secondary [Category](../concepts/index.md). The secondary category is called an *Auto Series*.
 * Visualizing two or more [Values](../concepts/index.md) grouped by a single [Category](../concepts/index.md).
@@ -153,11 +153,11 @@ In the second case, each bar will contain the data value for each *Value*.
 
 Actions can be applied to Header, Content, Button, Context Menu. 
 
-## Stacked Column Chart
+## Stacked column chart
 A *Stacked Column Chart* has the same functionality as a [Stacked Bar Chart](normal-stacked-bar-chart.md).
 The data points are visualized in vertical columns rather than in horizontal bars.
 
-## Pie Chart
+## Pie chart
 A *Pie Chart* visualizes a single [Value](../concepts/index.md) grouped by a single [Category](../concepts/index.md)
 
 Actions can be applied to Header, Content, Button, Context Menu.
@@ -171,13 +171,13 @@ The component accepts 2, 3 or 4 categories (and thus 1, 2 or 3 main values). In 
 
 *A typical use case would be to show the flow of tasks from customer to employee and further from employee to task state. Additional values to be displayed in the tooltip could be the number of hours worked on the tasks or the proportion of tasks completed after deadline*
 
-## Single Category Field
+## Single category field
 A *Single Category Field* is a simple comma-separated outlisting of the objects from a [Category](../concepts/category.md) data source.
 
 By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
 Sorting and selection is supported.
 
-## Speedometer Gauge
+## Speedometer gauge
 Displays a value in a speedometer gauge. The first value is the value to be displayed. The second and third values are the start and end of the gauge, respectively. 
 All following values are thresholds on the gauge. 
 
@@ -195,7 +195,7 @@ Enabling sorting will only have an effect in the case of categorized data.
 ## Table
 A table presents bound data in a tabular format, where columns represent data fields and rows represent objects. Numerous data management and layout customization features are supported.
 
-## Three Dimensional Grid
+## Three dimensional grid
 A Three Dimensional Grid presents bound data in a tabular format, where columns represent data fields and rows represent objects.  Numerous data management and layout customization features are supported.
 
 ## Ticker
@@ -212,12 +212,12 @@ A version of the Ticker without animation is the [Deviation Table](deviation-tab
 ## Transposed grid
 A transposed grid presents bound data in a tabular format, where rows represent data fields and columns represent objects. Numerous data management and layout customization features are supported.
 
-## Two Dimensional Grid
+## Two dimensional grid
 A Two Dimensional Grid presents bound data in a tabular format, where columns represent data fields and rows represent objects.  Numerous data management and layout customization features are supported.
 
 The grid allows data to be grouped by an unlimited number of columns. When a grid is grouped by a single column, rows that have identical values in this column are arranged into groups. Each group is identified by a group row. If the grid is grouped by another column, data rows within each group are arranged into second level groups based on the values of the new grouping column, etc.
 
-## Value Chips
+## Value chips
 A **Value Chip** visualizes one or more [Values](../concepts/index.md)
 
 The Values are left to right, then down.
@@ -225,7 +225,7 @@ The data is put directly after the Label, with no spacing, inside a Chip.
 
 Actions can be applied to the Values.
 
-## Value Grid
+## Value grid
 A *Value Grid* is a spreadsheet-like component visualized in a tabular form where each cell represents one [Value](../concepts/value.md).   
 
 ### Filtering rows and columns
