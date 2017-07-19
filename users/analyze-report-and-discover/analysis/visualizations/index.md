@@ -2,6 +2,7 @@
 
 These are the *Visualizations* available in an *Analysis*
 
+* [Arc gauge](arc-gauge.md)
 * [Area chart](area-chart.md)
 * [Bar chart](bar-chart.md)
 * [Circle packing](circle-packing.md)
