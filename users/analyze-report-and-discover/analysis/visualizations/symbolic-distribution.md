@@ -8,4 +8,4 @@ A symbol picker can be applied to choose a symbol to represent the aggregated va
 
 Enabling sorting will only have an effect in the case of categorized data.
 
-*A typical example of use will be visualizing total hours grouped on projects.* 
+*A typical use case would be visualizing total hours grouped on projects.* 
