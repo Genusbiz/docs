@@ -44,7 +44,7 @@ A *circular distribution* shows a single value grouped by one or two categories,
 The radial category is used to group the value in equal arcs of the circle, while the linear category slices up the arcs inward. 
 The value is visualized as the color of each slice, calculated using either a gradient between the minimum and maximum data points or conditional colors.
 
-*A typical use case would be visualizing at what time of the week tasks are being completed. The radial category would then be the hour of the day, and the linear category the day of the week. The color of a field would then represent the number of tasks completed at a given hour and day.*
+*A typical use case would be visualizing at what time of the week tasks are being completed. The radial category would then be the hour of the day, and the linear category the day of the week. The color of a slice would represent the number of tasks completed at the corresponding hour and day.*
 
 ## Column chart
 A *column chart* has the same functionality as a [bar chart](#bar-chart).
