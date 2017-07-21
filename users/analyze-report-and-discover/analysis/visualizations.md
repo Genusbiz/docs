@@ -44,7 +44,7 @@ A *circular distribution* shows a single value grouped by one or two categories,
 The radial category is used to group the value in equal arcs of the circle, while the linear category slices up the arcs inward. 
 The value is visualized as the color of each slice, calculated using either a gradient between the minimum and maximum data points or conditional colors.
 
-*A typical use case would be visualizing at what time of the week tasks are being completed. The radial category would then be the hour of the day, and the linear category the day of the week. The color of a field would then represent the number of tasks completed at a given hour and day.*
+*A typical use case would be visualizing at what time of the week tasks are being completed. The radial category would then be the hour of the day, and the linear category the day of the week. The color of a slice would represent the number of tasks completed at the corresponding hour and day.*
 
 ## Column chart
 A *column chart* has the same functionality as a [bar chart](#bar-chart).
@@ -119,6 +119,7 @@ The different layers include:
 ### OSM
 Defaults to Open Street Map tiles, but other sources can be used by providing a server url, e.g.: ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
 ### WMS-C
+A Web Map Service can be used to provide map tiles.
 
 ### Data layers
 All data layers (except geoJSON layer) requires a data source with a norhitng and easting property. The available layer type are:
