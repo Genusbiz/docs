@@ -12,6 +12,7 @@ These are the *Visualizations* available in an *Analysis*
 * [Deviation table](deviation-table.md)
 * [Doughnut chart](doughnut-chart.md)
 * [Dropdown](multi-category-dropdown.md)
+* [Eventline] (eventline.md)
 * [Full stacked area chart](percentage-stacked-area-chart.md)
 * [Full stacked bar chart](percentage-stacked-bar-chart.md)
 * [Full stacked column chart](percentage-stacked-column-chart.md)
