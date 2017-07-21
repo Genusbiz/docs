@@ -119,6 +119,7 @@ The different layers include:
 ### OSM
 Defaults to Open Street Map tiles, but other sources can be used by providing a server url, e.g.: ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
 ### WMS-C
+A Web Map Service can be used to provide map tiles.
 
 ### Data layers
 All data layers (except geoJSON layer) requires a data source with a norhitng and easting property. The available layer type are:
