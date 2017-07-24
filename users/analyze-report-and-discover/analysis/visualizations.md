@@ -29,6 +29,13 @@ The first and second value represents the bubbles position on the x and y axis.
 The third value determines the size of the bubble.
 The fourth, optional value can be used for data bound color for the bubbles. 
 
+## Calendar view
+A *calendar view* shows a single value grouped by a single category. The category must be a date data source in order for the visualization to work as intended.
+
+The category groups the value by day, and shows the objects as colorized squares like a calendar. The calendar view shows data up to one year before the reference date.
+
+*A typical use case would be visualizing when tasks are completed.*
+
 ## Circle packing
 A *circle packing* shows a single value grouped by a single category.
 
