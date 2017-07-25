@@ -1,6 +1,6 @@
 # Ticker
 
-A **ticker** is an animated visualization of a [Value](../concepts/index.md) and its deviation from a comparative value.
+A **ticker** is an animated visualization of a [Value](../concepts/index.md) and its relation to a comparative value.
 
 It can be used in three ways:
 * With no value inputs, it will display the name of all the items in the set category. This is the same information as a [Single Category Field](single-category-field.md)

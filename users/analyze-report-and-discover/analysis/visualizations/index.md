@@ -35,3 +35,4 @@ These are the *Visualizations* available in an *Analysis*
 * [Two dimensional grid](two-dimensional-grid.md)
 * [Value chips](value-chips.md)
 * [Value grid](value-grid.md)
+* [Word cloud](word-cloud.md)
