@@ -86,6 +86,17 @@ A *dropdown* visualizes multiple categories.
 It supports N categories. A dropdown containing the category objects is shown for each category.
 It supports sorting by state, and selection.
 
+## Eventline
+An *eventline* is a [Bubble Chart](bubble-chart.md) with a time-based x-axis. It has the following values:
+
+* X-value: This must be connected to a Date
+* Y-value, Radius and Color: Must be numerical
+* Remaining values: These will show up in the tooltip with their label and value. Can be any data type
+
+By clicking and dragging over the graph, the user can select a zoomed in area to display. Double-click to zoom back.
+
+*A typical use case would be showing customers; when they were registered on the x-axis, valuation on the y-axis, number of employees as radius and color according to the customer's field of business*
+
 ## Full stacked area chart
 A *full stacked area chart* has the same functionality as a [stacked area chart](#stacked-area-chart).
 
@@ -236,16 +247,16 @@ A *three dimensional grid* presents bound data in a tabular format, where column
 Numerous data management and layout customization features are supported.
 
 ## Ticker
-A *ticker* is a moving visualization of a value and its deviation from a comparative value.
 
-It can be used in two ways:
-* With one value input, it will compare each element to its predecessor (e.g. change from month to month)
-* With two value inputs, it will compare each element in the primary value source to the corresponding element in the comparative value source. A constant value can be used.
+A *ticker* is an animated visualization of a [Value](../concepts/index.md) and its relation to a comparative value.
 
-In each case, the primary value will be displayed with a colorized symbol indicating whether the value is larger than, smaller than or equal to its comparative value.
-A version of the ticker without animation is the [deviation table](#deviation-table).
+It can be used in three ways:
+* With no value inputs, it will display the name of all the items in the set category. This is the same information as a [Single Category Field](single-category-field.md)
+* With one value input, it will display the name and value of the chosen items. This is the same information as a [Table](table.md)
+* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. A constant value may also be used. This is the same information as a [Deviation Table](deviation-table.md)
 
-*Typical use cases would be showing monthly revenue compared to the previous year or showing the development of a stock value.*
+
+*A typical use case would be showing the value of a stock and comparing it to its value the previous day.*
 
 ## Transposed grid
 A *transposed grid* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
@@ -272,6 +283,15 @@ Actions can be applied to the values.
 
 ## Value grid
 A *value grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value.   
+
+## Word cloud
+A *word cloud* shows all object in a [Category](../concepts/category.md) with their size based on a connected value
+
+Color for each word can be set on the secondary value
+
+The maximum font size is set by body font. Note that too many and/or too large words will increase runtime.  and might not render at all if the tile is too small
+
+*A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
 
 ### Filtering rows and columns
 Rows and columns in the value Grid can be configured with a [filter](concepts/selection) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
