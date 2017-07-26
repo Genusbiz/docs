@@ -135,7 +135,13 @@ They can have one or more layers.
 Layers are either map tiles or data layers.
 The different layers include:
 ### OSM
-Defaults to Open Street Map tiles, but other sources can be used by providing a server url, e.g.: ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
+Defaults to Open Street Map tiles, but other sources can be used by providing a server url.
+Some examples are:
+* ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
+* ``http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg`` 
+
+Please note, that while some these map resources are freely available online, some of them require attribution to be used. To attribute map tile sources, use the Attribution field.
+
 ### WMS-C
 A Web Map Service can be used to provide map tiles.
 
