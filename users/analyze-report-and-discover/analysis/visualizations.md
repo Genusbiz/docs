@@ -91,11 +91,11 @@ It supports sorting by state, and selection.
 ## Eventline
 An *eventline* is a [bubble chart](#bubble-chart) with a time-based x-axis. It has the following values:
 
-* X-value: This must be connected to a Date
-* Y-value, Radius and Color: Must be numerical
-* Remaining values: These will show up in the tooltip with their label and value. Can be any data type
+* X-value: This must be of a date data type.
+* Y-value, Radius and Color: These must be numerical.
+* Remaining values will show up in the tooltip with their label and value. These be of any data type.
 
-By clicking and dragging over the graph, the user can select a zoomed in area to display. Double-click to zoom back.
+By clicking and dragging in the graph, the user can select a zoomed in area to display. A double-click will zoom back.
 
 *A typical use case would be showing customers; when they were registered on the x-axis, valuation on the y-axis, number of employees as radius and color according to the customer's field of business*
 
@@ -261,10 +261,11 @@ Numerous data management and layout customization features are supported.
 A *ticker* is an animated visualization of a value and its relation to a comparative value.
 
 It can be used in three ways:
-* With no value inputs, it will display the name of all the items in the set category. This is the same information as a [single category field](#single-category-field)
-* With one value input, it will display the name and value of the chosen items. This is the same information as a [table](#table)
-* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. A constant value may also be used. This is the same information as a [deviation table](#deviation-table)
+* With no value inputs, it will display the name of all the items in the set category. This is the same information as in a [single category field](#single-category-field).
+* With one value input, it will display the name and value of the chosen items. This is the same information as in a [table](#table).
+* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. This is the same information as in a [deviation table](#deviation-table). 
 
+Constant values can be used. 
 
 *A typical use case would be showing the value of a stock and comparing it to its value the previous day.*
 
