@@ -134,7 +134,10 @@ A *map* visualizes geospatial data.
 They can have one or more layers.
 Layers are either map tiles or data layers.
 The different layers include:
-### OSM
+### Map
+This layer provides the base map. 
+Two server types can be specified:
+#### OSM
 Defaults to Open Street Map tiles, but other sources can be used by providing a server url.
 Some examples are:
 * ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
@@ -142,7 +145,7 @@ Some examples are:
 
 Please note, that while some these map resources are freely available online, some of them require attribution to be used. To attribute map tile sources, use the Attribution field.
 
-### WMS-C
+#### WMS-C
 A Web Map Service can be used to provide map tiles.
 
 ### Data layers
