@@ -89,7 +89,7 @@ It supports N categories. A dropdown containing the category objects is shown fo
 It supports sorting by state, and selection.
 
 ## Eventline
-An *eventline* is a [bubble chart](bubble-chart.md) with a time-based x-axis. It has the following values:
+An *eventline* is a [bubble chart](#bubble-chart) with a time-based x-axis. It has the following values:
 
 * X-value: This must be connected to a Date
 * Y-value, Radius and Color: Must be numerical
