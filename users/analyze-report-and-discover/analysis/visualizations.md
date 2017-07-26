@@ -88,8 +88,8 @@ A *dropdown* visualizes multiple categories.
 It supports N categories. A dropdown containing the category objects is shown for each category.
 It supports sorting by state, and selection.
 
-## Eventline
-An *eventline* is a [bubble chart](#bubble-chart) with a time-based x-axis. It has the following values:
+## Event line
+An *event line* is a [bubble chart](#bubble-chart) with a time-based x-axis. It has the following values:
 
 * X-value: This must be of a date data type.
 * Y-value, Radius and Color: These must be numerical.
