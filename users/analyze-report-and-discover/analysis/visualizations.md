@@ -89,7 +89,7 @@ It supports N categories. A dropdown containing the category objects is shown fo
 It supports sorting by state, and selection.
 
 ## Eventline
-An *eventline* is a [Bubble Chart](bubble-chart.md) with a time-based x-axis. It has the following values:
+An *eventline* is a [bubble chart](bubble-chart.md) with a time-based x-axis. It has the following values:
 
 * X-value: This must be connected to a Date
 * Y-value, Radius and Color: Must be numerical
@@ -258,13 +258,12 @@ A *three dimensional grid* presents bound data in a tabular format, where column
 Numerous data management and layout customization features are supported.
 
 ## Ticker
-
-A *ticker* is an animated visualization of a [Value](../concepts/index.md) and its relation to a comparative value.
+A *ticker* is an animated visualization of a value and its relation to a comparative value.
 
 It can be used in three ways:
-* With no value inputs, it will display the name of all the items in the set category. This is the same information as a [Single Category Field](single-category-field.md)
-* With one value input, it will display the name and value of the chosen items. This is the same information as a [Table](table.md)
-* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. A constant value may also be used. This is the same information as a [Deviation Table](deviation-table.md)
+* With no value inputs, it will display the name of all the items in the set category. This is the same information as a [single category field](#single-category-field)
+* With one value input, it will display the name and value of the chosen items. This is the same information as a [table](#table)
+* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. A constant value may also be used. This is the same information as a [deviation table](#deviation-table)
 
 
 *A typical use case would be showing the value of a stock and comparing it to its value the previous day.*
@@ -293,16 +292,7 @@ The data is put directly after the label, with no spacing, inside a chip.
 Actions can be applied to the values.
 
 ## Value grid
-A *value grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value.   
-
-## Word cloud
-A *word cloud* shows all object in a [Category](../concepts/category.md) with their size based on a connected value
-
-Color for each word can be set on the secondary value
-
-The maximum font size is set by body font. Note that too many and/or too large words will increase runtime.  and might not render at all if the tile is too small
-
-*A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
+A *value grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
 
 ### Filtering rows and columns
 Rows and columns in the value Grid can be configured with a [filter](concepts/selection) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
@@ -315,3 +305,14 @@ Some formatting properties (not exhaustive) are:
 * Border format
 * Background color
 * Text alignment
+
+## Word cloud
+A *word cloud* shows all object in a category with their size based on a connected value
+
+Color for each word can be set on the secondary value
+
+The maximum font size is set by body font. Note that too many and/or too large words will increase runtime.  and might not render at all if the tile is too small
+
+*A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
+
+
