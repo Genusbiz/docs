@@ -34,6 +34,8 @@ A *calendar view* shows a single value grouped by a single category. The categor
 
 The category groups the value by day, and shows the objects as colorized squares like a calendar. The calendar view shows data up to one year before the reference date.
 
+Selection can be done either by clicking on individual day squares or month labels.
+
 *A typical use case would be visualizing when tasks are completed.*
 
 ## Circle packing
