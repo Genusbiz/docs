@@ -142,8 +142,11 @@ Two server types can be specified:
 #### OSM
 Defaults to Open Street Map tiles, but other sources can be used by providing a server url.
 Some examples are:
-* ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
-* ``http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg`` 
+* [Stamen](http://maps.stamen.com/)
+  * ``http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg`` 
+* [Cartocdn](https://carto.com/location-data-services/basemaps/)
+  * ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
+
 
 Please note, that while some these map resources are freely available online, some of them require attribution to be used. To attribute map tile sources, use the Attribution field.
 
