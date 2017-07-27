@@ -93,7 +93,7 @@ An *event line* is a [bubble chart](#bubble-chart) with a time-based x-axis. It 
 
 * X-value: This must be of a date data type.
 * Y-value, Radius and Color: These must be numerical.
-* Remaining values will show up in the tooltip with their label and value. These be of any data type.
+* Remaining values will show up in the tooltip with their label and value. These can be any data type.
 
 By clicking and dragging in the graph, the user can select a zoomed in area to display. A double-click will zoom back.
 
@@ -314,8 +314,6 @@ Some formatting properties (not exhaustive) are:
 A *word cloud* shows all object in a category with their size based on a connected value
 
 Color for each word can be set on the secondary value
-
-The maximum font size is set by body font. Note that too many and/or too large words will increase runtime.  and might not render at all if the tile is too small
 
 *A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
 
