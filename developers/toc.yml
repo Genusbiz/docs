@@ -192,7 +192,7 @@
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md
               - name: Properties
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/properties.md
-          - name: Common control propterties
+          - name: Common control properties
             href: defining-an-app-model/user-interface/forms/views/desktop-controls/common-control-properties.md
         - name: View Layout Fundamentals
           href: defining-an-app-model/user-interface/forms/views/view-layout-fundamentals.md

@@ -160,6 +160,8 @@ This is the simplest layer.
 It shows points on the map and can be configured with a symbol and a symbol color.
 ### Hotspot layer
 This layer shows circle markers that can be configured with data boun size and color.
+### Connection layer
+This layer shows connections (links) between coordinates on the map. The data can either have one coordinate pair and a reference to another data item, or two internal coordinate pairs. One can specify a value to determine the width of the connections. This will then correspond to a geospatial version of the [Sankey diagram](#sankey-diagram). One can also style the connection lines, and show the directin of the links.
 ### Heatmap layer
 This layer is a heatmap of points that must have a value representing its intensity. 
 Max and min intensity properties are optiononal, if none are set, the intensity will scale from the lowest to the highest value.
@@ -200,7 +202,7 @@ Actions can be applied to header, content, button and context menu.
 ## Sankey diagram
 A *Sankey diagram* is a flow diagram where the width of the links is proportional to the flow between the nodes.
 
-In the Genus App platform, the diagram is used to present N-1 values grouped pairwise by N categories.
+In Genus App Platform, the diagram is used to present N-1 values grouped pairwise by N categories.
 The categories will be distributed along the horizontal axis, and appear as vertically stacked columns of category objects.
 Between each pair of adjacent categories, there will be links visualizing the aggregated value between the category objects.
 

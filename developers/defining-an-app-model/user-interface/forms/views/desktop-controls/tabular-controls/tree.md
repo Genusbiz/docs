@@ -1,4 +1,4 @@
-# Tree
+t# Tree
 
 Displays information for a recursive data source in a tree hierarchical structure. Nodes with children can be collapsed or expanded, and additional information is displayed in separate columns.
 
@@ -12,7 +12,7 @@ The columns represent the fields in the data source, and contain cells that disp
 **Fixed Total Summaries**  
 Allows you to display brief information about the rows. For example, you can display the number of records, minimum, maximum values, or average values from various columns.
 
-**Performance Considerations** When displaying large data volumes performance considerations are imporant. Consider turning off or limiting best fit calculations for the width of columns. See the tree and column properties Best Fit Mode and Best Fit Max Row Count.  
+**Performance Considerations** When displaying large data volumes performance considerations are important. Consider turning off or limiting best fit calculations for the width of columns. See the tree and column properties Best Fit Mode and Best Fit Max Row Count.  
 
 The auto option of the scrollbar visibility settings are convenient, but can lead to performance issues. Consider turning off the auto option wherever possible.
 
