@@ -313,7 +313,7 @@ Some formatting properties (not exhaustive) are:
 ## Word cloud
 A *word cloud* shows all object in a category with their size based on a connected value
 
-Color for each word can be set on the secondary value
+Colors can either follow the value, or be based on a secondary value.
 
 *A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
 
