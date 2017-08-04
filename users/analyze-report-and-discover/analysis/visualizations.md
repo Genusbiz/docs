@@ -161,7 +161,7 @@ It shows points on the map and can be configured with a symbol and a symbol colo
 ### Hotspot layer
 This layer shows circle markers that can be configured with data boun size and color.
 ### Connection layer
-This layer shows connections (links) between coordinates on the map. The data can either have one coordinate pair and a reference to another data item, or two internal coordinate pairs. One can specify a value to determine the width of the connections. This will then correspond to a geospatial version of the [Sankey diagram](#sankey). One can also style the connection lines, and show the directin of the links.
+This layer shows connections (links) between coordinates on the map. The data can either have one coordinate pair and a reference to another data item, or two internal coordinate pairs. One can specify a value to determine the width of the connections. This will then correspond to a geospatial version of the [Sankey diagram](#sankey-diagram). One can also style the connection lines, and show the directin of the links.
 ### Heatmap layer
 This layer is a heatmap of points that must have a value representing its intensity. 
 Max and min intensity properties are optiononal, if none are set, the intensity will scale from the lowest to the highest value.
