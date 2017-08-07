@@ -230,20 +230,22 @@ Name | Description
 **addSeconds** | *instance*.addSeconds(*value* [, *resolution*])<br>Return Type: CalendarTime<br><br>**value**<br>- Type: Real<br>**resolution (Optional)**<br>- Type: TimeSpanResolution<br>- Default Value: TimeSpanResolution.seconds<br>- The time resolution.
 **addYears** | *instance*.addYears(*value* [, *resolution*])<br>Return Type: CalendarTime<br><br>**value**<br>- Type: Real<br>**resolution (Optional)**<br>- Type: TimeSpanResolution<br>- Default Value: TimeSpanResolution.years<br>- The time resolution.
 **day** | *instance*.day<br><br>Returns the day component of the date.<br>Return Type: Integer
+**firstIn7DaysWeek** | *instance*.firstIn7DaysWeek<br>Return Type: CalendarTime
+**firstInCalendarWeek** | *instance*.firstInCalendarWeek<br>Return Type: CalendarTime
 **firstInDay** | *instance*.firstInDay<br>Return Type: CalendarTime
 **firstInHour** | *instance*.firstInHour<br>Return Type: CalendarTime
 **firstInMinute** | *instance*.firstInMinute<br>Return Type: CalendarTime
 **firstInMonth** | *instance*.firstInMonth<br>Return Type: CalendarTime
 **firstInQuarter** | *instance*.firstInQuarter<br>Return Type: CalendarTime
-**firstInWeek** | *instance*.firstInWeek<br>Return Type: CalendarTime
 **firstInYear** | *instance*.firstInYear<br>Return Type: CalendarTime
 **hour** | *instance*.hour<br><br>Returns the hour component of the date.<br>Return Type: Integer
+**lastIn7DaysWeek** | *instance*.lastIn7DaysWeek<br>Return Type: CalendarTime
+**lastInCalendarWeek** | *instance*.lastInCalendarWeek<br>Return Type: CalendarTime
 **lastInDay** | *instance*.lastInDay<br>Return Type: CalendarTime
 **lastInHour** | *instance*.lastInHour<br>Return Type: CalendarTime
 **lastInMinute** | *instance*.lastInMinute<br>Return Type: CalendarTime
 **lastInMonth** | *instance*.lastInMonth<br>Return Type: CalendarTime
 **lastInQuarter** | *instance*.lastInQuarter<br>Return Type: CalendarTime
-**lastInWeek** | *instance*.lastInWeek<br>Return Type: CalendarTime
 **lastInYear** | *instance*.lastInYear<br>Return Type: CalendarTime
 **millisecond** | *instance*.millisecond<br><br>Returns the millisecond component of the date.<br>Return Type: Integer
 **minute** | *instance*.minute<br><br>Returns the minute component of the date.<br>Return Type: Integer
