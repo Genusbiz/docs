@@ -3,12 +3,13 @@ title: Genus Docs example article
 description: An example article demonstrating the most common DocFX flavoured Markdown used in Genus Docs for Genus App Platform
 author: eriksandnes
 ---
-````md
+```md
 ---
 title: Genus Docs example article
 description: An example article demonstrating the most common DocFX flavoured Markdown used in Genus Docs for Genus App Platform
 author: eriksandnes
 ---
+```
 
 # Example article
 All articles should start with a meta data section for search engine optimization, see the article [metadata-for-search-engine-optimization](metadata-for-search-engine-optimization.md).
