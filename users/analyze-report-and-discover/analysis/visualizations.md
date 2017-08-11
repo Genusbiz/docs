@@ -183,6 +183,22 @@ A *markdown* visualizes one or more values in a formatted text.
 The values are merged into the markdown text definition of the visualization.
 To include a value in the markdown, add the value number wrapped in curly brackets. One would, for example, write {2} to include the second value.
 
+## Measure
+A *measure* visualizes one or more values
+
+The values are listed top down.
+The data is put directly after the Label, with no spacing.
+
+Actions can be applied to the values.
+
+## Measure chips
+A *measure chip* visualizes one or more values
+
+The values are displayed left to right, then downwards.
+The data is put directly after the label, with no spacing, inside a chip.
+
+Actions can be applied to the values.
+
 ## Measure list
 A *measure list* visualizes one or more values
 
@@ -192,18 +208,25 @@ The data is put right aligned in trhe second column.
 
 Actions can be applied to the values.
 
-## Measure
-A *measure* visualizes one or more values
-
-The values are listed top down.
-The data is put directly after the Label, with no spacing.
-
-Actions can be applied to the values.
-
 ## Pie chart
 A *pie chart* visualizes a single value grouped by a single category
 
 Actions can be applied to header, content, button and context menu.
+
+## Report grid
+A *report grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
+
+### Filtering rows and columns
+Rows and columns in the value Grid can be configured with a [filter](concepts/selection) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
+
+### Formatting
+The value Grid can be formatted in a various of ways, on row level (applied to all cells in that row), column level (applied to all cells in that column) and on cell/value level (applied to a single cell).
+Some formatting properties (not exhaustive) are:
+* Row height
+* Column height
+* Border format
+* Background color
+* Text alignment
 
 ## Sankey
 A *Sankey* diagram is a flow diagram where the width of the links is proportional to the flow between the nodes.
@@ -289,34 +312,9 @@ When a grid is grouped by a single column, rows that have identical values in th
 Each group will then be identified by a group row. 
 If the grid is grouped by another column, data rows within each group are arranged into second level groups based on the values of the new grouping column, etc.
 
-## Value chips
-A *value chip* visualizes one or more values
-
-The values are displayed left to right, then downwards.
-The data is put directly after the label, with no spacing, inside a chip.
-
-Actions can be applied to the values.
-
-## Value grid
-A *value grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
-
-### Filtering rows and columns
-Rows and columns in the value Grid can be configured with a [filter](concepts/selection) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
-
-### Formatting
-The value Grid can be formatted in a various of ways, on row level (applied to all cells in that row), column level (applied to all cells in that column) and on cell/value level (applied to a single cell).
-Some formatting properties (not exhaustive) are:
-* Row height
-* Column height
-* Border format
-* Background color
-* Text alignment
-
 ## Word cloud
 A *word cloud* shows all object in a category with their size based on a connected value
 
 Colors can either follow the value, or be based on a secondary value.
 
 *A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
-
-
