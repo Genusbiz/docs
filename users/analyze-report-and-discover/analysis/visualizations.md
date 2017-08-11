@@ -29,14 +29,32 @@ The first and second value represents the bubbles position on the x and y axis.
 The third value determines the size of the bubble.
 The fourth, optional value can be used for data bound color for the bubbles. 
 
-## Calendar view
-A *calendar view* shows a single value grouped by a single category. The category must be a date data source in order for the visualization to work as intended.
+## Calendar heatmap
+A *calendar heatmap* shows a single value grouped by a single category. The category must be a date data source in order for the visualization to work as intended.
 
 The category groups the value by day, and shows the objects as colorized squares like a calendar. The calendar view shows data up to one year before the reference date.
 
 Selection can be done either by clicking on individual day squares or month labels.
 
 *A typical use case would be visualizing when tasks are completed.*
+
+## Category list
+A *Category list* is a simple comma-separated outlisting of the objects from a category data source.
+
+By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
+Sorting and selection is supported.
+
+## Change list
+A *change list* is used to list a percentage deviation between two values, grouped by a single category.
+
+For all category objects, the table shows the category name and the primary value with its deviation from the comparative value.
+
+The width of the columns can be set by adjusting the *column width* of the category in the format tab of the designer. 
+Sorting can be done by category or value.
+
+Actions can be applied to header, content, button and context menu.
+
+*A typical use case would be showing the value of a stock or currency and comparing it to its value the previous day.*
 
 ## Circle packing
 A *circle packing* shows a single value grouped by a single category.
@@ -47,8 +65,8 @@ Actions can be applied to header, content, button, and context menu.
 
 *The visualization is particularly useful for identifying deviating values. A typical use case would be identifying outlier branches within a corporation. By showing revenue grouped on branches, and letting the color be set by the size segment, outliers can be identified as circles that differ in size from circles with the same color.*
 
-## Circular distribution
-A *circular distribution* shows a single value grouped by one or two categories, in a circular visualization.
+## Circular heatmap
+A *circular heatmap* shows a single value grouped by one or two categories, in a circular visualization.
 
 The radial category is used to group the value in equal arcs of the circle, while the linear category slices up the arcs inward. 
 The value is visualized as the color of each slice, calculated using either a gradient between the minimum and maximum data points or conditional colors.
@@ -66,18 +84,6 @@ A *combination chart* visualizes more than one value, grouped by a single catego
 Each value in a combination chart can be visualized as a *column*, a *line* or an *area*.
 
 Actions can be applied to header, content, button and context menu. 
-
-## Deviation table
-A *deviation table* is used to list a percentage deviation between two values, grouped by a single category.
-
-For all category objects, the table shows the category name and the primary value with its deviation from the comparative value.
-
-The width of the columns can be set by adjusting the *column width* of the category in the format tab of the designer. 
-Sorting can be done by category or value.
-
-Actions can be applied to header, content, button and context menu.
-
-*A typical use case would be showing the value of a stock or currency and comparing it to its value the previous day.*
 
 ## Doughnut chart
 A *doughnut chart* has the same functionality as a [pie chart](#pie-chart).
@@ -161,7 +167,7 @@ It shows points on the map and can be configured with a symbol and a symbol colo
 ### Hotspot layer
 This layer shows circle markers that can be configured with data boun size and color.
 ### Connection layer
-This layer shows connections (links) between coordinates on the map. The data can either have one coordinate pair and a reference to another data item, or two internal coordinate pairs. One can specify a value to determine the width of the connections. This will then correspond to a geospatial version of the [Sankey diagram](#sankey-diagram). One can also style the connection lines, and show the directin of the links.
+This layer shows connections (links) between coordinates on the map. The data can either have one coordinate pair and a reference to another data item, or two internal coordinate pairs. One can specify a value to determine the width of the connections. This will then correspond to a geospatial version of the [Sankey diagram](#sankey). One can also style the connection lines, and show the directin of the links.
 ### Heatmap layer
 This layer is a heatmap of points that must have a value representing its intensity. 
 Max and min intensity properties are optiononal, if none are set, the intensity will scale from the lowest to the highest value.
@@ -199,8 +205,8 @@ A *pie chart* visualizes a single value grouped by a single category
 
 Actions can be applied to header, content, button and context menu.
 
-## Sankey diagram
-A *Sankey diagram* is a flow diagram where the width of the links is proportional to the flow between the nodes.
+## Sankey
+A *Sankey* diagram is a flow diagram where the width of the links is proportional to the flow between the nodes.
 
 In Genus App Platform, the diagram is used to present N-1 values grouped pairwise by N categories.
 The categories will be distributed along the horizontal axis, and appear as vertically stacked columns of category objects.
@@ -211,12 +217,6 @@ In addition to the visualized values, one can specify additional values to be gr
 These values will be displayed in the tooltip.
 
 *A typical use case would be showing how tasks are assigned from customer to employee and further how tasks are distributed between employee and task state. Additional values to be displayed in the tooltip could be the number of hours worked on the tasks or the proportion of tasks completed after deadline*
-
-## Single category field
-A *single category field* is a simple comma-separated outlisting of the objects from a category data source.
-
-By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
-Sorting and selection is supported.
 
 ## Speedometer gauge
 A *speedometer gauge* displays a value in a speedometer gauge. 
@@ -242,8 +242,8 @@ Actions can be applied to header, content, button and context menu.
 A *stacked column chart* has the same functionality as a [stacked bar chart](#normal-stacked-bar-chart).
 The data points are visualized in vertical columns rather than in horizontal bars.
 
-## Symbolic distribution
-A *symbolic distribution* can be used in two ways:
+## Symbol chart
+A *symbol chart* can be used in two ways:
 * Visualizing a single value grouped by a single category
 * Visualizing one or more *uncategorized* values
 
@@ -266,9 +266,9 @@ Numerous data management and layout customization features are supported.
 A *ticker* is an animated visualization of a value and its relation to a comparative value.
 
 It can be used in three ways:
-* With no value inputs, it will display the name of all the items in the set category. This is the same information as in a [single category field](#single-category-field).
+* With no value inputs, it will display the name of all the items in the set category. This is the same information as in a [category list](#category-list).
 * With one value input, it will display the name and value of the chosen items. This is the same information as in a [table](#table).
-* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. This is the same information as in a [deviation table](#deviation-table). 
+* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. This is the same information as in a [change list](#change-list). 
 
 Constant values can be used. 
 
