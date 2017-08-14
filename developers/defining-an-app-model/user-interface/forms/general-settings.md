@@ -1,6 +1,6 @@
 # General settings
 
-To open General Settings, in the **File** menu click **General Settings**.
+To open General Settings, click **General Settings** button.
 
 Add a **Name** for the form.
 
