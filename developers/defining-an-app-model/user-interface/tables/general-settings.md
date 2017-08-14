@@ -1,6 +1,14 @@
 # General Settings
 
-To open General Settings, in the **File** menu click **General Settings**.
+
+To open General Settings, click **General Settings** button.
+
+Add a **Name** for the table.
+
+Add an optional **Description** of the table.
+
+To make the table visible for analysis etc, check the **enabled for user defined actions** option.
+
 
 ## Add a symbol
 
