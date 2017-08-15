@@ -297,8 +297,8 @@ Constant values can be used.
 
 *A typical use case would be showing the value of a stock and comparing it to its value the previous day.*
 
-## Transposed grid
-A *transposed grid* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
+## Transposed table
+A *transposed table* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
 
 Numerous data management and layout customization features are supported.
 
