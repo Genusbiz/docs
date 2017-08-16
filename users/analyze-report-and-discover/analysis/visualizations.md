@@ -22,6 +22,9 @@ In the second case, each object in the auto series will be a bar.
 
 Actions can be applied to header, content, button and context menu. 
 
+## Barrel roll
+Takes a single category as input and loops over the category data. 
+
 ## Bubble chart
 A *bubble chart* vizualies three of four values grouped on a single category. 
 
@@ -296,6 +299,9 @@ It can be used in three ways:
 Constant values can be used. 
 
 *A typical use case would be showing the value of a stock and comparing it to its value the previous day.*
+
+## Timer
+A digital display that counts down.  Upon reaching zero, the analysis will be updated and the timer will be reset. 
 
 ## Transposed table
 A *transposed table* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
