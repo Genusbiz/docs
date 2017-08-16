@@ -241,6 +241,12 @@ These values will be displayed in the tooltip.
 
 *A typical use case would be showing how tasks are assigned from customer to employee and further how tasks are distributed between employee and task state. Additional values to be displayed in the tooltip could be the number of hours worked on the tasks or the proportion of tasks completed after deadline*
 
+## Summary
+A *Summary* presents a summary of the active data source selections in the analysis.  
+For each category data source in use by the analysis, the number of selected/qualified items are listed. If there are 10 or less qualified or selected items, these will be listed by name. Additionally, a bar that displays the size of the selected/qualified items relative to the total amount of items is displayed.  
+
+You have the possibility to lock/unlock and clear the selection for each category data source by clicking on the corresponding icons upon hovering.
+
 ## Speedometer gauge
 A *speedometer gauge* displays a value in a speedometer gauge. 
 The first value is the value to be displayed. 
