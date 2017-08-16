@@ -82,8 +82,8 @@ A *circular progress* shows one or two values grouped by a single category.
 The category objects appear in a layout of circular arcs. The graph is used to show progress towards a maximum value/goal. Only a single value has to be set to use the visualization, but a total of four values can be set: 
 * Angle: Dictates the angle measure of the arc. Color can be bound to this value.
 * Color: Value with sole purpose of setting color of the arcs, either conditional or a linear gradient.
-* Min value: Category object with an aggregated value below this will be pruned.
-* Max value: The aggregated values will be compared to this. All values exceeding this will be capped at the maximum angle measure (270 degrees).
+* Min value: Category object with an aggregated value below this will be pruned. This must be a consant.
+* Max value: The aggregated values will be compared to this. All values exceeding this will be capped at the maximum angle measure (270 degrees). This must be a constant.
 
 ## Column chart
 A *column chart* has the same functionality as a [bar chart](#bar-chart).
