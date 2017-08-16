@@ -22,6 +22,9 @@ In the second case, each object in the auto series will be a bar.
 
 Actions can be applied to header, content, button and context menu. 
 
+## Barrel roll
+Takes a single category as input and loops over the category data. 
+
 ## Bubble chart
 A *bubble chart* vizualies three of four values grouped on a single category. 
 
@@ -72,6 +75,15 @@ The radial category is used to group the value in equal arcs of the circle, whil
 The value is visualized as the color of each slice, calculated using either a gradient between the minimum and maximum data points or conditional colors.
 
 *A typical use case would be visualizing at what time of the week tasks are being completed. The radial category would then be the hour of the day, and the linear category the day of the week. The color of a slice would represent the number of tasks completed at the corresponding hour and day.*
+
+## Circular progress
+A *circular progress* shows one or two values grouped by a single category. 
+
+The category objects appear in a layout of circular arcs. The graph is used to show progress towards a maximum value/goal. Only a single value has to be set to use the visualization, but a total of four values can be set: 
+* Angle: Dictates the angle measure of the arc. Color can be bound to this value.
+* Color: Value with sole purpose of setting color of the arcs, either conditional or a linear gradient.
+* Min value: Category object with an aggregated value below this will be pruned.
+* Max value: The aggregated values will be compared to this. All values exceeding this will be capped at the maximum angle measure (270 degrees).
 
 ## Column chart
 A *column chart* has the same functionality as a [bar chart](#bar-chart).
@@ -302,6 +314,9 @@ It can be used in three ways:
 Constant values can be used. 
 
 *A typical use case would be showing the value of a stock and comparing it to its value the previous day.*
+
+## Timer
+A digital display that counts down.  Upon reaching zero, the analysis will be updated and the timer will be reset. 
 
 ## Transposed table
 A *transposed table* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
