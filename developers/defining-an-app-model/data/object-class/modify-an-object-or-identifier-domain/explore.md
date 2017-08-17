@@ -254,6 +254,9 @@ The following rules applies for associating properties and connections:
 *   If the **Base Property** is a connection, the **Associated Property** can be either a property or a connection.
 *   The data interpretation for the **Base Property** and the **Associated Property** has to be the same.
 
+## Show in Recent Items
+
+Select this option to allow objects for this concept to appear in the recent items list.
 
 
 ## Default Form

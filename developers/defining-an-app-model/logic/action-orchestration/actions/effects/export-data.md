@@ -138,9 +138,9 @@ When exporting large volumes of data, you can optimize performance by spooling d
 If you expect that the export would exceed the default timeout for your Application Model, you should specify the maximum allowed time the effect can run. To do this, do the following:
 
 1.  Click the **Advanced** tab.
-2.  In the **Timeout** section, click **Allow the effect to run for**, and then type the maximum number of minutes the effect is allowed to run.
+2.  In the **Timeout** section, click **Allow the effect to run for**, and then type the maximum number of seconds the effect is allowed to run.
 
-Note! If the effect is run from an interactive client, the maximum timeout is limited to 5 minutes.
+Note! If the effect is run from an interactive client, the maximum timeout is limited to 300 seconds.
 
 
 
