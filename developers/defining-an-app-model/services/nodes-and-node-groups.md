@@ -26,7 +26,7 @@ Properties:
 
 <td>Identifying Name</td>
 
-<td>The name used to identify the server in the network. This name must correspond to the Computer Name, or NetBIOS name, of the server.</td>
+<td>The name used to identify the server in the network. This name must correspond to the Computer Name, or NetBIOS name, of the server. This name MUST NOT include the domain part of the machine address. Eg. "myserver", not "myserver.mynetwork.com"</td>
 
 </tr>
 
@@ -131,5 +131,5 @@ A group can contain nodes from several environments, for example development, te
 **Typical Scenarios**
 
 *   Test and Production Environments - Define all nodes that exist in the test environment and in the production environment, and add them to the node groups relevant for your system. When transferring the directory from the test environment to the production environment, no further configuration of nodes and node groups are necessary.
-*   Dedicat nodes for different load - Use node groups to dedicate nodes for certain types of load to increase performance. For example use a group of nodes to only handle data mart requests. Or for exampC%le have two node groups which both handle agents, but one is used for agents which run heavy batch operations, while the other handle short lived operations.
+*   Dedicated nodes for different load - Use node groups to dedicate nodes for certain types of load to increase performance. For example use a group of nodes to only handle data mart requests. Or for example have two node groups which both handle agents, but one is used for agents which run heavy batch operations, while the other handle short lived operations.
 *   Dedicate nodes for different data sets - Let the node group that handles web services contain several nodes, where each node is specified to only handle one data set.
