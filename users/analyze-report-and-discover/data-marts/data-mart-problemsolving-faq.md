@@ -40,3 +40,9 @@ For a Data Mart server to provide any services it must be added to the directory
     *   Click Add in the Node Group dialog window to add an existing Node to this Node Group.
     *   A Node Group may contain one or more Nodes.
 *   See [Nodes and node groups](../../../developers/defining-an-app-model/services/nodes-and-node-groups.md) for more information
+
+**Permissions**
+To make an analysis or data mart; make sure you have permissions to create an analysis or data mart. Make sure the user of the analysis has read & execute permissions to the analysis and data mart.
+
+**Genus Configuration**
+Try typing the “Virtual Directory” of a data set with only lower case letters
