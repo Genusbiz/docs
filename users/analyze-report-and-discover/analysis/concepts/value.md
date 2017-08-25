@@ -9,9 +9,9 @@ A *Value* can be;
 * the result of a [Function](function.md)
 * the result of a [Formula](formula.md)
 
-*Values* can be pies in a [Pie Chart](../visualizations.md#pie-chart.md) or bars in a [Bar Chart](../visualizations#bar-chart.md)
-Some [Visualizations](../visualizations.md) use a different name for *Value*. E.g. a [Table](../visualizations#table.md) calls them *Columns*.
+*Values* can be pies in a [Pie Chart](../visualizations.md#pie-chart) or bars in a [Bar Chart](../visualizations.md#bar-chart)
+Some [Visualizations](../visualizations.md) use a different name for *Value*. E.g. a [Table](../visualizations.md#table) calls them *Columns*.
 
 ### Data types and Aggregates
 Values can be numerics, strings, dates, etc.
-Only numeric *Values* can be aggregated. If a non-numeric field of an object is used in e.g. a [Measure](../visualizations#measure.md) it uses a single-or-nothing algorithm, meaning if there is a single qualified object in the data source of the value, then the data element of that object is used, otherwise nothing is used.
+Only numeric *Values* can be aggregated. If a non-numeric field of an object is used in e.g. a [Measure](../visualizations.md#measure) it uses a single-or-nothing algorithm, meaning if there is a single qualified object in the data source of the value, then the data element of that object is used, otherwise nothing is used.
