@@ -229,7 +229,7 @@ Actions can be applied to header, content, button and context menu.
 A *report grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
 
 ### Filtering rows and columns
-Rows and columns in the value Grid can be configured with a [filter](concepts/selection) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
+Rows and columns in the value Grid can be configured with a [filter](./concepts/selection.md) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
 
 ### Formatting
 The value Grid can be formatted in a various of ways, on row level (applied to all cells in that row), column level (applied to all cells in that column) and on cell/value level (applied to a single cell).
@@ -266,7 +266,7 @@ The second and third values are the start and end of the gauge, respectively.
 All additional values are thresholds on the gauge. 
 
 ## Stacked area chart
-A *stacked area chart* has the same functionality as a [stacked column chart](#normal-stacked-column-chart).
+A *stacked area chart* has the same functionality as a [stacked column chart](#stacked-column-chart).
 
 ## Stacked bar chart
 A *stacked bar chart* can be used in two ways:
@@ -280,7 +280,7 @@ In the second case, each bar will contain the data value for each value.
 Actions can be applied to header, content, button and context menu. 
 
 ## Stacked column chart
-A *stacked column chart* has the same functionality as a [stacked bar chart](#normal-stacked-bar-chart).
+A *stacked column chart* has the same functionality as a [stacked bar chart](#stacked-bar-chart).
 The data points are visualized in vertical columns rather than in horizontal bars.
 
 ## Symbol chart

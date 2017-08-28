@@ -13,6 +13,7 @@
 2. Download "docfx.zip" from [here](https://github.com/dotnet/docfx/releases).
 3. Unzip to d:\ (or c:\ or whereever you prefer to install it), which will create the d:\DocFX folder (NB! Make sure you do not create d:\DocFX\DocFX…)
 4. We recommend adding d:\DocFX (or your choice of path) to your Windows PATH environment variable following the steps [here](#how-to-add-a-folder-to-your-windows-10-path-environment-variable).
+5. NOTE! The automated build & publish from GitHub to [docs.genus.no](https://docs.genus.no/) (in Azure) _always_ uses the latest version of DocFX. So remember to update your _local_ DocFX installation once in a while.
 
 ## Markdown editor
 1. Install your favorite editor for markdown files, like [Visual Studio Code](https://code.visualstudio.com/download).

@@ -150,6 +150,8 @@
       href: analyze-report-and-discover/analysis/concepts/index.md
     - name: Analysis visualizations
       href: analyze-report-and-discover/analysis/visualizations.md
+    - name: Analysis configuration
+      href: analyze-report-and-discover/analysis/config.md
   - name: Data marts
     href: analyze-report-and-discover/data-marts/index.md
     items:
