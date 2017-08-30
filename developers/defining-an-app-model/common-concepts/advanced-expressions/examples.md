@@ -22,12 +22,12 @@ order.amount.asOrderedSet().Sort(true).last()
 
 **Select female employees**
 ```php
-employees.select( e | e.gender = Gender.female and EmploymentState.engaged)
+employees.select( e | e.gender = Gender.female and e.state = EmploymentState.engaged)
 ```
 
 **Find birthdate of the youngest male employee**
 ```php
-employees.select( e | e.gender = Gender.male and EmploymentState.engaged).asOrderedSet().sort(false).first()  
+employees.select( e | e.gender = Gender.male and e.state = EmploymentState.engaged).asOrderedSet().sort(false).first()  
 ```
 
 **Create a comma separated list of regions**
