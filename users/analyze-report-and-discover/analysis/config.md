@@ -12,3 +12,6 @@ To disable Sentry (e.g. if your analysis runs in an environment without direct i
 	"enableSentry": false
 	}
 	~~~~
+
+## Authentication
+As Analyses run in web apps, the same configuration ([Allowed Origins](../../../developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md#allowed-origins), etc.) as done in Genus Apps is needed.
