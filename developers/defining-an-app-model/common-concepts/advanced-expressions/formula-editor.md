@@ -2,19 +2,19 @@
 
 The formula editor is a syntax aware text editor, which allows you to edit [advanced expressions](../advanced-expressions.md).
 
-![formula_editor.png](media/formula_editor.png)
+![formula_editor.png](media/formula_editor.png "Formula editor")
 
 **Warning messages**
 
 If the expression is not valid, a message is displayed to warn you that the expression cannot be saved.
 
-![formula_editor_warning.png](media/formula_editor_warning.png)
+![formula_editor_warning.png](media/formula_editor_warning.png "Warning message")
 
 **Auto complete**
 
 When typing, the editor provides context relevant suggestions. Type "." after an object to see the list.
 
-![formula_editor_auto_complete.png](media/formula_editor_auto_complete.png)
+![formula_editor_auto_complete.png](media/formula_editor_auto_complete.png "Auto complete")
 
 **Insert fields, groups or functions**
 
