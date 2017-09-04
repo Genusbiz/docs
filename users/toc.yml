@@ -144,8 +144,8 @@
       href: analyze-report-and-discover/analysis/designer/index.md
     - name: Open an Analysis
       href: analyze-report-and-discover/analysis/open-an-analysis.md
-    - name: Use an Analysis
-      href: analyze-report-and-discover/analysis/use-an-analysis.md
+    - name: Advanced analysis
+      href: analyze-report-and-discover/analysis/advanced-analysis.md
     - name: Analysis concepts
       href: analyze-report-and-discover/analysis/concepts/index.md
     - name: Analysis visualizations
