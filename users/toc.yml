@@ -155,8 +155,8 @@
   - name: Data marts
     href: analyze-report-and-discover/data-marts/index.md
     items:
-    - name: Data mart fundamentals
-      href: analyze-report-and-discover/data-marts/data-mart-fundamentals.md
+    - name: Data mart concepts
+      href: analyze-report-and-discover/data-marts/data-mart-concepts.md
     - name: Data sources
       href: analyze-report-and-discover/data-marts/data-sources.md
     - name: Data view
