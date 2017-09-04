@@ -142,8 +142,6 @@
     items:
     - name: Design an Analysis
       href: analyze-report-and-discover/analysis/designer/index.md
-    - name: Open an Analysis
-      href: analyze-report-and-discover/analysis/open-an-analysis.md
     - name: Advanced analysis
       href: analyze-report-and-discover/analysis/advanced-analysis.md
     - name: Analysis concepts

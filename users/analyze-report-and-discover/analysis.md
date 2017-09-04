@@ -5,6 +5,5 @@ Analysis lets you discover new information and knowledge from your data, in an i
 Selected groups of users can be granted permsissions to create new analyses. The analyses are then made available for other groups of users, by granting the necessary permissions. Shortcuts to analyses can also be created in the [navigation pane](../navigate-view-modify-and-control/navigation-pane.md) by a system administrator.
 
 **Topics in "Analysis"**
-* [Open an Analysis](analysis/open-an-analysis.md)
 * [Advanced Analysis](analysis/advanced-analysis.md)
 * [Design an Analysis](analysis/designer/index.md)
