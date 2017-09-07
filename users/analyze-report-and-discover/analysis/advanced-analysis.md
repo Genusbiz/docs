@@ -1,4 +1,4 @@
-# Use an Analysis
+# Advanced Analysis
 
 The main concept of an Analysis is to let the user select items of interest, and then provide feedback based on the current selection. All elements in the analysis are immediately updated based on which items in the underlying data mart are now relevant. All aggregated information like measures and charts are updated, lists display wich items are relevant and which are excluded, and so on.
 

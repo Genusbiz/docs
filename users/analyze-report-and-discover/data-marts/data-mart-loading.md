@@ -38,7 +38,7 @@ It is also possible to define and configure multiple reload-schedules by checkin
 
 A data mart represents a snapshot of the source data at a given time, running in-memory on a server-node. How often this snapshot should be refreshed will depend on a combination of business reqirements, expected loading times and the amount of server resources available. Reloading a heavy data mart too frequently may hurt performance on the server, while to in-frequent reloads may result in stale data. 
 
-Smaller data marts may be set up to reload more frequently, offering a fresh view of the data when needed. [Data Mart Fundamentals](data-mart-fundamentals.md) also recommends you to create small and to-the-point data marts, giving opportunities to reload more often.
+Smaller data marts may be set up to reload more frequently, offering a fresh view of the data when needed. [Data Mart Concepts](data-mart-concepts.md) also recommends you to create small and to-the-point data marts, giving opportunities to reload more often.
 
 **Load Options**
 

@@ -140,23 +140,25 @@
   - name: Analysis
     href: analyze-report-and-discover/analysis.md
     items:
-    - name: Design an Analysis
-      href: analyze-report-and-discover/analysis/designer/index.md
-    - name: Open an Analysis
-      href: analyze-report-and-discover/analysis/open-an-analysis.md
-    - name: Use an Analysis
-      href: analyze-report-and-discover/analysis/use-an-analysis.md
+    - name: Getting started
+      href: analyze-report-and-discover/analysis/getting-started.md
     - name: Analysis concepts
       href: analyze-report-and-discover/analysis/concepts/index.md
     - name: Analysis visualizations
       href: analyze-report-and-discover/analysis/visualizations.md
     - name: Analysis configuration
       href: analyze-report-and-discover/analysis/config.md
+    - name: Design an Analysis
+      href: analyze-report-and-discover/analysis/designer/index.md
+    - name: Advanced analysis
+      href: analyze-report-and-discover/analysis/advanced-analysis.md
   - name: Data marts
     href: analyze-report-and-discover/data-marts/index.md
     items:
-    - name: Data mart fundamentals
-      href: analyze-report-and-discover/data-marts/data-mart-fundamentals.md
+    - name: Getting started
+      href: analyze-report-and-discover/data-marts/getting-started.md
+    - name: Data mart concepts
+      href: analyze-report-and-discover/data-marts/data-mart-concepts.md
     - name: Data sources
       href: analyze-report-and-discover/data-marts/data-sources.md
     - name: Data view

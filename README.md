@@ -53,3 +53,9 @@ All the articles in the repository use GitHub and DocFX flavored Markdown. Here 
 * [DocFX flavoured Markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html)
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Printable Markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
+To link to a heading within an article, use # before the heading name, replacing any spaces with hyphens, like this link to the definition of the term [App Model](terminology.md#app-model) in the Terminology article:
+```
+[App Model](terminology.md#app-model)
+```
+

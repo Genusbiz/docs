@@ -1,4 +1,22 @@
+---
+title: Keyboard shortcuts - Genus App Platform
+description: Keyboard shortcuts defined in the App Model and built in as part of Genus App Platform
+author: terjesnarby
+---
+
 # Keyboard shortcuts
+
+There are two types of keyboard shortcuts.
+1. Keyboard shortcuts defined in the App Model.
+2. Keyboard shortcuts built in as part of Genus App Platform.
+
+## Keyboard shortcuts defined in the App Model
+
+Keyboard shortcuts, also known as hotkeys and keybinds, can be defined within the App Model in the Customize Ribbon menu in the Form and Table designer.
+
+Select the command you want to assign the new shortcut to, enter a new shortcut by activating the "Enter new Shortcut"-editor and performing the desired keyboard combination. There you will also see if a shortcut is currently assigned to the command or the entered keyboard shortcut.
+
+## Keyboard shortcuts built in as part of Genus App Platform
 
 These keyboard shortcuts apply for Genus Desktop and Genus Studio, and not Genus Apps.
 
@@ -6,7 +24,7 @@ The keyboard shortcuts refer to the U.S. keyboard layout. Keys on other layouts 
 
 For keyboard shortcuts in which you press two or more keys simultaneously, the keys to press are separated by a plus sign (+).
 
-## Basics
+### Basics
 
 | To do this                                               | Press          |
 | -------------------------------------------------------- | -------------- |
@@ -22,7 +40,7 @@ For keyboard shortcuts in which you press two or more keys simultaneously, the k
 | Open the Alerts window                                   | CTRL+SHIFT+X   |
 | Switch to or open the main window                        | CTRL+SHIFT+G   |
 
-## Working with objects
+### Working with objects
 
 | To do this                                               | Press          |
 | -------------------------------------------------------- | -------------- |
@@ -65,7 +83,7 @@ For keyboard shortcuts in which you press two or more keys simultaneously, the k
 | Close Search. Closes the current search and resets to default data filter in a table. | CTRL+F5 |
 
 
-## Genus Studio
+### Genus Studio
 
 | To do this                                               | Press          |
 | -------------------------------------------------------- | -------------- |
@@ -81,7 +99,7 @@ For keyboard shortcuts in which you press two or more keys simultaneously, the k
 | Deploy the Directory to your computer                    | CTRL + F9      |
 
 
-## Object class diagram
+### Object class diagram
 
 | To do this                                               | Press          |
 | -------------------------------------------------------- | -------------- |

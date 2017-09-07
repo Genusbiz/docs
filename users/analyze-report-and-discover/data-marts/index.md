@@ -9,7 +9,7 @@ The complexity is reduced, not only indirectly by reducing the data volume, but 
 The data mart also provides the possibility to enrich the existing data by defining new supplements to the data. Fields and data sources that do not exist in the enterprise data can be added by defining how the values are calculated when the data mart is loaded. For example, an aggregate of the sales data can be created to improve performance for the users, or an extra field calculating the number of days between the order date and shipping date can be added to the internet sales data source.
 
 **Topics in "Data Marts"**
-* [Data Mart Fundamentals](data-mart-fundamentals.md)
+* [Data Mart Concepts](data-mart-concepts.md)
 * [Data Sources](data-sources.md)
 * [Data View](data-view.md)
 * [Tasks](tasks.md)
