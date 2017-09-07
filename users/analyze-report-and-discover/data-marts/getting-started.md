@@ -2,7 +2,9 @@
 
 The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. 
 
-**Explore these topics to learn more:**
-* [Data mart concepts](data-mart-concepts.md)
-* [Data mart loading and scheduling] (data-mart-loading.md)
-* [Data Mart problem solving] (data-mart-problemsolving-faq.md)
+The main steps when creating a data mart includes:
+
+*   Add data sources and specify data filters.
+*   Publish fields for the data sources.
+*   Define connections between data sources.
+*   Add any local fields or data sources to enrich the data mart.

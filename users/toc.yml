@@ -142,7 +142,7 @@
     items:
     - name: Getting started
       href: analyze-report-and-discover/analysis/getting-started.md
-    - name: Analysis concepts
+    - name: Concepts
       href: analyze-report-and-discover/analysis/concepts/index.md
     - name: Visualizations
       href: analyze-report-and-discover/analysis/visualizations.md
@@ -157,7 +157,7 @@
     items:
     - name: Getting started
       href: analyze-report-and-discover/data-marts/getting-started.md
-    - name: Data mart concepts
+    - name: Concepts
       href: analyze-report-and-discover/data-marts/data-mart-concepts.md
     - name: Data sources
       href: analyze-report-and-discover/data-marts/data-sources.md
