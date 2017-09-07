@@ -1,4 +1,4 @@
-# Visualizations
+# Analysis visualizations
 
 These are the *visualizations* available in an *analysis*
 
