@@ -95,7 +95,10 @@ Example: (2+3)-A
 The above formula consists of 7 nodes; a groupStart, "(", a constant operand, "2", an addition operator, "+", another constant operand, "3", a groupEnd, ")", a subtraction operator, "-", and a value reference operand, "A" (where A is pointing to a [Value](#value). Additionaly, (2+3) is a group/sub formula.
 
 ### Operand node
-An operand node is either a numeric constant, a [Value](#value) reference or an *if-then* statement. When a formula is computed, a value reference operand will look up the referenced value's current data constant and use this constant upon calculation.
+An operand node can be either of these:
+* a numeric constant
+* a [Value](#value) reference - upon calculation, it gets the actual data value of the referenced Value
+* an *If...then* statement, where a condition (comparing [Value](#value) references and/or constants) is tested. If the condition is true, it returns one Value or constant, else it return another Value or constant.
 
 ### Operator node
 An operator node represents an arithmetic operation that is to be applied on two constants.  
