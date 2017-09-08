@@ -21,7 +21,7 @@ An analysis gives feedback based on the items that are selected at any given tim
 There are several ways to change the selections in an analysis. 
 
 **Select Items**  
-To select an item in a list , click the item, or right click the item and select **Set as Selected** in the shortcut menu.
+To select a single item in a list , click on it.
 
 To select several items in a list, press and hold the CTRL key, then click the items, and then release the CTRL key. To select a sequence of items in a list, press and hold the SHIFT key, click the first item in the sequence, then click the last item in the sequence, and then release the SHIFT key.  
 
