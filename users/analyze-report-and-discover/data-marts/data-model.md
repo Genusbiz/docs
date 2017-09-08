@@ -1,6 +1,6 @@
 # Data-model view
 
-**ATTENTION: This view is named "Data View" for the time being. This will be changed soon.**
+**ATTENTION: This view is named "Data View" in the data mart editor for the time being. This will be changed soon.**
 
 The data-model view shows a visual diagram of the data sources, properties and connections added to the data mart. The data-model view helps improve the understanding of the data mart model while it is being built, and the diagram is also available in [Analyses](../analysis.md) and [Data Extracts](../data-extract.md) to provide information on the content of the data mart.
 
