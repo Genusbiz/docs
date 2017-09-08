@@ -1,3 +1,3 @@
 # Data sources
 
-_The contents are under construction. We are sorry for the inconvenience._
+**ATTENTION: This view will be removed soon. Don't use it. Use Data View instead**

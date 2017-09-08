@@ -39,7 +39,7 @@ Bindings that are **One Way** or **Two Way** listen for changes in the data sour
 
 ## Add a new field to a data source
 
-A data source in a form or table that is is based on an [Object Class](../../data/object-class/index.md) defined in your Directory, have fields in the data source that corresponds to [properties](../../data/object-class-property/index.md "Object Class Property") in the Object Class. A data source of the type Local Object, have all the fields defined locally.
+A data source in a form or table is based on an [Object Class](../../data/object-class/index.md) defined in your Directory, have fields in the data source that corresponds to [properties](../../data/object-class-property/index.md "Object Class Property") in the Object Class. A data source of the type Local Object, have all the fields defined locally.
 
 To add a new field, do the following:
 

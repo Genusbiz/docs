@@ -157,17 +157,19 @@
     items:
     - name: Getting started
       href: analyze-report-and-discover/data-marts/getting-started.md
-    - name: Data mart concepts
+    - name: Concepts
       href: analyze-report-and-discover/data-marts/data-mart-concepts.md
     - name: Data sources
       href: analyze-report-and-discover/data-marts/data-sources.md
-    - name: Data view
-      href: analyze-report-and-discover/data-marts/data-view.md
+    - name: Data model (Data View)
+      href: analyze-report-and-discover/data-marts/data-model.md
+    - name: Advanced data model
+      href: analyze-report-and-discover/data-marts/data-model-advanced.md
     - name: Tasks
       href: analyze-report-and-discover/data-marts/tasks.md
     - name: Loading and scheduling
       href: analyze-report-and-discover/data-marts/data-mart-loading.md
-    - name: Data Mart problem solving
+    - name: Problem solving
       href: analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md
   - name: Data extract
     href: analyze-report-and-discover/data-extract.md
