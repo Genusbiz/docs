@@ -142,7 +142,7 @@
     items:
     - name: Getting started
       href: analyze-report-and-discover/analysis/getting-started.md
-    - name: Analysis concepts
+    - name: Concepts
       href: analyze-report-and-discover/analysis/concepts/index.md
     - name: Analysis visualizations
       href: analyze-report-and-discover/analysis/visualizations.md
