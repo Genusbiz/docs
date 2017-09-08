@@ -4,27 +4,27 @@
 
 Some data marts provides large amounts of relatively static data, while other use-cases may require frequently updated data. These are some considerations that must be made when developing a load-strategy for a data mart:
 
-*   Freshness: Is it really necessary to have a near-realtime view of the data?
-*   Loading time: Longer loading-times may require more in-frequent loading.
-*   At what time of the day should a DataMart re-load? Loading of heavy data marts could be scheduled to happen during off-hours.
-*   Can a new data mart instance be loaded in parallel, next to an already running instance? This would allow continous access to a running instance.
-*   Should a data mart re-load automatically in the event of a server-failure? 
+*   **Freshness**: Is it really necessary to have a near-realtime view of the data?
+*   **Loading time**: Longer loading-times may require more in-frequent loading.
+*   **Reloading**: At what time of the day should a data mart re-load? Loading of heavy data marts could be scheduled to happen during off-hours.
+*   **Parallel loading**: Can a new data mart instance be loaded in parallel, next to an already running instance? 
+*   **Automatic loading**: Should a data mart re-load automatically in the event of a server-failure? 
 
-Data mart load scheduling is configured in the Schedules table found when expanding the "Data Marts"-item of the Discovery-group in Genus Studio. A Data Mart Schedule defines all aspects of the loading strategy for a given data mart:
+Data mart load scheduling is configured in the Schedules table found when expanding the "Data Marts"-item of the Discovery-group in Genus Studio. A data mart schedule defines all aspects of the loading strategy for a given data mart:
 
-*   **Data mart**
+*   **Data mart**: Identifies which data mart this schedule should handle.
 *   **Node Group**: Identifies which Node Group that should handle requests for this data mart.
 *   **Schedule**: Configures when and how often the data mart should reload.
 *   **Auto Load**: Indicates if a data mart should load automatically if it is not already loaded.
 *   **Load Parallel**: Indicates if a new data mart instance should be reloaded without stopping the already running instance.
 *   **Enabled**: Allows disabling a Data Mart Schedule temporarily.
-*   **Statistics and loading history**
+*   **History**: Shows when this schedule last was executed, how long time it took to load in milliseconds, the total number of rows and if the loading succeeded. A complete execution history may be displayed by rightclicking a schedule and selecting on **Execution History...**
 
-**Node Group**
+## Node Group
 
 A Schedule must specify which Node Group that should handle requests for this data mart. There must be at least one Node within this Node Group configured to handle data mart requests. More information on how to enable Nodes in the Node Group to load data marts may be found in [Nodes and Node Groups](../../../developers/defining-an-app-model/services/nodes-and-node-groups.md)
 
-**Schedule**
+## Schedule
 
 A Schedule may be configured to load once, daily, on specific week days or specific months. The schedule will run during the configured time-slot, and may be configured to reload repeatedly at given intervals. 
 
@@ -34,13 +34,13 @@ Click **Advanced...** to configure an optional **End Date** and **Repeat**-optio
 
 It is also possible to define and configure multiple reload-schedules by checking **Show multiple schedules**
 
-**Freshness vs loading-time**
+## Freshness vs loading-time
 
 A data mart represents a snapshot of the source data at a given time, running in-memory on a server-node. How often this snapshot should be refreshed will depend on a combination of business reqirements, expected loading times and the amount of server resources available. Reloading a heavy data mart too frequently may hurt performance on the server, while to in-frequent reloads may result in stale data. 
 
 Smaller data marts may be set up to reload more frequently, offering a fresh view of the data when needed. [Data Mart Concepts](data-mart-concepts.md) also recommends you to create small and to-the-point data marts, giving opportunities to reload more often.
 
-**Load Options**
+## Load Options
 
 *   **Load Parallel**: Reloading a data mart in parallel lets the new instance load while the old instance continues to run. After the new instance has finished loading, the system will route all later requests to it. The old instance will be taken down and destroyed. The upside to this strategy is obviously that the data mart will be continously accessible. The downside is that you require more resources on your server to be able to spin up 2 instances at the same time. If parallel loading is disabled, the data mart will be unavailable while the new instance is loading.
 

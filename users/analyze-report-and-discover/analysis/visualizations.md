@@ -1,4 +1,4 @@
-# Visualizations
+# Analysis visualizations
 
 These are the *visualizations* available in an *analysis*
 
@@ -172,7 +172,7 @@ Please note, that while some these map resources are freely available online, so
 A Web Map Service can be used to provide map tiles.
 
 ### Data layers
-All data layers (except geoJSON layer) requires a data source with a norhitng and easting property. The available layer type are:
+All data layers (except geoJSON layer) requires a data source with a northing and easting property. The available layer type are:
 ### Point layer
 This is the simplest layer.
 It shows points on the map and can be configured with a symbol and a symbol color.
