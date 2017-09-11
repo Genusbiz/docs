@@ -1,8 +1,6 @@
 # Data mart concepts
 
-An App model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through Analyses and Data Extracts.
-
-When designing a data mart there are many considerations to make, and some of these topics are briefly discussed below.
+An App model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through Analyses and Data Extracts. When designing a data mart there are many considerations to make, and some of these topics are briefly discussed below.
 
 ##Data sources and fields
 
