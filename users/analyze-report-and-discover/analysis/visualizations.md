@@ -229,7 +229,7 @@ Actions can be applied to header, content, button and context menu.
 A *report grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
 
 ### Filtering rows and columns
-Rows and columns in the value Grid can be configured with a [filter](./concepts/selection.md) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
+Rows and columns in the value Grid can be configured with a filter that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
 
 ### Formatting
 The value Grid can be formatted in a various of ways, on row level (applied to all cells in that row), column level (applied to all cells in that column) and on cell/value level (applied to a single cell).

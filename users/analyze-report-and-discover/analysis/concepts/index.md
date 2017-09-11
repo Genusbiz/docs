@@ -14,7 +14,7 @@ A View can be formatted with a background.
 A *Tile* is a layout item which has the following parts:
 * A *Header* area with a Title, Subtitle, and/or a Background. Note that the Header only is displayed if one or more of these are set.
 * A *Body* area with a [Visualization](../visualizations.md) displaying data.
-* A *Footer* area with [Action](action.md) buttons. Note that the footer is only displayed if there are any Action Buttons on the Tile.
+* A *Footer* area with [Action](#action) buttons. Note that the footer is only displayed if there are any Action Buttons on the Tile.
 
 All of these can be formatted with e.g. backgrounds, font sizes, font colors etc.
 
@@ -46,7 +46,7 @@ Values represents data, and they can be:
 * a count of objects in a data source
 * a field (or function) of an object in a data source
 * an aggregated numeric property of a set of objects
-* the result of a [Formula](./designer/formula-designer.md)
+* the result of a [Formula](../designer/formula-designer.md)
 
 If the Tile has defined [Categories](#category), the Values are grouped by these Categories. E.g. for a [Table](../visualizations.md#table) with the Category *Company* and the Values *Name* and *Employees*, each row will represent a Company, with two columns - the name of the Company and the number of employees. 
 

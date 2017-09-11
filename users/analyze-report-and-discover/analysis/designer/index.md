@@ -2,10 +2,10 @@
 
 To design an Analysis you will add [Tiles](../concepts/index.md#tile) to the current [View](../concepts/index.md#view). You do this by clicking the red circular plus button on the bottom right of the View.
 
-In the [Tile](../concepts/tile.md) pane you can select the kind of [Visualization](../visualizations.md) you want for the [Tile](../concepts/tile.md).
+In the [Tile](../concepts/index.md#tile) pane you can select the kind of [Visualization](../visualizations.md) you want for the [Tile](../concepts/index.md#tile).
 
-The [Tile](../concepts/tile.md) pane contains configutation for the selected [Tile](../concepts/tile.md) . Different [Tiles](../concepts/tile.md)  use different configuration settings, although many are common.
-There are four sections on the [Tile](../concepts/tile.md) pane:
+The [Tile](../concepts/index.md#tile) pane contains configutation for the selected [Tile](../concepts/index.md#tile) . Different [Tiles](../concepts/index.md#tile)  use different configuration settings, although many are common.
+There are four sections on the [Tile](../concepts/index.md#tile) pane:
 * Visualization Selector
 * Data Selector
 * Formatting 

@@ -53,7 +53,7 @@ Fields do not need to be published to be used in the data filter for the data so
 
 ## Connect Two Data Sources
 
-The connections must be unambiguous, which means that there cannot be connections in the data mart that makes it possible to find two paths between any two data sources. For more information, see [Data Mart Fundamentals](data-mart-fundamentals.md).
+The connections must be unambiguous, which means that there cannot be connections in the data mart that makes it possible to find two paths between any two data sources. For more information, see [Data mart concepts](data-mart-concepts.md).
 
 
 
