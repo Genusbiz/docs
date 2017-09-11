@@ -49,16 +49,16 @@ Executes one of the following administrative installation **`<command>`** comman
   GenusLauncher.exe admin-install --enable-auto-update|--disable-auto-update [<installation directory>]
   ```
   Installs the Genus Desktop launcher for all users. If `<installation directory>` is omitted,
-  the installation directory is defaulted to **[ProgramFiles]\Genus\Launcher**. Installation
+  the installation directory is defaulted to **[\[ProgramFiles\]][1]\Genus\Launcher**. Installation
   information will be added to the registry under the key **[HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\GenusLauncherAdmin]**.
   
   Specify the option `--enable-auto-update` in order to _allow_ end-users to download missing Genus 
   Desktop versions (e.g. because the administrator forgot to update the latest version) to the
-  user's **[LocalApplicationData]** cache folder.
+  user's **[\[LocalApplicationData\]][1]** cache folder.
 
   Specify the option `--disable-auto-update` in order to _prevent_ end-users from (accidentally)
   updating Genus Desktop on their own, avoiding duplicating the software for every user's
-  **[LocalApplicationData]** cache folder.
+  **[\[LocalApplicationData\]][1]** cache folder.
 
 * **admin-uninstall**
   ```batchfile
@@ -72,9 +72,9 @@ Executes one of the following administrative installation **`<command>`** comman
   GenusLauncher.exe admin-unpack [--installdir] <source URL>
   ```
   Downloads Genus Desktop from the specified URL and unpacks the files at a version
-  number-specific directory under **[CommonApplicationData]\Genus\Client\VersionCache**,
+  number-specific directory under **[\[CommonApplicationData\]][1]\Genus\Client\VersionCache**,
   if `--installdir` is omitted, or below the current installation directory (default location
-  is **[ProgramFiles]\Genus\Launcher**) if `--installdir` is specified.
+  is **[\[ProgramFiles\]][1]\Genus\Launcher**) if `--installdir` is specified.
   
   The source URL is on the form
   **http(s)://_\<your_app_server_host_name_here\>_/_\<your_genus_dataset_virtual_directory_here\>_/**.
@@ -85,3 +85,5 @@ Executes one of the following administrative installation **`<command>`** comman
   ```
   Shows the current version of the started GenusLauncher.exee and the administratively installed version (if any)
   of the Genus Desktop launcher.
+
+[1]: install-genus-special-folders.md
