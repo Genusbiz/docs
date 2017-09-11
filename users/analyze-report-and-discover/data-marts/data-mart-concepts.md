@@ -1,6 +1,6 @@
 # Data mart concepts
 
-An App model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through Analyses and Data Extracts. When designing a data mart there are many considerations to make, and some of these topics are briefly discussed below.
+An app model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through analyses and data extracts. When designing a data mart there are many considerations to make, and some of these topics are briefly discussed below.
 
 ## Data sources and fields
  
@@ -14,7 +14,7 @@ When a data mart is initiated, the entire subset of data is loaded into memory, 
 
 The complexity is reduced, not only indirectly by reducing the data volume, but more importantly by explicitly specifying which connections to use between data sources. In enterprise data there are very often many connections available between two data sources. For example; an invoice is connected to the month data source through the invoice date, the due date, and the payment received date fields.
 
-In the App model a connection between two object classes means that one object class has a a reference to the other object class, or one object class has a property that can contain values from the other object class. For objects in the data sources
+In the app model a connection between two object classes means that one object class has a a reference to the other object class, or one object class has a property that can contain values from the other object class. For objects in the data sources
 
 In a data mart, connections are used to propagate selections. When two objects in two different data sources are connected, and one of them is selected, the other is automatically qualified. When two objects in two different data sources are not connected, and one of them is selected, the other is automatically disqualified or excluded.
 
