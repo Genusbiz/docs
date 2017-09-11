@@ -1,14 +1,14 @@
 # Data mart problem solving and FAQ
 
-  The datamart/analysis-concept relies on a correctly configured environment to function correctly. Here are some tips on how to go about troubleshooting your installation.
+The datamart/analysis concept relies on a correctly configured environment to function correctly. Here are some tips on how to go about troubleshooting your installation.
 
-To be able to run analyses/data-extracts against a data mart all of the following prerequisits must be met:
+To be able to run analyses/data extracts against a data mart all of the following prerequisits must be met:
 *   A data mart must be correctly defined
 *   A data mart loading schedule must be configured and executed.
 *   Nodes and node-groups must be configured correctly to allow servers to provide data marts for clients.
 *   The data mart must be loaded and running on one or more servers in your network.
 
-##Correctly configuring a data mart
+## Correctly configuring a data mart
 *   Make sure that your data mart exposes the relevant data sources. 
 *   Check filters and subsets on all data sources to make sure that they actually return the data you expect. Remember that self-filters also may limit the amount of data that you will see.
 *   Verify that data sources you expect to reference in analyses is not marked "private".
@@ -16,7 +16,7 @@ To be able to run analyses/data-extracts against a data mart all of the followin
 *   Check that connections between data sources has been defined appropriately.
 *   See [Data Mart Concepts](data-mart-concepts.md) for more information. 
 
-##The data mart loading schedule
+## The data mart loading schedule
 A data mart must be scheduled to load at one ore more servers before it will be available for requests from analyses or data extracts. Check that a data mart schedule is defined for this data mart and that the following requirements are fulfilled:
 *   Check that the schedule handles the correct Data Mart
 *   A node group must be assigned to this schedule. See **Nodes and Node Groups** below. 
@@ -28,7 +28,7 @@ A data mart must be scheduled to load at one ore more servers before it will be 
     *   A more comprehensive load-history may be viewed by right-clicking on a **Schedule** in the schedules table and clicking **Execution History**
 *   See [Loading and Scheduling](data-mart-loading.md) for more information.
 
-##Nodes and node hroup
+## Nodes and node group
 For a data mart server to provide any services it must be added to the directory as a Node, and added to a Node Group.
 *    A server must have a corresponding node configured under **Services->Nodes** in Genus Studio. Double-click on the relevant node configuration in the Nodes table, or click New to make a new configuration.
     *   The Identifying Name should be the name of the server-computer as shown in **Control Panel -> System and Security -> System**, without domain! Eg. `myserver`, not `myserver.mynetwork.com` 
@@ -41,10 +41,10 @@ For a data mart server to provide any services it must be added to the directory
     *   A node group may contain one or more nodes.
 *   See [Nodes and node groups](../../../developers/defining-an-app-model/services/nodes-and-node-groups.md) for more information
 
-##Permissions
+## Permissions
 To make an analysis or data mart; make sure you have permissions to create an analysis or data mart. Make sure the user of the analysis has read & execute permissions to the analysis and data mart.
 
-##Genus Configuration
+## Genus Configuration
 *   Try typing the **Virtual Directory** of a data set with only lower case letters
 *   Make sure the redirect internet host name setting in Genus App Services Options is correctly set.
 *   Ensure that crypto-keys are equal on all servers.
