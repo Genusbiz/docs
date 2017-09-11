@@ -13,3 +13,5 @@ Genus App Platform provides knowledge based analytical processing capabilities (
 * **Data mart:** A data mart is the provider of data for an analysis or a data extract. A data mart is often a restricted, partial view of the data set that is tailored for the data requirements of one or more analyses.
 * **Data extract:** A data extract defines the structure and data that should be exported to a file. It uses a data mart as a data provider.
 * **Report:** Report is an earlier technology for visualizing data. Genus encourages the use of Analysis for new developments.
+
+test
