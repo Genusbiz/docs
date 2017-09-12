@@ -36,7 +36,7 @@ Data filters for data sources in Forms, Tables, or Action Orchestration often re
 
 To avoid complexity and performance degradation, circular references within a data mart are not allowed. A circular reference exists if there are two or more paths between two data sources. There are many different scenarios where this can occur, and similarly many approaches how to resolve the circular reference. Consider the following cases:
 
-| Example           | Possible Solution |
+| Example           | Possible solution |
 |-------------------|-------------------|
 | The *Invoice* data source has connections to the *Month* data source both through *Invoice.DueDate* and *Invoice.PaymentReceivedDate*.  | Add two *Month* data sources, name them *Due Month* and *Payment Received Month*, and connect each of them to the *Invoice* data source using the appropriate field.  |
 ![ID0D57CB58F5B54B33.jpg](media/ID0D57CB58F5B54B33.jpg) | ![IDA26D0104126541F7.jpg](media/IDA26D0104126541F7.jpg) |
