@@ -18,7 +18,7 @@ Data mart load scheduling is configured in the Schedules table found when expand
 *   **Auto Load**: Indicates if a data mart should load automatically if it is not already loaded.
 *   **Load Parallel**: Indicates if a new data mart instance should be reloaded without stopping the already running instance.
 *   **Enabled**: Allows disabling a Data Mart Schedule temporarily.
-*   **History**: Shows when this schedule last was executed, how long time it took to load in milliseconds, the total number of rows and if the loading succeeded. A complete execution history may be displayed by rightclicking a schedule and selecting on **Execution History...**
+*   **History**: Shows when this schedule last was executed, how many milliseconds it took to load, the total number of rows and if the loading succeeded. A complete execution history may be displayed by rightclicking a schedule and selecting **Execution History...**
 
 ## Node Group
 
