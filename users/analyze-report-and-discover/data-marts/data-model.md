@@ -7,7 +7,7 @@ The data-model view shows a visual diagram of the data sources, properties and c
 For more information on the features of the data-model view, see the articles below.
 
 
-## Add a Data Source
+## Add a data source
 
 To add a data source in the data-model view, do the following:
 
@@ -34,13 +34,13 @@ The added data sources are initially placed in the top left corner, and should b
 
 
 
-## Publish Fields for a Data Source
+## Publish fields for a data source
 
 Only published fields are available in analyses based on this data mart. To keep the data mart as small and focused as possible, it is a good rule of thumb to only publish the fields required to fulfil the purpose of the data mart.
 
 To specify which fields are published, do the following:
 
-*   In the Data View
+*   In the data view
 *   Select the data source to change, and then in the **Properties** area locate the **Published Fields** property, and click **[...]** OR  
     Right click the data source to change, and select **Published Fields**
 *   To add a published field, in the **Select Fields** window, in the **Available Fields** list, select a field and click **Add**.
@@ -51,25 +51,20 @@ Fields do not need to be published to be used in the data filter for the data so
 
 
 
-## Connect Two Data Sources
+## Connect two data sources
 
 The connections must be unambiguous, which means that there cannot be connections in the data mart that makes it possible to find two paths between any two data sources. For more information, see [Data mart concepts](data-mart-concepts.md).
 
 
 
-## Filtering Data Sources
+## Filtering data sources
 
 Put article content here
 
 
 
-## Multiple instances of a Data Source
+## Multiple instances of a data source
 
-The fact that connections are used to propagate selections, can sometimes lead to undesired effects. For example, consider a case where the <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Month data source is connected to both <span style="FONT-STYLE: italic">Invoice.DueDate and <span style="FONT-STYLE: italic">Sales.Date. When a month is selected, the invoices that are due that month are qualified, and the sales transactions performed that month are qualified. Unfortunately sales performed at the end of one month will often be invoiced with a due date the month after, which can lead to inconsistent data.
+The fact that connections are used to propagate selections, can sometimes lead to undesired effects. For example, consider a case where the *Month* data source is connected to both *Invoice.DueDate* and *Sales.Date*. When a month is selected, the invoices that are due that month are qualified, and the sales transactions performed that month are qualified. Unfortunately sales performed at the end of one month will often be invoiced with a due date the month after, which can lead to inconsistent data.
 
 This is fortunately easily solved, by adding the month data source twice, and connecting them to one of the other data sources each. This way a selection of an invoice due month will not affect the sales month, and vice versa. Remember to rename the data sources to ensure unambiguous names and avoid misunderstandings.
-
-
-## See Also 
-* [Advanced data-model concepts](data-model-advanced.md)
-
