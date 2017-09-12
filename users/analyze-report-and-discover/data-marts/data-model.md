@@ -57,15 +57,9 @@ The connections must be unambiguous, which means that there cannot be connection
 
 
 
-## Filtering Data Sources
-
-Put article content here
-
-
-
 ## Multiple instances of a Data Source
 
-The fact that connections are used to propagate selections, can sometimes lead to undesired effects. For example, consider a case where the <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Month data source is connected to both <span style="FONT-STYLE: italic">Invoice.DueDate and <span style="FONT-STYLE: italic">Sales.Date. When a month is selected, the invoices that are due that month are qualified, and the sales transactions performed that month are qualified. Unfortunately sales performed at the end of one month will often be invoiced with a due date the month after, which can lead to inconsistent data.
+The fact that connections are used to propagate selections, can sometimes lead to undesired effects. For example, consider a case where the *Month* data source is connected to both *Invoice.DueDate* and *Sales.Date*. When a month is selected, the invoices that are due that month are qualified, and the sales transactions performed that month are qualified. Unfortunately sales performed at the end of one month will often be invoiced with a due date the month after, which can lead to inconsistent data.
 
 This is fortunately easily solved, by adding the month data source twice, and connecting them to one of the other data sources each. This way a selection of an invoice due month will not affect the sales month, and vice versa. Remember to rename the data sources to ensure unambiguous names and avoid misunderstandings.
 
