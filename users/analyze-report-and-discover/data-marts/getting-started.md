@@ -3,9 +3,11 @@
 The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. 
 
 To create a data mart:
-* Open Genus Studio
-* In the **Directory**, right click on **Data Marts** and press **New**
-* Before the data mart can be used, it needs to be loaded. See [Data mart loading and scheduling](./data-mart-loading.md) for more information.
+* Open Genus Desktop
+* Open the **Discovery portal** by clicking on **Discovery** in the bottom left menu
+* Click on **Data Marts** in the **Discovery** portal menu
+* Create a new data mart by clicking **New** in the toolbar, or by right-clicking in the list of data marts and clicking **New**.
+* Before the data mart can be used, it needs to be loaded. See [Data mart loading and scheduling](./data-mart-loading.md) for more information. **Note:** Data mart loading and scheduling needs to be configured in Genus Studio.
 
 In order to access data inside the analysis you will also need to do the following inside the [Data-model view](./data-model.md) : 
 * Add data sources.
