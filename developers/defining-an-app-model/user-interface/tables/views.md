@@ -152,6 +152,8 @@ To change the display order for a search field, click the field in the list, and
 2.  In the **Properties** area, click the **Refiners** tab.
 3.  If you want to include all refiners enabled for the data sources defined in your table, click **Inherit Enabled Refiners from Data Sources**. Note that this option not is available in tables with a multidimensional layout. To select a specific set of refiners defined in your Directory, click **Select Refiners**, and then click **Add**.
 
+To show the refiner pane by default when a table is opened, select the **Show Refiner Pane** check box.
+
 
 
 ## Summarize applied data filters in the Filter Pane
