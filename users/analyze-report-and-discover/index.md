@@ -1,11 +1,11 @@
 ---
 title: Analyze, report and discover using Genus App Platform
-description: How end users can analyze, report and discover relations in their business data using Genus App Platform
+description: OLAP capabilities for analyzing, reporting and discovery of relations in business data using Genus App Platform
 author: houmanmohebbi
 ---
 # Analyze, report and discover
 
-Genus App Platform provides knowledge based analytical processing capabilities (OLAP) and reporting features. Explore your business data from multiple dimensions by pointing, clicking, and dragging, create reports and analysis, and share them to make better decisions. Anyone at any business or technical skill level across your corporation can explore large volumes of summarized data with sub-second response times.
+Genus App Platform provides knowledge based analytical processing capabilities (OLAP) and reporting features, making it possible to discover and explore business data from multiple dimensions by pointing, clicking, and dragging, creating and sharing reports and analysis. But most importantly is the built-in support for seamlessly integrating these data discovery features with the rest of your Genus App Platform application, making access both ways between detailed data and aggregated data a natural part of your application.
 
 ## Main concepts
 
