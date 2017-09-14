@@ -190,10 +190,10 @@ The GeoJSON features are mapped to a data source using a property, and only feat
 All GeoJSON properties can be shown in the screen tip, along with values.
 
 ## Markdown
-A *markdown* visualizes one or more values in a formatted text.
+*Markdown* visualizes a text written in markup language that is converted to HTML.  
+We use [react-markdown](https://github.com/rexxars/react-markdown) which follows the [CommonMark](http://commonmark.org/) spec. For a quick CommonMark reference, see [here](http://commonmark.org/help/). 
 
-The values are merged into the markdown text definition of the visualization.
-To include a value in the markdown, add the value number wrapped in curly brackets. One would, for example, write {2} to include the second value.
+It is possible to merge values into the markdown by adding the value number wrapped in curly brackets. For example, you can write {2} to include the second value.
 
 ## Measure
 A *measure* visualizes one or more values
