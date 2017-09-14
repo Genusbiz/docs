@@ -179,7 +179,7 @@ It shows points on the map and can be configured with a symbol and a symbol colo
 ### Hotspot layer
 This layer shows circle markers that can be configured with data boun size and color.
 ### Vector layer
-The layer accepts two data sources and one value.  Both data sources need to have a northing and a easting property. The value is used to determine the width of the connections between the data inside the data sources. This will then correspond to a geospatial version of the [Sankey diagram](#sankey). One can also style the connection lines, and show the directin of the links.
+The layer accepts two data sources and one value.  Both data sources need to have a northing and a easting property. The value is used to determine the width of the connections between the data inside the data sources. This will then correspond to a geospatial version of the [Sankey diagram](#sankey). One can also style the connection lines, and show the direction of the links.
 ### Heatmap layer
 This layer is a heatmap of points that must have a value representing its intensity. 
 Max and min intensity properties are optiononal, if none are set, the intensity will scale from the lowest to the highest value.
