@@ -83,7 +83,7 @@ Executes one of the following administrative installation **`<command>`** comman
   ```batchfile
   GenusLauncher.exe admin-version
   ```
-  Shows the current version of the started GenusLauncher.exee and the administratively installed version (if any)
+  Shows the current version of the started GenusLauncher.exe and the administratively installed version (if any)
   of the Genus Desktop launcher.
 
 [1]: install-genus-special-folders.md
