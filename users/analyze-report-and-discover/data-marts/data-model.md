@@ -32,6 +32,13 @@ A data source added this way has no fields published, and only one connection to
 
 The added data sources are initially placed in the top left corner, and should be moved to the appropriate place in the diagram.
 
+### Data source properties
+
+| Property                         | Description                                          |
+|----------------------------------|------------------------------------------------------|
+| Private                          | Use this for data sources that are only used temporarily when loading. The data source will not be accessible in any analysis. |
+| Allow aggregate requests only    | Use to restrict useage of this data source to aggregated values. The objects in the data source will not be accessible in analysis. This will speed up the analysis since objects in the data source will not be transferred to the client. |
+| Max Occurences                   | Set to One if there will be exactly one object in the data source. This will affect the cardinality in functions accessing the data source. |
 
 
 ## Publish fields for a data source
