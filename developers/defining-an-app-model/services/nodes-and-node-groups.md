@@ -30,9 +30,7 @@ Properties:
 
 ## Node group
 
-A node group is used for logical grouping of nodes. The nodes in a node group can provide different or overlapping types of services, for different or overlapping data sets. Directory objects such as data marts, web services, and agents, are deployed to a node group. Objects deployed to a node group is processed by any node within that group which provides the requested app service for a given data set. Take care to not deploy an object to a group that does not run the required service.
-
-A group can contain nodes from several environments, for example development, test, and production. This allows for easy transfer of the directory between different environments. The configuration of the node (server) itself determines which environment it belongs to.  
+A node group is used for logical grouping of nodes. The nodes in a node group can provide different or overlapping types of services, for different or overlapping data sets. Directory objects such as data marts, web services, and agents, are deployed to a node group. Objects deployed to a node group is processed by any node within that group which provides the requested app service for a given data set. Take care to not deploy an object to a group that does not run the required service. 
 
 ## Typical scenarios
 
