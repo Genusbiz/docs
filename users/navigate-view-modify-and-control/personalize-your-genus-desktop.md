@@ -18,7 +18,7 @@ Note that you can't change your password if you are authenticated by Microsoft A
 
 ## Change the start page in the Navigation Pane
 
-1.  The start page is displayed when you first start Genus Desktop. To change the start page, right-click a shortcut in the navigation pane, and then on the shortcut menu, click **Set as Start Page**.
+The start page is displayed when you first start Genus Desktop. To change the start page, right-click a shortcut in the navigation pane, and then on the shortcut menu, click **Set as Start Page**.
 
 ## Change the default print color setting
 
@@ -52,6 +52,6 @@ When opening a [link](../../developers/how-to/exchange-data-with-other-applicati
 
 To change whether to open the main window minimized whenever a link is opened, do the following:
 
-*   In the **File** menu, click **Options**.
-*   To open the main window, select **Start main window when opening a link**.
-*   To only open the link target, click to clear **Start main window when opening a link**.
+1.  In the **File** menu, click **Options**.
+2.  To open the main window, select **Start main window when opening a link**.
+3.  To only open the link target, click to clear **Start main window when opening a link**.
