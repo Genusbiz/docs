@@ -1,13 +1,13 @@
-# Nodes and Node Groups
+# Nodes and node groups
 
-Nodes and Node Groups are administrated in Genus Studio, and can be found in the Services group in the navigation pane.
+Nodes and node groups are administrated in Genus Studio, and can be found in the Services group in the navigation pane.
 
 > [!NOTE]
 > A node is a [Genus Server](../../../terminology.md#genus-server). If you register a node, it must correspond to a real and existing Genus Server. If you have registered nodes that do not exist, your agents and data marts will _not_ be accessible and will _not_ run (since agents and data marts are load balanced between all registered nodes).
 
 ## Node
 
-A node represents a Genus App Services server that is registered and allowed to run one or more app services. For a node to provide services, Genus App Services must be installed and configured, and the node must also be a member of a node group.
+A node is a [Genus Server](../../../terminology.md#genus-server) that is registered and allowed to run one or more app services. For a node to provide services, Genus App Services must be installed and configured, and the node must also be a member of a node group.
 
 A node can be dedicated to one data set, or it can provide services to all data sets.  
 
