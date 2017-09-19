@@ -13,117 +13,20 @@ A node can be dedicated to one data set, or it can provide services to all data 
 
 Properties:
 
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>Property</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>Identifying Name</td>
-
-<td>The name used to identify the server in the network. This name must correspond to the Computer Name, or NetBIOS name, of the server. This name MUST NOT include the domain part of the machine address. Eg. "myserver", not "myserver.mynetwork.com"</td>
-
-</tr>
-
-<tr>
-
-<td>HTTP Address</td>
-
-<td>The address to the server in the network. Some of the services can use this address to contact the server directly and thereby optimizing performance.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Set Independent Services:</td>
-
-<td>This group contains service that cannot run for one data set but always handles all data sets. These services must therefore only be enabled on one node for each environment.</td>
-
-</tr>
-
-<tr>
-
-<td>Mail Service</td>
-
-<td>Option that enables running of Mail Services on the node.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Set Dependent Services:</td>
-
-<td>This group contains services that can run for either one data set or for all data sets. These services can be enabled on one or more nodes for each environment.</td>
-
-</tr>
-
-<tr>
-
-<td>Run for</td>
-
-<td>The data set that the node provides data set dependent services for. If the node provides services for all data sets, select **All Data Sets**.</td>
-
-</tr>
-
-<tr>
-
-<td>Agent Execution Service</td>
-
-<td>Option that enables running of Agent Services on the node.</td>
-
-</tr>
-
-<tr>
-
-<td>Calendar Service</td>
-
-<td>Option that enables running of Calendar Services on the node.</td>
-
-</tr>
-
-<tr>
-
-<td>Contact Service</td>
-
-<td>Option that enables running of Contact Services on the node.</td>
-
-</tr>
-
-<tr>
-
-<td>Data Mart Service</td>
-
-<td>Option that enables running of Data Mart Services on the node.</td>
-
-</tr>
-
-<tr>
-
-<td>REST Service</td>
-
-<td>Option that enables running of REST Services on the node.</td>
-
-</tr>
-
-<tr>
-
-<td>Web Service</td>
-
-<td>Option that enables running of Web Services on the node.</td>
-
-</tr>
-
-</tbody>
-
-</table>
+| Property                      | Description     |
+| ------------------------------|-----------------|
+| Identifying Name              | The name used to identify the server in the network. This name must correspond to the Computer Name, or NetBIOS name, of the server. This name MUST NOT include the domain part of the machine address. Eg. "myserver", not "myserver.mynetwork.com" |
+| HTTP Address                  | The address to the server in the network. Some of the services can use this address to contact the server directly and thereby optimizing performance.|
+| Data Set Independent Services | This group contains service that cannot run for one data set but always handles all data sets. These services must therefore only be enabled on one node for each environment.|
+| Mail Service                  | Option that enables running of Mail Services on the node.|
+|Data Set Dependent Services    | This group contains services that can run for either one data set or for all data sets. These services can be enabled on one or more nodes for each environment.|
+| Run for                       | The data set that the node provides data set dependent services for. If the node provides services for all data sets, select **All Data Sets**.|
+| Agent Execution Service       | Option that enables running of Agent Services on the node.|
+| Calendar Service              | Option that enables running of Calendar Services on the node.|
+| Contact Service               | Option that enables running of Contact Services on the node.|
+| Data Mart Service             | Option that enables running of Data Mart Services on the node.|
+| REST Service                  | Option that enables running of REST Services on the node.|
+| Web Service                   | Option that enables running of Web Services (SOAP) on the node.|
 
 ## Node group
 
