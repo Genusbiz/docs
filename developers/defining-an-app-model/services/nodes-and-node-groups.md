@@ -5,7 +5,7 @@ Nodes and Node Groups are administrated in Genus Studio, and can be found in the
 > [!NOTE]
 > A node is a [Genus Server](../../../terminology.md#genus-server). If you register a node, it must correspond to a real and existing Genus Server. If you have registered nodes that do not exist, your agents and data marts will _not_ be accessible and will _not_ run (since agents and data marts are load balanced between all registered nodes).
 
-**Node**  
+## Node
 
 A node represents a Genus App Services server that is registered and allowed to run one or more app services. For a node to provide services, Genus App Services must be installed and configured, and the node must also be a member of a node group.
 
@@ -125,14 +125,13 @@ Properties:
 
 </table>
 
-**Node Group**  
+## Node group
 
 A node group is used for logical grouping of nodes. The nodes in a node group can provide different or overlapping types of services, for different or overlapping data sets. Directory objects such as data marts, web services, and agents, are deployed to a node group. Objects deployed to a node group is processed by any node within that group which provides the requested app service for a given data set. Take care to not deploy an object to a group that does not run the required service.
 
 A group can contain nodes from several environments, for example development, test, and production. This allows for easy transfer of the directory between different environments. The configuration of the node (server) itself determines which environment it belongs to.  
 
-**Typical Scenarios**
+## Typical scenarios
 
-*   Test and Production Environments - Define all nodes that exist in the test environment and in the production environment, and add them to the node groups relevant for your system. When transferring the directory from the test environment to the production environment, no further configuration of nodes and node groups are necessary.
-*   Dedicated nodes for different load - Use node groups to dedicate nodes for certain types of load to increase performance. For example use a group of nodes to only handle data mart requests. Or for example have two node groups which both handle agents, but one is used for agents which run heavy batch operations, while the other handle short lived operations.
-*   Dedicate nodes for different data sets - Let the node group that handles web services contain several nodes, where each node is specified to only handle one data set.
+* Dedicated nodes for different load - Use node groups to dedicate nodes for certain types of load to increase performance. For example use a group of nodes to only handle data mart requests. Or for example have two node groups which both handle agents, but one is used for agents which run heavy batch operations, while the other handle short lived operations.
+* Dedicate nodes for different data sets - Let the node group that handles web services contain several nodes, where each node is specified to only handle one data set.
