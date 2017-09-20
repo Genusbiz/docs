@@ -1,6 +1,6 @@
 ---
 title: Installing Genus Desktop
-description: How to install Genus Desktop both in a per user environment and a shared computer environment, inclduing terminal servers.
+description: How to install Genus Desktop both in a per user environment and a shared computer environment, including terminal servers.
 author: balmlid
 ---
 
@@ -94,7 +94,7 @@ Installation and maintenance of administrative installations is a two step proce
     ```
 
     where `<source URL>` is on the form **http(s)://_\<your_app_server_host_name_here\>_/_\<your_genus_dataset_virtual_directory_here\>_/**. The command will download a component package containing Genus.exe and its related files and unpack the files at the folder **[\[CommonApplicationData\]][1]\Genus\Client\x.x.x.x**.
-    
+
     If you rather prefer to put the cache within the GenusLauncher.exe installation folder, run the command line
 
     ```batchfile
