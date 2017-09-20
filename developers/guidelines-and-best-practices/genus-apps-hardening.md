@@ -19,12 +19,12 @@ Luckily it is quite easy to prevent this attack. There are some security headers
 The following lines can be used to prevent the site from being included in a frame (but see the last section, [Recommended settings for security headers](#recommended-settings-for-security-headers), for recommendations):
 ```
 <system.webserver>
-  <HTTPProtocol>
+  <httpProtocol>
     <customHeaders>
       <add name="X-Frame-Options" value="DENY" />
       <add name="Content-Security-Policy" value="frame-ancestors 'none'" />
     </customHeaders>
-  </HTTPProtocol>
+  </httpProtocol>
 </system.webserver>
 ```
 
@@ -78,7 +78,7 @@ This is the settings we currently recommend when using Genus Apps for Web.
 
   [...]
 
-  <HTTPProtocol>
+  <httpProtocol>
     <customHeaders>
       <!-- Prevent clickjacking -->
       <add name="Content-Security-Policy" value="default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com; connect-src 'self' app.getsentry.com; img-src 'self' data: app.getsentry.com www.google-analytics.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-ancestors 'self';" />
@@ -91,7 +91,7 @@ This is the settings we currently recommend when using Genus Apps for Web.
       <!-- Prevent downgrade attack (does not apply for non-HTTPS sites) -->
       <add name="Strict-Transport-Security" value="max-age=31536000" />
     </customHeaders>
-  </HTTPProtocol>
+  </httpProtocol>
 
   [...]
 
@@ -106,7 +106,7 @@ This mode will disable any third party services included in Genus Apps. This mod
 
   [...]
 
-  <HTTPProtocol>
+  <httpProtocol>
     <customHeaders>
       <!-- Prevent clickjacking -->
       <add name="Content-Security-Policy" value="default-src 'none'; script-src 'self' 'unsafe-eval'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-ancestors 'none';" />
@@ -119,7 +119,7 @@ This mode will disable any third party services included in Genus Apps. This mod
       <!-- Prevent downgrade attack (does not apply for non-HTTPS sites) -->
       <add name="Strict-Transport-Security" value="max-age=31536000; includeSubDomains" />
     </customHeaders>
-  </HTTPProtocol>
+  </httpProtocol>
 
   [...]
 
