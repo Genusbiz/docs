@@ -58,3 +58,4 @@ To link to a heading within an article, use # before the heading name, replacing
 ```
 [App Model](terminology.md#app-model)
 ```
+
