@@ -7,7 +7,7 @@ author: jtroset
 Learn how to use Genus App Platform to quickly create, deploy and change customized software solutions. The tutorials and articles show you how to use this high-productivity, no-code development platform to build and use line-of-business software solutions.
 
 > [!NOTE]
-> The `Search` box on these docs pages doesn't work until you have tried searching three or more times. We are sorry for the inconvenience. We are working to resolve the issue.
+> The **Search** box on these docs pages doesn't work until you have tried searching three or more times. We are sorry for the inconvenience. We are working to resolve the issue.
 
 ## Developers
 * [Overview](developers/overview/index.md)
