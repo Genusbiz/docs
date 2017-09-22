@@ -42,7 +42,7 @@
       "default",
       "_custom_templates/genus_template" // custom template overriding default template
     ],
-    "postProcessors": [],
+    "postProcessors": ["ExtractSearchIndex"],
     "noLangKeyword": false
   }
 }
