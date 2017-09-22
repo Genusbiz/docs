@@ -1,4 +1,4 @@
-# Security on Search
+# Security on search
 
 The search features in  Genus Desktop are powerful and easy to use, and it is therefore important to consider the security settings for objects and user groups.
 
