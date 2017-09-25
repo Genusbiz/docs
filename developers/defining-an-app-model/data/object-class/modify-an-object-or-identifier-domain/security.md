@@ -27,8 +27,4 @@ To allow granting of permissions to all objects, select **Allow granting of perm
 
 To allow granting of permissions to all objects based on a condition, select **Allow granting of permissions to all objects**, and then select the **allow using conditions** check box. Only [trusted users](../../../security/trusted-users.md) can grant permissions to all objects satisfying conditions. How to grant permissions to all objects satisfying conditions is described in the article [Grant Permissions to All Objects Satisfying Conditions to a Security Group](../../../security/security-permissions.md).
 
-See Also
 
-*   [Security Groups and User Accounts](../../../security/security-groups-and-user-accounts.md)
-*   [Security Permissions](../../../security/security-permissions.md)
-*   [Trusted Users](../../../security/trusted-users.md)

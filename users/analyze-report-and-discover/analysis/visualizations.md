@@ -1,4 +1,4 @@
-# Visualizations
+# Analysis visualizations
 
 These are the *visualizations* available in an *analysis*
 
@@ -22,6 +22,9 @@ In the second case, each object in the auto series will be a bar.
 
 Actions can be applied to header, content, button and context menu. 
 
+## Barrel roll
+Takes a single category as input and loops over the category data. 
+
 ## Bubble chart
 A *bubble chart* vizualies three of four values grouped on a single category. 
 
@@ -29,14 +32,32 @@ The first and second value represents the bubbles position on the x and y axis.
 The third value determines the size of the bubble.
 The fourth, optional value can be used for data bound color for the bubbles. 
 
-## Calendar view
-A *calendar view* shows a single value grouped by a single category. The category must be a date data source in order for the visualization to work as intended.
+## Calendar heatmap
+A *calendar heatmap* shows a single value grouped by a single category. The category must be a date data source in order for the visualization to work as intended.
 
 The category groups the value by day, and shows the objects as colorized squares like a calendar. The calendar view shows data up to one year before the reference date.
 
 Selection can be done either by clicking on individual day squares or month labels.
 
 *A typical use case would be visualizing when tasks are completed.*
+
+## Category list
+A *Category list* is a simple comma-separated outlisting of the objects from a category data source.
+
+By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
+Sorting and selection is supported.
+
+## Change list
+A *change list* is used to list a percentage deviation between two values, grouped by a single category.
+
+For all category objects, the table shows the category name and the primary value with its deviation from the comparative value.
+
+The width of the columns can be set by adjusting the *column width* of the category in the format tab of the designer. 
+Sorting can be done by category or value.
+
+Actions can be applied to header, content, button and context menu.
+
+*A typical use case would be showing the value of a stock or currency and comparing it to its value the previous day.*
 
 ## Circle packing
 A *circle packing* shows a single value grouped by a single category.
@@ -47,13 +68,22 @@ Actions can be applied to header, content, button, and context menu.
 
 *The visualization is particularly useful for identifying deviating values. A typical use case would be identifying outlier branches within a corporation. By showing revenue grouped on branches, and letting the color be set by the size segment, outliers can be identified as circles that differ in size from circles with the same color.*
 
-## Circular distribution
-A *circular distribution* shows a single value grouped by one or two categories, in a circular visualization.
+## Circular heatmap
+A *circular heatmap* shows a single value grouped by one or two categories, in a circular visualization.
 
 The radial category is used to group the value in equal arcs of the circle, while the linear category slices up the arcs inward. 
 The value is visualized as the color of each slice, calculated using either a gradient between the minimum and maximum data points or conditional colors.
 
 *A typical use case would be visualizing at what time of the week tasks are being completed. The radial category would then be the hour of the day, and the linear category the day of the week. The color of a slice would represent the number of tasks completed at the corresponding hour and day.*
+
+## Circular progress
+A *circular progress* shows one or two values grouped by a single category. 
+
+The category objects appear in a layout of circular arcs. The graph is used to show progress towards a maximum value/goal. Only a single value has to be set to use the visualization, but a total of four values can be set: 
+* Angle: Dictates the angle measure of the arc. Color can be bound to this value.
+* Color: Value with sole purpose of setting color of the arcs, either conditional or a linear gradient.
+* Min value: Category object with an aggregated value below this will be pruned. This must be a consant.
+* Max value: The aggregated values will be compared to this. All values exceeding this will be capped at the maximum angle measure (270 degrees). This must be a constant.
 
 ## Column chart
 A *column chart* has the same functionality as a [bar chart](#bar-chart).
@@ -66,18 +96,6 @@ A *combination chart* visualizes more than one value, grouped by a single catego
 Each value in a combination chart can be visualized as a *column*, a *line* or an *area*.
 
 Actions can be applied to header, content, button and context menu. 
-
-## Deviation table
-A *deviation table* is used to list a percentage deviation between two values, grouped by a single category.
-
-For all category objects, the table shows the category name and the primary value with its deviation from the comparative value.
-
-The width of the columns can be set by adjusting the *column width* of the category in the format tab of the designer. 
-Sorting can be done by category or value.
-
-Actions can be applied to header, content, button and context menu.
-
-*A typical use case would be showing the value of a stock or currency and comparing it to its value the previous day.*
 
 ## Doughnut chart
 A *doughnut chart* has the same functionality as a [pie chart](#pie-chart).
@@ -154,14 +172,14 @@ Please note, that while some these map resources are freely available online, so
 A Web Map Service can be used to provide map tiles.
 
 ### Data layers
-All data layers (except geoJSON layer) requires a data source with a norhitng and easting property. The available layer type are:
+All data layers (except geoJSON layer) requires a data source with a northing and easting property. The available layer type are:
 ### Point layer
 This is the simplest layer.
 It shows points on the map and can be configured with a symbol and a symbol color.
 ### Hotspot layer
 This layer shows circle markers that can be configured with data boun size and color.
-### Connection layer
-This layer shows connections (links) between coordinates on the map. The data can either have one coordinate pair and a reference to another data item, or two internal coordinate pairs. One can specify a value to determine the width of the connections. This will then correspond to a geospatial version of the [Sankey diagram](#sankey-diagram). One can also style the connection lines, and show the directin of the links.
+### Vector layer
+The layer accepts two data sources and one value.  Both data sources need to have a northing and a easting property. The value is used to determine the width of the connections between the data inside the data sources. This will then correspond to a geospatial version of the [Sankey diagram](#sankey). One can also style the connection lines, and show the direction of the links.
 ### Heatmap layer
 This layer is a heatmap of points that must have a value representing its intensity. 
 Max and min intensity properties are optiononal, if none are set, the intensity will scale from the lowest to the highest value.
@@ -172,10 +190,26 @@ The GeoJSON features are mapped to a data source using a property, and only feat
 All GeoJSON properties can be shown in the screen tip, along with values.
 
 ## Markdown
-A *markdown* visualizes one or more values in a formatted text.
+*Markdown* visualizes a text written in markup language that is converted to HTML.  
+We use [react-markdown](https://github.com/rexxars/react-markdown) which follows the [CommonMark](http://commonmark.org/) spec. For a quick CommonMark reference, see [here](http://commonmark.org/help/). 
 
-The values are merged into the markdown text definition of the visualization.
-To include a value in the markdown, add the value number wrapped in curly brackets. One would, for example, write {2} to include the second value.
+It is possible to merge values into the markdown by adding the value number wrapped in curly brackets. For example, you can write {2} to include the second value.
+
+## Measure
+A *measure* visualizes one or more values
+
+The values are listed top down.
+The data is put directly after the Label, with no spacing.
+
+Actions can be applied to the values.
+
+## Measure chips
+A *measure chip* visualizes one or more values
+
+The values are displayed left to right, then downwards.
+The data is put directly after the label, with no spacing, inside a chip.
+
+Actions can be applied to the values.
 
 ## Measure list
 A *measure list* visualizes one or more values
@@ -186,21 +220,28 @@ The data is put right aligned in trhe second column.
 
 Actions can be applied to the values.
 
-## Measure
-A *measure* visualizes one or more values
-
-The values are listed top down.
-The data is put directly after the Label, with no spacing.
-
-Actions can be applied to the values.
-
 ## Pie chart
 A *pie chart* visualizes a single value grouped by a single category
 
 Actions can be applied to header, content, button and context menu.
 
-## Sankey diagram
-A *Sankey diagram* is a flow diagram where the width of the links is proportional to the flow between the nodes.
+## Report grid
+A *report grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
+
+### Filtering rows and columns
+Rows and columns in the value Grid can be configured with a filter that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
+
+### Formatting
+The value Grid can be formatted in a various of ways, on row level (applied to all cells in that row), column level (applied to all cells in that column) and on cell/value level (applied to a single cell).
+Some formatting properties (not exhaustive) are:
+* Row height
+* Column height
+* Border format
+* Background color
+* Text alignment
+
+## Sankey
+A *Sankey* diagram is a flow diagram where the width of the links is proportional to the flow between the nodes.
 
 In Genus App Platform, the diagram is used to present N-1 values grouped pairwise by N categories.
 The categories will be distributed along the horizontal axis, and appear as vertically stacked columns of category objects.
@@ -212,11 +253,11 @@ These values will be displayed in the tooltip.
 
 *A typical use case would be showing how tasks are assigned from customer to employee and further how tasks are distributed between employee and task state. Additional values to be displayed in the tooltip could be the number of hours worked on the tasks or the proportion of tasks completed after deadline*
 
-## Single category field
-A *single category field* is a simple comma-separated outlisting of the objects from a category data source.
+## Summary
+A *Summary* presents a summary of the active data source selections in the analysis.  
+For each category data source in use by the analysis, the number of selected/qualified items are listed. If there are 10 or less qualified or selected items, these will be listed by name. Additionally, a bar that displays the size of the selected/qualified items relative to the total amount of items is displayed.  
 
-By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
-Sorting and selection is supported.
+You have the possibility to lock/unlock and clear the selection for each category data source by clicking on the corresponding icons upon hovering.
 
 ## Speedometer gauge
 A *speedometer gauge* displays a value in a speedometer gauge. 
@@ -225,7 +266,7 @@ The second and third values are the start and end of the gauge, respectively.
 All additional values are thresholds on the gauge. 
 
 ## Stacked area chart
-A *stacked area chart* has the same functionality as a [stacked column chart](#normal-stacked-column-chart).
+A *stacked area chart* has the same functionality as a [stacked column chart](#stacked-column-chart).
 
 ## Stacked bar chart
 A *stacked bar chart* can be used in two ways:
@@ -239,11 +280,11 @@ In the second case, each bar will contain the data value for each value.
 Actions can be applied to header, content, button and context menu. 
 
 ## Stacked column chart
-A *stacked column chart* has the same functionality as a [stacked bar chart](#normal-stacked-bar-chart).
+A *stacked column chart* has the same functionality as a [stacked bar chart](#stacked-bar-chart).
 The data points are visualized in vertical columns rather than in horizontal bars.
 
-## Symbolic distribution
-A *symbolic distribution* can be used in two ways:
+## Symbol chart
+A *symbol chart* can be used in two ways:
 * Visualizing a single value grouped by a single category
 * Visualizing one or more *uncategorized* values
 
@@ -266,16 +307,19 @@ Numerous data management and layout customization features are supported.
 A *ticker* is an animated visualization of a value and its relation to a comparative value.
 
 It can be used in three ways:
-* With no value inputs, it will display the name of all the items in the set category. This is the same information as in a [single category field](#single-category-field).
+* With no value inputs, it will display the name of all the items in the set category. This is the same information as in a [category list](#category-list).
 * With one value input, it will display the name and value of the chosen items. This is the same information as in a [table](#table).
-* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. This is the same information as in a [deviation table](#deviation-table). 
+* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. This is the same information as in a [change list](#change-list). 
 
 Constant values can be used. 
 
 *A typical use case would be showing the value of a stock and comparing it to its value the previous day.*
 
-## Transposed grid
-A *transposed grid* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
+## Timer
+A digital display that counts down.  Upon reaching zero, the analysis will be updated and the timer will be reset. 
+
+## Transposed table
+A *transposed table* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
 
 Numerous data management and layout customization features are supported.
 
@@ -289,34 +333,9 @@ When a grid is grouped by a single column, rows that have identical values in th
 Each group will then be identified by a group row. 
 If the grid is grouped by another column, data rows within each group are arranged into second level groups based on the values of the new grouping column, etc.
 
-## Value chips
-A *value chip* visualizes one or more values
-
-The values are displayed left to right, then downwards.
-The data is put directly after the label, with no spacing, inside a chip.
-
-Actions can be applied to the values.
-
-## Value grid
-A *value grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
-
-### Filtering rows and columns
-Rows and columns in the value Grid can be configured with a [filter](concepts/selection) that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
-
-### Formatting
-The value Grid can be formatted in a various of ways, on row level (applied to all cells in that row), column level (applied to all cells in that column) and on cell/value level (applied to a single cell).
-Some formatting properties (not exhaustive) are:
-* Row height
-* Column height
-* Border format
-* Background color
-* Text alignment
-
 ## Word cloud
 A *word cloud* shows all object in a category with their size based on a connected value
 
 Colors can either follow the value, or be based on a secondary value.
 
 *A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
-
-

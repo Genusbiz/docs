@@ -123,11 +123,3 @@ Data sources are used by actions as sources of information. When you add a new R
 1.  Click the **Actions** tab.
 2.  Follow the [step-by-step procedure](../../../logic/action-orchestration/actions.md "Actions") for adding a new action.
 
-
-
-See Also
-
-*   [Data Sources](../../../logic/action-orchestration/data-sources.md)
-*   [Conditions](../../../common-concepts/conditions.md)
-*   [Actions](../../../logic/action-orchestration/actions.md)
-*   [Effects](../../../logic/action-orchestration/actions/effects.md)

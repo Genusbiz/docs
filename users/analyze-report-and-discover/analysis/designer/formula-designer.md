@@ -1,6 +1,6 @@
 # Formula Designer
 
-The Formula Designer is used to create and edit a [Formula](../concepts/formula.md)
+The Formula Designer is used to create and edit a [Formula](../concepts/index.md#formula)
 
 The Formula Designer is divided into three sections:
 * A Parameter Pane (to the left)
@@ -8,7 +8,7 @@ The Formula Designer is divided into three sections:
 * A Formula Area (the remaining part)
 
 ### Parameter Pane
-The Parameter Pane contains the available [Values](../concepts/value.md) that can be used as operand nodes in the Formula.
+The Parameter Pane contains the available [Values](../concepts/index.md#value) that can be used as operand nodes in the Formula.
 
 The parameters are divided into three types:
 * Tile Values - the (visible) values defined on the tile, e.g. columns defined for a table.
@@ -20,7 +20,7 @@ As such, Local Values and Formulas can be reused by multiple formulas. Local For
 To add a parameter/value to the formula, you just have to click the desired parameter/value, and a corresponding value reference operand node will be added to the formula.
 
 ### Toolbar
-The Toolbar contains the various operators (addition, subtraction, multiplication etc.), operands (not value references) and group/function nodes that can be added to a formula.  
+The Toolbar contains the various operators (addition, subtraction, multiplication etc.), operands (constant, if-then) and group/function nodes that can be added to a formula.  
 Upon click on any of the toolbar buttons, the corresponding formula node will be added to the formula.
 
 

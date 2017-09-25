@@ -1,10 +1,25 @@
 # General Settings
 
-To open General Settings, in the **File** menu click **General Settings**.
+
+To open General Settings, click **General Settings** button.
+
+Add a **Name** for the table.
+
+Add an optional **Description** of the table.
+
+To make the table visible for analysis etc, check the **enabled for user defined actions** option.
+
 
 ## Add a symbol
 
-You can define a symbol for your table. The symbol will appear in shortcuts. To select a symbol for Table, click **Browse** and select a bitmap file. The size of the bitmap can be maximum of 16x16 pixels. To remove the symbol, click **Clear**. You can also save the existing symbol to your computer by clicking **Save**.
+You can define a symbol for your table. The symbol will appear in shortcuts. To remove the symbol, click **Clear**. 
+
+
+
+## Enabled for user defined actions
+
+Check this option to publish the table. Se the analysis documentation for how to use a published table.
+
 
 ## Automatically save changes to objects
 

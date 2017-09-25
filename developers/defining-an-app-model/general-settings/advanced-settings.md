@@ -2,7 +2,7 @@
 
 Some of these settings are defaults that can be [personalized](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md) by individual users.
 
-**Print Color Settings**
+**Color Setting**
 
 In the **Color Settings** box in the **Print** section, select the color setting to use as default for printing:
 
@@ -10,7 +10,7 @@ In the **Color Settings** box in the **Print** section, select the color setting
 *   **Black and White** prints douments in black and white only.
 *   **Grayscale** translates colors to shades of gray.
 
-**Display Report Theme**
+**Report Theme**
 
 In the **Report Theme** box, in the **Display** section, select the color theme to use for displaying reports:
 
@@ -22,10 +22,11 @@ In the **Report Theme** box, in the **Display** section, select the color theme 
 *   Underwater
 *   Water
 
-****Display Color Scheme****
+**Application Theme**
 
-In the **Color Scheme** box in the **Display** section, select the default colors for the application.
+In the **Application Theme** box in the **Display** section, select the default theme for the application.
 
-*   Office 2007 Blue
-*   Office 2007 Silver
-*   Office 2007 Black
+*   Black
+*   Colorful
+*   Silver
+*   White

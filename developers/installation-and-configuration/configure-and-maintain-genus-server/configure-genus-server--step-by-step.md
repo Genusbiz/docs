@@ -150,7 +150,7 @@ See [Installing Genus Desktop](../install-genus-desktop.md) for more information
 If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.**
 
 1.  [Open Genus Studio](../../defining-an-app-model/getting-started/how-to-open-genus-studio.md)
-2.  To add a Node, in the Directory tree, locate Resources and then click on Nodes.
+2.  To add a Node, in the Directory tree, locate Services and then click on Nodes.
 3.  In the File menu, click New.
 4.  Specify the node settings, and click OK.
 5.  To add a Node Group, in the Directory tree, locate Resources and then click on Nodes Groups.

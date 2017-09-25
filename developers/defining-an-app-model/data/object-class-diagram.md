@@ -6,15 +6,14 @@ The Object Class Diagram helps you manage large object models through **pages**,
 
 Bi-directional synchronization of the object model and the database is supported through **reverse- and forward engineering**. Reverse engineering helps you to identify, assess and manage changes between the object model and the database via synchronization of database tables and columns. As the model is changed, you can propagate the changes to the database by automated SQL-script generation provided by the forward engineering functionality.
 
-![IDB81D167AE8E245C3.png](media/IDB81D167AE8E245C3.png)
+![object_class_diagram_example.png](media/object_class_diagram_example.png "Object class diagram exmaple")
 
 
 ## How to Open the Object Class Diagram
 
 1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory Tree**, click the **Object Classes** folder.
-3.  On the status bar at the lower right-part of the window, click **Diagram**![IDE6AFB151D08243E4.IDE6547F2F3B85460A.jpg](media/IDE6AFB151D08243E4.IDE6547F2F3B85460A.jpg).
-
+3.  On the status bar at the lower right-part of the window, click **Diagram**.
 
 
 ## Add, Rearrange, Delete and Rename Pages <a name="add-rearrange-delete-and-rename-pages"/>
@@ -25,7 +24,7 @@ Pages gives you the opportunity to divide your object model into smaller, manage
 
 To quickly insert a new page at the end of the existing pages, do the following:
 
-1.  Click the **New Page**![IDD5C074653FA647E5.ID868C58F66B8F48B0.jpg](media/IDD5C074653FA647E5.ID868C58F66B8F48B0.jpg) tab.
+1.  Click the **New Page** tab.
 2.  In the **New Page** dialog, type a name for the page.
 3.  Click **OK**.
 
@@ -344,22 +343,22 @@ You can zoom in to get a close-up view of a page, or zoom out to see more of a p
 
 To chooze a particular zoom setting, do the following:
 
-*   On the status bar, click **Zoom** **![ID6F25B1E0ABF0470D.png](media/ID6F25B1E0ABF0470D.png).**
+*   On the status bar, click **Zoom** **![object_class_diagram_zoom.png](media/object_class_diagram_zoom.png).**
 *   In the **Zoom** dialog box, enter a percentage or choose one of the predefined zoom settings.
 
 To zoom the page to 100% of the normal size, do the following:
 
-*   On the status bar, click **Zoom 100%** **![IDCB28D04A77B249EF.ID552D299FF8BF412A.jpg](media/IDCB28D04A77B249EF.ID552D299FF8BF412A.jpg)**.
+*   On the status bar, click **Zoom 100%** **![object_class_diagram_zoom_100_percent.jpg](media/object_class_diagram_zoom_100_percent.jpg)**.
 
 To zoom the page so that all shapes fits in the window, do the following:
 
-*   On the status bar, click **Zoom to Whole Page** **![IDCB28D04A77B249EF.IDC799EADB9A2D4789.jpg](media/IDCB28D04A77B249EF.IDC799EADB9A2D4789.jpg)**.
+*   On the status bar, click **Zoom to Whole Page** **![object_class_diagram_zoom_whole_page.jpg](media/object_class_diagram_zoom_whole_page.jpg)**.
 
 
 
 ## View the Diagram in Full Screen View
 
-On the status bar, click **Slide Show** **![ID8EE4621C110B40C2.png](media/ID8EE4621C110B40C2.png).**
+On the status bar, click **Slide Show** **![object_class_diagram_zoom_slide_show.png](media/object_class_diagram_zoom_slide_show.png).**
 
 The current page is displayed in full screen view. To page through the diagram, click the arrows?in the upper-right corner of the window. To turn off full screen view, click Close in the upper-right corner of the screen, or press ESC.
 

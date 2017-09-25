@@ -33,9 +33,3 @@ Reminders will send users an alert to follow up on an object when the reminder i
 
 A notification will send users an alert when a specified event occurs for an object. To allow users to [add notifications to individual objects](../../../../../users/navigate-view-modify-and-control/running-actions/follow-up/notifications.md), select the **Notifications** check box.
 
-
-
-See Also
-
-*   [Reminders](../../../../../users/navigate-view-modify-and-control/running-actions/follow-up/reminders.md)
-*   [Notifications](../../../../../users/navigate-view-modify-and-control/running-actions/follow-up/notifications.md)

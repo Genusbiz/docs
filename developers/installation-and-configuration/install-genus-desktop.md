@@ -1,6 +1,6 @@
 ---
 title: Installing Genus Desktop
-description: How to install Genus Desktop both in a per user environment and a shared computer environment, inclduing terminal servers.
+description: How to install Genus Desktop both in a per user environment and a shared computer environment, including terminal servers.
 author: balmlid
 ---
 
@@ -18,19 +18,21 @@ Whenever the user starts "Genus Desktop" the launcher kicks in, checks if the re
 
 ## Installation options
 
-For deployment of Genus Desktop in a corporate environment, there are three main approaches:
+We offer a wide range of options for deploying Genus Desktop in a corporate environment:
 
 1. **Completely managed by the user**: Let the users handle the installation and updates of the Genus Desktop themselves. This is an easy task, and many organisations choose this approach. Once the launcher is installed, it will silently operate in the background without any user intervention. The launcher even updates itself automatically in the background without any need for user intervention.
 
-1. **Completely managed by an administrator**: An administrator handles the installation and updates the Genus Desktop on behalf of the users, either because the user do not have the necessary permissions to install the software themselves, in order to reduce bandwidth requirements, or to save disk space on the terminal servers. Every time users need to access an updated version of Genus Desktop the administrator must ensure that the most recent launcher has been installed as well as download and pre-cache the Genus Desktop version.
+2. **Completely managed by an administrator**: An administrator handles the installation and updates the Genus Desktop on behalf of the users, either because the user do not have the necessary permissions to install the software themselves, in order to reduce bandwidth requirements, or to save disk space on the terminal servers. Every time users need to access an updated version of Genus Desktop the administrator must ensure that the most recent launcher has been installed as well as download and pre-cache the Genus Desktop version.
 
-1. **A combination of the two approaches**: Let the users install and automatically update the launcher, but the administrator pre-cache required Genus Desktop versions locally in use to save disk space and bandwidth.
+3. **Initial deployment by Windows Installer (MSI), then completely managed by the user**: An administrator may deploy the per user installer (see option 1 above) using Group Policy/Microsoft System Center.
 
-There are generally several options for rolling out program installations to many users on the Windows platform, some are inherent in the platform, and many third-party software vendors offer dedicated products for this specific purpose. These will generally not be discussed here.
+4. **Combining per user installation and administrator assisted pre-caching**: Let the users install and automatically update the launcher (using option 1 or option 3), but the administrator will pre-cache required Genus Desktop versions locally in use to save disk space and bandwidth.
 
-Each of the installation options are described in more detail below.
+5. **Custom deployment**: There are generally several other options for rolling out program installations to many users on the Windows platform, some are inherent in the platform, and many third-party software vendors offer dedicated products for this specific purpose. These will not be discussed here.
 
-In the following a few special folders (shown as **[_\<SpecialFolderName\>_]**) is used. See [here][1] for a description. For a detailed description of the GenusLauncher.exe command line syntax, see [The Genus Desktop launcher command line](genus-launcher-command-line.md).
+Installation options 1-4 are described in more detail below.
+
+In the following a few special folders (shown as **[_\<SpecialFolderName\>_]**) are used. See [here][1] for a description. For a detailed description of the GenusLauncher.exe command line syntax, see [The Genus Desktop launcher command line](genus-launcher-command-line.md).
 
 
 ## Option 1: The installation is fully managed by the end-users
@@ -43,7 +45,7 @@ A shortcut to GenusLauncher.exe will be added to the user's Start menu (**[\[Sta
 
 Whenever a new version is required local cache folders are searched in the following order ("x.x.x.x" below represents the file version of the corresponding Genus.exe):
 
-1. **[\[LocalApplicationData\]][1]\Genus\Client\VersionCache\x.x.x.x\Genus.exe**, the local per-user cache folder used for automatic updates
+1. **[\[LocalApplicationData\]][1]\Genus\Client\VersionCache\x.x.x.x\Genus.exe**, the local per user cache folder used for automatic updates
 1. **[\[CommonApplicationData\]][1]\Genus\Client\VersionCache\x.x.x.x\Genus.exe**, the local common cache folder used as the default folder for administrative downloads
 1. **[\[INSTALLDIR\]][1]\x.x.x.x\Genus.exe**, the alternative local common cache folder that may be used for administrative downloads
 
@@ -64,7 +66,7 @@ Installation and maintenance of administrative installations is a two step proce
     GenusLauncher.exe admin-version
     ```
 
-    If the version is not up to date or the launcher is not installed at all install the launcher using the command line 
+    If the version is not up to date, or the launcher is not installed at all, install the launcher using the command line 
 
     ```batchfile
     GenusLauncher.exe admin-install --enable-auto-update
@@ -92,7 +94,7 @@ Installation and maintenance of administrative installations is a two step proce
     ```
 
     where `<source URL>` is on the form **http(s)://_\<your_app_server_host_name_here\>_/_\<your_genus_dataset_virtual_directory_here\>_/**. The command will download a component package containing Genus.exe and its related files and unpack the files at the folder **[\[CommonApplicationData\]][1]\Genus\Client\x.x.x.x**.
-    
+
     If you rather prefer to put the cache within the GenusLauncher.exe installation folder, run the command line
 
     ```batchfile
@@ -102,9 +104,18 @@ Installation and maintenance of administrative installations is a two step proce
     instead. **However, we strongly discourage using the installation folder option (i.e. --installdir option) for caching Genus Desktop versions. The reason for this is that Windows locks executables that are currently in use, thereby making installing/updating/uninstalling of the launcher unreliable.**
 
 
-## Option 3: Combining end-user installation and administrator pre-caching
+## Option 3: Initial deployment by Windows Installer (MSI), then completely managed by the user
 
-If disk footprint in a shared computer environment (like a terminal server) is a major concern, but the end-users are allowed to perform installation on their local profile, we recommend a combined approach. Let the users install and automatically update the launcher, but let the administrator pre-cache required Genus Desktop versions locally in use to save disk space and bandwidth.
+There is yet another option for installing Genus Desktop. This is only intended for IT administrators that need to distribute software using Windows Installer (MSI) packages, e.g. through Group Policy/Microsoft System Center. The Genus Desktop Windows Installer package deploys the per user installer under **[\[ProgramFilesX86\]][1]\Genus Desktop Installer** and creates an entry at registry key **HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run** that will start the per user installation with a "**[\[ProgramFilesX86\]][1]\Genus Desktop Installer\GenusLauncher.exe --checkInstall**" command whenever a user logs in. If Genus Desktop is not already installed for that user, it will be installed.
+
+Please note that this is merely a way of deploying the standard per user installation, removing the need for users having to download and run the installation manually. Please also note that uninstalling the Windows Installer package will not remove Genus Desktop from user accounts.
+
+The Windows Installer package may be downloaded from a server with Genus App Services installed. The URL is on the form **http(s)://_\<your_app_server_host_name_here\>_/download/Setup.msi**.
+
+
+## Option 4: Combining per user installation and administrator assisted pre-caching
+
+If disk footprint in a shared computer environment (like a terminal server) is a major concern, but the end-users are allowed to perform installation on their local profile (i.e. option 1 or option 3), we recommend a combined approach: Let the users install and automatically update the launcher, but let the administrator pre-cache required Genus Desktop versions locally in use to save disk space and bandwidth.
 
 The end-user will install (with Setup.exe) and update the installation in the background, and the administrator will pre-cache required Genus Desktop versions using the command line
 
@@ -112,7 +123,7 @@ The end-user will install (with Setup.exe) and update the installation in the ba
 GenusLauncher.exe admin-unpack <source URL>
 ```
 
-The GenusLauncher.exe `admin-unpack` command is available even if the launcher is not administratively installed. Compared with _Option 1_ the only difference a user will experience is faster updates as the administrator has already provided cached versions on the local disk.
+The GenusLauncher.exe `admin-unpack` command is available even if the launcher is not administratively installed. Compared with option 1 or option 3 the only difference a user will experience is faster updates as the administrator has already provided cached versions on the local disk.
 
 By default, the Genus Desktop launcher will download and cache any missing version of the Genus Desktop executable. In order to prevent this in any case (e.g. the administrator has failed to provide the required version in the common cache) you may want to add the following into the registry:
 
@@ -124,6 +135,7 @@ Windows Registry Editor Version 5.00
 ```
 
 If the registry setting is added and the required version is missing the launcher will fail silently. For troubleshooting, see below.
+
 
 ## Troubleshooting
 

@@ -7,7 +7,7 @@ Two types of rules are supported:
 *   **Notify user and cancel command**. Used to enforce rules for maintaining data integrity. A uniqueness constraint secures that not more than one object with a given set of key values exists. Any attempt to save an object which violates the constraint will be denied.
 *   **Notify user and ask for confirmation to proceed**. Used to avoid that potential similar objects are registrered more than once. A uniqueness check does not prevent saving an object, but will inform the user of other objects which satisifies the requirements for the check. For example, you can use a uniqueness check to inform the user that a customer with the same name already exists.
 
-![ID074A8CD29EF0400C.jpg](media/ID074A8CD29EF0400C.jpg)
+![data_integrity.jpg](media/data_integrity.jpg)
 
 
 ## Primary Key Constraint
