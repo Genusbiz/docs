@@ -195,6 +195,11 @@ We use [react-markdown](https://github.com/rexxars/react-markdown) which follows
 
 It is possible to merge values into the markdown by adding the value number wrapped in curly brackets. For example, you can write {2} to include the second value.
 
+It is possible to merge known values into the markdown by adding an identifier wrapped in curly brackets. For example, you can write {loadtime} to include the time thge data mart was loaded.
+Available identifiers are:
+* loadtime: TRhe time the data mart was loaded.
+* refdate: The current reference date.
+
 ## Measure
 A *measure* visualizes one or more values
 
