@@ -197,7 +197,7 @@ It is possible to merge values into the markdown by adding the value number wrap
 
 It is possible to merge known values into the markdown by adding an identifier wrapped in curly brackets. For example, you can write {loadtime} to include the time thge data mart was loaded.
 Available identifiers are:
-* loadtime: TRhe time the data mart was loaded.
+* loadtime: The time the data mart was loaded.
 * refdate: The current reference date.
 
 ## Measure
