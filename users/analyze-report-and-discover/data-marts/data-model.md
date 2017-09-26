@@ -1,6 +1,7 @@
 # Data-model view
 
-**ATTENTION: This view is named "Data View" in the data mart editor for the time being. This will be changed soon.**
+> [!NOTE]
+> This view is named **Data View** in the data mart editor for the time being. This will be changed in the future.
 
 The data-model view shows a visual diagram of the data sources, properties and connections added to the data mart. The data-model view helps improve the understanding of the data mart model while it is being built, and the diagram is also available in [Analyses](../analysis.md) and [Data Extracts](../data-extract.md) to provide information on the content of the data mart.
 
@@ -32,12 +33,12 @@ A data source added this way has no fields published, and only one connection to
 
 The added data sources are initially placed in the top left corner, and should be moved to the appropriate place in the diagram.
 
-### Data source properties
+## Data source properties
 
 | Property                         | Description                                          |
 |----------------------------------|------------------------------------------------------|
 | Private                          | Use this for data sources that are only used temporarily when loading. The data source will not be accessible in any analysis. |
-| Allow aggregate requests only    | Use to restrict useage of this data source to aggregated values. The objects in the data source will not be accessible in analysis. This will speed up the analysis since objects in the data source will not be transferred to the client. |
+| Allow aggregate requests only    | Use to restrict usage of this data source to aggregated values. The objects in the data source will not be accessible in analysis. This will speed up the analysis since objects in the data source will not be transferred to the client. |
 | Max Occurences                   | Set to One if there will be exactly one object in the data source. This will affect the cardinality in functions accessing the data source. |
 
 
@@ -64,7 +65,7 @@ The connections must be unambiguous, which means that there cannot be connection
 
 
 
-## Multiple instances of a Data Source
+## Multiple instances of a data source
 
 The fact that connections are used to propagate selections, can sometimes lead to undesired effects. For example, consider a case where the *Month* data source is connected to both *Invoice.DueDate* and *Sales.Date*. When a month is selected, the invoices that are due that month are qualified, and the sales transactions performed that month are qualified. Unfortunately sales performed at the end of one month will often be invoiced with a due date the month after, which can lead to inconsistent data.
 
