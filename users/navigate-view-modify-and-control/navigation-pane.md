@@ -6,7 +6,7 @@ The view buttons at the bottom of the Navigation Pane correspond to different vi
 
 The figure below illustrates an example of the content in a Navigation Pane:
 
-![ID441C1DFB31264E0E.ID4DE37DE7702B4BCA.JPG](media/ID441C1DFB31264E0E.ID4DE37DE7702B4BCA.JPG)
+![navigation_pane_overview.JPG](media/navigation_pane_overview.JPG "Navigation Pane")
 
 1 Navigation Pane
 
