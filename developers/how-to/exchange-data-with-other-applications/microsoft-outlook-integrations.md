@@ -20,8 +20,6 @@ Copy and Paste E-mails, Contacts, and Calendar Items to and from Outlook or the 
 
 **Special considerations when using E-mail integrations**
 
-When starting on a computer outside of the Active Directory domain Genus Desktop needs to ask for the user's credentials in order to connect to the Exchange Server. If the user chooses to save the credentials Genus Desktop will store them in the Windows Credential Store and will use the saved credentials automatically next time without requiring any user interaction.  
-
 For E-mail integration to work the application model must meet certain requirements. Each user account must have a valid e-mail address which corresponds to one of the e-mail address aliases available in Active Directory for the user accessing the Exchange Server.  
 
 For more information on requirements, see [System Requirements for the Genus Desktop client](../../installation-and-configuration/system-requirements.md).

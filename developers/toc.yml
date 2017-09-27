@@ -497,8 +497,6 @@
     href: guidelines-and-best-practices/action-orchestration-performance-and-maintainability.md
   - name: Deleting event history and account session history
     href: guidelines-and-best-practices/deleting-event-history-and-account-session-history.md
-  - name: Improving Genus Desktop startup performance
-    href: guidelines-and-best-practices/improving-genus-desktop-startup-performance.md
   - name: Improving report performance
     href: guidelines-and-best-practices/improving-report-performance.md
   - name: Improving search performance
