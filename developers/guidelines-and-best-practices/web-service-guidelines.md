@@ -1,4 +1,4 @@
-# Web Service Guidelines
+# Web service guidelines ([SOAP](https://en.wikipedia.org/wiki/SOAP))
 
 Web services are often created to solve a certain problem or provide some data to an external application.
 
