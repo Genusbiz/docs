@@ -2,19 +2,19 @@
 
 When modeling an app or web app, it is sometimes easy to forget that server side modeling also matters when it comes to end user performance.
 
-This article discusses how to improve performance by providing some hints and tips regarding common performance bottlenecks. The article is intended for Trusted Users, i.e. Genus App modelers.  
+This article discusses how to improve performance by providing some hints and tips regarding common performance bottlenecks. The article is intended for Trusted Users, i.e. Genus Apps developers.  
 
-**Execute Audit Trail**
+## Execute audit trail
 
 Audit trail on execute of tasks should only be used during debugging or testing. This applies for tasks of both local and public scopes. Turning on this option will result in considerably poorer performance, and it is therefore important to turn off this option for solutions that are in production environments. Also the **Save detailed execution trace in history** option should only be turned on for for debugging or testing purposes.
 
 To turn Execute Auditing on or off for a Task, right-click the Task, and then in the shortcut menu, click **Properties**. Click the **History** tab, and check/clear the **Execute Event** check box in the **Auditing** section. For more information, see [Events](../defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md).
 
-**Security on Tasks with Local Scope**  
+## Security on tasks with local scope
 
 Tasks in a Form with Local Scope are only available in the context of a Form. Because of this, there is no reason to have security twice - both for the Form and for the Task. We recommend that everyone with access to the Form should have access to the tasks as well. The most performance friendly way of doing this, is to give **Everyone** rights to **Find and List** and **Read and Execute** of the local tasks. This does of course not apply if not everyone with access to the Form should be able to use the task.  
 
-**Logging on Genus App Services application server**
+## Logging on Genus server
 
 In the Genus Configuration application, there are several options to turn on extended logging for various categories. To set which file the log should be written to, you must first create a .txt-file. The recommended place to put this file is: *C:\\ProgramData\\Genus\\Server\\LogFiles\\*. Click **Log to file**, and select the file.
 
