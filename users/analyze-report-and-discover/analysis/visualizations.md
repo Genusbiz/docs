@@ -1,6 +1,6 @@
 # Analysis visualizations
 
-These are the *visualizations* available in an *analysis*
+These are the *visualizations* available in an *analysis*.
 
 ## Arc gauge
 An *arc gauge* visualizes how a value measures between two other values.
