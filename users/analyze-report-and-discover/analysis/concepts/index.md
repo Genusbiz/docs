@@ -1,7 +1,6 @@
 # Analysis concepts
 
-An Analysis consists of one or more Views, and every View has a set of Tiles that displays data using one of many [Visualizations](../visualizations.md).  
-These concepts, and other common Analysis concepts, are explained in this article.
+An Analysis consists of one or more Views, and every View has a set of Tiles that displays data using one of many [Visualizations](../visualizations.md). These concepts, and other common Analysis concepts, are explained in this article.
 
 
 ## View
@@ -54,7 +53,7 @@ If the Tile has defined [Categories](#category), the Values are grouped by these
 Some Visualizations use a different names for Values. E.g. a [Table](../visualizations.md#table) calls them *Columns*.  
 Values can also be formatted, with a suffix, a number/date format, a conditional color/text/icon etc.
 
-### Data types and Aggregates
+## Data types and aggregates
 Values can be numerics, strings, dates, etc.
 Only numeric *Values* can be aggregated. If a non-numeric field of an object is used in e.g. a [Measure](../visualizations.md#measure) it uses a *single-or-nothing* algorithm, meaning if there is a single qualified object in the data source of the value, then the data element of that object is used, otherwise nothing is used.
 
