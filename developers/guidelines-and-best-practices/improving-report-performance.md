@@ -1,10 +1,10 @@
-# Improving Report Performance
+# Improving report performance
 
-A Report is capable of handling huge amounts of data and displaying these in a compact or aggregated way to your end user. As your data grows in size, it is increasingly important to focus on the performance of your report.
+A report is capable of handling huge amounts of data and displaying these in a compact or aggregated way to your end user. As your data grows in size, it is increasingly important to focus on the performance of your report.
 
 This article discusses how to improve report performance by providing some hints and tips regarding report design. The article is intended for report designers, i.e. users with permissions to create or modify reports.
 
-**Hide Empty Rows**
+## Hide empty rows
 
 If your data is sparse, empty rows may be hidden by pressing the **Hide Empty Rows** button. Most often this will give you the desired effect without hurting performance.
 
@@ -28,11 +28,11 @@ By connecting the data sources along the vertical axis, as shown below, Genus do
 
 Reports with an unfortunate use of **Hide Empty Rows** and lack of connected axis data sources, will typically use a relatively small amount of database read time (reading axis data sources) followed by a relatively long client processing period (creating the cube), before anything appears on screen.
 
-**Hide Empty Columns**
+## Hide empty columns
 
 For the **Hide Empty Columns** button, the same guidelines apply as for the **Hide Empty Rows** button (see above), except that the data sources along the **Horizontal Axis** need to be connected.
 
-**Formula Evaluation**
+## Formula evaluation
 
 The entire expression inside formulas is evaluated by default, since any missing value is replaced with zeros.
 
@@ -46,7 +46,7 @@ Only apply such a change if it makes sense in the context of your report. Changi
 
 ![IDEFE332B600C244BB.ID84D3B8E656404365.png](media/IDEFE332B600C244BB.ID84D3B8E656404365.png)
 
-**Fixed Local Filter**
+## Fixed local filter
 
 Using a fixed local filter for one or more of your axis data sources will hurt performance, since values will be evaluated per axis object. If possible, change to another type of local filter.
 
@@ -56,7 +56,7 @@ To change local filter, right-click your data source, and in the menu point to *
 
 ![IDEFE332B600C244BB.ID7A5846AC1B1D4115.png](media/IDEFE332B600C244BB.ID7A5846AC1B1D4115.png)
 
-**Auto Fit Value Width**
+## Auto fit value width
 
 Automatic calculation of the column width may hurt performance. If it makes sense in the context of your report, consider changing to a fixed and custom column width.
 
@@ -64,6 +64,6 @@ To change to a custom column width, in the **Format** menu, point to **Columns**
 
 ![IDEFE332B600C244BB.IDBF7DC694E9664AC5.png](media/IDEFE332B600C244BB.IDBF7DC694E9664AC5.png)
 
-**Formulas in formulas**
+## Formulas in formulas
 
 The use of formulas inside formulas affects performance. For most reports this would not be noticeable, but if your report is pressed on performance, consider reducing the use of formulas inside formulas.
