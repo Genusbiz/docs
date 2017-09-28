@@ -10,7 +10,7 @@ The term "evergreen browser" refers to web browsers that are automatically upgra
 
 Please note that Internet Explorer 11 and older versions are not considered evergreen. Our support schedule is as follows:
 
-*   **Genus Apps 2016.1 or earlier**: Internet Explorer 11 is supported.
+*   **Genus Apps 2016.1**: Internet Explorer 11 is supported.
 *   **Genus Apps 2016.2**: Internet Explorer 11 is supported for all functionality areas except Analysis (Genus Discovery). We recommend using an evergreen browser.
 *   **Genus Apps 2017.1 and forward**: Support for Internet Explorer may be removed based on usage. You may have to use an evergreen browser.
 
@@ -30,7 +30,16 @@ The minimum hardware and software requirements for running a Genus Desktop clien
 ### Software requirements
 Genus Desktop runs on the following operating systems:
 
-Windows 10 (64-bit), Windows 8.1 (64-bit), Windows 8 (64-bit), Windows 7 (64-bit), Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 SP1. All with .NET Framework **4.6.2 or later**. (Genus App Platform 2016.1-2017.1 requires .NET Framework **4.6.1 or later**).
+* Windows 10 (64-bit)
+* Windows 8.1 (64-bit)
+* Windows 8 (64-bit)
+* Windows 7 (64-bit)
+* Windows Server 2016
+* Windows Server 2012 R2
+* Windows Server 2012
+* Windows Server 2008 R2 SP1
+
+.NET Framework **4.6.2 or later** must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework **4.6.1 or later**)
 
 Integration with Microsoft Office is supported for both 32-bit and 64-bit editions of Microsoft Office.
 
@@ -62,7 +71,14 @@ The server may very well be a virtual server, but virtual servers are recommende
 
 Genus App Services runs on the following operating systems:
 
-Windows Server 2016 (Server Core and Server with Desktop Experience), Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 SP1, all with .NET Framework **4.6.2 or later**. (Genus App Platform 2016.1-2017.1 requires .NET Framework **4.6.1 or later**). Server Core Role is not supported for other versions than Windows Server 2016.
+* Windows Server 2016 (Server Core and Server with Desktop Experience)
+* Windows Server 2012 R2
+* Windows Server 2012
+* Windows Server 2008 R2 SP1
+
+ Server Core Role is not supported for earlier versions than Windows Server 2016.
+
+.NET Framework **4.6.2 or later** must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework **4.6.1 or later**).
 
 We recommend using the latest version of Windows Server, and to keep your server up to date with the latest updates and service packs from Microsoft. Required server roles and features are automatically configured during installation of Genus App Services.
 
@@ -92,7 +108,7 @@ The Adaptive Server ADO.NET Data Provider for .NET Framework 4.0 installs Sybase
 
 #### MySQL
 
-For MySQL database access the **MySQL Connector/Net, version 6.4.4** must be installed on the application server. MySQL Connector/Net is a fully managed provider, meaning that it does not depend on 32 bit or 64 bit versions of Windows Server.
+For MySQL database access the **MySQL Connector/Net, version 6.4.4** must be installed on the application server.
 
 #### DB2  
 
