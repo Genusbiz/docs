@@ -39,7 +39,7 @@ Genus Desktop runs on the following operating systems:
 * Windows Server 2012
 * Windows Server 2008 R2 SP1
 
-.NET Framework **4.6.2 or later** must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework **4.6.1 or later**)
+.NET Framework 4.6.2 or later must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework 4.6.1 or later)
 
 Integration with Microsoft Office is supported for both 32-bit and 64-bit editions of Microsoft Office.
 
@@ -76,9 +76,9 @@ Genus App Services runs on the following operating systems:
 * Windows Server 2012
 * Windows Server 2008 R2 SP1
 
- Server Core Role is not supported for earlier versions than Windows Server 2016.
+Server Core Role is not supported for earlier versions than Windows Server 2016.
 
-.NET Framework **4.6.2 or later** must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework **4.6.1 or later**).
+.NET Framework 4.6.2 or later must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework 4.6.1 or later).
 
 We recommend using the latest version of Windows Server, and to keep your server up to date with the latest updates and service packs from Microsoft. Required server roles and features are automatically configured during installation of Genus App Services.
 
@@ -102,7 +102,7 @@ Any other Oracle driver software on the application server must be completely un
 
 For Sybase database access Genus App Services requires installation of Adaptive Server ADO.NET Data Provider for .NET Framework 4.0. The required version is a component included in Adaptive Server Enterprise (ASE), **EBF 21674: 15.7 SP60 - 64 Bit 15.7 17 Dec 2013 EBF/Patch**.  
 
-Please make sure that the 64 bit version of the ADO.NET Data Provider is installed. 
+Please make sure that the 64-bit version of the ADO.NET Data Provider is installed. 
 
 The Adaptive Server ADO.NET Data Provider for .NET Framework 4.0 installs Sybase.AdoNet4.AseClient.dll, **assembly version 4.157.1212.0**.  
 
