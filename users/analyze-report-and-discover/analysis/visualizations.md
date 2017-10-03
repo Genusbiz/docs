@@ -25,7 +25,7 @@ Actions can be applied to header, content, button and context menu.
 ## Barrel roll
 Takes a single category as input and loops over the category data. 
 
-## Basic List 
+## Basic list 
 A *Basic List* can take one category and 0 - 2 values
 
 The category will determine the main heading for the items in the list.
@@ -272,6 +272,13 @@ For each category data source in use by the analysis, the number of selected/qua
 
 You have the possibility to lock/unlock and clear the selection for each category data source by clicking on the corresponding icons upon hovering.
 
+## Sunburst chart
+A *Sunburst chart* presents multiple categories and single value in a multilayer chart. 
+Each category added represents a new layer of depth in the chart and the size of a slice is determined by the value.
+It is used to represent hierarchical data.
+
+Supports selection
+
 ## Speedometer gauge
 A *speedometer gauge* displays a value in a speedometer gauge. 
 The first value is the value to be displayed. 
@@ -335,6 +342,11 @@ A digital display that counts down.  Upon reaching zero, the analysis will be up
 A *transposed table* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
 
 Numerous data management and layout customization features are supported.
+
+## Treemap
+A *Treemap* presents hierarchical data with nested rectangles.
+
+The main category decides how the rectangles will be ordered. Each rectangle represents one instance of the second category and the size is determined by the value.
 
 ## Two dimensional grid
 A *two dimensional grid* presents bound data in a tabular format, where columns represent data fields and rows represent objects.
