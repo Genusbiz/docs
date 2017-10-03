@@ -25,6 +25,14 @@ Actions can be applied to header, content, button and context menu.
 ## Barrel roll
 Takes a single category as input and loops over the category data. 
 
+## Basic List 
+A *Basic List* can take one category and 0 - 2 values
+
+The category will determine the main heading for the items in the list.
+Each value chosen will be on a new line under the heading as subheadings in each item 
+
+Selections and sorting is supported 
+
 ## Bubble chart
 A *bubble chart* vizualies three of four values grouped on a single category. 
 
