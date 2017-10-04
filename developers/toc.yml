@@ -47,7 +47,7 @@
       - name: Comments and constructs
         href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
       - name: Data types
-        href: defining-an-app-model/common-concepts/advanced-expressions/data-types.md
+        href: defining-an-app-model/common-concepts/advanced-expressions/data-types.md        
       - name: Collection types
         href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
       - name: Formula editor
@@ -161,7 +161,7 @@
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/examples--how-to.md
               - name: Properties
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/properties.md
-            - name: TimeSlider
+            - name: Timeline
               href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline.md
               items:
               - name: Examples / How To
