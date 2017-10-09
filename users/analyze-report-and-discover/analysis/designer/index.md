@@ -23,7 +23,7 @@ Assume an "Invoice" is connected to a "Customer", and that there is a field call
 5. In the **Data Source** dropdown, select "Invoice"
 6. In the **Field** dropdown, select "Amount"
 7. Save the **Analysis**
-8. Select **Preview** in the **Tools** menu
+8. Select **Preview** in the **Actions** menu
 
 
 ## How To
