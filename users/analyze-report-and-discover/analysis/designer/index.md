@@ -4,7 +4,7 @@ To design an Analysis you will add [Tiles](../concepts/index.md#tile) to the cur
 
 In the [Tile](../concepts/index.md#tile) pane you can select the kind of [Visualization](../visualizations.md) you want for the [Tile](../concepts/index.md#tile).
 
-The [Tile](../concepts/index.md#tile) pane contains configutation for the selected [Tile](../concepts/index.md#tile) . Different [Tiles](../concepts/index.md#tile)  use different configuration settings, although many are common.
+The [Tile](../concepts/index.md#tile) pane contains configuration for the selected [Tile](../concepts/index.md#tile) . Different [Tiles](../concepts/index.md#tile)  use different configuration settings, although many are common.
 There are four sections on the [Tile](../concepts/index.md#tile) pane:
 * Visualization Selector
 * Data Selector
