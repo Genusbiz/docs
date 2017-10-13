@@ -310,6 +310,12 @@ Name | Description
 **mod10Validate** | Checksum.mod10Validate(*digits*)<br><br>Verifies that a string of numerical digits contains a valid control digit, according to the Luhn algorithm, also called the "modulus 10" or "mod 10" algorithm.<br><br>Return Type: Boolean<br>TRUE if the string is valid; otherwise, FALSE.<br><br>**digits**<br>- Type: String<br>- A string containing characters in the value range between '0' and '9'.
 **mod11Calculate** | Checksum.mod11Calculate(*digits* [, *weights*] [, *reverseOrder*])<br><br>Calculates the control digit for a string of numerical digits, according to the MOD11 algorithm.<br><br>Return Type: String<br>A string containing a single character in the value range between '0' and '9'.<br><br>**digits**<br>- Type: String<br>- A string containing characters in the value range between '0' and '9'.<br>**weights (Optional)**<br>- Type: String<br>- Default Value: "234567"<br>- A string used as weigths during calculation, containing characters in the value range between '0' and '9'.<br>**reverseOrder (Optional)**<br>- Type: Boolean<br>- Default Value: true<br>- TRUE if the checksum should be calculated based on digits weighted in a right to left order (default); otherwise, FALSE.
 **mod11Validate** | Checksum.mod11Validate(*digits* [, *weights*] [, *reverseOrder*])<br><br>Verifies that a string of numerical digits contains a valid control digit, according to the MOD11 algorithm.<br><br>Return Type: Boolean<br>TRUE if the string is valid; otherwise, FALSE.<br><br>**digits**<br>- Type: String<br>- A string containing characters in the value range between '0' and '9'.<br>**weights (Optional)**<br>- Type: String<br>- Default Value: "234567"<br>- A string used as weigths during calculation, containing characters in the value range between '0' and '9'.<br>**reverseOrder (Optional)**<br>- Type: Boolean<br>- Default Value: true<br>- TRUE if the checksum should be calculated based on digits weighted in a right to left order (default); otherwise, FALSE.
+## Clipboard type
+The Clipboard type exposes the following members.
+### Type members
+Name | Description
+--- | ---
+**getText** | Clipboard.getText<br><br>Retrieves text data from the Clipboard.<br>Return Type: String
 ## Collection type
 The Collection type exposes the following members.
 ### Type members
