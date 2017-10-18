@@ -10,5 +10,3 @@ Genus Desktop is an application client which requires installation on your compu
 **Topics in Getting started**
 
 * [Start Genus Desktop](../users/getting-started/start-the-genus-desktop-client.md)
-
-tester
