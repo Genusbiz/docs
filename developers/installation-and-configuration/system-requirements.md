@@ -39,7 +39,13 @@ Genus Desktop runs on the following operating systems:
 * Windows Server 2012
 * Windows Server 2008 R2 SP1
 
-.NET Framework 4.6.2 or later must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework 4.6.1 or later)
+Genus Desktop requires the following minimum version of the .NET Framework:
+
+* Genus App Platform 2017.5 or later: .NET Framework 4.7 or later
+* Genus App Platform 2017.2-2017.4: .NET Framework 4.6.2 or later
+* Genus App Platform 2016.1-2017.1: .NET Framework 4.6.1 or later
+
+To download the required version of the .NET Framework, visit https://www.microsoft.com/net/download.
 
 Integration with Microsoft Office is supported for both 32-bit and 64-bit editions of Microsoft Office.
 
@@ -54,11 +60,8 @@ The minimum hardware and software requirements for an application server running
 ### Hardware requirements
 
 * Monitor resolution: Minimum 1024x768 screen resolution.
-
 * CPU: Minimum 1.4 GHz x64 processor with at least two cores.
-
 * Memory (RAM): Minimum 4 GB.
-
 * Disk space: Minimum 2 GB available.
 
 The actual hardware requirements are dependent on your Genus application's functionality and your number of concurrent users, agents, web services etc. Please consult your Genus business partner for help in specifying your requirements. We also recommend examining Microsoft's requirements for your Windows Server edition.
@@ -78,7 +81,13 @@ Genus App Services runs on the following operating systems:
 
 Server Core Role is not supported for earlier versions than Windows Server 2016.
 
-.NET Framework 4.6.2 or later must be installed. (Genus App Platform 2016.1-2017.1 requires .NET Framework 4.6.1 or later).
+Genus App Services requires the following minimum version of the .NET Framework:
+
+* Genus App Platform 2017.5 or later: .NET Framework 4.7 or later
+* Genus App Platform 2017.2-2017.4: .NET Framework 4.6.2 or later
+* Genus App Platform 2016.1-2017.1: .NET Framework 4.6.1 or later
+
+To download the required version of the .NET Framework, visit https://www.microsoft.com/net/download.
 
 We recommend using the latest version of Windows Server, and to keep your server up to date with the latest updates and service packs from Microsoft. Required server roles and features are automatically configured during installation of Genus App Services.
 
@@ -92,13 +101,13 @@ The application server manages connectivity to the database layer, and communica
 
  Genus App Services uses Microsoft's built-in ADO.NET Provider for SQL Server. No additional software on the application server is required.
 
-#### Oracle (Genus App Platform 2016.1 and later)
+#### Oracle
 
 Genus App Services includes Oracle ODP.NET Managed Driver. No additional software on the application server is required.
 
 Any other Oracle driver software on the application server must be completely uninstalled and removed, prior to the installation of Genus App Services.
 
-#### Sybase
+#### Sybase Adaptive Server Enterprise (ASE)
 
 For Sybase database access Genus App Services requires installation of Adaptive Server ADO.NET Data Provider for .NET Framework 4.0. The required version is a component included in Adaptive Server Enterprise (ASE), **EBF 21674: 15.7 SP60 - 64 Bit 15.7 17 Dec 2013 EBF/Patch**.  
 
@@ -110,10 +119,12 @@ The Adaptive Server ADO.NET Data Provider for .NET Framework 4.0 installs Sybase
 
 For MySQL database access the **MySQL Connector/Net, version 6.4.4** must be installed on the application server.
 
-#### DB2  
+#### IBM DB2
 
-For DB2 database access the "IBM Data Server Driver Package (Windows/x86-64 64 bit) V11.1.1 Fix Pack 1" must be installed on your application server.  
-The required package can be downloaded from [https://www.ibm.com/support/docview.wss?uid=swg27016878](https://www.ibm.com/support/docview.wss?uid=swg27016878) (select Version 11.1, Mod1 Fix Pack 1).
+For IBM DB2 database access the "IBM Data Server Driver Package (Windows/x86-64 64 bit)" must be installed on your application server. Please download the appropriate version according to the list below from [https://www.ibm.com/support/docview.wss?uid=swg27016878](https://www.ibm.com/support/docview.wss?uid=swg27016878):
+
+* Genus App Platform 2017.5 or later: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod2 Fix Pack2 iFix001" ([v11.1.2fp2a_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.2021.1452-FP002a&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
+* Genus App Platform 2016.1-2017.4: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod1 Fix Pack 1" ([v11.1.1fp1_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.1010.160-FP001&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
 
 ## Supported database system vendors
 
