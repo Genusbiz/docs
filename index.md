@@ -1,13 +1,13 @@
 ---
-title: Genus App Platform documentation
-description: Learn how to use Genus App Platform to quickly create, deploy and change customized, no-code, model-driven, line-of-business software solutions.
+title: Genus Apps documentation
+description: Learn how to use Genus Apps to quickly create, deploy and change customized, no-code, model-driven, line-of-business software solutions.
 author: jtroset
 ---
-# **Genus App Platform<sup>&reg;</sup> documentation**
-Learn how to use Genus App Platform to quickly create, deploy and change customized software solutions. The tutorials and articles show you how to use this high-productivity, no-code development platform to build and use line-of-business software solutions.
+# **Genus Apps<sup>&reg;</sup> documentation**
+Learn how to use Genus Apps to quickly create, deploy and change customized software solutions. The tutorials and articles show you how to use this high-productivity, no-code development tool to build and use line-of-business software solutions.
 
 > [!NOTE]
-> The **Search** box on these docs pages doesn't work on Windows 10 until the search index has been loaded, which currently takes 5-10 seconds. Keep these web pages open if you perform repeated searches. We are sorry for the inconvenience.
+> The **Search** box on these docs pages doesn't work on Windows 10 until the search index has been loaded, which currently takes 5-10 seconds. Keep these web pages open if you perform repeated searches.
 
 ## Developers
 * [Overview](developers/overview/index.md)

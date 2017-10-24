@@ -22,4 +22,3 @@ To modify an Object or Identifier Domain, do the following:
 * [Events](modify-an-object-or-identifier-domain/events.md)
 * [Security](modify-an-object-or-identifier-domain/security.md)
 * [Data Exchange](modify-an-object-or-identifier-domain/data-exchange.md)
-* [Follow Up](modify-an-object-or-identifier-domain/follow-up.md)

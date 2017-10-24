@@ -1,6 +1,6 @@
 # Terminology
 
-Below you will find explanations of selected concepts important for the understanding of Genus App Platform.
+Below you will find explanations of selected concepts important for the understanding of Genus Apps.
 
 _Note: This article is referred to from Genus standard contract documents by its url. Any changes to the location of this article must be coordinated with VP Business Development. Normal guidelines apply to any changes to the contents of the article._
 
@@ -10,7 +10,7 @@ Each time an account signs in, an entry is logged in the account session history
 
 ## Advanced expressions
 
-To be able to compute or calculate values, Genus App Platform offers advanced expressions.
+To be able to compute or calculate values, Genus Apps offers advanced expressions.
 
 Advanced expressions consists of a set of words, i.e. a finite string of letters, symbols or tokens, and adhering to a formal grammar, i.e. a set of rules for combining the set of words.
 
@@ -30,7 +30,7 @@ Apps installed on devices are usually named **Installed Apps** or **Mobile Apps*
 
 ## App model
 
-An app model is a formalized description of a software app's user interface, logic and data, expressed using the Genus App Platform. App model is short for application model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in the [Directory](#directory) and maintained by using [Genus Studio](#genus-studio).
+An app model is a formalized description of a software app's user interface, logic and data, expressed using Genus Apps. App model is short for application model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in the [Directory](#directory) and maintained by using [Genus Studio](#genus-studio).
 
 Note that our use of the term "model" does not imply that a model is some form of simplification. To us a model is distilled knowledge and a way of structuring a domain.
 
@@ -48,7 +48,7 @@ See [Create or modify a code domain](developers/defining-an-app-model/data/objec
 
 ## Customer app or customer solution
 
-A customer app or customer solution is a computer program (software) based on Genus App Platform. Customer apps are defined in an customer specific app model. The word "app" and "application" are used synonymously.
+A customer app or customer solution is a computer program (software) based on Genus Apps. Customer apps are defined in an customer specific app model. The word "app" and "application" are used synonymously.
 
 ## Data provider
 
@@ -58,7 +58,7 @@ A data provider is a software component enabling access to data from a data sour
 
 In general, a directory is a structured listing and storage of information.
 
-In Genus App Platform, the directory is the structured storage of a [Genus app model](#app-model). The directory is maintained using [Genus Studio](#genus-studio).
+In Genus Apps, the directory is the structured storage of a [Genus app model](#app-model). The directory is maintained using [Genus Studio](#genus-studio).
 
 ## Directory GUID
 
@@ -86,37 +86,37 @@ employee.firstName + ", " + employee.surname
 
 For more information see [Advanced expressions](developers/defining-an-app-model/common-concepts/advanced-expressions.md).
 
-## Genus App Platform
-
-Genus App Platform is a high-productivity or rapid application development technology, which can be used to create or change enterprise software applications. The platform targets medium to large size enterprises, and professional and semi-professional developers.
-
-Genus App Platform consists of all software and products provided by Genus, whether provided for installation physically at your device, at your company's location, through third party service providers or through a cloud infrastructure. This includes Genus Apps, Genus Desktop, Genus App Services, Genus Studio, documentation, a support portal, and more.
-
 ## Genus Apps
 
-Genus App Platform's client (runtime/executable) for mobile devices, like iPhones, iPads and Android devices.
+Genus Apps is a high-productivity or rapid application development tool, which can be used to create or change enterprise software applications. The tool targets medium to large size enterprises, and professional and semi-professional developers.
 
-## Genus App Services
+Genus Apps consists of all software and products provided by Genus, whether provided for installation physically at your device, at your company's location, through third party service providers or through a cloud infrastructure. This includes Genus Apps for web, Genus Apps for Desktop, Genus Services, Genus Studio, documentation, a support portal, and more.
 
-Genus App Platform's set of software components offering services to Genus Desktop, Genus Apps, other Genus App Services, or third party service consumers.
+## Genus Apps for Desktop
 
-Genus App Services run on a set of one or more Microsoft Windows Servers. See also [Genus Server](#genus-server).
+Genus Apps' client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
 
-## Genus Desktop
+## Genus Apps for Web
 
-Genus App Platform's client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
+Genus Apps' client (runtime/executable) for web browsers.
+
+## Genus Services
+
+Genus Apps' set of software components offering services to Genus Apps for Web, Genus Apps for Desktop, other Genus Services, or third party service consumers.
+
+Genus Services run on a set of one or more Microsoft Windows Servers. See also [Genus Server](#genus-server).
 
 ## Genus Server
 
-Genus Server is almost synonymous with [Genus App Services](#genus-app-services).
+Genus Server is almost synonymous with [Genus Services](#genus-services).
 
-Use Genus Server when you talk about Genus App Services as a set of one or more services running inside a Microsoft Windows Server, simply because it is easier to talk about a _Genus Server_ than a _Genus App Services Server_. This implies that you may use the term Genus Server for a server hosting only one service (like the _Genus Apps for Web_ service).
+Use Genus Server when you talk about Genus Services as a set of one or more services running inside a Microsoft Windows Server, simply because it is easier to talk about a _Genus Server_ than a _Genus Services Server_. This implies that you may use the term Genus Server for a server hosting only one service (like the _Genus Apps for Web_ service).
 
-Use Genus App Services when you talk about the services independently of one or more Microsoft Windows Servers.
+Use Genus Services when you talk about the services independently of one or more Microsoft Windows Servers.
 
 ## Genus Studio
 
-Genus App Platform's client for defining and maintaining an [app model](#app-model). Genus Studio is included in the Genus Desktop installation.
+Genus Apps' client for defining and maintaining an [app model](#app-model). Genus Studio is included in the Genus Desktop installation.
 
 ## Metadata
 
@@ -126,12 +126,12 @@ There are hierarchies or levels of data and metadata. However, any particular it
 
 ## Release and release stages
 
-A distribution of an upgraded version of Genus App Platform is called a release, and comes in basically two flavours:
+A distribution of an upgraded version of Genus Apps is called a release, and comes in basically two flavours:
 
 * A **Major Release** is an upgraded version with changes in either of the major or minor parts of the version number.
 
 * A **Minor Release** is an upgraded version with no change in either major or minor parts of the version number (but with a change in the revision or build parts). A minor release may  also be called a **Release Update** or **Release Patch** or simply a **Patch**.
 
-Genus App Platform goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade. These stages are called **Release Stages**.
+Genus Apps goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade. These stages are called **Release Stages**.
 
 See [here](developers/release-notes/release-stages.md) for more information.
