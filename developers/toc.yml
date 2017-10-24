@@ -380,8 +380,6 @@
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/security.md
         - name: Data Exchange
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-exchange.md
-        - name: Follow Up
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/follow-up.md
     - name: Object class property
       href: defining-an-app-model/data/object-class-property/index.md
       items:

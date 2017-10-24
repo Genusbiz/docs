@@ -23,9 +23,3 @@ An Action can operate on one object, a number of objects, or it may not require 
 The actions that are available will vary depending on the form and the type of object it is related to . Typical actions can for example be, <span style="FONT-STYLE: italic">Set Customer Inactive, <span style="FONT-STYLE: italic">Export Invoices, or <span style="FONT-STYLE: italic">Approve Budget Proposal.
 
 Some actions are more intuitively activated from other menus or keyboard shortcuts, and are therefore <span style="FONT-STYLE: italic">not made available in the Action Task Pane. Examples of such actions are <span style="FONT-STYLE: italic">New Applicant, <span style="FONT-STYLE: italic">Copy Documents, <span style="FONT-STYLE: italic">Send Invoice as E-mail, <span style="FONT-STYLE: italic">Paste Contacts from Outlook.
-
-Special actions to follow up objects are located in the [Follow Up](follow-up.md) section in the Action Task Pane.
-
-**Topics in "Running Actions"**
-* [Follow Up](follow-up.md)
-* [Modify Merging of Reports](modify-merging-of-reports.md)

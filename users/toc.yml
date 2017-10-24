@@ -90,15 +90,6 @@
   - name: Running actions
     href: navigate-view-modify-and-control/running-actions/index.md
     items:
-    - name: Follow up
-      href: navigate-view-modify-and-control/running-actions/follow-up.md
-      items:
-      - name: Reminders
-        href: navigate-view-modify-and-control/running-actions/follow-up/reminders.md
-      - name: Notifcations
-        href: navigate-view-modify-and-control/running-actions/follow-up/notifications.md
-      - name: Alerts
-        href: navigate-view-modify-and-control/running-actions/follow-up/alerts.md
     - name: Modify merging of Reports
       href: navigate-view-modify-and-control/running-actions/modify-merging-of-reports.md
   - name: Keyboard shortcuts
