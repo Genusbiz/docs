@@ -20,4 +20,4 @@ All services are stateless, providing resilience at the Genus App Services tier,
 
 Genus App Services may be placed on-premises at your business' location, at a third party hosting service provider, in Microsoft Azure or any other cloud provider.
 
-For more information, see our white paper [Genus App Platform - A Technology Overview](https://www.genus.no/?PageKey=cf6b2fa4-4846-4b24-be1b-69999935bf1f).
+For more information, see our white paper [Genus Apps - A Technology Overview](https://www.genus.no/?PageKey=cf6b2fa4-4846-4b24-be1b-69999935bf1f).
