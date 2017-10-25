@@ -31,6 +31,6 @@ Learn how to use Genus Apps to quickly create, deploy and change customized soft
 **Quick links**
 * [Keyboard shortcuts](developers/defining-an-app-model/user-interface/keyboard-shortcuts.md)
 * [System requirements](developers/installation-and-configuration/system-requirements.md)
-* [Personalize your Genus Desktop](users/navigate-view-modify-and-control/personalize-your-genus-desktop.md)
+* [Personalize your Desktop client](users/navigate-view-modify-and-control/personalize-your-genus-desktop.md)
 * [How to report an error](developers/how-to/report-an-error.md)
 * [Terminology](terminology.md)
