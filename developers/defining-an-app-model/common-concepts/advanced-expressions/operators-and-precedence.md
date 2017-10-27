@@ -16,7 +16,7 @@ Binary operator expressions:
 
 <tr>
 
-<td>** * **</td>
+<td>*****</td>
 
 <td>Multiplication</td>
 
@@ -28,7 +28,7 @@ Binary operator expressions:
 
 <tr>
 
-<td>** / **</td>
+<td>**/**</td>
 
 <td>Division</td>
 
