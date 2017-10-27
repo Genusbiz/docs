@@ -1,8 +1,8 @@
 - name: Overview
   href: overview/index.md
   items:
-  - name: What is Genus App Platform?
-    href: overview/what-is-genus-app-platform.md
+  - name: What is Genus Apps?
+    href: overview/what-is-genus-apps.md
   - name: Application scenarios
     href: overview/application-scenarios.md
   - name: Architecture
