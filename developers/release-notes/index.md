@@ -1,11 +1,11 @@
 ---
-title: Genus App Platform release notes.
-description: User-visible changes to Genus App Platform from one release to the next.
+title: Genus Apps release notes.
+description: User-visible changes to Genus Apps from one release to the next.
 author: jtroset
 ---
 # Release notes
 
-Explore the menu to the left to learn about all user-visible changes to Genus App Platform from one release to the next.
+Explore the menu to the left to learn about all user-visible changes to Genus Apps from one release to the next.
  
 The release notes will be updated prior to a release and may also be updated as long as the release is available, e.g. with information of new patches or known issues. A change log is available at the end of each release note.
 

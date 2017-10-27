@@ -1,6 +1,6 @@
 # Upload and Download Large Files
 
-Genus App Platform supports upload and download of large files, in the tens to hundreds of megabytes order, using standard HTTP POST and HTTP GET mechanisms. Some of the advantages to uploading/downloading are, that it is more resource efficient, and that it is easier to cancel an ongoing operation.
+Genus Apps supports upload and download of large files, in the tens to hundreds of megabytes order, using standard HTTP POST and HTTP GET mechanisms. Some of the advantages to uploading/downloading are, that it is more resource efficient, and that it is easier to cancel an ongoing operation.
 
 **Uploading a File**
 
@@ -18,4 +18,4 @@ Note that when a file is downloaded, the file is opened as read only and cannot 
 
 **Special Considerations**  
 
-If you plan to extend your usage of Genus App Platform to handle large files, remember to check your database free space and growth settings. E.g. pay attention to settings like Database files Autogrowth in Microsoft SQL Server.
+If you plan to extend your usage of Genus Apps to handle large files, remember to check your database free space and growth settings. E.g. pay attention to settings like Database files Autogrowth in Microsoft SQL Server.

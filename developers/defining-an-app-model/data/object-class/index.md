@@ -2,7 +2,7 @@
 
 Object Classes express static descriptions of data and behaviour. Data for an Object Class is defined by adding [properties](../object-class-property/index.md). Behaviour is defined by adding [rules](modify-an-object-or-identifier-domain/rules.md) that contains the knowledge on how to respond to different events. The primary motiviation for identifying an Object Class, is to match the technical representation of an application more closely to the conceptual view of the world. Another motiviation is the desire to create a framework that is likely to be stable over time. The functionality provided by an application may change radically over time, while the structure of an application is relative stable over time.
 
-Genus App Platform also allows you to define an Object Class composed of other Object Classes to form a composition. Object composition is a way and practice to combine simple objects into more complex ones. For example, the objects _wheel, steering wheel, seat, gearbox_ and _engine_ may have no functionality by themselves. But if you compose them, they may form an _automobile_ object. That is, an object which has a higher function (or greater than the sum of its parts).
+Genus Apps also allows you to define an Object Class composed of other Object Classes to form a composition. Object composition is a way and practice to combine simple objects into more complex ones. For example, the objects _wheel, steering wheel, seat, gearbox_ and _engine_ may have no functionality by themselves. But if you compose them, they may form an _automobile_ object. That is, an object which has a higher function (or greater than the sum of its parts).
 
 Object Classes are categorized in three types of domains:
 

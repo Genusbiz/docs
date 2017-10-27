@@ -1,6 +1,6 @@
 ---
-title: Search and refine using Genus App Platform
-description: How end users can search and refine their searches using Genus App Platform
+title: Search and refine using Genus Apps
+description: How end users can search and refine their searches using Genus Apps
 author: OleGrytdal
 ---
 # Search and refine

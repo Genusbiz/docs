@@ -135,7 +135,7 @@ If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communica
 
 [A restart of Genus services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus App Services") is required to make your changes take effect.
 
-**Step 13 - Install License** **A license file is required in order to start the Genus App Platform. See** [Install License on Genus App Services applicaion server](../install-license-on-genus-server.md) for more information. 
+**Step 13 - Install License** **A license file is required in order to start the Genus Apps. See** [Install License on Genus App Services applicaion server](../install-license-on-genus-server.md) for more information. 
 
 **Step 14 - Install the Genus Desktop**
 

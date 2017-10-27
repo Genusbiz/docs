@@ -35,7 +35,7 @@ If the Web Service is configured to return SOAP faults (defined in WSDL), the da
 
 ## Translation of SOAP Faults for POX/JSON
 
-Generally speaking, there exists no standardized format to be used for returning a SOAP fault that has been created on the server side to a client that consumes a web service using a POX/JSON endpoint. For SOAP faults that originates from Genus App Platform web services, however, we have defined a data format that will be used for this purpose.
+Generally speaking, there exists no standardized format to be used for returning a SOAP fault that has been created on the server side to a client that consumes a web service using a POX/JSON endpoint. For SOAP faults that originates from Genus Apps web services, however, we have defined a data format that will be used for this purpose.
 
 ### POX
 

@@ -1,6 +1,6 @@
 ---
-title: Navigate, view, modify and control using Genus App Platform
-description: How end users can navigate, view, modify and control their work processes using Genus App Platform
+title: Navigate, view, modify and control using Genus Apps
+description: How end users can navigate, view, modify and control their work processes using Genus Apps
 author: eriksandnes
 ---
 # Navigate, view, modify and control

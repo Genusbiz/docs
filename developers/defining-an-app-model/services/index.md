@@ -1,5 +1,5 @@
 ---
-title: Developing web services using Genus App Platform
+title: Developing web services using Genus Apps
 description: How to define web services using Genus Studio
 author: asbjorne
 ---

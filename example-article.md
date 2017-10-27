@@ -1,12 +1,12 @@
 ---
 title: Genus Docs example article
-description: An example article demonstrating the most common DocFX flavoured Markdown used in Genus Docs for Genus App Platform
+description: An example article demonstrating the most common DocFX flavoured Markdown used in Genus Docs for Genus Apps
 author: eriksandnes
 ---
 ```md
 ---
 title: Genus Docs example article
-description: An example article demonstrating the most common DocFX flavoured Markdown used in Genus Docs for Genus App Platform
+description: An example article demonstrating the most common DocFX flavoured Markdown used in Genus Docs for Genus Apps
 author: eriksandnes
 ---
 ```

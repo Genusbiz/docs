@@ -1,6 +1,6 @@
 ---
-title: Genus App Platform release stages
-description: The various stages Genus App Platform goes through for releasing new or changed functionality.
+title: Genus Apps release stages
+description: The various stages Genus Apps goes through for releasing new or changed functionality.
 author: jtroset
 ---
 
@@ -8,9 +8,9 @@ author: jtroset
 
 A software release is a distribution of an upgraded version of a software product.
 
-Genus App Platform, as all other software, goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade.
+Genus Apps, as all other software, goes through different stages that describe the stability of the software and the amount of development or testing it requires before the final release of the upgrade.
 
-Genus App Platform may be distributed in one of the following release stages:
+Genus Apps may be distributed in one of the following release stages:
 
 *   **Pre-alpha.** This version is not feature complete, and typically used by the developers prior to software testing. The activities performed on such a version can include requirements analysis, software design, software development and unit testing. The version is not distributed outside the development environment, but described here for the reason of completeness.
 *   **Alpha.** The version delivered to the software testers, i.e. persons different from the software developers. The version is not normally distributed outside the development and test environments.

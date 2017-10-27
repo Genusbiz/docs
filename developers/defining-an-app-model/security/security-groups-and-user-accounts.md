@@ -1,6 +1,6 @@
 # Security Groups and User Accounts
 
-Genus App Platform uses a **user or computer account** to authenticate the identity of the user or computer, and to authorize or deny access to application resources (data and functions). The account establishes an identity for the user. The identity is then used to authenticate the user and to grant the user authorization to access specific application resources.
+Genus Apps uses a **user or computer account** to authenticate the identity of the user or computer, and to authorize or deny access to application resources (data and functions). The account establishes an identity for the user. The identity is then used to authenticate the user and to grant the user authorization to access specific application resources.
 
 You collect users, computers and other groups into a **security group**_,_ and then assign appropriate privileges and permissions to the security group. This simplifies administration by letting you assign privileges and permissions once to the group instead of multiple times to each individual user. When you add a user to an existing group, the user automatically gains the privileges and permissions already assigned to that group. Another feature that makes it easier to manage users is that you can nest groups, that is, you can add a group as a member of another group. This is referred to as the [effective memberships](effective-memberships-and-permissions.md "Effective Memberships and Permissions") for a group or user account.
 
@@ -87,7 +87,7 @@ Required [security privilege](security-privileges.md): **Administer Security Gro
 
 Required [security privilege](security-privileges.md): **Administer users**.
 
-Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus App Platform provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).
+Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus Apps provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).
 
 When you add a user account, you have to select an [account profile](account-profiles.md) for the user. The profile describes the password- and lockout policy for a user, and optionally a description on how to associate a user account with a business object. For example, a user account can be associated with an employee. If users are authenticated by MicrosoftB. Active Directory, the password- and lockout policy is determined by Active Directory.
 

@@ -3,7 +3,7 @@
 > [!NOTE]
 > Go to the last section ([Recommended settings for security headers](#recommended-settings-for-security-headers)) if you want to skip the theory and only want the configuration options for Microsoft Internet Information Services (IIS).
 
-Genus Apps is a web based client for Genus App Platform and runs completely in the browser. In other words, there are no active components running server side in IIS. The web server is only serving static html, css and JavaScript files to the browser. After these files are loaded by the browser, it will start to communicate with Genus App Services to fetch app model and data. This is done with AJAX requests directly from the browser.
+Genus Apps is a web based client for Genus Apps and runs completely in the browser. In other words, there are no active components running server side in IIS. The web server is only serving static html, css and JavaScript files to the browser. After these files are loaded by the browser, it will start to communicate with Genus App Services to fetch app model and data. This is done with AJAX requests directly from the browser.
 
 This article will cover some possible attack vectors and how we can protect against us against them. In the end there is a section that will cover the actual implementation in IIS.
 

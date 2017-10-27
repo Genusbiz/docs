@@ -1,6 +1,6 @@
 ---
-title: Getting started using Genus App Platform
-description: Getting started using Genus App Platform as an end-user
+title: Getting started using Genus Apps
+description: Getting started using Genus Apps as an end-user
 author: jtroset
 ---
 # Getting started

@@ -52,7 +52,7 @@ To successfully setup a Web Service, you should at least specify one endpoint.
     Available option depends on the selected Credential Type.
 8.  In the **Envelope Version**, select a version of SOAP, or select None to use POX or JSON. For more information on using POX and JSON, see [Consuming a Genus Web Service from an External Client](../../../guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md).
 
-For further information on methods of authentication in Genus App Platform, see [Genus App Services User Authentication](../../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication").
+For further information on methods of authentication in Genus Apps, see [Genus Services User Authentication](../../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md).
 
 
 

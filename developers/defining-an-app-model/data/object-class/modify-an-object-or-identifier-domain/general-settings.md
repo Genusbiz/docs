@@ -6,7 +6,7 @@ Display name for the Object Class.
 
 ## Composition
 
-Genus App Platform allows you to define an Object Class composed of other Object Classes to form a [composition](../../../../installation-and-configuration/composition.md "Composition"). To include the Object Class as part of a composition, in the **Part of Object Class** box, select the Object Class which represents the composition. In the **Parent/Child Property** box, select which property to use to determine the relationship between the Object Class and the composition. You can only select properties with a complex data interpretation equal to the selected composition. These settings are only available when the Object Class is [created](../create-a-new-object-domain.md).
+Genus Apps allows you to define an Object Class composed of other Object Classes to form a [composition](../../../../installation-and-configuration/composition.md "Composition"). To include the Object Class as part of a composition, in the **Part of Object Class** box, select the Object Class which represents the composition. In the **Parent/Child Property** box, select which property to use to determine the relationship between the Object Class and the composition. You can only select properties with a complex data interpretation equal to the selected composition. These settings are only available when the Object Class is [created](../create-a-new-object-domain.md).
 
 The **Min Occurences** option determines the minimum number of objects of the Object Class reqired for the composion to be valid. For example, a ***company*** is required to have at least one ***address***.
 

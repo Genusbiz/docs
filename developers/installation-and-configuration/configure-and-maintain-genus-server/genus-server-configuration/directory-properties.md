@@ -28,7 +28,7 @@ The directory properties are grouped according to area and presented in tabs. Fo
 | **Connect / Disconnect** | Button to connect to, or disconnect from the directory, based on the specified database connections. Disconnect only to modify the database connections. |
 | **Global Filter Table** | It is possible to have several data sets within the same database. To do this all the object classes must be connected to a common object class which is used as a global filter to split the data. For example, in an economy or accounting system there can be information for several client companies. The Company object class is connected to all object classes containing relevant information, and can therefore be set as a global filter. A [data set](data-set-properties.md) can then be created for each client company. |
 | **Default Language** | The default language for the application model. For more information, see [Translate the Application Model to Other Languages](../../../how-to/translate-the-application-model-to-other-languages.md). |
-| **Genus Docs URL** | The URL associated with the online help for Genus App Platform. The default URL is [https://docs.genus.no/](https://docs.genus.no/).  Leave this field blank if you do not need to host the online help on a local web server. |
+| **Genus Docs URL** | The URL associated with the online help for Genus Apps. The default URL is [https://docs.genus.no/](https://docs.genus.no/).  Leave this field blank if you do not need to host the online help on a local web server. |
 
 
 **Edit Data Link**

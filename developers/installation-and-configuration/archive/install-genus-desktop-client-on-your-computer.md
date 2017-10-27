@@ -1,5 +1,5 @@
 > [!NOTE]
-> Archived content. The following content is valid for Genus App Platform versions prior to 2017.4. Please see [here](../install-genus-desktop.md) for the most current content.
+> Archived content. The following content is valid for Genus Apps versions prior to 2017.4. Please see [here](../install-genus-desktop.md) for the most current content.
 
 # Install Genus Desktop Client on Your Computer
 
@@ -128,7 +128,7 @@ The parts of your directory solely used by Genus Server on your application serv
 
 **Language Translation Cache Files**
 
-Genus App Platform supports multiple natural languages, and there are two types of text strings that are translated.
+Genus Apps supports multiple natural languages, and there are two types of text strings that are translated.
 
 First, the text strings which are a inherent in the Genus desktop client application, like the names of the **File** and **Edit** menus. The translations of these text strings are stored in one file per language in the folder [CSIDL_PROGRAM_FILES](../../../users/navigate-view-modify-and-control/advanced/csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\Translations, i.e. in a subfolder of the application executable folder.
 

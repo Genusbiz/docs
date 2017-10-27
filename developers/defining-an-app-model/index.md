@@ -1,11 +1,11 @@
 ---
-title: Defining an app model using Genus App Platform
+title: Defining an app model using Genus Apps
 description: How to provide functionality to the end user by defining an app model using Genus Studio
 author: jtroset
 ---
 # Defining an app model
 
-To provide functionality to the end user, Genus App Platform employs declarative data about your business objects and logic. This collection of [metadata](../../terminology.md) are stored in the directory for your app and maintained in Genus Studio.
+To provide functionality to the end user, Genus Apps employs declarative data about your business objects and logic. This collection of [metadata](../../terminology.md) are stored in the directory for your app and maintained in Genus Studio.
 
 **[Getting started](getting-started/index.md)**
 

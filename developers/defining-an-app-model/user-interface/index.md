@@ -1,5 +1,5 @@
 ---
-title: Developing user interface using Genus App Platform
+title: Developing user interface using Genus Apps
 description: How to define user interface using Genus Studio
 author: eriksandnes
 ---

@@ -1,6 +1,6 @@
 ---
-title: Release notes for Genus App Platform release 2017.3.
-description: User-visible changes to Genus App Platform from release 2017.2 to 2017.3.
+title: Release notes for Genus Apps release 2017.3.
+description: User-visible changes to Genus Apps from release 2017.2 to 2017.3.
 author: jtroset
 ---
 # Release notes for version 2017.3

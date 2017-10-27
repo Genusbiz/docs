@@ -1,5 +1,5 @@
 ---
-title: Developing logic using Genus App Platform
+title: Developing logic using Genus Apps
 description: How to define logic using Genus Studio
 author: houmanmohebbi
 ---

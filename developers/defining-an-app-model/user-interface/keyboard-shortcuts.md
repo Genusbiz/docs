@@ -1,6 +1,6 @@
 ---
-title: Keyboard shortcuts - Genus App Platform
-description: Keyboard shortcuts defined in the App Model and built in as part of Genus App Platform
+title: Keyboard shortcuts - Genus Apps
+description: Keyboard shortcuts defined in the App Model and built in as part of Genus Apps
 author: terjesnarby
 ---
 
@@ -8,7 +8,7 @@ author: terjesnarby
 
 There are two types of keyboard shortcuts.
 1. Keyboard shortcuts defined in the App Model.
-2. Keyboard shortcuts built in as part of Genus App Platform.
+2. Keyboard shortcuts built in as part of Genus Apps.
 
 ## Keyboard shortcuts defined in the App Model
 
@@ -16,7 +16,7 @@ Keyboard shortcuts, also known as hotkeys and keybinds, can be defined within th
 
 Select the command you want to assign the new shortcut to, enter a new shortcut by activating the "Enter new Shortcut"-editor and performing the desired keyboard combination. There you will also see if a shortcut is currently assigned to the command or the entered keyboard shortcut.
 
-## Keyboard shortcuts built in as part of Genus App Platform
+## Keyboard shortcuts built in as part of Genus Apps
 
 These keyboard shortcuts apply for Genus Desktop and Genus Studio, and not Genus Apps.
 

@@ -18,7 +18,7 @@ The preferred application is Microsoft Excel, if it is installed on your compute
 
 ## Distribute a Report
 
- Distribution is the act of scattering or spreading out. Genus App Platform allows you to distribute reports by making or spreading out copies for a selection of data filter objects.
+ Distribution is the act of scattering or spreading out. Genus Apps allows you to distribute reports by making or spreading out copies for a selection of data filter objects.
 
 The copies may be printed, saved as files or sent to mail recipients.
 

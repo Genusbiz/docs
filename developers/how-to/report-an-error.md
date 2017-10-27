@@ -9,7 +9,7 @@ Always provide a detailed description of the error and the steps leading up to t
 It is important that you as a developer or a user always attach a detailed description as possible and the steps that resulted in the error. Here are a couple of things to remember when reporting an error:
 
 * Describe the steps to reproduce the bug.
-* Make sure your Genus App Platform version is up to date, and that all underlying or connected software also is up to date.
+* Make sure your Genus Apps version is up to date, and that all underlying or connected software also is up to date.
 * Provide the exact date and time the error occurred.
 * Provide the address (URL) to your solution and the user name of the user who experienced the error.
 * Check event logs on your Genus App Services server. Attach any relevant events from the logs to your error report.

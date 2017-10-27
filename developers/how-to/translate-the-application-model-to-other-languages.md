@@ -1,6 +1,6 @@
 # Translate the App Model to other languages
 
-Genus App Platform supports multiple languages in an App Model. You can translate your app to several languages allowing the individual users to choose their preference, for example if you have offices in different countries.
+Genus Apps supports multiple languages in an App Model. You can translate your app to several languages allowing the individual users to choose their preference, for example if you have offices in different countries.
 
 The app is translated in the directory, and every part of the App Model can be translated to all supported languages. For example objects, object properties, tasks, tables etc.
 

@@ -256,7 +256,7 @@ Some formatting properties (not exhaustive) are:
 ## Sankey
 A *Sankey* diagram is a flow diagram where the width of the links is proportional to the flow between the nodes.
 
-In Genus App Platform, the diagram is used to present N-1 values grouped pairwise by N categories.
+In Genus Apps, the diagram is used to present N-1 values grouped pairwise by N categories.
 The categories will be distributed along the horizontal axis, and appear as vertically stacked columns of category objects.
 Between each pair of adjacent categories, there will be links visualizing the aggregated value between the category objects.
 

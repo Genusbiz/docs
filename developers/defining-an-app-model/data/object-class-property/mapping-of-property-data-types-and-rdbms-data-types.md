@@ -28,7 +28,7 @@ MS SQL Server: *int*
 
 Oracle: *number( 1..10, 0 )*
 
-Note that Genus App Platform suggests 64-bit integer as data type for table columns in Oracle with a precision equal to 10\. A 32-bit integer has 10 digits of precision, but you can not count on the full 10th digit. The range of a 32-bit integer is -2,147,483,648 to 2,147,483,647, which gives log10 ( 2^31) = 9.3319 digits of precision.
+Note that Genus Apps  suggests 64-bit integer as data type for table columns in Oracle with a precision equal to 10\. A 32-bit integer has 10 digits of precision, but you can not count on the full 10th digit. The range of a 32-bit integer is -2,147,483,648 to 2,147,483,647, which gives log10 ( 2^31) = 9.3319 digits of precision.
 
 **64-bit Integer**
 

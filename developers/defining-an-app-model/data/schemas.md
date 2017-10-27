@@ -4,7 +4,7 @@ XML Schemas provides functionality for defining the structure, content and seman
 
 An XML Schema is a set of components such as type definitions and element declarations. In Genus Studio you define a Schema by building a structure using declarative components such as **elements** and **attributes** which can be translated to XML. Sometimes the XML Schema is also referred to as a XSD (XML Schema Definition).
 
-In Genus App Platform the XML Schema is mainly used within Action Orchestration and Web Services.
+In Genus Apps the XML Schema is mainly used within Action Orchestration and Web Services.
 
 *   Within Action Orchestration you may define a [data source](../logic/action-orchestration/data-sources.md) containing an XML document. The structure of the data source is established from a XML Schema defined within your application model. Any data [exported or imported](../../how-to/exchange-data-with-other-applications/export-and-import-data.md) using this data source should comply with the defined schema.
 *   The [Merge Data to a Document](../../how-to/merge-data-to-a-document.md) effect uses a XML document as input. The structure of the input document is defined by a XML Schema.
@@ -64,7 +64,7 @@ The basic structure of an XML Schema usually includes a Complex type, and an ele
 
 ## Schema Elements and Attributes
 
-The following tables shows a brief description of the Element Types and Element Attributes currently supported by Genus App Platform.
+The following tables shows a brief description of the Element Types and Element Attributes currently supported by Genus Apps.
 
 <table style="WIDTH: 100%">
 

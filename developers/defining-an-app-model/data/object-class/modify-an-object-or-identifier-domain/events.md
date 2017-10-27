@@ -1,6 +1,6 @@
 # Events
 
-Genus App Platform allows you to add auditing capabilities to an Object Class. Audit trails for an Object Class is stored in the [Event History](../../../../../terminology.md) which is a chronological sequence of audit trails, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables users to reconstruct and examine the sequence of events and/or changes in an event for an object.
+Genus Apps allows you to add auditing capabilities to an Object Class. Audit trails for an Object Class is stored in the [Event History](../../../../../terminology.md) which is a chronological sequence of audit trails, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables users to reconstruct and examine the sequence of events and/or changes in an event for an object.
 
 If an Object Class is part of a [composition](../../../../installation-and-configuration/composition.md "Composition"), audit trails for an object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if _Contact Person_ is part of _Customer_, and a new _contact person_ is added to a _customer_, the event is logged as a **Create** event on the _contact person_ and a **Modified** event on the _customer_.
 

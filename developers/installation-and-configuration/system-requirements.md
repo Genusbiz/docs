@@ -14,7 +14,7 @@ Please note that Internet Explorer 11 and older versions are not considered ever
 *   **Genus Apps 2016.2**: Internet Explorer 11 is supported for all functionality areas except Analysis (Genus Discovery). We recommend using an evergreen browser.
 *   **Genus Apps 2017.1 and forward**: Support for Internet Explorer may be removed based on usage. You may have to use an evergreen browser.
 
-In general, support for operating systems and browsers with a market share of 5% or less is removed in the next release of Genus App Platform.
+In general, support for operating systems and browsers with a market share of 5% or less is removed in the next release of Genus Apps.
 
 ## System requirements for Genus Desktop
 
@@ -41,9 +41,11 @@ Genus Desktop runs on the following operating systems:
 
 Genus Desktop requires the following minimum version of the .NET Framework:
 
-* Genus App Platform 2017.5 or later: .NET Framework 4.7 or later
-* Genus App Platform 2017.2-2017.4: .NET Framework 4.6.2 or later
-* Genus App Platform 2016.1-2017.1: .NET Framework 4.6.1 or later
+* Genus Apps 2017.5 or later: .NET Framework 4.7 or later
+* Genus Apps 2017.2-2017.4: .NET Framework 4.6.2 or later
+* Genus Apps 2016.1-2017.1: .NET Framework 4.6.1 or later
+
+Note that Genus Apps was named Genus App Platform prior to 2017.5.
 
 To download the required version of the .NET Framework, visit https://www.microsoft.com/net/download.
 
@@ -83,9 +85,11 @@ Server Core Role is not supported for earlier versions than Windows Server 2016.
 
 Genus App Services requires the following minimum version of the .NET Framework:
 
-* Genus App Platform 2017.5 or later: .NET Framework 4.7 or later
-* Genus App Platform 2017.2-2017.4: .NET Framework 4.6.2 or later
-* Genus App Platform 2016.1-2017.1: .NET Framework 4.6.1 or later
+* Genus Apps 2017.5 or later: .NET Framework 4.7 or later
+* Genus Apps 2017.2-2017.4: .NET Framework 4.6.2 or later
+* Genus Apps 2016.1-2017.1: .NET Framework 4.6.1 or later
+
+Note that Genus Apps was named Genus App Platform prior to 2017.5.
 
 To download the required version of the .NET Framework, visit https://www.microsoft.com/net/download.
 
@@ -123,12 +127,12 @@ For MySQL database access the **MySQL Connector/Net, version 6.4.4** must be ins
 
 For IBM DB2 database access the "IBM Data Server Driver Package (Windows/x86-64 64 bit)" must be installed on your application server. Please download the appropriate version according to the list below from [https://www.ibm.com/support/docview.wss?uid=swg27016878](https://www.ibm.com/support/docview.wss?uid=swg27016878):
 
-* Genus App Platform 2017.5 or later: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod2 Fix Pack2 iFix001" ([v11.1.2fp2a_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.2021.1452-FP002a&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
-* Genus App Platform 2016.1-2017.4: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod1 Fix Pack 1" ([v11.1.1fp1_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.1010.160-FP001&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
+* Genus Apps 2017.5 or later: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod2 Fix Pack2 iFix001" ([v11.1.2fp2a_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.2021.1452-FP002a&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
+* Genus Apps 2016.1-2017.4: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod1 Fix Pack 1" ([v11.1.1fp1_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.1010.160-FP001&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
 
 ## Supported database system vendors
 
-Genus App Platform version 2016.1 and later supports the following database system vendors:
+Genus Apps version 2016.1 and later supports the following database system vendors:
 
 | **Database**         | **Supported database version**
 | -------------------- | ---------------

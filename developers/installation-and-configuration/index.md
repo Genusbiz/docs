@@ -1,6 +1,6 @@
 ---
-title: Installation and configuration of Genus App Platform
-description: How to install and configure all parts of Genus App Platform
+title: Installation and configuration of Genus Apps
+description: How to install and configure all parts of Genus Apps
 author: OleGrytdal
 ---
 # Installation and configuration

@@ -1,6 +1,6 @@
 ---
 title: Active object
-description: The set of objects selected in the user interface in Genus App Platform
+description: The set of objects selected in the user interface in Genus Apps
 author: jtroset
 ---
 
