@@ -7,7 +7,7 @@ Nodes and node groups are administrated in Genus Studio, and can be found in the
 
 ## Node
 
-A node is a [Genus Server](../../../terminology.md#genus-server) that is registered and allowed to run one or more app services. For a node to provide services, Genus App Services must be installed and configured, and the node must also be a member of a node group.
+A node is a [Genus Server](../../../terminology.md#genus-server) that is registered and allowed to run one or more app services. For a node to provide services, Genus Services must be installed and configured, and the node must also be a member of a node group.
 
 A node can be dedicated to one data set, or it can provide services to all data sets.  
 

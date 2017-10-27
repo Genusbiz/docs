@@ -1,6 +1,6 @@
 # Configure Automatic Updates
 
-[Start](../../../developers/installation-and-configuration/configure-and-maintain-genus-server/how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus App Services Configuration application.
+[Start](../../../developers/installation-and-configuration/configure-and-maintain-genus-server/how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Services Configuration application.
 
 In the console tree, expand the folder for your Directory. Click the **Data Sets** folder. Right-click your data set in the table to the right, and then in the shortcut menu, click **Properties**. Click the **Automatic Updates** tab.
 

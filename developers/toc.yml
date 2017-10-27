@@ -443,14 +443,14 @@
       href: installation-and-configuration/genus-launcher-command-line.md
     - name: Registry settings
       href: installation-and-configuration/install-genus-registry-settings.md
-  - name: Install Genus App Services on an application server
+  - name: Install Genus Services on an application server
     href: installation-and-configuration/install-genus-server-on-an-application-server.md
-  - name: Install a license on Genus App Services
+  - name: Install a license on Genus Services
     href: installation-and-configuration/install-license-on-genus-server.md
-  - name: Configure and maintain Genus App Services
+  - name: Configure and maintain Genus Services
     href: installation-and-configuration/configure-and-maintain-genus-server.md
     items:
-    - name: Genus App Services configuration
+    - name: Genus Services configuration
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration.md
       items:
       - name: Options
@@ -459,11 +459,11 @@
         href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md
       - name: Data set properties
         href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/data-set-properties.md
-    - name: Configure Genus App Services - step by step
+    - name: Configure Genus Services - step by step
       href: installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md
-    - name: Install a license on Genus App Services
+    - name: Install a license on Genus Services
       href: installation-and-configuration/install-license-on-genus-server.md
-    - name: Genus App Services - logical services
+    - name: Genus Services - logical services
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md
     - name: App Services recycling
       href: installation-and-configuration/configure-and-maintain-genus-server/app-services-recycling.md
@@ -479,7 +479,7 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/automatically-delete-old-log-files.md
     - name: Tuning Web Service performance
       href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
-    - name: Monitoring Genus App Services
+    - name: Monitoring Genus Services
       href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
   - name: Archived articles
     href: installation-and-configuration/archive/index.md

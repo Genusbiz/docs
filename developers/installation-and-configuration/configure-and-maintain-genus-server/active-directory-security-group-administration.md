@@ -1,6 +1,6 @@
 # Active Directory Security Group Administration
 
-In order to streamline your security administration, or to comply with your organization's security requirements, you may want to handle your Genus App Services security group administration within **Active Directory**. In that case, the **Active Directory** security groups will be listed inside **Genus Studio**.
+In order to streamline your security administration, or to comply with your organization's security requirements, you may want to handle your Genus Services security group administration within **Active Directory**. In that case, the **Active Directory** security groups will be listed inside **Genus Studio**.
 
 The following limitations and functionalities applies:
 
@@ -9,4 +9,4 @@ The following limitations and functionalities applies:
 *   You may also specify Data Set access.
 *   The security group Everyone is still accessible within **Genus Studio**.
 
-See [Configure Genus App Services - Step by Step](configure-genus-server--step-by-step.md) for how to configure **Active Directory** Security Group Administration.
+See [Configure Genus Services - Step by Step](configure-genus-server--step-by-step.md) for how to configure **Active Directory** Security Group Administration.

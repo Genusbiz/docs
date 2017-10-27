@@ -12,7 +12,7 @@ It is important that you as a developer or a user always attach a detailed descr
 * Make sure your Genus Apps version is up to date, and that all underlying or connected software also is up to date.
 * Provide the exact date and time the error occurred.
 * Provide the address (URL) to your solution and the user name of the user who experienced the error.
-* Check event logs on your Genus App Services server. Attach any relevant events from the logs to your error report.
+* Check event logs on your Genus Services server. Attach any relevant events from the logs to your error report.
 * If you are using Genus Desktop, make sure to check event logs on your Windows 10 computer.
 * If you have more than one error, create one report per error.
 
@@ -38,21 +38,21 @@ The error logs attached may be:
 
 We recommend to check any Windows event log information from the desktop computer.
 
-We also recommend to check the Windows event log on the Genus App Services server to get the whole picture, since errors may originate from the server and not all message details may be transported to the desktop.
+We also recommend to check the Windows event log on the Genus Services server to get the whole picture, since errors may originate from the server and not all message details may be transported to the desktop.
 
-## Genus App Services error reporting
+## Genus Services error reporting
 
-We recommend frequently viewing your Genus App Services server Windows event logs **Genus App Services** and **Application**. There should not be any errors or warnings in these logs.
+We recommend frequently viewing your Genus Services server Windows event logs **Genus Services** and **Application**. There should not be any errors or warnings in these logs.
 
-We recommend monitoring these logs, since it may happen that Genus App Services logs events that is unnoticeable for your users, or your users experience incidents, but do not report them.
+We recommend monitoring these logs, since it may happen that Genus Services logs events that is unnoticeable for your users, or your users experience incidents, but do not report them.
 
 Some events may contain a lot of technical information. We recommend always reading the whole event description text in order to locate any readable clues to your problem at hand.
 
-Some Windows events are expected during Genus App Services upgrades or Windows updates, since services tend to be unreachable for a short time during such operations. Therefore, always compare any events date and time with your maintenance windows.
+Some Windows events are expected during Genus Services upgrades or Windows updates, since services tend to be unreachable for a short time during such operations. Therefore, always compare any events date and time with your maintenance windows.
 
 ## How to set up a support email address
 
-To set up a predefined support email address, sign in to your server containing Genus App Services using a Remote Desktop Connection, or manually at your server machine's console.
+To set up a predefined support email address, sign in to your server containing Genus Services using a Remote Desktop Connection, or manually at your server machine's console.
 
 Start the Genus Configuration tool and expand the folder for your Directory and then your Data Sets.
 

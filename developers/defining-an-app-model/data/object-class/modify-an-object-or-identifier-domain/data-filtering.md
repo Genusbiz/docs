@@ -12,6 +12,6 @@ Note that if the value for one of the properties included in the auto complete f
 
 **Auto Filter**
 
-Applies only if a Filter Object Class is defined in your directory, and the Object Class contains a property with a complex data interpretation equal to the Filter Object Class. The Filter Object Class is defined in Genus App Services. A Filter Object Class is typically used when data are partioned on an Object Class. For example, the tables in many ERP systems contains data for several companies.
+Applies only if a Filter Object Class is defined in your directory, and the Object Class contains a property with a complex data interpretation equal to the Filter Object Class. The Filter Object Class is defined in Genus Services. A Filter Object Class is typically used when data are partioned on an Object Class. For example, the tables in many ERP systems contains data for several companies.
 
 By default, data for all Object Classes are automatically filtered by the Filter Object Class. In some cases you may want to consolidate data. To remove this filter, click to clear the **Enable Auto Filter** check box.

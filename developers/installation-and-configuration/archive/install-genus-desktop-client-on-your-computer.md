@@ -31,15 +31,15 @@ When starting _GenusSetup.exe_, it unpacks installation files to a temporary dir
 
 A system administrator may use the standard Genus Desktop Client Installer to install or deploy the Genus desktop client application to one or more computers. This will result in an all users ("Per-Machine") installation.
 
-The Genus desktop client is self-updating, which means that when an user on a computer starts the Genus desktop client towards a Genus App Services with a different version than the client, a new version of the client will be downloaded and replace the old version. During such an update temporary directories may be created on the current installed directory, and the running version of the Genus desktop client will change its file name. The update involves running a Windows Installer based update of the current installation.
+The Genus desktop client is self-updating, which means that when an user on a computer starts the Genus desktop client towards a Genus Services with a different version than the client, a new version of the client will be downloaded and replace the old version. During such an update temporary directories may be created on the current installed directory, and the running version of the Genus desktop client will change its file name. The update involves running a Windows Installer based update of the current installation.
 
 In cases where users lack the rights to perform the update, the automatic update feature may be turned off during the client installation. This may be the case in terminal services enviroments, where many users share the same client installation. To turn the automatic update feature off, point to "Enable Automatic Updates" in the step "Custom Setup" during installation, right click and turn off.
 
 If a user must upgrade, but does not have sufficient rights, the user will be warned and asked to contact the system administrator.
 
-If automatic updates are turned off, the installation must be updated by the system administrator every time the Genus App Services is upgraded.
+If automatic updates are turned off, the installation must be updated by the system administrator every time the Genus Services is upgraded.
 
-After a Genus App Services upgrade on your server, the Genus Desktop Client Installer is available for download on the URL [https://yoursite.yourcompany.com/yourapplication/download/genussetup.exe](https://yoursite.yourcompany.com/yourapplication/download/genussetup.exe).
+After a Genus Services upgrade on your server, the Genus Desktop Client Installer is available for download on the URL [https://yoursite.yourcompany.com/yourapplication/download/genussetup.exe](https://yoursite.yourcompany.com/yourapplication/download/genussetup.exe).
 
 For more information about which registry-settings and shortcuts etc the Genus Desktop Client Installer creates or modifies, see [Administrative Installation of the Genus Desktop Client](install-genus-desktop-clients-silently-for-your-users.md).
 

@@ -4,7 +4,7 @@
 
 **Step 1 - Assign a Web Server Certificate**
 
-Genus App Services recommends using secure HTTP communication between any clients and the Genus App Services application server.
+Genus Services recommends using secure HTTP communication between any clients and the Genus Services application server.
 
 If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communication, skip the rest of this step.
 
@@ -86,14 +86,14 @@ Logical databases are used to define the location of database tables associated 
 
 **Step 8 - Authentication**
 
-The authentication service in Genus App Services provides sign in authentication and user authorization. Your users are granted access to your Genus application according to their credentials, based on Microsoft Active Directory principles. The authentication service is integrated with your Active Directory. However, it is possible to to configure Genus without Active Directory using your own user account data.
+The authentication service in Genus Services provides sign in authentication and user authorization. Your users are granted access to your Genus application according to their credentials, based on Microsoft Active Directory principles. The authentication service is integrated with your Active Directory. However, it is possible to to configure Genus without Active Directory using your own user account data.
 
 1.  In the console tree of the Genus Configuration application, right-click the directory, which was created in step 1, and select **Properties**.
 2.  Click the **Authentication** tab.
-3.  If you want to use your own user account data to authenticate users, click **Genus Directory**. If you want users to be authenticated by Active Directory, click **Active Directory**. See [Genus App Services Authentication](../../defining-an-app-model/logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication") for more information.
+3.  If you want to use your own user account data to authenticate users, click **Genus Directory**. If you want users to be authenticated by Active Directory, click **Active Directory**. See [Genus Services Authentication](../../defining-an-app-model/logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md) for more information.
 4.  If you have selected **Active Directory**, specify LDAP Path and Account identifier information as needed. If you want to manage your security groups within Genus Studio, under the **Security Group Administration** group, click **Genus Directory**. If you want to manage your security groups within Active Directory, click **Active Directory**. See [Active Directory Security Group Administration](active-directory-security-group-administration.md "Active Directory Security Group Administration") for more information.
 
-Genus App Services now offers authentication against multiple Active Directory domains simultaneously. Please make sure that your application server(s) is granted the necessary privileges to access the required domain controllers. You need to use a unique account identifier across your domains, so unless you can guarantee that sAMAccountName is unique across your domains, you should opt for objectGUID or objectSID as your account identifier.
+Genus Services now offers authentication against multiple Active Directory domains simultaneously. Please make sure that your application server(s) is granted the necessary privileges to access the required domain controllers. You need to use a unique account identifier across your domains, so unless you can guarantee that sAMAccountName is unique across your domains, you should opt for objectGUID or objectSID as your account identifier.
 
 **Step 9 - Create an Administrator Account**
 
@@ -133,19 +133,19 @@ If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communica
 
  **Step 12 - Restart Genus Services** 
 
-[A restart of Genus services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus App Services") is required to make your changes take effect.
+[A restart of Genus services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus Services") is required to make your changes take effect.
 
-**Step 13 - Install License** **A license file is required in order to start the Genus Apps. See** [Install License on Genus App Services applicaion server](../install-license-on-genus-server.md) for more information. 
+**Step 13 - Install License** **A license file is required in order to start the Genus Apps. See** [Install License on Genus Services applicaion server](../install-license-on-genus-server.md) for more information. 
 
 **Step 14 - Install the Genus Desktop**
 
-The client is normally installed on your PC, but may also be installed on your Genus App Services application server.
+The client is normally installed on your PC, but may also be installed on your Genus Services application server.
 
 See [Installing Genus Desktop](../install-genus-desktop.md) for more information.
 
  **Step 15 - Define Nodes and Node Groups**
 
- **Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus App Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.**
+ **Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.**
 
 If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.**
 
@@ -173,8 +173,8 @@ If you did not close Genus Studio in the previous step, skip step 1 below.
 
 You should also consider creating [security groups](../../defining-an-app-model/security/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../defining-an-app-model/security/security-privileges.md), [permissions](../../defining-an-app-model/security/security-permissions.md), and [access to data sets](../../defining-an-app-model/security/security-data-sets.md).
 
-You may also want to create a Windows Scheduled Task to [automatically delete old log files](automatically-delete-old-log-files.md) created by Genus App Services.
+You may also want to create a Windows Scheduled Task to [automatically delete old log files](automatically-delete-old-log-files.md) created by Genus Services.
 
-To enable the use of Agents and Web Services, the logical services must be enables. See [Genus App Services - Logical Services](genus-server--logical-services.md).
+To enable the use of Agents and Web Services, the logical services must be enables. See [Genus Services - Logical Services](genus-server--logical-services.md).
 
-For best performance and stability, the Genus App Services must be configured using the Management Console described in the topics below.
+For best performance and stability, the Genus Services must be configured using the Management Console described in the topics below.

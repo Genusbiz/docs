@@ -60,7 +60,7 @@ Installation and maintenance of administrative installations is a two step proce
 
  1. Install or update the launcher
 
-    Download GenusLauncher.exe from a server that has the correct version of Genus App Services installed. The URL is on the form **http(s)://_\<your_app_server_host_name_here\>_/download/GenusLauncher.exe**. Check if the current version of the launcher (if already installed) is up to date by running the command line
+    Download GenusLauncher.exe from a server that has the correct version of Genus Services installed. The URL is on the form **http(s)://_\<your_app_server_host_name_here\>_/download/GenusLauncher.exe**. Check if the current version of the launcher (if already installed) is up to date by running the command line
 
     ```batchfile
     GenusLauncher.exe admin-version
@@ -110,7 +110,7 @@ There is yet another option for installing Genus Desktop. This is only intended 
 
 Please note that this is merely a way of deploying the standard per user installation, removing the need for users having to download and run the installation manually. Please also note that uninstalling the Windows Installer package will not remove Genus Desktop from user accounts.
 
-The Windows Installer package may be downloaded from a server with Genus App Services installed. The URL is on the form **http(s)://_\<your_app_server_host_name_here\>_/download/Setup.msi**.
+The Windows Installer package may be downloaded from a server with Genus Services installed. The URL is on the form **http(s)://_\<your_app_server_host_name_here\>_/download/Setup.msi**.
 
 
 ## Option 4: Combining per user installation and administrator assisted pre-caching

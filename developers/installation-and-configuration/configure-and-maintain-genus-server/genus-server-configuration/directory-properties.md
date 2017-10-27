@@ -58,7 +58,7 @@ To refresh the list of database objects, click **Refresh**.
 
 **Create an Administrator Account**
 
-To create an administrator account, click **Create an administrator account**. For more informations, see [Configure Genus App Services - Step by Step](../configure-genus-server--step-by-step.md).
+To create an administrator account, click **Create an administrator account**. For more informations, see [Configure Genus Services - Step by Step](../configure-genus-server--step-by-step.md).
 
 **Manage Database**
 

@@ -25,7 +25,7 @@ This information is intended for system adminstrators who want to deploy the Gen
 
 The scenario described here is to keep the Genus desktop client application executable file on a shared file server and deploy Windows Registry changes to the personal computers, laptops or similar.
 
-Note that an upgrade of Genus App Services may require a new deployment of Windows Registry changes (deletions, additions or actual changes), in addition to an update of the executable files. Genus recommends testing the deployment in a separate environment before deploying to production enviroments.
+Note that an upgrade of Genus Services may require a new deployment of Windows Registry changes (deletions, additions or actual changes), in addition to an update of the executable files. Genus recommends testing the deployment in a separate environment before deploying to production enviroments.
 
 ## Administrative Genus Desktop Client Installation - Installation Variables
 
@@ -47,7 +47,7 @@ Before running through the steps in the next section you need to decide on some 
 
 **[Virtdir]** is a part of an URL describing a virtual directory, eg _**somedir**_ in _"myserver.mydomain.com/**somedir**/_
 
-**[{DATASET-GUID}]** is an identifier for a dataset in your Genus Server installation, and used as a part of a directory name to ensure unique directory naming if your environment contains or is extended to multiple Genus App Services datasets.
+**[{DATASET-GUID}]** is an identifier for a dataset in your Genus Server installation, and used as a part of a directory name to ensure unique directory naming if your environment contains or is extended to multiple Genus Services datasets.
 
 
 

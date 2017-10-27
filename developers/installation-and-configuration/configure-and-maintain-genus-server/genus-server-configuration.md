@@ -6,7 +6,7 @@ To start the configuration application on the application server, press the wind
 
 The configuration is performed on three levels:
 
-*   **Genus App Services Options** that apply to the application server.
+*   **Genus Services Options** that apply to the application server.
 *   **Genus Directory Properties** that apply to a specific application model accessed through the application server.
 *   **Genus Data Set Properties** that apply to a specific set of data for an application.
 

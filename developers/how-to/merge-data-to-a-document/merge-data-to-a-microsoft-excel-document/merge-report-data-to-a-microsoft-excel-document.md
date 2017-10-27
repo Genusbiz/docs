@@ -51,7 +51,7 @@ In **Output File** tab, click **File Data Source** and select source data for th
 
 **Step 5\.** Data are merged by using a **Merge Data to a Document** effect. To simplify the example, the template is defined as an embedded file.
 
-It is generally not recommended to use Embedded File, since this will increase the size of your application model cache file, which may lead to increased startup time for Genus Desktop and Genus App Services.
+It is generally not recommended to use Embedded File, since this will increase the size of your application model cache file, which may lead to increased startup time for Genus Desktop and Genus Services.
 
 Instead of Embedded File, you can use File Data Source or File Data Field.  
 

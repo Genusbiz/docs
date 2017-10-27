@@ -87,7 +87,7 @@ Required [security privilege](security-privileges.md): **Administer Security Gro
 
 Required [security privilege](security-privileges.md): **Administer users**.
 
-Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus Apps provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus App Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).
+Computer accounts can only be added if users are authenticated by MicrosoftB. Active Directory. Genus Apps provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus Services User Authentication"). How users are authenticated is defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).
 
 When you add a user account, you have to select an [account profile](account-profiles.md) for the user. The profile describes the password- and lockout policy for a user, and optionally a description on how to associate a user account with a business object. For example, a user account can be associated with an employee. If users are authenticated by MicrosoftB. Active Directory, the password- and lockout policy is determined by Active Directory.
 

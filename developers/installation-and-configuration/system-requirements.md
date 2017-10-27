@@ -1,6 +1,6 @@
 # System requirements
 
-See below for the system requirements for your personal computer running the Genus Client for Desktop, and the application server running Genus App Services.
+See below for the system requirements for your personal computer running the Genus Client for Desktop, and the application server running Genus Services.
 
 ## System requirements for Genus Apps
 
@@ -53,11 +53,11 @@ Integration with Microsoft Office is supported for both 32-bit and 64-bit editio
 
 The Genus document mail merge feature does not require Microsoft Word to be installed.
 
-We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. The Genus Desktop client requires a Genus App Services installation on an application server, which will be provided for you by your system administrator or your business partner.
+We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. The Genus Desktop client requires a Genus Services installation on an application server, which will be provided for you by your system administrator or your business partner.
 
-## System requirements for an application server running Genus App Services
+## System requirements for an application server running Genus Services
 
-The minimum hardware and software requirements for an application server running Genus App Services are listed below.
+The minimum hardware and software requirements for an application server running Genus Services are listed below.
 
 ### Hardware requirements
 
@@ -68,13 +68,13 @@ The minimum hardware and software requirements for an application server running
 
 The actual hardware requirements are dependent on your Genus application's functionality and your number of concurrent users, agents, web services etc. Please consult your Genus business partner for help in specifying your requirements. We also recommend examining Microsoft's requirements for your Windows Server edition.
 
-_We do not recommend running Genus App Services on the same server as your Relational Data Base Management System (RDBMS), but instead dedicate a separate server for the task._
+_We do not recommend running Genus Services on the same server as your Relational Data Base Management System (RDBMS), but instead dedicate a separate server for the task._
 
 The server may very well be a virtual server, but virtual servers are recommended to be configured to use more than one CPU core.
 
 ### Software requirements
 
-Genus App Services runs on the following operating systems:
+Genus Services runs on the following operating systems:
 
 * Windows Server 2016 (Server Core and Server with Desktop Experience)
 * Windows Server 2012 R2
@@ -83,7 +83,7 @@ Genus App Services runs on the following operating systems:
 
 Server Core Role is not supported for earlier versions than Windows Server 2016.
 
-Genus App Services requires the following minimum version of the .NET Framework:
+Genus Services requires the following minimum version of the .NET Framework:
 
 * Genus Apps 2017.5 or later: .NET Framework 4.7 or later
 * Genus Apps 2017.2-2017.4: .NET Framework 4.6.2 or later
@@ -93,9 +93,9 @@ Note that Genus Apps was named Genus App Platform prior to 2017.5.
 
 To download the required version of the .NET Framework, visit https://www.microsoft.com/net/download.
 
-We recommend using the latest version of Windows Server, and to keep your server up to date with the latest updates and service packs from Microsoft. Required server roles and features are automatically configured during installation of Genus App Services.
+We recommend using the latest version of Windows Server, and to keep your server up to date with the latest updates and service packs from Microsoft. Required server roles and features are automatically configured during installation of Genus Services.
 
-The Genus App Services document mail merge feature runs on the application server, but does _not_ require Microsoft Word to be installed.
+The Genus Services document mail merge feature runs on the application server, but does _not_ require Microsoft Word to be installed.
 
 ### Database access software requirements
 
@@ -103,17 +103,17 @@ The application server manages connectivity to the database layer, and communica
 
 #### Microsoft SQL Server
 
- Genus App Services uses Microsoft's built-in ADO.NET Provider for SQL Server. No additional software on the application server is required.
+ Genus Services uses Microsoft's built-in ADO.NET Provider for SQL Server. No additional software on the application server is required.
 
 #### Oracle
 
-Genus App Services includes Oracle ODP.NET Managed Driver. No additional software on the application server is required.
+Genus Services includes Oracle ODP.NET Managed Driver. No additional software on the application server is required.
 
-Any other Oracle driver software on the application server must be completely uninstalled and removed, prior to the installation of Genus App Services.
+Any other Oracle driver software on the application server must be completely uninstalled and removed, prior to the installation of Genus Services.
 
 #### Sybase Adaptive Server Enterprise (ASE)
 
-For Sybase database access Genus App Services requires installation of Adaptive Server ADO.NET Data Provider for .NET Framework 4.0. The required version is a component included in Adaptive Server Enterprise (ASE), **EBF 21674: 15.7 SP60 - 64 Bit 15.7 17 Dec 2013 EBF/Patch**.  
+For Sybase database access Genus Services requires installation of Adaptive Server ADO.NET Data Provider for .NET Framework 4.0. The required version is a component included in Adaptive Server Enterprise (ASE), **EBF 21674: 15.7 SP60 - 64 Bit 15.7 17 Dec 2013 EBF/Patch**.  
 
 Please make sure that the 64-bit version of the ADO.NET Data Provider is installed. 
 

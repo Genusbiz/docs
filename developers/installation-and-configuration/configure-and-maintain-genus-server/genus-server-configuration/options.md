@@ -1,6 +1,6 @@
 # Options
 
-To open the Genus App Services Options, in the **Genus Configuration** Application, open the **Tools** menu, and select **Options**.
+To open the Genus Services Options, in the **Genus Configuration** Application, open the **Tools** menu, and select **Options**.
 
 
 ## General
@@ -45,13 +45,13 @@ This setting applies to Genus desktop clients and other clients that indicates, 
 
 **SSL Offloading is used in front of the application server tier**  
 
-Indicates that an SSL Offloader is used in front of the application server tier. By selecting this option Genus Desktop and Genus Apps will connect to Genus App Services over HTTPS, but Genus App Services will not redirect HTTP requests to HTTPS as it presumes that the SSL Offloader will guarrantee that the HTTPS communication is terminated on the SSL Offloader. Please make sure that the SSL Offloader is configured to redirect all HTTP requests to HTTPS. Clients running iOS 9.x or later require either this option activated, or the **Redirect to secure Connection** option activated.
+Indicates that an SSL Offloader is used in front of the application server tier. By selecting this option Genus Desktop and Genus Apps will connect to Genus Services over HTTPS, but Genus Services will not redirect HTTP requests to HTTPS as it presumes that the SSL Offloader will guarrantee that the HTTPS communication is terminated on the SSL Offloader. Please make sure that the SSL Offloader is configured to redirect all HTTP requests to HTTPS. Clients running iOS 9.x or later require either this option activated, or the **Redirect to secure Connection** option activated.
 
 <span style="FONT-STYLE: italic">Default value: Off
 
 **Provide Secure Genus Links**  
 
-If selected, Genus App Services and Genus Apps will use HTTPS when communicating with Genus App Services. However, this requires that an HTTPS endpoint is available, by using SSL Offloading (see above) or that an HTTPS endpoint has been added to the Genus App Services Web Site using the Internet Information
+If selected, Genus Services and Genus Apps will use HTTPS when communicating with Genus Services. However, this requires that an HTTPS endpoint is available, by using SSL Offloading (see above) or that an HTTPS endpoint has been added to the Genus Services Web Site using the Internet Information
 
 Server (IIS) Manager.
 
@@ -65,7 +65,7 @@ Ensures that all HTTP requests to Genus Server are rejected or redirected to HTT
 
 **Agent Service Threads**  
 
-Increasing this number will increase the agent execution throughput, but may also consume CPU and memory by the same factor. Setting this number too high, may actually end up hurting your performance, because your server(s) may get overloaded, and also affect Genus Desktop Services, Genus App Services or other services. Since your ideal number of Agent Service Threads is highly dependent on your application model and your server configuration, we cannot give any specific recommendations. We recommend you to test the performance in your test environment before applying any changes to your production environment.
+Increasing this number will increase the agent execution throughput, but may also consume CPU and memory by the same factor. Setting this number too high, may actually end up hurting your performance, because your server(s) may get overloaded, and also affect Genus Desktop Services, Genus Services or other services. Since your ideal number of Agent Service Threads is highly dependent on your application model and your server configuration, we cannot give any specific recommendations. We recommend you to test the performance in your test environment before applying any changes to your production environment.
 
 <span style="FONT-STYLE: italic">Default value: 1
 
@@ -111,7 +111,7 @@ Specifies the minimum version number which is required for platform specific App
 
 **Genus Server URL Override**  
 
-Specifies the external URL from which Genus App Services is visible from the Genus App. This URL may differ from Internet Host Name specified in Genus Directory. The URL must contain protocol and data set. For example: <span style="FONT-STYLE: italic">"https://demo.example.com/dataSet".
+Specifies the external URL from which Genus Services is visible from the Genus App. This URL may differ from Internet Host Name specified in Genus Directory. The URL must contain protocol and data set. For example: <span style="FONT-STYLE: italic">"https://demo.example.com/dataSet".
 
 **Enabled automatic crash report**
 

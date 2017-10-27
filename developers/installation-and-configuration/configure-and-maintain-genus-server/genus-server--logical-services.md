@@ -1,6 +1,6 @@
 # Genus Server - Logical Services
 
-Genus App Services is composed of a number of logical services at that are either data set independent or [data set](../../defining-an-app-model/general-settings/data-sets.md) dependent. These services may be configured for each physical server by defining [nodes and node groups](../../defining-an-app-model/services/nodes-and-node-groups.md).
+Genus Services is composed of a number of logical services at that are either data set independent or [data set](../../defining-an-app-model/general-settings/data-sets.md) dependent. These services may be configured for each physical server by defining [nodes and node groups](../../defining-an-app-model/services/nodes-and-node-groups.md).
 
 **Data Set Independent Services**
 
@@ -56,6 +56,6 @@ The Logical Services that require a user account to operate, use the built in **
 
 ****Physical Windows Server Hosting of Logical Services****
 
-Internet Information Services is used to host the various logical services. The hosting may be monitored and customized by using the Genus App Services Management Console.
+Internet Information Services is used to host the various logical services. The hosting may be monitored and customized by using the Genus Services Management Console.
 
-A separate IIS Application Pool, the "Genus App Services Web Site AppPool", is installed by the Genus App Services Installer and is hosted in a separate w3wp.exe process. The "Genus App Services Web Site" is installed by the Genus App Services Installer and hosted by the "Genus App Services Web Site AppPool".
+A separate IIS Application Pool, the "Genus Services Web Site AppPool", is installed by the Genus Services Installer and is hosted in a separate w3wp.exe process. The "Genus Services Web Site" is installed by the Genus Services Installer and hosted by the "Genus Services Web Site AppPool".

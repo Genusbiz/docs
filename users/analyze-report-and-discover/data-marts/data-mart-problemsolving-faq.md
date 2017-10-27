@@ -46,6 +46,6 @@ To make an analysis or data mart; make sure you have permissions to create an an
 
 ## Genus Configuration
 *   Try typing the **Virtual Directory** of a data set with only lower case letters
-*   Make sure the redirect internet host name setting in Genus App Services Options is correctly set.
+*   Make sure the redirect internet host name setting in Genus Services Options is correctly set.
 *   Ensure that crypto-keys are equal on all servers.
 

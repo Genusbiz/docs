@@ -6,7 +6,7 @@
 4.  In the Data Provider box, select **RDBMS**to bind the object class to a RDBMS table, or select **None** to create an unbound object class.
 5.  If you want to define the object class and add the object class properties manually, click to clear the **Create from RDBMS Table** checkbox, and then click **Finish**.
 6.  If you want to use an RDBMS table as template, leave the **Create from RDBMS Table** checkbox selected.
-7.  Select the logical database where the table for the Object Class is located. Logical databases are defined in [Genus App Services Configuration](../../../installation-and-configuration/configure-and-maintain-genus-server.md).
+7.  Select the logical database where the table for the Object Class is located. Logical databases are defined in [Genus Services Configuration](../../../installation-and-configuration/configure-and-maintain-genus-server.md).
 8.  If your directory contains more than one data set, in the **Read Database Dictionary from Data Set** box, select which data set to access when reading the database dictionary. The database dictionary is used for reading the definitions for the tables stored in your database.
 9.  Click **Next**.
 10.  In the **Database Table** box, select the table containing data for the Object Class.

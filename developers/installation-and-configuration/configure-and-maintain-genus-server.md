@@ -1,8 +1,8 @@
-# Configure and maintain Genus App Services
+# Configure and maintain Genus Services
 
-After Setup completes the installation of Genus App Services, you need to configure Genus App Services using Genus Configuration and the Microsoft Management Console.
+After Setup completes the installation of Genus Services, you need to configure Genus Services using Genus Configuration and the Microsoft Management Console.
 
-**Topics in "Configure and maintain Genus App Services"**
+**Topics in "Configure and maintain Genus Services"**
 * [Genus Server configuration](configure-and-maintain-genus-server/genus-server-configuration.md)
 * [Configure Genus Server - step by step](configure-and-maintain-genus-server/configure-genus-server--step-by-step.md)
 * [Install license on Genus Server](install-license-on-genus-server.md)

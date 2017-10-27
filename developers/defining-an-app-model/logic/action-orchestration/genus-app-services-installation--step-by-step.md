@@ -1,20 +1,20 @@
-# Genus App Services Installation - Step by Step
+# Genus Services Installation - Step by Step
 
-Follow these steps to install Genus App Services on your application server:
+Follow these steps to install Genus Services on your application server:
 
-**Step 1 - Obtain the Genus App Services Installation Wizard**
+**Step 1 - Obtain the Genus Services Installation Wizard**
 
-To begin the installation process, obtain the Genus App Services Installation Wizard from your Genus partner. The wizard is an executable file named _GenusAppServicesSetup_VERSION_RELEASE_DATE.exe_.
+To begin the installation process, obtain the Genus Services Installation Wizard from your Genus partner. The wizard is an executable file named _GenusAppServicesSetup_VERSION_RELEASE_DATE.exe_.
 
 Right-click the file and select **Properties**, then open the **Version** folder and make sure that the **File version** is as expected.
 
 **Step 2 - Start the Installation**
 
-Double click the Genus App Services Installation Wizard executable file.
+Double click the Genus Services Installation Wizard executable file.
 
 **Step 3 - Welcome Page**
 
-On the Welcome page of the Genus App Services Installation Wizard, click **Next** to continue.
+On the Welcome page of the Genus Services Installation Wizard, click **Next** to continue.
 
 **Step 4 - Component Package Installation**
 
@@ -30,8 +30,8 @@ On the **Installation Progress** page, you can monitor installation progress as 
 
 **Step 7 - Completed Installation**
 
-When you receive the message _"You have successfully completed the Genus App Services Installer!"_, click **Finish** to close the wizard.
+When you receive the message _"You have successfully completed the Genus Services Installer!"_, click **Finish** to close the wizard.
 
 **Next Steps**
 
-After Setup completes the installation, you must configure Genus App Services. For more information, see [Configure Genus App Services](../../../installation-and-configuration/configure-and-maintain-genus-server.md).
+After Setup completes the installation, you must configure Genus Services. For more information, see [Configure Genus Services](../../../installation-and-configuration/configure-and-maintain-genus-server.md).
