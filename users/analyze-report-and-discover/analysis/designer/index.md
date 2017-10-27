@@ -50,3 +50,8 @@ Analyses are opened from the Navigation Pane, or from the Discover Task Pane.
 Analyses can be published as shortcuts in the navigation pane by system administrators. To open an Analysis from the navigation pane, locate the shortcut, and simply click it. To open the Analysis in a new window, right click the shortcut, and select Open in New Window.
 
 All the Analyses a user has access to can be opened from the Discorver Task Pane. In the Tasks section, click Open. In the list of Analyses, Reports, and Data Extracts, locate the Analysis, select it, and click OK.
+
+###Open a Form
+A Form can be opened from an Analysis by using the Open a Form command in Actions. Mapping provides the filtering of data from the Analysis to the form.
+
+To enable a Form to be opened from an Analysis, open the Form in Genus Studio and access the General Settings to check the option **Enabled for user defined actions**.
