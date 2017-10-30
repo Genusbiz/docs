@@ -1,18 +1,18 @@
 # Configure Genus Server - Step by Step
 
-[Start](how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Configuration Application.
+[Start](how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Configuration application.
 
 **Step 1 - Assign a Web Server Certificate**
 
 Genus Services recommends using secure HTTP communication between any clients and the Genus Services application server.
 
-If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communication, skip the rest of this step.
+If you do not want to use secure HTTP communication, skip the rest of this step.
 
 A secure HTTP communication requires a Web Server Certificate.
 
 If you do not have a certificate, see the article [Create a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-a-web-server-certificate.md "Create a Web Server Certificate") for more information about how to create one. This involves creating a certificate request and getting a certificate response back from your system administrator or third party. Once you have such a certificate response available, see the article [Assign a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate") for more information about how to assign it.
 
-If you have a certificate available already, see the article [Assign a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate"). This applies for example if you have a wildcard certificate <span style="FONT-STYLE: italic">*.yourdomain.com and want to assign <span style="FONT-STYLE: italic">yourserver.yourdomain.com.
+If you have a certificate available already, see the article [Assign a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate"). This applies for example if you have a wildcard certificate _\*.yourdomain.com_ and want to assign _yourserver.yourdomain.com_.
 
 **Step 2 - Create a Directory**
 
@@ -23,8 +23,8 @@ The Directory is split into two partitions: **Descriptive Partition** and **Acti
 1.  Create a separate database or schema for the Descriptive Partition and the Active Partition. It is recommended that the two partitions are stored in separate databases or schemas for maintenance reasons.
 2.  In the console tree of the Genus Configuration application, right-click the **Directories** folder. In the shortcut menu, point to **New** and then click **Directory**.
 3.  In the **Name** box, type name for the Directory. The name will appear as part of the title bar in the Genus desktop client.
-4.  In the **Internet Host Name** box, type a name which identifies your server (host) on the network. The name is typically a combination of the local name for the server and the name for its parent domain. For example, the Internet hostname <span style="FONT-STYLE: italic">yourserver.yourdomain.com consists of a local hostname (<span style="FONT-STYLE: italic">yourserver) and the domain name (<span style="FONT-STYLE: italic">yourdomain.com). See also [Naming the Virtual Directory](../../defining-an-app-model/data/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory") for more information.
-5.  In the **Descriptive Partition** and **Active Partition** sections, click **Edit** to define a data link to the database where the descriptive- and active partition data are stored. In the **Database** and **Schema** boxes, type a database or schema. Depending on the database system vendor, you must either provide a database or a schema. See [Specifying a Database and a Schema for a Data Link](../specifying-a-database-and-a-schema-for-a-data-link.md "Specifying a Database and a Schema for a Data Link") for more information.
+4.  In the **Internet Host Name** box, type a name which identifies your server (host) on the network. The name is typically a combination of the local name for the server and the name for its parent domain. For example, the Internet hostname _yourserver.yourdomain.com_ consists of a local hostname (_yourserver_) and the domain name (_yourdomain.com_). See also [Naming the Virtual Directory](../../defining-an-app-model/data/object-class-property/naming-the-virtual-directory.md "Naming the Virtual Directory") for more information.
+5.  In the **Descriptive Partition** and **Active Partition** sections, click **Edit** to define a data link to the database where the descriptive and active partition data are stored. In the **Database** and **Schema** boxes, type a database or schema. Depending on the database system vendor, you must either provide a database or a schema. See [Specifying a Database and a Schema for a Data Link](../specifying-a-database-and-a-schema-for-a-data-link.md "Specifying a Database and a Schema for a Data Link") for more information.
 6.  In the **Vendor Version** box, select a database vendor version. See [Supported Database System Vendors](../system-requirements.md) for more information.
 7.  If the database supports case insensitive search, select the **Database supports case insensitive search** check box.
 8.  Click **Connect** to connect to the directory partitions. In order to continue, a connection to the directory partitions is required.
@@ -39,7 +39,7 @@ The Directory is split into two partitions: **Descriptive Partition** and **Acti
 
 **Step 4 - Create Logical Databases**
 
-Logical databases are used to define the location of database tables associated with Object Classes in Genus Directory. For each Data Set defined in your Directory, logical databases are associated with physical databases (see step 5 for more information about physical databases). For example, many ERP systems contains data for several companies. If the data are stored in different schemas or databases, you would create one logical database, for example <span style="FONT-STYLE: italic">Financial Data, and for each Data Set associate the logical database with a different physical database.
+Logical databases are used to define the location of database tables associated with Object Classes in Genus Directory. For each Data Set defined in your Directory, logical databases are associated with physical databases (see step 5 for more information about physical databases). For example, many ERP systems contains data for several companies. If the data are stored in different schemas or databases, you would create one logical database, for example "Financial Data", and for each Data Set associate the logical database with a different physical database.
 
 It is also possible to define a logical database where data are shared between Data Sets, for example centralized code tables containing postal codes, countries, currencies etc.
 
@@ -129,13 +129,15 @@ Metadata stored in the descriptive partition of the Directory can only be modifi
 
 **Step 11 - Redirect to secure connection**
 
-If you do <span style="FONT-STYLE: italic">not want to use secure HTTP communication and a Web Server Certificate (see one of the previous steps), you must turn redirection to a secure connection off. To turn redirection to a secure connection off, in the **Tools** menu click **Options**. Uncheck **Redirect to Secure Connection** and click OK.
+If you do not want to use secure HTTP communication and a Web Server Certificate (see one of the previous steps), you must turn redirection to a secure connection off. To turn redirection to a secure connection off, in the **Tools** menu click **Options**. Uncheck **Redirect to Secure Connection** and click OK.
 
  **Step 12 - Restart Genus Services** 
 
 [A restart of Genus services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus Services") is required to make your changes take effect.
 
-**Step 13 - Install License** **A license file is required in order to start the Genus Apps. See** [Install License on Genus Services applicaion server](../install-license-on-genus-server.md) for more information. 
+**Step 13 - Install License**
+
+A license file is required in order to start the Genus Apps. See [Install License on Genus Services application server](../install-license-on-genus-server.md) for more information.
 
 **Step 14 - Install the Genus Desktop**
 
@@ -145,9 +147,9 @@ See [Installing Genus Desktop](../install-genus-desktop.md) for more information
 
  **Step 15 - Define Nodes and Node Groups**
 
- **Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.**
+ Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.
 
-If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.**
+If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.
 
 1.  [Open Genus Studio](../../defining-an-app-model/getting-started/how-to-open-genus-studio.md)
 2.  To add a Node, in the Directory tree, locate Services and then click on Nodes.
@@ -159,7 +161,7 @@ If you are using Active Directory authentication, you must sign in to the comput
 
 For more information on specific settings, see [Nodes and Node Groups](../../defining-an-app-model/services/nodes-and-node-groups.md). Step 16 - Deploy the Directory 
 
-The initial set of metadata needs to be deployed to Genus desktop clients. This can be done from the computer where you installed the Genus desktop client in step 15\.
+The initial set of metadata needs to be deployed to Genus desktop clients. This can be done from the computer where you installed the Genus desktop client in step 15.
 
 If you are using Active Directory authentication, you must sign in to the computer using the administrator account previously created.
 

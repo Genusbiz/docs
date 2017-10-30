@@ -1,8 +1,8 @@
 # Automatically delete old log files
 
-Log files are written to a specific directory in your Genus Services environment. Over time these log files may occupy a lot of space on your server. If you want to delete old log files automatically, we recommend that you create a Windows Schedule Task that runs the VBScript below once every day.
+Log files are written to a specific directory in your Genus Services environment. Over time these log files may occupy a lot of space on your server. If you want to delete old log files automatically, we recommend that you create a scheduled task that runs the VBScript below once every day.
 
-To create the VBScript, copy the lines below, paste them into a blank text file and change the text file extension from .txt to .vbs. Then create a Windows Schedule Task which runs the .vbs file once every day.
+To create the VBScript, copy the lines below, paste them into a blank text file and change the text file extension from .txt to .vbs. Then open thee Windows Task Scheduler and create a task which runs the .vbs file once every day.
 
 ````
 '  
@@ -14,8 +14,8 @@ l_iDeleteFilesOlderThanDays = 14
 set l_oFileSysObj = CreateObject( "Scripting.FileSystemObject" )  
 set l_oFolder = l_oFileSysObj.GetFolder( l_strFolderEndingWithBackslash )  
 for each l_oFile in l_oFolder.Files  
-if DateDiff( "d", l_oFile.DateLastModified, now ) > l_iDeleteFilesOlderThanDays then  
-l_oFileSysObj.DeleteFile( l_strFolderEndingWithBackslash & l_oFile.name )  
+  if DateDiff( "d", l_oFile.DateLastModified, now ) > l_iDeleteFilesOlderThanDays then  
+    l_oFileSysObj.DeleteFile( l_strFolderEndingWithBackslash & l_oFile.name )  
 end if  
 next  
 ````
