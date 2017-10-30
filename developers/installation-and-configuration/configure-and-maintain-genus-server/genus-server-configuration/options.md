@@ -1,6 +1,6 @@
 # Options
 
-To open the Genus Services Options, in the **Genus Configuration** Application, open the **Tools** menu, and select **Options**.
+To open the Genus Services options, in the **Genus Configuration** application, open the **Tools** menu, and select **Options**.
 
 
 ## General
@@ -11,11 +11,9 @@ The maximum number of megabytes that can be downloaded from external web service
 
 This setting only applies when consuming external web services, i.e. running the "Consume a Web Service" effect where **Consume a web service published at this address** is selected. The setting does not apply when consuming internal web services.
 
-You may need to increase the maximum received message size if the following runtime error occurs: <span style="FONT-STYLE: italic">"System.ServiceModel.CommunicationException: The maximum message size quota for incoming messages (<current-number-of-bytes>) has been exceeded."
+You may need to increase the maximum received message size if the following runtime error occurs: _"System.ServiceModel.CommunicationException: The maximum message size quota for incoming messages (<current-number-of-bytes>) has been exceeded."_
 
-<span style="FONT-STYLE: italic">Default value: 40 megabytes.
-
-<span style="FONT-STYLE: italic"><span style="FONT-STYLE: italic">
+_Default value: 40 megabytes_
 
 **Request Compression**
 
@@ -23,7 +21,7 @@ Select this option if data should be compressed when data are transferred from t
 
 This setting does only apply to Genus desktop clients, not external web service clients.
 
-<span style="FONT-STYLE: italic">Default value: On
+_Default value: On_
 
 **Max Transaction Result Size**
 
@@ -33,7 +31,7 @@ Note that this setting only applies when users are searching for data. E.g., whe
 
 To avoid queries which requires a lot of memory usage and may cause the server to run out of memory, you should set this size limit to a value which covers the needs of a typical user.
 
-<span style="FONT-STYLE: italic">Default value: 40 megabytes.
+_Default value: 40 megabytes_
 
 **Response Compression**
 
@@ -41,33 +39,31 @@ Select this option if data should be compressed when data are transferred from t
 
 This setting applies to Genus desktop clients and other clients that indicates, using the standard HTTP "Accept-Encoding" header. that they accept compressed response data.
 
-<span style="FONT-STYLE: italic">Default value: On
+_Default value: On_
 
 **SSL Offloading is used in front of the application server tier**  
 
-Indicates that an SSL Offloader is used in front of the application server tier. By selecting this option Genus Desktop and Genus Apps will connect to Genus Services over HTTPS, but Genus Services will not redirect HTTP requests to HTTPS as it presumes that the SSL Offloader will guarrantee that the HTTPS communication is terminated on the SSL Offloader. Please make sure that the SSL Offloader is configured to redirect all HTTP requests to HTTPS. Clients running iOS 9.x or later require either this option activated, or the **Redirect to secure Connection** option activated.
+Indicates that an SSL Offloader is used in front of the application server tier. By selecting this option Genus Desktop and Genus Apps will connect to Genus Services over HTTPS, but Genus Services will not redirect HTTP requests to HTTPS as it presumes that the SSL Offloader will guarantee that the HTTPS communication is terminated on the SSL Offloader. Please make sure that the SSL Offloader is configured to redirect all HTTP requests to HTTPS. Clients running iOS 9.x or later require either this option activated, or the **Redirect to secure Connection** option activated.
 
-<span style="FONT-STYLE: italic">Default value: Off
+_Default value: Off_
 
 **Provide Secure Genus Links**  
 
-If selected, Genus Services and Genus Apps will use HTTPS when communicating with Genus Services. However, this requires that an HTTPS endpoint is available, by using SSL Offloading (see above) or that an HTTPS endpoint has been added to the Genus Services Web Site using the Internet Information
+If selected, Genus Services and Genus Apps will use HTTPS when communicating with Genus Services. However, this requires that an HTTPS endpoint is available, by using SSL Offloading (see above) or that an HTTPS endpoint has been added to the Genus Services Web Site using the Internet Information Server (IIS) Manager.
 
-Server (IIS) Manager.
-
-<span style="FONT-STYLE: italic">Default value: On
+_Default value: On_
 
 **Redirect to Secure Connection**  
 
 Ensures that all HTTP requests to Genus Server are rejected or redirected to HTTPS, if available. **IMPORTANT**: An HTTPS endpoint has to be added to the Genus Server Web Site using the Internet Information Server (IIS) Manager to make this work. If an HTTPS endpoint is not available the communication will automatically fall back to unsecured HTTP communication. **We strongly discourage this**. Clients running iOS 9.x or later require either this option activated, or the **SSL Offloading is used in front of the application server tier** option activated.  
 
-<span style="FONT-STYLE: italic">Default value: On
+_Default value: On_
 
 **Agent Service Threads**  
 
 Increasing this number will increase the agent execution throughput, but may also consume CPU and memory by the same factor. Setting this number too high, may actually end up hurting your performance, because your server(s) may get overloaded, and also affect Genus Desktop Services, Genus Services or other services. Since your ideal number of Agent Service Threads is highly dependent on your application model and your server configuration, we cannot give any specific recommendations. We recommend you to test the performance in your test environment before applying any changes to your production environment.
 
-<span style="FONT-STYLE: italic">Default value: 1
+_Default value: 1_
 
 **Redirect Internet Host Name**
 
@@ -79,7 +75,7 @@ Please note that you should never specify a value for Redirect Internet Host Nam
 
 There are some exceptions from the general rule on how host names are used. For more information, see [Host Name Usage Exceptions](../../../../users/navigate-view-modify-and-control/working-in-tables/host-name-usage-exceptions.md "Host Name Usage Exceptions").
 
-<span style="FONT-STYLE: italic">Default value: blank
+_Default value: blank_
 
 
 
@@ -89,29 +85,29 @@ There are some exceptions from the general rule on how host names are used. For 
 
 The amount of time before a Session Token cookie expires.
 
-<span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Default value: 20 minutes
+_Default value: 20 minutes_
 
 **Sliding Expiration Enabled**  
 
 Sliding expiration resets the expiration time for a valid Session Token cookie if a client sends a request to the server and more than half of the Session Token Lifetime has elapsed. If the cookie expires, the user must re-authenticate. Setting the Sliding Expiration property to false can improve the security of an application by limiting the time for which an Session Token cookie is valid, based on the configured timeout value.
 
-<span style="FONT-STYLE: italic">Default value: On
+_Default value: On_
 
 **Absolute Token Lifetime**
 
 Applies only if Sliding Expiration has been enabled, and limits the maximum total amount of time a Session Token cookie may live. If the cookie expires, the user must re-authenticate.
 
-<span style="FONT-STYLE: italic">Default value: 2 hours
+_Default value: 2 hours_
 
 **Minimum App Core Loader Versions**  
 
 Specifies the minimum version number which is required for platform specific AppCoreLoader versions of the Genus App.  
 
-<span style="FONT-STYLE: italic">Default values: blank  
+_Default values: blank_
 
 **Genus Server URL Override**  
 
-Specifies the external URL from which Genus Services is visible from the Genus App. This URL may differ from Internet Host Name specified in Genus Directory. The URL must contain protocol and data set. For example: <span style="FONT-STYLE: italic">"https://demo.example.com/dataSet".
+Specifies the external URL from which Genus Services is visible from the Genus App. This URL may differ from Internet Host Name specified in Genus Directory. The URL must contain protocol and data set. For example: _https://demo.example.com/dataSet_.
 
 **Enabled automatic crash report**
 
@@ -126,11 +122,11 @@ Logging of the server side operations is specified here. Logging can affect perf
 
 Specifies the file path and name to a file that the server writes a log to. If no file is specified, no logging is performed.
 
-<span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Default value: Blan<span style="FONT-WEIGHT: normal; FONT-STYLE: italic">k
+_Default value: blank_
 
 **Choose level for extended logging**
 
 Specifies the areas where extended logging should be used.
 
-<span style="FONT-STYLE: italic">Default values: Blank
+_Default values: blank_
 
