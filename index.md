@@ -34,3 +34,4 @@ Learn how to use Genus Apps to quickly create, deploy and change customized soft
 * [Personalize your Desktop client](users/navigate-view-modify-and-control/personalize-your-genus-desktop.md)
 * [How to report an error](developers/how-to/report-an-error.md)
 * [Terminology](terminology.md)
+
