@@ -481,6 +481,8 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
     - name: Monitoring Genus Services
       href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
+    - name: Synchronizing cryptographic keys and settings in a application server cluster
+      href: installation-and-configuration/configure-and-maintain-genus-server/synchronizing-crypo-keys-in-a-cluster.md
   - name: Archived articles
     href: installation-and-configuration/archive/index.md
     items:

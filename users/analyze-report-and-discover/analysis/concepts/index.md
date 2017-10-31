@@ -73,8 +73,8 @@ Various [Visualizations](../visualizations.md) support different attachments of 
 An *Action* is composed of a list of *Commands*. A *Command* can be of the following types:
 * History Go Back
 * History Go Forward
-* Open a Form (in Genus Desktop)
-* Open a Table (in Genus Desktop)
+* Open a Form (desktop client)
+* Open a Table (desktop client)
 * Open Analysis with new selection
 * Open Analysis with same selection
 * Reset All Selections
