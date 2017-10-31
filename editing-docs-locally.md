@@ -23,7 +23,7 @@
 1. Create a docs project folder on your computer, like "d:\Git\Docs" or similar.
 2. Open a cmd shell at d:\git\docs.
 3. Run the command "git init" to create a local repos on your computer. This should produce something like "Initialized empty Git repository in d:/git/docs/.git/".
-4. Run the command "git remote add origin https://github.com/GenusAS/docs.git" to connect your local repos to the github repos.
+4. Run the command "git remote add origin https://github.com/GenusBiz/docs.git" to connect your local repos to the github repos.
 
 ## Using Git
 1. To fetch repos and/or latest changes from the Genus docs GitHub.com to your computer
