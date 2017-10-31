@@ -27,7 +27,7 @@ http://www.iis.net/downloads/microsoft/application-request-routing
 After installed, do the follwing:
 * Open IIS and go to ```Application Request Routing Cache```
 * Under Actions on the right side, select ```Server Proxy Settings```
-* Check ```Enable proxy``` and click Apply
+* Check ```Enable proxy```. If Reverse rewrite host in response headers is check, uncheck this point. Click Apply
 * Open the IIS site for Genus Apps, and open ```URL Rewrite```
 * Right click the Inbound Rules field and ```Add Rule(s)```
 * Choose Inbopund Rules -> Blank rule
@@ -44,6 +44,8 @@ At this point, it should work. However, there are some considerations that must 
 * Active Directory: ```[DATASET]/api/domain/basic```
 * Single Sign on: ```[DATASET]/api/domain```
 * External Auth (IdPorten): ```[DATASET]/api/federated```
+
+* To allow for reset password: ```[DATASET]/account```
   
 Additionally, the following must be allowed through: 
 
