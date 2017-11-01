@@ -62,7 +62,7 @@ The File Data Sources are internal representations of external file formats. Thi
 
 <td>Outlook Item (only of type Message)</td>
 
-<td>.msg</td>
+<td>.msg, .eml</td>
 
 </tr>
 
