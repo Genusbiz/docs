@@ -9,6 +9,7 @@ Supported file formats:
 *   XML file
 *   JSON file
 *   MS Outlook Message
+*   E-mail Message (.eml)
 *   Contact (vCard, MS Outlook Contact)
 *   Calendar (vCalendar, iCalendar, MS Outlook Appointment)
 *   MS Project
@@ -51,6 +52,8 @@ Available data sources you can import data into are restricted by the selected f
 
 <th>Any File Format</th>
 
+<th>E-mail Message</th>
+
 <th>FileFolder</th>
 
 <th>iCalendar</th>
@@ -78,6 +81,8 @@ Available data sources you can import data into are restricted by the selected f
 <tr>
 
 <td>Calendar Item</td>
+
+<td></td>
 
 <td></td>
 
@@ -119,6 +124,8 @@ Available data sources you can import data into are restricted by the selected f
 
 <td></td>
 
+<td></td>
+
 <td>X</td>
 
 <td></td>
@@ -138,6 +145,8 @@ Available data sources you can import data into are restricted by the selected f
 <tr>
 
 <td>File Folder</td>
+
+<td></td>
 
 <td></td>
 
@@ -193,6 +202,8 @@ Available data sources you can import data into are restricted by the selected f
 
 <td></td>
 
+<td></td>
+
 </tr>
 
 <tr>
@@ -201,6 +212,8 @@ Available data sources you can import data into are restricted by the selected f
 
 <td></td>
 
+<td>X</td>
+
 <td></td>
 
 <td></td>
@@ -226,8 +239,12 @@ Available data sources you can import data into are restricted by the selected f
 </tr>
 
 <tr>
-
+  
+<tr>
+  
 <td>Microsoft Project</td>
+
+<td></td>
 
 <td></td>
 
@@ -265,6 +282,8 @@ Available data sources you can import data into are restricted by the selected f
 
 <td></td>
 
+<td></td>
+
 <td>X</td>
 
 <td></td>
@@ -288,6 +307,8 @@ Available data sources you can import data into are restricted by the selected f
 <tr>
 
 <td>XML Document</td>
+
+<td></td>
 
 <td></td>
 
