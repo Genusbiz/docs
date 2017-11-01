@@ -1,4 +1,4 @@
-# Create a Mail Message
+# Create a mail message
 
 With this effect you can create and send a mail message to one or more recipients containing a subject, message and attachments. The content of the message can be personalized for each recpient by associating the subject, message and attachments to your data sources.
 
@@ -8,7 +8,7 @@ You can fill out the message manually, or from a data source containing a messag
 *   In the **Description** box, optionally enter a description.
 
 
-## Fill Out a Mail Message Manually
+## Fill out a mail message manually
 
 1.  In the **Input** section, click **Fill out manually**.
 2.  Enter the sender name in the **From** box.
@@ -25,19 +25,19 @@ To generate dynamic content, see [Generate Dynamic Values for Text Fields](../ge
 
 
 
-## Fill Out a Mail Message from a Data Source
+## Fill out a mail message from a data source
 
 In the **Input** section, click **Fill out from a data source**, and the select a data source of type **Mail Message**.
 
 
 
-## Send or Write the Mail Message to a Data Source
+## Send or write the mail message to a data source
 
 To send the message immediately, in the **Action** section, click **Send message immediately**. If you want to write the contents of the message to a data source, click **Write message to a data source**, and then select a data source of type **Mail Message**.
 
 
 
-## Use SMTP as Mail Transfer Protocol
+## Use SMTP as mail transfer protocol
 
 The mail transfer protocol used when sending messages is configured on your Application Server. If you need to send messages using SMTP, and the Application Server is configured to use another protocol, you can override this setting:
 
@@ -45,6 +45,8 @@ The mail transfer protocol used when sending messages is configured on your Appl
 2.  In the **Advanced Options** dialog, click **Use SMTP**.
 3.  To configure the server to use for submitting the mail message, click **Settings**.
 
+## Remove macros in macro-enabled Excel attachments
+If the message is sent through a malware/spam filter which blocks attachments containing macros, select the **Convert macro-enabled Excel attachments to xlsx file format** in the **Advanced Options** dialog. Note that this options removes all macros in Excel attachments saved in the xls, xlsm, or xltm file format.
 
 
 See Also
