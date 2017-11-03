@@ -29,7 +29,7 @@ After installation, do the following:
 * Check ```Enable proxy```. If **Reverse rewrite host in response headers** is checked, uncheck this point. Click **Apply**
 * Open the IIS site for Genus Apps, and open ```URL Rewrite```
 * Right click the **Inbound Rules** field and ```Add Rule(s)```
-* Choose **Inbopund Rules** -> **Blank rule**
+* Choose **Inbound Rules** -> **Blank rule**
   * Give the rule a name, ie. "Reverse proxy"
   * In the field **Pattern**, enter a regex pattern that matches every path that starts with the dataset name. For example, for Memoria, which uses the dataset "Genus", the pattern should be ```genus/(.*)```.
   * In the field **Rewrite URL**, write the hostname of the app server. This is the same address that are used in Genus Studio shortcuts. The dataset should be included, as well as ```{R:1}``` on the end of the URL. Continuing with the Memoria-example from above, the rewrite URL should be ```https://memoria-desktop.genus.net/genus/{R:1}```
