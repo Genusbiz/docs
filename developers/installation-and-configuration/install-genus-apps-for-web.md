@@ -21,23 +21,22 @@ author: mja
 
 ## Reverse Proxy configuration
 Install the following modules for IIS, if they are not already installed:
-http://www.iis.net/downloads/microsoft/url-rewrite
 http://www.iis.net/downloads/microsoft/application-request-routing
 
 After installed, do the follwing:
-* Open IIS and go to ```Application Request Routing Cache```
-* Under Actions on the right side, select ```Server Proxy Settings```
-* Check ```Enable proxy```. If Reverse rewrite host in response headers is check, uncheck this point. Click Apply
+* Open **IIS** and go to ```Application Request Routing Cache```
+* Under **Actions** on the right side, select ```Server Proxy Settings```
+* Check ```Enable proxy```. If **Reverse rewrite host in response headers** is checked, uncheck this point. Click Apply
 * Open the IIS site for Genus Apps, and open ```URL Rewrite```
-* Right click the Inbound Rules field and ```Add Rule(s)```
-* Choose Inbopund Rules -> Blank rule
+* Right click the **Inbound Rules** field and ```Add Rule(s)```
+* Choose **Inbopund Rules** -> **Blank rule**
   * Give the rule a name, ie. "Reverse proxy"
-  * In the field Pattern, enter a regex pattern that matches every path that starts with the dataset name. For example, for Memoria, which uses the dataset "Genus", the pattern should be ```genus/(.*)```.
-  * In the field Rewrite URL, write the hostname of the app server. This is the same address that are used in for example Genus Studio shortcuts. The dataset should be included, as well as ```{R:1}``` on the end of the URL. Continuing with the Memoria-example from above, the rewrite URL should be ```https://memoria-desktop.genus.net/genus/{R:1}```
+  * In the field **Pattern**, enter a regex pattern that matches every path that starts with the dataset name. For example, for Memoria, which uses the dataset "Genus", the pattern should be ```genus/(.*)```.
+  * In the field **Rewrite URL**, write the hostname of the app server. This is the same address that are used in Genus Studio shortcuts. The dataset should be included, as well as ```{R:1}``` on the end of the URL. Continuing with the Memoria-example from above, the rewrite URL should be ```https://memoria-desktop.genus.net/genus/{R:1}```
   * Check ```Log rewritten URL```
   * Click Apply
 
-At this point, it should work. However, there are some considerations that must be taken in production settings. This setup opens for connection between Genus Desktop and the server, via Genus Apps. If there are requirements for stricter security in regards to which adress Genus Desktop should be able to be opened from, the content of the Pattern and the Rewrite URL fields can be changed to only allow the calls used by Genus Apps. Depending on the authentication type, Pattern can be any of the following: 
+At this point, it should work. However, there are some considerations that must be taken in production settings. This setup opens for connection between Genus Desktop and the server, via Genus Apps. If there are requirements for stricter security in regards to which adress Genus Desktop should be able to be opened from, the content of the **Pattern** and the **Rewrite URL** fields can be changed to only allow the calls used by Genus Apps. Depending on the authentication type, **Pattern** can be any of the following: 
 
 * Anonymous: ```[DATASET]/api/public```
 * Genus Auth: ```[DATASET]/api/genus```
