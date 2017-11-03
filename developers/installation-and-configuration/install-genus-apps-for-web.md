@@ -20,7 +20,7 @@ author: mja
 ## Domain name and HTTPS
 
 ## Reverse Proxy configuration
-Install the following modules for IIS, if they are not already installed:
+Install the following module for IIS, if it is not already installed:
 http://www.iis.net/downloads/microsoft/application-request-routing
 
 After installed, do the follwing:
@@ -36,7 +36,7 @@ After installed, do the follwing:
   * Check ```Log rewritten URL```
   * Click Apply
 
-At this point, it should work. However, there are some considerations that must be taken in production settings. This setup opens for connection between Genus Desktop and the server, via Genus Apps. If there are requirements for stricter security in regards to which adress Genus Desktop should be able to be opened from, the content of the **Pattern** and the **Rewrite URL** fields can be changed to only allow the calls used by Genus Apps. Depending on the authentication type, **Pattern** can be any of the following: 
+At this point, it should work. However, there are some considerations that must be taken in production settings. This setup opens for connection between Genus Apps for Desktop and the server, via Genus Apps for Web. If there are requirements for stricter security in regards to which adress Genus should be able to be opened from, the content of the **Pattern** and the **Rewrite URL** fields can be changed to only allow the calls used by Genus Apps. Depending on the authentication type, **Pattern** can be any of the following: 
 
 * Anonymous: ```[DATASET]/api/public```
 * Genus Auth: ```[DATASET]/api/genus```
