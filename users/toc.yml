@@ -139,7 +139,7 @@
       href: analyze-report-and-discover/analysis/visualizations.md
     - name: Configuration
       href: analyze-report-and-discover/analysis/config.md
-    - name: Design an Analysis
+    - name: Design an analysis
       href: analyze-report-and-discover/analysis/designer/index.md
     - name: Advanced analysis
       href: analyze-report-and-discover/analysis/advanced-analysis.md
@@ -152,13 +152,13 @@
       href: analyze-report-and-discover/data-marts/data-mart-concepts.md
     - name: Data sources
       href: analyze-report-and-discover/data-marts/data-sources.md
-    - name: Data model (Data View)
+    - name: Data model (data view)
       href: analyze-report-and-discover/data-marts/data-model.md
     - name: Advanced data model
       href: analyze-report-and-discover/data-marts/data-model-advanced.md
     - name: Tasks
       href: analyze-report-and-discover/data-marts/tasks.md
-    - name: Self Filter
+    - name: Self filter
       href: analyze-report-and-discover/data-marts/self-filters.md
     - name: Loading and scheduling
       href: analyze-report-and-discover/data-marts/data-mart-loading.md
@@ -173,30 +173,30 @@
       href: analyze-report-and-discover/report/the-workface.md
     - name: Values
       href: analyze-report-and-discover/report/values.md
-    - name: Grouping and Filtering
+    - name: Grouping and filtering
       href: analyze-report-and-discover/report/grouping-and-filtering.md
       items:
-      - name: Data Sources
+      - name: Data sources
         href: analyze-report-and-discover/report/grouping-and-filtering/data-sources.md
-      - name: Time Data Sources
+      - name: Time data sources
         href: analyze-report-and-discover/report/grouping-and-filtering/time-data-sources.md
-    - name: Value Calculations
+    - name: Value calculations
       href: analyze-report-and-discover/report/value-calculations.md
-    - name: Navigate Filters and Explore Data
+    - name: Navigate filters and explore data
       href: analyze-report-and-discover/report/navigate-filters-and-explore-data.md
-    - name: View Options
+    - name: View options
       href: analyze-report-and-discover/report/view-options.md
     - name: Chart types
       href: analyze-report-and-discover/report/chart-types.md
     - name: Formatting
       href: analyze-report-and-discover/report/formatting.md
-    - name: Running the Report
+    - name: Running the report
       href: analyze-report-and-discover/report/running-the-report.md
-    - name: Publishing Functions and Options
+    - name: Publishing functions and options
       href: analyze-report-and-discover/report/publishing-functions-and-options.md
-    - name: Export or Distribute a Report
+    - name: Export or distribute a report
       href: analyze-report-and-discover/report/export-or-distribute-a-report.md
-    - name: Save to File or Print a Report
+    - name: Save to file or print a report
       href: analyze-report-and-discover/report/save-to-file-or-print-a-report.md  
     - name: Data filters
       href: analyze-report-and-discover/report/data-filters.md
