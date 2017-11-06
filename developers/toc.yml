@@ -307,6 +307,8 @@
             href: defining-an-app-model/logic/action-orchestration/actions/effects/transform-xml-data.md
           - name: Upload a File
             href: defining-an-app-model/logic/action-orchestration/actions/effects/upload-a-file.md
+          - name: Write to Log
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/write-to-log.md            
         - name: Defining Actions
           href: defining-an-app-model/logic/action-orchestration/actions/defining-actions.md
         - name: Action Diagram
