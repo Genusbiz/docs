@@ -573,5 +573,8 @@
   items:
   - name: Release stages
     href: release-notes/release-stages.md
-  - name: Version 2017.3
-    href: release-notes/release-notes-2017.3.md
+#release-note-start
+#release-note-2017.5 This is an auto-generated line. Do not change or remove.
+  - name: Version 2017.5
+    href: release-notes/release-notes-2017.5.md
+#release-note-end
