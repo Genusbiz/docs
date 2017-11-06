@@ -14,5 +14,5 @@ Traces are by default not logged in the execution history. To log traces, select
 
 
 See also:
-- [Configure logging on the application server](../../../../../installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.html#log)
+- [Configure logging on the application server](../../../../../installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.md#log)
 - In Genus Apps for Desktop, logging can be configured in the **Options** dialog
