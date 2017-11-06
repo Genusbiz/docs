@@ -1,5 +1,5 @@
 # Write to log
-Writes an entry at the end of the Genus Apps log. Entries can be logged on three levels:
+Writes an entry at the end of the Genus Apps log. Entries can be logged at three levels:
 
 Level | Description
 --- | ---
