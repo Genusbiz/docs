@@ -16,3 +16,5 @@ Forward-looking statements like our roadmap is available [here](https://www.genu
 Breaking changes and deprecated functionality are first annonuced in the roadmap and will appear in the release notes closer to the release date.
 
 _Note: The release notes are currently being moved to this (docs.genus.no) site and during the transition period you may find release notes both here and at the [old site](https://www.genus.no/?PageKey=3afcf63a-acd1-4f47-9eb7-e6a68e7eafd8)). We are sorry for the inconvenience._
+
+_Note: To link to this page from other documents or sites, you may use this convenient short link: https://gen.us/apps-release-notes_
