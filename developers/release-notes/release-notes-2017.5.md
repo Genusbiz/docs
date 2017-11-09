@@ -65,6 +65,15 @@ This section lists important changes introduced in this release. You will need t
 ## Bug fixes
 
 <!--rntype08-start BUG FIX. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 4bbd3e58-0da1-45e5-8ffa-58e4f6ab05f8 -->
+**#22957 Improved rendering of Analysis and Map Control.** (Studio, Desktop)
+
+In some situations the rendered output of these controls has appeared blurry, but this has now been improved by changing the method used for rendering the contents.
+
+<!--ID b1a71131-e3e2-4df9-8764-b8d1fd90ca8e -->
+**#22964 Fixed serialization of JSON where the Data Mapping contains fields without binding.** (Services, Apps, Desktop)
+
+In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 <!--rntype08-end   BUG FIX. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 
 ## Known issues
