@@ -44,14 +44,23 @@ Clik the menu dots in the upper right corner of the tile. Select **Duplicate**.
 ### Delete a tile
 Clik the menu dots in the upper right corner of the tile. Select **Delete**.
 
-###Open an Analysis
+### Open an Analysis
 Analyses are opened from the Navigation Pane, or from the Discover Task Pane.
 
 Analyses can be published as shortcuts in the navigation pane by system administrators. To open an Analysis from the navigation pane, locate the shortcut, and simply click it. To open the Analysis in a new window, right click the shortcut, and select Open in New Window.
 
 All the Analyses a user has access to can be opened from the Discorver Task Pane. In the Tasks section, click Open. In the list of Analyses, Reports, and Data Extracts, locate the Analysis, select it, and click OK.
 
-###Open a Form
+### Open a Form
 A desktop client form can be opened from an Analysis by using the Open a Form command in Actions. Mapping provides the filtering of data from the Analysis to the form.
 
-To enable a Form to be opened from an Analysis, open the Form in Genus Studio and access the General Settings to check the option **Enabled for user defined actions**.
+To enable a Form to be opened from an Analysis, open the Form in Genus Studio and do the following:
+* Access the General Settings to check the option **Enabled for user defined actions**
+* Make sure the master data source is not private. Click the master data source and make sure **Private** is unchecked
+
+### Open a Table
+A desktop client table can be opened from an Analysis by using the Open a Table command in Actions. Mapping provides the filtering of data from the Analysis to the table.
+
+To enable a Table to be opened from an Analysis, open the Table in Genus Studio and do the following:
+* Access the General Settings to check the option **Enabled for user defined actions**
+* Make sure the master data source(s) is not private. Click the data source(s) and make sure **Private** is unchecked
