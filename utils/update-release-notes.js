@@ -5,110 +5,182 @@
 // The program is to be run as a scheduled background task in Azure.
 // For more info: https://docs.microsoft.com/en-us/azure/app-service/web-sites-create-web-jobs
 //  
-// Algorithm:
-//
-// Read all versions from Actio (2017.1, 2017.2 etc).
-// For each version that is not expired, starting with the latest one:
-//   Read all approved release notes for this version.
-//   
-// 
 
-var request = require('request'); // https://github.com/request/request
+var request = require('request');
+var github  = require('octonode');
+var atob = require('atob');
 
-// Read releases
-request('http://actio.genus.net/genus/api/public/rest/release/release',
-function (error, response, body) {
-  if (response && response.statusCode == 200)
-    processReleases(body);
-  else {
-    console.log('error:', error); // Print the error if one occurred
-    console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-    }
-}
-);
-
-// ------------------------------------------------------------
-/*
-  {"Expired":false,
-   "ReleaseID":"9439d7c4-328d-43fe-833d-0fdce9e1448e",
-   "Name":"2017.2",
-   "VersionNumber":"17.200"}
-*/
-function processReleases(bodyString) {
-  var releases = JSON.parse(bodyString);
-  var releaseObjects = [];
-  for (var r in releases){
-    if (!releases.hasOwnProperty(r)) continue;
-
-    aRelease = releases[r];
-    var releaseObject = new ReleaseClass(aRelease['Name'],aRelease['ReleaseID'],aRelease['Expired'],aRelease['VersionNumber']);
-    releaseObjects.push(releaseObject);
-  }
-  releaseObjects.sort(function(a,b){return (a.name > b.name) ? 1 :((a.name < b.name) ? -1 : 0);});
-
-  for(var i=0;i<releaseObjects.length;i++) {
-    if (releaseObjects[i].expired == false)
-      processNotesForOneRelease(releaseObjects[i]);
-  }
+// Read and check command line arguments.
+if (process.argv.length != 4) {
+  console.log("usage: node update-release-notes.js git-username git-password");
+  process.exit(1);
 }
 
+var gitUsername = process.argv[2];
+var gitPassword = process.argv[3];
+
+// Log into github.
+var client = github.client({
+  username: gitUsername,
+  password: gitPassword
+});
+
+// Get ref to repos.
+var ghrepo = client.repo('genusbiz/docs');
+
+
 // ------------------------------------------------------------
-function readReleaseNotes(releaseName,rnType,processFunction) {
-  request("https://actio.genus.net/genus/api/public/rest/release/releaseNotes?Release=" + releaseName + "&ReleaseNoteTypeID=" + rnType,
+// Call Actio REST service to read available releases (2017.1, 2017.2, ...)
+function callReleasesRestService(releases) {
+  return new Promise((resolve, reject) =>{
+    request('http://actio.genus.net/genus/api/public/rest/release/release',
     function (error, response, body) {
       if (response && response.statusCode == 200) {
-        //console.log(body);
-        processFunction(body);
+        var candidates = JSON.parse(body);
+        for (var c in candidates){
+          if (!candidates.hasOwnProperty(c)) continue;
+      
+          var aRelease = candidates[c];
+          if (aRelease['Expired'] == false) {
+            var releaseObject = new ReleaseClass(aRelease['Name'],aRelease['ReleaseID'],aRelease['Expired'],aRelease['VersionNumber']);
+            releases.push(releaseObject);
+          }
+        }
+        releases.sort(function(a,b){return (a.name > b.name) ? 1 :((a.name < b.name) ? -1 : 0);});
+        resolve(releases);
       }
       else {
-        console.log('error:', error); // Print the error if one occurred
-        console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+        reject(error);
         }
+      }
+    );
+  });
+}
+
+// ------------------------------------------------------------
+// Call Actio REST service to read all release notes for one release.
+function callReleaseNotesRestService(name,releaseNotes){
+  return new Promise((resolve,reject) => {
+    request("https://actio.genus.net/genus/api/public/rest/release/releaseNotes?Release=" + name,
+    function (error, response, body) {
+      if (response && response.statusCode == 200) {
+        if (body == "") {
+          resolve(releaseNotes);
+          return;
+        }
+        var candidates = JSON.parse(body);
+        for (var c in candidates){
+          if (!candidates.hasOwnProperty(c))
+            continue;
+      
+          var aReleaseNote = candidates[c];
+          if (aReleaseNote["Release Note State ID"] != 4) // 4 = Published
+            continue;
+      
+          var rn = new releaseNoteClass(aReleaseNote.ID,
+                                        aReleaseNote['Release Note No'],
+                                        aReleaseNote['Release Note Type ID'],
+                                        aReleaseNote['Subject'],
+                                        aReleaseNote['Core products'],
+                                        aReleaseNote['Description']);
+          releaseNotes.push(rn);
+        }
+      
+        releaseNotes.sort(function(a,b){return (a.sortfield > b.sortfield) ? 1 :((a.sortfield < b.sortfield) ? -1 : 0);});
+              
+        resolve(releaseNotes);
+      }
+      else
+        reject(error);
     }
   )
+  });
 }
+
+// ------------------------------------------------------------
+function readReleaseNoteFileFromGitHub() {
+  ghrepo.contents('developers/release-notes/release-notes-2017.5.md', 
+    function(err,data,headers){
+      if (headers && headers.status == "200 OK") {
+
+        console.log("data: " + JSON.stringify(data));
+        console.log("-----------");
+        console.log(atob(data.content));
+      }
+      else {
+        console.log("error: " + err);
+        console.log("headers:" + headers);
+      }
+    }
+  );
+}
+
+
+// Needs to put all main logic in an async function, since await is only allowed within async functions.
+async function main() {
+  var releases = [];
+  try {
+    await callReleasesRestService(releases);
+    console.log("Releases: " + JSON.stringify(releases));
+  }
+  catch(err) {
+    console.log(err);
+    process.exit(1);
+  }
+
+  for(var r=0;r<releases.length;r++) {
+    try {
+      await callReleaseNotesRestService(releases[r].name, releases[r].releaseNotes);
+    }
+    catch(err){
+      console.log(err);
+      process.exit(1);
+    }
+  }
+
+  // For each release, fetch current (original) markdown from GitHub,
+  // create new markdown for each type of release note,
+  // compare with original,
+  // update GitHub if changes.
+  for(var r = releases.length;--r>=0;) {
+    // New releases typically do not contain any release notes yet.
+    if (releases[r].releaseNotes.length == 0)
+      continue;
+    console.log("");
+    console.log("RELEASE " + releases[r].name);
+    console.log(JSON.stringify(releases[r].releaseNotes));
+    console.log("");
+    console.log("");
+    console.log("");
+  }
+}
+
+main();
 
 
 // ------------------------------------------------------------
-function processNotesForOneRelease(r) {
-  // Only handle 2017.5 for now
+function readReleaseNoteFileFromGitHub() {
+  ghrepo.contents('developers/release-notes/release-notes-2017.5.md', 
+    function(err,data,headers){
+      if (headers && headers.status == "200 OK") {
 
-  if (r.name != "2017.5")
-    return;
-
-  readReleaseNotes(r.name,"7", processBugFixes); // 7 = minor new, 8 = bug fixes
+        console.log("data: " + JSON.stringify(data));
+        console.log("-----------");
+        console.log(atob(data.content));
+      }
+      else {
+        console.log("error: " + err);
+        console.log("headers:" + headers);
+      }
+    }
+  );
 }
-
-/*
-    "Release Note No":22926,
-    "Subject":"Improved errormessage propagated to client on server-exception",
-    "Description":"Expanded the exception returned when failing to deserialize an object in a Genus Apps request to include the inner exception message.",
-    "Release Note Type ID":"8",
-    "Release Note Type":"Bug Fix",
-*/
-
 
 // ------------------------------------------------------------
 function processBugFixes(bodyString) {
   //console.log('body:', bodyString);
-  var releaseNotes = JSON.parse(bodyString);
-  var rnObjects = [];
-  for (var i in releaseNotes){
-    if (!releaseNotes.hasOwnProperty(i))
-      continue;
-
-    aReleaseNote = releaseNotes[i];
-
-    if (aReleaseNote["Release Note State ID"] != 4) // 4 = Published
-      continue;
-
-    var rn = new rnClass(aReleaseNote.ID, aReleaseNote['Release Note No'], aReleaseNote['Subject'], "", aReleaseNote['Description']);
-    rnObjects.push(rn);
-  }
-
-  rnObjects.sort(function(a,b){return (a.no > b.no) ? 1 :((a.no < b.no) ? -1 : 0);});
-
   var subjectLine = "";
+
   for(var k=0;k<rnObjects.length;k++) {
     console.log("<!--ID " + rnObjects[k].id + " -->");
     subjectLine = "**#" + rnObjects[k].no + " " + rnObjects[k].subject + "**";
@@ -124,18 +196,23 @@ function processBugFixes(bodyString) {
 // ------------------------------------------------------------
 function ReleaseClass(name, releaseID, expired, versionNumber) {
   // Constructor code
-  this.name          = name;
-  this.releaseID     = releaseID;
-  this.expired       = expired;
-  this.versionNumber = versionNumber;
+  this.name             = name;
+  this.releaseID        = releaseID;
+  this.expired          = expired;
+  this.versionNumber    = versionNumber;
+  this.releaseNotes     = [];
+  this.originalMarkdown = "";
+  this.newMarkdown      = "";
 };
 
 // ------------------------------------------------------------
-function rnClass(id, no, subject, products, description) {
+function releaseNoteClass(id, no, type, subject, products, description) {
   // Constructor code
   this.id          = id;
   this.no          = no;
+  this.type        = type;
   this.subject     = subject;
   this.products    = products;
   this.description = description;
+  this.sortfield   = type + "#" + no;
 };
