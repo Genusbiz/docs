@@ -28,25 +28,18 @@ For general information about installing and upgrading Genus Apps, see [here](..
 
 See also the following notes.
 <!--ID 3a15e3db-0491-4c05-a64b-c7db32d0d879 -->
-
 **#22958 Genus Apps now requires .NET Framework 4.7** (Desktop;Services;Studio)
 
 Genus Apps for Desktop and Genus Services now requires .NET Framework 4.7 or newer.
 
-
-
 <!--ID f7f23e69-89ba-4a36-8f5f-bfba99315331 -->
-
 **#22959 Genus Services requires a new version of IBM Data Server Driver Package for accessing DB2 databases** (Services)
 
 To access IBM DB2 databases Genus Services now requires "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod2 Fix Pack2 iFix001"
 
 For details, see https://docs.genus.no/developers/installation-and-configuration/system-requirements.html#database-access-software-requirements
 
-
-
 <!--ID 84244177-f52f-4c6b-879e-a994ab896341 -->
-
 **#22962 Genus App Platform changes name to Genus Apps**
 
 Further, the following names have also been changed:
@@ -58,22 +51,12 @@ These names are not changed:
 - Genus Studio
 - Genus Server
 
-
-
 <!--ID 0f1ddd4a-1f4c-4e35-b89b-da1167ae7068 -->
-
 **#22965 Reboot required after upgrade from an earlier version** (Services)
 
 After upgrading from an earlier version of Genus App Services to Genus Services 2017.5 you have to reboot the application server or else Genus Services will not be able to write to the Windows event log.
 
-
-
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
-
-
-
-
 
 <!-- release note type 2 is missing. That's ok.-->
 
@@ -85,11 +68,6 @@ End-of-life functionality is functionality that was available in the previous re
 There are no end-of-life functionality identified in this release.
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 
-
-
-
-
-
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
@@ -98,36 +76,22 @@ Deprecated functionality is available in this release, but will (most probably) 
 There is no deprecated functionality in this release.
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 
-
-
-
-
-
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID c4e9638b-955a-47f3-a79b-68b98aa55e65 -->
-
 **#22968 Change in REST serialization** (Apps;Desktop;Studio)
 
 From version 2017.5 of Genus Apps, REST serialization is changed for fields that are not assigned either to a field in a data source or by a constant value. In earlier versions of Genus, these fields would be serialized with a null value, but from now on these fields will be omitted during serialization. In order to maintain the previous functionality, assign null-values to all fields that should be serialized.
 
-
-
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
-
-
-
-
 
 ## Major new functionality
 
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID a89a32d3-0780-4650-958d-3d2b236d0ed5 -->
-
 **#22952 New effect: Merge documents** (Desktop;Services)
 
 Merges two or more documents into a single document. The output document can be saved as a PDF document or a Word document.
@@ -152,48 +116,31 @@ Supported input file formats:
 
 For more information, see https://docs.genus.no/developers/defining-an-app-model/logic/action-orchestration/actions/effects/merge-documents.html
 
-
-
 <!--ID c911c480-64c6-4e70-bd36-53d5e9b814cb -->
-
 **#22953 Access to Discovery shortcuts** (Desktop)
 
 In the previous version all users had access to all the shortcuts under the Discovery view button. In 2017.5, these shortcuts are handled as any other shortcuts and the business enginer can add and remove access. Genus update will give every one read and execute access to all the discovery shortcuts.
 
-
-
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
-
-
-
-
 
 ## Minor new functionality
 
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID ae64e275-6f90-44fe-a5ca-9dc01f6c1bad -->
-
 **#22948 Required Selection** (Desktop)
 
 In a Tile, a "Required Selection" (RS), can be specified.
 The RS specifies a minimum and maximum number of selected items from a data source.
 If not fulfilled, the Tile with the RS will display a message: "Tile requires between <min> and <max> selections in datasource <datasource>
 
-
-
 <!--ID e13068fd-a6df-4faa-a2a7-3ad10d2ea8e1 -->
-
 **#22949 Retrieve text data from the clipboard** (Studio)
 
 Added type Clipboard to the Genus Apps language. To retrieve text from the clipboard, use the getText() function exposed by the Clipboard type.
 
 (Text can be set by using the "Copy to Clipboard" effect).
 
-
-
 <!--ID 183e7754-c21a-4a52-9479-d175cc7e7f26 -->
-
 **#22950 Desktop and app forms split in separate sub folders in Genus Studio** (Studio)
 
 New structure:
@@ -202,106 +149,64 @@ Forms
 - Desktop
 - App
 
-
-
 <!--ID 7dfec1cd-3705-4538-afbf-2c933aee40ac -->
-
 **#22951 Changed implementation of ListBox control in Forms** (Desktop)
 
 We have previously used a 3. party component but is now using the native control available in the WPF framework. The purpose of this change is to better take control of customization and improve performance.
 
-
-
 <!--ID e568d56c-5c81-4986-bfa4-0eba13ae9a12 -->
-
 **#22954 It is now possible to change the order of the Discovery view button** (Desktop)
 
-
-
 <!--ID 69e5fd06-a6d8-4101-bd77-26ba87038942 -->
-
 **#22955 Changed behavior when a new model og a software update requests restart** (Desktop;Studio)
 
 When a new model is deployed or a new software version is installed, the application now automatically restarts and displays a notification after the restart to inform the user that the system has been updated.
 
-
-
 <!--ID ab242f08-ab8e-467f-b1d3-4f5f8d96ec47 -->
-
 **#22960 Context-sensitive help in Genus Studio** (Studio)
 
 To provide faster access to relevant help topics in the Genus Apps documentation, topics have been mapped to different UI elements in Genus Studio. For example, pressing F1 in the directory explorer or a window, opens the documentation at a given topic. If there is no topic associated with an UI element, or an article has been moved, the request is redirected to the start page.
 
 Some UI elements in Genus Apps for Desktop, such as the designers for analysis, report, data mart, and data extract, are also mapped to topics.
 
-
-
 <!--ID e0fe7a95-2018-487c-b650-478dccefad0f -->
-
 **#22961 Manage view in private shortcuts** (Desktop)
 
 Mange view is now avaliable for both public and private shortcuts
 
-
-
 <!--ID 0c47b3d9-76f9-44e4-8c46-4a9aec9ec0bf -->
-
 **#22963 Added support for importing an EML file into a mail message data source** (Desktop)
 
 Functionality provided by the "Import Data" effect.
 
-
-
 <!--ID 95711a24-1b80-4643-b45c-f9febacb75af -->
-
 **#22966 Remove macros in macro-enabled Excel e-mail attachments** (Desktop)
 
 If an e-mail message is sent through a malware/spam filter which blocks attachments containing macros, the "Create a Mail Message" effect now provides an option for removing macros in macro-enabled Excel attachments before the e-mail message is sent.
 
 Macros are removed by converting attachments saved in the xls, xlsm, or xltm format to the xlsx format.
 
-
-
 <!--ID b853e0ef-34b0-4c03-b632-a22db59e7a77 -->
-
 **#22967 Views moved to Home tab section** (Desktop)
 
 The view section that contains table views is moved from the View tab section to the home section
 
-
-
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
-
-
-
-
 
 ## Bug fixes
 
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 4bbd3e58-0da1-45e5-8ffa-58e4f6ab05f8 -->
-
 **#22957 Improved rendering of Analysis and Map Control.** (Desktop;Studio)
 
 In some situations the rendered output of these controls has appeared blurry, but this has now been improved by changing the method used for rendering the contents.
 
-
-
 <!--ID b1a71131-e3e2-4df9-8764-b8d1fd90ca8e -->
-
 **#22964 Fixed serialization of JSON where the Data Mapping contains fields without binding.** (Apps;Desktop;Services)
 
 In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 
-
-
 <!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
-
-
-
-
 
 ## Known issues
 
@@ -310,11 +215,6 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
-
-
-
-
 
 ## Tips and hints
 
