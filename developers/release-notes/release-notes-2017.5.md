@@ -5,9 +5,6 @@ author: jtroset
 ---
 # Release notes for version 2017.5
 
-> [!NOTE]
-> These release notes pages are under construction. See _[here](https://www.genus.no/?PageKey=0a7d131d-03f0-4a32-953f-5e8bc68e5065)_ for the current release notes for 2017.5.
-
 ## Introduction
 
 This document lists all user-visible changes to Genus Apps since the previous release.
