@@ -482,8 +482,8 @@ async function main() {
     breakOriginalMarkdownIntoSections(aRelease);
     createNewMarkdown(aRelease);
 
-    saveToFile("D:\\git\\original.md", aRelease.originalMarkdown);
-    saveToFile("D:\\git\\new.md",      aRelease.newMarkdown);
+    //saveToFile("D:\\git\\original.md", aRelease.originalMarkdown);
+    //saveToFile("D:\\git\\new.md",      aRelease.newMarkdown);
     
     // Not necessary to update GitHub if there isn't any changes.
     if (aRelease.originalMarkdown == aRelease.newMarkdown) {
