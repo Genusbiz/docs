@@ -23,10 +23,10 @@ Prior to upgrading to this release, you must:
 * Please note that there does not exist any Genus Upgrade Assistant for this upgrade.
  
 For general information about installing and upgrading Genus Apps, see [here](../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../installation-and-configuration/system-requirements.md) article.
- 
-<!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+ <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
 See also the following notes.
+
 <!--ID 3a15e3db-0491-4c05-a64b-c7db32d0d879 -->
 **#22958 Genus Apps now requires .NET Framework 4.7** (Desktop;Services;Studio)
 
@@ -57,29 +57,23 @@ These names are not changed:
 After upgrading from an earlier version of Genus App Services to Genus Services 2017.5 you have to reboot the application server or else Genus Services will not be able to write to the Windows event log.
 
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 <!-- release note type 2 is missing. That's ok.-->
 
 ## End-of-life functionality
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
-
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 There are no end-of-life functionality identified in this release.
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
-
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 There is no deprecated functionality in this release.
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
-
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID c4e9638b-955a-47f3-a79b-68b98aa55e65 -->
 **#22968 Change in REST serialization** (Apps;Desktop;Studio)
@@ -87,9 +81,7 @@ This section lists important changes introduced in this release. You will need t
 From version 2017.5 of Genus Apps, REST serialization is changed for fields that are not assigned either to a field in a data source or by a constant value. In earlier versions of Genus, these fields would be serialized with a null value, but from now on these fields will be omitted during serialization. In order to maintain the previous functionality, assign null-values to all fields that should be serialized.
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Major new functionality
-
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID a89a32d3-0780-4650-958d-3d2b236d0ed5 -->
 **#22952 New effect: Merge documents** (Desktop;Services)
@@ -122,9 +114,7 @@ For more information, see https://docs.genus.no/developers/defining-an-app-model
 In the previous version all users had access to all the shortcuts under the Discovery view button. In 2017.5, these shortcuts are handled as any other shortcuts and the business enginer can add and remove access. Genus update will give every one read and execute access to all the discovery shortcuts.
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Minor new functionality
-
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID ae64e275-6f90-44fe-a5ca-9dc01f6c1bad -->
 **#22948 Required Selection** (Desktop)
@@ -192,9 +182,7 @@ Macros are removed by converting attachments saved in the xls, xlsm, or xltm for
 The view section that contains table views is moved from the View tab section to the home section
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Bug fixes
-
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 4bbd3e58-0da1-45e5-8ffa-58e4f6ab05f8 -->
 **#22957 Improved rendering of Analysis and Map Control.** (Desktop;Studio)
@@ -207,15 +195,12 @@ In some situations the rendered output of these controls has appeared blurry, bu
 In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 
 <!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
- 
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Tips and hints
 
 Tips and hints are design decisions or answers to support questions that may be of general interest.
@@ -223,6 +208,5 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
-
 <!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
