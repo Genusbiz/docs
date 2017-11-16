@@ -13,8 +13,6 @@ author: jtroset
 This document lists all user-visible changes to Genus Apps since the previous release.
  
 This release note will be updated prior to the release and may also be updated as long as the release is available, e.g. with information of new patches or known issues. Please take note of the [installation and upgrading](#installation-and-upgrading) comments, and the release notes [change log](#change-log).
- 
-Explore the menu to the left to learn more.
 
 ## Installation and upgrading
  
