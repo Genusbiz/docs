@@ -74,6 +74,7 @@ After upgrading from an earlier version of Genus App Services to Genus Services 
 
 
 
+
 <!-- release note type 2 is missing. That's ok.-->
 
 ## End-of-life functionality
@@ -88,6 +89,7 @@ There are no end-of-life functionality identified in this release.
 
 
 
+
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
@@ -95,6 +97,7 @@ Deprecated functionality is available in this release, but will (most probably) 
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 There is no deprecated functionality in this release.
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 
 
 
@@ -114,6 +117,7 @@ From version 2017.5 of Genus Apps, REST serialization is changed for fields that
 
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 
 
 
@@ -159,6 +163,7 @@ In the previous version all users had access to all the shortcuts under the Disc
 
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 
 
 
@@ -271,6 +276,7 @@ The view section that contains table views is moved from the View tab section to
 
 
 
+
 ## Bug fixes
 
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -296,6 +302,7 @@ In cases where fields were not bound in the definition, the resulting JSON-data 
 
 
 
+
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
@@ -303,6 +310,7 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 
 
 
