@@ -80,6 +80,16 @@ This section lists important changes introduced in this release. You will need t
 
 From version 2017.5 of Genus Apps, REST serialization is changed for fields that are not assigned either to a field in a data source or by a constant value. In earlier versions of Genus, these fields would be serialized with a null value, but from now on these fields will be omitted during serialization. In order to maintain the previous functionality, assign null-values to all fields that should be serialized.
 
+<!--ID 69da89c1-34f2-4a55-ba6a-555111bbd578 -->
+**#22976 Made changes to keyboard navigation - tabbing** (Apps)
+
+Added better support for keyboard navigation. It is now possible to tab to more controllers, including text, symbols and tab sheet tabs. Tab stop are now disabled for controllers where this makes sense, but this may lead to some cases where tab stop has to be turned on to achieve the wanted result. In some cases, i.e. group boxes with click actions, tab stop was inferred, but this now has to be enabled manually.
+
+<!--ID e968eee4-fa90-4f68-afca-277018ea144d -->
+**#22977 Changed serialization of font information in Html entered in the Html Editor** (Desktop)
+
+The default font was not serialized in earlier versions of the component, and has caused problems when the Html has been used in other environments with other defaults. The serialization has now been changed so that the default font in the editor is included in the html-document to keep a consitent appearance when used outside Genus Apps.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -181,6 +191,27 @@ Macros are removed by converting attachments saved in the xls, xlsm, or xltm for
 
 The view section that contains table views is moved from the View tab section to the home section
 
+<!--ID 7901c7e7-f176-4bb8-8285-86c3aa569424 -->
+**#22973 New effect: Write to log** (Apps;Desktop;Services)
+
+Writes an entry at the end of the Genus Apps log. Entries can be logged at three levels: Trace, Warning, and Error.
+
+Events of type Warning and Error are logged to the general Windows Server event log if the effect is executed on an application server. In addition, these events are logged in the execution history for the object containing the effect, such as a Task, Agent, Web Service, or Rest Service.
+
+Traces are by default not logged in the execution history. To log traces, select the option "Save detailed execution trace in history" in the history setup for the object containing the effect.
+
+For more information, see https://docs.genus.no/developers/defining-an-app-model/logic/action-orchestration/actions/effects/write-to-log.html.
+
+<!--ID 00e4e61e-a60d-4450-b983-5624d9f02e92 -->
+**#22974 New Data Mart or new Data Extract or new Analysis in studio** (Desktop)
+
+When creating a new Data Mart, Data Extract or Analysis from Studio in a solution with multiple dataset, the user must first select a dataset before he or she can continue.
+
+<!--ID ea4e307b-6730-46d3-b5b4-a01182f6f882 -->
+**#22975 Adding a table's distribute commands in the ribbon on a Form** (Desktop)
+
+When using a table in a Form the table's distribute commands are available in the context menu. Now it is possible to add these commands in the Forms ribbon. The commands work as any other command and are only available when the table is the active control.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Bug fixes
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -199,7 +230,16 @@ In cases where fields were not bound in the definition, the resulting JSON-data 
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no known issues in this release.
+<!--ID 295f03ed-94f9-4516-81d5-6e831609e3b0 -->
+**#22978 Null/not null coalescing operator (?? and !??) precedence is counterintuitive** (Studio)
+
+The operator precedence of the "null coalescing" and "not null coalescing" operators (?? and !??) is counterintuitive but aligns with languages like C#.
+
+See
+* https://docs.genus.no/developers/defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.html
+* https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
+* https://www.codeproject.com/Tips/721145/Beware-The-null-coalescing-operator-is-low-in-the
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
