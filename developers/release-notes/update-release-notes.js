@@ -2,10 +2,6 @@
 // Read release notes from Actio and populate markdown files on docs.genus.no,
 // folder developers/release-notes and files like release-notes-2017.5.md
 //
-// The program is to be run as a scheduled background task in Azure.
-// For more info: https://docs.microsoft.com/en-us/azure/app-service/web-sites-create-web-jobs
-//  
-
 var request = require('request');
 var github  = require('octonode');
 var atob    = require('atob');
@@ -81,6 +77,7 @@ function callReleasesRestService(releases) {
     function (error, response, body) {
       if (response && response.statusCode == 200) {
         var candidates = JSON.parse(body);
+        //console.log(body);
         for (var c in candidates){
           if (!candidates.hasOwnProperty(c)) continue;
       
@@ -91,6 +88,7 @@ function callReleasesRestService(releases) {
           }
         }
         releases.sort(function(a,b){return (a.name > b.name) ? 1 :((a.name < b.name) ? -1 : 0);});
+        //console.log(JSON.stringify(releases));
         resolve(releases);
       }
       else {
@@ -487,14 +485,14 @@ async function main() {
     
     // Not necessary to update GitHub if there isn't any changes.
     if (aRelease.originalMarkdown == aRelease.newMarkdown) {
-      console.log("No changes. GitHub not updated.");
+      console.log(aRelease.name + ": No changes. GitHub not updated.");
       continue;
     }
 
     try{
-      console.log("Changes detected! Updating GitHub...");
+      console.log(aRelease.name + ": Changes detected! Updating GitHub...");
       await updateReleaseNoteFileInGitHub(aRelease,"Auto update of " + aRelease.name + " release notes from Actio");
-      console.log("...done.");
+      console.log(aRelease.name + ": ...done.");
     }
     catch(err){
       console.log(err);

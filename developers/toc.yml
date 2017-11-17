@@ -573,9 +573,17 @@
 - name: Release notes
   href: release-notes/index.md
   items:
-  - name: Release stages
-    href: release-notes/release-stages.md
-  - name: Version 2017.5
+  - name: Version 2018.1 (Pre-alpha)
+    href: release-notes/release-notes-2018.1.md
+  - name: Version 2017.5 (Beta)
     href: release-notes/release-notes-2017.5.md
   - name: Version 2017.4
     href: release-notes/release-notes-2017.4.md
+  - name: Version 2017.3
+    href: release-notes/release-notes-2017.3.md
+  - name: Version 2017.2
+    href: release-notes/release-notes-2017.2.md
+  - name: Version 2017.1
+    href: release-notes/release-notes-2017.1.md
+  - name: Release stages
+    href: release-notes/release-stages.md
