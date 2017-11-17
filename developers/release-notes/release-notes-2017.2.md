@@ -291,6 +291,9 @@ If data are read and written to the same data source, no objects are returned. B
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
+
+All Desktop Forms must be designed in a way that prevents Table and Report Controls from being hosted in scrollable areas of the Form. In most cases this could be catered for by stretch-aligning the Table/Report controls (including all parent groups of the Table/Report) within the Form, but there may also be other cases where other areas of a Form may cause scrollbars to appear in a group which includes a Table/Report control. When a Form has the problem described here, it will appear as the Table/Report is rendered floating above other controls in the window so that for instance the ribbon, status bar or other page content may be obscured. This will be a time limited restriction, and will be removed in a later release, when the changes in our user interface technology are completed. Any Table controls violating the requirement will have an undetermined behavior.
+
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID e7518c90-26f0-49c6-b313-8b5700e76f26 -->
 **#22886 Can no longer select null for not null-properties after making another selection (Combobox)** (Apps)
@@ -305,5 +308,17 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
+
+* 2017-09-11 Updated with latest bug fixes.
+* 2017-07-06 Updated with latest Bug fixes.
+* 2017-05-09 Updated with latest Bug fixes and changed status from Release Candidate to Release.
+* 2017-05-03 Added summary of Analysis enhancements in Major new functionality.
+* 2017-05-02 Updated with latest Minor new functionality. Changed status from Beta to Release Candidate.
+* 2017-04-24 Updated with latest Minor new functionality and Installation / upgrading. Changed status from Alpha to Beta.
+* 2017-04-11 Updated with latest Minor new functionality, Bug fixes and Known issues.
+* 2017-04-03 Updated with latest Minor new functionality and Bug fixes.
+* 2017-03-27 Changed status from Pre-Alpha to Alpha.
+* 2017-03-24 Created (Pre-Alpha).
+
 <!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->

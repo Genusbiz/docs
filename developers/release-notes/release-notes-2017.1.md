@@ -574,5 +574,17 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
+
+* 2017-09-11 Updated with latest bug fixes.
+* 2017-07-06 Updated with latest Bug fixes.
+* 2017-04-11 Updated with latest Bug fixes.
+* 2017-04-03 Updated with latest Minor new functionality and Bug fixes.
+* 2017-03-06 Changed status to Release (builds starting with 017.100). New items added to Breaking changes, Bug fixes and Minor new functionalitities.
+* 2017-02-10 Changed status from Beta to Release Candidate. Updated with latest release notes (Installation/upgrading, Breaking changes, Minor new functionality, Bug fixes).
+* 2017-01-03 Updated with latest release notes (Minor new functionality).
+* 2016-12-27 Changed status from Alpha to Beta.
+* 2016-12-20 Updated with latest Minor new functionality and Bug fixes.
+* 2016-12-06 Created (Alpha).
+
 <!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
