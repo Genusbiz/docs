@@ -249,6 +249,5 @@ There are no tips and hints specifically targeting this release.
 * 2017-11-06 Changed stage from Alpha to Beta (builds starting with 17.250.49 or later).
 * 2017-11-03 Updated with installation/upgrade info, breaking changes, bug fixes, and minor new functionalities.
 * 2017-10-27 Created (Alpha stage).
-
 <!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
