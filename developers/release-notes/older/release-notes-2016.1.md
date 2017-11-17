@@ -53,6 +53,7 @@ The Genus App Services Management Console entries for "Component Services" and "
 ## End-of-life functionality
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
+
 **#22485 - - Support for Windows Server 2008 and Windows Vista is removed**
  
 Support is removed for both 32-bit and 64-bit editions.
@@ -76,6 +77,7 @@ User Alerts was used to notify the Owner or Delegate of an Agent of its schedule
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
+
 **#22705 - Apps, Desktop, Services, Studio - Support for Windows Server 2008 R2**
  
 Support for Windows Server 2008 R2 will be removed in a near-future release.
@@ -265,11 +267,11 @@ Please note that you only need to take action if any pre-release of Genus Deskto
  
 **#22763 - Apps, Services - Breaking change -- Enable TLS 1.2 on Windows Server 2008 R2**
  
-Problem
+Problem:
  
 As of iOS 10 Apple now requires that all HTTPS communication utilizes the TLS 1.2 protocol. However, this protocol is not enabled by default on Windows Server 2008 R2. Any iOS apps (including those running on the Genus App Platform) on devices with iOS 10 or greater will stop working when communicating over HTTPS with a server that is running on Windows Server 2008 R2 with default configuration.
  
-Resolution
+Resolution:
  
 Any Windows Server 2008 R2 used by an app made with Genus App Platform must be reconfigured to enable the TLS 1.2 protocol. TLS 1.2 has improvements over previous versions of the TLS and SSL protocol which will improve your server's level of security.
  
@@ -306,13 +308,12 @@ Comparison with NULL is now translated to IS NULL | IS NOT NULL when generating 
  
 Example:
  
-Expression:
-```
-Person.Employer = Company
-```
+Expression: `Person.Employer = Company`
 
 SQL:
+
 a) Company has value: `Person.Employer = 'a-company-id'`
+
 b) Company has no value: `Person.Employer IS NULL`
  
 **#22797 - Desktop - Use of Hierarchies in table cells**
@@ -323,20 +324,20 @@ To use a hierarchy when pushing the search button on a table cell, a Hierachy mu
  
 Genus Server 2016.1 greatly simplifies the installation task for Oracle users as compared to Genus App Services 2015.2 and earlier versions. Earlier versions required a manual and error-prone installation procedure for Oracle ODP.NET Unmanaged Driver (both 32 bit and 64 bit versions). The 2016.1 version now includes the new Oracle ODP.NET Managed Driver. As of this version, the required software is redistributed with Genus App Services. No extra download and installation is involved.
  
-Requirements
+Requirements:
  
 Genus App Services 2016.1 introduces the following requirements:
  
 * No Oracle driver has been globally installed (e.g. the configuration section name "oracle.manageddataaccess.client" is not globally defined). Any such global installation must be uninstalled.
 * Any connection details in tnsnames.ora has to be converted to the EZ Connect connection string format.
  
-Configuration
+Configuration:
  
-The configuration section <oracle.manageddataaccess.client> section may be customized according to the Oracle documentation “Oracle Data Provider for .NET, Managed Driver Configuration” (http://docs.oracle.com/cd/E63277_01/win.121/e63268/InstallManagedConfig.htm). Please note, however, that any changes made here will be overwritten next time Genus Server is installed.
+The configuration section `<oracle.manageddataaccess.client>` section may be customized according to the Oracle documentation “Oracle Data Provider for .NET, Managed Driver Configuration” (http://docs.oracle.com/cd/E63277_01/win.121/e63268/InstallManagedConfig.htm). Please note, however, that any changes made here will be overwritten next time Genus Server is installed.
  
 All customizations are to be done here:
  
-C:\Program Files\Genus\Server\wwwroot\Web.config
+`C:\Program Files\Genus\Server\wwwroot\Web.config`
 
 ## Major new functionality
 
@@ -376,7 +377,7 @@ A new Genus Apps authentication feature has been introduced for scenarios where 
  
 All Genus Apps requests must be sent to Genus Server on the form
  
-https://myservername.mydomain.com/mydataset/api/public/mobile/......
+`https://myservername.mydomain.com/mydataset/api/public/mobile/......`
  
 where word “public” in the URL indicates that Genus Apps will not perform any authentication on its own.
  
@@ -384,15 +385,11 @@ In order to use Trusted Zone Authentication, the following configuration must be
  
 1. Enable automatic creation of native user accounts for the account profile to be used (only one account profile may allow this) by executing an SQL statement like
  
-```
-UPDATE g_account_profile SET allow_create_native_account = 1 WHERE .......
-```
+   `UPDATE g_account_profile SET allow_create_native_account = 1 WHERE .......`
  
 2. Add the following line in appSettingsOverrides.config file within the `<appSettings>` section:
  
-```
-<add key="TrustedZoneAuthentication:IdentityHeaderName" value="X-YourCustomHeaderName"/>
-```
+   `<add key="TrustedZoneAuthentication:IdentityHeaderName" value="X-YourCustomHeaderName"/>`
  
 If appSettingsOverrides.config does not exist, create a new file named appSettingsOverrides.config located at the same directory as web.config (for 2016.1 this normally is C:\Program Files (x86)\Genus\Server\wwwroot) with the following content:
  
@@ -405,9 +402,7 @@ If appSettingsOverrides.config does not exist, create a new file named appSettin
  
 IMPORTANT: In both cases, replace "X-YourCustomHeaderName" with a unique header name of your choice. The reverse proxy server must always remove any incoming instances of this header (to prevent compromising the security) and then add its own instance like
  
-```
-X-YourCustomHeaderName: account-ident-of-authenticated-user
-```
+`X-YourCustomHeaderName: account-ident-of-authenticated-user`
  
 where "X-YourCustomHeaderName" corresponds to your header name configured in appSettingsOverrides.config and "account-ident-of-authenticated-user" is the actual identity value from an external identity provider. The value will be matched against gd_account.acc_logon_name and if no matching instance is found a new account with the specified value will be created automatically.
  
@@ -508,91 +503,86 @@ Required configuration:
 * Both the client computer and the servers hosting Genus App Services must be members of the same Active Directory domain.
 * Configure SPN (Service Principal Name) for the Windows server(s) hosting Genus Apps for Web and Genus App Services, if the fully qualified hostname in the URL (“daserver”) being used is not identical to the NetBIOS hostname (“daserver1”):
 
-   On your domain controller, open a Command Prompt and write the following in order to register SPN “http/daserver” for computer account “daserver1”:
+   * On your domain controller, open a Command Prompt and write the following in order to register SPN “http/daserver” for computer account “daserver1”:
 
-   ```
-   setspn -S http/daserver daserver1
-   ```
+     `setspn -S http/daserver daserver1`
  
-   Please make sure that the DNS record for the fully qualified hostname (“daserver”) is defined as an A record, not a CNAME record.
+   * Please make sure that the DNS record for the fully qualified hostname (“daserver”) is defined as an A record, not a CNAME record.
 
-   The SPN configuration described above applies when the Genus App Services Web Site AppPool is running using the default “Network Service” account. If multiple Genus App Services instances are located behind a load balancer you have to create a new, common domain account, e.g. “dauser”, configure each Genus App Services Web Site AppPool to using that account and then run the following alternative “setspn” command line (where “daserver” is the load balancer URL hostname):
+   * The SPN configuration described above applies when the Genus App Services Web Site AppPool is running using the default “Network Service” account. If multiple Genus App Services instances are located behind a load balancer you have to create a new, common domain account, e.g. “dauser”, configure each Genus App Services Web Site AppPool to using that account and then run the following alternative “setspn” command line (where “daserver” is the load balancer URL hostname):
 
-   ```
-   setspn -U -S http/daserver dauser
-   ```
+     `setspn -U -S http/daserver dauser`
  
-   For more documentation and examples on “setspn”, please refer to https://technet.microsoft.com/library/cc731241.
+   * For more documentation and examples on “setspn”, please refer to https://technet.microsoft.com/library/cc731241.
  
 * Enable Integrated Windows Authentication for your client web browsers if URL hostname differs from the NetBIOS hostname:
  
-   Enabling Intranet Zone used by Internet Explorer, Microsoft Edge, Google Chrome, and Chromium:
+   * Enabling Intranet Zone used by Internet Explorer, Microsoft Edge, Google Chrome, and Chromium:
  
-   * Alternative 1: Add the URL hostname to the Intranet Zone on each client computer: Open the “Internet Options” desktop app, select the Security property sheet, select the “Local intranet” security zone, click Sites, then Advanced. Enter the hostname in the “Add this website to the zone” textbox and click Add. The textbox accepts wildcard expressions like “*.mydomain.com”.
-   * Alternative 2: Add a group policy on your domain controller under “Computer Configuration/Policies/Administrative Templates/Windows Components/Internet Explorer/Internet Control Panel/Security Page”. Enable “Site to Zone Assignment List” and enter the zone assignments with each hostname (or *.mydomain.com wildcard) as Value name and “1” as Value.
-   * Please refer to https://technet.microsoft.com/en-us/itpro/internet-explorer/ie11-deploy-guide/group-policy-objects-and-ie11 for details.
- 
-* Google Chrome and/or Chromium only (not needed if “Intranet Zone” is configured as described above), see https://dev.chromium.org/administrators/policy-list-3#AuthServerWhitelist:
- 
-   * Alternative 1: Add one of the following registry entries, where “daserver” represents the URL’s fully qualified hostname, a comma-separated list of multiple names, or simply “*” (not recommended).
+     * Alternative 1: Add the URL hostname to the Intranet Zone on each client computer: Open the “Internet Options” desktop app, select the Security property sheet, select the “Local intranet” security zone, click Sites, then Advanced. Enter the hostname in the “Add this website to the zone” textbox and click Add. The textbox accepts wildcard expressions like “*.mydomain.com”.
+     * Alternative 2: Add a group policy on your domain controller under “Computer Configuration/Policies/Administrative Templates/Windows Components/Internet Explorer/Internet Control Panel/Security Page”. Enable “Site to Zone Assignment List” and enter the zone assignments with each hostname (or *.mydomain.com wildcard) as Value name and “1” as Value.
+     * Please refer to https://technet.microsoft.com/en-us/itpro/internet-explorer/ie11-deploy-guide/group-policy-objects-and-ie11 for details.
 
-      * For Google Chrome:
 
-      ```
-      [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
-      "AuthServerWhitelist"="daserver"
-      ```
+   * Google Chrome and/or Chromium only (not needed if “Intranet Zone” is configured as described above), see https://dev.chromium.org/administrators/policy-list-3#AuthServerWhitelist:
+ 
+     * Alternative 1: Add one of the following registry entries, where “daserver” represents the URL’s fully qualified hostname, a comma-separated list of multiple names, or simply “*” (not recommended).
+
+       * For Google Chrome:
+
+         ```
+         [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+         "AuthServerWhitelist"="daserver"
+         ```
 
       * For Chromium:
 
-      ```
-      [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
-      "AuthServerWhitelist"="daserver"
-      ```
-   * Alternative 2: Use group policy, see https://dev.chromium.org/administrators/policy-list-3 for details.
- 
+        ```
+        [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+        "AuthServerWhitelist"="daserver"
+        ```
+     * Alternative 2: Use group policy, see https://dev.chromium.org/administrators/policy-list-3 for details.
+
 * Enable Integrated Windows Authentication for Firefox:
  
-   Configure the “network.negotiate-auth.trusted-uris” setting as described in
+   * Configure the “network.negotiate-auth.trusted-uris” setting as described in
 
-   * “Configuring Firefox to use Kerberos for SSO” at https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/5/html/Deployment_Guide/sso-config-firefox.html, and
-“Integrated Authentication” at https://developer.mozilla.org/en-US/docs/Mozilla/Integrated_authentication
+     * “Configuring Firefox to use Kerberos for SSO” at https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/5/html/Deployment_Guide/sso-config-firefox.html, and
+     * “Integrated Authentication” at https://developer.mozilla.org/en-US/docs/Mozilla/Integrated_authentication
  
 * Extra configuration needed for delegation:
  
-   On your domain controller, open the Active Directory Users and Computers MMC, navigate to the computer object representing the server(s) to be added for delegation, select Properties and then the Delegation property sheet. Select “Trust this computer for delegation to any service (Kerberos only)” and click OK.
+   * On your domain controller, open the Active Directory Users and Computers MMC, navigate to the computer object representing the server(s) to be added for delegation, select Properties and then the Delegation property sheet. Select “Trust this computer for delegation to any service (Kerberos only)” and click OK.
  
-   Enable the Genus App Services setting “Authentication:ImpersonationEnabled” by adding the following to your appSettingsOverrides.config file:
+   * Enable the Genus App Services setting “Authentication:ImpersonationEnabled” by adding the following to your appSettingsOverrides.config file:
 
-´´´
-<add key="Authentication:ImpersonationEnabled" value="true"/>
-´´´
+     `<add key="Authentication:ImpersonationEnabled" value="true"/>`
  
-   Google Chrome and/or Chromium only: Enable the AuthNegotiateDelegateWhitelist setting (see https://dev.chromium.org/administrators/policy-list-3#AuthServerWhitelist):
-   * Alternative 1: Add one of the following registry entries, where “daserver” represents the URL’s fully quailfied hostname, a comma-separated list of multiple names, “*.mydomain.com”, or simply “*” (not recommended).
+   * Google Chrome and/or Chromium only: Enable the AuthNegotiateDelegateWhitelist setting (see https://dev.chromium.org/administrators/policy-list-3#AuthServerWhitelist):
+     * Alternative 1: Add one of the following registry entries, where “daserver” represents the URL’s fully quailfied hostname, a comma-separated list of multiple names, “*.mydomain.com”, or simply “*” (not recommended).
    
-   For Google Chrome:
+       * For Google Chrome:
 
-   ```
-   [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
-   "AuthNegotiateDelegateWhitelist"="daserver"
-   ```
+         ```
+         [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+         "AuthNegotiateDelegateWhitelist"="daserver"
+         ```
 
-   For Chromium:
+       * For Chromium:
 
-   ```
-   [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
-   "AuthNegotiateDelegateWhitelist"="daserver"
-   ```
+         ```
+         [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+         "AuthNegotiateDelegateWhitelist"="daserver"
+         ```
  
-   * Alternative 2: Use group policy, see https://dev.chromium.org/administrators/policy-list-3 for details.
+     * Alternative 2: Use group policy, see https://dev.chromium.org/administrators/policy-list-3 for details.
  
-   Firefox only:
+       * Firefox only:
 
-   * Configure the “network.negotiate-auth.delegation-uris” setting as described in
+         * Configure the “network.negotiate-auth.delegation-uris” setting as described in
 
-      “Configuring Firefox to use Kerberos for SSO” at https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/5/html/Deployment_Guide/sso-config-firefox.html, and
-      “Integrated Authentication “ at https://developer.mozilla.org/en-US/docs/Mozilla/Integrated_authentication
+           * “Configuring Firefox to use Kerberos for SSO” at https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/5/html/Deployment_Guide/sso-config-firefox.html, and
+           * “Integrated Authentication “ at https://developer.mozilla.org/en-US/docs/Mozilla/Integrated_authentication
 
 ## Minor new functionality
 
@@ -723,6 +713,7 @@ Based on the ISO 8601 standard the new "Iso8601DayOfWeek" function returns Monda
 The following object functions has been added to the Genus Application Framework Language:
  
 `hasModifyPermissions()`
+
 `hasDeletePermissions()`
  
 Can be used to check if a user has modify- or delete permissions to a given object. Returns TRUE if the user has the requested permissions.
