@@ -587,3 +587,7 @@
     href: release-notes/release-notes-2017.1.md
   - name: Release stages
     href: release-notes/release-stages.md
+  - name: Older
+    items:
+    - name: Version 2016.1
+      href: release-notes/older/release-notes-2016.1.md
