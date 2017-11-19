@@ -41,14 +41,17 @@ Irrespective of database vendor, there is no need to install any OLEDB Providers
 
   * Connector/Net version 6.4.4.
 
+
 * Oracle: The required Oracle Data Access Components version is ODAC 11.2 Release 5 (11.2.0.3.20).
 
   The following components must be installed for 64-bit versions of Windows Server:
   * Oracle Data Provider for .NET 4.0, version 11.2.0.3.20 (x64) Oracle.DataAccess.dll version 4.112.3.0
   * Oracle Data Provider for .NET 4.0, version 11.2.0.3.20 (x86) Oracle.DataAccess.dll version 4.112.3.0
-  
+
+
   The following component must be installed for 32-bit versions of Windows Server:
   * Oracle Data Provider for .NET 4.0, version 11.2.0.3.20 (x86) Oracle.DataAccess.dll version 4.112.3.0
+
 
 * Sybase: The following Sybase database client component must be installed:
   * Adaptive Server ADO.NET Data Provider for .NET Framework 4.0 - Sybase.AdoNet4.AseClient.dll, assembly version 4.157.401.0, file version 4.157.504.0 (Adaptive Server Enterprise 15.7 ESD#4)
@@ -490,15 +493,19 @@ Symptoms:
 Last time this error occurred was in 2008. Earlier years the error has occurred are 2002, 1991, 1985, 1980, 1974. The error may occur in e.g. analysis, saved searches, tables and action logic using date arithmetic (condition with time function).
  
 **#17151 Paste of lowercase text to a Convert to Uppercase property was not converted**
+
 In Genus Studio, on an Object Class Property, the Display tab, Case Conversion may be set to Convert to Uppercase. The error made it possible to save lowercase text.
  
 **#16689 Configuration of maximum buffer size was not taken into account for SOAP 1.1.**
+
 This restricted web services message sizes to the default maximum size of 64 Kbytes. The buffer size was taken into account for SOAP 1.2.
  
 **#18691 Ctrl + click on an email address in Genus Desktop crashed under certain circumstances**
+
 The ctrl + click crashed if user didn't have security access to run the associated Send task.
  
 **#17782 On Data Constraint Validation error messages are not user friendly**
+
 The messages are now logged instead of shown to the user. A more user friendly message is displayed.
  
 **#18274 Agents scheduled to run with Schedule Type equal to Once didn't run at all**
@@ -508,17 +515,21 @@ The messages are now logged instead of shown to the user. A more user friendly m
 **#17220 Plot diagram in Analysis displays wrong name on axis (X axis vs. Y axis)**
  
 **#17875 Error in validation of size of PNG files**
+
 Size of disk file was incorrectly used in the validation, and not the size of the file after loading into Genus. The validation is the built-in validation comparing the file size to the Data Size assigned in the General tab for an Object Class Property.
  
 **#17477 Genus Desktop becomes unresponsive after copying a picture three times**
  
 **#17479 Cannot generate PDF on 64 bit Windows server using Ghostscript 9.00**
+
 Seems like one must use 64-bit Ghostscript for 64-bit Windows and 32-bit Ghostscript for 32-bit Windows. Ghostscript filenames were changed from Ghostscript version 8.71 to 9.00, required a change in Genus Server.
  
 **#18576 SQL syntax error given a certain combination of union, sorting and cutting (Read the first objects) towards Oracle**
+
 The combination arose when introducing conditional security in a Read Objects effect with sorting and Read the first objects. The conditional security resulted in a union select with a syntax error.
  
 **#18567 Improved resilience in handling of Content-Type when interpreting WSDLs / XSDs**
+
 "Encoding" attributes on XML declaration nodes inside the XML data will now override "charset" given in "Content-Type" in the HTTP response.
  
 **#18378 Unable to specify Category and Tag in the analysis Open dialog**
@@ -526,15 +537,19 @@ The combination arose when introducing conditional security in a Read Objects ef
 **#17401 Size limitation of 32 Kbytes for texts in the Set a Field's Value effect**
  
 **#18823 On Data Constraint Validation exception not thrown for illegal integer values**
+
 Trying to convert e.g. "a300" to an integer will now throw such an exception.
  
 **#17308 Sums in analysis Y axis based on Values / Local filters are not shown**
+
 Internally corrected lack of aggregation of value sets with grouping on axis lacking resolution.
  
 **#17597 Removed duplicate Save as menu item in the Attachments right click menu**
+
 In some cases Save as was duplicated, and the behavior of the two differed.
  
 **#16723 Calculation of average in an analysis fails in some circumstances**
+
 Selecting on screen a set of data in an analysis will automatically calculate Average, Cell Count, Sum and Numerical Count and display these values in the status bar at the bottom of the analysis window. In some rare circumstances with a very low standard deviation the calculation would fail with a EDivByZero exception.
  
 **#18982 Run with Highest Privileges able to create objects without Create permission on Object Class**
@@ -546,35 +561,44 @@ Selecting on screen a set of data in an analysis will automatically calculate Av
 The On Before Validate rule is not triggered in Single Object Pages. The functionality is supported by Forms and since Forms is to replace SOPs, this error will not be corrected.
  
 **#18067 The Oracle data type ROWID is not supported**
+
 The Genus Server requires Oracle Data Provider for .NET, and this provider does not currently support this data type.
  
 **#18791 Known issues in our RTF / html editor**
+
 There exists several minor issues with our current editor, like:
 The Bold button is activated when typing bold text, but not the Italic and Underline buttons.
 Inserted pictures are automatically converted to the BMP file format without compression, which makes the RTF / html content demand a disproportionate hight amount of memory. We suggest avoiding including more than a few pictures, and reduce the size of the pictures before including them.
 We are not happy with the quality of the current editor, and as part of our Forms project (currently in Alpha), our existing RTF / html editor is going to be replaced by a new one (we are changing from one RTF/html editor component vendor to another). Therefore, the issues mentioned above will not be corrected in the current release. We are sorry for any inconvenience this may cause.
  
 **#17431 Reduced quality on images when printing from the Merge Data to a Document effect**
+
 Happens for transparent images, like transparent PNG images, due to an error in one of our component vendor modules. The workaround is to replace the transparent image part with e.g. white background, or use formats like JPG (or BMP).
  
 **#18794 Lack of logging of input data for web services calling a JSON endpoint**
+
 This is corrected in 2013.2, but not in 2013.1. Workaround for 2013.1 is to open Genus Server Configuration, Tools | Options | Logging and turn on Extended Logging.
 
 ## Tips and hints
 
 **#18011 The State and Next Run Time columns in the Agents Execution Monitor are not updated**
+
 The Execution Monitor (located in Genus Studio | Logic | Agents) is not updated immediately for these columns. This is by design, since the agents are scheduled and run asynchronously by one or more of your Genus Servers. The Execution Monitor will be updated as soon as one of your Genus Servers detects the change. You may refresh your Execution Monitor by pressing F5.
 
 **#16559 Slow updating of table for tasks deleting, changing and/or creating many table objects**
+
 Deletes, changes and/or creations are as default reflected in the table user interface one by one, which is time consuming if a task perform many such operations, like several hundreds. To avoid the problem, select Refresh table when the task has finished in the table setup, available from Table Description | Events | General.
  
 **#17296 Concurrency handling of documents stored as Image on SQL Server**
+
 Our general concurrency handling is value based, i.e. our transaction engine checks the similarity of pre and post values when updating. Since image fields not are comparable, you may introduce concurrency handling in your Application Model by adding a hidden GUID field that changes when the document is changed. (A related subject is the comparison of e.g. Image/varbinary fields on SQL Server - check out the use of hashbytes by doing an Internet search.)
  
 **#18021 Avoid doing comparisons between locale-dependent values and non-locale dependent ones**
+
 We have received reports of comparisons working correctly when run on Genus Desktop, but failing when run on the Genus Server. The situation arises due to different locale settings on your Genus Desktop and your Genus Server, which may be correct and also may change over time. Therefore, avoid such comparisons. Locale dependent values are translatable strings, formatted dates and numbers, etc.
  
 **#18938 Support for Ajax clients using "Application Request Routing" and "URL Rewrite"**
+
 Two common challenges often arise when writing JavaScript-based clients calling Genus-based web services over POX/JSON end points: cross-site scripting (XSS) limitations and browser interception of HTTP 401 authentication responses. Both challenges may be resolved using the Internet Information Services (IIS) extensions "Application Request Routing" and "URL Rewrite". The latest versions of these extensions may be installed using the Microsoft Web Platform Installer. If more details are needed regarding configuration, please contact our support (reference #18938). Selected partners may look up #18938 in our issue handling system Actio themselves.
 
 ## Change log

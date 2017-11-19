@@ -536,9 +536,9 @@ Symptom: You start composing a new e-mail message from a Microsoft Outlook windo
  
 Possible cause: Genus Desktop will wait a maximum of 10 seconds for the e-mail message to be delivered to the user’s Sent Items folder. If e-mail delivery is delayed beyond this limit Genus Desktop will stop waiting and never save a copy into the application’s e-mail archive.
  
-• Workaround, alternative 1: The system administrator may contact Genus Support to get a description on how to increase the default timeout. Timeouts for Outlook 2010 and Outlook 2013 may be configured independently.
+* Workaround, alternative 1: The system administrator may contact Genus Support to get a description on how to increase the default timeout. Timeouts for Outlook 2010 and Outlook 2013 may be configured independently.
  
-• Workaround, alternative 2: Drag and drop the e-mail from your Outlook Sent Items folder into your Genus application.
+* Workaround, alternative 2: Drag and drop the e-mail from your Outlook Sent Items folder into your Genus application.
  
 Scenario 2:
  
@@ -554,13 +554,13 @@ Symptom: You open an existing e-mail message from Genus Desktop, select Forward 
  
 Possible Cause 1: Genus Desktop will wait a maximum of 10 seconds for the e-mail to be delivered in the user’s Sent Items folder. If e-mail delivery is delayed beyond this limit Genus Desktop will not save a copy into the application’s e-mail archive.
  
-• Workaround, alternative 1: Leave the original e-mail window (the one from where you selected Reply or Forward) open. Genus Desktop will stop looking for e-mail messages appearing in the Sent Items folder 10 seconds after the original window is closed. Keep this window open until the sent e-mail message arrive in the application’s e-mail archive. Then close the window.
+* Workaround, alternative 1: Leave the original e-mail window (the one from where you selected Reply or Forward) open. Genus Desktop will stop looking for e-mail messages appearing in the Sent Items folder 10 seconds after the original window is closed. Keep this window open until the sent e-mail message arrive in the application’s e-mail archive. Then close the window.
  
-• Workaround, alternative 2: Drag and drop the missing e-mail message from the Microsoft Outlook Sent Items folder into your Genus application.
+* Workaround, alternative 2: Drag and drop the missing e-mail message from the Microsoft Outlook Sent Items folder into your Genus application.
  
 Possible Cause 2: Like Microsoft Outlook’s “Show as Conversations” view, Genus Desktop requires that the subject field in forwarded and replied e-mail messages is not edited by the user. If the subject field is has been changed Genus Desktop (and Microsoft Outlook) has no way of knowing that the two e-mail messages are part of the same conversation.
  
-• Workaround: Leave the subject field unchanged when forwarding or replying to an e-mail message.
+* Workaround: Leave the subject field unchanged when forwarding or replying to an e-mail message.
  
 **#21773 Attempt to run a data extract from a Web Service or Agent fails**
  
