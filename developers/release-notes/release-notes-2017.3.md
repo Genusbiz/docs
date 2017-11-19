@@ -214,5 +214,4 @@ There are no tips and hints specifically targeting this release.
 * 2017-06-19 Updated with latest release notes.
 * 2017-06-14 Changed stage from Release Candidate to Release (builds starting with 17.230).
 * 2017-06-08 Created.
-<!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
