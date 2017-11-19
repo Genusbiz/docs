@@ -439,7 +439,7 @@ Furthermore; Apps no longer supports en-GB, as this is not one of the supported 
 <!--ID 95ab51b5-b53e-489c-8d7e-0f0a40063fe2 -->
 **#22830 Unable to open form in Studio after adding summary fields to a group box control** (Studio)
 
-Occured if a summary field was bound to a field where the display name contained special characters such as as &aelig;, &oslash;, or &aring;.
+Occured if a summary field was bound to a field where the display name contained special characters such as as æ, ø, or å.
 
 <!--ID fdc42589-de88-4517-b967-e5391633ccdf -->
 **#22831 Slow performance when evaluating a refiner mapped to a 1:N property** (Desktop)
@@ -585,5 +585,4 @@ There are no tips and hints specifically targeting this release.
 * 2016-12-27 Changed status from Alpha to Beta.
 * 2016-12-20 Updated with latest Minor new functionality and Bug fixes.
 * 2016-12-06 Created (Alpha).
-<!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
