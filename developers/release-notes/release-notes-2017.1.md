@@ -585,6 +585,5 @@ There are no tips and hints specifically targeting this release.
 * 2016-12-27 Changed status from Alpha to Beta.
 * 2016-12-20 Updated with latest Minor new functionality and Bug fixes.
 * 2016-12-06 Created (Alpha).
-
 <!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
