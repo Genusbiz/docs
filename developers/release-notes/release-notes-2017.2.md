@@ -318,5 +318,4 @@ There are no tips and hints specifically targeting this release.
 * 2017-04-03 Updated with latest Minor new functionality and Bug fixes.
 * 2017-03-27 Changed status from Pre-Alpha to Alpha.
 * 2017-03-24 Created (Pre-Alpha).
-<!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
