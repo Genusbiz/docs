@@ -314,5 +314,4 @@ There are no tips and hints specifically targeting this release.
 * 2017-09-05 Changed stage from Alpha to Beta (builds starting with 17.240.85).
 * 2017-08-15 Updated with latest major and minor new functionalities, and bug fixes.
 * 2017-08-11 Created.
-<!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
