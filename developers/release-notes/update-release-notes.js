@@ -252,8 +252,8 @@ function breakOriginalMarkdownIntoSections(aRelease){
   var section = interpretSection(md,aRelease.name,"issues",end,"<!--rntype08-end","<!--rntype09-start");
   aRelease.originalSections.push(section);
 
-  // From end of ISSUES to start of CHANGELOG
-  var section = interpretSection(md,aRelease.name,"changelog",end,"<!--rntype09-end","<!--changelog-start");
+  // From end of ISSUES to CHANGELOG tag
+  var section = interpretSection(md,aRelease.name,"changelog",end,"<!--rntype09-end","<!--changelog");
   aRelease.originalSections.push(section);
 }
 
@@ -409,9 +409,17 @@ function createNewMarkdown(aRelease){
   aSection = aRelease.findSection("changelog");
   aRelease.newMarkdown += aSection.content;
 
-  // CHANGE LOG
-  aRelease.newMarkdown += "<!--changelog-start CHANGELOG." + startTagSuffix;
-  aRelease.newMarkdown += "<!--changelog-end   CHANGELOG." + endTagSuffix;
+  // CHANGE LOG (it is really just an end tag for the whole document).
+  aRelease.newMarkdown += "<!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->\n";
+
+  // Code norwegian letters as html codes, since they are converted automatically by GitHub,
+  // which results in a compare mismatch, when new markdown is compared with the old (from GitHub).
+  aRelease.newMarkdown = aRelease.newMarkdown.replace(/æ/g,"&aelig;")
+  aRelease.newMarkdown = aRelease.newMarkdown.replace(/ø/g,"&oslash;")
+  aRelease.newMarkdown = aRelease.newMarkdown.replace(/å/g,"&aring;")
+  aRelease.newMarkdown = aRelease.newMarkdown.replace(/Æ/g,"&Aelig;")
+  aRelease.newMarkdown = aRelease.newMarkdown.replace(/Ø/g,"&Oslash;")
+  aRelease.newMarkdown = aRelease.newMarkdown.replace(/Å/g,"&Aring;")
   
   //console.log(aRelease.newMarkdown + "\n-------------\n");
 }
