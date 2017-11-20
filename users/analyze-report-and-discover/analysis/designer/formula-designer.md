@@ -14,6 +14,7 @@ Upon click on any of the toolbar buttons, the corresponding formula node will be
 
 ### Expression Area
 The Expression Area contains a visible presentation of the formula's expression.  
+
 You can use the keyboard to select, move and delete nodes in the expression:
 * Add node - tap e.g. +, / or ( keys to add addition, division and groupStart nodes, respectively (see complete list below)
 * Select nodes - right/left arrow or tap the node. By holding the shift key you can select multiple nodes
@@ -29,6 +30,10 @@ Add node keyboard shortkeys:
 * "^" - exponentiation operator
 * "(" - groupStart without function
 * ")" - groupEnd
+
+#### Formula settings
+At the bottom left of the expression area, you can see a summary of formula settings (e.g. "Force calculation: OFF"). By clicking the settings icon you open a dialog where you can edit these settings. These settings are:
+* Force caulcation - By default, a formula will not be computed if all its variable operands (counts/field aggregates etc.) has no value. Enabling this will force the formula to always be calculated, ignoring this rule. This can be useful in a case of e.g. a formula taking the form of T-a, where "T" is a constant threshold value, and "a" is a variable that doesn't have a value for some grouping sets, but we still want the formula to be computed, i.e. resulting in T-0=T when a is missing.
 
 ### Parameter Pane
 The Parameter Pane lists the available parameters for your formula

@@ -96,7 +96,7 @@ The above formula consists of 7 nodes; a groupStart, "(", a constant operand, "2
 ### Operand node
 An operand node can be either of these:
 * a numeric constant
-* a [Value](#value) reference - upon calculation, it gets the actual data value of the referenced Value
+* a [Value](#value) reference - upon calculation, it gets the actual data value of the referenced Value - if no data was found it will resolve to zero (0) by default ("Zero if missing"). You can change this by clicking the edit icon or double clicking the node
 * an *If...then* statement, where a condition (comparing [Value](#value) references and/or constants) is tested. If the condition is true, it returns one Value or constant, else it return another Value or constant.
 
 ### Operator node
