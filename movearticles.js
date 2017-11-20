@@ -589,17 +589,3 @@ function copyFile(source,target){
         process.exit(1);
     }
 }
-
-// ------------------------------------------------------------
-function saveToFile(filename, content){
-    try {
-        if (fs.existsSync(filename)) {
-            fs.unlinkSync(filename);
-        }
-        fs.writeFileSync(filename,content);
-    }
-    catch (err) {
-        console.error(err);
-        process.exit(1);
-    }
-}
