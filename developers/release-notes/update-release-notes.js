@@ -204,7 +204,6 @@ function interpretSection(md,releaseName,sectionName,startPos,startTag,endTag) {
 
   var end = md.indexOf(endTag,start);
   if (end == -1) logAndExit(str,releaseName,sectionName);
-  //end--;
   var content = md.substring(start,end).trim()+"\n";
   //console.log("\n---------\n" + content);
   return new mdSection(sectionName,content,start,end);
