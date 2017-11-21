@@ -34,5 +34,6 @@ A node group is used for logical grouping of nodes. The nodes in a node group ca
 
 ## Typical scenarios
 
-* Dedicated nodes for different load - Use node groups to dedicate nodes for certain types of load to increase performance. For example use a group of nodes to only handle data mart requests. Or for example have two node groups which both handle agents, but one is used for agents which run heavy batch operations, while the other handle short lived operations.
-* Dedicate nodes for different data sets - Let the node group that handles web services contain several nodes, where each node is specified to only handle one data set.
+Dedicated nodes for different load - Use node groups to dedicate nodes for certain types of load to increase performance. For example use a group of nodes to only handle data mart requests. Or for example have two node groups which both handle agents, but one is used for agents which run heavy batch operations, while the other handle short lived operations.
+
+Dedicate nodes for different data sets - Let the node group that handles web services contain several nodes, where each node is specified to only handle one data set.
