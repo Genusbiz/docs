@@ -71,6 +71,7 @@ An *Action* can be attached to:
 Various [Visualizations](../visualizations.md) support different attachments of *Actions*.
 
 An *Action* is composed of a list of *Commands*. A *Command* can be of the following types:
+* Apply Filter
 * History Go Back
 * History Go Forward
 * Open a Form (desktop client)
