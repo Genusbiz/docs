@@ -237,6 +237,11 @@ See
 * https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
 * https://www.codeproject.com/Tips/721145/Beware-The-null-coalescing-operator-is-low-in-the
 
+<!--ID c01b3e0b-2d2c-4366-9f24-0af40797af1e -->
+**#22979 Improvements to drafting in repeating section** (Apps)
+
+When drafting objects in repeating section, it is now possible to draft in two dimensions - with master key field and with another context.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
