@@ -209,6 +209,11 @@ When creating a new Data Mart, Data Extract or Analysis from Studio in a solutio
 
 When using a table in a Form the table's distribute commands are available in the context menu. Now it is possible to add these commands in the Forms ribbon. The commands work as any other command and are only available when the table is the active control.
 
+<!--ID 16b75a52-cb45-4e02-b4b2-1d221bff224b -->
+**#22980 Enable table views for user defined actions** (Desktop)
+
+When defining Open Table actions in an analysis it is possible to select tables views with this option set. In version 2017.4 it was only possible to select a table, not witch view to open.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Bug fixes
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
