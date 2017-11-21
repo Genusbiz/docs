@@ -1,7 +1,6 @@
 # Getting started
 
-You need a [data mart](../data-marts/index.md) to create an analysis. It's from the data mart your analysis gets its data.  
-To create a data mart, see [Data mart - getting started](../data-marts/getting-started.md).  
+You need a [data mart](../data-marts/index.md) to create an analysis. It's from the data mart your analysis gets its data. To create a data mart, see [Data mart - getting started](../data-marts/getting-started.md).  
 
 If you are having trouble with your data mart, see [Data mart troubleshooting FAQ](../data-marts/data-mart-problemsolving-faq.md).
 
