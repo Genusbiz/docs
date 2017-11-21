@@ -7,7 +7,7 @@ To create a data mart:
 * Open the **Discovery portal** by clicking on **Discovery** in the bottom left menu
 * Click on **Data Marts** in the **Discovery** portal menu
 * Create a new data mart by clicking **New** in the toolbar, or by right-clicking in the list of data marts and clicking **New**.
-* Before the data mart can be used, it needs to be loaded. See [Data mart loading and scheduling](./data-mart-loading.md) for more information. **Note:** Data mart loading and scheduling needs to be configured in Genus Studio.
+* Before the data mart can be used, it needs to be loaded. See [Data mart loading and scheduling](./data-mart-loading.md) for more information.
 
 In order to access data inside the analysis you will also need to do the following inside the [Data-model view](./data-model.md) : 
 * Add data sources.
