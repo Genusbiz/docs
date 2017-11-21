@@ -4,9 +4,9 @@ Tasks defined within a data mart are local to the data mart, which means that th
 
 A task can only be activated if the user has the permissions to execute it, see [Security Permissions](../../../developers/defining-an-app-model/security/security-permissions.md) for more information.
 
-To add a task within the Data Mart.
+To add a task within the data mart.
 
 1.  In the **Data Mart Description** area, click **Tasks**.
-2.  In the Task Pane , click **Add**.
+2.  In the task pane , click **Add**.
 3.  For information on how to define a task, see [Tasks](../../../developers/defining-an-app-model/logic/tasks.md).
 
