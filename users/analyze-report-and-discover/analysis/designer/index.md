@@ -1,22 +1,22 @@
 # Design an Analysis
 
-To design an Analysis you will add [Tiles](../concepts/index.md#tile) to the current [View](../concepts/index.md#view). You do this by clicking the red circular plus button on the bottom right of the View.
+To design an Analysis you will add [Tiles](../concepts.md#tile) to the current [View](../concepts.md#view). You do this by clicking the red circular plus button on the bottom right of the View.
 
-In the [Tile](../concepts/index.md#tile) pane you can select the kind of [Visualization](../visualizations.md) you want for the [Tile](../concepts/index.md#tile).
+In the [Tile](../concepts.md#tile) pane you can select the kind of [Visualization](../visualizations.md) you want for the [Tile](../concepts.md#tile).
 
-The [Tile](../concepts/index.md#tile) pane contains configuration for the selected [Tile](../concepts/index.md#tile) . Different [Tiles](../concepts/index.md#tile)  use different configuration settings, although many are common.
-There are four sections on the [Tile](../concepts/index.md#tile) pane:
+The [Tile](../concepts.md#tile) pane contains configuration for the selected [Tile](../concepts.md#tile) . Different [Tiles](../concepts.md#tile)  use different configuration settings, although many are common.
+There are four sections on the [Tile](../concepts.md#tile) pane:
 * Visualization Selector
 * Data Selector
 * Formatting 
 * Actions
 
-Most *Visualizations* work by only specifying [Categories](../concepts/index.md#category) and/or [Values](../concepts/index.md#value) on the *Data Selector* tab.
+Most *Visualizations* work by only specifying [Categories](../concepts.md#category) and/or [Values](../concepts.md#value) on the *Data Selector* tab.
 
 Example:
-Assume there are two [Categories](../concepts/index.md#category) called "Customer" and "Invoice".
+Assume there are two [Categories](../concepts.md#category) called "Customer" and "Invoice".
 Assume an "Invoice" is connected to a "Customer", and that there is a field called "Amount" in an invoice.
-1. Click the red plus-button to add a [Tile](../concepts/index.md#tile)
+1. Click the red plus-button to add a [Tile](../concepts.md#tile)
 2. Click on "Bar Chart" on the **Visualization Selector**
 3. In the **Data Selector**, under **Primary Category**, select "Customer" in the **Data Source** dropdown
 4. In the **Data Selector**, under **Values**, expand the automatically added "Value1". If none was added, click on **Add Value**.

@@ -1,12 +1,12 @@
 # Analysis concepts
 
-An Analysis consists of one or more Views, and every View has a set of Tiles that displays data using one of many [Visualizations](../visualizations.md). These concepts, and other common Analysis concepts, are explained in this article.
+An Analysis consists of one or more Views, and every View has a set of Tiles that displays data using one of many [Visualizations](visualizations.md). These concepts, and other common Analysis concepts, are explained in this article.
 
 
 ## View
 An Analysis is composed of *Views*, and every View is composed of a set of Tiles.
 
-Only one View is visible in an Analysis at any time. By default, the [Default view](../designer/index.md#set-default-view) is shown when opening an Analysis. Other Views can be opened manually from the Toolbar (if enabled), or via an [Action](#action).  
+Only one View is visible in an Analysis at any time. By default, the [Default view](designer/index.md#set-default-view) is shown when opening an Analysis. Other Views can be opened manually from the Toolbar (if enabled), or via an [Action](#action).  
 
 A View can be formatted with a background.
 
@@ -14,7 +14,7 @@ A View can be formatted with a background.
 ## Tile
 A *Tile* is a layout item which has the following parts:
 * A *Header* area with a Title, Subtitle, and/or a Background. Note that the Header only is displayed if one or more of these are set.
-* A *Body* area with a [Visualization](../visualizations.md) displaying data.
+* A *Body* area with a [Visualization](visualizations.md) displaying data.
 * A *Footer* area with [Action](#action) buttons. Note that the footer is only displayed if there are any Action Buttons on the Tile.
 
 All of these can be formatted with e.g. backgrounds, font sizes, font colors etc.
@@ -24,12 +24,12 @@ Tiles can be maximized design time or runtime.
 
 
 ## Category
-A Tile can have zero or more *Categories*, and the number of allowed Categories are determined by the Tile's [Visualization](../visualizations.md).  
+A Tile can have zero or more *Categories*, and the number of allowed Categories are determined by the Tile's [Visualization](visualizations.md).  
 A Category is a data source binding, and it defined how the data displayed on the Tile should be grouped. 
 
 Examples:
-* In a [Table](../visualizations.md#table) with a single category, *Company*, each row of the Table will represent one Company.
-* In a [Bar Chart](../visualizations.md#bar-chart) with two categories, *Company* and *Year*, the bars will be grouped by both Company and Year.
+* In a [Table](visualizations.md#table) with a single category, *Company*, each row of the Table will represent one Company.
+* In a [Bar Chart](visualizations.md#bar-chart) with two categories, *Company* and *Year*, the bars will be grouped by both Company and Year.
 
 Visualizations that use Categories have different options for controlling them:
 
@@ -42,35 +42,35 @@ Visualizations that use Categories have different options for controlling them:
 
 
 ## Value
-A Tile can have zero or more *Values*, determined by the Tile's [Visualization](../visualizations.md).  
+A Tile can have zero or more *Values*, determined by the Tile's [Visualization](visualizations.md).  
 Values represents data, and they can be:
 * a count of objects in a data source
 * a field (or function) of an object in a data source
 * an aggregated numeric property of a set of objects
-* the result of a [Formula](../designer/formula-designer.md)
+* the result of a [Formula](designer/formula-designer.md)
 
-If the Tile has defined [Categories](#category), the Values are grouped by these Categories. E.g. for a [Table](../visualizations.md#table) with the Category *Company* and the Values *Name* and *Employees*, each row will represent a Company, with two columns - the name of the Company and the number of employees. 
+If the Tile has defined [Categories](#category), the Values are grouped by these Categories. E.g. for a [Table](visualizations.md#table) with the Category *Company* and the Values *Name* and *Employees*, each row will represent a Company, with two columns - the name of the Company and the number of employees. 
 
-*Values* can e.g. be pies in a [Pie Chart](../visualizations.md#pie-chart), bars in a [Bar Chart](../visualizations.md#bar-chart), or simply a numeric measure in a [Measure](../visualizations.md#bar-chart). I.e., it depends on the Visualization.  
-Some Visualizations use a different names for Values. E.g. a [Table](../visualizations.md#table) calls them *Columns*.  
+*Values* can e.g. be pies in a [Pie Chart](visualizations.md#pie-chart), bars in a [Bar Chart](visualizations.md#bar-chart), or simply a numeric measure in a [Measure](visualizations.md#bar-chart). I.e., it depends on the Visualization.  
+Some Visualizations use a different names for Values. E.g. a [Table](visualizations.md#table) calls them *Columns*.  
 Values can also be formatted, with a suffix, a number/date format, a conditional color/text/icon etc.
 
 ## Data types and aggregates
 Values can be numerics, strings, dates, etc.
-Only numeric *Values* can be aggregated. If a non-numeric field of an object is used in e.g. a [Measure](../visualizations.md#measure) it uses a *single-or-nothing* algorithm, meaning if there is a single qualified object in the data source of the value, then the data element of that object is used, otherwise nothing is used.
+Only numeric *Values* can be aggregated. If a non-numeric field of an object is used in e.g. a [Measure](visualizations.md#measure) it uses a *single-or-nothing* algorithm, meaning if there is a single qualified object in the data source of the value, then the data element of that object is used, otherwise nothing is used.
 
 
 ## Action
-An *Action* is a list of *Commands* that can be attached to various parts of a [Tile](#tile) or a [Visualization](../visualizations.md).
+An *Action* is a list of *Commands* that can be attached to various parts of a [Tile](#tile) or a [Visualization](visualizations.md).
 
 An *Action* can be attached to:
 * The header area of a Tile
 * The body area of a Tile
 * A button in the footer area of a Tile
-* The *Context Menu* that can be invoked when clicking on a part of a [Visualization](../visualizations.md) that represents an object in the data source of that [Category](#category).
-* A [Value](#value) in the [Visualization](../visualizations.md), e.g. a pie in a [Pie Chart](../visualizations.md#pie-chart)
+* The *Context Menu* that can be invoked when clicking on a part of a [Visualization](visualizations.md) that represents an object in the data source of that [Category](#category).
+* A [Value](#value) in the [Visualization](visualizations.md), e.g. a pie in a [Pie Chart](visualizations.md#pie-chart)
 
-Various [Visualizations](../visualizations.md) support different attachments of *Actions*.
+Various [Visualizations](visualizations.md) support different attachments of *Actions*.
 
 An *Action* is composed of a list of *Commands*. A *Command* can be of the following types:
 * Apply Filter
