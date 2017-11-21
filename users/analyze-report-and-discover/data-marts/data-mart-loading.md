@@ -1,8 +1,14 @@
 # Data mart loading and scheduling
 
-  **A data mart needs to be loaded before it is ready to provide data for analyses or data extracts. Loading a data mart may be a resource-intensive event, and should be planned accordingly. Data mart loading and scheduling are configured in Genus Studio.**
+A data mart needs to be loaded before it is ready to provide data for analyses or data extracts. Loading a data mart may be a resource-intensive event, and should be planned accordingly.
 
-Some data marts provides large amounts of relatively static data, while other use cases may require frequently updated data. These are some considerations that must be made when developing a load strategy for a data mart:
+Data mart loading and scheduling are configured in Genus Studio.
+
+**Note:** Data marts are always loaded in their entirety on the server(s) (nodes) they run on. Make sure the sum of the sizes of all your data marts (located on one server / node) is less than the server's physical memory and that it is still room for other processes, like the operating system and other Genus Services, to run. Since data marts are loaded in a compressed manner, the actual size used can be hard do calculate. We therefore recommend testing your servers capabilities by starting with smaller data marts and increasing their size gradually.
+
+## Load strategy considerations
+
+Some data marts provides large amounts of relatively static data, while other use cases may require frequently updated data. These are some considerations that must be made when deciding a load strategy for a data mart:
 
 *   **Freshness**: Is it really necessary to have a near-realtime view of the data?
 *   **Loading time**: Longer loading times may require more infrequent loading.
@@ -42,8 +48,8 @@ Smaller data marts may be set up to reload more frequently, offering a fresh vie
 
 ## Load options
 
-*   **Load Parallel**: Reloading a data mart in parallel lets the new instance load while the old instance continues to run. After the new instance has finished loading, the system will route all later requests to it. The old instance will be taken down and destroyed. The upside to this strategy is obviously that the data mart will be continously accessible. The downside is that you require more resources on your server to be able to spin up 2 instances at the same time. If parallel loading is disabled, the data mart will be unavailable while the new instance is loading.
+**Load Parallel**: Reloading a data mart in parallel lets the new instance load while the old instance continues to run. After the new instance has finished loading, the system will route all later requests to it. The old instance will be taken down and destroyed. The upside to this strategy is obviously that the data mart will be continously accessible. The downside is that you require more resources on your server to be able to spin up 2 instances at the same time. If parallel loading is disabled, the data mart will be unavailable while the new instance is loading.
 
-*   **Auto Load**: Loads a new instance of the data mart if it is not already running. The mart will start to load at any time of the day, regardless of schedule settings.
+**Auto Load**: Loads a new instance of the data mart if it is not already running. The mart will start to load at any time of the day, regardless of schedule settings.
 
-*   **Enabled**: Enables or disables loading of the data mart entirely.
+**Enabled**: Enables or disables loading of the data mart entirely.
