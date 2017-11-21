@@ -5,9 +5,6 @@
 
 The data-model view shows a visual diagram of the data sources, properties and connections added to the data mart. The data-model view helps improve the understanding of the data mart model while it is being built, and the diagram is also available in [Analyses](../analysis.md) and [Data Extracts](../data-extract.md) to provide information on the content of the data mart.
 
-For more information on the features of the data-model view, see the articles below.
-
-
 ## Add a data source
 
 To add a data source in the data-model view, do the following:
@@ -15,7 +12,7 @@ To add a data source in the data-model view, do the following:
 *   Right click in the diagram.
 *   In the menu, click **New**, and then select **Data Source**.
 *   In the **Select Data Source Type** window, select **Object**, and click **OK**.
-*   In the list, select one or more Object Classes, and then click **OK**.
+*   In the list, select one or more object classes, and then click **OK**.
 
 A data source added this way has no fields published, and no connections to other data sources. 
 
@@ -69,4 +66,4 @@ The connections must be unambiguous, which means that there cannot be connection
 
 The fact that connections are used to propagate selections, can sometimes lead to undesired effects. For example, consider a case where the *Month* data source is connected to both *Invoice.DueDate* and *Sales.Date*. When a month is selected, the invoices that are due that month are qualified, and the sales transactions performed that month are qualified. Unfortunately sales performed at the end of one month will often be invoiced with a due date the month after, which can lead to inconsistent data.
 
-This is fortunately easily solved, by adding the month data source twice, and connecting them to one of the other data sources each. This way a selection of an invoice due month will not affect the sales month, and vice versa. Remember to rename the data sources to ensure unambiguous names and avoid misunderstandings.
+This is easily solved by adding the month data source twice, and connecting them to one of the other data sources each. This way a selection of an invoice due month will not affect the sales month, and vice versa. Remember to rename the data sources to ensure unambiguous names and avoid misunderstandings.
