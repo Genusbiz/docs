@@ -4,7 +4,7 @@ A data mart needs to be loaded before it is ready to provide data for analyses o
 
 Data mart loading and scheduling are configured in Genus Studio.
 
-**Note:** Data marts are always loaded in their entirety on the server(s) (nodes) they run on. Make sure the sum of the sizes of all your data marts (located on one server / node) is less than the server's physical memory and that it is still room for other processes, like the operating system and other Genus Services, to run. Since data marts are loaded in a compressed manner, the actual size used can be hard do calculate. We therefore recommend testing your servers capabilities by starting with smaller data marts and increasing their size gradually.
+**Note:** Data marts are always loaded in their entirety on the server(s) (nodes) they run on. Make sure the sum of the sizes of all your data marts (located on one server / node) is less than the server's physical memory and that it is still room for other processes, like the operating system and other Genus Services, to run. Since data marts are loaded in a compressed manner, the actual size used can be hard to calculate. We therefore recommend testing your servers capabilities by starting with smaller data marts and increasing their size gradually.
 
 ## Load strategy considerations
 
