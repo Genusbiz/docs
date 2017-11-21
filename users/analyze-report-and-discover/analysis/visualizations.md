@@ -277,8 +277,6 @@ A *Sunburst chart* presents multiple categories and single value in a multilayer
 Each category added represents a new layer of depth in the chart and the size of a slice is determined by the value.
 It is used to represent hierarchical data.
 
-Supports selection
-
 ## Speedometer gauge
 A *speedometer gauge* displays a value in a speedometer gauge. 
 The first value is the value to be displayed. 
