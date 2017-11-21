@@ -5,4 +5,4 @@ author: asbjorne
 ---
 # Services
 
-_The contents is under constructions. We are sorry for the inconvenience._
+_The content is under construction. We are sorry for the inconvenience._
