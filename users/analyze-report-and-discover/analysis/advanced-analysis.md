@@ -1,4 +1,4 @@
-# Advanced Analysis
+# Advanced analysis
 
 When a user selects items of interest in an analysis, it will provide feedback based on what is currently selected. All elements in the analysis are immediately updated based on which items in the underlying data mart are now relevant. All aggregated information like measures and charts are updated, lists display wich items are relevant and which are excluded, and so on. 
 
@@ -6,7 +6,7 @@ In this article, <span style="FONT-STYLE: italic">List</span> is used as a commo
 
 
 
-## Selected, Qualified, and Excluded Items <a name="selected-qualified-and-excluded-items"/>
+## Selected, qualified, and excluded items
 
 An analysis gives feedback based on the items that are selected at any given time, if any. An item may be selected, qualified, or excluded. 
 
@@ -14,13 +14,8 @@ An analysis gives feedback based on the items that are selected at any given tim
 *   **Qualified**: An item is qualified if no selections has been made, or if it has a connection to an item that has been selected. The connection path between two items may go through one ore more intermediary items, as defined by the data mart. Items that are qualified are included in aggregations and calculations, and can be selected to further specify the subset. 
 *   **Excluded**: Items are excluded if they have no connection to a selected item. Excluded items has a different background color than selected or qualified items.
 
+## Selecting items
 
-
-## Selecting and deselecting items
-
-There are several ways to change the selections in an analysis. 
-
-**Select Items**  
 To select a single item in a list , click on it.
 
 To select several items in a list, press and hold the CTRL key, then click the items, and then release the CTRL key. To select a sequence of items in a list, press and hold the SHIFT key, click the first item in the sequence, then click the last item in the sequence, and then release the SHIFT key.  
@@ -31,7 +26,8 @@ To add items to an existing selection in a list, press and hold the **CTRL** key
 
 In a list, it is sometimes possible to select items that are already excluded. When selecting an item that is excluded, it is no longer meaningful to maintain the existing selections, as this would exclude all items. Therefore when an excluded item is selected, all other selections are automatically cleared.
 
-**Deselect Items**  
+## Deselecting items
+
 To deselect an item in a list, when it is the only selected item in the list, click the item.
 
 To remove items from an existing selection in a list, press and hold the **CTRL** key, click the selected items to remove, and then release the **CTRL** key, or right click a selected item to remove, and select **Remove from Selection** in the shortcut menu.
@@ -40,7 +36,7 @@ It is only possible to deselect an item in a chart, when it is the only selected
 
 ## Using the Selection menu
 
-Each tile has a Selection menu that may be accessed by clicking the hand-icon in the upper right corner of the tile.
+Each tile has a selection menu that may be accessed by clicking the hand-icon in the upper right corner of the tile.
 
 **Add All Items**
 

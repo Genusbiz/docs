@@ -1,4 +1,4 @@
-# Getting started
+# Getting started with analysis
 
 You need a [data mart](../data-marts/index.md) to create an analysis. It's from the data mart your analysis gets its data. To create a data mart, see [Data mart - getting started](../data-marts/getting-started.md).  
 

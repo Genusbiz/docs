@@ -1,4 +1,4 @@
-# Getting started
+# Getting started with data marts
 
 The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. 
 
@@ -16,8 +16,8 @@ In order to access data inside the analysis you will also need to do the followi
     - In the **Select Data Source Type window**, select **Object**, and click **OK**.
     - In the list, select one or more **Object Classes**, and then click **OK**.
 * Publish fields for the data sources.
-    - In the view select one data source, and then in the **Properties** area locate the **Published Fields** property, and click [...] OR
-    - Right click the data source to change, and select **Published Fields**.
+    - In the view select one data source, and then in the **Properties** area locate the **Published Fields** property, and click [...]
+    - Or, Right click the data source to change, and select **Published Fields**.
 * Define connections between data sources.
     - It is possible to add data sources based on both outbound and inbound connections. See [Data-model view](./data-model.md#add-a-data-source) for more information
 * Add any local fields or data sources to enrich the data mart.
