@@ -1,13 +1,10 @@
-# Data-model view
+# Data view
 
-> [!NOTE]
-> This view is named **Data View** in the data mart editor for the time being. This will be changed in the future.
-
-The data-model view shows a visual diagram of the data sources, properties and connections added to the data mart. The data-model view helps improve the understanding of the data mart model while it is being built, and the diagram is also available in [Analyses](../analysis.md) and [Data Extracts](../data-extract.md) to provide information on the content of the data mart.
+The data view shows a visual diagram of the data sources, properties and connections added to the data mart. The data view helps improve the understanding of the data mart model while it is being built, and the diagram is also available in [Analyses](../analysis.md) and [Data Extracts](../data-extract.md) to provide information on the content of the data mart.
 
 ## Add a data source
 
-To add a data source in the data-model view, do the following:
+To add a data source in the data view, do the following:
 
 *   Right click in the diagram.
 *   In the menu, click **New**, and then select **Data Source**.
@@ -16,7 +13,7 @@ To add a data source in the data-model view, do the following:
 
 A data source added this way has no fields published, and no connections to other data sources. 
 
-In the data-model view it is also possible to add data sources based on their connection to an existing data source. This is useful and efficient when creating the data mart since it is very easy to see the available connections and add relevant data sources. It is possible to add data sources based on both outbound and inbound connections.
+In the data view it is also possible to add data sources based on their connection to an existing data source. This is useful and efficient when creating the data mart since it is very easy to see the available connections and add relevant data sources. It is possible to add data sources based on both outbound and inbound connections.
 
 To add new data sources based on connections to an existing data source, do the following:
 

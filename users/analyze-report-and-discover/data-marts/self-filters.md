@@ -5,7 +5,7 @@ Some analyses may only be meaningful when filtered on the current users identity
 
 ## Understanding self and self filters
 
-Self is a representation of the currently logged in user. To use self filtering, a data source with the self data type needs to be included in the data mart. Add this data source as described in [Data-model view](data-model.md), if necessary. All data sources needed for the self connections needs to be added in the **Data-model**-view.
+Self is a representation of the currently logged in user. To use self filtering, a data source with the self data type needs to be included in the data mart. Add this data source as described in [Data-model view](data-view.md), if necessary. All data sources needed for the self connections needs to be added in the **Data-model**-view.
 
 Self connections and filters are managed in the **Self-filter**-view. You can add data sources to this view from the data sources already added to the data model. Adding data sources to this view is similar to adding datasources to the **Data-model**. Right-click in the view and click **Insert -> Data Sources...**. Add the data source representing the logged in user, and check the option **Use as self**. 
 

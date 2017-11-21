@@ -150,12 +150,16 @@
       href: analyze-report-and-discover/data-marts/getting-started.md
     - name: Concepts
       href: analyze-report-and-discover/data-marts/data-mart-concepts.md
-    - name: Data model (data view)
-      href: analyze-report-and-discover/data-marts/data-model.md
-    - name: Tasks
-      href: analyze-report-and-discover/data-marts/tasks.md
+    - name: Data view
+      href: analyze-report-and-discover/data-marts/data-view.md
+    - name: Subsets
+      href: analyze-report-and-discover/data-marts/subsets.md
+    - name: Calculated fields
+      href: analyze-report-and-discover/data-marts/calculated-fields.md
     - name: Self filter
       href: analyze-report-and-discover/data-marts/self-filters.md
+    - name: Tasks
+      href: analyze-report-and-discover/data-marts/tasks.md
     - name: Loading and scheduling
       href: analyze-report-and-discover/data-marts/data-mart-loading.md
     - name: Problem solving

@@ -9,7 +9,7 @@ To create a data mart:
 * Create a new data mart by clicking **New** in the toolbar, or by right-clicking in the list of data marts and clicking **New**.
 * Before the data mart can be used, it needs to be loaded. See [Data mart loading and scheduling](./data-mart-loading.md) for more information.
 
-In order to access data inside the analysis you will also need to do the following inside the [Data-model view](./data-model.md) : 
+In order to access data inside the analysis you will also need to do the following inside the [Data-model view](data-view.md) : 
 * Add data sources.
     - Right click in the view.
     - In the menu, click **New**, and then select **Data Source**.
@@ -19,7 +19,7 @@ In order to access data inside the analysis you will also need to do the followi
     - In the view select one data source, and then in the **Properties** area locate the **Published Fields** property, and click [...]
     - Or, Right click the data source to change, and select **Published Fields**.
 * Define connections between data sources.
-    - It is possible to add data sources based on both outbound and inbound connections. See [Data-model view](./data-model.md#add-a-data-source) for more information
+    - It is possible to add data sources based on both outbound and inbound connections. See [Data-model view](data-view.md#add-a-data-source) for more information
 * Add any local fields or data sources to enrich the data mart.
 
 See [Data mart concepts](./data-mart-concepts.md) for more information.
