@@ -1,6 +1,6 @@
 # Data mart loading and scheduling
 
-  **A data mart needs to be loaded before it is ready to provide data for analyses or data extracts. Loading a data mart may be a resource-intensive event, and should be planned accordingly.**
+  **A data mart needs to be loaded before it is ready to provide data for analyses or data extracts. Loading a data mart may be a resource-intensive event, and should be planned accordingly. Data mart loading and scheduling are configured in Genus Studio.**
 
 Some data marts provides large amounts of relatively static data, while other use cases may require frequently updated data. These are some considerations that must be made when developing a load strategy for a data mart:
 
