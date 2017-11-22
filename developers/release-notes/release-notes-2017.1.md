@@ -25,7 +25,7 @@ For general information about installing and upgrading Genus Apps, see [here](..
 See also the following notes.
 
 <!--ID c33176d2-dcd7-44b2-a949-7301cfc335a5 -->
-**#22805 Can now specify domain when installing Genus Apps.** (Apps)
+**#22805 Can now specify domain when installing Genus Apps.** (Web)
 
 If a domain is requried to log into Genus Apps, ie EXTERNAL/username, this can now be specified when installing Genus Apps, so users don't have to do it.
 
@@ -53,7 +53,7 @@ The Form command type "Open HTML/ Rich Text Editor" has been removed.
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 3b2dcf9d-338e-40b7-b0d9-adf9cbaeabaa -->
-**#22814 Internet Explorer support schedule** (Apps)
+**#22814 Internet Explorer support schedule** (Web)
 
 Our system requirements for Genus Apps have been updated as follows:
 
@@ -95,7 +95,7 @@ Pdf-generation is now based on the Pdf- and Xps-support built into Windows. In W
 Note that the removal of support for third-party providers does not affect Pdf-generation when creating files in mail merge from a task or agent, as this is performed by the actual component that performs the merge operation.
 
 <!--ID a80de157-484c-4562-9c54-d2c280d5c4e4 -->
-**#22780 A form is now divided into App and Desktop** (Apps;Desktop;Studio)
+**#22780 A form is now divided into App and Desktop** (Desktop;Studio;Web)
 
 In practice, Apps and Desktop views were never created and maintained in the same Form by our customers. If a form with different kind of views exist (for test purposes or likewise), the conversion will notify the developer and set the form as a desktop form.
 
@@ -105,7 +105,7 @@ In practice, Apps and Desktop views were never created and maintained in the sam
 An Agent needs a Node Group to run on the server.
 
 <!--ID 50484397-80fc-4b75-a2e2-cd0e29d0fbb1 -->
-**#22819 No longer sets focus on first input element automatically when opening view** (Apps)
+**#22819 No longer sets focus on first input element automatically when opening view** (Web)
 
 This can be done with modelling instead, using set Focus command from On Open View.
 
@@ -117,7 +117,7 @@ Existing Html and Rich Edit controls were previously always read-only as editing
 Remove any usage of the "Open HTML/ Rich Text Editor". Affected Forms is identified by script [017.100.014.001]
 
 <!--ID 62f460af-f9d8-4508-9db9-9356f32839a5 -->
-**#22846 Multiple apply changes is no longer allowed** (Apps)
+**#22846 Multiple apply changes is no longer allowed** (Web)
 
 Running apply changes while another apply changes request is ongoing will result in the second request to throw a command exception.
 
@@ -153,7 +153,7 @@ Shortcuts
 When Genus Desktop or application server effects are sending object shortcuts by mail the Genus Directory Internet Host Name will always be used as host in the URLs created.
 
 <!--ID 5f7deb97-8c9c-48c5-ae46-719bc6c28f53 -->
-**#22866 Changes in the data binding setup for "Set a Fields Value"-command (App Forms)** (Apps)
+**#22866 Changes in the data binding setup for "Set a Fields Value"-command (App Forms)** (Web)
 
 If a "Set a Fields Value"-command is associated with a control within a group which repeats content, the following rules apply when the command is bound to the data source which is repeated:
 
@@ -166,7 +166,7 @@ Existing commands are automatically updated according to these rules.
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID b535e2c1-6ead-495b-8652-fb9cb425bee4 -->
-**#22834 Genus Discovery enhancements** (Apps;Desktop)
+**#22834 Genus Discovery enhancements** (Desktop;Web)
 
 The following Genus Discovery enhancements will be introduced in a beta version, restricted to selected partner projects:
 - New Analysis Designer in Genus Desktop.
@@ -190,20 +190,20 @@ The new mapping mechanism is currently available in the REST Method editor for i
 Tasks published to the Run-verb in a publication are now available in Ribbon when viewing objects in a Object Class View
 
 <!--ID 14038402-ff34-4239-afb2-555e9f0970fd -->
-**#22767 Now shows a placeholder while waiting for candidates for radio button groups.** (Apps)
+**#22767 Now shows a placeholder while waiting for candidates for radio button groups.** (Web)
 
 <!--ID c01d8a15-d1ac-4584-b15b-47256d37c498 -->
-**#22774 Min and Max CalendarTime functions added to Genus App Platform Advanced Expressions** (Apps;Desktop;Services;Studio)
+**#22774 Min and Max CalendarTime functions added to Genus App Platform Advanced Expressions** (Desktop;Services;Studio;Web)
 
 Returns the smallest or largest calendar time value in a collection of values.
 
 <!--ID f88ca877-5feb-485c-aed1-cdd3292a4813 -->
-**#22777 Database statistics optimization** (Apps;Desktop;Services)
+**#22777 Database statistics optimization** (Desktop;Services;Web)
 
 Genus App Platform now utilize database statistics for optimizing database queries. However, the process of loading the table and column statistics from the database may take some time. To alleviate this the database statistics will be cached to file both on the client side (Genus Desktop) and the server side (Genus App Services, also when serving Genus Apps clients). Genus App Services will regularily query the database for statistics in the background and update the data in a cache file on the server. A Genus Desktop client that does not find database statistics for a database table (invalidated after 7 days) in the local cache file will ask Genus App Services for updated statistics for the database table. To further optimize Genus App Services will even cache the response returned to the clients so that they may be reused by later queries.
 
 <!--ID de820479-d4a2-4531-adbe-3619a606715a -->
-**#22779 Automatic error reporting can be toggled on or off** (Apps;Services)
+**#22779 Automatic error reporting can be toggled on or off** (Services;Web)
 
 Automatic error reporting to Sentry can now be turned off in the Genus Configuration Tool. It is enabled by default.
 
@@ -215,12 +215,12 @@ The toggle can be found under Tools -> Options -> App -> Enable automatic crash 
 In earlier versions images saved inline in the Html would not appear correctly in a email body. This is now handled so the images should appear correctly in the email.
 
 <!--ID ef2fd84f-e774-4062-9ace-9f9b40b9cf3a -->
-**#22784 Symbol Library has been updated** (Apps;Desktop;Studio)
+**#22784 Symbol Library has been updated** (Desktop;Studio;Web)
 
 Symbols marked as deprecated in the previous release (2016.1) has been removed from the symbol library.
 
 <!--ID 0b31a304-6de7-4ea4-a5c3-6f1278893165 -->
-**#22789 Genus can now recieve files shared from other applications** (Apps)
+**#22789 Genus can now recieve files shared from other applications** (Web)
 
 Files shared from other applications using the built in Share functionality in Android, can now be uploaded from the Genus App.
 
@@ -267,17 +267,17 @@ Actions:
 The created object is not committed by Task 2, but appended to All Transactions which is committed by the scope defined in Task 1.
 
 <!--ID d29ad9b5-4469-4b43-935c-cfa8a75bd87e -->
-**#22806 Datepicker on web with mobile device** (Apps)
+**#22806 Datepicker on web with mobile device** (Web)
 
 When using the datepicker on web with a mobile device, it will now use the device's own date picker, instead of the jquery date picker.
 
 <!--ID 975068b0-5c44-460e-ac38-bcb75fd74d94 -->
-**#22811 Combobox candidates read optimization** (Apps)
+**#22811 Combobox candidates read optimization** (Web)
 
 Candidates for comboboxes are now only read when the combobox is writeable, enabled and visible.
 
 <!--ID 638a27f4-2e7a-419f-a7b5-06edbe2522f5 -->
-**#22812 Add to Home screen is now supported on iOS and Android** (Apps)
+**#22812 Add to Home screen is now supported on iOS and Android** (Web)
 
 Users can now use the Add to Home screen-option when visiting a Genus Apps website to add a shortcut to their home screen, which will launch the website looking like an app, meaning there is no adress bar, it appears in the app switcher and Genus icon on the home screen.
 
@@ -288,16 +288,16 @@ For iOS:
 Unfortunately, native web apps added to the home screen will reload every time it is reopened. This means that the user will be returned to the log in screen every time the app is put in the background and reopened.
 
 <!--ID 5fe39a3e-51de-4dcd-aa00-2eaace9501a9 -->
-**#22820 App list now scales and disables zoom when viewing a website from a phone** (Apps)
+**#22820 App list now scales and disables zoom when viewing a website from a phone** (Web)
 
 <!--ID b1db8b0a-accf-4cea-b743-416392bba0a4 -->
-**#22823 Added option to link to a help document from the sign in page** (Apps)
+**#22823 Added option to link to a help document from the sign in page** (Web)
 
 <!--ID b3a20aa2-88fa-4feb-a9ee-9ab41181ed35 -->
-**#22824 Added option to use external reset password functionality, and allows reset password for AD** (Apps)
+**#22824 Added option to use external reset password functionality, and allows reset password for AD** (Web)
 
 <!--ID fa8182cc-7c12-451a-840e-009216e81524 -->
-**#22826 Optimized loading of candidates for controls in repeating sections** (Apps)
+**#22826 Optimized loading of candidates for controls in repeating sections** (Web)
 
 If a control in a repeating section will have the same candidates for every instance of the repeated section, it will now only read the candidates one time, instead of for every element.
 
@@ -347,31 +347,31 @@ Common text editing tools are provided through the ribbon bar. The external edit
 The Markdown Viewer provides capability to render and display markdown text inside a Form.  The viewer supports 'basic' markdown syntax as specified in the CommonMark Spec.
 
 <!--ID 16f0150a-ffbf-4279-b117-7ce485507241 -->
-**#22845 Authentication with multiple Active Directory domains** (Apps;Desktop;Services;Studio)
+**#22845 Authentication with multiple Active Directory domains** (Desktop;Services;Studio;Web)
 
 Genus App Services now offers authentication against multiple Active Directory domains simultaneously. Please make sure that your application server(s) is granted the necessary privileges to access the required domain controllers. You need to use a unique account identifier across your domains, so unless you can guarantee that sAMAccountName is unique across your domains, you should opt for objectGUID or objectSID as your account identifier.
 
 <!--ID 7407f7a3-4409-43be-8f2e-1812f941f8a7 -->
-**#22847 Reintroduced UTF8 encoding without BOM in the Export Data effect** (Apps;Desktop;Services)
+**#22847 Reintroduced UTF8 encoding without BOM in the Export Data effect** (Desktop;Services;Web)
 
 Support for UTF8 without BOM removed in version 2016.1.
 
 <!--ID 464ece8e-478f-46f9-80db-d9b3d5a1a3f2 -->
-**#22848 Implemented support for Roboto and Source Sans Pro font types in Genus Apps** (Apps)
+**#22848 Implemented support for Roboto and Source Sans Pro font types in Genus Apps** (Web)
 
 <!--ID f4e01d5c-32c1-4c44-973f-841923b1745c -->
 **#22853 More input formats allowed when entering time of day in Forms and Table** (Desktop)
 
 <!--ID 055c935d-b0d5-4766-8ec2-61b2849d1df7 -->
-**#22856 Added support for Google Analytics** (Apps)
+**#22856 Added support for Google Analytics** (Web)
 
 Genus Apps for Web can now report page hits and events to Google Analytics given a Google Analytics Tracking ID
 
 <!--ID 94d390bd-af59-4828-b75c-c612658b0ff7 -->
-**#22857 Added option to set language for a solution as a parameter in the link** (Apps)
+**#22857 Added option to set language for a solution as a parameter in the link** (Web)
 
 <!--ID 0d9d2e0d-1449-4cc8-850f-d61cedb66a81 -->
-**#22859 Allowed zooming in web apps on phones** (Apps)
+**#22859 Allowed zooming in web apps on phones** (Web)
 
 It is now possible to zoom in views that are made specifically for web on phone.
 
@@ -389,15 +389,15 @@ Applicable when importing text files. Available encodings: ANSI, UTF-8 and Unico
 The On Before Active Object Change event is implemented on Desktop. This even ocurres before a new selection is set.
 
 <!--ID 2844d791-bf06-46d0-99f9-0f566a919c92 -->
-**#22864 On Close Event** (Apps;Desktop)
+**#22864 On Close Event** (Desktop;Web)
 
 A new event, On Close, is implementet on Desktop and Apps. On Desktop this event is triggered before the Form is Closed. On Apps this event is connected to a View and will trigger when the connected view is closed. To implement the event when the app is Closed, connect the event to the default view
 
 <!--ID d1341268-ad57-4388-a4a7-b197fcb91539 -->
-**#22867 Users can now abort file upload at select source screen in apps.** (Apps)
+**#22867 Users can now abort file upload at select source screen in apps.** (Web)
 
 <!--ID c1fcf68e-2f64-431c-b80a-bf11151a1ae3 -->
-**#22884 Modify a User Account effect: Confirm old password** (Apps)
+**#22884 Modify a User Account effect: Confirm old password** (Web)
 
 Added optional field for assigning old password when a new password is set. The old password is verified against the stored password before a new password is set. If the old password does not match, the effect fails with exception "On Modify User Account Error".
 
@@ -413,7 +413,7 @@ This means that it is possible to search for stuff like C# C++, etc.
 ## Bug fixes
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 527e2eaa-936d-405c-a382-c1b02b295a9e -->
-**#22755 Zooming on websites on a phone** (Apps)
+**#22755 Zooming on websites on a phone** (Web)
 
 When using a Genus web solution on a phone, opening an app that is web-desktop compatible (Form factor), will now enable zooming. If you change to an app that is not compatible with web-desktop, zooming will be disabled and locked. Changing back and forth now works correctly.
 
@@ -430,7 +430,7 @@ Occurs if automatic refresh is turned on in a table or form opened from the navi
 This behaviour was caused by the built in feature which hibernated the entry after 30 minutes of inactivity.
 
 <!--ID c1574881-87f8-4923-b379-c579a926ccf1 -->
-**#22828 There was lacking support for several languages in Apps** (Apps)
+**#22828 There was lacking support for several languages in Apps** (Web)
 
 Apps would only support a few cultures (nb-NO, nn-NO and en-GB). All 14 cultures supported by Services is now also supported by Apps. 
 
@@ -467,7 +467,7 @@ The Open View Command now reads the button's settings on the view. Previously th
 **#22850 Fixed problem saving Reports with summary to Pdf.** (Desktop;Services)
 
 <!--ID f14a4188-bed3-41ad-9e0a-80a7cd27cacf -->
-**#22852 Mail messages exported to file is marked as "Draft"** (Apps;Desktop)
+**#22852 Mail messages exported to file is marked as "Draft"** (Desktop;Web)
 
 Exporting a sent mail message to an msg-file using the "Export Data" effect marks the exported message as a draft. That is, if the message is opened in Outlook, it is not possible to reply or forward the message.
 
@@ -479,7 +479,7 @@ If you experience this problem with stored data in your application, e.g. that a
 Import the message from the file data property into a data source of type "Mail Message" ("Import Data" effect). If you have stored a sent date in your object, modify the sent date on the mail message object to this date ("Modify Object" effect). Export the mail message object to an msg-file ("Export Data" effect). Import this file back into your mail message data source ("Import Data" effect). Set the file data property in your object equal to the "File.Data" property for the mail message object ("Modify Object" effect). Commit the changes.
 
 <!--ID 987f04fa-dcb2-466a-9fe0-d32bd7ac2f0e -->
-**#22854 Improved navigation with arrows and tab** (Apps)
+**#22854 Improved navigation with arrows and tab** (Web)
 
 You will no longer lose focus when navigating with arrows or tab through radio button groups or input elements that needs evaluation
 
@@ -497,7 +497,7 @@ Genus Studio shows a message when a new version of Genus Aps is installed and th
 Because of a bug in the export to excel large reports used very long time
 
 <!--ID 607f27ec-3cca-4292-a370-a9a190529072 -->
-**#22865 Genus Apps now works in private mode in Safari** (Apps)
+**#22865 Genus Apps now works in private mode in Safari** (Web)
 
 <!--ID d8c70df5-3485-44c3-824b-176c9b681430 -->
 **#22871 Fixed problem with images not showing when merging data with an Excel template to Html format** (Desktop)
@@ -508,7 +508,7 @@ Because of a bug in the export to excel large reports used very long time
 Excel has limited support for the time duration type. To be able to perform calculations on duration values in Excel, values are now converted to a number representing the total number of hours. That is, a duration value such as 2:30 is converted to 2.5.
 
 <!--ID cbcc2a18-d77d-4d2c-9b9c-26b45b22d138 -->
-**#22887 Evaluate call is now sent correctly on lost focus** (Apps)
+**#22887 Evaluate call is now sent correctly on lost focus** (Web)
 
 Fixed an issue where values were not evaluated correctly when a field lost focus.
 
@@ -526,7 +526,7 @@ To fix the problem, upgrade to the latest release of 2017.1 or 2017.2. Open the 
 **#22906 Fixed errors related to use of references to parent xml element in xml-datasources.** (Desktop)
 
 <!--ID 6489e9f8-ee21-4c01-9a87-4ffaa9892b57 -->
-**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)** (Apps;Desktop)
+**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)** (Desktop;Web)
 
 Occurs given the following setup:
 
@@ -538,25 +538,25 @@ Occurs given the following setup:
 **#22915 Fixed problem that caused Genus to shut down when requesting available file operations from Windows.** (Desktop)
 
 <!--ID 54e92015-9fb4-4f87-a889-d70fec4f7c44 -->
-**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Apps)
+**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Web)
 
 <!--ID f3ff4633-3af2-41fc-b80b-40cc79f30f0e -->
-**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Apps;Desktop;Services)
+**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Desktop;Services;Web)
 
 Optimized memory consumption when modifying large amounts of data using a "Create Objects" or "Modify Objects" effect. In a real case example (100,000 objects) performance was improved by 50% and the memory peaked below 1GB.
 
 <!--ID 7c8f8838-ac92-4998-8f84-09602f1668cc -->
-**#22926 Improved errormessage propagated to client on server-exception** (Apps;Services)
+**#22926 Improved errormessage propagated to client on server-exception** (Services;Web)
 
 Expanded the exception returned when failing to deserialize an object in a Genus Apps request to include the inner exception message.
 
 <!--ID 056258d4-6a11-4911-af75-7834537245ea -->
-**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Apps)
+**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Web)
 
 This could occour when making quick selections in radio button groups which had no prior selection.
 
 <!--ID 08caeb60-4ed6-459e-a42f-c1bd4a21eeba -->
-**#22939 IMPORTANT - Read Objects effect returns no objects** (Apps;Desktop)
+**#22939 IMPORTANT - Read Objects effect returns no objects** (Desktop;Web)
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
