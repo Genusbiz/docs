@@ -69,7 +69,7 @@ There are no breaking changes in this release.
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 543d1e49-a665-45ef-9c6c-eb5d08ed0ed8 -->
-**#22936 Analysis improvements** (Apps;Desktop)
+**#22936 Analysis improvements** (Desktop;Web)
 
 The following new visualizations will be introduced:
 - Barrel Roll control: Scrolling list of category items with timer.
@@ -237,25 +237,25 @@ The view section that contains table views is moved from the View tab section to
 ## Bug fixes
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 54e92015-9fb4-4f87-a889-d70fec4f7c44 -->
-**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Apps)
+**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Web)
 
 <!--ID f3ff4633-3af2-41fc-b80b-40cc79f30f0e -->
-**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Apps;Desktop;Services)
+**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Desktop;Services;Web)
 
 Optimized memory consumption when modifying large amounts of data using a "Create Objects" or "Modify Objects" effect. In a real case example (100,000 objects) performance was improved by 50% and the memory peaked below 1GB.
 
 <!--ID 7c8f8838-ac92-4998-8f84-09602f1668cc -->
-**#22926 Improved errormessage propagated to client on server-exception** (Apps;Services)
+**#22926 Improved errormessage propagated to client on server-exception** (Services;Web)
 
 Expanded the exception returned when failing to deserialize an object in a Genus Apps request to include the inner exception message.
 
 <!--ID 056258d4-6a11-4911-af75-7834537245ea -->
-**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Apps)
+**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Web)
 
 This could occour when making quick selections in radio button groups which had no prior selection.
 
 <!--ID 08caeb60-4ed6-459e-a42f-c1bd4a21eeba -->
-**#22939 IMPORTANT - Read Objects effect returns no objects** (Apps;Desktop)
+**#22939 IMPORTANT - Read Objects effect returns no objects** (Desktop;Web)
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
@@ -288,7 +288,7 @@ ORDER BY "Report Name", "Task Name" ASC
 In some situations the rendered output of these controls has appeared blurry, but this has now been improved by changing the method used for rendering the contents.
 
 <!--ID b1a71131-e3e2-4df9-8764-b8d1fd90ca8e -->
-**#22964 Fixed serialization of JSON where the Data Mapping contains fields without binding.** (Apps;Desktop;Services)
+**#22964 Fixed serialization of JSON where the Data Mapping contains fields without binding.** (Desktop;Services;Web)
 
 In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 
