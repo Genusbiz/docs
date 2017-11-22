@@ -73,12 +73,12 @@ There is no deprecated functionality in this release.
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID c4e9638b-955a-47f3-a79b-68b98aa55e65 -->
-**#22968 Change in REST serialization** (Apps;Desktop;Studio)
+**#22968 Change in REST serialization** (Desktop;Studio;Web)
 
 From version 2017.5 of Genus Apps, REST serialization is changed for fields that are not assigned either to a field in a data source or by a constant value. In earlier versions of Genus, these fields would be serialized with a null value, but from now on these fields will be omitted during serialization. In order to maintain the previous functionality, assign null-values to all fields that should be serialized.
 
 <!--ID 69da89c1-34f2-4a55-ba6a-555111bbd578 -->
-**#22976 Made changes to keyboard navigation - tabbing** (Apps)
+**#22976 Made changes to keyboard navigation - tabbing** (Web)
 
 Added better support for keyboard navigation. It is now possible to tab to more controllers, including text, symbols and tab sheet tabs. Tab stop are now disabled for controllers where this makes sense, but this may lead to some cases where tab stop has to be turned on to achieve the wanted result. In some cases, i.e. group boxes with click actions, tab stop was inferred, but this now has to be enabled manually.
 
@@ -189,7 +189,7 @@ Macros are removed by converting attachments saved in the xls, xlsm, or xltm for
 The view section that contains table views is moved from the View tab section to the home section
 
 <!--ID 7901c7e7-f176-4bb8-8285-86c3aa569424 -->
-**#22973 New effect: Write to log** (Apps;Desktop;Services)
+**#22973 New effect: Write to log** (Desktop;Services;Web)
 
 Writes an entry at the end of the Genus Apps log. Entries can be logged at three levels: Trace, Warning, and Error.
 
@@ -223,7 +223,7 @@ When defining Open Table actions in an analysis it is possible to select tables 
 In some situations the rendered output of these controls has appeared blurry, but this has now been improved by changing the method used for rendering the contents.
 
 <!--ID b1a71131-e3e2-4df9-8764-b8d1fd90ca8e -->
-**#22964 Fixed serialization of JSON where the Data Mapping contains fields without binding.** (Apps;Desktop;Services)
+**#22964 Fixed serialization of JSON where the Data Mapping contains fields without binding.** (Desktop;Services;Web)
 
 In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 
@@ -243,7 +243,7 @@ See
 * https://www.codeproject.com/Tips/721145/Beware-The-null-coalescing-operator-is-low-in-the
 
 <!--ID c01b3e0b-2d2c-4366-9f24-0af40797af1e -->
-**#22979 Improvements to drafting in repeating section** (Apps)
+**#22979 Improvements to drafting in repeating section** (Web)
 
 When drafting objects in repeating section, it is now possible to draft in two dimensions - with master key field and with another context.
 
