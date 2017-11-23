@@ -42,7 +42,7 @@ For a data mart server to provide any services it must be added to the directory
 *   See [Nodes and node groups](../../../developers/defining-an-app-model/services/nodes-and-node-groups.md) for more information
 
 ## Permissions
-To make an analysis or data mart; make sure you have permissions to create an analysis or data mart. Make sure the user of the analysis has read & execute permissions to the analysis and data mart.
+To make an analysis or data mart; make sure you have permissions to create an analysis or data mart. Make sure the user of the analysis has read & execute permissions to the analysis and data mart. Be careful using "Run as Administrator" when developing analysis. It is not a feature in the browser viewer.
 
 ## Synchronizing settings across multiple nodes
 If you are deploying data marts on multiple nodes, you have to synchronize some settings across the nodes. Se [Synchronizing cryptographic keys and settings in an application server cluster](../../../developers/installation-and-configuration/configure-and-maintain-genus-server/synchronizing-crypo-keys-in-a-cluster.md).
