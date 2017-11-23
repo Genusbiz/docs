@@ -158,6 +158,7 @@ A *map* visualizes geospatial data. They can have one or more layers. Layers are
 The different layers include:
 
 **Map**
+
 This layer provides the base map. Two server types can be specified:
 
 * OSM
@@ -174,9 +175,11 @@ This layer provides the base map. Two server types can be specified:
   A Web Map Service can be used to provide map tiles.
 
 **Data layers**
+
 All data layers (except geoJSON layer) requires a data source with a northing and easting property. The available layer type are:
 
 **Point layer**
+
 This is the simplest layer. It shows points on the map and can be configured with a symbol and a symbol color.
 
 **Hotspot layer**
@@ -188,6 +191,7 @@ This layer shows circle markers that can be configured with data bound size and 
 The layer accepts two data sources and one value.  Both data sources need to have a northing and a easting property. The value is used to determine the width of the connections between the data inside the data sources. This will then correspond to a geospatial version of the [Sankey diagram](#sankey). One can also style the connection lines, and show the direction of the links.
 
 **Heatmap layer**
+
 This layer is a heatmap of points that must have a value representing its intensity. 
 Max and min intensity properties are optiononal, if none are set, the intensity will scale from the lowest to the highest value.
 
