@@ -91,3 +91,11 @@ To modify an existing bookmark, click the **Open bookmarks** button in the main 
 **Manage bookmarks**
 
 You can manage your bookmarks to get an overview, modify them, remove them, copy their URL or show a QR-code for them by clicking the **Open Bookmarks** button in the main menu and selecting the appropriate item in each bookmarks context menu.
+
+**Distribute part of an analysis**
+
+In an Analysis, each Tile can have a set of distribution options. Not all Tiles support all options.
+
+*   **Copy Image** Copies the contents of the Tile to the clipboard as an image.
+*   **Download as Image** Downloads the contents of the Tile to an image file.
+*   **Download as Excel file** Downloads the data used in the tile to an excel file.
