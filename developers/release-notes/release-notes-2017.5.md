@@ -120,6 +120,64 @@ For more information, see https://docs.genus.no/developers/defining-an-app-model
 
 In the previous version all users had access to all the shortcuts under the Discovery view button. In 2017.5, these shortcuts are handled as any other shortcuts and the business enginer can add and remove access. Genus update will give every one read and execute access to all the discovery shortcuts.
 
+<!--ID c2b3fee3-d0d9-4d92-acd9-102e7bc8cfa1 -->
+**#22981 New tile type Timeslider in analysis** (Desktop;Web)
+
+The timeslider tile simplifies selecting a date range and manipulating that selection.
+
+<!--ID 7dd5c983-0a85-4494-b2d5-c2cb89aa3bba -->
+**#22982 New tile type Treemap in analysis** (Desktop;Web)
+
+The Treemap tile is a great way of visualizing a two level breakdown of a value.
+
+<!--ID e237f317-10d1-43c5-a310-af940d59c184 -->
+**#22983 New tile type Sunburst in analysis** (Desktop;Web)
+
+The Sunburst tile is a great way of visualizing a two level breakdown of a value.
+
+<!--ID 864acfc0-b84c-4d68-b9ac-fecd6df03eef -->
+**#22984 New tile type List in analysis** (Desktop;Web)
+
+The List is a simplified table with a single column. The List requires a single category as its only configuration option. Is has no column header and no column alignment options.
+
+<!--ID f505ee1c-2917-47fe-8f24-11d7700ad72b -->
+**#22985 New tile type Subset in analysis** (Desktop;Web)
+
+The Subset tile type allows using predefined subsets as quick way of selecting multiple objects in a single operation. The tile supports add, keep, remove and set operations on the selections.
+
+<!--ID 6b7b8465-c8ab-4709-a124-56d83ff95007 -->
+**#22986 New tile type Event Line in analysis** (Desktop;Web)
+
+THe Event Line is a visualization of events as circles along a horizontal time axis.
+The size of the circles can be bound to a value.
+The position of the circles in vertical direction above the time axis can be bound to a value.
+The color of the circles can be bound to a value.
+
+<!--ID 07102e06-a332-499e-a3e0-416a27e9bdfa -->
+**#22987 Completely revamped tile type Dropdown** (Desktop;Web)
+
+The Dropdown tile is changed so that selections are made within a dialog instead of a dropdown. This makes the tile static in size and thus easier to configure.
+
+<!--ID 0cc6781c-5f86-4422-a6a4-aa789c33a019 -->
+**#22989 Analytics tab in tile designer** (Desktop;Web)
+
+On the Analytics tile metrics like min, max, average and trend can be added to Line Charts (and more to come)
+
+<!--ID 4aad4852-c722-44d4-9678-2418033e714c -->
+**#22990 Require Selection on tile in analysis** (Desktop;Web)
+
+A tile can set requirements to how many (min and max) objects must be selected of some type. The tile will not display until the requirement is met. The feature can be use to prevent meaningless results where a selection is required, or to prevent listing of large amounts of data.
+
+<!--ID da68875b-3b70-4adf-a2f6-d2af9883d7e4 -->
+**#22991 Ignore Selection on value in analysis** (Desktop;Web)
+
+By using Ignore Selection on a value, a tile can display values for excluded objects. It has previously only been available in a formula ona calculated field.
+
+<!--ID 2372d2ca-a866-43f8-b689-0a1c43f5dc8b -->
+**#22992 Initial Selection in analysis** (Desktop;Web)
+
+An Initial Selection can now be set on an analysis. Clicking reset will return to the initial selection.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -212,7 +270,15 @@ When using a table in a Form the table's distribute commands are available in th
 <!--ID 16b75a52-cb45-4e02-b4b2-1d221bff224b -->
 **#22980 Enable table views for user defined actions** (Desktop)
 
-When defining Open Table actions in an analysis it is possible to select tables views with this option set. In version 2017.4 it was only possible to select a table, not witch view to open.
+When defining Open Table actions in an analysis it is possible to select tables views with this option set. In version 2017.4 it was only possible to select a table, not which view to open.
+
+<!--ID 1eed1152-5cab-4038-a47e-d63ee0512457 -->
+**#22988 Enhanced tile type Markdown** (Desktop;Web)
+
+The Markdown tile now accepts more variables, like analysisname, etc.
+
+<!--ID 13852a52-09a6-46f3-9348-5b7d4d95f759 -->
+**#22993 New action command Apply Selection in analysis** (Desktop;Web)
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Bug fixes
