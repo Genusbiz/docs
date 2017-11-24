@@ -1,6 +1,6 @@
 # Formula Designer
 
-The Formula Designer is used to create and edit a [Formula](../concepts/index.md#formula)
+The Formula Designer is used to create and edit a [Formula](../concepts.md#formula)
 
 The Formula Designer is divided into three sections:
 * A Toolbar (top left)

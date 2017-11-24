@@ -92,11 +92,11 @@ Genus Apps is a high-productivity or rapid application development tool, which c
 
 Genus Apps consists of all software and products provided by Genus, whether provided for installation physically at your device, at your company's location, through third party service providers or through a cloud infrastructure. This includes Genus Apps for web, Genus Apps for Desktop, Genus Services, Genus Studio, documentation, a support portal, and more.
 
-## Genus Apps for Desktop
+## Genus Apps for desktop
 
 Genus Apps' client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
 
-## Genus Apps for Web
+## Genus Apps for web
 
 Genus Apps' client (runtime/executable) for web browsers.
 

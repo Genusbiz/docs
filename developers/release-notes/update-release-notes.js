@@ -5,7 +5,8 @@
 var request = require('request');
 var github  = require('octonode');
 var atob    = require('atob');
-var fs      = require("fs");
+var fs      = require('fs');
+var moment  = require('moment');
 
 // Read and check command line arguments.
 if (process.argv.length != 4) {
@@ -147,6 +148,20 @@ function callReleaseNotesRestService(name,releaseNotes){
 }
 
 // ------------------------------------------------------------
+function callOperationsSampleRestService(){
+  request.post({
+      url: 'https://operations-desktop.genus.net/genus/api/public/rest/probe/sample',
+      json: {
+        sampled_by:      "update-release-notes.js",
+        sample_code:     "UPDATE_RELEASE_NOTES",
+        value:           1,
+        sample_datetime: moment().format("YYYY-MM-DD HH:mm:ss"),
+        version:         7
+      }
+  })
+}
+
+// ------------------------------------------------------------
 function readReleaseNoteFileFromGitHub(release) {
   return new Promise((resolve,reject) => {
     ghrepo.contents('developers/release-notes/release-notes-' + release.name + '.md', 
@@ -204,7 +219,6 @@ function interpretSection(md,releaseName,sectionName,startPos,startTag,endTag) {
 
   var end = md.indexOf(endTag,start);
   if (end == -1) logAndExit(str,releaseName,sectionName);
-  //end--;
   var content = md.substring(start,end).trim()+"\n";
   //console.log("\n---------\n" + content);
   return new mdSection(sectionName,content,start,end);
@@ -507,6 +521,8 @@ async function main() {
       process.exit(1);
     }
   }
+
+  callOperationsSampleRestService();
 }
 
 main();

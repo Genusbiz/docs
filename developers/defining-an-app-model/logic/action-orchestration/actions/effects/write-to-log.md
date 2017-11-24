@@ -11,7 +11,16 @@ Events of type *Warning* and *Error* are logged to the general Windows Server ev
 
 Traces are by default not logged in the execution history. To log traces, select the option **Save detailed execution trace in history** in the history setup for the object containing the effect.
 
+Note! The Genus Apps log is primarily a trace log and not an event log. The following table lists some important distinctions between tracing and event logging:
 
+Tracing | Event logging
+--- | ---
+Consumed primarily by developers | Consumed primarily by system administrators
+Logs "low level" information (e.g. a thrown exception) | Logs "high level" information (e.g. failed installation of a program)
+Can be noisy | Must not be too "noisy" (contain many duplicate events or information not helpful to its intended audience)
+Few limitations on output format | A standards-based output format is often desirable, sometimes even required
+Localization is rarely a concern | Messages are often localized
+Addition of new tracing messages *must* be agile | Addition of new types of events, as well as new event messages, need not be agile
 
 See also:
 - [Configure logging on the application server](../../../../../installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.md#log)

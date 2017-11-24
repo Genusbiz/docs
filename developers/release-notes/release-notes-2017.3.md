@@ -53,12 +53,12 @@ In previous versions, the Genus App Platform help documentation was bundled with
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID be6d8c7a-3ed4-42ec-b3fe-2f886528557c -->
-**#22900 Added option to take picture in web browser using web cam.** (Apps)
+**#22900 Added option to take picture in web browser using web cam.** (Web)
 
 It is now possible to use the web cam directly in the browser to take a picture.
 
 <!--ID 8109ea1e-5953-43bf-beff-7eb2e900bb7e -->
-**#22903 Conditional Security in Analysis** (Apps;Desktop;Services)
+**#22903 Conditional Security in Analysis** (Desktop;Services;Web)
 
 Conditional Security permissions will now be applied in Analysis.
 Permissions are considered in object and aggregate requests.
@@ -70,7 +70,7 @@ The requested permission is "Find & List"
 See "Special Considerations for Azure SQL" in help documentation at https://docs.genus.no for up to date information on configuration and supported features.
 
 <!--ID 4a58ca5b-f6ea-458f-901b-b1c0026815d2 -->
-**#22918 Improved compliance to the WCAG 2.0 guidelines for accessibility** (Apps)
+**#22918 Improved compliance to the WCAG 2.0 guidelines for accessibility** (Web)
 
 In this release we have made several improvements to meet the guidelines set in the WCAG 2.0 standard. This includes:
 
@@ -99,7 +99,7 @@ Added menu command for finding local references to a data source in actions. Ava
 If references are found you can optionally select to mark the references in the "Actions" list. To clear reference marking, select "Clear Reference Marking" in the shortcut menu.
 
 <!--ID 207027b7-e1b9-4858-afd6-3343a5e15bda -->
-**#22907 It is now possible to data bind marking a control as requried.** (Apps)
+**#22907 It is now possible to data bind marking a control as requried.** (Web)
 
 This is visualized by appending a star " *" after the label of the controller.
 
@@ -111,7 +111,7 @@ Added support for encrypting documents of type *.docx, *.docm, *.dotx, and *.dot
 Passwords are case-sensitive. If you lose or forget a password, Word cannot recover your data.
 
 <!--ID f3c3ca1d-1b05-4f97-941f-d18525c428f4 -->
-**#22911 No longer stores password in localstorage when using remember me** (Apps;Services)
+**#22911 No longer stores password in localstorage when using remember me** (Services;Web)
 
 Now uses cookie based remember me instead.
 
@@ -121,12 +121,12 @@ Now uses cookie based remember me instead.
 The effect now supports use of external data loaded from an url in addition to data loaded from the data sources of the effect.
 
 <!--ID 46665b5e-3a35-4242-8e85-c1b5fa9b9a15 -->
-**#22913 Support for B64 encoded server response** (Apps;Services)
+**#22913 Support for B64 encoded server response** (Services;Web)
 
 Genus Apps now support B64 encoded response from Genus Server. This can be enabled server side. This should only be enabled when strictly needed from a security point of view, as it comes with a performance penalty.
 
 <!--ID 568fd03f-7de4-459d-97fe-b61252a9a2ee -->
-**#22916 Users will now be warned if they will lose data when refreshing or leaving the page** (Apps)
+**#22916 Users will now be warned if they will lose data when refreshing or leaving the page** (Web)
 
 If a user have unsaved data in a form, and attempts to either refresh or leave the page, they will now get a conrfirmation box first, to prevent loss of data.
 
@@ -149,7 +149,7 @@ To fix the problem, upgrade to the latest release of 2017.1 or 2017.2. Open the 
 **#22906 Fixed errors related to use of references to parent xml element in xml-datasources.** (Desktop)
 
 <!--ID 6489e9f8-ee21-4c01-9a87-4ffaa9892b57 -->
-**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)** (Apps;Desktop)
+**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)** (Desktop;Web)
 
 Occurs given the following setup:
 
@@ -161,25 +161,25 @@ Occurs given the following setup:
 **#22915 Fixed problem that caused Genus to shut down when requesting available file operations from Windows.** (Desktop)
 
 <!--ID 54e92015-9fb4-4f87-a889-d70fec4f7c44 -->
-**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Apps)
+**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Web)
 
 <!--ID f3ff4633-3af2-41fc-b80b-40cc79f30f0e -->
-**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Apps;Desktop;Services)
+**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Desktop;Services;Web)
 
 Optimized memory consumption when modifying large amounts of data using a "Create Objects" or "Modify Objects" effect. In a real case example (100,000 objects) performance was improved by 50% and the memory peaked below 1GB.
 
 <!--ID 203058c5-a3db-40a0-8e6b-1d005eebabc1 -->
-**#22923 Time shift in Analysis shifts the wrong way** (Apps;Desktop)
+**#22923 Time shift in Analysis shifts the wrong way** (Desktop;Web)
 
 It was discovered in 2017.3 that time shift was executed with a reversed sign. This applies only to release 2017.3. It does not apply to Reporter. The bug fix is included in version 17.230.49 or later.
 
 <!--ID 7c8f8838-ac92-4998-8f84-09602f1668cc -->
-**#22926 Improved errormessage propagated to client on server-exception** (Apps;Services)
+**#22926 Improved errormessage propagated to client on server-exception** (Services;Web)
 
 Expanded the exception returned when failing to deserialize an object in a Genus Apps request to include the inner exception message.
 
 <!--ID 056258d4-6a11-4911-af75-7834537245ea -->
-**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Apps)
+**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Web)
 
 This could occour when making quick selections in radio button groups which had no prior selection.
 
@@ -189,7 +189,7 @@ This could occour when making quick selections in radio button groups which had 
 The fields for importing data was not stored in the reference finder xml, and fields in use could be deleted. This is now fixed.
 
 <!--ID 08caeb60-4ed6-459e-a42f-c1bd4a21eeba -->
-**#22939 IMPORTANT - Read Objects effect returns no objects** (Apps;Desktop)
+**#22939 IMPORTANT - Read Objects effect returns no objects** (Desktop;Web)
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 

@@ -231,10 +231,13 @@ function CrossRefClass(ownerFilename) {
     this.refExtStr = "";
     this.refStr = "";
     this.titleStr = "";
+    this.headerLink = ""; // Any links after #
 
     // Return the whole cross reference string on format "[<link text](<ref url><title>)".
     this.text = function() {
         var str = "[" + this.linkStr + "](" + this.refStr;
+        if (this.headerLink != "")
+            str += this.headerLink;
         if (this.titleStr != "")
             str += " " + this.titleStr;
         str += ")";
@@ -374,6 +377,7 @@ function ArticleClass(filename) {
                         crossRef.titleStr = this.content.substring(refTitleLeftPos,refRightPos).trim();
                     crossRef.linkStr = this.content.substring(linkTextLeftPos+1,linkTextRightPos);
                     crossRef.refStr = this.content.substring(refLeftPos+1,refEndPos+1);
+                    crossRef.headerLink = extension.extHeaderLink;
                     return crossRef;
                 }
             }
@@ -405,7 +409,7 @@ function ArticleClass(filename) {
 
     // Find extension in cross reference string on format .nn, .nnn or .nnnn.
     // Pos is the start position of the reference in the inputed string.
-    // Returns object containg extension string and position.
+    // Returns object containing extension string and position.
     this.findExt = function(str,afterPos){
         // Find end parenthesis, then trace backwards until first . (punctuation mark), skipping any title string enclosed by " (quotation marks).
         // (and potentially containing punctuation marks).
@@ -416,6 +420,7 @@ function ArticleClass(filename) {
         }
         var insideAmpersand = false;
         var endOfExtPos = pos;
+        var headerLink = "";
         var char;
         while (pos > afterPos) {
             pos--;
@@ -426,11 +431,17 @@ function ArticleClass(filename) {
             }
             else if (char == " ")
                 endOfExtPos = pos;
+            else if (char == "#") {
+                // Seems like we found a reference like "../designer/index.md#set-default-view".
+                headerLink  = str.substring(pos,endOfExtPos)
+                endOfExtPos = pos;
+            }
             else if (char == "." && !insideAmpersand) {
                 // Found extension
                 return {
-                    extStr : str.substring(pos,endOfExtPos),
-                    extPos : pos
+                    extStr        : str.substring(pos,endOfExtPos),
+                    extPos        : pos,
+                    extHeaderLink : headerLink
                 };
             }
         }

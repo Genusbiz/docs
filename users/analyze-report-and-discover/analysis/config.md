@@ -1,6 +1,6 @@
 # Analysis configuration
 
-Analysis allows for some special configuration overrides by defining a `config.json` file in the root directory of the analysis installation. Before setting properties, you need to create this file in this directory.
+Analysis allows for some special configuration overrides by defining a `config.json` file in the root directory of the analysis installation, i.e. at `C:\Program Files\Genus\Server\wwwroot\Discovery\` on the app server.
 
 ## Automatic error tracking and reporting
 We use [Sentry](https://sentry.io) for real time error tracking and reporting. If an analysis crashes, a crash report is sent to Sentry, and the developers are notified immediately. This helps the developers monitor and fix crashes effectively.

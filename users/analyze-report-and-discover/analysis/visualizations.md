@@ -150,52 +150,54 @@ A *line chart* can be used in two ways:
 * Visualizing one or more values grouped by a category
 * Visualizing a single value grouped by two categories where one acts as a *auto series*.
 
-In both cases the primary category will be used to generate lines. 
-In the first case, each value will generate a line.
-In the second case, each object in the auto series will be a line.
-
-Actions can be applied to header, content, button and context menu.
+In both cases the primary category will be used to generate lines. In the first case, each value will generate a line. In the second case, each object in the auto series will be a line. Actions can be applied to header, content, button and context menu.
 
 ## Map
-A *map* visualizes geospatial data.
+A *map* visualizes geospatial data. They can have one or more layers. Layers are either map tiles or data layers.
 
-They can have one or more layers.
-Layers are either map tiles or data layers.
 The different layers include:
-### Map
-This layer provides the base map. 
-Two server types can be specified:
-#### OSM
-Defaults to Open Street Map tiles, but other sources can be used by providing a server url.
-Some examples are:
-* [Stamen](http://maps.stamen.com/)
-  * ``http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg`` 
-* [Cartocdn](https://carto.com/location-data-services/basemaps/)
-  * ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
 
+**Map**
 
-Please note, that while some these map resources are freely available online, some of them require attribution to be used. To attribute map tile sources, use the Attribution field.
+This layer provides the base map. Two server types can be specified:
 
-#### WMS-C
-A Web Map Service can be used to provide map tiles.
+* OSM
+  Defaults to Open Street Map tiles, but other sources can be used by providing a server url.
+  Some examples are:
+  * [Stamen](http://maps.stamen.com/)
+    * ``http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg`` 
+  * [Cartocdn](https://carto.com/location-data-services/basemaps/)
+    * ``http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png``
 
-### Data layers
+  Please note, that while some of these map resources are freely available online, some of them require attribution to be used. To attribute map tile sources, use the Attribution field.
+
+* WMS-C
+  A Web Map Service can be used to provide map tiles.
+
+**Data layers**
+
 All data layers (except geoJSON layer) requires a data source with a northing and easting property. The available layer type are:
-### Point layer
-This is the simplest layer.
-It shows points on the map and can be configured with a symbol and a symbol color.
-### Hotspot layer
-This layer shows circle markers that can be configured with data boun size and color.
-### Vector layer
+
+**Point layer**
+
+This is the simplest layer. It shows points on the map and can be configured with a symbol and a symbol color.
+
+**Hotspot layer**
+
+This layer shows circle markers that can be configured with data bound size and color.
+
+**Vector layer**
+
 The layer accepts two data sources and one value.  Both data sources need to have a northing and a easting property. The value is used to determine the width of the connections between the data inside the data sources. This will then correspond to a geospatial version of the [Sankey diagram](#sankey). One can also style the connection lines, and show the direction of the links.
-### Heatmap layer
+
+**Heatmap layer**
+
 This layer is a heatmap of points that must have a value representing its intensity. 
 Max and min intensity properties are optiononal, if none are set, the intensity will scale from the lowest to the highest value.
-### GeoJSON layer
-The GeoJSON layer draws GeoJSON features on the map.
-The GeoJSON features are provided by a link to a GeoJSON-file. 
-The GeoJSON features are mapped to a data source using a property, and only features that are present in both the GeoJSON file and the data source are displayed. 
-All GeoJSON properties can be shown in the screen tip, along with values.
+
+**GeoJSON layer**
+
+The GeoJSON layer draws GeoJSON features on the map. The GeoJSON features are provided by a link to a GeoJSON-file. The GeoJSON features are mapped to a data source using a property, and only features that are present in both the GeoJSON file and the data source are displayed. All GeoJSON properties can be shown in the screen tip, along with values.
 
 ## Markdown
 *Markdown* visualizes a text written in markup language that is converted to HTML.  
@@ -241,10 +243,10 @@ Actions can be applied to header, content, button and context menu.
 ## Report grid
 A *report grid* is a spreadsheet-like component visualized in a tabular form where each cell represents a single value. 
 
-### Filtering rows and columns
+**Filtering rows and columns:**
 Rows and columns in the value Grid can be configured with a filter that will be applied on all the cell values in a row/column, i.e. filtering all the cell values in that row/column.
 
-### Formatting
+**Formatting:**
 The value Grid can be formatted in a various of ways, on row level (applied to all cells in that row), column level (applied to all cells in that column) and on cell/value level (applied to a single cell).
 Some formatting properties (not exhaustive) are:
 * Row height
@@ -277,8 +279,6 @@ A *Sunburst chart* presents multiple categories and single value in a multilayer
 Each category added represents a new layer of depth in the chart and the size of a slice is determined by the value.
 It is used to represent hierarchical data.
 
-Supports selection
-
 ## Speedometer gauge
 A *speedometer gauge* displays a value in a speedometer gauge. 
 The first value is the value to be displayed. 
@@ -308,10 +308,9 @@ A *symbol chart* can be used in two ways:
 * Visualizing a single value grouped by a single category
 * Visualizing one or more *uncategorized* values
 
-A symbol picker can be applied to choose a symbol to represent the aggregated value(s).
-Enabling sorting will only have an effect in the case of categorized data.
+A symbol picker can be applied to choose a symbol to represent the aggregated value(s). Enabling sorting will only have an effect in the case of categorized data.
 
-*Typical use cases would be showing total revenue grouped on market segments or to show the distribution of project states for current projects.* 
+Typical use cases would be showing total revenue grouped on market segments or to show the distribution of project states for current projects.
 
 ## Table
 A *table* presents bound data in a tabular format, where columns represent data fields and rows represent objects. 
@@ -353,14 +352,11 @@ A *two dimensional grid* presents bound data in a tabular format, where columns 
 
 Numerous data management and layout customization features are supported.
 
-The values can be grouped by an unlimited number of columns. 
-When a grid is grouped by a single column, rows that have identical values in the column are arranged into groups. 
-Each group will then be identified by a group row. 
-If the grid is grouped by another column, data rows within each group are arranged into second level groups based on the values of the new grouping column, etc.
+The values can be grouped by an unlimited number of columns. When a grid is grouped by a single column, rows that have identical values in the column are arranged into groups. Each group will then be identified by a group row. If the grid is grouped by another column, data rows within each group are arranged into second level groups based on the values of the new grouping column, etc.
 
 ## Word cloud
 A *word cloud* shows all object in a category with their size based on a connected value
 
 Colors can either follow the value, or be based on a secondary value.
 
-*A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees*
+A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees.

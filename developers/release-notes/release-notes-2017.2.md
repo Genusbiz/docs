@@ -82,7 +82,7 @@ In the previous version of Genus, import and export of JSON data were dependent 
 The new mapping mechanism is currently available in the REST Method editor for import of Request Body, in the Export Data effect when exporting to JSON, as well as in the Consume REST Service effect for both the Request Body and Response Handlers.
 
 <!--ID 5c14fee5-f48d-42ef-9ab4-de50d27184d6 -->
-**#22897 Summary of new features in Analysis** (Apps;Desktop;Studio)
+**#22897 Summary of new features in Analysis** (Desktop;Studio;Web)
 
 New option "Open an Analysis" from a Form or Table etc, keeping the context. This is the first step to incorporate Analysis as a step in a adaptable and user centric workflow.
 
@@ -130,15 +130,15 @@ Heatmap as new visualization type (tile) where individual values contained in a 
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 055c935d-b0d5-4766-8ec2-61b2849d1df7 -->
-**#22856 Added support for Google Analytics** (Apps)
+**#22856 Added support for Google Analytics** (Web)
 
 Genus Apps for Web can now report page hits and events to Google Analytics given a Google Analytics Tracking ID
 
 <!--ID 2f5825ef-e64b-48ad-ab73-ca39b0961065 -->
-**#22872 It is now possible to mechanically scroll groups and views using the scroll control command** (Apps)
+**#22872 It is now possible to mechanically scroll groups and views using the scroll control command** (Web)
 
 <!--ID 1a07cfed-4b7c-42b0-9351-7a59e2098bf2 -->
-**#22873 Scale web apps to screen size** (Apps)
+**#22873 Scale web apps to screen size** (Web)
 
 Wheter or not to scale a web app to the device screen size can now be specifed explicitly for tablets and phones
 
@@ -170,22 +170,22 @@ Added support for uploading a file stored in a file data field. That is, the fil
 Previous versions required that the file was stored on disk.
 
 <!--ID 5aff0fa8-0520-4c0e-a4db-63226cf47ddb -->
-**#22880 Changes to Add to Home Screen on iOS** (Apps)
+**#22880 Changes to Add to Home Screen on iOS** (Web)
 
 Opening a website from a shortcut that is added to the iOS homescreen will now open it as a regular web page in Safari, instead of as a web app. This makes it possible to change between the website in Safari, and other apps, without being logged out or returned to the app list screen.
 
 <!--ID c1fcf68e-2f64-431c-b80a-bf11151a1ae3 -->
-**#22884 Modify a User Account effect: Confirm old password** (Apps)
+**#22884 Modify a User Account effect: Confirm old password** (Web)
 
 Added optional field for assigning old password when a new password is set. The old password is verified against the stored password before a new password is set. If the old password does not match, the effect fails with exception "On Modify User Account Error".
 
 <!--ID ef290309-62e8-4fb1-9f19-b2fb76608367 -->
-**#22885 Automatic sign in again after deploy** (Apps)
+**#22885 Automatic sign in again after deploy** (Web)
 
 Users that are signed out of an app because of a deploy, and who have selected "Remember me", will now be signed back in again automatically.
 
 <!--ID a4b3b057-f465-455b-ab72-8d5c49611250 -->
-**#22892 Screen tip in maps is now based om markdown, with value field merging** (Apps;Desktop;Studio)
+**#22892 Screen tip in maps is now based om markdown, with value field merging** (Desktop;Studio;Web)
 
 <!--ID 5c5bfca1-d9e4-4441-a34a-adf10c75f78d -->
 **#22893 Turn of Hibernate** (Desktop)
@@ -219,7 +219,7 @@ This means that it is possible to search for stuff like C# C++, etc.
 **#22871 Fixed problem with images not showing when merging data with an Excel template to Html format** (Desktop)
 
 <!--ID 1b8c2bdb-2d67-464a-beaf-7a95aa113638 -->
-**#22881 Labels for input fields now point to the correct element in repeating sections.** (Apps)
+**#22881 Labels for input fields now point to the correct element in repeating sections.** (Web)
 
 <!--ID f5606bb6-df8a-4c28-a13f-c0800a3fac6b -->
 **#22883 Data of type (time) duration exported as text when a table is opened in Excel** (Desktop)
@@ -227,7 +227,7 @@ This means that it is possible to search for stuff like C# C++, etc.
 Excel has limited support for the time duration type. To be able to perform calculations on duration values in Excel, values are now converted to a number representing the total number of hours. That is, a duration value such as 2:30 is converted to 2.5.
 
 <!--ID cbcc2a18-d77d-4d2c-9b9c-26b45b22d138 -->
-**#22887 Evaluate call is now sent correctly on lost focus** (Apps)
+**#22887 Evaluate call is now sent correctly on lost focus** (Web)
 
 Fixed an issue where values were not evaluated correctly when a field lost focus.
 
@@ -253,7 +253,7 @@ To fix the problem, upgrade to the latest release of 2017.1 or 2017.2. Open the 
 **#22906 Fixed errors related to use of references to parent xml element in xml-datasources.** (Desktop)
 
 <!--ID 6489e9f8-ee21-4c01-9a87-4ffaa9892b57 -->
-**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)** (Apps;Desktop)
+**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)** (Desktop;Web)
 
 Occurs given the following setup:
 
@@ -265,25 +265,25 @@ Occurs given the following setup:
 **#22915 Fixed problem that caused Genus to shut down when requesting available file operations from Windows.** (Desktop)
 
 <!--ID 54e92015-9fb4-4f87-a889-d70fec4f7c44 -->
-**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Apps)
+**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Web)
 
 <!--ID f3ff4633-3af2-41fc-b80b-40cc79f30f0e -->
-**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Apps;Desktop;Services)
+**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Desktop;Services;Web)
 
 Optimized memory consumption when modifying large amounts of data using a "Create Objects" or "Modify Objects" effect. In a real case example (100,000 objects) performance was improved by 50% and the memory peaked below 1GB.
 
 <!--ID 7c8f8838-ac92-4998-8f84-09602f1668cc -->
-**#22926 Improved errormessage propagated to client on server-exception** (Apps;Services)
+**#22926 Improved errormessage propagated to client on server-exception** (Services;Web)
 
 Expanded the exception returned when failing to deserialize an object in a Genus Apps request to include the inner exception message.
 
 <!--ID 056258d4-6a11-4911-af75-7834537245ea -->
-**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Apps)
+**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Web)
 
 This could occour when making quick selections in radio button groups which had no prior selection.
 
 <!--ID 08caeb60-4ed6-459e-a42f-c1bd4a21eeba -->
-**#22939 IMPORTANT - Read Objects effect returns no objects** (Apps;Desktop)
+**#22939 IMPORTANT - Read Objects effect returns no objects** (Desktop;Web)
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
@@ -295,7 +295,7 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 All Desktop Forms must be designed in a way that prevents Table and Report Controls from being hosted in scrollable areas of the Form. In most cases this could be catered for by stretch-aligning the Table/Report controls (including all parent groups of the Table/Report) within the Form, but there may also be other cases where other areas of a Form may cause scrollbars to appear in a group which includes a Table/Report control. When a Form has the problem described here, it will appear as the Table/Report is rendered floating above other controls in the window so that for instance the ribbon, status bar or other page content may be obscured. This will be a time limited restriction, and will be removed in a later release, when the changes in our user interface technology are completed. Any Table controls violating the requirement will have an undetermined behavior.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID e7518c90-26f0-49c6-b313-8b5700e76f26 -->
-**#22886 Can no longer select null for not null-properties after making another selection (Combobox)** (Apps)
+**#22886 Can no longer select null for not null-properties after making another selection (Combobox)** (Web)
 
 It is now impossible to select null in a drop down list for properties who cant be null, after making another selection. This prevents displaying invalid states to users.
 
