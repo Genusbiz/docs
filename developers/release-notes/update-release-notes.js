@@ -8,19 +8,36 @@ var atob    = require('atob');
 var fs      = require('fs');
 var moment  = require('moment');
 
-// Read and check command line arguments.
-if (process.argv.length != 4) {
-  console.log("usage: node update-release-notes.js git-username git-password");
-  process.exit(1);
-}
+var githubUsername;
+var githubPassword;
 
-var gitUsername = process.argv[2];
-var gitPassword = process.argv[3];
+// Read parameters.
+if (process.argv.length == 2) {
+  // E.g. "node update-release-notes.js" => Fetch from config file.
+  try {
+    var config = require('./update-release-notes.json');
+    githubUsername = config.githubDocsUsername;
+    githubPassword = config.githubDocsPassword;
+  }
+  catch (error) {
+    console.log(error);
+    process.exit(1);
+  }
+}
+else if (process.argv.length == 4) {
+  // E.g. "node update-release-notes.js aUsername aPassoword" => Fetch from command line params.
+  githubUsername = process.argv[2];
+  githubPassword = process.argv[3];
+}
+else  {
+  console.log("usage: node update-release-notes.js [git-username git-password]");
+  process.exit(1);
+};
 
 // Log into github.
 var client = github.client({
-  username: gitUsername,
-  password: gitPassword
+  username: githubUsername,
+  password: githubPassword
 });
 
 // Get ref to repos.
