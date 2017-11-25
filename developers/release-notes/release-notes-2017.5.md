@@ -161,7 +161,7 @@ The Dropdown tile is changed so that selections are made within a dialog instead
 <!--ID 0cc6781c-5f86-4422-a6a4-aa789c33a019 -->
 **#22989 Analytics tab in tile designer** (Desktop;Web)
 
-On the Analytics tile metrics like min, max, average and trend can be added to Line Charts (and more to come)
+On the Analytics tile metrics like min, max, average and trend can be added to Line Charts (and more to come).
 
 <!--ID 4aad4852-c722-44d4-9678-2418033e714c -->
 **#22990 Require Selection on tile in analysis** (Desktop;Web)
