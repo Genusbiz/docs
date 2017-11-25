@@ -171,7 +171,7 @@ A tile can set requirements to how many (min and max) objects must be selected o
 <!--ID da68875b-3b70-4adf-a2f6-d2af9883d7e4 -->
 **#22991 Ignore Selection on value in analysis** (Desktop;Web)
 
-By using Ignore Selection on a value, a tile can display values for excluded objects. It has previously only been available in a formula ona calculated field.
+By using Ignore Selection on a value, a tile can display values for excluded objects. It has previously only been available in a formula on a calculated field.
 
 <!--ID 2372d2ca-a866-43f8-b689-0a1c43f5dc8b -->
 **#22992 Initial Selection in analysis** (Desktop;Web)
