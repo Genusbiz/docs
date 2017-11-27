@@ -66,7 +66,16 @@ There are no end-of-life functionality identified in this release.
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There is no deprecated functionality in this release.
+<!--ID b3c72df2-cb9d-4fe9-a30f-b56b82aaab69 -->
+**#22994 Versions of Microsoft Windows Server older than 2016** (Services)
+
+From the next release 2018.1, Genus Server will require Microsoft Windows Server 2016 for installation of Genus Services.
+
+<!--ID 568b45e9-f52b-4b09-a881-baf842230150 -->
+**#22996 Support for Sybase will be removed** (Services)
+
+Since Sybase is not used by our customers anymore, the support for this database system will be removed in Genus Apps release 2018.1. Support for Sybase may be reintroduced based on customer demand.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
