@@ -21,6 +21,7 @@ Prior to upgrading to this release, you must:
  
 For general information about installing and upgrading Genus Apps, see [here](../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../installation-and-configuration/system-requirements.md) article.
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
@@ -28,7 +29,16 @@ For general information about installing and upgrading Genus Apps, see [here](..
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no end-of-life functionality identified in this release.
+<!--ID 9510cfad-24ff-4db4-9791-380be25f2db8 -->
+**#22995 Versions of Microsoft Windows Server older than 2016 not longer supported** (Services)
+
+Genus Server now requires Microsoft Windows Server 2016 for installation of Genus Services.
+
+<!--ID 97dcb628-3db3-44ea-b25e-d7232ec68943 -->
+**#22997 The support for Sybase is removed** (Services)
+
+Since Sybase is not used by our customers anymore, the support for this database system has been removed. Support for Sybase may be reintroduced based on customer demand.
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
@@ -44,15 +54,15 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-The major new functionality in this release has not been described yet.
+There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-The minor new functionality in this release has not been described yet.
+There are no minor new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Bug fixes
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There has not been identified any bugs in this release.
+There are no bug fixes in this release.
 <!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
@@ -67,6 +77,4 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
-
-<!--changelog-start CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--changelog-end   CHANGELOG. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
