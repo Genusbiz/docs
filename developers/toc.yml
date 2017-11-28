@@ -509,8 +509,8 @@
     href: guidelines-and-best-practices/improving-genus-apps-performance.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
-  - name: Genus Apps hardening (HTTPS security headers)
-    href: guidelines-and-best-practices/genus-apps-hardening.md
+  - name: Genus Apps for web hardening
+    href: guidelines-and-best-practices/genus-apps-for-web-hardening.md
   - name: Web service guidelines
     href: guidelines-and-best-practices/web-service-guidelines.md
     items:
