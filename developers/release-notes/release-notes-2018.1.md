@@ -77,4 +77,6 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
+* 2017-11-29 Builds for this release will start with version number 18.010.
+* 2017-11-17 Created (Alpha stage).
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
