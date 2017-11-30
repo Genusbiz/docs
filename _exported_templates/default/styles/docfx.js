@@ -38,10 +38,10 @@ $(function () {
   }
 
 
-  function containsName(array, name){
+  function containsName(array, email){
     var i =array.length; 
     while(i--){
-      if(array[i].name == name){
+      if(array[i].email == email){
         return true;
       }
     }
@@ -73,9 +73,10 @@ $(function () {
     
     for (var i=0; i<list.length; i++){
 
-      if(!containsName(authors, list[i].commit.author.name)){
+      if(!containsName(authors, list[i].commit.author.email)){
           authors.push({
             name: list[i].commit.author.name,
+            email: list[i].commit.author.email,
             avatarUrl: list[i].author.avatar_url,
             html_url: list[i].author.html_url,
             login: list[i].author.login
