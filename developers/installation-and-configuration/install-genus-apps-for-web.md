@@ -48,7 +48,9 @@ At this point, it should work. However, there are some considerations that must 
   
 Additionally, the following must be allowed through: 
 
-```[DATASET]/?User-Agent=E348BD64-7590-4451-B51F-F94B414A7405```
+```html
+[DATASET]/?User-Agent=E348BD64-7590-4451-B51F-F94B414A7405
+```
   
 ## Forgotten password
 
