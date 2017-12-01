@@ -170,8 +170,8 @@ To test the connection using the entered settings, click **Test Connection**.
 
 The edit data link window lets you enter the individual fields, and then constructs the data link string for you.
 
-| Property                               | Description |
-|------------------------------------|--|
+| Property                           | Description |
+|------------------------------------|-------------|
 | **Server Name**                    | Property of the database server. |
 | **Sign in to the server using**    | Specify how to sign in to the database server. |
 | **Windows Authentication**         | Use windows authentication to sign in. |
@@ -182,10 +182,21 @@ The edit data link window lets you enter the individual fields, and then constru
 
 ## Allowed Origins
 
-Cross-origin resource sharing (CORS) is supported, and the list of allowed origins specify the trusted combinations of protocol, host name, and port.
+Cross-origin resource sharing (CORS) is supported, and the list of allowed origins specify the trusted combinations of scheme, host name, and port, as defined by av [RFC 6454, Section 7.1](https://tools.ietf.org/html/rfc6454#section-7.1).
 
 The default is that there are no entries, and origins should be added with caution. The all-domain wildcard, the asterisk "*", should be avoided.
 
+The following are examples of valid origins. In each case, at least one of the scheme, host, and port component will differ from the others in the list.
+
+```
+   http://example.com
+   http://example.com:8080
+   http://www.example.com
+   https://example.com:80
+   https://example.com
+   http://example.org
+   http://ietf.org
+```
 To add an allowed origin, do the following:
 
 *   Click **Add**.
@@ -194,9 +205,10 @@ To add an allowed origin, do the following:
 
 
 
-See Also
+### See Also
 
-*   [http://en.wikipedia.org/wiki/Cross-origin_resource_sharing](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+* http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 ## Trusted Users
 
