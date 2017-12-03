@@ -447,6 +447,8 @@
       href: installation-and-configuration/install-genus-registry-settings.md
   - name: Install Genus Services on an application server
     href: installation-and-configuration/install-genus-server-on-an-application-server.md
+  - name: Install and configure Genus Apps for Web
+    href: installation-and-configuration/install-genus-apps-for-web.md
   - name: Install a license on Genus Services
     href: installation-and-configuration/install-license-on-genus-server.md
   - name: Configure and maintain Genus Services
@@ -509,8 +511,8 @@
     href: guidelines-and-best-practices/improving-genus-apps-performance.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
-  - name: Genus Apps hardening (HTTPS security headers)
-    href: guidelines-and-best-practices/genus-apps-hardening.md
+  - name: Genus Apps for web hardening
+    href: guidelines-and-best-practices/genus-apps-for-web-hardening.md
   - name: Web service guidelines
     href: guidelines-and-best-practices/web-service-guidelines.md
     items:
@@ -573,10 +575,33 @@
 - name: Release notes
   href: release-notes/index.md
   items:
-  - name: Release stages
-    href: release-notes/release-stages.md
-#release-note-start
-#release-note-2017.5 This is an auto-generated line. Do not change or remove.
-  - name: Version 2017.5
+  - name: Version 2018.1 (Pre-alpha)
+    href: release-notes/release-notes-2018.1.md
+  - name: Version 2017.5 (Release Candidate)
     href: release-notes/release-notes-2017.5.md
-#release-note-end
+  - name: Version 2017.4
+    href: release-notes/release-notes-2017.4.md
+  - name: Version 2017.3
+    href: release-notes/release-notes-2017.3.md
+  - name: Version 2017.2
+    href: release-notes/release-notes-2017.2.md
+  - name: Version 2017.1
+    href: release-notes/release-notes-2017.1.md
+  - name: About release stages
+    href: release-notes/release-stages.md
+  - name: Older
+    items:
+    - name: Version 2016.1
+      href: release-notes/older/release-notes-2016.1.md
+    - name: Version 2015.2
+      href: release-notes/older/release-notes-2015.2.md
+    - name: Version 2015.1
+      href: release-notes/older/release-notes-2015.1.md
+    - name: Version 2014.2
+      href: release-notes/older/release-notes-2014.2.md
+    - name: Version 2014.1
+      href: release-notes/older/release-notes-2014.1.md
+    - name: Version 2013.2
+      href: release-notes/older/release-notes-2013.2.md
+    - name: Version 2013.1
+      href: release-notes/older/release-notes-2013.1.md

@@ -134,7 +134,7 @@
     - name: Getting started
       href: analyze-report-and-discover/analysis/getting-started.md
     - name: Concepts
-      href: analyze-report-and-discover/analysis/concepts/index.md
+      href: analyze-report-and-discover/analysis/concepts.md
     - name: Visualizations
       href: analyze-report-and-discover/analysis/visualizations.md
     - name: Configuration
@@ -150,20 +150,22 @@
       href: analyze-report-and-discover/data-marts/getting-started.md
     - name: Concepts
       href: analyze-report-and-discover/data-marts/data-mart-concepts.md
-    - name: Data sources
-      href: analyze-report-and-discover/data-marts/data-sources.md
-    - name: Data model (data view)
-      href: analyze-report-and-discover/data-marts/data-model.md
-    - name: Advanced data model
-      href: analyze-report-and-discover/data-marts/data-model-advanced.md
-    - name: Tasks
-      href: analyze-report-and-discover/data-marts/tasks.md
+    - name: Data view
+      href: analyze-report-and-discover/data-marts/data-view.md
+    - name: Subsets
+      href: analyze-report-and-discover/data-marts/subsets.md
+    - name: Calculated fields
+      href: analyze-report-and-discover/data-marts/calculated-fields.md
     - name: Self filter
       href: analyze-report-and-discover/data-marts/self-filters.md
+    - name: Tasks
+      href: analyze-report-and-discover/data-marts/tasks.md
     - name: Loading and scheduling
       href: analyze-report-and-discover/data-marts/data-mart-loading.md
     - name: Problem solving
       href: analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md
+    - name: Advanced data marts
+      href: analyze-report-and-discover/data-marts/advanced-data-marts.md
   - name: Data extract
     href: analyze-report-and-discover/data-extract.md
   - name: Report

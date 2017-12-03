@@ -1,10 +1,8 @@
 # System requirements
 
-See below for the system requirements for your personal computer running the Genus Client for Desktop, and the application server running Genus Services.
+## System requirements for Genus Apps for web
 
-## System requirements for Genus Apps
-
-Genus Apps runs on all major evergreen browsers on all devices, and as an app on iOS (8.x and later), Android (version 4.4 and later), Windows Phone 8.1, and Windows 8.1 and 10.  
+Our web client runs on all major evergreen browsers on all devices.  
 
 The term "evergreen browser" refers to web browsers that are automatically upgraded to future versions. We consider Mozilla Firefox, Google Chrome, Microsoft Edge and Apple Safari to be evergreen browsers.
 
@@ -14,11 +12,11 @@ Please note that Internet Explorer 11 and older versions are not considered ever
 *   **Genus Apps 2016.2**: Internet Explorer 11 is supported for all functionality areas except Analysis (Genus Discovery). We recommend using an evergreen browser.
 *   **Genus Apps 2017.1 and forward**: Support for Internet Explorer may be removed based on usage. You may have to use an evergreen browser.
 
-In general, support for operating systems and browsers with a market share of 5% or less is removed in the next release of Genus Apps.
+In general, support for operating systems and browsers with a market share of 5% or less is removed in the next release of our web client.
 
-## System requirements for Genus Desktop
+## System requirements for Genus Apps for desktop
 
-The minimum hardware and software requirements for running a Genus Desktop client on your computer are listed below.
+The minimum hardware and software requirements for our desktop client are listed below.
 
 ### Hardware requirements
 
@@ -28,7 +26,7 @@ The minimum hardware and software requirements for running a Genus Desktop clien
 * Disk space: Minimum 500 MB available.
 
 ### Software requirements
-Genus Desktop runs on the following operating systems:
+Our desktop client runs on the following operating systems:
 
 * Windows 10 (64-bit)
 * Windows 8.1 (64-bit)
@@ -39,7 +37,7 @@ Genus Desktop runs on the following operating systems:
 * Windows Server 2012
 * Windows Server 2008 R2 SP1
 
-Genus Desktop requires the following minimum version of the .NET Framework:
+Our desktop client requires the following minimum version of the .NET Framework:
 
 * Genus Apps 2017.5 or later: .NET Framework 4.7 or later
 * Genus Apps 2017.2-2017.4: .NET Framework 4.6.2 or later
@@ -53,29 +51,31 @@ Integration with Microsoft Office is supported for both 32-bit and 64-bit editio
 
 The Genus document mail merge feature does not require Microsoft Word to be installed.
 
-We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. The Genus Desktop client requires a Genus Services installation on an application server, which will be provided for you by your system administrator or your business partner.
+We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. The Genus desktop client requires a Genus Services installation on one ore more application servers, which will be provided for you by your system administrator or your business partner.
 
 ## System requirements for an application server running Genus Services
 
-The minimum hardware and software requirements for an application server running Genus Services are listed below.
+The minimum hardware and software requirements for an application server running Genus Services are listed below. Such application servers are also called Genus Servers.
 
-### Hardware requirements
+### Server hardware or virtual server requirements
 
 * Monitor resolution: Minimum 1024x768 screen resolution.
 * CPU: Minimum 1.4 GHz x64 processor with at least two cores.
 * Memory (RAM): Minimum 4 GB.
 * Disk space: Minimum 2 GB available.
 
-The actual hardware requirements are dependent on your Genus application's functionality and your number of concurrent users, agents, web services etc. Please consult your Genus business partner for help in specifying your requirements. We also recommend examining Microsoft's requirements for your Windows Server edition.
+Note that these are the minimum requirements. The actual hardware requirements are dependent on your Genus solution's functionality and your number of concurrent users, agents, web services etc. Please consult your Genus business partner for help in specifying your requirements. We also recommend examining Microsoft's requirements for your Windows Server edition.
 
-_We do not recommend running Genus Services on the same server as your Relational Data Base Management System (RDBMS), but instead dedicate a separate server for the task._
-
-The server may very well be a virtual server, but virtual servers are recommended to be configured to use more than one CPU core.
+We do not recommend running Genus Services on the same server as your Relational Data Base Management System (RDBMS), but instead dedicate a separate server for the task.
 
 ### Software requirements
 
-Genus Services runs on the following operating systems:
+Genus Services runs on the operating systems given below.
 
+Genus Apps 2018.1 or later:
+* Windows Server 2016 (Server Core and Server with Desktop Experience)
+
+Genus Apps 2017.5 or earlier:
 * Windows Server 2016 (Server Core and Server with Desktop Experience)
 * Windows Server 2012 R2
 * Windows Server 2012
@@ -113,6 +113,8 @@ Any other Oracle driver software on the application server must be completely un
 
 #### Sybase Adaptive Server Enterprise (ASE)
 
+_Note: The support for Sybase will be removed as part of release 2018.1. The support may be reintroduced based on customer demand._
+
 For Sybase database access Genus Services requires installation of Adaptive Server ADO.NET Data Provider for .NET Framework 4.0. The required version is a component included in Adaptive Server Enterprise (ASE), **EBF 21674: 15.7 SP60 - 64 Bit 15.7 17 Dec 2013 EBF/Patch**.  
 
 Please make sure that the 64-bit version of the ADO.NET Data Provider is installed. 
@@ -141,5 +143,3 @@ Genus Apps version 2016.1 and later supports the following database system vendo
 | Oracle               | 10g or newer
 | Sybase ASE           | 12.5.3 or newer
 | DB2                  | 10.1 or newer
-
-

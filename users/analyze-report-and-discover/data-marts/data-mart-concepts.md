@@ -8,7 +8,7 @@ The data mart reduces the data volume by defining a subset of the data in the ap
 
 The fact that only relevant data sources, fields, and data are included in the data mart does not only reduce the data volume, but also the complexity.
 
-When a data mart is initiated, the entire subset of data is loaded into memory, even if every part of the mart is not used every time. This data load requires resources on the server, network, and client computer. The size of the data mart is therefore an important consideration. Try to make the data marts as focused and small as possible while still fulfulling their purpose. Consider splitting data marts that serve more than one purpose, into several smaller ones.
+When a data mart is initiated, the entire subset of data is loaded into memory, even if every part of the mart is not used every time. This data load requires resources on the server, network, and client computer. The size of the data mart is therefore an important consideration, and the sum of the sizes of all your data marts (located on a server) should be less than the server's physical memory. Try to make the data marts as focused and small as possible while still fulfulling their purpose. Consider splitting data marts that serve more than one purpose, into several smaller ones.
 
 ## Connections
 
@@ -26,11 +26,11 @@ Connections from a data source to a calendar data source, for example month, doe
 
 The fact that connections are used to propagate selections, can sometimes lead to undesired effects. For example, consider a case where the *Month* data source is connected to both *Invoice.DueDate* and *Sales.Date*. When a month is selected, the invoices that are due that month are qualified, and the sales transactions performed that month are qualified. Unfortunately sales performed at the end of one month will often be invoiced with a due date the month after, which can lead to inconsistent data.
 
-This is fortunately easily solved, by adding the month data source twice, and connecting them to one of the other data sources each. This way a selection of an invoice due month will not affect the sales month, and vice versa. Remember to rename the data sources to ensure unambiguous names and avoid misunderstandings.
+This is easily solved, by adding the month data source twice, and connecting them to one of the other data sources each. This way a selection of an invoice due month will not affect the sales month, and vice versa. Remember to rename the data sources to ensure unambiguous names and avoid misunderstandings.
 
 ## Data filter dependencies
 
-Data filters for data sources in Forms, Tables, or Action Orchestration often refer to other data sources, for example, *invoice.Customer* is any of *company*. This works fine in the previously mentioned contexts, but should be avoided for data marts deployed to desktop clients. This is because part of the data filter evaluation is performed on the client, and this construction results in unecessary large amounts of data being transferred between the server and the client.
+Data filters for data sources in forms, tables, or action orchestration often refer to other data sources, for example, *invoice.Customer* is any of *company*. This works fine in the previously mentioned contexts, but should be avoided for data marts deployed to desktop clients. This is because part of the data filter evaluation is performed on the client, and this construction results in unecessary large amounts of data being transferred between the server and the client.
 
 ## Circular references
 

@@ -10,7 +10,7 @@ See www.genus.no for more general information about our products and our company
 * It is nevertheless better to start out small and then iterate and evolve more content later.
 * Commit consistent and complete articles. If it isn't possible, state clearly in the article that the content is unfinished, like the example below - and then return to finish it as soon as possible. And yes, write it in _italics_ (copy and paste the text below).
 ```
-_The contents of this article is under construction. We are sorry for the inconvenience._
+_The content is under construction. We are sorry for the inconvenience._
 ```
 * If you are trying to improve upon an article, but find it hard to describe the functionality, it may be Genus Apps that needs improvement. Please let us know through your support channel!
 * Use images sparingly, as these are hard to maintain over time. Put any images in the media subfolder of your article. If you are submitting a screen shot, make sure that it doesn't contain any customer specific information. Use more images for _Users_ than _Developers_.

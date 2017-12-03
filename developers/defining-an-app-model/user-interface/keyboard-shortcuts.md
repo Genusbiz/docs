@@ -7,18 +7,18 @@ author: terjesnarby
 # Keyboard shortcuts
 
 There are two types of keyboard shortcuts.
-1. Keyboard shortcuts defined in the App Model.
+1. Keyboard shortcuts defined in an app model.
 2. Keyboard shortcuts built in as part of Genus Apps.
 
-## Keyboard shortcuts defined in the App Model
+## Keyboard shortcuts defined in an app model
 
-Keyboard shortcuts, also known as hotkeys and keybinds, can be defined within the App Model in the Customize Ribbon menu in the Form and Table designer.
+Keyboard shortcuts, also known as hotkeys and keybinds, can be defined within an app model in the customize ribbon menu in the form and table designer.
 
 Select the command you want to assign the new shortcut to, enter a new shortcut by activating the "Enter new Shortcut"-editor and performing the desired keyboard combination. There you will also see if a shortcut is currently assigned to the command or the entered keyboard shortcut.
 
 ## Keyboard shortcuts built in as part of Genus Apps
 
-These keyboard shortcuts apply for Genus Desktop and Genus Studio, and not Genus Apps.
+These keyboard shortcuts apply for Genus Apps for desktop and Genus Studio, and not Genus Apps for web.
 
 The keyboard shortcuts refer to the U.S. keyboard layout. Keys on other layouts might not correspond exactly to the keys on a U.S. keyboard.
 

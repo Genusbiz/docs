@@ -1,8 +1,8 @@
-# Advanced Settings
+# Advanced settings
 
 Some of these settings are defaults that can be [personalized](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md) by individual users.
 
-**Color Setting**
+## Color setting
 
 In the **Color Settings** box in the **Print** section, select the color setting to use as default for printing:
 
@@ -10,7 +10,7 @@ In the **Color Settings** box in the **Print** section, select the color setting
 *   **Black and White** prints douments in black and white only.
 *   **Grayscale** translates colors to shades of gray.
 
-**Report Theme**
+## Report theme
 
 In the **Report Theme** box, in the **Display** section, select the color theme to use for displaying reports:
 
@@ -22,7 +22,7 @@ In the **Report Theme** box, in the **Display** section, select the color theme 
 *   Underwater
 *   Water
 
-**Application Theme**
+## Application theme
 
 In the **Application Theme** box in the **Display** section, select the default theme for the application.
 

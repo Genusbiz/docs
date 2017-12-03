@@ -1,0 +1,22 @@
+{
+  "name": "update-release-notes",
+  "version": "1.0.0",
+  "description": "Push new or changed release notes from Actio to docs.genus.no. Username and password must be stored in update-release-notes.json.",
+  "main": "update-release-notes.js",
+  "scripts": {
+    "start": "node update-release-notes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jtroset",
+  "engines": {
+    "node": ">=8.9.1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "fs": "0.0.1-security",
+    "moment": "^2.19.2",
+    "octonode": "^0.9.1",
+    "request": "^2.83.0"
+  }
+}

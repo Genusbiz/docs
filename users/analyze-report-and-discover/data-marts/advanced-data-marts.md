@@ -1,7 +1,6 @@
-# Advanced data-model concepts
+# Advanced data marts
 
-
-## Add a new field to a Data Source
+## Add a new field to a data source
 
 A data source in a data-mart model is based on an [Object Class](../../../developers/defining-an-app-model/data/object-class/index.md) defined in your Directory, and have fields in the data source that corresponds to [properties](../../../developers/defining-an-app-model/data/object-class-property/index.md "Object Class Property") in the Object Class. A data source of the type **Local Object**, have all the fields defined locally.
 
@@ -38,11 +37,7 @@ Most property settings for fields which are bound to an [Object Class Property](
 *   **Condition-Based Data Validations**. You can add any number of data validations. Note that data validations defined for a field are evaluated after data validations defined for the bound Property.
 
 
+## Add a link table
 
-
-
-
-## Add a Link Table
-
-Put article content here
+_The content is under construction. We are sorry for the inconvenience._
 
