@@ -11,6 +11,9 @@ Deletes all objects contained in a data source, or objects which satisfies a con
 * The data source cannot be part of another data source restricted by security permissions
 * Audit trails are not logged in the event history for the data source
 
+> [!NOTE]
+> If the delete operation not is restricted to objects in the data source, the transaction is committed immediately regardless of the commit settings of any scope the effect is defined within.
+
 ## Delete the sign in history for accounts
 Each time an account signs in, an entry is logged in the sign in history. The log entry contains information such as sign in date, computer name, and IP-address. You can delete log entries for all or a selected set of accounts where the sign in date is older than a number of days, months, or years. To delete all log entries irrespective of age, select **Now** in the **Older Than** box.  
 
