@@ -501,8 +501,8 @@
   items:
   - name: Action orchestration performance and maintainability
     href: guidelines-and-best-practices/action-orchestration-performance-and-maintainability.md
-  - name: Deleting event history and account session history
-    href: guidelines-and-best-practices/deleting-event-history-and-account-session-history.md
+  - name: Deleting log entries in the history
+    href: guidelines-and-best-practices/deleting-log-entries-in-the-history.md
   - name: Improving report performance
     href: guidelines-and-best-practices/improving-report-performance.md
   - name: Improving search performance

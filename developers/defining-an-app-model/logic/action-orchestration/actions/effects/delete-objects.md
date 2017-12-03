@@ -25,4 +25,4 @@ The event history can be deleted for object classes defined in your directory an
 
 See Also
 
-*   [Deleting log entries in the history](../../../../../guidelines-and-best-practices/deleting-event-history-and-account-session-history.md)
+*   [Deleting log entries in the history](../../../../../guidelines-and-best-practices/deleting-log-entries-in-the-history.md)
