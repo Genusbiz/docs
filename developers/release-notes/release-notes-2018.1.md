@@ -50,7 +50,12 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID c983fc7e-70ab-4206-9346-024282be871f -->
+**#22998 Changed serialization to JSON for collection values** (Desktop;Services)
+
+When serializing collection values to JSON, we would in earlier versjons serialize the values as a string containing all values of the collection separated with commas.
+This has now been changed so that the values are serialized as an array with the values serialized in the correct data type.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
