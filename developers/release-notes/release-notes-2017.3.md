@@ -136,7 +136,7 @@ If a user have unsaved data in a form, and attempts to either refresh or leave t
 It is now possible to translate named search fields in a table view
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Bug fixes
+## Resolved issues
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 557bcf77-0891-45e0-81d1-e9908ec4bca7 -->
 **#22904 Stored contract name for Web Service Reference not valid** (Studio)
@@ -208,9 +208,9 @@ There are no tips and hints specifically targeting this release.
 
 ## Change log
 
-* 2017-09-11 Updated with latest bug fixes.
-* 2017-08-11 Updated with latest bug fixes.
-* 2017-07-06 Updated with latest bug fixes.
+* 2017-09-11 Updated with latest resolved issues.
+* 2017-08-11 Updated with latest resolved issues.
+* 2017-07-06 Updated with latest resolved issues.
 * 2017-06-19 Updated with latest release notes.
 * 2017-06-14 Changed stage from Release Candidate to Release (builds starting with 17.230).
 * 2017-06-08 Created.

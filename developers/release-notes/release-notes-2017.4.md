@@ -234,7 +234,7 @@ Functionality provided by the "Import Data" effect.
 The view section that contains table views is moved from the View tab section to the home section
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Bug fixes
+## Resolved issues
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 54e92015-9fb4-4f87-a889-d70fec4f7c44 -->
 **#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Web)

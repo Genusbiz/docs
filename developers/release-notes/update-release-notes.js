@@ -275,11 +275,11 @@ function breakOriginalMarkdownIntoSections(aRelease){
   var section = interpretSection(md,aRelease.name,"minor",end,"<!--rntype06-end","<!--rntype07-start");
   aRelease.originalSections.push(section);
 
-  // From end of MINOR to start of BUGS
+  // From end of MINOR to start of BUGS (= resolved issues)
   var section = interpretSection(md,aRelease.name,"bugs",end,"<!--rntype07-end","<!--rntype08-start");
   aRelease.originalSections.push(section);
 
-  // From end of BUGS to start of ISSUES
+  // From end of BUGS (= resolved issues) to start of ISSUES
   var section = interpretSection(md,aRelease.name,"issues",end,"<!--rntype08-end","<!--rntype09-start");
   aRelease.originalSections.push(section);
 
@@ -408,21 +408,21 @@ function createNewMarkdown(aRelease){
     aRelease.newMarkdown += "There are no minor new functionality in this release.\n";
   aRelease.newMarkdown += "<!--rntype07-end   MINOR." + endTagSuffix;
 
-  // Copy text inbetween MINOR and BUGS from original markdown.
+  // Copy text inbetween MINOR and BUGS (= RESOLVED ISSUES) from original markdown.
   aSection = aRelease.findSection("bugs");
   aRelease.newMarkdown += aSection.content;
 
-  // BUGS
+  // BUGS (= RESOLVED ISSUES)
   rNotes = aRelease.releaseNotes.filter(rn => rn.type == 8);
   rNotesStr = releaseNotesToStr(rNotes);
-  aRelease.newMarkdown += "<!--rntype08-start BUG FIXES." + startTagSuffix;
+  aRelease.newMarkdown += "<!--rntype08-start RESOLVED ISSUES." + startTagSuffix;
   if (rNotesStr != "")
     aRelease.newMarkdown += rNotesStr
   else
-    aRelease.newMarkdown += "There are no bug fixes in this release.\n";
-  aRelease.newMarkdown += "<!--rntype08-end   BUG FIXES." + endTagSuffix;
+    aRelease.newMarkdown += "There are no resolved issues in this release.\n";
+  aRelease.newMarkdown += "<!--rntype08-end   RESOLVED ISSUES." + endTagSuffix;
 
-  // Copy text inbetween BUGS and ISSUES from original markdown.
+  // Copy text inbetween BUGS (= RESOLVED ISSUES) and ISSUES from original markdown.
   aSection = aRelease.findSection("issues");
   aRelease.newMarkdown += aSection.content;
 

@@ -290,7 +290,7 @@ The Markdown tile now accepts more variables, like analysisname, etc.
 **#22993 New action command Apply Selection in analysis** (Desktop;Web)
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Bug fixes
+## Resolved issues
 <!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 4bbd3e58-0da1-45e5-8ffa-58e4f6ab05f8 -->
 **#22957 Improved rendering of Analysis and Map Control.** (Desktop;Studio)
@@ -334,6 +334,6 @@ There are no tips and hints specifically targeting this release.
 * 2017-12-04 Changed stage to Release (builds starting with 17.250.88 or later).
 * 2017-11-21 Changed stage from Beta to Release Candidate (builds starting with 17.250.74 or later).
 * 2017-11-06 Changed stage from Alpha to Beta (builds starting with 17.250.49 or later).
-* 2017-11-03 Updated with installation/upgrade info, breaking changes, bug fixes, and minor new functionalities.
+* 2017-11-03 Updated with installation/upgrade info, breaking changes, resolved issues, and minor new functionalities.
 * 2017-10-27 Created (Alpha stage).
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
