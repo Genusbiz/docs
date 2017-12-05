@@ -411,7 +411,7 @@ This means that it is possible to search for stuff like C# C++, etc.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
-<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 527e2eaa-936d-405c-a382-c1b02b295a9e -->
 **#22755 Zooming on websites on a phone** (Web)
 
@@ -560,7 +560,7 @@ This could occour when making quick selections in radio button groups which had 
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
-<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
