@@ -137,7 +137,7 @@ It is now possible to translate named search fields in a table view
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
-<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 557bcf77-0891-45e0-81d1-e9908ec4bca7 -->
 **#22904 Stored contract name for Web Service Reference not valid** (Studio)
 
@@ -193,7 +193,7 @@ The fields for importing data was not stored in the reference finder xml, and fi
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
-<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
