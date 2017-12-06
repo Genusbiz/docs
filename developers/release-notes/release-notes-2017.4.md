@@ -235,7 +235,7 @@ The view section that contains table views is moved from the View tab section to
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
-<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 54e92015-9fb4-4f87-a889-d70fec4f7c44 -->
 **#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Web)
 
@@ -292,7 +292,12 @@ In some situations the rendered output of these controls has appeared blurry, bu
 
 In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 
-<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--ID f1ad1763-ff5a-4401-b21a-0c485d434199 -->
+**#23000 Filters applied to a report data source are ignored when the report is opened** (Desktop)
+
+Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
+
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
