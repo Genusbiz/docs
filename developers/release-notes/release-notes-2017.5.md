@@ -276,6 +276,11 @@ When creating a new Data Mart, Data Extract or Analysis from Studio in a solutio
 
 When using a table in a Form the table's distribute commands are available in the context menu. Now it is possible to add these commands in the Forms ribbon. The commands work as any other command and are only available when the table is the active control.
 
+<!--ID c01b3e0b-2d2c-4366-9f24-0af40797af1e -->
+**#22979 Improvements to drafting in repeating section** (Web)
+
+When drafting objects in repeating section, it is now possible to draft in two dimensions - with master key field and with another context.
+
 <!--ID 16b75a52-cb45-4e02-b4b2-1d221bff224b -->
 **#22980 Enable table views for user defined actions** (Desktop)
 
@@ -291,7 +296,7 @@ The Markdown tile now accepts more variables, like analysisname, etc.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
-<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 4bbd3e58-0da1-45e5-8ffa-58e4f6ab05f8 -->
 **#22957 Improved rendering of Analysis and Map Control.** (Desktop;Studio)
 
@@ -315,7 +320,12 @@ Clear -> Deselect
 
 Lock/Unlock Selection -> Lock/Unlock
 
-<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--ID f1ad1763-ff5a-4401-b21a-0c485d434199 -->
+**#23000 Filters applied to a report data source are ignored when the report is opened** (Desktop)
+
+Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
+
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
@@ -329,11 +339,6 @@ See
 * https://docs.genus.no/developers/defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.html
 * https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
 * https://www.codeproject.com/Tips/721145/Beware-The-null-coalescing-operator-is-low-in-the
-
-<!--ID c01b3e0b-2d2c-4366-9f24-0af40797af1e -->
-**#22979 Improvements to drafting in repeating section** (Web)
-
-When drafting objects in repeating section, it is now possible to draft in two dimensions - with master key field and with another context.
 
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
