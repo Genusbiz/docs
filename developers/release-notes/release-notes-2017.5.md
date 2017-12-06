@@ -302,6 +302,19 @@ In some situations the rendered output of these controls has appeared blurry, bu
 
 In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 
+<!--ID e9c3af7e-32ef-4332-9b38-d09ef01899b4 -->
+**#22999 (Analysis) New functionality  in dropdown component** (Desktop)
+
+The dropdown component can now filter data runtime.   This can either be done by toggling “Show Excluded”, which will remove disqualified objects, or by toggling “Show Selected”, which will only show selected objects.
+
+In addition, the following actions have been renamed on the component: 
+
+Select All -> Select
+
+Clear -> Deselect
+
+Lock/Unlock Selection -> Lock/Unlock
+
 <!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
