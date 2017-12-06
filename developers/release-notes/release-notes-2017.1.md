@@ -411,7 +411,7 @@ This means that it is possible to search for stuff like C# C++, etc.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
-<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 527e2eaa-936d-405c-a382-c1b02b295a9e -->
 **#22755 Zooming on websites on a phone** (Web)
 
@@ -560,7 +560,12 @@ This could occour when making quick selections in radio button groups which had 
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
-<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--ID f1ad1763-ff5a-4401-b21a-0c485d434199 -->
+**#23000 Filters applied to a report data source are ignored when the report is opened** (Desktop)
+
+Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
+
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
