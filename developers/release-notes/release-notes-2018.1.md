@@ -70,7 +70,7 @@ There are no minor new functionality in this release.
 <!--ID e9c3af7e-32ef-4332-9b38-d09ef01899b4 -->
 **#22999 (Analysis) New functionality  in dropdown component** (Desktop)
 
-The dropdown component can now filter data runtime.   This can either be done by toggling “Show Excluded”, which will remove disqualified objects, or by toggling “Show Selected”, which will only show selected objects.
+The dropdown component can now filter data runtime.   This can either be done by toggling "Show Excluded", which will remove disqualified objects, or by toggling "Show Selected", which will only show selected objects.
 
 In addition, the following actions have been renamed on the component: 
 
