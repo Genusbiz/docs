@@ -330,6 +330,11 @@ Filters applied in a *Run a Report* effect are ignored when the report is opened
 
 The Analysis and Map control would sometimes not be rendered correctly in cases where the display scaling in Windows is set to other value than 100% due to a rounding error. This issue has now been corrected.
 
+<!--ID 3533f01e-7eeb-49ad-a3a7-a7e11416b00f -->
+**#23003 Fixed Select First syntax on DB2** (Desktop)
+
+Some DB2 databases don't support Limit/offset. Change from using Limit to Fetch First xxx Rows Only
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
