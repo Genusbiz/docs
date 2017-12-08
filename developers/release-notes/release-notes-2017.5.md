@@ -325,6 +325,11 @@ Lock/Unlock Selection -> Lock/Unlock
 
 Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
 
+<!--ID e49501ce-7bdb-488b-95c9-d5aec4fed08d -->
+**#23001 Fixed rendering of Analysis and Maps in the desktop client** (Desktop)
+
+The Analysis and Map control would sometimes not be rendered correctly in cases where the display scaling in Windows is set to other value than 100% due to a rounding error. This issue has now been corrected.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
