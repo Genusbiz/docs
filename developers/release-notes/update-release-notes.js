@@ -179,12 +179,23 @@ function callOperationsSampleRestService(){
 }
 
 // ------------------------------------------------------------
+// The expression [^\x00-\x7E] matches any character NOT in the codepoint
+// range 0x00 to 0x7E (127, the tidle '~' character), all others will be removed.  
+function removeNonAsciiChars(str){
+  return str.replace(/[^\x00-\x7E]+/g, '');
+}
+
+// ------------------------------------------------------------
 function readReleaseNoteFileFromGitHub(release) {
   return new Promise((resolve,reject) => {
     ghrepo.contents('developers/release-notes/release-notes-' + release.name + '.md', 
     function(err,data,headers){
       if (headers && headers.status == "200 OK") {
-        release.originalMarkdown = atob(data.content);
+        // Uncertain what the problem is, but high codepoint characters received
+        // from Actio transported to GitHub, comes back in a different character
+        // encoding (from GitHub). Both should be UTF-8...
+        // Removing higher code points as a quick fix... 
+        release.originalMarkdown = removeNonAsciiChars(atob(data.content));
         release.originalExist = true;
         release.sha = data.sha;
         resolve(release);
