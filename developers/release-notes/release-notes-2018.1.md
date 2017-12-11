@@ -108,6 +108,11 @@ Some DB2 databases don't support Limit/offset. Change from using Limit to Fetch 
 
 Ignore selection will now work on formulas and formula values, regardless if the tile's category data source is affected by the selection
 
+<!--ID db9bee1e-37d3-4fd2-a296-d0bc81cd4f5e -->
+**#23006 Active object not nullified by combo box control** (Desktop)
+
+Active object not nullfied when current selected item is cleared in a combo box control with binding type *Object*.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
