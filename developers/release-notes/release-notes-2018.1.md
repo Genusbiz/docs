@@ -44,7 +44,11 @@ Since Sybase is not used by our customers anymore, the support for this database
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There is no deprecated functionality in this release.
+<!--ID a12a57fd-0fdd-4d29-9edf-1f7c18988de6 -->
+**#23004 Removing on Lost Focus from ComboBox** (Web)
+
+Removing on Lost Focus from Combobox, as it does not consistently across browsers, and in most cases, it is more correct to use on Value Changed.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
