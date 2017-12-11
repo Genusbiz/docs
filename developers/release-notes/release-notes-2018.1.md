@@ -29,11 +29,6 @@ For general information about installing and upgrading Genus Apps, see [here](..
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 9510cfad-24ff-4db4-9791-380be25f2db8 -->
-**#22995 Versions of Microsoft Windows Server older than 2016 not longer supported** (Services)
-
-Genus Server now requires Microsoft Windows Server 2016 for installation of Genus Services.
-
 <!--ID 97dcb628-3db3-44ea-b25e-d7232ec68943 -->
 **#22997 The support for Sybase is removed** (Services)
 
@@ -44,6 +39,11 @@ Since Sybase is not used by our customers anymore, the support for this database
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID b3c72df2-cb9d-4fe9-a30f-b56b82aaab69 -->
+**#22994 Versions of Microsoft Windows Server older than 2016** (Services)
+
+From the next release 2018.2, Genus Server will require Microsoft Windows Server 2016 for installation of Genus Services.
+
 <!--ID a12a57fd-0fdd-4d29-9edf-1f7c18988de6 -->
 **#23004 Removing on Lost Focus from ComboBox** (Web)
 
