@@ -335,6 +335,11 @@ The Analysis and Map control would sometimes not be rendered correctly in cases 
 
 Some DB2 databases don't support Limit/offset. Change from using Limit to Fetch First xxx Rows Only
 
+<!--ID a7a64fda-8a2c-40ce-b136-a38627bf29c8 -->
+**#23005 Ignore selection in formulas** (Desktop)
+
+Ignore selection will now work on formulas and formula values, regardless if the tile's category data source is affected by the selection
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
