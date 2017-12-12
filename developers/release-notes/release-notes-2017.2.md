@@ -213,8 +213,8 @@ The administrator must enable FILESTREAM at the SQL Server Service, including "E
 This means that it is possible to search for stuff like C# C++, etc.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Bug fixes
-<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+## Resolved issues
+<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID d8c70df5-3485-44c3-824b-176c9b681430 -->
 **#22871 Fixed problem with images not showing when merging data with an Excel template to Html format** (Desktop)
 
@@ -287,7 +287,12 @@ This could occour when making quick selections in radio button groups which had 
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
-<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--ID f1ad1763-ff5a-4401-b21a-0c485d434199 -->
+**#23000 Filters applied to a report data source are ignored when the report is opened** (Desktop)
+
+Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
+
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
@@ -308,14 +313,14 @@ There are no tips and hints specifically targeting this release.
 
 ## Change log
 
-* 2017-09-11 Updated with latest bug fixes.
-* 2017-07-06 Updated with latest Bug fixes.
-* 2017-05-09 Updated with latest Bug fixes and changed status from Release Candidate to Release.
+* 2017-09-11 Updated with latest resolved issues.
+* 2017-07-06 Updated with latest resolved issues.
+* 2017-05-09 Updated with latest resolved issues and changed status from Release Candidate to Release.
 * 2017-05-03 Added summary of Analysis enhancements in Major new functionality.
 * 2017-05-02 Updated with latest Minor new functionality. Changed status from Beta to Release Candidate.
 * 2017-04-24 Updated with latest Minor new functionality and Installation / upgrading. Changed status from Alpha to Beta.
-* 2017-04-11 Updated with latest Minor new functionality, Bug fixes and Known issues.
-* 2017-04-03 Updated with latest Minor new functionality and Bug fixes.
+* 2017-04-11 Updated with latest Minor new functionality, Resolved issues and Known issues.
+* 2017-04-03 Updated with latest Minor new functionality and Resolved issues.
 * 2017-03-27 Changed status from Pre-Alpha to Alpha.
 * 2017-03-24 Created (Pre-Alpha).
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->

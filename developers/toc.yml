@@ -447,6 +447,8 @@
       href: installation-and-configuration/install-genus-registry-settings.md
   - name: Install Genus Services on an application server
     href: installation-and-configuration/install-genus-server-on-an-application-server.md
+  - name: Install and configure Genus Apps for Web
+    href: installation-and-configuration/install-genus-apps-for-web.md
   - name: Install a license on Genus Services
     href: installation-and-configuration/install-license-on-genus-server.md
   - name: Configure and maintain Genus Services
@@ -499,8 +501,8 @@
   items:
   - name: Action orchestration performance and maintainability
     href: guidelines-and-best-practices/action-orchestration-performance-and-maintainability.md
-  - name: Deleting event history and account session history
-    href: guidelines-and-best-practices/deleting-event-history-and-account-session-history.md
+  - name: Deleting log entries in the history
+    href: guidelines-and-best-practices/deleting-log-entries-in-the-history.md
   - name: Improving report performance
     href: guidelines-and-best-practices/improving-report-performance.md
   - name: Improving search performance
@@ -509,8 +511,8 @@
     href: guidelines-and-best-practices/improving-genus-apps-performance.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
-  - name: Genus Apps hardening (HTTPS security headers)
-    href: guidelines-and-best-practices/genus-apps-hardening.md
+  - name: Genus Apps for web hardening
+    href: guidelines-and-best-practices/genus-apps-for-web-hardening.md
   - name: Web service guidelines
     href: guidelines-and-best-practices/web-service-guidelines.md
     items:
@@ -575,7 +577,7 @@
   items:
   - name: Version 2018.1 (Pre-alpha)
     href: release-notes/release-notes-2018.1.md
-  - name: Version 2017.5 (Release Candidate)
+  - name: Version 2017.5
     href: release-notes/release-notes-2017.5.md
   - name: Version 2017.4
     href: release-notes/release-notes-2017.4.md

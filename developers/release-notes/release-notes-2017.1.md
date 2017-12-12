@@ -410,8 +410,8 @@ Added optional field for assigning old password when a new password is set. The 
 This means that it is possible to search for stuff like C# C++, etc.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Bug fixes
-<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+## Resolved issues
+<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 527e2eaa-936d-405c-a382-c1b02b295a9e -->
 **#22755 Zooming on websites on a phone** (Web)
 
@@ -560,7 +560,12 @@ This could occour when making quick selections in radio button groups which had 
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
-<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--ID f1ad1763-ff5a-4401-b21a-0c485d434199 -->
+**#23000 Filters applied to a report data source are ignored when the report is opened** (Desktop)
+
+Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
+
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
@@ -575,14 +580,14 @@ There are no tips and hints specifically targeting this release.
 
 ## Change log
 
-* 2017-09-11 Updated with latest bug fixes.
-* 2017-07-06 Updated with latest Bug fixes.
-* 2017-04-11 Updated with latest Bug fixes.
-* 2017-04-03 Updated with latest Minor new functionality and Bug fixes.
-* 2017-03-06 Changed status to Release (builds starting with 017.100). New items added to Breaking changes, Bug fixes and Minor new functionalitities.
-* 2017-02-10 Changed status from Beta to Release Candidate. Updated with latest release notes (Installation/upgrading, Breaking changes, Minor new functionality, Bug fixes).
+* 2017-09-11 Updated with latest Resolved issues.
+* 2017-07-06 Updated with latest Resolved issues.
+* 2017-04-11 Updated with latest Resolved issues.
+* 2017-04-03 Updated with latest Minor new functionality and Resolved issues.
+* 2017-03-06 Changed status to Release (builds starting with 017.100). New items added to Breaking changes, Resolved issues and Minor new functionalitities.
+* 2017-02-10 Changed status from Beta to Release Candidate. Updated with latest release notes (Installation/upgrading, Breaking changes, Minor new functionality, Resolved issues).
 * 2017-01-03 Updated with latest release notes (Minor new functionality).
 * 2016-12-27 Changed status from Alpha to Beta.
-* 2016-12-20 Updated with latest Minor new functionality and Bug fixes.
+* 2016-12-20 Updated with latest Minor new functionality and Resolved issues.
 * 2016-12-06 Created (Alpha).
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->

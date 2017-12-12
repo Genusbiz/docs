@@ -8,7 +8,7 @@
         ],
         "exclude": [
           "_site/**",
-          "node_modules/**"
+          "**/node_modules/**"
         ]
       }
     ],
@@ -23,7 +23,8 @@
           "**/*.config"
         ],
         "exclude": [
-          "_site/**"
+          "_site/**",
+          "**/node_modules/**"
         ]
       }
     ],

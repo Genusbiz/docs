@@ -66,7 +66,11 @@ There are no end-of-life functionality identified in this release.
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There is no deprecated functionality in this release.
+<!--ID 568b45e9-f52b-4b09-a881-baf842230150 -->
+**#22996 Support for Sybase will be removed** (Services)
+
+Since Sybase is not used by our customers anymore, the support for this database system will be removed in Genus Apps release 2018.1. Support for Sybase may be reintroduced based on customer demand.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
@@ -119,6 +123,64 @@ For more information, see https://docs.genus.no/developers/defining-an-app-model
 **#22953 Access to Discovery shortcuts** (Desktop)
 
 In the previous version all users had access to all the shortcuts under the Discovery view button. In 2017.5, these shortcuts are handled as any other shortcuts and the business enginer can add and remove access. Genus update will give every one read and execute access to all the discovery shortcuts.
+
+<!--ID c2b3fee3-d0d9-4d92-acd9-102e7bc8cfa1 -->
+**#22981 New tile type Timeslider in analysis** (Desktop;Web)
+
+The timeslider tile simplifies selecting a date range and manipulating that selection.
+
+<!--ID 7dd5c983-0a85-4494-b2d5-c2cb89aa3bba -->
+**#22982 New tile type Treemap in analysis** (Desktop;Web)
+
+The Treemap tile is a great way of visualizing a two level breakdown of a value.
+
+<!--ID e237f317-10d1-43c5-a310-af940d59c184 -->
+**#22983 New tile type Sunburst in analysis** (Desktop;Web)
+
+The Sunburst tile is a great way of visualizing a two level breakdown of a value.
+
+<!--ID 864acfc0-b84c-4d68-b9ac-fecd6df03eef -->
+**#22984 New tile type List in analysis** (Desktop;Web)
+
+The List is a simplified table with a single column. The List requires a single category as its only configuration option. Is has no column header and no column alignment options.
+
+<!--ID f505ee1c-2917-47fe-8f24-11d7700ad72b -->
+**#22985 New tile type Subset in analysis** (Desktop;Web)
+
+The Subset tile type allows using predefined subsets as quick way of selecting multiple objects in a single operation. The tile supports add, keep, remove and set operations on the selections.
+
+<!--ID 6b7b8465-c8ab-4709-a124-56d83ff95007 -->
+**#22986 New tile type Event Line in analysis** (Desktop;Web)
+
+THe Event Line is a visualization of events as circles along a horizontal time axis.
+The size of the circles can be bound to a value.
+The position of the circles in vertical direction above the time axis can be bound to a value.
+The color of the circles can be bound to a value.
+
+<!--ID 07102e06-a332-499e-a3e0-416a27e9bdfa -->
+**#22987 Completely revamped tile type Dropdown** (Desktop;Web)
+
+The Dropdown tile is changed so that selections are made within a dialog instead of a dropdown. This makes the tile static in size and thus easier to configure.
+
+<!--ID 0cc6781c-5f86-4422-a6a4-aa789c33a019 -->
+**#22989 Analytics tab in tile designer** (Desktop;Web)
+
+On the Analytics tile metrics like min, max, average and trend can be added to Line Charts (and more to come).
+
+<!--ID 4aad4852-c722-44d4-9678-2418033e714c -->
+**#22990 Require Selection on tile in analysis** (Desktop;Web)
+
+A tile can set requirements to how many (min and max) objects must be selected of some type. The tile will not display until the requirement is met. The feature can be use to prevent meaningless results where a selection is required, or to prevent listing of large amounts of data.
+
+<!--ID da68875b-3b70-4adf-a2f6-d2af9883d7e4 -->
+**#22991 Ignore Selection on value in analysis** (Desktop;Web)
+
+By using Ignore Selection on a value, a tile can display values for excluded objects. It has previously only been available in a formula on a calculated field.
+
+<!--ID 2372d2ca-a866-43f8-b689-0a1c43f5dc8b -->
+**#22992 Initial Selection in analysis** (Desktop;Web)
+
+An Initial Selection can now be set on an analysis. Clicking reset will return to the initial selection.
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
@@ -209,14 +271,27 @@ When creating a new Data Mart, Data Extract or Analysis from Studio in a solutio
 
 When using a table in a Form the table's distribute commands are available in the context menu. Now it is possible to add these commands in the Forms ribbon. The commands work as any other command and are only available when the table is the active control.
 
+<!--ID c01b3e0b-2d2c-4366-9f24-0af40797af1e -->
+**#22979 Improvements to drafting in repeating section** (Web)
+
+When drafting objects in repeating section, it is now possible to draft in two dimensions - with master key field and with another context.
+
 <!--ID 16b75a52-cb45-4e02-b4b2-1d221bff224b -->
 **#22980 Enable table views for user defined actions** (Desktop)
 
-When defining Open Table actions in an analysis it is possible to select tables views with this option set. In version 2017.4 it was only possible to select a table, not witch view to open.
+When defining Open Table actions in an analysis it is possible to select tables views with this option set. In version 2017.4 it was only possible to select a table, not which view to open.
+
+<!--ID 1eed1152-5cab-4038-a47e-d63ee0512457 -->
+**#22988 Enhanced tile type Markdown** (Desktop;Web)
+
+The Markdown tile now accepts more variables, like analysisname, etc.
+
+<!--ID 13852a52-09a6-46f3-9348-5b7d4d95f759 -->
+**#22993 New action command Apply Selection in analysis** (Desktop;Web)
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Bug fixes
-<!--rntype08-start BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+## Resolved issues
+<!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 4bbd3e58-0da1-45e5-8ffa-58e4f6ab05f8 -->
 **#22957 Improved rendering of Analysis and Map Control.** (Desktop;Studio)
 
@@ -227,7 +302,45 @@ In some situations the rendered output of these controls has appeared blurry, bu
 
 In cases where fields were not bound in the definition, the resulting JSON-data would be incomplete.
 
-<!--rntype08-end   BUG FIXES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--ID e9c3af7e-32ef-4332-9b38-d09ef01899b4 -->
+**#22999 (Analysis) New functionality  in dropdown component** (Desktop)
+
+The dropdown component can now filter data runtime.   This can either be done by toggling "Show Excluded", which will remove disqualified objects, or by toggling "Show Selected", which will only show selected objects.
+
+In addition, the following actions have been renamed on the component: 
+
+Select All -> Select
+
+Clear -> Deselect
+
+Lock/Unlock Selection -> Lock/Unlock
+
+<!--ID f1ad1763-ff5a-4401-b21a-0c485d434199 -->
+**#23000 Filters applied to a report data source are ignored when the report is opened** (Desktop)
+
+Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
+
+<!--ID e49501ce-7bdb-488b-95c9-d5aec4fed08d -->
+**#23001 Fixed rendering of Analysis and Maps in the desktop client** (Desktop)
+
+The Analysis and Map control would sometimes not be rendered correctly in cases where the display scaling in Windows is set to other value than 100% due to a rounding error. This issue has now been corrected.
+
+<!--ID 3533f01e-7eeb-49ad-a3a7-a7e11416b00f -->
+**#23003 Fixed Select First syntax on DB2** (Desktop)
+
+Some DB2 databases don't support Limit/offset. Change from using Limit to Fetch First xxx Rows Only
+
+<!--ID a7a64fda-8a2c-40ce-b136-a38627bf29c8 -->
+**#23005 Ignore selection in formulas** (Desktop)
+
+Ignore selection will now work on formulas and formula values, regardless if the tile's category data source is affected by the selection
+
+<!--ID db9bee1e-37d3-4fd2-a296-d0bc81cd4f5e -->
+**#23006 Active object not nullified by combo box control** (Desktop)
+
+Active object not nullfied when current selected item is cleared in a combo box control with binding type *Object*.
+
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
@@ -242,11 +355,6 @@ See
 * https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
 * https://www.codeproject.com/Tips/721145/Beware-The-null-coalescing-operator-is-low-in-the
 
-<!--ID c01b3e0b-2d2c-4366-9f24-0af40797af1e -->
-**#22979 Improvements to drafting in repeating section** (Web)
-
-When drafting objects in repeating section, it is now possible to draft in two dimensions - with master key field and with another context.
-
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
@@ -256,8 +364,9 @@ There are no tips and hints specifically targeting this release.
 
 ## Change log
 
+* 2017-12-04 Changed stage to Release (builds starting with 17.250.88 or later).
 * 2017-11-21 Changed stage from Beta to Release Candidate (builds starting with 17.250.74 or later).
 * 2017-11-06 Changed stage from Alpha to Beta (builds starting with 17.250.49 or later).
-* 2017-11-03 Updated with installation/upgrade info, breaking changes, bug fixes, and minor new functionalities.
+* 2017-11-03 Updated with installation/upgrade info, breaking changes, resolved issues, and minor new functionalities.
 * 2017-10-27 Created (Alpha stage).
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->

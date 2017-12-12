@@ -8,19 +8,36 @@ var atob    = require('atob');
 var fs      = require('fs');
 var moment  = require('moment');
 
-// Read and check command line arguments.
-if (process.argv.length != 4) {
-  console.log("usage: node update-release-notes.js git-username git-password");
-  process.exit(1);
-}
+var githubUsername;
+var githubPassword;
 
-var gitUsername = process.argv[2];
-var gitPassword = process.argv[3];
+// Read parameters.
+if (process.argv.length == 2) {
+  // E.g. "node update-release-notes.js" => Fetch from config file.
+  try {
+    var config = require('./update-release-notes.json');
+    githubUsername = config.githubDocsUsername;
+    githubPassword = config.githubDocsPassword;
+  }
+  catch (error) {
+    console.log(error);
+    process.exit(1);
+  }
+}
+else if (process.argv.length == 4) {
+  // E.g. "node update-release-notes.js aUsername aPassoword" => Fetch from command line params.
+  githubUsername = process.argv[2];
+  githubPassword = process.argv[3];
+}
+else  {
+  console.log("usage: node update-release-notes.js [git-username git-password]");
+  process.exit(1);
+};
 
 // Log into github.
 var client = github.client({
-  username: gitUsername,
-  password: gitPassword
+  username: githubUsername,
+  password: githubPassword
 });
 
 // Get ref to repos.
@@ -162,12 +179,23 @@ function callOperationsSampleRestService(){
 }
 
 // ------------------------------------------------------------
+// The expression [^\x00-\x7E] matches any character NOT in the codepoint
+// range 0x00 to 0x7E (127, the tidle '~' character), all others will be removed.  
+function removeNonAsciiChars(str){
+  return str.replace(/[^\x00-\x7E]+/g, '');
+}
+
+// ------------------------------------------------------------
 function readReleaseNoteFileFromGitHub(release) {
   return new Promise((resolve,reject) => {
     ghrepo.contents('developers/release-notes/release-notes-' + release.name + '.md', 
     function(err,data,headers){
       if (headers && headers.status == "200 OK") {
-        release.originalMarkdown = atob(data.content);
+        // Uncertain what the problem is, but high codepoint characters received
+        // from Actio transported to GitHub, comes back in a different character
+        // encoding (from GitHub). Both should be UTF-8...
+        // Removing higher code points as a quick fix... 
+        release.originalMarkdown = removeNonAsciiChars(atob(data.content));
         release.originalExist = true;
         release.sha = data.sha;
         resolve(release);
@@ -258,11 +286,11 @@ function breakOriginalMarkdownIntoSections(aRelease){
   var section = interpretSection(md,aRelease.name,"minor",end,"<!--rntype06-end","<!--rntype07-start");
   aRelease.originalSections.push(section);
 
-  // From end of MINOR to start of BUGS
+  // From end of MINOR to start of BUGS (= resolved issues)
   var section = interpretSection(md,aRelease.name,"bugs",end,"<!--rntype07-end","<!--rntype08-start");
   aRelease.originalSections.push(section);
 
-  // From end of BUGS to start of ISSUES
+  // From end of BUGS (= resolved issues) to start of ISSUES
   var section = interpretSection(md,aRelease.name,"issues",end,"<!--rntype08-end","<!--rntype09-start");
   aRelease.originalSections.push(section);
 
@@ -391,21 +419,21 @@ function createNewMarkdown(aRelease){
     aRelease.newMarkdown += "There are no minor new functionality in this release.\n";
   aRelease.newMarkdown += "<!--rntype07-end   MINOR." + endTagSuffix;
 
-  // Copy text inbetween MINOR and BUGS from original markdown.
+  // Copy text inbetween MINOR and BUGS (= RESOLVED ISSUES) from original markdown.
   aSection = aRelease.findSection("bugs");
   aRelease.newMarkdown += aSection.content;
 
-  // BUGS
+  // BUGS (= RESOLVED ISSUES)
   rNotes = aRelease.releaseNotes.filter(rn => rn.type == 8);
   rNotesStr = releaseNotesToStr(rNotes);
-  aRelease.newMarkdown += "<!--rntype08-start BUG FIXES." + startTagSuffix;
+  aRelease.newMarkdown += "<!--rntype08-start RESOLVED ISSUES." + startTagSuffix;
   if (rNotesStr != "")
     aRelease.newMarkdown += rNotesStr
   else
-    aRelease.newMarkdown += "There are no bug fixes in this release.\n";
-  aRelease.newMarkdown += "<!--rntype08-end   BUG FIXES." + endTagSuffix;
+    aRelease.newMarkdown += "There are no resolved issues in this release.\n";
+  aRelease.newMarkdown += "<!--rntype08-end   RESOLVED ISSUES." + endTagSuffix;
 
-  // Copy text inbetween BUGS and ISSUES from original markdown.
+  // Copy text inbetween BUGS (= RESOLVED ISSUES) and ISSUES from original markdown.
   aSection = aRelease.findSection("issues");
   aRelease.newMarkdown += aSection.content;
 

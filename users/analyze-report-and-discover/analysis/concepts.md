@@ -90,32 +90,31 @@ A *Formula* is one of the possible forms a [Value](#value) can take. It constitu
 A formula is simply an array of nodes, which together contitutes an expression. A formula can consist of the following node types:
 * operand nodes - a numeric constant or a [Value](#value) reference
 * operator node - represents the arithmetic operation (addition, multiplication etc.) that is to be applied to its left and right nodes
-* groupStart/function node - represents the start of a group/sub formula and a (optional) function that is to be applied to the result of this sub formula
-* groupEnd node - represents the end of a group/sub formula
+* group start node - represents the start of a group (e.g. `(`, or with an optional function, `floor(`)
+* group end node - represents the end of a group
 
 Example: `(2+3)-A`  
-The above formula consists of 7 nodes; a groupStart `(`, a constant operand `2`, an addition operator `+`, another constant operand `3`, a groupEnd `)`, a subtraction operator `-`, and a value reference operand `A` (where `A` is pointing to a [Value](#value). Additionaly, `(2+3)` is a group/sub formula.
+The above formula consists of 7 nodes; a groupStart, `(`, a constant operand, `2`, an addition operator, `+`, another constant operand, `3`, a groupEnd, `)`, a subtraction operator, `-`, and a value reference operand, `A` (where `A` is pointing to a [Value](#value). Additionaly, `(2+3)` is a group that will be calculated by itself.
 
 ### Operand node
 An operand node can be either of these:
 * a numeric constant
-* a [Value](#value) reference - upon calculation, it gets the actual data value of the referenced Value - if no data was found it will resolve to zero (0) by default ("Zero if missing"). You can change this by clicking the edit icon or double clicking the node
-* an `If...then` statement, where a condition (comparing [Value](#value) references and/or constants) is tested. If the condition is true, it returns one Value or constant, else it return another value or constant.
+* a [Value](#value) reference - upon calculation, it gets the actual data value of the referenced Value - if no data was found it will resolve to zero (0) by default (decided by the "Zero if missing" option). You can change this setting per operand by clicking the edit icon or double clicking the operand node
+* an *If...then* statement, where a condition (comparing [Value](#value) references and/or constants) is tested. If the condition is true, it returns one Value or constant, else it return another Value or constant.
 
 ### Operator node
 An operator node represents an arithmetic operation that is to be applied on two constants.  
 Example: In `x+y`, `+` is the operator node, denoting that the operands `x` and `y` are to be added. An operator expects its children (i.e. its left and right nodes) to be either operands or groups, i.e. that they will represent numeric constants upon calculation.
 
 ### Group nodes
-The part between a groupStart node, denoted by a left parenthesis, e.g. `(`, and a groupEnd node, denoted by a right parenthesis, i.e. `)`, constitutes a sub formula that is to be computed by itself before being applied to the main formula.  
+The part between a groupStart node, denoted by a left parenthesis, e.g. `(`, and a groupEnd node, denoted by a right parenthesis, i.e. `)`, constitutes a node group that is to be computed by itself before being applied to the main formula.  
 
-Example: `x-(4/2)`
-In the above formula, the group `(4/2)` consitutes a sub formula that will be computed by itself before the rest of the formula can be computed.
+Example: `x-(4/2)`  
+In the above formula, the group `(4/2)` consitutes a group that will be computed by itself before the rest of the formula can be computed.
 
-A group can (optionally) have a function attached to itself. This function will be applied to the result of the group sub formula.
-The available group function types are (where `x` is a sub formula)
-* floor, denoted `floor(x)`. Returns the largest integer less than or equal to `x`
-* ceil, denoted `ceil(x)`. Returns the smallest integer greater than or equal to `x`
-* round, denoted `round(x)`. Returns the value of `x` rounded to the nearest integer
-* sqrt, denoted `sqrt(x)`. Returns the square root of `x`
-* zeroIfMissing, denoted `zeroIfMissing(x)`. Returns `0` if `x` has no value, otherwise it returns the value of `x`.
+A group can also have a function attached to itself. This function will be applied to the result of the group. The available group function types are:
+* ***floor***, denoted `floor(x+y)`. Returns the largest integer less than or equal to `x+y`
+* ***ceil***, denoted `ceil(x+y)`. Returns the smallest integer greater than or equal to `x+y`
+* ***round***, denoted `round(x+y)`. Returns the value of `x+y` rounded to the nearest integer
+* ***sqrt***, denoted `sqrt(x+y)`. Returns the square root of `x+y`
+* ***zeroIfMissing***, denoted `zeroIfMissing(x+y)`. Returns 0 if `x+y` has no value, otherwise it returns the value of `x+y`.

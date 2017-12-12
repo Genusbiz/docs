@@ -48,7 +48,7 @@ This control allows you to display and edit passwords. While the password is acc
 
 Property      | Description
 --------------|------------------------------------------------------------------------
-Password Char | The character to display for each of the entered characters in the passoword.
+Password Char | The character to display for each of the entered characters in the password.
 
 
 ## Rich Text Edit
