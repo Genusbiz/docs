@@ -15,7 +15,7 @@ In the **DATA** tab you can find the following options:
 * **Ignore Selection** - Multiple datas sources can be selected. Selections in any of the specified data sources done in the analysis will be ignored when aggregating values.
 
 In the **FORMAT** tab you can find the following options:
-* **Number Format** - Specify any number format.
+* **Number Format** - Specify any [number format](number-format.md).
 * **Data Point Symbol** - Used to specify a value dependant symbol for the data point.
 * **Data Point Color** - Used to specify a value dependant color for the data point.
 * **Data Point Label** - Can be On | Off | Auto. Selectiong "On" (v.2018.1->) displays a field for writing a data point label. The data point label can merge parameters into the text by enclosing them in brackets. E.g: "{name} has value: {value}". On is only implemented for some tile types. If not implemented it works like Auto. Auto dislays the default data point label. Off hides the data point label.
