@@ -75,7 +75,7 @@ Added a tip to view name when selection table views in different contexts
 <!--ID 85793531-a348-4549-8c3c-ba2a47fc2123 -->
 **#23007 (Analysis) Two dimensional grid now supports sorting** (Desktop)
 
-The two dimensional grid can now be sorted on both horizontal and vertical category. The setting is available in the designer under “Format” -> “Sort and Limit”
+The two dimensional grid can now be sorted on both horizontal and vertical category. The setting is available in the designer under "Format" -> "Sort and Limit"
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
