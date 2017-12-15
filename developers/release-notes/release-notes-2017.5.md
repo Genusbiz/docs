@@ -340,6 +340,9 @@ Ignore selection will now work on formulas and formula values, regardless if the
 
 Active object not nullfied when current selected item is cleared in a combo box control with binding type *Object*.
 
+<!--ID 50f959c7-4bba-4f8c-b51f-456828f798bf -->
+**#23008 Fixed problem with serialization of non-ascii characters when exporting JSON** (Desktop;Services)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
