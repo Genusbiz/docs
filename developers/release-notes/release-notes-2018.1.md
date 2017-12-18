@@ -123,6 +123,9 @@ Active object not nullfied when current selected item is cleared in a combo box 
 
 If a property that the user don’t have access to is listed, the column is removed. But if we have multiple rows, the column may still be created, but the cell for the given object is not created. If this object is updated we may try to update the column in the list and this caused Genus to crash.
 
+<!--ID 919b8eda-dfd0-4237-a445-5e2d18d14ab7 -->
+**#23010 Genus terminates when saving a data mart containing incomplete or invalid calculated fields** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
