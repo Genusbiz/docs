@@ -126,6 +126,11 @@ If a property that the user don’t have access to is listed, the column is remo
 <!--ID 919b8eda-dfd0-4237-a445-5e2d18d14ab7 -->
 **#23010 Genus terminates when saving a data mart containing incomplete or invalid calculated fields** (Desktop)
 
+<!--ID c5165b37-297c-48d3-b6d8-15c41162c041 -->
+**#23011 Filter method for 16-bit integer object class properties is set to *None* as default** (Studio)
+
+Changed behavior. By default the filter method is set to *Number and Text Operators* when the property is created. If the data interpretation is changed to *Boolean*, the filter method is set to *Boolean Operator*.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
