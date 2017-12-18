@@ -37,6 +37,10 @@ _ID-porten_
 
 *   **On missing account**. For a sign in attempt through ID-porten, it is possible to automatically create a new account if one does not already exist. To create an account automatically, select **Automatically create an account**. To reject a sign in attempt with a missing account, select **Reject sign in attempt**.
 
+_Trusted Zone_
+
+*   **On missing account**. For a sign in attempt with Trusted Zone, it is possible to automatically create a new account if one does not already exist. To create an account automatically, select **Automatically create an account**. To reject a sign in attempt with a missing account, select **Reject sign in attempt**.
+
 _Common_
 
 *   **Add new accounts to security group**. To add a new account automatically to a security group when the account is created, select the security group. Otherwise leave the box blank.
