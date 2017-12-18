@@ -32,7 +32,7 @@ A data mart must be scheduled to load at one ore more servers before it will be 
 For a data mart server to provide any services it must be added to the directory as a node, and added to a node group.
 *    A server must have a corresponding node configured under **Services** -> **Nodes** in Genus Studio. Double-click on the relevant node configuration in the **Nodes** table, or click **New** to make a new configuration.
     *   The **Identifying Name** should be the name of the server as shown in **Control Panel** -> **System and Security** -> **System**, without domain! Eg. `myserver`, not `myserver.mynetwork.com` 
-    *   **HTTP Address** must be set correctly as a valid URL containing a scheme, host, and an optional port only. `https://myserver.mynetwork.com:8080` is an example of a valid adress.
+    *   **HTTP Address** must be set correctly as a valid URL containing a scheme, host, and an optional port only. `http://myserver.mynetwork.com:8080` is an example of a valid address.
     *   If this server only should handle requests for a single dataset, the corresponding data set must be chosen under **Data Set Dependent Services** (i.e. "**Run for**").
     *   To allow this server to handle data mart requests, the **Data Mart Service** option must be checked. 
 *   A node must be included in a node group under **Services** -> **Node Groups** in Genus Studio.
