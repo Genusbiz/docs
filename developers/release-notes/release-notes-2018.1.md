@@ -131,6 +131,11 @@ If a property that the user don’t have access to is listed, the column is remo
 
 Changed behavior. By default the filter method is set to *Number and Text Operators* when the property is created. If the data interpretation is changed to *Boolean*, the filter method is set to *Boolean Operator*.
 
+<!--ID f24d463b-d004-40dc-b17b-838b78ccad66 -->
+**#23012 (Analysis) Background Image not being displayed on tile** (Desktop)
+
+Fixed an issue that in some cases could lead to the background image not being displayed correctly.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
