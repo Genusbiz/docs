@@ -343,6 +343,11 @@ Active object not nullfied when current selected item is cleared in a combo box 
 <!--ID 50f959c7-4bba-4f8c-b51f-456828f798bf -->
 **#23008 Fixed problem with serialization of non-ascii characters when exporting JSON** (Desktop;Services)
 
+<!--ID d70f0f2d-3f55-44ac-acd1-a76152d6e366 -->
+**#23009 Fixed problem with updating cells where the user don't have read access.** (Desktop)
+
+If a property that the user don’t have access to is listed, the column is removed. But if we have multiple rows, the column may still be created, but the cell for the given object is not created. If this object is updated we may try to update the column in the list and this caused Genus to crash.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
