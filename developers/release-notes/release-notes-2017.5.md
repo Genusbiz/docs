@@ -289,6 +289,11 @@ The Markdown tile now accepts more variables, like analysisname, etc.
 <!--ID 13852a52-09a6-46f3-9348-5b7d4d95f759 -->
 **#22993 New action command Apply Selection in analysis** (Desktop;Web)
 
+<!--ID 591be5dd-b7ae-42ff-820c-c0eb37f70778 -->
+**#23013 View symbol in the table header** (Desktop)
+
+The table header now shows the view symbol if the shortcut gets its name from the target. If no symbol is defined in the table view, the shortcut symbol is used.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
