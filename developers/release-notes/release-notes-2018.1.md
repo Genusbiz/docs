@@ -77,6 +77,11 @@ Added a tip to view name when selection table views in different contexts
 
 The two dimensional grid can now be sorted on both horizontal and vertical category. The setting is available in the designer under "Format" -> "Sort and Limit"
 
+<!--ID 591be5dd-b7ae-42ff-820c-c0eb37f70778 -->
+**#23013 View symbol in the table header** (Desktop)
+
+The table header now shows the view symbol if the shortcut gets its name from the target. If no symbol is defined in the table view, the shortcut symbol is used.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
