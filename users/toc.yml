@@ -143,6 +143,11 @@
       href: analyze-report-and-discover/analysis/designer/index.md
     - name: Advanced analysis
       href: analyze-report-and-discover/analysis/advanced-analysis.md
+    - name: Office Add-ins
+      href: analyze-report-and-discover/analysis/office-addins.md
+      items:
+      - name: Content Add-in (Powerpoint/Excel)
+        href: analyze-report-and-discover/analysis/office-add-ins/content-add-in-guide-(-powerpoint,-excel-).md
   - name: Data marts
     href: analyze-report-and-discover/data-marts/index.md
     items:
