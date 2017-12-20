@@ -255,7 +255,7 @@ function CrossRefClass(ownerFilename) {
 
     // Two alternatives for adjusting relative references.
     // In this second alternative, the xref is to point to the new placement of the referenced article,
-    // i.e. the article the xref is poining to is moved.
+    // i.e. the article the xref is pointing to is moved.
     this.adjustRefByTargetChange = function(targetFile) {
         var fromFolder = toForwardSlash(path.dirname(this.ownerFilename));
         var toFile = targetFile;

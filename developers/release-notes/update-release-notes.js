@@ -462,6 +462,9 @@ function createNewMarkdown(aRelease){
   aRelease.newMarkdown = aRelease.newMarkdown.replace(/Æ/g,"&Aelig;")
   aRelease.newMarkdown = aRelease.newMarkdown.replace(/Ø/g,"&Oslash;")
   aRelease.newMarkdown = aRelease.newMarkdown.replace(/Å/g,"&Aring;")
+
+  // See the other usage of removeNonAsciiChars for comments.
+  aRelease.newMarkdown = removeNonAsciiChars(aRelease.newMarkdown);
   
   //console.log(aRelease.newMarkdown + "\n-------------\n");
 }

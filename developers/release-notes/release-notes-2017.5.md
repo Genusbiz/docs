@@ -351,12 +351,18 @@ Active object not nullfied when current selected item is cleared in a combo box 
 <!--ID d70f0f2d-3f55-44ac-acd1-a76152d6e366 -->
 **#23009 Fixed problem with updating cells where the user don't have read access.** (Desktop)
 
-If a property that the user don’t have access to is listed, the column is removed. But if we have multiple rows, the column may still be created, but the cell for the given object is not created. If this object is updated we may try to update the column in the list and this caused Genus to crash.
+If a property that the user dont have access to is listed, the column is removed. But if we have multiple rows, the column may still be created, but the cell for the given object is not created. If this object is updated we may try to update the column in the list and this caused Genus to crash.
 
 <!--ID f24d463b-d004-40dc-b17b-838b78ccad66 -->
 **#23012 (Analysis) Background Image not being displayed on tile** (Desktop)
 
 Fixed an issue that in some cases could lead to the background image not being displayed correctly.
+
+<!--ID 8322e976-b3ba-49e3-a0d7-f14e8826acf5 -->
+**#23014 Fixed problem with missing font in Windows 7** (Desktop)
+
+Some symbols used in Genus are rendered by using a font supplied by the operating system. On some Windows 7 installations, the version of this font is missing some of the required symbols.
+This issue has now been adressed by distributing the font with the software.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
