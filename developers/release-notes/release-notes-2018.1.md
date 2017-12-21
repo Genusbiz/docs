@@ -82,6 +82,11 @@ The two dimensional grid can now be sorted on both horizontal and vertical categ
 
 The table header now shows the view symbol if the shortcut gets its name from the target. If no symbol is defined in the table view, the shortcut symbol is used.
 
+<!--ID d0895429-a142-4563-a0ca-0001e2872740 -->
+**#23015 (Analysis) Data Point Labels** (Desktop)
+
+The user can now specify custom data point labels. The option is available on Pie Chart and Doughnut Chart.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
