@@ -7,4 +7,5 @@ Topics:
 * [Data sets](data-sets.md)
 * [Calendar settings](calendar-settings.md)
 * [Search settings](search-settings.md)
+* [Web settings](web-settings.md)
 * [Advanced settings](advanced-settings.md)

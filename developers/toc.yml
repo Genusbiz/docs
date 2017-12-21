@@ -32,6 +32,8 @@
       href: defining-an-app-model/general-settings/calendar-settings.md
     - name: Search settings
       href: defining-an-app-model/general-settings/search-settings.md
+    - name: Web settings
+      href: defining-an-app-model/general-settings/web-settings.md
     - name: Advanced settings
       href: defining-an-app-model/general-settings/advanced-settings.md
   - name: Common concepts
