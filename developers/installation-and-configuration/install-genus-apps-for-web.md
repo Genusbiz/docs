@@ -5,14 +5,28 @@ author: mja
 ---
 
 # Installing Genus Apps for Web
-
-1. Select installation folder
-2. Select configuration method
+When installing Genus Apps for Web some configuration must be selected in the wizard.
+1. Select installation folder. If Genus Apps for Web already is installed, this will 
+2. Select configuration method. There are two possible configuration methods:
   * Enter settings manually
-    * Application name, server url and authentication type
-    * Sign in settings (language, color, settings)
+    * Application name - Name of application
+    * Application server url - url to the application server including protocol and dataset
+    * Authentication type: 
+      * Anonymous
+      * Federated (for IDPorten)
+      * Genus (for Genus Native authentication)
+      * AD (Active Directory)
+      * SSO AD
+      * Active Directory also enables a choice for Domain to be attached to username when logging in. This is not required.
+    * Sign-in screen settings 
+      * Default language on sign in screen
+      * User settings:
+       * Allow reset password
+       * Allow remember user
+      * Color settings for loader bar
+      * Settings for reset password url, help url for login and Google Analytics ID. These are not required.
   * Import configuration file
-    * Select file path to exisiting file
+    * Select file path to exisiting file from previously installed version
 3. Install
 
 # Special configurations for Genus Apps for Web
@@ -51,6 +65,11 @@ Additionally, the following must be allowed through: ```[DATASET]/?User-Agent=E3
 ## Forgotten password
 
 ## Single sign on
+To use single sign on, the authentication type must be **ssoAD**. 
+
+For Internet Explorer, Microsoft Edge, Google Chrome, and Chromium *Intranet Zone* needs to be enabled and set to the Genus Apps for Web url. This can either be done by group policy or with **Internet Options**. 
+
+For Firefox *Integrated Windows Authentication* needs to be enabled.
 
 ## Anti-clickjacking
 To prevent clickjacking (UI readress attacks) the following must be added to web.config under the <system.webServer> node:
