@@ -6,7 +6,7 @@ author: mja
 
 # Installing Genus Apps for Web
 When installing Genus Apps for Web some configuration must be selected in the wizard.
-1. Select installation folder. If Genus Apps for Web already is installed, this will 
+1. Select installation folder. If Genus Apps for Web already is installed, this will be prefilled and not editable. Step 2 will be skipped if Genus Apps for Web already is installed.
 2. Select configuration method. There are two possible configuration methods:
   * Enter settings manually
     * Application name - Name of application
