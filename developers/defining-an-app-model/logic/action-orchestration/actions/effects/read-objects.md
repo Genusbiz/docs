@@ -1,54 +1,47 @@
-# Read Objects
+# Read objects
 
-With this effect you can read objects into a data source restricted by a data filter, and optionally display a dialog where the user can select one or more objects from the read objects (only available for Tasks). You can choose if the objects are added to, kept in or removed from existing objects in the data source, or if existing objects are replaced by the read objects. The objects can be read from the database or from another datasource of the same type.
+With this effect you can read objects into a data source restricted by a data filter, and optionally display a dialog where the user can select one or more objects from the read objects (available in tasks). You can choose if the objects are added to, kept in or removed from existing objects in the data source, or if existing objects are replaced by the read objects. The objects can be read from the database or from another datasource of the same type.
 
-1.  In the **Name** box, optionally type a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
-2.  In the **Description** box, optionally type a description.
-3.  Click the **General** tab
-4.  In the **Data Source** box, select which data source to read objects into. Only data sources of type **Object**, **File** and **Schema** can be selected. In addition, it is not possible to select a data source that are used in an enumerator, if the effect is within the enumerator, since this would affect the number of iterations. Data sources of type **File** and **Schema** are only available when defining Tasks and Rules, since objects has to be read from the clipboard.
-5.  In the **Data Filter** box, click **Modify** to restrict the number of objects read. Follow the instructions in the [step-by-step procedure](../../data-sources/specifying-a-data-filter-for-a-data-source.md) on how to filter data for a data source. If you want to clear all objects in the data source, leave the data filter blank and click **Replace existing objects with read objects**. If the data source is an Account, use the **User Name** box and optionally the **Password** box to specify the criteria to lookup an account. In this case the read object effect returns a maximum of one account matching the user name and password.
-6.  If you want to read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
-7.  When reading objects from another data source you can choose to transfer the objects instead of copying them. To do this, select **Transfer Objects**. This option is only available when the option **Read from Data Source** is selected. For more information on transferring objects, see below.
-8.  Choose if the read objects should be added to, kept in or removed from existing objects in the data source, or if existing objects are replaced by the read objects.
-9.  Click the **User Interaction** tab.
-10.  If you want the user to select one or more objects from the read objects, click the **Prompt users to select objects** check box. This option is only available for data sources of type **Object**. In the **Dialog Title** and **Dialog Prompt** box, type a title and a prompt. You can generate dynamic values for the title and prompt by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields").
-11.  Click **Fields** to specify the fields to be displayed in the dialog.
-12.  Click **Group By** to specify a grouping of the objects displayed in the dialog.
-13.  Click **Sort** to specify a sorting of the objects displayed in the dialog.
-14.  Select **Allow Select Multiple Objects** if users are allowed to select one or more objects. Clear **Allow Select Multiple Objects** if users are allowed to select only one object.
-15.  Select **Mark All Objects as Selected** if you want all objects to be marked as selected when the dialog is displayed.
-16.  Select the **Exit Task on cancel** check box if you do not want to execute suceeding effects if the user chooses the **Cancel** or **No** button in the dialog box.
-17.  To store which button chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes.
-18.  Select which buttons that should appear in the dialog box.
+Objects can be read into data sources of type *Object*, *File*, and *Schema*. It is not possible to select data sources which are enumerated. Data sources of type *File* and *Schema* reads objects from the clipboard, and is available in tasks.
 
-**Transferring Objects**
+The number of objects read is restricted by defining a [data filter](../../data-sources/specifying-a-data-filter-for-a-data-source.md). If you want to clear all objects in the data source, leave the data filter blank and click **Replace existing objects with read objects**.
 
-Normally when data is read from another data source, objects are copied from the source to the target data source. Read objects are marked as synchronized with storage to avoid that uncommitted changes in the source are applied twice. In some cases you may want to move an object from one data source to another and keep the current state of the object (i.e. that the object is in creating or changing state). To do this, select the option "Transfer objects".  
+## Reading objects from another data source
+Instead of reading objects from the database, you can read objects from another data source of the same type. To do this, select the **Read from Data Source** check box, and then select a data source. Normally when data is read from another data source, objects are copied from the source to the target data source. Read objects are marked as synchronized with storage to avoid that uncommitted changes in the source are applied twice. In some cases you may want to move an object from one data source to another and keep the current state of the object. To do this, select the **Transfer objects** check box.
 
-*Example*
+## Prompt users to select object
+To allow the user to select one or more objects from the read objects, click the **User Interaction** tab, and then click the **Prompt users to select objects** check box. This option is only available for data sources of type *Object*. You can configure the dialog by defining elements such as
 
-**Task 1**  
+* A dialog title and prompt
+* Which fields to display
+* Sorting and grouping of data
+* The number of objects which can be selected (one or unbounded)
+* Initial selection (none or all)
+* Which dialog buttons to display
 
-*Data sources*:
-1) All Transactions  
+To abort execution of succeeding effects if a user chooses the *Cancel* or *No* button in the dialog box, select the **Abort execution on cancel** check box.
 
-*Actions*:
-1) Scope (with commit)  
-1.1) Run a Task: Task 2, two way binding to All Transactions  
+To store the user respons, click the **Set a fields value equal to the exit code** check box. You can either store the user response as a boolean value or an integer value. See the article [Dialog box exit codes](../../../../../dialog-box-exit-codes.md) for an overview of exit codes.
 
-**Task 2**  
+## Reading data into built-in data sources
+The effect supports reading data into two built-in data sources:
 
-*Data sources*:
-1) Single Transaction (private)  
-2) All Transactions (public)  
+* [Account](../../data-sources/the-account-data-source.md)
+* Event History
 
-*Actions*:
-1) Create Objects: Single Transaction  
-2)...some logic with the need to access the created object in Single Transaction before it is appended to All Transactions  
-3) Read Objects: All Transactions. Read all objects from datasource Single Transaction. Add and transfer objects.  
+The data sources are added in the same way as any other data source based on an object class.
 
-The created object is not committed by Task 2, but appended to All Transactions which is committed by the scope defined in Task 1.
+### Reading account data
+The account data source provides general information about an account, and which security groups the account is member of. The effect allows you to lookup an account by specifying a user name and optionally a password in the data filter. The effect returns a maximum of one account matching the user name and password.
 
-See Also
+### Reading the event history
+The event history data source provides all the information stored in audit trails for different types of events. The event history can be read for all objects in a given object class, or objects restricted by a data filter. In addition you can filter on properties such as
 
-*   [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md)
+* Event
+* Date
+* Object class properties modified in events of type *Modify*
+
+A typical usage for reading the event history is to provide persons with a copy of all personal data a company stores about them (as imposed by the EU's General Data Protection Regulation). 
+
+> [!NOTE]
+> Reading the event history can be a heavy operation, and you should limit the history to one or a few objects from a given object class.
