@@ -27,7 +27,7 @@ To store the user respons, click the **Set a fields value equal to the exit code
 The effect supports reading data into two built-in data sources:
 
 * [Account](../../data-sources/the-account-data-source.md)
-* Event History
+* [Event History](../../data-sources/the-event-history-data-source.md)
 
 The data sources are added in the same way as any other data source based on an object class.
 
