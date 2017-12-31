@@ -216,19 +216,21 @@
     - name: Action orchestration
       href: defining-an-app-model/logic/action-orchestration/index.md
       items:
-      - name: Data Sources
+      - name: Data sources
         href: defining-an-app-model/logic/action-orchestration/data-sources.md
         items:
-        - name: Add a Data Source
+        - name: Add a data source
           href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-data-source.md
-        - name: Add a Local Object Data Source
+        - name: Add a local object data source
           href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-local-object-data-source.md
-        - name: Specifying a Data Filter for a Data Source
+        - name: Specifying a data filter for a data source
           href: defining-an-app-model/logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md
-        - name: The Account Data Source
-          href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
-        - name: File Data Sources
+        - name: File data sources
           href: defining-an-app-model/logic/action-orchestration/data-sources/file-data-sources.md
+        - name: Account data source
+          href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
+        - name: The event history data source
+          href: defining-an-app-model/logic/action-orchestration/data-sources/the-event-history-data-source.md          
       - name: Actions
         href: defining-an-app-model/logic/action-orchestration/actions.md
         items:
