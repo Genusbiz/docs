@@ -7,6 +7,9 @@ var github  = require('octonode');
 var atob    = require('atob');
 var fs      = require('fs');
 var moment  = require('moment');
+var raven   = require("raven");
+
+raven.config("https://cc893eb111c043f1aa94ac28b861ce80:80c09743f4cf4dd08d82133462fb8dce@sentry.io/262525").install();
 
 var githubUsername;
 var githubPassword;
@@ -20,7 +23,7 @@ if (process.argv.length == 2) {
     githubPassword = config.githubDocsPassword;
   }
   catch (error) {
-    console.log(error);
+    raven.captureException(error);
     process.exit(1);
   }
 }
@@ -128,6 +131,7 @@ function callReleaseNotesRestService(name,releaseNotes){
           resolve(releaseNotes);
           return;
         }
+        //saveToFile("d:/git/body.txt", body);
         var candidates = JSON.parse(body);
         for (var c in candidates){
           if (!candidates.hasOwnProperty(c))
@@ -477,7 +481,8 @@ function saveToFile(filename, content){
       }
       fs.writeFileSync(filename,content);
   }
-  catch (e) {
+  catch (error) {
+      raven.captureException(error);
       console.log("Failed writing to file " + filename);
       process.exit(1);
   }
@@ -491,8 +496,9 @@ async function main() {
     await callReleasesRestService(releases);
     //console.log("Releases: " + JSON.stringify(releases));
   }
-  catch(err) {
-    console.log(err);
+  catch(error) {
+    raven.captureException(error);
+    console.log(error);
     process.exit(1);
   }
 
@@ -500,8 +506,9 @@ async function main() {
     try {
       await callReleaseNotesRestService(releases[r].name, releases[r].releaseNotes);
     }
-    catch(err){
-      console.log(err);
+    catch(error){
+      raven.captureException(error);
+      console.log(error);
       process.exit(1);
     }
   }
@@ -522,8 +529,9 @@ async function main() {
       await readReleaseNoteFileFromGitHub(aRelease);
       //console.log(releases[r].originalMarkdown);
     }
-    catch(err){
-      console.log(err);
+    catch(error){
+      raven.captureException(error);
+      console.log(error);
       process.exit(1);
     }
 
@@ -547,8 +555,9 @@ async function main() {
       await updateReleaseNoteFileInGitHub(aRelease,"Auto update of " + aRelease.name + " release notes from Actio");
       console.log(aRelease.name + ": ...done.");
     }
-    catch(err){
-      console.log(err);
+    catch(error){
+      raven.captureException(error);
+      console.log(error);
       process.exit(1);
     }
   }
