@@ -152,6 +152,11 @@ Fixed an issue that in some cases could lead to the background image not being d
 Some symbols used in Genus are rendered by using a font supplied by the operating system. On some Windows 7 installations, the version of this font is missing some of the required symbols.
 This issue has now been adressed by distributing the font with the software.
 
+<!--ID a1b88005-8dc9-4f1b-b526-29f361caf933 -->
+**#23018 Show number of objects in trackdown from a report** (Desktop)
+
+When a table is opend in a stand alone window, the number of objects in the table is showed in the windows title if the option is checked in the table description.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
