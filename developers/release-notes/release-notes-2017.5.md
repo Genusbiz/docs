@@ -364,6 +364,11 @@ Fixed an issue that in some cases could lead to the background image not being d
 Some symbols used in Genus are rendered by using a font supplied by the operating system. On some Windows 7 installations, the version of this font is missing some of the required symbols.
 This issue has now been adressed by distributing the font with the software.
 
+<!--ID e64d5002-1401-400a-9a81-d6b7c487fe10 -->
+**#23019 Number format for fields in a local object ignored** (Desktop)
+
+Number format for fields ignored when a local object is displayed in a local object window from an open form effect.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
