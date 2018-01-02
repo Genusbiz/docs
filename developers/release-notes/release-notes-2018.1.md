@@ -162,6 +162,11 @@ When a table is opend in a stand alone window, the number of objects in the tabl
 
 Number format for fields ignored when a local object is displayed in a local object window from an open form effect.
 
+<!--ID 240d7093-0d5e-4c5e-89e2-1c8e7ac49f1f -->
+**#23020 Analysis configuration** (Desktop;Studio)
+
+In version 17.5 and older, analysis could be configured by creating a config.json file in the root directory of the analysis installation, i.e. at C:\Program Files\Genus\Server\wwwroot\Discovery\ on the app server. These configurations have now been moved to Genus Studio. See https://docs.genus.no/developers/defining-an-app-model/general-settings/web-settings.html for more information.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
