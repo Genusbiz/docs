@@ -157,6 +157,11 @@ This issue has now been adressed by distributing the font with the software.
 
 When a table is opend in a stand alone window, the number of objects in the table is showed in the windows title if the option is checked in the table description.
 
+<!--ID e64d5002-1401-400a-9a81-d6b7c487fe10 -->
+**#23019 Number format for fields in a local object ignored** (Desktop)
+
+Number format for fields ignored when a local object is displayed in a local object window from an open form effect.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
