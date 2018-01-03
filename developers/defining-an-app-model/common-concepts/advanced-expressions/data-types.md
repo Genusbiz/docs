@@ -117,6 +117,7 @@ Name | Description
 --- | ---
 **command** | *instance*.command<br>Return Type: ActionCommandType
 **currentEnumeration** | *instance*.currentEnumeration<br>Return Type: Integer
+**currentTextSelection** | *instance*.currentTextSelection<br>Return Type: String
 **errorCode** | *instance*.errorCode<br>Return Type: Integer
 **errorDetails** | *instance*.errorDetails<br>Return Type: String
 **errorMessage** | *instance*.errorMessage<br>Return Type: String
@@ -134,6 +135,12 @@ Name | Description
 **dOMINO** | AddressFormat.dOMINO
 **eX** | AddressFormat.eX
 **sMTP** | AddressFormat.sMTP
+## AuditTrailStep type
+The AuditTrailStep type exposes the following members.
+### Instance members
+Name | Description
+--- | ---
+**action** | *instance*.action<br>Return Type: String
 ## Bag(\<ElementType>) type
 The Bag(\<ElementType>) type exposes the following members.
 ### Instance members
@@ -635,6 +642,17 @@ The Environment type exposes the following members.
 Name | Description
 --- | ---
 **msOutlookInstalled** | Environment.msOutlookInstalled<br><br>Returns TRUE if Microsoft Outlook is installed on the current computer.<br>Return Type: Boolean
+## EventHistory type
+The EventHistory type exposes the following members.
+### Instance members
+Name | Description
+--- | ---
+**account** | *instance*.account<br>Return Type: String
+**date** | *instance*.date<br>Return Type: CalendarTime
+**event** | *instance*.event<br>Return Type: String
+**object** | *instance*.object<br>Return Type: String
+**objectType** | *instance*.objectType<br>Return Type: String
+**steps** | *instance*.steps<br>Return Type: Bag(AuditTrailStep)
 ## FileFolder type
 The FileFolder type exposes the following members.
 ### Instance members
@@ -815,49 +833,51 @@ Name | Description
 **getBodyInnerHtml** | *instance*.getBodyInnerHtml<br><br>Returns the contents of the body element in this document as a string.<br><br>Return Type: String<br>A string representing the contents of the body element in the HTML document, or null if no body element was found.
 **getStream** | *instance*.getStream<br><br>Gets the HTML document as binary stream data.<br><br>Return Type: StreamData<br>A StreamData instance containing binary data representing the HTML document.
 **toPlainText** | *instance*.toPlainText<br><br>Converts the HTML document to plain text.<br><br>Return Type: String<br>A string containing the text from the HTML document, but without the original formatting.
-## HttpStatusCode enumeration
-The HttpStatusCode enumeration exposes the following members.
+## HttpStatusCode type
+The HttpStatusCode type exposes the following members.
+### Type members
 Name | Description
 --- | ---
-**\_\_100Continue** | HttpStatusCode.\_\_100Continue
-**\_\_101SwitchingProtocols** | HttpStatusCode.\_\_101SwitchingProtocols
-**\_\_200OK** | HttpStatusCode.\_\_200OK
-**\_\_201Created** | HttpStatusCode.\_\_201Created
-**\_\_202Accepted** | HttpStatusCode.\_\_202Accepted
-**\_\_203Non\_AuthoritativeInformation** | HttpStatusCode.\_\_203Non\_AuthoritativeInformation
-**\_\_204NoContent** | HttpStatusCode.\_\_204NoContent
-**\_\_205ResetContent** | HttpStatusCode.\_\_205ResetContent
-**\_\_206PartialContent** | HttpStatusCode.\_\_206PartialContent
-**\_\_207MultiStatus** | HttpStatusCode.\_\_207MultiStatus
-**\_\_300MultipleChoices** | HttpStatusCode.\_\_300MultipleChoices
-**\_\_301MovedPermanently** | HttpStatusCode.\_\_301MovedPermanently
-**\_\_302Found** | HttpStatusCode.\_\_302Found
-**\_\_303SeeOther** | HttpStatusCode.\_\_303SeeOther
-**\_\_304NotModified** | HttpStatusCode.\_\_304NotModified
-**\_\_305UseProxy** | HttpStatusCode.\_\_305UseProxy
-**\_\_307TemporaryRedirect** | HttpStatusCode.\_\_307TemporaryRedirect
-**\_\_400BadRequest** | HttpStatusCode.\_\_400BadRequest
-**\_\_401Unauthorized** | HttpStatusCode.\_\_401Unauthorized
-**\_\_402PaymentRequired** | HttpStatusCode.\_\_402PaymentRequired
-**\_\_403Forbidden** | HttpStatusCode.\_\_403Forbidden
-**\_\_404NotFound** | HttpStatusCode.\_\_404NotFound
-**\_\_405MethodNotAllowed** | HttpStatusCode.\_\_405MethodNotAllowed
-**\_\_406NotAcceptable** | HttpStatusCode.\_\_406NotAcceptable
-**\_\_407ProxyAuthenticationRequired** | HttpStatusCode.\_\_407ProxyAuthenticationRequired
-**\_\_408RequestTimeout** | HttpStatusCode.\_\_408RequestTimeout
-**\_\_409Conflict** | HttpStatusCode.\_\_409Conflict
-**\_\_410Gone** | HttpStatusCode.\_\_410Gone
-**\_\_411LengthRequired** | HttpStatusCode.\_\_411LengthRequired
-**\_\_412PreconditionFailed** | HttpStatusCode.\_\_412PreconditionFailed
-**\_\_413PayloadTooLarge** | HttpStatusCode.\_\_413PayloadTooLarge
-**\_\_414URITooLong** | HttpStatusCode.\_\_414URITooLong
-**\_\_415UnsupportedMediaType** | HttpStatusCode.\_\_415UnsupportedMediaType
-**\_\_500InternalServerError** | HttpStatusCode.\_\_500InternalServerError
-**\_\_501NotImplemented** | HttpStatusCode.\_\_501NotImplemented
-**\_\_502BadGateway** | HttpStatusCode.\_\_502BadGateway
-**\_\_503ServiceUnavailable** | HttpStatusCode.\_\_503ServiceUnavailable
-**\_\_504GatewayTimeout** | HttpStatusCode.\_\_504GatewayTimeout
-**\_\_505HTTPVersionNotSupported** | HttpStatusCode.\_\_505HTTPVersionNotSupported
+**\_\_100Continue** | HttpStatusCode.\_\_100Continue<br>Return Type: HttpStatusCode
+**\_\_101SwitchingProtocols** | HttpStatusCode.\_\_101SwitchingProtocols<br>Return Type: HttpStatusCode
+**\_\_200OK** | HttpStatusCode.\_\_200OK<br>Return Type: HttpStatusCode
+**\_\_201Created** | HttpStatusCode.\_\_201Created<br>Return Type: HttpStatusCode
+**\_\_202Accepted** | HttpStatusCode.\_\_202Accepted<br>Return Type: HttpStatusCode
+**\_\_203Non\_AuthoritativeInformation** | HttpStatusCode.\_\_203Non\_AuthoritativeInformation<br>Return Type: HttpStatusCode
+**\_\_204NoContent** | HttpStatusCode.\_\_204NoContent<br>Return Type: HttpStatusCode
+**\_\_205ResetContent** | HttpStatusCode.\_\_205ResetContent<br>Return Type: HttpStatusCode
+**\_\_206PartialContent** | HttpStatusCode.\_\_206PartialContent<br>Return Type: HttpStatusCode
+**\_\_207MultiStatus** | HttpStatusCode.\_\_207MultiStatus<br>Return Type: HttpStatusCode
+**\_\_300MultipleChoices** | HttpStatusCode.\_\_300MultipleChoices<br>Return Type: HttpStatusCode
+**\_\_301MovedPermanently** | HttpStatusCode.\_\_301MovedPermanently<br>Return Type: HttpStatusCode
+**\_\_302Found** | HttpStatusCode.\_\_302Found<br>Return Type: HttpStatusCode
+**\_\_303SeeOther** | HttpStatusCode.\_\_303SeeOther<br>Return Type: HttpStatusCode
+**\_\_304NotModified** | HttpStatusCode.\_\_304NotModified<br>Return Type: HttpStatusCode
+**\_\_305UseProxy** | HttpStatusCode.\_\_305UseProxy<br>Return Type: HttpStatusCode
+**\_\_307TemporaryRedirect** | HttpStatusCode.\_\_307TemporaryRedirect<br>Return Type: HttpStatusCode
+**\_\_400BadRequest** | HttpStatusCode.\_\_400BadRequest<br>Return Type: HttpStatusCode
+**\_\_401Unauthorized** | HttpStatusCode.\_\_401Unauthorized<br>Return Type: HttpStatusCode
+**\_\_402PaymentRequired** | HttpStatusCode.\_\_402PaymentRequired<br>Return Type: HttpStatusCode
+**\_\_403Forbidden** | HttpStatusCode.\_\_403Forbidden<br>Return Type: HttpStatusCode
+**\_\_404NotFound** | HttpStatusCode.\_\_404NotFound<br>Return Type: HttpStatusCode
+**\_\_405MethodNotAllowed** | HttpStatusCode.\_\_405MethodNotAllowed<br>Return Type: HttpStatusCode
+**\_\_406NotAcceptable** | HttpStatusCode.\_\_406NotAcceptable<br>Return Type: HttpStatusCode
+**\_\_407ProxyAuthenticationRequired** | HttpStatusCode.\_\_407ProxyAuthenticationRequired<br>Return Type: HttpStatusCode
+**\_\_408RequestTimeout** | HttpStatusCode.\_\_408RequestTimeout<br>Return Type: HttpStatusCode
+**\_\_409Conflict** | HttpStatusCode.\_\_409Conflict<br>Return Type: HttpStatusCode
+**\_\_410Gone** | HttpStatusCode.\_\_410Gone<br>Return Type: HttpStatusCode
+**\_\_411LengthRequired** | HttpStatusCode.\_\_411LengthRequired<br>Return Type: HttpStatusCode
+**\_\_412PreconditionFailed** | HttpStatusCode.\_\_412PreconditionFailed<br>Return Type: HttpStatusCode
+**\_\_413PayloadTooLarge** | HttpStatusCode.\_\_413PayloadTooLarge<br>Return Type: HttpStatusCode
+**\_\_414URITooLong** | HttpStatusCode.\_\_414URITooLong<br>Return Type: HttpStatusCode
+**\_\_415UnsupportedMediaType** | HttpStatusCode.\_\_415UnsupportedMediaType<br>Return Type: HttpStatusCode
+**\_\_500InternalServerError** | HttpStatusCode.\_\_500InternalServerError<br>Return Type: HttpStatusCode
+**\_\_501NotImplemented** | HttpStatusCode.\_\_501NotImplemented<br>Return Type: HttpStatusCode
+**\_\_502BadGateway** | HttpStatusCode.\_\_502BadGateway<br>Return Type: HttpStatusCode
+**\_\_503ServiceUnavailable** | HttpStatusCode.\_\_503ServiceUnavailable<br>Return Type: HttpStatusCode
+**\_\_504GatewayTimeout** | HttpStatusCode.\_\_504GatewayTimeout<br>Return Type: HttpStatusCode
+**\_\_505HTTPVersionNotSupported** | HttpStatusCode.\_\_505HTTPVersionNotSupported<br>Return Type: HttpStatusCode
+**new** | HttpStatusCode.new(*httpStatusCode*)<br>Return Type: HttpStatusCode<br><br>**httpStatusCode**<br>- Type: Integer
 ## Integer type
 Represents a 32-bit signed integer, with values ranging from negative 2,147,483,648 through positive 2,147,483,647.
 The Integer type exposes the following members.
