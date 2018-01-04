@@ -167,6 +167,11 @@ Number format for fields ignored when a local object is displayed in a local obj
 
 In version 17.5 and older, analysis could be configured by creating a config.json file in the root directory of the analysis installation, i.e. at C:\Program Files\Genus\Server\wwwroot\Discovery\ on the app server. These configurations have now been moved to Genus Studio. See https://docs.genus.no/developers/defining-an-app-model/general-settings/web-settings.html for more information.
 
+<!--ID 2d8beb3a-e1fa-4848-a9f6-47b373356e4f -->
+**#23021 New fields not available in table views** (Desktop)
+
+Afther a user has customized fields in a view, the user must reset the current view to find new fields added by the Genus modeller. This problem is now fixed and all new fields will be added last in the available fields list
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
