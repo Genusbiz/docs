@@ -369,6 +369,11 @@ This issue has now been adressed by distributing the font with the software.
 
 Number format for fields ignored when a local object is displayed in a local object window from an open form effect.
 
+<!--ID 2d8beb3a-e1fa-4848-a9f6-47b373356e4f -->
+**#23021 New fields not available in table views** (Desktop)
+
+Afther a user has customized fields in a view, the user must reset the current view to find new fields added by the Genus modeller. This problem is now fixed and all new fields will be added last in the available fields list
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
