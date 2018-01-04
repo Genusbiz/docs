@@ -60,6 +60,11 @@ This section lists important changes introduced in this release. You will need t
 When serializing collection values to JSON, we would in earlier versjons serialize the values as a string containing all values of the collection separated with commas.
 This has now been changed so that the values are serialized as an array with the values serialized in the correct data type.
 
+<!--ID 72bb8b1d-40ec-4428-86f2-508474943531 -->
+**#23022 Initial Catalog connection string property is automatically assigned if supported** (Services)
+
+Unless the **Initial Catalog** connection string property is assigned explicitly when specifying [Data Link](https://docs.genus.no/developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.html#general) in the Genus Configuration tool, the Data Link **Database** property value will now be automatically used as Initial Catalog. The exception is Oracle databases (which does not support the Initial Catalog property).
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
