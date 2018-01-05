@@ -877,7 +877,7 @@ Name | Description
 **\_\_503ServiceUnavailable** | HttpStatusCode.\_\_503ServiceUnavailable<br>Return Type: HttpStatusCode
 **\_\_504GatewayTimeout** | HttpStatusCode.\_\_504GatewayTimeout<br>Return Type: HttpStatusCode
 **\_\_505HTTPVersionNotSupported** | HttpStatusCode.\_\_505HTTPVersionNotSupported<br>Return Type: HttpStatusCode
-**new** | HttpStatusCode.new(*httpStatusCode*)<br>Return Type: HttpStatusCode<br><br>**httpStatusCode**<br>- Type: Integer
+**fromInteger** | HttpStatusCode.fromInteger(*value*)<br>Return Type: HttpStatusCode<br><br>**value**<br>- Type: Integer
 ## Integer type
 Represents a 32-bit signed integer, with values ranging from negative 2,147,483,648 through positive 2,147,483,647.
 The Integer type exposes the following members.
