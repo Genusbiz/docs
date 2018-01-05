@@ -68,7 +68,11 @@ Unless the **Initial Catalog** connection string property is assigned explicitly
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 97261108-3334-4b86-a467-fe57da24b68b -->
+**#23017 Added detail pane to tables** (Desktop)
+
+When designing tables it's possible to add a detail pane. The detail pane can contain calculations and it can modify objects. Commands from the detail pane form can be added in the tables ribbon section.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
