@@ -107,6 +107,19 @@ HttpStatusCode.fromInteger(value : integer) : HttpStatusCode
 
 One application of the function is to return a HttpStatusCode as a result of processing a request to a REST service defined in Genus Apps.
 
+<!--ID 6984adc8-d560-4c10-bebb-204d3a0f1c2c -->
+**#23025 Requirements imposed by the General Data Protection Regulation (GDPR)** (Studio)
+
+Support for reading and deleting audit trails introduced. For more information, see the Genus Apps documentation: 
+
+* [Reading data into built-in data sources](https://docs.genus.no/developers/defining-an-app-model/logic/action-orchestration/actions/effects/read-objects.html#reading-data-into-built-in-data-sources)
+* [Delete the event history for objects](https://docs.genus.no/developers/defining-an-app-model/logic/action-orchestration/actions/effects/delete-objects.html#delete-the-event-history-for-objects)
+
+Read of audit trails was previously not supported. Deleting audit trails was supported, but the functionality has been extended with the following functionality:
+
+* For object classes defined in your directory, it is possible to delete audit trails for a filtered set of objects.
+* Delete audit trails irrespective of age.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
