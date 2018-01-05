@@ -374,6 +374,9 @@ Number format for fields ignored when a local object is displayed in a local obj
 
 Afther a user has customized fields in a view, the user must reset the current view to find new fields added by the Genus modeller. This problem is now fixed and all new fields will be added last in the available fields list
 
+<!--ID 25e88936-4573-4e99-b35f-f2f49aff2223 -->
+**#23023 Fixed an issue with the date picker on mobile devices** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
