@@ -92,6 +92,17 @@ The table header now shows the view symbol if the shortcut gets its name from th
 
 The user can now specify custom data point labels. The option is available on Pie Chart and Doughnut Chart.
 
+<!--ID 7b6ce845-eae7-4515-a792-aacbfc6f1ba2 -->
+**#23024 Convert an integer value to a HTTP status code** (Studio)
+
+Added function *fromInteger* to the HttpStatusCode enumeration defined in the Genus Apps language. The function converts an integer value to a HttpStatusCode:
+
+```
+HttpStatusCode.fromInteger(value : integer) : HttpStatusCode
+```
+
+One application of the function is to return a HttpStatusCode as a result of processing a request to a REST service defined in Genus Apps.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
