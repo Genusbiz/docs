@@ -60,10 +60,19 @@ This section lists important changes introduced in this release. You will need t
 When serializing collection values to JSON, we would in earlier versjons serialize the values as a string containing all values of the collection separated with commas.
 This has now been changed so that the values are serialized as an array with the values serialized in the correct data type.
 
+<!--ID 72bb8b1d-40ec-4428-86f2-508474943531 -->
+**#23022 Initial Catalog connection string property is automatically assigned if supported** (Services)
+
+Unless the **Initial Catalog** connection string property is assigned explicitly when specifying [Data Link](https://docs.genus.no/developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.html#general) in the Genus Configuration tool, the Data Link **Database** property value will now be automatically used as Initial Catalog. The exception is Oracle databases (which does not support the Initial Catalog property).
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 97261108-3334-4b86-a467-fe57da24b68b -->
+**#23017 Added detail pane to tables** (Desktop)
+
+When designing tables it's possible to add a detail pane. The detail pane can contain calculations and it can modify objects. Commands from the detail pane form can be added in the tables ribbon section.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -86,6 +95,30 @@ The table header now shows the view symbol if the shortcut gets its name from th
 **#23015 (Analysis) Data Point Labels** (Desktop)
 
 The user can now specify custom data point labels. The option is available on Pie Chart and Doughnut Chart.
+
+<!--ID 7b6ce845-eae7-4515-a792-aacbfc6f1ba2 -->
+**#23024 Convert an integer value to a HTTP status code** (Studio)
+
+Added function *fromInteger* to the HttpStatusCode enumeration defined in the Genus Apps language. The function converts an integer value to a HttpStatusCode:
+
+```
+HttpStatusCode.fromInteger(value : integer) : HttpStatusCode
+```
+
+One application of the function is to return a HttpStatusCode as a result of processing a request to a REST service defined in Genus Apps.
+
+<!--ID 6984adc8-d560-4c10-bebb-204d3a0f1c2c -->
+**#23025 Requirements imposed by the General Data Protection Regulation (GDPR)** (Studio)
+
+Support for reading and deleting audit trails introduced. For more information, see the Genus Apps documentation: 
+
+* [Reading data into built-in data sources](https://docs.genus.no/developers/defining-an-app-model/logic/action-orchestration/actions/effects/read-objects.html#reading-data-into-built-in-data-sources)
+* [Delete the event history for objects](https://docs.genus.no/developers/defining-an-app-model/logic/action-orchestration/actions/effects/delete-objects.html#delete-the-event-history-for-objects)
+
+Read of audit trails was previously not supported. Deleting audit trails was supported, but the functionality has been extended with the following functionality:
+
+* For object classes defined in your directory, it is possible to delete audit trails for a filtered set of objects.
+* Delete audit trails irrespective of age.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
@@ -156,6 +189,24 @@ This issue has now been adressed by distributing the font with the software.
 **#23018 Show number of objects in trackdown from a report** (Desktop)
 
 When a table is opend in a stand alone window, the number of objects in the table is showed in the windows title if the option is checked in the table description.
+
+<!--ID e64d5002-1401-400a-9a81-d6b7c487fe10 -->
+**#23019 Number format for fields in a local object ignored** (Desktop)
+
+Number format for fields ignored when a local object is displayed in a local object window from an open form effect.
+
+<!--ID 240d7093-0d5e-4c5e-89e2-1c8e7ac49f1f -->
+**#23020 Analysis configuration** (Desktop;Studio)
+
+In version 17.5 and older, analysis could be configured by creating a config.json file in the root directory of the analysis installation, i.e. at C:\Program Files\Genus\Server\wwwroot\Discovery\ on the app server. These configurations have now been moved to Genus Studio. See https://docs.genus.no/developers/defining-an-app-model/general-settings/web-settings.html for more information.
+
+<!--ID 2d8beb3a-e1fa-4848-a9f6-47b373356e4f -->
+**#23021 New fields not available in table views** (Desktop)
+
+Afther a user has customized fields in a view, the user must reset the current view to find new fields added by the Genus modeller. This problem is now fixed and all new fields will be added last in the available fields list
+
+<!--ID 25e88936-4573-4e99-b35f-f2f49aff2223 -->
+**#23023 Fixed an issue with the date picker on mobile devices** (Web)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues

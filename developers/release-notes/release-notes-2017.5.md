@@ -364,6 +364,19 @@ Fixed an issue that in some cases could lead to the background image not being d
 Some symbols used in Genus are rendered by using a font supplied by the operating system. On some Windows 7 installations, the version of this font is missing some of the required symbols.
 This issue has now been adressed by distributing the font with the software.
 
+<!--ID e64d5002-1401-400a-9a81-d6b7c487fe10 -->
+**#23019 Number format for fields in a local object ignored** (Desktop)
+
+Number format for fields ignored when a local object is displayed in a local object window from an open form effect.
+
+<!--ID 2d8beb3a-e1fa-4848-a9f6-47b373356e4f -->
+**#23021 New fields not available in table views** (Desktop)
+
+Afther a user has customized fields in a view, the user must reset the current view to find new fields added by the Genus modeller. This problem is now fixed and all new fields will be added last in the available fields list
+
+<!--ID 25e88936-4573-4e99-b35f-f2f49aff2223 -->
+**#23023 Fixed an issue with the date picker on mobile devices** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 

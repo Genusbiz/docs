@@ -10,10 +10,3 @@ The different types of data sources are:
 *   **Report**. A Report defined in the Directory.
 *   **File**. File Folder, General File, Mail Message, Contact, Calendar Item, or Microsoft Project.
 *   **System**. Print Settings.
-
-**Topics in "Data Sources"**
-* [Add a Data Source](data-sources/add-a-data-source.md)
-* [Add a Local Object Data Source](data-sources/add-a-local-object-data-source.md)
-* [Specifying a Data Filter for a Data Source](data-sources/specifying-a-data-filter-for-a-data-source.md)
-* [The Account Data Source](data-sources/the-account-data-source.md)
-* [File Data Sources](data-sources/file-data-sources.md)

@@ -4,7 +4,7 @@ The event history data source provides all information stored in audit trails fo
 
 ![](media/event-history-data-source-fields.png)
 
-Detailed information for an audit trail is stored as steps with an action which describes the event. Below is an example of an audit trail for a modify event where the value for two properties have been changed:
+Detailed information for an audit trail is stored as steps with an action which describes the event. Below is an example of an audit trail for a modify event where the value for two properties have been changed (data exported to JSON):
 
 ```json
 {

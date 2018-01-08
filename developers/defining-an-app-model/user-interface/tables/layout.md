@@ -256,3 +256,16 @@ Mandatory Data Filter    | Default Data Filter      | Comment
 All Objects / Condtion   | All Objects              | The mandatory data filter has to return one object when applied. For example:<br><br>_Employee = Active User Account_<br><br>By default, the employee which is signed in is selected. Users can not select another employee.
 All Objects / Condition  | No Objects               | The mandatory data filter can return one or more objects when applied. For example:<br><br>_Employee.State = Employed_<br><br>By default no employee is selected. Users can select an employee which currently is employed.
 All Objects / Condition  | Condition                | The mandatory data filter can return one or more objects when applied. The default data filter has to return one object when applied. For example:<br><br>**Mandatory:** _Employee.State = Employed_<br>**Default:** _Employee = Active User Account_<br><br>By default, the employee which is signed in is selected. Users can select an employee which currently is employed.
+
+
+## Define a Detail Pane
+
+A detail pane can be used to show calculations or just to view or modify selected object. If data in the Detail Pane is filtered on the table datasource the table will be disabled if the user changes any fields in det Detail Pane. When data is saved, the table will be enabled automaticly.
+
+1.  Click the Detail Pane element in the layout.
+2.  Select a **Form** and a **view**.
+3.  Set **Data Filter** if the form should be filtered based on the datasources in the table.
+4.  Set the **position** of the detail pane, and set the initial width or hight.
+5.  To add commands from the Detail Form, click **Customize Ribbon** and choose elements from **Detail Pane Commands**. 
+
+It is not allowed to define a **Reading Pane** in any of the views if a **Detail Pane** is defined. The table designer will display an error message.
