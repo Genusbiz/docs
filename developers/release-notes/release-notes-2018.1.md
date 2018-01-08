@@ -22,6 +22,15 @@ Prior to upgrading to this release, you must:
 For general information about installing and upgrading Genus Apps, see [here](../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../installation-and-configuration/system-requirements.md) article.
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 5f765df6-eaaf-4f33-9243-de5e5a77d0ee -->
+**#23026 Genus Services requires a new version of IBM Data Server Driver Package for accessing DB2 databases** (Services)
+
+To access IBM DB2 databases Genus Services now requires "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod2 Fix Pack2 iFix002"
+
+For details, see https://docs.genus.no/developers/installation-and-configuration/system-requirements.html#database-access-software-requirements
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
