@@ -10,4 +10,3 @@ translated to Jan 8th 2018
 
 All formats accepted by moment.js are supported. 
 See [Moment.js](https://momentjs.com/docs/#/displaying/) for full details.
-
