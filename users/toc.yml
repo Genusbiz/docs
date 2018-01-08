@@ -120,7 +120,7 @@
   - name: Refiners
     href: search-and-refine/refiners.md
   - name: Refining search results
-    href: search-and-refine/refining-search-results.md    
+    href: search-and-refine/refining-search-results.md
   - name: Exploring data
     href: search-and-refine/exploring-data.md
   - name: Search folders
@@ -141,6 +141,17 @@
       href: analyze-report-and-discover/analysis/config.md
     - name: Design an analysis
       href: analyze-report-and-discover/analysis/designer/index.md
+      items:
+      - name: Value overview
+        href: analyze-report-and-discover/analysis/designer/value-designer.md
+      - name: Data point labels
+        href: analyze-report-and-discover/analysis/designer/data-point-labels.md
+      - name: Date format
+        href: analyze-report-and-discover/analysis/designer/date-format.md
+      - name: Number format
+        href: analyze-report-and-discover/analysis/designer/number-format.md
+      - name: Formulas
+        href: analyze-report-and-discover/analysis/designer/formula-designer.md
     - name: Advanced analysis
       href: analyze-report-and-discover/analysis/advanced-analysis.md
     - name: Office Add-ins
@@ -204,7 +215,7 @@
     - name: Export or distribute a report
       href: analyze-report-and-discover/report/export-or-distribute-a-report.md
     - name: Save to file or print a report
-      href: analyze-report-and-discover/report/save-to-file-or-print-a-report.md  
+      href: analyze-report-and-discover/report/save-to-file-or-print-a-report.md
     - name: Data filters
       href: analyze-report-and-discover/report/data-filters.md
 - name: Automate, monitor and alert
