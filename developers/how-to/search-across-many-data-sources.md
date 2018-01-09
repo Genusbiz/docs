@@ -1,4 +1,4 @@
-# Search Across Many Data Sources
+# Search across many data sources
 
 Genus allows you to search across many data sources. Sometimes is it useful to search in many data sources in one operation. If your model contains data sources with properties with the same data type, you can bind the properties to the same search field. This gives you a more complex and efficient search.
 
