@@ -570,6 +570,8 @@
       href: how-to/merge-data-to-a-document/test-run-merging-template.md
   - name: Search Across Many Data Sources
     href: how-to/search-across-many-data-sources.md
+  - name: Show an analysis on a website
+    href: how-to/show-an-analysis-on-a-website.md
   - name: Upload and Download Large Files
     href: how-to/upload-and-download-large-files.md
   - name: Translate the app model to other languages
