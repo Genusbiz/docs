@@ -1,4 +1,4 @@
-# Merge Data to a Document
+# Merge data to a document
 
 Merging data is the process of producing one or more (and potentially large number of) documents from a template and a data source.
 
@@ -8,7 +8,7 @@ Merged documents may be saved in various formats, like variants of the native Mi
 
 The merge effect can run on either the client or the application server as it does not require any of the Microsoft Office products to be installed, i.e. Word or Excel do *not need to be installed*.
 
-**Topics in "Merge Data to a Document"**
+**Topics**
 * [Merge Data to a Microsoft Excel Document](merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md)
 * [Merge Data to a Microsoft Word Document](merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md)
 * [Test Run Merging Template](merge-data-to-a-document/test-run-merging-template.md)
