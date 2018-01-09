@@ -9,6 +9,6 @@ Merged documents may be saved in various formats, like variants of the native Mi
 The merge effect can run on either the client or the application server as it does not require any of the Microsoft Office products to be installed, i.e. Word or Excel do *not need to be installed*.
 
 **Topics**
-* [Merge Data to a Microsoft Excel Document](merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md)
-* [Merge Data to a Microsoft Word Document](merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md)
-* [Test Run Merging Template](merge-data-to-a-document/test-run-merging-template.md)
+* [Merge data to a Microsoft Excel document](merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md)
+* [Merge data to a Microsoft Word document](merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md)
+* [Test run merging template](merge-data-to-a-document/test-run-merging-template.md)
