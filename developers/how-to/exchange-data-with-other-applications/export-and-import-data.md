@@ -1,9 +1,9 @@
-# Export and Import Data
+# Export and import data
 
-Export and Import of data can be used to exchange data between applications, or between an application and a manual process. In most cases it is possible to use [copy and paste](copy-and-paste-data.md "Copy and Paste Data") functionality as an alternative to export and import for manual processes, and the choice it is usually only a matter of preferences and requirements. The basic steps are similar for export/import and copy/paste, the main difference being that while export and import access the file system to exchange files, copy and paste access the system clipboard to exchange files and other data.
+Export and import of data can be used to exchange data between applications, or between an application and a manual process. In most cases it is possible to use [copy and paste](copy-and-paste-data.md "Copy and Paste Data") functionality as an alternative to export and import for manual processes, and the choice it is usually only a matter of preferences and requirements. The basic steps are similar for export/import and copy/paste, the main difference being that while export and import access the file system to exchange files, copy and paste access the system clipboard to exchange files and other data.
 
 
-## Export Data
+## Export data
 
 Genus allows you to export data from all types of objects to file. The export functionality is provided in Tasks, Agents, Web Services and Rules by the effect **Export data to a file**.
 
@@ -39,9 +39,7 @@ If these requirments are satsified, the Task will be available in Reports and Se
 
 Note that you can speed up performance when data are exported from a table too. If the above requirements are satisfied, selected objects in a table will be spooled directly to a delimited text file.
 
-
-
-## Import Data
+## Import data
 
 Genus allows you to import data from any type of file to a data source. The import functionality is provided in Tasks, Agents, Web Services and Rules from the use of the effect **Import data from a file**.
 

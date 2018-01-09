@@ -1,11 +1,11 @@
-# Copy and Paste Data
+# Copy and paste data
 
-Copy and Paste of is an intuitive and useful feature for exchanging data between applications, and it can be used for almost any type of data, like contacts, calendar items, e-mails, files, folders, xml data.
+Copy and paste of is an intuitive and useful feature for exchanging data between applications, and it can be used for almost any type of data, like contacts, calendar items, e-mails, files, folders, xml data.
 
-In many casese it is also possible to [export and import](export-and-import-data.md "Export and Import Data") these data, and the coice is a matter of preference and requirements. The basic steps are similar for export/import and copy/paste, the main difference being that while export and import access the file system to exchange files, copy and paste access the system clipboard to exchange files and other data.
+In many cases it is also possible to [export and import](export-and-import-data.md) these data, and the coice is a matter of preference and requirements. The basic steps are similar for export/import and copy/paste, the main difference being that while export and import access the file system to exchange files, copy and paste access the system clipboard to exchange files and other data.
 
 
-## Copy and Paste an Object as a Business Card or a Calendar Item
+## Copy and paste an object as a business card or a calendar item
 
 vCard serves as an electronic business card. It is a convenient way of exchanging personal information such as name, address, phone number and mail address. With iCalendar you can exchange meeting requests and task.
 
@@ -13,7 +13,7 @@ In this article you will learn how to exchange data with other applications supp
 
 The examples below shows how to exchange contact information with Microsoft Outlook. The procedure is the same if you want to copy or paste calendar items.
 
-**To copy an object as a vCard, do the following:**
+### To copy an object as a vCard
 
 1.  Create a Task that should be used for copying data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/logic/tasks.md "Tasks") on how to create a Task.
 2.  Add a data source for the object you want to copy data from, for example a customer contact.
@@ -26,7 +26,7 @@ To copy data from the context for the publication, in the **File** menu, click *
 
 Note! If you have published more than one Task for copying objects to a given context, the Tasks are displayed as separate commands in the **Copy** menu.
 
-**To create an object from a vCard, do the following:**
+### To create an object from a vCard
 
 1.  Create a task that should be used for pasting data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/logic/tasks.md "Tasks") on how to create a Task.
 2.  Add a data source for the object you want to create, for example a customer contact.
@@ -40,9 +40,7 @@ Select a contact in Microsoft Outlook. In the **Edit** menu click **Copy**. To p
 
 If you only want to update contact information for an existing object, use an effect of type [Modify object(s)](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md "Create Objects and Modify Objects") in step 5.
 
-
-
-## Copy and Paste Files and E-mails
+## Copy and paste files and e-mails
 
 Attached object files is provided by objects containing a property for storing file data. For example documents related to a given project or customer.
 
@@ -60,13 +58,11 @@ You can also [import data from a file](export-and-import-data.md "Import Data") 
 
 Note! If the only purpose of The task is to copy attached files to the clipboard, you can simply publish the Task to the data source containing the attached files, and then select **Copy** as action for the publication. That is, you do not need to define any data sources or actions. This speeds up performance too, which is especially important when dragging files.
 
-
-
-## Copy and Paste Data Between Two Genus Desktop Applications
+## Copy and paste data between two Genus Desktop applications
 
 To copy and paste data between two Genus desktop applications, you define a Schema used for exchanging data, and Tasks used for performing the copy and paste operations.
 
-**To copy data, do the following:**
+### To copy data
 
 1.  Create the schema that should be used for exchanging data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/data/schemas.md) on how to create a Schema. It is important that you specify a namespace for the Schema. The namespace is used by the other application to identify data placed on the clipboard.
 2.  Create a Task that should be used for copying data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/logic/tasks.md) on how to create a Task.
@@ -80,7 +76,7 @@ When the task is run, information that XML data based on the selected Schema is 
 
 Note! If you have published more than one Task for copying objects to a given context, the Tasks are displayed as separate commands in the **Copy** menu.
 
-**To paste data, do the following:**
+## To paste data
 
 1.  Create a Schema with the same structure and namespace as in step 1 above.
 2.  Create a Task that should be used for pasting data. Follow the instructions in the [step-by-step procedure](../../defining-an-app-model/logic/tasks.md) on how to create a Task.
@@ -92,9 +88,7 @@ Note! If you have published more than one Task for copying objects to a given co
 
 To paste data in the context for the publication, click **Paste Special**. In the **Paste Special** dialog box click the Task. Note that the **Paste Special** dialog box only is displayed if you have published more than one Task for pasting data to the given context.
 
-
-
-## Copy an Object as a Shortcut
+## Copy an object as a shortcut
 
 To create a shortcut to an object, for example on your desktop, right-click the object, and then in the shortcut menu, click **Copy Shortcut**. On the desktop, press CTRL+V.
 
@@ -105,4 +99,3 @@ An URL to an object in a Genus desktop application is defined by the protocol **
 **genuslink:_<application-server-url>_?LinkType=OpenLink&Verb=open&ClassId=_<a-class-id>_&ObjectId=_<an-object-id>_**
 
 To change what happens when opening a link, see [Change What Happens When Opening a Link](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
-
