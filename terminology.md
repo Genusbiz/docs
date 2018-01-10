@@ -94,11 +94,11 @@ Genus Apps consists of all software and products provided by Genus, whether prov
 
 ## Genus Apps for desktop
 
-Genus Apps' client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs).
+Genus Apps' client (runtime/executable) for desktop devices, like Windows 10 on laptops or personal computers (PCs). Genus Apps for desktop is also called Genus Desktop.
 
 ## Genus Apps for web
 
-Genus Apps' client (runtime/executable) for web browsers.
+Genus Apps' client (runtime/executable) for web browsers. Genus Apps for web is also called Genus Web.
 
 ## Genus Services
 
