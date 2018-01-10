@@ -1,6 +1,6 @@
 # System requirements
 
-## System requirements for Genus Apps for web
+## System requirements for Genus Apps for web (Genus Web)
 
 Our web client runs on all major evergreen browsers on all devices.  
 
@@ -14,7 +14,9 @@ Please note that Internet Explorer 11 and older versions are not considered ever
 
 In general, support for operating systems and browsers with a market share of 5% or less is removed in the next release of our web client.
 
-## System requirements for Genus Apps for desktop
+Genus Web requires a Genus Services installation on one or more application servers, which will be provided for you by your system administrator, your business partner or through a Genus Cloud Subscription.
+
+## System requirements for Genus Apps for desktop (Genus Desktop)
 
 The minimum hardware and software requirements for our desktop client are listed below.
 
@@ -51,7 +53,7 @@ Integration with Microsoft Office is supported for both 32-bit and 64-bit editio
 
 The Genus document mail merge feature does not require Microsoft Word to be installed.
 
-We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. The Genus desktop client requires a Genus Services installation on one ore more application servers, which will be provided for you by your system administrator or your business partner.
+We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. Genus Desktop requires a Genus Services installation on one or more application servers, which will be provided for you by your system administrator, your business partner or through a Genus Cloud Subscription.
 
 ## System requirements for an application server running Genus Services
 
