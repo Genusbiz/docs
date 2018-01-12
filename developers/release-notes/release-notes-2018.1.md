@@ -217,6 +217,11 @@ Afther a user has customized fields in a view, the user must reset the current v
 <!--ID 25e88936-4573-4e99-b35f-f2f49aff2223 -->
 **#23023 Fixed an issue with the date picker on mobile devices** (Web)
 
+<!--ID c0285032-2964-4aba-b89f-156b6769fb6c -->
+**#23028 Dynamic table and join aliases are generated in a way that makes two structually equal queries equal** (Desktop;Services;Web)
+
+By being equal the query execution plan cache on the server can be used
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
