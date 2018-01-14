@@ -129,6 +129,28 @@ Read of audit trails was previously not supported. Deleting audit trails was sup
 * For object classes defined in your directory, it is possible to delete audit trails for a filtered set of objects.
 * Delete audit trails irrespective of age.
 
+<!--ID 1e83ec51-2905-4ba4-bef4-79d77e5847bf -->
+**#23029 Access to selected text for controls in actions** (Desktop)
+
+Added support for accessing the selected text in a form control when a task is invoked from the context menu. The selected text can be accessed from the built-in *Action Orchestrator* data source:
+
+```
+Action Orchestrator.Current Text Selection
+```
+
+Note that you cannot disable a command running a task based on the value for the selected text. Use a decision block inside the task to determine what to do.
+
+Controls supporting text selection:
+
+* E-Mail Address Edit
+* File Preview (MS Word, MS Excel, PDF, text)
+* HTML Edit
+* Rich Edit
+* Text
+* Text Edit
+* Text Popup Edit
+* URL Edit
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
