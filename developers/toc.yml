@@ -541,43 +541,45 @@
 - name: How to
   href: how-to/index.md
   items:
+  - name: Accessing selected text in form controls
+    href: how-to/accessing-selected-text-in-form-controls.md
   - name: Attach a file or an email to an object
     href: how-to/attach-a-file-or-an-email-to-an-object.md
-  - name: Exchange Data with Other Applications
+  - name: Exchange data with other applications
     href: how-to/exchange-data-with-other-applications.md
     items:
-    - name: Exchanging Files and Objects
+    - name: Exchanging files and objects
       href: how-to/exchange-data-with-other-applications/exchanging-files-and-objects.md
-    - name: Export and Import Data
+    - name: Export and import data
       href: how-to/exchange-data-with-other-applications/export-and-import-data.md
-    - name: Copy and Paste Data
+    - name: Copy and paste data
       href: how-to/exchange-data-with-other-applications/copy-and-paste-data.md
-    - name: Microsoft Outlook Integrations
+    - name: Microsoft Outlook integrations
       href: how-to/exchange-data-with-other-applications/microsoft-outlook-integrations.md
-  - name: Merge Data to a Document
+  - name: Merge data to a document
     href: how-to/merge-data-to-a-document.md
     items:
-    - name: Merge Data to a Microsoft Excel Document
+    - name: Merge data to a Microsoft Excel document
       href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md
       items:
-      - name: Merge Table Data to a Microsoft Excel Document
+      - name: Merge table data to a Microsoft Excel document
         href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/merge-table-data-to-a-microsoft-excel-document.md
-      - name: Merge Report Data to a Microsoft Excel Document
+      - name: Merge report data to a Microsoft Excel document
         href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/merge-report-data-to-a-microsoft-excel-document.md
-    - name: Merge Data to a Microsoft Word Document
+    - name: Merge data to a Microsoft Word document
       href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md
-    - name: Test Run Merging Template
+    - name: Test run merging template
       href: how-to/merge-data-to-a-document/test-run-merging-template.md
-  - name: Search Across Many Data Sources
+  - name: Report an error
+    href: how-to/report-an-error.md
+  - name: Search across many data sources
     href: how-to/search-across-many-data-sources.md
   - name: Show an analysis on a website
     href: how-to/show-an-analysis-on-a-website.md
-  - name: Upload and Download Large Files
-    href: how-to/upload-and-download-large-files.md
   - name: Translate the app model to other languages
     href: how-to/translate-the-application-model-to-other-languages.md
-  - name: Report an error
-    href: how-to/report-an-error.md
+  - name: Upload and download large Files
+    href: how-to/upload-and-download-large-files.md
 - name: Release notes
   href: release-notes/index.md
   items:
