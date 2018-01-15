@@ -132,13 +132,15 @@ Read of audit trails was previously not supported. Deleting audit trails was sup
 <!--ID 1e83ec51-2905-4ba4-bef4-79d77e5847bf -->
 **#23029 Access to selected text for controls in actions** (Desktop)
 
-Added support for accessing the selected text in a form control when a task is invoked from the context menu. The selected text can be accessed from the built-in *Action Orchestrator* data source:
+In some cases you might want to perform some logic based on the current selected text in a form control, such as executing a search or classify named entities in a text.
+
+To do this, define a command targeting a task, and then attach the command to the *On Context Menu Item Click* event in a control supporting text selection. When the task is invoked from the context menu, the selected text can be accessed from the built-in *Action Orchestrator* data source within the task:
 
 ```
 Action Orchestrator.Current Text Selection
 ```
 
-Note that you cannot disable a command running a task based on the value for the selected text. Use a decision block inside the task to determine what to do.
+Note that you cannot disable a command based on the value for the selected text. To determine what to do, define a decision block in the task.
 
 Controls supporting text selection:
 
