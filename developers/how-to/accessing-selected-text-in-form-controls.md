@@ -1,5 +1,7 @@
 # Accessing selected text in form controls
 
+Applies to: Desktop form
+
 In some cases you might want to perform some logic based on the current selected text in a form control, such as executing a search or classify named entities in a text.
 
 To do this, define a command targeting a task, and then attach the command to the *On Context Menu Item Click* event in a control supporting text selection. When the task is invoked from the context menu, the selected text can be accessed from the built-in *Action Orchestrator* data source within the task:
