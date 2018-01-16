@@ -249,6 +249,11 @@ By being equal the query execution plan cache on the server can be used
 <!--ID d5fc6028-e07f-4480-988c-668caea957d7 -->
 **#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.** (Desktop)
 
+<!--ID 5e79cb16-efd7-4ff8-aa02-8d46a2ddf9f9 -->
+**#23031 Sort objects effect generates a SQL lookup for each branched field data are sorted by** (Desktop)
+
+If data are sorted by a field contained in a referenced class, such as Person.Employer.Name, values are looked up in DB for each object in the data source before sorting. Values should have been read in one batch when the data source was populated.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
