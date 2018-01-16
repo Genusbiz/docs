@@ -246,6 +246,9 @@ Afther a user has customized fields in a view, the user must reset the current v
 
 By being equal the query execution plan cache on the server can be used
 
+<!--ID d5fc6028-e07f-4480-988c-668caea957d7 -->
+**#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
