@@ -300,7 +300,10 @@ Filters applied in a *Run a Report* effect are ignored when the report is opened
 <!--ID d70f0f2d-3f55-44ac-acd1-a76152d6e366 -->
 **#23009 Fixed problem with updating cells where the user don't have read access.** (Desktop)
 
-If a property that the user don’t have access to is listed, the column is removed. But if we have multiple rows, the column may still be created, but the cell for the given object is not created. If this object is updated we may try to update the column in the list and this caused Genus to crash.
+If a property that the user dont have access to is listed, the column is removed. But if we have multiple rows, the column may still be created, but the cell for the given object is not created. If this object is updated we may try to update the column in the list and this caused Genus to crash.
+
+<!--ID d5fc6028-e07f-4480-988c-668caea957d7 -->
+**#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.** (Desktop)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
