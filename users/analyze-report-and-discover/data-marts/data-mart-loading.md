@@ -63,4 +63,4 @@ In a multi-node setup (see [Nodes and node groups](../../../developers/defining-
 
 ## Event history
 
-Every time a data mart is loaded, an event log entry is created. To control the growth of history, Genus Apps provides capabilities to define "retention rules" for history logs. See [Guidelines and best practices](../../../developers/guidelines-and-best-practices/deleting-log-entries-in-the-history.md))
+Every time a data mart is loaded, an event log entry is created. To control the growth of history, Genus Apps provides capabilities to define "retention rules" for history logs. See [Guidelines and best practices](../../../developers/guidelines-and-best-practices/deleting-log-entries-in-the-history.md) for more information.
