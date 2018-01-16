@@ -198,6 +198,9 @@ If data are read and written to the same data source, no objects are returned. B
 
 Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
 
+<!--ID d5fc6028-e07f-4480-988c-668caea957d7 -->
+**#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
