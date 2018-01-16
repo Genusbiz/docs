@@ -377,6 +377,9 @@ Afther a user has customized fields in a view, the user must reset the current v
 <!--ID 25e88936-4573-4e99-b35f-f2f49aff2223 -->
 **#23023 Fixed an issue with the date picker on mobile devices** (Web)
 
+<!--ID d5fc6028-e07f-4480-988c-668caea957d7 -->
+**#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
