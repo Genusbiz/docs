@@ -153,6 +153,11 @@ Controls supporting text selection:
 * Text Popup Edit
 * URL Edit
 
+<!--ID decfb1ea-01b1-4fbe-a14a-d15d44943e54 -->
+**#23032 Language support (Analysis)** (Desktop)
+
+Implemented support for localization in Analysis. The user can choose between English and Norwegian.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
