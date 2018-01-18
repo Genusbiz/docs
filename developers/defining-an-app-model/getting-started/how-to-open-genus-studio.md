@@ -1,21 +1,11 @@
 # How to open Genus Studio
 
-To open Genus Studio, do one of the following:
+[Genus Studio](../../../terminology.md#genus-studio) is Genus Apps' client for defining and maintaining an [app model](../../../terminology.md#app-model) (also called a [directory](../../../terminology.md#directory)).
 
-**Open Genus Studio from the Genus desktop client:**
+Genus Studio opens from [Genus Desktop](../../../terminology.md#genus-desktop).
 
-1.  In the **Tools** menu, click **Genus Studio**.
-2.  If a data set is opened in the Genus desktop client, the directory for this data set is read. If the Genus desktop client was opened without data set, in Genus Studio, in the **File** menu, point to **Open**, and then click **Directory**. In the **Open Directory** dialog box, type the Internet address to your application server.
+In the **File** menu in Genus Desktop, click **Application** and then **Start Genus Studio**.
 
-**Open Genus Studio from a Windows Shortcut**
+If you have not been granted access to Genus Studio, the menu item will not be available. Please contact your system adminstrator to gain access.
 
-To create a shortcut to Genus Studio in the Windows Start Menu or on the Windows Desktop, do the following:
-
-1.  In the **Windows Start Menu**, click the shortcut to the Genus desktop client.
-2.  In the **Tools** menu, click **Options**.
-3.  In the **Options** dialog box, click the **Data Sets** tab.
-4.  In the **Data Sets** list, click the data set for which you want to create a directory shortcut to, and then click **Modify**.
-5.  In the **Data Set** dialog box, click **Create Shortcuts**.
-6.  In the section **Target**, select the **Genus Studio** check box.
-7.  To create a shortcut in the start menu, select the **Windows Start Menu** check box. To create a shortcut on desktop, select the **Windows Desktop** check box.
-8.  Click **OK**.
+It is possible to open Genus Studio directly from a Windows shortcut or url, if you have been provided with one from your system administrator. To learn how to create such a shortcut, see [here](how-to-create-shortcuts-to-genus-studio-or-genus-desktop.md).

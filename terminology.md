@@ -30,7 +30,7 @@ Apps installed on devices are usually named **Installed Apps** or **Mobile Apps*
 
 ## App model
 
-An app model is a formalized description of a software app's user interface, logic and data, expressed using Genus Apps. App model is short for application model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in the [Directory](#directory) and maintained by using [Genus Studio](#genus-studio).
+An app model is a formalized description of a software app's user interface, logic and data, expressed using Genus Apps. App model is short for application model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in the [Directory](#directory) and maintained by using [Genus Studio](#genus-studio). The terms [directory](#directory) and [app model](#app-model) are often used interchangeably.
 
 Note that our use of the term "model" does not imply that a model is some form of simplification. To us a model is distilled knowledge and a way of structuring a domain.
 
@@ -58,7 +58,7 @@ A data provider is a software component enabling access to data from a data sour
 
 In general, a directory is a structured listing and storage of information.
 
-In Genus Apps, the directory is the structured storage of a [Genus app model](#app-model). The directory is maintained using [Genus Studio](#genus-studio).
+In Genus Apps, the directory is the structured storage of a [Genus app model](#app-model). The directory is maintained using [Genus Studio](#genus-studio). The terms directory and [app model](#app-model) are often used interchangeably.
 
 ## Directory GUID
 
@@ -100,6 +100,10 @@ Genus Apps' client (runtime/executable) for desktop devices, like Windows 10 on 
 
 Genus Apps' client (runtime/executable) for web browsers. Genus Apps for web is also called Genus Web.
 
+## Genus Desktop
+
+Genus Desktop is short for [Genus Apps for desktop](#genus-apps-for-desktop).
+
 ## Genus Services
 
 Genus Apps' set of software components offering services to Genus Apps for Web, Genus Apps for Desktop, other Genus Services, or third party service consumers.
@@ -116,7 +120,12 @@ Use Genus Services when you talk about the services independently of one or more
 
 ## Genus Studio
 
-Genus Apps' client for defining and maintaining an [app model](#app-model). Genus Studio is included in the Genus Desktop installation.
+Genus Apps' client for defining and maintaining an [app model](#app-model) or a [directory](#directory). Genus Studio is included in the Genus Desktop installation.
+
+## Genus Web
+
+Genus Web is short for [Genus Apps for web](#genus-apps-for-web).
+
 
 ## Metadata
 

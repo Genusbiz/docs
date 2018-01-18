@@ -19,6 +19,8 @@
     items:
     - name: How to open Genus Studio
       href: defining-an-app-model/getting-started/how-to-open-genus-studio.md
+    - name: How to create shortcuts to Genus Studio or Genus Desktop
+      href: defining-an-app-model/getting-started/how-to-create-shortcuts-to-genus-studio-or-genus-desktop.md
     - name: Search and organize
       href: defining-an-app-model/getting-started/search-and-organize.md
     - name: Deploy changes in the Directory
