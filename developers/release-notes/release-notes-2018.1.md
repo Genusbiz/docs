@@ -264,7 +264,11 @@ If data are sorted by a field contained in a referenced class, such as Person.Em
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no known issues in this release.
+<!--ID 9da72685-b0c9-448b-9442-73d163112855 -->
+**#23033 Fixed issue where Android Tablets where interpreted as phones for the Play Store app**
+
+This caused views created with the phone formfactor to be displayed on the tablets.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
