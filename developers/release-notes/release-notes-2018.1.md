@@ -259,6 +259,11 @@ By being equal the query execution plan cache on the server can be used
 
 If data are sorted by a field contained in a referenced class, such as Person.Employer.Name, values are looked up in DB for each object in the data source before sorting. Values should have been read in one batch when the data source was populated.
 
+<!--ID abd2faa9-710c-496a-8c5f-f947b49cfd4e -->
+**#23034 Analysis - Designer** (Desktop)
+
+Value properties are no longer cleared when changing field value.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
