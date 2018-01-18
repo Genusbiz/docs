@@ -6,9 +6,9 @@
   - name: Terminology
     href: ../terminology.md
 - name: Getting started
-  href: getting-started.md
+  href: index.md
   items:
-  - name: Start Genus Desktop
+  - name: Start Genus Apps for desktop
     href: getting-started/start-the-genus-desktop-client.md
 - name: Navigate, view, modify and control
   href: navigate-view-modify-and-control/index.md

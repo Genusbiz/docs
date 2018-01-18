@@ -20,7 +20,7 @@ Learn how to use Genus Apps to quickly create, deploy and change customized soft
 
 ## Users
 * [Overview](users/overview/index.md)
-* [Getting started](users/getting-started.md)
+* [Getting started](users/index.md)
 * [Navigate, view, modify and control](users/navigate-view-modify-and-control/index.md)
 * [Search and refine](users/search-and-refine/index.md)
 * [Analyze, report and discover](users/analyze-report-and-discover/index.md)
