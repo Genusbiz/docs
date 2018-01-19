@@ -21,7 +21,7 @@ Metadata that can be assigned to a model object:
 | Tags        | A tag is a keyword or term which helps describe an object and allows it to be found by browsing or searching. You can assign as many tags as you want to a model object. |
 | Comments    | |
 | Owner       | |
-| Delegate    | |
+| Delegate    | The user which has been delegated ownership for the object. |
 
 To add or modify metadata for a model object, right-click the model object, click **Properties** and locate the **Details** tab.
 
