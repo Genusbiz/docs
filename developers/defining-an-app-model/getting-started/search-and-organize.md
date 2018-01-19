@@ -1,6 +1,13 @@
+---
+title: Genus Apps documentation
+description: Search and organize model objects using metadata like groups, tags etc.
+author: thomasatgenus
+---
 # Search and organize
 
 The search and organize features in Genus Studio help you readily find, sort and organize your model objects.
+
+A model object is one or more of your object classes, your forms, your web services etc.
 
 ## Metadata
 
@@ -10,7 +17,7 @@ Metadata that can be assigned to a model object:
 
 | Name        | Description                      |
 | ----------- | -------------------------------- |
-| Groups      | >Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help users to filter out somewhat irrelevant data. |
+| Groups      | Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help users to filter out somewhat irrelevant data. |
 | Tags        | A tag is a keyword or term which helps describe an object and allows it to be found by browsing or searching. You can assign as many tags as you want to a model object. |
 | Comments    | |
 | Owner       | |
@@ -22,7 +29,7 @@ To add or modify metadata for a model object, right-click the model object, clic
 
 Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help you  filter out somewhat irrelevant data.
 
-To group one or more objects in the same group, select model objects, right-click the selection, and click **Change Group**. If you do not want the selected objects to be grouped, click **None**.
+To group one or more model objects in the same group, select model objects, right-click the selection, and click **Change Group**. If you do not want the selected objects to be grouped, click **None**.
 
 Model object selection is only available in _tables_ listing model objects.
 
@@ -34,53 +41,15 @@ Note that when you remove a group or tag, the group or tag is removed from all o
 
 ## Tags
 
-A tag is a keyword or term which helps describe an object and allows it to be found by browsing or searching. You can assign as many tags as you want to an object.
+A tag is a keyword or term which helps describe a model object and allows it to be found by browsing or searching. You can assign as many tags as you want to a model object.
 
+To add tags to one or more model objects, select model objects, right-click the selection, and click **Add tag**.
 
+You create and delete tags similar to creating and deleting **[Groups](#groups)**.
 
-**Add Tags to Objects**
+Tags may be nested. Searching for higher level tags will also return lower level tags. Nesting of tags are configured in the **Tools** / **Groups and Tags...** dialog by using drag & drop.
 
-<span style="FONT-STYLE: italic">Tag one or more objects with the same tags:
-
-1.  In the **Directory Explorer**, select the objects which you want to tag.
-2.  In the **Actions** menu, click **Add Tag**.
-3.  In the **Available Tags** list, click a tag and then click **Select**. To select more than one tag, press the CTRL key and click multiple tags.
-
-If you want to create a new tag, click <span style="FONT-STYLE: italic; FONT-WEIGHT: bold">Create a New Tagin the **Available Tags** list.
-
-<span style="FONT-STYLE: italic">Tag an object using the property dialog box:
-
-1.  In the **Directory Explorer**, right-click an object to apply properties, and then in the shortcut menu, click **Properties**.
-2.  Click the **Details** tab.
-3.  In the **Tags** box, select one or more tags from the list. If you want to create a new tag, simply type the name of the new tag in the **Tags** box.
-
-When you save a new object, you can tag the object from the **Tag** box in the **Save As** dialog.
-
-**Remove Tags from Objects**
-
-1.  In the **Directory Explorer**, right-click the objects which you want to remove a tag from, and then in the shortcut menu point to **Remove Tag** and click the tag you want to remove.
-
-**Add and Modify Tags**
-
-1.  In the **Tools** menu, click **Groups and Tags**.
-2.  Click the **Tags** tab.
-3.  In the **Tags** list, right-click a tag and in the shortcut menu click **Create Tag** and then type a name for the tag.
-
-If you add a lot of tags, you might discover that it is difficult to keep track of a long list of tags. If you have group of related tags, you might want to nest them instead. Consider, for example, this set of tags in a resource management system:
-
-*   Request
-*   Order
-*   Resource
-
-You might want to nest these tags to a top-level tag named <span style="FONT-STYLE: italic">Staffing. When you search for objects tagged with <span style="FONT-STYLE: italic">Staffing, all objects tagged with the top-level tag and any of the nested tags are returned.
-
-To nest tags, do one of the following:
-
-*   Right-click the top-level tag, and then in the shortcut menu, click **Create Tag**.
-*   Drag a tag that you want to be nested to the tag that you want to make the top-level tag.
-
-**Tip**. To create a nested tag when typing tags in the **Details** tab in the property dialog box for an object, or in the **Save As** dialog box, use a slash (/). For example, type <span style="FONT-STYLE: italic">Staffing/Order to create the <span style="FONT-STYLE: italic">Order tag and nest it to the <span style="FONT-STYLE: italic">Staffing tag. If the <span style="FONT-STYLE: italic">Staffing tag does not already exist, it will be created automatically.
-
+**Tip**. To create a nested tag when typing tags in the **Details** tab in the property dialog for a model object, or in the **Save As** dialog, use a slash (/). For example, type _Staffing/Order_. If the _Staffing_ tag does not already exist, it will be created automatically.
 
 
 ## Search
