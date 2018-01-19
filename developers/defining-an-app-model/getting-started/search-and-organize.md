@@ -1,121 +1,42 @@
 # Search and organize
 
-The search and organize features in the Directory Explorer help you readily find, sort and organize objects. The Directory Explorer combines elements such as:
+The search and organize features in Genus Studio help you readily find, sort and organize your model objects.
 
-*   **Metadata for objects**, used to find, organize and sort objects.
-*   **Instant Search**, which is always available and find objects rapidly.
-*   **Search Folders**, which makes it easy to find and organize objects. A Search Folder is simply a saved search with custom view settings. Opening a Search Folder runs your saved search.
-*   **View Settings**. The layout for all views in the Directory Explorer can be customized to suit your preferences. A view is composed of fields and settings controlling the way objects are sorted and grouped. The settings are stored as part of your personal setup.
-*   **Auto Filter**. Using Auto Filter to filter data is a quick and easy way to find and work with a subset of data in a table.
+## Metadata
 
+In addition to the actual content of a model object, there is information about the object itself. Genus Studio keeps track of details about each model object, for example when it was created and when it was last modified. You can also store extra details for an object, such as category, tags, comments, owner and delegate.
 
-## Organize Your Objects in the Directory using Metadata
+Metadata that can be assigned to a model object:
 
-In addition to the actual content of an object, there is information about the object itself. Genus Studio keeps track of details about each object in the directory, for example when it was created and when it was last modified. You can also store extra details for an object, such as category, tags, comments, owner and delegate.
+| Name        | Description                      |
+| ----------- | -------------------------------- |
+| Groups      | >Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help users to filter out somewhat irrelevant data. |
+| Tags        | A tag is a keyword or term which helps describe an object and allows it to be found by browsing or searching. You can assign as many tags as you want to a model object. |
+| Comments    | |
+| Owner       | |
+| Delegate    | |
 
-Maintaining metadata properties requires some up-front work, but it has a profound pay-off in a networked office where many users share objects. When you use the [advanced search pane](search-and-organize.md "Search") in Directory to find objects, you can search by any property for any object. In the **Directory** **Explorer** the various metadata properties can be used to sort and organize objects.
-
-**Metadata that can be assigned to an object**
-
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>Name</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>[Groups](search-and-organize.md "Groups")[](search-and-organize.md "Groups")</td>
-
-<td>Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help users to filter out somewhat irrelevant data.</td>
-
-</tr>
-
-<tr>
-
-<td>[Tags](search-and-organize.md "Tags")</td>
-
-<td>A tag is a keyword or term which helps describe an object and allows it to be found by browsing or searching. You can assign as many tags as you want to an object.</td>
-
-</tr>
-
-<tr>
-
-<td>Comments</td>
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>Owner</td>
-
-<td>The user which owns the object.</td>
-
-</tr>
-
-<tr>
-
-<td>Delegate</td>
-
-<td>The user which has been delegated ownership for the object.</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-To add or modify metadata for an object, in the **Directory Explorer**, do the following:
-
-1.  Right-click the object, and then in the shortcut menu, click **Properties**.
-2.  Click the **Details** tab.
-
-To change **Owner** for one or more objects at once, in the **Directory Explorer**, right-click your selection of objects, and then in the shortcut menu, click **Set Owner**. Find the owner using the search dialog box and click **OK**.
-
-To change **Delegate** for one or more objects at once, in the **Directory Explorer**, right-click your selection of objects, and then in the shortcut menu, click **Set Delegate**. Find the delegate using the search dialog box and click **OK**.
-
-
+To add or modify metadata for a model object, right-click the model object, click **Properties** and locate the **Details** tab.
 
 ## Groups
 
-Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help users to filter out somewhat irrelevant data.
+Groups are primarily used to break up content into broadly identifiable selections. While not being highly effective for finding specific information, it can help you  filter out somewhat irrelevant data.
 
-**Change Group for Objects**
+To group one or more objects in the same group, select model objects, right-click the selection, and click **Change Group**. If you do not want the selected objects to be grouped, click **None**.
 
-<span style="FONT-STYLE: italic">Group one or more objects in the same group
+Model object selection is only available in _tables_ listing model objects.
 
-1.  In the Directory Explorer, select the objects which you want to group.
-2.  In the **Actions** menu, point to **Change Group**, and then click a group. If you do not want the selected objects to be grouped, click **None**.
+If you want to create a new group, right-click a model object, click **Properties**, and in the **Details** tab, click the Group drowdown and select **Create a New Group**.
 
-<span style="FONT-STYLE: italic">Group one object using the property dialog box:
+You may also in the **Tools** menu select **Groups and Tags...**. This dialog allows you to create (by right-clicking), delete (by right-clicking) and renaming (press **F2**) both groups and tags.
 
-1.  In the Directory Explorer, right-click an object to apply properties, and then in the shortcut menu, click **Properties**.
-2.  Click the **Details** tab.
-3.  In the **Group** box, select a group from the list. If you want to create a new group, in the list, click **Create a New Group**.
-
-**Add and Modify Categories**
-
-1.  In the **Tools** menu, click **Groups** **and Tags**.
-2.  Click the **Groups** tab.
-3.  To add a new group, right-click a group and then in the shortcut menu, click **Create Group**.
-4.  To rename a group, click a group and press the **F2** key.
-5.  To remove a group, right-click a group and in the shortcut menu, click **Delete**.
-
-Note that when you remove a group, the group is removed from all objects which have this category assigned.
-
-
+Note that when you remove a group or tag, the group or tag is removed from all objects which have this group or tag assigned.
 
 ## Tags
 
 A tag is a keyword or term which helps describe an object and allows it to be found by browsing or searching. You can assign as many tags as you want to an object.
+
+
 
 **Add Tags to Objects**
 
