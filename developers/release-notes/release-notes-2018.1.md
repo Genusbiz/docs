@@ -82,40 +82,6 @@ Unless the **Initial Catalog** connection string property is assigned explicitly
 
 When designing tables it's possible to add a detail pane. The detail pane can contain calculations and it can modify objects. Commands from the detail pane form can be added in the tables ribbon section.
 
-<!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Minor new functionality
-<!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 1b2327c9-d594-4763-920c-70720283052d -->
-**#23002 Added til to view name** (Studio)
-
-Added a tip to view name when selection table views in different contexts
-
-<!--ID 85793531-a348-4549-8c3c-ba2a47fc2123 -->
-**#23007 (Analysis) Two dimensional grid now supports sorting** (Desktop)
-
-The two dimensional grid can now be sorted on both horizontal and vertical category. The setting is available in the designer under "Format" -> "Sort and Limit"
-
-<!--ID 591be5dd-b7ae-42ff-820c-c0eb37f70778 -->
-**#23013 View symbol in the table header** (Desktop)
-
-The table header now shows the view symbol if the shortcut gets its name from the target. If no symbol is defined in the table view, the shortcut symbol is used.
-
-<!--ID d0895429-a142-4563-a0ca-0001e2872740 -->
-**#23015 (Analysis) Data Point Labels** (Desktop)
-
-The user can now specify custom data point labels. The option is available on Pie Chart and Doughnut Chart.
-
-<!--ID 7b6ce845-eae7-4515-a792-aacbfc6f1ba2 -->
-**#23024 Convert an integer value to a HTTP status code** (Studio)
-
-Added function *fromInteger* to the HttpStatusCode enumeration defined in the Genus Apps language. The function converts an integer value to a HttpStatusCode:
-
-```
-HttpStatusCode.fromInteger(value : integer) : HttpStatusCode
-```
-
-One application of the function is to return a HttpStatusCode as a result of processing a request to a REST service defined in Genus Apps.
-
 <!--ID 6984adc8-d560-4c10-bebb-204d3a0f1c2c -->
 **#23025 Requirements imposed by the General Data Protection Regulation (GDPR)** (Studio)
 
@@ -152,6 +118,40 @@ Controls supporting text selection:
 * Text Edit
 * Text Popup Edit
 * URL Edit
+
+<!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+## Minor new functionality
+<!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 1b2327c9-d594-4763-920c-70720283052d -->
+**#23002 Added til to view name** (Studio)
+
+Added a tip to view name when selection table views in different contexts
+
+<!--ID 85793531-a348-4549-8c3c-ba2a47fc2123 -->
+**#23007 (Analysis) Two dimensional grid now supports sorting** (Desktop)
+
+The two dimensional grid can now be sorted on both horizontal and vertical category. The setting is available in the designer under "Format" -> "Sort and Limit"
+
+<!--ID 591be5dd-b7ae-42ff-820c-c0eb37f70778 -->
+**#23013 View symbol in the table header** (Desktop)
+
+The table header now shows the view symbol if the shortcut gets its name from the target. If no symbol is defined in the table view, the shortcut symbol is used.
+
+<!--ID d0895429-a142-4563-a0ca-0001e2872740 -->
+**#23015 (Analysis) Data Point Labels** (Desktop)
+
+The user can now specify custom data point labels. The option is available on Pie Chart and Doughnut Chart.
+
+<!--ID 7b6ce845-eae7-4515-a792-aacbfc6f1ba2 -->
+**#23024 Convert an integer value to a HTTP status code** (Studio)
+
+Added function *fromInteger* to the HttpStatusCode enumeration defined in the Genus Apps language. The function converts an integer value to a HttpStatusCode:
+
+```
+HttpStatusCode.fromInteger(value : integer) : HttpStatusCode
+```
+
+One application of the function is to return a HttpStatusCode as a result of processing a request to a REST service defined in Genus Apps.
 
 <!--ID decfb1ea-01b1-4fbe-a14a-d15d44943e54 -->
 **#23032 Language support (Analysis)** (Desktop)
@@ -259,6 +259,11 @@ By being equal the query execution plan cache on the server can be used
 
 If data are sorted by a field contained in a referenced class, such as Person.Employer.Name, values are looked up in DB for each object in the data source before sorting. Values should have been read in one batch when the data source was populated.
 
+<!--ID 9da72685-b0c9-448b-9442-73d163112855 -->
+**#23033 Fixed issue where Android Tablets where interpreted as phones for the Play Store app**
+
+This caused views created with the phone formfactor to be displayed on the tablets.
+
 <!--ID abd2faa9-710c-496a-8c5f-f947b49cfd4e -->
 **#23034 Analysis - Designer** (Desktop)
 
@@ -269,11 +274,7 @@ Value properties are no longer cleared when changing field value.
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 9da72685-b0c9-448b-9442-73d163112855 -->
-**#23033 Fixed issue where Android Tablets where interpreted as phones for the Play Store app**
-
-This caused views created with the phone formfactor to be displayed on the tablets.
-
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
