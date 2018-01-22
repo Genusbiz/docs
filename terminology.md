@@ -22,9 +22,9 @@ The advanced expressions are strongly typed, specifying restrictions on how oper
 
 For a complete description of the data types and members, see [here](developers/defining-an-app-model/common-concepts/advanced-expressions.md).
 
-## App or Application
+## App
 
-An app is an abbreviated form of the word application. An app or application is a computer program designed to perform a set of functions to the benefit of users, either directly or indirectly. The abbreviated form "app" was previously used primarily about specialized computer programs downloaded on mobile devices, where as "application" was used about computer programs on desktop and server computers. However, with the advent of cross platform computer programs, the word app is generally preferred and considered the more modern term.
+An app is an abbreviated form of the word application. An app is a computer program designed to perform a set of functions to the benefit of users, either directly or indirectly. The abbreviated form "app" was previously used primarily about specialized computer programs downloaded on mobile devices, where as "application" was used about computer programs on desktop and server computers. However, with the advent of cross platform computer programs, the word app is generally preferred and considered the more modern term.
 
 Apps installed on devices are usually named **Installed Apps** or **Mobile Apps**, as opposed to **Web Apps** or **Mobile Web**, which are apps simply opened within your web browser by clicking a web linke or specifying an url.
 
@@ -34,9 +34,21 @@ An app model is a formalized description of a software app's user interface, log
 
 Note that our use of the term "model" does not imply that a model is some form of simplification. To us a model is distilled knowledge and a way of structuring a domain.
 
+## Application
+
+Same as [app](#app).
+
+## App server
+
+An app server (or application server) is a [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) or a [software container](https://en.wikipedia.org/wiki/Operating-system-level_virtualization) running a set of software services.
+
+[Genus Server](#genus-server) is an example of one type of app server.
+
+[Genus Services](#genus-services) are an example of a set of software services.
+
 ## Cardinality
 
-The cardinality of a data source or a group specifies whether they can contain **One** or **Many** objects. A data source with cardinality = one, can contain zero or one object, while a data source with cardinality = many, can contain zero, one, or many objects.
+The cardinality of a data source or a group specifies whether they can contain _one_ or _many_ objects. A data source with cardinality = _one_, can contain zero or one object, while a data source with cardinality = _many_, can contain zero, one, or many objects.
 
 While this definition only contains two possible values for cardinality, the mathematical definition of cardinality is the number of elements in a set, thereby having infinite possible values.
 
@@ -46,9 +58,13 @@ Code domains describe a finite set of named code values used to classify domain 
 
 See [Create or modify a code domain](developers/defining-an-app-model/data/object-class/create-or-modify-a-code-domain.md) for more information.
 
-## Customer app or customer solution
+## Customer app
 
-A customer app or customer solution is a computer program (software) based on Genus Apps. Customer apps are defined in an customer specific app model. The word "app" and "application" are used synonymously.
+A customer app is a computer program (software) based on Genus Apps. Customer apps are defined in an customer specific [app model](#app-model).
+
+## Customer solution
+
+Same as [customer app](#customer-app).
 
 ## Data provider
 
@@ -70,7 +86,7 @@ An event history is a chronological sequence of audit trails for objects, each o
 
 See [here](users/navigate-view-modify-and-control/working-in-tables/advanced/view-history.md) for more information on how to view the event history for an object.
 
-See [here](developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md "Events") for more information on how to active auditing for your object classes.
+See [here](developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md) for more information on how to active auditing for your object classes.
 
 ## Formula
 
@@ -106,26 +122,23 @@ Genus Desktop is short for [Genus Apps for desktop](#genus-apps-for-desktop).
 
 ## Genus Services
 
-Genus Apps' set of software components offering services to Genus Apps for Web, Genus Apps for Desktop, other Genus Services, or third party service consumers.
+Genus Apps' set of software components offering software services to Genus Web, Genus Desktop, other Genus Services, or third party service consumers.
 
-Genus Services run on a set of one or more Microsoft Windows Servers. See also [Genus Server](#genus-server).
+Genus Services run on one or more [Genus Servers](#genus-server).
 
 ## Genus Server
 
-Genus Server is almost synonymous with [Genus Services](#genus-services).
+Genus Server is one [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) or one [software container](https://en.wikipedia.org/wiki/Operating-system-level_virtualization) running a set of [Genus Services](#genus-services).
 
-Use Genus Server when you talk about Genus Services as a set of one or more services running inside a Microsoft Windows Server, simply because it is easier to talk about a _Genus Server_ than a _Genus Services Server_. This implies that you may use the term Genus Server for a server hosting only one service (like the _Genus Apps for Web_ service).
-
-Use Genus Services when you talk about the services independently of one or more Microsoft Windows Servers.
+A Genus Server may run one or more of the specific software services which Genus Services consist of.
 
 ## Genus Studio
 
-Genus Apps' client for defining and maintaining an [app model](#app-model) or a [directory](#directory). Genus Studio is included in the Genus Desktop installation.
+Genus Apps' client for defining and maintaining an [app model](#app-model). Genus Studio is included in a Genus Desktop installation, but only available to you if you are granted [trusted user](developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md#trusted-users) rights.
 
 ## Genus Web
 
 Genus Web is short for [Genus Apps for web](#genus-apps-for-web).
-
 
 ## Metadata
 
