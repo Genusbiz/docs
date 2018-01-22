@@ -279,7 +279,9 @@ Number format on value will no longer be reset to default when changing fields o
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no known issues in this release.
+<!--ID f7c2045e-836f-4f03-87c1-73eb4e43e1b6 -->
+**#23036 No longer warns user about leaving the page when redirected to another page in sign out command** (Web)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
