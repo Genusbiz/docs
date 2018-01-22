@@ -13,7 +13,7 @@ In this article we are describing which data you can store about you model objec
 
 ## Metadata
 
-In addition to the actual content of a model object, there is information about the object itself. Genus Studio keeps track of details about each model object, for example when it was created and when it was last modified. You can also store extra details for an object, such as category, tags, comments, owner and delegate.
+In addition to the actual content of a model object, there is information about the object itself. Genus Studio keeps track of details about each model object, for example when it was created and when it was last modified. You can also store extra details for an object, such as group membership, tags, comments, owner and delegate.
 
 Metadata that can be assigned to a model object:
 
