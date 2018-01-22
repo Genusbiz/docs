@@ -385,6 +385,11 @@ Afther a user has customized fields in a view, the user must reset the current v
 
 If data are sorted by a field contained in a referenced class, such as Person.Employer.Name, values are looked up in DB for each object in the data source before sorting. Values should have been read in one batch when the data source was populated.
 
+<!--ID 9da72685-b0c9-448b-9442-73d163112855 -->
+**#23033 Fixed issue where Android Tablets where interpreted as phones for the Play Store app**
+
+This caused views created with the phone formfactor to be displayed on the tablets.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
@@ -399,11 +404,6 @@ See
 * https://docs.genus.no/developers/defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.html
 * https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
 * https://www.codeproject.com/Tips/721145/Beware-The-null-coalescing-operator-is-low-in-the
-
-<!--ID 9da72685-b0c9-448b-9442-73d163112855 -->
-**#23033 Fixed issue where Android Tablets where interpreted as phones for the Play Store app**
-
-This caused views created with the phone formfactor to be displayed on the tablets.
 
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
