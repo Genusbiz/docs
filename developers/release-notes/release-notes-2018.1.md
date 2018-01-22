@@ -269,6 +269,11 @@ This caused views created with the phone formfactor to be displayed on the table
 
 Value properties are no longer cleared when changing field value.
 
+<!--ID dfd38d6a-ae72-4538-955b-07f84bd7887e -->
+**#23035 Analysis - Designer** (Desktop)
+
+Number format on value will no longer be reset to default when changing fields on value.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
