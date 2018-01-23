@@ -398,6 +398,11 @@ This caused views created with the phone formfactor to be displayed on the table
 
 Note from R&D: Bugs not related to local data sources, but to the **Private** setting for data sources (which by default is selected for local data sources).
 
+<!--ID 5d6215e6-ce3b-4498-8c56-076edbb8f4f0 -->
+**#23039 Groups not available when defining criteria for a search folder** (Studio)
+
+In the **Select Field or Group** dialog, groups are not available, and it is not possible express an exist condition.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
