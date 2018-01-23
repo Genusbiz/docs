@@ -158,6 +158,13 @@ One application of the function is to return a HttpStatusCode as a result of pro
 
 Implemented support for localization in Analysis. The user can choose between English and Norwegian.
 
+<!--ID 61f84418-eef0-4ea7-9f7a-e2491a7d3bc7 -->
+**#23038 The term "directory" replaced with "app model"** (Studio)
+
+In general, a directory is a structured listing and storage of information. In Genus Apps, the directory is the structured storage of a Genus app model which is maintained in Genus Studio.
+
+The terms *directory* and *app model* have been used interchangeably, but is now limited to describe the storage of an app model.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
