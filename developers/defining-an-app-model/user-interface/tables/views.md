@@ -120,7 +120,7 @@ You can configure the search pane in two ways:
 2.  In the **Data Sources** list, click **Add**.
 3.  Under **Data Source**, select a data source defined in your table.
 4.  Under **Name Override**, optionally type a name.
-5.  Under **Binding**, optionally specify a binding to another data source defined in your Directory. A binding allows user to search for data in the data source selected in step 3 by entering the search criteria on the bound data source. For example, in a multidimensional table presenting budget figures by project and month, you may want to enable users to search for projects based on attributes defined for the employee which is responsible for the project. To do this, add the *Project* data source to the list of available data sources. Under **Name Override**, type *Project Responsible*. Define a binding to the Employee data source in your Directory, such as *Project **join with** Employee **By** Employee **is equal to** Project.Responsible*. If a user enters a search criterion such as *Project Responsible.Department = Engineering*, all projects where the responsible is working in the *Engineering department* are displayed.
+5.  Under **Binding**, optionally specify a binding to another data source defined in your app model. A binding allows user to search for data in the data source selected in step 3 by entering the search criteria on the bound data source. For example, in a multidimensional table presenting budget figures by project and month, you may want to enable users to search for projects based on attributes defined for the employee which is responsible for the project. To do this, add the *Project* data source to the list of available data sources. Under **Name Override**, type *Project Responsible*. Define a binding to the Employee data source in your app model, such as *Project **join with** Employee **By** Employee **is equal to** Project.Responsible*. If a user enters a search criterion such as *Project Responsible.Department = Engineering*, all projects where the responsible is working in the *Engineering department* are displayed.
 6.  To add an additional data source, click **Add** and repeat steps 3 through 5.
 
 ### Define named search fields
@@ -147,11 +147,11 @@ To change the display order for a search field, click the field in the list, and
 
 ## Refiners
 
-[Refiners](../../../../users/search-and-refine/refiners.md "Refiners") enables users to narrow broad searches and get to the right content faster. You can choose to include all refiners enabled for the data sources defined in your table, or select a specific set of refiners defined in your Directory.
+[Refiners](../../../../users/search-and-refine/refiners.md "Refiners") enables users to narrow broad searches and get to the right content faster. You can choose to include all refiners enabled for the data sources defined in your table, or select a specific set of refiners defined in your app model.
 
 1.  Click the view in the **Views** list.
 2.  In the **Properties** area, click the **Refiners** tab.
-3.  If you want to include all refiners enabled for the data sources defined in your table, click **Inherit Enabled Refiners from Data Sources**. Note that this option not is available in tables with a multidimensional layout. To select a specific set of refiners defined in your Directory, click **Select Refiners**, and then click **Add**.
+3.  If you want to include all refiners enabled for the data sources defined in your table, click **Inherit Enabled Refiners from Data Sources**. Note that this option not is available in tables with a multidimensional layout. To select a specific set of refiners defined in your app model, click **Select Refiners**, and then click **Add**.
 
 To show the refiner pane by default when a table is opened, select the **Show Refiner Pane** check box.
 
@@ -190,7 +190,7 @@ To define a legend, do the following:
 3.  Select the **Enable Legend** check box.
 4.  Choose if the legend is displayed at the top, bottom, left, or right, or if the legend by default is hidden.
 5.  Legend entries are defined by a code domain. In the **Entries** list, click **Add**.
-6.  Under **Code Domain**, select a code domain defined in your Directory.
+6.  Under **Code Domain**, select a code domain defined in your app model.
 7.  Under **Name Override**, optionally enter a name for the entries.
 8.  Under **Symbol**, choose if the entries displays the icon or the color associated with the values in the code domain.
 9.  To add another set of entries, click **Add** and repeat steps 6 through 8.

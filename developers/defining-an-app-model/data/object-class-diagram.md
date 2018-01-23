@@ -2,7 +2,7 @@
 
 Optimal database design is a key component of any application development effort. A well aligned information architecture is just as critical and can only be realized with clearly documented metadata. The **Object Class Diagram** addresses both requirements by allowing you to visualize and maintain your object model. It also promotes effective communications between the various stakeholders of your application, and enables you to address design issues and concerns prior to any significant resource investments.
 
-The Object Class Diagram helps you manage large object models through **pages**, dividing the model into smaller, manageable subsets. On each page you can insert Object Classes already existing in your Directory, or draft new classes and properties.
+The Object Class Diagram helps you manage large object models through **pages**, dividing the model into smaller, manageable subsets. On each page you can insert Object Classes already existing in your app model, or draft new classes and properties.
 
 Bi-directional synchronization of the object model and the database is supported through **reverse- and forward engineering**. Reverse engineering helps you to identify, assess and manage changes between the object model and the database via synchronization of database tables and columns. As the model is changed, you can propagate the changes to the database by automated SQL-script generation provided by the forward engineering functionality.
 
@@ -18,7 +18,7 @@ Bi-directional synchronization of the object model and the database is supported
 
 ## Add, Rearrange, Delete and Rename Pages <a name="add-rearrange-delete-and-rename-pages"/>
 
-Pages gives you the opportunity to divide your object model into smaller, manageable subsets. By default, an empty diagram contains a single page named **Master**. The Master page contains all Object Classes and drafts defined in your Directory.
+Pages gives you the opportunity to divide your object model into smaller, manageable subsets. By default, an empty diagram contains a single page named **Master**. The Master page contains all Object Classes and drafts defined in your app model.
 
 **Add a New Page**
 
@@ -371,7 +371,7 @@ Using the **Forward Engineering Wizard**, you can propagate changes in your mode
 *   In the **Actions** menu, click **Forward Engineering**.
 *   Select which classes you would like to script. To add one or more class, press CTRL and click the classes in the **Available Classes** list, and then click **Select**. To remove one or more selected classes, press CTRL and click the classes in the **Selected Classes** list, and then click **Remove**. To select or remove all classes, click **Select All** or **Remove All** respectively. You can filter the types of classes to display by selecting the **View** check boxes below the **Available Classes** list.
 *   Click **Next**.
-*   Choose which SQL-statements you would like to include in the script and the vendor version for the database where you are planning to run the script. By default the database vendor version for your Directory is selected.
+*   Choose which SQL-statements you would like to include in the script and the vendor version for the database where you are planning to run the script. By default the database vendor version for your app model is selected.
 *   Click **Next** to generate the SQL-script.
 *   To copy the script to the clipboard, click **Copy to Clipboard**. To save the script to a file, click **Save to File**.
 *   Click **Finish**.
@@ -383,7 +383,7 @@ Using the **Forward Engineering Wizard**, you can propagate changes in your mode
 Using the **Reverse Engineering Wizard**, you can identify, assess and manage changes between your object model and the database via synchronization of database tables and columns. New tables and columns are added as draft classes and properties. Changes made to columns associated with a property in your diagram are only applied to draft properties. Object Class properties are not affected by reverse engineering.
 
 *   In the **Actions** menu, click **Reverse Engineering**.
-*   In the **Logical Database** box, select the logical database you would like to reverse engineer. If your Directory contains more than one data set, in the **Data Set** box, select which data set to access when reading the database dictionary.
+*   In the **Logical Database** box, select the logical database you would like to reverse engineer. If your app model contains more than one data set, in the **Data Set** box, select which data set to access when reading the database dictionary.
 *   Click **Next**.
 *   Select which tables you would like to reverse engineer. To add one or more table, press CTRL and click the tables in the **Available Tables** list, and then click **Select**. To remove one or more selected tables, press CTRL and click the tables in the **Selected Tables** list, and then click **Remove**. To select or remove all tables, click **Select All** or **Remove All** respectively. Tables not found in your diagram are identified as _New Table_ in **Available Tables** list. Tables found in your diagram are identified as either _Draft_ or _Object Class_. You can filter the types of tables to display by selecting the **View** check boxes below the **Available Tables** list.
 *   Click **Next**.

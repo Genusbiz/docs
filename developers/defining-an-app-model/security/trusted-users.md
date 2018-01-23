@@ -1,3 +1,7 @@
-# Trusted Users
+# Trusted users
 
-To provide functionality to the end user, Genus Apps employs declarative data about your business objects and logic. This collection of [metadata](../../../terminology.md) is stored in the directory for your application and maintained in **Genus Studio**. Only trusted users can modify this part of the directory. Users are trusted on your application server in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md).
+To provide functionality to the end user, Genus Apps employs declarative data about your business objects and logic. This collection of [metadata](../../../terminology.md#metadata) is stored in the app model for your application and maintained in Genus Studio.
+
+Only trusted users can modify this part of the app model.
+
+Trusted users are selected as part of the [step-by-step configuration of Genus Services](../../installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md#step-10---create-trusted-users).

@@ -1107,7 +1107,7 @@ In the **Merge Field** dialog box you may also change the **Field Name** and sel
 
 Select the **Discard empty output** check box if the report should not be merged into the document unless it contains any data. E.g. to avoid merging an empty bar chart into the document. You may combine this with the special field codes **HideIfEmptyStart**, **HideIfEmptyEnd**, **ShowIfEmptyStart**, and **ShowIfEmptyEnd** to control the content of your document in more detail.
 
-**Note!** Changes to which reports are included and their data filters, do not require a deployment of the directory, since selected end users may modify this set up.
+**Note!** Changes to which reports are included and their data filters, do not require a deployment of the app model, since selected end users may modify this set up.
 
 **Hide Filter Area in merged reports**
 
@@ -1123,7 +1123,7 @@ You may allow selected end users to modify which reports are included in the mai
 *   The user must have **Modify** permissions to your merge task. See [Security and Privacy](../../defining-an-app-model/security/index.md) for more information.
 *   In your task setup, on the **General** tab, select the **Enable Modify by Users without Version Deployment** check box.
 
-The end user may modify the task from the Actions Pane, or from the Directory. See [Modify Merging of Reports](../../../users/navigate-view-modify-and-control/running-actions/modify-merging-of-reports.md) for more information.
+The end user may modify the task from the Actions Pane, or from Genus Studio. See [Modify Merging of Reports](../../../users/navigate-view-modify-and-control/running-actions/modify-merging-of-reports.md) for more information.
 
 
 

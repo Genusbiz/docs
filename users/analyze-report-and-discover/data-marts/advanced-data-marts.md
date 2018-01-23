@@ -2,7 +2,7 @@
 
 ## Add a new field to a data source
 
-A data source in a data-mart model is based on an [Object Class](../../../developers/defining-an-app-model/data/object-class/index.md) defined in your Directory, and have fields in the data source that corresponds to [properties](../../../developers/defining-an-app-model/data/object-class-property/index.md "Object Class Property") in the Object Class. A data source of the type **Local Object**, have all the fields defined locally.
+A data source in a data-mart model is based on an [Object Class](../../../developers/defining-an-app-model/data/object-class/index.md) defined in your app model, and have fields in the data source that corresponds to [properties](../../../developers/defining-an-app-model/data/object-class-property/index.md "Object Class Property") in the Object Class. A data source of the type **Local Object**, have all the fields defined locally.
 
 To add a new field, do the following:
 
@@ -15,7 +15,7 @@ To add a new field, do the following:
 |----------------------------------|------------------------------------------------------|
 | Name                             | Display name for the field.                          |
 | Type                             | A field can be defined as a **Data** or **Function** field. Values for fields of type **Data** can be modified by users in your form or table. Note that changes made to fields of type **Data** not are written to the database, but can be accessed as long as your form or table is open. For example, you could add a field of type **Data** to collect various input parameters from users, and then use these parameters in other calculations. Values for fields of type **Function** are calculated using a formula or an aggregated measure. |
-| Data Type                        | Defines the kind of data the field can hold. Data types are categorized in simple- and complex data types. Simple data types include types such as String, Integer and Calendar Time. Complex data types are defined by [Object Classes](../../../developers/defining-an-app-model/data/object-class/index.md) in your Directory. |
+| Data Type                        | Defines the kind of data the field can hold. Data types are categorized in simple- and complex data types. Simple data types include types such as String, Integer and Calendar Time. Complex data types are defined by [Object Classes](../../../developers/defining-an-app-model/data/object-class/index.md) in your app model. |
 | Data Size                        | The maximum number of characters a field with data type String can hold. |
 | Data Interpretation              | Defines how to interpret data of a given type. For example, string data can be interpreted as an e-mail address or a file URL. Most data types have a default interpretation, that is, data are interpreted based on the data type itself. |
 | Significant Decimals             | Applies to properties with data type Real. Defines the number of decimals used when comparing floating-point data during concurrency control. Concurrency control is performed when data for an object is updated. |

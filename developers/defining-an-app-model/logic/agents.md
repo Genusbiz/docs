@@ -216,7 +216,7 @@ By default only the last 100 executions are displayed. If you want to change the
 
 ## Test Run an Agent
 
-1.  If you have changed the definition for the Agent, you must [deploy](../getting-started/deploy-changes-in-the-directory.md) these changes to your computer (i.e. **Deploy Directory to This Computer**).
+1.  If you have changed the definition for the Agent, you must [deploy](../getting-started/deploy-app-model-changes.md) these changes to your computer (i.e. **Deploy Directory to This Computer**).
 2.  Start the Genus desktop client.
 3.  In the **File** menu, point to **Test Run** and then click **Agent**.
 4.  Follow the instructions in the **Test Run** wizard.

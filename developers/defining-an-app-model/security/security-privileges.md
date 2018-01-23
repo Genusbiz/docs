@@ -79,7 +79,7 @@ Allows the user to sign in to a Genus web service.
 
 <td>**Manage search for other users**</td>
 
-<td>Allows the user to create Searches containing criteria with reference to all user classes defined in the Directory. If this privilege is not assigned, the user can only create Searches containing criteria with reference to the user class associated with the user.</td>
+<td>Allows the user to create Searches containing criteria with reference to all user classes defined in the app model. If this privilege is not assigned, the user can only create Searches containing criteria with reference to the user class associated with the user.</td>
 
 </tr>
 

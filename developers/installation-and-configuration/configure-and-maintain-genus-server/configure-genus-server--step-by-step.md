@@ -1,8 +1,12 @@
-# Configure Genus Server - Step by Step
+# Configure Genus Services - step by step
+
+> [!NOTE]
+> The term directory in this article refers to the usage of the term prior to release 2018.1 of Genus Apps. Both this article and Genus Apps will be updated to reflect the new definition of the term in a later release. See the definition of [directory](../../../terminology.md#directory) and [app model](../../../terminology.md#app-model) for more information.
+
 
 [Start](how-to-start-the-genus-configuration-application.md "How to start the Genus Configuration application") the Genus Configuration application.
 
-**Step 1 - Assign a Web Server Certificate**
+## Step 1 - Assign a web server certificate
 
 Genus Services recommends using secure HTTP communication between any clients and the Genus Services application server.
 
@@ -14,7 +18,7 @@ If you do not have a certificate, see the article [Create a Web Server Certifica
 
 If you have a certificate available already, see the article [Assign a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate"). This applies for example if you have a wildcard certificate _\*.yourdomain.com_ and want to assign _yourserver.yourdomain.com_.
 
-**Step 2 - Create a Directory**
+## Step 2 - Create a directory
 
 To provide functionality to the end user, Genus employs declarative data about your business objects and logic. This collection of [metadata](../../../terminology.md) are maintained in **Genus Studio** and stored in a central database.
 
@@ -30,14 +34,14 @@ The Directory is split into two partitions: **Descriptive Partition** and **Acti
 8.  Click **Connect** to connect to the directory partitions. In order to continue, a connection to the directory partitions is required.
 9.  In the **Default Language** box, select the default language for the Directory. The selected language is used as the base language for applications providing multi-language support.
 
-**Step 3 - Create Directory Database Objects**
+## Step 3 - Create directory database objects
 
 1.  Click the **Database Objects** tab.
 2.  Click **Manage Database**. In the **Database Management** wizard, click **Create missing database objects**.
 3.  Click **Next**.
 4.  A summary of all objects that will be created is displayed. Click **Finish** to create the objects.
 
-**Step 4 - Create Logical Databases**
+## Step 4 - Create logical databases
 
 Logical databases are used to define the location of database tables associated with Object Classes in Genus Directory. For each Data Set defined in your Directory, logical databases are associated with physical databases (see step 5 for more information about physical databases). For example, many ERP systems contains data for several companies. If the data are stored in different schemas or databases, you would create one logical database, for example "Financial Data", and for each Data Set associate the logical database with a different physical database.
 
@@ -49,7 +53,7 @@ It is also possible to define a logical database where data are shared between D
 4.  If data are shared between Data Sets, select the **Data in this logical database are shared between Data Sets** check box. In the **Physical Database** box, select a database (see step 5 for more information on how to define physical databases).
 5.  Click **OK**.
 
-**Step 5 - Create Physical Databases**
+## Step 5 - Create physical databases
 
 A physical database is defined by a datalink and a database or schema, and is used to establish connection to your business data. As described in step 4, logical databases are associated with physical databases for each Data Set defined in your Directory.
 
@@ -67,7 +71,7 @@ A physical database is defined by a datalink and a database or schema, and is us
 
 Below is an example of a Physical Database setup for a Microsoft SQL Server 2008 database. [![IDC2461109EEF44712.ID6E7B43ECD5364473.png](media/IDC2461109EEF44712.ID6E7B43ECD5364473.png)](../specifying-a-database-and-a-schema-for-a-data-link.md "Specifying a Database and a Schema for a Data Link") 
 
-**Step 6 - Create Data Sets**  
+## Step 6 - Create data sets
 
 A Data Set is a collection of data for a single unit of business. For example, many ERP systems contains data for several companies. If the data are stored in different schemas or databases, you need to create a Data Set for each company.
 
@@ -76,7 +80,7 @@ A Data Set is a collection of data for a single unit of business. For example, m
 3.  In the **Virtual Directory** box, type a name for the virtual directory associated with the Data Set. See [Naming the Virtual Directory](../../defining-an-app-model/data/object-class-property/naming-the-virtual-directory.md) for more information.
 4.  Click **OK**.
 
-**Step 7 - Associate Logical Databases with Physical Databases**
+## Step 7 - Associate logical databases with physical databases
 
 Logical databases are used to define the location of database tables associated with Object Classes in Genus Studio. For each Data Set defined in your Directory, logical databases are associated with physical databases. That is, when a user signs in to a Data Set, data for an Object Class are read from the physical database connected to the logical database associated with the Object Class.
 
@@ -84,7 +88,7 @@ Logical databases are used to define the location of database tables associated 
 2.  Click the **Database Connections** tab.
 3.  In the **Database** list, select a physical database for each logical database.
 
-**Step 8 - Authentication**
+## Step 8 - Authentication
 
 The authentication service in Genus Services provides sign in authentication and user authorization. Your users are granted access to your Genus application according to their credentials, based on Microsoft Active Directory principles. The authentication service is integrated with your Active Directory. However, it is possible to to configure Genus without Active Directory using your own user account data.
 
@@ -95,7 +99,7 @@ The authentication service in Genus Services provides sign in authentication and
 
 Genus Services now offers authentication against multiple Active Directory domains simultaneously. Please make sure that your application server(s) is granted the necessary privileges to access the required domain controllers. You need to use a unique account identifier across your domains, so unless you can guarantee that sAMAccountName is unique across your domains, you should opt for objectGUID or objectSID as your account identifier.
 
-**Step 9 - Create an Administrator Account**
+## Step 9 - Create an administrator account
 
 To be able to sign in to Genus Studio for the first time, you need to create an administrator account.
 
@@ -119,7 +123,7 @@ If you are using Active Directory authentication, make sure you are signed in us
 5.  Click **OK**.
 6.  Click **Finish**.
 
-**Step 10 - Create Trusted Users**
+## Step 10 - Create trusted users
 
 Metadata stored in the descriptive partition of the Directory can only be modified by trusted users. At least one user has to be trusted.
 
@@ -127,25 +131,25 @@ Metadata stored in the descriptive partition of the Directory can only be modifi
 2.  Click **Add**.
 3.  In the **Select Trusted Users** dialog, enter the sign in name for the administrator account created in the step above. Click **Check Names**, and then click **OK**.
 
-**Step 11 - Redirect to secure connection**
+## Step 11 - Redirect to secure connection
 
 If you do not want to use secure HTTP communication and a Web Server Certificate (see one of the previous steps), you must turn redirection to a secure connection off. To turn redirection to a secure connection off, in the **Tools** menu click **Options**. Uncheck **Redirect to Secure Connection** and click OK.
 
- **Step 12 - Restart Genus Services** 
+## Step 12 - Restart Genus Services
 
 [A restart of Genus services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus Services") is required to make your changes take effect.
 
-**Step 13 - Install License**
+## Step 13 - Install license
 
 A license file is required in order to start the Genus Apps. See [Install License on Genus Services application server](../install-license-on-genus-server.md) for more information.
 
-**Step 14 - Install the Genus Desktop**
+## Step 14 - Install Genus Desktop
 
 The client is normally installed on your PC, but may also be installed on your Genus Services application server.
 
 See [Installing Genus Desktop](../install-genus-desktop.md) for more information.
 
- **Step 15 - Define Nodes and Node Groups**
+## Step 15 - Define nodes and node groups
 
  Genus services are run on servers, or Nodes, per data set or independently of data sets. For a Genus Services server to provide any services it must be added to the directory as a Node, and added to a Node Group.
 
@@ -171,7 +175,7 @@ If you did not close Genus Studio in the previous step, skip step 1 below.
 2.  In the **File** menu, click **Deploy Directory to All Computers**.
 3.  Click **OK**.
 
-**Next step**
+## Next step
 
 You should also consider creating [security groups](../../defining-an-app-model/security/security-groups-and-user-accounts.md) for the users, and assigning [privileges](../../defining-an-app-model/security/security-privileges.md), [permissions](../../defining-an-app-model/security/security-permissions.md), and [access to data sets](../../defining-an-app-model/security/security-data-sets.md).
 

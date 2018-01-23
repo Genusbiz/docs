@@ -30,9 +30,15 @@ Apps installed on devices are usually named **Installed Apps** or **Mobile Apps*
 
 ## App model
 
-An app model is a formalized description of a software app's user interface, logic and data, expressed using Genus Apps. App model is short for application model, but the shorter term is generally preferred and considered the more modern term. The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in the [Directory](#directory) and maintained by using [Genus Studio](#genus-studio). The terms [directory](#directory) and [app model](#app-model) are often used interchangeably.
+An app model is a formalized description of a software app's user interface, logic and data, expressed using Genus Apps.
+
+The behavior and appearance of your Genus app is determined by the content of your app model, i.e. the model is the app. The app model is stored in a database and maintained using [Genus Studio](#genus-studio).
+
+App model is short for application model, but the shorter term is generally preferred and considered the more modern term.
 
 Note that our use of the term "model" does not imply that a model is some form of simplification. To us a model is distilled knowledge and a way of structuring a domain.
+
+Prior to relase 2018.1, the terms [directory](#directory) and app model were used interchangeably in Genus Apps.
 
 ## Application
 
@@ -72,13 +78,23 @@ A data provider is a software component enabling access to data from a data sour
 
 ## Directory
 
-In general, a directory is a structured listing and storage of information.
+In general, a directory is a structured listing of information.
 
-In Genus Apps, the directory is the structured storage of a [Genus app model](#app-model). The directory is maintained using [Genus Studio](#genus-studio). The terms directory and [app model](#app-model) are often used interchangeably.
+In Genus Apps, the directory is the structure of a Genus [app model](#app-model), as displayed in the left-side menu inside [Genus Studio](#genus-studio).
+
+In contrast, an app model is data (about a model) stored in a database and accessible through this structure by using Genus Studio.
+
+Note that prior to relase 2018.1, the terms directory and app model were used interchangeably in Genus Apps.
+
+Our usage of the term directory is not to be confused with [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) (or _AD_ for short), which is a service developed by Microsoft for a range of identity-related services. The term directory may also be used for [virtual directories](https://en.wikipedia.org/wiki/Virtual_directory) and file directories (folders). Our intended meaning should be clear from the context in which the term is used.
 
 ## Directory GUID
 
-The directory [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) is the system generated identifier for your [directory](#directory) containing your [app model](#app-model), which uniquely identifies your directory and app model.
+The directory [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) is the system generated identifier for your stored [app model](#app-model).
+
+The directory GUID uniquely identifies one stored copy (or original) of your app model.
+
+Note that the term has outlived is usage, since we from release 2018.1 distinguish between the terms [directory](#directory) and [app model](#app-model). The term will change name in a future release of Genus Apps.
 
 ## Event history
 

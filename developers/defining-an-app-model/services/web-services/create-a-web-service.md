@@ -8,7 +8,7 @@
 6.  In the **Shared Service Data** section, you can select a Data Source to share data between operations. See [Define Shared Service Data](create-a-web-service.md) below.
 7.  In the **Output Namespace Style** box, select the desired namespace prefix to be used for the output message. If the Web Service consumer does not prefer elements with namespace prefix, you should select the "Create unprefixed elements with default namespace".
 8.  By default the metadata for the Web Service is available in the form of an entry in the list of services, and a WSDL. If you do not want to expose the metadata for the Web Service to external consumers, click to clear the **Metadata (WSDL) is available** check box. This option is typically enabled in a development phase, but for security reasons, the option should be disabled for Web Services that are in production. For information on accessing the WSDL see [Consuming a Genus Service from an External Client](../../../guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md).
-9.  By default the Web Service is enabled and can be accessed by external consumers as soon as changes in your directory have been [deployed to all computers](../../getting-started/deploy-changes-in-the-directory.md). If you do not want to expose the Web Service to external consumers at this moment, click to clear the **Enabled** check box.
+9.  By default the Web Service is enabled and can be accessed by external consumers as soon as changes in your app model have been [deployed to all computers](../../getting-started/deploy-app-model-changes.md). If you do not want to expose the Web Service to external consumers at this moment, click to clear the **Enabled** check box.
 
 
 ## Shared Service Data
@@ -19,7 +19,7 @@ To add a data source, follow these steps:
 
 1.  Click the **General** tab.
 2.  In the section **Shared Service Data**, click **Modify**.
-3.  In the **Data Source** box, select a data source from your **Directory**.
+3.  In the **Data Source** box, select a data source from your **App Model**.
 4.  In the **Name** box, type a name for the data source.
 5.  Optionally type a description in the **Description** box.
 6.  Specify the number of objects the data source can contain. Click **Allow** **one object** if the data source only can contain one object. Click **Allow many objects** if the data source can contain more than one object.
@@ -66,7 +66,7 @@ To add SOAP headers to your Web Service, follow these steps:
 
 1.  Click the **SOAP Headers** tab.
 2.  To add a SOAP header requested from consumers of the Web Service, in the **Request SOAP Headers** list, click **Add**.
-3.  In the **SOAP Header** dialog box, select an XML schema from your Directory. If the XML schema contains multiple root elements, in the Root Element box, select which root element to use. Note that the namespace for the XML schema and the name of the root element must be unique within the Request SOAP Headers defined in the Web Service.
+3.  In the **SOAP Header** dialog box, select an XML schema from your app model. If the XML schema contains multiple root elements, in the Root Element box, select which root element to use. Note that the namespace for the XML schema and the name of the root element must be unique within the Request SOAP Headers defined in the Web Service.
 4.  Web Service requests can be validated by setting conditions on the Request SOAP Header. Any requests not satisfying the conditions are rejected. To specify a condition, in the section **"Reject requests where the SOAP headers do not satisfy...",**click **Modify** to specify a [condition](../../common-concepts/conditions.md "Conditions").
 5.  To add a SOAP header returned to consumers of the Web Service, in the **Response SOAP Headers** list, click **Add**. Follow the instructions in step 3.
 
@@ -86,7 +86,7 @@ To add an operation to your Web Service, follow these steps:
 2.  In the **Operations** list, click **Add**.
 3.  In the **Name** box, type a name for the operation. The name of the operation must be unique within the Web Service and can only contain letters and numbers. The first character in the name must be a letter. For guidelines on naming the operation, see [Naming the service operations](../../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-the-web-service.md).
 4.  Optionally type a description in the Description box. This description will appear as an annotation to the operation in the WSDL.
-5.  Next you need to configure the Request-Response messages used by the operation. To read more about this Message Exchange Pattern, see [Response Message Exchange Pattern](../../../guidelines-and-best-practices/web-service-guidelines/request--response-message-exchange-pattern.md). To define which data to request or return, Click the **Messages** tab and select an XML schema from your Directory. To select an XML schema, click **XML Schema**, and then click **Browse**. For information on naming of XML schemas used with web services, see [Identifying and Naming XML Schemas and Elements for use with Web Services](../../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-xml-schemas-and-elements-for-use-with-web-services.md). For information on using namespaces for XML schemas and web services, see [XML and Web Service Namespaces](../../../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
+5.  Next you need to configure the Request-Response messages used by the operation. To read more about this Message Exchange Pattern, see [Response Message Exchange Pattern](../../../guidelines-and-best-practices/web-service-guidelines/request--response-message-exchange-pattern.md). To define which data to request or return, Click the **Messages** tab and select an XML schema from your app model. To select an XML schema, click **XML Schema**, and then click **Browse**. For information on naming of XML schemas used with web services, see [Identifying and Naming XML Schemas and Elements for use with Web Services](../../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-xml-schemas-and-elements-for-use-with-web-services.md). For information on using namespaces for XML schemas and web services, see [XML and Web Service Namespaces](../../../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
 6.  If you have selected an XML schema with multiple root elements, in the **Root Element** box, select which root element to use. For information on the naming of XML root elements used with web service operations, see [Identifying and Naming XML Schemas and Elements for use with Web Services](../../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-xml-schemas-and-elements-for-use-with-web-services.md).
 
 The XML schemas defining the data requested or returned to consumers is available along with the data sources defined for the operation. For example, you can filter your data sources based on the data received from consumers. To return data to consumers, add an effect of type [Create Object(s)](../../logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md) to an action, and select the XML schema used to return data as the data source.  
@@ -105,7 +105,7 @@ When a Time to Live value is specified, the response data is stored in memory fo
 To add one or more fault elements specifying the message format for any error messages that may be returned by an operation, do the following:
 
 1.  In the **Fault Elements** list, click **Add**.
-2.  Select an XML schema from your **Directory**.
+2.  Select an XML schema from your **App Model**.
 3.  If you have selected an XML schema with multiple root elements, in the **Element** box, select which root element to use.
 
 The defined fault elements are available along with the data sources defined for the operation. To return a SOAP fault trough one of the defined fault elements, you need to throw an On Web Service Fault exception inside the operation execution. For further information on returning SOAP faults, see [Returning SOAP Faults to Web Service Consumers](soap-faults.md).

@@ -1,6 +1,6 @@
 # How to open Genus Studio
 
-[Genus Studio](../../../terminology.md#genus-studio) is Genus Apps' client for defining and maintaining an [app model](../../../terminology.md#app-model) (also called a [directory](../../../terminology.md#directory)).
+[Genus Studio](../../../terminology.md#genus-studio) is Genus Apps' client for defining and maintaining an [app model](../../../terminology.md#app-model).
 
 Genus Studio opens from [Genus Desktop](../../../terminology.md#genus-desktop).
 

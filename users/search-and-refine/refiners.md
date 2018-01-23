@@ -18,7 +18,7 @@ Typical scenarios for condition mapped refiners could be:
 *   Age groups classifying employees.
 *   Customer credit rating based on different criteria.
 
-Custom categories are always defined by Code Domains in your Directory. For a given Conditional refiner bound to a Code Domain, a mapping to an Object Class is defined by specifying a condition for each value in that Code Domain.
+Custom categories are always defined by Code Domains in your app model. For a given Conditional refiner bound to a Code Domain, a mapping to an Object Class is defined by specifying a condition for each value in that Code Domain.
 
 For information on how to publish your refiners, see [Search](../../developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/search.md) and [Views](../../developers/defining-an-app-model/user-interface/tables/views.md).
 

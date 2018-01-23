@@ -11,7 +11,7 @@ App models are defined using the Genus Studio tool, and the structure of the doc
 
 * [How to open Genus Studio](getting-started/how-to-open-genus-studio.md)
 * [Search and organize](getting-started/search-and-organize.md)
-* [Deploy changes in the Directory](getting-started/deploy-changes-in-the-directory.md)
+* [Deploy changes in the Directory](getting-started/deploy-app-model-changes.md)
 * [Terminology](../../terminology.md)
 
 **[General settings](general-settings/index.md)**

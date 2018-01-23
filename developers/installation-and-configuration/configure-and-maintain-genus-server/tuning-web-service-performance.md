@@ -1,14 +1,14 @@
 # Tuning Web Service Performance
 
-Genus Server offers a new Genus Directory preloading feature in order to improve web service performance. If you experience low web service performance on your first web service calls or seemingly random periods of low performance, we recommend to follow the steps in this article.
+Genus Services offers a new app model preloading feature in order to improve web service performance. If you experience low web service performance on your first web service calls or seemingly random periods of low performance, we recommend to follow the steps in this article.
 
-The Genus Directory preloading feature is <span style="FONT-STYLE: italic">disabled by default and must be manually enabled after installation of Genus Server. Unless otherwise notified by the Genus Server Installation Wizard, your customized Genus Directory preloading settings will be preserved during later upgrades of Genus Server.
+The Genus app model preloading feature is disabled by default and must be manually enabled after installation of Genus Services. Unless otherwise notified by the Genus Services installation wizard, your customized Genus app model preloading settings will be preserved during later upgrades of Genus Services.
 
-It is not possible to install Genus Server with default settings that will satisfy all needs and patterns of use. E.g. enabling the feature by default may demand too much memory if your application server running Genus Server is configured with many data sets. If you choose to enable the feature, please monitor the memory consumption by using the Windows Task Manager, and adjust your settings or available memory accordingly.
+It is not possible to install Genus Services with default settings that will satisfy all needs and patterns of use. E.g. enabling the feature by default may demand too much memory if your app servers running Genus Services is configured with many data sets. If you choose to enable the feature, please monitor the memory consumption by using the Windows Task Manager, and adjust your settings or available memory accordingly.
 
-**How to Enable and Configure the Genus Directory Preloading Feature**
+**How to enable and configure the Genus app model preloading feature**
 
-The Genus Directory preloading feature may be enabled and configured using the procedure described below.
+The app model preloading feature may be enabled and configured using the procedure described below.
 
 The settings in _web.config_ (_C:\Program Files\Genus\Server\wwwroot\Web.config_) controls this behavior. All the parameters in the _configuration/appSettings_ section should not be modified directly in the web.config file, but overrides should rather be added to the _appSettingsOverrides.config_ file (_C:\Program Files\Genus\Server\wwwroot\appSettingsOverrides.config_).  
 

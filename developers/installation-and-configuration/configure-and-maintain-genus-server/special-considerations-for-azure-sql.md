@@ -1,5 +1,8 @@
 # Special considerations for Azure SQL Database
 
+> [!NOTE]
+> The term directory in this article refers to the usage of the term prior to release 2018.1 of Genus Apps. Both this article and Genus Apps will be updated to reflect the new definition of the term in a later release. See the definition of [directory](../../../terminology.md#directory) and [app model](../../../terminology.md#app-model) for more information.
+
 Prerequisite:
 * Make sure the database for the directory (e.g: g_dir) has two schemas for Active and Descriptive partition, e.g: _g_desc_ and _g_active_.
 
