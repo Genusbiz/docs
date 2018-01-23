@@ -390,6 +390,14 @@ If data are sorted by a field contained in a referenced class, such as Person.Em
 
 This caused views created with the phone formfactor to be displayed on the tablets.
 
+<!--ID aa4520f9-09ae-4cca-8c9a-dd52e67b56d0 -->
+**#23037 Unable to add a calculated field to a local data source in a data mart** (Desktop)
+
+* Add a new local data source to a data mart, and then add a calculated field. Genus terminates when you try to write an expression. In addition, the name of the data source is not updated correctly in the *Calculated Fields* list.
+* Add a new local data source and then save and close the data mart designer. Reopen the data mart. The local data source is not available in the *Calculated Fields* list.
+
+Note from R&D: Bugs not related to local data sources, but to the **Private** setting for data sources (which by default is selected for local data sources).
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
