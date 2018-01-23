@@ -161,9 +161,11 @@ Implemented support for localization in Analysis. The user can choose between En
 <!--ID 61f84418-eef0-4ea7-9f7a-e2491a7d3bc7 -->
 **#23038 The term "directory" replaced with "app model"** (Studio)
 
-In general, a directory is a structured listing and storage of information. In Genus Apps, the directory is the structured storage of a Genus app model which is maintained in Genus Studio.
+In general, a directory is a structured listing of information.
 
-The terms *directory* and *app model* have been used interchangeably, but is now limited to describe the storage of an app model.
+The terms *directory* and *app model* have been used interchangeably in Genus Apps, but from now on we distinguish between these two concepts.
+
+The directory is now the structure of a Genus app model, as displayed in the left-side menu inside Genus Studio. An app model is data (about a model) stored in a database and accessible through this structure by using Genus Studio. For more information, see https://docs.genus.no/terminology.html.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
