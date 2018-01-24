@@ -45,6 +45,10 @@
       "_custom_templates/genus_template" // custom template overriding default template
     ],
     "postProcessors": ["ExtractSearchIndex"],
-    "noLangKeyword": false
+    "noLangKeyword": false,
+    "sitemap": {
+      "baseUrl": "https://docs.genus.no/",
+      "changefreq": "daily"
+    }
   }
 }
