@@ -43,6 +43,11 @@ End-of-life functionality is functionality that was available in the previous re
 
 Since Sybase is not used by our customers anymore, the support for this database system has been removed. Support for Sybase may be reintroduced based on customer demand.
 
+<!--ID 838d4279-fd85-4a86-a44a-5f97f9503ccf -->
+**#23041 Link Table in a Datamart is no longer available** (Desktop)
+
+"Link Table" was used to resolve circular connections in a data mart. This is now solved by using "Selection Filtering" on Connections.
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
