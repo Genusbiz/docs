@@ -58,6 +58,19 @@ From the next release 2018.2, Genus Server will require Microsoft Windows Server
 
 Removing on Lost Focus from Combobox, as it does not consistently across browsers, and in most cases, it is more correct to use on Value Changed.
 
+<!--ID 4df127ce-f00a-4f45-9053-229c928f7192 -->
+**#23040 Views in Analysis is deprecated** (Desktop)
+
+In versions up to 2017.4 Views was a concept in an Analysis.
+The functionality is still present in 2017.5, but it is not possible to add new Views to an Analysis.
+
+All the functionality in Views is available by other means.
+To migrate an analysis with Views, do the following:
+
+1. Save one copy of the analysis for each view, say A1 and A2 for an analysis with two views.
+2. In analysis A1, check all Actions which has a Command of Type Switch View. All of these must be converted to Open Analysis with Same Selection and point to A2. Do the same in analysis A2.
+3. In analysis A1, remove view A2. In A2, remove A1.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
