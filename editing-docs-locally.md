@@ -50,9 +50,10 @@
 ## Use movearticles.js for moving articles updating all references in all articles
 1. Download and install Node.js on your computer from [nodejs.org](https://nodejs.org/).
 2. Open a command line window, and go to d:\git\docs (or whatever you chose above as your docs project folder).
-3. In the command line window, run "npm install fs-extra". This will install a library required by movearticles.js.
-4. If you have used Git to pull from the Genus docs repos above, you will find a file named movearticles.js in your docs project folder.
-5. You are now ready to use movearticles.js in your command line window. Examples:
+3. Optionally run "npm init" and answer the questions (to avoid warnings in the next step).
+4. In the command line window, run "npm install fs-extra". This will install a library required by movearticles.js. You will get a couple of warnings if you didn't run the previous step (npm init).
+5. If you have used Git to pull from the Genus docs repos above, you will find a file named movearticles.js in your docs project folder.
+6. You are now ready to use movearticles.js in your command line window. Examples:
 
    a. Move an article from a folder to another.
       ```
