@@ -32,9 +32,6 @@ An analysis can contain multiple views, which can contain multiple tiles. Adding
 ## How to delete a view
 Clik the menu dots on the **View** tab. Select **Delete**.
 
-## How to set default view
-The *Default View* is the view that is shown when you open an analysis. In the view tab pane at the bottom of the designer you can drag and drop views to order them. If you want to change the default view, simply drag and drop the desired view to the left in this pane.
-
 ## How to add a tile
 A view can contain multiple tiles. Add a tile by clicking the red plus button.
 
