@@ -16,7 +16,11 @@ The complexity is reduced, not only indirectly by reducing the data volume, but 
 
 In the app model a connection between two object classes means that one object class has a a reference to the other object class, or one object class has a property that can contain values from the other object class. 
 
-In a data mart, connections are used to propagate selections. When two objects in two different data sources are connected, and one of them is selected, the other is automatically qualified. When two objects in two different data sources are not connected, and one of them is selected, the other is automatically disqualified or excluded.
+In a data mart a connection is used for two things; propagating selections between two data sources, and as default grouping when aggregating data. The latter can be changed when adding a value in an analysis.
+
+When two objects in two different data sources are connected, and one of them is selected, the other is automatically qualified. When two objects in two different data sources are not connected, and one of them is selected, the other is automatically disqualified or excluded. 
+
+A connection can be directional, which means that a selection only qualifies objects in one direction, and not the other way. A connection can even be turned off for propagating selections, which means that no objects will be qualified in either direction. This direction is not necessarily the same as the direction in the app model.
 
 ## Connections to calendar data sources
 
@@ -34,13 +38,13 @@ Data filters for data sources in forms, tables, or action orchestration often re
 
 ## Circular references
 
-To avoid complexity and performance degradation, circular references within a data mart are not allowed. A circular reference exists if there are two or more paths between two data sources. There are many different scenarios where this can occur, and similarly many approaches how to resolve the circular reference. Consider the following cases:
+To avoid complexity and performance degradation, circular references for selectsions within a data mart are not allowed. A circular reference exists if there are two or more paths for selections to propagate between two data sources. There are many different scenarios where this can occur, and similarly many approaches how to resolve the circular reference. Consider the following cases:
 
 | Example           | Possible solution |
 |-------------------|-------------------|
-| The *Invoice* data source has connections to the *Month* data source both through *Invoice.DueDate* and *Invoice.PaymentReceivedDate*.  | Add two *Month* data sources, name them *Due Month* and *Payment Received Month*, and connect each of them to the *Invoice* data source using the appropriate field.  |
+| The *Invoice* data source has connections to the *Month* data source both through *Invoice.DueDate* and *Invoice.PaymentReceivedDate*.  | Add two *Month* data sources, name them *Due Month* and *Payment Received Month*, and connect each of them to the *Invoice* data source using the appropriate field. See figure below. |
 ![ID0D57CB58F5B54B33.jpg](media/ID0D57CB58F5B54B33.jpg) | ![IDA26D0104126541F7.jpg](media/IDA26D0104126541F7.jpg) |
-|The data sources *Sales* and *Budget* both have connections to *Month* and *Product*.| The data mart offers functionality to create a **Link Table** data source. A link table has the ability to create objects with references of all combinations to several data sources. The link table thereby provides a representation of the combination of two or more other data sources which can be referenced through one connection. |
-| ![ID03E412AEB44641E9.jpg](media/ID03E412AEB44641E9.jpg) | ![IDB614D5A9A1FF4FB1.jpg](media/IDB614D5A9A1FF4FB1.jpg) |
+|The data sources *Sales* and *Budget* both have connections to *Month* and *Product*.| Modify the connections from both *Month* and *Product* to *Sales* and *Budget* to be directional towards *Sales* and *Budget*. Selections made in *Month* or *Product* will qualify objects in *Sales* and *Budget*, but will not propagate back to *Product* or *Month*. |
+| ![ID03E412AEB44641E9.jpg](media/ID03E412AEB44641E9.jpg) | ![IDB614D5A9A1FF4FB11.jpg](media/IDB614D5A9A1FF4FB11.jpg) |
 | The data source *Employee* has a connection to *Sales Territory* which specifies which sales territory a sales employee belongs to. A *Sale* contains information on which *Sales Territory* and which *Employee* it belongs to. | Consider if some of this information is redundant, and remove one of the connections. In this case, one of the following approaches is probably most useful. |
 | ![IDCF0EA99C6C3C4C34.jpg](media/IDCF0EA99C6C3C4C34.jpg) | ![IDB21CC6FF8C4F4B8A.jpg](media/IDB21CC6FF8C4F4B8A.jpg)  ![ID9B1B7FD84F6A4967.jpg](media/ID9B1B7FD84F6A4967.jpg) |

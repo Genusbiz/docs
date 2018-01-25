@@ -55,7 +55,15 @@ Fields do not need to be published to be used in the data filter for the data so
 
 ## Connect two data sources
 
-The connections must be unambiguous, which means that there cannot be connections in the data mart that makes it possible to find two paths between any two data sources. For more information, see [Data mart concepts](data-mart-concepts.md).
+A connection is used for two things; propagating selections between two data sources, and as default grouping when aggregating data. 
+
+To change the connection between two data sources, select the data source to change, and then in the **Properties** area open the **Connections** property, or simply right click the data source to change, and select **Connections**. For each data source in the data mart a connection can then be defined by selecting the property to use. In the **Selection Filtering** field, there is the option to select how the selection filtering should be propagated betweeh the two data sources. 
+
+A connection must be defined from the data source that contains the reference property to the other data source, but the selection filtering direction is independent of this.
+
+The connections must be unambiguous, which means that there cannot be connections in the data mart that makes it possible to find two paths between any two data sources when following the directions of the connections. 
+
+For more information, see [Data mart concepts](data-mart-concepts.md).
 
 
 
