@@ -183,7 +183,7 @@ In general, a directory is a structured listing of information.
 
 The terms *directory* and *app model* have been used interchangeably in Genus Apps, but from now on we distinguish between these two concepts.
 
-The directory is now the structure of a Genus app model, as displayed in the left-side menu inside Genus Studio. An app model is data (about a model) stored in a database and accessible through this structure by using Genus Studio. For more information, see https://docs.genus.no/terminology.html.
+The directory is now the structure of a Genus app model, as displayed in the left-side menu inside Genus Studio. An app model is data (about a model) stored in a database and accessible through this structure by using Genus Studio. For more information, see [https://docs.genus.no/terminology.html#app-model](https://docs.genus.no/terminology.html#app-model), [https://docs.genus.no/terminology.html#directory](https://docs.genus.no/terminology.html#directory).
 
 <!--ID 4deaa4d7-6592-4268-a47c-88ab9640e69c -->
 **#23042 Improved preview of Excel files in forms** (Desktop)
