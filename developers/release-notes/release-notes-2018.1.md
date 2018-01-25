@@ -319,6 +319,11 @@ Note from R&D: Bugs not related to local data sources, but to the **Private** se
 
 In the **Select Field or Group** dialog, groups are not available, and it is not possible express an exist condition.
 
+<!--ID 35cc159e-3520-47fd-9714-4bd4a364a9cd -->
+**#23043 Object class wizard: Incorrect interpretation of RBDMS data type varchar(max) and nvarchar(max)** (Studio)
+
+Object class properties bound to columns of type *varchar(max)* and *nvarchar(max)* in MS SQL Server are by default assigned the data type *ANSI String*/*Unicode String*. The correct interpretation should be *Textual large object (ANSI)*/*Textual large object (Unicode)*.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
