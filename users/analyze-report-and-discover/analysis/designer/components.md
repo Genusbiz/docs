@@ -2,6 +2,13 @@
 
 _The content is under construction. We are sorry for the inconvenience._
 
-## Group Columns
+### Allow And-selections
 
-## Highlight today (if visible)
+### Alternate Colors
+
+### Group Columns
+
+### Highlight today (if visible)
+
+### Interval (seconds)
+
