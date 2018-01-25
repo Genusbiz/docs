@@ -2,12 +2,12 @@
 
 _The content is under construction. We are sorry for the inconvenience._
 
-## Theme
+### Theme
 
-## Style
+### Style
 
-## Toolbar (Web)
+### Toolbar (Web)
 
-## Refresh
+### Refresh
 
-## Initial Selection
+### Initial Selection
