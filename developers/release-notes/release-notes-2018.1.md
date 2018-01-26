@@ -48,6 +48,8 @@ Since Sybase is not used by our customers anymore, the support for this database
 
 "Link Table" was used to resolve circular connections in a data mart. This is now solved by using "Selection Filtering" on Connections.
 
+__IMPORTANT: Datamarts that contains link tables must be converted to using selection filtering in 2017.5 before upgrading to 2018.1__
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
