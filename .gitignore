@@ -7,3 +7,4 @@ obj
 
 # Ignore MS Office backup/temp files (starting with the 2 chars ~ and $)
 **/~$*
+package-lock.json
