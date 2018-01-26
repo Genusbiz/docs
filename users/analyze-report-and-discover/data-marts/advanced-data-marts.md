@@ -37,7 +37,3 @@ Most property settings for fields which are bound to an [Object Class Property](
 *   **Condition-Based Data Validations**. You can add any number of data validations. Note that data validations defined for a field are evaluated after data validations defined for the bound Property.
 
 
-## Add a link table
-
-_The content is under construction. We are sorry for the inconvenience._
-

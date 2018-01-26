@@ -43,6 +43,13 @@ End-of-life functionality is functionality that was available in the previous re
 
 Since Sybase is not used by our customers anymore, the support for this database system has been removed. Support for Sybase may be reintroduced based on customer demand.
 
+<!--ID 838d4279-fd85-4a86-a44a-5f97f9503ccf -->
+**#23041 Link Table in a Datamart is no longer available** (Desktop)
+
+"Link Table" was used to resolve circular connections in a data mart. This is now solved by using "Selection Filtering" on Connections.
+
+__IMPORTANT: Datamarts that contains link tables must be converted to using selection filtering in 2017.5 before upgrading to 2018.1__
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
@@ -178,7 +185,12 @@ In general, a directory is a structured listing of information.
 
 The terms *directory* and *app model* have been used interchangeably in Genus Apps, but from now on we distinguish between these two concepts.
 
-The directory is now the structure of a Genus app model, as displayed in the left-side menu inside Genus Studio. An app model is data (about a model) stored in a database and accessible through this structure by using Genus Studio. For more information, see https://docs.genus.no/terminology.html.
+The directory is now the structure of a Genus app model, as displayed in the left-side menu inside Genus Studio. An app model is data (about a model) stored in a database and accessible through this structure by using Genus Studio. For more information, see [https://docs.genus.no/terminology.html#app-model](https://docs.genus.no/terminology.html#app-model), [https://docs.genus.no/terminology.html#directory](https://docs.genus.no/terminology.html#directory).
+
+<!--ID 4deaa4d7-6592-4268-a47c-88ab9640e69c -->
+**#23042 Improved preview of Excel files in forms** (Desktop)
+
+Replaced preview of Excel files in MHTML-format with native Excel file formats.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
@@ -308,6 +320,11 @@ Note from R&D: Bugs not related to local data sources, but to the **Private** se
 **#23039 Groups not available when defining criteria for a search folder** (Studio)
 
 In the **Select Field or Group** dialog, groups are not available, and it is not possible express an exist condition.
+
+<!--ID 35cc159e-3520-47fd-9714-4bd4a364a9cd -->
+**#23043 Object class wizard: Incorrect interpretation of RBDMS data type varchar(max) and nvarchar(max)** (Studio)
+
+Object class properties bound to columns of type *varchar(max)* and *nvarchar(max)* in MS SQL Server are by default assigned the data type *ANSI String*/*Unicode String*. The correct interpretation should be *Textual large object (ANSI)*/*Textual large object (Unicode)*.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues

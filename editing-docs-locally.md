@@ -42,6 +42,8 @@
    
    d. Then "git push -u origin master"
 
+   If you experience that you are required to enter your username and password every time you push, in the cmd shell try running the command "git config credential.helper store". Then perform a command that requires password, for example "git push", and then your credentials should be cached.
+
 ## Build and preview the documentation on your computer
 1. Open a cmd shell at d:\git\docs and type "docfx --serve"
 2. Open your browser on url http://localhost:8080 to view the documentation.
