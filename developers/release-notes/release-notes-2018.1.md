@@ -192,6 +192,11 @@ The directory is now the structure of a Genus app model, as displayed in the lef
 
 Replaced preview of Excel files in MHTML-format with native Excel file formats.
 
+<!--ID 737c825d-3c06-4948-82ad-3aae233634ff -->
+**#23044 View the current load state for data marts** (Desktop)
+
+Added functionality for viewing the current load state for data marts on different nodes. Available from the shortcut menu **Load State** in the Discovery portal (Discovery/Data Marts).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
