@@ -57,8 +57,9 @@ In a multi-node setup (see [Nodes and node groups](../../../developers/defining-
 Every time a data mart is loaded, a load event log entry is created. To control the growth of the history, Genus Apps provides capabilities to define "retention rules" for history logs. See [Guidelines and best practices](../../../developers/guidelines-and-best-practices/deleting-log-entries-in-the-history.md) for more information.
 
 ## View the current load state for data marts
-To view the current load state for data marts on different nodes, click the **Discovery** view button in the navigation pane, and then click the **Data Marts**-shortcut. Select one or more data marts. Right-click, and then in the shortcut menu, click **Load State**.
+To view the current load state for data marts on different nodes, click the **Discovery** view button in the navigation pane, and then do one of the following: 
 
-For a given data mart and node, the load state window provides information about the load status (Loaded, Not Loaded), the number of rows loaded, how long it took to load the data data mart, and when the data mart was loaded. If the data mart is locked by a user (which prevents the data mart from loading), you can see how long it has been locked and by whom.
+* **Acquire the load state on all nodes for selected data marts.** Click the **Data Marts**-shortcut. Select one or more data marts. Right-click, and then in the shortcut menu, click **Load State**. By default the load state window acquires the load state on all nodes irrespective of the node group defined for attached load plans.
+* **Acquire the load state for data marts/nodes referenced by selected load plans.** Expand the **Data Marts**-shortcut, and then click the **Load Plans** shortcut. Select one or more load plans. Right-click, and then in the shortcut menu, click **Load State**.
 
-By default the load state window acquires the load state on all nodes irrespective of the node group defined for attached load plans.
+For a given data mart and node, the load state window provides information about the load status, the number of rows loaded, how long it took to load the data data mart, and when the data mart was loaded. If the data mart is locked by a user (which prevents the data mart from loading), you can see how long it has been locked and by whom.
