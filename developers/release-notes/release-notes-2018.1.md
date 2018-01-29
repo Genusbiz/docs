@@ -16,10 +16,17 @@ This release note will be updated prior to the release and may also be updated a
 Prior to upgrading to this release, you must:
 * Upgrade to the previous release. See the Release notes for the previous release for more information.
 * Review the Expiry date of your Genus License File and install a new one if necessary.
-* Review the rest of the release notes for this release. Pay special attention to any issues in the sections [Deprecated Functionality](#deprecated-functionality), [Breaking Changes](#breaking-changes) and [Known Issues](#known-issues). You may have to perform manual tasks.
+* Review the rest of the release notes for this release. Pay special attention to any issues in the sections [End-of-life functionality] (#end-of-life-functionality), [Deprecated Functionality](#deprecated-functionality), [Breaking Changes](#breaking-changes) and [Known Issues](#known-issues). You may have to perform manual tasks.
 * Please note that there does not exist any Genus Upgrade Assistant for this upgrade.
  
 For general information about installing and upgrading Genus Apps, see [here](../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../installation-and-configuration/system-requirements.md) article.
+
+## Important issues in this release
+> [!NOTE]
+> This section address the most critical issues and information for this release. These issues may require you to take corrective action either before or immediately after installation.
+
+* **Link table in data mart no longer available.** Data marts that contains link tables must be manually converted to using selection filtering on connections in release 2017.5. It is not possible to edit or load data marts containing link tables in release 2018.1.
+
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
 See also the following notes.
