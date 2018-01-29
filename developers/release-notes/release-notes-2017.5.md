@@ -421,6 +421,9 @@ See
 <!--ID f7c2045e-836f-4f03-87c1-73eb4e43e1b6 -->
 **#23036 No longer warns user about leaving the page when redirected to another page in sign out command** (Web)
 
+<!--ID f8f0464e-6aa0-49f9-aa85-f307f97a0093 -->
+**#23045 Fixed issue where anonymous applications could crash after upgrading** (Web)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
