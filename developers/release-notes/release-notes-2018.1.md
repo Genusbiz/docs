@@ -338,6 +338,12 @@ In the **Select Field or Group** dialog, groups are not available, and it is not
 
 Object class properties bound to columns of type *varchar(max)* and *nvarchar(max)* in MS SQL Server are by default assigned the data type *ANSI String*/*Unicode String*. The correct interpretation should be *Textual large object (ANSI)*/*Textual large object (Unicode)*.
 
+<!--ID 89e1f45f-8118-4c5c-af99-aad41b1d2d3c -->
+**#23046 (Analysis) Designer crash** (Desktop)
+
+Fixed an error that caused the designer to throw an error. Also removed Switch View from the list of Action types. 
+Already created actions with this type will still work as expected.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
