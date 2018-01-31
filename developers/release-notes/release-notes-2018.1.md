@@ -344,6 +344,11 @@ Object class properties bound to columns of type *varchar(max)* and *nvarchar(ma
 Fixed an error that caused the designer to throw an error. Also removed Switch View from the list of Action types. 
 Already created actions with this type will still work as expected.
 
+<!--ID 0ceb0794-4283-4b4e-99ae-eb559d5ea41b -->
+**#23047 Analysis - Show Advanced Options** (Desktop)
+
+Show Advanced Options has been removed from the designer. All advanced options are now shown by default.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
