@@ -272,8 +272,8 @@ These values will be displayed in the tooltip.
 A scatter plot is a type of diagram using Cartesian coordinates to display values for two variables for a set of data.
 
 A Scatter plot can be used in two ways:
-•	Visualizing two values grouped by a single category
-•	Visualizing a two values grouped by two categories, where one acts as an auto series
+*	Visualizing two values grouped by a single category
+*	Visualizing a two values grouped by two categories, where one acts as an auto series
 
 ## Summary
 A *Summary* presents a summary of the active data source selections in the analysis.  
