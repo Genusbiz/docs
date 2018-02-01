@@ -204,6 +204,16 @@ Replaced preview of Excel files in MHTML-format with native Excel file formats.
 
 Added functionality for viewing the current load state for data marts on different nodes. Available from the shortcut menu **Load State** in the Discovery portal (Discovery/Data Marts).
 
+<!--ID 20f03b82-2199-4d54-8aa5-7763bed6995f -->
+**#23048 Generic Search now uses default operator** (Desktop)
+
+Now Generic Search will use default search operatior for eatch field that is used. This means that some fields will generate starting with while others may create a like statement.
+
+<!--ID fdc90ff2-915f-42a4-9e08-e0d01b229ec5 -->
+**#23049 New operators on fulltext search** (Desktop)
+
+We have added 3 new fulltext operatiors.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
