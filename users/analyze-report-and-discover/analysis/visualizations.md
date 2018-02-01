@@ -268,6 +268,13 @@ These values will be displayed in the tooltip.
 
 *A typical use case would be showing how tasks are assigned from customer to employee and further how tasks are distributed between employee and task state. Additional values to be displayed in the tooltip could be the number of hours worked on the tasks or the proportion of tasks completed after deadline*
 
+## Scatter Plot
+A scatter plot is a type of diagram using Cartesian coordinates to display values for two variables for a set of data.
+
+A Scatter plot can be used in two ways:
+•	Visualizing two values grouped by a single category
+•	Visualizing a two values grouped by two categories, where one acts as an auto series
+
 ## Summary
 A *Summary* presents a summary of the active data source selections in the analysis.  
 For each category data source in use by the analysis, the number of selected/qualified items are listed. If there are 10 or less qualified or selected items, these will be listed by name. Additionally, a bar that displays the size of the selected/qualified items relative to the total amount of items is displayed.  
