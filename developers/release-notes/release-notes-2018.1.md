@@ -359,6 +359,11 @@ Already created actions with this type will still work as expected.
 
 Show Advanced Options has been removed from the designer. All advanced options are now shown by default.
 
+<!--ID f86d457a-344e-49e6-9fb0-05608f4c0420 -->
+**#23050 Fixed output from report to PDF when the report is empty.** (Desktop)
+
+In cases where the report was empty, the report would not be exported to Pdf or printed. This caused print preview to be blank and tasks exporting data to Pdf to fail. The functionality is now changed so that output is produced, containing just the column headers of the report.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
