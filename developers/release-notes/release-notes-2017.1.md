@@ -568,6 +568,11 @@ Filters applied in a *Run a Report* effect are ignored when the report is opened
 <!--ID d5fc6028-e07f-4480-988c-668caea957d7 -->
 **#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.** (Desktop)
 
+<!--ID f86d457a-344e-49e6-9fb0-05608f4c0420 -->
+**#23050 Fixed output from report to PDF when the report is empty.** (Desktop)
+
+In cases where the report was empty, the report would not be exported to Pdf or printed. This caused print preview to be blank and tasks exporting data to Pdf to fail. The functionality is now changed so that output is produced, containing just the column headers of the report.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
