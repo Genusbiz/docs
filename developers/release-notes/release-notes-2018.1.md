@@ -214,6 +214,11 @@ Now Generic Search will use default search operatior for eatch field that is use
 
 We have added 3 new fulltext operatiors.
 
+<!--ID c28a029e-f4bd-41ed-9542-3c03a52f7ba2 -->
+**#23051 Added in-place editing of name in the directory explorer** (Studio)
+
+In-place editing of name enabled for most objects in Studio. Resticted to objects such as analysis, report, and data mart in previous versions.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
