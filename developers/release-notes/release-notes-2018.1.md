@@ -217,7 +217,14 @@ We have added 3 new fulltext operatiors.
 <!--ID c28a029e-f4bd-41ed-9542-3c03a52f7ba2 -->
 **#23051 Added in-place editing of name in the directory explorer** (Studio)
 
-In-place editing of name enabled for most objects in Studio. Resticted to objects such as analysis, report, and data mart in previous versions.
+In-place editing of name enabled for most objects in Studio. Restricted to objects such as analysis, report, and data mart in previous versions.
+
+<!--ID 1a915677-d7f4-4528-9af3-d0eb23375113 -->
+**#23052 Removed diagram view of the data mart from the analysis designer** (Desktop)
+
+In previous versions it was not possible to open a data mart if it was locked by an analysis. This restriction has been removed, and you can open the data mart in a separate window even if it is locked by an analysis (the data mart wil automatically be write protected). From an analysis you can open the attached data mart from the **Actions** window menu.
+
+The same functionality has been implemented for an analysis which is locked by a data mart.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
