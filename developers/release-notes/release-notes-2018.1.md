@@ -394,6 +394,11 @@ In cases where the report was empty, the report would not be exported to Pdf or 
 
 Fixed an error that caused column charts to not get the correct color when ignore selection was enabled.
 
+<!--ID dc437409-03f1-4a37-9648-7ce39275c2d7 -->
+**#23057 Analysis - Initial Selection** (Desktop)
+
+Fixed an issue where initial selection would not get applied properly.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
