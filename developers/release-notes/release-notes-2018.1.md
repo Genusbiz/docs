@@ -236,6 +236,9 @@ The same functionality has been implemented for an analysis which is locked by a
 
 In older versions of analysis we kept 15 steps in our selection history.  When this limit was reached, the oldest entry would be deleted. This limitation is now removed. The creator of the analysis now needs to keep in mind that the history can grow unlimited, and should therefore be cleared (e.g. on switch analysis)
 
+<!--ID f794010b-51bc-4df0-820d-db0d6bcd475d -->
+**#23055 Added a function in Advanced Expressions that evaluates a textual expression as a number.** (Studio)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
