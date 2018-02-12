@@ -389,6 +389,11 @@ Show Advanced Options has been removed from the designer. All advanced options a
 
 In cases where the report was empty, the report would not be exported to Pdf or printed. This caused print preview to be blank and tasks exporting data to Pdf to fail. The functionality is now changed so that output is produced, containing just the column headers of the report.
 
+<!--ID 77838481-e52b-4412-b2e4-a2b7cd5b821a -->
+**#23056 Analysis - Ignore Selection and XYCharts.** (Desktop)
+
+Fixed an error that caused column charts to not get the correct color when ignore selection was enabled.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
