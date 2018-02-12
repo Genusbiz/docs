@@ -101,6 +101,11 @@ This has now been changed so that the values are serialized as an array with the
 
 Unless the **Initial Catalog** connection string property is assigned explicitly when specifying [Data Link](https://docs.genus.no/developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.html#general) in the Genus Configuration tool, the Data Link **Database** property value will now be automatically used as Initial Catalog. The exception is Oracle databases (which does not support the Initial Catalog property).
 
+<!--ID dbeaa5d2-9d04-42c3-8731-866e994d1f26 -->
+**#23053 Symbols from image library is no longer loaded on Genus Services.** (Services)
+
+Support for using symbols from the image library is no longer supported on Genus Services as the loading and caching mechanism for images is not supported on Windows Server. The usage of symbols on Genus Server is limited and should only affect symbols displayed in distribution of Reports in Agents. Genus Apps for desktop is not affected by this change.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -225,6 +230,11 @@ In-place editing of name enabled for most objects in Studio. Restricted to objec
 In previous versions it was not possible to open a data mart if it was locked by an analysis. This restriction has been removed, and you can open the data mart in a separate window even if it is locked by an analysis (the data mart wil automatically be write protected). From an analysis you can open the attached data mart from the **Actions** window menu.
 
 The same functionality has been implemented for an analysis which is locked by a data mart.
+
+<!--ID 9fafe4df-fbdd-4d26-82d5-266df7d5c7a7 -->
+**#23054 Analysis - Selection history** (Desktop)
+
+In older versions of analysis we kept 15 steps in our selection history.  When this limit was reached, the oldest entry would be deleted. This limitation is now removed. The creator of the analysis now needs to keep in mind that the history can grow unlimited, and should therefore be cleared (e.g. on switch analysis)
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
