@@ -403,6 +403,11 @@ Note from R&D: Bugs not related to local data sources, but to the **Private** se
 
 In the **Select Field or Group** dialog, groups are not available, and it is not possible express an exist condition.
 
+<!--ID dc437409-03f1-4a37-9648-7ce39275c2d7 -->
+**#23057 Analysis - Initial Selection** (Desktop)
+
+Fixed an issue where initial selection would not get applied properly.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
