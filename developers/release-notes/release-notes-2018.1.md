@@ -239,6 +239,9 @@ In older versions of analysis we kept 15 steps in our selection history.  When t
 <!--ID f794010b-51bc-4df0-820d-db0d6bcd475d -->
 **#23055 Added a function in Advanced Expressions that evaluates a textual expression as a number.** (Studio)
 
+<!--ID 16a040f2-a842-4aee-aa58-98e8ae10fd10 -->
+**#23058 Navigation Pane is updated with new content control** (Desktop)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
