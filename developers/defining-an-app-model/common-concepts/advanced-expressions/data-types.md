@@ -141,6 +141,7 @@ The AuditTrailStep type exposes the following members.
 Name | Description
 --- | ---
 **action** | *instance*.action<br>Return Type: String
+**identifier** | *instance*.identifier<br>Return Type: Guid
 ## Bag(\<ElementType>) type
 The Bag(\<ElementType>) type exposes the following members.
 ### Instance members
@@ -650,6 +651,7 @@ Name | Description
 **account** | *instance*.account<br>Return Type: String
 **date** | *instance*.date<br>Return Type: CalendarTime
 **event** | *instance*.event<br>Return Type: String
+**identifier** | *instance*.identifier<br>Return Type: Guid
 **object** | *instance*.object<br>Return Type: String
 **objectType** | *instance*.objectType<br>Return Type: String
 **steps** | *instance*.steps<br>Return Type: Bag(AuditTrailStep)
@@ -994,6 +996,7 @@ Name | Description
 **ceiling** | Math.ceiling(*number*)<br><br>Returns the smallest whole number (64 bit integer) greater than or equal to the specified number.<br><br>Return Type: LargeInteger<br>The smallest whole number (64 bit integer) greater than or equal to number.<br><br>**number**<br>- Type: Real<br>- A number.
 **ceilingInteger** | Math.ceilingInteger(*number*)<br><br>Returns the smallest whole number (32 bit integer) greater than or equal to the specified number. WARNING: Please consider potential integer overflow.<br><br>Return Type: Integer<br>The smallest whole number (32 bit integer) greater than or equal to number.<br><br>**number**<br>- Type: Real<br>- A number.
 **e** | Math.e<br><br>Represents the natural logarithmic base, specified by the constant, e.<br>Return Type: Real
+**evaluate** | Math.evaluate(*expression*)<br><br>Evaluates a string as a mathematical expression.<br>Return Type: Real<br><br>**expression**<br>- Type: String<br>- The expression that should be evaluated.
 **exp** | Math.exp(*number*)<br><br>Returns e raised to the specified power.<br><br>Return Type: Real<br>The number e raised to the power number.<br><br>**number**<br>- Type: Real<br>- The exponent applied to the base e.
 **floor** | Math.floor(*number*)<br><br>Returns the largest whole number (64 bit integer) less than or equal to the specified number.<br><br>Return Type: LargeInteger<br>The largest whole number (64 bit integer) less than or equal to number.<br><br>**number**<br>- Type: Real<br>- A number.
 **floorInteger** | Math.floorInteger(*number*)<br><br>Returns the largest whole number (32 bit integer) less than or equal to the specified number. WARNING: Please consider potential integer overflow.<br><br>Return Type: Integer<br>The largest whole number (32 bit integer) less than or equal to number.<br><br>**number**<br>- Type: Real<br>- A number.
