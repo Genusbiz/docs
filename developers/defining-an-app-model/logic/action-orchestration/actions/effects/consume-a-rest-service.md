@@ -18,6 +18,8 @@ File:invoice.xml
 
 * For methods that supports a body in the request, define a body based on either a composed text, output from a data source or as a multipart body based on multiple fields. The GET and DELETE methods do not support sending a body in the request.
 * If the call to the REST service succeeds, the results may be handled conditionally by a Response Handler based on the HTTP result code returned from the method call. The Response Handler defines how the returned data should be stored back into a data source.
+
+See [this](../../../../services/rest-services/index.md) article for more background information.
 		
 ## Defining the Request Body
 
