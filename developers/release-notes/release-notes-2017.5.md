@@ -408,6 +408,9 @@ In the **Select Field or Group** dialog, groups are not available, and it is not
 
 Fixed an issue where initial selection would not get applied properly.
 
+<!--ID 8631294e-abe4-4304-a139-9e454afb389d -->
+**#23059 Related local tasks are not automatically deleted when a data mart is deleted** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
