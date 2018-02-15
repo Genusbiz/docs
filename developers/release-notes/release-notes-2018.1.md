@@ -85,6 +85,16 @@ To migrate an analysis with Views, do the following:
 2. In analysis A1, check all Actions which has a Command of Type Switch View. All of these must be converted to Open Analysis with Same Selection and point to A2. Do the same in analysis A2.
 3. In analysis A1, remove view A2. In A2, remove A1.
 
+<!--ID 083b5f1c-142d-471d-af22-7e6906d44eee -->
+**#23060 XY- and pie chart control in forms** (Desktop)
+
+Will be removed in next release. Replaced by functionality provided in analysis.
+
+<!--ID 3b9044f3-0ad4-4c8b-abab-22ba8921fce7 -->
+**#23061 Gantt control in forms** (Desktop)
+
+Will be removed in next release. No plans for replacement of functionality.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
