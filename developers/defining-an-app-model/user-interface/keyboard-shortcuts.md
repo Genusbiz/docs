@@ -39,6 +39,8 @@ For keyboard shortcuts in which you press two or more keys simultaneously, the k
 | Open Genus Studio                                        | CTRL+SHIFT+Y   |
 | Open the Alerts window                                   | CTRL+SHIFT+X   |
 | Switch to or open the main window                        | CTRL+SHIFT+G   |
+| Goto Search View Button in the navigation bar            | F9             |
+| Goto Discovery View Button in the navigation bar         | CTRL+F9        |
 
 ### Working with objects
 
