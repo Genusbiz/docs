@@ -425,6 +425,9 @@ Fixed an issue where the context menu would not close after being opened.
 
 Fixed an issue where the header text would overlap with the sort icon.
 
+<!--ID 5cd1ca29-3763-4872-b9f1-4a7f5a6d491f -->
+**#23064 Analysis - Fixed an issue where numeric values would not get right aligned.** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
