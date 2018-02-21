@@ -415,6 +415,16 @@ Fixed an issue where initial selection would not get applied properly.
 <!--ID 8631294e-abe4-4304-a139-9e454afb389d -->
 **#23059 Related local tasks are not automatically deleted when a data mart is deleted** (Desktop)
 
+<!--ID 4afb48c3-5242-42d4-be5c-de26d4a7da00 -->
+**#23062 Analysis - Context Menu** (Desktop)
+
+Fixed an issue where the context menu would not close after being opened.
+
+<!--ID 1efefc17-8929-45d2-ba8c-f5de5a0fcc8e -->
+**#23063 Analysis - table sort icon** (Desktop)
+
+Fixed an issue where the header text would overlap with the sort icon.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
