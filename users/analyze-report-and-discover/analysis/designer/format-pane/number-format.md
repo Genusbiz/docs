@@ -1,6 +1,6 @@
 # Number Format
 
-[Values](../concepts.md#value) which are numeric can be assigned a *Number Format*
+[Values](../../concepts.md#value) which are numeric can be assigned a *Number Format*
 
 The *Number Formats* has these options.
 

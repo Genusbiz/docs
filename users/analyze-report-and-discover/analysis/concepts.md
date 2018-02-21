@@ -53,7 +53,7 @@ If the Tile has defined [Categories](#category), the Values are grouped by these
 
 *Values* can e.g. be pies in a [Pie Chart](visualizations.md#pie-chart), bars in a [Bar Chart](visualizations.md#bar-chart), or simply a numeric measure in a [Measure](visualizations.md#bar-chart). I.e., it depends on the Visualization.  
 Some Visualizations use a different names for Values. E.g. a [Table](visualizations.md#table) calls them *Columns*.  
-Values have multiple options available in the [value designer](designer/value-designer.md).
+Values have multiple options available in the [value designer](designer/data-pane/value-overview.md).
 
 ## Data types and aggregates
 Values can be numerics, strings, dates, etc.
