@@ -94,7 +94,7 @@ It supports N categories. A dropdown containing the category objects is shown fo
 It supports sorting by state, and selection.
 
 ## Event line
-An *event line* is a [bubble chart](#bubble-chart) with a time-based x-axis. It has the following values:
+An *event line* is a [bubbles](#bubbles) with a time-based x-axis. It has the following values:
 
 * X-value: This must be of a date data type.
 * Y-value, Radius and Color: These must be numerical.
@@ -383,9 +383,9 @@ Numerous data management and layout customization features are supported.
 A *ticker* is an animated visualization of a value and its relation to a comparative value.
 
 It can be used in three ways:
-* With no value inputs, it will display the name of all the items in the set category. This is the same information as in a [category list](#category-list).
+* With no value inputs, it will display the name of all the items in the set category. This is the same information as in a [horizontal list](#horizontal-list).
 * With one value input, it will display the name and value of the chosen items. This is the same information as in a [table](#table).
-* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. This is the same information as in a [change list](#change-list). 
+* With two value inputs, it will compare each element to the corresponding element in the other input, and display the difference with a symbol. This is the same information as in a [delta](#delta). 
 
 Constant values can be used. 
 

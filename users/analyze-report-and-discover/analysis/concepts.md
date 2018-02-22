@@ -29,7 +29,7 @@ A Category is a data source binding, and it defined how the data displayed on th
 
 Examples:
 * In a [Table](visualizations.md#table) with a single category, *Company*, each row of the Table will represent one Company.
-* In a [Bar Chart](visualizations.md#bar-chart) with two categories, *Company* and *Year*, the bars will be grouped by both Company and Year.
+* In a [Bars](visualizations.md#bars) with two categories, *Company* and *Year*, the bars will be grouped by both Company and Year.
 
 Visualizations that use Categories have different options for controlling them:
 
@@ -51,7 +51,7 @@ Values represents data, and they can be:
 
 If the Tile has defined [Categories](#category), the Values are grouped by these Categories. E.g. for a [Table](visualizations.md#table) with the Category *Company* and the Values *Name* and *Employees*, each row will represent a Company, with two columns - the name of the Company and the number of employees. 
 
-*Values* can e.g. be pies in a [Pie Chart](visualizations.md#pie-chart), bars in a [Bar Chart](visualizations.md#bar-chart), or simply a numeric measure in a [Measure](visualizations.md#bar-chart). I.e., it depends on the Visualization.  
+*Values* can e.g. be pies in a [Pie](visualizations.md#pie), bars in a [Bars](visualizations.md#bars), or simply a numeric measure in a [Measure](visualizations.md#measure). I.e., it depends on the Visualization.  
 Some Visualizations use a different names for Values. E.g. a [Table](visualizations.md#table) calls them *Columns*.  
 Values have multiple options available in the [value designer](designer/data-pane/value-overview.md).
 
@@ -68,7 +68,7 @@ An *Action* can be attached to:
 * The body area of a Tile
 * A button in the footer area of a Tile
 * The *Context Menu* that can be invoked when clicking on a part of a [Visualization](visualizations.md) that represents an object in the data source of that [Category](#category).
-* A [Value](#value) in the [Visualization](visualizations.md), e.g. a pie in a [Pie Chart](visualizations.md#pie-chart)
+* A [Value](#value) in the [Visualization](visualizations.md), e.g. a pie in a [Pie Chart](visualizations.md#pie)
 
 Various [Visualizations](visualizations.md) support different attachments of *Actions*.
 

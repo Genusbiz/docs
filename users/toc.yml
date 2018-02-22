@@ -160,6 +160,8 @@
           href: analyze-report-and-discover/analysis/designer/format-pane/component-specific.md
         - name: Legend
           href: analyze-report-and-discover/analysis/designer/format-pane/legend.md
+        - name: Sort and limit
+          href: analyze-report-and-discover/analysis/designer/format-pane/sort-and-limit.md
       - name: Analytics pane
         href: analyze-report-and-discover/analysis/designer/analytics-pane/index.md
       - name: Actions pane

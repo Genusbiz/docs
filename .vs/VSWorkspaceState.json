@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\developers",
-    "\\developers\\how-to",
+    "\\users",
+    "\\users\\analyze-report-and-discover",
     "\\users\\analyze-report-and-discover\\analysis",
-    "\\users\\analyze-report-and-discover\\analysis\\office-add-ins"
+    "\\users\\analyze-report-and-discover\\analysis\\designer",
+    "\\users\\analyze-report-and-discover\\analysis\\designer\\actions-pane",
+    "\\users\\analyze-report-and-discover\\analysis\\designer\\analytics-pane",
+    "\\users\\analyze-report-and-discover\\analysis\\designer\\data-pane",
+    "\\users\\analyze-report-and-discover\\analysis\\designer\\format-pane"
   ],
-  "SelectedNode": "\\developers\\toc.yml",
+  "SelectedNode": "\\users\\analyze-report-and-discover\\analysis\\designer\\format-pane\\component-specific.md",
   "PreviewInSolutionExplorer": false
 }
