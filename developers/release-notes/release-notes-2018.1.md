@@ -428,6 +428,9 @@ Fixed an issue where the header text would overlap with the sort icon.
 <!--ID 5cd1ca29-3763-4872-b9f1-4a7f5a6d491f -->
 **#23064 Analysis - Fixed an issue where numeric values would not get right aligned.** (Desktop)
 
+<!--ID 8214f03d-2590-4707-9c6e-da6ff52801d4 -->
+**#23065 Analysis - Fixed an error with datalabels not working properly** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
