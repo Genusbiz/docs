@@ -38,7 +38,7 @@ Visualizations that use Categories have different options for controlling them:
 * *Trim* toggles hiding of category objects that has no data values.
 * *Naming* can be used to name the Category objects, i.e. define which field in the Category data source that should be used as a naming field.
 * *Sorting* can be used to sort the Category objects by defining which field(s) ([Values](#value)) from the Category data soure it should be sorted by
-* *Cutting* can be used to restrict the output to a subset of the objects in the Category data source
+* *Limit to first n values* can be used to restrict the output to a subset of the objects in the Category data source
 
 
 ## Value
