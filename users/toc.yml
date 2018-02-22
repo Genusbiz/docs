@@ -150,6 +150,8 @@
       - name: Format pane
         href: analyze-report-and-discover/analysis/designer/format-pane/index.md
         items:
+        - name: General
+          href: analyze-report-and-discover/analysis/designer/format-pane/general.md
         - name: Data point labels
           href: analyze-report-and-discover/analysis/designer/format-pane/data-point-labels.md
         - name: Date format
