@@ -2,17 +2,17 @@
 
 These are the *visualizations* available in an *analysis*.
 
-## Arc gauge
-An *arc gauge* visualizes how a value measures between two other values.
+## Areas
+*areas* can be used in two ways:
+* Visualizing one or more values grouped by a category
+* Visualizing a single value grouped by two categories where one acts as a *auto series*.
 
-The first value is the data value. 
-The second and third value determines the start and end of the gauge, respectively.
+In both cases the primary category will be used to generate areas. In the first case, each value will generate a area. In the second case, each object in the auto series will be a area. 
 
-## Area chart
-An *area chart* has the same functionality as a [line chart](#line-chart).
+Actions can be applied to header, content, button and context menu.
 
-## Bar chart
-A *bar chart* can be used in two ways:
+## Bars
+A *bars* can be used in two ways:
 * Visualizing one or more values grouped by a single category
 * Visualizing a single value grouped by two categories, where one acts as an *auto series*
 
@@ -22,19 +22,11 @@ In the second case, each object in the auto series will be a bar.
 
 Actions can be applied to header, content, button and context menu. 
 
-## Barrel roll
+## Barrel
 Takes a single category as input and loops over the category data. 
 
-## Basic list 
-A *Basic List* can take one category and 0 - 2 values
-
-The category will determine the main heading for the items in the list.
-Each value chosen will be on a new line under the heading as subheadings in each item 
-
-Selections and sorting is supported 
-
-## Bubble chart
-A *bubble chart* vizualies three of four values grouped on a single category. 
+## Bubbles
+A *bubbles* vizualies three of four values grouped on a single category. 
 
 The first and second value represents the bubbles position on the x and y axis. 
 The third value determines the size of the bubble.
@@ -48,24 +40,6 @@ The category groups the value by day, and shows the objects as colorized squares
 Selection can be done either by clicking on individual day squares or month labels.
 
 *A typical use case would be visualizing when tasks are completed.*
-
-## Category list
-A *Category list* is a simple comma-separated outlisting of the objects from a category data source.
-
-By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
-Sorting and selection is supported.
-
-## Change list
-A *change list* is used to list a percentage deviation between two values, grouped by a single category.
-
-For all category objects, the table shows the category name and the primary value with its deviation from the comparative value.
-
-The width of the columns can be set by adjusting the *column width* of the category in the format tab of the designer. 
-Sorting can be done by category or value.
-
-Actions can be applied to header, content, button and context menu.
-
-*A typical use case would be showing the value of a stock or currency and comparing it to its value the previous day.*
 
 ## Circle packing
 A *circle packing* shows a single value grouped by a single category.
@@ -93,20 +67,25 @@ The category objects appear in a layout of circular arcs. The graph is used to s
 * Min value: Category object with an aggregated value below this will be pruned. This must be a consant.
 * Max value: The aggregated values will be compared to this. All values exceeding this will be capped at the maximum angle measure (270 degrees). This must be a constant.
 
-## Column chart
-A *column chart* has the same functionality as a [bar chart](#bar-chart).
+## Columns
+A *columns* has the same functionality as a [bars](#bars).
 
 The data points are visualized in vertical columns rather than in horizontal bars.
 
-## Combination chart
-A *combination chart* visualizes more than one value, grouped by a single category.
+## Delta
+A *delta* is used to list a percentage deviation between two values, grouped by a single category.
 
-Each value in a combination chart can be visualized as a *column*, a *line* or an *area*.
+For all category objects, the table shows the category name and the primary value with its deviation from the comparative value.
 
-Actions can be applied to header, content, button and context menu. 
+The width of the columns can be set by adjusting the *column width* of the category in the format tab of the designer. 
+Sorting can be done by category or value.
 
-## Doughnut chart
-A *doughnut chart* has the same functionality as a [pie chart](#pie-chart).
+Actions can be applied to header, content, button and context menu.
+
+*A typical use case would be showing the value of a stock or currency and comparing it to its value the previous day.*
+
+## Doughnut
+A *doughnut* has the same functionality as a [pie](#pie).
 
 ## Dropdown
 A *dropdown* visualizes multiple categories.
@@ -125,32 +104,53 @@ By clicking and dragging in the graph, the user can select a zoomed in area to d
 
 *A typical use case would be showing customers; when they were registered on the x-axis, valuation on the y-axis, number of employees as radius and color according to the customer's field of business*
 
-## Full stacked area chart
-A *full stacked area chart* has the same functionality as a [stacked area chart](#stacked-area-chart).
-
-The total area will always be the entire area of the tile.
-
-## Full stacked bar chart
-A *full stacked bar chart* has the same functionality as a [stacked bar chart](#stacked-bar-chart).
-
-The bars will all be the same height. The chart is not used to compare the total value of objects in the primary category. Instead, it is used to compare the distribution of *auto series* objects or values in them.
-
-## Full stacked column chart
-A *full stacked column chart* has the same functionality as a [full stacked bar chart](#full-stacked-bar-chart).
-
-The data points are visualized in vertical columns rather than in horizontal bars.
-
-## Heatmap
-A *heatmap* visualizes a single value grouped by two categories.
+## Funnel
+A *funnel* visualizes: 
+*a single value grouped by a single category*
+*many 'uncategorised' values*
 
 Actions can be applied to header, content, button and context menu.
 
-## Line chart
-A *line chart* can be used in two ways:
+# Gauge
+An *gauge* visualizes how a value measures between two other values.
+
+The first value is the data value. 
+The second and third value determines the start and end of the gauge, respectively.
+
+## Grid heatmap
+A *grid heatmap* visualizes a single value grouped by two categories.
+
+The intensity of the cell is determined by the value
+
+Actions can be applied to header, content, button and context menu.
+
+## Horizontal list
+A *Horizontal list* is a simple comma-separated outlisting of the objects from a category data source.
+
+By default, it uses the naming field(s) of the category data source for naming of the objects, but this can be overriden.  
+Sorting and selection is supported.
+
+## Lines
+*Lines* can be used in two ways:
 * Visualizing one or more values grouped by a category
 * Visualizing a single value grouped by two categories where one acts as a *auto series*.
 
 In both cases the primary category will be used to generate lines. In the first case, each value will generate a line. In the second case, each object in the auto series will be a line. Actions can be applied to header, content, button and context menu.
+
+## Lines areas and columns
+*Lines areas and columns* visualizes more than one value, grouped by a single category.
+
+Each value in a combination chart can be visualized as a *column*, a *line* or an *area*.
+
+Actions can be applied to header, content, button and context menu. 
+
+## List 
+A *List* can take one category and 0 - 2 values
+
+The category will determine the main heading for the items in the list.
+Each value chosen will be on a new line under the heading as subheadings in each item 
+
+Selections and sorting is supported 
 
 ## Map
 A *map* visualizes geospatial data. They can have one or more layers. Layers are either map tiles or data layers.
@@ -194,17 +194,6 @@ Max and min intensity properties are optiononal, if none are set, the intensity 
 * **GeoJSON layer**
 The GeoJSON layer draws GeoJSON features on the map. The GeoJSON features are provided by a link to a GeoJSON-file. The GeoJSON features are mapped to a data source using a property, and only features that are present in both the GeoJSON file and the data source are displayed. All GeoJSON properties can be shown in the screen tip, along with values.
 
-## Markdown
-*Markdown* visualizes a text written in markup language that is converted to HTML.  
-We use [react-markdown](https://github.com/rexxars/react-markdown) which follows the [CommonMark](http://commonmark.org/) spec. For a quick CommonMark reference, see [here](http://commonmark.org/help/). 
-
-It is possible to merge values into the markdown by adding the value number wrapped in curly brackets. For example, you can write {2} to include the second value.
-
-It is possible to merge known values into the markdown by adding an identifier wrapped in curly brackets. For example, you can write {loadtime} to include the time the data mart was loaded.
-Available identifiers are:
-* loadtime: The time the data mart was loaded.
-* refdate: The current reference date.
-
 ## Measure
 A *measure* visualizes one or more values
 
@@ -230,8 +219,47 @@ The data is put right aligned in trhe second column.
 
 Actions can be applied to the values.
 
-## Pie chart
-A *pie chart* visualizes a single value grouped by a single category
+## Pictorial quantities
+A *Pictorial quantities* can be used in two ways:
+* Visualizing a single value grouped by a single category
+* Visualizing one or more *uncategorized* values
+
+A symbol picker can be applied to choose a symbol to represent the aggregated value(s). Enabling sorting will only have an effect in the case of categorized data.
+
+Typical use cases would be showing total revenue grouped on market segments or to show the distribution of project states for current projects.
+
+## Pictorial sizes
+A *Pictorial sizes* can be used in two ways:
+* Visualizing a single value grouped by a single category
+* Visualizing one or more *uncategorized* values
+
+A symbol picker can be applied to choose a symbol to represent the aggregated value(s). The size of the symbol will be determined by the value
+
+Typical use cases would be showing total revenue grouped on market segments or to show the distribution of project states for current projects.
+
+## Pie
+A *pie* visualizes a single value grouped by a single category
+
+Actions can be applied to header, content, button and context menu.
+
+## Pyramid
+A *pyramid* visualizes: 
+*a single value grouped by a single category*
+*many 'uncategorised' values*
+
+Actions can be applied to header, content, button and context menu.
+
+## Radial
+*Radial* visualises a single value grouped by a single category
+
+Each value will be represented by an arc in the *radial* and the size of the arc will be determined by the size of the value
+
+Actions can be applied to header, content, button and context menu.
+
+## Radial heatmap
+A *radial heatmap* visualizes a single value grouped by two categories.
+
+The intensity of the cell is determined by the value
 
 Actions can be applied to header, content, button and context menu.
 
@@ -268,7 +296,11 @@ A scatter plot is a type of diagram using Cartesian coordinates to display value
 
 A Scatter plot can be used in two ways:
 *	Visualizing two values grouped by a single category
-*	Visualizing a two values grouped by two categories, where one acts as an auto series
+*	Visualizing two values grouped by two categories, where one acts as an auto series
+
+## Subsets
+
+*Subsets* is a selection tool for which enables the user to select subsets in the designer. The chosen subsets can then be applied to the anaylsis at run time.
 
 ## Summary
 A *Summary* presents a summary of the active data source selections in the analysis.  
@@ -276,22 +308,32 @@ For each category data source in use by the analysis, the number of selected/qua
 
 You have the possibility to lock/unlock and clear the selection for each category data source by clicking on the corresponding icons upon hovering.
 
-## Sunburst chart
-A *Sunburst chart* presents multiple categories and single value in a multilayer chart. 
+## Summary Pop Up
+A *Summary Pop Up* presents a summary of the active data source selections in the analysis in a pop up format. 
+
+selection can be copied to clipboard
+
+## Sunburst
+A *Sunburst* presents multiple categories and single value in a multilayer chart. 
 Each category added represents a new layer of depth in the chart and the size of a slice is determined by the value.
 It is used to represent hierarchical data.
 
-## Speedometer gauge
-A *speedometer gauge* displays a value in a speedometer gauge. 
+## Speedometer
+A *speedometer* displays a value in a speedometer gauge. 
 The first value is the value to be displayed. 
 The second and third values are the start and end of the gauge, respectively. 
 All additional values are thresholds on the gauge. 
 
-## Stacked area chart
-A *stacked area chart* has the same functionality as a [stacked column chart](#stacked-column-chart).
+## Stacked areas
+A *stacked areas* has the same functionality as a [stacked columns](#stacked-columns).
 
-## Stacked bar chart
-A *stacked bar chart* can be used in two ways:
+## Stacked percentage areas
+*Stacked percentage areas* has the same functionality as a [stacked areas](#stacked-areas).
+
+The total area will always be the entire area of the tile.
+
+## Stacked bars
+*stacked bars* can be used in two ways:
 * Visualizing a single value grouped by a primary and secondary category. The secondary category is called an *Auto Series*.
 * Visualizing two or more values grouped by a single category.
 
@@ -301,23 +343,36 @@ In the second case, each bar will contain the data value for each value.
 
 Actions can be applied to header, content, button and context menu. 
 
-## Stacked column chart
-A *stacked column chart* has the same functionality as a [stacked bar chart](#stacked-bar-chart).
+## Stacked percentage bars
+*Stacked percentage bars* has the same functionality as a [stacked bars](#stacked-bars).
+
+The bars will all be the same height. The chart is not used to compare the total value of objects in the primary category. Instead, it is used to compare the distribution of *auto series* objects or values in them.
+
+## stacked percentage columns
+*Stacked percentage columns* has the same functionality as a [stacked percentage bars](#stacked-percentage-bars).
+
 The data points are visualized in vertical columns rather than in horizontal bars.
 
-## Symbol chart
-A *symbol chart* can be used in two ways:
-* Visualizing a single value grouped by a single category
-* Visualizing one or more *uncategorized* values
 
-A symbol picker can be applied to choose a symbol to represent the aggregated value(s). Enabling sorting will only have an effect in the case of categorized data.
-
-Typical use cases would be showing total revenue grouped on market segments or to show the distribution of project states for current projects.
+## Stacked columns
+*stacked columns* has the same functionality as a [stacked bars](#stacked-bars).
+The data points are visualized in vertical columns rather than in horizontal bars.
 
 ## Table
 A *table* presents bound data in a tabular format, where columns represent data fields and rows represent objects. 
 
 Numerous data management and layout customization features are supported. 
+
+## Text
+*Text* visualizes a text written in markup language that is converted to HTML.  
+We use [react-markdown](https://github.com/rexxars/react-markdown) which follows the [CommonMark](http://commonmark.org/) spec. For a quick CommonMark reference, see [here](http://commonmark.org/help/). 
+
+It is possible to merge values into the text by adding the value number wrapped in curly brackets. For example, you can write {2} to include the second value.
+
+It is possible to merge known values into the text by adding an identifier wrapped in curly brackets. For example, you can write {loadtime} to include the time the data mart was loaded.
+Available identifiers are:
+* loadtime: The time the data mart was loaded.
+* refdate: The current reference date.
 
 ## Three dimensional grid
 A *three dimensional grid* presents bound data in a tabular format, where columns represent data fields and rows represent objects. 
@@ -339,6 +394,12 @@ Constant values can be used.
 ## Timer
 A digital display that counts down.  Upon reaching zero, the analysis will be updated and the timer will be reset. 
 
+## Timeslider
+A *timeslider* is a selection tool which takes:
+*one category and one value*
+
+where the value has the same datasource as the category and chooses and field which has a date value.
+
 ## Transposed table
 A *transposed table* presents bound data in a tabular format, where rows represent data fields and columns represent objects.
 
@@ -356,9 +417,32 @@ Numerous data management and layout customization features are supported.
 
 The values can be grouped by an unlimited number of columns. When a grid is grouped by a single column, rows that have identical values in the column are arranged into groups. Each group will then be identified by a group row. If the grid is grouped by another column, data rows within each group are arranged into second level groups based on the values of the new grouping column, etc.
 
+## Variwide columns
+*Variwide columns* can be used for * Visualizing two values grouped by a single category
+
+The primary category will be used to generate *columns*. 
+The first value will determine the height of the column, the second value will determine the width
+In the second case, each object in the auto series will be a bar.
+
+Actions can be applied to header, content, button and context menu. 
+
+## Variable radius pie
+*Variable radius pie* can be used for *visualising two values grouped by one category*
+
+The primary category will be used to generate *slices*. 
+The first value will determine the radius of the *slice*
+The second value will determine the width or size of the *slice*
+
 ## Word cloud
 A *word cloud* shows all object in a category with their size based on a connected value
 
 Colors can either follow the value, or be based on a secondary value.
 
 A typical use case would be visualizing the revenue of a set of companies, with solid colors showing their field or a gradient color for number of employees.
+
+## Waterfall
+*Waterfall* can be used for visualising: 
+*one value grouped by one category*
+*no categories and many values*
+
+Can help in visualising the cumulative effect of sequentially introduced positive or negative values.
