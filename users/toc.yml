@@ -164,6 +164,8 @@
           href: analyze-report-and-discover/analysis/designer/format-pane/sort-and-limit.md
         - name: Required selection
           href: analyze-report-and-discover/analysis/designer/format-pane/required-selection.md
+        - name: Categories
+          href: analyze-report-and-discover/analysis/designer/format-pane/categories.md
       - name: Analytics pane
         href: analyze-report-and-discover/analysis/designer/analytics-pane/index.md
       - name: Actions pane
