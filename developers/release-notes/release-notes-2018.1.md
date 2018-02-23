@@ -431,6 +431,9 @@ Fixed an issue where the header text would overlap with the sort icon.
 <!--ID 8214f03d-2590-4707-9c6e-da6ff52801d4 -->
 **#23065 Analysis - Fixed an error with datalabels not working properly** (Desktop)
 
+<!--ID 45b19ade-fc3c-4bf2-b414-4e470a5af270 -->
+**#23066 Fixed an issue where objects removed from filtered lists removed en extra item** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
