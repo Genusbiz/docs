@@ -346,7 +346,9 @@ Ignore selection will now work on formulas and formula values, regardless if the
 Active object not nullfied when current selected item is cleared in a combo box control with binding type *Object*.
 
 <!--ID 50f959c7-4bba-4f8c-b51f-456828f798bf -->
-**#23008 Fixed problem with serialization of non-ascii characters when exporting JSON** (Desktop;Services)
+**#23008 Fixed problem with serialization of non-ASCII characters when exporting JSON** (Desktop;Services)
+
+Characters outside ASCII range (32-127) has been exported uising a Unicode escape format (\uXXXX) but this caused problems reading the exported text. The export method has been updated to handle non-ASCII characters by writing them using UTF-8 instead so that the JSON produced will be more readable.
 
 <!--ID d70f0f2d-3f55-44ac-acd1-a76152d6e366 -->
 **#23009 Fixed problem with updating cells where the user don't have read access.** (Desktop)
