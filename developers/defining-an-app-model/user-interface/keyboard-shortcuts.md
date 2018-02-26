@@ -72,13 +72,15 @@ For keyboard shortcuts in which you press two or more keys simultaneously, the k
 | Move to the next object in a table                       | F8             |
 | Move to the previous object in a table                   | SHIFT+F8       |
 | View or hide the Reading Pane                            | ALT+F6         |
+|	Move forward through tabs                                | CTRL+TAB       |
+| Move back through tabs                                   | CTRL+SHIFT+TAB |
 |                                                          |                |
 |                                                          |                |
 | Find text on a page                                      | CTRL+F         |
 | Find objects                                             | F3             |
 | Perform a new search for objects                         | CTRL+F3        |
 | Continue the previous search for objects                 | SHIFT+F3       |
-| Open a Search Folder                                     | CTRL + SHIFT + F3 |
+| Open a Search Folder                                     | CTRL+SHIFT+F3  |
 |                                                          |                |
 |                                                          |                |
 | Refresh data                                             | F5             |
@@ -98,7 +100,7 @@ For keyboard shortcuts in which you press two or more keys simultaneously, the k
 | Set focus to the search box                              | CTRL+F         |
 | Search                                                   | F3             |
 | Open the Directory Tasks dialog for quick access to commonly used tasks | CTRL+SHIFT+F5 |
-| Deploy the Directory to your computer                    | CTRL + F9      |
+| Deploy the Directory to your computer                    | CTRL+F9      |
 
 
 ### Object class diagram
