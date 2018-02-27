@@ -447,6 +447,9 @@ Fixed issue with slow Automatic Formatting
 <!--ID b91a7562-427c-4527-8dff-b798fdd5abe0 -->
 **#23068 Dialog Boxes displays title and button texts in the lauguage used in the Genus App.** (Desktop)
 
+<!--ID 9969735c-97bf-4180-aca5-c74138ff1860 -->
+**#23069 Fixed issue with invalid File Name when opening in default application** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
