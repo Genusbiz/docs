@@ -18,7 +18,6 @@ App models are defined using the Genus Studio tool, and the structure of the doc
 
 * [Data sets](general-settings/data-sets.md)
 * [Calendar settings](general-settings/calendar-settings.md)
-* [Search settings](general-settings/search-settings.md)
 * [Advanced settings](general-settings/advanced-settings.md)
 
 **[Common concepts](common-concepts/index.md)**
