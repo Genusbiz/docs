@@ -1,32 +1,15 @@
-# Advanced settings
+# Advanced
 
-Some of these settings are defaults that can be [personalized](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md) by individual users.
+## Full Text Search (Oracle)
 
-## Color setting
+For full text queries using the NEAR operator, you can specify the maximum distance allowed between two words. The NEAR operator returns a score based on the proximity of two or more query terms. Users can override this setting.
 
-In the **Color Settings** box in the **Print** section, select the color setting to use as default for printing:
+Default value: 100.
 
-*   **Color**prints documents in full color.
-*   **Black and White** prints douments in black and white only.
-*   **Grayscale** translates colors to shades of gray.
+Minimum value: 3.
 
-## Report theme
+## Sentry Error Reporting (Web)
 
-In the **Report Theme** box, in the **Display** section, select the color theme to use for displaying reports:
+If the Genus web app crashes, it will send an error report to our developers as a default. If you type an address in **Sentry DNS Override**, the error report will be sent to this address instead.
 
-*   Black and White (Fax)
-*   Classic
-*   Metal
-*   Oil
-*   Sand
-*   Underwater
-*   Water
-
-## Application theme
-
-In the **Application Theme** box in the **Display** section, select the default theme for the application.
-
-*   Black
-*   Colorful
-*   Silver
-*   White
+To disable Sentry error reporting, select the **Disable Sentry** check box.
