@@ -439,6 +439,11 @@ Fixed an issue where the header text would overlap with the sort icon.
 <!--ID 45b19ade-fc3c-4bf2-b414-4e470a5af270 -->
 **#23066 Fixed an issue where objects removed from filtered lists removed en extra item** (Web)
 
+<!--ID 5deab43b-3a44-495b-acca-cdd11f7a8338 -->
+**#23067 Slow Automatic Formatting** (Desktop)
+
+Fixed issue with slow Automatic Formatting
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
