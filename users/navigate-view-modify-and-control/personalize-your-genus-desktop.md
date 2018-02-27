@@ -28,7 +28,7 @@ The start page is displayed when you first start Genus Desktop. To change the st
 ## Change the default application theme
 
 1.  In the **File** menu, click **Options**.
-2.  In the **Application Theme** box, select which theme to use as; **Default**, **Black**, **Colorful**, **Silver** or **White**. When **Default** is selected, the default application theme is used.
+2.  In the **Application Theme** box, select which theme to use as; **Default**, **Colorful** or **White**. When **Default** is selected, the default application theme is used.
 
 ## Turn confirmation on exit on or off
 
