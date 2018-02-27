@@ -413,6 +413,9 @@ Fixed an issue where initial selection would not get applied properly.
 <!--ID 8631294e-abe4-4304-a139-9e454afb389d -->
 **#23059 Related local tasks are not automatically deleted when a data mart is deleted** (Desktop)
 
+<!--ID 9969735c-97bf-4180-aca5-c74138ff1860 -->
+**#23069 Fixed issue with invalid File Name when opening in default application** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
