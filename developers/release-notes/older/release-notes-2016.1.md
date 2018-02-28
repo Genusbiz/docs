@@ -377,7 +377,7 @@ A new Genus Apps authentication feature has been introduced for scenarios where 
  
 All Genus Apps requests must be sent to Genus Server on the form
  
-`https://myservername.mydomain.com/mydataset/api/public/mobile/......`
+`https://myservername.mydomain.com/mydataset/api/public/mobile/...`
  
 where word “public” in the URL indicates that Genus Apps will not perform any authentication on its own.
  
@@ -385,7 +385,7 @@ In order to use Trusted Zone Authentication, the following configuration must be
  
 1. Enable automatic creation of native user accounts for the account profile to be used (only one account profile may allow this) by executing an SQL statement like
  
-   `UPDATE g_account_profile SET allow_create_native_account = 1 WHERE .......`
+   `UPDATE g_account_profile SET allow_create_tz_account = 1 WHERE ...`
  
 2. Add the following line in appSettingsOverrides.config file within the `<appSettings>` section:
  
