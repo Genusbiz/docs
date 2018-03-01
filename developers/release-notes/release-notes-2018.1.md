@@ -450,6 +450,11 @@ Fixed issue with slow Automatic Formatting
 <!--ID 9969735c-97bf-4180-aca5-c74138ff1860 -->
 **#23069 Fixed issue with invalid File Name when opening in default application** (Desktop)
 
+<!--ID 3af6145b-b6a1-43e5-b7f7-cdfc7ac8c344 -->
+**#23070 Edit-locks on Data Mart won't prohibit loading** (Services)
+
+When a Data Mart is locked because somebody is modifying it, it will no longer fail to load on a server. Already running Data Marts will reload data only as sceduled. Altered structure for the Data Mart won't be read until the editor is closed and the edit-lock is released.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
