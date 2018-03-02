@@ -521,6 +521,8 @@
     href: guidelines-and-best-practices/improving-search-performance.md
   - name: Improving Genus Apps performance
     href: guidelines-and-best-practices/improving-genus-apps-performance.md
+  - name: Genus web and Internet Explorer 11
+    href: guidelines-and-best-practices/genus-web-and-internet-explorer-11.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
   - name: Genus Apps for web hardening
