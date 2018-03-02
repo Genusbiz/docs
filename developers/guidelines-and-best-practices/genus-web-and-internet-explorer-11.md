@@ -8,4 +8,4 @@ If something does not appear at all, it might be because all elements are stretc
 
 Another problem that have been noticed is having a group with scroll content inside another group which also has scroll content.
 
-Note that support for Internet Explorer may be removed based on usage. See our [system requirements](../installation-and-configuration/system-requirements.md) for more information.
+Note that future support for Internet Explorer may be removed based on usage. See our [system requirements](../installation-and-configuration/system-requirements.md) for more information.
