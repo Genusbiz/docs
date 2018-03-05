@@ -4,7 +4,7 @@ The datamart/analysis concept relies on a correctly configured environment to fu
 
 To be able to run analyses/data extracts against a data mart all of the following prerequisits must be met:
 *   A data mart must be correctly defined.
-*   A data mart loading schedule must be configured and executed.
+*   A data mart load plan must be configured and executed.
 *   Nodes and node-groups must be configured correctly to allow servers to provide data marts for clients.
 *   The data mart must be loaded and running on one or more servers in your network.
 
@@ -16,17 +16,26 @@ To be able to run analyses/data extracts against a data mart all of the followin
 *   Check that connections between data sources have been defined appropriately.
 *   See [Data Mart Concepts](data-mart-concepts.md) for more information. 
 
-## The data mart loading schedule
-A data mart must be scheduled to load at one ore more servers before it will be available for requests from analyses or data extracts. Check that a data mart schedule is defined for this data mart and that the following requirements are fulfilled:
-*   Check that the schedule handles the correct data mart.
-*   A node group must be assigned to this schedule. See **[Nodes and Node Groups](#nodes-and-node-groups)** below. 
-*   A properly configured loading schedule must be defined. 
-    *   Check that a proper schedule type is selected in the combo box,  and that a proper start time is set.
-    *   Click on the button labeled **Advanced...** to verify a proper repeat pattern for the schedule.
-*   Make sure that the correct flags has been set for **Load Parallel, Auto Load and Enabled**.
-*   Check if the schedule actually has been executed by checking the **Start-** and **End Time** columns in the **Schedules** table in Genus Studio. 
-    *   A more comprehensive load history may be viewed by right-clicking on a **Schedule** in the **Schedules** table and clicking **Execution History**
+## The data mart load plan
+A data mart must be scheduled to load at one ore more servers before it will be available for requests from analyses or data extracts. Check that a data mart load plan is defined for this data mart and that the following requirements are fulfilled:
+*   Check that the load plan handles the correct data mart.
+*   A node group must be assigned to this load plan. See **[Nodes and Node Groups](#nodes-and-node-groups)** below. 
+*   Check that the load plans **Enabled**-flag has been set.
+*   A properly configured load plan must be defined in the **Reload**-page. 
+    *   Check that a proper load plan is set up,  and that a proper start time is set.
+    *   Click on the button labeled **Advanced...** to verify a proper repeat pattern for the load plan.
+*   Make sure that the correct flag has been set for **Load Parallel**
+*   Use the **Auto Load**-page to set up required auto load behaviour. 
+*   Check if the load plan actually has been executed by checking the **Start-** and **End Time** columns in the **Load Plans** table in Genus Studio. 
+    *   A more comprehensive load history may be viewed by right-clicking on a **Load Plan** in the **Load Plans** table and clicking **History**
 *   See [Loading and Scheduling](data-mart-loading.md) for more information.
+
+## Don't leave faulty data mart load plans running on AutoLoad
+A data mart load plan where auto load is checked will attempt to load the data mart within 2 minutes unless it has been generally disabled or is disabled by auto load disabling rules. If the data mart fails to load, it will make another attempt 2 minutes later.
+
+When the data mart fails to load, it will write the most recent content of Genus Log to the load plan's history log. This will allow you to  investigate why the mart would not load by rightclicking on the failed load history record and selecting "View Log...". If the data mart load succeeds, no extra log data will be written.
+
+The amount of data written in a single history-record is limited to 1 MB, but as this could potentionally happen every 2 minutes it may still amount to large volumes of data over time. Consequently, you should not let a failing data mart load plan stay enabled with autoload for extended periods of time. If you are experiencing difficulties trying to load a data mart, you should disable the load plan when you are not actively trying to solve the issue. 
 
 ## Nodes and node groups
 For a data mart server to provide any services it must be added to the directory as a node, and added to a node group.
