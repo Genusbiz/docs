@@ -27,6 +27,8 @@ For general information about installing and upgrading Genus Apps, see [here](..
 
 * **Link table in data mart no longer available.** Data marts that contains link tables must be manually converted to using selection filtering on connections in release 2017.5. It is not possible to edit or load data marts containing link tables in release 2018.1.
 
+* **Don't leave faulty data mart load plans running on auto!** Each time it fails, it logs up to 1 MB. But since it may try to load every 2 minutes, it may amount to large volumes of data over time. See the article [Data mart problem solving and FAQ](../../users/analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md) for more information.
+
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
 See also the following notes.
@@ -474,6 +476,7 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
+* 2018-03-05 Changed release stage from Beta to Release Candidate.
 * 2018-02-19 Changed release stage from Alpha to Beta (builds starting with 18.10.105).
 * 2018-01-29 Changed release stage from Pre-alpha to Alpha (builds starting with 18.10.66).
 * 2017-11-29 Builds for this release will start with version number 18.10.
