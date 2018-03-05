@@ -30,12 +30,12 @@ A data mart must be scheduled to load at one ore more servers before it will be 
     *   A more comprehensive load history may be viewed by right-clicking on a **Load Plan** in the **Load Plans** table and clicking **History**
 *   See [Loading and Scheduling](data-mart-loading.md) for more information.
 
-## Don't leave faulty data mart load plans running on AutoLoad
-A data mart load plan where auto load is checked will attempt to load the data mart within 2 minutes unless it has been generally disabled or is disabled by auto load disabling rules. If the data mart fails to load, it will make another attempt 2 minutes later.
+## Don't leave faulty data mart load plans running on auto
+A data mart load plan where auto load is checked will attempt to load the data mart within 2 minutes, unless it has been generally disabled or is disabled by auto load disabling rules. If the data mart fails to load, it will make another attempt 2 minutes later.
 
 When the data mart fails to load, it will write the most recent content of Genus Log to the load plan's history log. This will allow you to  investigate why the mart would not load by rightclicking on the failed load history record and selecting "View Log...". If the data mart load succeeds, no extra log data will be written.
 
-The amount of data written in a single history-record is limited to 1 MB, but as this could potentionally happen every 2 minutes it may still amount to large volumes of data over time. Consequently, you should not let a failing data mart load plan stay enabled with autoload for extended periods of time. If you are experiencing difficulties trying to load a data mart, you should disable the load plan when you are not actively trying to solve the issue. 
+The amount of data written in a single history-record is limited to 1 MB, but as this could potentionally happen every 2 minutes, it may still amount to large volumes of data over time. Consequently, you should not let a failing data mart load plan stay enabled with autoload for extended periods of time. If you are experiencing difficulties trying to load a data mart, you should disable the load plan when you are not actively trying to solve the issue. 
 
 ## Nodes and node groups
 For a data mart server to provide any services it must be added to the directory as a node, and added to a node group.
