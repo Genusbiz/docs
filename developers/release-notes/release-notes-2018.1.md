@@ -457,6 +457,11 @@ Fixed issue with slow Automatic Formatting
 
 When a Data Mart is locked because somebody is modifying it, it will no longer fail to load on a server. Already running Data Marts will reload data only as sceduled. Altered structure for the Data Mart won't be read until the editor is closed and the edit-lock is released.
 
+<!--ID 683ce292-8c47-4484-adae-1d580e3b1f5b -->
+**#23071 Error when changing views when a search field has focus in a table** (Desktop)
+
+When a Number Search Field had focus and the user changed view, an error occured.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
