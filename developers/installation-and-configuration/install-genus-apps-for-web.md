@@ -71,16 +71,6 @@ For Internet Explorer, Microsoft Edge, Google Chrome, and Chromium *Intranet Zon
 
 For Firefox *Integrated Windows Authentication* needs to be enabled.
 
-## Anti-clickjacking
-To prevent clickjacking (UI readress attacks) the following must be added to web.config under the <system.webServer> node:
-```xml
-<httpProtocol>
-    <customHeaders>
-      <add name="X-Frame-Options" value="SAMEORIGIN" />
-    </customHeaders>
-</httpProtocol>
-```
-
 ## Uploading of large files
 If it is needed to upload large files through Genus Apps for Web, the web.config file must include the following to avoid an error of type "404 - File or directory not found.": 
 ```xml
@@ -99,4 +89,56 @@ If it is needed to upload large files through Genus Apps for Web, the web.config
       </security>
     </system.webServer>
   </location>
+```
+
+# Security settings
+The following settings is default when installing a new version of Genus Apps for Web. However, when upgrading the web.config file is not changed because of local editing of the file (rewrite rules, etc.). See ( [Genus Apps for Web hardening](../guidelines-and-best-practices/genus-apps-for-web-hardening.html)) for more information.
+
+## Anti-clickjacking
+To prevent clickjacking (UI readress attacks) the following must be added to web.config inside the <system.webServer> node:
+```xml
+<httpProtocol>
+    <customHeaders>
+      <add name="X-Frame-Options" value="SAMEORIGIN" />
+    </customHeaders>
+</httpProtocol>
+```
+
+## Cross site scripting
+To prevent an evil part may run arbitrary code on Genus Apps for web, add the following to web.config under the <customHeaders> node:
+```xml
+ <add name="X-XSS-Protection" value="1; mode=block" />
+ <add name="X-Content-Type-Options" value="nosniff"/>
+```
+
+## Charset for html files
+To set the default charset for html files, add the following to the web.config file inside the <system.webServer> node:
+```xml
+<staticContent>
+		<remove fileExtension=".html" />
+		<mimeMap fileExtension=".html" mimeType="text/html; charset=utf-8" />
+	</staticContent>
+```
+
+## Cache-Control 
+To avoid caching problems with html-files after upgrading, add the following to the web.config file inside the <configuration> node:
+```xml
+<location path="web/index.html">
+    <system.webServer>
+        <httpProtocol>
+            <customHeaders>
+                <add name="Cache-Control" value="no-store" />
+            </customHeaders>
+        </httpProtocol>
+    </system.webServer>
+</location>
+<location path="index.html">
+    <system.webServer>
+        <httpProtocol>
+            <customHeaders>
+                 <add name="Cache-Control" value="no-store" />
+            </customHeaders>
+        </httpProtocol>
+    </system.webServer>
+</location>
 ```
