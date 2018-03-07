@@ -16,6 +16,13 @@ Note that you can't change your password if you are authenticated by Microsoft A
 1.  In the **File** menu, click **Options**.
 2.  In the **Language** box, select which language to use as the default language. You must restart the application for this change to take effect.
 
+
+## Change the display format on web browser clients
+Controls the display format of items such as numbers, currency, and dates on web browser clients. If not specified, items are formatted according to the selected language.
+
+1.  In the **File** menu, click **Options**.
+2.  In the **Display Format Web** box, select which culture to use.
+
 ## Change the start page in the Navigation Pane
 
 The start page is displayed when you first start Genus Desktop. To change the start page, right-click a shortcut in the navigation pane, and then on the shortcut menu, click **Set as Start Page**.
