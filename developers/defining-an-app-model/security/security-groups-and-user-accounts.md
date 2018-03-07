@@ -1,4 +1,4 @@
-# Security Groups and User Accounts
+# Security groups and user accounts
 
 Genus Apps uses a **user or computer account** to authenticate the identity of the user or computer, and to authorize or deny access to application resources (data and functions). The account establishes an identity for the user. The identity is then used to authenticate the user and to grant the user authorization to access specific application resources.
 
@@ -65,7 +65,7 @@ The following built-in users and groups are available:
 </table>
 
 
-## Add a Security Group
+## Add a security group
 
 Required [security privilege](security-privileges.md): **Administer Security Groups**.
 
@@ -83,7 +83,7 @@ Required [security privilege](security-privileges.md): **Administer Security Gro
 
 
 
-## Add a User- or Computer Account
+## Add a user- or computer account
 
 Required [security privilege](security-privileges.md): **Administer users**.
 
@@ -107,12 +107,12 @@ If your application uses **custom authentication**, follow these steps:
 12.  Click **Next**.
 13.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 14.  Click **Next**.
-15.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
+15.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. The settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 16.  Click **Finish**.
 
 If your application uses **Active Directory authentication**, follow these steps:
 
-**Add a User Account**
+**Add a user account**
 
 1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
@@ -127,10 +127,10 @@ If your application uses **Active Directory authentication**, follow these steps
 11.  Click **Next**.
 12.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 13.  Click **Next**.
-14.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
+14.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. The settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 15.  Click **Finish**.
 
-**Add a Computer Account**
+**Add a computer account**
 
 1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Computers** folder.
@@ -146,7 +146,7 @@ If your application uses **Active Directory authentication**, follow these steps
 
 
 
-## View a User Account
+## View a user account
 
 1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, expand the **Security** folder, and then click the **Users** folder.
@@ -157,7 +157,7 @@ User accounts that are locked out are listed in red font color, and user account
 
 
 
-## Change Password for a User Account
+## Change password for a user account
 
 Note that passwords cannot be changed for user accounts authenticated by MicrosoftB. Active Directory.
 
@@ -169,7 +169,7 @@ Note that passwords cannot be changed for user accounts authenticated by Microso
 
 
 
-## Disable or Enable a User Account
+## Disable or enable a user account
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **User Account Properties** dialog box, select the **Account is disabled** check box to disable the user account. To enable the user account, click to clear the **Account is disabled** check box.
@@ -177,7 +177,7 @@ Note that passwords cannot be changed for user accounts authenticated by Microso
 
 
 
-## Unlock a Locked User Account
+## Unlock a locked user account
 
 Based on the lockout policy defined in the [account profile setup](account-profiles.md), a user may be locked out after one or more invalid sign in attempts. The account is automatically unlocked after a specified number of minutes. To manually unlock a user, follow these steps:
 
@@ -187,19 +187,19 @@ Based on the lockout policy defined in the [account profile setup](account-profi
 
 
 
-## Change the Default Language for a User Account
+## Change the default language for a user account
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **Language** box, select the default language for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 
-## Change the display format on web browser clients
+## Change the display format on web browser clients for a user account
 
 Controls the display format of items such as numbers, currency, and dates on web browser clients. If not specified, items are formatted according to the selected language.
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **Display Format Web** box, select the formatting culture for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 
-## Change the Start Page in the Navigation Pane for a User Account
+## Change the start page in the navigation pane for a user account
 
 1.  [Open the user account.](security-groups-and-user-accounts.md)
 2.  In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop application. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
