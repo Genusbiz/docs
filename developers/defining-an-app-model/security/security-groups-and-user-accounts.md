@@ -127,7 +127,7 @@ If your application uses **Active Directory authentication**, follow these steps
 11.  Click **Next**.
 12.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 13.  Click **Next**.
-14.  In the **Language** box, select the default language for the user. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
+14.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. Both settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 15.  Click **Finish**.
 
 **Add a Computer Account**
@@ -192,7 +192,12 @@ Based on the lockout policy defined in the [account profile setup](account-profi
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **Language** box, select the default language for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 
+## Change the display format on web browser clients
 
+Controls the display format of items such as numbers, currency, and dates on web browser clients. If not specified, items are formatted according to the selected language.
+
+1.  [Open the user account](security-groups-and-user-accounts.md).
+2.  In the **Display Format Web** box, select the formatting culture for the user. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 
 ## Change the Start Page in the Navigation Pane for a User Account
 
