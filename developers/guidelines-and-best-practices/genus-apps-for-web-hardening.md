@@ -1,9 +1,9 @@
-# Genus Apps for web hardening
+# Genus Apps for Web hardening
 
 > [!NOTE]
 > Go to the last section ([Recommended settings for security headers](#recommended-settings-for-security-headers)) if you want to skip the theory and only want the configuration options for Microsoft Internet Information Services (IIS).
 
-Our web client (Genus Apps for web) runs completely in the browser. In other words, there are no active components running server side in IIS. The web server is only serving static html, css and JavaScript files to the browser. After these files are loaded by the browser, it will start to communicate with Genus Services to fetch app model and data. This is done with AJAX requests directly from the browser.
+Our web client (Genus Apps for Web) runs completely in the browser. In other words, there are no active components running server side in IIS. The web server is only serving static html, css and JavaScript files to the browser. After these files are loaded by the browser, it will start to communicate with Genus Services to fetch app model and data. This is done with AJAX requests directly from the browser.
 
 This article will cover some possible attack vectors and how you can protect against yourself against them. In the end there is a section that will cover the actual implementation in IIS.
 
@@ -72,7 +72,7 @@ If you are to use public key pinning, do the proper research on this matter. Imp
 ## Recommended settings for security headers
 
 ### Normal mode
-This is the settings we currently recommend when using Genus Apps for web.
+This is the settings we currently recommend when using Genus Apps for Web.
 
 ```
 <system.webServer>
@@ -100,7 +100,7 @@ This is the settings we currently recommend when using Genus Apps for web.
 ```
 
 ### Strict mode
-This mode will disable any third party services included in Genus Apps for web. This mode cannot be used if the customer use the Google Analytics integration in Genus Apps for web. Sentry, a third party service for automatic crash reporting, will also be disabled if this mode is used.
+This mode will disable any third party services included in Genus Apps for Web. This mode cannot be used if the customer use the Google Analytics integration in Genus Apps for Web. Sentry, a third party service for automatic crash reporting, will also be disabled if this mode is used.
 
 ```
 <system.webServer>
