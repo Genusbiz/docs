@@ -41,8 +41,19 @@ X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 ```
 
-**As of today there are no known cross site vulnerabilities present in Genus.** However, the technical nature of Genus may cause penetration testers to flag some APIs as potentially harmful. To mitigate this, it is possible to enable [Base64](https://en.wikipedia.org/wiki/Base64) encoded responses from the server. Enabling this will result in a performance penalty and is only recommended when strictly needed from a security point of view.
+**As of today there are no known cross site vulnerabilities present in Genus.** However, the technical nature of Genus may cause penetration testers to flag some APIs as potentially harmful. To mitigate this, it is possible to enable [Base64](https://en.wikipedia.org/wiki/Base64) encoded responses from the server. Enabling this will result in a performance penalty and is only recommended when strictly needed from a security point of view. In order to enable Base64 responses for supported client requests, locate the Genus Services `appSettingsOverrides.config` file (typically installed at C:\\Program Files\\Genus\\Server\\wwwroot) and add the following line:
 
+```
+<appSettings>
+
+  [...]
+  
+  <add key="Base64EncodingResponse:Enabled" value="true" />
+  
+  [...]
+  
+</appSettings>
+```
 
 ### Downgrade attack
 #### Problem
