@@ -20,7 +20,7 @@ Note that you can't change your password if you are authenticated by Microsoft A
 Controls the display format of items such as numbers, currency, and dates on web browser clients. If not specified, items are formatted according to the selected language.
 
 1.  In the **File** menu, click **Options**.
-2.  In the **Display Format Web** box, select which culture to use.
+2.  In the **Display Format Web** box, select which formatting culture to use.
 
 ## Change the start page in the Navigation Pane
 
