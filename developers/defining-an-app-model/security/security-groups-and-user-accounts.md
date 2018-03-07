@@ -159,7 +159,7 @@ User accounts that are locked out are listed in red font color, and user account
 
 ## Change password for a user account
 
-Note that passwords cannot be changed for user accounts authenticated by MicrosoftB. Active Directory.
+Note that passwords cannot be changed for user accounts authenticated by Microsoft Active Directory.
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **User Account Properties** dialog box, click **Set Password**.
