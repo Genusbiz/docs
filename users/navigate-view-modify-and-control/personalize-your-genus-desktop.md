@@ -16,7 +16,6 @@ Note that you can't change your password if you are authenticated by Microsoft A
 1.  In the **File** menu, click **Options**.
 2.  In the **Language** box, select which language to use as the default language. You must restart the application for this change to take effect.
 
-
 ## Change the display format on web browser clients
 Controls the display format of items such as numbers, currency, and dates on web browser clients. If not specified, items are formatted according to the selected language.
 
