@@ -115,9 +115,9 @@ To prevent an evil part may run arbitrary code on Genus Apps for web, add the fo
 To set the default charset for html files, add the following to the web.config file inside the <system.webServer> node:
 ```xml
 <staticContent>
-		<remove fileExtension=".html" />
-		<mimeMap fileExtension=".html" mimeType="text/html; charset=utf-8" />
-	</staticContent>
+	<remove fileExtension=".html" />
+	<mimeMap fileExtension=".html" mimeType="text/html; charset=utf-8" />
+</staticContent>
 ```
 
 ## Cache-Control 
