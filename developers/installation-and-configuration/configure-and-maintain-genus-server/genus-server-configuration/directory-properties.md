@@ -214,6 +214,8 @@ To add an allowed origin, do the following:
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 ## Trusted Users
+> [!NOTE]
+> Access given to trusted users is replaced by [app model admin rights](../../../defining-an-app-model/security/app-model-administrators.md) in version 2018.2.
 
 The trusted users have access to Genus Studio, and can modify and manage the application model in the directory.
 
