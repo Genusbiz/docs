@@ -150,7 +150,7 @@ A Genus Server may run one or more of the specific software services which Genus
 
 ## Genus Studio
 
-Genus Apps' client for defining and maintaining an [app model](#app-model). Genus Studio is included in a Genus Desktop installation, but only available to you if you are granted [trusted user](developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md#trusted-users) rights.
+Genus Apps' client for defining and maintaining an [app model](#app-model). Genus Studio is included in a Genus Desktop installation, but only available to you if you are granted [trusted user](developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md#trusted-users) or [app model admin](developers/defining-an-app-model/security/app-model-administrators.md) rights.
 
 ## Genus Web
 
