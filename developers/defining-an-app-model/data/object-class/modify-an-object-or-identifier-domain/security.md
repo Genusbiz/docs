@@ -21,10 +21,10 @@ If the Object Class has properties referencing other object classes, permissions
 
 ## Granting permissions to all objects
 
-To allow granting of permissions to all objects, select **Allow granting of permissions to all objects**. Only [trusted users](../../../security/trusted-users.md) can grant permissions to all objects. How to grant permissions to all objects is described in the article [Grant Permissions to All Objects to a Security Group](../../../security/security-permissions.md).
+To allow granting of permissions to all objects, select **Allow granting of permissions to all objects**. Only [trusted users](../../../security/trusted-users.md) or users with [app model admin rights](../../../security/app-model-administrators.md) can grant permissions to all objects. How to grant permissions to all objects is described in the article [Grant Permissions to All Objects to a Security Group](../../../security/security-permissions.md).
 
 ## Granting permissions to all objects satisfying conditions
 
-To allow granting of permissions to all objects based on a condition, select **Allow granting of permissions to all objects**, and then select the **allow using conditions** check box. Only [trusted users](../../../security/trusted-users.md) can grant permissions to all objects satisfying conditions. How to grant permissions to all objects satisfying conditions is described in the article [Grant Permissions to All Objects Satisfying Conditions to a Security Group](../../../security/security-permissions.md).
+To allow granting of permissions to all objects based on a condition, select **Allow granting of permissions to all objects**, and then select the **allow using conditions** check box. Only [trusted users](../../../security/trusted-users.md) or users with [app model admin rights](../../../security/app-model-administrators.md) can grant permissions to all objects satisfying conditions. How to grant permissions to all objects satisfying conditions is described in the article [Grant Permissions to All Objects Satisfying Conditions to a Security Group](../../../security/security-permissions.md).
 
 
