@@ -443,6 +443,8 @@
       href: defining-an-app-model/security/security-overview-and-review.md
     - name: Trusted users
       href: defining-an-app-model/security/trusted-users.md
+    - name: App model administrators
+      href: defining-an-app-model/security/app-model-administrators.md      
 - name: Installation and configuration
   href: installation-and-configuration/index.md
   items:
