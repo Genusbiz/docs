@@ -131,7 +131,7 @@ Allows the user to modify the auditing setup for an object. Can only be granted 
 
 ## Grant Permissions to All Objects to a Security Group
 
-Only [trusted users](trusted-users.md) have access to grant permissions to all objects.
+Only [trusted users](trusted-users.md) or users with [app model admin rights](app-model-administrators.md) have access to grant permissions to all objects.
 
 To grant permissions to all objects, the option **Allow granting of permissions to all objects** has to be selected in the [security setup](../data/object-class/modify-an-object-or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
 
@@ -147,7 +147,7 @@ To view the [effective permissions](effective-memberships-and-permissions.md "Ef
 
 ## Grant Permissions to All Objects Satisfying Conditions to a Security Group
 
-Only [trusted users](trusted-users.md) have access to grant permissions to all objects satisfying conditions.
+Only [trusted users](trusted-users.md) or users with [app model admin rights](app-model-administrators.md) have access to grant permissions to all objects satisfying conditions.
 
 To grant permissions to all objects satisfying conditions, the option **Allow granting of permissions to all objects satisfying conditions** has to be selected in the [security setup](../data/object-class/modify-an-object-or-identifier-domain/security.md) for the Object Class. Permissions can only be granted to security groups and not individual user accounts.
 
@@ -200,7 +200,7 @@ The number of permissions that can be granted to a security group is determined 
 
 ## Grant Permissions to a Property to a Security Group
 
-Only [trusted users](trusted-users.md) have access to grant permissions to a property.
+Only [trusted users](trusted-users.md) or users with [app model admin rights](app-model-administrators.md) have access to grant permissions to a property.
 
 To grant permissions to a property, the option **Allow granting of permissions to property** has to be selected in the [security setup](../data/object-class-property/modify-an-object-class-property/security.md) for the property. Permissions can only be granted to security groups and not individual user accounts.
 
