@@ -15,7 +15,7 @@ Follow these steps to perform an Excel merge.
 
 **Step 1.** Create a report which contains field and values you want to merge. Access to the data set, the option **Include in Version Deployment** must be set. This option is only available when you create a new report in Genus Studio. A report with this option set, is included in the deployed version of your directory.
 
-Note: Include in Version Deployment is only available for Trusted Users.  
+Note: Include in Version Deployment is only available for trusted users or users with app model admin rights.
 
 ![ID51993EA303ED4EF0.IDFFC07753D2164A10.png](media/ID51993EA303ED4EF0.IDFFC07753D2164A10.png)
 
