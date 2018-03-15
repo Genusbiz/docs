@@ -52,7 +52,7 @@ The following built-in users and groups are available:
 
 <tr>
 
-<td>Administrators</td>
+<td>App Administrators</td>
 
 <td>Group</td>
 
