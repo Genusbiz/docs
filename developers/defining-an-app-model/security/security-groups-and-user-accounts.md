@@ -64,7 +64,6 @@ The following built-in users and groups are available:
 
 </table>
 
-
 ## Add a security group
 
 Required [security privilege](security-privileges.md): **Administer Security Groups**.
@@ -80,8 +79,6 @@ Required [security privilege](security-privileges.md): **Administer Security Gro
 9.  To include the group as a member of another group, click the **Member Of** tab, and then click **Add**. Type the name of the group, and then click **OK**.
 10.  To view the [effective memberships](effective-memberships-and-permissions.md "Effective Memberships and Permissions") for the group, click **Memberships**.
 11.  To grant permissions to the group, click the **Security** tab. Follow the [step-by-step procedure](security-permissions.md) on how to grant permissions to an object.
-
-
 
 ## Add a user- or computer account
 
@@ -102,13 +99,14 @@ If your application uses **custom authentication**, follow these steps:
 7.  In the **Search Result** list, select which object to associate with the user account.
 8.  Click **Next**.
 9.  Type a sign in name, a name and a mail address for the user. If the account profile is associated with an Object Class, this information is filled in based on the object selected above.
-10.  Type a password in the **Password** box.
-11.  To force the user to change password at next sign in, click **Account must change password at next sign in**.
-12.  Click **Next**.
-13.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
-14.  Click **Next**.
-15.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. The settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
-16.  Click **Finish**.
+10. Select the **App Model Admin** check box if you want to grant app model admin rights to the user. This option is not available if you do not have app model admin rights.
+11.  Type a password in the **Password** box.
+12.  To force the user to change password at next sign in, click **Account must change password at next sign in**.
+13.  Click **Next**.
+14.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
+15.  Click **Next**.
+16.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. The settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
+17.  Click **Finish**.
 
 If your application uses **Active Directory authentication**, follow these steps:
 
@@ -124,11 +122,12 @@ If your application uses **Active Directory authentication**, follow these steps
 8.  In the **Search Result** list, select which Active Directory account to associate with the user account.
 9.  Click **Next**.
 10.  The sign in name, name and mail address for the user account is filled in based on the selected Active Directory account.
-11.  Click **Next**.
-12.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
-13.  Click **Next**.
-14.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. The settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
-15.  Click **Finish**.
+11. Select the **App Model Admin** check box if you want to grant app model admin rights to the user. This option is not available if you do not have app model admin rights.
+12.  Click **Next**.
+13.  To include the user as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
+14.  Click **Next**.
+15.  In the **Language** box, select the default language for the user. In the **Display Format Web** box, select the formatting culture for the user on web browser clients. In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop client. The settings can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
+16.  Click **Finish**.
 
 **Add a computer account**
 
@@ -144,8 +143,6 @@ If your application uses **Active Directory authentication**, follow these steps
 10.  To include the computer account as a member of one or more groups, click **Add**. In the **Select Groups** dialog box, type the name of the group, and then click **Check Names**. Click **OK**.
 11.  Click **Finish**.
 
-
-
 ## View a user account
 
 1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
@@ -154,8 +151,6 @@ If your application uses **Active Directory authentication**, follow these steps
 4.  In the table to the right, double click the user, or right-click the user, and then in the shortcut menu, click **Properties**.
 
 User accounts that are locked out are listed in red font color, and user accounts that are disabled are listed in gray font color.
-
-
 
 ## Change password for a user account
 
@@ -167,15 +162,11 @@ Note that passwords cannot be changed for user accounts authenticated by Microso
 4.  To force the user to change password at next sign in, click **Account must change password at next sign in**.
 5.  Click **OK**.
 
-
-
 ## Disable or enable a user account
 
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **User Account Properties** dialog box, select the **Account is disabled** check box to disable the user account. To enable the user account, click to clear the **Account is disabled** check box.
 3.  Click **OK**.
-
-
 
 ## Unlock a locked user account
 
@@ -184,8 +175,6 @@ Based on the lockout policy defined in the [account profile setup](account-profi
 1.  [Open the user account](security-groups-and-user-accounts.md).
 2.  In the **User Acccount Properties** dialog box, clear the **Account is locked out** check box.
 3.  Click **OK**.
-
-
 
 ## Change the default language for a user account
 
@@ -204,7 +193,15 @@ Controls the display format of items such as numbers, currency, and dates on web
 1.  [Open the user account.](security-groups-and-user-accounts.md)
 2.  In the **Start Page** box, select the page which is initially displayed when the user starts the Genus desktop application. This setting can be modfied by the user in [the personal setup for individual user accounts](../../../users/navigate-view-modify-and-control/personalize-your-genus-desktop.md).
 
+## Grant app model admin rights to a user account
 
+> [!NOTE]
+> App model admin rights replaces the access given to [trusted users](trusted-users.md) in versions prior to 2018.2.
+
+Users with app model admin rights has access to modify the app model in Genus Studio. Only users which have app model admin rights can grant these rights to another user.
+
+1. [Open the user account.](security-groups-and-user-accounts.md)
+2. Select the **App Model Admin** check box.
 
 See Also
 
