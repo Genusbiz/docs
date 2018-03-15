@@ -2,7 +2,7 @@
 
 When modeling an app or web app, it is sometimes easy to forget that server side modeling also matters when it comes to end user performance.
 
-This article discusses how to improve performance by providing some hints and tips regarding common performance bottlenecks. The article is intended for Trusted Users, i.e. Genus Apps developers.  
+This article discusses how to improve performance by providing some hints and tips regarding common performance bottlenecks. The article is intended for trusted users or users with app model admin rights, i.e. Genus Apps developers.  
 
 ## Execute audit trail
 
