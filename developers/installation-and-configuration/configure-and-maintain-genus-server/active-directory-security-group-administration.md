@@ -5,7 +5,7 @@ In order to streamline your security administration, or to comply with your orga
 The following limitations and functionalities applies:
 
 *   User memberships cannot be changed in **Genus Studio**. This must be done within your **Active Directory**.
-*   In **Genus Studio**, you may assign which security group to use as the Administrator group.
+*   In **Genus Studio**, you may assign which security group to use as the App Administrators group.
 *   You may also specify Data Set access.
 *   The security group Everyone is still accessible within **Genus Studio**.
 
