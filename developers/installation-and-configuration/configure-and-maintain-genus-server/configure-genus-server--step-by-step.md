@@ -125,6 +125,9 @@ If you are using Active Directory authentication, make sure you are signed in us
 
 ## Step 10 - Create trusted users
 
+> [!NOTE]
+> Access given to trusted users is replaced by [app model admin rights](../../defining-an-app-model/security/app-model-administrators.md) in version 2018.2.
+
 Metadata stored in the descriptive partition of the Directory can only be modified by trusted users. At least one user has to be trusted.
 
 1.  Click the **Trusted Users** tab.
