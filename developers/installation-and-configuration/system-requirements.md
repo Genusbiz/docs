@@ -101,7 +101,7 @@ The Genus Services document mail merge feature runs on the application server, b
 
 ### Database access software requirements
 
-The application server manages connectivity to the database layer, and communicates with the Relational Data Base Management System (RDBMS) using native .NET Data Providers for Microsoft SQL Server, Oracle, Sybase, MySQL, and DB2\. Other .NET native data providers will be added based on customer demand.
+The application server manages connectivity to the database layer, and communicates with the Relational Data Base Management System (RDBMS) using native .NET Data Providers for Microsoft SQL Server, Oracle, Sybase (up to Genus Apps 2018.1), MySQL, and DB2\. Other .NET native data providers will be added based on customer demand.
 
 #### Microsoft SQL Server
 
@@ -115,13 +115,11 @@ Any other Oracle driver software on the application server must be completely un
 
 #### Sybase Adaptive Server Enterprise (ASE)
 
-_Note: The support for Sybase will be removed as part of release 2018.1. The support may be reintroduced based on customer demand._
+Sybase support depends on the version of Genus Apps:
 
-For Sybase database access Genus Services requires installation of Adaptive Server ADO.NET Data Provider for .NET Framework 4.0. The required version is a component included in Adaptive Server Enterprise (ASE), **EBF 21674: 15.7 SP60 - 64 Bit 15.7 17 Dec 2013 EBF/Patch**.  
+* Genus Apps 2018.2 or later: The support for Sybase has been removed. The support may be reintroduced based on customer demand.
 
-Please make sure that the 64-bit version of the ADO.NET Data Provider is installed. 
-
-The Adaptive Server ADO.NET Data Provider for .NET Framework 4.0 installs Sybase.AdoNet4.AseClient.dll, **assembly version 4.157.1212.0**.  
+* Genus Apps 2018.1 or earlier: For Sybase database access Genus Services requires installation of Adaptive Server ADO.NET Data Provider for .NET Framework 4.0. The required version is a component included in Adaptive Server Enterprise (ASE), **EBF 21674: 15.7 SP60 - 64 Bit 15.7 17 Dec 2013 EBF/Patch**. Please make sure that the 64-bit version of the ADO.NET Data Provider is installed. The Adaptive Server ADO.NET Data Provider for .NET Framework 4.0 installs Sybase.AdoNet4.AseClient.dll, **assembly version 4.157.1212.0**.  
 
 #### MySQL
 
