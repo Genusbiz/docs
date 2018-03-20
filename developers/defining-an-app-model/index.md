@@ -34,6 +34,7 @@ App models are defined using the Genus Studio tool, and the structure of the doc
 * [Tables](user-interface/tables/index.md)
 * [Forms](user-interface/forms/index.md)
 * [Keyboard shortcuts](user-interface/keyboard-shortcuts.md)
+* [Themes](user-interface/web/web-themes.md)
 
 **[Logic](logic/index.md)**
 
