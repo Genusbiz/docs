@@ -8,7 +8,7 @@ This functionality is deprecated, and will be removed in future versions.
 
 An Analysis is composed of *Views*, and every View is composed of a set of Tiles.
 
-Only one View is visible in an Analysis at any time. By default, the [Default view](designer/index.md#how-to-set-default-view) is shown when opening an Analysis. Other Views can be opened manually from the Toolbar (if enabled), or via an [Action](#action).  
+Only one View is visible in an Analysis at any time. Other Views can be opened manually from the Toolbar (if enabled), or via an [Action](#action).  
 
 A View can be formatted with a background.
 
