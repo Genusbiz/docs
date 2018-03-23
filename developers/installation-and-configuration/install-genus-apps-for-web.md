@@ -92,7 +92,7 @@ If it is needed to upload large files through Genus Apps for Web, the web.config
 ```
 
 # Security settings
-The following settings is default when installing a new version of Genus Apps for Web. However, when upgrading the web.config file is not changed because of local editing of the file (rewrite rules, etc.). See [Genus Apps for Web hardening](../guidelines-and-best-practices/genus-apps-for-web-hardening.html) for more information.
+The following settings is default when installing a new version of Genus Apps for Web. However, when upgrading the web.config file is not changed because of local editing of the file (rewrite rules, etc.). See [Genus Apps for Web hardening](../guidelines-and-best-practices/genus-apps-for-web-hardening.md) for more information.
 
 ## Anti-clickjacking
 To prevent clickjacking (UI readress attacks) the following must be added to web.config inside the <system.webServer> node:
