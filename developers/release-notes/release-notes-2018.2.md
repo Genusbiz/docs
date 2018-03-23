@@ -29,6 +29,16 @@ For general information about installing and upgrading Genus Apps, see [here](..
 There are currently no critical issues in this release.
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+
+See also the following notes.
+
+<!--ID 5cd19c87-84d3-43b1-b45b-8df71c62b4fb -->
+**#23077 Genus Services requires a new version of IBM Data Server Driver Package for accessing DB2 databases** (Services)
+
+To access IBM DB2 databases Genus Services 2018.2 (18.20.12.0 or later) now requires "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod3 Fix Pack3 iFix003".
+
+For details, see https://docs.genus.no/developers/installation-and-configuration/system-requirements.html#database-access-software-requirements.
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
@@ -36,39 +46,76 @@ There are currently no critical issues in this release.
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no end-of-life functionality identified in this release.
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There is no deprecated functionality in this release.
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID dda70fe8-7588-4616-865e-61163d995bad -->
+**#23072 Analysis - Filters** (Desktop)
+
+In older versions of Analysis, the same filter that was applied to the category, also needed to be applied to the value to get correct results. This has now been changed.  In version 18.2, filters applied to the category will also (by default), be applied to the value. This means its no longer necessary to apply the same filters on the value.
+
+Note: This only applies to filters applied to categories in the Analysis Designer. If the filter is applied on the Data Source in the Data Mart. You will still need to apply the same filter to the value to get correct results.
+
+<!--ID 0dd136da-13d3-4373-b6cc-d596814d40ad -->
+**#23073 Trusted users replaced by app model admin rights** (Studio)
+
+Users are no longer trusted on the app server, but granted app model admin rights in Genus Studio. To grant app model admin rights to a user, navigate to **Security/Users** in Genus Studio, open the user, and then select the **App Model Admin** check box. 
+
+Admin rights can only be granted by users which have admin rights. That is, you need to grant admin rights to your own account manually before you can grant admin rights to users which previously were trusted. Detailed instructions are described in the script *018.020.005.001*.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Major new functionality
-
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 94e01713-236f-4634-a499-d6c62522c958 -->
+**#23076 "Administrators" security group renamed to "App Administrators"** (Studio)
+
+Harmonisation of concepts after introducing app model admin rights (replacing access given to trusted users).
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Minor new functionality
-
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 1bd30149-d953-436f-a62a-3cdc5361ca83 -->
+**#23074 General settings in Genus Studio** (Studio)
+
+Access to general settings moved from the ribbon to separate entries in the directory explorer: 
+
+* **Settings**: Settings for the app model 
+* **Data/Data Sets**: Settings for data sets
+
+The UI has been simplified to a single page layout to improve usability.
+
+Genus Configuration will soon be discontinued, and this is a preliminary step for moving the configuration of the app model to Genus Studio.
+
+<!--ID fa21ffb2-28fd-48c1-9804-b7dbb9815208 -->
+**#23075 Analysis themes replaced by web themes** (Studio;Web)
+
+Analysis themes are replaced by web themes which are shared by all web-based components. Web themes are defined in Genus Studio, and you can assign a default theme both for the app model and for each data set.
+
+Existing analysis themes will be converted to web themes when you upgrade to this version.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Resolved issues
-
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+<!--ID 683ce292-8c47-4484-adae-1d580e3b1f5b -->
+**#23071 Error when changing views when a search field has focus in a table** (Desktop)
 
+When a Number Search Field had focus and the user changed view, an error occured.
+
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
