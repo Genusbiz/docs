@@ -72,6 +72,11 @@ Users are no longer trusted on the app server, but granted app model admin right
 
 Admin rights can only be granted by users which have admin rights. That is, you need to grant admin rights to your own account manually before you can grant admin rights to users which previously were trusted. Detailed instructions are described in the script *018.020.005.001*.
 
+<!--ID f974a29c-1de7-46f3-b830-7619e5e6b656 -->
+**#23078 Changes in builtin email address validation** (Desktop;Web)
+
+The builtin email validation check up to version 2018.1 has been to strict and prevented entering for instance nordic characters in the email adddresses. In order to support entering any character supported in an email address according to RFC 3696, we have changed the validation so that any character is allowed as long as the email address consists of a name and a domain separated by an @-sign. For customers that require a more strict validation, it is possible to add a validation rule for instance based on a regular expression for the email fields in the solution.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
