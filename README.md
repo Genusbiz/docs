@@ -33,7 +33,6 @@ We are currently in a transition period from our old documentation structure. Mo
 * Automatically converted media files have ended up with a GUID file name like "ID3C264089A1BE49C2.IDC90AF0450EE242F6.png". Please change to a "normal" descriptive name - or simply delete the file if it is a screen dump that is hard to maintain (ref. the guidelines regarding screen shots above).
 
 ## Known issues
-* Word breaking is bad..., both in headings, text and the right-side "In this article" (side affix) pane. We are going to introduce a new template (style) that will fix this problem.
 * The selection highlighting in the right-side "In this article" (side affix) pane doesn't behave correctly for articles with many subheadings. Also, the last letters in the side affix headings are sometimes cut-off.
 
 ## Ways to contribute
