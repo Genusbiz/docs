@@ -115,6 +115,11 @@ Existing analysis themes will be converted to web themes when you upgrade to thi
 
 When a Number Search Field had focus and the user changed view, an error occured.
 
+<!--ID 6e5cd458-59f7-4cc4-a650-88782b3a159a -->
+**#23079 Fixed bug in wikdcard SQL-generation** (Desktop)
+
+When using advanced Search, the wildcard operator returned an invalid SQL for fulltext index properties
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
