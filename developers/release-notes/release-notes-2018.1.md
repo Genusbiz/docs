@@ -254,6 +254,9 @@ In older versions of analysis we kept 15 steps in our selection history.  When t
 <!--ID 16a040f2-a842-4aee-aa58-98e8ae10fd10 -->
 **#23058 Navigation Pane is updated with new content control** (Desktop)
 
+<!--ID 8c389863-0552-4574-91ee-64dfa74956ce -->
+**#23080 Can now set default app for Genus Apps for Web installastion** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
