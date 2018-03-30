@@ -31,6 +31,36 @@ When installing Genus Apps for Web some configuration must be selected in the wi
 
 # Special configurations for Genus Apps for Web
 
+## Basic configuration of Genus Apps for Web
+When installing Genus Apps for Web for the first time, users can choose to either generate a config file, or import one. This file is called **asconfig-web.js** and is located at the root folder of the installastion. 
+
+It is possible to make changes to this file after the installation, but if this is done, it should be configured to never be cached (see the chapter for Cache-Control). 
+
+The file contains these variables that are used by Genus Apps for Web:
+* **__GENUS_CONFIG_APPNAME:**
+The name of the app server. This is displayed in the app list.
+* **__GENUS_CONFIG_LANG:**
+Default language of the app server
+* **__GENUS_CONFIG_SERVERS:**
+Object that contains information regarding the app server. For example the app server url and the auth type.
+* **__GENUS_CONFIG_DEFAULTAPP:**
+This field can be used to set a default app for a website. This can be used if there are several web sites for one app model, and you wish to bypass the app list. If an app is provided in the url params, this value will be used instead.
+* **__GENUS_GA_TRACKING_ID:**
+Google analycis tracking id.
+* **__GENUS_CONFIG_FOREGROUNDCOLOR:**
+Color of the loader bar.
+* **__GENUS_CONFIG_BACKGROUNDCOLOR:**
+Background color of the loader bar.
+* **__GENUS_CONFIG_MAINTENANCEENABLED:**
+Set true if there is planned maintenance.
+* **__GENUS_CONFIG_MAINTENANCEWARNINGMINUTES:**
+Set warning time before the maintenance starts
+* **__GENUS_CONFIG_MAINTENANCEFROM:**
+Set start time of maintenance
+* **__GENUS_CONFIG_MAINTENANCETO:**
+Set end time of maintenance.
+
+ 
 ## Domain name and HTTPS
 
 ## Reverse Proxy configuration
