@@ -107,6 +107,9 @@ Analysis themes are replaced by web themes which are shared by all web-based com
 
 Existing analysis themes will be converted to web themes when you upgrade to this version.
 
+<!--ID 8c389863-0552-4574-91ee-64dfa74956ce -->
+**#23080 Can now set default app for Genus Apps for Web installastion** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
