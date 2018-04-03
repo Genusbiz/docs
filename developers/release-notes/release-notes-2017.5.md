@@ -416,6 +416,11 @@ Fixed an issue where initial selection would not get applied properly.
 <!--ID 9969735c-97bf-4180-aca5-c74138ff1860 -->
 **#23069 Fixed issue with invalid File Name when opening in default application** (Desktop)
 
+<!--ID d168f1e2-1362-48ba-8853-f81c0030a602 -->
+**#23083 Analysis - Crash when creating a new analysis** (Desktop)
+
+Fixed an issue where if the user pressed save before the analysis-designer was initialized, the analysis would crash. This issue is not present in later versions of Genus Apps.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
