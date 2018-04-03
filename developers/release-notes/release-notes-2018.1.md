@@ -466,9 +466,9 @@ When a Data Mart is locked because somebody is modifying it, it will no longer f
 When a Number Search Field had focus and the user changed view, an error occured.
 
 <!--ID 6e5cd458-59f7-4cc4-a650-88782b3a159a -->
-**#23079 Fixed bug in wikdcard SQL-generation** (Desktop)
+**#23079 Fixed bug in wildcard SQL-generation** (Desktop)
 
-When using advanced Search, the wildcard operator returned an invalid SQL for fulltext index properties
+When using advanced search, the wildcard operator returned an invalid SQL for fulltext index properties
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
