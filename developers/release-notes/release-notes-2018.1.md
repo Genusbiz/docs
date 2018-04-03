@@ -257,6 +257,11 @@ In older versions of analysis we kept 15 steps in our selection history.  When t
 <!--ID 8c389863-0552-4574-91ee-64dfa74956ce -->
 **#23080 Can now set default app for Genus Apps for Web installastion** (Web)
 
+<!--ID 85a31116-d113-45c4-8738-bcda12f4e90b -->
+**#23081 Change in how accelearor Search works** (Desktop)
+
+In previous versions accelerator search added a wildecard operator at the end of each search word. We now use the default operator on the search field when determening if a wildcard operator is added or not.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
