@@ -475,6 +475,11 @@ When a Number Search Field had focus and the user changed view, an error occured
 
 When using advanced search, the wildcard operator returned an invalid SQL for fulltext index properties
 
+<!--ID 0d878203-6146-4033-bd28-8a6654e18fda -->
+**#23082 Error in copying table shortcut** (Studio)
+
+A table shotcut contains 1-N views. The copy shortcut function did not copy all the table views added to the shortcut, this is now fixed.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
