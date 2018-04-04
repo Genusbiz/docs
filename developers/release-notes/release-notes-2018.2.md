@@ -128,6 +128,11 @@ When a Number Search Field had focus and the user changed view, an error occured
 
 When using advanced search, the wildcard operator returned an invalid SQL for fulltext index properties
 
+<!--ID 87a176b0-15a7-4cc2-bbe2-a6f22a06a764 -->
+**#23085 Error in evaluation of Month vs a Calendar time value** (Desktop)
+
+When a Time object was evaluated against a calendar time, the operators greater than and less than returned the inverted value.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
