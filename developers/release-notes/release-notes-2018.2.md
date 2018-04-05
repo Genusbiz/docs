@@ -138,7 +138,11 @@ When a Time object was evaluated against a calendar time, the operators greater 
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no known issues in this release.
+<!--ID 3f09eb98-b870-4ce1-96d2-856d5348a5b5 -->
+**#23086 Improved file upload with Selection: Take a picture on Windows** (Web)
+
+This should now behave the same as on iOS and Android, where there is a choice between using the camera and upload existing picture.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
