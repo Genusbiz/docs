@@ -496,6 +496,11 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 <!--ID f8f0464e-6aa0-49f9-aa85-f307f97a0093 -->
 **#23045 Fixed issue where anonymous applications could crash after upgrading** (Web)
 
+<!--ID 3f09eb98-b870-4ce1-96d2-856d5348a5b5 -->
+**#23086 Improved file upload with Selection: Take a picture on Windows** (Web)
+
+This should now behave the same as on iOS and Android, where there is a choice between using the camera and upload existing picture.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
