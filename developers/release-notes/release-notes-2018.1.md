@@ -262,6 +262,11 @@ In older versions of analysis we kept 15 steps in our selection history.  When t
 
 In previous versions accelerator search added a wildecard operator at the end of each search word. We now use the default operator on the search field when determening if a wildcard operator is added or not.
 
+<!--ID 3c14caf5-4b10-4333-9467-e10bb48ef003 -->
+**#23087 Analysis - New function: Math.abs** (Desktop)
+
+Added support for Math.abs in the formula designer.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
