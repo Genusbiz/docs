@@ -115,6 +115,11 @@ Existing analysis themes will be converted to web themes when you upgrade to thi
 <!--ID 8c389863-0552-4574-91ee-64dfa74956ce -->
 **#23080 Can now set default app for Genus Apps for Web installastion** (Web)
 
+<!--ID 3c14caf5-4b10-4333-9467-e10bb48ef003 -->
+**#23087 Analysis - New function: Math.abs** (Desktop)
+
+Added support for Math.abs in the formula designer.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
