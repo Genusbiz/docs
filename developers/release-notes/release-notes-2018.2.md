@@ -143,6 +143,11 @@ When a Time object was evaluated against a calendar time, the operators greater 
 
 If we have a exce l file import and the user select a .JPG file a user friendly message is now displayed.
 
+<!--ID a13c8332-f8ab-40e4-bb94-407b4eeaa988 -->
+**#23089 Analysis - Data Mart loadtime** (Desktop)
+
+{loadtime} can now be used in the text-control to get the timestamp of when the datamart was loaded.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
