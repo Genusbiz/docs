@@ -490,6 +490,11 @@ A table shotcut contains 1-N views. The copy shortcut function did not copy all 
 
 When a Time object was evaluated against a calendar time, the operators greater than and less than returned the inverted value.
 
+<!--ID 832762b1-1425-494f-bfe0-cb458561a84c -->
+**#23088 Handle of invalid file for import data effect** (Desktop)
+
+If we have a exce l file import and the user select a .JPG file a user friendly message is now displayed.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
