@@ -120,6 +120,11 @@ Existing analysis themes will be converted to web themes when you upgrade to thi
 
 Added support for Math.abs in the formula designer.
 
+<!--ID b809a1ff-5dc1-41e4-b139-5f5c1d98eeef -->
+**#23090 The Merge Data Effect can now be executed without specifying merge data source.** (Desktop;Services)
+
+This is useful when the effect is used to convert a file without merging data.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
