@@ -125,6 +125,11 @@ Added support for Math.abs in the formula designer.
 
 This is useful when the effect is used to convert a file without merging data.
 
+<!--ID 5b5535af-78e8-43bc-a863-0d07c0062a96 -->
+**#23091 Analysis - New action** (Desktop)
+
+Added a new action - reload datamart. When pressed, the client will unload the current datamart, and reload with updated data.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
