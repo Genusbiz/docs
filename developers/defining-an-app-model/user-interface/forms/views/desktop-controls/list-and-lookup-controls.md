@@ -79,4 +79,17 @@ Tokenizer Edit is a input control supporting multiple items. The main features o
 * Specify Search Restriction and Display name for lookup items. The control shares some features with existing Combo Box when configured with the Check Box-style and bound to a many-to-many relationship.
 * Specify a field to be used whenever there are no matching results from the lookup (unresolved field).
 
-Usage example.: A project has participants (person) with different roles (Role A, Role B, Role C etc.). A Tokenizer Editor for each project role may be added to a project-form. Data Restriction on the control can ensure only persons with 'Role A' is presented in Role A listing. In the same way, a default value may be defined for Role A control. Adding a person to the Role A will automatically assign appropriate role to the relational link object. The Tokenizer control properties 'Search Field', 'Search Restriction' and 'Display Name Field' provides customization of how to access and visualise Person items inside the control. The unresolved field can be used in this example as a holder for value combinations of a Person not registered in the system, but nevertheless has a role.
+Property                |  Description
+------------------------|------------------------------------------------------------------------
+Data Restriction        | Filters the data for the control.
+Default Values          | Defining the default values for new entries.
+Null Text               | Text to be displayed if there are no entries.
+Lookup Field            | The field to be used for the lookup.
+Lookup Restriction      | Filters the data for the control. 
+Lookup Display Name     | A field in the data source to display as the value in the controller.
+Unresolved Field        | A field in the data source to be used if the lookup is unsuccessful (no match).
+Open in Default Form    | The selected object can be opened using the [default form](../../../../data/object-class/modify-an-object-or-identifier-domain/explore.md) for the object class.
+
+
+### Usage example
+A project has participants (person) with different roles (Role A, Role B, Role C etc.). A Tokenizer Editor for each project role may be added to a project-form. Data Restriction on the control can ensure only persons with 'Role A' is presented in Role A listing. In the same way, a default value may be defined for Role A control. Adding a person to the Role A will automatically assign appropriate role to the relational link object. The Tokenizer control properties 'Search Field', 'Search Restriction' and 'Display Name Field' provides customization of how to access and visualise Person items inside the control. The unresolved field can be used in this example as a holder for value combinations of a Person not registered in the system, but nevertheless has a role.
