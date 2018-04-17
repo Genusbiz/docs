@@ -70,3 +70,13 @@ Display Value           | A field in the data source to display as the value in 
 Open in Default Form    | The selected object can be opened using the [default form](../../../../data/object-class/modify-an-object-or-identifier-domain/explore.md) for the object class.
 Hierarchy               | The hierarchy to use when displaying items in the data source. This is useful when selecting from items that are structured in an hierarchical manner. For example when selecting from units in an organisation with the following levels *Company - Department - Unit*.
 
+## Tokenizer Edit
+
+Tokenizer Edit is a input control supporting multiple items. The main features of the Tokenizer Edit (compared to Combo Box) are:
+* Keyboard friendly lookup and modifying selected items. (similar to addressee field in Outlook. Use Ctrl+k to force lookup).
+* Simpler and more explicit configuration. There is no need to configure "Part of Object Class with Parent/Child Property on the 'link table' OC.
+* Configure control specific Default Values (on create) when a link object is created.
+* Specify Search Restriction and Display name for lookup items. The control shares some features with existing Combo Box when configured with the Check Box-style and bound to a many-to-many relationship.
+* Specify a field to be used whenever there are no matching results from the lookup (unresolved field).
+
+Usage example.: A project has participants (person) with different roles (Role A, Role B, Role C etc.). A Tokenizer Editor for each project role may be added to a project-form. Data Restriction on the control can ensure only persons with 'Role A' is presented in Role A listing. In the same way, a default value may be defined for Role A control. Adding a person to the Role A will automatically assign appropriate role to the relational link object. The Tokenizer control properties 'Search Field', 'Search Restriction' and 'Display Name Field' provides customization of how to access and visualise Person items inside the control. The unresolved field can be used in this example as a holder for value combinations of a Person not registered in the system, but nevertheless has a role.
