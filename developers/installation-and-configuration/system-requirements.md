@@ -10,7 +10,7 @@ Please note that Internet Explorer 11 and older versions are not considered ever
 
 *   **Genus Apps 2016.1**: Internet Explorer 11 is supported.
 *   **Genus Apps 2016.2**: Internet Explorer 11 is supported for all functionality areas except Analysis (Genus Discovery). We recommend using an evergreen browser.
-*   **Genus Apps 2017.1 and forward**: Support for Internet Explorer may be removed based on usage. You may have to use an evergreen browser.
+*   **Genus Apps 2017.1 and forward**: Support for Internet Explorer may be removed based on usage. You may have to use an evergreen browser. When something does not appear, or looks wrong, in Internet Explorer, but looks good in other browsers, the solution may be to do some adjustments to your web app model. See [here](../guidelines-and-best-practices/genus-web-and-internet-explorer-11.md) for more information.
 
 In general, support for operating systems and browsers with a market share of 5% or less is removed in the next release of our web client.
 
