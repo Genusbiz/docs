@@ -1,19 +1,31 @@
 # Web Controls
 
-Most of the available controls in web forms are based on Material UI's component library. Thus, the appearance and configurability of each control is defined by the Material UI Component API, see the [Material UI website](https://material-ui-next.com/)
-
 ## Button
-Choose between button variants:
-* Flat (default)
-* Raised
-* Floating action button
+### Flat Button
+Flat buttons are text-only buttons. They may be used in dialogs, toolbars, or inline. They do not lift, but fill with color on press.
 
-Choose button color (uses theme colors):
-* Secondary (default)
-* Primary
+**Properties**
 
-On Click: Decide which commands should be executed upon button click 
+See [common properties](./common-properties)
 
-See [Material UI Button](https://material-ui-next.com/demos/buttons/)
+**Event Handlers**
+
+On Click: Action executed on button click
+
+### Raised Button
+Raised buttons are rectangular-shaped buttons. They may be used inline. They lift and display ink reactions on press.
+Raised Buttons can have a Symbol
+
+**Properties**
+
+Name|Description
+---|---
+Symbol|Any symbol selected from the gallery
+
+See [common properties](./common-properties)
+
+**Event Handlers**
+
+On Click: Action executed on button click
 
 ## To be continued..
