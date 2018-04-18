@@ -1,4 +1,4 @@
-##Common Properties
+## Common Properties
 
 Name|Description
 ---|---
