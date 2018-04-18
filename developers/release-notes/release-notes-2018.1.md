@@ -521,6 +521,11 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 
 This should now behave the same as on iOS and Android, where there is a choice between using the camera and upload existing picture.
 
+<!--ID adef3aac-4877-4aa7-9f6f-7fdcac35c3af -->
+**#23093 Added user information in the Data Mart designer** (Desktop)
+
+When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not relad the Mart description if the description is locked for edit.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
