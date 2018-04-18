@@ -500,6 +500,11 @@ If we have a exce l file import and the user select a .JPG file a user friendly 
 
 {loadtime} can now be used in the text-control to get the timestamp of when the datamart was loaded.
 
+<!--ID 7d4c851c-0249-41ac-a7c4-d77af51ac021 -->
+**#23092 Remove Ribbon button when the user don't have access to the task** (Desktop)
+
+When a command in a table or a form runs a local or global task we now remove the command from the Ribbon if the user don't have access to the task.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
