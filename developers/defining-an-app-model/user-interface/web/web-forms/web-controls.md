@@ -6,7 +6,7 @@ Flat buttons are text-only buttons. They may be used in dialogs, toolbars, or in
 
 **Properties**
 
-See [common properties](./common-properties)
+See [common properties](./common-properties.md)
 
 **Event Handlers**
 
@@ -22,7 +22,7 @@ Name|Description
 ---|---
 Symbol|Any symbol selected from the gallery
 
-See [common properties](./common-properties)
+See [common properties](./common-properties.md)
 
 **Event Handlers**
 
