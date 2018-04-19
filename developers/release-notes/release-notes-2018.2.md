@@ -163,6 +163,9 @@ If we have a exce l file import and the user select a .JPG file a user friendly 
 
 When a command in a table or a form runs a local or global task we now remove the command from the Ribbon if the user don't have access to the task.
 
+<!--ID d1e0e626-c91c-4bee-8af5-120b6169667c -->
+**#23095 Timeslider bug hvor den 'mister' mouseup event handleren sin** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
