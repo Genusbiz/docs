@@ -526,6 +526,11 @@ This should now behave the same as on iOS and Android, where there is a choice b
 
 When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not relad the Mart description if the description is locked for edit.
 
+<!--ID b2bcc9fd-b23d-4a86-9368-ea12fde9c38d -->
+**#23094 Fixed error in using Task to populate data in a Data Mart** (Desktop)
+
+I a population task was dependent of another data source in the data mart, the task could be startet bef&oslash;re the dependendt data source was populated.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
