@@ -27,7 +27,7 @@ See also the following notes.
 <!--ID 3a15e3db-0491-4c05-a64b-c7db32d0d879 -->
 **#22958 Genus Apps now requires .NET Framework 4.7** (Desktop;Services;Studio)
 
-Genus Apps for Desktop and Genus Services now requires .NET Framework 4.7 or newer.
+Genus Apps for Desktop and Genus Services now require .NET Framework 4.7 or newer.
 
 <!--ID f7f23e69-89ba-4a36-8f5f-bfba99315331 -->
 **#22959 Genus Services requires a new version of IBM Data Server Driver Package for accessing DB2 databases** (Services)
