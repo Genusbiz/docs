@@ -508,6 +508,11 @@ When a command in a table or a form runs a local or global task we now remove th
 <!--ID d1e0e626-c91c-4bee-8af5-120b6169667c -->
 **#23095 Timeslider bug hvor den 'mister' mouseup event handleren sin** (Desktop)
 
+<!--ID a8913f1c-caec-49c8-9017-d69cbe45f6e1 -->
+**#23096 Analysis - Subset** (Desktop)
+
+Fixed an issue where the analysis would never finish loading if initial selection was applied.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
