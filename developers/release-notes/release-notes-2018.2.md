@@ -130,6 +130,11 @@ This is useful when the effect is used to convert a file without merging data.
 
 Added a new action - reload datamart. When pressed, the client will unload the current datamart, and reload with updated data.
 
+<!--ID 7d11a5c1-1768-4bb4-85bc-5868c69fa30f -->
+**#23097 &Aring;pen connected task in Run a Task effekt** (Studio)
+
+It's now possible to open the connected task from the Run a Task effekt.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
