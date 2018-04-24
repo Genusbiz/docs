@@ -513,6 +513,11 @@ When a command in a table or a form runs a local or global task we now remove th
 
 Fixed an issue where the analysis would never finish loading if initial selection was applied.
 
+<!--ID 5dfc54e5-6fdd-4c48-a205-ffcd62d81467 -->
+**#23098 Analysis - Map** (Desktop)
+
+Fixed an error that could cause the heatmap layer to not display correctly.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
