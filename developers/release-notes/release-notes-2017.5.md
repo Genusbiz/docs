@@ -421,6 +421,11 @@ Fixed an issue where initial selection would not get applied properly.
 
 Fixed an issue where if the user pressed save before the analysis-designer was initialized, the analysis would crash. This issue is not present in later versions of Genus Apps.
 
+<!--ID ee74b58d-03e9-4361-937b-9b3d8c8726b9 -->
+**#23100 Analysis - Switch analysis** (Desktop)
+
+Fixed an issue with switch analysis that could lead to the destination analysis never loading data, and therefor never be ready for user input.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
