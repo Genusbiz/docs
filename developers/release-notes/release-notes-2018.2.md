@@ -187,6 +187,11 @@ All technical error messages are now also shown under a details-pane on the erro
 
 Fixed an issue that in some cases could lead to longer load time when making seletions in an analysis.
 
+<!--ID 75d51934-1685-4dd3-b332-8555de093ace -->
+**#23102 When browsing the next object the old document was visible in the previewer.** (Desktop)
+
+When showing a previewer while browsing objects the document from the previous object was visible if the new object file data was empty. We now display the message No Previewer Available.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
