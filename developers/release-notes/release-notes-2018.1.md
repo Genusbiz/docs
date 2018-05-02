@@ -524,6 +524,11 @@ Fixed an error that could cause the heatmap layer to not display correctly.
 Fixed an issue that would could lead to the analysis crashing upon getting a new authentication token.
 All technical error messages are now also shown under a details-pane on the error-screen.
 
+<!--ID b8a46cdc-097d-4d3f-a754-b050df3a2a38 -->
+**#23101 Analysis - Loading data** (Desktop;Web)
+
+Fixed an issue that in some cases could lead to longer load time when making seletions in an analysis.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
