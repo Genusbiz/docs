@@ -47,7 +47,7 @@
       - name: Comments and constructs
         href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
       - name: Data types
-        href: defining-an-app-model/common-concepts/advanced-expressions/data-types.md        
+        href: defining-an-app-model/common-concepts/advanced-expressions/data-types.md
       - name: Collection types
         href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
       - name: Formula editor
@@ -213,11 +213,13 @@
       items:
       - name: Web Forms
         href: defining-an-app-model/user-interface/web/web-forms/index.md
-        items: 
+        items:
         - name: Web Form Designer
           href: defining-an-app-model/user-interface/web/web-forms/web-form-designer.md
         - name: Web Controls
           href: defining-an-app-model/user-interface/web/web-forms/web-controls.md
+        - name: Action Designer
+          href:  defining-an-app-model/user-interface/web/web-forms/action-designer.md
   - name: Logic
     href: defining-an-app-model/logic/index.md
     items:
@@ -238,7 +240,7 @@
         - name: Account data source
           href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
         - name: The event history data source
-          href: defining-an-app-model/logic/action-orchestration/data-sources/the-event-history-data-source.md          
+          href: defining-an-app-model/logic/action-orchestration/data-sources/the-event-history-data-source.md
       - name: Actions
         href: defining-an-app-model/logic/action-orchestration/actions.md
         items:
@@ -320,7 +322,7 @@
           - name: Upload a File
             href: defining-an-app-model/logic/action-orchestration/actions/effects/upload-a-file.md
           - name: Write to Log
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/write-to-log.md            
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/write-to-log.md
         - name: Defining Actions
           href: defining-an-app-model/logic/action-orchestration/actions/defining-actions.md
         - name: Action Diagram
@@ -444,7 +446,7 @@
     - name: Trusted users
       href: defining-an-app-model/security/trusted-users.md
     - name: App model administrators
-      href: defining-an-app-model/security/app-model-administrators.md      
+      href: defining-an-app-model/security/app-model-administrators.md
 - name: Installation and configuration
   href: installation-and-configuration/index.md
   items:
