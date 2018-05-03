@@ -1,6 +1,8 @@
 # Ignore these folders.
 _site
 _exported_templates
+.idea
+.vs
 .vscode
 node_modules
 obj
