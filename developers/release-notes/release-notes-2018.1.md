@@ -534,6 +534,11 @@ Fixed an issue that in some cases could lead to longer load time when making sel
 
 When showing a previewer while browsing objects the document from the previous object was visible if the new object file data was empty. We now display the message No Previewer Available.
 
+<!--ID a3e19e34-e760-4223-b2ff-66d418ff6050 -->
+**#23103 Analysis - GeoJson** (Desktop)
+
+Fixed an issue where the maplayer would not update after selection.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
