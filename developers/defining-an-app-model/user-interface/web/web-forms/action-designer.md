@@ -10,7 +10,7 @@ Open an action by selecting it from the list.
 
 If an action is currently open, an existing action can be added by dragging it from the list.
 
-## Nodes
+## Tools
 
 A node can be added to an open action by dragging it from the list.
 
