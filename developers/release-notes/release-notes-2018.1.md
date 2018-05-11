@@ -490,6 +490,11 @@ A table shotcut contains 1-N views. The copy shortcut function did not copy all 
 
 When a Time object was evaluated against a calendar time, the operators greater than and less than returned the inverted value.
 
+<!--ID 3f09eb98-b870-4ce1-96d2-856d5348a5b5 -->
+**#23086 Improved file upload with Selection: Take a picture on Windows** (Web)
+
+This should now behave the same as on iOS and Android, where there is a choice between using the camera and upload existing picture.
+
 <!--ID 832762b1-1425-494f-bfe0-cb458561a84c -->
 **#23088 Handle of invalid file for import data effect** (Desktop)
 
@@ -549,11 +554,6 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 
 <!--ID f8f0464e-6aa0-49f9-aa85-f307f97a0093 -->
 **#23045 Fixed issue where anonymous applications could crash after upgrading** (Web)
-
-<!--ID 3f09eb98-b870-4ce1-96d2-856d5348a5b5 -->
-**#23086 Improved file upload with Selection: Take a picture on Windows** (Web)
-
-This should now behave the same as on iOS and Android, where there is a choice between using the camera and upload existing picture.
 
 <!--ID adef3aac-4877-4aa7-9f6f-7fdcac35c3af -->
 **#23093 Added user information in the Data Mart designer** (Desktop)
