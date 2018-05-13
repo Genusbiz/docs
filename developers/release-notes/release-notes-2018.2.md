@@ -173,6 +173,11 @@ If we have a exce l file import and the user select a .JPG file a user friendly 
 
 When a command in a table or a form runs a local or global task we now remove the command from the Ribbon if the user don't have access to the task.
 
+<!--ID adef3aac-4877-4aa7-9f6f-7fdcac35c3af -->
+**#23093 Added user information in the Data Mart designer** (Desktop)
+
+When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not relad the Mart description if the description is locked for edit.
+
 <!--ID d1e0e626-c91c-4bee-8af5-120b6169667c -->
 **#23095 Timeslider bug hvor den 'mister' mouseup event handleren sin** (Desktop)
 
@@ -202,11 +207,7 @@ When showing a previewer while browsing objects the document from the previous o
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID adef3aac-4877-4aa7-9f6f-7fdcac35c3af -->
-**#23093 Added user information in the Data Mart designer** (Desktop)
-
-When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not relad the Mart description if the description is locked for edit.
-
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
