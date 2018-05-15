@@ -10,4 +10,4 @@ There are several ways to start the desktop client.
 > [!TIP]
 > You may want to [pin the Genus Apps for desktop shortcut](https://support.microsoft.com/help/17176) to the Start menu or the taskbar. You can right-click the pinned icon to show a list of shortcuts to all the Genus desktop apps you have opened lately.
 
-<sup>*\*\</sup>Please note that Microsoft has changed the Start menu layout considerably between Windows versions. Please refer to Microsoft's documentation for your specific version of Windows. If you have Windows 10, a good place to start is [here](https://support.microsoft.com/help/17195).
+<sup>\*\*</sup>Please note that Microsoft has changed the Start menu layout considerably between Windows versions. Please refer to Microsoft's documentation for your specific version of Windows. If you have Windows 10, a good place to start is [here](https://support.microsoft.com/help/17195).
