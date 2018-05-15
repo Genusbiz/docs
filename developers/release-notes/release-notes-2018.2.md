@@ -202,6 +202,20 @@ Fixed an issue that in some cases could lead to longer load time when making sel
 
 When showing a previewer while browsing objects the document from the previous object was visible if the new object file data was empty. We now display the message No Previewer Available.
 
+<!--ID 30e9e7f5-5854-48c8-8bbb-af523db4c129 -->
+**#23104 Isolation Level "Read Uncommitted" incorreectly ignored for database commands** (Services)
+
+A side-effect of a code change introduced in Genus Services 2017.1 effectively disabled use of the isolation level "Read Uncommited" for all database commands.
+
+A symptom of this issue has been experiences with database deadlock in high volume scenarios.
+
+The issue has been corrected with the following Genus Services versions:
+
+- 2018.2, file version 18.20.50.0 and later
+- 2018.1, file version 18.10.164.0 and later
+
+Oracle does not support Read Uncommitted and has hence not been affected by this issue.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
