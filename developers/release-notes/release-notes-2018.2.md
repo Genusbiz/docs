@@ -226,6 +226,11 @@ Added missing translations
 
 Fixed an issue where actions would be applied to all objects, instead of only visible objects.
 
+<!--ID c0b24b1b-44e7-471e-8abb-49c3472856b5 -->
+**#23107 Analysis - Dropdown** (Desktop;Web)
+
+Fixed an error with validating object state that caused some objects to not be visible in the list.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
