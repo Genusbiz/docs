@@ -221,6 +221,11 @@ Oracle does not support Read Uncommitted and has hence not been affected by this
 
 Added missing translations
 
+<!--ID f55846e3-e9cb-4270-acdb-86b861e8f73d -->
+**#23106 Analysis  Dropdown** (Desktop;Web)
+
+Fixed an issue where actions would be applied to all objects, instead of only visible objects.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
