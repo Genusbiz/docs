@@ -563,6 +563,11 @@ The issue has been corrected with the following Genus Services versions:
 
 Oracle does not support Read Uncommitted and has hence not been affected by this issue.
 
+<!--ID fda0534e-cbb0-45fc-b5a9-b987371d42ac -->
+**#23105 Analysis - Missing translations** (Desktop;Web)
+
+Added missing translations
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
