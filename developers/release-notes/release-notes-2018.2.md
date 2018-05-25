@@ -241,6 +241,9 @@ Fixed an error with validating object state that caused some objects to not be v
 
 Fixed an error that caused bookmarks to not be available before the analysis was restarted.
 
+<!--ID 34857736-5e49-4c17-8453-c005d183b5e8 -->
+**#23110 UI Block now blocks all key presses in input fields** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
