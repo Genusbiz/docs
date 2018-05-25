@@ -578,6 +578,11 @@ Fixed an issue where actions would be applied to all objects, instead of only vi
 
 Fixed an error with validating object state that caused some objects to not be visible in the list.
 
+<!--ID 76926747-4438-4e31-ae65-e12d3de1c01b -->
+**#23109 Analysis - Bookmarks** (Desktop;Web)
+
+Fixed an error that caused bookmarks to not be available before the analysis was restarted.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
