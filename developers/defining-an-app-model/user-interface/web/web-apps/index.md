@@ -1,6 +1,6 @@
 # Web apps
 
-A web app is a Progressive Web App which runs in a web browser. A web app can have multiple destinations for interacting with the user, where each destination is represented by a web component, such as a web form, an analysis, a map, or a diagram. User can navigate to different destinations from the navigation menu, or by running navigation actions attached to UI elements such as a button.
+A web app is a Progressive Web App which runs in a web browser. A web app can have multiple destinations for interacting with the user, where each destination is represented by a web component, such as a web form, an analysis, a map, or a diagram. Users can navigate to different destinations from the navigation menu, or by running navigation actions attached to UI elements such as a button.
 
 When building a web app, there are a number of well-known guides to follow. One of the most important is to keep the app as focused as possible. An app that has a specific, focused purpose can be optimized in many aspects such as content, device support, and means of interaction. However, enterprise solutions tend to try to cover a lot of purposes. Building a single app for every purpose will lead to many apps. Normally this is a challenge, but since we have a single shared app model you can easily allow users to navigate between the apps defined in your app model. That is, you can combine single purpose apps into a multi-purpose enterprise solution.
 
