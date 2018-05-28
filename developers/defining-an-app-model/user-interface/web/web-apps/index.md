@@ -21,5 +21,5 @@ The navigation drawer contains a menu including folders and entries to various w
 ### Content area
 When a user selects an entry in the navigation menu, or navigates to a web component by invoking an action, the content for the web component is displayed in this area. The content area is located to the right of the navigation drawer.
 
-## The purpose for a web app
+## The purpose of a web app
 When building a web app, there are a number of well-known guides to follow. One is to keep the app as focused as possible. An app that has a specific, focused purpose can be optimized in many aspects such as content, device support, and means of interaction. However, enterprise solutions tend to try to cover a lot of purposes. Building a single app for every purpose will lead to many apps. Normally this is a challenge, but since we have a single shared app model you can easily allow users to navigate between the apps defined in your app model. That is, you can combine single purpose apps into a multi-purpose enterprise solution.
