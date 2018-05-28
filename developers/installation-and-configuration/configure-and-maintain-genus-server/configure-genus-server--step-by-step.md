@@ -105,7 +105,7 @@ To be able to sign in to Genus Studio for the first time, you need to create an 
 
 1.  In the console tree of the Genus Configuration application, right-click the directory, which was created in step 1, and select **Properties**.
 2.  Click the **Database Objects** tab.
-3.  Click **Create an administrator account**.Jon
+3.  Click **Create an administrator account**.
 
 If you are using Genus Directory authentication, follow these steps:
 
