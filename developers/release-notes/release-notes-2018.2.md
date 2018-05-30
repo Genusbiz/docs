@@ -150,6 +150,11 @@ It is now possible to create a column with data interpretation Search. The searc
 
 The Run a Search effect executes a Genus Search connected to a modeled object. The effect has three different result types. 1. Return the number of objects from the result. 2. For each result we can create a object and add object identifier and name. 3. Open the Search in Genus (this option will not work on a server)
 
+<!--ID 4bb6f1bf-5954-4cf2-aacd-67a925e52750 -->
+**#23113 Analysis  Heatmap** (Desktop)
+
+Added support for user selection.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
