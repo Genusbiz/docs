@@ -140,6 +140,16 @@ Added a new action - reload datamart. When pressed, the client will unload the c
 
 It's now possible to open the connected task from the Run a Task effekt.
 
+<!--ID 7c07712f-d064-4ef4-82e5-a6ec8f6512a4 -->
+**#23111 Modelling connection to a Genus Search** (Desktop;Services)
+
+It is now possible to create a column with data interpretation Search. The search can be executed in the table context menu and in the reference field context menu. A search can also be executed in the Run a Search effect.
+
+<!--ID dc304c3c-c416-43f9-8188-d7a45e12c856 -->
+**#23112 Run a Search effect** (Desktop;Services)
+
+The Run a Search effect executes a Genus Search connected to a modeled object. The effect has three different result types. 1. Return the number of objects from the result. 2. For each result we can create a object and add object identifier and name. 3. Open the Search in Genus (this option will not work on a server)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
