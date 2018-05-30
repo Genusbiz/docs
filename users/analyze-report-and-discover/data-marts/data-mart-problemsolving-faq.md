@@ -7,6 +7,7 @@ To be able to run analyses/data extracts against a data mart all of the followin
 *   A data mart load plan must be configured and executed.
 *   Nodes and node-groups must be configured correctly to allow servers to provide data marts for clients.
 *   The data mart must be loaded and running on one or more servers in your network.
+    *   **Note:** A HTTP binding to the Genus Services Web Site is required to enable load. If only HTTPS binding is defined for maximum security, a HTTP binding with Host Name: **localhost** must be added.
 
 ## Correctly configuring a data mart
 *   Make sure that your data mart exposes the relevant data sources. 
@@ -17,7 +18,7 @@ To be able to run analyses/data extracts against a data mart all of the followin
 *   See [Data Mart Concepts](data-mart-concepts.md) for more information. 
 
 ## The data mart load plan
-A data mart must be scheduled to load at one ore more servers before it will be available for requests from analyses or data extracts. Check that a data mart load plan is defined for this data mart and that the following requirements are fulfilled:
+A data mart must be scheduled to load at one or more servers before it will be available for requests from analyses or data extracts. Check that a data mart load plan is defined for this data mart and that the following requirements are fulfilled:
 *   Check that the load plan handles the correct data mart.
 *   A node group must be assigned to this load plan. See **[Nodes and Node Groups](#nodes-and-node-groups)** below. 
 *   Check that the load plans **Enabled**-flag has been set.
