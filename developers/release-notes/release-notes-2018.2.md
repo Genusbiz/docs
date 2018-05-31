@@ -101,8 +101,6 @@ The following functions did not round floating-point values in a consistent matt
 
 The round() function now produces a result corresponding to "Round half away from zero" as described in [this Wikipedia article](https://en.wikipedia.org/wiki/Rounding). The roundUp() and the roundDown() functions correspond to "round away from zero" and "round towards zero", respectively.
 
-The changes are effective as of Genus Apps 2018.1, build 18.10.172.0 and later.
-
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
