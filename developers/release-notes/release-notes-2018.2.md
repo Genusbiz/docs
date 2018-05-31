@@ -87,6 +87,22 @@ The third-party components used for generating Microsoft Word and Excel- documen
 
 In previous versions only users added inn the App Administrator group could press File and App to test run tasks, Agents, Open Forms, call to Web Services and Call to Rest Services. This is now changed to all App Model Admins.
 
+<!--ID 93a5edad-ffeb-4913-bfab-19d1c0fbd130 -->
+**#23114 Changed implementation of round(), roundUp(), and roundDown() functions** (Desktop;Services;Studio)
+
+The following functions did not round floating-point values in a consistent matter, and have been rewritten for correct behaviour:
+
+* Math.round()
+* Math.roundUp()
+* Math.roundDown()
+* Real.round()
+* Real.roundUp()
+* Real.roundDown()
+
+The round() function now produces a result corresponding to "Round half away from zero" as described in [this Wikipedia article](https://en.wikipedia.org/wiki/Rounding). The roundUp() and the roundDown() functions correspond to "round away from zero" and "round towards zero", respectively.
+
+The changes are effective as of Genus Apps 2018.1, build 18.10.172.0 and later.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
