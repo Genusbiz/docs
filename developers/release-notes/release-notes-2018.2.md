@@ -99,7 +99,14 @@ The following functions did not round floating-point values in a consistent matt
 * Real.roundUp()
 * Real.roundDown()
 
-The round() function now produces a result corresponding to "Round half away from zero" as described in [this Wikipedia article](https://en.wikipedia.org/wiki/Rounding). The roundUp() and the roundDown() functions correspond to "round away from zero" and "round towards zero", respectively.
+The _round()_ function now produces a result corresponding to "Round half away from zero" as described in [this Wikipedia article](https://en.wikipedia.org/wiki/Rounding#Round_half_away_from_zero). The _roundUp()_ and the _roundDown()_ functions correspond to ["round away from zero"](https://en.wikipedia.org/wiki/Rounding#Rounding_away_from_zero) and ["round towards zero"](https://en.wikipedia.org/wiki/Rounding#Rounding_towards_zero), respectively.
+
+A new rounding function, _roundHalfToEven()_, has also been introduced, corresponding to the ["Round half to even"](https://en.wikipedia.org/wiki/Rounding#Round_half_to_even) rounding form, also called "bankers' rounding":
+
+* Math.roundHalfToEven()
+* Real.roundHalfToEven()
+
+This rounding form is useful if you are adding rounded numbers.
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
