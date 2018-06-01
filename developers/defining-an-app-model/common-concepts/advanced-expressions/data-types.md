@@ -95,6 +95,7 @@ Name | Description
 **onHTTPContentTypeMismatch** | ActionExceptionType.onHTTPContentTypeMismatch
 **onInsufficientSecurityPermissions** | ActionExceptionType.onInsufficientSecurityPermissions
 **onInvalidProgramExitCode** | ActionExceptionType.onInvalidProgramExitCode
+**onInvalidSearch** | ActionExceptionType.onInvalidSearch
 **onMailMergeError** | ActionExceptionType.onMailMergeError
 **onModifyUserAccountError** | ActionExceptionType.onModifyUserAccountError
 **onObjectsReadError** | ActionExceptionType.onObjectsReadError
@@ -1007,6 +1008,7 @@ Name | Description
 **power** | Math.power(*number*, *power*)<br><br>Returns a specified number raised to the specified power.<br>Return Type: Real<br><br>**number**<br>- Type: Real<br>- The base number.<br>**power**<br>- Type: Real<br>- The exponent to which the base number is raised.
 **round** | Math.round(*number* [, *numDigits*])<br><br>Rounds a number to a specified number of decimal places.<br>Return Type: Real<br><br>**number**<br>- Type: Real<br>- The number you want to round.<br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
 **roundDown** | Math.roundDown(*number* [, *numDigits*])<br><br>Rounds a number down, toward zero.<br>Return Type: Real<br><br>**number**<br>- Type: Real<br>- The number you want to round.<br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
+**roundHalfToEven** | Math.roundHalfToEven(*number* [, *numDigits*])<br><br>Rounds a number to a specified number of decimal places, but such that 0.5 is rounded to the closest even integer number.<br>Return Type: Real<br><br>**number**<br>- Type: Real<br>- The number you want to round.<br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
 **roundUp** | Math.roundUp(*number* [, *numDigits*])<br><br>Rounds a number up, away from zero.<br>Return Type: Real<br><br>**number**<br>- Type: Real<br>- The number you want to round.<br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
 **sqrt** | Math.sqrt(*number*)<br><br>Returns a positive square root.<br>Return Type: Real<br><br>**number**<br>- Type: Real<br>- A number.
 ## MessageAttachmentType enumeration
@@ -1071,20 +1073,122 @@ Name | Description
 The NaturalLanguage enumeration exposes the following members.
 Name | Description
 --- | ---
+**afrikaans\_SouthAfrica** | NaturalLanguage.afrikaans\_SouthAfrica
+**albanian\_Albania** | NaturalLanguage.albanian\_Albania
+**armenian\_Armenia** | NaturalLanguage.armenian\_Armenia
+**azeri\_Azerbaijan\_Cyrillic** | NaturalLanguage.azeri\_Azerbaijan\_Cyrillic
+**azeri\_Azerbaijan\_Latin** | NaturalLanguage.azeri\_Azerbaijan\_Latin
+**basque\_Basque** | NaturalLanguage.basque\_Basque
+**belarusian\_Belarus** | NaturalLanguage.belarusian\_Belarus
+**bulgarian\_Bulgaria** | NaturalLanguage.bulgarian\_Bulgaria
+**catalan\_Catalan** | NaturalLanguage.catalan\_Catalan
+**chinese\_HongKongSAR\_PRC** | NaturalLanguage.chinese\_HongKongSAR\_PRC
+**chinese\_MacaoSAR** | NaturalLanguage.chinese\_MacaoSAR
+**chinese\_PRC** | NaturalLanguage.chinese\_PRC
+**chinese\_Simplified** | NaturalLanguage.chinese\_Simplified
+**chinese\_Singapore** | NaturalLanguage.chinese\_Singapore
+**chinese\_Taiwan** | NaturalLanguage.chinese\_Taiwan
+**chinese\_Traditional** | NaturalLanguage.chinese\_Traditional
+**croatian\_Croatia** | NaturalLanguage.croatian\_Croatia
+**czech\_CzechRepublic** | NaturalLanguage.czech\_CzechRepublic
 **danish\_Denmark** | NaturalLanguage.danish\_Denmark
+**dutch\_Belgium** | NaturalLanguage.dutch\_Belgium
+**dutch\_Netherlands** | NaturalLanguage.dutch\_Netherlands
+**english\_Australia** | NaturalLanguage.english\_Australia
+**english\_Belize** | NaturalLanguage.english\_Belize
+**english\_Canada** | NaturalLanguage.english\_Canada
+**english\_Caribbean** | NaturalLanguage.english\_Caribbean
+**english\_Ireland** | NaturalLanguage.english\_Ireland
+**english\_Jamaica** | NaturalLanguage.english\_Jamaica
+**english\_NewZealand** | NaturalLanguage.english\_NewZealand
+**english\_Philippines** | NaturalLanguage.english\_Philippines
+**english\_SouthAfrica** | NaturalLanguage.english\_SouthAfrica
+**english\_TrinidadAndTobago** | NaturalLanguage.english\_TrinidadAndTobago
+**english\_UnitedKingdom** | NaturalLanguage.english\_UnitedKingdom
 **english\_UnitedStates** | NaturalLanguage.english\_UnitedStates
+**english\_Zimbabwe** | NaturalLanguage.english\_Zimbabwe
 **estonian\_Estonia** | NaturalLanguage.estonian\_Estonia
+**faroese\_FaroeIslands** | NaturalLanguage.faroese\_FaroeIslands
 **finnish\_Finland** | NaturalLanguage.finnish\_Finland
+**french\_Belgium** | NaturalLanguage.french\_Belgium
+**french\_Canada** | NaturalLanguage.french\_Canada
+**french\_France** | NaturalLanguage.french\_France
+**french\_Luxembourg** | NaturalLanguage.french\_Luxembourg
+**french\_Monaco** | NaturalLanguage.french\_Monaco
+**french\_Switzerland** | NaturalLanguage.french\_Switzerland
+**galician\_Spain** | NaturalLanguage.galician\_Spain
+**georgian\_Georgia** | NaturalLanguage.georgian\_Georgia
+**german\_Austria** | NaturalLanguage.german\_Austria
 **german\_Germany** | NaturalLanguage.german\_Germany
+**german\_Liechtenstein** | NaturalLanguage.german\_Liechtenstein
+**german\_Luxembourg** | NaturalLanguage.german\_Luxembourg
+**german\_Switzerland** | NaturalLanguage.german\_Switzerland
 **greek\_Greece** | NaturalLanguage.greek\_Greece
+**gujarati\_India** | NaturalLanguage.gujarati\_India
+**hindi\_India** | NaturalLanguage.hindi\_India
+**hungarian\_Hungary** | NaturalLanguage.hungarian\_Hungary
+**icelandic\_Iceland** | NaturalLanguage.icelandic\_Iceland
+**indonesian\_Indonesia** | NaturalLanguage.indonesian\_Indonesia
+**italian\_Italy** | NaturalLanguage.italian\_Italy
+**italian\_Switzerland** | NaturalLanguage.italian\_Switzerland
+**japanese\_Japan** | NaturalLanguage.japanese\_Japan
+**kannada\_India** | NaturalLanguage.kannada\_India
+**kazakh\_Kazakhstan** | NaturalLanguage.kazakh\_Kazakhstan
+**konkani\_India** | NaturalLanguage.konkani\_India
+**korean\_Korea** | NaturalLanguage.korean\_Korea
+**kyrgyz\_Kyrgyzstan** | NaturalLanguage.kyrgyz\_Kyrgyzstan
 **latvian\_Latvia** | NaturalLanguage.latvian\_Latvia
 **lithuanian\_Lithuania** | NaturalLanguage.lithuanian\_Lithuania
 **macedonian\_Macedonia\_FYROM** | NaturalLanguage.macedonian\_Macedonia\_FYROM
+**malay\_BruneiDarussalam** | NaturalLanguage.malay\_BruneiDarussalam
+**malay\_Malaysia** | NaturalLanguage.malay\_Malaysia
+**marathi\_India** | NaturalLanguage.marathi\_India
+**mongolian\_Mongolia** | NaturalLanguage.mongolian\_Mongolia
 **norwegian\_Bokmål\_Norway** | NaturalLanguage.norwegian\_Bokmål\_Norway
 **norwegian\_Nynorsk\_Norway** | NaturalLanguage.norwegian\_Nynorsk\_Norway
 **polish\_Poland** | NaturalLanguage.polish\_Poland
+**portuguese\_Brazil** | NaturalLanguage.portuguese\_Brazil
+**portuguese\_Portugal** | NaturalLanguage.portuguese\_Portugal
+**punjabi\_India** | NaturalLanguage.punjabi\_India
+**romanian\_Romania** | NaturalLanguage.romanian\_Romania
+**russian\_Russia** | NaturalLanguage.russian\_Russia
+**sanskrit\_India** | NaturalLanguage.sanskrit\_India
+**serbian\_Serbia\_Cyrillic** | NaturalLanguage.serbian\_Serbia\_Cyrillic
+**serbian\_Serbia\_Latin** | NaturalLanguage.serbian\_Serbia\_Latin
+**slovak\_Slovakia** | NaturalLanguage.slovak\_Slovakia
+**slovenian\_Slovenia** | NaturalLanguage.slovenian\_Slovenia
+**spanish\_Argentina** | NaturalLanguage.spanish\_Argentina
+**spanish\_Bolivia** | NaturalLanguage.spanish\_Bolivia
+**spanish\_Chile** | NaturalLanguage.spanish\_Chile
+**spanish\_Colombia** | NaturalLanguage.spanish\_Colombia
+**spanish\_CostaRica** | NaturalLanguage.spanish\_CostaRica
+**spanish\_DominicanRepublic** | NaturalLanguage.spanish\_DominicanRepublic
+**spanish\_Ecuador** | NaturalLanguage.spanish\_Ecuador
+**spanish\_ElSalvador** | NaturalLanguage.spanish\_ElSalvador
+**spanish\_Guatemala** | NaturalLanguage.spanish\_Guatemala
+**spanish\_Honduras** | NaturalLanguage.spanish\_Honduras
+**spanish\_Mexico** | NaturalLanguage.spanish\_Mexico
+**spanish\_Nicaragua** | NaturalLanguage.spanish\_Nicaragua
+**spanish\_Panama** | NaturalLanguage.spanish\_Panama
+**spanish\_Paraguay** | NaturalLanguage.spanish\_Paraguay
+**spanish\_Peru** | NaturalLanguage.spanish\_Peru
+**spanish\_PuertoRico** | NaturalLanguage.spanish\_PuertoRico
 **spanish\_Spain** | NaturalLanguage.spanish\_Spain
+**spanish\_Spain\_TraditionalSort** | NaturalLanguage.spanish\_Spain\_TraditionalSort
+**spanish\_Uruguay** | NaturalLanguage.spanish\_Uruguay
+**spanish\_Venezuela** | NaturalLanguage.spanish\_Venezuela
+**swahili\_Kenya** | NaturalLanguage.swahili\_Kenya
+**swedish\_Finland** | NaturalLanguage.swedish\_Finland
 **swedish\_Sweden** | NaturalLanguage.swedish\_Sweden
+**tamil\_India** | NaturalLanguage.tamil\_India
+**tatar\_Russia** | NaturalLanguage.tatar\_Russia
+**telugu\_India** | NaturalLanguage.telugu\_India
+**thai\_Thailand** | NaturalLanguage.thai\_Thailand
+**turkish\_Turkey** | NaturalLanguage.turkish\_Turkey
+**ukrainian\_Ukraine** | NaturalLanguage.ukrainian\_Ukraine
+**uzbek\_Uzbekistan\_Cyrillic** | NaturalLanguage.uzbek\_Uzbekistan\_Cyrillic
+**uzbek\_Uzbekistan\_Latin** | NaturalLanguage.uzbek\_Uzbekistan\_Latin
+**vietnamese\_Vietnam** | NaturalLanguage.vietnamese\_Vietnam
 ## Object type
 This is the ultimate base class of all classes; it is the root of the type hierarchy. Because all classes are derived from this class, every function defined here is also available all classes.
 ## OrderedSet(\<ElementType>) type
@@ -1185,6 +1289,7 @@ Name | Description
 **log10** | *instance*.log10<br><br>Returns the base-10 logarithm of a number.<br>Return Type: Real
 **round** | *instance*.round([*numDigits*])<br><br>Rounds the number to a specified number of decimal places.<br>Return Type: Real<br><br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
 **roundDown** | *instance*.roundDown([*numDigits*])<br><br>Rounds the number down, toward zero.<br>Return Type: Real<br><br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
+**roundHalfToEven** | *instance*.roundHalfToEven([*numDigits*])<br><br>Rounds a number to a specified number of decimal places, but such that 0.5 is rounded to the closest even integer number.<br>Return Type: Real<br><br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
 **roundUp** | *instance*.roundUp([*numDigits*])<br><br>Rounds the number down, toward zero.<br>Return Type: Real<br><br>**numDigits (Optional)**<br>- Type: Integer<br>- Specifies the number of decimal places to which you want to round number.
 **sqrt** | *instance*.sqrt<br><br>Returns a positive square root of the number.<br>Return Type: Real
 **toString** | *instance*.toString<br><br>Returns a string representation of the value. <br>Return Type: String
@@ -1580,7 +1685,7 @@ Name | Description
 --- | ---
 **fragment** | *instance*.fragment<br><br>Gets the fragment portion of the URL. The property gets any text following a fragment marker (\#) in the URL, including the fragment marker itself. Given the URL http://www.contoso.com/index.htm\#main, the property would return \#main.<br>Return Type: String
 **host** | *instance*.host<br><br>Gets the Domain Name System (DNS) host name or IP address of a server.<br>Return Type: String
-**path** | *instance*.path<br><br>Gets the path to the resource referenced by the URL. The property contains the path information that the server uses to resolve requests for information. Typically this is the path to the desired information on the server's file system, although it also can indicate the application or script the server must run to provide the information. The path information does not include the scheme, host name, or query portion of the URL.<br>Return Type: String
+**path** | *instance*.path<br><br>Gets the path to the resource referenced by the URL. The property contains the path information that the server uses to resolve requests for information. Typically this is the path to the desired information on the server's file system, although it also can indicate the app or script the server must run to provide the information. The path information does not include the scheme, host name, or query portion of the URL.<br>Return Type: String
 **port** | *instance*.port<br><br>Gets the port number of the URL. The port number defines the protocol port used for contacting the server referenced in the URL. If a port is not specified as part of the URL, the property returns the default value for the protocol. If there is no default port number, this property returns null.<br>Return Type: Integer
 **query** | *instance*.query<br><br>Gets any query information included in the URL. The property contains any query information included in the URI. Query information is separated from the path information by a question mark (?) and continues to the end of the URL or to a number sign (\#). The query information returned includes the leading question mark.<br>Return Type: String
 **scheme** | *instance*.scheme<br><br>Gets the scheme name of the URL. Possible values returned by the property include file, ftp, http, and https.<br>Return Type: String
