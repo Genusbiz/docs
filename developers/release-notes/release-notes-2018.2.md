@@ -35,7 +35,7 @@ See also the following notes.
 <!--ID 5cd19c87-84d3-43b1-b45b-8df71c62b4fb -->
 **#23077 Genus Services requires a new version of IBM Data Server Driver Package for accessing DB2 databases** (Services)
 
-To access IBM DB2 databases Genus Services 2018.2 (18.20.12.0 or later) now requires "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod3 Fix Pack3 iFix001" ([v11.1.3fp3a_ntx64_dsdriver_EN.exe](https://www.ibm.com/support/fixcentral/swg/downloadFixes?parent=ibm~Information%2BManagement&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.3031.295-FP003a&includeRequisites=1&includeSupersedes=0&downloadMethod=http)).
+To access IBM DB2 databases Genus Services 2018.2 (18.20.54.0 or later) now requires "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod3 Fix Pack3 iFix001" ([v11.1.3fp3a_ntx64_dsdriver_EN.exe](https://www.ibm.com/support/fixcentral/swg/downloadFixes?parent=ibm~Information%2BManagement&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.3031.295-FP003a&includeRequisites=1&includeSupersedes=0&downloadMethod=http)).
 
 For details, see https://docs.genus.no/developers/installation-and-configuration/system-requirements.html#database-access-software-requirements.
 
