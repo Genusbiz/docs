@@ -108,6 +108,9 @@ A new rounding function, _roundHalfToEven()_, has also been introduced, correspo
 
 This rounding form is useful if you are adding rounded numbers.
 
+<!--ID a9f3f9c6-c47e-4452-805f-35d2de0b29dc -->
+**#23116 Multiple appmodels per appserver are no longer supported.** (Services)
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -285,7 +288,13 @@ Fixed an error that caused bookmarks to not be available before the analysis was
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no known issues in this release.
+<!--ID 46745b3b-f40b-4ab9-a4c4-bb193b720464 -->
+**#23115 Datamarts is not compatible with solutions having multiple appmodels on an app server.** (Desktop;Services;Studio;Web)
+
+Loading of datamarts in solutions where multiple appmodels are assigned to single app-servers may trigger random stability issues. Datamarts may stop and become unavailable when certain combinations of appmodel deploy and modifications to datamart occurs. 
+
+Multiple appmodels per appserver is not supported when using datamarts.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
