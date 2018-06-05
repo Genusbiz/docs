@@ -1,7 +1,7 @@
 # Data mart loading and load plans
 A data mart needs to be loaded before it is ready to provide data for analyses or data extracts. Loading a data mart may be a resource-intensive task, and should be planned accordingly.
 
-**Note:** Data marts are always loaded in their entirety on the server(s) (nodes) they run on. Make sure the sum of the sizes of all your data marts (located on one server / node) is less than the server's physical memory and that it is still room for other processes, like the operating system and other Genus Services, to run. Since data marts are loaded in a compressed manner, the actual size used can be hard to calculate. We therefore recommend testing your servers capabilities by starting with smaller data marts and increasing their size gradually.
+**Note:** Data marts are always loaded in their entirety on the server(s) (nodes) they run on. Make sure the sum of the sizes of all your data marts (located on one server / node) is less than the server's physical memory and that there is still room for other processes, like the operating system and other Genus Services, to run. Since data marts are loaded in a compressed manner, the actual size used can be hard to calculate. We therefore recommend testing your servers capabilities by starting with smaller data marts and increasing their size gradually.
 
 ## Loading strategy considerations
 Some data marts provides large amounts of relatively static data, while other use cases may require frequently updated data. These are some considerations that must be made when deciding a load strategy for a data mart:

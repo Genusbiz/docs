@@ -15,6 +15,8 @@ To be able to run analyses/data extracts against a data mart all of the followin
 *   Verify that data sources you expect to reference in analyses is not marked "private".
 *   Remember to publish the relevant fields on all public data sources. 
 *   Check that connections between data sources have been defined appropriately.
+*   Datamarts must not be configured in solutions where multiple appmodels has been deployed on each appserver.
+    *   **Note:** Multiple appmodels per appserver is no longer supported as of version 2018.2.
 *   See [Data Mart Concepts](data-mart-concepts.md) for more information. 
 
 ## The data mart load plan
