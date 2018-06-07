@@ -73,7 +73,7 @@ The number of permissions that can be granted to a user is determined by the [se
 
 <td>
 
-Allows the user to read the Event History for an object. Can only be granted if [auditing is activated for the Object Class](../data/object-class/modify-an-object-or-identifier-domain/events.md "Events").
+Allows the user to read the Event History for an object. Can only be granted if [auditing is activated for the Object Class](../data/object-class/modify-an-object-or-identifier-domain/auditing.md "Auditing").
 
 </td>
 
@@ -85,7 +85,7 @@ Allows the user to read the Event History for an object. Can only be granted if 
 
 <td>
 
-Allows the user to modify the auditing setup for an object. Can only be granted if [auditing is activated for the Object Class](../data/object-class/modify-an-object-or-identifier-domain/events.md "Events"), and users are allowed to modify auditing on individual objects.
+Allows the user to modify the auditing setup for an object. Can only be granted if [auditing is activated for the Object Class](../data/object-class/modify-an-object-or-identifier-domain/auditing.md "Auditing"), and users are allowed to modify auditing on individual objects.
 
 </td>
 

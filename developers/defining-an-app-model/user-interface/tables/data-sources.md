@@ -24,7 +24,7 @@ To see if a data source is used within the form, right click the data source, an
 
 ## Data binding
 
-The data binding defines the connection between the user interface and the business logic. The data flow can go from the data source to the user interface, for example when data are changed by [Live Update](../../data/object-class/modify-an-object-or-identifier-domain/events.md "Live Update"), and/or from the user interface to the data source, for example when the user edits the content of a table cell.
+The data binding defines the connection between the user interface and the business logic. The data flow can go from the data source to the user interface, for example when data are changed by [Live Update](../../data/object-class/modify-an-object-or-identifier-domain/data-provider.md "Live Update"), and/or from the user interface to the data source, for example when the user edits the content of a table cell.
 
 You may want your form or table to enable users to change the data and propagate it back to the data source. Or you may not want to enable users to update the data source. You can control this by setting the data binding mode of your data source. The following table describes the different data binding modes:
 

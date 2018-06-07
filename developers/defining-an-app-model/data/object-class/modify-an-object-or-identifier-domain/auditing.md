@@ -1,4 +1,4 @@
-# Events
+# Auditing
 
 Genus Apps allows you to add auditing capabilities to an Object Class. Audit trails for an Object Class is stored in the [Event History](../../../../../terminology.md) which is a chronological sequence of audit trails, each of which contains evidence directly pertaining to and resulting from an event. The Event History enables users to reconstruct and examine the sequence of events and/or changes in an event for an object.
 
@@ -118,25 +118,3 @@ By default, events are logged for all Object Classes within a composition. To di
 2.  In the **Advanced Auditing Options** dialog box, select the **Do not log events for these Object Classes** check box.
 3.  Click **Select**.
 4.  In the **Event Logging** dialog box, click to clear the **Enabled** checkbox if you want to disable logging for an Object Class.
-
-
-
-## Live Update
-
-Every event-driven system relies on some sort of publish-subscribe mechanism, that is, a loosely-coupled interaction model. Whenever an event occurs, you need a mechanism to notify anyone dependent of knowing that the event occured.
-
-Live Update is a mechanism which allows you to determine how to deploy changes in data to computers connected to your Application Server. You can choose between three update strategies:
-
-**1\. Objects are updated automatically**
-
-Not supported in the current version.
-
-**2\. Objects are updated when the value for a specified property is changed**
-
-The specified property acts as a change trigger for notifying dependents. For example, if your Object Class contains a property for storing the last date an object was modified, you can use this property as a trigger to deploy changes in data.
-
-Applies to properties with data types **Date**, **Date and Time**, **Integer**, **Float** and **Character or String** and a simple data interpretation.
-
-**3\. Objects are updated by user initiated action**
-
-Data are updated on demand. This request may be a deliberate request from a user to refresh data, or a request to perform an action which requires that data are updated.

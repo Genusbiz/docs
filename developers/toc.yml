@@ -397,8 +397,8 @@
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/explore.md
         - name: Display
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/display.md
-        - name: Events
-          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md
+        - name: Auditing
+          href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/auditing.md
         - name: Security
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/security.md
         - name: Data Exchange

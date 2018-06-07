@@ -102,7 +102,7 @@ An event history is a chronological sequence of audit trails for objects, each o
 
 See [here](users/navigate-view-modify-and-control/working-in-tables/advanced/view-history.md) for more information on how to view the event history for an object.
 
-See [here](developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/events.md) for more information on how to active auditing for your object classes.
+See [here](developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/auditing.md) for more information on how to active auditing for your object classes.
 
 ## Formula
 
