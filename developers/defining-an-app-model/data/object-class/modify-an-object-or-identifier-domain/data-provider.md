@@ -18,7 +18,10 @@ Rarely in use. However, some applications partions data by using this naming met
 *   (CompanyB)SalesData
   
 ## Aging property
-Property used to check if a cached object is outdated, e.g. a property which stores the last date an object was modified. If an object is outdated, the cache is updated with values stored in the database. It is highly recommended to specify an aging property in order to reduce concurrency errors. The cache is always updated before an edit operation is allowed to start.
+Property used to check if a cached object is outdated, e.g. a property which stores the last date an object was modified. If an object is outdated, the cache is updated with values stored in the database.
+
+> [!NOTE]
+> It is highly recommended to specify an aging property in order to reduce concurrency errors. If an object is outdated, the cache is always synchronized with values stored in the database before an edit operation is allowed to start.
 
 ## Read all on first accesss
 Select this option to read all objects from the Object Class into memory in a single operation the first time data are requested. At a later point, if a reference to the object class is found and the referenced object is not in memory, an attempt is made to read the referenced object.
