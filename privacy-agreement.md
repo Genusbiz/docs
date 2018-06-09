@@ -40,4 +40,4 @@ You also have the right to:
 * Request the erasure of your personal data.
 * Request that we only process your personal data in limited circumstances, including with your consent.
 
-To the extent that the processing of your personal data is based on your consent, you have the right to withdraw such consent at any time. You may contact our Recruitment Officer at [work@genus.no] if you want to exercise any of your rights in relation to your personal data, or if you have a question, comment, or complaint.
+To the extent that the processing of your personal data is based on your consent, you have the right to withdraw such consent at any time. You may contact our Recruitment Officer at <work@genus.no> if you want to exercise any of your rights in relation to your personal data, or if you have a question, comment, or complaint.
