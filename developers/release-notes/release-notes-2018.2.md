@@ -179,6 +179,15 @@ The Run a Search effect executes a Genus Search connected to a modeled object. T
 
 Added support for user selection.
 
+<!--ID d6cec9b3-90e3-45e6-9a5b-249f37ce2732 -->
+**#23117 Object class dialog - live update section moved** (Studio)
+
+* **Live Update** section located in the **Events** tab moved to the **Data Provider** tab
+* **Events** tab renamed to **Auditing**
+* Option **Live Update/Objects are updated automatically** renamed to [**Enable Live Update**](https://docs.genus.no/developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-provider.html#enable-live-update)
+* Option **Live Update/Objects are updated when this property is changed** renamed to [**Aging Property**](https://docs.genus.no/developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-provider.html#aging-property)
+* Option **Live Update/Objects are updated by user initiated action** removed
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
