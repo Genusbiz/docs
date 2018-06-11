@@ -586,6 +586,12 @@ Fixed an error that caused bookmarks to not be available before the analysis was
 <!--ID 34857736-5e49-4c17-8453-c005d183b5e8 -->
 **#23110 UI Block now blocks all key presses in input fields** (Web)
 
+<!--ID c96d9a82-3ab8-457b-b8d5-7533ae38598d -->
+**#23118 Analysis - Subsets** (Desktop)
+
+Fixed an issue where if the user tried to apply selections (via subsets) to a datasource that was not directly used in the analysis. The selections would not be applied. 
+This worked as expected in Genus 17.5 and older versions, but due to performance optimizations it stopped working in 18.1.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
