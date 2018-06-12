@@ -267,6 +267,9 @@ In previous versions accelerator search added a wildecard operator at the end of
 
 Added support for Math.abs in the formula designer.
 
+<!--ID 860c80ce-9587-413e-9f5a-9365d3f8c29b -->
+**#23119 Markdown now works with static content in text fields** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
