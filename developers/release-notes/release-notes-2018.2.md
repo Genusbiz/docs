@@ -188,6 +188,9 @@ Added support for user selection.
 * Option **Live Update/Objects are updated when this property is changed** renamed to [**Aging Property**](https://docs.genus.no/developers/defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/data-provider.html#aging-property)
 * Option **Live Update/Objects are updated by user initiated action** removed
 
+<!--ID 860c80ce-9587-413e-9f5a-9365d3f8c29b -->
+**#23119 Markdown now works with static content in text fields** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
