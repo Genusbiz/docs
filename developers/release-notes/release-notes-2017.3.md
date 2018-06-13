@@ -42,10 +42,10 @@ There is no deprecated functionality in this release.
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 89ddd7b6-1a06-401e-9bdc-b50bdbe68550 -->
-**#22905 The Export Data effect will no longer serialize empty arrays and objects in Json-format** (Desktop;Services)
+**#22905 The Export Data effect will no longer serialize empty arrays and objects in Json-format**
 
 <!--ID 5d551162-74b1-476e-8b2d-10a9264a5c67 -->
-**#22914 Help documentation only available online** (Desktop;Documentation)
+**#22914 Help documentation only available online**
 
 In previous versions, the Genus App Platform help documentation was bundled with the Genus App Services installation. Now, the help documentation is always available online at https://docs.genus.no. Or, if you are inside a firewall not allowing traffic to docs.genus.no, you may install the documentation at docs.genus.no in your network and point to such an url. Contact your Genus representative for more information on how to proceed.
 
@@ -53,24 +53,24 @@ In previous versions, the Genus App Platform help documentation was bundled with
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID be6d8c7a-3ed4-42ec-b3fe-2f886528557c -->
-**#22900 Added option to take picture in web browser using web cam.** (Web)
+**#22900 Added option to take picture in web browser using web cam.**
 
 It is now possible to use the web cam directly in the browser to take a picture.
 
 <!--ID 8109ea1e-5953-43bf-beff-7eb2e900bb7e -->
-**#22903 Conditional Security in Analysis** (Desktop;Services;Web)
+**#22903 Conditional Security in Analysis**
 
 Conditional Security permissions will now be applied in Analysis.
 Permissions are considered in object and aggregate requests.
 The requested permission is "Find & List"
 
 <!--ID 267914e3-a14c-48a5-8b2a-fa8fdba4ca6c -->
-**#22909 Azure SQL Database is now supported** (Services)
+**#22909 Azure SQL Database is now supported**
 
 See "Special Considerations for Azure SQL" in help documentation at https://docs.genus.no for up to date information on configuration and supported features.
 
 <!--ID 4a58ca5b-f6ea-458f-901b-b1c0026815d2 -->
-**#22918 Improved compliance to the WCAG 2.0 guidelines for accessibility** (Web)
+**#22918 Improved compliance to the WCAG 2.0 guidelines for accessibility**
 
 In this release we have made several improvements to meet the guidelines set in the WCAG 2.0 standard. This includes:
 
@@ -82,56 +82,56 @@ In this release we have made several improvements to meet the guidelines set in 
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 461c7d88-480d-4928-8827-db80a4507525 -->
-**#22898 Symbol Position on a Button in a Form** (Desktop)
+**#22898 Symbol Position on a Button in a Form**
 
 Now it's possible to set the Symbol Position to Left or Top on a Button.
 
 <!--ID b9d89962-634f-4f45-8b1e-abdce613cd92 -->
-**#22899 Non-alpha numeric characters are now permitted in full text queries.** (Desktop)
+**#22899 Non-alpha numeric characters are now permitted in full text queries.**
 
 This means that it is possible to search for stuff like C# C++, etc.
 
 <!--ID 96a49f37-f5eb-4207-8e44-21b96bce84e0 -->
-**#22902 Find local references to a data source in actions** (Studio)
+**#22902 Find local references to a data source in actions**
 
 Added menu command for finding local references to a data source in actions. Available in editors for Task, Agent, Web Service, REST Resource Method and Rule.
 
 If references are found you can optionally select to mark the references in the "Actions" list. To clear reference marking, select "Clear Reference Marking" in the shortcut menu.
 
 <!--ID 207027b7-e1b9-4858-afd6-3343a5e15bda -->
-**#22907 It is now possible to data bind marking a control as requried.** (Web)
+**#22907 It is now possible to data bind marking a control as requried.**
 
 This is visualized by appending a star " *" after the label of the controller.
 
 <!--ID 104acfc2-8b3b-4f4a-846f-e2de432c012f -->
-**#22910 Merge Data to a Document effect: Password protect a document** (Desktop)
+**#22910 Merge Data to a Document effect: Password protect a document**
 
 Added support for encrypting documents of type *.docx, *.docm, *.dotx, and *.dotm with a password.
 
 Passwords are case-sensitive. If you lose or forget a password, Word cannot recover your data.
 
 <!--ID f3c3ca1d-1b05-4f97-941f-d18525c428f4 -->
-**#22911 No longer stores password in localstorage when using remember me** (Services;Web)
+**#22911 No longer stores password in localstorage when using remember me**
 
 Now uses cookie based remember me instead.
 
 <!--ID 3d336107-7818-4351-a9b6-704818d85868 -->
-**#22912 Added support for external data in the Xml Transform Effect** (Desktop;Services)
+**#22912 Added support for external data in the Xml Transform Effect**
 
 The effect now supports use of external data loaded from an url in addition to data loaded from the data sources of the effect.
 
 <!--ID 46665b5e-3a35-4242-8e85-c1b5fa9b9a15 -->
-**#22913 Support for B64 encoded server response** (Services;Web)
+**#22913 Support for B64 encoded server response**
 
 Genus Apps now support B64 encoded response from Genus Server. This can be enabled server side. This should only be enabled when strictly needed from a security point of view, as it comes with a performance penalty.
 
 <!--ID 568fd03f-7de4-459d-97fe-b61252a9a2ee -->
-**#22916 Users will now be warned if they will lose data when refreshing or leaving the page** (Web)
+**#22916 Users will now be warned if they will lose data when refreshing or leaving the page**
 
 If a user have unsaved data in a form, and attempts to either refresh or leave the page, they will now get a conrfirmation box first, to prevent loss of data.
 
 <!--ID c4129a04-399a-48f4-8957-62862fb884bb -->
-**#22937 Translating Named Search Fields in a Table** (Studio)
+**#22937 Translating Named Search Fields in a Table**
 
 It is now possible to translate named search fields in a table view
 
@@ -139,17 +139,17 @@ It is now possible to translate named search fields in a table view
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 557bcf77-0891-45e0-81d1-e9908ec4bca7 -->
-**#22904 Stored contract name for Web Service Reference not valid** (Studio)
+**#22904 Stored contract name for Web Service Reference not valid**
 
 Applies to Web Service References created in release 2017.1 or 2017.2. Web Services References created in earlier versions are not affected.
 
 To fix the problem, upgrade to the latest release of 2017.1 or 2017.2. Open the Web Service Reference, select contract, and then save your changes.
 
 <!--ID f287e03c-4f05-4876-b5ae-58a4cb3088ff -->
-**#22906 Fixed errors related to use of references to parent xml element in xml-datasources.** (Desktop)
+**#22906 Fixed errors related to use of references to parent xml element in xml-datasources.**
 
 <!--ID 6489e9f8-ee21-4c01-9a87-4ffaa9892b57 -->
-**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)** (Desktop;Web)
+**#22908 Read Objects effect: Read into calendar data source fails (e.g. Year, Quarter, Month)**
 
 Occurs given the following setup:
 
@@ -158,48 +158,48 @@ Occurs given the following setup:
 * The data filter in the effect includes a reference to another calendar data source which is defined in the task
 
 <!--ID 334d45a8-0316-4add-a864-f4be84fef274 -->
-**#22915 Fixed problem that caused Genus to shut down when requesting available file operations from Windows.** (Desktop)
+**#22915 Fixed problem that caused Genus to shut down when requesting available file operations from Windows.**
 
 <!--ID 54e92015-9fb4-4f87-a889-d70fec4f7c44 -->
-**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps** (Web)
+**#22917 Username, password and remember me are now preserved through upgrades of Genus Apps**
 
 <!--ID f3ff4633-3af2-41fc-b80b-40cc79f30f0e -->
-**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data** (Desktop;Services;Web)
+**#22919 Actions: Improved performance and reduced memory consumption when modifying large amounts of data**
 
 Optimized memory consumption when modifying large amounts of data using a "Create Objects" or "Modify Objects" effect. In a real case example (100,000 objects) performance was improved by 50% and the memory peaked below 1GB.
 
 <!--ID 203058c5-a3db-40a0-8e6b-1d005eebabc1 -->
-**#22923 Time shift in Analysis shifts the wrong way** (Desktop;Web)
+**#22923 Time shift in Analysis shifts the wrong way**
 
 It was discovered in 2017.3 that time shift was executed with a reversed sign. This applies only to release 2017.3. It does not apply to Reporter. The bug fix is included in version 17.230.49 or later.
 
 <!--ID 7c8f8838-ac92-4998-8f84-09602f1668cc -->
-**#22926 Improved errormessage propagated to client on server-exception** (Services;Web)
+**#22926 Improved errormessage propagated to client on server-exception**
 
 Expanded the exception returned when failing to deserialize an object in a Genus Apps request to include the inner exception message.
 
 <!--ID 056258d4-6a11-4911-af75-7834537245ea -->
-**#22928 Fixed error where a radio button would appear to be selected when it actually was not** (Web)
+**#22928 Fixed error where a radio button would appear to be selected when it actually was not**
 
 This could occour when making quick selections in radio button groups which had no prior selection.
 
 <!--ID 0bf115b1-73c3-465b-8f10-2c73bc747876 -->
-**#22933 Error in the Import Data effect and storing references** (Studio)
+**#22933 Error in the Import Data effect and storing references**
 
 The fields for importing data was not stored in the reference finder xml, and fields in use could be deleted. This is now fixed.
 
 <!--ID 08caeb60-4ed6-459e-a42f-c1bd4a21eeba -->
-**#22939 IMPORTANT - Read Objects effect returns no objects** (Desktop;Web)
+**#22939 IMPORTANT - Read Objects effect returns no objects**
 
 If data are read and written to the same data source, no objects are returned. Bug present in patches of release 2017.1, 2017.2, and 2017.3 built after 20.06.2017.
 
 <!--ID f1ad1763-ff5a-4401-b21a-0c485d434199 -->
-**#23000 Filters applied to a report data source are ignored when the report is opened** (Desktop)
+**#23000 Filters applied to a report data source are ignored when the report is opened**
 
 Filters applied in a *Run a Report* effect are ignored when the report is opened using an *Open a Form* effect.
 
 <!--ID d5fc6028-e07f-4480-988c-668caea957d7 -->
-**#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.** (Desktop)
+**#23030 Fixed problem starting up Genus caused by installation of KB4055002 on Windows 7 computers.**
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
@@ -207,7 +207,7 @@ Filters applied in a *Run a Report* effect are ignored when the report is opened
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 46745b3b-f40b-4ab9-a4c4-bb193b720464 -->
-**#23115 Datamarts is not compatible with solutions having multiple appmodels on an app server.** (Desktop;Services;Studio;Web)
+**#23115 Datamarts is not compatible with solutions having multiple appmodels on an app server.**
 
 Loading of datamarts in solutions where multiple appmodels are assigned to single app-servers may trigger random stability issues. Datamarts may stop and become unavailable when certain combinations of appmodel deploy and modifications to datamart occurs. 
 
