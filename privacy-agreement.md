@@ -1,4 +1,4 @@
-# Genus AS Recruitment Privacy Policy  
+# Our recruitment privacy policy  
 
 When you apply for a job at Genus, Genus will collect and use personal data about you during the recruiting and any hiring process. Your personal data may be retained and used by Genus for the purposes listed below. You are not required to provide any requested information but failing to do so may result in not being able to continue your candidacy for the job for which you have applied.  
 
