@@ -4,10 +4,10 @@ description: Learn how to use Genus Apps to quickly create, deploy and change no
 author: jtroset
 ---
 # **Genus Apps<sup>&reg;</sup> documentation**
-Learn how to use Genus Apps to quickly create, deploy and change customized software solutions. The articles describe how to use this no-code development tool to build and use line-of-business software solutions.
+Learn how to use Genus Apps to quickly create, deploy and change customized software solutions. The articles describe how to use this no-code/low-code development tool to build and use line-of-business software solutions.
 
 > [!NOTE]
-> The **Search** box on these pages doesn't work on Windows 10 until the search index has been loaded, which takes 5-10 seconds. Alternatively, Google "[site:docs.genus.no _yoursearchterm_](https://www.google.no/search?q=site%3Adocs.genus.no+yoursearchterm)".
+> The **Search** box on these pages doesn't work on Windows 10 until the search index has been loaded, which takes 5-10 seconds. Alternatively, google "[site:docs.genus.no _yoursearchterm_](https://www.google.no/search?q=site%3Adocs.genus.no+yoursearchterm)".
 
 ## Developers
 * [Overview](developers/overview/index.md)
@@ -33,5 +33,6 @@ Learn how to use Genus Apps to quickly create, deploy and change customized soft
 * [System requirements](developers/installation-and-configuration/system-requirements.md)
 * [Personalize your Desktop client](users/navigate-view-modify-and-control/personalize-your-genus-desktop.md)
 * [How to report an error](developers/how-to/report-an-error.md)
+* [Our privacy policy](general-privacy-policy.md)
 * [Terminology](terminology.md)
 
