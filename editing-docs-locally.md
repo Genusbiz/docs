@@ -1,7 +1,7 @@
 # Contribute by editing articles locally on your computer
 
 ## Install Git for revision control
-1. Download and install Git from [here](https://git-scm.com/downloads). Optional: Install a Git GUI Client. Click [here](https://git-scm.com/downloads/guis) for a list of GUI Clients.
+1. Download and install Git from [here](https://git-scm.com/downloads). Optional: Install a Git GUI Client. Click [here](https://git-scm.com/downloads/guis) for a list of GUI Clients. Some of us use [Sourcetree](https://www.sourcetreeapp.com/).
 2. In Windows 10, we recommend adding the Git installation folder (_c:\program files\git\cmd_) to your PATH variable by following the steps [here](#how-to-add-a-folder-to-your-windows-10-path-environment-variable).
 
 ## GitHub
