@@ -1,4 +1,4 @@
-# Our privacy policy / våre retningslinjer for personvern
+# Våre retningslinjer for personvern / Our Privacy Policy
 
 For norsk utgave, se [her](#våre-generelle-retningslinjer-for-personvern).
 
