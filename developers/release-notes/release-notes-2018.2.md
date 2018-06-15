@@ -111,6 +111,12 @@ This rounding form is useful if you are adding rounded numbers.
 <!--ID a9f3f9c6-c47e-4452-805f-35d2de0b29dc -->
 **#23116 Multiple appmodels per appserver are no longer supported.** (Services)
 
+<!--ID 39fa641f-8f5b-45df-a30f-a877466c778d -->
+**#23120 Menu item Open in new Window is renamed in Forms**
+
+When a control only have one open command, Genus added the Open in New Window menu item. Now we use the name the of the command instead of a predefined tekst. This means that many grids and controls now will have a different name on the open menu item. This was necessary to changes because Open in new window was in some cases not the best name choice.
+On controls that has checked the open the default Form option, the menu item will now show Open + name on the concept.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
