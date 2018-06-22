@@ -270,6 +270,11 @@ Added support for Math.abs in the formula designer.
 <!--ID 860c80ce-9587-413e-9f5a-9365d3f8c29b -->
 **#23119 Markdown now works with static content in text fields** (Web)
 
+<!--ID 06593f97-f981-4ee4-9684-1df5ce03cf1d -->
+**#23121 Paste security** (Desktop)
+
+Copy and Paste Security is now added as functions on all Discovery objects with security and on searches.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
