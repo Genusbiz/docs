@@ -18,7 +18,7 @@ Våre retningslinjer for personvern kan bli oppdatert for å møte endringer i l
 
 Nettstedene [www.genus.no](https://genus.no) og [docs.genus.no](https://docs.genus.no) samler ikke inn personlig identifiserbar informasjon, og nettstedene benytter ikke informasjonskapsler (cookies).
 
-Nettstedet [recruit.genus.net](https://recruit.genus.net/) benyttes i forbindelse med rekruttering av ansatte. Se [her](https://docs.genus.no/privacy-agreement.html) for detaljerte retningslinjer for dette nettstedets håndtering av personopplysninger.
+Nettstedet [recruit.genus.net](https://recruit.genus.net/) benyttes i forbindelse med rekruttering av ansatte. Se [her](https://docs.genus.no/recruitment-privacy-policy.html) for detaljerte retningslinjer for dette nettstedets håndtering av personopplysninger.
 
 De foreliggende retningslinjene ble sist oppdatert 19. juni 2018.
 
@@ -36,6 +36,6 @@ Our privacy policy may be updated to meet any changes in legislation or commerci
 
 The websites [www.genus.no](https://genus.no) and [docs.genus.no](https://docs.genus.no) do not collect personally identifiable information, and the sites do not use cookies.
 
-The website [recruit.genus.net](https://recruit.genus.net) is used for recruitment of employees. See [here](https://docs.genus.no/privacy-agreement.html) for detailed guidelines for this site's handling of personal information.
+The website [recruit.genus.net](https://recruit.genus.net) is used for recruitment of employees. See [here](https://docs.genus.no/recruitment-privacy-policy.html) for detailed guidelines for this site's handling of personal information.
 
 The current policy was last updated June 19, 2018.
