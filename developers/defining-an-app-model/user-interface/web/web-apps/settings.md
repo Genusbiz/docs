@@ -16,10 +16,17 @@ The title displayed in the app bar.
 
 A URL pointing to an image resource. The logo is displayed in the app bar.
 
+**Icon**
+
+An icon for the app. The icon is shown in the app picker.
+
 **Theme**
 
 Allows you to override the default theme specified for your app model or the current data set.
 
+**Content Width**
+
+If not set, the app will take the whole width of the web page. Set it to a numerical value to specify the width of the content of the app. This also centers the content.
 
 ## App bar
 
@@ -33,9 +40,11 @@ Toggles visibility of the app bar.
 
 Appears at the end of the URL pointing to the app. Specifying a path segment such as **hours-reporting**, associates your app with a URL equal to *https://my-app-server/.../.../hours-reporting*.
 
+If not specified, it will default to a url-encodet version of the name of the app (lower case and spaces replaced with dashes). 
+
 **Entry point**
 
-A web component, such as a form, which should be displayed when the app is launched.
+A web component, such as a form, which should be displayed when the app is launched. It is possible to map in initial selection of the data sources in the component model. 
 
 **Drawer**
 
@@ -45,8 +54,8 @@ Behavior | Description
 ---| ---|
 Off | No drawer.
 Temporary | Closed by default. The drawer opens modal by tapping the navigation menu icon in the app bar. A temporary drawer is primarily for use on mobile where screen space is limited.
-Persistent | Closed by default. Opens by tapping the navigation menu icon in the app bar. Stays open until closed by the user. Appropriate for any display size larger than mobile.
-Permanent | Always open. Appropriate for any display size larger than mobile.
+Collapsed | Closed by default. Opens by tapping the navigation menu icon in the app bar. Stays open until closed by the user. Appropriate for any display size larger than mobile.
+Expanded | Same as Collapsed, but starts out expanded.
 
 
 **Menu layout**
