@@ -6,7 +6,7 @@ Before you can consume a Web Service you need to set up a service contract with 
 
 To consume a Web Service, do the following:
 
- 1.  In the **Name** box, optionally enter a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
+1.  In the **Name** box, optionally enter a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
 2.  In the **Description** box, optionally enter a description.
 3.  Click the **General** tab.
 4.  In the **Service Reference** box, select the Web Service Reference containing the Web Service you wish to consume.
@@ -20,7 +20,7 @@ To consume a Web Service, do the following:
 
 If you are consuming an external Web Service which normally exceeds the default timeout for your Application Model, you should specify the maximum allowed time the effect can run. To do this, do the following:
 
- 1.  Click the **Advanced** tab
+1.  Click the **Advanced** tab
 2.  In the **Timeout** section, click **Allow the effect to run for**, and the type the maximum number of seconds the effect is allowed to run.
 3.  If the Web Service provider is designed to process messages asynchronously, you can use **Rerun Attempts** to poll the Web Service until the result is returned. To do this:
 4.  In the **Rerun Attempts** section, select the **If this condition is true** check box to enable rerun attempts.
