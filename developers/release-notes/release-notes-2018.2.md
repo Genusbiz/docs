@@ -202,6 +202,11 @@ Added support for user selection.
 
 Copy and Paste Security is now added as functions on all Discovery objects with security and on searches.
 
+<!--ID 6d0879be-c085-4bb2-8032-7e7202ff4a5b -->
+**#23122 New lookup field implemented** (Desktop)
+
+A lookup field that can search and select data from one datasource (rest-service etc) and show reference to another datatype
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
