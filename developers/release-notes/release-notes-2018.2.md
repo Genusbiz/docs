@@ -207,6 +207,11 @@ Copy and Paste Security is now added as functions on all Discovery objects with 
 
 A lookup field that can search and select data from one datasource (rest-service etc) and show reference to another datatype
 
+<!--ID f2042c91-d86d-41d4-84af-3cd2051b07b2 -->
+**#23123 The "Consume a REST Service" effect now supports Client Certificate authentication** (Desktop;Services;Studio)
+
+The **Consume a REST Service** effect now includes a new, optional **Certificate Thumbprint** field that can be used to attach a client certificate to a REST request. The certificate must be installed in the Windows certificate store and is referenced using its thumbprint. Please refer to the article [Consuming Web Services with certificate based authentication](https://docs.genus.no/developers/defining-an-app-model/services/web-services/consuming-web-services-with-certificate-based-authentication.html) for details about how to install a client certificate. Please note that, in contrast to consuming (SOAP based) web services, Genus Apps may consume REST services both on the client side and on the server side. The client certificate needs to be installed on the client side or the server side accordingly, and needs to be accessible from the calling Windows account.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
