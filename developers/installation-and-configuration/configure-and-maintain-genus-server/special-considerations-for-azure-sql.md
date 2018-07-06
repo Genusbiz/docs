@@ -15,9 +15,19 @@ Prerequisite:
 * Check "Delimit Names"
 * Click "Advanced.." and add name "AZURE" with value "1"
 * Create g_lock-table for the schema containing the data (eg. g_data.g_lock)
+* Connection string example:
+```
+Password=<password>;User ID=<username>@<server name>;Initial Catalog=<database name>;Data Source=tcp:<server name>.database.windows.net
+```
 
 ## Not supported features:
 * Editing of file data.
 * Audit trail on modelled classes.
 * Multiple databases.
 * [FILESTREAM](https://docs.microsoft.com/en-us/sql/relational-databases/blob/filestream-sql-server) data type.
+
+
+Connection string example
+```
+Password=<password>;User ID=<username>@<server name>;Initial Catalog=<database name>;Data Source=tcp:<server name>.database.windows.net
+```
