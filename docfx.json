@@ -40,10 +40,6 @@
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "default"
-      //, "_custom_templates/genus_template" custom template overriding default template
-    ],
     "postProcessors": ["ExtractSearchIndex"],
     "noLangKeyword": false,
     "sitemap": {
