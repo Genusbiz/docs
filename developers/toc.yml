@@ -456,8 +456,9 @@
       href: defining-an-app-model/security/app-model-administrators.md
   - name: Localization
     href: defining-an-app-model/localization/index.md
-      - name: Translator
-        href: defining-an-app-model/localization/translator-tool.md
+    items:
+    - name: Translator
+      href: defining-an-app-model/localization/translator-tool.md
 - name: Installation and configuration
   href: installation-and-configuration/index.md
   items:
