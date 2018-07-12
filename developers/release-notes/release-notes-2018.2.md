@@ -220,7 +220,7 @@ When createing a large xml-document from multiple data sources with many objects
 <!--ID 574a7c04-e2c3-4453-b9bf-305c72a9e51b -->
 **#23126 Added support for merging Excel workbooks into a PDF document** (Desktop)
 
-Support for merging Excel workbooks into a PDF document added to the **Merge Documents** effect.
+Support for merging Excel workbooks into a PDF or Word document added to the **Merge Documents** effect.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
