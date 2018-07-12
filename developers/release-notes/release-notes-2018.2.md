@@ -215,7 +215,7 @@ The **Consume a REST Service** effect now includes a new, optional **Certificate
 <!--ID a69920c0-d28c-4199-a527-fd8f2e3e3e5a -->
 **#23124 Optimalization in the Create Objects effect** (Desktop;Studio)
 
-When createing a large xml-dokument from multiple datasources with many objects we can use the Filter Connection option to make a filter connection between the datasources.
+When createing a large xml-document from multiple data sources with many objects we can use the Filter Connection option to make a filter connection between the data sources.
 
 <!--ID 574a7c04-e2c3-4453-b9bf-305c72a9e51b -->
 **#23126 Added support for merging Excel workbooks into a PDF document** (Desktop)
