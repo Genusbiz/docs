@@ -327,6 +327,11 @@ Fixed an error that caused bookmarks to not be available before the analysis was
 Fixed an issue where if the user tried to apply selections (via subsets) to a datasource that was not directly used in the analysis. The selections would not be applied. 
 This worked as expected in Genus 17.5 and older versions, but due to performance optimizations it stopped working in 18.1.
 
+<!--ID af1f8f5d-8e37-4802-b614-f2ad3e542ac1 -->
+**#23125 Preview of Word documents not updated on navigate** (Desktop)
+
+When navigating to the next or previous object in a form containing a preview control, the preview is not updated if the attached file is of type MS Word document.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
