@@ -9,6 +9,8 @@ The documents which are merged can be stored in different file formats. During t
 * Portable Document Format (*.pdf)
 * Microsoft Word 97-2003 Document (*.doc)
 * Microsoft Word Document (*.docx)
+* Microsoft Excel Workbook 97-2003 (*.xls)
+* Microsoft Excel Workbook (*.xlsx)
 * Rich Text Format (*.rtf)
 * Text Document (*.txt)
 * HyperText Markup Language (*.html)
