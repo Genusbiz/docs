@@ -217,6 +217,11 @@ The **Consume a REST Service** effect now includes a new, optional **Certificate
 
 When createing a large xml-dokument from multiple datasources with many objects we can use the Filter Connection option to make a filter connection between the datasources.
 
+<!--ID 574a7c04-e2c3-4453-b9bf-305c72a9e51b -->
+**#23126 Added support for merging Excel workbooks into a PDF document** (Desktop)
+
+Support for merging Excel workbooks into a PDF document added to the **Merge Documents** effect.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
