@@ -605,6 +605,11 @@ This worked as expected in Genus 17.5 and older versions, but due to performance
 
 When navigating to the next or previous object in a form containing a preview control, the preview is not updated if the attached file is of type MS Word document.
 
+<!--ID 9e6906eb-a984-43c1-8867-b20953df154f -->
+**#23127 Self-filtering not removed in data mart** (Desktop)
+
+If a data source is deleted from the self filter diagram view, the settings **Filter on Self** and **Use as Self** are not reset, and self connections are not deleted.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
