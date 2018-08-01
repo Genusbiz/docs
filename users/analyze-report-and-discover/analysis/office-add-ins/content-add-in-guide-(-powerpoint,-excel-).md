@@ -1,4 +1,4 @@
-# User guide for Genus content add-in(PowerPoint, Excel)
+# User guide for content add-in(PowerPoint, Excel)
 
 [UserGuide5]: ./media/UserGuide5.png "Interact etc"
 [UserGuide7]: ./media/UserGuide7.png "Add-in fills area"
@@ -8,7 +8,7 @@
 [UserGuide16]: ./media/UserGuide16.png "Click Save as image"
 
 
-**In order to use the Genus content add-in for Excel or PowerPoint you must first ensure 
+**In order to use the content add-in for Excel or PowerPoint you must first ensure 
 that your office admin within your company has installed the add-in and made it available 
 to you. Also note that if you need to send a PowerPoint or Excel containing this add-in the 
 receipient must also have access to the add-in OR see [Save As Image](#save-as-image)**
