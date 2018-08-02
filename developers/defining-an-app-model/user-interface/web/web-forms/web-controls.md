@@ -34,7 +34,7 @@ See [common properties](./common-properties.md)
 
 On Click: Action executed on button click
 
-### Icon button
+### Icon Button
 
 ## Outputs
 
