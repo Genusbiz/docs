@@ -222,6 +222,12 @@ When createing a large xml-document from multiple data sources with many objects
 
 Support for merging Excel workbooks into a PDF or Word document added to the **Merge Documents** effect.
 
+<!--ID b1639846-bd6d-4aa0-8a38-b898b47e3eba -->
+**#23128 Pie explosion** (Desktop;Web)
+
+Added support for pie explosion. The option is available under Format, then under Pie Options.
+The option is by default disabled. The option can only be used in combination with ignore selection.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
