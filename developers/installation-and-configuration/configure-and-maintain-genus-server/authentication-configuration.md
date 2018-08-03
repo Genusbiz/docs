@@ -17,10 +17,10 @@ Genus offers the following identity providers:
 - [xID by BankID](https://www.bankid.no/bedrift/kom-i-gang/)
 - [ID-Porten](https://samarbeid.difi.no/)
 - Genus Native (username/password) (Forms Authentication)
-- Custom OAuth2 authentication for customer specific authentication
+- __Custom__ OAuth2 authentication for customer specific authentication
 
 After registrering and configurating with the desired providers, the setup for the identity providers can be done in Genus Studio under the Security settings.
 
-Add the desired providers by selecting the provider type, set the display name and the description, select the color and [Font Awesome](https://fontawesome.com/) icon for the logon button. In the Config field, write the clientId, clientSecret, callback url and other required information.
+Add the desired providers by selecting the provider type, set the display name and the description, select the color for the logon button. In the Config field, write the clientId, clientSecret, callback url and other required information.
 
-Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. With __Custom__ a custom implementation code file is needed. This file must be uploaded to the authservice and the file name must be input in the configuration.
+Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. With __Custom__ a custom implementation javascript file and provider type name is needed. This file must be uploaded to the authservice and the file name must be input in the configuration. Creating and uploading this file must be done by a developer based on the customer's setup. The start url for __Custom__ must also include the same name as the provider name.
