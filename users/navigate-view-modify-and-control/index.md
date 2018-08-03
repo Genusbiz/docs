@@ -17,7 +17,6 @@ Working in Genus Desktop Forms:
 * [What is a Form?](working-in-forms/what-is-a-form.md)
 * [Open a Form](working-in-forms/open-a-form.md)
 * [Modify an object](working-in-forms/modify-an-object.md)
-* [Save changes](working-in-forms/save-changes.md)
 * [Refresh a Form](working-in-forms/refresh-a-form.md)
 * [Print an object](working-in-forms/print-an-object.md)
 * [Open a report](working-in-forms/open-a-report.md)
