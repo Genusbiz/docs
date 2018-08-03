@@ -1,7 +1,15 @@
-# What is a Form?
+---
+title: The Form interface in Genus Desktop
+description: Brief intoduction to Forms in Genus Desktop
+author: Landstad
+---
 
-A Genus Form allows you to enter new data by filling in text, numbers and dates etc. in blank fields on your screen. You can also use a form to change your existing data, or simply for viewing data. A form typically contains data for one object, like an employee, allowing you to change values for First Name, Last Name, Phone Number and so on.
+# What is a form?
 
-![IDF17CDE85C00F4CB6.ID1F8D51CACCA74C32.png](media/IDF17CDE85C00F4CB6.ID1F8D51CACCA74C32.png)
+A Genus Form in Genus Desktop is a user interface which typically allows the user to create, modify or analyse data. A simple Form may for example allow you to simply type in name and phone number to a customer, whereas another Form may be the basis for one or several steps in a larger business process.
 
-A form may display data of different types like pictures, dates, options and code selections, but also display references to other objects and even tables with related data. Fields may be of different sizes, positioned at different areas within the form and grouped in tabs and sections.
+A Form may contain simple fields that show texts and dates or more complex components like references to other obects or maps, tables, analysis or images.
+
+A Ribbon (command bar) at the top usally shows some important actions that you can perform in the interface.
+
+![form.jpg](media/form.jpg)
