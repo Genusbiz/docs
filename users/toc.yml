@@ -20,18 +20,6 @@
     items:
     - name: What is a Form?
       href: navigate-view-modify-and-control/working-in-forms/what-is-a-form.md
-    - name: Open a Form
-      href: navigate-view-modify-and-control/working-in-forms/open-a-form.md
-    - name: Modify an object
-      href: navigate-view-modify-and-control/working-in-forms/modify-an-object.md
-    - name: Save changes
-      href: navigate-view-modify-and-control/working-in-forms/save-changes.md
-    - name: Refresh a Form
-      href: navigate-view-modify-and-control/working-in-forms/refresh-a-form.md
-    - name: Print an object
-      href: navigate-view-modify-and-control/working-in-forms/print-an-object.md
-    - name: Open a Report
-      href: navigate-view-modify-and-control/working-in-forms/open-a-report.md
     - name: Advanced
       href: navigate-view-modify-and-control/working-in-forms/advanced/advanced.md
       items:
