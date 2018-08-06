@@ -3,43 +3,49 @@
 ## Installation 
 
 ## Usage
-Translator gets a list of translations for a given appmodel and displays it in a grid to the user. All changes in the grid are immediately reflected in the database (_Not implemented_:, unless otherwise noted by the program). The three first columns display namspace, key and the original language of the appmodel respectively. The other columns may be sorted manually by dragging the header. 
+Translator gets a list of translations for a given appmodel and displays it in a grid to the user. In online mode all changes in the grid are immediately reflected in the database. In offline mode (_Not implemented_) a local state is kept. The first four columns display namspace, key, description and the original language of the appmodel respectively, of these columns only description may be empty. The remaining columns displays existing languages for the appmodel. Cells in these columns may be empty, and these columns may be sorted manually by dragging the header.
 
 ### Hide language 
-By accessing the righthand menu the user may select which languages to view.  
+By accessing the righthand "Languages" menu, the user may select which languages to view.  
 The original language of the appmodel may not be hidden. 
 
+### Add a new namespace
+By using the "Add new namespace" functionality located under the "+", the user may add a new namespace. An unused namespace will not be saved in the database.
+
+### Add a new language
+By using the "Add new language" functionality located under the "+", the user may add a new language. It will be immidiatly displayed right of the original language. An unused language will not be saved in the database.
+
 ### Insert a new namespace-key pair 
-The user may add any namespace-key pair which does not already exist. An initial translation for the original language is required. Neither namespace nor key may be edited after creation, if you wish to rename a key or a namespace use the [duplicate key](#duplicate-key) function and [delete](#delete) the old row.  
+By using the "Add new key" functionality located on the "+" the user will be able to add a new namespace-key pair. An initial translation in the appmodel's original language is required. A description may also be added.  
+This proccess allows for the use of [markdown](#markdown).  
 Note that both namespace and key must be in the format ``/[A-Z0-9_]+/g``, this is automatically enforced by the program.
 
-### Duplicate key 
-_Not implemented_ 
+### Remove language 
+Located in the options button, right in the toolbar. Removes all entries in all rows of the selected language. 
 
-### Delete row 
-By using the "DELETE SELECTED ROWS" button, all selected rows will be deleted, including entries in those rows which are [hidden](#hide-language) from view. 
+### Remove namespace 
+Located in the options button, right in the toolbar. Removes all entries in all rows of the selected namespace. 
+
+### Delete row(s)
+Located in the context menu in the grid. Deletes all selected rows, including entries in rows which are [hidden](#hide-language) from view. 
+
+### Clear cell
+Located in the context menu in the grid. Deletes the content of the selected cell. May not be used on the namspace, key, description and the original language columns.
 
 ### Search 
-It is possible to search for text occurrence in all columns by using the topmost search box.  
+The user may search for text occurrence in all columns by using the search box.  
 It is also possible to search in a particular column by using the search bar located below the column name.  
 These two functions may be used simultaneously. 
 
-### Add a new language 
-The user may add any language as a new column by using the "ADD LANGUAGE" field.  
-A language without any entries in any key-namespace pair will not be saved to the next session. 
+### Markdown
+When editing a translation the user may choose to display the text as markdown by toggling the option on. The user 
 
-### Remove language 
-_Not implemented_  
-Removes all entries in all rows of a given language. 
+### Export to file
 
-### Remove key 
-_Not implemented_  
-Removes all entries in all rows of a given key. 
-
-### Remove namespace 
-_Not implemented_  
-Removes all entries in all rows of a given namespace. 
+### Import from file
 
 ### Display only untranslated rows 
-_Not implemented_  
-Display only rows which has not been translated for a given language 
+
+### Display duplicates 
+
+### Hide description
