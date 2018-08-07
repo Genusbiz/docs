@@ -61,15 +61,9 @@ This section lists important changes introduced in this release. You will need t
 <!--ID dda70fe8-7588-4616-865e-61163d995bad -->
 **#23072 Analysis - Filters** (Desktop)
 
-<<<<<<< HEAD
-In older versions of Analysis, the same filter that was applied to the category, also needed to be applied to the value to get correct results. This has now been changed.  In version 18.2, filters applied to the category will also (by default), be applied to the value. This means its no longer necessary to apply the same filters on the value.
-
-Note: This only applies to filters applied to categories in the Analysis Designer. If the filter is applied on the Data Source in the Data Mart. You will still need to apply the same filter to the value to get correct results.
-=======
 In older versions of Analysis, the same filter that was applied to the category, also needed to be applied to the value to get correct results. This has now been changed.  In version 18.2, filters applied to the category will also (by default), be applied to the value. This means its no longer necessary to apply the same filters on the value.
 
 Note: This only applies to filters applied to categories in the Analysis Designer. If the filter is applied on the Data Source in the Data Mart you will still need to apply the same filter to the value to get correct results.
->>>>>>> 19804601f0758d3809d95bf8649977293bac6e05
 
 <!--ID 0dd136da-13d3-4373-b6cc-d596814d40ad -->
 **#23073 Trusted users replaced by app model admin rights** (Studio)
@@ -120,13 +114,8 @@ This rounding form is useful if you are adding rounded numbers.
 <!--ID 39fa641f-8f5b-45df-a30f-a877466c778d -->
 **#23120 Menu item Open in new Window is renamed in Forms**
 
-<<<<<<< HEAD
-When a control only have one open command, Genus added the Open in New Window menu item. Now we use the name the of the command instead of a predefined tekst. This means that many grids and controls now will have a different name on the open menu item. This was necessary to changes because Open in new window was in some cases not the best name choice.
-On controls that has checked the open the default Form option, the menu item will now show Open + name on the concept.
-=======
 When a control only have one Open command, Genus added the Open in New Window menu item. Now we use the name of the command instead of a predefined text. This means that many grids and controls now will have a different name on the Open menu item. This was neccessary to change because Open in new window was in some cases not the best name choice.
 For controls that have checked the Open the default Form option, the menu item will now show Open + name on the concept.
->>>>>>> 19804601f0758d3809d95bf8649977293bac6e05
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
