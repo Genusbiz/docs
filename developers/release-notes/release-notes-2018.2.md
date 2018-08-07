@@ -337,6 +337,11 @@ When enabling UI Block for server calls, all key presses are now blocked, in add
 Fixed an issue where if the user tried to apply selections (via subsets) to a datasource that was not directly used in the analysis. The selections would not be applied. 
 This worked as expected in Genus 17.5 and older versions, but due to performance optimizations it stopped working in 18.1.
 
+The issue has been corrected with the following Genus versions:
+
+- 2018.2, all available versions
+- 2018.1, file version 18.10.175.0 and later
+
 <!--ID af1f8f5d-8e37-4802-b614-f2ad3e542ac1 -->
 **#23125 Preview of Word documents not updated on navigate** (Desktop)
 
