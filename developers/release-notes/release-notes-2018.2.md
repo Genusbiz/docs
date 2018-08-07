@@ -120,19 +120,6 @@ For controls that have checked the Open the default Form option, the menu item w
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 94e01713-236f-4634-a499-d6c62522c958 -->
-**#23076 "Administrators" security group renamed to "App Administrators"** (Studio)
-
-Harmonisation of concepts after introducing app model admin rights (replacing access given to trusted users).
-
-<!--ID dc304c3c-c416-43f9-8188-d7a45e12c856 -->
-**#23112 Run a Search effect** (Desktop;Services)
-
-The Run a Search effect executes a Genus Search connected to a modeled object. The effect has three different result types. 1. Return the number of objects from the result. 2. For each result we can create a object and add object identifier and name. 3. Open the Search in Genus (this option will not work on a server).
-
-<!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Minor new functionality
-<!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 1bd30149-d953-436f-a62a-3cdc5361ca83 -->
 **#23074 General settings in Genus Studio** (Studio)
 
@@ -152,6 +139,24 @@ Analysis themes are replaced by web themes which are shared by all web-based com
 
 Existing analysis themes will be converted to web themes when you upgrade to this version.
 
+<!--ID 5b5535af-78e8-43bc-a863-0d07c0062a96 -->
+**#23091 Analysis - New action** (Desktop)
+
+Added a new action - reload datamart. When pressed, the client will unload the current datamart, and reload with updated data.
+
+<!--ID dc304c3c-c416-43f9-8188-d7a45e12c856 -->
+**#23112 Run a Search effect** (Desktop;Services)
+
+The Run a Search effect executes a Genus Search connected to a modeled object. The effect has three different result types. 1. Return the number of objects from the result. 2. For each result we can create a object and add object identifier and name. 3. Open the Search in Genus (this option will not work on a server).
+
+<!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+## Minor new functionality
+<!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 94e01713-236f-4634-a499-d6c62522c958 -->
+**#23076 "Administrators" security group renamed to "App Administrators"** (Studio)
+
+Harmonisation of concepts after introducing app model admin rights (replacing access given to trusted users).
+
 <!--ID 8c389863-0552-4574-91ee-64dfa74956ce -->
 **#23080 Can now set default app for Genus Apps for Web installastion** (Web)
 
@@ -164,11 +169,6 @@ Added support for Math.abs in the formula designer.
 **#23090 The Merge Data Effect can now be executed without specifying merge data source.** (Desktop;Services)
 
 This is useful when the effect is used to convert a file without merging data.
-
-<!--ID 5b5535af-78e8-43bc-a863-0d07c0062a96 -->
-**#23091 Analysis - New action** (Desktop)
-
-Added a new action - reload datamart. When pressed, the client will unload the current datamart, and reload with updated data.
 
 <!--ID 7d11a5c1-1768-4bb4-85bc-5868c69fa30f -->
 **#23097 &Aring;pen connected task in Run a Task effekt** (Studio)
