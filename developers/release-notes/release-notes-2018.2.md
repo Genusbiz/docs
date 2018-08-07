@@ -158,7 +158,9 @@ The Run a Search effect executes a Genus Search connected to a modeled object. T
 Harmonisation of concepts after introducing app model admin rights (replacing access given to trusted users).
 
 <!--ID 8c389863-0552-4574-91ee-64dfa74956ce -->
-**#23080 Can now set default app for Genus Apps for Web installastion** (Web)
+**#23080 Can now set default app for Genus Apps for Web installation** (Web)
+
+If there are more than one app available on a site, it is now possible to specify an app that will start automaticaly on page load. If it is only one app available, that one will start automatically.
 
 <!--ID 3c14caf5-4b10-4333-9467-e10bb48ef003 -->
 **#23087 Analysis - New function: Math.abs** (Desktop)
@@ -309,11 +311,6 @@ The issue has been corrected with the following Genus Services versions:
 
 Oracle does not support Read Uncommitted and has hence not been affected by this issue.
 
-<!--ID fda0534e-cbb0-45fc-b5a9-b987371d42ac -->
-**#23105 Analysis - Missing translations** (Desktop;Web)
-
-Added missing translations
-
 <!--ID f55846e3-e9cb-4270-acdb-86b861e8f73d -->
 **#23106 Analysis  Dropdown** (Desktop;Web)
 
@@ -331,6 +328,8 @@ Fixed an error that caused bookmarks to not be available before the analysis was
 
 <!--ID 34857736-5e49-4c17-8453-c005d183b5e8 -->
 **#23110 UI Block now blocks all key presses in input fields** (Web)
+
+When enabling UI Block for server calls, all key presses are now blocked, in addition to mouse clicks.
 
 <!--ID c96d9a82-3ab8-457b-b8d5-7533ae38598d -->
 **#23118 Analysis - Subsets** (Desktop)
