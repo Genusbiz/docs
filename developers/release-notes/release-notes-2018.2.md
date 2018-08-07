@@ -171,9 +171,9 @@ Added support for Math.abs in the formula designer.
 This is useful when the effect is used to convert a file without merging data.
 
 <!--ID 7d11a5c1-1768-4bb4-85bc-5868c69fa30f -->
-**#23097 &Aring;pen connected task in Run a Task effekt** (Studio)
+**#23097 Open connected task in Run a Task effect** (Studio)
 
-It's now possible to open the connected task from the Run a Task effekt.
+It's now possible to open the connected task from the Run a Task effect.
 
 <!--ID 7c07712f-d064-4ef4-82e5-a6ec8f6512a4 -->
 **#23111 Modelling connection to a Genus Search** (Desktop;Services)
@@ -205,7 +205,7 @@ Copy and Paste Security is now added as functions on all Discovery objects with 
 <!--ID 6d0879be-c085-4bb2-8032-7e7202ff4a5b -->
 **#23122 New lookup field implemented** (Desktop)
 
-A lookup field that can search and select data from one datasource (rest-service etc) and show reference to another datatype
+A lookup field that can search and select data from one datasource (rest-service etc) and show reference to another datatype.
 
 <!--ID f2042c91-d86d-41d4-84af-3cd2051b07b2 -->
 **#23123 The "Consume a REST Service" effect now supports Client Certificate authentication** (Desktop;Services;Studio)
@@ -215,7 +215,7 @@ The **Consume a REST Service** effect now includes a new, optional **Certificate
 <!--ID a69920c0-d28c-4199-a527-fd8f2e3e3e5a -->
 **#23124 Optimalization in the Create Objects effect** (Desktop;Studio)
 
-When createing a large xml-document from multiple data sources with many objects we can use the Filter Connection option to make a filter connection between the data sources.
+When creating a large xml-document from multiple data sources with many objects, we can use the Filter Connection option to make a filter connection between the data sources.
 
 <!--ID 574a7c04-e2c3-4453-b9bf-305c72a9e51b -->
 **#23126 Added support for merging Excel workbooks into a PDF document** (Desktop)
@@ -239,7 +239,7 @@ When a Number Search Field had focus and the user changed view, an error occured
 <!--ID 6e5cd458-59f7-4cc4-a650-88782b3a159a -->
 **#23079 Fixed bug in wildcard SQL-generation** (Desktop)
 
-When using advanced search, the wildcard operator returned an invalid SQL for fulltext index properties
+When using advanced search, the wildcard operator returned an invalid SQL for fulltext index properties.
 
 <!--ID 87a176b0-15a7-4cc2-bbe2-a6f22a06a764 -->
 **#23085 Error in evaluation of Month vs a Calendar time value** (Desktop)
@@ -254,7 +254,7 @@ This should now behave the same as on iOS and Android, where there is a choice b
 <!--ID 832762b1-1425-494f-bfe0-cb458561a84c -->
 **#23088 Handle of invalid file for import data effect** (Desktop)
 
-If we have a exce l file import and the user select a .JPG file a user friendly message is now displayed.
+If we have an Excel file import and the user selects a JPG file, a user friendly message is now displayed.
 
 <!--ID a13c8332-f8ab-40e4-bb94-407b4eeaa988 -->
 **#23089 Analysis - Data Mart loadtime** (Desktop)
@@ -269,7 +269,7 @@ When a command in a table or a form runs a local or global task we now remove th
 <!--ID adef3aac-4877-4aa7-9f6f-7fdcac35c3af -->
 **#23093 Added user information in the Data Mart designer** (Desktop)
 
-When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not relad the Mart description if the description is locked for edit.
+When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not reload the Mart description if the description is locked for edit.
 
 <!--ID d1e0e626-c91c-4bee-8af5-120b6169667c -->
 **#23095 Timeslider bug hvor den 'mister' mouseup event handleren sin** (Desktop)
@@ -288,7 +288,7 @@ All technical error messages are now also shown under a details-pane on the erro
 <!--ID b8a46cdc-097d-4d3f-a754-b050df3a2a38 -->
 **#23101 Analysis - Loading data** (Desktop;Web)
 
-Fixed an issue that in some cases could lead to longer load time when making seletions in an analysis.
+Fixed an issue that in some cases could lead to longer load time when making selections in an analysis.
 
 <!--ID 75d51934-1685-4dd3-b332-8555de093ace -->
 **#23102 When browsing the next object the old document was visible in the previewer.** (Desktop)
