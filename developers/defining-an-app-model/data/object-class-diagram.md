@@ -1,132 +1,61 @@
-# Object Class Diagram
+---
+title: Object class diagram in Genus Studio
+description: Introduction to essential functionality that is available in Genus Studio for visualizing and maintaining object models.
+author: ablindblad
+---
 
-Optimal database design is a key component of any application development effort. A well aligned information architecture is just as critical and can only be realized with clearly documented metadata. The **Object Class Diagram** addresses both requirements by allowing you to visualize and maintain your object model. It also promotes effective communications between the various stakeholders of your application, and enables you to address design issues and concerns prior to any significant resource investments.
+# Object class diagram
 
-The Object Class Diagram helps you manage large object models through **pages**, dividing the model into smaller, manageable subsets. On each page you can insert Object Classes already existing in your app model, or draft new classes and properties.
+The object class diagram is a tool for visualizing and maintaining object models. Its main purpose is to facilitate architectural design, and to promote effective communication between application stakeholders. The tool allows you to visualize small, manageable parts of your object model, and it supports bi-directional synchronization between model and database. You are also free to create and edit object and property drafts. The aim of this article is to introduce essential functionality that is available in the object class diagram.
 
-Bi-directional synchronization of the object model and the database is supported through **reverse- and forward engineering**. Reverse engineering helps you to identify, assess and manage changes between the object model and the database via synchronization of database tables and columns. As the model is changed, you can propagate the changes to the database by automated SQL-script generation provided by the forward engineering functionality.
+The object class diagram is found in the **Directory** tree of [Genus Studio](../getting-started/how-to-open-genus-studio.md), under **Data**.
 
 ![object_class_diagram_example.png](media/object_class_diagram_example.png "Object class diagram exmaple")
 
 
-## How to Open the Object Class Diagram
+## Pages <a name="add-rearrange-delete-and-rename-pages"/>
 
-1.  [Open Genus Studio](../getting-started/how-to-open-genus-studio.md).
-2.  In the **Directory Tree**, click the **Object Classes** folder.
-3.  On the status bar at the lower right-part of the window, click **Diagram**.
+Pages give you the opportunity to divide your object model into smaller, manageable subsets. By default, an empty diagram contains a single page named “Master”. The Master page contains all object classes and drafts defined in your app model.
 
-
-## Add, Rearrange, Delete and Rename Pages <a name="add-rearrange-delete-and-rename-pages"/>
-
-Pages gives you the opportunity to divide your object model into smaller, manageable subsets. By default, an empty diagram contains a single page named **Master**. The Master page contains all Object Classes and drafts defined in your app model.
-
-**Add a New Page**
-
-To quickly insert a new page at the end of the existing pages, do the following:
-
-1.  Click the **New Page** tab.
-2.  In the **New Page** dialog, type a name for the page.
-3.  Click **OK**.
-
-To insert a new page in front of an existing page, do the following:
-
-1.  Right-click the tab for the existing page, and then click **Insert Page** on the shortcut menu.
-2.  In the **New Page** dialog, type a name for the page.
-3.  Click **OK**.
-
-**Rearrange the Order of Pages**
-
-1.  Right-click a **page** tab, and then click **Sort Pages** on the shortcut menu.
-2.  In the **Page Order** list, click the page you want to move, and then click **Move Up** or **Move Down**.
-3.  Click **OK**.
-
-**Delete a Page**
-
-Right-click the tab for the pageyou want do delete, and then click **Delete** on the shortcut menu.
-
-**Rename a Page**
-
-1.  Right-click the tab for the page you want to rename, and then click **Rename** on the shortcut menu.
-2.  In the **Rename Page** dialog, type a name for the page.
-3.  Click **OK**.
+By right-clicking a page tab, you can add, rearrange, delete and rename pages.
 
 
 
-## Change the Style for Connectors on a Page
+## Connectors
 
-A connector is a line which connects two shapes in your diagram. A connector is drawn if one shape has an outbound reference to another shape. For example, if the Object Class _Contact Person_ is part of _Customer_, that is, _Contact Person_ has an outbound reference to _Customer,_ a connector is drawn between the two shapes. The arrow at the endpoint of a connector indicates if it is an outbound- (_Contact Person_) or inbound reference (_Customer_).
+Connectors are lines connecting objects to each other in the diagram. You can change the style of these by right-clicking and selecting **Format Page**. Here you will be able to choose the **Line Style** (i.e. the shape of the lines) and the **Connection Style** (i.e. the location from where the lines are drawn) for the given page.
 
-You can change the look of the connectors by changing the line style and the connection style:
-
-1.  Right-click the page, and then in the shortcut menu, click **Format Page**.
-2.  In the **Line Style** box, select either curved or straight lines.
-3.  In the **Connection Style** box, select a connection style: **Property** (connectors are drawn from properties with outbound references), **Class Top & Bottom** (connectors are drawn from the top and bottom of the shape, inbound and outbound references are drawn with separate endpoints for inbound and outbound references) or **Class All Sides** (connectors are drawn from all sides of the shape).
-
-To change the default format settings used for new pages, do the following:
-
-1.  In the **Tools** menu, click **Diagram Options**.
-2.  Click the **Page** tab.
+To change the default format settings used for new pages, navigate to the **Tools** menu and click **Diagram Options**.
 
 
 
-## Add Object Classes to a Page
+## Adding object classes
 
-1.  Right-click the page. In the shortcut menu, point to **Insert** and then click **Object Classes**.
-2.  In the **Available Classes** list, select which Object Classes you want to insert, and then click **Select**.
-3.  To remove a selected Object Class, in the **Selected Classes** list, click the Object Class, and then click **Remove**. Note that Object Classes already added to a page are displayed in the **Selected Classes** list.
-4.  Click **OK**.
+To add an object class, right-click on a page and select **Object Classes** under **Insert**. In the window that emerges, you will be able to select (and deselect) objects to show, from a list of available object classes.
 
-**Insert Outbound- or Inbound Object Classes for an Object Class**
+**Outbound or inbound references**
 
-An Object Class (A) has an outbound reference to Object Class (B) if (A) contains a property where the data interpretation for the property equals (B). For example, if the Object Class _Department_ has a property _Manager_ with a data interpretation equal to _Employee_, then _Department_ has an outbound reference to _Employee_.
+An object class (A) has an outbound reference to object class (B) if (A) contains a property with data interpretation equal to (B). For example, if an object class _Department_ has a property “Manager” with data interpretation _Employee_, then _Department_ has an outbound reference to _Employee_. Conversely, object class (A) has an inbound reference to (B) if (B) has a property with interpretation (A). In the example above, _Employee_ has an inbound reference to _Department_.
 
-An Object Class (A) has an inbound reference to Object Class (B) if (B) contains a property where the data interpretation for the property equals (A). In the example above, _Employee_ has an inbound reference from _Department_.
-
-To insert outbound- or inbound Object Classes for an Object Class on a page, do the following:
-
-1.  Right-click the Object Class which you want to insert outbound- or inbound Object Classes for. In the shortcut menu, point to **Insert**, and then click **Outbound Object Classes** or **Inbound****Object Classes**.
-2.  Click **Select All** to select all Object Classes, or in the **Available Classes** list, select which Object Classes you want to insert, and then click **Select**.
-3.  Click **OK**.
-
-For example, to quickly build a star schema, insert the fact Object Class of interest, and then insert all outbound references from the fact Object Class to the dimension Object Classes.
+To add outbound or inbound object classes, right-click on a given object class, point to **Insert** and click **Outbound Object Classes**/**Inbound Object Classes**. Here you can select (or deselect) available object classes to display.
 
 
 
-## Add a Draft Class to a Page
+## Draft classes
 
-Drafting of classes is a powerful means to create a low-cost collaborative graphical design of your model. Bi-directional synchronization of drafts are supported through forward- and reverse engineering.
+Drafting of classes is a powerful means to create a low-cost, collaborative graphical design of your model. Bi-directional synchronization of drafts are supported through forward and reverse engineering.
 
-To add a draft class, do the following:
+To add a draft class, right-click on a page, point to **Insert** and click **Class (Draft)**. 
 
-1.  Right-click the page. In the shortcut menu, point to **Insert** and then click **Class (Draft)**.
-2.  In the **Logical Name** box, type the name for the class.
-3.  In the **Physical Name** box, type the RDMS table name for the class.
-4.  Optionally type a description in the **Description** box.
+You can also replace a draft with an object class. If you do this, the draft – and all outbound references to it – are replaced with the selected object class. The draft itself will be permanently deleted from the diagram. Right-click on the page or a draft object, and select **Replace Draft**. You can choose to copy the draft descriptions to the replacement.
 
 
 
-## Replace a Draft with an Object Class
+## Draft properties
 
-1.  Right-click a page or the draft which you want to replace, and then in the shortcut menu click **Replace Draft**.
-2.  In the **Draft** box, select the draft which you want to replace.
-3.  In the **Replace with** box, select an Object Class.
-4.  Select the **Copy descriptions from draft** checkbox if you want to copy descriptions from the draft to the Object Class. Properties are matched by physical name.
+As with classes, the diagram allows the user to draft properties. Properties can be drafted on both draft classes and object classes. 
 
-The draft is replaced with the selected Object Class on all pages containing the draft, and outbound references in other classes to the draft are replaced with an outbound reference to the Object Class.
-
-**Note!** The draft is permanently deleted from the diagram.
-
-
-
-## Add a Draft Property to a Class
-
-1.  Right-click the draft- or Object Class which you want to add a property to. In the shortcut menu, point to **Insert** and then click **Property (Draft)**.
-2.  In the **Logical Name** box, type a name for the property.
-3.  In the **Physical Name** box, type the RDBMS column name for the property.
-4.  If the property is an outbound reference to another class, select the class in the **Outbound Reference** box. The data type is automatically filled out with the data type for the primary key in the outbound class. If the property not is an outbound reference, in the **Data Type** box, type a data type.
-5.  Optionally enter a description in the **Description** box.
-6.  Select the **Primary Key** check box if the property is a primary key.
-7.  I f a value for the property is required, click to clear the **Allow Nulls** check box.
+To add a draft property, right-click on a class, point to **Insert** and select **Property (Draft)**. In the window that pops up, you will have to provide the property’s logical and physical (RDBMS) name and data type. You can also optionally write a description, and you must select whether the property is an outbound reference, if it is a primary key and if it can contain nulls.
 
 **Tip**. To quickly insert a draft property, click to select a shape and then press CTRL+PLUS.
 
@@ -136,307 +65,64 @@ The draft is replaced with the selected Object Class on all pages containing the
 
 
 
-## Hide or Unhide a Property in a Class
+## Hide/Unhide properties and connectors
 
-To hide a property, do the following:
+Properties and connectors can be hidden or made visible with the **Hide** and **Unhide** functionality which is available in the menu that opens when you right-click a property or a class. You can decide to hide/unhide single properties or defined property types. The visibility of properties and connectors can also be controlled under **Format Shape** in the same menu.
 
-*   Right-click the property. In the shortcut menu point to **Hide** and then click **Property**.
 
-To unhide a hidden property, do the following:
 
-*   If hidden properties not are displayed, right-click the class, and then in the shortcut menu, click **Format Shape**. In the **Format Shape** dialog box, select the **Hidden Properties** check box in the **View** section. Click **OK**.
-*   Right-click the hidden property. In the shortcut menu point to **Unhide** and then click **Property**.
+## Text boxes
 
-You can also hide and unhide properties of a specific type:
+Pages can have text boxes with descriptive information and comments. To add a text box, right-click on a page, point to **Insert**, and select **Text Box**.
 
-*   Right-click the draft- or Object Class which you want to hide or unhide properties for. In the shortcut menu, point to **Hide** or **Unhide,** and then click a property type.
-*   You can hide or unhide properties of the following types: **Auditing Properties**, **Function Properties**, **Primary Keys** and **Reference Properties**.
 
-**Tip**. You can hide or unhide more than one property in a single operation in the **Property** section in the **Format Shape** dialog box (right-click the shape, and then in the shortcut menu, click **Format Shape**).
 
+## Shape clipboard
 
+Shapes, e.g. object classes, can be copied and moved between pages, using standardized **Copy**, **Cut** and **Paste** functionality. 
 
-## Hide or Unhide an Outbound Connector from a Class
+To remove shapes from the current page, mark them and press DELETE. If you would like to delete the shapes permanently, i.e. from the master page and from all other pages, press SHIFT+DELETE instead. 
 
-A connector is a line which connects two shapes in your diagram. A connector is drawn if one shape has an outbound reference to another shape. In some cases you may not want to draw connectors for all outbound references.
+**Note.** You cannot move object classes from the master page to other pages. Also, if you delete a shape on the master page, it will be deleted permanently. 
 
-To hide an outbound connector for a property, do the following:
 
-*   Right-click the property. In the shortcut menu point to **Hide** and then click **Outbound Connector**.
 
-To unhide a hidden outbound connector, do the following:
+## Format shapes
 
-*   Right-click the property. In the shortcut menu point to **Unhide** and then click **Outbound Connector**.
+To change the look of the shapes in the diagram, right-click on the shapes that you want to format, and in the shortcut menu click **Format Shape**. You can change the background color of the shapes, hide or unhide information and descriptions, alternate between physical and logical names, etc. 
 
-**Tip**. You can hide or unhide more than one connector in a single operation in the **Property** section in the **Format Shape** dialog box (right-click the shape, and then in the shortcut menu, click **Format Shape**).
+Graphics alterations, such as changing fill color, can also be done by copying the formatting from one shape to another. To do that, use **Paste Format** after **Copy**. You can also change the default format settings under **Diagram Settings** in the **Tools** menu.
 
+Using the menu in the bottom right-corner of the diagram, you can zoom in and out and view the diagram in full screen mode.
 
 
-## Change the Display Order for Properties in a Class
 
-*   Click to select a property, and then press SHIFT+ALT+UP or SHIFT+ALT+DOWN.
+## Shape containers
 
+As a mean to increase the readability of your object model, the diagram allows you to group shapes “containers”. Select the shapes that you want to include in the container, right-click, point to **Insert** and click **Container**. You can drag shapes in and out of the container afterwards.
 
 
-## Add a Text Box to a Page
 
-1.  Right-click the page. In the shortcut menu, point to **Insert** and then click **Text Box**.
-2.  In the **Text** box, type a text.
-3.  Click **OK**.
+## Forward and reverse engineering 
 
+Bi-directional synchronization of the object model and the database is supported through reverse and forward engineering. You will find this functionality under **Actions** in the main tool bar.
 
+**Forward engineering**
 
-## Copy or Move Shapes between Pages
+The forward engineering functionality is used to propagate object model changes to the database. It automatically generates SQL-scripts that you can query the database with in order to update the database. You can choose which changes you want to include in the SQL script generation. 
 
-1.  Select the shapes which you want to copy or move.
-2.  In the **Edit** menu, click **Copy** to copy the selected shapes, or **Cut** to move the selected shapes.
-3.  Click the tab for the page you want to copy or move the shapes to.
-4.  In the **Edit** menu, click **Paste**.
+**Reverse engineering**
 
-**Note.** You can not move Object Classes from the master page to another page.
+The reverse engineering functionality helps you to identify, assess and manage changes between the object model and the database via synchronization of database tables and columns. New tables and columns are added as draft classes and properties. Only draft properties are affected by reverse engineering, i.e. if changes are made to a table column associated with an object class property, it will not be reflected in your diagram after reverse engineering. You can select which tables you want to update your object class diagram with.
 
 
 
-## Delete or Remove Shapes
+## Shapes as picture in document
 
-To remove one or more shapes from the current page, select the shapes which you want to remove, and the press DELETE.
+You can easily export pictures of your model to text documents, spreadsheets and presentations. To do so, simply use copy-paste. Select the shapes that you want to include, right-click, press **Copy** and paste it into your target document. 
 
-To permanently delete the selected shapes, press SHIFT+DELETE. When a shape is permanetly deleted, the shape is deleted from the master page and all other pages in your diagram.
 
-**Note.** If you delete a shape on the master page, the shape is permanently deleted.
 
+## Keyboard shortcuts
 
-
-## Format a Shape
-
-Right-click the shape you want to format, and then in shortcut menu, click **Format Shape**. The formatting options available for the different types of shapes are described in the table below.
-
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>
-
-Option
-
-</th>
-
-<th>Description</th>
-
-<th>Applies to Shapes of Type</th>
-
-</tr>
-
-<tr>
-
-<td>Fill Color</td>
-
-<td>Changes the background color for the shape</td>
-
-<td>All shapes</td>
-
-</tr>
-
-<tr>
-
-<td>Naming</td>
-
-<td>
-
-Alternates between physical and logical naming for a class.
-
-**Tip**. To quickly alternate the naming for a class, press CTRL+2.
-
-</td>
-
-<td>Draft class, object class</td>
-
-</tr>
-
-<tr>
-
-<td>View - Properties</td>
-
-<td>
-
-Hides or unhides properties.
-
-**Tip.** To quickly hide or unhide properties, click the arrow in the upper-right corner of the shape.
-
-</td>
-
-<td>Draft class, object class</td>
-
-</tr>
-
-<tr>
-
-<td>View - Hidden Properties</td>
-
-<td>
-
-Hides or unhides hidden properties.
-
-**Tip.** To quickly hide or unhide hidden properties, press the key combination ALT+SHIFT+PLUS or ALT+SHIFT+MINUS**.**
-
-</td>
-
-<td>Draft class, object class</td>
-
-</tr>
-
-<tr>
-
-<td>View - Data Type for Properties</td>
-
-<td>Hides or unhides the data type for properties.</td>
-
-<td>Draft class, object class</td>
-
-</tr>
-
-<tr>
-
-<td>View - Description</td>
-
-<td>Hides or unhides the description. The description is displayed in a text box below the shape.</td>
-
-<td>Draft class, object class, container</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-You can apply graphics formatting, such as fill color, by copying formatting from one shape:
-
-1.  Select the shape that has the formatting that you want to copy.
-2.  In the **Edit** menu, click **Copy**.
-3.  Select the shapes that you want to format, and then in the **Edit** menu, click **Paste Format**.
-
-To change the default format settings used for new shapes, do the following:
-
-1.  In the **Tools** menu, click **Diagram Options**.
-2.  Click the **Shape** tab.
-
-
-
-## Group Shapes in a Container
-
-Containers allows you to group shapes, such as Object Classes within a composition. To group a set of shapes, do the following:
-
-1.  Begin by selecting the first shape you want to place in the container. Press CTRL, and click on additional shapes you want to group together. When you are done, right-click on the page. In the shortcut menu, point to **Insert** and then click **Container**.
-2.  In the **New Container** dialog box, type a name and description for the container.
-
-If you want to place additional shapes in the container, simply drag the shapes into the container. To remove a shape from a container, drag the shape outside the container.
-
-**Tip.** To quickly group selected shapes in a new container, press CTRL+G.
-
-
-
-## Zoom In or Out of a Page
-
-You can zoom in to get a close-up view of a page, or zoom out to see more of a page at a reduced size.
-
-To chooze a particular zoom setting, do the following:
-
-*   On the status bar, click **Zoom** **![object_class_diagram_zoom.png](media/object_class_diagram_zoom.png).**
-*   In the **Zoom** dialog box, enter a percentage or choose one of the predefined zoom settings.
-
-To zoom the page to 100% of the normal size, do the following:
-
-*   On the status bar, click **Zoom 100%** **![object_class_diagram_zoom_100_percent.jpg](media/object_class_diagram_zoom_100_percent.jpg)**.
-
-To zoom the page so that all shapes fits in the window, do the following:
-
-*   On the status bar, click **Zoom to Whole Page** **![object_class_diagram_zoom_whole_page.jpg](media/object_class_diagram_zoom_whole_page.jpg)**.
-
-
-
-## View the Diagram in Full Screen View
-
-On the status bar, click **Slide Show** **![object_class_diagram_zoom_slide_show.png](media/object_class_diagram_zoom_slide_show.png).**
-
-The current page is displayed in full screen view. To page through the diagram, click the arrows?in the upper-right corner of the window. To turn off full screen view, click Close in the upper-right corner of the screen, or press ESC.
-
-
-
-## Forward Engineering
-
-Using the **Forward Engineering Wizard**, you can propagate changes in your model to the database by automated SQL-script generation.
-
-*   In the **Actions** menu, click **Forward Engineering**.
-*   Select which classes you would like to script. To add one or more class, press CTRL and click the classes in the **Available Classes** list, and then click **Select**. To remove one or more selected classes, press CTRL and click the classes in the **Selected Classes** list, and then click **Remove**. To select or remove all classes, click **Select All** or **Remove All** respectively. You can filter the types of classes to display by selecting the **View** check boxes below the **Available Classes** list.
-*   Click **Next**.
-*   Choose which SQL-statements you would like to include in the script and the vendor version for the database where you are planning to run the script. By default the database vendor version for your app model is selected.
-*   Click **Next** to generate the SQL-script.
-*   To copy the script to the clipboard, click **Copy to Clipboard**. To save the script to a file, click **Save to File**.
-*   Click **Finish**.
-
-
-
-## Reverse Engineering
-
-Using the **Reverse Engineering Wizard**, you can identify, assess and manage changes between your object model and the database via synchronization of database tables and columns. New tables and columns are added as draft classes and properties. Changes made to columns associated with a property in your diagram are only applied to draft properties. Object Class properties are not affected by reverse engineering.
-
-*   In the **Actions** menu, click **Reverse Engineering**.
-*   In the **Logical Database** box, select the logical database you would like to reverse engineer. If your app model contains more than one data set, in the **Data Set** box, select which data set to access when reading the database dictionary.
-*   Click **Next**.
-*   Select which tables you would like to reverse engineer. To add one or more table, press CTRL and click the tables in the **Available Tables** list, and then click **Select**. To remove one or more selected tables, press CTRL and click the tables in the **Selected Tables** list, and then click **Remove**. To select or remove all tables, click **Select All** or **Remove All** respectively. Tables not found in your diagram are identified as _New Table_ in **Available Tables** list. Tables found in your diagram are identified as either _Draft_ or _Object Class_. You can filter the types of tables to display by selecting the **View** check boxes below the **Available Tables** list.
-*   Click **Next**.
-*   On the options page, specify how to synchronize the diagram with the selected database tables:
-
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<td>**New Tables**</td>
-
-<td>Add shapes to the current page or the master page only.</td>
-
-</tr>
-
-<tr>
-
-<td>**New Table Columns**</td>
-
-<td>Map foreign keys by name.</td>
-
-</tr>
-
-<tr>
-
-<td>**Deleted Table Columns**</td>
-
-<td>Remove property or mark property as deleted.</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-*   Click **Next**.
-*   Review your selections to verify that you are extracting the information you want. Click **Finish**.
-
-
-
-## Insert Shapes as a Picture in a Document
-
-If you want to insert shapes as a picture in a document, for example in a spreadsheet or a text document, you can simply copy the shapes and paste them as a picture in the document.
-
-1.  Select the shapes you want to include in the picture. To select all shapes on a page, right-click the page, and then in the shortcut menu, click **Select All**.
-2.  In the **Edit** menu, click **Copy**.
-3.  In the document, click where you want to insert the picture, and then in the **Edit** menu, click **Paste**.
-
-
-
-## Keyboard Shortcuts
-
-Keyboard shortcuts available in the Object Class diagram are described in the article [Keyboard Shortcuts for Genus Desktop Client](../user-interface/keyboard-shortcuts.md).
-
+Keyboard shortcuts available in the object class diagram are described in the article [Keyboard shortcuts for Genus Desktop Client](../user-interface/keyboard-shortcuts.md).
