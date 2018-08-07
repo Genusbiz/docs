@@ -33,14 +33,14 @@ Deletes all entries in all rows of the selected namespace.
 
 ### Delete key(s)
 To delete a single or multiple key(s), mark desired key(s) in the grid (a row corresponds to a key), right click to open the context menu and click **Delete key(s)**.
-Deletes all selected rows, including entries in rows which are [hidden](#hide-language) from view. 
+Deletes all selected rows, including entries in rows which are [hidden](#hideshow-language) from view. 
 
 ### Clear cell
-To clear a cell right click on desired cell to open the context menu and click **Clear**, or mark the cell and press [**Delete**](#keyboard actions)
+To clear a cell right click on desired cell to open the context menu and click **Clear**, or mark the cell and press [**Delete**](#keyboard-actions)
 Deletes the content of the selected cell. May not be used on the namspace, key, description and the original language columns.
 
 ### Edit cell
-To edit a cell either open the edit modal by pressing [**Enter**](#key actions) on desired cell. or inline edit by selecting a cell and starting to write, this will overwrite the contents of the cell. It is also possible to inline edit by pressing [**F2**](#key actions) on desired cell, this will keep the contents of the cell.
+To edit a cell either open the edit modal by pressing [**Enter**](#key-actions) on desired cell. or inline edit by selecting a cell and starting to write, this will overwrite the contents of the cell. It is also possible to inline edit by pressing [**F2**](#key-actions) on desired cell, this will keep the contents of the cell.
 Note that if the cell is multilined (contains '\n') **F2** opens the edit modal and does not start inline edit.
 It is also not possible to disable multiline-mode if the cell is multilined. To disable multiline all newlines ('\n') have to be deleted.
 
@@ -50,12 +50,12 @@ To search in a specific column use the search bar located below the column name.
 These two functions may be used simultaneously. 
 
 ### Markdown
-To preview markdown of the translation, toggle the **Markdown** button located in the [edit modal](#edit cell).
+To preview markdown of the translation, toggle the **Markdown** button located in the [edit modal](#edit-cell).
 The preview is live.
 
 ### Import from file
 To import from a zip file, open the options meny located right in the toolbar and click **Import from file**.
-Click on **Choose File** and locate the desired zip file. The file has to use the i18n format explained in [Export to file](#export to file). 
+Click on **Choose File** and locate the desired zip file. The file has to use the i18n format explained in [Export to file](#export-to-file). 
 Choose desired languages and namespaces and click **Import**.
 
 ### Export to file
