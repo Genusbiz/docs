@@ -125,6 +125,11 @@ For controls that have checked the Open the default Form option, the menu item w
 
 Harmonisation of concepts after introducing app model admin rights (replacing access given to trusted users).
 
+<!--ID dc304c3c-c416-43f9-8188-d7a45e12c856 -->
+**#23112 Run a Search effect** (Desktop;Services)
+
+The Run a Search effect executes a Genus Search connected to a modeled object. The effect has three different result types. 1. Return the number of objects from the result. 2. For each result we can create a object and add object identifier and name. 3. Open the Search in Genus (this option will not work on a server).
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -174,11 +179,6 @@ It's now possible to open the connected task from the Run a Task effekt.
 **#23111 Modelling connection to a Genus Search** (Desktop;Services)
 
 It is now possible to create a column with data interpretation Search. The search can be executed in the table context menu and in the reference field context menu. A search can also be executed in the Run a Search effect.
-
-<!--ID dc304c3c-c416-43f9-8188-d7a45e12c856 -->
-**#23112 Run a Search effect** (Desktop;Services)
-
-The Run a Search effect executes a Genus Search connected to a modeled object. The effect has three different result types. 1. Return the number of objects from the result. 2. For each result we can create a object and add object identifier and name. 3. Open the Search in Genus (this option will not work on a server)
 
 <!--ID 4bb6f1bf-5954-4cf2-aacd-67a925e52750 -->
 **#23113 Analysis  Heatmap** (Desktop)
