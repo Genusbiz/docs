@@ -3,49 +3,96 @@
 ## Installation 
 
 ## Usage
-Translator gets a list of translations for a given appmodel and displays it in a grid to the user. In online mode all changes in the grid are immediately reflected in the database. In offline mode (_Not implemented_) a local state is kept. The first four columns display namspace, key, description and the original language of the appmodel respectively, of these columns only description may be empty. The remaining columns displays existing languages for the appmodel. Cells in these columns may be empty, and these columns may be sorted manually by dragging the header.
+Translator gets a list of translations for a given appmodel and displays it in a grid. In online mode all changes in the grid are immediately reflected in the database. In offline mode (_Not implemented_) a local state is kept. The first four columns display namspace, key, description and the original language of the appmodel respectively, of these columns only description may be empty. The remaining columns displays existing languages for the appmodel. Cells in these columns may be empty, and these columns may be sorted manually by dragging the header.
 
-### Hide language 
-By accessing the righthand "Languages" menu, the user may select which languages to view.  
-The original language of the appmodel may not be hidden. 
+### Hide/show language
+To hide/show languages, use the righthand **Languages** menu to toggle desired languages.
+The original language of the appmodel may not be hidden. All languages are shown by default.
 
-### Add a new namespace
-By using the "Add new namespace" functionality located under the "+", the user may add a new namespace. An unused namespace will not be saved in the database.
+### Add new namespace
+To add a new namespace, hover the **+** button located bottom-right and click on **Add new namespace**.
+An unused namespace will not be saved in the database.
 
-### Add a new language
-By using the "Add new language" functionality located under the "+", the user may add a new language. It will be immidiatly displayed right of the original language. An unused language will not be saved in the database.
+### Add new language
+To add a new language, hover the **+** button located bottom-right and click on **Add new language**.
+It will be immidiatly displayed right of the original language. An unused language will not be saved in the database.
 
-### Insert a new namespace-key pair 
-By using the "Add new key" functionality located on the "+" the user will be able to add a new namespace-key pair. An initial translation in the appmodel's original language is required. A description may also be added.  
-This proccess allows for the use of [markdown](#markdown).  
+### Add new key
+To add a new key, hover the **+** button located bottom-right and click on **Add new key**.
+A namespace for the key is required, as well as an initial translation in the original language. A description may also be added.  
+This proccess allows for the use of [markdown](#markdown) in the translation.  
 Note that both namespace and key must be in the format ``/[A-Z0-9_]+/g``, this is automatically enforced by the program.
 
-### Remove language 
-Located in the options button, right in the toolbar. Removes all entries in all rows of the selected language. 
+### Delete language
+To delete a language, open the options menu located right in the toolbar and click **Delete language**.
+Deletes all entries in all rows of the selected language. 
 
-### Remove namespace 
-Located in the options button, right in the toolbar. Removes all entries in all rows of the selected namespace. 
+### Delete namespace 
+To delete a namespace, open the options menu located right in the toolbar and click **Delete namespace**.
+Deletes all entries in all rows of the selected namespace. 
 
-### Delete row(s)
-Located in the context menu in the grid. Deletes all selected rows, including entries in rows which are [hidden](#hide-language) from view. 
+### Delete key(s)
+To delete a single or multiple key(s), mark desired key(s) in the grid (a row corresponds to a key), right click to open the context menu and click **Delete key(s)**.
+Deletes all selected rows, including entries in rows which are [hidden](#hide-language) from view. 
 
 ### Clear cell
-Located in the context menu in the grid. Deletes the content of the selected cell. May not be used on the namspace, key, description and the original language columns.
+To clear a cell right click on desired cell to open the context menu and click **Clear**, or mark the cell and press [**Delete**](#keyboard actions)
+Deletes the content of the selected cell. May not be used on the namspace, key, description and the original language columns.
 
-### Search 
-The user may search for text occurrence in all columns by using the search box.  
-It is also possible to search in a particular column by using the search bar located below the column name.  
+### Edit cell
+To edit a cell either open the edit modal by pressing [**Enter**](#key actions) on desired cell. or inline edit by selecting a cell and starting to write, this will overwrite the contents of the cell. It is also possible to inline edit by pressing [**F2**](#key actions) on desired cell, this will keep the contents of the cell.
+Note that if the cell is multilined (contains '\n') **F2** opens the edit modal and does not start inline edit.
+It is also not possible to disable multiline-mode if the cell is multilined. To disable multiline all newlines ('\n') have to be deleted.
+
+### Search
+To search use the search field located in the toolbar. The search is a multicolumn search, it is also possible to search for multiple words by separating the search words with a space. 
+To search in a specific column use the search bar located below the column name.  
 These two functions may be used simultaneously. 
 
 ### Markdown
-When editing a translation the user may choose to display the text as markdown by toggling the option on. The user 
-
-### Export to file
+To preview markdown of the translation, toggle the **Markdown** button located in the [edit modal](#edit cell).
+The preview is live.
 
 ### Import from file
+To import from a zip file, open the options meny located right in the toolbar and click **Import from file**.
+Click on **Choose File** and locate the desired zip file. The file has to use the i18n format explained in [Export to file](#export to file). 
+Choose desired languages and namespaces and click **Import**.
 
-### Display only untranslated rows 
+### Export to file
+To export the grid to a zip file, open the options meny located right in the toolbar and click **Export to file**.
+Choose desired languages and namespaces and click **Export**.
+The file follows the i18n format:
+* Language
+  * Namespace.json
+  * Namespace2.json
+  
+    ...
+* Language2
+  * Namespace.json
+  
+    ...
+  
+  ...
+
+The namespace json files contains an object consisting of key : value pairs. 
+
+
+### Display only untranslated rows
+To display untranslated rows, click the on the **Show non-translated** toggle located in the toolbar.
+Only keys that are untranslated for at least 1 language are shown (not including desc).
 
 ### Display duplicates 
+To display duplicates, click on the **Show duplicates** toggle located in the toolbar.
+Only keys that have same values in at least 2 common languages are shown (not including desc).
 
-### Hide description
+### Hide/show description
+To hide/show the description column click the **Show description** toggle located in the toolbar.
+
+### Keyboard actions
+| Description                                                                | Key press      |
+| ---------------------------------------------------------------------------| -------------- |
+| Sets focus in the search box                                               | Ctrl+F         |
+| Opens edit modal on selected cell                                          | Enter          |
+| Clears selected cell                                                       | Delete         |
+| Starts inline edit on selected cell (works as Enter if cell is multilined) | F2             |
+| Exit modal / inline edit                                                   | Esc            |
