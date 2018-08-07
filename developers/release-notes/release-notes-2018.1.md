@@ -486,7 +486,7 @@ When a Number Search Field had focus and the user changed view, an error occured
 <!--ID 6e5cd458-59f7-4cc4-a650-88782b3a159a -->
 **#23079 Fixed bug in wildcard SQL-generation** (Desktop)
 
-When using advanced search, the wildcard operator returned an invalid SQL for fulltext index properties
+When using advanced search, the wildcard operator returned an invalid SQL for fulltext index properties.
 
 <!--ID 0d878203-6146-4033-bd28-8a6654e18fda -->
 **#23082 Error in copying table shortcut** (Studio)
@@ -506,7 +506,7 @@ This should now behave the same as on iOS and Android, where there is a choice b
 <!--ID 832762b1-1425-494f-bfe0-cb458561a84c -->
 **#23088 Handle of invalid file for import data effect** (Desktop)
 
-If we have a exce l file import and the user select a .JPG file a user friendly message is now displayed.
+If we have an Excel file import and the user selects a JPG file, a user friendly message is now displayed.
 
 <!--ID a13c8332-f8ab-40e4-bb94-407b4eeaa988 -->
 **#23089 Analysis - Data Mart loadtime** (Desktop)
@@ -521,7 +521,7 @@ When a command in a table or a form runs a local or global task we now remove th
 <!--ID adef3aac-4877-4aa7-9f6f-7fdcac35c3af -->
 **#23093 Added user information in the Data Mart designer** (Desktop)
 
-When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not relad the Mart description if the description is locked for edit.
+When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not reload the Mart description if the description is locked for edit.
 
 <!--ID d1e0e626-c91c-4bee-8af5-120b6169667c -->
 **#23095 Timeslider bug hvor den 'mister' mouseup event handleren sin** (Desktop)
@@ -545,7 +545,7 @@ All technical error messages are now also shown under a details-pane on the erro
 <!--ID b8a46cdc-097d-4d3f-a754-b050df3a2a38 -->
 **#23101 Analysis - Loading data** (Desktop;Web)
 
-Fixed an issue that in some cases could lead to longer load time when making seletions in an analysis.
+Fixed an issue that in some cases could lead to longer load time when making selections in an analysis.
 
 <!--ID 75d51934-1685-4dd3-b332-8555de093ace -->
 **#23102 When browsing the next object the old document was visible in the previewer.** (Desktop)
