@@ -25,28 +25,39 @@ Note that both namespace and key must be in the format ``/[A-Z0-9_]+/g``, this i
 
 ### Delete language
 To delete a language, open the options menu located right in the toolbar and click **Delete language**.
-Deletes all entries in all rows of the selected language. 
+This will delete all entries in all rows of the selected language. 
 
 ### Delete namespace 
 To delete a namespace, open the options menu located right in the toolbar and click **Delete namespace**.
-Deletes all entries in all rows of the selected namespace. 
+This will delete all entries in all rows of the selected namespace. 
 
 ### Delete key(s)
-To delete a single or multiple key(s), mark desired key(s) in the grid (a row corresponds to a key), right click to open the context menu and click **Delete key(s)**.
-Deletes all selected rows, including entries in rows which are [hidden](#hideshow-language) from view. 
+To delete a single or multiple keys, select the relevant keys in the grid (a row corresponds to a key), right click to open the context menu and click **Delete key(s)**.
+This will delete all the selected keys, including entries in keys which are [hidden](#hideshow-language) from view. 
 
 ### Clear cell
 To clear a cell right click on desired cell to open the context menu and click **Clear**, or mark the cell and press [**Delete**](#keyboard-actions)
-Deletes the content of the selected cell. May not be used on the namspace, key, description and the original language columns.
+Deletes the content of the selected cell. May not be used on the namspace, key, description or the original language columns.
 
 ### Edit cell
-To edit a cell either open the edit modal by pressing [**Enter**](#keyboard-actions) on desired cell. or inline edit by selecting a cell and starting to write, this will overwrite the contents of the cell. It is also possible to inline edit by pressing [**F2**](#keyboard-actions) on desired cell, this will keep the contents of the cell.
+To edit a cell, either open the edit modal by pressing [**Enter**](#keyboard-actions) on desired cell, or inline edit by pressing [**F2**](#keyboard-actions) on desired cell. If text is written directly into a cell, the content will be overwritten, using an inline view. 
 Note that if the cell is multilined (contains '\n') **F2** opens the edit modal and does not start inline edit.
-It is also not possible to disable multiline-mode if the cell is multilined. To disable multiline all newlines ('\n') have to be deleted.
+It is not possible to disable multiline-mode if the cell is already multilined without removing all newlines.
+
+### Display only untranslated rows
+To display untranslated rows, click the **Show non-translated** toggle located in the toolbar.
+Only keys that are untranslated for at least one of the shown languages (not including desc) are displayed.
+
+### Display duplicates 
+To display duplicates, click the **Show duplicates** toggle located in the toolbar.
+Only keys that have same value in some shown langauge (not including desc) are displayed.
+
+### Hide/show description
+To hide/show the description column click the **Show description** toggle located in the toolbar.
 
 ### Search
 To search use the search field located in the toolbar. The search is a multicolumn search, it is also possible to search for multiple words by separating the search words with a space. 
-To search in a specific column use the search bar located below the column name.  
+To search in a specific column use the search field located below the column name.  
 These two functions may be used simultaneously. 
 
 ### Markdown
@@ -62,31 +73,16 @@ Choose desired languages and namespaces and click **Import**.
 To export the grid to a zip file, open the options meny located right in the toolbar and click **Export to file**.
 Choose desired languages and namespaces and click **Export**.
 The file follows the i18n format:
-* Language
-  * Namespace.json
-  * Namespace2.json
-  
-    ...
+* Language  
+  * Namespace.json  
+  * Namespace2.json  
+    ...  
 * Language2
-  * Namespace.json
-  
-    ...
-  
+  * Namespace.json  
+    ...  
   ...
 
 The namespace json files contains an object consisting of key : value pairs. 
-
-
-### Display only untranslated rows
-To display untranslated rows, click the on the **Show non-translated** toggle located in the toolbar.
-Only keys that are untranslated for at least 1 language are shown (not including desc).
-
-### Display duplicates 
-To display duplicates, click on the **Show duplicates** toggle located in the toolbar.
-Only keys that have same values in at least 2 common languages are shown (not including desc).
-
-### Hide/show description
-To hide/show the description column click the **Show description** toggle located in the toolbar.
 
 ### Keyboard actions
 | Description                                                                | Key press      |
