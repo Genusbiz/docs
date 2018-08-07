@@ -274,7 +274,9 @@ When a command in a table or a form runs a local or global task we now remove th
 When the user changes a Data Mart, the user will now be notified that the changes will not take effect before the Data Mart designer is closed. The Reload Data Mart function do not reload the Mart description if the description is locked for edit.
 
 <!--ID d1e0e626-c91c-4bee-8af5-120b6169667c -->
-**#23095 Timeslider bug hvor den 'mister' mouseup event handleren sin** (Desktop)
+**#23095 (Analysis) Time Slider bugfix (Desktop)** (Desktop)
+
+The Timeslider no longer stops working properly if you drag it outside the desktop window.
 
 <!--ID a8913f1c-caec-49c8-9017-d69cbe45f6e1 -->
 **#23096 Analysis - Subset** (Desktop)
