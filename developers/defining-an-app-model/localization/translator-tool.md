@@ -40,7 +40,7 @@ To clear a cell right click on desired cell to open the context menu and click *
 Deletes the content of the selected cell. May not be used on the namspace, key, description and the original language columns.
 
 ### Edit cell
-To edit a cell either open the edit modal by pressing [**Enter**](#key-actions) on desired cell. or inline edit by selecting a cell and starting to write, this will overwrite the contents of the cell. It is also possible to inline edit by pressing [**F2**](#key-actions) on desired cell, this will keep the contents of the cell.
+To edit a cell either open the edit modal by pressing [**Enter**](#keyboard-actions) on desired cell. or inline edit by selecting a cell and starting to write, this will overwrite the contents of the cell. It is also possible to inline edit by pressing [**F2**](#keyboard-actions) on desired cell, this will keep the contents of the cell.
 Note that if the cell is multilined (contains '\n') **F2** opens the edit modal and does not start inline edit.
 It is also not possible to disable multiline-mode if the cell is multilined. To disable multiline all newlines ('\n') have to be deleted.
 
