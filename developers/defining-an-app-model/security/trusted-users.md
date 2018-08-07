@@ -7,4 +7,4 @@ To provide functionality to the end user, Genus Apps employs declarative data ab
 
 Only trusted users can modify this part of the app model.
 
-Trusted users are selected as part of the [step-by-step configuration of Genus Services](../../installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md#step-10---create-trusted-users).
+Trusted users are selected as part of the [step-by-step configuration of Genus Services](../../installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md#step-11---create-trusted-users).
