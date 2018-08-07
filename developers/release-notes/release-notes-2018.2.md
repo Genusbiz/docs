@@ -63,7 +63,7 @@ This section lists important changes introduced in this release. You will need t
 
 In older versions of Analysis, the same filter that was applied to the category, also needed to be applied to the value to get correct results. This has now been changed.  In version 18.2, filters applied to the category will also (by default), be applied to the value. This means its no longer necessary to apply the same filters on the value.
 
-Note: This only applies to filters applied to categories in the Analysis Designer. If the filter is applied on the Data Source in the Data Mart. You will still need to apply the same filter to the value to get correct results.
+Note: This only applies to filters applied to categories in the Analysis Designer. If the filter is applied on the Data Source in the Data Mart you will still need to apply the same filter to the value to get correct results.
 
 <!--ID 0dd136da-13d3-4373-b6cc-d596814d40ad -->
 **#23073 Trusted users replaced by app model admin rights** (Studio)
