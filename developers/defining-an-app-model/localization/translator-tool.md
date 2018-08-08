@@ -92,6 +92,7 @@ The namespace json files contains an object consisting of key : value pairs.
 | Description                                                                | Key press      |
 | ---------------------------------------------------------------------------| -------------- |
 | Sets focus in the search box                                               | Ctrl+F         |
+| Sets focus in the grid                                                     | Ctrl+E         |
 | Opens edit modal on selected cell                                          | Enter          |
 | Clears selected cell                                                       | Delete         |
 | Starts inline edit on selected cell (works as Enter if cell is multilined) | F2             |
