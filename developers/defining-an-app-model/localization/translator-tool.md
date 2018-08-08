@@ -56,9 +56,11 @@ Only keys that have same value in some shown langauge (not including desc) are d
 To hide/show the description column click the **Show description** toggle located in the toolbar.
 
 ### Search
-To search use the search field located in the toolbar. The search is a multicolumn search, it is also possible to search for multiple words by separating the search words with a space. 
+To search use the search field located in the toolbar. The search is a multicolumn search, it is also possible to search for multiple words by separating the search words with a space.
 To search in a specific column use the search field located below the column name.  
-These two functions may be used simultaneously. 
+These two functions may be used simultaneously.
+
+**Note:** The use of ">" and "<" in multicolumn search is currently disabled because of interference with html.
 
 ### Markdown
 To preview markdown of the translation, toggle the **Markdown** button located in the [edit modal](#edit-cell).
