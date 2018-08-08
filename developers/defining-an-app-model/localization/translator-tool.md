@@ -70,6 +70,7 @@ The preview is live.
 To import from a zip file, open the options meny located right in the toolbar and click **Import from file**.
 Click on **Choose File** and locate the desired zip file. The file has to use the i18n format explained in [Export to file](#export-to-file). 
 Choose desired languages and namespaces and click **Import**.
+Currently import will overwrite the data in the grid with the data from the file if it already exists, if not it will be appended. 
 
 ### Export to file
 To export the grid to a zip file, open the options meny located right in the toolbar and click **Export to file**.
