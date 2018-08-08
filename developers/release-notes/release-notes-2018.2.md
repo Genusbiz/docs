@@ -230,6 +230,11 @@ Support for merging Excel workbooks into a PDF or Word document added to the **M
 Added support for pie explosion. The option is available under Format, then under Pie Options.
 The option is by default disabled. The option can only be used in combination with ignore selection.
 
+<!--ID 7c2fca2a-983d-4c1b-8bae-d4071f4cd9e8 -->
+**#23129 Listing the Trigger properties for a Rule** (Studio)
+
+When listing Object Class Rules in Genus Studio, the list now contains a column with trigger properties.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
