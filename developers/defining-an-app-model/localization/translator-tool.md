@@ -82,6 +82,7 @@ The file follows the i18n format:
 * Language2
   * Namespace.json  
     ...  
+    
   ...
 
 The namespace json files contains an object consisting of key : value pairs. 
