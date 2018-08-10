@@ -362,6 +362,9 @@ When navigating to the next or previous object in a form containing a preview co
 
 If a data source is deleted from the self filter diagram view, the settings **Filter on Self** and **Use as Self** are not reset, and self connections are not deleted.
 
+<!--ID 7a09085b-ce63-4491-ac9f-90548a83cb95 -->
+**#23131 Fixed problem causing Genus Services to crash when generating reports in an agent.** (Services)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
