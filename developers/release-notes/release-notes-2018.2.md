@@ -235,6 +235,9 @@ The option is by default disabled. The option can only be used in combination wi
 
 When listing Object Class Rules in Genus Studio, the list now contains a column with trigger properties.
 
+<!--ID 4a398d5e-0818-4ce3-b449-e1977a958e1b -->
+**#23130 A manual reload of a datamart will add a record in the reload history.** (Desktop;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
