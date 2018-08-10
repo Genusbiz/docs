@@ -42,7 +42,10 @@ Deletes the content of the selected cell. May not be used on the namspace, key, 
 ### Edit cell
 To edit a cell, either open the edit modal by pressing [**Enter**](#keyboard-actions) on desired cell, or inline edit by pressing [**F2**](#keyboard-actions) on desired cell. If text is written directly into a cell, the content will be overwritten, using an inline view. 
 Note that if the cell is multilined (contains '\n') **F2** opens the edit modal and does not start inline edit.
-It is not possible to disable multiline-mode if the cell is already multilined without removing all newlines.
+It is not possible to disable multiline-mode if the cell is already multilined without removing all newlines.  
+
+### Edit namespace, key or description for a translation
+To edit the namespace, key or description of a translation, open the modal on the appmodel's **original** language. Note that if the namespace or key of a translation has been edited but not saved, the translation and description may not be edited. Likewise the namespace and key may not be edited if the translation and description has been edited but not saved.
 
 ### Display only untranslated rows
 To display untranslated rows, click the **Show non-translated** toggle located in the toolbar.
@@ -86,7 +89,7 @@ The file follows the i18n format:
     
   ...
 
-The namespace json files contains an object consisting of key : value pairs. 
+The namespace json files contain an object consisting of key : value pairs. 
 
 ### Keyboard actions
 | Description                                                                | Key press      |
