@@ -16,7 +16,7 @@ A web-theme can ba specified as a default on app model and data set level in add
 ## Analysis Colors
 Analysis colors are used for the qualified, disqualified, selected, excluded color logic in analysis.
 
-## Data Colors:
+## Data Colors
 Any number of colors can be specified as data colors. They are used when a series of objects should be allocated a color to separate them visually, like pies in a pie chart.
 
 
