@@ -30,6 +30,9 @@ To modify search properties, click **Modify**:
 To change the display order for a search property, click the property in the list, and then click **Move Up** or **Move Down**.
 
 
+## Search Groups
+All inbound properies will create a group under the objekt class. To hide one or more group for the end user, select inbound properties in this section.
+
 ## Search Paths
 
 Search Paths are used to find objects given search criteria on other Object Classes. For example, to find customers with payments placed for collection. The search paths are available as shortcuts to other object classes in the Group folder in [Advanced Search](../../../../../users/search-and-refine/using-advanced-search.md "Using Advanced Search").
