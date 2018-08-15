@@ -149,6 +149,11 @@ Added a new action - reload datamart. When pressed, the client will unload the c
 
 The Run a Search effect executes a Genus Search connected to a modeled object. The effect has three different result types. 1. Return the number of objects from the result. 2. For each result we can create a object and add object identifier and name. 3. Open the Search in Genus (this option will not work on a server).
 
+<!--ID b66c4e64-2fd5-4055-8265-765250d9dfdc -->
+**#23132 Hiding groups in advanced Search**
+
+A Search Group section is added on the Search folder in the Object Class Dialog. Groups are added based on inbound properties and in this section you can select witch groups you want to hide
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
