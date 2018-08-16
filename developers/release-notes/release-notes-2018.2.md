@@ -117,6 +117,11 @@ This rounding form is useful if you are adding rounded numbers.
 When a control only have one Open command, Genus added the Open in New Window menu item. Now we use the name of the command instead of a predefined text. This means that many grids and controls now will have a different name on the Open menu item. This was neccessary to change because Open in new window was in some cases not the best name choice.
 For controls that have checked the Open the default Form option, the menu item will now show Open + name on the concept.
 
+<!--ID fffab610-178f-49df-b205-f34f70bc9028 -->
+**#23133 Allow Remember Credentials requires explicit expiration** (Services;Web)
+
+The Genus Configuration tool provides a Directory property called "Allow Remember Credentials" (on the Authentication page), as documented [here](https://docs.genus.no/developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.html#app-clients). Earlier, if the "Token expires after ..." field was left blank a default value of 30 days was applied. In Genus Apps 2018.2 this has been changed, so that an explicit value is required. If the "Token expires after ..." field is left blank the app will behave as if the "Allow Remember Credentials" option had been disabled.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
