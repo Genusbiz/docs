@@ -119,7 +119,7 @@ Or
 |--|--|
 | **Sign out after n seconds of inactivity** | The app clients without any activity are signed out automatically after the specified number of seconds. If no number is specified the app clients are signed in indefinetely. |
 | **Allow Remember Credentials** | The app clients are offered an option to remember credentials upon sign-in. |
-| **Token expires after** | (Only available if "Allow Remember Credentials" is selected). This option will limit how long the client is allowed to remember the credentials. If no value (days and hours) is specified a default of 30 days will be applied. The value is a trade-off between security and convenience. |
+| **Token expires after** | (Only available if "Allow Remember Credentials" is selected). This option will limit how long the client is allowed to remember the credentials. The value entered should be a trade-off between security and convenience. _Note that if no value (days and hours) is specified the "Allow Remember Credentials" option will not be applied._ |
 | **Token Decryption Phrase** |(Only available if "Allow Remember Credentials" is selected). If an unprotected device is lost and the user has selected "Remember me" during the sign-in process an administrator may invalidate **all** remembered credentials on all devices by entering any random string in this text box. By design this is to be considered as a "security emergency break", as all this will have an impact on all users. |
 | **Allow Reset Password** | The app clients are offered a link to reset the password from the sign in screen. | 
 
