@@ -380,6 +380,11 @@ If a data source is deleted from the self filter diagram view, the settings **Fi
 <!--ID 7a09085b-ce63-4491-ac9f-90548a83cb95 -->
 **#23131 Fixed problem causing Genus Services to crash when generating reports in an agent.** (Services)
 
+<!--ID 9bccce4d-71f2-40bf-963c-ea8aab3ab362 -->
+**#23135 Dropdown** (Desktop)
+
+Dropdown has been renamed to Selector.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
