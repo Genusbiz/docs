@@ -248,6 +248,11 @@ When listing Object Class Rules in Genus Studio, the list now contains a column 
 <!--ID 4a398d5e-0818-4ce3-b449-e1977a958e1b -->
 **#23130 A manual reload of a datamart will add a record in the reload history.** (Desktop;Web)
 
+<!--ID ae1a1336-66e9-41e3-bfbb-75284020ff93 -->
+**#23134 Naming of Local Objects** (Desktop)
+
+When designing a Local Objects it is now possible to select a Name Property on the Data Source. This allowes the modeller to use a local object in a drop down control.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
