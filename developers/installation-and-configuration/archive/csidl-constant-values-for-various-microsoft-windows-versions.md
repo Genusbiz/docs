@@ -1,3 +1,6 @@
+> [!NOTE]
+> Archived content. The following content is valid for Genus Apps versions prior to 2017.4. Please see [here](../install-genus-desktop.md) for the most current content.
+
 # CSIDL Constant Values for Various Microsoft Windows Versions
 
 In Microsoft Windows, CSIDL (constant special item ID list) values provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system.
