@@ -122,6 +122,8 @@ For controls that have checked the Open the default Form option, the menu item w
 
 The Genus Configuration tool provides a Directory property called "Allow Remember Credentials" (on the Authentication page), as documented [here](https://docs.genus.no/developers/installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.html#app-clients). Earlier, if the "Token expires after ..." field was left blank a default value of 30 days was applied. In Genus Apps 2018.2 this has been changed, so that an explicit value is required. If the "Token expires after ..." field is left blank the app will behave as if the "Allow Remember Credentials" option had been disabled.
 
+Please note that wether or not the Remember Me checkbox is displayed on the login page is configured in the allowRemember property in the asconfig_web.js file in the web site folder. This value must be set according to Allow Remember Credentials in the Genus Configuration Tool.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
