@@ -12,9 +12,10 @@ Prerequisite:
 * Leave the "Database" field for Active and Descriptive partition blank.
 * Fill in "Schema" field for Active and Descriptive partition. Use different names, e.g: g_desc and g_active.
 * Configure "Physical Database Properties" in the same way as the directory database, by using a schema instead of a database.
-* Check "Delimit Names"
-* Click "Advanced.." and add name "AZURE" with value "1"
-* Create g_lock-table for the schema containing the data (eg. g_data.g_lock)
+* Check "Delimit Names".
+* Click "Advanced.." and add name "AZURE" with value "1".
+* Create g_lock-table for the schema containing the data (eg. g_data.g_lock).
+* If Audit trail/Event log is enabled for Object Classes, create the g_audit_trail-table for the schema containing the data.
 * Connection string example:
 ```
 Password=<password>;User ID=<username>@<server name>;Initial Catalog=<database name>;Data Source=tcp:<server name>.database.windows.net
