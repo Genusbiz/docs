@@ -19,7 +19,7 @@ Genus offers the following identity providers:
 - __Genus Native__ (username/password) (Forms Authentication)
 - __Custom__ OAuth2 authentication for customer specific authentication
 
-The socical media identity providers requires a developer account to register an authentication application. The Active Directory identity providers requires in-house setup. The BankID and ID-porten providers require registration/approval/agreement to utilize in addition to more configuration settings than the other identity providers.
+The socical media identity providers requires a developer account to register an authentication application. The Active Directory identity providers requires in-house setup. The BankID and ID-porten providers require registration/approval/agreement to utilize in addition to more configuration settings than the other identity providers, for instance urls for authentication and userinfo. These identity providers also have different settings for test and production environments.
 
 After registrering and configurated with the desired providers, the setup for the identity providers can be done in Genus Studio under the Security settings. Some settings are not editable for all the identity providers.
 
