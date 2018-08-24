@@ -19,8 +19,8 @@ Genus offers the following identity providers:
 - __Genus Native__ (username/password) (Forms Authentication)
 - __Custom__ OAuth2 authentication for customer specific authentication
 
-After registrering and configurating with the desired providers, the setup for the identity providers can be done in Genus Studio under the Security settings. Some settings are not editable for all the identity providers.
+After registrering and configurated with the desired providers, the setup for the identity providers can be done in Genus Studio under the Security settings. Some settings are not editable for all the identity providers.
 
 Add the desired providers by selecting the provider type, set the display name and the description, and select the color for the logon button. In the _Config_ field, fill out the clientId, clientSecret, callback url and other required information.
 
-Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. With the __Custom__ provider type, a custom implementation javascript file is needed. This file must be uploaded to the authservice and the file name must be input in the configuration. Creating and uploading this file must be done by a developer based on the customer's setup. The start url for __Custom__ must also include the same name as used in the custom implementation file (example: "auth/custom" and "custom.strategy.js").
+Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. With the __Custom__ provider type, a custom implementation javascript file is needed. This file must be uploaded to the authservice and the file name must be input in the configuration. Creating and uploading this file must be done by a developer based on the customer's identity provider setup. The start url for __Custom__ must also include the same name as used in the custom implementation file (example: "auth/custom" and "custom.strategy.js").
