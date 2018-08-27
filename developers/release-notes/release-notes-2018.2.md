@@ -255,6 +255,9 @@ When listing Object Class Rules in Genus Studio, the list now contains a column 
 
 When designing a Local Objects it is now possible to select a Name Property on the Data Source. This allowes the modeller to use a local object in a drop down control.
 
+<!--ID a9338856-f884-497e-9d36-084f317f37fe -->
+**#23136 The table control in cell selection mode now supports selection of multiple ranges.** (Desktop)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
