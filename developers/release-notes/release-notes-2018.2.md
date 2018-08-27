@@ -390,6 +390,11 @@ If a data source is deleted from the self filter diagram view, the settings **Fi
 
 Dropdown has been renamed to Selector.
 
+<!--ID ef7f844a-3b2e-4bb5-85a8-369b93959811 -->
+**#23137 Handling of null values in JSON** (Services)
+
+We now handles null values when serializing JSON values.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
