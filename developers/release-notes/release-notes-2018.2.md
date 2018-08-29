@@ -258,6 +258,9 @@ When designing a Local Objects it is now possible to select a Name Property on t
 <!--ID a9338856-f884-497e-9d36-084f317f37fe -->
 **#23136 The table control in cell selection mode now supports selection of multiple ranges.** (Desktop)
 
+<!--ID 41dc17a1-7bbb-4daf-aa18-b5fcdad3de52 -->
+**#23138 Added restrictions based on user rights or locks in the controls for manual data mart loading.** (Desktop;Studio)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
