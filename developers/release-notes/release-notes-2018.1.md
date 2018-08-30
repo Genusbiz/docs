@@ -280,6 +280,9 @@ Copy and Paste Security is now added as functions on all Discovery objects with 
 <!--ID 4a398d5e-0818-4ce3-b449-e1977a958e1b -->
 **#23130 A manual reload of a datamart will add a record in the reload history.** (Desktop;Web)
 
+<!--ID c420aadc-d1cd-4b28-9919-57a004c33ab5 -->
+**#23139 Added support for 2-factor oauth login for web** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
