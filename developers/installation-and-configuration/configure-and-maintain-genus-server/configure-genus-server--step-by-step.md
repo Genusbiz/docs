@@ -103,6 +103,8 @@ The authentication service in Genus Services provides sign in authentication and
 
 Genus Services now offers authentication against multiple Active Directory domains simultaneously. Please make sure that your application server(s) is granted the necessary privileges to access the required domain controllers. You need to use a unique account identifier across your domains, so unless you can guarantee that sAMAccountName is unique across your domains, you should opt for objectGUID or objectSID as your account identifier.
 
+In future Genus Apps there will be support for additional identity providers and authentication methods. See [Configure Authentication for Genus Services](authentication-configuration.md "Configure Authentication for Genus Services") for more information.
+
 ## Step 10 - Create an administrator account
 
 To be able to sign in to Genus Studio for the first time, you need to create an administrator account.
