@@ -264,6 +264,11 @@ When designing a Local Objects it is now possible to select a Name Property on t
 <!--ID c420aadc-d1cd-4b28-9919-57a004c33ab5 -->
 **#23139 Added support for 2-factor oauth login for web** (Web)
 
+<!--ID d9c89cdd-6628-4e54-b53b-ac3814e14fd2 -->
+**#23140 Logging of Rest Service** (Services)
+
+It's now possible to log input and output from a Rest Service in the audit event.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
