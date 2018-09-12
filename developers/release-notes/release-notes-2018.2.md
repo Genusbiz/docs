@@ -269,6 +269,11 @@ When designing a Local Objects it is now possible to select a Name Property on t
 
 It's now possible to log input and output from a Rest Service in the audit event.
 
+<!--ID 07762888-b065-4f03-89b5-b54e60ae043d -->
+**#23141 Interpretation phone number on web** (Web)
+
+Fields with interpretation phone number will now be telephone links on web.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
