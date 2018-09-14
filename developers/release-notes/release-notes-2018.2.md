@@ -411,6 +411,11 @@ Dropdown has been renamed to Selector.
 
 We now handles null values when serializing JSON values.
 
+<!--ID 2c89b688-bab4-431c-a946-f11fa2f6ccd6 -->
+**#23142 Streaming of response data could result in timeouts or missing data** (Services;Web)
+
+An error in the response data encoding algorithm applied by Genus Services has been corrected. Malformed responses would be returned as a result of Base64 response encoding or response compression, if enabled. When triggered in Genus Web Apps this may be experienced as client side timeouts or missing response data.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
