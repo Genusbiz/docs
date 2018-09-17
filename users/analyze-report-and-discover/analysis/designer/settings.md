@@ -25,10 +25,15 @@ The refresh timer allows the user to define a refresh time for the analsis.
 #### Allow User Selection
 Allows the user to turn off selection functionalities
 
-### Initial Selection
+### Selection Settings
 
-#### Subsets
+#### Initial Selection
+
+##### Subsets
 Allows the user to apply a subset to the analyis from when the analysis first loads.
 
-#### Initially locked selections
+##### Initially locked selections
 Allows the user to choose datasources which selection can not be made on
+
+#### Selection Cardinality
+
