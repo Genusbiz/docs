@@ -124,6 +124,11 @@ The Genus Configuration tool provides a Directory property called "Allow Remembe
 
 Please note that wether or not the Remember Me checkbox is displayed on the login page is configured in the allowRemember property in the asconfig_web.js file in the web site folder. This value must be set according to Allow Remember Credentials in the Genus Configuration Tool.
 
+<!--ID 0ec18a8e-5679-4bab-a962-e7c3e446d712 -->
+**#23143 Removed duplicate "Transparent" symbol** (Desktop;Web)
+
+A new transparent symbol with id 2262 was introduced in release 2018.2 but is a duplicate if the existing transparent symbol with id 1103. Please update usage of this symbol in your models to use symbol with id 1103 instead.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
