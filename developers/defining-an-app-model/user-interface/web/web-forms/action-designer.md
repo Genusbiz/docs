@@ -38,8 +38,42 @@ Throw exception can be used to throw an exception which will later be caught by 
 ### Effects
 
 Effects create the consequences of an action
+#### Create new object
 
-#### Print to console
+#### Modify object
+
+#### Delete objects
+
+#### Run a client action
+
+#### Run a local server action
+
+#### Run a global server action
+
+#### Navigate to app
+Will open the default entry point of the app. Can be opened in a new tab.
+
+#### Navigate to form
+Opens a new form in the same app. Can be opened in a new tab.
+
+#### Navigate to URL
+Will open the given URL in either the same tab, or a new tab, depending on wether the "Open in new tab" box is checked.
+
+#### Navigate back
+Will navigate to the previous entry in the browser history.
+
+#### Navigate forward
+Will navigate to the next entry in the browser history.
+
+#### Revert changes
+
+#### Save changes
+
+#### Sign out
+
+#### Show settings
+
+#### Write to log
 Print to console will print the configured output to the log
 
 ## Action Composer
