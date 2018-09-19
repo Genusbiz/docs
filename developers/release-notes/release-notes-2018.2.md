@@ -52,7 +52,11 @@ There are no end-of-life functionality identified in this release.
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There is no deprecated functionality in this release.
+<!--ID 8cd5b961-e7ab-4f4f-b4b4-b80642f9b7c1 -->
+**#23144 Trusted zone authentication**
+
+Trusted zone authentication will be replaced by new authentication mechanisms.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
