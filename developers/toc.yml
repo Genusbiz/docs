@@ -523,7 +523,7 @@
     - name: Install Genus Desktop silently for your users
       href: installation-and-configuration/archive/install-genus-desktop-clients-silently-for-your-users.md
     - name: CSIDL Constant Values for Various Microsoft Windows Versions
-      href: installation-and-configuration/archive/csidl-constant-values-for-various-microsoft-windows-versions..md
+      href: installation-and-configuration/archive/csidl-constant-values-for-various-microsoft-windows-versions.md
     - name: Genus Desktop installer details
       href: installation-and-configuration/archive/genus-desktop-client--installer-details.md
 - name: Guidelines and best practices
