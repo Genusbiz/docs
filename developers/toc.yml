@@ -545,6 +545,8 @@
     href: guidelines-and-best-practices/security-on-search.md
   - name: Genus Apps for Web hardening
     href: guidelines-and-best-practices/genus-apps-for-web-hardening.md
+  - name: REST service guidelines
+    href: guidelines-and-best-practices/rest-service-guidelines.md
   - name: Web service guidelines
     href: guidelines-and-best-practices/web-service-guidelines.md
     items:
@@ -566,8 +568,6 @@
       href: guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md
     - name: Testing a Web Service
       href: guidelines-and-best-practices/web-service-guidelines/testing-a-web-service.md
-  - name: REST service guidelines
-    href: guidelines-and-best-practices/rest-service-guidelines.md
 - name: How to
   href: how-to/index.md
   items:

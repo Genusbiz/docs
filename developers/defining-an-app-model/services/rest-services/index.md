@@ -13,3 +13,5 @@ Before consuming or exposing REST services using Genus Apps, we recommend readin
 How to consume REST services external to your Genus solution (i.e. calling REST services from your Genus solution) is covered [here](../../logic/action-orchestration/actions/effects/consume-a-rest-service.md).
 
 Exposing REST services from your Genus solution is fully supported, but not yet documented. This part of the documentation is under construction.
+
+Guidelines for defining REST services i Genus Apps are covered [here](../../../guidelines-and-best-practices/rest-service-guidelines.md)
