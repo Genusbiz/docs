@@ -356,6 +356,12 @@
         href: defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
     - name: REST services
       href: defining-an-app-model/services/rest-services/index.md
+    - name: Calendars
+      href: defining-an-app-model/services/calendars.md
+    - name: Contact lists
+      href: defining-an-app-model/services/contact-lists.md
+    - name: Nodes and node groups
+      href: defining-an-app-model/services/nodes-and-node-groups.md
     - name: Nodes and node groups
       href: defining-an-app-model/services/nodes-and-node-groups.md
   - name: Data

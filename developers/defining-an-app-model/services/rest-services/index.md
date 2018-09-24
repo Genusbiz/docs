@@ -14,4 +14,4 @@ How to consume REST services external to your Genus solution (i.e. calling REST 
 
 Exposing REST services from your Genus solution is fully supported, but not yet documented. This part of the documentation is under construction.
 
-Guidelines for defining REST services i Genus Apps are covered [here](../../../guidelines-and-best-practices/rest-service-guidelines.md)
+Guidelines for defining REST services i Genus Apps are covered [here](../../../guidelines-and-best-practices/rest-service-guidelines.md).
