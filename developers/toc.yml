@@ -356,6 +356,9 @@
         href: defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
     - name: REST services
       href: defining-an-app-model/services/rest-services/index.md
+      items:
+      - name: REST service uri path segments
+        href: defining-an-app-model/services/rest-services/rest-service-uri-path-segments.md
     - name: Calendars
       href: defining-an-app-model/services/calendars.md
     - name: Contact lists
