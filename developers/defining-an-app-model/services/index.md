@@ -19,9 +19,9 @@ Path segments
     * _domain_ - Use Active Directory authentication. Single Sign On is enabled
     * _domain/basic_ - Use Active Directory authentication. Single Sign On is disabled, user must provide log on information.
 * **Service type** - Defines which service type in Genus Apps
-    * _rest_ - [REST services](rest-services/index.md)
+    * _rest_ - [REST services](rest-services/index.md) exposed by Genus Apps.
     * _carddav_ - Shared [Contact lists](contact-lists.md)
-    * _webcal_ - [Calendars](calendars.md)
+    * _webcal_ - Shared [Calendars](calendars.md)
 * **Service path segments** - Path segments defined in the specific service. More information on segment paths for the relevant service types are defined in respecive articles for these sevice types.
 
 
