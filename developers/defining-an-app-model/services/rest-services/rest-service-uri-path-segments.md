@@ -12,9 +12,3 @@ See [Common URI path segments](../index.md#common-uri-path-segments) for more in
 ## Specific path segments for REST services
 `<common-path-segments>/rest/<service-name>/<resource-path>?<query-params>`
 
-### Service name
-
-### Resource path
-
-### Query params
-
