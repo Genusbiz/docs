@@ -1,4 +1,10 @@
-# REST Service Best Practices
+---
+title: REST service guidelines
+description: Guidelines for naming conventions when exposing REST services in Genus Apps.
+author: eriksandnes
+---
+
+# REST service guidelines
 
 ## URI naming conventions
 The recommended naming convention to use is the [REST Resource Naming Guide](https://restfulapi.net/resource-naming/) from [REST API Tutorial](https://restfulapi.net/) when designing REST Services in Genus Apps.
