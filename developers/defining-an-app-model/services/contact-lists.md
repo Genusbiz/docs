@@ -14,4 +14,4 @@ Contacts are shared read-only, but each shared item contains a link, so you can 
 ## URI path segments
 See [Common URI path segments](index.md#common-uri-path-segments) for more information about the common URI path segments.
 
-The URI for the Contact Lists service is `<common-path-segments>/carddav/<defined-path-segment>`, where _defined path segment_ is the path segment defined under path segment in the Contact List in Genus Studio.
+The URI for the Contact Lists service is `<common-path-segments>/carddav/<defined-path-segment>`, where _defined path segment_ is defined on the Contact List instance in Genus Studio.

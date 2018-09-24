@@ -365,8 +365,6 @@
       href: defining-an-app-model/services/contact-lists.md
     - name: Nodes and node groups
       href: defining-an-app-model/services/nodes-and-node-groups.md
-    - name: Nodes and node groups
-      href: defining-an-app-model/services/nodes-and-node-groups.md
   - name: Data
     href: defining-an-app-model/data/index.md
     items:

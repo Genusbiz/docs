@@ -16,4 +16,4 @@ The Calendar is connected to an Object Class in Genus Apps containing the calend
 ## URI path segments
 See [Common URI path segments](index.md#common-uri-path-segments) for more information about the common URI path segments.
 
-The URI for the Calendars service is `<common-path-segments>/webcal/<defined-path-segment>`, where _defined path segment_ is the path segment defined under path segment in the Calendar in Genus Studio.
+The URI for the Calendars service is `<common-path-segments>/webcal/<defined-path-segment>`, where _defined path segment_ is defined under on the Calendar instance in Genus Studio.
