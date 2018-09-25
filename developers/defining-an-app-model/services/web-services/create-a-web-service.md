@@ -1,7 +1,7 @@
 # Create a Web Service
 
 1.  [Open Genus Studio](../../getting-started/index.md).
-2.  In the **Directory** tree, click the **Web Services** folder and on the **toolbar**, click **New ****![IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg](media/IDC0B30334E8FE435F.ID27670CE148FD45ED.jpg) and then click** **Web Service**.
+2.  In the **Directory** tree, click the **Web Services** folder and on the **toolbar**, click **New** and then click **Web Service**.
 3.  In the **Name** box, type a name for the Web Service. For guidelines on naming a web service, see [Identifying and Naming the Web Service](../../../guidelines-and-best-practices/web-service-guidelines/identifying-and-naming-the-web-service.md).
 4.  In the **Namespace** box, type a namespace for the Web Service. By default, the namespace [http://tempuri.org/<name-of-web-service](http://tempuri.org/%3Cname-of-web-service)> is used for this purpose. While this is suitable for Web Services under development, published services should use a unique, permanent namespace. Your Web Service should be identified by a namespace that you control. For more guidelines and best practices on creating a namespace, see Web Service and [XML-Schema Namespaces](../../../guidelines-and-best-practices/web-service-guidelines/xml-and-web-service-namespaces.md).
 5.  Optionally type a description in the **Description** box. This description will appear as an annotation in the WSDL. The description should reflect some of the underlying design principles. E.g. what are the common characteristics of the operations within this service etc.
@@ -31,7 +31,7 @@ Next you have to specify a data filter for the data source.
 1.  Click **Filter Data**.
 2.  Do one of the following:  
     * To select one or more objects, click **Select a specific set of objects**, and then click **Select**.  
-    * To select one or more objects which satisfy a given condition, click **Select objects that meet the following condition**. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions.md "Conditions")[](../../logic/action-orchestration/define-a-conditional-formula.md "Define a Conditional Formula")on how to define a condition.  
+    * To select one or more objects which satisfy a given condition, click **Select objects that meet the following condition**. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions.md "Conditions")/[Define a Conditional Formula](../../logic/action-orchestration/define-a-conditional-formula.md) on how to define a condition.  
 
 
 
@@ -47,7 +47,7 @@ To successfully setup a Web Service, you should at least specify one endpoint.
 4.  In the **Address** section, type the **Default** address of the endpoint.
 5.  In the **Authentication** section, you should specify how the communication with the endpoint is authenticated.
 6.  Click **Credential Type** to specify the message security type.  
-    Note that if the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the web service operations may be invoked by any unknown and potentially malicious client. When the Credential Type <span style="FONT-WEIGHT: normal; FONT-STYLE: italic">Anonymous is selected, the service is run as the built-in [Guest](../../security/security-groups-and-user-accounts.md) user.
+    Note that if the Credential Type _Anonymous_ is selected, the web service operations may be invoked by any unknown and potentially malicious client. When the Credential Type _Anonymous_ is selected, the service is run as the built-in [Guest](../../security/security-groups-and-user-accounts.md) user.
 7.  Click the desired **Credential Store** to specify the credential store to use for authentication.  
     Available option depends on the selected Credential Type.
 8.  In the **Envelope Version**, select a version of SOAP, or select None to use POX or JSON. For more information on using POX and JSON, see [Consuming a Genus Web Service from an External Client](../../../guidelines-and-best-practices/web-service-guidelines/consuming-a-genus-web-service-from-an-external-client.md).
@@ -91,7 +91,7 @@ To add an operation to your Web Service, follow these steps:
 
 The XML schemas defining the data requested or returned to consumers is available along with the data sources defined for the operation. For example, you can filter your data sources based on the data received from consumers. To return data to consumers, add an effect of type [Create Object(s)](../../logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md) to an action, and select the XML schema used to return data as the data source.  
 
-**Specify Time to Live**  
+### Specify Time to Live
 The Time to Live option provides a simple mechanism for caching the operation response message. The default option, "Lifespan for request", is equivalent to disable the operation caching and forcing the application server to generate a new response each time.
 
 In a number of cases response data is changed at a slow pace and/or may be expensive to compute. In such cases, you may choose to specify that the response should only be generated every X seconds.
@@ -100,7 +100,7 @@ Once a response has been generated, the same response will be returned if a retu
 
 When a Time to Live value is specified, the response data is stored in memory for the specified time interval. Do consider the potential increase in memory consumption on the application server when enabling this feature.
 
-**Defining Fault elements (Returning SOAP Faults to Web Service Consumers)**
+### Defining Fault elements (Returning SOAP Faults to Web Service Consumers)
 
 To add one or more fault elements specifying the message format for any error messages that may be returned by an operation, do the following:
 
@@ -110,15 +110,15 @@ To add one or more fault elements specifying the message format for any error me
 
 The defined fault elements are available along with the data sources defined for the operation. To return a SOAP fault trough one of the defined fault elements, you need to throw an On Web Service Fault exception inside the operation execution. For further information on returning SOAP faults, see [Returning SOAP Faults to Web Service Consumers](soap-faults.md).
 
-**Validate the Request and Response XML**  
+### Validate the Request and Response XML
 By default, XML data are not validated against the XML schemas defined by the request- and response message format for an operation. To turn validation on, select the **Validate XML Data for the Request and the Response** check box. If the request or the response contains invalid XML data, execution of the operation will fail. The parse error is logged in the event history for the Web Service.  
 The XML schema validation may introduce some performance penalties. You should always consider this option, to reject invalid request messages, against the added complexity of safeguarding against invalid XML Data during operation execution.  
 
-**Add Data Sources to an Operation**  
-1\. Click the **Data Sources** tab.  
-2\. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/data-sources.md) for adding a new data source.  
+### Add Data Sources to an Operation
+1. Click the **Data Sources** tab.  
+2. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/data-sources.md) for adding a new data source.  
 
-**Add Actions to an Operation**  
-1\. Click the **Actions** tab.  
-2\. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/actions.md) for adding a new action.  
+### Add Actions to an Operation
+1. Click the **Actions** tab.  
+2. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/actions.md) for adding a new action.  
 
