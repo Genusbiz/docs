@@ -359,6 +359,8 @@
       items:
       - name: REST service uri path segments
         href: defining-an-app-model/services/rest-services/rest-service-uri-path-segments.md
+      - name: REST service meta data
+        href: defining-an-app-model/services/rest-services/rest-service-meta-data.md  
     - name: Calendars
       href: defining-an-app-model/services/calendars.md
     - name: Contact lists
