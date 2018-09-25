@@ -359,7 +359,7 @@
       items:
       - name: Create a REST service
         href: defining-an-app-model/services/rest-services/create-a-rest-service.md
-      - name: REST service uri path segments
+      - name: REST service URI path segments
         href: defining-an-app-model/services/rest-services/rest-service-uri-path-segments.md
       - name: REST service metadata
         href: defining-an-app-model/services/rest-services/rest-service-metadata.md  
