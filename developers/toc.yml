@@ -162,7 +162,7 @@
               - name: Properties
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/properties.md
             - name: Timeline
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline.md
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/index.md
               items:
               - name: Examples / How To
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/examples--how-to.md

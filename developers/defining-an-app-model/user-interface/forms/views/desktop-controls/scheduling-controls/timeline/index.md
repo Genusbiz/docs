@@ -11,5 +11,5 @@ Add a series for each data source to visualize, and specify how to visually repr
 Add different views for different sets of series, and which of them is the default. Specify which series to show in a view, and how to scroll, zoom, perform grouping, etc. Also specify which time units to allow, for example day, Month, and year, or hour and minute.
 
 **Topics in "Timeline"**
-* [Examples / How To](timeline/examples--how-to.md)
-* [Properties](timeline/properties.md)
+* [Examples / How To](examples--how-to.md)
+* [Properties](properties.md)
