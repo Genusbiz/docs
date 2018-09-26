@@ -496,7 +496,7 @@
     href: installation-and-configuration/configure-and-maintain-genus-server/index.md
     items:
     - name: Genus Services configuration
-      href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration.md
+      href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/index.md
       items:
       - name: Options
         href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.md
