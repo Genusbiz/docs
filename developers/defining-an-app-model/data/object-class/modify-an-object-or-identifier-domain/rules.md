@@ -114,7 +114,7 @@ Data sources are used by actions as sources of information. When you add a new R
 2.  In the drop-down list **Select the object class this rule applies to**, the current Object Class has automatically been selected as a data source.
 3.  Optionally select one or more properties the Rule is constrained to. This option is only available if the Rule triggers on an event where the value for a property may have been changed; **On After Create**, **On Before Modify**, **On After Modify**, **On Before Validate**, **On After Validate**. For example, when a _project_ is closed, the end date should be updated with the current date. The state transition for the _project_ is defined using conditional actions. At this point you will only constrain the rule to trigger on any change for the _State_ property. To constrain the Rule to one or more properties, click **Select**.
 4.  You can define different selections of properties. The Rule will trigger if any of the selections contains a set of properties where the value for all of the properties have changed. To add properties to a selection, click **[...]**. To add a new selection, click **Add>>**. To delete a selection, click **Delete**.
-5.  To add additional data sources, follow the [step-by-step procedure](../../../logic/action-orchestration/data-sources.md "Data Sources") for adding a new data source.
+5.  To add additional data sources, follow the [step-by-step procedure](../../../logic/action-orchestration/data-sources/index.md "Data Sources") for adding a new data source.
 
 
 

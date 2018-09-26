@@ -116,7 +116,7 @@ The XML schema validation may introduce some performance penalties. You should a
 
 ### Add Data Sources to an Operation
 1. Click the **Data Sources** tab.  
-2. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/data-sources.md) for adding a new data source.  
+2. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/data-sources/index.md) for adding a new data source.  
 
 ### Add Actions to an Operation
 1. Click the **Actions** tab.  

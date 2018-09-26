@@ -92,7 +92,7 @@ The content of the shortcut can be refreshed when the shortcut is activated. Thi
 ## Specifying data filters for shortcuts to tasks
 
 1.  Open the shortcut's properties and click **Edit**.
-2.  In the **Edit** shortcut wizard, click **Customize**. To specify a data filter, select a data source in the list and click **Modify**. Follow the instructions in the [step-by-step procedure](../logic/action-orchestration/data-sources.md) on how to filter data for a data source. If no data filter is specified, the task will attempt to use the default data filtering. Default filtering is only available for tasks published without context to the run command.
+2.  In the **Edit** shortcut wizard, click **Customize**. To specify a data filter, select a data source in the list and click **Modify**. Follow the instructions in the [step-by-step procedure](../logic/action-orchestration/data-sources/index.md) on how to filter data for a data source. If no data filter is specified, the task will attempt to use the default data filtering. Default filtering is only available for tasks published without context to the run command.
 
 ## Change the symbol for a view button or a folder
 

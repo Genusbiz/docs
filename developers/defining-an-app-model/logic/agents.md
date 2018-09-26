@@ -34,7 +34,7 @@ If the Agent fails to execute, the owner or the delegate for the Agent will rece
 ## Add Data Sources to an Agent
 
 1.  Click the **Data Sources** tab.
-2.  Follow the instructions in the [step-by-step procedure](action-orchestration/data-sources.md "Data Sources") for adding a new data source.
+2.  Follow the instructions in the [step-by-step procedure](action-orchestration/data-sources/index.md "Data Sources") for adding a new data source.
 
 
 
@@ -227,7 +227,7 @@ Note that it is important to follow the steps above in the given sequence. Do *n
 
 See Also
 
-*   [Data Sources](action-orchestration/data-sources.md)
+*   [Data Sources](action-orchestration/data-sources/index.md)
 *   [Conditions](../common-concepts/conditions/index.md)
 *   [Actions](action-orchestration/actions.md)
 *   [Effects](action-orchestration/actions/effects.md)

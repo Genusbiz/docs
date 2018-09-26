@@ -234,7 +234,7 @@
       href: defining-an-app-model/logic/action-orchestration/index.md
       items:
       - name: Data sources
-        href: defining-an-app-model/logic/action-orchestration/data-sources.md
+        href: defining-an-app-model/logic/action-orchestration/data-sources/index.md
         items:
         - name: Add a data source
           href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-data-source.md

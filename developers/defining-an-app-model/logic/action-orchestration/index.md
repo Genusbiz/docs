@@ -7,6 +7,6 @@ During execution of actions, there may occur errors that could result in a disru
 The actions use data sources to retrieve, create, modify, or delete data. A data source is made up of fields and groups, and the kind of data stored in a field or group is defined by the data type. A field can store data for both simple and complex data types. A group is by definition a complex data type.
 
 **Topics in "Action Orchestration"**
-* [Data Sources](data-sources.md)
+* [Data Sources](data-sources/index.md)
 * [Actions](actions.md)
 * [Exception Handling](exception-handling.md)

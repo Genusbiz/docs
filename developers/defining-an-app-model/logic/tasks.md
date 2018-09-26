@@ -25,7 +25,7 @@ A Task is defined by:
 ## Add Data Sources to a Task
 
 1.  Click the **Data Sources** tab.
-2.  Follow the instructions in the [step-by-step procedure](action-orchestration/data-sources.md "Data Sources") for adding a new data source.
+2.  Follow the instructions in the [step-by-step procedure](action-orchestration/data-sources/index.md "Data Sources") for adding a new data source.
 
 
 
@@ -50,7 +50,7 @@ A publication is used to make the Task available to users in Forms and Tables. Y
 8.  If you have chosen a context for the publication, the objects selected from the context are sent as input when running the task. These objects can be used for filtering your data sources, and gives you the opportunity to execute context sensitive actions. In the section **Allow running this task when**, choose if the task can run when a) **The user has selected one object**, b) **The user has selected one or more objects** or c) **Always**.
 9.  In the section **Enabled**, click **Yes** if the Task should be enabled for any object selected by the user. If the Task only should be enabled for objects satisfying certain criteria, click **If this condition is true**. To specify a [condition](../common-concepts/conditions/index.md "Conditions"), click **Set Condition**. The condition is evaluated before the Task is run. If the condition not is satisfied, the message typed in the **Display this message if the condition not is satisified** is displayed. Click **No** to temporarily disable the publication.
 10.  Click the **Data Filters** tab.
-11.  To specify a data filter, select a data source in the list and click **Modify**. Follow the instructions in the [step-by-step procedure](action-orchestration/data-sources.md "Data Sources") on how to filter data for a data source. If you have selected a context for the publication, the objects selected from the context are available from the data source named **Context: <name-of-the-context>**, for example, *Context: Customer*.
+11.  To specify a data filter, select a data source in the list and click **Modify**. Follow the instructions in the [step-by-step procedure](action-orchestration/data-sources/index.md "Data Sources") on how to filter data for a data source. If you have selected a context for the publication, the objects selected from the context are available from the data source named **Context: <name-of-the-context>**, for example, *Context: Customer*.
 12.  Click the **Advanced** tab.
 13.  Refresh the data source the task is published to when the task has finished running.
 
@@ -191,7 +191,7 @@ The amount of information traced for each execution can be specified in the hist
 
 See Also
 
-*   [Data Sources](action-orchestration/data-sources.md)
+*   [Data Sources](action-orchestration/data-sources/index.md)
 *   [Conditions](../common-concepts/conditions/index.md)
 *   [Actions](action-orchestration/actions.md)
 *   [Effects](action-orchestration/actions/effects.md)
