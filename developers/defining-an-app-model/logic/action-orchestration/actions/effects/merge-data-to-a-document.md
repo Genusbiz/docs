@@ -34,4 +34,4 @@ Select the **Print Document** check box if you want to automatically print the m
 
 To prevent that succeeding effects are executed before the print has finished, select the **Wait for the print job to complete** check box. This can be useful to ensure that the documents are printed in the correct order, if there are many consecutive merge effects. The performance can be affected when this option is selected.
 
-For more information , see [Merge Data to a Microsoft Excel Document](../../../../../how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md) and [Merge Data to a Microsoft Word Document](../../../../../how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md).
+For more information , see [Merge Data to a Microsoft Excel Document](../../../../../how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/index.md) and [Merge Data to a Microsoft Word Document](../../../../../how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md).

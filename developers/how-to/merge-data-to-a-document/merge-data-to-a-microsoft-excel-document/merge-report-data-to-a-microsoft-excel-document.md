@@ -13,13 +13,18 @@ When merging report data to a Microsoft Excel spreadsheet, you can access aggreg
 
 Follow these steps to perform an Excel merge.
 
-**Step 1.** Create a report which contains field and values you want to merge. Access to the data set, the option **Include in Version Deployment** must be set. This option is only available when you create a new report in Genus Studio. A report with this option set, is included in the deployed version of your directory.
+**Step 1.** 
+
+Create a report which contains field and values you want to merge. Access to the data set, the option **Include in Version Deployment** must be set. This option is only available when you create a new report in Genus Studio. A report with this option set, is included in the deployed version of your directory.
 
 Note: Include in Version Deployment is only available for trusted users or users with app model admin rights.
 
 ![ID51993EA303ED4EF0.IDFFC07753D2164A10.png](media/ID51993EA303ED4EF0.IDFFC07753D2164A10.png)
 
-**Step 2\.** Use Microsoft Excel to create and design an Excel document called a template. Note that the document does not have to be a Microsoft Excel Template (.xlt/.xltx), it can be a normal document (.xls/.xlsx). Then you insert some special fields called [smart markers](merge-table-data-to-a-microsoft-excel-document.md) into the template in places where you want to insert data from your data source.
+
+**Step 2.** 
+
+Use Microsoft Excel to create and design an Excel document called a template. Note that the document does not have to be a Microsoft Excel Template (.xlt/.xltx), it can be a normal document (.xls/.xlsx). Then you insert some special fields called [smart markers](merge-table-data-to-a-microsoft-excel-document.md) into the template in places where you want to insert data from your data source.
 
 In this example, the template used for merging data contains two worksheets. The report data set are merged into the worksheet named Data Set. In the other worksheet, data are presented in a Pivot Table.
 
@@ -27,7 +32,10 @@ In this example, the template used for merging data contains two worksheets. The
 
 ![ID51993EA303ED4EF0.ID80C94B6EFAD642F3.png](media/ID51993EA303ED4EF0.ID80C94B6EFAD642F3.png)
 
-**Step 3.** To merge data, use a task containing the report as a data source. The task contains three data sources:
+
+**Step 3.** 
+
+To merge data, use a task containing the report as a data source. The task contains three data sources:
 
 *   Sales Territory (report)
 *   Data Set XML Document (source data for the merge operation)
@@ -35,7 +43,10 @@ In this example, the template used for merging data contains two worksheets. The
 
 ![ID51993EA303ED4EF0.ID7DBC45D8FD9246A9.png](media/ID51993EA303ED4EF0.ID7DBC45D8FD9246A9.png)
 
-**Step 4\.** To export the data set for the report, use an **Export to a File** effect. Note that the option **Export Data in Group** allows you to export data contained within a group located in a data source.
+
+**Step 4.** 
+
+To export the data set for the report, use an **Export to a File** effect. Note that the option **Export Data in Group** allows you to export data contained within a group located in a data source.
 
 The Data Set group for the report contains three fields. One for each axis dimension Sales Territory and Month, and one field for Actual Sales.
 
@@ -49,7 +60,10 @@ In **Output File** tab, click **File Data Source** and select source data for th
 
 ![ID51993EA303ED4EF0.ID02701546577C4A93.png](media/ID51993EA303ED4EF0.ID02701546577C4A93.png)
 
-**Step 5\.** Data are merged by using a **Merge Data to a Document** effect. To simplify the example, the template is defined as an embedded file.
+
+**Step 5.** 
+
+Data are merged by using a **Merge Data to a Document** effect. To simplify the example, the template is defined as an embedded file.
 
 It is generally not recommended to use Embedded File, since this will increase the size of your application model cache file, which may lead to increased startup time for Genus Desktop and Genus Services.
 
@@ -75,43 +89,12 @@ A smart marker which reference an element in your XML document, is called a **Da
 
 In order to make calculations on the rows that are inserted, you can use a **Formula Marker**.
 
-<table style="WIDTH: 63.69%; HEIGHT: 65px">
 
-<tbody>
+Type           | Format             | Example           |
+---------------|--------------------|-------------------|
+Data Marker    | &=xml-element-name | &=Emp.ActualSales |
+Formula Marker | &=&=formula        | &=&=D{r}*C{r}     |
 
-<tr>
-
-<th>Type</th>
-
-<th>Format</th>
-
-<th>Example</th>
-
-</tr>
-
-<tr>
-
-<td>Data Marker</td>
-
-<td>&=xml-element-name</td>
-
-<td>&=Emp.ActualSales</td>
-
-</tr>
-
-<tr>
-
-<td>Formula Marker</td>
-
-<td>&=&=formula</td>
-
-<td>&=&=D{r}*C{r}</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 If a Data Marker results in more than one item, then following rows will be moved down automatically to make room for all of your data. This is also true for Formula Markers, making it possible to repeat formulas per inserted data row.
 
@@ -133,11 +116,11 @@ Note that Formula Markers may contain any valid Excel formula like:
 *   &=&=VALUE(A{r})
 *   &=&=CONCATENATE(A{r}," ",B{r})
 
-**Hints and tips**
+### Hints and tips
 
 Using Formula Markers may result that inserted data in Excel cells is not valid. To avoid this, you can disable background error checking in your Excel sheet.
 
-1\. In the On the **File** menu in Excel, click **Options** ****2\. In the **Excel Options** box click **Formulas**, and clear the **Enable background error checking** check box. 
+In the On the **File** menu in Excel, click **Options** ****2\. In the **Excel Options** box click **Formulas**, and clear the **Enable background error checking** check box. 
 
 
 
@@ -147,81 +130,21 @@ A Smart Marker may contain parameters, which allow you to control the layout.
 
 Parameters are appended to the end of the smart marker in parenthesis as a comma separated list.
 
-<table style="WIDTH: 66.28%; HEIGHT: 161px">
 
-<tbody>
+Smart Marker Parameter     | Description                                                                                                                                     |
+---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+ascending:n / descending:n | Sort data in Smart Markers. If n is 1, then the column is the first key of the sorter.                                                          |
+group:normal|repeat        | Group data in smart markers. See [Grouping of Data](merge-table-data-to-a-microsoft-excel-document.md "Grouping of Data") for more information. |
+horizontal                 | Write data left-to-right, instead of top-to-bottom.                                                                                             |
+noadd                      | Do not add extra rows to fit data.                                                                                                              |
+numeric                    | Convert text to number if possible.                                                                                                             |
+shift                      | Shift down or right extra rows/columns to fit data.                                                                                             |
+skip:n                     | Skip n number of rows for each row of data.                                                                                                     |
 
-<tr>
-
-<th>Smart Marker Parameter</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>ascending:n / descending:n</td>
-
-<td>Sort data in Smart Markers. If n is 1, then the column is the first key of the sorter.</td>
-
-</tr>
-
-<tr>
-
-<td>group:normal|repeat</td>
-
-<td>Group data in smart markers. See [Grouping of Data](merge-table-data-to-a-microsoft-excel-document.md "Grouping of Data") for more information.</td>
-
-</tr>
-
-<tr>
-
-<td>horizontal</td>
-
-<td>Write data left-to-right, instead of top-to-bottom.</td>
-
-</tr>
-
-<tr>
-
-<td>noadd</td>
-
-<td>Do not add extra rows to fit data.</td>
-
-</tr>
-
-<tr>
-
-<td>numeric</td>
-
-<td>Convert text to number if possible.</td>
-
-</tr>
-
-<tr>
-
-<td>shift</td>
-
-<td>Shift down or right extra rows/columns to fit data.</td>
-
-</tr>
-
-<tr>
-
-<td>skip:n</td>
-
-<td>Skip n number of rows for each row of data.</td>
-
-</tr>
-
-</tbody>
-
-<colgroup><col width="300" style="WIDTH: 300px"><col width="300" style="WIDTH: 300px"></colgroup></table>
 
 If you have multiple parameters, separate them with a comma, *but no space*.
 
-**noadd and skip**
+### noadd and skip
 
 The parameters **noadd** and **skip** may be combined to insert alternating data on every other row. Since the template is processed from the bottom to the top, you should add the **noadd** on the first row to avoid extra rows from being inserted before the alternate row.
 
@@ -231,7 +154,7 @@ The example below illustrates inserting data on every other row using **noadd** 
 
 ![ID44DEACDC77584B82.IDB333BCEADF274355.png](media/cde460d1c4484c38a93d6239bc7c62ec.png)
 
-**numeric**
+### numeric
 
 Use **numeric** to tell Excel that the merged cells have a numeric content, and are to be formatted as numbers, as opposed to text.
 
@@ -239,7 +162,7 @@ Use **numeric** to tell Excel that the merged cells have a numeric content, and 
 
 Note: This also applies for date formats, since dates are stored as numeric values in Excel.
 
-**Hints and tips**
+### Hints and tips
 
 If you want to format every other row in a different color or similar, you may use Excel Conditional Formatting with the formula **=ISEVEN(ROW())** or **=ISODD(ROW())**.
 

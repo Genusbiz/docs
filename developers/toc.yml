@@ -599,11 +599,13 @@
       href: how-to/exchange-data-with-other-applications/copy-and-paste-data.md
     - name: Microsoft Outlook integrations
       href: how-to/exchange-data-with-other-applications/microsoft-outlook-integrations.md
+    - name: Edit Report links
+      href: how-to/exchange-data-with-other-applications/edit-report-links.md
   - name: Merge data to a document
     href: how-to/merge-data-to-a-document/index.md
     items:
     - name: Merge data to a Microsoft Excel document
-      href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md
+      href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/index.md
       items:
       - name: Merge table data to a Microsoft Excel document
         href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/merge-table-data-to-a-microsoft-excel-document.md
