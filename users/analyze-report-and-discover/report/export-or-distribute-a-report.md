@@ -42,7 +42,7 @@ The steps for [distributing a report](../../../developers/defining-an-app-model/
 
 **Step 3.** Click **Next**.
 
-**Step 4.** In the **Copies and** **Data Filters** page, under **Copies**, click **Distribute one copy** if you want to make one copy of your report, applying any set of objects as <span style="FONT-STYLE: italic">one data filter to this one copy. Click **Distribute one copy for each combination of objects from these data sources** if you want to make several copies of your report.
+**Step 4.** In the **Copies and** **Data Filters** page, under **Copies**, click **Distribute one copy** if you want to make one copy of your report, applying any set of objects as _one_ data filter to this one copy. Click **Distribute one copy for each combination of objects from these data sources** if you want to make several copies of your report.
 
 **Step 5.** To filter data for a data source provided by the report, click the data source in the **Data Filters** list, and then click **Modify**. For more information on how to filter data for a data source, see the article [Data Sources](../../../developers/defining-an-app-model/logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md). Note that the object(s) selected in a table or form, are sent as input and used as default values.
 

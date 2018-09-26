@@ -10,7 +10,7 @@ In this example, the **Sales Trend** report displays the sales per month for How
 
 ![ID367B357F787A4E32.ID44E9936A3AF74B67.png](media/ID367B357F787A4E32.ID44E9936A3AF74B67.png)
 
-To select among <span style="FONT-STYLE: italic">all available reports, in the **Report** pane, in the **Tasks** section, click **Open**.
+To select among _all available reports_, in the **Report** pane, in the **Tasks** section, click **Open**.
 
 ![ID367B357F787A4E32.IDA606166530D7414B.png](media/ID367B357F787A4E32.IDA606166530D7414B.png)
 

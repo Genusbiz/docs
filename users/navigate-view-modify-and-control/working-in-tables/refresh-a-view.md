@@ -1,6 +1,6 @@
 # Refresh a View
 
-Data is fetched the first time you open a table, and <span style="FONT-STYLE: italic">not automatically updated with changes done by other users.
+Data is fetched the first time you open a table, and _not_ automatically updated with changes done by other users.
 
 To fetch data again, in the menu, click the **Refresh** button. ![ID80477111F7EC40C1.ID7250A0C64E2D473B.png](media/ID80477111F7EC40C1.ID7250A0C64E2D473B.png) Your table will be updated with any changes done by other users.
 

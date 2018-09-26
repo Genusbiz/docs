@@ -20,6 +20,6 @@ Alternatively in a form, click **Actions** in the menu bar, and then click an ac
 
 An Action can operate on one object, a number of objects, or it may not require any objects at all. This should by easily determined from the name and type of action. In addition the action may be disabled if a correct number of objects are not selected, or the action may report such a mismatch when activated.
 
-The actions that are available will vary depending on the form and the type of object it is related to . Typical actions can for example be, <span style="FONT-STYLE: italic">Set Customer Inactive, <span style="FONT-STYLE: italic">Export Invoices, or <span style="FONT-STYLE: italic">Approve Budget Proposal.
+The actions that are available will vary depending on the form and the type of object it is related to . Typical actions can for example be, _Set Customer Inactive_, _Export Invoices_, or _Approve Budget Proposal_.
 
-Some actions are more intuitively activated from other menus or keyboard shortcuts, and are therefore <span style="FONT-STYLE: italic">not made available in the Action Task Pane. Examples of such actions are <span style="FONT-STYLE: italic">New Applicant, <span style="FONT-STYLE: italic">Copy Documents, <span style="FONT-STYLE: italic">Send Invoice as E-mail, <span style="FONT-STYLE: italic">Paste Contacts from Outlook.
+Some actions are more intuitively activated from other menus or keyboard shortcuts, and are therefore _not_ made available in the Action Task Pane. Examples of such actions are _New Applicant_, _Copy Documents_, _Send Invoice as E-mail_, _Paste Contacts from Outlook_.

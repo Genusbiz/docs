@@ -350,7 +350,7 @@ Write text, or right click, and select **Insert**, to add any of the following e
 
 For example: The predefined value "Page X of Y" is a combination of text "Page " and " of ", and the elements Page Number and Page Count.
 
-<span style="FONT-STYLE: italic">"Page "<span style="FONT-WEIGHT: bold; FONT-STYLE: italic">Page Number<span style="FONT-STYLE: italic">" of "<span style="FONT-WEIGHT: bold; FONT-STYLE: italic">Page Count
+_"Page "**Page Number**" of "**Page Count**_
 
 </td>
 

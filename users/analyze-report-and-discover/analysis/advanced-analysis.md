@@ -2,7 +2,7 @@
 
 When a user selects items of interest in an analysis, it will provide feedback based on what is currently selected. All elements in the analysis are immediately updated based on which items in the underlying data mart are now relevant. All aggregated information like measures and charts are updated, lists display wich items are relevant and which are excluded, and so on. 
 
-In this article, <span style="FONT-STYLE: italic">List</span> is used as a common term for various listing of items.
+In this article, _List_ is used as a common term for various listing of items.
 
 
 

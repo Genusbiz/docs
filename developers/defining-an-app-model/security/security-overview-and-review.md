@@ -13,7 +13,7 @@ By default, privileges are displayed for all security groups. To restrict the vi
 
 Some privileges are not granted directly to a security group, but may be granted indirectly through memberships in other security groups. To explore these memberships, expand the security group.
 
-In the example below, the System Manager security group has been granted the privilege <span style="FONT-STYLE: italic">Sign in as a desktop user through the membership in the Super Users security group. The privilege has not been granted to the Super Users security group directly, but is granted through the membership in the Users security group.
+In the example below, the System Manager security group has been granted the privilege _Sign in as a desktop user_ through the membership in the Super Users security group. The privilege has not been granted to the Super Users security group directly, but is granted through the membership in the Users security group.
 
 ![ID7C97442578D0482B.jpg](media/ID7C97442578D0482B.jpg)
 
@@ -45,7 +45,7 @@ A green circle in a cell indicates that the securtiy group in that column is gra
 
 The Private Grants columns shows the number of permissions granted to individual user accounts. If there are only private grants and no permissions granted to any group, the object is private, which is often incorrect.
 
-In addition to selecting the type of objects to show, and the type of permission to summarize, the columns for individual security groups can be hidden or shown. The summary information is updated according to what groups are visible, which can be useful for example by hiding a <span style="FONT-STYLE: italic">System Manager group which may have been granted permissions to all objects.
+In addition to selecting the type of objects to show, and the type of permission to summarize, the columns for individual security groups can be hidden or shown. The summary information is updated according to what groups are visible, which can be useful for example by hiding a _System Manager_ group which may have been granted permissions to all objects.
 
 
 

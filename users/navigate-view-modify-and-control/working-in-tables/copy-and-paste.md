@@ -30,7 +30,7 @@ You can copy text from a cell, single row or a range of row from the table. ****
 
 2\. On the **menu**, click **Copy****![ID6D53A539F3904A1F.ID5F6A2930EEBC4F7C.png](media/ID6D53A539F3904A1F.ID5F6A2930EEBC4F7C.png)**. **Keyboard shortcut:** You can also press CTRL+C.
 
-3\. Select the paste area, and on the **menu**, click<span style="FONT-FAMILY: Calibri; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Paste<span style="FONT-FAMILY: Calibri; FONT-SIZE: 10pt; FONT-WEIGHT: bold">![ID6D53A539F3904A1F.ID3A46D6A561BC433A.png](media/ID6D53A539F3904A1F.ID3A46D6A561BC433A.png). **Keyboard shortcut:** You can also press CTRL+V.
+3\. Select the paste area, and on the **menu**, click _Paste_![ID6D53A539F3904A1F.ID3A46D6A561BC433A.png](media/ID6D53A539F3904A1F.ID3A46D6A561BC433A.png). **Keyboard shortcut:** You can also press CTRL+V.
 
 ![ID6D53A539F3904A1F.ID236D3AA5D5DF453D.png](media/ID6D53A539F3904A1F.ID236D3AA5D5DF453D.png)
 

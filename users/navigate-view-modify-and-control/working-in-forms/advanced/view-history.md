@@ -9,7 +9,7 @@ In the **History** dialog box, specify a search in the **Search** pane and click
 
 ## Event Types
 
-The format and contents of the details for an event vary depending on the <span style="FONT-STYLE: italic">event type.
+The format and contents of the details for an event vary depending on the _event type_.
 
 **Executed**
 
@@ -45,7 +45,7 @@ The permissions granted or revoked for a security group or a user account on an 
 
 No details are logged for the event types **Read** and **Created**.
 
-Note that if an object is part of a [composition](../../../../developers/installation-and-configuration/composition.md "Composition"), audit trails for the object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if <span style="FONT-STYLE: italic">Contact Person is part of <span style="FONT-STYLE: italic">Customer, and a new <span style="FONT-STYLE: italic">contact person is added to a <span style="FONT-STYLE: italic">customer, the event is logged as a **Create** event on the <span style="FONT-STYLE: italic">contact person and a **Modified** event on the <span style="FONT-STYLE: italic">customer.
+Note that if an object is part of a [composition](../../../../developers/installation-and-configuration/composition.md "Composition"), audit trails for the object are logged in the Event History both for the object and the composition. Events such as **Created**, **Modified** and **Deleted**, are logged as a **Modified** event on the composition. For example, if _Contact Person_ is part of _Customer_, and a new _contact person_ is added to a _customer_, the event is logged as a **Create** event on the _contact person_ and a **Modified** event on the _customer_.
 
 
 

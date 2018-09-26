@@ -2,7 +2,7 @@
 
 A table displays its objects in a layout called a view.
 
-A view is composed of <span style="FONT-STYLE: italic">columns, which also are called <span style="FONT-STYLE: italic">fields. A view controls the way objects are sorted and grouped, which objects (rows) are displayed on so on.
+A view is composed of _columns_, which also are called _fields_. A view controls the way objects are sorted and grouped, which objects (rows) are displayed on so on.
 
 You may personalize your views and save your settings. The settings are automatically remembered and used the next time you start your Genus application. In the table, right-click the column headings, and then click **View Settings**. You can reset your personlize view to default view. In The table, right-click the column headings, and then click **Reset View**.
 
@@ -29,7 +29,7 @@ The dialog box below will appear.
 
 ## Group Objects
 
-A group is a set of objects with one common attribute, for example <span style="FONT-STYLE: italic">employees within a <span style="FONT-STYLE: italic">department. When you group objects in a table, the objects are displayed below a shared heading.
+A group is a set of objects with one common attribute, for example _employees_ within a _department_. When you group objects in a table, the objects are displayed below a shared heading.
 
 ![IDE5E8EB415CB3434D.ID738C12F36630432B.png](media/IDE5E8EB415CB3434D.ID738C12F36630432B.png)
 
@@ -37,7 +37,7 @@ A group is a set of objects with one common attribute, for example <span style="
 2.  Click **Group By**.
 3.  Click **Add** to add a row to the field list.
 4.  In the newly added row, in the **Group By** box, select a field.
-5.  You can enhance grouping by selecting a group interval in the **Group Interval** box. For example, you can group <span style="FONT-STYLE: italic">purchases by date and then include group intervals that show totals for each day, month, or year. Intervals are not confined to fields with the date/time data type, however. You can also use them with text and number fields as well. For example, a <span style="FONT-STYLE: italic">Company Namefield could have intervals that segment results by the first letter of the company.
+5.  You can enhance grouping by selecting a group interval in the **Group Interval** box. For example, you can group _purchases_ by date and then include group intervals that show totals for each day, month, or year. Intervals are not confined to fields with the date/time data type, however. You can also use them with text and number fields as well. For example, a _Company Name_ field could have intervals that segment results by the first letter of the company.
 6.  In the **Initial Display** box, select if the groups should be expanded or collapsed as default.
 7.  To group by an additonal field, click **Add** again.
 8.  To remove fields, select a field row and click **Remove**.
@@ -57,7 +57,7 @@ A group is a set of objects with one common attribute, for example <span style="
 
 **![ID79E7CB9C84804014.IDE76C08B82D964027.png](media/ID79E7CB9C84804014.IDE76C08B82D964027.png)**
 
-**Note**. If a field is a reference to a [code domain](../../../../terminology.md), data are sorted according to the logical sort order defined for the code domain, which not necessarily equals the alphanumeric order. For example, in a code domain which defines some kind of workflow status, the codes may be specified in the following sort order: <span style="FONT-STYLE: italic">Not Started, <span style="FONT-STYLE: italic">In Progress and <span style="FONT-STYLE: italic">Completed.
+**Note**. If a field is a reference to a [code domain](../../../../terminology.md), data are sorted according to the logical sort order defined for the code domain, which not necessarily equals the alphanumeric order. For example, in a code domain which defines some kind of workflow status, the codes may be specified in the following sort order: _Not Started_, _In Progress_ and _Completed_.
 
 
 

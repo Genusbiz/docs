@@ -103,7 +103,7 @@ Set whether the user can select one or many members in filter.
 
 When aggregating large amounts of data it is often neccessary to restrict the amount of data as much as possible. Often it is useful to add a time based filter, both from a functional user perspective and from a performance perspective.
 
-The time filter can be set up as an absolute time filter or a relative time filter. An absolute time filter is based on specific periods or specific dates, either in a selection or in a criteria. A relative time filter can be defined as a criteria based on a time function or a predefined time function. A time function is based on a date, either the current date or a date from the directory, and then time steps are added to modify the result date, for example <span style="FONT-STYLE: italic">Beginning of Year and <span style="FONT-STYLE: italic">Back 3 Months.
+The time filter can be set up as an absolute time filter or a relative time filter. An absolute time filter is based on specific periods or specific dates, either in a selection or in a criteria. A relative time filter can be defined as a criteria based on a time function or a predefined time function. A time function is based on a date, either the current date or a date from the directory, and then time steps are added to modify the result date, for example _Beginning of Year_ and _Back 3 Months_.
 
 In this way, the report is dynamic and can always default to the relevant period, for example the last three months.
 

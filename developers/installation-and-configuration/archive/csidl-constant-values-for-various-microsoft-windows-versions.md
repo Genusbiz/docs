@@ -7,10 +7,10 @@ In Microsoft Windows, CSIDL (constant special item ID list) values provide a uni
 
 The CSIDL constants resolves to different folders on different versions of Microsoft Windows. Below you will find the values for a selection of CSIDL constants used by Genus.
 
-**CSIDL_PROGRAM_FILES**: <span style="FONT-STYLE: italic">C:\Program Files
+**CSIDL_PROGRAM_FILES**: `C:\Program Files`
 
-**CSIDL_COMMON_APPDATA**: <span style="FONT-STYLE: italic">C:\ProgramData
+**CSIDL_COMMON_APPDATA**: `C:\ProgramData`
 
-**CSIDL_LOCAL_APPDATA**: <span style="FONT-STYLE: italic">C:\Users\<UserName>\AppData\Local
+**CSIDL_LOCAL_APPDATA**: `C:\Users\<UserName>\AppData\Local`
 
 All paths above refer to English versions of Microsoft Windows and may differ in other languages.

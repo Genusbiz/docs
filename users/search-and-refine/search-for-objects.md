@@ -8,7 +8,7 @@ To specify the field for one or more search words, type the field name without s
 
 ![ID7843B21539454C5C.jpg](media/ID7843B21539454C5C.jpg)
 
-Use the format <span style="FONT-STYLE: italic"><field name>:<search word>, where the field name is case insensitive and is typed without spaces.
+Use the format `<field name>:<search word>`, where the field name is case insensitive and is typed without spaces.
 
 **Search Pane**  
 To specify a search in more detail, open the Search Pane by clicking the View Search Pane button to the right of the search field, or by pressing CTRL+F3\.

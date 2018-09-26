@@ -21,9 +21,9 @@ The search section contains a summary of the current search criteria and all app
 
 The refiners section contains a list of the refiners that are available for the objects in the table. Each refiner displays the number of objects in the search result that matches any of the refinement links for that refiner. By selecting a refiner, it is expanded to show all its refinement links. Each refinement link displays the number of objects that matches the criteria of that refinement link.
 
-Select a refinement link to narrow the search result, and only keep objects matching the refinement link. If you press the SHIFT key when selecting the refinement link, the operator for the criterion is reversed and only objects <span style="TEXT-DECORATION: underline">not matching the refinement link are kept.
+Select a refinement link to narrow the search result, and only keep objects matching the refinement link. If you press the SHIFT key when selecting the refinement link, the operator for the criterion is reversed and only objects _not_ matching the refinement link are kept.
 
-<span style="FONT-STYLE: italic">For example:
+_For example:_
 
 A table with employees have three refiners; Department, Employee State, and Sales Territory.
 
@@ -31,9 +31,9 @@ Click Sales Territory to open the refiner and show the refinement links. Select 
 
 ![IDFE8FE318FA854AF7.png](media/IDFE8FE318FA854AF7.png)
 
-To select more than one refinement link within one refiner, press and hold the CTRL key when selecting the refinement links. The selected refinement links are highlighted, and the selection can be changed by clicking selected and unselected refinement links as long as the CTRL key is pressed. When the CTRL key is released, the selected refinement links are applied to the search. Only objects matching any of the selected refinement links are kept. If you press the SHIFT key when selecting refinement links, the operator for the criterion is reversed and only objects <span style="TEXT-DECORATION: underline">not matching any of the refinement links are kept.
+To select more than one refinement link within one refiner, press and hold the CTRL key when selecting the refinement links. The selected refinement links are highlighted, and the selection can be changed by clicking selected and unselected refinement links as long as the CTRL key is pressed. When the CTRL key is released, the selected refinement links are applied to the search. Only objects matching any of the selected refinement links are kept. If you press the SHIFT key when selecting refinement links, the operator for the criterion is reversed and only objects _not_ matching any of the refinement links are kept.
 
- <span style="FONT-STYLE: italic">For example:
+_For example:_
 
 A table with employees have three refiners; Department, Employee State, and Sales Territory.
 
