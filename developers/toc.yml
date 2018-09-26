@@ -57,7 +57,7 @@
     - name: Automatic formatting
       href: defining-an-app-model/common-concepts/automatic-formatting.md
     - name: Conditions
-      href: defining-an-app-model/common-concepts/conditions.md
+      href: defining-an-app-model/common-concepts/conditions/index.md
       items:
       - name: Groups and expressions
         href: defining-an-app-model/common-concepts/conditions/groups-and-expressions.md

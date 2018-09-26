@@ -98,7 +98,7 @@ Select how to filter a data source from the following methods:
 
 <td>
 
-Populates the data source with a dynamic selection of objects which satisfies a condition, for example all *employees* working in a *department*. Follow the instructions in the [step-by-step procedure](../../../common-concepts/conditions.md) on how to define a condition. To read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
+Populates the data source with a dynamic selection of objects which satisfies a condition, for example all *employees* working in a *department*. Follow the instructions in the [step-by-step procedure](../../../common-concepts/conditions/index.md) on how to define a condition. To read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
 
 </td>
 

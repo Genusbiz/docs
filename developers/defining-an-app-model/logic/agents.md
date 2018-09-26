@@ -228,6 +228,6 @@ Note that it is important to follow the steps above in the given sequence. Do *n
 See Also
 
 *   [Data Sources](action-orchestration/data-sources.md)
-*   [Conditions](../common-concepts/conditions.md)
+*   [Conditions](../common-concepts/conditions/index.md)
 *   [Actions](action-orchestration/actions.md)
 *   [Effects](action-orchestration/actions/effects.md)

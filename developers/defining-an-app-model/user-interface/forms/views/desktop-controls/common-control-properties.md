@@ -71,7 +71,7 @@ The control is not enabled for the end user.
 
 **Condition...**
 
-A [condition](../../../../common-concepts/conditions.md) determines if the control is enabled for the end user. Use a condition when the control should only be enabled in som cases, for example depending on the state of an object.
+A [condition](../../../../common-concepts/conditions/index.md) determines if the control is enabled for the end user. Use a condition when the control should only be enabled in som cases, for example depending on the state of an object.
 
 </td>
 
@@ -143,7 +143,7 @@ The field value is not read only for the end user.
 
 **Condition...**
 
-A [condition](../../../../common-concepts/conditions.md) determines if the field value is read only for the end user. Use a condition when the field value only should be read only in som cases, for example depending on the state of an object.
+A [condition](../../../../common-concepts/conditions/index.md) determines if the field value is read only for the end user. Use a condition when the field value only should be read only in som cases, for example depending on the state of an object.
 
 </td>
 
@@ -189,7 +189,7 @@ The field is not visible to the end user.
 
 **Condition...**
 
-A [condition](../../../../common-concepts/conditions.md) determines if the field is visible to the end user. Use a condition when the field only should be visible in som cases, for example depending on the state of an object.
+A [condition](../../../../common-concepts/conditions/index.md) determines if the field is visible to the end user. Use a condition when the field only should be visible in som cases, for example depending on the state of an object.
 
 </td>
 

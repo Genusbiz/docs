@@ -38,8 +38,8 @@ Add a Uniqueness Constraint, do the following:
 3.  In the **Impact** section, click a impact of your choice.  
     * [Notify user and cancel command](data-integrity.md "Data Integrity") will deny user to save an object which violates the constraint.  
     * [Notify user and ask for confirmation to proceed](data-integrity.md "Data Integrity") will not prevent user saving an object.  
-4.  In the **If this condition is true** box, optionally set a [condition](../../../common-concepts/conditions.md "Conditions") that must be satisfied before the rule is evaluated. For example, you may only want to evaluate the rule for objects in a specific state.  
-5.  In the **Then use this expression to check for existence of duplicate objects** enter a [condition](../../../common-concepts/conditions.md "Conditions") used to check for existence of duplicate objects.  
+4.  In the **If this condition is true** box, optionally set a [condition](../../../common-concepts/conditions/index.md "Conditions") that must be satisfied before the rule is evaluated. For example, you may only want to evaluate the rule for objects in a specific state.  
+5.  In the **Then use this expression to check for existence of duplicate objects** enter a [condition](../../../common-concepts/conditions/index.md "Conditions") used to check for existence of duplicate objects.  
 6.  In the **Screen Tip box**, type the text you want to display when a user points to a visual control associated with one of the properties included in the duplicate condition.  
     In the Message box, type the text to display in a dialog box, when one or more duplicate objects are found.
 7.  Click **OK**.
@@ -59,7 +59,7 @@ To add Consistency Constraints, do the following:
 3.  In the **Impact** section, click the impact of your choice.  
     * [Notify user and cancel command](data-integrity.md) will deny user to save an object which violates the constraint.  
     * [Notify user and ask for confirmation](data-integrity.md) to proceed will not prevent user saving an object.
-4.  In the **Condition** box, set a [condition](../../../common-concepts/conditions.md) that must be satisfied before the rule is evaluated.
+4.  In the **Condition** box, set a [condition](../../../common-concepts/conditions/index.md) that must be satisfied before the rule is evaluated.
 5.  In the **Notification Message** box, type the text you want to display when the constraint is violated.
 6.  Click **OK.**
 
@@ -78,7 +78,7 @@ To add Delete Constraints, do the following:
 3.  In the **Impact** section, click the impact of your choice.  
     * [Notify user and cancel command](data-integrity.md) will deny user to save an object which violates the constraint.  
     * [Notify user and ask for confirmation to proceed](data-integrity.md) will not prevent user saving an object.
-4.  In the **Condition** box, enter a [condition](../../../common-concepts/conditions.md) which expresses the state for an object which not can be deleted.
+4.  In the **Condition** box, enter a [condition](../../../common-concepts/conditions/index.md) which expresses the state for an object which not can be deleted.
 5.  In the **Notification Message**, type a message explaining why the permission to delete an object has been denied. The message is displayed to the end user if the condition for the constraint is satisfied.
 6.  Click **OK**.  
 

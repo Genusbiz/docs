@@ -24,7 +24,7 @@ If you are consuming an external Web Service which normally exceeds the default 
 2.  In the **Timeout** section, click **Allow the effect to run for**, and the type the maximum number of seconds the effect is allowed to run.
 3.  If the Web Service provider is designed to process messages asynchronously, you can use **Rerun Attempts** to poll the Web Service until the result is returned. To do this:
 4.  In the **Rerun Attempts** section, select the **If this condition is true** check box to enable rerun attempts.
-5.  The effect will continuously call the Web Service as long as the specified condition is true. Click **Modify** to specify a [condition](../../../../common-concepts/conditions.md "Conditions").
+5.  The effect will continuously call the Web Service as long as the specified condition is true. Click **Modify** to specify a [condition](../../../../common-concepts/conditions/index.md "Conditions").
 6.  In the **Rerun every** box, type the number of seconds to sleep between each call.
 7.  In the **Attempt to rerun** box, type the maximum number of rerun attempts for the effect. 
 

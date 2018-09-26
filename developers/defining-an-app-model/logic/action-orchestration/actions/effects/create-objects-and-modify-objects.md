@@ -62,7 +62,7 @@ To define a data filter or data binding, do the following:
 
 1.  Right-click the group, and then in the shortcut menu, click **Properties**.
 2.  In the **Data Filter** or a **Data Binding** box, click **Modify**.
-3.  In the **Filter Data** dialog box, click **Select objects which meet the following condition**. Follow the instructions in the [step-by-step procedure](../../../../common-concepts/conditions.md) on how to define a condition.
+3.  In the **Filter Data** dialog box, click **Select objects which meet the following condition**. Follow the instructions in the [step-by-step procedure](../../../../common-concepts/conditions/index.md) on how to define a condition.
 
 
 

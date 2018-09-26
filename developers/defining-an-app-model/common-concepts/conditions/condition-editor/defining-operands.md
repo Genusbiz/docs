@@ -1,6 +1,6 @@
 # Defining Operands
 
-The condition editor allows you to use a wide range of operands. For more information on the meaning of the operands, see [Conditions](../../conditions.md).
+The condition editor allows you to use a wide range of operands. For more information on the meaning of the operands, see [Conditions](../index.md).
 
 **Field or Group**
 

@@ -54,7 +54,7 @@ For information on how to publish your refiners, see [Search](../../developers/d
 9.  In the **Sort Items By** box, select **Code Domain Order** to list the refinement links in the logical order of the values in the code domain .
 10.  Click the **Add** arrow in the **Mappings** section, and select **Conditions** to open the **Refiner Mapping** dialog.  
     ![IDD593DB163D904BCB.png](media/IDD593DB163D904BCB.png)
-11.  In the **Map to Object Class** box select the object class to filter, and for each of the values in the code domain define the [conditions](../../developers/defining-an-app-model/common-concepts/conditions.md) to use for filtering the object class. Note! If the conditions are very similar , you can copy a condition from one value to another, and then modify the condition. To do this, right-click a condition, and then in the shortcut menu, click **Copy**.  
+11.  In the **Map to Object Class** box select the object class to filter, and for each of the values in the code domain define the [conditions](../../developers/defining-an-app-model/common-concepts/conditions/index.md) to use for filtering the object class. Note! If the conditions are very similar , you can copy a condition from one value to another, and then modify the condition. To do this, right-click a condition, and then in the shortcut menu, click **Copy**.  
     ![IDF8F8552DF8FE4DEA.png](media/IDF8F8552DF8FE4DEA.png)
 12.  Repeat 10 and 11 for all object classes to map.
 13.  Click **OK**.

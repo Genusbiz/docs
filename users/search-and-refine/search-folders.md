@@ -18,7 +18,7 @@ To create a new specific objects search folder, do the following:
 8.  Click **OK**.
 9.  Right-click the search folder, and click **Open**, or double-click the search folder to open.
 10.  In the **Search Folder** dialog box, click **Criteria** tab.
-11.  Set the criteria for the search folder. For more information about how to set criteria, see [Conditions](../../developers/defining-an-app-model/common-concepts/conditions.md).
+11.  Set the criteria for the search folder. For more information about how to set criteria, see [Conditions](../../developers/defining-an-app-model/common-concepts/conditions/index.md).
 
 ![IDB7FA3DE0F8474DC0.png](media/IDB7FA3DE0F8474DC0.png)
 

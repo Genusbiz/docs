@@ -1,6 +1,6 @@
 # Condition Editor
 
-The condition editor offers easy point-and-click creation and modification of [conditions](../conditions.md), for a wide range of usages. It offers access to all relevant data sources for the context of the condition.
+The condition editor offers easy point-and-click creation and modification of [conditions](index.md), for a wide range of usages. It offers access to all relevant data sources for the context of the condition.
 
 **Topics in "Condition Editor"**
 * [Add an Expression or Group](condition-editor/add-an-expression-or-group.md)

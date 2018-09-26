@@ -37,7 +37,7 @@ Rule properties:
 | Icon           | Symbol that is displayed. In the Icon list click the icon you want to use, or **Transparent** to use a blank icon. Click **None** to not display an icon. An Icon can only be used when the format is applied to a cell. |
 | Show Icon Only | Hides the value of the field in the cell. |
 | Display Text   | Text that is displayed. A Display Text can only be used when the format is applied to a cell. |
-| Condition...   | The condition that has to be fulfilled for the formatting to be applied. Click Condition to open the condition dialog. For defining condition, see [Conditions](conditions.md "Conditions") |
+| Condition...   | The condition that has to be fulfilled for the formatting to be applied. Click Condition to open the condition dialog. For defining condition, see [Conditions](conditions/index.md "Conditions") |
 
 ## Automatic formatting using data bars
 

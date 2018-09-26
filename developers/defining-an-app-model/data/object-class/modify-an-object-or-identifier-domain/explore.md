@@ -74,7 +74,7 @@ To add a step in the path condition, do the following:
 2.  Click the down arrow and then click **Select Field or Group**.  
     ![explore_path_condition_setup_1.jpg](media/explore_path_condition_setup_1.jpg)
 3.  In the list, select the correct object class.
-4.  In the immediately followin **By** section, define the condition between the two object classes. To enter conditions for more than one set of proerties, click **Add>>**. For more information on defining conditinos see [Conditions](../../../common-concepts/conditions.md "Conditions").  ![explore_path_condition_setup_2.jpg](media/explore_path_condition_setup_2.jpg)
+4.  In the immediately followin **By** section, define the condition between the two object classes. To enter conditions for more than one set of proerties, click **Add>>**. For more information on defining conditinos see [Conditions](../../../common-concepts/conditions/index.md "Conditions").  ![explore_path_condition_setup_2.jpg](media/explore_path_condition_setup_2.jpg)
 5.  If the path condition is finished, click **OK,** then click **OK,** then click **OK.**
 6.  Or, to add another step in the path, click **Click to modify the right side of join**.
 7.  Repeat from 1)
@@ -107,7 +107,7 @@ To add a new association, do the following:
 2.  In the **Associated Object Class** box, select the Object Class which you want to associate.
 3.  Type a name in the **Name** box.
 4.  In the list below, associate properties and connections in the Object Class (**Base Property**) with a property or connection in the associated Object Class (**Associated Property**).
-5.  In the **Data Filter** box, click **Modify** to specify a data filter for the associated Object Class. In the **Data Filter** dialog box, specify a [condition](../../../common-concepts/conditions.md) for restricting which objects to associate. In the example above, you would typically match the request with employees which not are absent or quitted.
+5.  In the **Data Filter** box, click **Modify** to specify a data filter for the associated Object Class. In the **Data Filter** dialog box, specify a [condition](../../../common-concepts/conditions/index.md) for restricting which objects to associate. In the example above, you would typically match the request with employees which not are absent or quitted.
 
 The following rules applies for associating properties and connections:
 

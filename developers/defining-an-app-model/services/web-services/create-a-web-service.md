@@ -31,7 +31,7 @@ Next you have to specify a data filter for the data source.
 1.  Click **Filter Data**.
 2.  Do one of the following:  
     * To select one or more objects, click **Select a specific set of objects**, and then click **Select**.  
-    * To select one or more objects which satisfy a given condition, click **Select objects that meet the following condition**. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions.md "Conditions")/[Define a Conditional Formula](../../logic/action-orchestration/define-a-conditional-formula.md) on how to define a condition.  
+    * To select one or more objects which satisfy a given condition, click **Select objects that meet the following condition**. Follow the instructions in the [step-by-step procedure](../../common-concepts/conditions/index.md "Conditions")/[Define a Conditional Formula](../../logic/action-orchestration/define-a-conditional-formula.md) on how to define a condition.  
 
 
 
@@ -67,7 +67,7 @@ To add SOAP headers to your Web Service, follow these steps:
 1.  Click the **SOAP Headers** tab.
 2.  To add a SOAP header requested from consumers of the Web Service, in the **Request SOAP Headers** list, click **Add**.
 3.  In the **SOAP Header** dialog box, select an XML schema from your app model. If the XML schema contains multiple root elements, in the Root Element box, select which root element to use. Note that the namespace for the XML schema and the name of the root element must be unique within the Request SOAP Headers defined in the Web Service.
-4.  Web Service requests can be validated by setting conditions on the Request SOAP Header. Any requests not satisfying the conditions are rejected. To specify a condition, in the section **"Reject requests where the SOAP headers do not satisfy...",**click **Modify** to specify a [condition](../../common-concepts/conditions.md "Conditions").
+4.  Web Service requests can be validated by setting conditions on the Request SOAP Header. Any requests not satisfying the conditions are rejected. To specify a condition, in the section **"Reject requests where the SOAP headers do not satisfy...",**click **Modify** to specify a [condition](../../common-concepts/conditions/index.md "Conditions").
 5.  To add a SOAP header returned to consumers of the Web Service, in the **Response SOAP Headers** list, click **Add**. Follow the instructions in step 3.
 
 Note that consumers of the Web Service must provide data for all **Request SOAP Headers** defined in the Web Service. If data for a header is missing, the request is rejected.

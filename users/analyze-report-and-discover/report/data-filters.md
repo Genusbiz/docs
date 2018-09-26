@@ -14,7 +14,7 @@ Data Filters can for example be used in an accounting system, to create groups o
 5.  In the **Met****hod** section select how to identify objects for the data filter.
 6.  To restrict access to the Data Filter to a specific data set, in the **Data Set Binding** section click **Data Set** and then in the list select a data set.
 7.  Click **Apply** to confirm the information. The window will then close and reopen to allow access to the **Filter** tab.
-8.  If you have selected **Criteria** as Method, in the **Filter** tab define a [condition](../../../developers/defining-an-app-model/common-concepts/conditions.md) to select objects.
+8.  If you have selected **Criteria** as Method, in the **Filter** tab define a [condition](../../../developers/defining-an-app-model/common-concepts/conditions/index.md) to select objects.
 9.  If you have selected **Select a specific set of objects** as Method, in the **Filter** tab click **Add** to add specific objects. Standard search is used to find objects.
 10.  If you have selected **Data Filters** as Method, in the Filter tab click **Add** and then in the **Select Data Filter** window, select the data filters to add and click **OK**.
 11.  Click **OK**.  

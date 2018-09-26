@@ -10,5 +10,5 @@ To spedify advanced operations, the decision is used in combination with effects
 
 *   **Name**. The name is optional, and if there is no name, a summary of the condition is displayed in the Action tree.
 *   **Description**. The description is optional.
-*   **Condition**. If the condition is fulfilled, the steps inside the decision block is executed. See here for more information on defining [conditions](../../../../common-concepts/conditions.md).
+*   **Condition**. If the condition is fulfilled, the steps inside the decision block is executed. See here for more information on defining [conditions](../../../../common-concepts/conditions/index.md).
 *   **Enabled**. Default selected. Clear the check box to disable the decision and all actions within it.
