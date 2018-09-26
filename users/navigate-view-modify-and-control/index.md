@@ -15,7 +15,7 @@ Key concepts
 Working in Genus Desktop Forms:
 
 * [What is a Form?](working-in-forms/what-is-a-form.md)
-* [Advanced](working-in-forms/advanced/advanced.md)
+* [Advanced](working-in-forms/advanced/index.md)
 
 Working in Genus Desktop Tables:
 

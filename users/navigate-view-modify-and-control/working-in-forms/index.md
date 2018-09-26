@@ -10,4 +10,4 @@ See Also
 
 **Topics in "Working in Forms"**
 * [What is a Form?](what-is-a-form.md)
-* [Advanced](advanced/advanced.md)
+* [Advanced](advanced/index.md)

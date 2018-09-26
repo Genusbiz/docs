@@ -16,12 +16,12 @@
   - name: Navigation Pane
     href: navigate-view-modify-and-control/navigation-pane.md
   - name: Working in Forms
-    href: navigate-view-modify-and-control/working-in-forms/working-in-forms.md
+    href: navigate-view-modify-and-control/working-in-forms/index.md
     items:
     - name: What is a Form?
       href: navigate-view-modify-and-control/working-in-forms/what-is-a-form.md
     - name: Advanced
-      href: navigate-view-modify-and-control/working-in-forms/advanced/advanced.md
+      href: navigate-view-modify-and-control/working-in-forms/advanced/index.md
       items:
       - name: Add a new object
         href: navigate-view-modify-and-control/working-in-forms/advanced/add-a-new-object.md
