@@ -2,8 +2,8 @@
 
 Data Calculation is used to define a **default value**, a **formula** or an **RDBMS expression**.
 
-*   A default value for a property is calculated when an object is created. For example, you may want to set the <span style="FONT-STYLE: italic">state for a <span style="FONT-STYLE: italic">customer to <span style="FONT-STYLE: italic">Active by default when a new <span style="FONT-STYLE: italic">customer is created.
-*   A formula is calculated whenever data are read or modified. For example, you can calculate the <span style="FONT-STYLE: italic">age for a <span style="FONT-STYLE: italic">person.
+*   A default value for a property is calculated when an object is created. For example, you may want to set the _state_ for a _customer_ to _Active_ by default when a new _customer_ is created.
+*   A formula is calculated whenever data are read or modified. For example, you can calculate the _age_ for a _person_.
 *   An RDBMS expression is calculated when data are read. RDBMS expressions are typically used to calculate measures used when aggregating data.
 
 The available data calculation options for a property depends on the settings for the type and data binding:
@@ -14,7 +14,7 @@ The available data calculation options for a property depends on the settings fo
 
 <tr>
 
-<td><span style="FONT-WEIGHT: bold; FONT-STYLE: italic">Data Binding / Type</td>
+<td>_Data Binding / Type_</td>
 
 <td>**Data**</td>
 
@@ -406,9 +406,9 @@ Click **RDBMS Expression**, and enter a valid RDBMS expression returning data of
 
 If the expression contains references to columns located in other tables, you can use a Class Connection to access the data. In the **Placeholder Data Source** list, select the Class Connection to use. Columns located in the last junction for the the Class Connection, must be prefixed with a question mark and a period, "**?.**". Columns located in any other junction must be prefixed with a question mark, a negative offset indicating the relative position of the junction to the last junction, and a period. For example, "**?-1**.".
 
-For example, if an Object Class contains data for <span style="FONT-STYLE: italic">sales price in different native currencies, you may want to convert the <span style="FONT-STYLE: italic">sales price to a common currency. In order to do this, you need to use a Class Connection which connects your <span style="FONT-STYLE: italic">sales data with an Object Class containing <span style="FONT-STYLE: italic">exchange rates, where the Object Classes are connected by currency and date:
+For example, if an Object Class contains data for _sales price_ in different native currencies, you may want to convert the _sales price_ to a common currency. In order to do this, you need to use a Class Connection which connects your _sales data_ with an Object Class containing _exchange rates_, where the Object Classes are connected by currency and date:
 
-<span style="FONT-STYLE: italic">?-1.sales_price * ?.exchange_rate
+`?-1.sales_price * ?.exchange_rate`
 
 > [!NOTE]
 > A property using a RDBMS expression with a placeholderdata source can only be used in contexts where SQL queries can be executed. For example, such a property cannot be used to [define the display name for an object class](../../object-class/modify-an-object-or-identifier-domain/display.md). In addition, the property cannot be joined in a select statement for a referencing object class (e.g. a table column bound through a reference property to the property which contains the RDBMS expression).

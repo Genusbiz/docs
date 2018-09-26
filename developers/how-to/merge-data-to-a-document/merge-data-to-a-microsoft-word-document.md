@@ -43,7 +43,7 @@ Example:
 
 **{** MERGEFIELD Responsible \b Contact: \* Upper **}**
 
-**MERGEFIELD** <span style="FONT-WEIGHT: normal">is the field name
+**MERGEFIELD** is the field name
 
 ****Responsible**** is the text for the required instruction Field Name. The field name represents an element in your XML document.
 
@@ -63,13 +63,13 @@ You can switch between field names and field codes using the keyboard shortcut A
 
 The merge effect introduces a set of special field codes which takes the standard mail merge and advances it many steps ahead. The codes are included in the required instruction **Field Name** of a merge field, suffixed with a colon. For example, to insert an image located in an element named Photo, the **Field Name** would be
 
-<span style="FONT-STYLE: italic">Image:Photo
+_Image:Photo_
 
 **Image:** is the special field code which instructs the effect to insert an image.
 
 **Photo** is the name of the element in the XML document holding the image.
 
-Some field codes requires a matching pair of merge fields to mark the beginning and end of an instruction. For example, to mark the beginning of a mail merge region, insert a merge field with the name <span style="FONT-STYLE: italic">TableStart:element-name, where <span style="FONT-STYLE: italic">element-name corresponds to a complex type element in your XML document. To mark the end of the mail merge region, insert another merge field with the name <span style="FONT-STYLE: italic">TableEnd:<element-name>.
+Some field codes requires a matching pair of merge fields to mark the beginning and end of an instruction. For example, to mark the beginning of a mail merge region, insert a merge field with the name _TableStart:element-name_, where _element-name_ corresponds to a complex type element in your XML document. To mark the end of the mail merge region, insert another merge field with the name _TableEnd:element-name_.
 
 The table below summarizes available field codes:
 
@@ -89,15 +89,15 @@ The table below summarizes available field codes:
 
 <td>
 
-**HideIfEmptyStart:**<span style="FONT-STYLE: italic">element-name
+**HideIfEmptyStart:**_element-name_
 
-**HideIfEmptyEnd:**<span style="FONT-STYLE: italic">element-name
+**HideIfEmptyEnd:**_element-name_
 
 </td>
 
 <td>
 
-Hides all document content that is included inside these two merge fields if the value for the element given by <span style="FONT-STYLE: italic">element-name is blank. If these merge fields are placed in different cells in a MS Word table, the entire row is hidden.
+Hides all document content that is included inside these two merge fields if the value for the element given by _element-name_ is blank. If these merge fields are placed in different cells in a MS Word table, the entire row is hidden.
 
 An alternative can be to use the standard merge field switches to add text before or after non-empty merge fields:
 
@@ -110,27 +110,27 @@ Insert text after merged data if not empty: { MERGEFIELD Title \f b (Book title
 
 <tr>
 
-<td>**Html:**<span style="FONT-STYLE: italic">element-name</td>
+<td>**Html:**_element-name_</td>
 
-<td>Inserts a report located in the element given by <span style="FONT-STYLE: italic">element-name. The file format for the report must be set to Microsoft Word HTML Table. For graphs use the image Field Code.</td>
-
-</tr>
-
-<tr>
-
-<td>**Rtf**:<span style="FONT-STYLE: italic">element-name</td>
-
-<td>Inserts Rtf-encoded text located in the element given by <span style="FONT-STYLE: italic">element_name. The data type of the schema element is typically <span style="FONT-STYLE: italic">Base64Binary.</td>
+<td>Inserts a report located in the element given by _element-name_. The file format for the report must be set to Microsoft Word HTML Table. For graphs use the image Field Code.</td>
 
 </tr>
 
 <tr>
 
-<td>**Image:**<span style="FONT-STYLE: italic">element-name</td>
+<td>**Rtf**:_element-name_</td>
+
+<td>Inserts Rtf-encoded text located in the element given by _element_name_. The data type of the schema element is typically _Base64Binary_.</td>
+
+</tr>
+
+<tr>
+
+<td>**Image:**_element-name_</td>
 
 <td>
 
-Inserts an image located in the element given by <span style="FONT-STYLE: italic">element-name. To adjust the size for the image, place the merge field inside a single-cell table or a text box, and then set the preferred size for the cell or text box. The image will resize to fit the size of the cell or text box, without changing its aspect ratio.
+Inserts an image located in the element given by _element-name_. To adjust the size for the image, place the merge field inside a single-cell table or a text box, and then set the preferred size for the cell or text box. The image will resize to fit the size of the cell or text box, without changing its aspect ratio.
 
 The image field code must be used when [merging reports](merge-data-to-a-microsoft-word-document.md).
 
@@ -140,15 +140,15 @@ The image field code must be used when [merging reports](merge-data-to-a-microso
 
 <tr>
 
-<td>**XL:**<span style="FONT-STYLE: italic">element-name</td>
+<td>**XL:**_element-name_</td>
 
-<td>Inserts a report or an Excel file as table located in the element given by <span style="FONT-STYLE: italic">element-name. The file format for the report or the file must be set to Microsoft Excel File.</td>
+<td>Inserts a report or an Excel file as table located in the element given by _element-name_. The file format for the report or the file must be set to Microsoft Excel File.</td>
 
 </tr>
 
 <tr>
 
-<td>**MinNoOfRows:**<span style="FONT-STYLE: italic">no-of-rows</td>
+<td>**MinNoOfRows:**_no-of-rows_</td>
 
 <td>
 
@@ -206,15 +206,15 @@ Example:
 
 <td>
 
-**NoBreakStart:**<span style="FONT-WEIGHT: normal">[(<span style="FONT-WEIGHT: normal; FONT-STYLE: italic">delimiter-string<span style="FONT-WEIGHT: normal">)]
+**NoBreakStart:**[(_delimiter-string_)]
 
-**NoBreakEnd:**<span style="FONT-WEIGHT: normal">[(<span style="FONT-WEIGHT: normal; FONT-STYLE: italic">end-string<span style="FONT-WEIGHT: normal">)]
+**NoBreakEnd:**[(_end-string_)]
 
 </td>
 
 <td>
 
-Keeps a repeating region in the same paragraph. The optional <span style="FONT-STYLE: italic">delimiter-string is inserted between the regions, and the optional <span style="FONT-STYLE: italic">end-stringis added at the end of the list
+Keeps a repeating region in the same paragraph. The optional _delimiter-string_ is inserted between the regions, and the optional _end-string_ is added at the end of the list
 
 Example:
 
@@ -262,7 +262,7 @@ Books: Title-1, Title-2, Title-3.
 
 </table>
 
-Note that if the text <span style="FONT-STYLE: italic">Books: is placed in the same paragraph as <span style="FONT-STYLE: italic"><<TableStart:Book>>, it is repeated once for each book, such as:
+Note that if the text _Books:_ is placed in the same paragraph as _TableStart:Book_, it is repeated once for each book, such as:
 
 <table style="WIDTH: 100%">
 
@@ -330,13 +330,13 @@ This ensures that the Title always starts on a new page.
 
 <td>
 
-**ShowIfEmptyStart:**<span style="FONT-STYLE: italic">element-name
+**ShowIfEmptyStart:**_element-name_
 
-**ShowifEmptyEnd:**<span style="FONT-STYLE: italic">element-name
+**ShowifEmptyEnd:**_element-name_
 
 </td>
 
-<td>Shows all document content that is included inside these two merge fields if the value for the element given by <span style="FONT-STYLE: italic">element-name is blank.</td>
+<td>Shows all document content that is included inside these two merge fields if the value for the element given by _element-name_ is blank.</td>
 
 </tr>
 
@@ -344,15 +344,15 @@ This ensures that the Title always starts on a new page.
 
 <td>
 
-**TableStart:**<span style="FONT-STYLE: italic">element-name
+**TableStart:**_element-name_
 
-**TableEnd:**<span style="FONT-STYLE: italic">element-name
+**TableEnd:**_element-name_
 
 </td>
 
 <td>
 
-Repeats all document content that is included inside these two merge fields for every occurrence of the complex type element given by <span style="FONT-STYLE: italic">element-name.
+Repeats all document content that is included inside these two merge fields for every occurrence of the complex type element given by _element-name_.
 
 Example 1:
 
@@ -510,9 +510,9 @@ Note that an empty single paragraph at the beginning of a repeating region is au
 
 <tr>
 
-<td>**URL:**<span style="FONT-STYLE: italic">element-name</td>
+<td>**URL:**_element-name_</td>
 
-<td>Inserts an URL located in the field given by <span style="FONT-STYLE: italic">element-name.</td>
+<td>Inserts an URL located in the field given by _element-name_.</td>
 
 </tr>
 
@@ -553,7 +553,7 @@ To ensure that the merged information has the same font and point size you apply
 
 In order to prepare your template to perform a simple mail merge, you need to specify a mail merge region for all merge fields within the template. The mail merge region is required even if the data source contains only one object. The name of the region corresponds to the name of a top-level element in the XML document representing a complex type. Between these marking fields, place merge fields that corresponds to simple type elements in the XML document located below the complex type element.
 
-To mark the beginning of a mail merge region, insert a merge field with the name <span style="FONT-STYLE: italic">TableStart:element-name. To mark the end of the mail merge region, insert another merge field with the name <span style="FONT-STYLE: italic">TableEnd:<element-name>.
+To mark the beginning of a mail merge region, insert a merge field with the name _TableStart:element-name_. To mark the end of the mail merge region, insert another merge field with the name _TableEnd:element-name_.
 
 To insert merge fields, do the following:
 
@@ -654,7 +654,7 @@ Total Amount: b,6,300.00
 
 </table>
 
-To list the orders in a Word table, you would place a <span style="FONT-STYLE: italic">TableStart and <span style="FONT-STYLE: italic">TableEnd inside the same row of the table:
+To list the orders in a Word table, you would place a _TableStart_ and _TableEnd_ inside the same row of the table:
 
 <table style="WIDTH: 100%">
 
@@ -776,10 +776,10 @@ b,4,500.00
 
 When marking a region, follow these rules:
 
-*   <span style="FONT-STYLE: italic">TableStart and <span style="FONT-STYLE: italic">TableEnd fields must be inside the same section in the document.
-*   If used inside a table, <span style="FONT-STYLE: italic">TableStart and <span style="FONT-STYLE: italic">TableEnd must be inside the same row in the table.
+*   _TableStart_ and _TableEnd_ fields must be inside the same section in the document.
+*   If used inside a table, _TableStart_ and _TableEnd_ must be inside the same row in the table.
 *   Mail merge regions can be nested inside each other.
-*   Mail merge regions should be well formed, that is, there is always a matching <span style="FONT-STYLE: italic">TableStart and <span style="FONT-STYLE: italic">TableEnd with the same element name.
+*   Mail merge regions should be well formed, that is, there is always a matching _TableStart_ and _TableEnd_ with the same element name.
 
 **Nested mail merge regions**
 
@@ -1033,7 +1033,7 @@ Simple horizontally repeated lists can easily be merged, as described for the fi
 
 <td>
 
-<span style="FONT-STYLE: italic">Text Box with wrapping in line with text
+_Text Box_ with wrapping in line with text
 
 <table style="WIDTH: 100%">
 
@@ -1043,7 +1043,7 @@ Simple horizontally repeated lists can easily be merged, as described for the fi
 
 <td>
 
-<span style="FONT-STYLE: italic">Table with two rows
+_Table_ with two rows
 
 <<**Image:**ProductImage>>
 
@@ -1087,7 +1087,7 @@ Apply the neccessary formatting to the text box and table borders to achieve the
 
 ## Merging reports
 
-Reports may be included in your mail merge, like the **Sales** and **Sales Trend** <span style="FONT-WEIGHT: normal">report included in the **Employee Card** <span style="FONT-WEIGHT: normal">shown <span style="FONT-WEIGHT: normal"> below.
+Reports may be included in your mail merge, like the **Sales** and **Sales Trend** report included in the **Employee Card** shown below.
 
 ![ID643B6A11D8B843D1.ID01E50B25E0444783.png](media/ID643B6A11D8B843D1.ID01E50B25E0444783.png)
 
@@ -1095,15 +1095,15 @@ To include reports in your mail merge, click the **Other Merge Data Sources** ta
 
 ![ID643B6A11D8B843D1.IDF8775076C23846C9.png](media/ID643B6A11D8B843D1.IDF8775076C23846C9.png)
 
-You must specify a **Field Name** for each report. Insert merge fields in your template and use the **Field Name** to refer to your report, using the [special field codes](merge-data-to-a-microsoft-word-document.md)<span style="FONT-WEIGHT: normal">.
+You must specify a **Field Name** for each report. Insert merge fields in your template and use the **Field Name** to refer to your report, using the [special field codes](merge-data-to-a-microsoft-word-document.md).
 
-Note that the **Field Name** does <span style="FONT-STYLE: italic">not need to be defined as an element in your XML schema. This means that the XML schemas used for merging can be restricted to business data, while reports and filtering of these are maintained as part of the merge operation set up. Click the **Reserved Field Names** button to see which field names are used in the schema and therefore cannot be used as a report field name.
+Note that the **Field Name** does _not_ need to be defined as an element in your XML schema. This means that the XML schemas used for merging can be restricted to business data, while reports and filtering of these are maintained as part of the merge operation set up. Click the **Reserved Field Names** button to see which field names are used in the schema and therefore cannot be used as a report field name.
 
 To set the data filters, select a report and click the **Modify** button. In the **Merge Field** dialog box, select a data source and click the **Modify** button to specify the filter.
 
 ![ID643B6A11D8B843D1.IDB929D15F94FF45C3.png](media/ID643B6A11D8B843D1.IDB929D15F94FF45C3.png)
 
-In the **Merge Field** dialog box you may also change the **Field Name** and select the **File Format**<span style="FONT-WEIGHT: normal">.
+In the **Merge Field** dialog box you may also change the **Field Name** and select the **File Format**.
 
 Select the **Discard empty output** check box if the report should not be merged into the document unless it contains any data. E.g. to avoid merging an empty bar chart into the document. You may combine this with the special field codes **HideIfEmptyStart**, **HideIfEmptyEnd**, **ShowIfEmptyStart**, and **ShowIfEmptyEnd** to control the content of your document in more detail.
 
@@ -1111,7 +1111,7 @@ Select the **Discard empty output** check box if the report should not be merged
 
 **Hide Filter Area in merged reports**
 
-1.  <span style="FONT-WEIGHT: normal">On **File** <span style="FONT-WEIGHT: normal">menu in your report, click **Page Setup**<span style="FONT-WEIGHT: normal">, and then click **Content** <span style="FONT-WEIGHT: normal">tab.
+1.  On **File** menu in your report, click **Page Setup**, and then click **Content** tab.
 2.  In the **Filter Area** list, select **Not Visible**.
 
 ![ID643B6A11D8B843D1.ID6F16B9CAA79242D4.png](media/ID643B6A11D8B843D1.ID6F16B9CAA79242D4.png)
@@ -1137,11 +1137,11 @@ Alternatively you can add files directly in the task **Merge Data to a Document*
 
 1.  Select **Other Merge Data Sources** tab.
 2.  On the **Add** button, click ![ID525D0C4335274637.ID9A589FF90B884EAB.png](media/ID525D0C4335274637.ID9A589FF90B884EAB.png) , and then click **Microsoft Excel File**.
-3.  Select a **Data Source** <span style="FONT-WEIGHT: normal">which you have imported your data in Microsoft Excel file to, and type the name of the field in **Field Name**.
+3.  Select a **Data Source** which you have imported your data in Microsoft Excel file to, and type the name of the field in **Field Name**.
 
 ![ID525D0C4335274637.ID4C33B5BDF71C4AA3.png](media/ID525D0C4335274637.ID4C33B5BDF71C4AA3.png)
 
-You must specify a <span style="FONT-WEIGHT: normal">Field Name for each file. Insert merge fields in your template and use the **Field Name** to refer to your file, using the [special field codes](merge-data-to-a-microsoft-word-document.md "Special Field Codes") **XL**.
+You must specify a _Field Name_ for each file. Insert merge fields in your template and use the **Field Name** to refer to your file, using the [special field codes](merge-data-to-a-microsoft-word-document.md "Special Field Codes") **XL**.
 
 Example:  
 {MERGEFIELD XL:SalesvsQuotaFile \*MERGEFORMAT}
