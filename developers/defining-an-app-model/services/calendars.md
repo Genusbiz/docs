@@ -14,6 +14,6 @@ Calendars are shared read-only, but each shared item contains a link, so you can
 The Calendar is connected to an Object Class in Genus Apps containing the calendar events.
 
 ## URI path segments
-See [Common URI path segments](index.md#common-uri-path-segments) for more information about the common URI path segments.
+See [Common URI path segments](common-uri-path-segments.md) for more information about the common URI path segments.
 
 The URI for the Calendars service is `<common-path-segments>/webcal/<defined-path-segment>`, where _defined path segment_ is defined under on the Calendar instance in Genus Studio.

@@ -343,6 +343,8 @@
   - name: Services
     href: defining-an-app-model/services/index.md
     items:
+    - name: Common URI path segments
+      href: defining-an-app-model/services/common-uri-path-segments.md
     - name: Web services
       href: defining-an-app-model/services/web-services/index.md
       items:

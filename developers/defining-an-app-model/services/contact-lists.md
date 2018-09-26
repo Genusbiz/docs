@@ -12,6 +12,6 @@ Define a Calendar in Genus Apps by connecting it to an object class containing t
 Contacts are shared read-only, but each shared item contains a link, so you can open your app and inspect or edit the Contact.
 
 ## URI path segments
-See [Common URI path segments](index.md#common-uri-path-segments) for more information about the common URI path segments.
+See [Common URI path segments](common-uri-path-segments.md) for more information about the common URI path segments.
 
 The URI for the Contact Lists service is `<common-path-segments>/carddav/<defined-path-segment>`, where _defined path segment_ is defined on the Contact List instance in Genus Studio.
