@@ -3,5 +3,5 @@
 The scheduling controls are used to visualize and manage time related data.
 
 ## Topics
-* [Gantt](gantt.md)
+* [Gantt](gantt/index.md)
 * [Timeline](timeline.md)

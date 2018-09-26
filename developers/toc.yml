@@ -155,7 +155,7 @@
             href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/index.md
             items:
             - name: Gantt
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt.md
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/index.md
               items:
               - name: Examples / How To
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt/examples--how-to.md

@@ -4,7 +4,7 @@ The Gantt control lets you visualize and manage hierarchical project data. Visua
 
 **Data Binding**
 
-Bind the control to a data source that is [recursive](../../../../../../../terminology.md). The data source typically has has a parent reference to itself, where the parent summarizes the content of all its children, for example cost, time consumption, etc.
+Bind the control to a data source that is [recursive](../../../../../../../../terminology.md). The data source typically has has a parent reference to itself, where the parent summarizes the content of all its children, for example cost, time consumption, etc.
 
 **Task Fields**
 
@@ -19,5 +19,5 @@ Specify where information on dependencies between tasks are held.
 Add the columns you want to display to the left in the grid area. Typical fields are name, start date, and finish date.
 
 **Topics in "Gantt"**
-* [Examples / How To](gantt/examples--how-to.md)
-* [Properties](gantt/properties.md)
+* [Examples / How To](examples--how-to.md)
+* [Properties](properties.md)
