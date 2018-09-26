@@ -4,83 +4,15 @@ It is possible to attach a file or an e-mail to an object defined in the directo
 
 There are many properties that can be defined for an attached file, where the most important ones are:
 
-<table style="WIDTH: 100%">
 
-<tbody>
-
-<tr>
-
-<th>Property for</th>
-
-<th>Data Type</th>
-
-<th>[Data Interpretation](../defining-an-app-model/data/object-class-property/simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property")</th>
-
-</tr>
-
-<tr>
-
-<td>Content of File</td>
-
-<td>Binary</td>
-
-<td>File Data (*)</td>
-
-</tr>
-
-<tr>
-
-<td>Name of File</td>
-
-<td>String</td>
-
-<td>File Name (*)</td>
-
-</tr>
-
-<tr>
-
-<td>Extension of File</td>
-
-<td>String</td>
-
-<td>File Extension (extension including preceeding punctuation)</td>
-
-</tr>
-
-<tr>
-
-<td>Size of File</td>
-
-<td>Integer</td>
-
-<td>File Size</td>
-
-</tr>
-
-<tr>
-
-<td>Date of creation</td>
-
-<td>Date</td>
-
-<td>Date</td>
-
-</tr>
-
-<tr>
-
-<td>Date of last modification</td>
-
-<td>Date</td>
-
-<td>Date</td>
-
-</tr>
-
-</tbody>
-
-</table>
+Property for              | Data Type | [Data Interpretation](../defining-an-app-model/data/object-class-property/simple-data-interpretations-for-a-property.md "Simple Data Interpretations for a Property") |
+--------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+Content of File           | Binary    | File Data (*) |
+Name of File              | String    | File Name (*) |
+Extension of File         | String    | File Extension (extension including preceeding punctuation) |
+Size of File              | Integer   | File Size |
+Date of creation          | Date      | Date |
+Date of last modification | Date      | Date |
 
 (*) Required
 

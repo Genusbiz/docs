@@ -589,7 +589,7 @@
   - name: Attach a file or an email to an object
     href: how-to/attach-a-file-or-an-email-to-an-object.md
   - name: Exchange data with other applications
-    href: how-to/exchange-data-with-other-applications.md
+    href: how-to/exchange-data-with-other-applications/index.md
     items:
     - name: Exchanging files and objects
       href: how-to/exchange-data-with-other-applications/exchanging-files-and-objects.md
@@ -600,7 +600,7 @@
     - name: Microsoft Outlook integrations
       href: how-to/exchange-data-with-other-applications/microsoft-outlook-integrations.md
   - name: Merge data to a document
-    href: how-to/merge-data-to-a-document.md
+    href: how-to/merge-data-to-a-document/index.md
     items:
     - name: Merge data to a Microsoft Excel document
       href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md

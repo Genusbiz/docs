@@ -7,8 +7,3 @@ The merge effect allows you to merge data to a Microsoft Word document or a Micr
 Merged documents may be saved in various formats, like variants of the native Microsoft Word and Microsoft Excel formats, but also formats like Adobe Portable Document Format (pdf), Html, Open Document and more.
 
 The merge effect can run on either the client or the application server as it does not require any of the Microsoft Office products to be installed, i.e. Word or Excel do *not need to be installed*.
-
-**Topics**
-* [Merge data to a Microsoft Excel document](merge-data-to-a-document/merge-data-to-a-microsoft-excel-document.md)
-* [Merge data to a Microsoft Word document](merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md)
-* [Test run merging template](merge-data-to-a-document/test-run-merging-template.md)
