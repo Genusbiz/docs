@@ -6,7 +6,7 @@ Genus Services is composed of a number of logical services at that are either da
 
 **Mail Service**
 
-*   This service provides server-based e-mail, and is used when server-side [actions](../../defining-an-app-model/logic/action-orchestration/actions.md) submits e-mail using SMTP.
+*   This service provides server-based e-mail, and is used when server-side [actions](../../defining-an-app-model/logic/action-orchestration/actions/index.md) submits e-mail using SMTP.
 *   Enable this service in order to send e-mails from server-side actions.
 *   Settings for the mail service can be found in [general settings](../../defining-an-app-model/general-settings/index.md).
 

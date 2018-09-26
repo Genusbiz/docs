@@ -8,5 +8,5 @@ The actions use data sources to retrieve, create, modify, or delete data. A data
 
 **Topics in "Action Orchestration"**
 * [Data Sources](data-sources/index.md)
-* [Actions](actions.md)
+* [Actions](actions/index.md)
 * [Exception Handling](exception-handling.md)

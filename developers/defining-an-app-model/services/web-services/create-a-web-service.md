@@ -120,5 +120,5 @@ The XML schema validation may introduce some performance penalties. You should a
 
 ### Add Actions to an Operation
 1. Click the **Actions** tab.  
-2. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/actions.md) for adding a new action.  
+2. Follow the instructions in the [step-by-step procedure](../../logic/action-orchestration/actions/index.md) for adding a new action.  
 

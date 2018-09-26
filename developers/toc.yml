@@ -249,7 +249,7 @@
         - name: The event history data source
           href: defining-an-app-model/logic/action-orchestration/data-sources/the-event-history-data-source.md
       - name: Actions
-        href: defining-an-app-model/logic/action-orchestration/actions.md
+        href: defining-an-app-model/logic/action-orchestration/actions/index.md
         items:
         - name: Blocks
           href: defining-an-app-model/logic/action-orchestration/actions/blocks.md

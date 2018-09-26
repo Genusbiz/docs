@@ -121,5 +121,5 @@ Data sources are used by actions as sources of information. When you add a new R
 ## Add Actions to a Rule
 
 1.  Click the **Actions** tab.
-2.  Follow the [step-by-step procedure](../../../logic/action-orchestration/actions.md "Actions") for adding a new action.
+2.  Follow the [step-by-step procedure](../../../logic/action-orchestration/actions/index.md "Actions") for adding a new action.
 

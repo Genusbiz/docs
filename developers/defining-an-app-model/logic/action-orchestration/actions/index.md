@@ -8,11 +8,11 @@ Actions are used by Tasks, Agents, Web Services and Rules to define operations t
 *   **Controls**. Use Controls in combination with blocks to control the flow of execution.
 *   **Effects**. Use Effects to add specific actions, like reading data, creating data, opening forms, importing data etc.
 
-The actions can be viewed and edited in the hierarchical tree view shown above, or in a [diagram](actions/action-diagram.md) which displays the action flow using a Business Process Modeling Notation inspired graphical notation.
+The actions can be viewed and edited in the hierarchical tree view shown above, or in a [diagram](action-diagram.md) which displays the action flow using a Business Process Modeling Notation inspired graphical notation.
 
 **Topics in "Actions"**
-* [Blocks](actions/blocks.md)
-* [Controls](actions/controls.md)
-* [Effects](actions/effects.md)
-* [Defining Actions](actions/defining-actions.md)
-* [Action Diagram](actions/action-diagram.md)
+* [Blocks](blocks.md)
+* [Controls](controls.md)
+* [Effects](effects.md)
+* [Defining Actions](defining-actions.md)
+* [Action Diagram](action-diagram.md)

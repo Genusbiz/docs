@@ -41,7 +41,7 @@ If the Agent fails to execute, the owner or the delegate for the Agent will rece
 ## Add Actions to an Agent
 
 1.  Click the **Actions** tab.
-2.  Follow the instructions in the [step-by-step procedure](action-orchestration/actions.md "Actions") for adding a new action.
+2.  Follow the instructions in the [step-by-step procedure](action-orchestration/actions/index.md "Actions") for adding a new action.
 
 
 
@@ -229,5 +229,5 @@ See Also
 
 *   [Data Sources](action-orchestration/data-sources/index.md)
 *   [Conditions](../common-concepts/conditions/index.md)
-*   [Actions](action-orchestration/actions.md)
+*   [Actions](action-orchestration/actions/index.md)
 *   [Effects](action-orchestration/actions/effects.md)
