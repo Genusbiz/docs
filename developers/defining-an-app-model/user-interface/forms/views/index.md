@@ -10,6 +10,6 @@ To see if a view is used within the form, right click the view , and click **Fin
 
 ## Topics in "Views"
 * [Add a view](add-a-view.md)
-* [Desktop controls](desktop-controls.md)
+* [Desktop controls](desktop-controls/index.md)
 * [View layout fundamentals](view-layout-fundamentals.md)
 * [View properties](view-properties.md)

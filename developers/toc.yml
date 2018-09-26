@@ -115,7 +115,7 @@
         - name: Add a View
           href: defining-an-app-model/user-interface/forms/views/add-a-view.md
         - name: Desktop controls
-          href: defining-an-app-model/user-interface/forms/views/desktop-controls.md
+          href: defining-an-app-model/user-interface/forms/views/desktop-controls/index.md
           items:
           - name: Containers
             href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers.md

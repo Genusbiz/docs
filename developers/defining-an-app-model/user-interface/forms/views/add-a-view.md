@@ -58,7 +58,7 @@ To modify the properties of a control
 *   [Select the control](add-a-view.md) you want to modify
 *   Then in the Properties area, locate the property you want to modify.
 
-For information on the properties of a control, see [Desktop Controls](desktop-controls.md), and find the article describing the specifi control.
+For information on the properties of a control, see [Desktop Controls](desktop-controls/index.md), and find the article describing the specifi control.
 
 
 
