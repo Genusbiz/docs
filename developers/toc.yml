@@ -561,7 +561,7 @@
   - name: REST service guidelines
     href: guidelines-and-best-practices/rest-service-guidelines.md
   - name: Web service guidelines
-    href: guidelines-and-best-practices/web-service-guidelines.md
+    href: guidelines-and-best-practices/web-service-guidelines/index.md
     items:
     - name: Web Service Styles
       href: guidelines-and-best-practices/web-service-guidelines/web-service-styles.md

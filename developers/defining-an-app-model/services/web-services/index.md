@@ -7,7 +7,7 @@ The SOAP standard offers a wide selection of various styles and flavors when it 
 See Also
 
 *   [Consume a Web Service](../../logic/action-orchestration/actions/effects/consume-a-web-service.md)
-*   [Web Service Guidelines](../../../guidelines-and-best-practices/web-service-guidelines.md)
+*   [Web Service Guidelines](../../../guidelines-and-best-practices/web-service-guidelines/index.md)
 
 **Topics in "Web Services"**
 * [Create a Web Service](create-a-web-service.md)
