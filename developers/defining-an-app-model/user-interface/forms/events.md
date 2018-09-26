@@ -15,7 +15,7 @@ Events are used to make specific [Commands](commands.md) available to the users 
 
 Property                   | Description
 ---------------------------|------------------------------
-Control                    | The control or view the event is associated with. For some controls events can also be associated with elements within the control, for example series in the [chart](views/desktop-controls/reporting-and-visualization-controls/chart.md) control, and nodes in the [diagram](views/desktop-controls/reporting-and-visualization-controls/diagram.md) control.
+Control                    | The control or view the event is associated with. For some controls events can also be associated with elements within the control, for example series in the [chart](views/desktop-controls/reporting-and-visualization-controls/chart/index.md) control, and nodes in the [diagram](views/desktop-controls/reporting-and-visualization-controls/diagram/index.md) control.
 Data Source                | Specifies which data source to react to changes in. Only applicable for **On Value Changed** event type.
 Fields                     | Specifies which data source fields to react to changes in. The event occurs when a change is detected in any one of the specified fields. Only applicable for the On Value Changed event type.
 Menu                       | Determines where the event appear in menus, and when the event is invoked. For more information, see Menus below.
@@ -33,7 +33,7 @@ On Active Object Changed       | Form                                      | The
 On Before Active Object Change | Form                                      | The active object of a data source is about to change. For more information, see [Active Object](../../common-concepts/active-object.md).
 On Click                       | Button, Check Box, and Text controls      | The control is clicked by the user.
 On Close                       | Form                                      | The Form is about to close.
-On Drop                        | Diagram Node                              | A drag and drop operation is performed which ends on a node in the [diagram](views/desktop-controls/reporting-and-visualization-controls/diagram.md).
+On Drop                        | Diagram Node                              | A drag and drop operation is performed which ends on a node in the [diagram](views/desktop-controls/reporting-and-visualization-controls/diagram/index.md).
 On Focused                     | Containers and various other controls     | The control has received focus, for example the control is next in the tab sequence and the user presses **TAB**.
 On Load Form                   | Form                                      | The form is opened.
 On Load View                   | View                                      | The view is displayed. This event type is always triggered when a view is shown, regardless of how it was activated.

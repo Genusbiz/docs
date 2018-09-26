@@ -18,5 +18,5 @@ A layout contains the basic settings for how the nodes and edges are organized i
 A view defines which nodes and edges are relevant, and how they are laid out. One or more views must be defined.
 
 **Topics in "Diagram"**
-* [Examples / How To](diagram/examples--how-to.md)
-* [Properties](diagram/properties.md)
+* [Examples / How To](examples--how-to.md)
+* [Properties](properties.md)

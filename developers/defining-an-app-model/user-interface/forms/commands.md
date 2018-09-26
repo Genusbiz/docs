@@ -47,7 +47,7 @@ Defines when the ribbon button is displayed as marked. This is a binding to a da
 
 <td>
 
-The control or view the command is associated with. For some controls commands can also be associated with elements within the control, for example series in the [chart](views/desktop-controls/reporting-and-visualization-controls/chart.md) control, and nodes in the [diagram](views/desktop-controls/reporting-and-visualization-controls/diagram.md) control. For the command to be visible, the control or one of the parent controls must have focus.
+The control or view the command is associated with. For some controls commands can also be associated with elements within the control, for example series in the [chart](views/desktop-controls/reporting-and-visualization-controls/chart/index.md) control, and nodes in the [diagram](views/desktop-controls/reporting-and-visualization-controls/diagram/index.md) control. For the command to be visible, the control or one of the parent controls must have focus.
 
 </td>
 

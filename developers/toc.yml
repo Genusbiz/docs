@@ -169,24 +169,24 @@
               - name: Properties
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/timeline/properties.md
           - name: Reporting and visualization controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls.md
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/index.md
             items:
             - name: Chart
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart.md
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/index.md
               items:
               - name: Examples / How To
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/examples--how-to.md
               - name: Properties
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/chart/properties.md
             - name: Diagram
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram.md
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/index.md
               items:
               - name: Examples / How To
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/examples--how-to.md
               - name: Properties
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/diagram/properties.md
             - name: Tree Map
-              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map.md
+              href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/index.md
               items:
               - name: Examples / How To
                 href: defining-an-app-model/user-interface/forms/views/desktop-controls/reporting-and-visualization-controls/tree-map/examples--how-to.md

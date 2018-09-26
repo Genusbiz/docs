@@ -27,5 +27,5 @@ There can be several titles in the chart, and they can be placed at different lo
 Each series can be apart of the legend, or not. Use horizontal position, vertical position, and orientation to place the legend box in the chart, and the standard format setting to control the visual expression.
 
 **Topics in "Chart"**
-* [Examples / How To](chart/examples--how-to.md)
-* [Properties](chart/properties.md)
+* [Examples / How To](examples--how-to.md)
+* [Properties](properties.md)

@@ -15,5 +15,5 @@ For single level data structures define the data binding to the data, and then i
 For nested levels data structures, create one or more root levels with one or more sublevels. For each level define the data binding to the data, and then identify the fields that contains the value (Value Field) and the label (Label Field). For all the sub levels make sure to identify the field that contains the connection to the parent (Parent Binding). Optionally, define a colorizer to improve the visualization of the data.
 
 **Topics in "Tree Map"**
-* [Examples / How To](tree-map/examples--how-to.md)
-* [Properties](tree-map/properties.md)
+* [Examples / How To](examples--how-to.md)
+* [Properties](properties.md)
