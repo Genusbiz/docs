@@ -32,7 +32,7 @@
       - name: View settings
         href: navigate-view-modify-and-control/working-in-forms/advanced/view-settings.md
   - name: Working in Tables
-    href: navigate-view-modify-and-control/working-in-tables/working-in-tables.md
+    href: navigate-view-modify-and-control/working-in-tables/index.md
     items:
     - name: What is a Table?
       href: navigate-view-modify-and-control/working-in-tables/what-is-a-table.md
@@ -61,7 +61,7 @@
     - name: Open a Report
       href: navigate-view-modify-and-control/working-in-tables/open-a-report.md
     - name: Advanced
-      href: navigate-view-modify-and-control/working-in-tables/advanced/advanced.md
+      href: navigate-view-modify-and-control/working-in-tables/advanced/index.md
       items:
       - name: Send Objects
         href: navigate-view-modify-and-control/working-in-tables/advanced/send-objects.md

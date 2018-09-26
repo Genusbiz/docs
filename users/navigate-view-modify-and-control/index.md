@@ -32,4 +32,4 @@ Working in Genus Desktop Tables:
 * [Refresh a View](working-in-tables/refresh-a-view.md)
 * [Print a View](working-in-tables/print-a-view.md)
 * [Open a Report](working-in-tables/open-a-report.md)
-* [Advanced](working-in-tables/advanced/advanced.md)
+* [Advanced](working-in-tables/advanced/index.md)

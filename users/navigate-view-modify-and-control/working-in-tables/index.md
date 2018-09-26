@@ -24,4 +24,4 @@ See Also
 * [Refresh a View](refresh-a-view.md)
 * [Print a View](print-a-view.md)
 * [Open a Report](open-a-report.md)
-* [Advanced](advanced/advanced.md)
+* [Advanced](advanced/index.md)
