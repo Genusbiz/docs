@@ -66,300 +66,44 @@ The basic structure of an XML Schema usually includes a Complex type, and an ele
 
 The following tables shows a brief description of the Element Types and Element Attributes currently supported by Genus Apps.
 
-<table style="WIDTH: 100%">
+Element Type       | Description                                                |
+-------------------|------------------------------------------------------------|
+schema             | The schema element defines the root element of a schema. |
+import             | The import element is used to add multiple schemas with different target namespace to a document. |
+simpleType         | The simpleType element defines a simple type and specifies the constraints and information about the values of attributes or text-only elements. |
+complexType        | The complexType element defines a complex type. A complex type element is an XML element that contains other elements and/or attributes. |
+element            | The element element defines an element. |
+attribute          | The attribute element defines an attribute for an element. |
+attributeGroup     | The attributeGroup element is used to group a set of attribute declarations so that they can be incorporated as a group into complex type definitions. |
+group              | The group element is used to define a group of elements to be used in complex type definitions |
+sequence           | The sequence element specifies that the child elements must appear in a sequence. Each child element can occur from 0 to any number of times. |
+all                | The all element specifies that the child elements can appear in any order and that each child element can occur zero or one time. |
+choice             | The choice element allows only one of the elements contained in the `<choice>` declaration to be present within the containing element. |
+anyAttribute       | The anyAttribute element enables the author to extend the XML document with attributes not specified by the schema. |
+simpleContent      | The simpleContent element contains extensions or restrictions on a text-only complex type or on a simple type as content and contains no elements |
+complexContent     | The complexContent element defines extensions or restrictions on a complex type that contains mixed content or elements only. |
+
+
+Element Attribute  | Description                                                |
+-------------------|------------------------------------------------------------|
+name               | Specifies a name for the element. |
+ref                | Refers to the name of another element. The ref attribute can include a namespace prefix. This attribute cannot be used if the parent element is the schema element. |
+type               | Specifies either the name of a built-in data type, or the name of a simpleType or complexType element. |
+id                 | Specifies a unique ID for the element. |
+minOccurs          | Specifies the minimum number of times this element can occur in the parent element. The value can be any number >= 0\. Default value is 1\. This attribute cannot be used if the parent element is the schema element. |
+maxOccurs          | Specifies the maximum number of times this element can occur in the parent element. The value can be any number >= 0, or if you want to set no limit on the maximum number, use the value "unbounded". Default value is 1. This attribute cannot be used if the parent element is the schema element. |
+default            | Specifies a default value for the element (can only be used if the element's content is a simple type or text only). |
+nillable           | Specifies whether an explicit null value can be assigned to the element. True enables an instance of the element to have the null attribute set to true. The null attribute is defined as part of the XML Schema namespace for instances. Default is false. |
+form               | Specifies the form for the element. "unqualified" indicates that this attribute is not required to be qualified with the namespace prefix. "qualified" indicates that this attribute must be qualified with the namespace prefix. The default value is the value of the elementFormDefault attribute of the schema element. This attribute cannot be used if the parent element is the schema element. |
+elementFormDefault | The form for elements declared in the target namespace of this schema. The value must be "qualified" or "unqualified". Default is "unqualified". "unqualified" indicates that elements from the target namespace are not required to be qualified with the namespace prefix. "qualified" indicates that elements from the target namespace must be qualified with the namespace prefix. |
+attributeFormDefault | The form for attributes declared in the target namespace of this schema. The value must be "qualified" or "unqualified". Default is "unqualified". "unqualified" indicates that attributes from the target namespace are not required to be qualified with the namespace prefix. "qualified" indicates that attributes from the target namespace must be qualified with the namespace prefix. |
+targetNameSpace    | A URI reference of the namespace of this schema. |
+version            | Specifies the version of the schema. |
+namespace          | _For the Import element_: Specifies the URI of the namespace to import.<br><br>_For the anyAttribute element_: Specifies the namespaces containing the attributes that can be used. Can be set to one of the following:<br>**##any** - attributes from any namespace is allowed (this is default)<br>**##other** - attributes from any namespace that is not the namespace of the parent element can be present<br>**##local** - attributes must come from no namespace<br>**##targetNamespace** - attributes from the namespace of the parent element can be present<br>**List of {URI references of namespaces, ##targetNamespace, ##local}** - attributes from a space-delimited list of the namespaces can be present |
+schemaLocation     | Specifies the URI to the schema for the imported namespace. |
+processContents    | Specifies how the XML processor should handle validation against the elements specified by this any element. Can be set to one of the following:<br>**strict** - the XML processor must obtain the schema for the required namespaces and validate the elements (this is default)<br>**lax** - same as strict but; if the schema cannot be obtained, no errors will occur<br>**skip** - The XML processor does not attempt to validate any elements from the specified namespaces |
 
-<tbody>
 
-<tr>
-
-<th>Element Type</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>schema</td>
-
-<td>The schema element defines the root element of a schema.</td>
-
-</tr>
-
-<tr>
-
-<td>import</td>
-
-<td>The import element is used to add multiple schemas with different target namespace to a document.</td>
-
-</tr>
-
-<tr>
-
-<td>simpleType</td>
-
-<td>The simpleType element defines a simple type and specifies the constraints and information about the values of attributes or text-only elements.</td>
-
-</tr>
-
-<tr>
-
-<td>complexType</td>
-
-<td>The complexType element defines a complex type. A complex type element is an XML element that contains other elements and/or attributes.</td>
-
-</tr>
-
-<tr>
-
-<td>element</td>
-
-<td>The element element defines an element.</td>
-
-</tr>
-
-<tr>
-
-<td>attribute</td>
-
-<td>The attribute element defines an attribute for an element.</td>
-
-</tr>
-
-<tr>
-
-<td>attributeGroup</td>
-
-<td>The attributeGroup element is used to group a set of attribute declarations so that they can be incorporated as a group into complex type definitions.</td>
-
-</tr>
-
-<tr>
-
-<td>group</td>
-
-<td>The group element is used to define a group of elements to be used in complex type definitions</td>
-
-</tr>
-
-<tr>
-
-<td>sequence</td>
-
-<td>The sequence element specifies that the child elements must appear in a sequence. Each child element can occur from 0 to any number of times.</td>
-
-</tr>
-
-<tr>
-
-<td>all</td>
-
-<td>The all element specifies that the child elements can appear in any order and that each child element can occur zero or one time.</td>
-
-</tr>
-
-<tr>
-
-<td>choice</td>
-
-<td>The choice element allows only one of the elements contained in the <choice> declaration to be present within the containing element.</td>
-
-</tr>
-
-<tr>
-
-<td>anyAttribute</td>
-
-<td>The anyAttribute element enables the author to extend the XML document with attributes not specified by the schema.</td>
-
-</tr>
-
-<tr>
-
-<td>simpleContent</td>
-
-<td>The simpleContent element contains extensions or restrictions on a text-only complex type or on a simple type as content and contains no elements</td>
-
-</tr>
-
-<tr>
-
-<td>complexContent</td>
-
-<td>The complexContent element defines extensions or restrictions on a complex type that contains mixed content or elements only.</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>Element Attribute</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>name</td>
-
-<td>Specifies a name for the element.</td>
-
-</tr>
-
-<tr>
-
-<td>ref</td>
-
-<td>Refers to the name of another element. The ref attribute can include a namespace prefix. This attribute cannot be used if the parent element is the schema element.</td>
-
-</tr>
-
-<tr>
-
-<td>type</td>
-
-<td>Specifies either the name of a built-in data type, or the name of a simpleType or complexType element.</td>
-
-</tr>
-
-<tr>
-
-<td>id</td>
-
-<td>Specifies a unique ID for the element.</td>
-
-</tr>
-
-<tr>
-
-<td>minOccurs</td>
-
-<td>Specifies the minimum number of times this element can occur in the parent element. The value can be any number >= 0\. Default value is 1\. This attribute cannot be used if the parent element is the schema element.</td>
-
-</tr>
-
-<tr>
-
-<td>maxOccurs</td>
-
-<td>Specifies the maximum number of times this element can occur in the parent element. The value can be any number >= 0, or if you want to set no limit on the maximum number, use the value "unbounded". Default value is 1\. This attribute cannot be used if the parent element is the schema element.</td>
-
-</tr>
-
-<tr>
-
-<td>default</td>
-
-<td>Specifies a default value for the element (can only be used if the element's content is a simple type or text only).</td>
-
-</tr>
-
-<tr>
-
-<td>nillable</td>
-
-<td>Specifies whether an explicit null value can be assigned to the element. True enables an instance of the element to have the null attribute set to true. The null attribute is defined as part of the XML Schema namespace for instances. Default is false.</td>
-
-</tr>
-
-<tr>
-
-<td>form</td>
-
-<td>Specifies the form for the element. "unqualified" indicates that this attribute is not required to be qualified with the namespace prefix. "qualified" indicates that this attribute must be qualified with the namespace prefix. The default value is the value of the elementFormDefault attribute of the schema element. This attribute cannot be used if the parent element is the schema element.</td>
-
-</tr>
-
-<tr>
-
-<td>elementFormDefault</td>
-
-<td>The form for elements declared in the target namespace of this schema. The value must be "qualified" or "unqualified". Default is "unqualified". "unqualified" indicates that elements from the target namespace are not required to be qualified with the namespace prefix. "qualified" indicates that elements from the target namespace must be qualified with the namespace prefix.</td>
-
-</tr>
-
-<tr>
-
-<td>attributeFormDefault</td>
-
-<td>The form for attributes declared in the target namespace of this schema. The value must be "qualified" or "unqualified". Default is "unqualified". "unqualified" indicates that attributes from the target namespace are not required to be qualified with the namespace prefix. "qualified" indicates that attributes from the target namespace must be qualified with the namespace prefix.</td>
-
-</tr>
-
-<tr>
-
-<td>targetNameSpace</td>
-
-<td>A URI reference of the namespace of this schema.</td>
-
-</tr>
-
-<tr>
-
-<td>version</td>
-
-<td>Specifies the version of the schema.</td>
-
-</tr>
-
-<tr>
-
-<td>namespace</td>
-
-<td>
-
-_For the Import element_:  
-Specifies the URI of the namespace to import.
-
-_For the anyAttribute element_:
-
-Specifies the namespaces containing the attributes that can be used. Can be set to one of the following:
-
-*   ##any - attributes from any namespace is allowed (this is default)
-*   ##other - attributes from any namespace that is not the namespace of the parent element can be present
-*   ##local - attributes must come from no namespace
-*   ##targetNamespace - attributes from the namespace of the parent element can be present
-*   List of {URI references of namespaces, ##targetNamespace, ##local} - attributes from a space-delimited list of the namespaces can be present
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>schemaLocation</td>
-
-<td>Specifies the URI to the schema for the imported namespace.</td>
-
-</tr>
-
-<tr>
-
-<td>processContents</td>
-
-<td>
-
-Specifies how the XML processor should handle validation against the elements specified by this any element. Can be set to one of the following:
-
-*   strict - the XML processor must obtain the schema for the required namespaces and validate the elements (this is default)
-*   lax - same as strict but; if the schema cannot be obtained, no errors will occur
-*   skip - The XML processor does not attempt to validate any elements from the specified namespaces
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 The different elements support different attributes. See the table below for details on the supported attributes for each element type:
 
