@@ -2,7 +2,7 @@
 
 The operands are key elements to build [expressions](groups-and-expressions.md), and there are many different types of operands to choose from. Which operands are available depends on the context in an expression it is used. For a simplified overview of the possible combinations of operands and operators, see [Groups and Expressions](groups-and-expressions.md). For ? more complete and technical description see [Condition Syntax Structure](condition-syntax-structure.md).
 
-The different operand types are described below. For further information on how to use them in the [Condition Editor](condition-editor.md), see [Defining Operands](condition-editor/defining-operands.md).
+The different operand types are described below. For further information on how to use them in the [Condition Editor](condition-editor/index.md), see [Defining Operands](condition-editor/defining-operands.md).
 
 ## Field or Group
 A field or a group can be selected from the data sources which are available in the current context. The cardinality of the selected item is determined by the cardinality of the data source and the type of field or group that is selected.

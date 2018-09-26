@@ -68,7 +68,7 @@
       - name: Examples
         href: defining-an-app-model/common-concepts/conditions/examples.md
       - name: Condition editor
-        href: defining-an-app-model/common-concepts/conditions/condition-editor.md
+        href: defining-an-app-model/common-concepts/conditions/condition-editor/index.md
         items:
         - name: Add an expression or group
           href: defining-an-app-model/common-concepts/conditions/condition-editor/add-an-expression-or-group.md
