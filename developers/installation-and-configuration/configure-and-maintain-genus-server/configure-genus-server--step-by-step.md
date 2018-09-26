@@ -152,7 +152,7 @@ If you do not want to use secure HTTP communication and a Web Server Certificate
 
 The client is normally installed on your PC, but may also be installed on your Genus Services application server.
 
-See [Installing Genus Desktop](../install-genus-desktop.md) for more information.
+See [Installing Genus Desktop](../installing-genus-desktop/index.md) for more information.
 
 ## Step 15 - Define nodes and node groups
 

@@ -478,14 +478,14 @@
   - name: System requirements
     href: installation-and-configuration/system-requirements.md
   - name: Installing Genus Desktop
-    href: installation-and-configuration/install-genus-desktop.md
+    href: installation-and-configuration/installing-genus-desktop/index.md
     items:
     - name: Installation special folders
-      href: installation-and-configuration/install-genus-special-folders.md
+      href: installation-and-configuration/installing-genus-desktop/install-genus-special-folders.md
     - name: The Genus Desktop launcher command line
-      href: installation-and-configuration/genus-launcher-command-line.md
+      href: installation-and-configuration/installing-genus-desktop/genus-launcher-command-line.md
     - name: Registry settings
-      href: installation-and-configuration/install-genus-registry-settings.md
+      href: installation-and-configuration/installing-genus-desktop/install-genus-registry-settings.md
   - name: Install Genus Services on an application server
     href: installation-and-configuration/install-genus-server-on-an-application-server.md
   - name: Install and configure Genus Apps for Web

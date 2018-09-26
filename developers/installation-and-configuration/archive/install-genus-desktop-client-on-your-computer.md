@@ -1,5 +1,5 @@
 > [!NOTE]
-> Archived content. The following content is valid for Genus Apps versions prior to 2017.4. Please see [here](../install-genus-desktop.md) for the most current content.
+> Archived content. The following content is valid for Genus Apps versions prior to 2017.4. Please see [here](../installing-genus-desktop/index.md) for the most current content.
 
 # Install Genus Desktop Client on Your Computer
 

@@ -13,4 +13,4 @@ All Genus servers that are part of a load balancing or data mart cluster should 
 3. Locate file **[\[ProgramData\]][1]\Genus\Server\Config\ServerConfig.xml** on the server from which you copied the **appSettingsOverrides.config** settings, and copy the **ServerConfig.xml** file to the other servers.
 4. Open the Genus Configuration application on all Genus servers and perform **Tools** | **Restart Services**.
 
-[1]: ..\install-genus-special-folders.md
+[1]: ..\installing-genus-desktop\install-genus-special-folders.md
