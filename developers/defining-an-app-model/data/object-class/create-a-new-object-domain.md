@@ -29,5 +29,5 @@
 
 See Also
 
-*   [Modify an Object or Identifier Domain](modify-an-object-or-identifier-domain.md)
+*   [Modify an Object or Identifier Domain](modify-an-object-or-identifier-domain/index.md)
 *   [Modify an Object Class Property](../object-class-property/modify-an-object-class-property.md)

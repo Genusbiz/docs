@@ -386,7 +386,7 @@
       - name: Create a new object domain
         href: defining-an-app-model/data/object-class/create-a-new-object-domain.md
       - name: Modify an object- or identifier domain
-        href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain.md
+        href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/index.md
         items:
         - name: General Settings
           href: defining-an-app-model/data/object-class/modify-an-object-or-identifier-domain/general-settings.md

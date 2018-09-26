@@ -12,7 +12,7 @@ If your report has more than one data source, you may even make copies for every
 
 To make an report available for distribution, define a link to it by following these steps:
 
-*   [Open the Object Class for modification](../../../../data/object-class/modify-an-object-or-identifier-domain.md).
+*   [Open the Object Class for modification](../../../../data/object-class/modify-an-object-or-identifier-domain/index.md).
 *   Click the **Explore** tab.
 *   [Add a link to the report](../../../../data/object-class/modify-an-object-or-identifier-domain/explore.md).
 

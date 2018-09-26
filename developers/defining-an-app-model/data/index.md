@@ -13,4 +13,4 @@ author: houmanmohebbi
 * [Create or Modify a Code Domain](object-class/create-or-modify-a-code-domain.md)
 * [Create a New Identifier Domain](object-class/create-a-new-identifier-domain.md)
 * [Create a New Object Domain](object-class/create-a-new-object-domain.md)
-* [Modify an Object- or Identifier Domain](object-class/modify-an-object-or-identifier-domain.md)
+* [Modify an Object- or Identifier Domain](object-class/modify-an-object-or-identifier-domain/index.md)
