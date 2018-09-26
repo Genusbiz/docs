@@ -117,7 +117,7 @@
   href: analyze-report-and-discover/index.md
   items:
   - name: Analysis
-    href: analyze-report-and-discover/analysis.md
+    href: analyze-report-and-discover/analysis/index.md
     items:
     - name: Getting started
       href: analyze-report-and-discover/analysis/getting-started.md
@@ -165,8 +165,7 @@
       - name: Formulas
         href: analyze-report-and-discover/analysis/designer/formula-designer.md
       - name: Settings
-        href: analyze-report-and-discover/analysis/designer/settings.md
-      
+        href: analyze-report-and-discover/analysis/designer/settings.md 
     - name: Advanced analysis
       href: analyze-report-and-discover/analysis/advanced-analysis.md
     - name: Office Add-ins
