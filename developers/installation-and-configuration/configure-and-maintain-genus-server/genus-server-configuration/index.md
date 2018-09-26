@@ -1,3 +1,9 @@
+---
+title: Genus Server Configuration
+description: How to configure Genus Server.
+author: eriksandnes
+---
+
 # Genus Server Configuration
 
 > [!NOTE]
@@ -12,11 +18,7 @@ To start the configuration application on the application server, press the wind
 
 The configuration is performed on three levels:
 
-*   **Genus Services Options** that apply to the application server.
-*   **Genus Directory Properties** that apply to a specific application model accessed through the application server.
-*   **Genus Data Set Properties** that apply to a specific set of data for an application.
+*   **[Genus Services Options](options.md)** that apply to the application server.
+*   **[Genus Directory Properties](directory-properties.md)** that apply to a specific application model accessed through the application server.
+*   **[Genus Data Set Properties](data-set-properties.md)** that apply to a specific set of data for an application.
 
-**Topics in "Genus Server Configuration"**
-* [Options](options.md)
-* [Directory Properties](directory-properties.md)
-* [Data Set Properties](data-set-properties.md)
