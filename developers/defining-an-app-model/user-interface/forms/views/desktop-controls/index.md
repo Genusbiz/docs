@@ -13,6 +13,6 @@ Most controls share a set of general properties which are described in [Control 
 * [File and folder controls](file-and-folder-controls.md)
 * [Graphic controls](graphic-controls.md)
 * [Tabular controls](tabular-controls/index.md)
-* [Scheduling controls](scheduling-controls.md)
+* [Scheduling controls](scheduling-controls/index.md)
 * [Reporting and visualization controls](reporting-and-visualization-controls.md)
 * [Common control properties](common-control-properties.md)

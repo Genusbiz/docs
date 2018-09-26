@@ -152,7 +152,7 @@
             - name: Tree
               href: defining-an-app-model/user-interface/forms/views/desktop-controls/tabular-controls/tree.md
           - name: Scheduling controls
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls.md
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/index.md
             items:
             - name: Gantt
               href: defining-an-app-model/user-interface/forms/views/desktop-controls/scheduling-controls/gantt.md
