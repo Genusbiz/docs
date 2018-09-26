@@ -6,5 +6,5 @@ Properties express static descriptions of data for an Object Class. A property c
 
 **Topics in "Object Class Property"**
 * [Add Properties to an Object Class from an RDBMS Table](add-properties-to-an-object-class-from-an-rdbms-table.md)
-* [Modify an Object Class Property](modify-an-object-class-property.md)
+* [Modify an Object Class Property](modify-an-object-class-property/index.md)
 * [Change the Data Type for an Object Class Property](change-the-data-type-for-an-object-class-property.md)

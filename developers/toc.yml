@@ -422,7 +422,7 @@
       - name: Add Properties to an Object Class from an RDBMS Table
         href: defining-an-app-model/data/object-class-property/add-properties-to-an-object-class-from-an-rdbms-table.md
       - name: Modify an Object Class Property
-        href: defining-an-app-model/data/object-class-property/modify-an-object-class-property.md
+        href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/index.md
         items:
         - name: General Settings
           href: defining-an-app-model/data/object-class-property/modify-an-object-class-property/general-settings.md
