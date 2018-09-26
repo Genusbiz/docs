@@ -4,105 +4,22 @@ The operands are key elements to build [expressions](groups-and-expressions.md),
 
 The different operand types are described below. For further information on how to use them in the [Condition Editor](condition-editor.md), see [Defining Operands](condition-editor/defining-operands.md).
 
-**Field or Group**
-
+## Field or Group
 A field or a group can be selected from the data sources which are available in the current context. The cardinality of the selected item is determined by the cardinality of the data source and the type of field or group that is selected.
 
 A field represents a simple value or a reference to a single object, and a group represents a single object or a [bag](../advanced-expressions/collection-types.md) of objects.
 
- <table style="WIDTH: 100%">
+Data Source Cardinality | Selected Item           | Result Cardinality | Description                     |
+------------------------|-------------------------|--------------------|---------------------------------|
+One                     | Field                   | One                | Simple value or single object   |
+One                     | Group (Cardinality=One) | One                | Single object                   |
+One                     | Group                   | Many               | Bag of objects                  |
+Many                    | Field                   | Many               | Bag of simple values or objects |
+Many                    | Group (Cardinality=One) | Many               | Bag of objects                  |
+Many                    | Group                   | Many               | Bag of objects                  |
 
-<tbody>
 
-<tr>
-
-<th>Data Source Cardinality</th>
-
-<th>Selected Item</th>
-
-<th>Result Cardinality</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>One</td>
-
-<td>Field</td>
-
-<td>One</td>
-
-<td>Simple value or single object</td>
-
-</tr>
-
-<tr>
-
-<td>One</td>
-
-<td>Group (Cardinality=One)</td>
-
-<td>One</td>
-
-<td>Single object</td>
-
-</tr>
-
-<tr>
-
-<td>One</td>
-
-<td>Group</td>
-
-<td>Many</td>
-
-<td>Bag of objects</td>
-
-</tr>
-
-<tr>
-
-<td>Many</td>
-
-<td>Field</td>
-
-<td>Many</td>
-
-<td>Bag of simple values or objects</td>
-
-</tr>
-
-<tr>
-
-<td>Many</td>
-
-<td>Group (Cardinality=One)</td>
-
-<td>Many</td>
-
-<td>Bag of objects</td>
-
-</tr>
-
-<tr>
-
-<td>Many</td>
-
-<td>Group</td>
-
-<td>Many</td>
-
-<td>Bag of objects</td>
-
-</tr>
-
-</tbody>
-
-</table> 
-
-**Active User Account**
+## Active User Account
 
 In most application models, the user accounts are associated with an object class, which might be called something like; Person, Employee, User, External System, or Member. It is possible to access the object associated with the currently signed in user account by using the **Active User Account**. This is useful to retrieve only the data that is relevant for the active user, or to enable certain functions only if the signed in user is accessing the object associated with the account.
 
@@ -110,9 +27,9 @@ The application model supports several account types at the same time, for examp
 
 For example:
 
-Employee = Active User Account(Employee)
+*Employee = Active User Account(Employee)*
 
-**Active Object Selection**
+## Active Object Selection
 
 A condition defined inside a [Table](../../user-interface/tables/index.md) or a [Form](../../user-interface/forms/index.md) can access data sources and fields based on [Active Object Selection](../active-object.md), which are objects selected by the user in the user interface. This is useful to create interactive functionality where for example visibility of certain elements or enabling of buttons, depend on specific properties of the selected object(s) in a table or a list.
 
@@ -132,7 +49,7 @@ The Active Object Selection consists of three elements:
 
 The number of objects found in an Active Object Selection depends on the combination of the specified selection and the [cardinality](../../../../terminology.md) of the specified field.
 
-**Code Domain**
+## Code Domain
 
 A code domain contains a set of code values that can be used directly as an operand in an expression.
 
@@ -142,7 +59,7 @@ For example:
 
 *Employee.Gender = Gender.Female*
 
-**Lookup**  
+## Lookup
 
 A lookup is used to find a set of objects based on a separate condition, and the result is then used as an operand in the condition.  
 
@@ -152,7 +69,7 @@ For Example:
 
 *Orders.Responsible = Lookup Employee where (Employee_Lookup.State = EmployeeState.Inactive)*
 
-**Time Function**
+## Time Function
 
 A condition may use fields containing time, and in most cases you do not want to express comparisons to constant dates. It is more useful to express comparisons relative to the current time, or relative to another date or time in the application model.
 
@@ -175,7 +92,7 @@ This can also be expressed as a formula:
 
 *CalendarTime.now(TimeResolution.day).addDays(-14 ).firstInMonth*
 
-**Formula**
+## Formula
 
 A formula can contain simple calculations or advanced functions.
 
@@ -187,7 +104,7 @@ For example:
 
 For more information on formulas, see [Advanced Expressions](../advanced-expressions.md).
 
-**Constant**  
+## Constant 
 
 A constant can be used as an operand when the data type for the other operand is a simple value, like a number, a date, or a text.
 
