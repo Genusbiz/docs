@@ -2,7 +2,7 @@
 
 A data set is a collection of data for a single unit of business. For example, many Enterprise Resource Planning (ERP) systems contains data for several companies. If the data are stored in different schemas or databases, you need to create a data set for each company.
 
-Data sets in your directory are defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server.md). This configuration covers settings such as where the data are located and which services that are provided.
+Data sets in your directory are defined in [Genus Configuration](../../installation-and-configuration/configure-and-maintain-genus-server/index.md). This configuration covers settings such as where the data are located and which services that are provided.
 
 Some settings, such as the default language for users, default text used in header and footers when distributing data can be changed using Genus Studio. Note that some objects in Genus Studio may be bound to a data set. See [Data Set Binding](data-sets.md) for more information.
 

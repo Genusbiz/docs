@@ -16,4 +16,4 @@ After Setup completes the installation of Genus Services, you must install the l
 
 **Step 4: Configure Your Genus Services Installation**
 
-After installation of Genus Server and the license, you must configure Genus Services using the Genus Configuration Tool, as described in [Configure Genus Services](configure-and-maintain-genus-server.md). Note that this tool must be run on your server.
+After installation of Genus Server and the license, you must configure Genus Services using the Genus Configuration Tool, as described in [Configure Genus Services](configure-and-maintain-genus-server/index.md). Note that this tool must be run on your server.

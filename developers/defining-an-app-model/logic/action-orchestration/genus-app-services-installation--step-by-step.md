@@ -34,4 +34,4 @@ When you receive the message _"You have successfully completed the Genus Service
 
 **Next Steps**
 
-After Setup completes the installation, you must configure Genus Services. For more information, see [Configure Genus Services](../../../installation-and-configuration/configure-and-maintain-genus-server.md).
+After Setup completes the installation, you must configure Genus Services. For more information, see [Configure Genus Services](../../../installation-and-configuration/configure-and-maintain-genus-server/index.md).

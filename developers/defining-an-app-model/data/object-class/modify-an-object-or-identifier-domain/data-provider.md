@@ -1,7 +1,7 @@
 # Data Provider
 
 ## Logical database
-The location of the database table associated with the Object Class. Logical databases are defined in [Genus Configuration](../../../../installation-and-configuration/configure-and-maintain-genus-server.md).
+The location of the database table associated with the Object Class. Logical databases are defined in [Genus Configuration](../../../../installation-and-configuration/configure-and-maintain-genus-server/index.md).
 
 
 ## Provider name

@@ -3,7 +3,7 @@
 1.  [Open Genus Studio](../../getting-started/how-to-open-genus-studio.md).
 2.  In the **Directory** tree, click the **Object Classes** folder.
 3.  In the **File** menu, point to **New**, and then click **Identifier Domain**.
-4.  Select the logical database where the table for the Object Class is located. Logical databases are defined in [Genus Configuration](../../../installation-and-configuration/configure-and-maintain-genus-server.md).
+4.  Select the logical database where the table for the Object Class is located. Logical databases are defined in [Genus Configuration](../../../installation-and-configuration/configure-and-maintain-genus-server/index.md).
 5.  If your directory contains more than one data set, in the **Read Database Dictionary from Data Set** box, select which data set to access when reading the database dictionary. The database dictionary is used for reading the definitions for the tables stored in your database.
 6.  Click **Next**.
 7.  In the **Database Table** box, select the table containing data for the Object Class.

@@ -493,7 +493,7 @@
   - name: Install a license on Genus Services
     href: installation-and-configuration/install-license-on-genus-server.md
   - name: Configure and maintain Genus Services
-    href: installation-and-configuration/configure-and-maintain-genus-server.md
+    href: installation-and-configuration/configure-and-maintain-genus-server/index.md
     items:
     - name: Genus Services configuration
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration.md
