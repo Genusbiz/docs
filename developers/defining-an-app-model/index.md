@@ -24,7 +24,7 @@ App models are defined using the Genus Studio tool, and the structure of the doc
 **[Common concepts](common-concepts/index.md)**
 
 - [Active object](common-concepts/active-object.md)
-- [Advanced expressions](common-concepts/advanced-expressions.md)
+- [Advanced expressions](common-concepts/advanced-expressions/index.md)
 - [Automatic formatting](common-concepts/automatic-formatting.md)
 - [Conditions](common-concepts/conditions.md)
 - [Data binding](common-concepts/data-binding.md)

@@ -61,7 +61,7 @@ An [active object selection](../active-object.md) | For example: Employees.Singl
 
 Formula - _is defined as_                        |                                                 |
 -------------------------------------------------|-------------------------------------------------|
-An [advanced expression](../advanced-expressions.md) | For example: Activity.Estimate * 1,5        |
+An [advanced expression](../advanced-expressions/index.md) | For example: Activity.Estimate * 1,5        |
 
 
 Constant - _is defined as_                       |                                                 |

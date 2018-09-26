@@ -12,4 +12,4 @@ An exception handler is expected to handle the exception by correcting the error
 
 The On Custom Error exception which is thrown by the [Throw Exception](actions/controls/throw-exception.md) effect, is used to control flow and errors your the business logic.
 
-The On Expression Evaluation Error exception is thrown when there is an error in the evaluation of an [Advanced Expression](../../common-concepts/advanced-expressions.md) within an effect. For example if an expression attempts to retrieve the body of an XHtmlDocument where the XML is not valid. The exception is not thrown if the error is outside an effect, for example in the condition of an action.
+The On Expression Evaluation Error exception is thrown when there is an error in the evaluation of an [Advanced Expression](../../common-concepts/advanced-expressions/index.md) within an effect. For example if an expression attempts to retrieve the body of an XHtmlDocument where the XML is not valid. The exception is not thrown if the error is outside an effect, for example in the condition of an action.

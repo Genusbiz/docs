@@ -166,7 +166,7 @@ Click OK to finish the time function.
 
 **Formula**
 
-A formula can contain simple calculations or advanced functions. For more information on formulas, see [Advanced Expressions](../../advanced-expressions.md).
+A formula can contain simple calculations or advanced functions. For more information on formulas, see [Advanced Expressions](../../advanced-expressions/index.md).
 
 To use a formula, right click the operand, and select **Enter a formula**.
 

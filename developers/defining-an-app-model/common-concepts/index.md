@@ -2,7 +2,7 @@
 
 **Topics in "Common concepts"**
 * [Active Object](active-object.md)
-* [Advanced Expressions](advanced-expressions.md)
+* [Advanced Expressions](advanced-expressions/index.md)
 * [Automatic Formatting](automatic-formatting.md)
 * [Conditions](conditions.md)
 * [Data Binding](data-binding.md)

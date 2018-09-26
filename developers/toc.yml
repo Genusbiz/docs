@@ -40,7 +40,7 @@
     - name: Active object
       href: defining-an-app-model/common-concepts/active-object.md
     - name: Advanced expressions
-      href: defining-an-app-model/common-concepts/advanced-expressions.md
+      href: defining-an-app-model/common-concepts/advanced-expressions/index.md
       items:
       - name: Operators and precedence
         href: defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.md

@@ -20,7 +20,7 @@ An advanced expression is declarative, meaning that the logic of the computation
 
 The advanced expressions are strongly typed, specifying restrictions on how operations involving values of different data types may be intermixed.
 
-For a complete description of the data types and members, see [here](developers/defining-an-app-model/common-concepts/advanced-expressions.md).
+For a complete description of the data types and members, see [here](developers/defining-an-app-model/common-concepts/advanced-expressions/index.md).
 
 ## App
 
@@ -116,7 +116,7 @@ For example, to define a formula which concatenates the first name and the surna
 employee.firstName + ", " + employee.surname
 ```
 
-For more information see [Advanced expressions](developers/defining-an-app-model/common-concepts/advanced-expressions.md).
+For more information see [Advanced expressions](developers/defining-an-app-model/common-concepts/advanced-expressions/index.md).
 
 ## Genus Apps
 

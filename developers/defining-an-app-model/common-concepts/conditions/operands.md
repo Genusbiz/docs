@@ -102,7 +102,7 @@ For example:
 
 *Summary.MaxAmount = transactions.amount.asOrderedSet().sort(true).last*
 
-For more information on formulas, see [Advanced Expressions](../advanced-expressions.md).
+For more information on formulas, see [Advanced Expressions](../advanced-expressions/index.md).
 
 ## Constant 
 

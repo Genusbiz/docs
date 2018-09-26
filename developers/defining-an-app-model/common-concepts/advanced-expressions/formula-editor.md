@@ -1,6 +1,6 @@
 # Formula editor
 
-The formula editor is a syntax aware text editor, which allows you to edit [advanced expressions](../advanced-expressions.md).
+The formula editor is a syntax aware text editor, which allows you to edit [advanced expressions](index.md).
 
 ![formula_editor.png](media/formula_editor.png "Formula editor")
 
