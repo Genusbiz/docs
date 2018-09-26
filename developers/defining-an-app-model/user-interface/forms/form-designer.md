@@ -28,7 +28,7 @@ Add or remove [data sources](../tables/data-sources.md "Data Sources") by right 
 
 ### Views
 
-To change a [view](views.md "Views"), click on it and edit the layout. To see the properties of the controls in the layout, select the control.
+To change a [view](views/index.md "Views"), click on it and edit the layout. To see the properties of the controls in the layout, select the control.
 
 ![form-designer-views.jpg](media/form-designer-views.jpg)
 

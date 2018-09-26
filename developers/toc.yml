@@ -110,7 +110,7 @@
       - name: Data Sources
         href: defining-an-app-model/user-interface/tables/data-sources.md
       - name: Views
-        href: defining-an-app-model/user-interface/forms/views.md
+        href: defining-an-app-model/user-interface/forms/views/index.md
         items:
         - name: Add a View
           href: defining-an-app-model/user-interface/forms/views/add-a-view.md
