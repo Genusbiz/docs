@@ -59,7 +59,7 @@ The control is bound to a data source, and a selection of objects is transferred
 
 <td>
 
-The control is enabled. If not enabled, the control is dimmed and read only. If the control that is not enabled is a [container](containers.md), all the controls in the container control is set not enabled. See also **Read Only** above.
+The control is enabled. If not enabled, the control is dimmed and read only. If the control that is not enabled is a [container](containers/index.md), all the controls in the container control is set not enabled. See also **Read Only** above.
 
 **Yes**
 
@@ -131,7 +131,7 @@ A [condition](../../../../common-concepts/conditions/index.md) determines if the
 
 <td>
 
-The field value is not possible to edit, but is displayed as normal. If the control is a [container](containers.md), all the controls in the container control is set read only. See also **Enabled** below.
+The field value is not possible to edit, but is displayed as normal. If the control is a [container](containers/index.md), all the controls in the container control is set read only. See also **Enabled** below.
 
 **Yes**
 

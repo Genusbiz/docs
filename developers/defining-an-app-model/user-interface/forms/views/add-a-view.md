@@ -33,7 +33,7 @@ While dragging the item, observe the layout for temporary placeholders, which in
     Select **Desktop Controls**, and then locate the control to add.
 4.  Double-click the control or field.
 
-If you select a [container control](desktop-controls/containers.md), the new control is added as the last item in the group. If you select a non-container control, the new control is added immediately after the selected control.
+If you select a [container control](desktop-controls/containers/index.md), the new control is added as the last item in the group. If you select a non-container control, the new control is added immediately after the selected control.
 
 
 

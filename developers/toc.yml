@@ -118,7 +118,7 @@
           href: defining-an-app-model/user-interface/forms/views/desktop-controls/index.md
           items:
           - name: Containers
-            href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers.md
+            href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/index.md
             items:
             - name: Group
               href: defining-an-app-model/user-interface/forms/views/desktop-controls/containers/group.md

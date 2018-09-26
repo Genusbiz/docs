@@ -5,7 +5,7 @@ The controls are the building blocks in a form. Container Controls are used to d
 Most controls share a set of general properties which are described in [Control properties](common-control-properties.md), while the control specific properties are described for each individual control.
 
 ## Topics 
-* [Containers](containers.md)
+* [Containers](containers/index.md)
 * [Text and number controls](text-and-number-controls.md)
 * [Time and date controls](time-and-date-controls.md)
 * [List and lookup controls](list-and-lookup-controls.md)
