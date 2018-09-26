@@ -56,7 +56,7 @@ The graphical notation is influenced by the Business Process Modeling Notation (
 
 <tr>
 
-<th>[Block](blocks.md)</th>
+<th>[Block](blocks/index.md)</th>
 
 <th>Visual Element</th>
 
@@ -112,7 +112,7 @@ The graphical notation is influenced by the Business Process Modeling Notation (
 
 <tr>
 
-<th>[Control](controls.md)</th>
+<th>[Control](controls/index.md)</th>
 
 <th>Visual Element</th>
 
@@ -182,7 +182,7 @@ The graphical notation is influenced by the Business Process Modeling Notation (
 
 <tr>
 
-<th>[Effect](effects.md)</th>
+<th>[Effect](effects/index.md)</th>
 
 <th>Visual Elements</th>
 
@@ -192,7 +192,7 @@ The graphical notation is influenced by the Business Process Modeling Notation (
 
 <td>
 
-[Effect](effects.md)
+[Effect](effects/index.md)
 
 (general symbol used for most effect types)
 

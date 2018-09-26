@@ -252,7 +252,7 @@
         href: defining-an-app-model/logic/action-orchestration/actions/index.md
         items:
         - name: Blocks
-          href: defining-an-app-model/logic/action-orchestration/actions/blocks.md
+          href: defining-an-app-model/logic/action-orchestration/actions/blocks/index.md
           items:
           - name: Decision
             href: defining-an-app-model/logic/action-orchestration/actions/blocks/decision.md
@@ -265,14 +265,14 @@
           - name: Catch Exception
             href: defining-an-app-model/logic/action-orchestration/actions/blocks/catch-exception.md
         - name: Controls
-          href: defining-an-app-model/logic/action-orchestration/actions/controls.md
+          href: defining-an-app-model/logic/action-orchestration/actions/controls/index.md
           items:
           - name: Redirect Execution
             href: defining-an-app-model/logic/action-orchestration/actions/controls/redirect-execution.md
           - name: Throw Exception
             href: defining-an-app-model/logic/action-orchestration/actions/controls/throw-exception.md
         - name: Effects
-          href: defining-an-app-model/logic/action-orchestration/actions/effects.md
+          href: defining-an-app-model/logic/action-orchestration/actions/effects/index.md
           items:
           - name: Consume a REST Service
             href: defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-rest-service.md

@@ -194,4 +194,4 @@ See Also
 *   [Data Sources](action-orchestration/data-sources/index.md)
 *   [Conditions](../common-concepts/conditions/index.md)
 *   [Actions](action-orchestration/actions/index.md)
-*   [Effects](action-orchestration/actions/effects.md)
+*   [Effects](action-orchestration/actions/effects/index.md)
