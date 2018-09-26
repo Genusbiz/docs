@@ -7,7 +7,7 @@ To run a report , do the following:
 1.  In the **Name** box, optionally type a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
 2.  In the **Description** box, optionally type a description.
 3.  Click the **General** tab
-4.  In the Report box select a data source. Only data sources of type **[Report**](../../../../../../users/analyze-report-and-discover/report.md) are available.
+4.  In the Report box select a data source. Only data sources of type **[Report**](../../../../../../users/analyze-report-and-discover/report/index.md) are available.
 5.  In the Data Filters table, data sources for the published filters of the selected report are listed. Specify a data filter by selecting the data source and clicking **Modify**. The data sources are populated according to the data filters when the selected task is executed.
 6.  If the user should to be able to change the data filters before running the report, click the User Interaction tab
 7.  Select **Promt users to filter data**. This option is only available if the effect is included in a Task which not is constrained to run on the Application Server.

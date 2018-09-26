@@ -5,5 +5,5 @@ Use Data Sources to group and filter data in a report. There are three types of 
 ![IDBDA40DB426EF4D1C.ID369FEFEB39724DE9.png](media/IDBDA40DB426EF4D1C.ID369FEFEB39724DE9.png)
 
 **Topics in "Grouping and Filtering"**
-* [Data Sources](grouping-and-filtering/data-sources.md)
-* [Time Data Sources](grouping-and-filtering/time-data-sources.md)
+* [Data Sources](data-sources.md)
+* [Time Data Sources](time-data-sources.md)

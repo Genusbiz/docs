@@ -199,14 +199,14 @@
   - name: Data extract
     href: analyze-report-and-discover/data-extract.md
   - name: Report
-    href: analyze-report-and-discover/report.md
+    href: analyze-report-and-discover/report/index.md
     items:
     - name: The Workface
       href: analyze-report-and-discover/report/the-workface.md
     - name: Values
       href: analyze-report-and-discover/report/values.md
     - name: Grouping and filtering
-      href: analyze-report-and-discover/report/grouping-and-filtering.md
+      href: analyze-report-and-discover/report/grouping-and-filtering/index.md
       items:
       - name: Data sources
         href: analyze-report-and-discover/report/grouping-and-filtering/data-sources.md
