@@ -9,7 +9,7 @@ Uploading is supported by the new effect Upload a File. The file can be uploaded
 3.  To create a new object for the uploaded file, click **Create a new object**, and then click **Default Values** to enter default values for the new object.
 4.  To upload the file to an existing object, click **Modify existing object**. This option is only available if the data source can only hold one object.
 
-**Requirements and considerations for uploading a file**
+## Requirements and considerations for uploading a file
 
 In order to upload a file to a data source, the underlying Object Class has to define a GUID property with the data interpretation: **File Upload Tag**. This property is used internally to address the object which should receive the file, and is automatically set when the effect initiates an upload.
 
