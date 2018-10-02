@@ -1,3 +1,8 @@
+---
+title: Copy and paste data in Genus Apps
+description: Copy and paste data for exchanging data such as contacts, calendar items emails, files, etc. between Genus Apps and other applications.
+author: jtroset
+---
 # Copy and paste data
 
 Copy and paste of is an intuitive and useful feature for exchanging data between applications, and it can be used for almost any type of data, like contacts, calendar items, e-mails, files, folders, xml data.

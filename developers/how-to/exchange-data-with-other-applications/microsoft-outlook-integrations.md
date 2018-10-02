@@ -1,3 +1,8 @@
+---
+title: Microsoft Outlook integrations in Genus Apps
+description: Integrate Genus Apps with Microsoft Outlook for sending and storing emails, reply to emails and copy/paste of contacts and calendar events.
+author: jtroset
+---
 # Microsoft Outlook integrations
 
 Genus integrates with Microsoft Outlook on several levels and in different ways, to enhance the experience and offer advanced functionality.

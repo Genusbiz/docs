@@ -1,3 +1,8 @@
+---
+title: Exchange data with other applications in Genus Apps
+description: Genus Apps support different methods for exchanging data between applications. Export/import, copy/paste, Services (APIs) and Database.
+author: eriksandnes
+---
 # Exchange data with other applications
 
 Exchanging data with other applications can often be an important part of the functionality of an application, and there are different ways to achieve this.
@@ -12,9 +17,9 @@ Copy and paste is an intuitive and useful feature for exchanging data between ap
 
 In many cases it is possible to use both export/import and copy/paste for the same exchange of data, and the coice is a matter of preference and functional requirements.
 
-## Web services
+## Services (APIs)
 
-Web services is mostly used for system-to-system communication over the network or internet using the HTTP protocol. For more information see [Web Services](../../defining-an-app-model/services/web-services/index.md).
+Genus Apps supports differents services for exchanging data with other applications over defined APIs. These are [Web Services](../../defining-an-app-model/services/web-services/index.md), [REST Services](../../defining-an-app-model/services/rest-services/index.md), [Calendars](../../defining-an-app-model/services/calendars.md) and [Contact Lists](../../defining-an-app-model/services/contact-lists.md). For more information see [Services](../../defining-an-app-model/services/index.md).
 
 ## Database
 

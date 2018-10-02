@@ -1,3 +1,8 @@
+---
+title: Export and import data in Genus Apps
+description: Export and import data used to exchange data in different formats between applications or to users for manual processes.
+author: jtroset
+---
 # Export and import data
 
 Export and import of data can be used to exchange data between applications, or between an application and a manual process. In most cases it is possible to use [copy and paste](copy-and-paste-data.md "Copy and Paste Data") functionality as an alternative to export and import for manual processes, and the choice it is usually only a matter of preferences and requirements. The basic steps are similar for export/import and copy/paste, the main difference being that while export and import access the file system to exchange files, copy and paste access the system clipboard to exchange files and other data.
@@ -22,7 +27,7 @@ In addition you can export binary file data attached to an object using the asso
 
 To learn more, see the [step-by-step procedure on how to define an effect for exporting data](../../defining-an-app-model/logic/action-orchestration/actions/effects/export-data.md).
 
-**Exporting aggregated data from Reports and Searches to a delimited text file**
+### Exporting aggregated data from Reports and Searches to a delimited text file
 
 To export aggregated data from Reports or Searches, you can define a Task for this purpose. To speed up performance, the Task will automatically spool data directly to a delimited text file using the data filter from the Report or the Search. In order to do this, the Task must satisfy the following requirements:
 
