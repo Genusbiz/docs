@@ -1,3 +1,8 @@
+---
+title: Using SOAP Faults for Web Services in Genus Apps
+description: Using SOAP Faults for Web Services in Genus Apps. Reciving and handling, or returning of SOAP Faults when consuming or exposing Web Services.
+author: eriksandnes
+---
 # SOAP Faults
 
 During execution of a Web Service operation, errors may occur that could result in a disruption of the normal execution flow. These errors are often referred to as exceptions. Exceptions that are not handled by [Exception Handlers](../../logic/action-orchestration/exception-handling.md "Exception Handlers") within the action orchestration are returned to the Web Service consumer as a response message containing a Windows Communication Foundation (WCF) exception.

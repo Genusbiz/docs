@@ -1,3 +1,8 @@
+---
+title: Consumeing and exposing a web service (SOAP) in Genus Apps
+description: Expose or consume a SOAP web service in Genus Studio. Define operations, definitions (schemas) and endpoints for web services and exposing these.
+author: eriksandnes
+---
 # Web services
 
 A Web Service can be defined as "a component of programmable application logic that can be accessed using standard web protocols". Generally speaking, a Web Service has inputs and outputs. It accepts some kind of request from the client and returns some result. The request and response messages are formatted according to the **Simple Object Access Protocol (SOAP)** specification. This is a W3C specification, and it is a format which describes the data that is sent over HTTP. Web Services can be accessed over a network, such as the Internet, and executed on a remote system hosting the requested services. Web service metadata is provided by publishing a **Web Service Description Language (WSDL)** document and corresponding XML Schema documents.

@@ -1,6 +1,6 @@
 ---
-title: Services
-description: Overview of services. 
+title: Genus Services and API
+description: Overview of services in Genus Apps. Covers Web Services (SOAP), REST Services, Calendar sharing and Contact List sharing. 
 author: eriksandnes
 ---
 # Services

@@ -1,3 +1,8 @@
+---
+title: View the Execution History for a Web Service in Genus Apps
+description: View the Execution History for a Web Service in Genus Apps. Enable detailed execution trace for more details on each execution. 
+author: eriksandnes
+---
 # View the Execution History for a Web Service
 
 1.  Right-click the Web Service, and then in the shortcut menu, click **Open**.

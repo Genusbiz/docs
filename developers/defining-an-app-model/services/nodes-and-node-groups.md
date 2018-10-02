@@ -1,3 +1,8 @@
+---
+title: Genus Apps Nodes and Node Groups
+description: Nodes and Node Groups in Genus Apps. Definition of servers (nodes) in the environment and functionialties and services provided on these servers. 
+author: eriksandnes
+---
 # Nodes and node groups
 
 Nodes and node groups are administrated in Genus Studio, and can be found in the Services group in the navigation pane.

@@ -1,6 +1,6 @@
 ---
 title: Consuming and exposing RESTful services using Genus Apps
-description: How to consume and expose RESTful services.
+description: How to consume and expose RESTful services in Genus Apps. Covers URI path segments and resource building in Genus Studio.
 author: asbjorne
 ---
 

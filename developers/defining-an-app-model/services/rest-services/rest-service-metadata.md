@@ -1,6 +1,6 @@
 ---
-title: REST service metadata
-description: Retrieval of REST service metadata as OpenAPI (wadl or json) or wadl format. 
+title: Genus Apps REST service metadata
+description: Retrieval of REST service metadata as OpenAPI (yaml or json file) or WADL format. Definition of metadata for the REST service.
 author: eriksandnes
 ---
 # REST service metadata

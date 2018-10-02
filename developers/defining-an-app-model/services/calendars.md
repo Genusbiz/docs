@@ -1,6 +1,6 @@
 ---
-title: Calendars
-description: How to define Calendars using Genus Studio
+title: Calendar sharing in Genus Apps
+description: How to define Calendars using Genus Studio and using the API to subscribe to Calendar events on mobile devices or MS Outlook.
 author: eriksandnes
 ---
 # Calendars

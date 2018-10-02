@@ -1,3 +1,8 @@
+---
+title: Web Service References in Genus Apps
+description: Add Web Service References in Genus Studio for consuming Web Services to retreive metadata from the WSDL. Define endpoints and authentication for the service.
+author: eriksandnes
+---
 # Web Service References
 
 The Web Service Reference is a component that locally represents the exposed functionality of a Web Service. This representation is built by retrieving metadata from the WSDL published for the Web Service.

@@ -1,3 +1,8 @@
+---
+title: Create and expose a web service (SOAP) in Genus Apps
+description: Create a SOAP web service in Genus Studio. Define operations, definitions (schemas) and endpoints for web services and exposing these to users.
+author: eriksandnes
+---
 # Create a Web Service
 
 1.  [Open Genus Studio](../../getting-started/index.md).

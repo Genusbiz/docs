@@ -1,6 +1,6 @@
 ---
-title: Common URI path segments
-description: URI path segments for REST, Calendar and Contact Lists services. 
+title: Common URI path segments for Services in Genus Apps
+description: Common URI path segments for REST, Calendar and Contact Lists services. Description of different path segments in the URI.
 author: eriksandnes
 ---
 # Common URI path segments

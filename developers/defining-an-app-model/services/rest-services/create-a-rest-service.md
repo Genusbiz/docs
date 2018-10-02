@@ -1,6 +1,6 @@
 ---
-title: Create a REST service
-description: Create a REST service in Genus Studio 
+title: Create and expose a RESTful service in Genus Apps
+description: Create a REST service in Genus Studio, using resources, HTTP headers and query params to perform desired operations.
 author: eriksandnes
 ---
 

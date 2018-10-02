@@ -1,6 +1,6 @@
 ---
-title: REST service URI path segments
-description: REST service URI path segments. 
+title: Genus Apps REST service URI path segments
+description: REST service specific URI path segments for REST services exposed by Genus Apps. Guidelines for building REST services.
 author: eriksandnes
 ---
 # REST service URI path segments

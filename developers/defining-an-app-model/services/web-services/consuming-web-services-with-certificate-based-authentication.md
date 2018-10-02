@@ -1,3 +1,8 @@
+---
+title: Consume WS with certificate based authentication in Genus
+description: Consuming Web Services with certificate based authentication in Genus Apps. Installing and using authentication certificate. 
+author: eriksandnes
+---
 # Consuming Web Services with certificate based authentication
 
 In order to consume web services that require certificate based authentication, the certificate must be installed on the application server and made accessible to the identity under which the IIS Application Pool **Genus Services Web Site AppPool** is running. You will also need the Certificate Thumbprint to identify the certificate at a later stage.
