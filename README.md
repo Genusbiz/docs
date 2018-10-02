@@ -49,7 +49,7 @@ Please provide any commit comments in English. It is not necessary to provide co
 ## How to use markdown
 All the articles in the repository use GitHub and DocFX flavored Markdown. Here is a list of resources.
 * [Example article](example-article.md)
-* [Markdown basics](https://help.github.com/articles/markdown-basics/) (from GitHub)
+* [Markdown basics](https://help.github.com/articles/basic-writing-and-formatting-syntax/) (from GitHub)
 * [DocFX flavoured Markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html)
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Printable Markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
