@@ -16,7 +16,7 @@ Open a Form, to create or modify data.
 7.  To create new objects when the form is opened, click **Create Data**, and then for each data source, click **Add**. In the **Create Object In** list, select a data source from the form. In the **Default Values** box click **...** and [assign values](create-objects-and-modify-objects.md) to the groups and fields in the data source. If the form is opened in a modal window the created data can be returned to the task when the form is closed, to achieve this the data source in the task to receive the data must be specified through data binding. In the **Copy Object Back To** box click **...** and select a data source to receive the data.
 8.  If you want to execute succeeding actions immediately without waiting for the user to close the form, click to clear the **Wait until the form is closed** check box. Note that if the data source not is persisted, you can not clear this option. When this option is selected. the form is opened in a modal window.
 9.  Select the **Exit Task** **on cancel** check box if you do not want to execute suceeding effects if the user chooses the **Cancel** button in the form. This option is only available if the **Wait until the form is closed** check box is selected.
-10.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
+10.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
 
 ![ID8F6C9572AA2348BF.png](media/ID8F6C9572AA2348BF.png)
 
@@ -48,7 +48,7 @@ Open a simple form, to create or modify a custom data source.
 5.  In the **Target** box, Custom Form is pre-selected select. To modify the custom form, click **Modify**. Enter a title and description for the form in the appropriate boxes. In the **Fields** list select a field and click **Modify** to open the **Field Properties** dialog. To change the data filter for the field, in the **Data Filter** box, click **Modify** and specify the [data filter](../../../../../../users/analyze-report-and-discover/report/data-filters.md). This option is only available for complex data types. To hide the field in the custom form, click to clear the **Visible** check box. To change the order of the fields, click a field and click **Move Up** or **Move Down**.
 6.  To create a new custom object when the form is opened, in the **Action** section click **Create**. To assign default values for the new object, click **Default Values**, and [assign values](create-objects-and-modify-objects.md) to the groups and fields in the data source. To modify an existing custom data source object, in the **Action** section click **Modify**.
 7.  Select the **Exit Task** **on cancel** check box if you do not want to execute suceeding effects if the user chooses the **Cancel** button in the form. This option is only available if the **Wait until the form is closed** check box is selected.
-8.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
+8.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
 
 ![ID30CF0EF58B1340F5.png](media/ID30CF0EF58B1340F5.png)
 
@@ -68,7 +68,7 @@ Open Microsoft Outlook if it is installed on the computer, or otherwise open a s
 
 8.  If you want to execute succeeding actions immediately without waiting for the user to close the form, click to clear the **Wait until the form is closed** check box. Note that if the data source not is persisted, you cannot clear this option. When this option is selected. the form is opened in a modal window.
 9.  Select the **Exit Task** **on cancel** check box if you do not want to execute suceeding effects if the user chooses the **Cancel** button in the form. This option is only available if the **Wait until the form is closed** check box is selected.
-10.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
+10.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
 
 ![ID2DED107B2E614D0F.png](media/ID2DED107B2E614D0F.png)
 
@@ -89,7 +89,7 @@ Open the standard windows print settings dialog.
 5.  In the **Target** box, select *Microsoft Word Print Settings* window or *Microsoft Excel Print Settings* window to specify which type of print settings window to use.
 6.  To create a new print settings object when the form is opened, in the **Action** section, click **Create**. To assign default values for the new object, click **Default Values**, and [assign values](create-objects-and-modify-objects.md "Create Objects and Modify Objects") to the groups and fields in the data source. To modify an existing print settings data source, in the **Action** section, click **Modify**.
 7.  Select the **Exit Task** **on cancel** check box if you do not want to execute suceeding effects if the user chooses the **Cancel** button in the form. This option is only available if the **Wait until the form is closed** check box is selected.
-8.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
+8.  To store which button is chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes. Only available if the **Wait until the form is closed** check box is selected.
 
 ![ID53D0A69894D84DC7.png](media/ID53D0A69894D84DC7.png)
 
@@ -124,4 +124,4 @@ Open a Report.
 
 See Also
 
-*   [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md)
+*   [Dialog Box Exit Codes](dialog-box-exit-codes.md)

@@ -21,7 +21,7 @@ To allow the user to select one or more objects from the read objects, click the
 
 To abort execution of succeeding effects if a user chooses the *Cancel* or *No* button in the dialog box, select the **Abort execution on cancel** check box.
 
-To store the user respons, click the **Set a fields value equal to the exit code** check box. You can either store the user response as a boolean value or an integer value. See the article [Dialog box exit codes](../../../../../dialog-box-exit-codes.md) for an overview of exit codes.
+To store the user respons, click the **Set a fields value equal to the exit code** check box. You can either store the user response as a boolean value or an integer value. See the article [Dialog box exit codes](dialog-box-exit-codes.md) for an overview of exit codes.
 
 ## Reading data into built-in data sources
 The effect supports reading data into two built-in data sources:

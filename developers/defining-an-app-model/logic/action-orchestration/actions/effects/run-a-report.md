@@ -14,5 +14,5 @@ To run a report , do the following:
 8.  In the Dialog Title and **Dialog Prompt** box, type a title and a prompt. You can generate dynamic values for the title and prompt by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields").
 9.  The Data Sources table lists the data sources that are available to the user. To add or remove data sources from the list, click **Modify**.
 10.  Select the Exit Task on cancel check box if you do not want to execute suceeding effects if the user chooses the **Cancel** button in the dialog box.
-11.  To store which button chosen by the user, click Set a fields value equal to the exit code. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes.
+11.  To store which button chosen by the user, click Set a fields value equal to the exit code. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes.
 12.  Select which buttons that should appear in the dialog box. Only the **Ok and Cancel** button is available in this dialog.

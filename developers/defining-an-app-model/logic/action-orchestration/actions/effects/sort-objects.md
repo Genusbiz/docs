@@ -17,5 +17,5 @@ To sort objects, do the following.
     ![ID84006EEA422A4C0D.png](media/ID84006EEA422A4C0D.png)
 9.  Click **Fields**, to specify the fields to be displayed in the dialog. It is recommended to include all the fields used for the initial sorting specified above. This option is only available if **Table Sort** is selected.
 10.  Select the **Exit Task on cancel** check box if you do not want to execute suceeding effects if the user chooses the **Cancel** or **No** button in the dialog box.
-11.  To store which button chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](../../../../../dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes.
+11.  To store which button chosen by the user, click **Set a fields value equal to the exit code**. You can either store the response as a boolean value or an integer value. See the article [Dialog Box Exit Codes](dialog-box-exit-codes.md "Dialog Box Exit Codes") for an overview of exit codes.
 12.  Select which buttons that should appear in the dialog box.
