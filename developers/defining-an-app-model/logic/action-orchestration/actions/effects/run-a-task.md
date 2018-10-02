@@ -18,119 +18,60 @@ A data source in a [Rule](../../../../data/object-class/modify-an-object-or-iden
 
 To filter and sort a data source, select the data source, and click the **Data Filter** tab.
 
-**Filtering**
+### Filtering
 
 Select how to filter a data source from the following methods:
 
-<table style="WIDTH: 100%">
+#### None (no objects will be selected)
 
-<tbody>
+No objects will be selected for the data source. Select this option if data are read using an effect, for example if data are imported from a file.
 
-<tr>
+#### Default
 
-<td>**None (no objects will be selected)**</td>
+Only available when filtering data for data sources of type Report. Select this option if you want to keep the default data filter defined in the Report.</td>
 
-<td>No objects will be selected for the data source. Select this option if data are read using an effect, for example if data are imported from a file.</td>
+#### Set equal to active user account
 
-</tr>
+Only available when filtering data for a data source that is associated with a [Account Profile](../../../../security/account-profiles.md), for example *Person*. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
 
-<tr>
+#### Two-way binding to objects selected from the context
 
-<td>**Default**</td>
+Only available when publishing a Task or defining a Report Link. When running a Task or opening a Link, the objects selected by the user are sent as input to the Task or Link. Selecting this option connects the data source directly to the objects selected by the users, and gives you the opportunity to exeute context sensitive actions.</td>
 
-<td>Only available when filtering data for data sources of type Report. Select this option if you want to keep the default data filter defined in the Report.</td>
+#### Get objects from the clipboard
 
-</tr>
+Populates the data source with data placed on the clipboard. See [copy and paste data](../../../../../how-to/exchange-data-with-other-applications/copy-and-paste-data.md) for examples. If the data source is of type **General File** or **File Folder**, click **Reject files of type** if you do not want to include all files placed on the clipboard. For example, you may want to process mail messages in a separate data source of type **Mail Message**.</td>
 
-<tr>
+#### All objects
 
-<td>**Set equal to active user account**</td>
+Populates the data source with all objects of a given type, for example all *Product Categories*.</td>
 
-<td>Only available when filtering data for a data source that is associated with a [Account Profile](../../../../security/account-profiles.md), for example *Person*. Populates the data source with the object associated with the user that is signed in when the action is executed.</td>
+#### One-way binding to objects in the data source
 
-</tr>
+Only available when filtering data in the [Run a Task](run-a-task.md) effect. Populates the data source in the task that is called with the same objects as a data source in the current task. If the task that is called makes changes to the data source while executing, this is not reflected in the data source used for filtering.</td>
 
-<tr>
+#### Two-way binding to objects in the data source
 
-<td>**Two-way binding to objects selected from the context**</td>
+Only available when filtering data in the [Run a Task](run-a-task.md) effect. Populates and binds the data source in the task that is called with the objects in a data source in the current task. If the task that is called makes changes to the data source while executing, this is reflected in the data source that is bound.</td>
 
-<td>Only available when publishing a Task or defining a Report Link. When running a Task or opening a Link, the objects selected by the user are sent as input to the Task or Link. Selecting this option connects the data source directly to the objects selected by the users, and gives you the opportunity to exeute context sensitive actions.</td>
+#### Select a specific set of objects
 
-</tr>
+Populates the data source with a static selection of objects, for example a selection of *Product Categories*.</td>
 
-<tr>
+#### Select a saved search
 
-<td>**Get objects from the clipboard**</td>
+Only available when [distributing reports](distribution-of-reports.md "Distribution of Reports"). Select this option if a saved search is to be used as a filter for your report.</td>
 
-<td>Populates the data source with data placed on the clipboard. See [copy and paste data](../../../../../how-to/exchange-data-with-other-applications/copy-and-paste-data.md) for examples. If the data source is of type **General File** or **File Folder**, click **Reject files of type** if you do not want to include all files placed on the clipboard. For example, you may want to process mail messages in a separate data source of type **Mail Message**.</td>
-
-</tr>
-
-<tr>
-
-<td>**All objects**</td>
-
-<td>Populates the data source with all objects of a given type, for example all *Product Categories*.</td>
-
-</tr>
-
-<tr>
-
-<td>**One-way binding to objects in the data source**</td>
-
-<td>Only available when filtering data in the [Run a Task](run-a-task.md) effect. Populates the data source in the task that is called with the same objects as a data source in the current task. If the task that is called makes changes to the data source while executing, this is not reflected in the data source used for filtering.</td>
-
-</tr>
-
-<tr>
-
-<td>**Two-way binding to objects in the data source**</td>
-
-<td>Only available when filtering data in the [Run a Task](run-a-task.md) effect. Populates and binds the data source in the task that is called with the objects in a data source in the current task. If the task that is called makes changes to the data source while executing, this is reflected in the data source that is bound.</td>
-
-</tr>
-
-<tr>
-
-<td>**Select a specific set of objects**</td>
-
-<td>Populates the data source with a static selection of objects, for example a selection of *Product Categories*.</td>
-
-</tr>
-
-<tr>
-
-<td>**Select a saved search**</td>
-
-<td>Only available when [distributing reports](distribution-of-reports.md "Distribution of Reports"). Select this option if a saved search is to be used as a filter for your report.</td>
-
-</tr>
-
-<tr>
-
-<td>**Select objects which meet the condition**</td>
-
-<td>
+#### Select objects which meet the condition
 
 Populates the data source with a dynamic selection of objects which satisfies a condition, for example all *employees working in a department*. Follow the instructions in the [step-by-step procedure](../../../../common-concepts/conditions/index.md) on how to define a condition. To read the objects from another data source instead of from the database, select the **Read Objects from Data Source** check box. In the **Read Objects from Data Source** list, select which data source to read objects from.
 
-</td>
+#### Select objects which meet one of the conditions
 
-</tr>
+Same as the option above, but gives you the opportunity to define one or more filter conditions with a conditional statement. The conditional statement determines which filter condition to apply.
 
-<tr>
 
-<td>**Select objects which meet one of the conditions**</td>
-
-<td>Same as the option above, but gives you the opportunity to define one or more filter conditions with a conditional statement. The conditional statement determines which filter condition to apply.</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-**Sorting**
+### Sorting
 
 You can control the way objects are sorted and the number of objects to read when data are filtered. You might want to process data in a certain order, or only process objects with the highest or lowest values within a range, such as candidates with the top 10 grades or products with the bottom 5 sales amounts.
 

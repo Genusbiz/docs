@@ -22,6 +22,11 @@ Remember to update the _toc.yml_ in _developers/_ or _users/_
 ## Usage of headers in an article
 Subsequent headers are defined by using two or more hash characters in the heading. These headers will define bookmarks in the _In this article_ section in the upper right corner.
 
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
 ## Links
 Here is a link to the [Genus AS](http://www.genus.no) web site, a link to the [lists](#lists) section within this article and a link to the section [ways to contribute](readme.md#ways-to-contribute) in the [readme](readme.md) article.
 
@@ -91,6 +96,11 @@ Remember to update the _toc.yml_ in _developers/_ or _users/_
 
 ## Usage of headers in an article
 Subsequent headers are defined by using two or more hash characters in the heading. These headers will define bookmarks in the _In this arictle_ section in the upper right corner.
+
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
 ## Links
 Here is a link to the [Genus AS](http://www.genus.no) web site, a link to the [lists](#lists) section within this article and a link to the section [ways to contribute](readme.md#ways-to-contribute) in the [readme](readme.md) article.
