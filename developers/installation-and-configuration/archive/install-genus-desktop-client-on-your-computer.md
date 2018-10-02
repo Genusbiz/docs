@@ -101,24 +101,24 @@ Note that some of the files may not be present on your computer until you start 
 
 **Application Executable Files**
 
-The Genus desktop client consists of one executable file named <span style="FONT-STYLE: italic">genus.exe. The file is by default placed in the folder <span style="FONT-STYLE: italic">[CSIDL_PROGRAM_FILES](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")\Genus\Client by the Genus desktop client installation program.
+The Genus desktop client consists of one executable file named _genus.exe_. The file is by default placed in the folder [CSIDL_PROGRAM_FILES](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Genus\Client_ by the Genus desktop client installation program.
 
 Note that it is possible to change the folder in the Genus desktop client installation program during the first time install on your computer.
 
 **Application Extension Files**
 
-The Genus desktop client consists of a set of application extension files (DLLs or Dynamic-link Libraries) placed in the same folder as the application executable file <span style="FONT-STYLE: italic">genus.exe:
+The Genus desktop client consists of a set of application extension files (DLLs or Dynamic-link Libraries) placed in the same folder as the application executable file _genus.exe_:
 
-*   [CSIDL_PROGRAM_FILES](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client , if the client was installed for all users.
-*   [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Programs\Genus\Client , if the client was installed for your user only.
+*   [CSIDL_PROGRAM_FILES](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Genus\Client_, if the client was installed for all users.
+*   [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Programs\Genus\Client_, if the client was installed for your user only.
 
-Note that these files must be located in the same directory as the application executable file <span style="FONT-STYLE: italic">genus.exe. If you have changed the default folder in the Genus desktop installation program during first time install, the location of the application extension files will change accordingly.
+Note that these files must be located in the same directory as the application executable file _genus.exe_. If you have changed the default folder in the Genus desktop installation program during first time install, the location of the application extension files will change accordingly.
 
 **Application Model Cache File**
 
-To improve performance, a copy of your application model is automatically stored on your client after the directory is deployed to all computers. This cache file is named <span style="FONT-STYLE: italic">DeployedDirectory.gcm and stored in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../../../terminology.md)<span style="FONT-STYLE: italic">}.
+To improve performance, a copy of your application model is automatically stored on your client after the directory is deployed to all computers. This cache file is named _DeployedDirectory.gcm_ and stored in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Genus\Client\\_[Directory GUID](../../../terminology.md)}.
 
-An example on Windows 8 for a user with user name John is <span style="FONT-STYLE: italic">C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\DeployedDirectory.gcm.
+An example on Windows 8 for a user with user name John is _C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\DeployedDirectory.gcm_.
 
 The application model cache file is not present on your computer until you start your Genus desktop client the first time. However, if you are in a corporate environment, your system administrator may have [preinstalled](install-genus-desktop-clients-silently-for-your-users.md) the file.
 
@@ -130,41 +130,41 @@ The parts of your directory solely used by Genus Server on your application serv
 
 Genus Apps supports multiple natural languages, and there are two types of text strings that are translated.
 
-First, the text strings which are a inherent in the Genus desktop client application, like the names of the **File** and **Edit** menus. The translations of these text strings are stored in one file per language in the folder [CSIDL_PROGRAM_FILES](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\Translations, i.e. in a subfolder of the application executable folder.
+First, the text strings which are a inherent in the Genus desktop client application, like the names of the **File** and **Edit** menus. The translations of these text strings are stored in one file per language in the folder [CSIDL_PROGRAM_FILES](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Genus\Client\Translations_, i.e. in a subfolder of the application executable folder.
 
-An example of such a file on Windows 8 for a translation to Norwegian is <span style="FONT-STYLE: italic">C:\Program Files (x86)\Genus\Client\Translations\Genus.nb-NO.gct, where <span style="FONT-STYLE: italic">nb-NO is the culture name specifying the language and country. Note that if you have changed the default folder in the Genus installation program during first time install, the placement of the language translation cache files will change accordingly.
+An example of such a file on Windows 8 for a translation to Norwegian is _C:\Program Files (x86)\Genus\Client\Translations\Genus.nb-NO.gct_, where _nb-NO_ is the culture name specifying the language and country. Note that if you have changed the default folder in the Genus installation program during first time install, the placement of the language translation cache files will change accordingly.
 
-Secondly, any translated text strings part of your application model are stored in one file per language in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../../../terminology.md)<span style="FONT-STYLE: italic">}\Translations. The translation files are named <span style="FONT-STYLE: italic">LanguageStrings.{Culture}.gct, where <span style="FONT-STYLE: italic">{Culture} is the culture name specifying the language and country.
+Secondly, any translated text strings part of your application model are stored in one file per language in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Genus\Client\\_{[Directory GUID](../../../terminology.md)}_\Translations_. The translation files are named _LanguageStrings.{Culture}.gct_, where _{Culture}_ is the culture name specifying the language and country.
 
-An example of such a file on Windows 8 for a translation to Norwegian is <span style="FONT-STYLE: italic">C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\Translations\LanguageStrings.nb-NO.gct
+An example of such a file on Windows 8 for a translation to Norwegian is _C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\Translations\LanguageStrings.nb-NO.gct_
 
 **Help Files**
 
 Help files are downloaded automatically to your computer the first time you invoke Genus Help.
 
-Help files are stored in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\{<span style="FONT-STYLE: italic">[Directory GUID](../../../terminology.md)<span style="FONT-STYLE: italic">}\HelpFiles\{Culture} on your computer.
+Help files are stored in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Genus\Client\\_{[Directory GUID](../../../terminology.md)}_\HelpFiles\\{Culture}_ on your computer.
 
-<span style="FONT-STYLE: italic">{Culture} is the help text culture name specifying the language and sublanguage.
+_{Culture}_ is the help text culture name specifying the language and sublanguage.
 
 The folder contains the following files:
 
-*   <span style="FONT-STYLE: italic">GenusHelp.chm: The help file in Microsoft Compiled HTML Help format.
-*   <span style="FONT-STYLE: italic">Version.txt: A text file only containing the help file version number.
+*  _GenusHelp.chm_: The help file in Microsoft Compiled HTML Help format.
+*  _Version.txt_: A text file only containing the help file version number.
 
-An example of a folder name on Windows 8 for a user with user name John and the US English help text (culture en-US) is <span style="FONT-STYLE: italic">C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\HelpFiles\en-US\
+An example of a folder name on Windows 8 for a user with user name John and the US English help text (culture en-US) is _C:\Users\john\AppData\Local\Genus\Client\{826E89DC-BD93-4120-8198-0B6B2D459905}\HelpFiles\en-US\_
 
 **Older versions of Application Executable Files, Application Extension Files and Language Translation Cache files**
 
 In environments running multiple versions of Genus desktop clients, older versions are stored on your client. See [Genus Startup Logic](install-genus-desktop-client-on-your-computer.md) for more information.
 
-*   If you have write access to [CSIDL_COMMON_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions"), older versions of the Application Executable Files are stored in the folder <span style="FONT-STYLE: italic">CSIDL_COMMON_APPDATA\Genus\Client\VersionCache\<Genus Version Number>.
-*   If you do <span style="FONT-STYLE: italic">not have write access to <span style="FONT-STYLE: italic">CSIDL_COMMON_APPDATA, older versions are stored in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")<span style="FONT-STYLE: italic">\Genus\Client\VersionCache\<Genus Version Number>.
+*   If you have write access to [CSIDL_COMMON_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions"), older versions of the Application Executable Files are stored in the folder _CSIDL\_COMMON\_APPDATA\Genus\Client\VersionCache\\\<Genus Version Number\>_.
+*   If you do _not_ have write access to _CSIDL\_COMMON\_APPDATA_, older versions are stored in the folder [CSIDL_LOCAL_APPDATA](csidl-constant-values-for-various-microsoft-windows-versions.md "CSIDL Constant Values for Various Microsoft Windows Versions")_\Genus\Client\VersionCache\\\<Genus Version Number\>_.
 
 Older versions of Application Extension Files and Language Translation Cache files are stored in subfolders following the pattern above.
 
 If you have changed the default folder in the Genus installation program during first time install, the location of the files will change accordingly.
 
-The actual version number of your Genus desktop client can be obtained by right-clicking your <span style="FONT-STYLE: italic">genus.exe file, select **Properties** and locate the **File Version** property. <span style="FONT-STYLE: italic"> 
+The actual version number of your Genus desktop client can be obtained by right-clicking your _genus.exe_ file, select **Properties** and locate the **File Version** property.
 
 
 
@@ -186,14 +186,14 @@ If you have access to Genus Studio, you may force a deploy of the application mo
 
 Genus desktop clients may be [configured to automatically update](../../../users/navigate-view-modify-and-control/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") themselves.
 
-If the Genus desktop client finds that the Genus Server on the application server run a <span style="FONT-STYLE: italic">newer version than itself, the following steps take place:
+If the Genus desktop client finds that the Genus Server on the application server run a _newer_ version than itself, the following steps take place:
 
-1.  The Genus dektop client setup executable file <span style="FONT-STYLE: italic">GenusSetup.exe is downloaded from the application server.
+1.  The Genus dektop client setup executable file _GenusSetup.exe_ is downloaded from the application server.
 2.  The instance of the Genus desktop client which you started is terminated.
 3.  The setup executable file is started automatically and an installation wizard will appear, and you must follow the instructions on screen to complete the upgrade.
 4.  During this process, you are asked to start the Genus desktop client again after the installation is complete.
 
-If the Genus desktop client finds that the Genus Server on the application server run an <span style="FONT-STYLE: italic">older version than itself, the following steps take place:
+If the Genus desktop client finds that the Genus Server on the application server run an _older_ version than itself, the following steps take place:
 
 1.  If the older version already exists on the user's Personal Computer or laptop, the instance of the Genus desktop client which you started will be terminated, and the older version gets started.
 2.  If the older version does not exists, a the old executable is downloaded from the application server and placed on a folder on your client computer. An upgrade installation is not necessary in such circumstances. The instance of the Genus desktop client which you started is then terminated, and the older version is started.
@@ -206,15 +206,15 @@ For a description of the location of older versions of the Genus desktop client,
 
 ## Uninstall Genus Desktop Client from Your Computer
 
-On your computer, uninstall Genus desktop client by using the standard uninstall feature in Microsoft Windows. Specifically, in Windows 8, in the Windows **Start** menu, click **Control Panel**. In the **Control Panel**, click **Uninstall a program**, then locate <span style="FONT-STYLE: italic">Genus and click **Uninstall**.
+On your computer, uninstall Genus desktop client by using the standard uninstall feature in Microsoft Windows. Specifically, in Windows 8, in the Windows **Start** menu, click **Control Panel**. In the **Control Panel**, click **Uninstall a program**, then locate _Genus_ and click **Uninstall**.
 
 **Known issue**
 
-In rare cases the uninstall fail for unknown reasons, reporting lack of the original Genus installation file (<span style="FONT-STYLE: italic">Genus.msi).
+In rare cases the uninstall fail for unknown reasons, reporting lack of the original Genus installation file (_Genus.msi_).
 
-Examples of error messages are <span style="FONT-STYLE: italic">"The installation source for this product is not available. Verify that the source exists and that you can access it" and <span style="FONT-STYLE: italic">"The older version of Genus cannot be removed. Contact your technical support group."
+Examples of error messages are _"The installation source for this product is not available. Verify that the source exists and that you can access it"_ and _"The older version of Genus cannot be removed. Contact your technical support group"_.
 
-To resolve this issue, you need to download and run a utility from the <span style="FONT-STYLE: italic">Microsoft Fix It Solution Center, to <span style="FONT-STYLE: italic">Diagnose and fix program installing and uninstalling problems automatically. For more information, see [http://support.microsoft.com/mats/Program_Install_and_Uninstall/](http://support.microsoft.com/mats/Program_Install_and_Uninstall/).
+To resolve this issue, you need to download and run a utility from the _Microsoft Fix It Solution Center_, to Diagnose and fix program installing and uninstalling problems automatically. For more information, see [http://support.microsoft.com/mats/Program_Install_and_Uninstall/](http://support.microsoft.com/mats/Program_Install_and_Uninstall/).
 
 Should the B+Microsoft Fix ItB; solution fail we recommend trying uninstalling the existing Genus Desktop version using Piriform CCleaner, see [https://www.piriform.com/ccleaner](https://www.piriform.com/ccleaner). Install CCleaner, then click **Tools** select **Uninstall**, look for any existing version of Genus Dektop in the list, and click **Uninstall**.
 

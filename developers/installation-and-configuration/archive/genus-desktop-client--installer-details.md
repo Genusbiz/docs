@@ -107,22 +107,22 @@ Parameters can be passed to all three layers from the command line.
 
 The installation is started by executing GenusSetup.exe. Command line parameters can be used to control parts of its behaviour.
 
-*   Normal installation:  <span style="FONT-STYLE: italic">GenusSetup.exe
-*   Unpack all files in GenusSetup.exe to the specified folder:  <span style="FONT-STYLE: italic">GenusSetup.exe /c /t:<FolderPath>
-*   Start installation with parameters passed to second layer:  <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe <InstallShield Setup.exe Command Line Parameters>"
+*   Normal installation: _GenusSetup.exe_
+*   Unpack all files in GenusSetup.exe to the specified folder:  _GenusSetup.exe /c /t:<FolderPath>_
+*   Start installation with parameters passed to second layer:  _GenusSetup.exe /c:"GenusInstaller.exe <InstallShield Setup.exe Command Line Parameters>"_
 
 **GenusInstaller.exe**
 
 If parameters are passed to GenusInstaller.exe, parts of its behaviour can be controlled.
 
 *   Print the available parameter options:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /?"
+    _GenusSetup.exe /c:"GenusInstaller.exe /?"_
 *   Normal installation with English texts during installation:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /L1033"
+    _GenusSetup.exe /c:"GenusInstaller.exe /L1033"_
 *   Normal installation with Norwegian texts during installation:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /L1044"
+    _GenusSetup.exe /c:"GenusInstaller.exe /L1044"_
 *   Start installation with parameters passed to third layer (there is no space after/v):  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /s /v<Windows Installer Command Line Parameters>"
+    _GenusSetup.exe /c:"GenusInstaller.exe /s /v<Windows Installer Command Line Parameters>"_
 
 The parameter /v specifies the parameters passed to the Windows Installer, msiexec.exe, and define how the installation is executed. The /v command can be specified multiple times for giving multiple commands to Windows Installer. There is no space after the /v command.  
 
@@ -131,7 +131,7 @@ The parameter /v specifies the parameters passed to the Windows Installer, msiex
 If parameters are passed to MsiExec when executing Genus.msi, parts of its behaviour can be controlled.
 
 *   Print the available parameter options:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /s /v/?"
+    _GenusSetup.exe /c:"GenusInstaller.exe /s /v/?"_
 
 The following features are defined with various INSTALLLEVELs in Genus.msi:
 
@@ -196,15 +196,15 @@ These features can be included or excluded by specifying the Windows Installer p
 **Examples**
 
 *   Install Genus with full GUI without automatic updates:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /vINSTALLLEVEL=10"
+    _GenusSetup.exe /c:"GenusInstaller.exe /vINSTALLLEVEL=10"_
 *   Install Genus with full GUI without automatic updates, but with minimal user interaction:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /s /v/qb+ /vINSTALLLEVEL=10"
+    _GenusSetup.exe /c:"GenusInstaller.exe /s /v/qb+ /vINSTALLLEVEL=10"_
 *   Combining all Windows Installer-parameters in one /v (note: double quotes and space):  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /s /v""/qb+ INSTALLLEVEL=10"""
+    _GenusSetup.exe /c:"GenusInstaller.exe /s /v""/qb+ INSTALLLEVEL=10"""_
 *   Normal installation but with "InstallPerUser" (Only Windows 7 and above), not using "InstallPerMachine" which is default:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /s /v""/qb+ ALLUSERS=2 MSIINSTALLPERUSER=1"""
+    _GenusSetup.exe /c:"GenusInstaller.exe /s /v""/qb+ ALLUSERS=2 MSIINSTALLPERUSER=1"""_
 *   A per-machine installation with install Genus in <FOLDERID_ProgramFilesX86>. Run command:  
-    <span style="FONT-STYLE: italic">GenusSetup.exe /c:"GenusInstaller.exe /s /v/q /vINSTALLLEVEL=10"
+    _GenusSetup.exe /c:"GenusInstaller.exe /s /v/q /vINSTALLLEVEL=10"_
 
 **Installation Folder**
 
