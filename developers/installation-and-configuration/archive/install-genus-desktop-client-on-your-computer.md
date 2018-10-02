@@ -81,7 +81,7 @@ On the Terminal Server, perform a Genus desktop client installation using an int
 
 If the Genus Server is configured with automatic update, see [Configure Automatic Update](../../../users/navigate-view-modify-and-control/working-in-tables/configure-automatic-updates.md "Configure Automatic Updates") for considerations regarding terminal servers.
 
-If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files. See [Terminal Server Optimizations](../../defining-an-app-model/logic/action-orchestration/actions/effects/terminal-server-optimizations.md "Terminal Server Optimizations") for details.
+If you have many Genus users on your terminal server, you may fine tune the application start up time by pre-uploading the Genus directory cache files. See [Terminal Server Optimizations](terminal-server-optimizations.md "Terminal Server Optimizations") for details.
 
 
 
