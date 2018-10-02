@@ -75,6 +75,10 @@ for i in range(10):
 >  
 > with multiple lines
 
+## Note
+> [!NOTE]
+> This is a note
+
 ````
 
 # Example article
@@ -140,3 +144,7 @@ for i in range(10):
 > This is a block quote 
 >  
 > with multiple lines
+
+## Note
+> [!NOTE]
+> This is a note

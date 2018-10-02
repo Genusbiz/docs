@@ -8,53 +8,13 @@ For example, you could use this effect to display the result of merging data to 
 *   In the **Description** box, optionally enter a description.
 *   In the **Location** section, select one of the following:
 
-<table style="WIDTH: 100%">
+File Location    | Description                                                                                                    |
+-----------------|----------------------------------------------------------------------------------------------------------------|
+File Data Source | A file located in one of your data sources. For example a General File or a Mail Message.                      |
+File Data Field  | A file located in a field in one of your data sources. For example an order confirmation attached to an order. |
+File Name        | A file located on a private or shared resource.                                                                |
+URL              | An Uniform Resource Locator, for example an address to a web page. URL's are opened in the default browser.    |
 
-<tbody>
-
-<tr>
-
-<th>File Location</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>File Data Source</td>
-
-<td>A file located in one of your data sources. For example a General File or a Mail Message.</td>
-
-</tr>
-
-<tr>
-
-<td>File Data Field</td>
-
-<td>A file located in a field in one of your data sources. For example an order confirmation attached to an order.</td>
-
-</tr>
-
-<tr>
-
-<td>File Name</td>
-
-<td>A file located on a private or shared resource.</td>
-
-</tr>
-
-<tr>
-
-<td>URL</td>
-
-<td>An Uniform Resource Locator, for example an address to a web page. URL's are opened in the default browser.</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 You can generate a dynamic file name or URL by [inserting fields from your data sources](../generate-dynamic-values-for-text-fields.md "Generate Dynamic Values for Text Fields") as part of the name.
 
@@ -62,4 +22,5 @@ You can generate a dynamic file name or URL by [inserting fields from your data 
 *   To invoke the file as read only, select the **Invoke file as read only** check box. Note that if you invoke a file located in a file data field, the file is always opened as read only if the file type not is supported for editing in the Genus desktop client. For more information, see the article [File Types Supported for Editing in Genus Desktop Client](../../file-types-supported-for-editing-in-genus-desktop-client.md "File Types Supported for Editing in Genus Desktop Client").
 *   If the next effect not can run before the file is closed, select the **Wait until the file is closed** check box. This option applies only to file types which can be edited in Genus desktop clients. For more information, see the article [File Types Supported for Editing in Genus Desktop Client](../../file-types-supported-for-editing-in-genus-desktop-client.md "File Types Supported for Editing in Genus Desktop Client").
 
-Note! Leave the **From** address field blank for mail messages sent from an MS Outlook client. The **From** address i automatically filled out with the correct address when the mail message is opened in the MS Outlook client. Even if you specify a valid SMTP-address, MS Outlook may not be able to look up the address in the address book. You may also experience problems concerning privileges when the mail message is sent.
+> [!NOTE]
+> Leave the **From** address field blank for mail messages sent from an MS Outlook client. The **From** address i automatically filled out with the correct address when the mail message is opened in the MS Outlook client. Even if you specify a valid SMTP-address, MS Outlook may not be able to look up the address in the address book. You may also experience problems concerning privileges when the mail message is sent.

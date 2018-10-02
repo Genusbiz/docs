@@ -2,13 +2,13 @@
 
 There exist two user authentication methods: **Custom Authentication** and **Active Directory Authentication**.
 
-**Custom User Authentication**
+## Custom User Authentication
 
 Your application uses the default user account table provided by Genus Services. You must manually add users by using your Genus desktop client application, and users must enter their user name and password each time they log on to your Genus desktop client application.
 
 Custom Authentication is usually used when your Genus Services application server is located in a DMZ.
 
-**Active Directory User Authentication**
+## Active Directory User Authentication
 
 Your application integrates with Microsoft Windows authentication, and user information is interchanged with Genus Services when a user logs on.
 

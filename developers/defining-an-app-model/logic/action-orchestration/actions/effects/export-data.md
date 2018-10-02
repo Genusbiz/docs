@@ -2,85 +2,16 @@
 
 Use this effect to export data from one of your data sources to a file or a file data source. Available file formats will vary depending on the type of data source exported:
 
-<table style="WIDTH: 100%">
-
-<tbody>
-
-<tr>
-
-<th>Data Source Type</th>
-
-<th>Supported File Formats</th>
-
-</tr>
-
-<tr>
-
-<td>Object</td>
-
-<td>MS Excel, Text, XML</td>
-
-</tr>
-
-<tr>
-
-<td>XML Document</td>
-
-<td>MS Excel, Text, XML</td>
-
-</tr>
-
-<tr>
-
-<td>Report</td>
-
-<td>Supported file formats provided by the Report. If the file format is an image, the size of the image is determined by the report [Page Setup](../../../../../../users/analyze-report-and-discover/report/save-to-file-or-print-a-report.md).</td>
-
-</tr>
-
-<tr>
-
-<td>Mail Message</td>
-
-<td>MS Outlook Message (.msg), MS Excel, text, XML</td>
-
-</tr>
-
-<tr>
-
-<td>Contact</td>
-
-<td>vCard, MS Excel, text, XML</td>
-
-</tr>
-
-<tr>
-
-<td>Calendar Item</td>
-
-<td>vCalendar, iCalendar, MS Excel, text, XML</td>
-
-</tr>
-
-<tr>
-
-<td>General File</td>
-
-<td>Associated file format, MS Excel, text, XML</td>
-
-</tr>
-
-<tr>
-
-<td>File Folder</td>
-
-<td>File folder, MS Excel, text, XML</td>
-
-</tr>
-
-</tbody>
-
-</table>
+Data Source Type | Supported File Formats                         |
+-----------------|------------------------------------------------|
+Object           | MS Excel, Text, XML                            |
+XML Document     | MS Excel, Text, XML                            |
+Report           | Supported file formats provided by the Report. If the file format is an image, the size of the image is determined by the report [Page Setup](../../../../../../users/analyze-report-and-discover/report/save-to-file-or-print-a-report.md). |
+Mail Message     | MS Outlook Message (.msg), MS Excel, text, XML |
+Contact          | vCard, MS Excel, text, XML                     |
+Calendar Item    | vCalendar, iCalendar, MS Excel, text, XML      |
+General File     | Associated file format, MS Excel, text, XML    |
+File Folder      | File folder, MS Excel, text, XML               |
 
 When you export data to a PDF Document, please note the software requirements described in the article [Export Data to a PDF Document - Software Requirements](export-data-to-a-pdf-document--software-requirements.md "Export Data to a PDF Document - Software Requirements").
 

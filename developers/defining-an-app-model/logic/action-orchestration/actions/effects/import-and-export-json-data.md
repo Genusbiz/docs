@@ -1,5 +1,5 @@
 ---
-title: Import and export JSON data
+title: Import and export JSON data in Genus Apps
 description: Article describing how to configure a data mapping to transfer data between JSON and a data source
 author: henrikmj
 ---
@@ -10,7 +10,7 @@ author: henrikmj
 
 In order to import or export data on JSON format to and from different sources into a data source in Genus, an object called a Data Mapping is used. A Data Mapping is an object consisting of a template and a set of bindings to a data source that describes how data will be transferred to and from JSON.
 
-# The Data Mapping Editor
+## The Data Mapping Editor
 
 The Data Mapping Editor us used to configure a Data Mapping by creating a template for a JSON document and create bindings to the data source. The main view displays the structure of the JSON data, with bindings to data sources indicated on objects and properties. 
 

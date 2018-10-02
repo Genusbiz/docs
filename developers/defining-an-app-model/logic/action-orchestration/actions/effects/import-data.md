@@ -42,303 +42,17 @@ Then do the following:
 
 Available data sources you can import data into are restricted by the selected file format. The table below provides an overview of file formats supported by the the different types of data sources:
 
-<table>
 
-<tbody>
-
-<tr>
-
-<th>Type of Data Source</th>
-
-<th>Any File Format</th>
-
-<th>E-mail Message</th>
-
-<th>FileFolder</th>
-
-<th>iCalendar</th>
-
-<th>MS Excel</th>
-
-<th>MS Outlook Appointment</th>
-
-<th>MS Outlook Contact</th>
-
-<th>MS Outlook Message</th>
-
-<th>MS Project</th>
-
-<th>Text</th>
-
-<th>vCalendar</th>
-
-<th>vCard</th>
-
-<th>XML</th>
-
-</tr>
-
-<tr>
-
-<td>Calendar Item</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td>X</td>
-
-</tr>
-
-<tr>
-
-<td>Contact</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td>X</td>
-
-</tr>
-
-<tr>
-
-<td>File Folder</td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>General File</td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>Mail Message</td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-</tr>
-
-<tr>
-  
-<tr>
-  
-<td>Microsoft Project</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-</tr>
-
-<tr>
-
-<td>Object</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-</tr>
-
-<tr>
-
-<td>XML Document</td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td></td>
-
-<td>X</td>
-
-</tr>
-
-</tbody>
-
-</table>
+Type of Data Source | Any File Format | E-mail Message | FileFolder | iCalendar | MS Excel | MS Outlook Appointment | MS Outlook Contact | MS Outlook Message | MS Project | Text | vCalendar | vCard | XML |
+--------------------|-----------------|----------------|------------|-----------|----------|------------------------|--------------------|--------------------|------------|------|-----------|-------|-----|
+Calendar Item       |                 |                |            | X         |          | X                      |                    |                    |            |      | X         |       | X   |
+Contact             |                 |                |            |           |          |                        | X                  |                    |            |      |           | X     | X   |
+File Folder         |                 |                | X          |           |          |                        |                    |                    |            |      |           |       |     |
+General File        | X               |                |            |           |          |                        |                    |                    |            |      |           |       |     |
+Mail Message        |                 | X              |            |           |          |                        |                    | X                  |            |      |           |       | X   |
+Microsoft Project   |                 |                |            |           |          |                        |                    |                    | X          |      |           |       | X   |
+Object              |                 |                |            |           | X        |                        |                    |                    |            | X    |           |       | X   |
+XML Document        |                 |                |            |           |          |                        |                    |                    |            |      |           |       | X   |
 
 Note. If you are importing file data from a field located in one of your data sources, the data can only be imported into a data source of type file.
 
@@ -406,7 +120,7 @@ The column is added to the end of the list. If the values in the text file is se
 
 Click the **Settings** tab.
 
-**Source Data**
+### Source Data
 
 The **Source Data** list contains the worksheets to be imported from the MS Excel file. Click **Add** to open a dialog to add a new worksheet.
 
@@ -431,7 +145,7 @@ For the **Last Data Row** option select one of the following:
 *   Click **Fixed** to import a specific number of rows from the worksheet. In the Fixed box enter the number of the last data row or select a field or group containing the last row number to import.
 *   Click **Next** **row contains value** to specify a value indicates the end of the data range. in the **Next row contains value** box enter a text or select a field or group containing the text to look for, and in the in **column** box enter a letter for the column to look for the value in.
 
-**Column Mappings**
+### Column Mappings
 
 The Column Mappings list contains the mapping of values from the worksheet to the data source the data is imported into. The list default contains all the fields of the date source with simple types in alphabetic order, mapped to the columns of the worksheet in ascending order.
 
