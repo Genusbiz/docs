@@ -283,6 +283,11 @@ It's now possible to log input and output from a Rest Service in the audit event
 
 Fields with interpretation phone number will now be telephone links on web.
 
+<!--ID 4ae7a6c0-b102-4897-8c1c-6e53108a0528 -->
+**#23145 Loging of invalid objects in a Form** (Desktop)
+
+To log all invalid objects in a Form, press Ctrl-Alt-Shift-L.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
