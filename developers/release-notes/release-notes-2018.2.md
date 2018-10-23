@@ -170,6 +170,11 @@ The Run a Search effect executes a Genus Search connected to a modeled object. T
 
 A Search Group section is added on the Search folder in the Object Class Dialog. Groups are added based on inbound properties and in this section you can select witch groups you want to hide
 
+<!--ID 2d605266-79f3-422f-b404-814be2f51ce0 -->
+**#23148 Internal Data Id counter is change from 32 bits int to 64 bits int** (Studio)
+
+The data id counter is now change from 32 bits int to 64 bits int.  The Business Enginere may still use 32 bits int, but it's possible to use 64 bits int. The App Model id counter is not changed.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
