@@ -8,7 +8,7 @@ Please review [System Requirements](system-requirements.md) and make sure that y
 
 **Step 2: Install Genus Services**
 
-To install Genus Services, run Setup on your server using the Genus Services Installation Wizard. See [Server Installation](../defining-an-app-model/logic/action-orchestration/genus-app-services-installation--step-by-step.md "Genus Services Installation - Step by Step") for the detailed step by step procedure.
+To install Genus Services, run Setup on your server using the Genus Services Installation Wizard. See [Server Installation](genus-services-installation--step-by-step.md "Genus Services Installation - Step by Step") for the detailed step by step procedure.
 
 **Step 3: Install License on Genus application server**
 

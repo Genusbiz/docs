@@ -14,9 +14,9 @@ If you do not want to use secure HTTP communication, skip the rest of this step.
 
 A secure HTTP communication requires a Web Server Certificate.
 
-If you do not have a certificate, see the article [Create a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-a-web-server-certificate.md "Create a Web Server Certificate") for more information about how to create one. This involves creating a certificate request and getting a certificate response back from your system administrator or third party. Once you have such a certificate response available, see the article [Assign a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate") for more information about how to assign it.
+If you do not have a certificate, see the article [Create a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/actions/effects/create-a-web-server-certificate.md "Create a Web Server Certificate") for more information about how to create one. This involves creating a certificate request and getting a certificate response back from your system administrator or third party. Once you have such a certificate response available, see the article [Assign a Web Server Certificate](step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate") for more information about how to assign it.
 
-If you have a certificate available already, see the article [Assign a Web Server Certificate](../../defining-an-app-model/logic/action-orchestration/step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate"). This applies for example if you have a wildcard certificate _\*.yourdomain.com_ and want to assign _yourserver.yourdomain.com_.
+If you have a certificate available already, see the article [Assign a Web Server Certificate](step-4--assign-a-web-server-certificate.md "Step 4 - Assign a Web Server Certificate"). This applies for example if you have a wildcard certificate _\*.yourdomain.com_ and want to assign _yourserver.yourdomain.com_.
 
 ## Step 2 - Install license
 
