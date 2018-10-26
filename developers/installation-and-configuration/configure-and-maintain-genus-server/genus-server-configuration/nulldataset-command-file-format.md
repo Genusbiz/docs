@@ -8,7 +8,13 @@ author: sverreeh
 
 When bootstrapping a new Genus-solution, you will need to use Genus.Config.CLI. This is a command line interface tool that reads and executes one or more commands from a command file. The tool is normally installed in **C:\Program Files\Genus\Server\Bin\Genus.Config.CLI**
 
-The command file is a JSON-formatted file containing some or all of the sections described in this article. There is a [sample file](#sample-command-file) towards the end of this article.
+The command file is a JSON-formatted file containing some or all of the sections described in this article. There is a [sample file](#sample-command-file) towards the end of this article. To execute the commands in a commmand file you need to call the CLI-tool with the filename as a parameter like this:
+
+```cmd
+C:\path\to\Genus.Config.CLI.exe /c c:\path\to\commandfile.json
+```
+
+The [**Genus Directory database connections**](preparing-appmodel-settings.md) needs to be assigned correctly before this tool may be executed. 
 
 The [**Genus Directory database connections**](preparing-appmodel-settings.md) needs to be assigned correctly before this tool may be executed. 
 
