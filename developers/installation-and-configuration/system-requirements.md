@@ -133,12 +133,12 @@ For IBM DB2 database access the "IBM Data Server Driver Package (Windows/x86-64 
 
 ## Supported database system vendors
 
-Genus Apps version 2016.1 and later supports the following database system vendors:
+Genus Apps version 2016.1 and later supports the following database system vendors. Use one of the supported database version strings to indicate your database version:
 
 | **Database**         | **Supported database version**
-| -------------------- | ---------------
-| Microsoft SQL Server | 2008 or newer
-| MySQL                | 5.5 or newer
-| Oracle               | 10g or newer
-| Sybase ASE           | 12.5.3 or newer
-| DB2                  | 10.1 or newer
+| -------------------- | -------------------------------|-------------------
+| Microsoft SQL Server | Microsoft SQL Server 2008 R2<br>Microsoft SQL Server 2012<br>Microsoft SQL Server 2014<br>Microsoft SQL Server 2016
+| Microsoft Azure SQL  | Azure SQL V12
+| MySQL                | MYSQL 5.5
+| Oracle               | ORACLE 10.0g<br>ORACLE 11g<br>ORACLE 11g R2<br>ORACLE 12.1c
+| DB2                  | DB2 10.1
