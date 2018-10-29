@@ -16,8 +16,6 @@ C:\path\to\Genus.Config.CLI.exe /c c:\path\to\commandfile.json
 
 The [**Genus Directory database connections**](preparing-appmodel-settings.md) needs to be assigned correctly before this tool may be executed. 
 
-The [**Genus Directory database connections**](preparing-appmodel-settings.md) needs to be assigned correctly before this tool may be executed. 
-
 ## Sections
 
 | Section name  |   Sample Value   |   Description |
