@@ -1,6 +1,6 @@
 ---
-title: Setting up database connections 
-description: An article describing how to setup Genus Directory database connections as part of the app service installation. 
+title: Setting up Directory database connections 
+description: An article describing how to setup Genus Directory database connections as part of the installation of an application server. 
 author: sverreeh
 ---
 
