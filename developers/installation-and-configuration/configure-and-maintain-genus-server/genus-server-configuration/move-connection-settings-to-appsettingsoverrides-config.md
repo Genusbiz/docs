@@ -4,7 +4,7 @@ description: An article describing how to modify Genus Directory database connec
 author: sverreeh
 ---
 
-# Genus Directory database settings in appSettingsOverrides.config
+# New Genus Directory database settings
 
 
 Previously, the database connections for a Genus Appmodel where described interactively in Genus Configuration. The connection-strings and some other settings produced by this tool where stored in **ServerConfig.xml**, normally located in **C:\ProgramData\Genus\Server\Config**. 
