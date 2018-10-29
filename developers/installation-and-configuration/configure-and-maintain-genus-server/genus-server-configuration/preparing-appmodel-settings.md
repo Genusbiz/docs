@@ -8,7 +8,7 @@ author: sverreeh
 
 You need to supply connection strings for the Active- and Descriptive database-partitions, in addition to database vendor version and search settings, to be able to bootstrap a new or existing Genus appmodel on an app server. These settings are stored in **appSettingsOverrides.config** in the web server application root folder, normally **C:\Program Files\Genus\Server\wwwroot**
 
-These settings needs to be assigned correctly before the null-dataset generation tool [(**Genus.Config.CLI**)](nulldataset-command-file-format.md) can be used.
+When configuring a new application server, these settings needs to be assigned correctly before the null-dataset generation tool [(**Genus.Config.CLI**)](nulldataset-command-file-format.md) can be used.
 
 The following paragraph shows an example of the necessary settings to be able to connect to the appmodel, and may be used as a template. 
 
