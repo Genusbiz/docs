@@ -7,10 +7,9 @@ author: sverreeh
 # Migrate Genus Directory database settings
 
 
-Previously, the database connections for a Genus Appmodel where described interactively in Genus Configuration on the application server. The connection-strings and some other settings produced by this tool where stored in **ServerConfig.xml**, normally located in **C:\ProgramData\Genus\Server\Config**.
+Previously, the database connections for a Genus Appmodel were described interactively in Genus Configuration on the application server. The connection strings and some other settings produced by this tool were stored in **ServerConfig.xml**, normally located in **C:\ProgramData\Genus\Server\Config**.
 
-The connection-settings for the Genus Directory databases provided by a given application server has now been moved into **appSettingsOverrides.config**, normally located in the folder **C:\Program Files\Genus\Server\wwwroot**. The following paragraphs lists the steps necessary to upgrade your solution to use the new connection settings. This should preferrably be done before running the new installation file on the application server.
-
+The connection settings for the Genus Directory databases provided by a given application server has now been moved into **appSettingsOverrides.config**, normally located in the folder **C:\Program Files\Genus\Server\wwwroot**. The following paragraphs lists the steps necessary to upgrade your solution to use the new connection settings. This should preferrably be done before running the new installation file on the application server.
 
 1. Make a recording of your existing directory connection settings:
     - Start Genus Configuration, and view the Properties of your Directory
@@ -27,13 +26,13 @@ The connection-settings for the Genus Directory databases provided by a given ap
 
 3. Modify **appSettingsOverrides.config** as described in [Setting up database connections](preparing-appmodel-settings.md) using the values you recorded in step 1 or 2.
 
-4. Run the installation program for Genus server as usual.
+4. Run the installation program for Genus Services as usual.
     - This will remove the old Genus Configuration tool, and install the Genus.Config.CLI and Genus.Web.Administration.CLI tools.
-    - The installation will also restart the web-site.
-    - If you need to restart the web-site after running db-scripts, use the description in point 5 below.
+    - The installation will also restart the website.
+    - If you need to restart the website after running database scripts, use the description in point 5 below.
     - Remember to start Studio and run "Deploy the App Model to all..."
 
-5. If you later needs to restart the web-site, corresponding to the "Restart Services"-operation previously available in Genus Configuration, you can use the Genus.Web.Administration.CLI-tool:
+5. If you later needs to restart the website, corresponding to the "Restart Services" operation previously available in Genus Configuration, you can use the Genus.Web.Administration.CLI-tool:
     - **Genus.Services.Web.Administration.CLI.exe** is normally located in its own folder under **C:\\Program Files\\Genus\\Server\\Bin\\Genus.Web.Administration.CLI**. Navigate to this folder (as Administrator).
     - Run the tool using this command: **Genus.Services.Web.Administration.CLI.exe /reconfigure**
     - All virtual directories defined in the Appmodel will now be removed and recreated.
