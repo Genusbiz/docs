@@ -1,5 +1,5 @@
 ---
-title: Genus nulldataset command file format
+title: Genus null dataset command file format
 description: An article describing the format of the command file used for bootstrapping an empty app model for use in Genus
 author: sverreeh
 ---
@@ -8,7 +8,7 @@ author: sverreeh
 
 When bootstrapping a new Genus-solution, you will need to use Genus.Config.CLI. This is a command line interface tool that reads and executes one or more commands from a command file. The tool is normally installed in **C:\Program Files\Genus\Server\Bin\Genus.Config.CLI**
 
-The command file is a JSON-formatted file containing some or all of the sections described in this article. There is a [sample file](#sample-command-file) towards the end of this article. To execute the commands in a commmand file you need to call the CLI-tool with the filename as a parameter like this:
+The command file is a JSON-formatted file containing some or all of the sections described in this article. There is a [sample file](#sample-command-file) towards the end of this article. To execute the commands in a command file you need to call the CLI-tool with the filename as a parameter like this:
 
 ```cmd
 C:\path\to\Genus.Config.CLI.exe /c c:\path\to\commandfile.json
@@ -53,7 +53,7 @@ The following table lists all valid actions that may be included in a **generate
 
 ## Sample command file
 
-The following is a sample command file that will generate CREATE TABLE scripts for the tablenames "g_agent" and "g_agent_execution":
+The following is a sample command file that will generate CREATE TABLE scripts for the table-names "g_agent" and "g_agent_execution":
 
 ```json
     {

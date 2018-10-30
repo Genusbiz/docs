@@ -9,10 +9,10 @@ author: sverreeh
 
 Previously, the database connections for a Genus Appmodel were described interactively in Genus Configuration on the application server. The connection strings and some other settings produced by this tool were stored in **ServerConfig.xml**, normally located in **C:\ProgramData\Genus\Server\Config**.
 
-The connection settings for the Genus Directory databases provided by a given application server has now been moved into **appSettingsOverrides.config**, normally located in the folder **C:\Program Files\Genus\Server\wwwroot**. The following paragraphs lists the steps necessary to upgrade your solution to use the new connection settings. This should preferrably be done before running the new installation file on the application server.
+The connection settings for the Genus Directory databases provided by a given application server has now been moved into **appSettingsOverrides.config**, normally located in the folder **C:\Program Files\Genus\Server\wwwroot**. The following paragraphs lists the steps necessary to upgrade your solution to use the new connection settings. This should preferably be done before running the new installation file on the application server.
 
 
-1. Make a recording of your existing directory connection settings (PS: This is only possible before you run the new installation. Genus Configuration will be removed by the latest installation. See point 2 if you have already run the installation.):
+1. Make a recording of your existing directory connection settings (PS: This can only be done before you run the new installation. Genus Configuration will be removed by the latest installation. See point 2 if you have already run the installation.):
     - Start Genus Configuration, and view the Properties of your Directory
     - Make a copy of the text in the Data Link-, Database- and Schema text editors for both partitions (Active and Descriptive)
     - Take note of the text in the field "Vendor Version". (This field does not allow select/copy)
