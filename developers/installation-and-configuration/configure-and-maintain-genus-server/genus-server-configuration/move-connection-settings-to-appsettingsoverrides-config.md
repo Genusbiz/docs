@@ -11,17 +11,18 @@ Previously, the database connections for a Genus Appmodel were described interac
 
 The connection settings for the Genus Directory databases provided by a given application server has now been moved into **appSettingsOverrides.config**, normally located in the folder **C:\Program Files\Genus\Server\wwwroot**. The following paragraphs lists the steps necessary to upgrade your solution to use the new connection settings. This should preferrably be done before running the new installation file on the application server.
 
-1. Make a recording of your existing directory connection settings:
+
+1. Make a recording of your existing directory connection settings (PS: This is only possible before you run the new installation. Genus Configuration will be removed by the latest installation. See point 2 if you have already run the installation.):
     - Start Genus Configuration, and view the Properties of your Directory
     - Make a copy of the text in the Data Link-, Database- and Schema text editors for both partitions (Active and Descriptive)
     - Take note of the text in the field "Vendor Version". (This field does not allow select/copy)
     - Take note of the setting of the "Database supports case insensitive search"-checkbox.
 
 2. (OPTIONAL): If you have already removed the old version of Genus Configuration by running the installer, the settings may be found in ServerConfig.xml.
-    - DataLink is encrypted in this file, and must be entered manually into the new location.
+    - DataLink is an encrypted value, but can be copied as is. Copy the entire value, including "enc:". Alternatively, a proper value must be entered manually into the new location as required by your database engine.
     - The field Catalog in ServerConfig.xml holds the value for Database.
     - Owner in ServerConfig.xml corresponds to Schema.
-    - The field DatabaseVendorVersion can't be copied directly from ServerConfig.xml. The value must be set manually to a value as described in [System requirements](../../system-requirements.md#supported-database-system-vendors "Supported database system vendors")
+    - The field DatabaseVendorVersion can't be copied directly from ServerConfig.xml. The value must be set manually to a valid string as described in [System requirements](../../system-requirements.md#supported-database-system-vendors "Supported database system vendors")
     - If the field IsCaseInsensitive is not present in ServerConfig.xml, the default value is false.
 
 3. Modify **appSettingsOverrides.config** as described in [Setting up database connections](preparing-appmodel-settings.md) using the values you recorded in step 1 or 2.
