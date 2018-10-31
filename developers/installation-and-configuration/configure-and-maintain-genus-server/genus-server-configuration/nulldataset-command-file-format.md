@@ -29,7 +29,7 @@ The [**Genus Directory database connections**](preparing-appmodel-settings.md) n
 
 Tasks defines one or more operations that should be performed on the directory databases as a result of calling the configuration executable passing this command-file as a parameter. Each task is defined by a required **operation**-property. 
 
-Multiple tasks may be defined in a single command file. The **createMissingTables**-commands will be executed first, if it is included in the command file. Then the remaining operations are executed in the order they are defined.
+Multiple tasks may be defined in a single command file. The **createMissingTables**-commands will be executed first, if it is included in the command file. Then the remaining operations are executed in the order they are defined. The **restartServices** operation executes last.
 
 Valid operation are:
 
@@ -38,7 +38,8 @@ Valid operation are:
 |   **createMissingTables**    |    Scans the databases identified by the connection strings in the system configuration, and creates any missing app model tables. This operation will also add missing user-scripts on relevant database versions. 
 |   **createDefaultAccounts**    |  Generates default user accounts in the app model database. These include the default administrator, guest and service accounts. This operation needs a correctly formatted app model administrators password included in the **adminPassword**-property.
 |   **generateScript**    | Generates DDL scripts as defined by a required **action**-property. Please see the [following section](#actions) for information about valid actions. This operation may be limited to operate only on a number of tables listed in the **tables**-array. The resulting script is returned on standard out.
-|   **listTables**    | Lists the names of tables that are either missing or unknown, depending on the value of the **kind**-property. Valid values are:<br/>  **missing** - Lists tables required by the app model that does not exist in the app model databases.<br/>  **unknown** - List unknown tables found in the app model databases. These may include tables from older versions of the app model that should be removed.  
+|   **listTables**    | Lists the names of tables that are either missing or unknown, depending on the value of the **kind**-property. Valid values are:<br/>  **missing** - Lists tables required by the app model that does not exist in the app model databases.<br/>  **unknown** - List unknown tables found in the app model databases. These may include tables from older versions of the app model that should be removed. 
+|   **restartServices**  | Calls Genus.Service.Web.Administration.CLI to reconfigure IIS. This operation creates a virtual directory named **defaultdir**, allowing you to start Genus Studio via the URL **http://<your-server>/defaultdir**. You should change the dataset name and the virtual directory name to more descriptive names from Genus Studio.
 
 ## Actions
 
