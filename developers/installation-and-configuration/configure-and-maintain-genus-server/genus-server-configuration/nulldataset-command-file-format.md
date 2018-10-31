@@ -1,10 +1,10 @@
 ---
-title: Genus null dataset command file format
+title: Genus AppModelConfig file format
 description: An article describing the format of the command file used for bootstrapping an empty app model for use in Genus
 author: sverreeh
 ---
 
-# The null-dataset command-file format
+# The AppModelConfig file format
 
 When bootstrapping a new Genus-solution, you will need to use Genus.Config.CLI. This is a command line interface tool that reads and executes one or more commands from a command file. The tool is normally installed in **C:\Program Files\Genus\Server\Bin\Genus.Config.CLI**
 
@@ -41,7 +41,7 @@ Valid operation are:
 |   **listTables**    | Lists the names of tables that are either missing or unknown, depending on the value of the **kind**-property. Valid values are:<br/>  **missing** - Lists tables required by the app model that does not exist in the app model databases.<br/>  **unknown** - List unknown tables found in the app model databases. These may include tables from older versions of the app model that should be removed. 
 |   **restartServices**  | Calls Genus.Service.Web.Administration.CLI to reconfigure IIS. This operation creates a virtual directory named **defaultdir**, allowing you to start Genus Studio via the temporary URL **http://your-server/defaultdir**. You should change the dataset name and the virtual directory name to more descriptive names from Genus Studio.
 
-## Actions
+## Actions for generateScript
 
 The following table lists all valid actions that may be included in a **generateScript** operation. None of these will change the app model databases in any way.
 
@@ -70,6 +70,7 @@ The following is a sample command file that will generate CREATE TABLE scripts f
         ]
     }
 ```
+
 
 The following fragment is a sample command file that could be used to prepare a new solution for Genus Services. The empty system databases (active/descriptive) must be created before running this command file, and the connection settings must already be entered into **appSettingsOverrides.config**. See [Genus Directory database settings](preparing-appmodel-settings.md) for more information on appSettingsOverrides.config
 

@@ -34,6 +34,6 @@ The connection settings for the Genus Directory databases provided by a given ap
     - Remember to start Studio and run "Deploy the App Model to all..."
 
 5. If you later needs to restart the website, corresponding to the "Restart Services" operation previously available in Genus Configuration, you can use the Genus.Web.Administration.CLI-tool:
-    - **Genus.Services.Web.Administration.CLI.exe** is normally located in its own folder under **C:\\Program Files\\Genus\\Server\\Bin\\Genus.Web.Administration.CLI**. Navigate to this folder (as Administrator).
+    - **Genus.Services.Web.Administration.CLI.exe** is normally located in its own folder under **C:\\Program Files\\Genus\\Server\\Bin\\Genus.Config.CLI**. Navigate to this folder (as Administrator).
     - Run the tool using this command: **Genus.Services.Web.Administration.CLI.exe /reconfigure**
     - All virtual directories defined in the Appmodel will now be removed and recreated.
