@@ -70,3 +70,25 @@ The following is a sample command file that will generate CREATE TABLE scripts f
         ]
     }
 ```
+
+The following fragment is a sample command file that could be used to prepare a new solution for Genus Services. The empty system databases (active/descriptive) must be created before running this command file, and the connection settings must already be entered into **appSettingsOverrides.config**. See [Genus Directory database settings](preparing-appmodel-settings.md) for more information on appSettingsOverrides.config
+
+```json
+{
+    "directoryName": "My Genus Directory",
+    "internetHostName": "test.mydomain.com",
+    "defaultLanguage": "en-US",
+    "tasks":[
+        {
+            "operation": "createMissingTables"
+        },
+        {
+            "operation": "restartServices"
+        },
+        {
+            "operation": "createDefaultAccounts",
+            "adminPassword": "admins_topsecret_password"
+        }
+    ]
+}
+```
