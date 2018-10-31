@@ -35,7 +35,7 @@ Valid operation are:
 
 |   Operation   |   Description
 |---|---
-|   **createMissingTables**    |    Scans the databases identified by the connection strings in the system configuration, and creates any missing app model tables. This operation will also add missing user-scripts on relevant database versions. 
+|   **createMissingTables**    |    Scans the databases identified by the connection strings in the system configuration, and creates any missing app model tables. Some tables will be initialized with necessary data to be able to start Genus Studio and start configuring the new solution. This operation will also add missing user-scripts on relevant database versions. 
 |   **createDefaultAccounts**    |  Generates default user accounts in the app model database. These include the default administrator, guest and service accounts. This operation needs a correctly formatted app model administrators password included in the **adminPassword**-property.
 |   **generateScript**    | Generates DDL scripts as defined by a required **action**-property. Please see the [following section](#actions) for information about valid actions. This operation may be limited to operate only on a number of tables listed in the **tables**-array. The resulting script is returned on standard out.
 |   **listTables**    | Lists the names of tables that are either missing or unknown, depending on the value of the **kind**-property. Valid values are:<br/>  **missing** - Lists tables required by the app model that does not exist in the app model databases.<br/>  **unknown** - List unknown tables found in the app model databases. These may include tables from older versions of the app model that should be removed. 
