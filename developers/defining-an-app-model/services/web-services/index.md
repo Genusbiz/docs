@@ -1,5 +1,5 @@
 ---
-title: Consumeing and exposing a web service (SOAP) in Genus Apps
+title: Consuming and exposing a web service (SOAP) in Genus Apps
 description: Expose or consume a SOAP web service in Genus Studio. Define operations, definitions (schemas) and endpoints for web services and exposing these.
 author: eriksandnes
 ---
