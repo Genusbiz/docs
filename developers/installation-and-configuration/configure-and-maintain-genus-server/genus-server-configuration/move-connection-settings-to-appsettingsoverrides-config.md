@@ -7,7 +7,7 @@ author: sverreeh
 # Migrate Genus Directory database settings
 
 
-Previously, the database connections for a Genus Appmodel were described interactively in Genus Configuration on the application server. The connection strings and some other settings produced by this tool were stored in **ServerConfig.xml**, normally located in **C:\ProgramData\Genus\Server\Config**.
+The database connections for a Genus Appmodel were previously described interactively in Genus Configuration on the application server. The connection strings and a few other settings produced by this tool were stored in **ServerConfig.xml**, normally located in **C:\ProgramData\Genus\Server\Config**.
 
 The connection settings for the Genus Directory databases provided by a given application server has now been moved into **appSettingsOverrides.config**, normally located in the folder **C:\Program Files\Genus\Server\wwwroot**. The following paragraphs lists the steps necessary to upgrade your solution to use the new connection settings. This should preferably be done before running the new installation file on the application server.
 

@@ -35,11 +35,12 @@ Valid operation are:
 
 |   Operation   |   Description
 |---|---
-|   **createMissingTables**    |    Scans the databases identified by the connection strings in the system configuration, and creates any missing app model tables. Some tables will be initialized with necessary data to be able to start Genus Studio and start configuring the new solution. This operation will also add missing user-scripts on relevant database versions. 
+|   **createMissingTables**    |    Scans the databases identified by the connection strings in the system configuration, and creates any missing app model tables. Some tables will be initialized with necessary data to be able to start Genus Studio and start configuring the new solution. <br/>If no datasets has been defined (i.e. when you are installing on a new application server), an empty dataset named **Default Dataset** will be created, and a virtual directory named **defaultdir** will be created in Genus Web Site Configuration to allow you to start Genus Studio via the temporary URL **http://your-server/defaultdir**. You should change the dataset name and the virtual directory name to more descriptive names from Genus Studio. <br/>This operation will also add missing user-scripts on relevant database versions. 
 |   **createDefaultAccounts**    |  Generates default user accounts in the app model database. These include the default administrator, guest and service accounts. This operation needs a correctly formatted app model administrators password included in the **adminPassword**-property.
 |   **generateScript**    | Generates DDL scripts as defined by a required **action**-property. Please see the [following section](#actions-for-generatescript) for information about valid actions. This operation may be limited to operate only on a number of tables listed in the **tables**-array. The resulting script is returned on standard out.
 |   **listTables**    | Lists the names of tables that are either missing or unknown, depending on the value of the **kind**-property. Valid values are:<br/>  **missing** - Lists tables required by the app model that does not exist in the app model databases.<br/>  **unknown** - List unknown tables found in the app model databases. These may include tables from older versions of the app model that should be removed. 
-|   **restartServices**  | Calls Genus.Service.Web.Administration.CLI to reconfigure IIS. This operation creates a virtual directory named **defaultdir**, allowing you to start Genus Studio via the temporary URL **http://your-server/defaultdir**. You should change the dataset name and the virtual directory name to more descriptive names from Genus Studio.
+|   **reconfigureServices**  | Calls Genus.Service.Web.Administration.CLI to reconfigure IIS. This operation creates a virtual directory for each dataset defined in Genus.
+|   **generateCryptoKeysIfNotFound**  | Ensures that the necessary cryptographic keys are generated into appSettingsOverrides.config. If the keys are not found, the entire file will be rewritten as part of the generation. 
 
 ## Actions for generateScript
 
@@ -52,7 +53,7 @@ The following table lists all valid actions that may be included in a **generate
 |   **createindex** |   Outputs scripts for generating indexes on the tables listed in the **tables**-array. Generates scripts for all tables defined in Genus if the **tables**-array is empty.
 |   **createuserfunctions** |   Outputs scripts for generating all user scripts on relevant database engines. Nothing will be returned if the user scripts already exists.  
 
-## Sample command file
+## Sample command files
 
 The following is a sample command file that will generate CREATE TABLE scripts for the table-names "g_agent" and "g_agent_execution":
 
@@ -72,7 +73,9 @@ The following is a sample command file that will generate CREATE TABLE scripts f
 ```
 
 
-The following fragment is a sample command file that could be used to prepare a new solution for Genus Services. The empty system databases (active/descriptive) must be created before running this command file, and the connection settings must already be entered into **appSettingsOverrides.config**. See [Genus Directory database settings](preparing-appmodel-settings.md) for more information on appSettingsOverrides.config
+The following configuration-fragment is a sample command file that could be used to prepare a new solution for Genus Services. The empty system databases (active/descriptive) must be created on the database server before running this command file, and the connection settings for these databases must be entered into **appSettingsOverrides.config**. See [Genus Directory database settings](preparing-appmodel-settings.md) for more information on appSettingsOverrides.config. 
+
+The combination of these four operations will configure everything you need to be able to start Genus Studio on the new solution. 
 
 ```json
 {
@@ -84,7 +87,10 @@ The following fragment is a sample command file that could be used to prepare a 
             "operation": "createMissingTables"
         },
         {
-            "operation": "restartServices"
+            "operation": "reconfigureServices"
+        },
+        {
+            "operation": "generateCryptoKeysIfNotFound"
         },
         {
             "operation": "createDefaultAccounts",
