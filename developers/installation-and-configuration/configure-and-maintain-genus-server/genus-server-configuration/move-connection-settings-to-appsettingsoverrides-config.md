@@ -29,11 +29,13 @@ The connection settings for the Genus Directory databases provided by a given ap
 
 4. Run the installation program for Genus Services as usual.
     - This will remove the old Genus Configuration tool, and install the Genus.Config.CLI and Genus.Web.Administration.CLI tools.
-    - The installation will also restart the website.
-    - If you need to restart the website after running database scripts, use the description in point 5 below.
+    - The installation will also reconfigure the website.
+    - If you need to reconfigure the website after running database scripts, use the description in point 5 below.
     - Remember to start Studio and run "Deploy the App Model to all..."
 
-5. If you later needs to restart the website, corresponding to the "Restart Services" operation previously available in Genus Configuration, you can use the Genus.Web.Administration.CLI-tool:
-    - **Genus.Services.Web.Administration.CLI.exe** is normally located in its own folder under **C:\\Program Files\\Genus\\Server\\Bin\\Genus.Config.CLI**. Navigate to this folder (as Administrator).
+5. If you later needs to reconfigure the website, use the command line tool Genus.Web.Administration.CLI:
+    - **Genus.Services.Web.Administration.CLI.exe** is normally located in the folder **C:\\Program Files\\Genus\\Server\\Bin\\Genus.Config.CLI**. Navigate to this folder (as Administrator).
     - Run the tool using this command: **Genus.Services.Web.Administration.CLI.exe /reconfigure**
     - All virtual directories defined in the Appmodel will now be removed and recreated.
+
+6. If you need to restart the website, corresponding to the **Restart Services** operation previously available in Genus Configuration, you can use the shortcut "Restart Services" in Genus Services group on Windows Start Menu. It is also possible to use **Genus.Services.Web.Administration.CLI** for this operation, using the argument **/restartservices**.
