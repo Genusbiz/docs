@@ -1,26 +1,30 @@
-# GitHub contribution code
+# GitHub contribution code and custom template
 
 The release build of docs it build using the exported template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating the _exported_templates. The exported template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
 
-**Local backup (optional)**
+## Local backup (optional)
 Copy the folder _exported_templates to a temporary location for backup and base for code changes.
 
 Delete all content of _exported_templates
 
-**Create a new default template**
+## Create a new default template
 Open a command window and navigate to your root catalog. Run the command docfx template export default.
 
-**Insert contributors code**
+## Insert contributors code
 Edit these three documents, _master.tmpl, docfx.css and docfx.js.
 
-_\_master.tmpl_
+
+### \_master.tmpl
+
 Add
 ```xml
 <div id="contributors"></div>
 ```
 into the `<article>`-element, before the `{{!body}}`-tag.
 
-_docfx.css_
+
+### docfx.css
+
 Add
 ```css
 #contributorimg{
@@ -29,7 +33,9 @@ Add
 ```
 after the `a.disable:hover-element`
 
-_docfx.js_
+
+### docfx.js
+
 Add
 ```javascript
 loadContributors();
@@ -107,7 +113,7 @@ function generateContributorIcons(list){
 
 after the windows.refresh() function declaration.
 
-**Test changes**
+## Test changes
 
 Build the local docfx version with the template.
 ```cmd
@@ -115,4 +121,5 @@ docfx docfx.json -t _exported_templates\default --serve
 ```
 And verify that the site is running correctly and that contributors are loaded.
 
-**Commit changes**
+## Commit changes
+Commit changes to GitHub.
