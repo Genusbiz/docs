@@ -77,7 +77,10 @@ If you open movearticles.js you will find further comments and a TODO list of is
 
 ---
 
-### How to add a folder to your Windows 10 PATH environment variable
+## GitHub contributors integration and custom templates
+See [GitHub contribution code and custom templates](github-contribution-code-and-custom-template.md) for details on how to keep custom templates updated and include GitHub contributor code in build.
+
+## How to add a folder to your Windows 10 PATH environment variable
 1. In the Windows start menu, search for and open "View advanced system settings".
 2. In the Advanced tab, click the "Environment variables…" button in the lower right corner.
 3. In the "User variables" or the "System variables" section (your choice), edit the path variable and add a path to your folder.

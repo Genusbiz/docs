@@ -37,6 +37,17 @@
       "_appFooter": "&copy; Copyright <a href=\"http://www.genus.no\">Genus AS</a>, Norway. All rights reserved.",
       "_enableNewTab": true
     },
+    "fileMetadata": {
+      "_noindex": {
+        "developers/how-to/consuming-a-web-service-from-microsoft-visual-studio--code-example.md": true,
+        "guidelines-for-html-table-conversion.md": true,
+        "editing-docs-locally.md": true,
+        "example-article.md": true,
+        "metadata-for-search-engine-optimization.md": true,
+        "template-article.md": true,
+        "github-contribution-code-and-custom-template.md": true
+      }
+    },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
