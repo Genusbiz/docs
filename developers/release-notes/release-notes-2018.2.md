@@ -293,6 +293,11 @@ Fields with interpretation phone number will now be telephone links on web.
 
 To log all invalid objects in a Form, press Ctrl-Alt-Shift-L.
 
+<!--ID e20f2019-0228-4d95-a85c-c87c87f6407f -->
+**#23155 Timeout secounds on File Upload effect** (Web)
+
+It's now possible to set timeout for the File Upload effect
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
