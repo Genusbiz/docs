@@ -43,35 +43,61 @@ There are no end-of-life functionality identified in this release.
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There is no deprecated functionality in this release.
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Major new functionality
-
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Minor new functionality
-
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 9ff0a5a5-8c71-43e1-879d-cab2ad8167f0 -->
+**#23151 Grouping of columns Multidimension table** (Desktop)
+
+It is now possible to create a column group based on data in a Multidimensional table. For eksample when repeating over the day dimension, you can group the columns in Weeks (or Month).
+
+<!--ID 656dd3fe-525d-4c7a-a7fa-a36b232695e5 -->
+**#23152 Consume a web service -- support for adding custom HTTP request headers** (Services;Studio)
+
+The _Consume a web service_ effect now includes support for adding custom HTTP request headers. See the updated [documentation](https://docs.genus.no/developers/defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-web-service.html).
+
+<!--ID 1089ca77-a790-4e4d-a0e5-9bd2523e71a4 -->
+**#23153 Analysis  Component: Subsets** (Desktop;Web)
+
+Subset operators can now be hidden from the user. The operator Set has been renamed to Apply
+
+<!--ID b1dbaceb-aff8-4450-8de2-66dce1e0d730 -->
+**#23154 Analysis  Component :Selector** (Desktop;Web)
+
+Default values for Show Excluded and Show Selected can now be selected in the designer.
+
+<!--ID e20f2019-0228-4d95-a85c-c87c87f6407f -->
+**#23155 Timeout secounds on File Upload effect** (Web)
+
+It's now possible to set timeout for the File Upload effect
+
+<!--ID 431a02f1-b9e3-4439-84a9-3552647aa537 -->
+**#23156 Analysis  Component :Map** (Desktop;Web)
+
+Made it possible to customize zoom settings for map. For more information : https://docs.genus.no/users/analyze-report-and-discover/analysis/designer/format-pane/component-specific.html#map
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Resolved issues
-
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no resolved issues in this release.
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
-
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Tips and hints
 
 Tips and hints are design decisions or answers to support questions that may be of general interest.
