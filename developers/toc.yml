@@ -628,6 +628,8 @@
 - name: Release notes
   href: release-notes/index.md
   items:
+  - name: Version 2018.3
+    href: release-notes/release-notes-2018.3.md
   - name: Version 2018.2
     href: release-notes/release-notes-2018.2.md
   - name: Version 2018.1
