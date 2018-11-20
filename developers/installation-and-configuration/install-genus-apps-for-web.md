@@ -120,6 +120,8 @@ If it is needed to upload large files through Genus Apps for Web, the web.config
     </system.webServer>
   </location>
 ```
+### Timeout
+The default timeout value for a command in Genus Apps for Web is 45 seconds. From version 2018 it is possible to override this for the _File Upload_ effect when this is placed inside a _Combined_ command. This value can also be overriden for the _Run a Task_ effect. 
 
 # Security settings
 The following settings is default when installing a new version of Genus Apps for Web. However, when upgrading the web.config file is not changed because of local editing of the file (rewrite rules, etc.). See [Genus Apps for Web hardening](../guidelines-and-best-practices/genus-apps-for-web-hardening.md) for more information.
