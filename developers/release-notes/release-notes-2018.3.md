@@ -50,15 +50,14 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
-<!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Minor new functionality
-<!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 9ff0a5a5-8c71-43e1-879d-cab2ad8167f0 -->
 **#23151 Grouping of columns Multidimension table** (Desktop)
 
 It is now possible to create a column group based on data in a Multidimensional table. For eksample when repeating over the day dimension, you can group the columns in Weeks (or Month).
 
+<!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+## Minor new functionality
+<!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 656dd3fe-525d-4c7a-a7fa-a36b232695e5 -->
 **#23152 Consume a web service -- support for adding custom HTTP request headers** (Services;Studio)
 
@@ -83,6 +82,11 @@ It's now possible to set timeout for the File Upload effect
 **#23156 Analysis  Component :Map** (Desktop;Web)
 
 Made it possible to customize zoom settings for map. For more information : https://docs.genus.no/users/analyze-report-and-discover/analysis/designer/format-pane/component-specific.html#map
+
+<!--ID ac004d16-2940-48c7-9a18-51e8e8617d45 -->
+**#23157 component: Summary** (Desktop;Web)
+
+Summary now has a new option under the heading "summary options"  called "display horizontally" and it does exactly that, instead of listing the selections in a list moving from top to bottom it is instead listed side by side left to right.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
