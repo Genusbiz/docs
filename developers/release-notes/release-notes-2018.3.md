@@ -91,7 +91,11 @@ Summary now has a new option under the heading "summary options"  called "displa
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
+<!--ID 340afc8d-8af5-46cc-8f20-d56a80893bd8 -->
+**#23158 Analysis - Marking og exluded items in a pie chart**
+
+Exluded items in a pie chart is now marked by a strikethrough of the item, and the tailing percentage is removed.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
