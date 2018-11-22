@@ -32,6 +32,8 @@
    
    b. Run **git pull origin master** (in command line Git, origin is always the remote repos, while master is the local repos).
    
+   c. Then "git push -u origin master"
+   
 2. To do a change locally (like editing an index.md article) and push it to GitHub
 
    a. Edit the file using your favorite Markdown editor
