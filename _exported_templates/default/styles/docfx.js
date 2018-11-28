@@ -23,7 +23,9 @@ $(function () {
 
   breakText();
   renderTabs();
+  // Genus Docs contributor code - START
   loadContributors();
+  // Genus Docs contributor code - END
 
   window.refresh = function (article) {
     // Update markup result
@@ -41,6 +43,7 @@ $(function () {
   // Add this event listener when needed
   // window.addEventListener('content-update', contentUpdate);
 
+  // Genus Docs contributor code - START
   function containsName(array, login){
     var i =array.length; 
     while(i--){
@@ -110,7 +113,8 @@ $(function () {
       document.getElementById("contributors").appendChild(a).appendChild(img)
     }
   }
-  
+  // Genus Docs contributor code - END
+
   function breakText() {
     $(".xref").addClass("text-break");
     var texts = $(".text-break");
@@ -448,7 +452,6 @@ $(function () {
             href = navrel + href;
             $(e).attr("href", href);
 
-            // TODO: currently only support one level navbar
             var isActive = false;
             var originalHref = e.name;
             if (originalHref) {
