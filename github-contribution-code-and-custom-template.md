@@ -1,17 +1,20 @@
 # GitHub contribution code and custom template
 
-The release build of docs it build using the exported template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating the _exported_templates. The exported template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
+The release build of docs it build using the exported template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating *_exported_templates*. The exported template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
 
 ## Local backup (optional)
-Copy the folder _exported_templates to a temporary location for backup and base for code changes.
+Copy the folder *_exported_templates* to a temporary location for backup and base for code changes.
 
-Delete all content of _exported_templates
+Delete all content of *_exported_templates*
 
 ## Create a new default template
-Open a command window and navigate to your root catalog. Run the command docfx template export default.
+Open a command window and navigate to your root catalog. Run the command 
+```
+docfx template export default
+```
 
 ## Insert contributors code
-Edit these three documents, _master.tmpl, docfx.css and docfx.js.
+Edit these three documents, _master.tmpl_, _docfx.css_ and _docfx.js_.
 
 
 ### \_master.tmpl
