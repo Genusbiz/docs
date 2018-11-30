@@ -9,12 +9,18 @@ A web-theme can ba specified as a default on app model and data set level in add
 
 ## Theme colors
 *   **Primary**: Used for header backgrounds, main action items, etc.
+*   **Primary Contrast**:
 *   **Secondary**: Used as a contrast to the primary color.
-*   **Background**: The background of a panel.
+*   **Secondary Contrast**:
 *   **Text**: Text color used on background.
+*   **Background**: The background of a panel.
+*   **Canvas**:
 
 ## Analysis Colors
 Analysis colors are used for the qualified, disqualified, selected, excluded color logic in analysis.
+*   **Selected**
+*   **Excluded**
+*   **Secondary**
 
 ## Data Colors
 Any number of colors can be specified as data colors. They are used when a series of objects should be allocated a color to separate them visually, like pies in a pie chart.
