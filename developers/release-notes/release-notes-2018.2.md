@@ -235,13 +235,6 @@ Copy and Paste Security is now added as functions on all Discovery objects with 
 
 A lookup field that can search and select data from one datasource (rest-service etc) and show reference to another datatype.
 
-<!--ID f2042c91-d86d-41d4-84af-3cd2051b07b2 -->
-**#23123 The "Consume a REST Service" effect supports Client Certificate and Server Certificate Validation** (Desktop;Services;Studio)
-
-The **Consume a REST Service** effect now includes a new, optional **Certificate Thumbprint** field that can be used to attach a client certificate to the REST request. The certificate must be installed in the Windows certificate store and is referenced using its thumbprint (hexadecimal string). Please refer to the article [Consuming Web Services with certificate based authentication](https://docs.genus.no/developers/defining-an-app-model/services/web-services/consuming-web-services-with-certificate-based-authentication.html) for details about how to install a client certificate. Please note that, in contrast to consuming (SOAP based) web services, Genus Apps may consume REST services both on the client side and on the server side. The client certificate needs to be installed on the client side or on the server side accordingly, and needs to be accessible from the calling Windows account. You may use the Current User or the Local Machine certificate store, depending on your preferences.
-
-A new Server Certificate Validation field is also introduced. In rare cases the server may present a certificate with a Common Name (CN) that deviates from the host part of the specified URL. Normally, this is an error and the request is rejected. In order to override this behavior you may use the Server Certificate Validation field to specify a substring that should be present in the server certificate's Subject field.
-
 <!--ID a69920c0-d28c-4199-a527-fd8f2e3e3e5a -->
 **#23124 Optimalization in the Create Objects effect** (Desktop;Studio)
 
