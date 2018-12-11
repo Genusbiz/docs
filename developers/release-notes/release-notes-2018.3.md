@@ -117,5 +117,6 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
+* 2018-11-30 Changed release stage from Beta to Release (builds starting with 18.30.50).
 * 2018-08-18 Created (Beta stage) (builds starting with 18.30.5).
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
