@@ -12,6 +12,8 @@ The output of the mail merge operation is not confined to the Microsoft Word Doc
 *   Rich Text Format (RTF)
 *   XML Paper Specification (XPS)
 
+> [!NOTE]
+> The underlying third party component we are relying on to do the merging, is vulnerable to complexities in your Word headers and footers. Therefore, when you do Word merging, please keep your headers and footers as simple as possible!
 
 ## Basic steps
 
