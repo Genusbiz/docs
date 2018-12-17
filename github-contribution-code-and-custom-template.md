@@ -1,6 +1,6 @@
 # GitHub contribution code and custom template
 
-The release build of docs it build using the exported template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating *_exported_templates*. The exported template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
+TODO - update this section. The release build of docs it build using the exported template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating *_exported_templates*. The exported template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
 
 ## Local backup (optional)
 Copy the folder *_exported_templates* to a temporary location for backup and base for code changes.
