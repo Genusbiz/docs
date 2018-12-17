@@ -23,6 +23,9 @@ $(function () {
 
   breakText();
   renderTabs();
+  // Genus Docs contributor code - START
+  loadContributors();
+  // Genus Docs contributor code - END
 
   window.refresh = function (article) {
     // Update markup result
@@ -39,6 +42,78 @@ $(function () {
 
   // Add this event listener when needed
   // window.addEventListener('content-update', contentUpdate);
+
+  // Genus Docs contributor code - START
+  function containsName(array, login){
+    var i =array.length; 
+    while(i--){
+      if(array[i].login == login){
+        return true;
+      }
+    }
+  return false;
+  }
+
+  function loadContributors() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+       generateContributorIcons(JSON.parse(this.responseText));
+      }
+    };
+    
+    var relativePath = window.location.pathname.replace('.html','.md')
+    if (relativePath==="/"){
+      relativePath = "/index.md"
+    };
+
+
+    xhttp.open("GET", "https://api.github.com/repos/GenusBiz/docs/commits?path="+relativePath, true);
+    xhttp.send();
+  }
+  
+  function generateContributorIcons(list){
+    var authors = []
+    var lastCommit = list[0].commit.author.date.substr(0,10)
+      
+    
+    for (var i=0; i<list.length; i++){
+
+      if(!containsName(authors, list[i].author.login)){
+          authors.push({
+            name: list[i].commit.author.name,
+            email: list[i].commit.author.email,
+            login: list[i].author.login,
+            avatarUrl: list[i].author.avatar_url,
+            html_url: list[i].author.html_url,
+            login: list[i].author.login
+          });
+      }
+    }
+    var lastcommitdate = document.createTextNode(lastCommit)
+    var divider = document.createTextNode(' • ')
+    var textContributors = document.createTextNode('Contributors ')
+    document.getElementById("contributors").appendChild(lastcommitdate)
+    document.getElementById("contributors").appendChild(divider)
+    document.getElementById("contributors").appendChild(textContributors)
+    
+  
+    for (var i=0; i<authors.length; i++){
+      var img = document.createElement("IMG")
+      img.src = authors[i].avatarUrl
+      img.name = authors[i].name
+      img.height = 28
+      img.width = 28
+      img.alt = authors[i].login
+      img.id ="contributorimg"
+      var a = document.createElement("a")
+      a.href = authors[i].html_url
+      a.alt = authors[i].login
+      a.title = authors[i].name
+      document.getElementById("contributors").appendChild(a).appendChild(img)
+    }
+  }
+  // Genus Docs contributor code - END
 
   function breakText() {
     $(".xref").addClass("text-break");
