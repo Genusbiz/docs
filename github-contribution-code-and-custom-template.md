@@ -1,19 +1,34 @@
 # GitHub contribution code and custom template
 
-TODO - update this section. The release build of docs it build using the exported template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating *_exported_templates*. The exported template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
+The release build of docs it build using a custom template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating *_custom_templates*. The template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
 
-## Local backup (optional)
-Copy the folder *_exported_templates* to a temporary location for backup and base for code changes.
+## Detect changes in custom template files
+### Clear existing default template
+Delete all content of *_exported_templates*.
 
-Delete all content of *_exported_templates*
-
-## Create a new default template
+### Create a new default template
 Open a command window and navigate to your root catalog. Run the command 
 ```
 docfx template export default
 ```
+### Use git diff detect changes in relevant files
+If git diff reports changes in these three files _master.tmpl_, _docfx.css_ and _docfx.js_ in *_exported_templates*. These changes must be merged into the same files in *_custom_templates*.
+> [!NOTE]
+> Changes in *_exported_template* must also be commited regardless of whether these changes affect the custom template to create a new baseline for future comparison of new DocFX versions.
 
-## Insert contributors code
+### Test changes
+
+Build the local docfx version with the template.
+```cmd
+docfx docfx.json --serve
+```
+And verify that the site is running correctly and that contributors are loaded.
+
+### Commit changes
+Commit changes to GitHub. 
+
+
+## Contributors code
 Edit these three documents, _master.tmpl_, _docfx.css_ and _docfx.js_.
 
 
