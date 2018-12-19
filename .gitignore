@@ -1,6 +1,6 @@
 # Ignore these folders.
 _site
-_exported_templates
+#_exported_templates
 .idea
 .vs
 .vscode
