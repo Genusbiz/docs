@@ -1,6 +1,6 @@
 # GitHub contribution code and custom template
 
-The release build of docs it build using a custom template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating *_custom_templates*. The template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
+The Genus Docs it built using a custom template. When a new versions of DocFX is released, there may be changes that are not effectuated without updating *_custom_templates*. The template contains some customized code for showing contributors. Below is a step by step procedure for updating the exported template. All changes are done locally, tested and pushed to the repository.
 
 ## Detect changes in custom template files
 ### Clear existing default template
