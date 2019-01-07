@@ -16,4 +16,4 @@ New groups can be added based on object type properties available at the current
 ### To group a Repeating Column
 -	Right-click a Repeating Column or repeating Column Group and choose *Group*
 -	Select the new cell that appeared, and set *Path to Column* to the desired object type property to group by
--	Specify label property
+-	Specify *Label*
