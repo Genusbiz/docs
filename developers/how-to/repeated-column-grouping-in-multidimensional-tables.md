@@ -5,6 +5,8 @@ author: sigbauk
 ---
 # Repeated Column grouping in Multidimensional Table
 
+*Functionality added in Genus 2018.3*
+
 Repeating Columns in Multidimensional tables can be grouped hierarchically.
 
 In the following example, populations in some of the world’s largest cities are listed. “City” is a Repeating Column grouped by “Country”, which is further grouped by “Continent”, forming a hierarchy.
