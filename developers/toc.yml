@@ -588,8 +588,8 @@
     href: how-to/accessing-selected-text-in-form-controls.md
   - name: Attach a file or an email to an object
     href: how-to/attach-a-file-or-an-email-to-an-object.md
-  - name: Column grouping in multidimensional tables
-    href: how-to/column-grouping-in-multidimensional-tables.md
+  - name: Repeated Column grouping in multidimensional tables
+    href: how-to/repeated-column-grouping-in-multidimensional-tables.md
   - name: Exchange data with other applications
     href: how-to/exchange-data-with-other-applications/index.md
     items:
