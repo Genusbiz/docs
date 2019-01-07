@@ -1,9 +1,9 @@
 ---
-title: Column grouping in Multidimensional Table
-description: Column grouping in Multidimensional Table
+title: Repeated Column grouping in Multidimensional Table
+description: Repeated Column grouping in Multidimensional Table
 author: sigbauk
 ---
-# Column grouping in Multidimensional Table
+# Repeated Column grouping in Multidimensional Table
 
 Repeating Columns in Multidimensional tables can be grouped hierarchically.
 
