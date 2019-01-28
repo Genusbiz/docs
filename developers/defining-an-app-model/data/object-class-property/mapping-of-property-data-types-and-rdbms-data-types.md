@@ -68,7 +68,7 @@ Oracle: *raw, long raw*
 
 Variable-length binary data.
 
-MS SQL Server: *image*
+MS SQL Server: *varbinary(MAX)*
 
 Oracle: *blob*
 
