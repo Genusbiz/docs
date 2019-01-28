@@ -46,16 +46,25 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID f1eeb70e-0169-4998-bed9-ccb1dcee1c1d -->
+**#23160 Change of internal memory manager**
+
+We are changing memory manager in Genus Studio, Genus Desktop and some core services in Genus Services. Our tests have shown that the new one have better performance when parallel threads allocate/deallocate memory at the same time. This may result in a higher memory usage than the old one. The old one will still be used for debug purposes, and in practice be present in all Pre-Alpha and Alpha versions.
+
+Before and after the upgrade, extra time should be allowed for testing the impact of the new memory manager with your specific app model. Memory footprint and general performance needs to be tested, both client-side (*Genus Desktop/Genus Studio* -- Genus.exe) and server-side (the IIS worker process *Genus Services Web Site AppPool*, aka *"megaservice"* -- w3wp.exe).
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no minor new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no resolved issues in this release.
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
