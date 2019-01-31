@@ -103,6 +103,11 @@ Summary now has a new option under the heading "summary options"  called "displa
 
 Exluded items in a pie chart is now marked by a strikethrough of the item, and the tailing percentage is removed.
 
+<!--ID 8560fbc4-48e7-48ab-aee8-9bf7362a0fc4 -->
+**#23165 Error in copying part objects in sub task** (Desktop)
+
+Fixed error when creating part objects in a sub task and copying them back to the master task
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
