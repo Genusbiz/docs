@@ -7,5 +7,3 @@ To change the operator for an expression or group, do one of the following:
 *   Right click the operator, and then select the operator.
 *   Select the operator, and then press F2\.
 *   Double click the operator.
-
-![ID672AB933018840B8.png](media/ID672AB933018840B8.png)

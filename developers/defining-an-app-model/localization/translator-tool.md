@@ -14,7 +14,7 @@ Translator gets a list of translations for a given appmodel and displays it in a
 ### Add new key
 To add a new key, hover the **+** button located bottom-right and click on **Add new key**.
 A namespace for the key is required, as well as an initial translation in the original language. A description may also be added.  
-This proccess allows for the use of [markdown](#markdown) in the translation.  
+This proccess allows for the use of __markdown__ in the translation.  
 Note that both namespace and key must be in the format ``/[A-Z0-9_]+/g``, this is automatically enforced by the program.
 
 ### Add new language
