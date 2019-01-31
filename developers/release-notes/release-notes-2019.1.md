@@ -69,6 +69,11 @@ There are no minor new functionality in this release.
 
 If the Automatic Refresh option was set for a report published on an object, the report was first refreshed without the object as a filter, and then with object as a filter. The end result was correct, but the performance was not optimal.
 
+<!--ID 8560fbc4-48e7-48ab-aee8-9bf7362a0fc4 -->
+**#23165 Error in copying part objects in sub task** (Desktop)
+
+Fixed error when creating part objects in a sub task and copying them back to the master task
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
