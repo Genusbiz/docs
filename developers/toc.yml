@@ -72,8 +72,8 @@
         items:
         - name: Add an expression or group
           href: defining-an-app-model/common-concepts/conditions/condition-editor/add-an-expression-or-group.md
-        - name: Change the logical operator for an expression or group
-          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-logical-operator-for-an-expression-or-group.md
+        - name: Change the logical operator
+          href: defining-an-app-model/common-concepts/conditions/condition-editor/change-the-logical-operator.md
         - name: Edit an expression
           href: defining-an-app-model/common-concepts/conditions/condition-editor/edit-an-expression.md
         - name: Defining operands

@@ -4,7 +4,7 @@ The condition editor offers easy point-and-click creation and modification of [c
 
 **Topics in "Condition Editor"**
 * [Add an Expression or Group](add-an-expression-or-group.md)
-* [Change the Logical Operator for an Expression or Group](change-the-logical-operator-for-an-expression-or-group.md)
+* [Change the Logical Operator for an Expression or Group](change-the-logical-operator.md)
 * [Edit an Expression](edit-an-expression.md)
 * [Defining Operands](defining-operands.md)
 * [Change the Order of Expressions and Groups](change-the-order-of-expressions-and-groups.md)
