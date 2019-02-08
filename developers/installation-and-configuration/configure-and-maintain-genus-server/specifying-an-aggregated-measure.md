@@ -14,39 +14,12 @@ Applies to fields of type **Function**.
 
 By default, an aggregate is recalculated when data are reloaded. You can however control when calculation occurs. An aggregate has two main calculation modes:
 
-<table style="WIDTH: 100%">
+| Calculation Mode | Description                                                                            |
+|------------------|----------------------------------------------------------------------------------------|
+| Manual           | Data are aggregated only when users request it by refreshing data in a form or table.  |
+| Automatic        | Data are aggregated when the value for a specific field in a data source is changed, or any value for an object in a data source is changed. |
 
-<tbody>
-
-<tr>
-
-<th>Calculation Mode</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>Manual</td>
-
-<td>Data are aggregated only when users request it by refreshing data in a form or table.</td>
-
-</tr>
-
-<tr>
-
-<td>Automatic</td>
-
-<td>Data are aggregated when the value for a specific field in a data source is changed, or any value for an object in a data source is changed.</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-To change the calculation mode, click **Calculation Options**. Click **Manual** if data should be aggregated only when users request it. Automatic calculation is defined by adding one or more calculation triggers which controls when data are aggregated. To add a calculation trigger, do the following:
+To change the calculation mode, click **Calculation Options**. Click **Manual** if data should be aggregated only when users request it. **Automatic** calculation is defined by adding one or more calculation triggers which controls when data are aggregated. To add a calculation trigger, do the following:
 
 1.  Click **Automatic if the value for any of these fields are changed**.
 2.  Click **Add**.
