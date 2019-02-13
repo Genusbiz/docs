@@ -4,7 +4,7 @@ Follow these steps to install Genus Services on your application server:
 
 **Step 1 - Obtain the Genus Services Installation Wizard**
 
-To begin the installation process, obtain the Genus Services Installation Wizard from your Genus partner. The wizard is an executable file named *GenusAppServicesSetup_\<BUILD_NO\>_\<VERSION\>_Release_\<RELEASE_DATE\>.exe*.
+To begin the installation process, obtain the Genus Services Installation Wizard from your Genus partner. The wizard is an executable file named *GenusAppServicesSetup_\<BUILD_NO\>\_\<VERSION\>\_Release\_\<RELEASE_DATE\>.exe*.
 
 Right-click the file and select **Properties**, then open the **Details** tab and make sure that the **File version** is as expected.
 
