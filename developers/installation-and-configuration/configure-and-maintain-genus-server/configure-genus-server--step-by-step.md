@@ -144,6 +144,8 @@ Metadata stored in the descriptive partition of the Directory can only be modifi
 
 If you do not want to use secure HTTP communication and a Web Server Certificate (see one of the previous steps), you must turn redirection to a secure connection off. To turn redirection to a secure connection off, in the **Tools** menu click **Options**. Uncheck **Redirect to Secure Connection** and click OK.
 
+If you have turned off secure HTTP communication, you may have to go to Internt Information Services (IIS) Manager and stop the "Default Web Site" before starting "Genus Services Web Site".
+
 ## Step 13 - Restart Genus Services
 
 [A restart of Genus services](../../defining-an-app-model/general-settings/restart-genus-app-services.md "Restart Genus Services") is required to make your changes take effect.
