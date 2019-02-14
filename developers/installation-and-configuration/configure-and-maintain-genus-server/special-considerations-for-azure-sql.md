@@ -6,6 +6,9 @@
 Prerequisite:
 * Make sure the database for the directory (e.g: g_dir) has two schemas for Active and Descriptive partition, e.g: _g_desc_ and _g_active_.
 
+> [!NOTE]
+> For Azure SQL Database Managed Instance, follow the standard procedures for Microsoft SQL Server. Vendor Version has to be set to "Microsoft SQL Server 2016".
+
 ## There are certain settings that should be adjusted in the Azure SQL installation in "Genus Configuration"
 * Specify "Microsoft SQL Server 2016 as the vendor version.
 * Include "Initial Catalog" in the connection string.
