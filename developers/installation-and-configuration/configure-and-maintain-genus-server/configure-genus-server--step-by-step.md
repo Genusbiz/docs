@@ -47,19 +47,19 @@ The Directory is split into two partitions: **Descriptive Partition** and **Acti
 
 ## Step 5 - Create logical databases
 
-Logical databases are used to define the location of database tables associated with Object Classes in Genus Directory. For each Data Set defined in your Directory, logical databases are associated with physical databases (see step 5 for more information about physical databases). For example, many ERP systems contains data for several companies. If the data are stored in different schemas or databases, you would create one logical database, for example "Financial Data", and for each Data Set associate the logical database with a different physical database.
+Logical databases are used to define the location of database tables associated with Object Classes in Genus Directory. For each Data Set defined in your Directory, logical databases are associated with physical databases (see step 6 for more information about physical databases). For example, many ERP systems contains data for several companies. If the data are stored in different schemas or databases, you would create one logical database, for example "Financial Data", and for each Data Set associate the logical database with a different physical database.
 
 It is also possible to define a logical database where data are shared between Data Sets, for example centralized code tables containing postal codes, countries, currencies etc.
 
 1.  Click the **Logical Databases** tab.
 2.  Click **Add...**
 3.  In the **Name** box, type a name for the database.
-4.  If data are shared between Data Sets, select the **Data in this logical database are shared between Data Sets** check box. In the **Physical Database** box, select a database (see step 5 for more information on how to define physical databases).
+4.  If data are shared between Data Sets, select the **Data in this logical database are shared between Data Sets** check box. In the **Physical Database** box, select a database (see step 6 for more information on how to define physical databases).
 5.  Click **OK**.
 
 ## Step 6 - Create physical databases
 
-A physical database is defined by a datalink and a database or schema, and is used to establish connection to your business data. As described in step 4, logical databases are associated with physical databases for each Data Set defined in your Directory.
+A physical database is defined by a datalink and a database or schema, and is used to establish connection to your business data. As described in step 5, logical databases are associated with physical databases for each Data Set defined in your Directory.
 
 1.  Click the **Physical Databases** tab.
 2.  Click **Add...**
