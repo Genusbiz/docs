@@ -435,6 +435,11 @@ We now handles null values when serializing JSON values.
 
 An error in the response data encoding algorithm applied by Genus Services has been corrected. Malformed responses would be returned as a result of Base64 response encoding or response compression, if enabled. When triggered in Genus Web Apps this may be experienced as client side timeouts or missing response data.
 
+<!--ID 21eaf2b1-108a-4344-8be5-9db4dcd46a99 -->
+**#23167 Analysis: Resolved an issue with subtraction operator** (Desktop;Web)
+
+If a formula defined in the analysis designer consisted of trailing subtractions, the output of the formula would be evaluated incorrect. For example: 100  50  25, would result in 75, instead of 25.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
