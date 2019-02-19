@@ -74,6 +74,11 @@ If the Automatic Refresh option was set for a report published on an object, the
 
 Fixed error when creating part objects in a sub task and copying them back to the master task
 
+<!--ID 21eaf2b1-108a-4344-8be5-9db4dcd46a99 -->
+**#23167 Analysis: Resolved an issue with subtraction operator** (Desktop;Web)
+
+If a formula defined in the analysis designer consisted of trailing subtractions, the output of the formula would be evaluated incorrect. For example: 100  50  25, would result in 75, instead of 25.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
