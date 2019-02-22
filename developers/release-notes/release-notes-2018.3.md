@@ -95,6 +95,11 @@ Made it possible to customize zoom settings for map. For more information : http
 
 Summary now has a new option under the heading "summary options"  called "display horizontally" and it does exactly that, instead of listing the selections in a list moving from top to bottom it is instead listed side by side left to right.
 
+<!--ID 09edb766-7197-4672-8121-bf67f69379d2 -->
+**#23168 Added new ribbom item to RTF field** (Desktop)
+
+Added insert table and insert picture ribbon items on the RTF control
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
