@@ -118,6 +118,11 @@ Fixed error when creating part objects in a sub task and copying them back to th
 
 If a formula defined in the analysis designer consisted of trailing subtractions, the output of the formula would be evaluated incorrect. For example: 100  50  25, would result in 75, instead of 25.
 
+<!--ID cb022e0f-3b31-4c32-9175-92469fcaba5d -->
+**#23169 Error in advanced lookup field** (Desktop)
+
+Fixed problem with advanced lookup field. The lookup list did not always popup
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
