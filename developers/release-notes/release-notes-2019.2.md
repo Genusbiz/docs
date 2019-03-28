@@ -59,6 +59,11 @@ There are no major new functionality in this release.
 
 It is now possible to specify the content type of both the root of multipart requests (typically multipart/form-data or multipart/mixed) and also for the individual parts og a multipart request.
 
+<!--ID a45c231a-3fbd-46ca-97f7-0ec8d1917a7b -->
+**#23172 Context menu closes on Escape and clicks** (Desktop)
+
+The context menu (right-click menu) now closes on Escape and clicks
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
