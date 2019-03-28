@@ -64,6 +64,11 @@ It is now possible to specify the content type of both the root of multipart req
 
 The context menu (right-click menu) now closes on Escape and clicks
 
+<!--ID 8bc8ea13-e641-4bfa-bf01-7114170c3a6e -->
+**#23173 Better handling of "The data mart has new data"** (Desktop)
+
+When  the data mart has new data, we load the new data and try to keep the current selection. A snackbar message notifies the user that "The Data Mart has been reloaded with new data".
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
