@@ -69,6 +69,16 @@ The context menu (right-click menu) now closes on Escape and clicks
 
 When  the data mart has new data, we load the new data and try to keep the current selection. A snackbar message notifies the user that "The Data Mart has been reloaded with new data".
 
+<!--ID 8c5a44d5-d72d-44e3-a761-ad4bdab73fff -->
+**#23174 Better handling of tile rendering errors** (Desktop;Studio)
+
+If tile rendering fails due to an unknown error, we only display "Rendering tile failed" on the tile, instead of showing a modal/dialog you have to close.
+
+<!--ID 25060f68-c16c-41e1-ba46-c03470799384 -->
+**#23175 Display a message if a bookmark has been deleted** (Desktop)
+
+A small message (snackbar) is shown to the user if he/she tries to open a bookmark that has been deleted (ie. does not exist).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
