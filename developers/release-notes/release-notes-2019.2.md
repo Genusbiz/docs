@@ -82,7 +82,11 @@ A small message (snackbar) is shown to the user if he/she tries to open a bookma
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
+<!--ID 64225008-5d3f-4724-98ad-209428a3aae7 -->
+**#23176 Removed option for creating formula in map layer values** (Studio)
+
+Formulas for maps are not currently supported, but it was still possible to define formulas in map layer values. This possibility is now removed
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
