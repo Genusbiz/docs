@@ -102,6 +102,31 @@ Modified the appearance of some dialogs to be more user-friendly.
 
 Fixed an issue where transposed table would not display values.
 
+<!--ID 9b958d69-d20e-419e-8947-db0b8b03943e -->
+**#23186 Summary** (Desktop;Web)
+
+Fixed an issue where NaN would be displayed as result, instead of the actual result.
+
+<!--ID 48bac3f7-5e8f-439f-aca2-8690ca3312c8 -->
+**#23187 Summary popup** (Desktop;Web)
+
+Fixed errors with summary popup that could result in the tile not displaying correctly.
+
+<!--ID 26f44e3f-2b00-4310-82d9-77c5c5316493 -->
+**#23188 Open Analysis** (Desktop;Web)
+
+Fixed issues that could lead to the current selection not being properly applied when switching between different analysis.
+
+<!--ID f67ef90b-51ac-4fb6-83ec-725fb17e64de -->
+**#23189 Theme** (Desktop;Web)
+
+Fixed an issue where the theme editor did not start properly, and modified the default theme
+
+<!--ID a6d056f7-6a20-4452-8286-3128ca5b955e -->
+**#23190 Variable Radius Pie** (Desktop;Web)
+
+Fixed an issue where when making an selection, the wrong item would be selected
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
