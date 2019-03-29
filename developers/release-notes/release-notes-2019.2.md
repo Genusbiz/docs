@@ -92,6 +92,16 @@ Formulas for maps are not currently supported, but it was still possible to defi
 
 Number format on formula value formulas are no longer cleared after editing formulas
 
+<!--ID a9b65be8-a1a9-4b28-95ce-3714f5d70a63 -->
+**#23184 Theme** (Desktop;Web)
+
+Modified the appearance of some dialogs to be more user-friendly.
+
+<!--ID 1ac7b1be-ffbc-42c8-8f4f-36d4f4931b4b -->
+**#23185 Transposed Table** (Desktop;Web)
+
+Fixed an issue where transposed table would not display values.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
