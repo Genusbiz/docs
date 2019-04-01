@@ -88,7 +88,7 @@ A small message (snackbar) is shown to the user if he/she tries to open a bookma
 Formulas for maps are not currently supported, but it was still possible to define formulas in map layer values. This possibility is now removed
 
 <!--ID ce936e01-3fe3-4010-a8dd-ae8db39d4670 -->
-**#23177 Bug fix: number format on formula value was cleared after editing formula** (Studio)
+**#23177 Number format on formula value was cleared after editing formula** (Studio)
 
 Number format on formula value formulas are no longer cleared after editing formulas
 
