@@ -79,6 +79,12 @@ If tile rendering fails due to an unknown error, we only display "Rendering tile
 
 A small message (snackbar) is shown to the user if he/she tries to open a bookmark that has been deleted (ie. does not exist).
 
+<!--ID 7ad63bbc-55f4-448b-953b-5d6c08cc3339 -->
+**#23180 Sunburst can now be downloaded as an image**
+
+<!--ID dcacd374-ea49-4137-a101-7609a5b6729d -->
+**#23181 Added option to show details for fields when adding them to the published fields of a data mart**
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -91,6 +97,18 @@ Formulas for maps are not currently supported, but it was still possible to defi
 **#23177 Number format on formula value was cleared after editing formula** (Studio)
 
 Number format on formula value formulas are no longer cleared after editing formulas
+
+<!--ID d7d65bbb-55ea-4d5f-9fe6-d21371b37330 -->
+**#23178 Resolved by reducing thread-locking when dumping call stacks on errors** (Desktop)
+
+<!--ID 23ab62a2-3f1a-4451-ac67-74cc89b55241 -->
+**#23179 Forced lower-case when specifying virtual directory for a dataset to avoid cookie-conflicts**
+
+<!--ID e653b8e1-46c5-4dd4-8829-9ed81e537085 -->
+**#23182 Fixed doble save as dialog when saving analysis**
+
+<!--ID 9d48a32a-1f59-4c2c-8a28-f9361fdbe26f -->
+**#23183 Fixed problem with escape key closing analysis window instead of popup or menu**
 
 <!--ID a9b65be8-a1a9-4b28-95ce-3714f5d70a63 -->
 **#23184 Theme** (Desktop;Web)
