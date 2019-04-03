@@ -85,6 +85,11 @@ A small message (snackbar) is shown to the user if he/she tries to open a bookma
 <!--ID dcacd374-ea49-4137-a101-7609a5b6729d -->
 **#23181 Added option to show details for fields when adding them to the published fields of a data mart**
 
+<!--ID 5a0b8cfb-2397-4867-8bc5-e3f6a4e9531d -->
+**#23194 Selections in Sankey** (Desktop;Web)
+
+It is now possible to do selections in Sankey
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -159,6 +164,19 @@ Clustering of points in point-layer and hotspot-layer should now work as expecte
 
 <!--ID b1acf31e-6d86-40a2-967c-920e3733db50 -->
 **#23193 Icons on points in pointlayer for map in analsysis now displayed correctly** (Desktop;Web)
+
+<!--ID 357a2c0e-924d-4995-b783-a98ad3a03a4e -->
+**#23195 Floor & Ceiling** (Desktop;Web)
+
+Fixed an issue where setting the floor equal to zero would cause the graph to display empty.
+
+<!--ID 66738bf0-8272-409c-a8a6-e6c8f07a4803 -->
+**#23196 Selector** (Desktop;Web)
+
+Redesign of how the selector works in terms of applying selections in the global scope.
+
+<!--ID 41bf5d6a-354c-4d76-a49b-faf6bc2e3231 -->
+**#23197 Fixed issue where "Open in new window" did not appear in the right-click/context menu** (Desktop;Web)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
