@@ -90,6 +90,9 @@ If a formula defined in the analysis designer consisted of trailing subtractions
 
 Fixed problem with advanced lookup field. The lookup list did not always popup
 
+<!--ID a306665a-8d17-4cae-b916-547856a643c7 -->
+**#23170 Fixed bug where values were not deleted correctly in some cases** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
