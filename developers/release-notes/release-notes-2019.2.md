@@ -90,6 +90,11 @@ A small message (snackbar) is shown to the user if he/she tries to open a bookma
 
 It is now possible to do selections in Sankey
 
+<!--ID 466467f3-8914-48f2-aa9e-0050f4504dbe -->
+**#23201 Handle special aggregation results in Discovery** (Desktop;Web)
+
+Handle the special aggregation results NaN (ie. no observations), NegInfinity and Infinity
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -187,6 +192,11 @@ Fixed an issue where limit would always be set to 1, even if the user modified t
 **#23199 Better error handling in Discovery** (Desktop;Web)
 
 Improved error handling in Discovery. If an unknown error occured, the user won't be presented with unnecessary, technical error information
+
+<!--ID a6a04adc-4b0e-47d9-bcf8-a59be5b6edc8 -->
+**#23200 Column total for formula with "zero if missing"** (Desktop;Web)
+
+Fixed an issue where a total aggregate (a sum) was not displayed for a column if any of the observations it was aggregating over was missing.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
