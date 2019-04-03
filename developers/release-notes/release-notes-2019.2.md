@@ -178,6 +178,16 @@ Redesign of how the selector works in terms of applying selections in the global
 <!--ID 41bf5d6a-354c-4d76-a49b-faf6bc2e3231 -->
 **#23197 Fixed issue where "Open in new window" did not appear in the right-click/context menu** (Desktop;Web)
 
+<!--ID 8a3d9c61-86b9-4e64-b5dd-8af040711b9c -->
+**#23198 Table** (Desktop;Web)
+
+Fixed an issue where limit would always be set to 1, even if the user modified the value.
+
+<!--ID 4ffc490c-cab5-44bd-8dca-97a3888009e4 -->
+**#23199 Better error handling in Discovery** (Desktop;Web)
+
+Improved error handling in Discovery. If an unknown error occured, the user won't be presented with unnecessary, technical error information
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
