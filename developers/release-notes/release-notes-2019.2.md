@@ -145,6 +145,21 @@ Fixed an issue where the theme editor did not start properly, and modified the d
 
 Fixed an issue where when making an selection, the wrong item would be selected
 
+<!--ID eca11c27-15d9-4937-b4d0-c8756cf066a8 -->
+**#23191 Improved hotspot- and heatmap-layer for maps in Analysis** (Desktop;Web)
+
+The map layers now supports using aggregated values for intensity (heatmap), and size and color (hotspot). 
+
+Heatmap now also supports filtering.
+
+<!--ID 26c34e2a-e11d-4cb1-9aa6-7dc5ea7e1390 -->
+**#23192 Clustering of points in maplayers now toggles correctly** (Desktop;Web)
+
+Clustering of points in point-layer and hotspot-layer should now work as expected.
+
+<!--ID b1acf31e-6d86-40a2-967c-920e3733db50 -->
+**#23193 Icons on points in pointlayer for map in analsysis now displayed correctly** (Desktop;Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
