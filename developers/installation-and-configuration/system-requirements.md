@@ -74,7 +74,7 @@ We do not recommend running Genus Services on the same server as your Relational
 
 Genus Services runs on the operating systems given below.
 
-Genus Apps 2018.2 or earlier:
+Genus Apps 2019.2 or earlier:
 * Windows Server 2016 (Server Core and Server with Desktop Experience)
 * Windows Server 2012 R2
 * Windows Server 2012
