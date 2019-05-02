@@ -19,6 +19,7 @@
           "**/*.gif",
           "**/*.png",
           "**/*.ico",
+          "**/*.pdf",
           "**/404redirect.html",
           "**/*.config"
         ],
