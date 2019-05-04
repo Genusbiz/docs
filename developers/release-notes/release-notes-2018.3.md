@@ -128,6 +128,11 @@ Fixed problem with advanced lookup field. The lookup list did not always popup
 
 In a form containing an RTF editor the object is marked as changed when the user browses through objects using the next/previous functionality. The save button is immediately enabled, and it is not possible to go to the next or previous object before the object is saved.
 
+<!--ID 9e3dc11f-9857-4490-85fe-6585f06b1540 -->
+**#23203 Data validation error for an object class property containing an RTF document not displayed correctl** (Desktop)
+
+If the data size is set for an object class property containing an RTF document, violation of the size is not displayed correctly by the RTF editor.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
