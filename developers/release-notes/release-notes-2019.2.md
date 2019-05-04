@@ -198,6 +198,11 @@ Improved error handling in Discovery. If an unknown error occured, the user won'
 
 Fixed an issue where a total aggregate (a sum) was not displayed for a column if any of the observations it was aggregating over was missing.
 
+<!--ID 4fd53f02-9523-47dd-884c-43f1a66ac005 -->
+**#23202 Browsing through objects in a form containing an RTF editor marks the objects as changed** (Desktop)
+
+In a form containing an RTF editor the object is marked as changed when the user browses through objects using the next/previous functionality. The save button is immediately enabled, and it is not possible to go to the next or previous object before the object is saved.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
