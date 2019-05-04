@@ -93,6 +93,11 @@ Fixed problem with advanced lookup field. The lookup list did not always popup
 <!--ID a306665a-8d17-4cae-b916-547856a643c7 -->
 **#23170 Fixed bug where values were not deleted correctly in some cases** (Web)
 
+<!--ID 4fd53f02-9523-47dd-884c-43f1a66ac005 -->
+**#23202 Browsing through objects in a form containing an RTF editor marks the objects as changed** (Desktop)
+
+In a form containing an RTF editor the object is marked as changed when the user browses through objects using the next/previous functionality. The save button is immediately enabled, and it is not possible to go to the next or previous object before the object is saved.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
