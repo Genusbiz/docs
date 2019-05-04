@@ -440,6 +440,11 @@ An error in the response data encoding algorithm applied by Genus Services has b
 
 If a formula defined in the analysis designer consisted of trailing subtractions, the output of the formula would be evaluated incorrect. For example: 100  50  25, would result in 75, instead of 25.
 
+<!--ID 9e3dc11f-9857-4490-85fe-6585f06b1540 -->
+**#23203 Data validation error for an object class property containing an RTF document not displayed correctl** (Desktop)
+
+If the data size is set for an object class property containing an RTF document, violation of the size is not displayed correctly by the RTF editor.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
