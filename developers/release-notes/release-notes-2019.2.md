@@ -95,6 +95,11 @@ It is now possible to do selections in Sankey
 
 Handle the special aggregation results NaN (ie. no observations), NegInfinity and Infinity
 
+<!--ID 499511ae-8939-410a-8596-348b0b54f9c5 -->
+**#23204 Subset added as option for mapping when opening tabls/forms/analysis** (Desktop;Web)
+
+Added subset as a new mapping-type when specifying what data should be transferred when opening forms/tables from an analysis.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
