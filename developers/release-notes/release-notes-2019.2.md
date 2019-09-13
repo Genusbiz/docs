@@ -100,6 +100,11 @@ Handle the special aggregation results NaN (ie. no observations), NegInfinity an
 
 Added subset as a new mapping-type when specifying what data should be transferred when opening forms/tables from an analysis.
 
+<!--ID 8e2d95d1-1721-43ba-a159-419e73284ff8 -->
+**#23207 Added option to specify custom content-type in Export to File effect** (Desktop;Services)
+
+To use this option, specify a value in Export to File effect -> Options -> Custom content-type. This option is only available if the effect exports data to Rest Response Body. In nothing specified here, the content-type is derived from the actual format of the exported data (as before).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
