@@ -105,6 +105,9 @@ Added subset as a new mapping-type when specifying what data should be transferr
 
 To use this option, specify a value in Export to File effect -> Options -> Custom content-type. This option is only available if the effect exports data to Rest Response Body. In nothing specified here, the content-type is derived from the actual format of the exported data (as before).
 
+<!--ID 6a02e15e-2185-40d9-89b3-c986476a992d -->
+**#23209 Added option for showing week number in datepicker for Genus Mobile** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
