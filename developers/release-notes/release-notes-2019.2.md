@@ -148,11 +148,6 @@ Fixed an issue where transposed table would not display values.
 
 Fixed an issue where NaN would be displayed as result, instead of the actual result.
 
-<!--ID 48bac3f7-5e8f-439f-aca2-8690ca3312c8 -->
-**#23187 Summary popup** (Desktop;Web)
-
-Fixed errors with summary popup that could result in the tile not displaying correctly.
-
 <!--ID 26f44e3f-2b00-4310-82d9-77c5c5316493 -->
 **#23188 Open Analysis** (Desktop;Web)
 
