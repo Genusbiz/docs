@@ -112,6 +112,11 @@ To use this option, specify a value in Export to File effect -> Options -> Custo
 <!--ID 6a02e15e-2185-40d9-89b3-c986476a992d -->
 **#23209 Added option for showing week number in datepicker for Genus Mobile** (Web)
 
+<!--ID 706f9879-4d8a-4ff7-9aa4-eb6b44ad3006 -->
+**#23212 Analyses - Pointlayer** (Desktop)
+
+Added new functionallity: Pointlayers can now be filtered on category subsets.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -219,6 +224,11 @@ In a form containing an RTF editor the object is marked as changed when the user
 **#23203 Data validation error for an object class property containing an RTF document not displayed correctl** (Desktop)
 
 If the data size is set for an object class property containing an RTF document, violation of the size is not displayed correctly by the RTF editor.
+
+<!--ID db3c4c53-e90c-481a-acd4-c202004d8e6e -->
+**#23211 Analyses - Category subsets** (Desktop)
+
+Fixed an issue which could have lead to invalid category filtering when applying multiple subsets.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
