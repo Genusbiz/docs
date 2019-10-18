@@ -67,6 +67,9 @@ There are no major new functionality in this release.
 
 Added insert table and insert picture ribbon items on the RTF control
 
+<!--ID 8e39167c-8612-49be-8b7c-fd27d7b458be -->
+**#23213 Added Sizegrip on form for Local Objects** (Desktop)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
