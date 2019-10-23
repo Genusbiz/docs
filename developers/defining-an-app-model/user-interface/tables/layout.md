@@ -60,14 +60,15 @@ A column can be one of the following types:
 
 The last three column types, Identifying Data, Repeated Data, and Summary Data, are only available for tables with a multidimensional layout. The examples below illustrates the different types of columns:
 
-### Example 1:
+### Example 1
 
 ![add-a-column-example-1.jpg](media/add-a-column-example-1.jpg)
 
-### Example 2:
+### Example 2
 
 ![add-a-column-example-2.jpg](media/add-a-column-example-2.jpg)
 
+### Column types
 
 Column Type                 | Description | To Add a Column of this Type
 ----------------------------|-------------|-----------------------------
