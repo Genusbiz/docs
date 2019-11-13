@@ -38,7 +38,7 @@ Data filters for data sources in forms, tables, or action orchestration often re
 
 ## Circular references
 
-To avoid complexity and performance degradation, circular references for selectsions within a data mart are not allowed. A circular reference exists if there are two or more paths for selections to propagate between two data sources. There are many different scenarios where this can occur, and similarly many approaches how to resolve the circular reference. Consider the following cases:
+To avoid complexity and performance degradation, circular references for selections within a data mart are not allowed. A circular reference exists if there are two or more paths for selections to propagate between two data sources. There are many different scenarios where this can occur, and similarly many approaches how to resolve the circular reference. Consider the following cases:
 
 | Example           | Possible solution |
 |-------------------|-------------------|
