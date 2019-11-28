@@ -31,7 +31,7 @@ When upgrading to 2017.4, the new Genus Launcher will be available.
 
 To be able to use this, you must:
 1. Uninstall Genus Desktop from "Programs and Features".
-2. Download and open Setup.exe from https://appserver-url/download/setup.exe
+2. Download and open Setup.exe from https://appserver-url/download/Setup.exe
 3. Find "Genus Desktop" in the new "Genus"-folder in the Start Menu. Right click and choose "Pin to Start" and/or "More | Pin to taskbar".
 4. Start Genus Desktop by using the Start Menu shortcut, the taskbar shortcut, your pre-existing shortcuts or by searching in the Start Menu.
 
