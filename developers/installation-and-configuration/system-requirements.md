@@ -34,7 +34,8 @@ Our desktop client runs on the following operating systems:
 * Windows 8.1 (64-bit)
 * Windows 8 (64-bit)
 * Windows 7 (64-bit)
-* Windows Server 2016
+* Windows Server 2019 (Server Core and Server with Desktop Experience)
+* Windows Server 2016 (Server Core and Server with Desktop Experience)
 * Windows Server 2012 R2
 * Windows Server 2012
 * Windows Server 2008 R2 SP1
