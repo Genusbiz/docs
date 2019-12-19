@@ -47,7 +47,7 @@ Our desktop client requires the following minimum version of the .NET Framework:
 
 Note that Genus Apps was named Genus App Platform prior to 2017.5.
 
-To download the required version of the .NET Framework, visit https://www.microsoft.com/net/download.
+To download the required version of the .NET Framework, visit https://dotnet.microsoft.com/download.
 
 Integration with Microsoft Office is supported for both 32-bit and 64-bit editions of Microsoft Office.
 
@@ -75,6 +75,7 @@ We do not recommend running Genus Services on the same server as your Relational
 Genus Services runs on the operating systems given below.
 
 Genus Apps 2019.2 or earlier:
+* Windows Server 2019 (Server Core and Server with Desktop Experience)
 * Windows Server 2016 (Server Core and Server with Desktop Experience)
 * Windows Server 2012 R2
 * Windows Server 2012
