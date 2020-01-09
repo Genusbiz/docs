@@ -58,4 +58,4 @@ To link to a heading within an article, use # before the heading name, replacing
 ```
 [App Model](terminology.md#app-model)
 ```
-Note that tab sheets are available in DocFX flavoured markdown. It is called [tabbed content](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-2%2Ctabid-b#tabbed-content). 
+Note that tab sheets are available in DocFX flavoured markdown. It is called [tabbed content](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-2%2Ctabid-b#tabbed-content).
