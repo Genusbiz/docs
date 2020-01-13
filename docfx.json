@@ -2,14 +2,8 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**.*md",
-          "**.*yml"
-        ],
-        "exclude": [
-          "_site/**",
-          "**/node_modules/**"
-        ]
+        "files": ["**.*md", "**.*yml"],
+        "exclude": ["_site/**", "**/node_modules/**"]
       }
     ],
     "resource": [
@@ -23,10 +17,7 @@
           "**/404redirect.html",
           "**/*.config"
         ],
-        "exclude": [
-          "_site/**",
-          "**/node_modules/**"
-        ]
+        "exclude": ["_site/**", "**/node_modules/**"]
       }
     ],
     "globalMetadata": {
@@ -52,10 +43,7 @@
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "default",
-      "_custom_templates/genus_template" //custom template overriding default template
-    ],
+    "template": ["default"],
     "postProcessors": ["ExtractSearchIndex"],
     "noLangKeyword": false,
     "sitemap": {
