@@ -196,8 +196,6 @@
       href: analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md
     - name: Advanced data marts
       href: analyze-report-and-discover/data-marts/advanced-data-marts.md
-  - name: Data extract
-    href: analyze-report-and-discover/data-extract.md
   - name: Report
     href: analyze-report-and-discover/report/index.md
     items:
