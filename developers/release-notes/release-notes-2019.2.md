@@ -237,6 +237,11 @@ If the data size is set for an object class property containing an RTF document,
 
 Fixed an issue which could have lead to invalid category filtering when applying multiple subsets.
 
+<!--ID 7358410a-fef4-4b73-9551-5bf707b276ec -->
+**#23219 Fixed incorrect handling of values in IntegerDateEdit** (Desktop)
+
+The field's date was not used when displaying date picker and was not displayed after value was selected in date picker.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
