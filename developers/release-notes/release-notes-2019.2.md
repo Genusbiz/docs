@@ -27,13 +27,6 @@ There are currently no critical issues in this release.
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
-See also the following notes.
-
-<!--ID 58a74f02-c6f0-42f4-8f87-266d83dc4414 -->
-**#23223 test2**
-
-test2
-
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
