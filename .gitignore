@@ -6,6 +6,7 @@ _site
 .vscode
 node_modules
 obj
+.env
 
 # Ignore MS Office backup/temp files (starting with the 2 chars ~ and $)
 **/~$*

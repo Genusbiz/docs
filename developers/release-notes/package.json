@@ -13,6 +13,8 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@azure/identity": "^1.0.2",
+    "@azure/keyvault-secrets": "^4.0.2",
     "atob": "^2.1.1",
     "fs": "0.0.1-security",
     "moment": "^2.22.1",
