@@ -242,9 +242,6 @@ Fixed an issue which could have lead to invalid category filtering when applying
 
 The field's date was not used when displaying date picker and was not displayed after value was selected in date picker.
 
-<!--ID 291a6bd2-17db-41c3-a195-7cb64c40a8d1 -->
-**#23221 Test**
-
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
