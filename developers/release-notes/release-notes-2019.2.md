@@ -131,16 +131,16 @@ Back in August 2019 Microsoft released Security Advisory ADV190023 (see https://
 
 In response to this security advisory Genus now introduces new security settings to strengthen LDAP security, complying to previous Microsoft recommendations and preparing for future Microsoft security update(s) later in 2020. The following appSettings keys have been introduced:
 
-* **DirectoryContext:LdapAuthenticationType**: Allows the administrator to specify what authenticaion security flags Genus should apply when acting as an LDAP client. The value is specified on the form "*Flag1* | *Flag2* | *...* | *FlagN*", where each flag is one of the values in of the .NET Framework enum type [**System.DirectoryServices.AuthenticationTypes**](https://docs.microsoft.com/en-us/dotnet/api/system.directoryservices.authenticationtypes). Please note that the **Encryption** (or **SecureSocketsLayer**, which is simply an alias for Encryption) is not possible to combine with **Signing** and **Sealing**. If you do not specify any flags Genus will default to "Secure | ReadonlyServer". The following examples are recommended alternatives that should be added to the `appSettings` section of `appSettingsOverrides.config`, located at `%ProgramFiles%\Genus\Server\wwwroot`:
+* **DirectoryContext:LdapAuthenticationType**: Allows the administrator to specify what authenticaion security flags that should be applied by Genus when acting as an LDAP client. The value is specified on the form "*Flag1* | *Flag2* | *...* | *FlagN*", where each flag is one of the values in the .NET Framework enum type [**System.DirectoryServices.AuthenticationTypes**](https://docs.microsoft.com/en-us/dotnet/api/system.directoryservices.authenticationtypes) and the bar character ("|") performs a *bitwise or* operation between these values. Please note that the **Encryption** (or **SecureSocketsLayer**, which is simply an alias for Encryption) is not possible to combine with **Signing** and **Sealing**. If you do not specify any flags Genus will default to "Secure | ReadonlyServer". The following examples are recommended alternatives that should be added to the `appSettings` section of `appSettingsOverrides.config`, located at `%ProgramFiles%\Genus\Server\wwwroot`:
 
    ```
-   <add key="DirectoryContext:LdapAuthenticationType" value="Secure | ReadonlyServer | Encryption" />
+   <add key="DirectoryContext:LdapAuthenticationType" value="Secure|ReadonlyServer|Encryption" />
    ```
 
    or
 
    ```
-   <add key="DirectoryContext:LdapAuthenticationType" value="Secure | ReadonlyServer | Signing | Sealing" />
+   <add key="DirectoryContext:LdapAuthenticationType" value="Secure|ReadonlyServer|Signing|Sealing" />
    ``` 
 
 * **AuthenticationService:LdapEnforceLookup**: By default the Genus authentication service will try to avoid performing unnecessary LDAP queries during the authentication process. You may override this behavior by specifying
