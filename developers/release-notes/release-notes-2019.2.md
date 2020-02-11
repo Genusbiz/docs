@@ -134,19 +134,19 @@ In response to this security advisory Genus now introduces new security settings
 * **DirectoryContext:LdapAuthenticationType**: Allows the administrator to specify what authenticaion security flags Genus should apply when acting as an LDAP client. The value is specified on the form "*Flag1* | *Flag2* | *...* | *FlagN*", where each flag is one of the values in of the .NET Framework enum type [**System.DirectoryServices.AuthenticationTypes**](https://docs.microsoft.com/en-us/dotnet/api/system.directoryservices.authenticationtypes). Please note that the **Encryption** (or **SecureSocketsLayer**, which is simply an alias for Encryption) is not possible to combine with **Signing** and **Sealing**. If you do not specify any flags Genus will default to "Secure | ReadonlyServer". The following examples are recommended alternatives that should be added to the `appSettings` section of `appSettingsOverrides.config`, located at `%ProgramFiles%\Genus\Server\wwwroot`:
 
    ```
-   <add key="DirectoryContext:LdapAuthenticationType" value ="Secure | ReadonlyServer | Signing | Sealing" />
+   <add key="DirectoryContext:LdapAuthenticationType" value="Secure | ReadonlyServer | Encryption" />
    ```
 
    or
 
    ```
-   <add key="DirectoryContext:AuthenticationType" value ="Secure | ReadonlyServer | Encryption" />
+   <add key="DirectoryContext:LdapAuthenticationType" value="Secure | ReadonlyServer | Signing | Sealing" />
    ``` 
 
 * **AuthenticationService:LdapEnforceLookup**: By default the Genus authentication service will try to avoid performing unnecessary LDAP queries during the authentication process. You may override this behavior by specifying
 
    ```
-   <add key="AuthenticationService:LdapEnforceLookup" value ="true" />
+   <add key="AuthenticationService:LdapEnforceLookup" value="true" />
    ```
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
