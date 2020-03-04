@@ -25,5 +25,4 @@ Important information:
 *   License files are traceable to the source (by reading the customer name inside the XML file) and is not to be distributed outside the owner's environment.
 *   Lost or misplaced license files may be blacklisted by Genus AS. Blacklisted license files will not be usable, i.e. your Genus Apps will not start. So keep your Genus License files private to your organization.
 *   We recommend saving a copy of your license file in a safe location (other than your Genus Services application server).
-*   License files are not required and not used for Genus releases prior to 2014.1\.
 *   The license file must be installed on all your Genus Services application servers following the simple procedure below. This includes any development and test environments or similar.
