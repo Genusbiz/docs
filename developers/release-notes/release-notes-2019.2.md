@@ -267,6 +267,9 @@ Fixed an issue which could have lead to invalid category filtering when applying
 
 The field's date was not used when displaying date picker and was not displayed after value was selected in date picker.
 
+<!--ID 462fd095-0318-463f-94c9-0ae81587d958 -->
+**#23225 Fixed error when opening two email windows in sequence.** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
