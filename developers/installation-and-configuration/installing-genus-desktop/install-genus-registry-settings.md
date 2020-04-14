@@ -83,25 +83,37 @@ Windows Registry Editor Version 5.00
 @="\"C:\\Users\\MYUSER\\AppData\\Local\\GenusLauncher\\GenusLauncher.exe\" \"%1\""
 ```
 
-## Additional Group Policy settings improving Microsoft Office integration
+## Additional Group Policy settings improving integration with Microsoft Office, Microsoft Edge, and Google Chrome
 
-We recommend that the system administrator should deploy the following Group Policy registry settings in order to provide a better user experience when clicking links using the "genuslink" or the "genusstudiolink" from Microsoft Office products, e.g. Microsoft Outlook. The standard Genus Desktop installer will check if the user is capable of running elevated with administrative privileges. If this is the case the installer will try to add these settings during installation. In order to prevent the need for elevation we recommend that the system administrator deploys these Group Policy settings administratively.
+We recommend that the system administrator should deploy the following Group Policy registry settings in order to provide a better user experience when clicking links using the "genuslink" or the "genusstudiolink" from commonly used desktop apps, including Microsoft Office products (e.g. Microsoft Outlook), Microsoft Edge, and Google Chrome. The standard Genus Desktop installer will check if the user is capable of running elevated with administrative privileges. If this is the case the installer will try to add these settings during installation. In order to prevent the need for elevation we recommend that the system administrator rather deploys corresponding Group Policy settings administratively.
 
-_In the following example the placeholder **```v.0```** represents the version number of the currently installed version of Microsoft Office. E.g. for Microsoft Office 2016 this version number is **```16.0```**. Please not that this is a per-user setting only and there exists no HKEY\_LOCAL\_MACHINE counterpart._
+Please note that the Microsoft Edge and Google Chrome registry settings are automatically installed only with the Genus Desktop installer (GenusLauncher.exe) version 19.2.12 or higher.
+
+_In the following example the placeholder **```v.0```** represents the version number of the currently installed version of Microsoft Office. E.g. for Microsoft Office 365 and  Microsoft Office 2016 this version number is **```16.0```**. Please not that this is a per-user setting only and there exists no HKEY\_LOCAL\_MACHINE counterpart._
 
 ```ini
 Windows Registry Editor Version 5.00
 
 ##############################################################
-# Microsoft Office (including Microsoft Outlook) shows a 
-# warning message each time a link with a custom protocol is 
-# clicked. To prevent this annoying message Microsoft provides
-# a registry key that may be added per Office version and
-# protocol. See http://support.microsoft.com/kb/925757 for
-# details. Remember to replace "v.0" below. Please note that
-# this is only a HKEY_CURRENT_USER setting. Trying to make
-# this a global setting by changing to HKEY_LOCAL_MACHINE
+# Microsoft Office (including Microsoft Outlook), Microsoft 
+# Edge, and Google Chrome shows a warning message each time a 
+# link with a custom protocol is clicked. To prevent this
+# message Microsoft and Google provides registry settings that
+# may be added per Office version or Web browser and the URL
+# protocol. 
+#
+# For more information on Microsoft Office policy settings, see
+# https://support.microsoft.com/kb/925757 for details. Remember
+# to replace "v.0" below. Please note that this is only a 
+# HKEY_CURRENT_USER setting. Trying to make this a global
+# setting by changing to HKEY_LOCAL_MACHINE
 # will have no effect.
+#
+# For more information on Microsoft Edge policy settings, see
+# https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#urlallowlist
+#
+# For more information on Google Chrome policy settings, see
+# https://cloud.google.com/docs/chrome-enterprise/policies/?policy=URLWhitelist
 ##############################################################
 
 # Replace "v.0" in the following with the actual Microsoft Office version, e.g. "16.0" for Microsoft Office 2016.
@@ -109,6 +121,16 @@ Windows Registry Editor Version 5.00
 
 # Replace "v.0" in the following with the actual Microsoft Office version, e.g. "16.0" for Microsoft Office 2016.
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\v.0\Common\Security\Trusted Protocols\All Applications\genusstudiolink:]
+
+# If "1" or "2" below is already in use, replace with any available unique numeric name.
+[HKEY_CURRENT_USER\Software\Policies\Google\Chrome\URLWhitelist]
+"1"="genuslink:*"
+"2"="genusstudiolink:*"
+
+# If "1" or "2" below is already in use, replace with any available unique numeric name.
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Edge\URLAllowlist]
+"1"="genuslink:*"
+"2"="genusstudiolink:*"
 ```
 
 ## Enable or disable automatic client updates
