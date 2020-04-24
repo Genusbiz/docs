@@ -89,38 +89,38 @@ We recommend that the system administrator should deploy the following Group Pol
 
 Please note that the Microsoft Edge and Google Chrome registry settings are automatically installed only with the Genus Desktop installer (GenusLauncher.exe) version 19.2.12 or higher.
 
-_In the following example the placeholder **```v.0```** represents the version number of the currently installed version of Microsoft Office. E.g. for Microsoft Office 365 and  Microsoft Office 2016 this version number is **```16.0```**. Please not that this is a per-user setting only and there exists no HKEY\_LOCAL\_MACHINE counterpart._
+_In the following example the placeholder **```xx.0```** represents the version number of the currently installed version of Microsoft Office. E.g. for Microsoft Office 365 and  Microsoft Office 2016 this version number is **```16.0```**. Please not that this is a per-user setting only and there exists no HKEY\_LOCAL\_MACHINE counterpart._
 
 ```ini
 Windows Registry Editor Version 5.00
 
-##############################################################
-# Microsoft Office (including Microsoft Outlook), Microsoft 
-# Edge, and Google Chrome shows a warning message each time a 
-# link with a custom protocol is clicked. To prevent this
-# message Microsoft and Google provides registry settings that
-# may be added per Office version or Web browser and the URL
+################################################################################
+# Microsoft Office (including Microsoft Outlook), Microsoft Edge, and Google
+# Chrome shows a warning message each time a link with a custom protocol is 
+# clicked. To prevent this message Microsoft and Google provides registry 
+# settings that may be added per Office version or Web browser and the URL
 # protocol. 
 #
 # For more information on Microsoft Office policy settings, see
-# https://support.microsoft.com/kb/925757 for details. Remember
-# to replace "v.0" below. Please note that this is only a 
-# HKEY_CURRENT_USER setting. Trying to make this a global
-# setting by changing to HKEY_LOCAL_MACHINE
+# https://support.microsoft.com/kb/925757 for details. Remember # to replace 
+# "xx.0" below. Please note that this is only a HKEY_CURRENT_USER setting. 
+# Attempting to make this a global setting by changing to HKEY_LOCAL_MACHINE 
 # will have no effect.
 #
 # For more information on Microsoft Edge policy settings, see
 # https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#urlallowlist
+# You *may* replace HKEY_CURRENT_USER with HKEY_LOCAL_MACHINE for this setting.
 #
 # For more information on Google Chrome policy settings, see
 # https://cloud.google.com/docs/chrome-enterprise/policies/?policy=URLWhitelist
-##############################################################
+# You *may* replace HKEY_CURRENT_USER with HKEY_LOCAL_MACHINE for this setting.
+################################################################################
 
-# Replace "v.0" in the following with the actual Microsoft Office version, e.g. "16.0" for Microsoft Office 2016.
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\v.0\Common\Security\Trusted Protocols\All Applications\genuslink:]
+# Replace "xx.0" in the following with the actual Microsoft Office version, e.g. "16.0" for Microsoft Office 2016.
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\xx.0\Common\Security\Trusted Protocols\All Applications\genuslink:]
 
-# Replace "v.0" in the following with the actual Microsoft Office version, e.g. "16.0" for Microsoft Office 2016.
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\v.0\Common\Security\Trusted Protocols\All Applications\genusstudiolink:]
+# Replace "xx.0" in the following with the actual Microsoft Office version, e.g. "16.0" for Microsoft Office 2016.
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\xx.0\Common\Security\Trusted Protocols\All Applications\genusstudiolink:]
 
 # If "1" or "2" below is already in use, replace with any available unique numeric name.
 [HKEY_CURRENT_USER\Software\Policies\Google\Chrome\URLWhitelist]
