@@ -270,6 +270,9 @@ The field's date was not used when displaying date picker and was not displayed 
 <!--ID 462fd095-0318-463f-94c9-0ae81587d958 -->
 **#23225 Fixed error when opening two email windows in sequence.** (Desktop)
 
+<!--ID 31dffc3f-5056-46f5-aa1e-226fcb0b7a47 -->
+**#23228 Prevent losing Category objects from Split by Category when toggling fullscreen** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
