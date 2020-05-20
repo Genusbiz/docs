@@ -149,6 +149,11 @@ In response to this security advisory Genus now introduces new security settings
    <add key="AuthenticationService:LdapEnforceLookup" value="true" />
    ```
 
+<!--ID b3a4412f-5087-42ea-b181-115eae4dc828 -->
+**#23229 Prevent more than one value being grouped by Split by Category** (Desktop)
+
+Can no longer define more than one value to be grouped by Split by Category in Analysis Designer. This introduces the concept of "Values not split by Category" for some tiles (i.e. all Column & Line types). In such existing tiles with two categories, all but one Value will now only be grouped by the primary Category.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
