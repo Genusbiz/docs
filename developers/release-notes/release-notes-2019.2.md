@@ -262,6 +262,11 @@ In a form containing an RTF editor the object is marked as changed when the user
 
 If the data size is set for an object class property containing an RTF document, violation of the size is not displayed correctly by the RTF editor.
 
+<!--ID 961d0ee6-4550-4270-9854-24451cf2e377 -->
+**#23208 Fixed problems with search in Advanced Lookup Field** (Desktop)
+
+Fixed error where search was not performed when user removed from search text using backspace and also problem that caused the search text to be cleared after the initial search.
+
 <!--ID db3c4c53-e90c-481a-acd4-c202004d8e6e -->
 **#23211 Analyses - Category subsets** (Desktop)
 
@@ -283,11 +288,7 @@ The field's date was not used when displaying date picker and was not displayed 
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 961d0ee6-4550-4270-9854-24451cf2e377 -->
-**#23208 Fixed problems with search in Advanced Lookup Field** (Desktop)
-
-Fixed error where search was not performed when user removed from search text using backspace and also problem that caused the search text to be cleared after the initial search.
-
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
