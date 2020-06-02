@@ -7,7 +7,7 @@ author: jtroset
 Learn how to use Genus Apps to quickly create, deploy and change customized software solutions. The articles describe how to use this no-code/low-code development tool to build and use line-of-business software solutions.
 
 > [!NOTE]
-> The **Search** box on these pages doesn't work on Windows 10 until the search index has been loaded, which takes 5-10 seconds. Alternatively, google "[site:docs.genus.no _yoursearchterm_](https://www.google.no/search?q=site%3Adocs.genus.no+yoursearchterm)" .
+> The **Search** box on these pages doesn't work on Windows 10 until the search index has been loaded, which takes 5-10 seconds. Alternatively, google "[site:docs.genus.no _yoursearchterm_](https://www.google.no/search?q=site%3Adocs.genus.no+yoursearchterm)".
 
 ## Developers
 * [Overview](developers/overview/index.md)
