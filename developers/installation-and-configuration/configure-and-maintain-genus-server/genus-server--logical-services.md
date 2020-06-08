@@ -8,7 +8,9 @@ Genus Services is composed of a number of logical services at that are either da
 
 *   This service provides server-based e-mail, and is used when server-side [actions](../../defining-an-app-model/logic/action-orchestration/actions/index.md) submits e-mail using SMTP.
 *   Enable this service in order to send e-mails from server-side actions.
+*   The service accepts any generic SMTP-server. The application can be authenticated anonymously or using username and password, and allows communicating using SSL/TLS-encryption.
 *   Settings for the mail service can be found in [general settings](../../defining-an-app-model/general-settings/index.md).
+
 
 ## Data Set Dependent Services
 
