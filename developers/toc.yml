@@ -308,8 +308,6 @@
             href: defining-an-app-model/logic/action-orchestration/actions/effects/print-objects.md
           - name: Read Objects
             href: defining-an-app-model/logic/action-orchestration/actions/effects/read-objects.md
-          - name: Run a Data Extract
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-data-extract.md
           - name: Run a Program
             href: defining-an-app-model/logic/action-orchestration/actions/effects/run-a-program.md
           - name: Run a Task

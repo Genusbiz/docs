@@ -1,6 +1,6 @@
 # Data marts
 
-The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. An app model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through [Analyses](../analysis/index.md) and [Data Extracts](../data-extract.md).
+The main idea of the data mart is to simplify access to enterprise data, for different purposes and users, by reducing data complexity and volume. An app model will typically have several data marts, each of which serves a specific and focused purpose for a group of users, through [Analyses](../analysis/index.md).
 
 The data mart reduces the data volume by defining a subset of all the data available in your solution. Only the data sources and fields that are relevant to the purpose of the data mart are added. For example; in a data mart focusing on sales we add data sources for sales representatives, product hierarchies, and actual sales with fields like names, amounts and dates. In addition, data filters are defined for the data sources to include only data that is relevant. For example; only sales for the last 12 months for a specific product category.
 

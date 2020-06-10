@@ -166,6 +166,8 @@
         href: analyze-report-and-discover/analysis/designer/formula-designer.md
       - name: Settings
         href: analyze-report-and-discover/analysis/designer/settings.md 
+    - name: Improving performance
+      href: analyze-report-and-discover/analysis/improving-analysis-performance.md
     - name: Advanced analysis
       href: analyze-report-and-discover/analysis/advanced-analysis.md
     - name: Office Add-ins
@@ -194,6 +196,8 @@
       href: analyze-report-and-discover/data-marts/data-mart-loading.md
     - name: Problem solving
       href: analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md
+    - name: Improving performance
+      href: analyze-report-and-discover/data-marts/improving-data-mart-performance.md
     - name: Advanced data marts
       href: analyze-report-and-discover/data-marts/advanced-data-marts.md
   - name: Report
