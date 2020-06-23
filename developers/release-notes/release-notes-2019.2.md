@@ -55,6 +55,14 @@ This section lists important changes introduced in this release. You will need t
 
 Modified permissions required to list analyses on web. In order for an analysis to show on web, we now require both FindAndList & ReadAndExecute.
 
+<!--ID a75731f5-c5a7-4029-b0af-7ba954890f9f -->
+**#23230 Line charts with a single category may lose some values** (Desktop)
+
+Prior to this release, only the Lines chart had the possibility to group values by "Values" vs "Values not split by Category". 
+It was possible to add values to the "Values" group even when no "Split by Category" was defined.
+This was not supposed to be the case, so after this release, only the "Values not split by Category" group is available when only a single category is defined.
+For Line charts with a single category, all values not defined in the "Values not split by Category" group will therefore now be gone.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
