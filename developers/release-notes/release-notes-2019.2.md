@@ -298,6 +298,11 @@ The field's date was not used when displaying date picker and was not displayed 
 <!--ID 31dffc3f-5056-46f5-aa1e-226fcb0b7a47 -->
 **#23228 Prevent losing Category objects from Split by Category when toggling fullscreen** (Desktop)
 
+<!--ID e5d0ffda-012f-43ec-922f-cbfdd331f7df -->
+**#23231 Line chart no longer lose values**
+
+As described in an earlier release note, some Line charts would lose some values after a recent release. This is no longer the case.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
