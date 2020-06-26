@@ -95,6 +95,7 @@ If an Object Class is part of a [composition](../../../../installation-and-confi
 4.  In the section **Auditing**, select the **Enabling auditing** check box.
 5.  Choose which events you want to track in the Event History. If the event should be tracked for all objects, click the **Mandatory** check box. To allow users to [select if the event should be tracked for individual objects](../../../../../users/navigate-view-modify-and-control/working-in-forms/advanced/view-history.md "Modify Auditing for an Object"), click the **Optional** check box. Note that the events **Create** and **Delete** not can be omitted from the Event History when auditing is activated. To disable auditing for an event, click the **Never** check box.
 
+If auditing of _read_ events is enabled you also have to select the **Enable Read Audit Trail** checkbox of the data source in the form or task that you want to audit. This setting is set to false by default. When working with commit scopes in tasks, agents, rules, i.e. it is also possible to prevent auditing of the committed changes of the objects by selecting the **Disable Audit Trail** checkbox under the scope settings.
 
 
 ## Advanced Auditing Options
