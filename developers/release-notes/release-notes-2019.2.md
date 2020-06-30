@@ -169,6 +169,11 @@ In response to the original security advisory Genus has introduced new security 
 
 Can no longer define more than one value to be grouped by Split by Category in Analysis Designer. This introduces the concept of "Values not split by Category" for some tiles (i.e. all Column & Line types). In such existing tiles with two categories, all but one Value will now only be grouped by the primary Category.
 
+<!--ID 914fe07c-46b6-49ae-92ce-24a1a0af38d1 -->
+**#23232 Multiple datasets in separate databases in azure is supported** (Desktop)
+
+There is still a problem with keeping data in separate databases in azure. This is related to the location of the account-table. Search in audit trail is therefore limited in multi-database azure solutions.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
