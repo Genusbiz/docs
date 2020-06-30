@@ -313,7 +313,9 @@ As described in an earlier release note, some Line charts would lose some values
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no known issues in this release.
+<!--ID 82f3c111-175a-45ca-b57c-814418786998 -->
+**#23233 Fixed error that randomly caused window to crash during initialization** (Desktop;Studio)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
