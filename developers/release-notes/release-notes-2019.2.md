@@ -308,6 +308,11 @@ The field's date was not used when displaying date picker and was not displayed 
 
 As described in an earlier release note, some Line charts would lose some values after a recent release. This is no longer the case.
 
+<!--ID f3a13756-e463-45db-8390-7085f1eb0aaf -->
+**#23234 Open a form from Context working again in Dashboard** (Desktop)
+
+Opening a form from a Dashboard through "Context" no longer gives a "Selection is empty" error.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
