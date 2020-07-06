@@ -323,6 +323,11 @@ Occurs when switching between a form with a visible contextual tab in the main w
 
 Effects such as *Show a Confirmation Message* and *Show a Message*, are not displayed if executed immediately after an *Invoke a File* effect when the option *Wait until the file is closed* is selected.
 
+<!--ID 7cb133e7-5e86-4f0b-8061-c13829e7bb61 -->
+**#23237 Genus terminates with an error when collapsing a group in a multidimensional table** (Desktop)
+
+Occurs if a cell within a group is selected when the group is collapsed.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
