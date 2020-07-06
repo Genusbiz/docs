@@ -313,6 +313,11 @@ As described in an earlier release note, some Line charts would lose some values
 
 Opening a form from a Dashboard through "Context" no longer gives a "Selection is empty" error.
 
+<!--ID 9a72bcdb-dd1d-426b-99a5-7423b969b8e8 -->
+**#23235 Duplicate contextual tabs in ribbon** (Desktop)
+
+Occurs when switching between a form with a visible contextual tab in the main window to another form or table by clicking on a shortcut. When switching back to the form, the contextual tab is duplicated.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
