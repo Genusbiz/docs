@@ -1,6 +1,6 @@
 # Genus Services User Authentication
 
-There exist two user authentication methods: **Custom Authentication** and **Active Directory Authentication**.
+There exist three user authentication methods: **Custom Authentication**, **Active Directory Authentication** and **ID-porten**.
 
 ## Custom User Authentication
 
@@ -20,3 +20,8 @@ Active Directory Authentication makes it possible for users to log on automatica
 The Genus Services application server must always be a member of the Active Directory Domain which is to be used for authentication. If the Genus Services application server is not a member of the Active Directory Domain, Custom Authentication must be used. This will typically be the situation if you Genus Services application server is located in a DMZ.
 
 If the Genus desktop client applications are not a part of an Active Directory Domain, or not part of the same Active Directory Domain as the Genus Services application server, you can still use Active Directory Authentication. This, however, will always cause the users to be presented with a password dialog when they log on.
+
+
+## ID-porten (ID Portal) User Authentication
+
+ID-porten is a Norwegian authentication service used by national e-services.
