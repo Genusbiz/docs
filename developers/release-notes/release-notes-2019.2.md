@@ -318,6 +318,11 @@ Opening a form from a Dashboard through "Context" no longer gives a "Selection i
 
 Occurs when switching between a form with a visible contextual tab in the main window to another form or table by clicking on a shortcut. When switching back to the form, the contextual tab is duplicated.
 
+<!--ID 456df900-6fc2-4a21-976a-9119479f273c -->
+**#23236 Modal messages not displayed after executing "Invoke a File" effect.** (Desktop)
+
+Effects such as *Show a Confirmation Message* and *Show a Message*, are not displayed if executed immediately after an *Invoke a File* effect when the option *Wait until the file is closed* is selected.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
