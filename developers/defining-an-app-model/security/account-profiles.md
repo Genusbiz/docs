@@ -2,7 +2,7 @@
 
 When adding user accounts, you have to select an account profile for the user. The profile describes the account policies for users, and optionally a description on how to associate a user with a business object, such as an employee or a customer.
 
-If users are authenticated by Microsoft Active Directory, the account policies are determined by Active Directory. Genus Apps provides two mechanisms for user authentication: [Custom authentication and Active Directory authentication](../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus Services User Authentication"). How users are authenticated is defined in [Genus Services Configuration](../../installation-and-configuration/configure-and-maintain-genus-server/index.md).
+If users are authenticated by Microsoft Active Directory, the account policies are determined by Active Directory. Genus provides several mechanisms for user authentication: [Custom authentication and Active Directory authentication](../logic/action-orchestration/actions/effects/genus-app-services-user-authentication.md "Genus Services User Authentication"). How users are authenticated is defined in [Genus Services Configuration](../../installation-and-configuration/configure-and-maintain-genus-server/index.md).
 
 
 ## Add an Account Profile
