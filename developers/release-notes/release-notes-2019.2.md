@@ -333,6 +333,9 @@ Occurs if a cell within a group is selected when the group is collapsed.
 
 Values sorted in alphabetical order and not logical order. Values are now sorted by date.
 
+<!--ID 5002692b-9e46-45a2-abe6-31ff319bd53d -->
+**#23239 Genus terminates with an error on right-click in the action flow diagram** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
