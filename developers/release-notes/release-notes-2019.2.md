@@ -328,6 +328,11 @@ Effects such as *Show a Confirmation Message* and *Show a Message*, are not disp
 
 Occurs if a cell within a group is selected when the group is collapsed.
 
+<!--ID 599d0ff6-7683-4672-be10-0d33a9e630a7 -->
+**#23238 Values for time dimensions sorted in alphabetical order in the column filter drop down in tables** (Desktop)
+
+Values sorted in alphabetical order and not logical order. Values are now sorted by date.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
