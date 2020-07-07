@@ -336,6 +336,11 @@ Values sorted in alphabetical order and not logical order. Values are now sorted
 <!--ID 5002692b-9e46-45a2-abe6-31ff319bd53d -->
 **#23239 Genus terminates with an error on right-click in the action flow diagram** (Studio)
 
+<!--ID 6138a4ba-3b34-4800-b1db-e2922ecfd8ea -->
+**#23240 Not possible to unhide search groups for an object class** (Studio)
+
+If a group (1:N property) previously was hidden in the search setup fro an object class, it is not possible to unhide the group at a later point.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
