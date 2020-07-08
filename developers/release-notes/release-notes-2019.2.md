@@ -341,6 +341,11 @@ Values sorted in alphabetical order and not logical order. Values are now sorted
 
 If a group (1:N property) previously was hidden in the search setup fro an object class, it is not possible to unhide the group at a later point.
 
+<!--ID 37abb71d-afda-49ec-9ee9-c21f7337b015 -->
+**#23241 Font size for label ignored for input fields in forms** (Desktop)
+
+Occurs if a control, such as a text edit, is placed on the second or any succeeding tab sheet.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
