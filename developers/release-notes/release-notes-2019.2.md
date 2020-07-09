@@ -346,6 +346,11 @@ If a group (1:N property) previously was hidden in the search setup fro an objec
 
 Occurs if a control, such as a text edit, is placed on the second or any succeeding tab sheet.
 
+<!--ID 75675874-ab3e-411c-846c-7deaaa05a3e6 -->
+**#23242 Paste security on local tasks in a form does not paste security to all selected tasks** (Studio)
+
+Security pasted to the first selected task.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
