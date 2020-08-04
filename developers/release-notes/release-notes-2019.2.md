@@ -356,6 +356,11 @@ Security pasted to the first selected task.
 
 If a new field is published to a data source, the field is not available when writing expressions for calculated fields. Need to save the data mart and restart desktop to access the field. Occurs if the field is published using the context menu in the data view. However, If the field is published through the properties pane for the data source, the field is available immediately as expected.
 
+<!--ID 45fc917a-a3d8-4d2f-a915-67c67e0c66f7 -->
+**#23244 Pressing arrow keys in the IntegerTimeEdit control does not update the visual value** (Desktop)
+
+Pressing the arrow keys should increase/decrease the current value to the nearest quarter. However, the visual value is not updated until the control loses focus.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
