@@ -351,6 +351,11 @@ Occurs if a control, such as a text edit, is placed on the second or any succeed
 
 Security pasted to the first selected task.
 
+<!--ID d17b1147-fd55-4403-8fa0-5292adc8978b -->
+**#23243 Published field not available in expression for calculated field in data mart** (Desktop)
+
+If a new field is published to a data source, the field is not available when writing expressions for calculated fields. Need to save the data mart and restart desktop to access the field. Occurs if the field is published using the context menu in the data view. However, If the field is published through the properties pane for the data source, the field is available immediately as expected.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
