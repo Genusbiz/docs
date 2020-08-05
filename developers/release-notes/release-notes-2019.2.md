@@ -361,6 +361,9 @@ If a new field is published to a data source, the field is not available when wr
 
 Pressing the arrow keys should increase/decrease the current value to the nearest quarter. However, the visual value is not updated until the control loses focus.
 
+<!--ID 674a5586-5b25-4c8d-b51f-303f4fdf2643 -->
+**#23245 Genus terminates with an error when searching for data between two integer time values** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
