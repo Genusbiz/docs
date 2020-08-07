@@ -364,6 +364,11 @@ Pressing the arrow keys should increase/decrease the current value to the neares
 <!--ID 674a5586-5b25-4c8d-b51f-303f4fdf2643 -->
 **#23245 Genus terminates with an error when searching for data between two integer time values** (Desktop)
 
+<!--ID 2863ffeb-d384-45f4-ab72-9c7c652ef0de -->
+**#23246 Form corrupted if fields are dragged from data sources into a grid control** (Studio)
+
+If the form is saved after columns have been created by dragging fields from data sources, it is no longer possible to open the form in Studio.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
