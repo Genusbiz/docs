@@ -384,6 +384,9 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 <!--ID 82f3c111-175a-45ca-b57c-814418786998 -->
 **#23233 Fixed error that randomly caused window to crash during initialization** (Desktop;Studio)
 
+<!--ID c0f8dd28-eb63-4c13-a4a4-34a5f2b1c482 -->
+**#23248 Fixed problem where the content of a table is obscured by search panel on smaller screens.** (Desktop)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
