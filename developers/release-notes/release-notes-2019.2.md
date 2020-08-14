@@ -179,7 +179,7 @@ There is still a problem with keeping data in separate databases in azure. This 
 
 Earlier versions of Genus supported reding and writing JSON arrays containing objects which would be used for reading and creating objects in data sources.
 
-Now it is also possible to read and write simple values, for instance strings. When reading a string from JSON, a new object will be created where the string is stored into the mapped field, while when writing JSON, data vill be read from the mapped foeld for each of the objects in the data source.
+Now it is also possible to read and write simple values, for instance strings. When reading a string from JSON, a new object will be created where the string is stored into the mapped field, while when writing JSON, data vill be read from the mapped field for each of the objects in the data source.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
