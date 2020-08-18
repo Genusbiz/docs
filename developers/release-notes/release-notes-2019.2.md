@@ -376,6 +376,11 @@ Pressing the arrow keys should increase/decrease the current value to the neares
 
 If the form is saved after columns have been created by dragging fields from data sources, it is no longer possible to open the form in Studio.
 
+<!--ID 17a27d4c-9ce0-45ba-bbae-4a4435fe0174 -->
+**#23249 Genus terminates sporadically if an unsaved document is closed** (Desktop)
+
+Typical case to reproduce: Start Genus, open a MS Word Document (large file size). Do some changes. Close MS Word, and click "Yes" in the save changes confirmation dialog.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
