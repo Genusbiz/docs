@@ -63,6 +63,13 @@ It was possible to add values to the "Values" group even when no "Split by Categ
 This was not supposed to be the case, so after this release, only the "Values not split by Category" group is available when only a single category is defined.
 For Line charts with a single category, all values not defined in the "Values not split by Category" group will therefore now be gone.
 
+<!--ID 4300aaaa-bbbe-446e-a499-89d0c00870fa -->
+**#23250 Show Column Total rows for Formula columns is once again based on the defined Formula**
+
+Show Column Total rows based on a Formula column no longer "overrides" defaults to a raw sum of all values in the column. Instead, the Total row calculated the Formula value based on the total of all Formula values.
+
+For simple formulas, these two numbers would be the same, but this is not always the case for more advanced formulas.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
