@@ -70,6 +70,13 @@ Show Column Total rows based on a Formula column no longer "overrides" defaults 
 
 For simple formulas, these two numbers would be the same, but this is not always the case for more advanced formulas.
 
+<!--ID 271fe8e2-ca3c-4fae-a454-8e98cadc8def -->
+**#23251 Add option to override Column total with sum for Formula columns** (Desktop)
+
+When showing Column total in Formula columns, the aggregate value no longer default to a raw sum. Instead, the Formula is executed with the sum of all values used in the Formula.
+
+We have now introduced a flag for these columns, to override this behaviour with "raw summing". When the flag is raised, the Formula values are treated as raw values and summed to create the aggregate row value.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
