@@ -395,6 +395,11 @@ If the form is saved after columns have been created by dragging fields from dat
 
 Typical case to reproduce: Start Genus, open a MS Word Document (large file size). Do some changes. Close MS Word, and click "Yes" in the save changes confirmation dialog.
 
+<!--ID 583a41ac-1d4b-44ac-8809-4945d4e8544e -->
+**#23252 Fixed colouring of Data Series** (Desktop)
+
+Colouring of Data Series is once again working
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
