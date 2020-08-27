@@ -411,6 +411,9 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 <!--ID c0f8dd28-eb63-4c13-a4a4-34a5f2b1c482 -->
 **#23248 Fixed problem where the content of a table is obscured by search panel on smaller screens.** (Desktop)
 
+<!--ID 2101c06c-8121-4311-b4f0-0704812179a2 -->
+**#23253 Fixed issue with camera integration in newest version of Android (native app)** (Web)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
