@@ -400,6 +400,9 @@ Typical case to reproduce: Start Genus, open a MS Word Document (large file size
 
 Colouring of Data Series is once again working
 
+<!--ID a0a1acf8-f8b3-4290-9da7-2805d5ff8bab -->
+**#23255 Genus terminates when closing a form containing a diagram control** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
