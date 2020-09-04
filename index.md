@@ -1,9 +1,9 @@
 ---
-title: Genus documentation
+title: Genus Apps documentation
 description: Learn how to use Genus Apps to quickly create, deploy and change low-code, customized, model-driven, line-of-business software solutions.
 author: jtroset
 ---
-# **Genus documentation**
+# **Genus Apps documentation**
 Learn how to use Genus Apps to quickly create, deploy and change customized software solutions. The articles describe how to use this metadata-interpreting low-code application development platform to build and use line-of-business software solutions .
 
 > [!NOTE]
