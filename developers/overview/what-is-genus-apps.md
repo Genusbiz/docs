@@ -1,8 +1,8 @@
-# What is Genus Apps?
+# What is Genus?
 
-Genus Apps is a metadata-interpreting low-code application development platform for rapid application development.
+Genus is a metadata-interpreting low-code application development platform for rapid application development.
 
-You can use Genus Apps to create or change enterprise software applications. The platform targets medium to large size enterprises, and professional and semi-professional developers.
+You can use Genus to create or change enterprise software applications. The platform targets medium to large size enterprises, and professional and semi-professional developers.
 
 You can create various types of apps, either rich on user interface, rich on business logic or rich on services - or a combination of these.
 
