@@ -2,17 +2,17 @@
 
 Genus Studio is the Microsoft Windows desktop client used by developers for defining an Genus app model. The app model is stored in a database of your choice on the database infrastructure layer.
 
-Genus Apps for desktop is the end user client for Microsoft Windows, interpreting your app model at run time.
+Genus for desktop is the end user client for Microsoft Windows, interpreting your app model at run time.
 
-Genus Apps for web is the end user client for web browsers, also interpreting your app model at run time.
+Genus for web is the end user client for web browsers, also interpreting your app model at run time.
 
 The app model interpretation does not result in any performance penalty. Rather, knowledge about data (knowledge contained in the app model) is used as input in our optimizers, resulting in improved performance compared to traditional programmed or packaged applications.
 
 ![architecture.png](media/architecture.png)
 
-Genus Studio, Genus Apps for web, and Genus Apps for desktop communicates with Genus Services using the protocols http or https on ports 80 or 443.
+Genus Studio, Genus for web, and Genus for desktop communicates with Genus Services using the protocols http or https on ports 80 or 443.
 
-Genus Services manages connectivity to the database layer and offer services to the Genus clients, i.e. Genus Studio, Genus Apps for web and Genus Apps for desktop. Modeled services interpret your app model at run time.
+Genus Services manages connectivity to the database layer and offer services to the Genus clients, i.e. Genus Studio, Genus for web and Genus for desktop. Modeled services interpret your app model at run time.
 
 All Genus Services are multi-threaded, thereby allowing you to scale your Genus Services vertically (scale up), i.e. utilize more memory and CPUs on your server or node.
 
