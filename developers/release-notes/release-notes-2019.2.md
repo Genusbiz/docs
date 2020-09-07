@@ -403,6 +403,11 @@ Colouring of Data Series is once again working
 <!--ID a0a1acf8-f8b3-4290-9da7-2805d5ff8bab -->
 **#23255 Genus terminates when closing a form containing a diagram control** (Desktop)
 
+<!--ID 8bbc1a83-6c47-499f-8088-2b195e4ab779 -->
+**#23256 Color Range no longer show inaccurate colors** (Desktop)
+
+Previously, one had to scroll to the bottom of a Table with Color Range, to ensure that the correct colors were shown. This is no longer the case.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
