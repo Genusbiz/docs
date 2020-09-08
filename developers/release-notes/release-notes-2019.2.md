@@ -195,6 +195,11 @@ Earlier versions of Genus supported reding and writing JSON arrays containing ob
 
 Now it is also possible to read and write simple values, for instance strings. When reading a string from JSON, a new object will be created where the string is stored into the mapped field, while when writing JSON, data vill be read from the mapped field for each of the objects in the data source.
 
+<!--ID 69b5686b-0f13-4a76-a791-60ed9053971c -->
+**#23257 Support for TIBCO TDV (from version 18.45.131.0)** (Services;Studio)
+
+This version adds support for accessing TIBCO Data Virtualization system using ADO.NET.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
