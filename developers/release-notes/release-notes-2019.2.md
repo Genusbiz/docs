@@ -427,6 +427,13 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 <!--ID 2101c06c-8121-4311-b4f0-0704812179a2 -->
 **#23253 Fixed issue with camera integration in newest version of Android (native app)** (Web)
 
+<!--ID 96c33bd6-09c9-4beb-9780-62bd007bab74 -->
+**#23259 Object Classes with Permissions = None can not be opened from Dasboard selections** (Desktop)
+
+If the ID field of an Object Class has "Maximum permissions that can be granted" set to "None", it will not be possible to open Forms/Tables based on Dashboard selections on that OC. The Dashboard client will not be able to read the IDs of the objects, and consequently cannot open the objects.
+
+This seems to be the case for multiple OCs in older Genus solutions (e.g. some at NG). Business Engineers adding Dashboards to existing solutions should therefore be aware of this peculiarity.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
