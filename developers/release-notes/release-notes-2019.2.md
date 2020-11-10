@@ -339,6 +339,9 @@ The field's date was not used when displaying date picker and was not displayed 
 
 As described in an earlier release note, some Line charts would lose some values after a recent release. This is no longer the case.
 
+<!--ID 82f3c111-175a-45ca-b57c-814418786998 -->
+**#23233 Fixed error that randomly caused window to crash during initialization** (Desktop;Studio)
+
 <!--ID f3a13756-e463-45db-8390-7085f1eb0aaf -->
 **#23234 Open a form from Context working again in Dashboard** (Desktop)
 
@@ -400,6 +403,9 @@ Pressing the arrow keys should increase/decrease the current value to the neares
 
 If the form is saved after columns have been created by dragging fields from data sources, it is no longer possible to open the form in Studio.
 
+<!--ID c0f8dd28-eb63-4c13-a4a4-34a5f2b1c482 -->
+**#23248 Fixed problem where the content of a table is obscured by search panel on smaller screens.** (Desktop)
+
 <!--ID 17a27d4c-9ce0-45ba-bbae-4a4435fe0174 -->
 **#23249 Genus terminates sporadically if an unsaved document is closed** (Desktop)
 
@@ -428,12 +434,6 @@ When selecting a disqualified object in a Dashboard, all selections in other dat
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 82f3c111-175a-45ca-b57c-814418786998 -->
-**#23233 Fixed error that randomly caused window to crash during initialization** (Desktop;Studio)
-
-<!--ID c0f8dd28-eb63-4c13-a4a4-34a5f2b1c482 -->
-**#23248 Fixed problem where the content of a table is obscured by search panel on smaller screens.** (Desktop)
-
 <!--ID 2101c06c-8121-4311-b4f0-0704812179a2 -->
 **#23253 Fixed issue with camera integration in newest version of Android (native app)** (Web)
 
