@@ -200,6 +200,11 @@ Now it is also possible to read and write simple values, for instance strings. W
 
 This version adds support for accessing TIBCO Data Virtualization system using ADO.NET.
 
+<!--ID 37e4bb68-01ea-464e-b6ff-b0f1beae0186 -->
+**#23262 Sorting of Row Columns in 3D Grid disabled** (Web)
+
+Sorting is now only enabled for "Column Category" of Three Dimensional Grid. It is no longer enabled for "Row Category" and "Row Data".
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -413,6 +418,11 @@ Colouring of Data Series is once again working
 
 Previously, one had to scroll to the bottom of a Table with Color Range, to ensure that the correct colors were shown. This is no longer the case.
 
+<!--ID 95422a32-bfbd-4028-92aa-d77a727f42fa -->
+**#23263 All Dashboard selections of disqualified objects now reset selections in other data sources** (Desktop)
+
+When selecting a disqualified object in a Dashboard, all selections in other data sources should be reset. Previously, this was only enforced when selecting a single object. Now, other selections are reset for all selections involving one or more disqualified objects.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
@@ -433,6 +443,9 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 If the ID field of an Object Class has "Maximum permissions that can be granted" set to "None", it will not be possible to open Forms/Tables based on Dashboard selections on that OC. The Dashboard client will not be able to read the IDs of the objects, and consequently cannot open the objects.
 
 This seems to be the case for multiple OCs in older Genus solutions (e.g. some at NG). Business Engineers adding Dashboards to existing solutions should therefore be aware of this peculiarity.
+
+<!--ID 0e253cab-2d8d-42bf-9f9c-2637a342e510 -->
+**#23261 Google analytics can now be properly disabled** (Web)
 
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
