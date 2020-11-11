@@ -434,6 +434,9 @@ When selecting a disqualified object in a Dashboard, all selections in other dat
 
 Case if a number format not was assigned to an OC property or grid column.
 
+<!--ID 6ac5898c-6574-4a37-ab8f-a42215e4a5ff -->
+**#23267 Preview of mhtml file not updated when switching between files** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
