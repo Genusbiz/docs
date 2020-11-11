@@ -429,6 +429,11 @@ Previously, one had to scroll to the bottom of a Table with Color Range, to ensu
 
 When selecting a disqualified object in a Dashboard, all selections in other data sources should be reset. Previously, this was only enforced when selecting a single object. Now, other selections are reset for all selections involving one or more disqualified objects.
 
+<!--ID 38744102-6527-4b3f-96bc-542c48e05fef -->
+**#23266 Numbers exported to Excel as strings in the grid control** (Desktop)
+
+Case if a number format not was assigned to an OC property or grid column.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
