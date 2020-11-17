@@ -184,14 +184,14 @@ In response to the original security advisory Genus has introduced new security 
 Can no longer define more than one value to be grouped by Split by Category in Analysis Designer. This introduces the concept of "Values not split by Category" for some tiles (i.e. all Column & Line types). In such existing tiles with two categories, all but one Value will now only be grouped by the primary Category.
 
 <!--ID 914fe07c-46b6-49ae-92ce-24a1a0af38d1 -->
-**#23232 Multiple datasets in separate databases in azure is supported** (Desktop)
+**#23232 Multiple datasets in separate databases in Azure are supported** (Desktop)
 
-There is still a problem with keeping data in separate databases in azure. This is related to the location of the account-table. Search in audit trail is therefore limited in multi-database azure solutions.
+However, there is still a problem with keeping data in separate databases in Azure. This is related to the location of the account table. Search in audit trail is therefore limited in multi-database Azure solutions.
 
 <!--ID d7627870-5968-41c6-ba80-6fa744ed46b1 -->
-**#23247 Added suppport for reading and writing JSON arrays containing simple values** (Desktop;Services;Studio)
+**#23247 Added support for reading and writing JSON arrays containing simple values**
 
-Earlier versions of Genus supported reding and writing JSON arrays containing objects which would be used for reading and creating objects in data sources.
+Earlier versions of Genus supported reading and writing JSON arrays containing objects which would be used for reading and creating objects in data sources.
 
 Now it is also possible to read and write simple values, for instance strings. When reading a string from JSON, a new object will be created where the string is stored into the mapped field, while when writing JSON, data vill be read from the mapped field for each of the objects in the data source.
 
