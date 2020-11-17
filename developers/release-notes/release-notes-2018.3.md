@@ -81,7 +81,7 @@ Subset operators can now be hidden from the user. The operator Set has been rena
 Default values for Show Excluded and Show Selected can now be selected in the designer.
 
 <!--ID e20f2019-0228-4d95-a85c-c87c87f6407f -->
-**#23155 Timeout secounds on File Upload effect** (Web)
+**#23155 Timeout seconds on File Upload effect** (Web)
 
 It's now possible to set timeout for the File Upload effect
 
