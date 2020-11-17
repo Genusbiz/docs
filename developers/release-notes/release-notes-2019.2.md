@@ -97,7 +97,7 @@ The context menu (right-click menu) now closes on Escape and clicks
 <!--ID 8bc8ea13-e641-4bfa-bf01-7114170c3a6e -->
 **#23173 Better handling of "The data mart has new data"** (Desktop)
 
-When  the data mart has new data, we load the new data and try to keep the current selection. A snackbar message notifies the user that "The Data Mart has been reloaded with new data".
+When the data mart has new data, we load the new data and try to keep the current selection. A snackbar message notifies the user that "The Data Mart has been reloaded with new data".
 
 <!--ID 8c5a44d5-d72d-44e3-a761-ad4bdab73fff -->
 **#23174 Better handling of tile rendering errors** (Desktop;Studio)
@@ -457,7 +457,7 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 
 If the ID field of an Object Class has "Maximum permissions that can be granted" set to "None", it will not be possible to open Forms/Tables based on Dashboard selections on that OC. The Dashboard client will not be able to read the IDs of the objects, and consequently cannot open the objects.
 
-This seems to be the case for multiple OCs in older Genus solutions (e.g. some at NG). Business Engineers adding Dashboards to existing solutions should therefore be aware of this peculiarity.
+This seems to be the case for multiple OCs in older Genus solutions. Business Engineers adding Dashboards to existing solutions should therefore be aware of this peculiarity.
 
 <!--ID 0e253cab-2d8d-42bf-9f9c-2637a342e510 -->
 **#23261 Google analytics can now be properly disabled** (Web)
