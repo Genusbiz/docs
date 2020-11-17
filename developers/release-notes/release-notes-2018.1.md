@@ -630,6 +630,11 @@ If a data source is deleted from the self filter diagram view, the settings **Fi
 
 An error in the response data encoding algorithm applied by Genus Services has been corrected. Malformed responses would be returned as a result of Base64 response encoding or response compression, if enabled. When triggered in Genus Web Apps this may be experienced as client side timeouts or missing response data.
 
+<!--ID a9ec5fd0-d65d-48e3-ac48-529fc3b135e6 -->
+**#23205 Fixed "System.OverflowException: Conversion overflows" with SQL Server Decimal Type** (Services)
+
+An exception would be thrown occasionally when reading DECIMAL type values from SQL Server.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
