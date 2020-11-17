@@ -133,16 +133,17 @@ In a form containing an RTF editor the object is marked as changed when the user
 
 If the data size is set for an object class property containing an RTF document, violation of the size is not displayed correctly by the RTF editor.
 
-<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Known issues
-
-Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
-<!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 961d0ee6-4550-4270-9854-24451cf2e377 -->
 **#23208 Fixed problems with search in Advanced Lookup Field** (Desktop)
 
 Fixed error where search was not performed when user removed from search text using backspace and also problem that caused the search text to be cleared after the initial search.
 
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+## Known issues
+
+Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
+<!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
