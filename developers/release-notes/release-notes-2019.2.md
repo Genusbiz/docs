@@ -416,6 +416,13 @@ Typical case to reproduce: Start Genus, open a MS Word Document (large file size
 
 Colouring of Data Series is once again working
 
+<!--ID ff5f0508-9933-4e2d-bab1-809a632eb3c7 -->
+**#23254 Fixed issue with file download on Android** (Web)
+
+Fixed by implementing a new cordova plugin. This required the update of related component, and build environment. New version should be tested thoroughly.
+
+The new version of the Android app is not immediately published to Play Store. Contact JEI if you need this.
+
 <!--ID a0a1acf8-f8b3-4290-9da7-2805d5ff8bab -->
 **#23255 Genus terminates when closing a form containing a diagram control** (Desktop)
 
