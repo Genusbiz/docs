@@ -78,7 +78,7 @@ Added insert table and insert picture ribbon items on the RTF control
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID cbcdfa7d-7e6c-4c34-9f3e-ed1e70d514a0 -->
-**#23164 Autorefresh on published reports.** (Desktop)
+**#23164 Autorefresh on published reports** (Desktop)
 
 If the Automatic Refresh option was set for a report published on an object, the report was first refreshed without the object as a filter, and then with object as a filter. The end result was correct, but the performance was not optimal.
 
