@@ -1,7 +1,7 @@
 # Configure Authentication for Genus Services
 
 > [!NOTE]
-> This article refers to the new authentication mechanisms for the next release of Genus Apps and is a work in progress. 
+> This article refers to the new authentication mechanisms for the next release of Genus and is a work in progress. 
 
 The new Genus authentication offers several ways to authenticate users, including third party identity providers like Twitter, Facebook, Google, etc. as well as Azure Active Directory, Genus Native and customer specific OAuth2 authentication. To use any of these identity providers one must register an app or authentication client with the desired identity providers and configure the authentication client correctly. Required information/setup for each provider include client ID, client secret and a callback URL which is generated and set up either by using their developer portals or by contacting the provider directly.
 
@@ -25,4 +25,8 @@ After registering and configuring with the desired providers, the setup for the 
 
 Add the desired providers by selecting the provider type, set the display name and the description, and select the color for the logon button. In the _Config_ field, fill out the client ID, client secret, callback URL and other required information.
 
-Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. 
+Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. '
+
+Each user must be connected to the desired and enabled identityprovider with the correct Account Id from the identityprovider.
+
+Azure AD supports guest accounts. To use this in Genus, the Token configuration for the authenticator app in the Azure Portal must include __upn__ as an optional claim enabled for __Externally authenticated__ and __Replace hash marks__. The Account Id for a guest user with mail@example.com as email, must be on the format _mail\_example.com\_EXT\_@genusas.onmicrosoft.com_ registered on the user's identityprovider connection. 
