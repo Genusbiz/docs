@@ -444,6 +444,9 @@ Case if a number format not was assigned to an OC property or grid column.
 <!--ID 6ac5898c-6574-4a37-ab8f-a42215e4a5ff -->
 **#23267 Preview of mhtml file not updated when switching between files** (Desktop)
 
+<!--ID c70a71e7-475b-4580-8914-789fd878a428 -->
+**#23269 Corrected an error which occurred when plotting more than ~2000 objects in a chart** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
