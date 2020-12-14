@@ -447,6 +447,11 @@ Case if a number format not was assigned to an OC property or grid column.
 <!--ID c70a71e7-475b-4580-8914-789fd878a428 -->
 **#23269 Corrected an error which occurred when plotting more than ~2000 objects in a chart** (Desktop)
 
+<!--ID e2305fb5-623a-4d16-9cbc-6772af7cd783 -->
+**#23272 Analysis Conditional Symbols and Text are no longer linked after duplicating a Tile** (Desktop)
+
+After duplicating a Tile, conditional values were "linked" between the two tiles. Changing a conditional value in either the clone or the cloned, would change the value in both. This is no longer the case.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
