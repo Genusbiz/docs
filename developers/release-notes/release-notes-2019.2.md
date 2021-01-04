@@ -39,6 +39,12 @@ End-of-life functionality is functionality that was available in the previous re
 
 Both the Gantt and Timeline user interface controls will be discontinued. Timeline functionality will be considered added in a later release, but tailored to better fit in with our other controls.
 
+<!--ID b7416a52-aea1-4ba9-b6cf-1a986f66d511 -->
+**#23273 Week numbers starting at 0** (Desktop;Studio)
+
+From version 10, week numbers starting at zero is no longer supported.
+In versions pre 10, check in calendar settings that  "Zero Week Day Limit" is 0
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
