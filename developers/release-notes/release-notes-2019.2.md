@@ -458,6 +458,9 @@ Case if a number format not was assigned to an OC property or grid column.
 
 After duplicating a Tile, conditional values were "linked" between the two tiles. Changing a conditional value in either the clone or the cloned, would change the value in both. This is no longer the case.
 
+<!--ID ee1ca72c-80a3-4395-917b-6b11d308e270 -->
+**#23275 Fixed issue where repeating content were sometimes drafted two times** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
