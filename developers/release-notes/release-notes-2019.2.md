@@ -461,6 +461,11 @@ After duplicating a Tile, conditional values were "linked" between the two tiles
 <!--ID ee1ca72c-80a3-4395-917b-6b11d308e270 -->
 **#23275 Fixed issue where repeating content were sometimes drafted two times** (Web)
 
+<!--ID accdd428-8aaf-4c8b-8c02-e6fb20b8be8e -->
+**#23276 Table columns in Dashboard** (Desktop)
+
+Problem with resizeing columns is now fixed and its easyer to set column widths.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
