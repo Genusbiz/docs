@@ -466,6 +466,11 @@ After duplicating a Tile, conditional values were "linked" between the two tiles
 
 Problem with resizeing columns is now fixed and its easyer to set column widths.
 
+<!--ID f6d898d4-26b9-41c7-91c2-c2b378c4bfbc -->
+**#23278 Dashboards referencing deleted Dashboards no longer crash** (Desktop)
+
+Dashboards referencing deleted Dashboards in an "Open Analysis" command, would crash on opening the designer, and on executing the Command.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
