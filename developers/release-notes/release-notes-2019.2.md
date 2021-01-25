@@ -471,6 +471,9 @@ Problem with resizeing columns is now fixed and its easyer to set column widths.
 
 Dashboards referencing deleted Dashboards in an "Open Analysis" command, would crash on opening the designer, and on executing the Command.
 
+<!--ID ab031844-edda-421a-9c91-5a4f1005df7f -->
+**#23279 Period Shift now works in Dasbhoard Tables** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
