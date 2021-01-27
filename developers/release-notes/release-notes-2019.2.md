@@ -211,6 +211,9 @@ This version adds support for accessing TIBCO Data Virtualization system using A
 
 Sorting is now only enabled for "Column Category" of Three Dimensional Grid. It is no longer enabled for "Row Category" and "Row Data".
 
+<!--ID 4abcde43-ac14-4de0-971c-175a5059299f -->
+**#23280 Add "Empty Selection" action to Dashboard action bar** (Desktop;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
