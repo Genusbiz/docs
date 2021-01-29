@@ -477,6 +477,11 @@ Dashboards referencing deleted Dashboards in an "Open Analysis" command, would c
 <!--ID ab031844-edda-421a-9c91-5a4f1005df7f -->
 **#23279 Period Shift now works in Dasbhoard Tables** (Desktop)
 
+<!--ID 371410fc-b45a-415d-9fd5-95d468d7c859 -->
+**#23281 Responses with SOAP headers annotated with attribute mustUnderstand="1" caused an exception** (Services)
+
+When consuming a SOAP webservice one or more SOAP headers may be returned from the service. If the web service retunred one or more SOAP headers annotated with a mustUnderstand="1" attribute the Consume a Web Service effect would throw an exception and the consuming action would simply fail. This behavior has now been corrected. Please note that the consuming action must assume the responsibility of understanding SOAP headers with mustUnderstand="1".
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
