@@ -38,7 +38,6 @@ Our desktop client runs on the following operating systems:
 * Windows Server 2016 (Server Core and Server with Desktop Experience)
 * Windows Server 2012 R2
 * Windows Server 2012
-* Windows Server 2008 R2 SP1
 
 Our desktop client requires the following minimum version of the .NET Framework:
 
