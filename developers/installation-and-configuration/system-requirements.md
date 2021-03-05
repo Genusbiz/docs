@@ -85,6 +85,7 @@ Server Core Role is not supported for earlier versions than Windows Server 2016.
 
 Genus Services requires the following minimum version of the .NET Framework:
 
+* Genus Apps 2019.2 or later: .NET Framework 4.8 or later
 * Genus Apps 2017.5 or later: .NET Framework 4.7 or later
 * Genus Apps 2017.2-2017.4: .NET Framework 4.6.2 or later
 * Genus Apps 2016.1-2017.1: .NET Framework 4.6.1 or later
