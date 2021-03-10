@@ -482,6 +482,15 @@ Dashboards referencing deleted Dashboards in an "Open Analysis" command, would c
 
 When consuming a SOAP webservice one or more SOAP headers may be returned from the service. If the web service retunred one or more SOAP headers annotated with a mustUnderstand="1" attribute the Consume a Web Service effect would throw an exception and the consuming action would simply fail. This behavior has now been corrected. Please note that the consuming action must assume the responsibility of understanding SOAP headers with mustUnderstand="1".
 
+<!--ID 63d16644-cd39-4602-8815-fb7b77512524 -->
+**#23310 "Auto Load data mart" did not work in 19.2** (Desktop)
+
+To reproduce:
+1) Make a schedule which starts at a time in the future
+2) Check "Auto Load data mart"
+3) Unload the data mart
+4) Observe that using the data mart yields "Data mart not loaded" message
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
