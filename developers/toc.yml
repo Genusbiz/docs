@@ -475,6 +475,18 @@
   items:
   - name: System requirements
     href: installation-and-configuration/system-requirements.md
+  - name: Installing Genus 10 on Kubernetes
+    href: installation-and-configuration/install-genus-10/index.md
+    items:
+    - name: Value Files
+      href: installation-and-configuration/install-genus-10/value-files/index.md
+      items:
+      - name: Genus 10.2
+        href: installation-and-configuration/install-genus-10/value-files/genus-10.2.md
+      - name: Genus 10.3
+        href: installation-and-configuration/install-genus-10/value-files/genus-10.3.md
+      - name: Genus 10.4
+        href: installation-and-configuration/install-genus-10/value-files/genus-10.4.md
   - name: Installing Genus Desktop
     href: installation-and-configuration/installing-genus-desktop/index.md
     items:
