@@ -1,4 +1,5 @@
 ```yaml
+
 genus-database-dictionary-service:
   enabled: true
   replicaCount: 1
@@ -15,7 +16,7 @@ genus-database-dictionary-service:
 genus-file-utility-service:
   enabled: true
   replicaCount: 1
-  maxRequestSizeInMegaBytes: "100"
+  maxRequestSizeInMegaBytes: '100'
   resources:
     requests:
       cpu: 500m
@@ -138,8 +139,8 @@ genus-message-subscription-service:
       memory: 500Mi
       cpu: 200m
   serviceMonitor:
-    scrapeInterval: 30s
-
+    scrapeInterval: 30s   
+    
 genus-internationalization-service:
   enabled: true
   replicaCount: 1
@@ -149,7 +150,7 @@ genus-internationalization-service:
       cpu: 1m
     limits:
       memory: 100Mi
-      cpu: 100m
+      cpu: 100m  
   serviceMonitor:
     scrapeInterval: 30s
 
@@ -169,7 +170,7 @@ genus-webcal-service:
 genus-carddav-service:
   enabled: true
   replicaCount: 1
-  resources:
+  resources: 
     requests:
       memory: "32Mi"
       cpu: "25m"
@@ -189,30 +190,30 @@ genus-live-update-input-service:
     limits:
       memory: 500Mi
     cpu: 200m
-
+  
   serviceMonitor:
     scrapeInterval: 30s
-
+  
 genus-core-services:
   enabled: true
-  activeConnectionString: ""
-  databaseActiveDb: ""
-  databaseActiveSchema: ""
-  descriptiveConnectionString: ""
-  databaseDescriptiveDb: ""
-  databaseDescriptiveSchema: ""
-  databaseVendorVersion: ""
-  databaseIsCaseInsensitive: ""
-  responseCompression: "false"
-  requestCompression: "false"
-  defaultCryptoProviderDecryptionKey: ""
-  defaultCryptoProviderValidationKey: ""
+  activeConnectionString: ''
+  databaseActiveDb: ''
+  databaseActiveSchema: ''
+  descriptiveConnectionString: ''
+  databaseDescriptiveDb: ''
+  databaseDescriptiveSchema: ''
+  databaseVendorVersion: ''
+  databaseIsCaseInsensitive: ''
+  responseCompression: 'false'
+  requestCompression: 'false'
+  defaultCryptoProviderDecryptionKey: ''
+  defaultCryptoProviderValidationKey: ''
   dataMartQueryService:
     replicaCount: 1
-    coreMaxThreadCount: "4"
+    coreMaxThreadCount: '4'
     serviceMonitor:
       scrapeInterval: 30s
-    affinityScheduling:
+    affinityScheduling: 
       enabled: false
       namespaceListForPodAntiAffinity: []
     resources:
@@ -224,10 +225,10 @@ genus-core-services:
         cpu: 1000m
   megaService:
     replicaCount: 1
-    coreMaxThreadCount: "4"
+    coreMaxThreadCount: '4'
     serviceMonitor:
       scrapeInterval: 30s
-    affinityScheduling:
+    affinityScheduling: 
       enabled: false
       namespaceListForPodAntiAffinity: []
     resources:
@@ -255,33 +256,35 @@ genus-core-services:
   fluentd:
     enabled: false
   elasticsearch:
-    username: ""
-    password: ""
-    host: ""
-    port: ""
-    cloudId: ""
-    cloudAuth: ""
-    kibanaHost: ""
-    kibanaPort: ""
+    username: ''
+    password: ''
+    host: ''
+    port: ''
+    cloudId: ''
+    cloudAuth: ''
+    kibanaHost: ''
+    kibanaPort: ''
+
 
 global:
-  subDomain: ""
+  subDomain: ''
   nodeEnviroment: production
-  customer: ""
-  modelName: ""
-  k8sNamespaceType: ""
-  deployed: ""
-  virtualDirectory: "--"
-  dataSetURL: ""
+  customer: ''
+  modelName: ''
+  k8sNamespaceType: ''
+  deployed: ''
+  virtualDirectory: '--'
+  dataSetURL: ''
   altDataSetURLs: []
   timezone: /usr/share/zoneinfo/Europe/Oslo
   traceLogLevel: warning
-  traceLogDebug: "false"
-  traceLogTiming: "false"
-  enableTraceLog: "true"
-  enableSentry: "true"
-  jwkFromPem: ""
+  traceLogDebug: 'false'
+  traceLogTiming: 'false'
+  enableTraceLog: 'true'
+  enableSentry: 'true'
+  jwkFromPem: ''
   image:
     tag: latest
     pullPolicy: Always
+
 ```
