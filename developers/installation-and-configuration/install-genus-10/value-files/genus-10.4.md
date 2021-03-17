@@ -5,7 +5,7 @@ All microservices can be configured with the following common helm values.
 | Parameter                                                        | Description | Default | 
 |--                                                                |--|--|
 | <microservice>.enabled                                           |  | true |
-| <microservice>.sentryDSN                                         | Link to Sentry DSN endpoint | *Unique DSN for every microservice* |
+| <microservice>.sentryDSN                                         | Link to Sentry DSN endpoint. | *Unique DSN for every microservice* |
 | <microservice>.replicaCount                                      |  | 1 |
 | <microservice>.resources.requests.cpu                            |  | *See [values.yaml](./genus-values/genus-10.4.yaml)* |
 | <microservice>.resources.requests.memory                         |  | *See [values.yaml](./genus-values/genus-10.4.yaml)* |
