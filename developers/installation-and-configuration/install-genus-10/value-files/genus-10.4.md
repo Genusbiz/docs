@@ -11,6 +11,8 @@ All microservices can be configured with the following common helm values.
 | <microservice>.resources.requests.memory                         |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
 | <microservice>.resources.limits.cpu                              |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
 | <microservice>.resources.limits.memory                           |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
+| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
+| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](./genus-values/genus-10.4.md)* |
 | <microservice>.serviceMonitor.scrapeInterval                     | Interval of Prometheus scraping the metrics endpoint | "30s"
 
 ## Release values
@@ -45,12 +47,8 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.databaseIsCaseInsensitive                    |  | "" | 
 | genus-core-services.dataMartQueryService                         | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-core-services.dataMartQueryService.coreMaxThreadCount      |  | "4" | 
-| genus-core-services.dataMartQueryService.affinityScheduling.enabled                               |  | false | 
-| genus-core-services.dataMartQueryService.affinityScheduling.namespaceListForPodAntiAffinity       |  | [] | 
 | genus-core-services.megaService                                  | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-core-services.megaService.coreMaxThreadCount               |  | "4" | 
-| genus-core-services.megaService.affinityScheduling.enabled                               |  | false | 
-| genus-core-services.megaService.affinityScheduling.namespaceListForPodAntiAffinity       |  | [] | 
 | genus-core-services.desktopFrontend                              | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-core-services.responseCompression                          |  | "false" | 
 | genus-core-services.requestCompression                           |  | "false" | 
