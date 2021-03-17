@@ -481,6 +481,10 @@
     - name: Value Files
       href: installation-and-configuration/install-genus-10/value-files/index.md
       items:
+      - name: Genus 10.0
+        href: installation-and-configuration/install-genus-10/value-files/genus-10.0.md
+      - name: Genus 10.1
+        href: installation-and-configuration/install-genus-10/value-files/genus-10.1.md
       - name: Genus 10.2
         href: installation-and-configuration/install-genus-10/value-files/genus-10.2.md
       - name: Genus 10.3
