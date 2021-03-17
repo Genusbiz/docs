@@ -7,10 +7,10 @@ All microservices can be configured with the following common helm values.
 | <microservice>.enabled                                           |  | true |
 | <microservice>.sentryDSN                                         | Link to Sentry DSN endpoint. | *Unique DSN for every microservice* |
 | <microservice>.replicaCount                                      |  | 1 |
-| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](./genus-values/genus-10.4.yaml)* |
-| <microservice>.resources.requests.memory                         |  | *See [values.yaml](./genus-values/genus-10.4.yaml)* |
-| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](./genus-values/genus-10.4.yaml)* |
-| <microservice>.resources.limits.memory                           |  | *See [values.yaml](./genus-values/genus-10.4.yaml)* |
+| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
+| <microservice>.resources.requests.memory                         |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
+| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
+| <microservice>.resources.limits.memory                           |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
 | <microservice>.serviceMonitor.scrapeInterval                     | Interval of Prometheus scraping the metrics endpoint | "30s"
 
 ## Release values
