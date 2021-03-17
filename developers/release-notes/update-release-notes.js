@@ -1,3 +1,4 @@
+require("dotenv").config();
 //
 // Read release notes from Actio and populate markdown files on docs.genus.no,
 // folder developers/release-notes and files like release-notes-2017.5.md
@@ -7,7 +8,6 @@ var github = require("octonode");
 var atob = require("atob");
 var fs = require("fs");
 var moment = require("moment");
-var raven = require("raven");
 
 const { DefaultAzureCredential } = require("@azure/identity");
 const { SecretClient } = require("@azure/keyvault-secrets");
@@ -16,20 +16,13 @@ const credential = new DefaultAzureCredential();
 
 const url = process.env.AZURE_VAULT_NAME;
 const valutClient = new SecretClient(url, credential);
-
 const secretName = process.env.AZURE_SECRET_NAME;
 
 let ghrepo;
 
-raven
-  .config(
-    "https://cc893eb111c043f1aa94ac28b861ce80:80c09743f4cf4dd08d82133462fb8dce@sentry.io/262525"
-  )
-  .install();
-
 async function init() {
   const latestSecret = await valutClient.getSecret(secretName);
-
+  console.log(latestSecret);
   // Log into github.
   var client = github.client(latestSecret.value);
 
@@ -64,9 +57,9 @@ function ReleaseClass(name, releaseID, expired, versionNumber) {
   this.newMarkdown = "";
   this.sha;
 
-  this.findSection = function(sectionName) {
+  this.findSection = function (sectionName) {
     let resultArray = this.originalSections.filter(
-      section => section.name == sectionName
+      (section) => section.name == sectionName
     );
     if (resultArray.length > 0) return resultArray[0];
     console.log(
@@ -96,10 +89,10 @@ function callReleasesRestService(releases) {
   return new Promise((resolve, reject) => {
     request(
       "http://actio.genus.net/genus/api/public/rest/release/release",
-      function(error, response, body) {
+      function (error, response, body) {
         if (response && response.statusCode == 200) {
           var candidates = JSON.parse(body);
-          //console.log(body);
+
           for (var c in candidates) {
             if (!candidates.hasOwnProperty(c)) continue;
 
@@ -114,10 +107,9 @@ function callReleasesRestService(releases) {
               releases.push(releaseObject);
             }
           }
-          releases.sort(function(a, b) {
+          releases.sort(function (a, b) {
             return a.name > b.name ? 1 : a.name < b.name ? -1 : 0;
           });
-          //console.log(JSON.stringify(releases));
           resolve(releases);
         } else {
           reject(error);
@@ -134,7 +126,7 @@ function callReleaseNotesRestService(name, releaseNotes) {
     request(
       "https://actio.genus.net/genus/api/public/rest/release/releaseNotes?Release=" +
         name,
-      function(error, response, body) {
+      function (error, response, body) {
         if (response && response.statusCode == 200) {
           if (body == "") {
             resolve(releaseNotes);
@@ -169,7 +161,7 @@ function callReleaseNotesRestService(name, releaseNotes) {
             releaseNotes.push(rn);
           }
 
-          releaseNotes.sort(function(a, b) {
+          releaseNotes.sort(function (a, b) {
             return a.sortfield > b.sortfield
               ? 1
               : a.sortfield < b.sortfield
@@ -194,8 +186,8 @@ function callOperationsSampleRestService() {
       sample_code: "UPDATE_RELEASE_NOTES",
       value: 1,
       sample_datetime: moment().format("YYYY-MM-DD HH:mm:ss"),
-      version: 7
-    }
+      version: 7,
+    },
   });
 }
 
@@ -211,22 +203,22 @@ function readReleaseNoteFileFromGitHub(release) {
   return new Promise((resolve, reject) => {
     ghrepo.contents(
       "developers/release-notes/release-notes-" + release.name + ".md",
-      function(err, data, headers) {
-        if (headers && headers.status == "200 OK") {
-          // Uncertain what the problem is, but high codepoint characters received
-          // from Actio transported to GitHub, comes back in a different character
-          // encoding (from GitHub). Both should be UTF-8...
-          // Removing higher code points as a quick fix...
-          release.originalMarkdown = removeNonAsciiChars(atob(data.content));
-          release.originalExist = true;
-          release.sha = data.sha;
-          resolve(release);
-        } else if (err && err.statusCode == 404) {
+      function (err, data, headers) {
+        if (err && err.statusCode == 404) {
           // Not Found
           release.originalMarkdown = "";
           release.originalExist = false;
           resolve(release);
-        } else reject(err);
+          return;
+        }
+        // Uncertain what the problem is, but high codepoint characters received
+        // from Actio transported to GitHub, comes back in a different character
+        // encoding (from GitHub). Both should be UTF-8...
+        // Removing higher code points as a quick fix...
+        release.originalMarkdown = removeNonAsciiChars(atob(data.content));
+        release.originalExist = true;
+        release.sha = data.sha;
+        resolve(release);
       }
     );
   });
@@ -240,10 +232,8 @@ function updateReleaseNoteFileInGitHub(release, commitMessage) {
       commitMessage,
       release.newMarkdown,
       release.sha,
-      function(err, data, headers) {
-        if (headers && headers.status == "200 OK") {
-          resolve(release);
-        } else reject(err);
+      function (err, data, headers) {
+        resolve(release);
       }
     );
   });
@@ -423,7 +413,7 @@ function createNewMarkdown(aRelease) {
   var rNotesStr;
 
   // INSTALLATION / UPGRADE
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 1);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 1);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown +=
     "<!--rntype01-start INSTALLATION / UPGRADE." + startTagSuffix;
@@ -440,7 +430,7 @@ function createNewMarkdown(aRelease) {
   aRelease.newMarkdown += aSection.content;
 
   // END-OF-LIFE
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 3);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 3);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown += "<!--rntype03-start END-OF-LIFE." + startTagSuffix;
   if (rNotesStr != "") aRelease.newMarkdown += rNotesStr;
@@ -455,7 +445,7 @@ function createNewMarkdown(aRelease) {
   aRelease.newMarkdown += aSection.content;
 
   // DEPRECATED
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 4);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 4);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown += "<!--rntype04-start DEPRECATED." + startTagSuffix;
   if (rNotesStr != "") aRelease.newMarkdown += rNotesStr;
@@ -469,7 +459,7 @@ function createNewMarkdown(aRelease) {
   aRelease.newMarkdown += aSection.content;
 
   // BREAKING
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 5);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 5);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown += "<!--rntype05-start BREAKING." + startTagSuffix;
   if (rNotesStr != "") aRelease.newMarkdown += rNotesStr;
@@ -482,7 +472,7 @@ function createNewMarkdown(aRelease) {
   aRelease.newMarkdown += aSection.content;
 
   // MAJOR
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 6);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 6);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown += "<!--rntype06-start MAJOR." + startTagSuffix;
   if (rNotesStr != "") aRelease.newMarkdown += rNotesStr;
@@ -496,7 +486,7 @@ function createNewMarkdown(aRelease) {
   aRelease.newMarkdown += aSection.content;
 
   // MINOR
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 7);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 7);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown += "<!--rntype07-start MINOR." + startTagSuffix;
   if (rNotesStr != "") aRelease.newMarkdown += rNotesStr;
@@ -510,7 +500,7 @@ function createNewMarkdown(aRelease) {
   aRelease.newMarkdown += aSection.content;
 
   // BUGS (= RESOLVED ISSUES)
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 8);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 8);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown +=
     "<!--rntype08-start RESOLVED ISSUES." + startTagSuffix;
@@ -524,7 +514,7 @@ function createNewMarkdown(aRelease) {
   aRelease.newMarkdown += aSection.content;
 
   // ISSUES
-  rNotes = aRelease.releaseNotes.filter(rn => rn.type == 9);
+  rNotes = aRelease.releaseNotes.filter((rn) => rn.type == 9);
   rNotesStr = releaseNotesToStr(rNotes);
   aRelease.newMarkdown += "<!--rntype09-start KNOWN ISSUES." + startTagSuffix;
   if (rNotesStr != "") aRelease.newMarkdown += rNotesStr;
@@ -550,8 +540,6 @@ function createNewMarkdown(aRelease) {
 
   // See the other usage of removeNonAsciiChars for comments.
   aRelease.newMarkdown = removeNonAsciiChars(aRelease.newMarkdown);
-
-  //console.log(aRelease.newMarkdown + "\n-------------\n");
 }
 
 // ------------------------------------------------------------
@@ -562,7 +550,6 @@ function saveToFile(filename, content) {
     }
     fs.writeFileSync(filename, content);
   } catch (error) {
-    raven.captureException(error);
     console.log("Failed writing to file " + filename);
     process.exit(1);
   }
@@ -573,9 +560,7 @@ async function main() {
   var releases = [];
   try {
     await callReleasesRestService(releases);
-    //console.log("Releases: " + JSON.stringify(releases));
   } catch (error) {
-    raven.captureException(error);
     console.log(error);
     process.exit(1);
   }
@@ -587,7 +572,6 @@ async function main() {
         releases[r].releaseNotes
       );
     } catch (error) {
-      raven.captureException(error);
       console.log(error);
       process.exit(1);
     }
@@ -606,9 +590,7 @@ async function main() {
 
     try {
       await readReleaseNoteFileFromGitHub(aRelease);
-      //console.log(releases[r].originalMarkdown);
     } catch (error) {
-      raven.captureException(error);
       console.log(error);
       process.exit(1);
     }
@@ -618,11 +600,8 @@ async function main() {
     breakOriginalMarkdownIntoSections(aRelease);
     createNewMarkdown(aRelease);
 
-    //saveToFile("D:\\git\\original.md", aRelease.originalMarkdown);
-    //saveToFile("D:\\git\\new.md",      aRelease.newMarkdown);
-
     // Not necessary to update GitHub if there isn't any changes.
-    if (aRelease.originalMarkdown == aRelease.newMarkdown) {
+    if (aRelease.originalMarkdown === aRelease.newMarkdown) {
       console.log(aRelease.name + ": No changes. GitHub not updated.");
       continue;
     }
@@ -635,7 +614,6 @@ async function main() {
       );
       console.log(aRelease.name + ": ...done.");
     } catch (error) {
-      raven.captureException(error);
       console.log(error);
       process.exit(1);
     }
