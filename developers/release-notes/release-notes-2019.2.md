@@ -491,6 +491,11 @@ To reproduce:
 3) Unload the data mart
 4) Observe that using the data mart yields "Data mart not loaded" message
 
+<!--ID 3f0044f8-f4d3-485f-83f5-8c41376d0767 -->
+**#23317 Handle session-timout correctly** (Web)
+
+Correctly handling session timeout in oauth-adapter and redirects user to login
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
