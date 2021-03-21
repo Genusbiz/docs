@@ -1,8 +1,10 @@
 ```yaml
-
 genus-database-dictionary-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       cpu: 500m
@@ -17,6 +19,9 @@ genus-file-utility-service:
   enabled: true
   replicaCount: 1
   maxRequestSizeInMegaBytes: '100'
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       cpu: 500m
@@ -30,6 +35,9 @@ genus-file-utility-service:
 genus-wopi-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 50Mi
@@ -51,6 +59,9 @@ genus-common-config:
 genus-help-docs-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 25Mi
@@ -64,6 +75,9 @@ genus-help-docs-service:
 genus-web-frontend:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 25Mi
@@ -77,6 +91,9 @@ genus-web-frontend:
 genus-authorization-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: "32Mi"
@@ -90,6 +107,9 @@ genus-authorization-service:
 genus-authentication-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     request:
       memory: 50Mi
@@ -103,6 +123,9 @@ genus-authentication-service:
 genus-gateway-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   sessionDurationMinutes: "10080"
   sessionInactivityMaxDurationMinutes: "60"
   resources:
@@ -118,6 +141,9 @@ genus-gateway-service:
 genus-trace-input-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 50Mi
@@ -131,6 +157,9 @@ genus-trace-input-service:
 genus-message-subscription-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 50Mi
@@ -144,6 +173,9 @@ genus-message-subscription-service:
 genus-internationalization-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 25Mi
@@ -157,6 +189,9 @@ genus-internationalization-service:
 genus-webcal-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 25Mi
@@ -170,6 +205,9 @@ genus-webcal-service:
 genus-carddav-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources: 
     requests:
       memory: "32Mi"
@@ -183,6 +221,9 @@ genus-carddav-service:
 genus-live-update-input-service:
   enabled: true
   replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
   resources:
     requests:
       memory: 50Mi
