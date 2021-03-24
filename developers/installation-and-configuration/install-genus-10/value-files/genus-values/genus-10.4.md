@@ -299,12 +299,10 @@ genus-core-services:
   elasticsearch:
     username: ''
     password: ''
-    host: ''
-    port: ''
+    hosts: []
     cloudId: ''
     cloudAuth: ''
     kibanaHost: ''
-    kibanaPort: ''
 
 
 global:
@@ -318,10 +316,8 @@ global:
   dataSetURL: ''
   altDataSetURLs: []
   timezone: /usr/share/zoneinfo/Europe/Oslo
-  traceLogLevel: warning
   traceLogDebug: 'false'
   traceLogTiming: 'false'
-  enableTraceLog: 'true'
   enableSentry: 'true'
   jwkFromPem: ''
   image:
