@@ -60,12 +60,10 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.elasticsearch                                | These values are only used when either winlogbeat or filebeat is enabled | | 
 | genus-core-services.elasticsearch.username                       | The username for the Elasticsearch user | "" | 
 | genus-core-services.elasticsearch.password                       | The password for the Elasticsearch user | "" | 
-| genus-core-services.elasticsearch.host                           | The host for the Elasticsearch endpoint | "" | 
-| genus-core-services.elasticsearch.port                           | The port for the Elasticsearch endpoint| "" | 
+| genus-core-services.elasticsearch.hosts                          | The host(s) for the Elasticsearch endpoint(s). Example: ["https://elastic.example.com:9299"] | [] | 
 | genus-core-services.elasticsearch.cloudId                        | Cloud ID if using elasticcloud | "" | 
 | genus-core-services.elasticsearch.cloudAuth                      | Cloud auth if using elasticcloud | "" | 
 | genus-core-services.elasticsearch.kibanaHost                     | The host for the Kibana endpoint | "" | 
-| genus-core-services.elasticsearch.kibanaPort                     | The port for the Kibana endpoint | "" | 
 | global                                                           |  |  |
 | global.customer                                                  | The name of the customer who owns the environment | "" | 
 | global.modelName                                                 | The model name | "" | 
@@ -75,7 +73,5 @@ All microservices can be configured with the following common helm values.
 | global.dataSetURL                                                |  | "" | 
 | global.altDataSetURLs                                            |  | [] | 
 | global.timezone                                                  | Timezone | "/usr/share/zoneinfo/Europe/Oslo" | 
-| global.enableTraceLog                                            | Set this value to "false" to disable the TraceLog | "true" | 
-| global.traceLogLevel                                             | The log level for the TraceLog. Possible values are "error", "warning", "info" and "verbose" | "warning" | 
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" | 
 
