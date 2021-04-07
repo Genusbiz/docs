@@ -661,30 +661,42 @@
 - name: Release notes
   href: release-notes/index.md
   items:
-  - name: Version 2019.2
+  - name: Genus 10.5
+    href: release-notes/release-notes-10.5.md
+  - name: Genus 10.4
+    href: release-notes/release-notes-10.4.md
+  - name: Genus 10.3
+    href: release-notes/release-notes-10.3.md
+  - name: Genus 10.2
+    href: release-notes/release-notes-10.2.md
+  - name: Genus 10.1
+    href: release-notes/release-notes-10.1.md
+  - name: Genus 10.0
+    href: release-notes/release-notes-10.0.md
+  - name: Genus 2019.2
     href: release-notes/release-notes-2019.2.md
-  - name: Version 2019.1
+  - name: Genus 2019.1
     href: release-notes/release-notes-2019.1.md
-  - name: Version 2018.3
-    href: release-notes/release-notes-2018.3.md
-  - name: Version 2018.2
-    href: release-notes/release-notes-2018.2.md
-  - name: Version 2018.1
-    href: release-notes/release-notes-2018.1.md
-  - name: Version 2017.5
-    href: release-notes/release-notes-2017.5.md
-  - name: Version 2017.4
-    href: release-notes/release-notes-2017.4.md
-  - name: Version 2017.3
-    href: release-notes/release-notes-2017.3.md
-  - name: Version 2017.2
-    href: release-notes/release-notes-2017.2.md
-  - name: Version 2017.1
-    href: release-notes/release-notes-2017.1.md
   - name: About release stages
     href: release-notes/release-stages.md
   - name: Older
     items:
+    - name: Version 2018.3
+      href: release-notes/older/release-notes-2018.3.md
+    - name: Version 2018.2
+      href: release-notes/older/release-notes-2018.2.md
+    - name: Version 2018.1
+      href: release-notes/older/release-notes-2018.1.md
+    - name: Version 2017.5
+      href: release-notes/older/release-notes-2017.5.md
+    - name: Version 2017.4
+      href: release-notes/older/release-notes-2017.4.md
+    - name: Version 2017.3
+      href: release-notes/older/release-notes-2017.3.md
+    - name: Version 2017.2
+      href: release-notes/older/release-notes-2017.2.md
+    - name: Version 2017.1
+      href: release-notes/older/release-notes-2017.1.md
     - name: Version 2016.1
       href: release-notes/older/release-notes-2016.1.md
     - name: Version 2015.2

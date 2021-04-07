@@ -40,7 +40,8 @@ const baseHelmValueDescriptionUrlForGithub =
   "developers/installation-and-configuration/install-genus-10/value-files/genus-";
 
 async function startFetchHelmValuesDescription() {
-  await fetchHelmValueDescriptionFromGitlab("master", "10.4");
+  await fetchHelmValueDescriptionFromGitlab("master", "10.5");
+  await fetchHelmValueDescriptionFromGitlab("release/10.4", "10.4");
   await fetchHelmValueDescriptionFromGitlab("release/10.3", "10.3");
   await fetchHelmValueDescriptionFromGitlab("release/10.2", "10.2");
 }
@@ -108,7 +109,8 @@ const baseHelmValueFilesUrlForGithub =
   "developers/installation-and-configuration/install-genus-10/value-files/genus-values/genus-";
 
 async function startFetchHelmValues() {
-  await fetchHelmValuesFromGitlab("master", "10.4");
+  await fetchHelmValuesFromGitlab("master", "10.5");
+  await fetchHelmValuesFromGitlab("release/10.4", "10.4");
   await fetchHelmValuesFromGitlab("release/10.3", "10.3");
   await fetchHelmValuesFromGitlab("release/10.2", "10.2");
 }
