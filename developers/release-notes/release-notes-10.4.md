@@ -36,7 +36,11 @@ There are no end-of-life functionality identified in this release.
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There is no deprecated functionality in this release.
+<!--ID e1917c12-f88e-45ae-b185-4146fa5f12e8 -->
+**#23328 Diagram component from yWorks in Desktop** (Desktop)
+
+The component will be replaced in a later release by a new web diagram component
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
