@@ -59,18 +59,18 @@ There are no minor new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
-<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-## Known issues
-
-Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
-<!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID afdef7bf-2598-42cf-931b-104872a47e91 -->
 **#23326 Required could not be saved for query parameter in Rest Service Editor** (Studio)
 
 <!--ID b85eb3ba-341c-46de-a8c6-b119f5dec5c3 -->
 **#23327 Fixed automatic naming of controls when added to Page** (Web)
 
+<!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+## Known issues
+
+Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
+<!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
