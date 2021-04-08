@@ -42,8 +42,11 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID a0b999cd-e421-4bae-86fa-2c23f19ac3e1 -->
-**#23323 Test**
+<!--ID ed8d27eb-863d-4bf7-b616-42f0586e3cf9 -->
+**#23325 Changes in object links** (Desktop)
+
+Moving from 19.X to 10.X links will normally change because of the introduction of cloud, and modifications to how dataset is represented in links. Links to objects and concepts will therefore normally no longer work.
+Moving from 10.4 to 10.5 links will no longer contain their query parameters as an encrypted string, but as a human readable list of name value pairs. Links to objects and concepts made with versions <= 10.4 will therefore no longer work.
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
