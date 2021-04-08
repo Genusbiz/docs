@@ -68,6 +68,9 @@ Known issues are errors or lack of functionality. Known issues may be solved in 
 <!--ID afdef7bf-2598-42cf-931b-104872a47e91 -->
 **#23326 Required could not be saved for query parameter in Rest Service Editor** (Studio)
 
+<!--ID b85eb3ba-341c-46de-a8c6-b119f5dec5c3 -->
+**#23327 Fixed automatic naming of controls when added to Page** (Web)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
