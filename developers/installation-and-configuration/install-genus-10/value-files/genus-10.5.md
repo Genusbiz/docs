@@ -67,11 +67,12 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.elasticsearch.kibanaHost                     | The host for the Kibana endpoint | "" | 
 | global                                                           |  |  |
 | global.customer                                                  | The name of the customer who owns the environment | "" | 
-| global.modelName                                                 | The model name | "" | 
+| global.environmentName                                           | The name of the environment. The name shared by all namespaces working together | "" |
+| global.namespaceName                                             | The name of the namespace where the chart is deployed to. Used for validation when deploying | "" | 
 | global.k8sNamespaceType                                          | Possible values are "origin", "green", "blue" or "operator" | "" | 
 | global.deployed                                                  | Wether or not the namespace is running in a deployed state. Possible values are "true" or "false".  | "" | 
 | global.virtualDirectory                                          |  | "--" | 
-| global.dataSetURL                                                |  | "" | 
+| global.dnsSuffix                                                 | The part of the URL that follows the host name. I.E: If the environment runs on app.example.com, dnsSuffix is "example.com"  | "" | 
 | global.altDataSetURLs                                            |  | [] | 
 | global.timezone                                                  | Timezone | "/usr/share/zoneinfo/Europe/Oslo" | 
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" | 
