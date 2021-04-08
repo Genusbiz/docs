@@ -110,6 +110,9 @@ This also makes it possible to provide several endpoints, which are used in a ro
 <!--ID 5d79f13a-7b4f-41bc-86ca-e746a9c12299 -->
 **#23322 Fixed errors related to how Helper Text was displayed in various Web controls** (Web)
 
+<!--ID b85eb3ba-341c-46de-a8c6-b119f5dec5c3 -->
+**#23327 Fixed automatic naming of controls when added to Page** (Web)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
