@@ -322,11 +322,12 @@ genus-core-services:
 
 
 global:
-  subDomain: ''
+  dnsSuffix: ''
   nodeEnviroment: production
   customer: ''
-  modelName: ''
+  environmentName: ''
   k8sNamespaceType: ''
+  namespaceName: ''
   deployed: ''
   virtualDirectory: '--'
   dataSetURL: ''
