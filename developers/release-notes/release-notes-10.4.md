@@ -42,8 +42,18 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID df3051f0-7eca-4485-8960-b8e5554380d2 -->
-**#23313 Changed items in Lookup to display a link and changed activation from Ctrl+Click to normal Click** (Web)
+<!--ID d56098da-dfde-43e0-9010-1d72da87878c -->
+**#23312 Changed how Elasticsearch endpoints are configured in helm values** (Services)
+
+Insead of having to provide both the host and the port, it is now configured in an array:
+```
+Old:
+genus-core-services.elasticsearch.host: https://elastic.example.com
+genus-core-services.elasticsearch.port: 9200 
+New:
+genus-core-services.elasticsearch.hosts: ["https://elastic.example.com:9200"]
+```
+This also makes it possible to provide several endpoints, which are used in a round robin fashion.
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
@@ -69,18 +79,8 @@ This is to specify that support for version "n" also indicates support for versi
 <!--ID 36854628-2b8c-4246-b03d-b766ffeb389b -->
 **#23309 "On Value Changed"-Events did not trigger when page was opened as modal via client actions.** (Web)
 
-<!--ID d56098da-dfde-43e0-9010-1d72da87878c -->
-**#23312 Changed how Elasticsearch endpoints are configured in helm values** (Services)
-
-Insead of having to provide both the host and the port, it is now configured in an array:
-```
-Old:
-genus-core-services.elasticsearch.host: https://elastic.example.com
-genus-core-services.elasticsearch.port: 9200 
-New:
-genus-core-services.elasticsearch.hosts: ["https://elastic.example.com:9200"]
-```
-This also makes it possible to provide several endpoints, which are used in a round robin fashion.
+<!--ID df3051f0-7eca-4485-8960-b8e5554380d2 -->
+**#23313 Changed items in Lookup to display a link and changed activation from Ctrl+Click to normal Click** (Web)
 
 <!--ID d5cce205-2fcd-4262-99ae-6ebd00409ec1 -->
 **#23314 App designer fails when adding an URL lik to sitemap** (Studio)
@@ -94,6 +94,9 @@ Should not be asked to save changes since the page is not abandoned or left.
 **#23316 Parsing of expressions defined in Studio containing Norwegian specific letters fails on web** (Web)
 
 Occurs if you have an object class containing a letter such as &aelig;, &oslash;, or &aring; which is referenced in an expression (e.g. a value formula or data validation defined in Studio).
+
+<!--ID 520555cb-7d35-4455-8b13-d544652a9e4e -->
+**#23318 Fixed error in Theme editor when reading theme data** (Desktop)
 
 <!--ID c4800c60-7ead-48f3-a1a0-65c51a26ab20 -->
 **#23321 Border was not visible on Diagram items with white color** (Studio)
@@ -109,9 +112,7 @@ Occurs if you have an object class containing a letter such as &aelig;, &oslash;
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 520555cb-7d35-4455-8b13-d544652a9e4e -->
-**#23318 Fixed error in Theme editor when reading theme data** (Desktop)
-
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
