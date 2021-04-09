@@ -64,9 +64,53 @@ genus-wopi-service:
   serviceMonitor:
     scrapeInterval: 30s
 
-genus-redis:
-  enabled: true
-  replicaCount: 1
+redis:
+  fullnameOverride: redis-sentinel
+  usePassword: true
+  existingSecret: "generic-redis"
+  existingSecretPasswordKey: "PASSWORD"
+  master:
+    nodeSelector:
+      kubernetes.io/os: linux
+    persistence:
+      enabled: false
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 30
+    readinessProbe:
+      enabled: true
+      initialDelaySeconds: 30
+  slave:
+    nodeSelector:
+      kubernetes.io/os: linux
+    persistence:
+      enabled: false
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 30
+    readinessProbe:
+      enabled: true
+      initialDelaySeconds: 30
+  sentinel:
+    enabled: true
+    usePassword: true
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 30
+    readinessProbe:
+      enabled: true
+      initialDelaySeconds: 30
+    metrics:
+      enabled: true
+      serviceMonitor:
+        enabled: true
+  cluster:
+    enabled: true
+    slaveCount: 1
+  metrics:
+    enabled: true
+    serviceMonitor: 
+      enabled: true
 
 genus-common-config:
   enabled: true
