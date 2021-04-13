@@ -128,6 +128,8 @@ A panel for adding and removing permissions to Data Marts and Dashboards are now
 
 Thread handling in services is optimized. The result is an improvement in response times when there is a high load on the service.
 
+This feature is still experimental. To enable it, add ``__GDEF_CEH_THREAD_SLEEP_ONE__ and __BASIC_THREAD_POOL_SLEEP_ONE__`` to the experimental feature table
+
 <!--ID 8e9aa527-3a40-49b9-a467-2c01b8f6067d -->
 **#23334 Self-learning algorithm to reduce On Request Field-SQL queries** (Desktop;Services)
 
