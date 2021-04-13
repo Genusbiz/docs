@@ -112,6 +112,11 @@ It's now possible to create links to desktop tables in the sitemap. You can add 
 
 This is tipically used for advanced tabels that uses functionality not supportet on Genus web.
 
+<!--ID 09e8774f-2e1f-49bf-ae24-ce591273586b -->
+**#23331 Permission panel on Genus Web**
+
+A panel for adding and removing permissions to Data Marts and Dashboards are now available on Genus Web
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
