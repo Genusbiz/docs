@@ -110,7 +110,7 @@ This is to specify that support for version "n" also indicates support for versi
 
 It's now possible to create links to desktop tables in the sitemap. You can add multiple views just as easy as in the navigation pane. 
 
-This is tipically used for advanced tabels that uses functionality not supportet on Genus web.
+This is typically used for advanced tabels that uses functionality not supportet on Genus web.
 
 <!--ID 09e8774f-2e1f-49bf-ae24-ce591273586b -->
 **#23331 Permission panel on Genus Web**
