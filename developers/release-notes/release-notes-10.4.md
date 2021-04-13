@@ -70,6 +70,12 @@ This also makes it possible to provide several endpoints, which are used in a ro
 - Trace level on server is default warning
 - Trace level on server is now set in the Trace Log tool
 
+<!--ID badb727a-d250-4fe0-9bb7-675f336fa023 -->
+**#23332 Data Mart Load plan v2  GUI for scheduling on Web** (Desktop;Web)
+
+Data mart load plans are now configured in the web interface. The configuration is greatly simplified. The load plan only states what time of a day the datamart should be available, and the maximum age of the data in it.
+Old load plans are deprecated, but will still be considered in a transition period. The existence of a new load plan will make the old void.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -116,6 +122,11 @@ This is typically used for advanced tabels that uses functionality not supportet
 **#23331 Permission panel on Genus Web**
 
 A panel for adding and removing permissions to Data Marts and Dashboards are now available on Genus Web
+
+<!--ID 605149e7-0527-4f85-95e1-5bfb78ecedf7 -->
+**#23333 Improved thread handling** (Services)
+
+Thread handling in services is optimized. The result is an improvement in response times when there is a high load on the service.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
