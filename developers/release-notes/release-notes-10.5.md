@@ -42,6 +42,24 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 23cb93cf-2a7b-4739-b8e4-76d1c0f998ee -->
+**#23324 Changes to helm values**
+
+Several new helm values are added in Genus 10.5:
+
+**global.environmentName**
+
+This value replaces *global.modelName*, which is no longer used. 
+
+**global.dnsSuffix**
+
+This value replaces *global.subDomain*, but should now contain the entire dnsSuffix (everything except the first part of the host name). This allows for more flexibility when creating host names.
+
+I.E: If your namespace is runs at *namespace.cluster.example.com*, **global.dnsSuffix** should now be "cluster.example.com", whereas the old value *global.subDomain* would have been only "example.com"
+
+**global.namespaceName**
+The name of the namespace in which the chart are deployed. This is mainly used for validation purposes when deploying.
+
 <!--ID ed8d27eb-863d-4bf7-b616-42f0586e3cf9 -->
 **#23325 Changes in object links** (Desktop)
 
