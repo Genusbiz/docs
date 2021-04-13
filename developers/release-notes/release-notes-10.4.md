@@ -62,10 +62,38 @@ This also makes it possible to provide several endpoints, which are used in a ro
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 40301205-9ebd-4fc4-9f2c-a228c0098cbe -->
+**#23285 Trace Log improvements** (Desktop;Services;Web)
+
+- Lots of technical, debugging and timer related trace entries removed
+- New filtering attribute "requestId" added. Makes it possible to filter down to a single web api call in a multi threaded scenario (experimental)
+- Trace level on server is default warning
+- Trace level on server is now set in the Trace Log tool
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 00c46043-3233-41ee-8bd8-1ba97a29f81d -->
+**#23284 Modified deserialization of non-modified objects in server side actions initiated from web client** (Web)
+
+This new functionality changes behaviour in the following scenario:
+
+- A web client calls a server side action.
+- The server side action uses an unmodified object from the client as input.
+- The unmodified object is available to the server from persistent storage (rdbms).
+
+Previously the unmodified object was deserialized in the request.
+Now only the identifier (and a version-stamp if such exists) is deserialized, the rest of the object is read from persistent storage.
+
+Effect:
+
+- If the non-modified object held by the client is outdated, and there is a version-stamp, an immediate concurrency report is returned to the client.
+- If the non-modified object held by the client is outdated, and there is no version-stamp, the action is performed on the current version of the object.
+
+Changes to consider in actions:
+
+- Some modellers have added read-objects effects to the start of server actions to ensure updated objects. This should no longer be nescessary, thus improving performance.
+
 <!--ID 9699bac5-bad4-453c-b374-c85c2f6809d4 -->
 **#23311 It is now possible to override Sentry DSN endpoints for all microservices**
 
