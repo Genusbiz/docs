@@ -100,7 +100,7 @@ Should not be asked to save changes since the page is not abandoned or left.
 Occurs if you have an object class containing a letter such as &aelig;, &oslash;, or &aring; which is referenced in an expression (e.g. a value formula or data validation defined in Studio).
 
 <!--ID 520555cb-7d35-4455-8b13-d544652a9e4e -->
-**#23318 Fixed error in Theme editor when reading theme data** (Desktop)
+**#23318 Fixed error in Theme editor when reading theme data.** (Desktop)
 
 <!--ID c4800c60-7ead-48f3-a1a0-65c51a26ab20 -->
 **#23321 Border was not visible on Diagram items with white color** (Studio)
