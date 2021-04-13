@@ -105,6 +105,13 @@ Changes to consider in actions:
 
 This is to specify that support for version "n" also indicates support for versions later than "n"
 
+<!--ID bc533c72-1456-4212-a73e-4e952f780998 -->
+**#23330 Open desktop table from Web** (Web)
+
+It's now possible to create links to desktop tables in the sitemap. You can add multiple views just as easy as in the navigation pane. 
+
+This is tipically used for advanced tabels that uses functionality not supportet on Genus web.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
