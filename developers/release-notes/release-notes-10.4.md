@@ -128,6 +128,11 @@ A panel for adding and removing permissions to Data Marts and Dashboards are now
 
 Thread handling in services is optimized. The result is an improvement in response times when there is a high load on the service.
 
+<!--ID 8e9aa527-3a40-49b9-a467-2c01b8f6067d -->
+**#23334 Self-learning algorithm to reduce On Request Field-SQL queries** (Desktop;Services)
+
+An optimization technique which reads only fields nescessary for an operation can sometimes miss on some fields, resulting in these fields having to be read in a separate query. A learing algorith is implemented to amend this, which results in improved performence in such cases.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
