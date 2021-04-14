@@ -135,6 +135,19 @@ This feature is still experimental. To enable it, add ``__GDEF_CEH_THREAD_SLEEP_
 
 An optimization technique which reads only fields nescessary for an operation can sometimes miss on some fields, resulting in these fields having to be read in a separate query. A learing algorith is implemented to amend this, which results in improved performence in such cases.
 
+<!--ID 43634257-fc51-4678-a704-6eac511621d8 -->
+**#23335 Affinity scheduling** (Services)
+
+When running a Kubernetes cluster with multiple nodes it is sometimes useful to spread critical resources across multiple nodes.  It can also be useful to schedule heavy computing tasks on multiple nodes where they will be executed more efficiently. 
+
+Genus 10.4 now supports affinity scheduling for all pods. This can be turned on with the following settings:
+
+.affinityScheduling.enabled 
+
+.affinityScheduling.namespaceListForPodAntiAffinity
+
+See https://docs.genus.no/developers/installation-and-configuration/install-genus-10/value-files/genus-10.4.html for more information
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
