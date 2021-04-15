@@ -73,7 +73,9 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID a8c32391-3b9d-4ea1-9e68-ea6905781553 -->
+**#23336 Icon control now has options to set symbol conditionally** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -82,6 +84,11 @@ There are no minor new functionality in this release.
 
 <!--ID b85eb3ba-341c-46de-a8c6-b119f5dec5c3 -->
 **#23327 Fixed automatic naming of controls when added to Page** (Web)
+
+<!--ID d68db030-affc-4614-80c9-6b9eee307f09 -->
+**#23337 It was possible to enter invalid characters for name of control in Page Designer** (Web)
+
+This was not intentionally and we are now preventing whitespace from being entered.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
