@@ -88,7 +88,7 @@ function releaseNoteClass(id, no, type, subject, products, description) {
 function callReleasesRestService(releases) {
   return new Promise((resolve, reject) => {
     request(
-      "http://actio.genus.net/genus/api/public/rest/release/release",
+      "https://actio.genus.net/-/rest/public/release/release",
       function (error, response, body) {
         if (response && response.statusCode == 200) {
           var candidates = JSON.parse(body);
@@ -124,7 +124,7 @@ function callReleasesRestService(releases) {
 function callReleaseNotesRestService(name, releaseNotes) {
   return new Promise((resolve, reject) => {
     request(
-      "https://actio.genus.net/genus/api/public/rest/release/releaseNotes?Release=" +
+      "https://actio.genus.net/-/rest/public/release/releaseNotes?Release=" +
         name,
       function (error, response, body) {
         if (response && response.statusCode == 200) {
