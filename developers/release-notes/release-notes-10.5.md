@@ -81,6 +81,11 @@ There are no major new functionality in this release.
 
 Add reset button in View/Table toolbar
 
+<!--ID 08978d35-8ca4-487a-a1fa-b3ceb6e49ee9 -->
+**#23339 Color Set on Table Cells** (Web)
+
+Add Color Set property to Table Cells in View/Table control
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
