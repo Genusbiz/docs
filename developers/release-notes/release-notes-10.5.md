@@ -76,6 +76,11 @@ There are no major new functionality in this release.
 <!--ID a8c32391-3b9d-4ea1-9e68-ea6905781553 -->
 **#23336 Icon control now has options to set symbol conditionally** (Web)
 
+<!--ID b56f58c9-c3ba-432c-b945-35301112e7fc -->
+**#23338 Reset Button in View/Table control** (Web)
+
+Add reset button in View/Table toolbar
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
