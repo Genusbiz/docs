@@ -496,6 +496,9 @@ To reproduce:
 
 Correctly handling session timeout in oauth-adapter and redirects user to login
 
+<!--ID b5a2c356-7f35-46f4-98b7-d15201b84dd7 -->
+**#23340 Improved clipboard monitoring when copy is performed in the system** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
