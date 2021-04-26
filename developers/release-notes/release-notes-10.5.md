@@ -100,6 +100,9 @@ Add Color Set property to Table Cells in View/Table control
 
 This was not intentionally and we are now preventing whitespace from being entered.
 
+<!--ID b5a2c356-7f35-46f4-98b7-d15201b84dd7 -->
+**#23340 Improved clipboard monitoring when copy is performed in the system** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
