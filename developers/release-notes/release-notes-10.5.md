@@ -47,7 +47,7 @@ This section lists important changes introduced in this release. You will need t
 
 Several new helm values are added in Genus 10.5:
 
-**global.environmentName**
+**global.modelIdentifier**
 
 This value replaces *global.modelName*, which is no longer used. 
 
