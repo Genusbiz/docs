@@ -350,7 +350,7 @@ global:
   dnsSuffix: ''
   nodeEnviroment: production
   customer: ''
-  environmentName: ''
+  modelIdentifier: ''
   k8sNamespaceType: ''
   namespaceName: ''
   deployed: ''
