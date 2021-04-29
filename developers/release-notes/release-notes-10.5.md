@@ -86,6 +86,11 @@ Add reset button in View/Table toolbar
 
 Add Color Set property to Table Cells in View/Table control
 
+<!--ID 20f60592-0649-4b7f-8294-252c195028f5 -->
+**#23341 Operator allows routing to multiple active namespaces** (Services)
+
+Operator 4.0.0 supports routing to multiple active namespaces. This requires Genus >= 10.5. In order for routing to work properly, Endpoints have to be assigned to namespaces in Studio.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
