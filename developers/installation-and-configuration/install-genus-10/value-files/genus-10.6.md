@@ -7,21 +7,23 @@ All microservices can be configured with the following common helm values.
 | <microservice>.enabled                                           |  | true |
 | <microservice>.sentryDSN                                         | Link to Sentry DSN endpoint. | *Unique DSN for every microservice* |
 | <microservice>.replicaCount                                      |  | 1 |
-| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
-| <microservice>.resources.requests.memory                         |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
-| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
-| <microservice>.resources.limits.memory                           |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
-| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](./genus-values/genus-10.4.md)* |
-| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](./genus-values/genus-10.4.md)* |
+| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
+| <microservice>.resources.requests.memory                         |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
+| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
+| <microservice>.resources.limits.memory                           |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
+| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
+| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](./genus-values/genus-10.6.md)* |
 | <microservice>.serviceMonitor.scrapeInterval                     | Interval of Prometheus scraping the metrics endpoint | "30s"
 
 ## Release values
 | Parameter                                                        | Description | Default | 
 |--                                                                |--|--|
+| genus-message-queue-service                                      | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-database-dictionary-service                                | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-file-utility-service                                       | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-wopi-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
-| genus-redis                                                      |  |  | 
+| redis 
+| redis.replica.replicaCount                                       | Number of slaves. The value should never be 2. Always 1 or >= 3  | 1 (No replication) | 
 | genus-common-config                                              |  |  | 
 | genus-help-docs-service                                          | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-web-frontend                                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
@@ -66,11 +68,12 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.elasticsearch.kibanaHost                     | The host for the Kibana endpoint | "" | 
 | global                                                           |  |  |
 | global.customer                                                  | The name of the customer who owns the environment | "" | 
-| global.modelName                                                 | The model name | "" | 
+| global.modelIdentifier                                           | The identifing name of the model. The name shared by all namespaces working together | "" |
+| global.namespaceName                                             | The name of the namespace where the chart is deployed to. Used for validation when deploying | "" | 
 | global.k8sNamespaceType                                          | Possible values are "origin", "green", "blue" or "operator" | "" | 
 | global.deployed                                                  | Wether or not the namespace is running in a deployed state. Possible values are "true" or "false".  | "" | 
 | global.virtualDirectory                                          |  | "--" | 
-| global.dataSetURL                                                |  | "" | 
+| global.dnsSuffix                                                 | The part of the URL that follows the host name. I.E: If the environment runs on app.example.com, dnsSuffix is "example.com"  | "" | 
 | global.altDataSetURLs                                            |  | [] | 
 | global.timezone                                                  | Timezone | "/usr/share/zoneinfo/Europe/Oslo" | 
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" | 
