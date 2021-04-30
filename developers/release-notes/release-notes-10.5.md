@@ -66,6 +66,11 @@ The name of the namespace in which the chart are deployed. This is mainly used f
 Moving from 19.X to 10.X links will normally change because of the introduction of cloud, and modifications to how dataset is represented in links. Links to objects and concepts will therefore normally no longer work.
 Moving from 10.4 to 10.5 links will no longer contain their query parameters as an encrypted string, but as a human readable list of name value pairs. Links to objects and concepts made with versions <= 10.4 will therefore no longer work.
 
+<!--ID c7b050f6-1136-4fde-9490-694fcb7d3af9 -->
+**#23342 Operator relies on Endpoints to configure namespace routing** (Services)
+
+Operator 4.0.0 relies on Endpoints to configure namespace routing. Endpoints can be assigned to namespaces in Studio. This requires Genus >= 10.5.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
