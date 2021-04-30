@@ -66,6 +66,11 @@ The name of the namespace in which the chart are deployed. This is mainly used f
 Moving from 19.X to 10.X links will normally change because of the introduction of cloud, and modifications to how dataset is represented in links. Links to objects and concepts will therefore normally no longer work.
 Moving from 10.4 to 10.5 links will no longer contain their query parameters as an encrypted string, but as a human readable list of name value pairs. Links to objects and concepts made with versions <= 10.4 will therefore no longer work.
 
+<!--ID 20f60592-0649-4b7f-8294-252c195028f5 -->
+**#23341 Operator allows routing to multiple active namespaces** (Services)
+
+Operator 4.0.0 supports routing to multiple active namespaces. This requires Genus >= 10.5. In order for routing to work properly, Endpoints have to be assigned to namespaces in Studio.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -85,11 +90,6 @@ Add reset button in View/Table toolbar
 **#23339 Color Set on Table Cells** (Web)
 
 Add Color Set property to Table Cells in View/Table control
-
-<!--ID 20f60592-0649-4b7f-8294-252c195028f5 -->
-**#23341 Operator allows routing to multiple active namespaces** (Services)
-
-Operator 4.0.0 supports routing to multiple active namespaces. This requires Genus >= 10.5. In order for routing to work properly, Endpoints have to be assigned to namespaces in Studio.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
