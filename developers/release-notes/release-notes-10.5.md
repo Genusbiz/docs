@@ -72,7 +72,7 @@ Moving from 10.4 to 10.5 links will no longer contain their query parameters as 
 <!--ID 20f60592-0649-4b7f-8294-252c195028f5 -->
 **#23341 Operator allows routing to multiple active namespaces** (Services)
 
-Operator 4.0.0 supports routing to multiple active namespaces. This requires Genus >= 10.5. In order for routing to work properly, Endpoints have to be assigned to namespaces in Studio.
+Operator 4.0.0 supports routing to multiple active namespaces. This requires Genus >= 10.5.
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
