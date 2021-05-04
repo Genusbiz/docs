@@ -95,6 +95,11 @@ Add reset button in View/Table toolbar
 
 Add Color Set property to Table Cells in View/Table control
 
+<!--ID a8aacef6-35f1-45a9-ab01-719b181139a9 -->
+**#23343 Redis Sentinel** (Services)
+
+Genus now supports the use of sentinels when deploying Redis. In the case that number of replicas for Redis is greater than 2 the pods will contain an extra container with Redis Sentinel. This container will form a cluster of Redis Sentinel nodes, which will promote a new master in case the actual one fails.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
