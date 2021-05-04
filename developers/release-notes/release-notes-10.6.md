@@ -42,30 +42,7 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 23cb93cf-2a7b-4739-b8e4-76d1c0f998ee -->
-**#23324 Changes to helm values**
-
-Several new helm values are added in Genus 10.5:
-
-**global.modelIdentifier**
-
-This value replaces *global.modelName*, which is no longer used. 
-
-**global.dnsSuffix**
-
-This value replaces *global.subDomain*, but should now contain the entire dnsSuffix (everything except the first part of the host name). This allows for more flexibility when creating host names.
-
-I.E: If your namespace is runs at *namespace.cluster.example.com*, **global.dnsSuffix** should now be "cluster.example.com", whereas the old value *global.subDomain* would have been only "example.com"
-
-**global.namespaceName**
-The name of the namespace in which the chart are deployed. This is mainly used for validation purposes when deploying.
-
-<!--ID ed8d27eb-863d-4bf7-b616-42f0586e3cf9 -->
-**#23325 Changes in object links** (Desktop)
-
-Moving from 19.X to 10.X links will normally change because of the introduction of cloud, and modifications to how dataset is represented in links. Links to objects and concepts will therefore normally no longer work.
-Moving from 10.4 to 10.5 links will no longer contain their query parameters as an encrypted string, but as a human readable list of name value pairs. Links to objects and concepts made with versions <= 10.4 will therefore no longer work.
-
+There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -73,35 +50,14 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID a8c32391-3b9d-4ea1-9e68-ea6905781553 -->
-**#23336 Icon control now has options to set symbol conditionally** (Web)
-
-<!--ID b56f58c9-c3ba-432c-b945-35301112e7fc -->
-**#23338 Reset Button in View/Table control** (Web)
-
-Add reset button in View/Table toolbar
-
-<!--ID 08978d35-8ca4-487a-a1fa-b3ceb6e49ee9 -->
-**#23339 Color Set on Table Cells** (Web)
-
-Add Color Set property to Table Cells in View/Table control
-
+There are no minor new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID afdef7bf-2598-42cf-931b-104872a47e91 -->
-**#23326 Required could not be saved for query parameter in Rest Service Editor** (Studio)
+<!--ID 3e911690-8daa-49f8-82e9-b4f373c3c168 -->
+**#23344 Genus frequently shuts down with an error when I am browsing through OC properties in Studio** (Studio)
 
-<!--ID b85eb3ba-341c-46de-a8c6-b119f5dec5c3 -->
-**#23327 Fixed automatic naming of controls when added to Page** (Web)
-
-<!--ID d68db030-affc-4614-80c9-6b9eee307f09 -->
-**#23337 It was possible to enter invalid characters for name of control in Page Designer** (Web)
-
-This was not intentionally and we are now preventing whitespace from being entered.
-
-<!--ID b5a2c356-7f35-46f4-98b7-d15201b84dd7 -->
-**#23340 Improved clipboard monitoring when copy is performed in the system** (Desktop)
+Occurs when an object class property is opened in Studio and the next/previous buttons are used to open an adjacent property.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
