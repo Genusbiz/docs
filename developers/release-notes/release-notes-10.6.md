@@ -50,7 +50,18 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID 9d02ac5f-bc68-49e7-9f7e-310fbe5ca8ae -->
+**#23345 Updated third party libraries for file conversion and document merge** (Desktop;Web)
+
+Results from file conversions and document merge may be affected by Aspose upgrade.
+
+Aspose.Cells 21.1.0 => 21.4.0
+Aspose.Email 20.12.0 => 21.3.0
+Aspose.Imaging 20.12.0 => 21.4.0
+Aspose.PDF 21.1.0 => 21.4.0
+Aspose.Tasks 21.1.0 => 21.4.0
+Aspose.Words 21.1.0 => 21.4.0
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
