@@ -57,6 +57,7 @@ Results from file conversions and document merge may be affected by Aspose upgra
 
 Aspose.Cells 21.1.0 => 21.4.0
 Aspose.Email 20.12.0 => 21.3.0
+Aspose.Email (megaservice) 20.7.0 => 21.4.0
 Aspose.Imaging 20.12.0 => 21.4.0
 Aspose.PDF 21.1.0 => 21.4.0
 Aspose.Tasks 21.1.0 => 21.4.0
