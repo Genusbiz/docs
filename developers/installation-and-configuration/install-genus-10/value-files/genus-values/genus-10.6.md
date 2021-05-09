@@ -85,13 +85,13 @@ redis:
     persistence:
       enabled: false
   metrics:
-    enabled: true
+    enabled: false
     serviceMonitor: 
-      enabled: true
+      enabled: false
     sentinel:
-      enabled: true
+      enabled: false
       serviceMonitor:
-        enabled: true
+        enabled: false
     
 genus-common-config:
   enabled: true
