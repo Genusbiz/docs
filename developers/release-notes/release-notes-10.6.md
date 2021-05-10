@@ -71,6 +71,11 @@ Aspose.Words 21.1.0 => 21.4.0
 
 Occurs when an object class property is opened in Studio and the next/previous buttons are used to open an adjacent property.
 
+<!--ID de54a2ea-f7a1-433d-bb05-fcd6655912b8 -->
+**#23346 Fixed handling of database connectivity issues** (Services)
+
+If the connection to a database dropped (e.g. due to nightly backups) Genus services would often fail to recover when the database came back online. During initialization (e.g. following a scheduled nightly process recycle) the Genus mega-service will now avoid caching data until successfully read from the database.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
