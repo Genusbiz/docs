@@ -547,14 +547,16 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md
     - name: App Services recycling
       href: installation-and-configuration/configure-and-maintain-genus-server/app-services-recycling.md
+    - name: Special considerations for Microsoft Sql Server
+      href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sql-server.md
+    - name: Special considerations for Azure SQL
+      href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-azure-sql.md
     - name: Special considerations for MySQL
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-mysql.md
     - name: Special considerations for Oracle
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-oracle.md
     - name: Special considerations for Sybase
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sybase.md
-    - name: Special considerations for Azure SQL
-      href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-azure-sql.md
     - name: Automatically delete old log files
       href: installation-and-configuration/configure-and-maintain-genus-server/automatically-delete-old-log-files.md
     - name: Tuning Web Service performance
