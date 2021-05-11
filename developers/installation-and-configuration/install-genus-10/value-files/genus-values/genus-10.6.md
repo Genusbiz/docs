@@ -15,6 +15,22 @@ genus-database-dictionary-service:
   serviceMonitor:
     scrapeInterval: 30s
 
+genus-object-storage-service:
+  enabled: false
+  replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      cpu: 500m
+      memory: 500Mi
+    limits:
+      cpu: 1000m
+      memory: 1000Mi
+  serviceMonitor:
+    scrapeInterval: 30s
+
 genus-message-queue-service:
   enabled: true
   replicaCount: 1
