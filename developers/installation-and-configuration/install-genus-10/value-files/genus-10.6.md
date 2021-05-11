@@ -20,6 +20,7 @@ All microservices can be configured with the following common helm values.
 |--                                                                |--|--|
 | genus-message-queue-service                                      | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-database-dictionary-service                                | *See [Microservice helm values](#microservice-helm-values)* |  | 
+| genus-object-storage-service                                     | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-file-utility-service                                       | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-wopi-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | redis 
