@@ -42,7 +42,13 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 3d6d1744-0496-4086-9510-898570234055 -->
+**#23348 Fixed bug in item spacing for repeating container** (Web)
+
+Prior to 10.6, a bug caused Item Spacing for the Repeating Container-control to resolve "Auto" to 0 pixels, in contrast to the standard behaviour that resolves "Auto" to 8 pixels.
+This has been corrected in 10.6, causing all Repeating Containers with Item Spacing "Auto" to have spacing larger than maybe first intended.
+When upgrading to version 10.6, check all Pages where Repeating Container is in use and change the setting "Item Spacing" from "Auto" to "None" to retain an item spacing of 0 pixels.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
