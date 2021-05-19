@@ -49,6 +49,16 @@ Prior to 10.6, a bug caused Item Spacing for the Repeating Container-control to 
 This has been corrected in 10.6, causing all Repeating Containers with Item Spacing "Auto" to have spacing larger than maybe first intended.
 When upgrading to version 10.6, check all Pages where Repeating Container is in use and change the setting "Item Spacing" from "Auto" to "None" to retain an item spacing of 0 pixels.
 
+<!--ID 4d272665-4040-4758-bd4d-d33a72749c64 -->
+**#23349 The transition to Redis Sentinel requires Operator version >= 5.0.0** (Desktop;Web)
+
+See release note 23343 for further details.
+
+<!--ID e63f1012-b10a-4bc6-ba61-9d2443bd9fd1 -->
+**#23350 Operator: The transition to Redis Sentinel requires Genus >= 10.6** (Desktop;Web)
+
+See release note 23343 for details.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
