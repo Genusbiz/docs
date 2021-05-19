@@ -100,6 +100,11 @@ Add Color Set property to Table Cells in View/Table control
 
 Genus now supports the use of sentinels when deploying Redis. In the case that number of replicas for Redis is greater than 2 the pods will contain an extra container with Redis Sentinel. This container will form a cluster of Redis Sentinel nodes, which will promote a new master in case the actual one fails.
 
+<!--ID f1196ae4-7f20-4574-8508-7390eed1f12f -->
+**#23347 New client action effect supporting sending mail messages: "Send a Mail Message"** (Web)
+
+The content of the mail message, such as addressees, subject, body, and attachments, are defined using a data set based on a data source of type *Mail Message*. Typically you would fill out the content using a *Create a Object* effect or populate the data set from a dropped or selected msg-file. The effect creates an upload session so that attachments can be streamed to the server one by one in order to support large attachments.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
