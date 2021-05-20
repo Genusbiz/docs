@@ -105,6 +105,11 @@ Genus now supports the use of sentinels when deploying Redis. In the case that n
 
 The content of the mail message, such as addressees, subject, body, and attachments, are defined using a data set based on a data source of type *Mail Message*. Typically you would fill out the content using a *Create a Object* effect or populate the data set from a dropped or selected msg-file. The effect creates an upload session so that attachments can be streamed to the server one by one in order to support large attachments.
 
+<!--ID f9f24298-b2d8-443a-a548-b3b532a11b44 -->
+**#23351 Tables in HTMLEditor** (Web)
+
+The HTMLEditor-control now supports rendering and editing of html-tables. Context menus invoked on tables in the editor will display options to add/delete/merge cells and rows.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
