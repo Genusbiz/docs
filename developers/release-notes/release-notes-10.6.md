@@ -97,7 +97,9 @@ If the connection to a database dropped (e.g. due to nightly backups) Genus serv
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no known issues in this release.
+<!--ID c563c85c-0f40-49d4-803f-012d6dad46a1 -->
+**#23353 Fixed issue where sorting in Table did not follow the user's settings for display format** (Web)
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
