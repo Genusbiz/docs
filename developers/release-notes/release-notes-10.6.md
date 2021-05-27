@@ -97,6 +97,11 @@ If the connection to a database dropped (e.g. due to nightly backups) Genus serv
 
 Improved information and added option to reset custom format from the format dialog.
 
+<!--ID 81934ab0-44cc-4dfc-9a18-987109b187b1 -->
+**#23355 Fixed problem with editing existing expressions in DataBinding in table cells** (Studio)
+
+The editor expected the datatype to be string while any datatype should have been allowed.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
