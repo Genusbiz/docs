@@ -92,6 +92,11 @@ Occurs when an object class property is opened in Studio and the next/previous b
 
 If the connection to a database dropped (e.g. due to nightly backups) Genus services would often fail to recover when the database came back online. During initialization (e.g. following a scheduled nightly process recycle) the Genus mega-service will now avoid caching data until successfully read from the database.
 
+<!--ID 21d9d223-f929-421a-a638-d899f1028e5f -->
+**#23354 Improved property editor for number format** (Studio;Web)
+
+Improved information and added option to reset custom format from the format dialog.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
