@@ -499,6 +499,11 @@ Correctly handling session timeout in oauth-adapter and redirects user to login
 <!--ID b5a2c356-7f35-46f4-98b7-d15201b84dd7 -->
 **#23340 Improved clipboard monitoring when copy is performed in the system** (Desktop)
 
+<!--ID a94967de-9eb9-4297-96a1-4f49daf3c39b -->
+**#23358 Browse path generates incorrect table alias in SQL request**
+
+Occurs if the browse path contains an expression using the "has value" or "has no value" operator.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
