@@ -102,6 +102,9 @@ Improved information and added option to reset custom format from the format dia
 
 The editor expected the datatype to be string while any datatype should have been allowed.
 
+<!--ID 6821c73c-a6c8-4811-bda2-558635c53d6b -->
+**#23356 Improved visualization of column headers in Table to reduce amount of space required** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
