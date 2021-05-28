@@ -105,6 +105,9 @@ The editor expected the datatype to be string while any datatype should have bee
 <!--ID 6821c73c-a6c8-4811-bda2-558635c53d6b -->
 **#23356 Improved visualization of column headers in Table to reduce amount of space required** (Web)
 
+<!--ID 536bda0e-1618-4eb2-b6e5-0c4475508e3f -->
+**#23357 New DateTime formats available for formatting datetime without seconds** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
