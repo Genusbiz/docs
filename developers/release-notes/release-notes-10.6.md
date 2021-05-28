@@ -108,6 +108,11 @@ The editor expected the datatype to be string while any datatype should have bee
 <!--ID 536bda0e-1618-4eb2-b6e5-0c4475508e3f -->
 **#23357 New DateTime formats available for formatting datetime without seconds** (Web)
 
+<!--ID a94967de-9eb9-4297-96a1-4f49daf3c39b -->
+**#23358 Browse path generates incorrect table alias in SQL request**
+
+Occurs if the browse path contains an expression using the "has value" or "has no value" operator.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
