@@ -128,7 +128,4 @@ Tips and hints are design decisions or answers to support questions that may be 
 
 There are no tips and hints specifically targeting this release.
 
-## Change log
-
-- 2020-11-10 Created.
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
