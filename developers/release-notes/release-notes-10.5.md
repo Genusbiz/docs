@@ -139,5 +139,4 @@ There are no known issues in this release.
 Tips and hints are design decisions or answers to support questions that may be of general interest.
 
 There are no tips and hints specifically targeting this release.
-
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
