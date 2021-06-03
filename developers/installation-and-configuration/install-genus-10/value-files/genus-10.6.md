@@ -28,6 +28,7 @@ All microservices can be configured with the following common helm values.
 | genus-common-config                                              |  |  | 
 | genus-help-docs-service                                          | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-web-frontend                                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
+| genus-web-frontend.serviceWorker.enabled                         | Wether or not to enable the service worker. It is highly recommended to keep this ``true`` for performance reasons | true | 
 | genus-authorization-service                                      | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-authentication-service                                     | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-gateway-service                                            | *See [Microservice helm values](#microservice-helm-values)* |  | 
@@ -78,4 +79,5 @@ All microservices can be configured with the following common helm values.
 | global.altDataSetURLs                                            |  | [] | 
 | global.timezone                                                  | Timezone | "/usr/share/zoneinfo/Europe/Oslo" | 
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" | 
+| global.reportSensitiveBreadcrumbsToSentry:                       | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" | 
 
