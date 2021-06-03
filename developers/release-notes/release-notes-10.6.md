@@ -79,6 +79,11 @@ Aspose.PDF 21.1.0 => 21.4.0
 Aspose.Tasks 21.1.0 => 21.4.0
 Aspose.Words 21.1.0 => 21.4.0
 
+<!--ID e6bd5307-248f-4f82-bc03-bc1b3066dc35 -->
+**#23359 Title is shown in stead of name og Page in Sitemap** (Web)
+
+When "auto" label is enabled for a Page in a Sitemap, the name of the page was displayed. The label will now be the title of the Page.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
