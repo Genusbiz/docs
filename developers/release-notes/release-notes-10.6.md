@@ -118,6 +118,11 @@ The editor expected the datatype to be string while any datatype should have bee
 
 Occurs if the browse path contains an expression using the "has value" or "has no value" operator.
 
+<!--ID e44bdc35-0bff-40af-8201-fb3c4d2d4532 -->
+**#23360 When exporting data to Excel files, columns are no longer automatically expanded** (Desktop;Services;Web)
+
+When exporting data to Excel files, the file-utility-service will no longer automatically expand columns. This correction adheres to pre-Oak behaviour.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
