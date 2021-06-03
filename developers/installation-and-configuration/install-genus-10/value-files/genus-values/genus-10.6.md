@@ -131,6 +131,8 @@ genus-help-docs-service:
 
 genus-web-frontend:
   enabled: true
+  serviceWorker:
+    enabled: true
   replicaCount: 1
   affinityScheduling: 
     enabled: false
@@ -377,6 +379,7 @@ global:
   traceLogDebug: 'false'
   traceLogTiming: 'false'
   enableSentry: 'true'
+  reportSensitiveBreadcrumbsToSentry: 'false'
   jwkFromPem: ''
   image:
     tag: latest
