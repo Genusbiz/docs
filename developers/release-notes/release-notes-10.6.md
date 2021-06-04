@@ -84,6 +84,9 @@ Aspose.Words 21.1.0 => 21.4.0
 
 When "auto" label is enabled for a Page in a Sitemap, the name of the page was displayed. The label will now be the title of the Page.
 
+<!--ID 34fdb820-bbf0-414b-bb56-d04c17d57f43 -->
+**#23363 Added year picker** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
