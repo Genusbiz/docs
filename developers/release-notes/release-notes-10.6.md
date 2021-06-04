@@ -123,6 +123,9 @@ Occurs if the browse path contains an expression using the "has value" or "has n
 
 When exporting data to Excel files, the file-utility-service will no longer automatically expand columns. This correction adheres to pre-Oak behaviour.
 
+<!--ID e33e6a48-de2f-4936-a0ac-137be99dcaf9 -->
+**#23361 Fixed sorting in SelectionList** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
