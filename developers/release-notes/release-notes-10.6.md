@@ -126,6 +126,9 @@ When exporting data to Excel files, the file-utility-service will no longer auto
 <!--ID e33e6a48-de2f-4936-a0ac-137be99dcaf9 -->
 **#23361 Fixed sorting in SelectionList** (Web)
 
+<!--ID dea3f0f4-60a6-41a7-b74c-655c2307f91d -->
+**#23362 Fixed date picker opening when using date input field** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
