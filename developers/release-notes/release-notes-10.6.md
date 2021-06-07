@@ -87,6 +87,9 @@ When "auto" label is enabled for a Page in a Sitemap, the name of the page was d
 <!--ID 34fdb820-bbf0-414b-bb56-d04c17d57f43 -->
 **#23363 Added year picker** (Web)
 
+<!--ID fc90e6fd-35bf-4d0c-ba1b-7d12aab462b4 -->
+**#23364 DateTime control** (Studio;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
