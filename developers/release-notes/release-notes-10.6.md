@@ -135,6 +135,9 @@ When exporting data to Excel files, the file-utility-service will no longer auto
 <!--ID dea3f0f4-60a6-41a7-b74c-655c2307f91d -->
 **#23362 Fixed date picker opening when using date input field** (Web)
 
+<!--ID 8cb49ea7-f483-4f48-9c0c-1fa2724c90df -->
+**#23365 Fixed onActivate that did not work in Repeating Container initially** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
