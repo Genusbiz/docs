@@ -138,6 +138,11 @@ When exporting data to Excel files, the file-utility-service will no longer auto
 <!--ID 8cb49ea7-f483-4f48-9c0c-1fa2724c90df -->
 **#23365 Fixed onActivate that did not work in Repeating Container initially** (Web)
 
+<!--ID 4cb9c149-f500-4bac-b4f9-44fa3131cf96 -->
+**#23366 Manul assignment of PK on web fails** (Web)
+
+Fails with message "Identifier not assigned for new object of type <a-type>". Happens if a new object is created in a link in the sitemap, a data filter witin a page or using the navigate to page effect, and in the create object effect in a client action.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
