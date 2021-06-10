@@ -34,13 +34,15 @@ initialize().then(() => {
 });
 
 const baseHelmValueDescriptionUrlForGitlab =
-  "https://gitlab.com/api/v4/projects/genus%2Fhelm-charts%2Fgenus-release/repository/files/helm-values-description.md?ref=";
+  "https://gitlab.com/api/v4/projects/genus%2Fhelm-charts%2Fgenus/repository/files/helm-values-description.md?ref=";
 
 const baseHelmValueDescriptionUrlForGithub =
   "developers/installation-and-configuration/install-genus-10/value-files/genus-";
 
 async function startFetchHelmValuesDescription() {
-  await fetchHelmValueDescriptionFromGitlab("master", "10.5");
+  await fetchHelmValueDescriptionFromGitlab("master", "10.7");
+  await fetchHelmValueDescriptionFromGitlab("release/10.6", "10.6");
+  await fetchHelmValueDescriptionFromGitlab("release/10.5", "10.5");
   await fetchHelmValueDescriptionFromGitlab("release/10.4", "10.4");
   await fetchHelmValueDescriptionFromGitlab("release/10.3", "10.3");
   await fetchHelmValueDescriptionFromGitlab("release/10.2", "10.2");
@@ -103,13 +105,15 @@ async function fetchHelmValueDescriptionFromGitlab(
 }
 
 const baseHelmValueFilesUrlForGitlab =
-  "https://gitlab.com/api/v4/projects/genus%2Fhelm-charts%2Fgenus-release/repository/files/genus%2Fvalues.yaml?ref=";
+  "https://gitlab.com/api/v4/projects/genus%2Fhelm-charts%2Fgenus/repository/files/genus%2Fvalues.yaml?ref=";
 
 const baseHelmValueFilesUrlForGithub =
   "developers/installation-and-configuration/install-genus-10/value-files/genus-values/genus-";
 
 async function startFetchHelmValues() {
-  await fetchHelmValuesFromGitlab("master", "10.5");
+  await fetchHelmValuesFromGitlab("master", "10.7");
+  await fetchHelmValuesFromGitlab("release/10.6", "10.6");
+  await fetchHelmValuesFromGitlab("release/10.5", "10.5");
   await fetchHelmValuesFromGitlab("release/10.4", "10.4");
   await fetchHelmValuesFromGitlab("release/10.3", "10.3");
   await fetchHelmValuesFromGitlab("release/10.2", "10.2");

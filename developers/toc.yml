@@ -671,6 +671,8 @@
 - name: Release notes
   href: release-notes/index.md
   items:
+  - name: Genus 10.7
+    href: release-notes/release-notes-10.7.md
   - name: Genus 10.6
     href: release-notes/release-notes-10.6.md
   - name: Genus 10.5
