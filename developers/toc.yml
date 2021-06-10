@@ -495,6 +495,8 @@
         href: installation-and-configuration/install-genus-10/value-files/genus-10.5.md
       - name: Genus 10.6
         href: installation-and-configuration/install-genus-10/value-files/genus-10.6.md
+      - name: Genus 10.7
+        href: installation-and-configuration/install-genus-10/value-files/genus-10.7.md
     - name: Genus Files
       href: installation-and-configuration/install-genus-10/value-files/genus-values/index.md
       items:
@@ -512,6 +514,8 @@
         href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.5.md
       - name: Genus 10.6
         href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.6.md
+      - name: Genus 10.7
+        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.7.md
   - name: Installing Genus Desktop
     href: installation-and-configuration/installing-genus-desktop/index.md
     items:
