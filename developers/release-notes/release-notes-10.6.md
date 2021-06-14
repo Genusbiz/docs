@@ -143,6 +143,9 @@ When exporting data to Excel files, the file-utility-service will no longer auto
 
 Fails with message "Identifier not assigned for new object of type <a-type>". Happens if a new object is created in a link in the sitemap, a data filter witin a page or using the navigate to page effect, and in the create object effect in a client action.
 
+<!--ID bacd609a-92bf-4c5e-9494-ef1f64918df2 -->
+**#23367 Binding of type expression in Display Field supports other datatypes than string** (Studio;Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
