@@ -146,6 +146,9 @@ Fails with message "Identifier not assigned for new object of type <a-type>". Ha
 <!--ID bacd609a-92bf-4c5e-9494-ef1f64918df2 -->
 **#23367 Binding of type expression in Display Field supports other datatypes than string** (Studio;Web)
 
+<!--ID 2af9e59e-4d17-455c-9b11-371560563e46 -->
+**#23370 Alignment in Display Field was not working** (Studio;Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
