@@ -42,23 +42,7 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 3d6d1744-0496-4086-9510-898570234055 -->
-**#23348 Fixed bug in item spacing for repeating container** (Web)
-
-Prior to 10.6, a bug caused Item Spacing for the Repeating Container-control to resolve "Auto" to 0 pixels, in contrast to the standard behaviour that resolves "Auto" to 8 pixels.
-This has been corrected in 10.6, causing all Repeating Containers with Item Spacing "Auto" to have spacing larger than maybe first intended.
-When upgrading to version 10.6, check all Pages where Repeating Container is in use and change the setting "Item Spacing" from "Auto" to "None" to retain an item spacing of 0 pixels.
-
-<!--ID 4d272665-4040-4758-bd4d-d33a72749c64 -->
-**#23349 The transition to Redis Sentinel requires Operator version >= 5.0.0** (Desktop;Web)
-
-See release note 23343 for further details.
-
-<!--ID e63f1012-b10a-4bc6-ba61-9d2443bd9fd1 -->
-**#23350 Operator: The transition to Redis Sentinel requires Genus >= 10.6** (Desktop;Web)
-
-See release note 23343 for details.
-
+There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -66,86 +50,19 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 9d02ac5f-bc68-49e7-9f7e-310fbe5ca8ae -->
-**#23345 Updated third party libraries for file conversion and document merge** (Desktop;Web)
-
-Results from file conversions and document merge may be affected by Aspose upgrade.
-
-Aspose.Cells 21.1.0 => 21.4.0
-Aspose.Email 20.12.0 => 21.3.0
-Aspose.Email (megaservice) 20.7.0 => 21.4.0
-Aspose.Imaging 20.12.0 => 21.4.0
-Aspose.PDF 21.1.0 => 21.4.0
-Aspose.Tasks 21.1.0 => 21.4.0
-Aspose.Words 21.1.0 => 21.4.0
-
-<!--ID e6bd5307-248f-4f82-bc03-bc1b3066dc35 -->
-**#23359 Title is shown in stead of name og Page in Sitemap** (Web)
-
-When "auto" label is enabled for a Page in a Sitemap, the name of the page was displayed. The label will now be the title of the Page.
-
-<!--ID 34fdb820-bbf0-414b-bb56-d04c17d57f43 -->
-**#23363 Added year picker** (Web)
-
-<!--ID fc90e6fd-35bf-4d0c-ba1b-7d12aab462b4 -->
-**#23364 DateTime control** (Studio;Web)
+<!--ID 91963e07-ffc1-4dc2-ac6b-c943ce60fd26 -->
+**#23371 Default icons are used on built-in actions in action bar if "Icon: Auto" is chosen.** (Web)
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 3e911690-8daa-49f8-82e9-b4f373c3c168 -->
-**#23344 Genus frequently shuts down with an error when I am browsing through OC properties in Studio** (Studio)
-
-Occurs when an object class property is opened in Studio and the next/previous buttons are used to open an adjacent property.
-
-<!--ID de54a2ea-f7a1-433d-bb05-fcd6655912b8 -->
-**#23346 Fixed handling of database connectivity issues** (Services)
-
-If the connection to a database dropped (e.g. due to nightly backups) Genus services would often fail to recover when the database came back online. During initialization (e.g. following a scheduled nightly process recycle) the Genus mega-service will now avoid caching data until successfully read from the database.
-
-<!--ID 21d9d223-f929-421a-a638-d899f1028e5f -->
-**#23354 Improved property editor for number format** (Studio;Web)
-
-Improved information and added option to reset custom format from the format dialog.
-
-<!--ID 81934ab0-44cc-4dfc-9a18-987109b187b1 -->
-**#23355 Fixed problem with editing existing expressions in DataBinding in table cells** (Studio)
-
-The editor expected the datatype to be string while any datatype should have been allowed.
-
-<!--ID 6821c73c-a6c8-4811-bda2-558635c53d6b -->
-**#23356 Improved visualization of column headers in Table to reduce amount of space required** (Web)
-
-<!--ID 536bda0e-1618-4eb2-b6e5-0c4475508e3f -->
-**#23357 New DateTime formats available for formatting datetime without seconds** (Web)
-
-<!--ID a94967de-9eb9-4297-96a1-4f49daf3c39b -->
-**#23358 Browse path generates incorrect table alias in SQL request**
-
-Occurs if the browse path contains an expression using the "has value" or "has no value" operator.
-
-<!--ID e44bdc35-0bff-40af-8201-fb3c4d2d4532 -->
-**#23360 When exporting data to Excel files, columns are no longer automatically expanded** (Desktop;Services;Web)
-
-When exporting data to Excel files, the file-utility-service will no longer automatically expand columns. This correction adheres to pre-Oak behaviour.
-
-<!--ID e33e6a48-de2f-4936-a0ac-137be99dcaf9 -->
-**#23361 Fixed sorting in SelectionList** (Web)
-
-<!--ID dea3f0f4-60a6-41a7-b74c-655c2307f91d -->
-**#23362 Fixed date picker opening when using date input field** (Web)
-
-<!--ID 8cb49ea7-f483-4f48-9c0c-1fa2724c90df -->
-**#23365 Fixed onActivate that did not work in Repeating Container initially** (Web)
-
+There are no resolved issues in this release.
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID c563c85c-0f40-49d4-803f-012d6dad46a1 -->
-**#23353 Fixed issue where sorting in Table did not follow the user's settings for display format** (Web)
-
+There are no known issues in this release.
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Tips and hints
 
