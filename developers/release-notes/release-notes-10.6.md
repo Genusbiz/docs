@@ -90,6 +90,11 @@ When "auto" label is enabled for a Page in a Sitemap, the name of the page was d
 <!--ID fc90e6fd-35bf-4d0c-ba1b-7d12aab462b4 -->
 **#23364 DateTime control** (Studio;Web)
 
+<!--ID fa0a773b-9dbf-44c1-9890-6b274e5f6fbc -->
+**#23373 More control shortcuts have been added to the DragMenu in the designer** (Web)
+
+html editor for xhtml fields, selection lists, markdown editor, avatar, chip input
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -148,6 +153,9 @@ Fails with message "Identifier not assigned for new object of type <a-type>". Ha
 
 <!--ID 2af9e59e-4d17-455c-9b11-371560563e46 -->
 **#23370 Alignment in Display Field was not working** (Studio;Web)
+
+<!--ID 50a17e33-36a9-4e53-b05d-5cfd0fd488b5 -->
+**#23372 Show badge always false by default**
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
