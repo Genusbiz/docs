@@ -157,6 +157,9 @@ Fails with message "Identifier not assigned for new object of type <a-type>". Ha
 <!--ID 50a17e33-36a9-4e53-b05d-5cfd0fd488b5 -->
 **#23372 Show badge always false by default**
 
+<!--ID b07aa4f8-fec8-4a01-8f44-c2f3d3916429 -->
+**#23374 Containers no longer require all border widths to be set before displaying the borders**
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
