@@ -61,6 +61,11 @@ There are no major new functionality in this release.
 
 Warning: "Action used for populating data can not reference other data sources.". The warning is displayed even if there are no references. However, the data mart is loaded correctly.
 
+<!--ID e3ab1ec8-6d78-4b72-8375-89dfa9da4535 -->
+**#23376 GX: Function firstInDay for a calendar time value returns incorrect result** (Web)
+
+The result is equal to the result returned by the function firstIn7DaysWeek.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
