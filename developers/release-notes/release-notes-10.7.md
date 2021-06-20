@@ -56,7 +56,11 @@ There are no major new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
+<!--ID 96b300c2-3e65-4f91-9e3c-b9a834c36784 -->
+**#23375 Incorrect warning in data mart designer for data source populated by a local action** (Desktop)
+
+Warning: "Action used for populating data can not reference other data sources.". The warning is displayed even if there are no references. However, the data mart is loaded correctly.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
