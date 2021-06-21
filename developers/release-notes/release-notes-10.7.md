@@ -69,6 +69,9 @@ Warning: "Action used for populating data can not reference other data sources."
 
 The result is equal to the result returned by the function firstIn7DaysWeek.
 
+<!--ID de21e76c-84b0-4261-ba1a-09899c7de85f -->
+**#23379 Fixed problem in Page Designer when dragging fields into a table in Control View** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
