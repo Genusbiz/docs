@@ -95,6 +95,9 @@ When "auto" label is enabled for a Page in a Sitemap, the name of the page was d
 
 html editor for xhtml fields, selection lists, markdown editor, avatar, chip input
 
+<!--ID 8f819762-0d96-40e2-9731-9e2e537d206f -->
+**#23378 Added the ability to assign a colorset to the container header** (Studio;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
