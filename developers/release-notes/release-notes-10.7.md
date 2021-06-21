@@ -53,6 +53,9 @@ There are no major new functionality in this release.
 <!--ID 91963e07-ffc1-4dc2-ac6b-c943ce60fd26 -->
 **#23371 Default icons are used on built-in actions in action bar if "Icon: Auto" is chosen.** (Web)
 
+<!--ID c4416f61-eefa-4c07-bd3c-59e6faeebb00 -->
+**#23377 Enable search and enable pagination are available on Navigate to Page effect.** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
