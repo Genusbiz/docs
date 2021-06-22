@@ -72,6 +72,12 @@ The result is equal to the result returned by the function firstIn7DaysWeek.
 <!--ID de21e76c-84b0-4261-ba1a-09899c7de85f -->
 **#23379 Fixed problem in Page Designer when dragging fields into a table in Control View** (Studio)
 
+<!--ID ca92bb0c-827b-4ee0-a962-b380667fb9d9 -->
+**#23380 Improved filtering in Table Column on Web** (Web)
+
+<!--ID f6114808-9324-424e-a265-9423de354f6b -->
+**#23381 Fixed Reset Filter in Table Column so that the filter was completely cleared** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
