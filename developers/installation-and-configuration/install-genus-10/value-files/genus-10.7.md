@@ -79,5 +79,5 @@ All microservices can be configured with the following common helm values.
 | global.altDataSetURLs                                            |  | [] | 
 | global.timezone                                                  | Timezone | "/usr/share/zoneinfo/Europe/Oslo" | 
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" | 
-| global.reportSensitiveBreadcrumbsToSentry:                       | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" | 
+| global.reportSensitiveBreadcrumbsToSentry                        | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" | 
 
