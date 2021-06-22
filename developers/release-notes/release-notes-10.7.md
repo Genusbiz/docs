@@ -81,6 +81,9 @@ The result is equal to the result returned by the function firstIn7DaysWeek.
 <!--ID b673010f-190b-401f-a9e8-d5fa221fbfd3 -->
 **#23382 Fixed problem executing actions from Table Cell** (Web)
 
+<!--ID 42341e7f-f210-46c2-97fb-6cf6d6e826a0 -->
+**#23383 Fixed incorrect placement of selection rectangle i table editor in Page Designer** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
