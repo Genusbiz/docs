@@ -78,6 +78,9 @@ The result is equal to the result returned by the function firstIn7DaysWeek.
 <!--ID f6114808-9324-424e-a265-9423de354f6b -->
 **#23381 Fixed Reset Filter in Table Column so that the filter was completely cleared** (Web)
 
+<!--ID b673010f-190b-401f-a9e8-d5fa221fbfd3 -->
+**#23382 Fixed problem executing actions from Table Cell** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
