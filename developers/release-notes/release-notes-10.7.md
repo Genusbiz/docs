@@ -46,7 +46,13 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 9690cc4b-b0be-4164-b54a-40ebaf61bcb4 -->
+**#23384 Filtered and Refined Data Sets** (Web)
+
+There are now only to types of Data Sets, Filtered and Refined Data Sets. Member Data Sets are converted to Filtered Data Sets with no Objects as Default Filter.
+
+This changed allow us to have multiple Filtered Data Sets (with different data filters) in one page.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
