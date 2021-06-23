@@ -42,7 +42,11 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID a579820f-f608-4f2f-91dc-a74a72e9ea54 -->
+**#23385 Filtered Data Sets** (Web)
+
+When creating objects in a Client Action, the object will no longer magically appear in a Filtered Data Set in a page based on the same Data Source. Use Client Action Interface to transfer the new Object to the page
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
