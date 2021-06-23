@@ -228,6 +228,22 @@ genus-message-subscription-service:
       cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s   
+
+genus-tracelog-subscription-service:
+  enabled: true
+  replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 50Mi
+      cpu: 10m
+    limits:
+      memory: 500Mi
+      cpu: 200m
+  serviceMonitor:
+    scrapeInterval: 30s   
     
 genus-internationalization-service:
   enabled: true
