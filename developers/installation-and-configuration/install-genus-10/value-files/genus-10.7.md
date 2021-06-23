@@ -36,6 +36,7 @@ All microservices can be configured with the following common helm values.
 | genus-gateway-service.sessionInactivityMaxDurationMinutes        | Maximum number of minutes for which a session inactivity may last, renews duration if activity is in second half of period | "60" | 
 | genus-trace-input-service                                        | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-message-subscription-service                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
+| genus-tracelog-subscription-service                              | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-internationalization-service                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-webcal-service                                             | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-carddav-service                                            | *See [Microservice helm values](#microservice-helm-values)* |  | 
