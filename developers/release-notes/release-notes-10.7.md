@@ -94,6 +94,9 @@ The result is equal to the result returned by the function firstIn7DaysWeek.
 <!--ID 42341e7f-f210-46c2-97fb-6cf6d6e826a0 -->
 **#23383 Fixed incorrect placement of selection rectangle i table editor in Page Designer** (Studio)
 
+<!--ID 2257cd79-a8d5-479b-89c0-7124de23c216 -->
+**#23386 Made the input field clickable so that you can mark text and delete it** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
