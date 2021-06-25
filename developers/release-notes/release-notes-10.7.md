@@ -97,6 +97,11 @@ The result is equal to the result returned by the function firstIn7DaysWeek.
 <!--ID 2257cd79-a8d5-479b-89c0-7124de23c216 -->
 **#23386 Made the input field clickable so that you can mark text and delete it** (Web)
 
+<!--ID cb2b9cd9-9781-4dd4-b908-2256773bddd7 -->
+**#23388 Data sets are default collapsed under insert content in page designer.** (Studio)
+
+A data set will be default expanded under insert content if it is the only data set. Expanded/collapsed state of data sets under insert content will now persist when navigating between locations in the page designer.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
