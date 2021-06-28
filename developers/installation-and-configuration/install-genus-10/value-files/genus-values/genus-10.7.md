@@ -7,11 +7,11 @@ genus-database-dictionary-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      cpu: 500m
-      memory: 500Mi
+      memory: 50Mi
+      cpu: 10m
     limits:
-      cpu: 1000m
-      memory: 1000Mi
+      memory: 500Mi
+      cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
 
@@ -23,11 +23,11 @@ genus-object-storage-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      cpu: 500m
-      memory: 500Mi
+      memory: 50Mi
+      cpu: 10m
     limits:
-      cpu: 1000m
-      memory: 1000Mi
+      memory: 500Mi
+      cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
 
@@ -39,11 +39,11 @@ genus-message-queue-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      cpu: 500m
-      memory: 500Mi
+      memory: 50Mi
+      cpu: 10m
     limits:
-      cpu: 1000m
-      memory: 1000Mi
+      memory: 500Mi
+      cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
 
@@ -56,8 +56,8 @@ genus-file-utility-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      cpu: 500m
-      memory: 500Mi
+      cpu: 300m
+      memory: 300Mi
     limits:
       cpu: 1000m
       memory: 1000Mi
