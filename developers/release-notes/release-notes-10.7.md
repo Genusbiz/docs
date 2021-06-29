@@ -47,6 +47,9 @@ This section lists important changes introduced in this release. You will need t
 
 When creating objects in a Client Action, the object will no longer magically appear in a Filtered Data Set in a page based on the same Data Source. Use Client Action Interface to transfer the new Object to the page
 
+<!--ID 2d6f34b4-ce9c-4d80-870d-e6ceeb6ce152 -->
+**#23387 Two-factor authentication requires new environment secret** (Desktop;Services;Studio;Web)
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
