@@ -475,47 +475,67 @@
   items:
   - name: System requirements
     href: installation-and-configuration/system-requirements.md
-  - name: Installing Genus 10 on Kubernetes
-    href: installation-and-configuration/install-genus-10/index.md
+  - name: Deploying Genus 10 on Kubernetes
+    href: installation-and-configuration/deploying-genus-10-on-kubernetes/index.md
     items:
-    - name: Value Files
-      href: installation-and-configuration/install-genus-10/value-files/index.md
-      items:
-      - name: Genus 10.0
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.0.md
-      - name: Genus 10.1
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.1.md
-      - name: Genus 10.2
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.2.md
-      - name: Genus 10.3
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.3.md
-      - name: Genus 10.4
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.4.md
-      - name: Genus 10.5
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.5.md
-      - name: Genus 10.6
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.6.md
-      - name: Genus 10.7
-        href: installation-and-configuration/install-genus-10/value-files/genus-10.7.md
-    - name: Genus Files
-      href: installation-and-configuration/install-genus-10/value-files/genus-values/index.md
-      items:
-      - name: Genus 10.0
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.0.md
-      - name: Genus 10.1
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.1.md
-      - name: Genus 10.2
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.2.md
-      - name: Genus 10.3
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.3.md
-      - name: Genus 10.4
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.4.md
-      - name: Genus 10.5
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.5.md
-      - name: Genus 10.6
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.6.md
-      - name: Genus 10.7
-        href: installation-and-configuration/install-genus-10/value-files/genus-values/genus-10.7.md
+    - name: Genus
+      href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/index.md
+      items: 
+      - name: Helm Values Description
+        href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/index.md
+        items:
+        - name: Genus 10.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.0.md
+        - name: Genus 10.1
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.1.md
+        - name: Genus 10.2
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.2.md
+        - name: Genus 10.3
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.3.md
+        - name: Genus 10.4
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.4.md
+        - name: Genus 10.5
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.5.md
+        - name: Genus 10.6
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.6.md
+        - name: Genus 10.7
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.7.md
+        - name: Genus 10.8
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.8.md
+      - name: Default Helm Values
+        href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/index.md
+        items:
+        - name: Genus 10.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.0.md
+        - name: Genus 10.1
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.1.md
+        - name: Genus 10.2
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.2.md
+        - name: Genus 10.3
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.3.md
+        - name: Genus 10.4
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.4.md
+        - name: Genus 10.5
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.5.md
+        - name: Genus 10.6
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.6.md
+        - name: Genus 10.7
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.7.md
+        - name: Genus 10.8
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.8.md
+    - name: Genus Operator
+      href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/index.md
+      items: 
+      - name: Helm Values Description
+        href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/index.md
+        items:
+        - name: Genus Operator 3.0.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-3.0.0.md
+      - name: Default Helm Values
+        href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/index.md
+        items:
+        - name: Genus Operator 3.0.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-3.0.0.md
   - name: Installing Genus Desktop
     href: installation-and-configuration/installing-genus-desktop/index.md
     items:
@@ -675,6 +695,8 @@
 - name: Release notes
   href: release-notes/index.md
   items:
+  - name: Genus 10.8
+    href: release-notes/release-notes-10.8.md
   - name: Genus 10.7
     href: release-notes/release-notes-10.7.md
   - name: Genus 10.6

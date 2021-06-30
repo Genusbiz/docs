@@ -146,7 +146,7 @@ Genus 10.4 now supports affinity scheduling for all pods. This can be turned on 
 
 .affinityScheduling.namespaceListForPodAntiAffinity
 
-See https://docs.genus.no/developers/installation-and-configuration/install-genus-10/value-files/genus-10.4.html for more information
+See https://docs.genus.no/developers/installation-and-configuration/deploying-genus-10-on-kubernetes/value-files/genus-10.4.html for more information
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues

@@ -7,12 +7,12 @@ All microservices can be configured with the following common helm values.
 | <microservice>.enabled                                           |  | true |
 | <microservice>.sentryDSN                                         | Link to Sentry DSN endpoint. | *Unique DSN for every microservice* |
 | <microservice>.replicaCount                                      |  | 1 |
-| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
-| <microservice>.resources.requests.memory                         |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
-| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
-| <microservice>.resources.limits.memory                           |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
-| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](./genus-values/genus-10.6.md)* |
-| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](./genus-values/genus-10.6.md)* |
+| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](../default-helm-values/genus-10.8.md)* |
+| <microservice>.resources.requests.memory                         |  | *See [values.yaml](../default-helm-values/genus-10.8.md)* |
+| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](../default-helm-values/genus-10.8.md)* |
+| <microservice>.resources.limits.memory                           |  | *See [values.yaml](../default-helm-values/genus-10.8.md)* |
+| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](../default-helm-values/genus-10.8.md)* |
+| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](../default-helm-values/genus-10.8.md)* |
 | <microservice>.serviceMonitor.scrapeInterval                     | Interval of Prometheus scraping the metrics endpoint | "30s"
 
 ## Release values
@@ -36,6 +36,7 @@ All microservices can be configured with the following common helm values.
 | genus-gateway-service.sessionInactivityMaxDurationMinutes        | Maximum number of minutes for which a session inactivity may last, renews duration if activity is in second half of period | "60" | 
 | genus-trace-input-service                                        | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-message-subscription-service                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
+| genus-tracelog-subscription-service                              | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-internationalization-service                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-webcal-service                                             | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-carddav-service                                            | *See [Microservice helm values](#microservice-helm-values)* |  | 
@@ -79,5 +80,5 @@ All microservices can be configured with the following common helm values.
 | global.altDataSetURLs                                            |  | [] | 
 | global.timezone                                                  | Timezone | "/usr/share/zoneinfo/Europe/Oslo" | 
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" | 
-| global.reportSensitiveBreadcrumbsToSentry:                       | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" | 
+| global.reportSensitiveBreadcrumbsToSentry                        | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" | 
 

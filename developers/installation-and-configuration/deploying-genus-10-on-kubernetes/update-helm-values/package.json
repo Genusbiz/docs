@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "prettier": "@genusbiz/prettier-config",
   "scripts": {
     "start": "node update-helm-values.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/eslint --cache --cache-strategy content --quiet \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
     "@azure/identity": "^1.2.4",
@@ -14,5 +16,10 @@
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "octonode": "^0.10.2"
+  },
+  "devDependencies": {
+    "@genusbiz/eslint-config": "^4.4.3",
+	"@genusbiz/prettier-config": "^1.0.0"
+
   }
 }
