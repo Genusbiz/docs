@@ -7,10 +7,10 @@ All microservices can be configured with the following common helm values.
 |--                                                                |--|--|
 | <microservice>.enabled                                           |  | true |
 | <microservice>.replicaCount                                      |  | 1 |
-| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](../default-helm-values/genus-10.2.md)* |
-| <microservice>.resources.requests.memory                         |  | *See [values.yaml](../default-helm-values/genus-10.2.md)* |
-| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](../default-helm-values/genus-10.2.md)* |
-| <microservice>.resources.limits.memory                           |  | *See [values.yaml](../default-helm-values/genus-10.2.md)* |
+| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](../genus/default-helm-values/genus-10.2.md)* |
+| <microservice>.resources.requests.memory                         |  | *See [values.yaml](../genus/default-helm-values/genus-10.2.md)* |
+| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](../genus/default-helm-values/genus-10.2.md)* |
+| <microservice>.resources.limits.memory                           |  | *See [values.yaml](../genus/default-helm-values/genus-10.2.md)* |
 | <microservice>.serviceMonitor.scrapeInterval                     | Interval of Prometheus scraping the metrics endpoint | "30s"
 
 ## Release values
