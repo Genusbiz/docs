@@ -86,7 +86,7 @@ This requires an update to the new Genus Operator helm chart, which should be de
 <!--ID 440751c4-000c-4560-b1c6-628dbd3a4609 -->
 **#23393 Operator: Added routing rule to alleviate gateway service frontend traffic**
 
-An ingress rule was added in order to bypass the gateway service for requests for static web-content. This should improve performance for routing calls to the varioys microservices.
+An ingress rule was added in order to bypass the gateway service for requests for static web-content. This should improve performance for routing calls to the various microservices.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
