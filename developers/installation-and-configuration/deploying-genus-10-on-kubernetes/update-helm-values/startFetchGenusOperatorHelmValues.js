@@ -61,13 +61,13 @@ async function fetchHelmValuesFromGitlab(fromGitlabTag) {
 
 	if (githubContent === formattedBodyContet) {
 		//eslint-disable-next-line
-		console.log('2. Content is equal')
+		console.log('2. Content is equal', fromGitlabTag)
 		return
 	}
 
 	if (body.blob_id === githubSha) {
 		//eslint-disable-next-line
-		console.log('3. SHA is equal')
+		console.log('3. SHA is equal', fromGitlabTag)
 		return
 	}
 
@@ -79,7 +79,7 @@ async function fetchHelmValuesFromGitlab(fromGitlabTag) {
 			githubSha,
 			function () {
 				//eslint-disable-next-line
-				console.log('Finished pushing updated helm-values to github')
+				console.log('Finished pushing updated helm-values to github', fromGitlabTag)
 				resolve()
 			}
 		)

@@ -61,17 +61,17 @@ async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
 
 	const refactoredContent = content
 		.split('./genus-operator/values.yaml')
-		.join('../genus-operator/default-helm-values/genus-' + fromGitlabTag + '.md')
+		.join('../default-helm-values/genus-' + fromGitlabTag + '.md')
 
 	if (githubContent === refactoredContent) {
 		//eslint-disable-next-line
-		console.log('2. Content is equal')
+		console.log('2. Content is equal', fromGitlabTag)
 		return
 	}
 
 	if (body.blob_id === githubSha) {
 		//eslint-disable-next-line
-		console.log('3. SHA is equal')
+		console.log('3. SHA is equal', fromGitlabTag)
 		return
 	}
 
@@ -83,7 +83,7 @@ async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
 			githubSha,
 			function () {
 				//eslint-disable-next-line
-				console.log('Finished pushing updated helm-values to github')
+				console.log('Finished pushing updated helm-values to github', fromGitlabTag)
 				resolve()
 			}
 		)
