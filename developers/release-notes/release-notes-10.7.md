@@ -67,6 +67,13 @@ There are now only to types of Data Sets, Filtered and Refined Data Sets. Member
 
 This changed allow us to have multiple Filtered Data Sets (with different data filters) in one page.
 
+<!--ID 5cedc210-f23a-4057-86ff-d1d859575688 -->
+**#23392 Operator: Introduced GUI**
+
+View and manage Kubernetes entities such as namespaces, deployments and pods with the new graphical user interface for operator.
+
+This requires an update to the new Genus Operator helm chart, which should be deployed instead of the old genus-kubernetes-operator-service helm chart.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -75,6 +82,11 @@ This changed allow us to have multiple Filtered Data Sets (with different data f
 
 <!--ID c4416f61-eefa-4c07-bd3c-59e6faeebb00 -->
 **#23377 Enable search and enable pagination are available on Navigate to Page effect.** (Web)
+
+<!--ID 440751c4-000c-4560-b1c6-628dbd3a4609 -->
+**#23393 Operator: Added routing rule to alleviate gateway service frontend traffic**
+
+An ingress rule was added in order to bypass the gateway service for requests for static web-content. This should improve performance for routing calls to the varioys microservices.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
