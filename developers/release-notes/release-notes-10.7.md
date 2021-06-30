@@ -50,6 +50,13 @@ When creating objects in a Client Action, the object will no longer magically ap
 <!--ID 2d6f34b4-ce9c-4d80-870d-e6ceeb6ce152 -->
 **#23387 Two-factor authentication requires new environment secret** (Desktop;Services;Studio;Web)
 
+<!--ID adde2580-31e0-4502-9ebb-7f871fbc89d2 -->
+**#23391 Operator: Replaced kubernetes-operator-service with genus-operator**
+
+Kubernetes-operator-service is replaced by genus-operator, which contains both backend and frontend services.
+
+Read the documentation for how to configue the new Genus Operator [here](https://docs.genus.no/developers/installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/index.html).
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
