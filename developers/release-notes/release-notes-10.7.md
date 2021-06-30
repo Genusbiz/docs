@@ -130,6 +130,9 @@ A data set will be default expanded under insert content if it is the only data 
 <!--ID e36d9726-bc1c-4a87-97a1-202cf3dc86ab -->
 **#23390 Added elipsis overflow for the CompositionObjectValueAssignments table** (Studio)
 
+<!--ID bbcda12e-5926-4c22-b857-37977661b8e1 -->
+**#23394 Improved support for retaining user state when reloading data in Table** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
