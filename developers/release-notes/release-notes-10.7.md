@@ -133,6 +133,9 @@ A data set will be default expanded under insert content if it is the only data 
 <!--ID bbcda12e-5926-4c22-b857-37977661b8e1 -->
 **#23394 Improved support for retaining user state when reloading data in Table** (Web)
 
+<!--ID ad32ca63-7b67-48bd-9e19-76fdf91075d0 -->
+**#23395 Dropdown did not use Display Format when sorting options** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
