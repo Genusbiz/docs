@@ -136,6 +136,11 @@ A data set will be default expanded under insert content if it is the only data 
 <!--ID ad32ca63-7b67-48bd-9e19-76fdf91075d0 -->
 **#23395 Dropdown did not use Display Format when sorting options** (Web)
 
+<!--ID 0ece4499-0a58-421c-8066-de1c0e1a2723 -->
+**#23396 Value formulas defined in a data source or object class not always recalculated on web** (Web)
+
+The problem did occure if one value formula (A) was dependent of another value formula (B). In some cases formula A was recalculated before formula B, and the value for formula A did not change.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
