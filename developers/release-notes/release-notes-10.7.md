@@ -88,6 +88,9 @@ This requires an update to the new Genus Operator helm chart, which should be de
 
 An ingress rule was added in order to bypass the gateway service for requests for static web-content. This should improve performance for routing calls to the various microservices.
 
+<!--ID c7003ed5-cf1f-41ed-ade8-6ecf538fb75b -->
+**#23397 A "Find References" button on the data set section of page- and action-designer.** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
