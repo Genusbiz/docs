@@ -91,6 +91,9 @@ An ingress rule was added in order to bypass the gateway service for requests fo
 <!--ID c7003ed5-cf1f-41ed-ade8-6ecf538fb75b -->
 **#23397 A "Find References" button on the data set section of page- and action-designer.** (Web)
 
+<!--ID fb549125-9fe7-464b-a320-d42173f4f793 -->
+**#23398 Added dddd dd.mm.yyyy, ddd dd.mm.yyyy and a relative date that only counts days, not hours** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
