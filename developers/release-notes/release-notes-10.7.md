@@ -74,6 +74,15 @@ View and manage Kubernetes entities such as namespaces, deployments and pods wit
 
 This requires an update to the new Genus Operator helm chart, which should be deployed instead of the old genus-kubernetes-operator-service helm chart.
 
+<!--ID 866c4eb6-1858-4864-b6ea-1c3596293e7b -->
+**#23399 Audit Trail History on web** (Web)
+
+Audit Trail History can now be viewed in the web client. The viewer is available in context menus and the Action Bar alongside Auditing and Permissions actions (right aligned in the Action Bar).
+
+The viewer resembles the Audit Trail History viewer in Genus Desktop. Improvements to existing functionality includes pagination of events, more granular search, and the possibility to download Audit Trail History events as a spreadsheet.
+
+This version of the viewer displays top level events only (created, modified, linked, unlinked, and so on). Which fields and what values that where modified will be part of the next version.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
