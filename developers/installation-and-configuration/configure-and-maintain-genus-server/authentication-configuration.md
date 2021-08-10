@@ -24,8 +24,20 @@ The social media identity providers requires a developer account to register an 
 After registering and configuring with the desired providers, the setup for the identity providers can be done in Genus Studio under the Security settings. Some settings are not editable for all the identity providers.
 
 Add the desired providers by selecting the provider type, set the display name and the description, and select the color for the logon button. In the _Config_ field, fill out the client ID, client secret, callback URL and other required information.
+- For __Azure AD__:
+  - _azureAdResource_ should be "00000003-0000-0000-c000-000000000000", i.e. [Microsoft Graph](https://www.shawntabrizi.com/aad/common-microsoft-resources-azure-active-directory/)
+  - _azureAdTenant_ is the tenant the for Azure AD, i.e. "contoso.onmicrosoft.com
+  - _azureAdCallbackUrl_ should be "/-/auth/azuread/callback"
+- For __Active Directory FS__:
+  - _adfsIssuer_ should be an url to the ADFS-server, i.e "https://adfs.example.com/adfs
+  - _adfsAuthUrl_ should be "https://adfs.example.com/adfs/oauth2/authorize/"
+  - _adfsTokenUrl_ should be  "https://adfs.example.com/adfs/oauth2/token/"
+  - _adfsUserInfo_ should be  "https://adfs.example.com/adfs/userinfo"
+  - _adfsCallbackUrl_ should be  "/-/auth/adfs/callback"
+- __Genus Native__ has no extra config-settings
+- __Custom__ requires creating a file by Genus experts.
 
-Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. '
+Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported.
 
 Each provider can have two-factor authentication enabled, prompting the user to register Genus in an authenticator app.
 
