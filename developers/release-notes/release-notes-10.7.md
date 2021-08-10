@@ -156,6 +156,13 @@ A data set will be default expanded under insert content if it is the only data 
 
 The problem did occure if one value formula (A) was dependent of another value formula (B). In some cases formula A was recalculated before formula B, and the value for formula A did not change.
 
+<!--ID ef9f6805-095c-46f7-ac6a-db4b2f18850c -->
+**#23400 Find references and reference checks when deleting objects are more consistent.** (Web)
+
+References to data sets and fields on data sets will also be regarded as indirect references to object classes, data sources, and their respective fields.
+
+References found in data sets and event handlers now select the individual row of the respective data set or event handler, instead of just navigating to the data or event handler page.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
