@@ -11,7 +11,7 @@ Genus supports the following identity providers:
 - [Facebook](https://developers.facebook.com/)
 - [Github](https://github.com/settings/developers)
 - [Instagram](https://www.instagram.com/developer/authentication/)
-- Active Directory (a user for reading users is needed, contact the administrator)
+- Active Directory Federation Services (a user for reading users is needed, contact the administrator)
 - [Azure Active Directory](https://portal.azure.com)
 - [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
 - [xID by BankID](https://www.bankid.no/bedrift/kom-i-gang/)
@@ -26,6 +26,8 @@ After registering and configuring with the desired providers, the setup for the 
 Add the desired providers by selecting the provider type, set the display name and the description, and select the color for the logon button. In the _Config_ field, fill out the client ID, client secret, callback URL and other required information.
 
 Each provider can be enabled/disabled. Multiple instances of the same provider type, except __Custom__, is not supported. '
+
+Each provider can have two-factor authentication enabled, prompting the user to register Genus in an authenticator app.
 
 Each user must be connected to the desired and enabled identityprovider with the correct Account Id from the identityprovider.
 
