@@ -46,7 +46,15 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 866c4eb6-1858-4864-b6ea-1c3596293e7b -->
+**#23399 Audit Trail History on web** (Web)
+
+Audit Trail History can now be viewed in the web client. The viewer is available in context menus and the Action Bar alongside Auditing and Permissions actions (right aligned in the Action Bar).
+
+The viewer resembles the Audit Trail History viewer in Genus Desktop. Improvements to existing functionality includes pagination of events, more granular search, and the possibility to download Audit Trail History events as a spreadsheet.
+
+This version of the viewer displays top level events only (created, modified, linked, unlinked, and so on). Which fields and what values that where modified will be part of the next version.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
