@@ -154,6 +154,9 @@ References to data sets and fields on data sets will also be regarded as indirec
 
 References found in data sets and event handlers now select the individual row of the respective data set or event handler, instead of just navigating to the data or event handler page.
 
+<!--ID f1277b1e-ce1c-42f7-ae6c-f35ab46d1a70 -->
+**#23402 Fixed issue where Table looses focus when inline editing objects in Creating state** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
