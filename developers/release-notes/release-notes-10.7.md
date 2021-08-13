@@ -157,6 +157,9 @@ References found in data sets and event handlers now select the individual row o
 <!--ID f1277b1e-ce1c-42f7-ae6c-f35ab46d1a70 -->
 **#23402 Fixed issue where Table looses focus when inline editing objects in Creating state** (Web)
 
+<!--ID 0689a2d5-8d79-491a-aba1-93f7debfad11 -->
+**#23403 Fixed problem setting conditional colors on Table rows for new objects** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
