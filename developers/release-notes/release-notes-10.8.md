@@ -65,6 +65,9 @@ There are no minor new functionality in this release.
 <!--ID 0b5c29f9-6225-4579-a4fa-fff49ff3ba3b -->
 **#23401 resolved the icon props properly in the cause of auto Icons, and rewrote to typescript** (Web)
 
+<!--ID 03f68525-dd81-40f3-adf6-eecb39c40bbb -->
+**#23404 Added extra conditions to Relative date format, so it stops comparing hours when it's only a Date** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
