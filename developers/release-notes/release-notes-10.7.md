@@ -160,6 +160,9 @@ References found in data sets and event handlers now select the individual row o
 <!--ID 0689a2d5-8d79-491a-aba1-93f7debfad11 -->
 **#23403 Fixed problem setting conditional colors on Table rows for new objects** (Web)
 
+<!--ID 85d0758a-9cbf-4584-8622-e94dd81c6989 -->
+**#23405 Fields of type duration was formatted as numbers** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
