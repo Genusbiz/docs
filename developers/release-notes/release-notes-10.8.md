@@ -68,6 +68,9 @@ There are no minor new functionality in this release.
 <!--ID 03f68525-dd81-40f3-adf6-eecb39c40bbb -->
 **#23404 Added extra conditions to Relative date format, so it stops comparing hours when it's only a Date** (Web)
 
+<!--ID c62c3bc8-1410-483d-a3b4-af3f411ef318 -->
+**#23406 Added error message when the parent of a component is a repeating container** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
