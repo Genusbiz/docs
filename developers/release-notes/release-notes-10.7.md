@@ -163,6 +163,9 @@ References found in data sets and event handlers now select the individual row o
 <!--ID 85d0758a-9cbf-4584-8622-e94dd81c6989 -->
 **#23405 Fields of type duration was formatted as numbers** (Web)
 
+<!--ID e1dace80-829c-4a54-92dd-60e6cd98c561 -->
+**#23407 Fixed error calculating widht of Table** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
