@@ -58,12 +58,14 @@ This version of the viewer displays top level events only (created, modified, li
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID 73b1138f-fd0d-4557-ae12-a09e2988f3d1 -->
+**#23408 Added expression value to the options in StaticIconEdit** (Studio;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 0b5c29f9-6225-4579-a4fa-fff49ff3ba3b -->
-**#23401 resolved the icon props properly in the cause of auto Icons, and rewrote to typescript** (Web)
+**#23401 resolved the icon props properly in the cause of auto Icons, and icon now defaults to auto** (Web)
 
 <!--ID 03f68525-dd81-40f3-adf6-eecb39c40bbb -->
 **#23404 Added extra conditions to Relative date format, so it stops comparing hours when it's only a Date** (Web)
