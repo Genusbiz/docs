@@ -73,6 +73,9 @@ This version of the viewer displays top level events only (created, modified, li
 <!--ID c62c3bc8-1410-483d-a3b4-af3f411ef318 -->
 **#23406 Added error message when the parent of a component is a repeating container** (Studio)
 
+<!--ID 72a82934-88e2-4382-9a2f-8138b9885165 -->
+**#23409 Improved visibility for connection lines in Class Diagram in Studio** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
