@@ -100,12 +100,15 @@ An ingress rule was added in order to bypass the gateway service for requests fo
 It is now possible to add two-factor authentication for login into Genus. It can be applied to any of the Identity Providers enabled in your Genus solution.
 
 <!--ID 4e254ecb-1747-486a-a2e7-f24e51976d3f -->
-**#23412 Operator: Added support for DB2 database provider**
+**#23412 Reintroduced support for DB2 database provider**
 
 <!--ID 37ea99da-3647-49e6-a63c-c1ba21c56509 -->
 **#23413 User Administration supported on Web** (Web)
 
 User account creation and administration can now be done on web (formerly only in Studio). This includes creation of a user from a "self"-object.
+
+<!--ID 3e97533a-a7ee-4312-a593-11e3cb7302a0 -->
+**#23414 Several improvements to inline editing in table on Web** (Web)
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
