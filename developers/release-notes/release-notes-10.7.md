@@ -94,6 +94,19 @@ An ingress rule was added in order to bypass the gateway service for requests fo
 <!--ID fb549125-9fe7-464b-a320-d42173f4f793 -->
 **#23398 Added dddd dd.mm.yyyy, ddd dd.mm.yyyy and a relative date that only counts days, not hours** (Web)
 
+<!--ID b14fef9a-71f6-4e2e-912b-0c9eec527ca9 -->
+**#23411 Added two-factor authentication support for login into Genus**
+
+It is now possible to add two-factor authentication for login into Genus. It can be applied to any of the Identity Providers enabled in your Genus solution.
+
+<!--ID 4e254ecb-1747-486a-a2e7-f24e51976d3f -->
+**#23412 Operator: Added support for DB2 database provider**
+
+<!--ID 37ea99da-3647-49e6-a63c-c1ba21c56509 -->
+**#23413 User Administration supported on Web** (Web)
+
+User account creation and administration can now be done on web (formerly only in Studio). This includes creation of a user from a "self"-object.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
