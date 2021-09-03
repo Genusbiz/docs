@@ -47,6 +47,11 @@ This section lists important changes introduced in this release. You will need t
 
 Page title for embedded content now appears if Search is enabled or the switch is set to true for the embedded content.
 
+<!--ID 74b9831b-b522-4cc5-be48-e3c19ff8487f -->
+**#23415 Privilegde for Opnen the Analytics and Insights app om the web** (Web)
+
+A user must be in a security group with the privilegde Open Analytics and Instights to be able to access the app on the web
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
