@@ -85,6 +85,9 @@ This version of the viewer displays top level events only (created, modified, li
 <!--ID 72a82934-88e2-4382-9a2f-8138b9885165 -->
 **#23409 Improved visibility for connection lines in Class Diagram in Studio** (Studio)
 
+<!--ID 11cfa45e-db55-456a-9090-ee8eb269d6dd -->
+**#23416 Numeric Controls with custom format with percent was not handled correctly** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
