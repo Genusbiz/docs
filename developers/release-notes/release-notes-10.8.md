@@ -62,8 +62,6 @@ Audit Trail History can now be viewed in the web client. The viewer is available
 
 The viewer resembles the Audit Trail History viewer in Genus Desktop. Improvements to existing functionality includes pagination of events, more granular search, and the possibility to download Audit Trail History events as a spreadsheet.
 
-This version of the viewer displays top level events only (created, modified, linked, unlinked, and so on). Which fields and what values that where modified will be part of the next version.
-
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
