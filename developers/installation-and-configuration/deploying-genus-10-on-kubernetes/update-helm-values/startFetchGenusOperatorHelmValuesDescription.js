@@ -24,6 +24,7 @@ async function startFetchGenusOperatorHelmValuesDescription(api) {
 	//eslint-disable-next-line
 	console.log('Update Genus Operator Helm Values Description in Docs')
 
+	await fetchHelmValueDescriptionFromGitlab('3.1.0')
 	await fetchHelmValueDescriptionFromGitlab('3.0.0')
 }
 
@@ -38,7 +39,22 @@ async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
 		},
 	}
 
-	const response = await axios(options)
+	let response = undefined
+
+	try {
+		response = await axios(options)
+	} catch (e) {
+		//eslint-disable-next-line
+		console.log('Failed fetching from gitlab: ', fromGitlabBranch)
+		return
+	}
+
+	if (!response) {
+		//eslint-disable-next-line
+		console.log('Failed fetching from gitlab: ', fromGitlabBranch)
+		return
+	}
+
 	const body = response.data
 
 	const { githubSha, githubContent } = await new Promise((resolve) => {
@@ -87,6 +103,11 @@ async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
 				resolve()
 			}
 		)
+	}).catch((e) => {
+		//eslint-disable-next-line
+		console.log('Failed updating helm-values for release: ', toGithubFile)
+		//eslint-disable-next-line
+		console.log(e)
 	})
 }
 
