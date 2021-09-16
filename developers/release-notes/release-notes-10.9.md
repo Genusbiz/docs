@@ -42,11 +42,19 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 7c2836f8-2b3c-49dc-ae15-9247fa6f8cab -->
+**#23424 Old data mart load plan mechanism is removed** (Desktop)
+
+The old data mart load plan is removed. It is replaced with the new load plan mechanism which offers declarative availability, with heuristic loading as an option.
+
+Old load plans must manually be converted to new load plan setup.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 75eca5e4-1cc0-4420-842e-3fcaa101ecf6 -->
+**#23421 Data Mart and Dashboard configuration has been moved from desktop to Analytics & Insights on web** (Desktop;Web)
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
