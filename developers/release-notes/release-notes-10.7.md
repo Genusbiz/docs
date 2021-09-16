@@ -51,7 +51,7 @@ When creating objects in a Client Action, the object will no longer magically ap
 **#23387 Two-factor authentication requires new environment secret** (Desktop;Services;Studio;Web)
 
 <!--ID adde2580-31e0-4502-9ebb-7f871fbc89d2 -->
-**#23391 Operator: Replaced kubernetes-operator-service with genus-operator**
+**#23391 Operator: Replaced kubernetes-operator-service with genus-operator** (Operator)
 
 Kubernetes-operator-service is replaced by genus-operator, which contains both backend and frontend services.
 
@@ -68,7 +68,7 @@ There are now only to types of Data Sets, Filtered and Refined Data Sets. Member
 This changed allow us to have multiple Filtered Data Sets (with different data filters) in one page.
 
 <!--ID 5cedc210-f23a-4057-86ff-d1d859575688 -->
-**#23392 Operator: Introduced GUI**
+**#23392 Operator: Introduced GUI** (Operator)
 
 View and manage Kubernetes entities such as namespaces, deployments and pods with the new graphical user interface for operator.
 
