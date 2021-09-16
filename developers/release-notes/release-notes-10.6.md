@@ -55,7 +55,7 @@ When upgrading to version 10.6, check all Pages where Repeating Container is in 
 See release note 23343 for further details.
 
 <!--ID e63f1012-b10a-4bc6-ba61-9d2443bd9fd1 -->
-**#23350 Operator: The transition to Redis Sentinel requires Genus >= 10.6** (Desktop;Web)
+**#23350 Operator: The transition to Redis Sentinel requires Genus >= 10.6** (Operator)
 
 See release note 23343 for details.
 
