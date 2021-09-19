@@ -58,7 +58,19 @@ Old load plans must manually be converted to new load plan setup.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID c80f6f37-9bac-4177-9b76-f79e927614e1 -->
+**#23426 New class types and functions in GX** (Web)
+
+**New class type**
+
+- *WebRuntime* - represents the runtime environment on the web client
+
+**New functions**
+
+- *WebRuntime.hasPersistableChanges()* - returns TRUE if there are any changes that can be persisted in the database.
+- *WebRuntime.hasPersistableInvalidChanges()* - returns TRUE if there are any changes that can be persisted in the database, but som of the changes are invalid.
+- *WebRuntime.currentPage().isOpenedAsModal* - returns TRUE if the current topmost page is opened modal.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
