@@ -71,6 +71,14 @@ Old load plans must manually be converted to new load plan setup.
 - *WebRuntime.hasPersistableInvalidChanges()* - returns TRUE if there are any changes that can be persisted in the database, but som of the changes are invalid.
 - *WebRuntime.currentPage().isOpenedAsModal* - returns TRUE if the current topmost page is opened modal.
 
+<!--ID d680bfbc-0b39-43c9-8e6d-cbb03d983b84 -->
+**#23427 Added functionality to scheduler component.** (Web)
+
+The scheduler component now supports:
+- Week and month view.
+- Option to disable user's ability to change time resolution.
+- Formatting on from and to date/time.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
