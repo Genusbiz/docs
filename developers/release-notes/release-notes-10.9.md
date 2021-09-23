@@ -79,6 +79,11 @@ The scheduler component now supports:
 - Option to disable user's ability to change time resolution.
 - Formatting on from and to date/time.
 
+<!--ID cfdfb685-66a1-4d31-8610-81c4316c2eb3 -->
+**#23428 Modify User Account effect - identity providers** (Studio)
+
+Added setup for defining connected identity providers for an account. Providers can either be added or modifed, or replaced.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
