@@ -91,6 +91,11 @@ On Before Selection Changed introduced as new Page Data Event type. This event t
 
 Existing "On Selection Changed" events are converted to "On After Selection Changed".
 
+<!--ID ee92872c-7f21-4c9f-a005-8678a4b5b2e3 -->
+**#23430 New Table Property: Keep New Objects in Top of View** (Web)
+
+Added new property to flag if new objects should be kept on top (regardless of Sort Order) in Table control.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
