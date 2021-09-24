@@ -85,7 +85,7 @@ The scheduler component now supports:
 Added setup for defining connected identity providers for an account. Providers can either be added or modifed, or replaced.
 
 <!--ID 70abe90c-6214-418b-a52a-0199651c2fa0 -->
-**#23429 On Before Selection Changed introduced as new Page Data Event type** (Studio;Web)
+**#23429 New Page Data Event type: On Before Selection Changed** (Studio;Web)
 
 On Before Selection Changed introduced as new Page Data Event type. This event type is executed before the selection is changed, and can hence be used to ensure data is handled and valid before the selection is changed by executing actions. These actions can for instance be Save Changes, Query Save Changes or a custom made Client Action.
 
