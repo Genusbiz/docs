@@ -42,6 +42,13 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 7a9ddada-209e-4359-af51-77cce5467116 -->
+**#23420 Operator: Environment availabilty scheduling requires Genus >= 10.9** (Operator)
+
+Operator requires G_Directory column "dir_environmnent_availability_schedule" in order for environment availability scheduling to work. This was introduced with Genus 10.9.
+
+See release note  [23417](genuslink:https://actio.genus.net/--/?LinkType=OpenLink&Version=1&Verb=open&ClassId=40891110&ObjectId=37931e20-9adc-4611-bfaf-8ae8042c19bf&DisplayName=23417%2010.9%20Environment%20availability%20schedule%20in%20Genus%20Operator) for further details.
+
 <!--ID 7c2836f8-2b3c-49dc-ae15-9247fa6f8cab -->
 **#23424 Old data mart load plan mechanism is removed** (Desktop)
 
@@ -49,9 +56,33 @@ The old data mart load plan is removed. It is replaced with the new load plan me
 
 Old load plans must manually be converted to new load plan setup.
 
+<!--ID 1da83dd2-e7ef-4b10-9250-139c07c0f579 -->
+**#23425 Updated third party libraries for file convesion and document merge (Aspose)** (Desktop;Web)
+
+The following Aspose libraries have been updated:
+
+- Aspose Cells: 21.7.0 => 21.9.0
+- Aspose Email: 21.7.0 => 21.8.1
+- Aspose Imaging: 21.8.0 => 21.9.0
+- Aspose PDF: 21.7.0 => 21.9.0
+- Aspose Tasks: 21.7.0 => 21.8.0
+- Aspose Words: 21.8.0 => 21.9.0
+
+File conversion results should be verified after upgrade.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 37931e20-9adc-4611-bfaf-8ae8042c19bf -->
+**#23417 Environment availability schedule in Genus Operator** (Operator)
+
+## **Experimental feature**: Environment availability schedule in Genus Operator
+It is now possible to schedule availability windows for Active, Passive and Origin environments in Genus Operator. 
+
+Enabling this functionality will allow operators to specify when the environments should be up, using Genus Operator.
+
+To enable this functionality, set the helm value ``genus-kubernetes-operator-service.environmentAvailabilityControlEnabled`` to ``true``.
+
 <!--ID 75eca5e4-1cc0-4420-842e-3fcaa101ecf6 -->
 **#23421 Data Mart and Dashboard configuration has been moved from desktop to Analytics & Insights on web** (Desktop;Web)
 
