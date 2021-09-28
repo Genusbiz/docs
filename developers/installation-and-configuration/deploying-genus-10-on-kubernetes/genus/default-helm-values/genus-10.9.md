@@ -392,6 +392,7 @@ global:
   dataSetURL: ''
   altDataSetURLs: []
   timezone: /usr/share/zoneinfo/Europe/Oslo
+  windowsTimeZone: 'W. Europe Standard Time'
   traceLogDebug: 'false'
   traceLogTiming: 'false'
   enableSentry: 'true'
