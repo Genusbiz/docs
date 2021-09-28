@@ -78,7 +78,8 @@ All microservices can be configured with the following common helm values.
 | global.virtualDirectory                                          |  | "--" | 
 | global.dnsSuffix                                                 | The part of the URL that follows the host name. I.E: If the environment runs on app.example.com, dnsSuffix is "example.com"  | "" | 
 | global.altDataSetURLs                                            |  | [] | 
-| global.timezone                                                  | Timezone | "/usr/share/zoneinfo/Europe/Oslo" | 
+| global.timezone                                                  | Time zone specified for Linux containers   | "/usr/share/zoneinfo/Europe/Oslo" | 
+| global.windowsTimeZone                                           | Time zone specified for Windows containers. For available time zone values use PowerShell command "Get-TimeZone -ListAvailable" | "W. Europe Standard Time" |
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" | 
 | global.reportSensitiveBreadcrumbsToSentry                        | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" | 
 
