@@ -127,6 +127,9 @@ Existing "On Selection Changed" events are converted to "On After Selection Chan
 
 Added new property to flag if new objects should be kept on top (regardless of Sort Order) in Table control.
 
+<!--ID 70aa81dc-0c7a-4037-b783-84d76dc2443e -->
+**#23431 It is now possible to define selection validations on data sets that are evaluated before selection.** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
