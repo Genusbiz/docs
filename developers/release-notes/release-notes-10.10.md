@@ -54,6 +54,14 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID d680bfbc-0b39-43c9-8e6d-cbb03d983b84 -->
+**#23427 Added functionality to scheduler component.** (Web)
+
+The scheduler component now supports:
+- Week and month view.
+- Option to disable user's ability to change time resolution.
+- Formatting on from and to date/time.
+
 <!--ID 70aa81dc-0c7a-4037-b783-84d76dc2443e -->
 **#23431 It is now possible to define selection validations on data sets that are evaluated before selection.** (Web)
 
