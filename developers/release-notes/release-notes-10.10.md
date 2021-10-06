@@ -68,7 +68,12 @@ The scheduler component now supports:
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
+<!--ID 0f7c702e-a83a-4d21-a710-f1243b0ea525 -->
+**#23434 Minor fixes to the action debugger on web** (Web)
+
+- The action debugger did not stop on breakpoints unless the debugger was selected in the dev tools sidebar. Behaviour changed so that the debugger will stop as long as the dev tools sidebar is opened.
+- In some cases, the debugger did not display the correct client action when a breakpoint was reached.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
