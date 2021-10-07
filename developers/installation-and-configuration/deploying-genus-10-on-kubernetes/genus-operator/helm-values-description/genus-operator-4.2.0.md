@@ -30,13 +30,16 @@
 | genus-operator-frontend.affinityScheduling.namespaceListForPodAntiAffinity           | | [] |
 |                                                                                      | | |
 | genus-kubernetes-operator-service                                                    | | |
-| genus-kubernetes-operator-service.descriptiveConnectionString                        | | "" |
-| genus-kubernetes-operator-service.dbType                                             | | "" |
-| genus-kubernetes-operator-service.schema                                             | | "" |
-| genus-kubernetes-operator-service.doRollingPodRestarts                               | | "true" |
-| genus-kubernetes-operator-service.phoneHomeEnabled                                   | | "false" |
-| genus-kubernetes-operator-service.phoneHomeApiKey                                    | | "" |
 | genus-kubernetes-operator-service.replicaCount                                       | | 1 |
+| genus-kubernetes-operator-service.descriptiveConnectionString                        | | "" |
+| genus-kubernetes-operator-service.descriptiveSchema                                  | | "" |
+| genus-kubernetes-operator-service.activeConnectionString                             | | "" |
+| genus-kubernetes-operator-service.activeSchema                                       | | "" |
+| genus-kubernetes-operator-service.dbType                                             | | "" |
+| genus-kubernetes-operator-service.doRollingPodRestarts                               | | "true" |
+| genus-kubernetes-operator-service.phoneHomeEnabled                                   | See [Phone Home](#phone-home) | "false" |
+| genus-kubernetes-operator-service.phoneHomeApiKey                                    | | "" |
+| genus-kubernetes-operator-service.environmentAvailabilityControlEnabled              | See [Availability Control](#availability-control) | "false" |
 | genus-kubernetes-operator-service.resources                                          | | |
 | genus-kubernetes-operator-service.resources.request                                  | | |
 | genus-kubernetes-operator-service.resources.request.memory                           | | 50Mi |
@@ -78,3 +81,15 @@
 | redis.metrics.sentinel.enabled                                                       | | false |
 | redis.metrics.sentinel.serviceMonitor                                                | | |
 | redis.metrics.sentinel.serviceMonitor.enabled                                        | | false |
+
+## Phone Home
+<a name="phone-home" ></a>
+
+Enabling this will periodically report information regarding version info of the running Genus deploymenmt back to Genus.  
+
+
+## Availability Control
+<a name="availability-control" ></a>
+Enabling this will allow an operator set specify a schedule for when active, passive and origin environments will be available. All services in the environments will be scaled to 0 outside of this schedule. 
+
+This should not be used in combination with other means of specifying availability.
