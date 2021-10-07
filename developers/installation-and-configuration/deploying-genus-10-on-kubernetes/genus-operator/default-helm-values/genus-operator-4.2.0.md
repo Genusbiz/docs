@@ -30,13 +30,16 @@ genus-operator-frontend:
     namespaceListForPodAntiAffinity: []
 
 genus-kubernetes-operator-service:
+  replicaCount: 1
   descriptiveConnectionString: ""
-  dbType: ""
-  schema: ""
+  descriptiveSchema: ""
+  activeConnectionString: ""
+  activeSchema: ""
   doRollingPodRestarts: "true"
+  dbType: ""
   phoneHomeEnabled: "false"
   phoneHomeApiKey: ""
-  replicaCount: 1
+  environmentAvailabilityControlEnabled: "false"
   resources:
     request:
       memory: 50Mi
