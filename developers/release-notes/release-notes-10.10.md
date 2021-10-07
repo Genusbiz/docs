@@ -65,6 +65,16 @@ The scheduler component now supports:
 <!--ID 70aa81dc-0c7a-4037-b783-84d76dc2443e -->
 **#23431 It is now possible to define selection validations on data sets that are evaluated before selection.** (Web)
 
+<!--ID 963965ac-b4e0-4228-a09a-02d91b9a5ea2 -->
+**#23435 Sorting - page data sets** (Web)
+
+Page data sets are now sorted by default on:
+- Master data set
+- Public
+- Name
+
+Added single column sorting by regular click on column header, or multi column sorting by holding shift while clicking column headers.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
