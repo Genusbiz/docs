@@ -10,3 +10,4 @@ author: vka
 - [Default Helm Values for Genus Operator 3.1.0](genus-operator-3.1.0.md)
 - [Default Helm Values for Genus Operator 4.1.0](genus-operator-4.1.0.md)
 - [Default Helm Values for Genus Operator 4.1.1](genus-operator-4.1.1.md)
+- [Default Helm Values for Genus Operator 4.2.0](genus-operator-4.2.0.md)
