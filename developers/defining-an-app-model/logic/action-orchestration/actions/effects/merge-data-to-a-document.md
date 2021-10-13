@@ -10,10 +10,15 @@ In the **Template** tab, specify the document **File Format** (i.e. merging to M
 
 It is generally *not recommended to use **Embedded File**, since this will increase the size of your local application model cache file, which may lead to increased startup time for Genus Desktop and Genus Services.*
 
+It is important that the *Region and Language* settings are set correctly. *Format* should suit the provided merge documents, as this will affect the appearance of the output document (dates, decimal separators, etc.). Be aware that some PDF viewers are more sensitive to these settings than others (e.g. Acrobat Reader). Therefore, verify that output is as expected.
+
+## XML Document
+
 The **XML Document** tab displays a preview of your XML Document. You may use this as a source for copying field names to your Word template or Excel template.
 
 ![IDCEC61417AEC740D3.png](media/IDCEC61417AEC740D3.png)
 
+## Other Merge Data Sources
 The **Other Merge Data Sources** tab allows you to add reports and Excel files as merge data sources in addition to data in your XML document. Such data sources do *not need to be defined in your XML document. Select a report or Excel file in the list, and click **Modify** to change data filters.*
 
 To copy a merge data source, righ-click in the list and in the menu click **Add a Copy**. This is useful if you want to use the same report or Excel file multiple times but with different filters.
@@ -22,6 +27,7 @@ To copy a merge data source, righ-click in the list and in the menu click **Add 
 
 Note that report and Excel files as merge data sources apply to merging data to Word documents and not to Excel documents.
 
+## Output Document
 In the **Output Document** tab specify the output **File Data Source**, the **File Format** and the **File Name**. If the data source is an report, and the file format is an image, the size of the image is determined by the report [Page Setup](../../../../../../users/analyze-report-and-discover/report/save-to-file-or-print-a-report.md).
 
 In the **File Name** box you may insert fields from your data sources to create dynamic file names. To insert a field, right-click inside the **File Name** box, and in the menu click **Insert Field**.
