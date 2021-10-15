@@ -84,6 +84,11 @@ Show Page Title is dynamically assigned when selecting a target page. By default
 
 If search is enabled or the page is added as part of a pages group in the sitemap, the page title is always shown.
 
+<!--ID 3d24f0bb-c966-40b4-b6c2-b4e39cc687d1 -->
+**#23437 Move map marker with touch or right click** (Web)
+
+It is now possible to move marker in Single Location Map by touch hold on a location on a phone, or right click and select "move marker here" on desktop.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
