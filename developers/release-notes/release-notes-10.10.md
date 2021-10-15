@@ -75,6 +75,15 @@ Page data sets are now sorted by default on:
 
 Added single column sorting by regular click on column header, or multi column sorting by holding shift while clicking column headers.
 
+<!--ID 6b6a51c5-abb3-4380-a580-f94897e6ec64 -->
+**#23436 Show Action Bar and Show Page Title added as properties to controls used to navigate to page** (Web)
+
+Show Action Bar and Show Page Title added as properties to Sitemap, Embedded Content, Tab Control and Navigate to Page.
+
+Show Page Title is dynamically assigned when selecting a target page. By default View shows the page title, while Form and Canvas does not.
+
+If search is enabled or the page is added as part of a pages group in the sitemap, the page title is always shown.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
