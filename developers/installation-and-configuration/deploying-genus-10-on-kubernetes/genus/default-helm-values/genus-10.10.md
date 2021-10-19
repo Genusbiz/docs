@@ -190,10 +190,10 @@ genus-gateway-service:
   resources:
     requests:
       memory: 50Mi
-      cpu: 10m
+      cpu: 400m
     limits:
       memory: 500Mi
-      cpu: 200m
+      cpu: 1000m
   serviceMonitor:
     scrapeInterval: 30s
 
