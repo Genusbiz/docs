@@ -94,6 +94,21 @@ It is now possible to move marker in Single Location Map by touch hold on a loca
 
 Operator frontend now has an "Event Log" button in the navigation pane. When the button is clicked, a new tab is opened in the browser with the event log for the current environment. The URL is collected from the environment variables which is set in the Helm chart.
 
+<!--ID c733d477-365c-4023-8645-d5a4fe064b6a -->
+**#23439 Revamp of Developer Tools and introduction of Data Source Inspector** (Web)
+
+Data Source Inspector is now available as a tab in Developer Tools. 
+
+This may be useful for: (1) viewing all entries for a given Data Source to find invalid entires preventing save, a situation typically cased by a create without return to an applicable data set, (2) allowing the Business Engineer to better understand how data is loaded and stored in memory.
+
+Other remarkable changes:
+
+- Layout is changed from grey to white, and a new table (techincal: using our own Table component, not <table>).
+- Transition from Data Set to Data Source Inspector is available from the Summary view using a hyperlink. Useful if the Data Set and Data Source has different names.
+- Icons are changed to give a more Fluent look and comply with Universal Design.
+- Data Set and Data Source ID fields are hyphenated and available for copying using a button behind the value.
+- Required fields are displayed with a trailing star (*) and primary key is displayed in bold.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
