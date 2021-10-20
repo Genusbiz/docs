@@ -89,6 +89,9 @@ If search is enabled or the page is added as part of a pages group in the sitema
 
 It is now possible to move marker in Single Location Map by touch hold on a location on a phone, or right click and select "move marker here" on desktop.
 
+<!--ID ec4b88a7-8ed9-40b9-9575-d51dae2701c4 -->
+**#23438 Link from Operator (GUI)to the event log in Kibana for the current environment** (Operator)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
