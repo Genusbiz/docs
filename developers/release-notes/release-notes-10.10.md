@@ -109,6 +109,11 @@ Other remarkable changes:
 - Data Set and Data Source ID fields are hyphenated and available for copying using a button behind the value.
 - Required fields are displayed with a trailing star (*) and primary key is displayed in bold.
 
+<!--ID 07daadf4-b097-4b32-8362-e237c5fe35ac -->
+**#23440 Defaul value for "Lock Positon" flag is set to "true" in Dashboards** (Web)
+
+This entails that the user will not be able to resize or move Tiles, unless the flag is manually set to "false"
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
