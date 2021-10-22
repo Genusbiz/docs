@@ -68,6 +68,11 @@ The viewer resembles the Audit Trail History viewer in Genus Desktop. Improvemen
 <!--ID 73b1138f-fd0d-4557-ae12-a09e2988f3d1 -->
 **#23408 Added expression value to the options in StaticIconEdit** (Studio;Web)
 
+<!--ID 07daadf4-b097-4b32-8362-e237c5fe35ac -->
+**#23440 Defaul value for "Lock Positon" flag is set to "true" in Dashboards** (Web)
+
+This entails that the user will not be able to resize or move Tiles, unless the flag is manually set to "false"
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
