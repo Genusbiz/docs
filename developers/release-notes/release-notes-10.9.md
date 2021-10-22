@@ -130,6 +130,11 @@ Added new property to flag if new objects should be kept on top (regardless of S
 <!--ID 70aa81dc-0c7a-4037-b783-84d76dc2443e -->
 **#23431 It is now possible to define selection validations on data sets that are evaluated before selection.** (Web)
 
+<!--ID 07daadf4-b097-4b32-8362-e237c5fe35ac -->
+**#23440 Defaul value for "Lock Positon" flag is set to "true" in Dashboards** (Web)
+
+This entails that the user will not be able to resize or move Tiles, unless the flag is manually set to "false"
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
