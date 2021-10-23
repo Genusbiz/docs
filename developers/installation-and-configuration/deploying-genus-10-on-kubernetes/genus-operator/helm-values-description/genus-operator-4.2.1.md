@@ -11,8 +11,10 @@
 | global.enableSentry                                                                  | | "true" |
 | global.customer                                                                      | | "" |
 | global.ingress                                                                       | | |
-| global.ingress.awsAlbControllerEnabled                                               | | false |
 | global.ingress.annotations                                                           | | {} |
+| global.ingress.awsAlbControllerEnabled                                               | | false |
+| global.ingress.agicLetsEncryptEnabled                                                | | false |
+| global.ingress.ingressWildCardPathEnabled                                            | | false |
 |                                                                                      | | |
 | genus-operator-frontend                                                              | | |
 | genus-operator-frontend.replicaCount                                                 | | 1 |
