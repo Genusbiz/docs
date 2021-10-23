@@ -13,7 +13,9 @@ global:
   ingress:
     awsAlbControllerEnabled: false
     annotations: {}
-
+    agicLetsEncryptEnabled: false
+    ingressWildCardPathEnabled: false
+    
 genus-operator-frontend:
   replicaCount: 1
   resources:
