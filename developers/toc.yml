@@ -506,6 +506,8 @@
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.9.md
         - name: Genus 10.10
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.10.md
+        - name: Genus 10.11
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.11.md
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/index.md
         items:
@@ -531,6 +533,8 @@
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.9.md
         - name: Genus 10.10
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.10.md
+        - name: Genus 10.11
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.11.md
     - name: Genus Operator
       href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/index.md
       items: 
@@ -547,6 +551,12 @@
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.1.1.md
         - name: Genus Operator 4.2.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.2.0.md
+        - name: Genus Operator 4.2.1
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.2.1.md
+        - name: Genus Operator 4.3.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.3.0.md
+        - name: Genus Operator 4.4.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.4.0.md
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/index.md
         items:
@@ -560,6 +570,12 @@
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.1.1.md
         - name: Genus Operator 4.2.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.2.0.md
+        - name: Genus Operator 4.2.1
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.2.1.md
+        - name: Genus Operator 4.3.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.3.0.md
+        - name: Genus Operator 4.4.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.4.0.md
   - name: Installing Genus Desktop
     href: installation-and-configuration/installing-genus-desktop/index.md
     items:
@@ -719,6 +735,8 @@
 - name: Release notes
   href: release-notes/index.md
   items:
+  - name: Genus 10.11
+    href: release-notes/release-notes-10.11.md
   - name: Genus 10.10
     href: release-notes/release-notes-10.10.md
   - name: Genus 10.9

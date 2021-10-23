@@ -17,3 +17,4 @@ author: vka
 - [Helm Values Description for Genus 10.8](genus-10.8.md)
 - [Helm Values Description for Genus 10.9](genus-10.9.md)
 - [Helm Values Description for Genus 10.10](genus-10.10.md)
+- [Helm Values Description for Genus 10.11](genus-10.11.md)
