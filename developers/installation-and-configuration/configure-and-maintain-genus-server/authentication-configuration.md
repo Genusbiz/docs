@@ -1,16 +1,14 @@
 # Configure Authentication for Genus Services
 
-> [!NOTE]
-> This article refers to the new authentication mechanisms for the next release of Genus and is a work in progress. 
-
-The new Genus authentication offers several ways to authenticate users, including third party identity providers like Twitter, Facebook, Google, etc. as well as Azure Active Directory, Genus Native and customer specific OAuth2 authentication. To use any of these identity providers one must register an app or authentication client with the desired identity providers and configure the authentication client correctly. Required information/setup for each provider include client ID, client secret and a callback URL which is generated and set up either by using their developer portals or by contacting the provider directly.
+The new Genus authentication offers several ways to authenticate users, including third party identity providers like ID-Porten, BankID, etc. as well as Azure Active Directory, Genus Native and customer specific OAuth2 authentication. To use any of these identity providers one must register an app or authentication client with the desired identity providers and configure the authentication client correctly. Required information/setup for each provider include client ID, client secret and a callback URL which is generated and set up either by using their developer portals or by contacting the provider directly.
 
 Genus supports the following identity providers:
+<!--
 - [Google](https://developers.google.com/identity/protocols/OAuth2)
 - [Twitter](https://developer.twitter.com/en/docs/basics/developer-portal/guides/apps)
 - [Facebook](https://developers.facebook.com/)
 - [Github](https://github.com/settings/developers)
-- [Instagram](https://www.instagram.com/developer/authentication/)
+- [Instagram](https://www.instagram.com/developer/authentication/)-->
 - Active Directory Federation Services (a user for reading users is needed, contact the administrator)
 - [Azure Active Directory](https://portal.azure.com)
 - [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
@@ -19,7 +17,7 @@ Genus supports the following identity providers:
 - __Genus Native__ (username/password) (Forms Authentication)
 - __Custom__ OAuth2 authentication for customer specific authentication
 
-The social media identity providers requires a developer account to register an authentication application. The Active Directory identity providers requires in-house setup. The BankID and ID-porten providers require registration/approval/agreement to utilize in addition to more configuration settings than the other identity providers, for instance URLs for authentication and user information. These identity providers also have different settings for test and production environments.
+<!-- The social media identity providers requires a developer account to register an authentication application.--> The Active Directory identity providers requires in-house setup. The BankID and ID-porten providers require registration/approval/agreement to utilize in addition to more configuration settings than the other identity providers, for instance URLs for authentication and user information. These identity providers also have different settings for test and production environments.
 
 After registering and configuring with the desired providers, the setup for the identity providers can be done in Genus Studio under the Security settings. Some settings are not editable for all the identity providers.
 
@@ -42,7 +40,6 @@ Each provider can be enabled/disabled. Multiple instances of the same provider t
 Each provider can have two-factor authentication enabled, prompting the user to register Genus in an authenticator app.
 
 Each user must be connected to the desired and enabled identityprovider with the correct Account Id from the identityprovider.
+Users can be automatically generated at first sign in with an identity provider. To enable this the identity provider must be connected with an [Onboarding account profile](../../defining-an-app-model/security/account-profiles.md) which must have a connected [Security group](../../defining-an-app-model/security/security-groups-and-user-accounts.md). The security group's privileges determines what the new user is able to do. Not all necessary user information is provided from the identity providers and may be required to be completed afterwards.
 
 Azure AD supports guest accounts. To use this in Genus, the Token configuration for the authenticator app in the Azure Portal must include __upn__ as an optional claim enabled for __Externally authenticated__ and __Replace hash marks__. The Account Id for a guest user with mail@example.com as email, must be on the format _mail\_example.com\_EXT\_@genusas.onmicrosoft.com_ registered on the user's identityprovider connection.
-
-Users can be automatically generated at first sign in with an identity provider. To enable this the identity provider must be connected with an [Onboarding account profile](../../defining-an-app-model/security/account-profiles.md) which must have a connected [Security group](../../defining-an-app-model/security/security-groups-and-user-accounts.md). The security group's privileges determines what the new user is able to do. Not all necessary user information is provided from the identity providers and may be required to be completed afterwards.
