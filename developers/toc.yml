@@ -607,6 +607,8 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md
     - name: Install a license on Genus Services
       href: installation-and-configuration/install-license-on-genus-server.md
+    - name: Configure Authentication for Genus Services
+      href: installation-and-configuration/configure-and-maintain-genus-server/authentication-configuration.md
     - name: Genus Services - logical services
       href: installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md
     - name: App Services recycling
