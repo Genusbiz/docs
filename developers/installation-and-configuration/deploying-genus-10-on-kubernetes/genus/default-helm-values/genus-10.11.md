@@ -64,6 +64,23 @@ genus-file-utility-service:
   serviceMonitor:
     scrapeInterval: 30s
 
+genus-xml-utility-service:
+  enabled: true
+  replicaCount: 1
+  maxRequestSizeInMegaBytes: '100'
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      cpu: 200m
+      memory: 300Mi
+    limits:
+      cpu: 500m
+      memory: 1000Mi
+  serviceMonitor:
+    scrapeInterval: 30s
+
 genus-wopi-service:
   enabled: true
   replicaCount: 1
