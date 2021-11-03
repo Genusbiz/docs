@@ -47,6 +47,11 @@ This section lists important changes introduced in this release. You will need t
 
 Genus now requires kubernetes version >= 1.19
 
+<!--ID 30a27030-2159-4cb3-b288-1a3e6fb2742a -->
+**#23441 New configuration of phone home variables** (Operator)
+
+In order for Phone home to work, customer sample id and phone home API key values are required. Both will become available in Operations. Until then, contact the ES team if you need API values.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
