@@ -179,8 +179,7 @@ function callReleaseNotesRestService(name, releaseNotes) {
 // ------------------------------------------------------------
 function callOperationsSampleRestService() {
   request.post({
-    url:
-      "https://operations-desktop.genus.net/genus/api/public/rest/probe/sample",
+    url: "https://operations-desktop.genus.net/genus/api/public/rest/probe/sample",
     json: {
       sampled_by: "update-release-notes.js",
       sample_code: "UPDATE_RELEASE_NOTES",
@@ -202,7 +201,7 @@ function removeNonAsciiChars(str) {
 function readReleaseNoteFileFromGitHub(release) {
   return new Promise((resolve, reject) => {
     ghrepo.contents(
-      "developers/release-notes/release-notes-" + release.name + ".md",
+      "developers/release-notes/genus/release-notes-" + release.name + ".md",
       function (err, data, headers) {
         if (err && err.statusCode == 404) {
           // Not Found
@@ -228,7 +227,7 @@ function readReleaseNoteFileFromGitHub(release) {
 function updateReleaseNoteFileInGitHub(release, commitMessage) {
   return new Promise((resolve, reject) => {
     ghrepo.updateContents(
-      "developers/release-notes/release-notes-" + release.name + ".md",
+      "developers/release-notes/genus/release-notes-" + release.name + ".md",
       commitMessage,
       release.newMarkdown,
       release.sha,
