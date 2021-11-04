@@ -27,13 +27,6 @@ async function startFetchGenusOperatorHelmValuesDescription(api) {
 	await fetchHelmValueDescriptionFromGitlab('4.6.0')
 	await fetchHelmValueDescriptionFromGitlab('4.5.0')
 	await fetchHelmValueDescriptionFromGitlab('4.4.0')
-	await fetchHelmValueDescriptionFromGitlab('4.3.0')
-	await fetchHelmValueDescriptionFromGitlab('4.2.1')
-	await fetchHelmValueDescriptionFromGitlab('4.2.0')
-	await fetchHelmValueDescriptionFromGitlab('4.1.1')
-	await fetchHelmValueDescriptionFromGitlab('4.1.0')
-	await fetchHelmValueDescriptionFromGitlab('3.1.0')
-	await fetchHelmValueDescriptionFromGitlab('3.0.0')
 }
 
 async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {

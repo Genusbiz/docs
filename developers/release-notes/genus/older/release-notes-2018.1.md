@@ -21,7 +21,7 @@ Prior to upgrading to this release, you must:
 - Review the rest of the release notes for this release. Pay special attention to any issues in the sections [End-of-life functionality] (#end-of-life-functionality), [Deprecated Functionality](#deprecated-functionality), [Breaking Changes](#breaking-changes) and [Known Issues](#known-issues). You may have to perform manual tasks.
 - Please note that there does not exist any Genus Upgrade Assistant for this upgrade.
 
-For general information about installing and upgrading Genus Apps, see [here](../../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../../installation-and-configuration/system-requirements.md) article.
+For general information about installing and upgrading Genus Apps, see [here](../../../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../../../installation-and-configuration/system-requirements.md) article.
 
 ## Important issues in this release
 
@@ -30,7 +30,7 @@ For general information about installing and upgrading Genus Apps, see [here](..
 
 - **Link table in data mart no longer available.** Data marts that contains link tables must be manually converted to using selection filtering on connections in release 2017.5. It is not possible to edit or load data marts containing link tables in release 2018.1.
 
-- **Don't leave faulty data mart load plans running on auto!** Each time it fails, it logs up to 1 MB. But since it may try to load every 2 minutes, it may amount to large volumes of data over time. See the article [Data mart problem solving and FAQ](../../../users/analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md) for more information.
+- **Don't leave faulty data mart load plans running on auto!** Each time it fails, it logs up to 1 MB. But since it may try to load every 2 minutes, it may amount to large volumes of data over time. See the article [Data mart problem solving and FAQ](../../../../users/analyze-report-and-discover/data-marts/data-mart-problemsolving-faq.md) for more information.
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 

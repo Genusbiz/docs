@@ -1,9 +1,9 @@
 ---
-title: Release notes for Genus 10.3.
-description: User-visible changes to Genus from release 10.2 to 10.3.
+title: Release notes for Genus 10.2.
+description: User-visible changes to Genus from release 10.1 to 10.2.
 author: jtroset
 ---
-# Release notes for Genus 10.3
+# Release notes for Genus 10.2
 
 ## Introduction
 
@@ -44,89 +44,49 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID a842f9c9-20a4-4eb5-b242-1a907f5324d3 -->
-**#23286 Trace Log improvements** (Desktop;Services;Web)
+<!--ID f173a63f-0f77-4433-880f-b9f63b714741 -->
+**#23277 Initial MySQL 5.7 support (Amazon Aurora)** (Desktop;Web)
 
-- Added ability to persist logs
-- Added utc to trace messages
-- Synchronize traces across tabs
-- Prettified logging from mega-service and data-mart-query-service
-
-<!--ID dbb908bd-7c73-4e09-9c7e-0442318e16fd -->
-**#23288 New control for web: HTML Editor** (Web)
-
-- HTML-editor control with simple formatting incl. inserting picture
+MySQL is now a supported database vendor. This allows Amazon Aurora based solutions.
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID be1cc82f-9938-490b-b561-c7e465d15205 -->
-**#23287 REST Throttling** (Services)
+<!--ID 9c8421fd-ea52-4940-8a17-346697863a45 -->
+**#23274 Added GX language features** (Desktop;Services;Studio)
 
-Limit number of threads running exposed REST-services. Set by variable RestMaxThreadCount
+A few new string functions have been introduced:
 
-<!--ID 925bdef8-527a-403e-9c54-86736f8b8573 -->
-**#23289 Hide Studio, Desktop and TraceLog links on mobile** (Web)
+* **String.split(chunkSize)** -- Splits a string into chunks of a fixed size. Returns a sequence of strings. Depending on the current string length and the specified chunk size, the last string returned may be smaller than the specified chunk size.
+* **String.characters()** -- Splits a string into a sequence of characters. This is the same as calling String.split(1).
+* **String.characterValue()** -- Returns an integer representing the Unicode value of a character. Throws an exception if the specified string does not contain exactly one character.
 
-<!--ID a5ce4905-bd84-413b-8b2e-943c0954cce1 -->
-**#23290 Open apps in new tab on CTRL-click in start page** (Web)
+A new iterator operation has been introduced:
 
-<!--ID aa742dea-799d-4001-a80a-bac932659dfa -->
-**#23291 Validate Read Related filters in designers** (Web)
+* **collection.collect( *elem* | an expression using *elem* )** -- Iterates the collection and returns a sequence where each element has been transformed. The expression acts as a transform to be applied to each element.
 
-<!--ID cf2e1dca-ab60-4063-adf0-a78a122c37c1 -->
-**#23292 Added Desktop Table and Form to Sitemap** (Web)
-
-<!--ID 858bf382-d6f2-4f28-a016-f0dca145d10c -->
-**#23293 Added effects: Open Desktop table and Open Desktop Form** (Web)
-
-<!--ID ff3017f4-9f3d-4639-949a-617c2ebf16f1 -->
-**#23294 Add Multi Filter to Filter menu in Table control** (Web)
-
-<!--ID c932e13f-5ffa-4683-a622-b4c594f372f0 -->
-**#23295 Allow customized Table views to be saved in local storage** (Web)
-
-<!--ID f9821422-48e7-431f-b814-870afbbc7eb4 -->
-**#23296 Make Table columns movable and add column settins to Table menu** (Web)
-
-<!--ID 718a8573-7389-49b8-a00f-46bde31adac0 -->
-**#23297 Enable custom grouping in Table control** (Web)
-
-<!--ID 8968401c-6645-453d-b932-e94a0340dbb8 -->
-**#23298 Improved support for responsive behaviour in search controls** (Web)
-
-<!--ID 0be24149-2711-427b-9c1e-7cd9d9689c97 -->
-**#23299 Reinterpret refined expression when selection is changed** (Web)
-
-<!--ID c5f66759-2dcd-4f42-9bb3-278f187bb43f -->
-**#23300 Add PWA splash screens for supported iOS devices** (Web)
-
-<!--ID 11737e28-5e63-4da7-a4d3-0cd7221550dd -->
-**#23301 Ability to downscale images on Upload Effect** (Web)
-
-<!--ID 0e8056e6-3e3d-48d4-ae0a-144919f8f083 -->
-**#23303 Added default MSXML error logging when loading XML from string** (Desktop;Services;Studio)
-
-<!--ID a1fe2ab3-9b6d-4a4e-a83c-fb4d0ebccc61 -->
-**#23304 MySQL: Handle custom trigger and timeout exceptions** (Services)
-
-<!--ID bae3af00-85d3-490a-b39e-fcfba40f714c -->
-**#23306 Show Data Set information in Data Filter dropdowns** (Web)
-
-<!--ID a52a0a43-a058-4be6-9a72-6b27505560f0 -->
-**#23307 Improved login performance when using Genus Native ID-provider (username / password)** (Desktop;Studio;Web)
+A collection of type Sequence or OrderedSet returns a Sequence. A collection of type Set or Bag returns a Bag.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 63d16644-cd39-4602-8815-fb7b77512524 -->
-**#23310 "Auto Load data mart" did not work in 19.2** (Desktop)
+<!--ID accdd428-8aaf-4c8b-8c02-e6fb20b8be8e -->
+**#23276 Table columns in Dashboard** (Desktop)
 
-To reproduce:
-1) Make a schedule which starts at a time in the future
-2) Check "Auto Load data mart"
-3) Unload the data mart
-4) Observe that using the data mart yields "Data mart not loaded" message
+Problem with resizeing columns is now fixed and its easyer to set column widths.
+
+<!--ID f6d898d4-26b9-41c7-91c2-c2b378c4bfbc -->
+**#23278 Dashboards referencing deleted Dashboards no longer crash** (Desktop)
+
+Dashboards referencing deleted Dashboards in an "Open Analysis" command, would crash on opening the designer, and on executing the Command.
+
+<!--ID ab031844-edda-421a-9c91-5a4f1005df7f -->
+**#23279 Period Shift now works in Dasbhoard Tables** (Desktop)
+
+<!--ID 371410fc-b45a-415d-9fd5-95d468d7c859 -->
+**#23281 Responses with SOAP headers annotated with attribute mustUnderstand="1" caused an exception** (Services)
+
+When consuming a SOAP webservice one or more SOAP headers may be returned from the service. If the web service retunred one or more SOAP headers annotated with a mustUnderstand="1" attribute the Consume a Web Service effect would throw an exception and the consuming action would simply fail. This behavior has now been corrected. Please note that the consuming action must assume the responsibility of understanding SOAP headers with mustUnderstand="1".
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues

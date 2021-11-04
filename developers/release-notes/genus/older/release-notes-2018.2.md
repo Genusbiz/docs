@@ -21,7 +21,7 @@ Prior to upgrading to this release, you must:
 - Review the rest of the release notes for this release. Pay special attention to any issues in the sections [End-of-life functionality] (#end-of-life-functionality), [Deprecated Functionality](#deprecated-functionality), [Breaking Changes](#breaking-changes) and [Known Issues](#known-issues). You may have to perform manual tasks.
 - Please note that there does not exist any Genus Upgrade Assistant for this upgrade.
 
-For general information about installing and upgrading Genus Apps, see [here](../../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../../installation-and-configuration/system-requirements.md) article.
+For general information about installing and upgrading Genus Apps, see [here](../../../installation-and-configuration/index.md). We especially recommend reviewing the [System Requirements](../../../installation-and-configuration/system-requirements.md) article.
 
 ## Important issues in this release
 

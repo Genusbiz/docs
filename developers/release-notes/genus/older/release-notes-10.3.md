@@ -1,9 +1,9 @@
 ---
-title: Release notes for Genus 10.1.
-description: User-visible changes to Genus from release 10.0 to 10.1.
+title: Release notes for Genus 10.3.
+description: User-visible changes to Genus from release 10.2 to 10.3.
 author: jtroset
 ---
-# Release notes for Genus 10.1
+# Release notes for Genus 10.3
 
 ## Introduction
 
@@ -40,44 +40,93 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID b13c9736-4b44-4795-a9e9-7b0bdcb81978 -->
-**#23271 Cross-Origin Resource Sharing (CORS)** (Services;Studio)
-
-After upgrading to Genus 10 Update 1 you have to update the Cross-Origin Resource Sharing (CORS) settings in Genus Studio. Open Genus Studio, click Administration -> Settings, scroll down to "Cross-Origin Resource Sharing (CORS)" and enter all Origin URLs that should be allowed for this solution, e.g.
-
-* https://xyz.company.com
-* https://xyz-origin.company.com
-* https://xyz-blue.company.com
-* https://xyz-green.company.com
-
-You may add a port or a wildcard port (':*', i.e. meaning any port is allowed) like this:
-
-* https://xyz.company.com:8443
-* https://xyz.company.com:*
-
-Entering an Origin URL that contains a single wildcard character ('*'), 'null', or '' is not supported.
-
+There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID a842f9c9-20a4-4eb5-b242-1a907f5324d3 -->
+**#23286 Trace Log improvements** (Desktop;Services;Web)
+
+- Added ability to persist logs
+- Added utc to trace messages
+- Synchronize traces across tabs
+- Prettified logging from mega-service and data-mart-query-service
+
+<!--ID dbb908bd-7c73-4e09-9c7e-0442318e16fd -->
+**#23288 New control for web: HTML Editor** (Web)
+
+- HTML-editor control with simple formatting incl. inserting picture
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID be1cc82f-9938-490b-b561-c7e465d15205 -->
+**#23287 REST Throttling** (Services)
+
+Limit number of threads running exposed REST-services. Set by variable RestMaxThreadCount
+
+<!--ID 925bdef8-527a-403e-9c54-86736f8b8573 -->
+**#23289 Hide Studio, Desktop and TraceLog links on mobile** (Web)
+
+<!--ID a5ce4905-bd84-413b-8b2e-943c0954cce1 -->
+**#23290 Open apps in new tab on CTRL-click in start page** (Web)
+
+<!--ID aa742dea-799d-4001-a80a-bac932659dfa -->
+**#23291 Validate Read Related filters in designers** (Web)
+
+<!--ID cf2e1dca-ab60-4063-adf0-a78a122c37c1 -->
+**#23292 Added Desktop Table and Form to Sitemap** (Web)
+
+<!--ID 858bf382-d6f2-4f28-a016-f0dca145d10c -->
+**#23293 Added effects: Open Desktop table and Open Desktop Form** (Web)
+
+<!--ID ff3017f4-9f3d-4639-949a-617c2ebf16f1 -->
+**#23294 Add Multi Filter to Filter menu in Table control** (Web)
+
+<!--ID c932e13f-5ffa-4683-a622-b4c594f372f0 -->
+**#23295 Allow customized Table views to be saved in local storage** (Web)
+
+<!--ID f9821422-48e7-431f-b814-870afbbc7eb4 -->
+**#23296 Make Table columns movable and add column settins to Table menu** (Web)
+
+<!--ID 718a8573-7389-49b8-a00f-46bde31adac0 -->
+**#23297 Enable custom grouping in Table control** (Web)
+
+<!--ID 8968401c-6645-453d-b932-e94a0340dbb8 -->
+**#23298 Improved support for responsive behaviour in search controls** (Web)
+
+<!--ID 0be24149-2711-427b-9c1e-7cd9d9689c97 -->
+**#23299 Reinterpret refined expression when selection is changed** (Web)
+
+<!--ID c5f66759-2dcd-4f42-9bb3-278f187bb43f -->
+**#23300 Add PWA splash screens for supported iOS devices** (Web)
+
+<!--ID 11737e28-5e63-4da7-a4d3-0cd7221550dd -->
+**#23301 Ability to downscale images on Upload Effect** (Web)
+
+<!--ID 0e8056e6-3e3d-48d4-ae0a-144919f8f083 -->
+**#23303 Added default MSXML error logging when loading XML from string** (Desktop;Services;Studio)
+
+<!--ID a1fe2ab3-9b6d-4a4e-a83c-fb4d0ebccc61 -->
+**#23304 MySQL: Handle custom trigger and timeout exceptions** (Services)
+
+<!--ID bae3af00-85d3-490a-b39e-fcfba40f714c -->
+**#23306 Show Data Set information in Data Filter dropdowns** (Web)
+
+<!--ID a52a0a43-a058-4be6-9a72-6b27505560f0 -->
+**#23307 Improved login performance when using Genus Native ID-provider (username / password)** (Desktop;Studio;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 6ac5898c-6574-4a37-ab8f-a42215e4a5ff -->
-**#23267 Preview of mhtml file not updated when switching between files** (Desktop)
+<!--ID 63d16644-cd39-4602-8815-fb7b77512524 -->
+**#23310 "Auto Load data mart" did not work in 19.2** (Desktop)
 
-<!--ID c70a71e7-475b-4580-8914-789fd878a428 -->
-**#23269 Corrected an error which occurred when plotting more than ~2000 objects in a chart** (Desktop)
-
-<!--ID e2305fb5-623a-4d16-9cbc-6772af7cd783 -->
-**#23272 Analysis Conditional Symbols and Text are no longer linked after duplicating a Tile** (Desktop)
-
-After duplicating a Tile, conditional values were "linked" between the two tiles. Changing a conditional value in either the clone or the cloned, would change the value in both. This is no longer the case.
+To reproduce:
+1) Make a schedule which starts at a time in the future
+2) Check "Auto Load data mart"
+3) Unload the data mart
+4) Observe that using the data mart yields "Data mart not loaded" message
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues

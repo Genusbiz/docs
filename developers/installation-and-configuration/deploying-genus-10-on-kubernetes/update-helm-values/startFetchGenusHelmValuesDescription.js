@@ -28,12 +28,6 @@ async function startFetchGenusHelmValuesDescription(api) {
 	await fetchHelmValueDescriptionFromGitlab('release/10.10', '10.10')
 	await fetchHelmValueDescriptionFromGitlab('release/10.9', '10.9')
 	await fetchHelmValueDescriptionFromGitlab('release/10.8', '10.8')
-	await fetchHelmValueDescriptionFromGitlab('release/10.7', '10.7')
-	await fetchHelmValueDescriptionFromGitlab('release/10.6', '10.6')
-	await fetchHelmValueDescriptionFromGitlab('release/10.5', '10.5')
-	await fetchHelmValueDescriptionFromGitlab('release/10.4', '10.4')
-	await fetchHelmValueDescriptionFromGitlab('release/10.3', '10.3')
-	await fetchHelmValueDescriptionFromGitlab('release/10.2', '10.2')
 }
 
 async function fetchHelmValueDescriptionFromGitlab(fromGitlabBranch, toGithubFile) {

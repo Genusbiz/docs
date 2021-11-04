@@ -1,9 +1,9 @@
 ---
-title: Release notes for Genus 10.2.
-description: User-visible changes to Genus from release 10.1 to 10.2.
+title: Release notes for Genus 10.1.
+description: User-visible changes to Genus from release 10.0 to 10.1.
 author: jtroset
 ---
-# Release notes for Genus 10.2
+# Release notes for Genus 10.1
 
 ## Introduction
 
@@ -40,53 +40,44 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID b13c9736-4b44-4795-a9e9-7b0bdcb81978 -->
+**#23271 Cross-Origin Resource Sharing (CORS)** (Services;Studio)
+
+After upgrading to Genus 10 Update 1 you have to update the Cross-Origin Resource Sharing (CORS) settings in Genus Studio. Open Genus Studio, click Administration -> Settings, scroll down to "Cross-Origin Resource Sharing (CORS)" and enter all Origin URLs that should be allowed for this solution, e.g.
+
+* https://xyz.company.com
+* https://xyz-origin.company.com
+* https://xyz-blue.company.com
+* https://xyz-green.company.com
+
+You may add a port or a wildcard port (':*', i.e. meaning any port is allowed) like this:
+
+* https://xyz.company.com:8443
+* https://xyz.company.com:*
+
+Entering an Origin URL that contains a single wildcard character ('*'), 'null', or '' is not supported.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID f173a63f-0f77-4433-880f-b9f63b714741 -->
-**#23277 Initial MySQL 5.7 support (Amazon Aurora)** (Desktop;Web)
-
-MySQL is now a supported database vendor. This allows Amazon Aurora based solutions.
-
+There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 9c8421fd-ea52-4940-8a17-346697863a45 -->
-**#23274 Added GX language features** (Desktop;Services;Studio)
-
-A few new string functions have been introduced:
-
-* **String.split(chunkSize)** -- Splits a string into chunks of a fixed size. Returns a sequence of strings. Depending on the current string length and the specified chunk size, the last string returned may be smaller than the specified chunk size.
-* **String.characters()** -- Splits a string into a sequence of characters. This is the same as calling String.split(1).
-* **String.characterValue()** -- Returns an integer representing the Unicode value of a character. Throws an exception if the specified string does not contain exactly one character.
-
-A new iterator operation has been introduced:
-
-* **collection.collect( *elem* | an expression using *elem* )** -- Iterates the collection and returns a sequence where each element has been transformed. The expression acts as a transform to be applied to each element.
-
-A collection of type Sequence or OrderedSet returns a Sequence. A collection of type Set or Bag returns a Bag.
-
+There are no minor new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID accdd428-8aaf-4c8b-8c02-e6fb20b8be8e -->
-**#23276 Table columns in Dashboard** (Desktop)
+<!--ID 6ac5898c-6574-4a37-ab8f-a42215e4a5ff -->
+**#23267 Preview of mhtml file not updated when switching between files** (Desktop)
 
-Problem with resizeing columns is now fixed and its easyer to set column widths.
+<!--ID c70a71e7-475b-4580-8914-789fd878a428 -->
+**#23269 Corrected an error which occurred when plotting more than ~2000 objects in a chart** (Desktop)
 
-<!--ID f6d898d4-26b9-41c7-91c2-c2b378c4bfbc -->
-**#23278 Dashboards referencing deleted Dashboards no longer crash** (Desktop)
+<!--ID e2305fb5-623a-4d16-9cbc-6772af7cd783 -->
+**#23272 Analysis Conditional Symbols and Text are no longer linked after duplicating a Tile** (Desktop)
 
-Dashboards referencing deleted Dashboards in an "Open Analysis" command, would crash on opening the designer, and on executing the Command.
-
-<!--ID ab031844-edda-421a-9c91-5a4f1005df7f -->
-**#23279 Period Shift now works in Dasbhoard Tables** (Desktop)
-
-<!--ID 371410fc-b45a-415d-9fd5-95d468d7c859 -->
-**#23281 Responses with SOAP headers annotated with attribute mustUnderstand="1" caused an exception** (Services)
-
-When consuming a SOAP webservice one or more SOAP headers may be returned from the service. If the web service retunred one or more SOAP headers annotated with a mustUnderstand="1" attribute the Consume a Web Service effect would throw an exception and the consuming action would simply fail. This behavior has now been corrected. Please note that the consuming action must assume the responsibility of understanding SOAP headers with mustUnderstand="1".
+After duplicating a Tile, conditional values were "linked" between the two tiles. Changing a conditional value in either the clone or the cloned, would change the value in both. This is no longer the case.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
