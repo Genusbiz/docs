@@ -39,8 +39,9 @@
 | genus-kubernetes-operator-service.activeSchema                                       | | "" |
 | genus-kubernetes-operator-service.dbType                                             | | "" |
 | genus-kubernetes-operator-service.doRollingPodRestarts                               | | "true" |
-| genus-kubernetes-operator-service.phoneHomeEnabled                                   | See [Phone Home](#phone-home) | "false" |
-| genus-kubernetes-operator-service.phoneHomeApiKey                                    | | "" |
+| genus-kubernetes-operator-service.phoneHome.enabled                                  | See [Phone Home](#phone-home) | "false" |
+| genus-kubernetes-operator-service.phoneHome.apiKey                                   | | "" |
+| genus-kubernetes-operator-service.phoneHome.customerSampleCode                       | | "" |
 | genus-kubernetes-operator-service.environmentAvailabilityControlEnabled              | See [Availability Control](#availability-control) | "false" |
 | genus-kubernetes-operator-service.resources                                          | | |
 | genus-kubernetes-operator-service.resources.request                                  | | |
