@@ -33,14 +33,16 @@ genus-operator-frontend:
 
 genus-kubernetes-operator-service:
   replicaCount: 1
+  dbType: ""
   descriptiveConnectionString: ""
   descriptiveSchema: ""
   activeConnectionString: ""
   activeSchema: ""
   doRollingPodRestarts: "true"
-  dbType: ""
-  phoneHomeEnabled: "false"
-  phoneHomeApiKey: ""
+  phoneHome:
+    enabled: "false"
+    apiKey: ""
+    customerSampleCode: ""
   environmentAvailabilityControlEnabled: "false"
   resources:
     request:
