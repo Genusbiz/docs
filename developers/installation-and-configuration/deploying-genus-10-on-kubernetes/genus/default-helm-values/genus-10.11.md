@@ -65,7 +65,7 @@ genus-file-utility-service:
     scrapeInterval: 30s
 
 genus-xml-utility-service:
-  enabled: true
+  enabled: false
   replicaCount: 1
   maxRequestSizeInMegaBytes: '100'
   affinityScheduling: 
