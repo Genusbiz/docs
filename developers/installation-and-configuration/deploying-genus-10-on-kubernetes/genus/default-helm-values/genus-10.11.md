@@ -82,7 +82,7 @@ genus-xml-utility-service:
     scrapeInterval: 30s
 
 genus-wopi-service:
-  enabled: true
+  enabled: false
   replicaCount: 1
   affinityScheduling: 
     enabled: false
