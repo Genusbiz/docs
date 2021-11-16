@@ -64,6 +64,9 @@ This entails that the user will not be able to resize or move Tiles, unless the 
 <!--ID a8ef4710-8ac2-4867-a884-f3272ec6fa93 -->
 **#23443 Merged documents with Norwegian culture are now openable in Acrobat** (Services)
 
+<!--ID dc426f89-ede6-4bfa-a1ca-7e074f03d9c4 -->
+**#23444 It is now possible to change referenced data set on refined data sets if data source is the same.** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
