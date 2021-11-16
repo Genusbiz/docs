@@ -119,6 +119,11 @@ Other remarkable changes:
 
 This entails that the user will not be able to resize or move Tiles, unless the flag is manually set to "false"
 
+<!--ID 3400df89-1754-44b6-ae53-88f6ff6d3ac9 -->
+**#23445 Lookup now supports containing search**
+
+When searching in a lookup field, the server now uses the default operator on the text field instead of always using starting with.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
