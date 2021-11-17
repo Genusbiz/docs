@@ -55,6 +55,25 @@ There are no major new functionality in this release.
 
 This entails that the user will not be able to resize or move Tiles, unless the flag is manually set to "false"
 
+<!--ID f8b65ae8-8d79-4f9e-8728-fda751f25043 -->
+**#23446 Previous/next master record navigation** (Web)
+
+Previous/next buttons can now be added to the Action Bar to allow previous/next master record navigation in Form opened from View.
+
+The Enable Browse Objects setting is visible when:
+
+- (1) Navigate To Page is defined within the Page Designer
+- (2) Source page is of layout type View and target page is of layout type Form
+- (3) The object class of the source and target master data source is the same
+
+
+Other minor changes:
+
+- Naming for mechanical actions located in the right action bar is omitted to reduce size of the buttons. The action name is still visible in screentip on hover.
+- Excess dividers are removed (leftDivider for leftCommandBarItems and vica versa).
+
+**Note**: The Action Bar is only visible when it has defined actions in addition to the mechanical actions.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
