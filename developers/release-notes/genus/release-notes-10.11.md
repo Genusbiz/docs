@@ -86,6 +86,9 @@ Other minor changes:
 <!--ID dc426f89-ede6-4bfa-a1ca-7e074f03d9c4 -->
 **#23444 It is now possible to change referenced data set on refined data sets if data source is the same.** (Studio)
 
+<!--ID 4acc31f8-860b-489c-a275-870336593ea2 -->
+**#23447 Control View pane: Only list applicable Viewport Areas for selected Viewport and in logical order** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
