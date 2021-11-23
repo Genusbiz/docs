@@ -89,6 +89,9 @@ Other minor changes:
 <!--ID 4acc31f8-860b-489c-a275-870336593ea2 -->
 **#23447 Control View pane: Only list applicable Viewport Areas for selected Viewport and in logical order** (Studio)
 
+<!--ID 896de4be-b37a-4f47-a3d0-ff8d318897f4 -->
+**#23448 Fixed error in Tab Control that rendered incorrect data when switching page** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
