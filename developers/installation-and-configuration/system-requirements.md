@@ -40,10 +40,10 @@ Our desktop client runs on the following operating systems:
 
 Our desktop client requires the following minimum version of the .NET Framework:
 
-* Genus Apps 2019.2 or later: .NET Framework 4.8 or later
-* Genus Apps 2017.5-2019.1: .NET Framework 4.7 or later
-* Genus Apps 2017.2-2017.4: .NET Framework 4.6.2 or later
-* Genus Apps 2016.1-2017.1: .NET Framework 4.6.1 or later
+* Genus 2019.2 or later: .NET Framework 4.8 or later
+* Genus 2017.5-2019.1: .NET Framework 4.7 or later
+* Genus 2017.2-2017.4: .NET Framework 4.6.2 or later
+* Genus 2016.1-2017.1: .NET Framework 4.6.1 or later
 
 Note that Genus Apps was named Genus App Platform prior to 2017.5.
 
