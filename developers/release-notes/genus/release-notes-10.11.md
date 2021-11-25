@@ -98,6 +98,9 @@ Operator now shows Kubernetes events. The events can reveal errors and warnings 
 <!--ID 896de4be-b37a-4f47-a3d0-ff8d318897f4 -->
 **#23448 Fixed error in Tab Control that rendered incorrect data when switching page** (Web)
 
+<!--ID 81ef3479-da45-4899-b65b-1892d14fa2d9 -->
+**#23450 Filter status was not always displayed correctly in Table Column** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
