@@ -58,7 +58,8 @@ This entails that the user will not be able to resize or move Tiles, unless the 
 <!--ID f8b65ae8-8d79-4f9e-8728-fda751f25043 -->
 **#23446 Previous/next master record navigation** (Web)
 
-Previous/next buttons can now be added to the Action Bar to allow previous/next master record navigation in Form opened from View.
+Enable browse objects is now available to allow previous/next master record navigation in Form opened from View.
+The setting is assigned in the Navigate to Page action within the Page Designer of the View where the Form is to be opened from.
 
 The Enable Browse Objects setting is visible when:
 
