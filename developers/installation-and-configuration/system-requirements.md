@@ -53,7 +53,7 @@ Integration with Microsoft Office is supported for both 32-bit and 64-bit editio
 
 The Genus document mail merge feature does not require Microsoft Word to be installed.
 
-We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. Genus Desktop requires a Genus Services installation on one or more application servers, which will be provided for you by your system administrator, your business partner or through a Genus Cloud Subscription.
+We recommend keeping your computer up to date with the latest updates and service packs from Microsoft. We also recommend using Genus together with Microsoft Office. Genus Desktop requires a Genus Services installation on one or more application servers, which will be provided for you by your system administrator or your business partner.
 
 ## System requirements for running Genus Services
 
