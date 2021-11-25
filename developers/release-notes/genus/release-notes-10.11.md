@@ -74,6 +74,11 @@ Other minor changes:
 
 **Note**: The Action Bar is only visible when it has defined actions in addition to the mechanical actions.
 
+<!--ID f1048e0f-1009-4a5c-b014-080e0fc9f7ea -->
+**#23449 View Kubernetes events** (Operator)
+
+Operator now shows Kubernetes events. The events can reveal errors and warnings from namespaces associated with the model.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
