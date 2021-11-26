@@ -101,6 +101,9 @@ Operator now shows Kubernetes events. The events can reveal errors and warnings 
 <!--ID 81ef3479-da45-4899-b65b-1892d14fa2d9 -->
 **#23450 Filter status was not always displayed correctly in Table Column** (Web)
 
+<!--ID 4676cc5b-0093-419e-9033-407a4877a748 -->
+**#23451 Improved tile menu in Dashboard Designer** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
