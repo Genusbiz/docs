@@ -83,9 +83,6 @@ Operator now shows Kubernetes events. The events can reveal errors and warnings 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID d8dfad7a-80a3-4548-99f5-1eda1593997c -->
-**#23442 Improved Sitemap experience** (Web)
-
 <!--ID a8ef4710-8ac2-4867-a884-f3272ec6fa93 -->
 **#23443 Merged documents with Norwegian culture are now openable in Acrobat** (Services)
 
