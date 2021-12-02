@@ -63,6 +63,9 @@ The pin/unpin button is only visible when the Sitemap is expanded.
 
 The width of the Sitemap is now 300px to reduce variations in apperance when switching between apps or areas (width is 100% in mobile view).
 
+<!--ID e0ef9ad6-5593-4239-80db-8d42ca964a40 -->
+**#23452 Dashboard and Data Marts can now be changed by non app model admin users accounts** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
