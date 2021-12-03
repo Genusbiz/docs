@@ -117,6 +117,8 @@ redis:
       kubernetes.io/os: linux
     persistence:
       enabled: false
+    podLabels:
+      app.kubernetes.io/part-of: genus
   metrics:
     enabled: false
     serviceMonitor: 
@@ -125,7 +127,7 @@ redis:
       enabled: false
       serviceMonitor:
         enabled: false
-    
+
 genus-common-config:
   enabled: true
   replicaCount: 1
