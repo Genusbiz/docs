@@ -70,6 +70,9 @@ The width of the Sitemap is now 300px to reduce variations in apperance when swi
 <!--ID e0ef9ad6-5593-4239-80db-8d42ca964a40 -->
 **#23452 Dashboard and Data Marts can now be changed by non app model admin users accounts** (Web)
 
+<!--ID 4e2285ad-6a65-40e3-8378-8c718fff03e2 -->
+**#23455 Buttons in the Filter Search Pane is always visible for the user.** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
