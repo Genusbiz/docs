@@ -50,7 +50,11 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID bee971cc-a102-4d65-9b33-4fd16457ffb9 -->
+**#23454 Copy to Clipboard effect** (Web)
+
+The Client Action libary has now been expanded with a Copy to Clipboard effect
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
