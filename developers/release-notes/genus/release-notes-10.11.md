@@ -101,6 +101,12 @@ Operator now shows Kubernetes events. The events can reveal errors and warnings 
 <!--ID 4676cc5b-0093-419e-9033-407a4877a748 -->
 **#23451 Improved tile menu in Dashboard Designer** (Web)
 
+<!--ID d5b8126c-1a36-47f5-87f7-91bc485f7432 -->
+**#23456 Fixed problem in Dropdown control with infinite wait indicator** (Web)
+
+<!--ID 61384942-4696-4a82-ad98-30911498647e -->
+**#23457 Fixed problem exporting objects to XML** (Services)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
