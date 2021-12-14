@@ -55,6 +55,9 @@ There are no major new functionality in this release.
 
 The Client Action libary has now been expanded with a Copy to Clipboard effect
 
+<!--ID 81520653-6478-4bd0-9e99-2951252b4c13 -->
+**#23458 Action Bar: Visible added as property for Ribbon Page and Section** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
