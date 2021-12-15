@@ -484,50 +484,46 @@
       - name: Helm Values Description
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/index.md
         items:
+        - name: Genus 10.13
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.13.md
         - name: Genus 10.12
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.12.md
         - name: Genus 10.11
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.11.md
         - name: Genus 10.10
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.10.md
-        - name: Genus 10.9
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.9.md
-        - name: Genus 10.8
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.8.md
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/index.md
         items:
+        - name: Genus 10.13
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.13.md
         - name: Genus 10.12
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.12.md
         - name: Genus 10.11
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.11.md
         - name: Genus 10.10
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.10.md
-        - name: Genus 10.9
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.9.md
-        - name: Genus 10.8
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.8.md
     - name: Genus Operator
       href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/index.md
       items: 
       - name: Helm Values Description
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/index.md
         items:
+        - name: Genus Operator 4.9.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.9.0.md
+        - name: Genus Operator 4.8.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.8.0.md
         - name: Genus Operator 4.7.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.7.0.md
-        - name: Genus Operator 4.6.1
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.6.1.md
-        - name: Genus Operator 4.6.0
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.6.0.md
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/index.md
         items:
+        - name: Genus Operator 4.9.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.9.0.md
+        - name: Genus Operator 4.8.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.8.0.md
         - name: Genus Operator 4.7.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.7.0.md
-        - name: Genus Operator 4.6.1
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.6.1.md
-        - name: Genus Operator 4.6.0
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.6.0.md
   - name: Installing Genus Desktop
     href: installation-and-configuration/installing-genus-desktop/index.md
     items:
@@ -691,20 +687,22 @@
   items:
   - name: Genus
     items:
+    - name: Genus 10.13
+      href: release-notes/genus/release-notes-10.13.md
     - name: Genus 10.12
       href: release-notes/genus/release-notes-10.12.md
     - name: Genus 10.11
       href: release-notes/genus/release-notes-10.11.md
     - name: Genus 10.10
       href: release-notes/genus/release-notes-10.10.md
-    - name: Genus 10.9
-      href: release-notes/genus/release-notes-10.9.md
-    - name: Genus 10.8
-      href: release-notes/genus/release-notes-10.8.md
     - name: Genus 2019.2
       href: release-notes/genus/release-notes-2019.2.md
     - name: Older
       items:
+      - name: Genus 10.9
+        href: release-notes/genus/older/release-notes-10.9.md
+      - name: Genus 10.8
+        href: release-notes/genus/older/release-notes-10.8.md
       - name: Genus 10.7
         href: release-notes/genus/older/release-notes-10.7.md
       - name: Genus 10.6
@@ -755,14 +753,18 @@
         href: release-notes/genus/older/release-notes-2013.1.md
   - name: Genus Operator
     items: 
+    - name: Version 4.9.0
+      href: release-notes/genus-operator/release-notes-4.9.0.md
+    - name: Version 4.8.0
+      href: release-notes/genus-operator/release-notes-4.8.0.md
     - name: Version 4.7.0
       href: release-notes/genus-operator/release-notes-4.7.0.md
-    - name: Version 4.6.1
-      href: release-notes/genus-operator/release-notes-4.6.1.md
-    - name: Version 4.6.0
-      href: release-notes/genus-operator/release-notes-4.6.0.md
     - name: Older
       items:
+      - name: Version 4.6.1
+        href: release-notes/genus-operator/older/release-notes-4.6.1.md
+      - name: Version 4.6.0
+        href: release-notes/genus-operator/older/release-notes-4.6.0.md
       - name: Version 4.5.0
         href: release-notes/genus-operator/older/release-notes-4.5.0.md
       - name: Version 4.4.0
