@@ -80,6 +80,9 @@ Other minor changes:
 
 Operator now shows Kubernetes events. The events can reveal errors and warnings from namespaces associated with the model.
 
+<!--ID 40e96c85-c065-4152-9fa1-601df5237018 -->
+**#23459 Added radio buttons for filtering on selection in read related filters.** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
