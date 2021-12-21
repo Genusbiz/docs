@@ -82,6 +82,14 @@ The width of the Sitemap is now 300px to reduce variations in apperance when swi
 <!--ID 61384942-4696-4a82-ad98-30911498647e -->
 **#23457 Fixed problem exporting objects to XML** (Services)
 
+<!--ID 3bcb9c06-d80b-47c9-b03d-46ba7f60cbee -->
+**#23460 Data marts does not always reload as expected** (Services)
+
+In some situations datamarts did not reload as expected.
+Could happen either because of new data or because datamart definitions where modified.
+The problem was due to a communications issue between the data mart scheduler and the data marts.
+The issue is fixed.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
