@@ -62,6 +62,9 @@ Could happen either because of new data or because datamart definitions where mo
 The problem was due to a communications issue between the data mart scheduler and the data marts.
 The issue is fixed.
 
+<!--ID 2a85b846-323f-4dc3-9deb-b7092698b3db -->
+**#23461 Entering invalid values into Integer Date Edit made the application crash** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
