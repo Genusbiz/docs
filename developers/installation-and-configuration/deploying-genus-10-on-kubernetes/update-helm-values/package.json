@@ -13,7 +13,7 @@
     "@azure/identity": "^1.2.4",
     "@azure/keyvault-secrets": "^4.1.0",
     "atob": "^2.1.2",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "dotenv": "^8.2.0",
     "octonode": "^0.10.2"
   },
