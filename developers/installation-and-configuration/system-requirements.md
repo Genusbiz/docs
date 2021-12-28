@@ -9,7 +9,7 @@ The term "evergreen browser" refers to web browsers that are automatically upgra
 Please note that Internet Explorer 11 and older versions are not considered evergreen. Our support schedule is as follows:
 
 *   **Genus 10 or later**: Support for Internet Explorer removed.
-*   **Genus Apps 2017.1-2019.2**: Support for Internet Explorer may be removed based on usage. You may have to use an evergreen browser. When something does not appear, or looks wrong, in Internet Explorer, but looks good in other browsers, the solution may be to do some adjustments to your web app model. See [here](../guidelines-and-best-practices/genus-web-and-internet-explorer-11.md) for more information.
+*   **Genus Apps 2017.1-2022.1**: Support for Internet Explorer may be removed based on usage. You may have to use an evergreen browser. When something does not appear, or looks wrong, in Internet Explorer, but looks good in other browsers, the solution may be to do some adjustments to your web app model. See [here](../guidelines-and-best-practices/genus-web-and-internet-explorer-11.md) for more information.
 In general, support for operating systems and browsers with a market share of 5% or less is removed in the next release of our web client.
 *   **Genus Apps 2016.2**: Internet Explorer 11 is supported for all functionality areas except Analysis (Genus Discovery). We recommend using an evergreen browser.
 *   **Genus Apps 2016.1**: Internet Explorer 11 is supported.
@@ -57,7 +57,7 @@ We recommend keeping your computer up to date with the latest updates and servic
 
 ## System requirements for running Genus Services
 
-*Versions later than 2019.2 run on Kubernetes clusters and not on traditional application servers as earlier versions.*
+*Versions later than 2022.1 run on Kubernetes clusters and not on traditional application servers as earlier versions.*
 
 **Infrastructure requirements**
 * Cloud or on-prem Kubernetes cluster running both Linux and Windows worker nodes (support for Windows containers).
@@ -78,7 +78,7 @@ We recommend a cluster of minimum of 2 windows and 3 linux worker nodes to provi
 
 We do not recommend running your Relational Data Base Management System (RDBMS) in the Kubernetes cluster, but instead on a dedicated server or as a service in the cloud.
 
-### Prior to and including 2019.2
+### Prior to and including 2022.1
 
 The minimum hardware and software requirements for an application server running Genus Services are listed below. Such application servers are also called Genus Servers.
 
@@ -131,7 +131,7 @@ The application server manages connectivity to the database layer, and communica
 
 Genus Services includes Oracle ODP.NET Managed Driver. No additional software on the application server or cluster is required.
 
-* Genus Apps 2019.2 or earlier: Any other Oracle driver software on the application server must be completely uninstalled and removed, prior to the installation of Genus Services.
+* Genus Apps 2022.1 or earlier: Any other Oracle driver software on the application server must be completely uninstalled and removed, prior to the installation of Genus Services.
 
 ### Sybase Adaptive Server Enterprise (ASE)
 
@@ -144,13 +144,13 @@ Sybase support depends on the version of Genus:
 ### MySQL (incl. Aurora)
 
 * Genus 10 or later: Genus Services includes driver.
-* Genus Apps 2019.2 or earlier: For MySQL database access the **MySQL Connector/Net, version 6.4.4** must be installed on the application server.
+* Genus Apps 2022.1 or earlier: For MySQL database access the **MySQL Connector/Net, version 6.4.4** must be installed on the application server.
 
 ### IBM DB2
 
 For IBM DB2 database access the "IBM Data Server Driver Package (Windows/x86-64 64 bit)" must be installed on your application server. Please download the appropriate version according to the list below from https://www.ibm.com/support/docview.wss?uid=swg27016878:
 
-* Genus Apps 2018.2-2019.2: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod3 Fix Pack3 iFix001" ([v11.1.3fp3a_ntx64_dsdriver_EN.exe](https://www.ibm.com/support/fixcentral/swg/downloadFixes?parent=ibm~Information%2BManagement&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.3031.295-FP003a&includeRequisites=1&includeSupersedes=0&downloadMethod=http)).
+* Genus Apps 2018.2-2022.1: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod3 Fix Pack3 iFix001" ([v11.1.3fp3a_ntx64_dsdriver_EN.exe](https://www.ibm.com/support/fixcentral/swg/downloadFixes?parent=ibm~Information%2BManagement&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.3031.295-FP003a&includeRequisites=1&includeSupersedes=0&downloadMethod=http)).
 * Genus Apps 2018.1: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod2 Fix Pack2 iFix002" ([v11.1.2fp2b_ntx64_dsdriver_EN.exe](https://www.ibm.com/support/fixcentral/swg/downloadFixes?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.2022.1522-FP002b&includeRequisites=1&includeSupersedes=0&downloadMethod=http)).
 * Genus Apps 2017.5: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod2 Fix Pack2 iFix001" ([v11.1.2fp2a_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.2021.1452-FP002a&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
 * Genus Apps 2016.1-2017.4: "IBM Data Server Driver Package (Windows/x86-64 64 bit) Version 11.1 Mod1 Fix Pack 1" ([v11.1.1fp1_ntx64_dsdriver_EN.exe](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%2FInformation%20Management&product=ibm/Information+Management/IBM+Data+Server+Client+Packages&release=11.1.*&platform=Windows+64-bit,+x86&function=fixId&fixids=DSClients-ntx64-dsdriver-11.1.1010.160-FP001&includeRequisites=1&includeSupersedes=0&downloadMethod=http&source=fc)).
