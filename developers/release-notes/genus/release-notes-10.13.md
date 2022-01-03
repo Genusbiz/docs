@@ -65,6 +65,9 @@ The issue is fixed.
 <!--ID 2a85b846-323f-4dc3-9deb-b7092698b3db -->
 **#23461 Entering invalid values into Integer Date Edit made the application crash** (Desktop)
 
+<!--ID 3a5b4420-7cd5-4ddb-952e-791f39140824 -->
+**#23462 Fixed problem registering dates in january in Date Input width Date and Time in separate controls** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
