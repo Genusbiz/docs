@@ -133,6 +133,9 @@ When searching in a lookup field, the server now uses the default operator on th
 - The action debugger did not stop on breakpoints unless the debugger was selected in the dev tools sidebar. Behaviour changed so that the debugger will stop as long as the dev tools sidebar is opened.
 - In some cases, the debugger did not display the correct client action when a breakpoint was reached.
 
+<!--ID 3a5b4420-7cd5-4ddb-952e-791f39140824 -->
+**#23462 Fixed problem registering dates in january in Date Input width Date and Time in separate controls** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
