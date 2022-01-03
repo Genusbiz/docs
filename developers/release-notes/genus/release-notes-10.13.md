@@ -68,6 +68,9 @@ The issue is fixed.
 <!--ID 3a5b4420-7cd5-4ddb-952e-791f39140824 -->
 **#23462 Fixed problem registering dates in january in Date Input width Date and Time in separate controls** (Web)
 
+<!--ID 6d9677f3-9d46-4ea6-b2b3-ddf8837d781d -->
+**#23463 Fixed error generating text or Html from template** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
