@@ -90,6 +90,9 @@ Could happen either because of new data or because datamart definitions where mo
 The problem was due to a communications issue between the data mart scheduler and the data marts.
 The issue is fixed.
 
+<!--ID 3a5b4420-7cd5-4ddb-952e-791f39140824 -->
+**#23462 Fixed problem registering dates in january in Date Input width Date and Time in separate controls** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
