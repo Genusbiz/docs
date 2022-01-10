@@ -71,6 +71,11 @@ The issue is fixed.
 <!--ID 6d9677f3-9d46-4ea6-b2b3-ddf8837d781d -->
 **#23463 Fixed error generating text or Html from template** (Desktop)
 
+<!--ID 8e83f605-7b47-4832-928e-946d1a386b42 -->
+**#23464 Resolved XML namespace handling in 3rd party XML library** (Services)
+
+Genus 10.2 replaced a Windows specific XML library (MSXML) with another multi-platform library (OXML), but also introduced a bug in the XML namespace handling. This bug has now been resolved.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
