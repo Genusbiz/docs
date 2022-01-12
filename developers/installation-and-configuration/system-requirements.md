@@ -164,5 +164,5 @@ Genus Apps version 2016.1 and later supports the following database system vendo
 | Microsoft SQL Server | Microsoft SQL Server 2008 R2<br>Microsoft SQL Server 2012<br>Microsoft SQL Server 2014<br>Microsoft SQL Server 2016<br>Microsoft SQL Server 2017<br>Microsoft SQL Server 2019
 | Microsoft Azure SQL  | Azure SQL V12
 | MySQL (incl. Aurora) | MYSQL 5.5<br>MYSQL 5.7
-| Oracle               | ORACLE 10.0g<br>ORACLE 11g<br>ORACLE 11g R2<br>ORACLE 12.1c<br>Oracle 19c
+| Oracle               | ORACLE 12.1c<br>Oracle 19c
 | DB2                  | DB2 10.1
