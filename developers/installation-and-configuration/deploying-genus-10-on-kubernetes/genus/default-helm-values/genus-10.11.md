@@ -312,6 +312,22 @@ genus-carddav-service:
   serviceMonitor:
     scrapeInterval: 30s
 
+genus-mail-service:
+  enabled: true
+  replicaCount: 1
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources: 
+    requests:
+      memory: "32Mi"
+      cpu: "25m"
+    limits:
+      memory: "128Mi"
+      cpu: "500m"
+  serviceMonitor:
+    scrapeInterval: 30s
+
 genus-live-update-input-service:
   enabled: true
   replicaCount: 1
