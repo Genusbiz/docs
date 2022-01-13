@@ -81,6 +81,23 @@ genus-xml-utility-service:
   serviceMonitor:
     scrapeInterval: 30s
 
+genus-mail-service:
+  enabled: false
+  replicaCount: 1
+  maxRequestSizeInMegaBytes: '100'
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources: 
+    requests:
+      memory: "32Mi"
+      cpu: "25m"
+    limits:
+      memory: "128Mi"
+      cpu: "500m"
+  serviceMonitor:
+    scrapeInterval: 30s
+    
 genus-wopi-service:
   enabled: false
   replicaCount: 1
@@ -298,22 +315,6 @@ genus-webcal-service:
 
 genus-carddav-service:
   enabled: true
-  replicaCount: 1
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources: 
-    requests:
-      memory: "32Mi"
-      cpu: "25m"
-    limits:
-      memory: "128Mi"
-      cpu: "500m"
-  serviceMonitor:
-    scrapeInterval: 30s
-
-genus-mail-service:
-  enabled: false
   replicaCount: 1
   affinityScheduling: 
     enabled: false
