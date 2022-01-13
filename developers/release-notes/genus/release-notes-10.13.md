@@ -30,7 +30,16 @@ Prior to upgrading to this release, you must:
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no end-of-life functionality identified in this release.
+<!--ID 23b1dc25-32f0-4c13-89a2-34ebf0bd22f0 -->
+**#23466 Discontinued support for database versions**
+
+Genus has discontinued support for some older databases
+
+* Microsoft SQL Server versions prior to 12
+* ORACLE versions prior to 12c are no longer supported.
+
+These database versions lack support for vital Genus functionality, and are no longer in active use by clients.
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
