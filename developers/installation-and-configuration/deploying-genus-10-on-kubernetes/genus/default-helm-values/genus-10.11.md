@@ -313,7 +313,7 @@ genus-carddav-service:
     scrapeInterval: 30s
 
 genus-mail-service:
-  enabled: true
+  enabled: false
   replicaCount: 1
   affinityScheduling: 
     enabled: false
