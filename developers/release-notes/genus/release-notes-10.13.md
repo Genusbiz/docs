@@ -89,6 +89,11 @@ The issue is fixed.
 
 Genus 10.2 replaced a Windows specific XML library (MSXML) with another multi-platform library (OXML), but also introduced a bug in the XML namespace handling. This bug has now been resolved.
 
+<!--ID 6037c90d-77db-4e5b-9550-ca050551d725 -->
+**#23468 Organizational chart is more compact**
+
+Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now set to x1. This results in a much more compact chart.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
