@@ -94,6 +94,9 @@ Genus 10.2 replaced a Windows specific XML library (MSXML) with another multi-pl
 
 Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now set to x1. This results in a much more compact chart.
 
+<!--ID f2b287db-c2e9-4d18-bae7-5235e152414e -->
+**#23469 Context is available on create new object in data filters** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
