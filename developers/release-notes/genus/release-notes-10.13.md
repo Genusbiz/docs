@@ -69,6 +69,9 @@ Visibility "Yes | No | For Specified Groups" added to Sitemap Components, allowi
 
 Visibility and enabling on controls and page elements is extended to allow for scoping tospecified security groups. The setting is found by expanding Visible/Enabled in the page designer. Change Scope to "For Specified Groups" and select Security Groups, to restrict visibility/enabling.
 
+<!--ID 8b14dadb-d6cd-4ad5-9da3-9c05e7ece796 -->
+**#23472 Added placement option to Show Callout effect** (Studio;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
