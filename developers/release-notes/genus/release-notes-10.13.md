@@ -26,15 +26,16 @@ Prior to upgrading to this release, you must:
 See also the following notes.
 
 <!--ID 26b4d447-5580-4f69-b5a5-9bc439491b22 -->
-**#23467 Mail Service** (Services)
+**#23467 New microservice: Mail Service** (Services)
 
-This is a new microservice called Mail Service. 
+A new microservice called Mail Service have been added to Genus.
 
-Requires the following helm values added to the config-file:
+This requires the following helm values to be added to the helm-value-config-files:
 
-- activeSchema - The database schema
-- activeConnectionString - The database connection strng
-- dbType - The database type (eg. SQLServer, Oracle, DB2 or MySQL)
+
+genus-mail-service.activeSchema  # The database schema
+genus-mail-service.activeConnectionString # The database connection strng
+genus-mail-service.dbType # The database type (eg. SQLServer, Oracle, DB2 or MySQL)
 
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
