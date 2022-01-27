@@ -82,9 +82,12 @@ genus-xml-utility-service:
     scrapeInterval: 30s
 
 genus-mail-service:
-  enabled: false
+  enabled: true
   replicaCount: 1
   maxRequestSizeInMegaBytes: '100'
+  activeConnectionString: ''
+  activeSchema: ''
+  dbType: ''
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
