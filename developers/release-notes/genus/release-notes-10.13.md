@@ -121,6 +121,9 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 <!--ID 60945cb2-09e9-4c4f-ac36-5a045c96e3d0 -->
 **#23474 Badge was clipped in naviagation pane with long texts** (Web)
 
+<!--ID 1c76052b-7a0e-4718-bc38-b6fea7860586 -->
+**#23475 Fixed initial width of dialog for entering field values when running an action** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
