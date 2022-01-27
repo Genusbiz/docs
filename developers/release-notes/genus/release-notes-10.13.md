@@ -33,9 +33,9 @@ A new microservice called Mail Service have been added to Genus.
 This requires the following helm values to be added to the helm-value-config-files:
 
 
-genus-mail-service.activeSchema  # The database schema
-genus-mail-service.activeConnectionString # The database connection strng
-genus-mail-service.dbType # The database type (eg. SQLServer, Oracle, DB2 or MySQL)
+* genus-mail-service.activeSchema  # The database schema
+* genus-mail-service.activeConnectionString # The database connection strng
+* genus-mail-service.dbType # The database type (eg. SQLServer, Oracle, DB2 or MySQL)
 
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
@@ -85,6 +85,11 @@ Visibility and enabling on controls and page elements is extended to allow for s
 
 <!--ID 8b14dadb-d6cd-4ad5-9da3-9c05e7ece796 -->
 **#23472 Added placement option to Show Callout effect** (Studio;Web)
+
+<!--ID 1dd070ce-8ffb-403b-9663-f92b60ea51d0 -->
+**#23476 Improved preview in Page Designer** (Studio)
+
+The size of preview can now be adjusted by the user
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
