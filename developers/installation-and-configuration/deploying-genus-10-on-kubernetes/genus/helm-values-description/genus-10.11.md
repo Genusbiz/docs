@@ -41,6 +41,11 @@ All microservices can be configured with the following common helm values.
 | genus-webcal-service                                             | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-carddav-service                                            | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-live-update-input-service                                  | *See [Microservice helm values](#microservice-helm-values)* |  | 
+| genus-mail-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  | 
+| genus-mail-service.activeConnectionString                        |  | "" | 
+| genus-mail-service.activeSchema                                  |  | "" | 
+| genus-mail-service.dbType                                        |  | "" | 
+| genus-mail-service.maxRequestSizeInMegaBytes                     |  | "100" | 
 | genus-core-services                                              | *See [Microservice helm values](#microservice-helm-values)* |  | 
 | genus-core-services.activeConnectionString                       |  | "" | 
 | genus-core-services.databaseActiveDb                             |  | "" | 
