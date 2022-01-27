@@ -118,6 +118,9 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 <!--ID f2b287db-c2e9-4d18-bae7-5235e152414e -->
 **#23469 Context is available on create new object in data filters** (Web)
 
+<!--ID 60945cb2-09e9-4c4f-ac36-5a045c96e3d0 -->
+**#23474 Badge was clipped in naviagation pane with long texts** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
