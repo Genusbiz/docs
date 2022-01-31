@@ -85,9 +85,6 @@ genus-mail-service:
   enabled: true
   replicaCount: 1
   maxRequestSizeInMegaBytes: '100'
-  activeConnectionString: ''
-  activeSchema: ''
-  dbType: ''
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -351,18 +348,8 @@ genus-live-update-input-service:
   
 genus-core-services:
   enabled: true
-  activeConnectionString: ''
-  databaseActiveDb: ''
-  databaseActiveSchema: ''
-  descriptiveConnectionString: ''
-  databaseDescriptiveDb: ''
-  databaseDescriptiveSchema: ''
-  databaseVendorVersion: ''
-  databaseIsCaseInsensitive: ''
   responseCompression: 'false'
   requestCompression: 'false'
-  defaultCryptoProviderDecryptionKey: ''
-  defaultCryptoProviderValidationKey: ''
   dataMartQueryService:
     replicaCount: 1
     coreMaxThreadCount: '4'
@@ -420,6 +407,15 @@ genus-core-services:
 
 
 global:
+  database:
+    activeConnectionString: ""
+    activeDb: ""
+    activeSchema: ""
+    descriptiveConnectionString: ""
+    descriptiveDb: ""
+    descriptiveSchema: ""
+    vendorVersion: ""
+    caseInsensitiveSearch: ""
   dnsSuffix: ''
   nodeEnviroment: production
   customer: ''
