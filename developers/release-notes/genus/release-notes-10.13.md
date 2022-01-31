@@ -58,7 +58,79 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID e08a6f3a-8b74-4861-86b9-afb7a81e81b0 -->
+**#23477 Changed helm values** (Services)
+
+We have changed how some of the configuration regarding the connection to database is done. The following changes must be made to all helm-value configuration files before updating to 10.13:
+
+**Please note that some of the values have also changed name.**
+
+These helm-values are removed:
+
+```
+genus-core-services:
+  activeConnectionString: ''
+  databaseActiveDb: ''
+  databaseActiveSchema: ''
+  descriptiveConnectionString: ''
+  databaseDescriptiveDb: ''
+  databaseDescriptiveSchema: ''
+  databaseVendorVersion: ''
+  databaseIsCaseInsensitive: ''
+```
+
+and are replaced by:
+
+```
+global:
+  database:
+    activeConnectionString: ""
+    activeDb: ""
+    activeSchema: ""
+    descriptiveConnectionString: ""
+    descriptiveDb: ""
+    descriptiveSchema: ""
+    vendorVersion: ""
+    caseInsensitiveSearch: ""
+```
+
+**Please note that some of the values have also changed name.**
+
+<!--ID 12420123-35a2-42fd-8529-73c4fec98cb6 -->
+**#23478 Changed helm values** (Operator)
+
+We have changed how some of the configuration regarding the connection to database is done. The following changes must be made to all helm-value configuration files before updating to 10.13:
+
+**Please note that some of the values have also changed name.**
+
+These helm-values are removed:
+
+```
+genus-kubernetes-operator-service:
+  dbType: ""
+  descriptiveConnectionString: ""
+  descriptiveSchema: ""
+  activeConnectionString: ""
+  activeSchema: ""
+```
+
+and are replaced by:
+
+```
+global:
+  database:
+    activeConnectionString: ""
+    activeDb: ""
+    activeSchema: ""
+    descriptiveConnectionString: ""
+    descriptiveDb: ""
+    descriptiveSchema: ""
+    vendorVersion: ""
+    caseInsensitiveSearch: ""
+```
+
+These values should be the same as for the Genus helm-charts.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
