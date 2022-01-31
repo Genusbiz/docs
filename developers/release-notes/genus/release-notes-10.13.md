@@ -30,13 +30,6 @@ See also the following notes.
 
 A new microservice called Mail Service have been added to Genus.
 
-This requires the following helm values to be added to the helm-value-config-files:
-
-
-* genus-mail-service.activeSchema  # The database schema
-* genus-mail-service.activeConnectionString # The database connection strng
-* genus-mail-service.dbType # The database type (eg. SQLServer, Oracle, DB2 or MySQL)
-
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
