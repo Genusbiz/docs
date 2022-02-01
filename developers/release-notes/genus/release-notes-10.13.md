@@ -94,8 +94,6 @@ global:
     caseInsensitiveSearch: ""
 ```
 
-**Please note that some of the values have also changed name.**
-
 <!--ID 12420123-35a2-42fd-8529-73c4fec98cb6 -->
 **#23478 Changed helm values** (Operator)
 
