@@ -484,25 +484,21 @@
       - name: Helm Values Description
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/index.md
         items:
+        - name: Genus 10.14
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.14.md
         - name: Genus 10.13
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.13.md
         - name: Genus 10.12
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.12.md
-        - name: Genus 10.11
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.11.md
-        - name: Genus 10.10
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.10.md
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/index.md
         items:
+        - name: Genus 10.14
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.14.md
         - name: Genus 10.13
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.13.md
         - name: Genus 10.12
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.12.md
-        - name: Genus 10.11
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.11.md
-        - name: Genus 10.10
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.10.md
     - name: Genus Operator
       href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/index.md
       items: 
@@ -687,20 +683,22 @@
   items:
   - name: Genus
     items:
+    - name: Genus 10.14
+      href: release-notes/genus/release-notes-10.14.md
     - name: Genus 10.13
       href: release-notes/genus/release-notes-10.13.md
     - name: Genus 10.12
       href: release-notes/genus/release-notes-10.12.md
-    - name: Genus 10.11
-      href: release-notes/genus/release-notes-10.11.md
-    - name: Genus 10.10
-      href: release-notes/genus/release-notes-10.10.md
     - name: Genus 2022.1
       href: release-notes/genus/release-notes-2022.1.md
     - name: Genus 2019.2
       href: release-notes/genus/release-notes-2019.2.md
     - name: Older
       items:
+      - name: Genus 10.11
+        href: release-notes/genus/older/release-notes-10.11.md
+      - name: Genus 10.10
+        href: release-notes/genus/older/release-notes-10.10.md
       - name: Genus 10.9
         href: release-notes/genus/older/release-notes-10.9.md
       - name: Genus 10.8
