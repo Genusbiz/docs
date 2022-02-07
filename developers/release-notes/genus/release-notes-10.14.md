@@ -64,7 +64,9 @@ If Client Action is not available for the User, it will behave as follows:
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
+<!--ID 5bd02a22-7ae2-40c2-b67d-3d71bc07b9b7 -->
+**#23480 Context menu is available by right click or ellipsis on resources in scheduler** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
