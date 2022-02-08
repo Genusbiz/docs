@@ -61,6 +61,9 @@ If Client Action is not available for the User, it will behave as follows:
 - Give a missing permissions warning if Client Action is used in Event Handlers (Navigate to Page, On Before/After Value Changed).
 - Give a missing permissions warning if Client Action is called from another Client Action.
 
+<!--ID 179113ec-c346-4a5c-ac4d-7a29419694d8 -->
+**#23481 Display Callout is now available in onActivate in Display Field** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
