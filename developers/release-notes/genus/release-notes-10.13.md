@@ -193,6 +193,9 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 <!--ID 1c76052b-7a0e-4718-bc38-b6fea7860586 -->
 **#23475 Fixed initial width of dialog for entering field values when running an action** (Desktop)
 
+<!--ID 58dcfc1d-40d6-4f81-9bdb-c711223c685e -->
+**#23482 Fixed proble with dialog not showing correctly when operned from a component from external module** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
