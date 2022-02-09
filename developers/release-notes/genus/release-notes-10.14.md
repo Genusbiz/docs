@@ -70,6 +70,9 @@ If Client Action is not available for the User, it will behave as follows:
 <!--ID 5bd02a22-7ae2-40c2-b67d-3d71bc07b9b7 -->
 **#23480 Context menu is available by right click or ellipsis on resources in scheduler** (Web)
 
+<!--ID 58dcfc1d-40d6-4f81-9bdb-c711223c685e -->
+**#23482 Fixed proble with dialog not showing correctly when operned from a component from external module** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
