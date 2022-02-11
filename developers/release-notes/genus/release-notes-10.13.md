@@ -165,6 +165,20 @@ It is now possible to define a default app for each endpoint specified in Genus 
 In earlier versions of Genus, if you wanted an app to appear as a part of any web content, you would have to mount Genus as an IFrame inside the customers content.
 It is now possible to define a custom host web page for Genus.  This makes is so an app can appear more naturally inside the customers content.
 
+<!--ID 71500820-74d4-441c-a606-68cd6051cc0f -->
+**#23486 Liveness- and Readiness-probe configuration options** (Services)
+
+It is now possible to configure readinessProbe and livenessProbe for mega-service, datamart-query-service, as well as for redis.
+The following values can be configured for both readinessProbe and livenessProbe:
+
+* failureThreshold
+* initialDelaySeconds
+* periodSeconds
+* timeoutSeconds
+* successThreshold
+
+See [helm-values descriptions](https://docs.genus.no/developers/installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.13.html) for how to do this.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
