@@ -377,7 +377,9 @@ genus-core-services:
     restartWithModelPublish: "true"
   dataMartQueryService:
     replicaCount: 1
-    restartWithModelPublish: "true"
+    commonLabels:
+      app.kubernetes.io/part-of: genus  
+      genus.no/restartWithModelPublish: "true"
     coreMaxThreadCount: '4'
     serviceMonitor:
       scrapeInterval: 30s
@@ -393,7 +395,9 @@ genus-core-services:
         cpu: 1000m
   megaService:
     replicaCount: 1
-    restartWithModelPublish: "true"
+    commonLabels:
+      app.kubernetes.io/part-of: genus  
+      genus.no/restartWithModelPublish: "true"
     coreMaxThreadCount: '4'
     serviceMonitor:
       scrapeInterval: 30s
