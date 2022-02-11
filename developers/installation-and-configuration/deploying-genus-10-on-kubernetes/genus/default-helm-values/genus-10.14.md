@@ -371,15 +371,13 @@ genus-live-update-input-service:
   
 genus-core-services:
   enabled: true
+  restartWithModelPublish: "true"
   responseCompression: 'false'
   requestCompression: 'false'
   genus-hello-world-service:
     restartWithModelPublish: "true"
   dataMartQueryService:
     replicaCount: 1
-    commonLabels:
-      app.kubernetes.io/part-of: genus  
-      genus.no/restartWithModelPublish: "true"
     coreMaxThreadCount: '4'
     serviceMonitor:
       scrapeInterval: 30s
@@ -395,9 +393,6 @@ genus-core-services:
         cpu: 1000m
   megaService:
     replicaCount: 1
-    commonLabels:
-      app.kubernetes.io/part-of: genus  
-      genus.no/restartWithModelPublish: "true"
     coreMaxThreadCount: '4'
     serviceMonitor:
       scrapeInterval: 30s
