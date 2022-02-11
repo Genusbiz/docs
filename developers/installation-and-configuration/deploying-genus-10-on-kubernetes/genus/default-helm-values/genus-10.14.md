@@ -124,6 +124,9 @@ genus-wopi-service:
 redis:
   fullnameOverride: redis-sentinel
   architecture: "replication"
+  commonLabels:
+    app.kubernetes.io/part-of: genus  
+    genus.no/restartWithModelPublish: "false"
   auth:
     enabled: true
     existingSecret: "generic-redis"
