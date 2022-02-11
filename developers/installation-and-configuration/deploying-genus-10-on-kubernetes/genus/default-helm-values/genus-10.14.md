@@ -371,6 +371,8 @@ genus-core-services:
   restartWithModelPublish: "true"
   responseCompression: 'false'
   requestCompression: 'false'
+  genus-hello-world-service:
+    restartWithModelPublish: "true"
   dataMartQueryService:
     replicaCount: 1
     coreMaxThreadCount: '4'
