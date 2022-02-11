@@ -179,6 +179,9 @@ The following values can be configured for both readinessProbe and livenessProbe
 
 See [helm-values descriptions](https://docs.genus.no/developers/installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.13.html) for how to do this.
 
+<!--ID 78bee865-269c-4de2-a0b7-61bf3521bfa9 -->
+**#23487 Added Visibility config to individual tabs in TabControl** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
