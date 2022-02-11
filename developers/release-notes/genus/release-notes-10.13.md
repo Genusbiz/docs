@@ -154,6 +154,11 @@ Visibility and enabling on controls and page elements is extended to allow for s
 
 The size of preview can now be adjusted by the user
 
+<!--ID 0df8b2bb-2203-42df-8c67-91d061cc49e2 -->
+**#23483 Default app** (Web)
+
+It is now possible to define a default app for each endpoint specified in Genus Studio. When the user navigates to the endpoint, if a default app is specified the user will be redirected to this app, instead of the start page.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
