@@ -2,6 +2,7 @@
 genus-database-dictionary-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -18,6 +19,7 @@ genus-database-dictionary-service:
 genus-object-storage-service:
   enabled: false
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -34,6 +36,7 @@ genus-object-storage-service:
 genus-message-queue-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "false"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -50,6 +53,7 @@ genus-message-queue-service:
 genus-file-utility-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "false"
   maxRequestSizeInMegaBytes: '100'
   affinityScheduling: 
     enabled: false
@@ -67,6 +71,7 @@ genus-file-utility-service:
 genus-xml-utility-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   maxRequestSizeInMegaBytes: '100'
   affinityScheduling: 
     enabled: false
@@ -84,6 +89,7 @@ genus-xml-utility-service:
 genus-mail-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   maxRequestSizeInMegaBytes: '100'
   affinityScheduling: 
     enabled: false
@@ -101,6 +107,7 @@ genus-mail-service:
 genus-wopi-service:
   enabled: false
   replicaCount: 1
+  restartWithModelPublish: "false"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -136,6 +143,7 @@ redis:
       enabled: false
     podLabels:
       app.kubernetes.io/part-of: genus
+      genus.no/restartWithModelPublish: "false"
   metrics:
     enabled: false
     serviceMonitor: 
@@ -152,6 +160,7 @@ genus-common-config:
 genus-help-docs-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "false"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -167,9 +176,10 @@ genus-help-docs-service:
 
 genus-web-frontend:
   enabled: true
+  replicaCount: 1
+  restartWithModelPublish: "false"
   serviceWorker:
     enabled: true
-  replicaCount: 1
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -186,6 +196,7 @@ genus-web-frontend:
 genus-authorization-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -202,6 +213,7 @@ genus-authorization-service:
 genus-authentication-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -218,6 +230,7 @@ genus-authentication-service:
 genus-gateway-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -236,6 +249,7 @@ genus-gateway-service:
 genus-trace-input-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "false"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -252,6 +266,7 @@ genus-trace-input-service:
 genus-message-subscription-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "false"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -268,6 +283,7 @@ genus-message-subscription-service:
 genus-tracelog-subscription-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "false"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -284,6 +300,7 @@ genus-tracelog-subscription-service:
 genus-internationalization-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -300,6 +317,7 @@ genus-internationalization-service:
 genus-webcal-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -316,6 +334,7 @@ genus-webcal-service:
 genus-carddav-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -332,6 +351,7 @@ genus-carddav-service:
 genus-live-update-input-service:
   enabled: true
   replicaCount: 1
+  restartWithModelPublish: "false"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -348,6 +368,7 @@ genus-live-update-input-service:
   
 genus-core-services:
   enabled: true
+  restartWithModelPublish: "true"
   responseCompression: 'false'
   requestCompression: 'false'
   dataMartQueryService:
