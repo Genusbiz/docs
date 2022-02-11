@@ -132,7 +132,11 @@ These values should be the same as for the Genus helm-charts.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID c8c57232-990f-4973-be20-453b2929c5af -->
+**#23488 Introduce Global Styles** (Web)
+
+Added a "Style Editor" where global styles can be created. These styles are available when creating Container and Button controls.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
