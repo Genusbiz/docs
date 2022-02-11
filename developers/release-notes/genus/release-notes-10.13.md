@@ -159,6 +159,12 @@ The size of preview can now be adjusted by the user
 
 It is now possible to define a default app for each endpoint specified in Genus Studio. When the user navigates to the endpoint, if a default app is specified the user will be redirected to this app, instead of the start page.
 
+<!--ID f5cd680b-f2b4-4e5b-b3dd-4db843b5c3c4 -->
+**#23485 Custom Host Web Page** (Web)
+
+In earlier versions of Genus, if you wanted an app to appear as a part of any web content, you would have to mount Genus as an IFrame inside the customers content.
+It is now possible to define a custom host web page for Genus.  This makes is so an app can appear more naturally inside the customers content.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
