@@ -73,6 +73,9 @@ If Client Action is not available for the User, it will behave as follows:
 <!--ID 58dcfc1d-40d6-4f81-9bdb-c711223c685e -->
 **#23482 Fixed proble with dialog not showing correctly when operned from a component from external module** (Web)
 
+<!--ID f8c06221-4f93-484e-95d3-f36444751cc4 -->
+**#23484 The setting Display Helper Text was not working for Display Field** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
