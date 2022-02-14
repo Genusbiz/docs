@@ -64,6 +64,15 @@ If Client Action is not available for the User, it will behave as follows:
 <!--ID 179113ec-c346-4a5c-ac4d-7a29419694d8 -->
 **#23481 Display Callout is now available in onActivate in Display Field** (Web)
 
+<!--ID 61bb6b79-55b0-47e0-bfb8-9795f37d1a8e -->
+**#23490 Improved setup of Select Files in Page Designer** (Studio;Web)
+
+- Added Placeholder text to indicate that no choice is equivalent to "all media types/all extensions".
+- Added Helper Text describing the expected format of text input of Accepted File Extensions.
+- File Extensions can be added using a multi selection lookup input with auto complete of "all" known filetypes.
+- Now allowing only assignment of either: (1) Accepted Media Types, or (2) Accepted File Extensions. This is according to the way we validate files.
+- Added Default values to allow Reset of values.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
