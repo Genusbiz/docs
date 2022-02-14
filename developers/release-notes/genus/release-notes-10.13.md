@@ -186,6 +186,13 @@ See [helm-values descriptions](https://docs.genus.no/developers/installation-and
 <!--ID 78bee865-269c-4de2-a0b7-61bf3521bfa9 -->
 **#23487 Added Visibility config to individual tabs in TabControl** (Web)
 
+<!--ID d0e44272-a0a0-4f51-82f0-0ece292f7bac -->
+**#23489 Required flag on client action data sets are split into "Binding Required" and "Data Required"** (Studio;Web)
+
+By setting binding required and not data required, one will not be presented with an error message runtime if there is a lack of data. One can thus require a binding to be set for modelling purposes, while accepting no data runtime.
+
+Data sets that were previously required are continued with both binding and data requried.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
