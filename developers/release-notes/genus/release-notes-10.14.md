@@ -85,6 +85,9 @@ If Client Action is not available for the User, it will behave as follows:
 <!--ID f8c06221-4f93-484e-95d3-f36444751cc4 -->
 **#23484 The setting Display Helper Text was not working for Display Field** (Studio)
 
+<!--ID 5a524988-b2ac-43dd-92c2-8acf12df775d -->
+**#23491 ScreenTip on Buttons and Actions in Menus now uses title from action by default** (Studio;Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
