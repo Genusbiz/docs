@@ -90,7 +90,7 @@ All microservices can be configured with the following common helm values.
 | global.database.descriptiveDb                                    |  | "" | 
 | global.database.descriptiveSchema                                |  | "" | 
 | global.database.vendorVersion                                    |  | "" | 
-| global.database.caseInsensitiveSearch                            |  | "" | 
+| global.database.caseInsensitiveSearch                            |  Can be any of:<br/> Microsoft SQL Server <br/> Microsoft SQL Server 2008 R2<br/> Microsoft SQL Server 2012<br/> Microsoft SQL Server 2014<br/> Microsoft SQL Server 2016<br/> Azure SQL<br/> Azure SQL V12<br/> ORACLE<br/> ORACLE 10.0g<br/> ORACLE 11g<br/> ORACLE 11g R2<br/> ORACLE 12.1c<br/> MYSQL<br/> MYSQL 5.7<br/> PostgreSQL<br/> PostgreSQL 9.2<br/> DB2<br/> DB2 10.1<br/> TIBCO TDV<br/> TIBCO TDV 8.2.0  | "" | 
 | global.customer                                                  | The name of the customer who owns the environment | "" | 
 | global.modelIdentifier                                           | The identifing name of the model. The name shared by all namespaces working together | "" |
 | global.namespaceName                                             | The name of the namespace where the chart is deployed to. Used for validation when deploying | "" | 
