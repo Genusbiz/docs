@@ -91,6 +91,9 @@ If Client Action is not available for the User, it will behave as follows:
 <!--ID 5a524988-b2ac-43dd-92c2-8acf12df775d -->
 **#23491 ScreenTip on Buttons and Actions in Menus now uses title from action by default** (Studio;Web)
 
+<!--ID 3e46c857-7937-40a3-b51b-cbe5401e0091 -->
+**#23493 Client Action: Added missing reference to Data Filter and Data Sets for Read Related in Read Objects** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
