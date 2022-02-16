@@ -73,6 +73,9 @@ If Client Action is not available for the User, it will behave as follows:
 - Now allowing only assignment of either: (1) Accepted Media Types, or (2) Accepted File Extensions. This is according to the way we validate files.
 - Added Default values to allow Reset of values.
 
+<!--ID e1cbf03a-d993-4467-9bb2-b1966e63a919 -->
+**#23492 Badge Value is updated when Sitemap Entry is clicked** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
