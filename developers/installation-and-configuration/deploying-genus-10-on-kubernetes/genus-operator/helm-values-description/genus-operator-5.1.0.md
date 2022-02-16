@@ -10,6 +10,13 @@
 | global.timezone                                                                      | | "" |
 | global.enableSentry                                                                  | | "true" |
 | global.customer                                                                      | | "" |
+| global.database.vendorVersion                                                        | | "" |
+| global.database.activeConnectionString                                               | | "" |
+| global.database.activeDb                                                             | | "" |
+| global.database.activeSchema                                                         | | "" |
+| global.database.descriptiveConnectionString                                          | | "" |
+| global.database.descriptiveDb                                                        | | "" |
+| global.database.descriptiveSchema                                                    | | "" |
 | global.ingress                                                                       | | |
 | global.ingress.annotations                                                           | | {} |
 | global.ingress.awsAlbControllerEnabled                                               | | false |
@@ -33,11 +40,6 @@
 |                                                                                      | | |
 | genus-kubernetes-operator-service                                                    | | |
 | genus-kubernetes-operator-service.replicaCount                                       | | 1 |
-| genus-kubernetes-operator-service.descriptiveConnectionString                        | | "" |
-| genus-kubernetes-operator-service.descriptiveSchema                                  | | "" |
-| genus-kubernetes-operator-service.activeConnectionString                             | | "" |
-| genus-kubernetes-operator-service.activeSchema                                       | | "" |
-| genus-kubernetes-operator-service.dbType                                             | | "" |
 | genus-kubernetes-operator-service.doRollingPodRestarts                               | | "true" |
 | genus-kubernetes-operator-service.phoneHome.enabled                                  | See [Phone Home](#phone-home) | "false" |
 | genus-kubernetes-operator-service.phoneHome.apiKey                                   | | "" |
