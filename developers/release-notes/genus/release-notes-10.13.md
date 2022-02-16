@@ -235,6 +235,9 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 <!--ID 58dcfc1d-40d6-4f81-9bdb-c711223c685e -->
 **#23482 Fixed proble with dialog not showing correctly when operned from a component from external module** (Web)
 
+<!--ID 3e46c857-7937-40a3-b51b-cbe5401e0091 -->
+**#23493 Client Action: Added missing reference to Data Filter and Data Sets for Read Related in Read Objects** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
