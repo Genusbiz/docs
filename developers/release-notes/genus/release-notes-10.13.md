@@ -127,7 +127,7 @@ global:
     caseInsensitiveSearch: ""
 ```
 
-These values should be the same as for the Genus helm-charts.
+**These values should be the same as for the Genus helm-charts. Especiallynote vendorVersion, which should have a different value than the old dbType**
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
