@@ -238,6 +238,9 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 <!--ID 3e46c857-7937-40a3-b51b-cbe5401e0091 -->
 **#23493 Client Action: Added missing reference to Data Filter and Data Sets for Read Related in Read Objects** (Studio)
 
+<!--ID fa296272-22c3-4957-889d-5a57fba55c6a -->
+**#23494 Fixed runtime error when filtering in dropdown with numeric display values** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
