@@ -33,6 +33,23 @@ genus-object-storage-service:
   serviceMonitor:
     scrapeInterval: 30s
 
+genus-key-value-store-service:
+  enabled: false
+  replicaCount: 1
+  restartWithModelPublish: "true"
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 50Mi
+      cpu: 10m
+    limits:
+      memory: 500Mi
+      cpu: 200m
+  serviceMonitor:
+    scrapeInterval: 30s
+
 genus-message-queue-service:
   enabled: true
   replicaCount: 1
