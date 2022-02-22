@@ -193,6 +193,13 @@ By setting binding required and not data required, one will not be presented wit
 
 Data sets that were previously required are continued with both binding and data requried.
 
+<!--ID 7b8c1aef-d75b-4bc2-b916-0e1fe81a60c3 -->
+**#23500 Cumulative Values now available for all Categories** (Web)
+
+Until now, the accumulation of Value data has only been available for Tiles with a temporal Category. Cumulative data has now been made available for all Tiles with one-dimensional Categories.
+
+This is configured through the Data menu choice "Accumulation" in the Dashboard Designer.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
