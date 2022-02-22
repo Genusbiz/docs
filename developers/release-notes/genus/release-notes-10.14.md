@@ -84,6 +84,13 @@ New button in Genus Operator availability schedule to instantly start up an envi
 <!--ID fe655de0-7f60-48db-8fe4-013e6933c8e1 -->
 **#23496 It is now possible to edit existing availability windows** (Operator)
 
+<!--ID 4bae0e33-9a18-48ee-a191-5659acb1cef9 -->
+**#23497 Availability window schedule is now automatically applied** (Operator)
+
+Changes made to the availability window schedule is now automatically applied to the environment, without having to click the "Apply"-button. 
+
+To avoid the environment instantly going down when initially turning on the availability windows, a temporary half-hour availability window is automatically added in this case.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
