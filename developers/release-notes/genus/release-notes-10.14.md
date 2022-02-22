@@ -76,6 +76,14 @@ If Client Action is not available for the User, it will behave as follows:
 <!--ID e1cbf03a-d993-4467-9bb2-b1966e63a919 -->
 **#23492 Badge Value is updated when Sitemap Entry is clicked** (Web)
 
+<!--ID 4f95fc25-7bb2-4d8d-9070-030d5bd7e8e0 -->
+**#23495 Start now functionality (one-time availability window)** (Operator)
+
+New button in Genus Operator availability schedule to instantly start up an environement outside of the availability schedule. A duration for how long the temporary window should last must be set.
+
+<!--ID fe655de0-7f60-48db-8fe4-013e6933c8e1 -->
+**#23496 It is now possible to edit existing availability windows** (Operator)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
