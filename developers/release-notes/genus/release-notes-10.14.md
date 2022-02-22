@@ -95,6 +95,13 @@ Changes made to the availability window schedule is now automatically applied to
 
 To avoid the environment instantly going down when initially turning on the availability windows, a temporary half-hour availability window is automatically added in this case.
 
+<!--ID 7b8c1aef-d75b-4bc2-b916-0e1fe81a60c3 -->
+**#23500 Cumulative Values now available for all Categories** (Web)
+
+Until now, the accumulation of Value data has only been available for Tiles with a temporal Category. Cumulative data has now been made available for all Tiles with one-dimensional Categories.
+
+This is configured through the Data menu choice "Accumulation" in the Dashboard Designer.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
