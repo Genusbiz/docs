@@ -112,6 +112,11 @@ To avoid the environment instantly going down when initially turning on the avai
 <!--ID fa296272-22c3-4957-889d-5a57fba55c6a -->
 **#23494 Fixed runtime error when filtering in dropdown with numeric display values** (Web)
 
+<!--ID d50a566b-9840-4b49-b8b7-7a02855d8a1d -->
+**#23498 Operator skalerer korrekt ved publish** (Operator)
+
+Alle ressurser (deployment/statefulSet) skaleres korrekt i forbindelse med publish.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
