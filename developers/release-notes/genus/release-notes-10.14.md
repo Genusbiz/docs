@@ -42,7 +42,11 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID befa232b-80c0-4490-b231-202914eb0e04 -->
+**#23499 Operator requires Genus >= 10.14** (Operator)
+
+New label configuration requires Genus >= 10.14.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -113,9 +117,9 @@ To avoid the environment instantly going down when initially turning on the avai
 **#23494 Fixed runtime error when filtering in dropdown with numeric display values** (Web)
 
 <!--ID d50a566b-9840-4b49-b8b7-7a02855d8a1d -->
-**#23498 Operator skalerer korrekt ved publish** (Operator)
+**#23498 Operator scales pods correctly after model publication** (Operator)
 
-Alle ressurser (deployment/statefulSet) skaleres korrekt i forbindelse med publish.
+All resources (deployments/statefulSets) are scaled correctly after model publication.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
