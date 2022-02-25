@@ -128,6 +128,11 @@ This is configured through the Data menu choice "Accumulation" in the Dashboard 
 
 All resources (deployments/statefulSets) are scaled correctly after model publication.
 
+<!--ID 9dc69ff8-1a6a-49c4-aecc-97845a643dc4 -->
+**#23502 Handling of administrator membership is removed from user panel** (Web)
+
+Modification of users in administrator group will only be possible from group administration
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
