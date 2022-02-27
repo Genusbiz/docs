@@ -248,6 +248,9 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 <!--ID fa296272-22c3-4957-889d-5a57fba55c6a -->
 **#23494 Fixed runtime error when filtering in dropdown with numeric display values** (Web)
 
+<!--ID d4e54bcd-3394-49d2-9f06-8fb97b7e9b11 -->
+**#23503 Click on Selection Chip now toggles selection** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
