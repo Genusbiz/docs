@@ -43,7 +43,7 @@ There is no deprecated functionality in this release.
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID befa232b-80c0-4490-b231-202914eb0e04 -->
-**#23499 Operator requires Genus >= 10.14**
+**#23499 Operator requires Genus >= 10.14** (Operator)
 
 New label configuration requires Genus >= 10.14.
 
@@ -55,7 +55,7 @@ There are no major new functionality in this release.
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 4be473ab-3e4b-4aea-b1a4-cafa3df536bd -->
-**#23479 Available added to Client Action to allow scope of visibility/enabling to specified Security Groups**
+**#23479 Available added to Client Action to allow scope of visibility/enabling to specified Security Groups** (Studio;Web)
 
 Available added as setting to Client Action to allow scoping of visibility/enabling to specified Security Groups.
 
@@ -66,10 +66,10 @@ If Client Action is not available for the User, it will behave as follows:
 - Give a missing permissions warning if Client Action is called from another Client Action.
 
 <!--ID 179113ec-c346-4a5c-ac4d-7a29419694d8 -->
-**#23481 Display Callout is now available in onActivate in Display Field**
+**#23481 Display Callout is now available in onActivate in Display Field** (Web)
 
 <!--ID 61bb6b79-55b0-47e0-bfb8-9795f37d1a8e -->
-**#23490 Improved setup of Select Files in Page Designer**
+**#23490 Improved setup of Select Files in Page Designer** (Studio;Web)
 
 - Added Placeholder text to indicate that no choice is equivalent to "all media types/all extensions".
 - Added Helper Text describing the expected format of text input of Accepted File Extensions.
@@ -78,25 +78,25 @@ If Client Action is not available for the User, it will behave as follows:
 - Added Default values to allow Reset of values.
 
 <!--ID e1cbf03a-d993-4467-9bb2-b1966e63a919 -->
-**#23492 Badge Value is updated when Sitemap Entry is clicked**
+**#23492 Badge Value is updated when Sitemap Entry is clicked** (Web)
 
 <!--ID 4f95fc25-7bb2-4d8d-9070-030d5bd7e8e0 -->
-**#23495 Start now functionality (one-time availability window)**
+**#23495 Start now functionality (one-time availability window)** (Operator)
 
 New button in Genus Operator availability schedule to instantly start up an environement outside of the availability schedule. A duration for how long the temporary window should last must be set.
 
 <!--ID fe655de0-7f60-48db-8fe4-013e6933c8e1 -->
-**#23496 It is now possible to edit existing availability windows**
+**#23496 It is now possible to edit existing availability windows** (Operator)
 
 <!--ID 4bae0e33-9a18-48ee-a191-5659acb1cef9 -->
-**#23497 Availability window schedule is now automatically applied**
+**#23497 Availability window schedule is now automatically applied** (Operator)
 
 Changes made to the availability window schedule is now automatically applied to the environment, without having to click the "Apply"-button. 
 
 To avoid the environment instantly going down when initially turning on the availability windows, a temporary half-hour availability window is automatically added in this case.
 
 <!--ID 7b8c1aef-d75b-4bc2-b916-0e1fe81a60c3 -->
-**#23500 Cumulative Values now available for all Categories**
+**#23500 Cumulative Values now available for all Categories** (Web)
 
 Until now, the accumulation of Value data has only been available for Tiles with a temporal Category. Cumulative data has now been made available for all Tiles with one-dimensional Categories.
 
@@ -106,30 +106,30 @@ This is configured through the Data menu choice "Accumulation" in the Dashboard 
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 5bd02a22-7ae2-40c2-b67d-3d71bc07b9b7 -->
-**#23480 Context menu is available by right click or ellipsis on resources in scheduler**
+**#23480 Context menu is available by right click or ellipsis on resources in scheduler** (Web)
 
 <!--ID 58dcfc1d-40d6-4f81-9bdb-c711223c685e -->
-**#23482 Fixed proble with dialog not showing correctly when operned from a component from external module**
+**#23482 Fixed proble with dialog not showing correctly when operned from a component from external module** (Web)
 
 <!--ID f8c06221-4f93-484e-95d3-f36444751cc4 -->
-**#23484 The setting Display Helper Text was not working for Display Field**
+**#23484 The setting Display Helper Text was not working for Display Field** (Studio)
 
 <!--ID 5a524988-b2ac-43dd-92c2-8acf12df775d -->
-**#23491 ScreenTip on Buttons and Actions in Menus now uses title from action by default**
+**#23491 ScreenTip on Buttons and Actions in Menus now uses title from action by default** (Studio;Web)
 
 <!--ID 3e46c857-7937-40a3-b51b-cbe5401e0091 -->
-**#23493 Client Action: Added missing reference to Data Filter and Data Sets for Read Related in Read Objects**
+**#23493 Client Action: Added missing reference to Data Filter and Data Sets for Read Related in Read Objects** (Studio)
 
 <!--ID fa296272-22c3-4957-889d-5a57fba55c6a -->
-**#23494 Fixed runtime error when filtering in dropdown with numeric display values**
+**#23494 Fixed runtime error when filtering in dropdown with numeric display values** (Web)
 
 <!--ID d50a566b-9840-4b49-b8b7-7a02855d8a1d -->
-**#23498 Operator scales pods correctly after model publication**
+**#23498 Operator scales pods correctly after model publication** (Operator)
 
 All resources (deployments/statefulSets) are scaled correctly after model publication.
 
 <!--ID 9dc69ff8-1a6a-49c4-aecc-97845a643dc4 -->
-**#23502 Handling of administrator membership is removed from user panel**
+**#23502 Handling of administrator membership is removed from user panel** (Web)
 
 Modification of users in administrator group will only be possible from group administration
 
