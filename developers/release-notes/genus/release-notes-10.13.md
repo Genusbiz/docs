@@ -251,6 +251,9 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 <!--ID d4e54bcd-3394-49d2-9f06-8fb97b7e9b11 -->
 **#23503 Click on Selection Chip now toggles selection** (Web)
 
+<!--ID a6600148-dec0-4a52-8a86-55e325e8f958 -->
+**#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
