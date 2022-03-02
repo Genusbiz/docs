@@ -29,116 +29,41 @@ Prior to upgrading to this release, you must:
 ## End-of-life functionality
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
-
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no end-of-life functionality identified in this release.
-
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
-
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There is no deprecated functionality in this release.
-
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
-
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no breaking changes in this release.
-
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Major new functionality
-
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no major new functionality in this release.
-
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Minor new functionality
-
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 4be473ab-3e4b-4aea-b1a4-cafa3df536bd -->
-
-**#23479 Available added to Client Action to allow scope of visibility/enabling to specified Security Groups** (Studio;Web)
-
-Available added as setting to Client Action to allow scoping of visibility/enabling to specified Security Groups.
-
-If Client Action is not available for the User, it will behave as follows:
-
-- Hide Client Action from menus (Action Bar, Context Menus).
-- Disable controls where Client Action is used as action (On Activate, On Drop, ++).
-- Give a missing permissions warning if Client Action is used in Event Handlers (Navigate to Page, On Before/After Value Changed).
-- Give a missing permissions warning if Client Action is called from another Client Action.
-
-<!--ID 179113ec-c346-4a5c-ac4d-7a29419694d8 -->
-
-**#23481 Display Callout is now available in onActivate in Display Field** (Web)
-
-<!--ID 61bb6b79-55b0-47e0-bfb8-9795f37d1a8e -->
-
-**#23490 Improved setup of Select Files in Page Designer** (Studio;Web)
-
-- Added Placeholder text to indicate that no choice is equivalent to "all media types/all extensions".
-- Added Helper Text describing the expected format of text input of Accepted File Extensions.
-- File Extensions can be added using a multi selection lookup input with auto complete of "all" known filetypes.
-- Now allowing only assignment of either: (1) Accepted Media Types, or (2) Accepted File Extensions. This is according to the way we validate files.
-- Added Default values to allow Reset of values.
-
-<!--ID e1cbf03a-d993-4467-9bb2-b1966e63a919 -->
-
-**#23492 Badge Value is updated when Sitemap Entry is clicked** (Web)
-
+There are no minor new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Resolved issues
-
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 5bd02a22-7ae2-40c2-b67d-3d71bc07b9b7 -->
-
-**#23480 Context menu is available by right click or ellipsis on resources in scheduler** (Web)
-
-<!--ID 58dcfc1d-40d6-4f81-9bdb-c711223c685e -->
-
-**#23482 Fixed proble with dialog not showing correctly when operned from a component from external module** (Web)
-
-<!--ID f8c06221-4f93-484e-95d3-f36444751cc4 -->
-
-**#23484 The setting Display Helper Text was not working for Display Field** (Studio)
-
-<!--ID 5a524988-b2ac-43dd-92c2-8acf12df775d -->
-
-**#23491 ScreenTip on Buttons and Actions in Menus now uses title from action by default** (Studio;Web)
-
-<!--ID 3e46c857-7937-40a3-b51b-cbe5401e0091 -->
-
-**#23493 Client Action: Added missing reference to Data Filter and Data Sets for Read Related in Read Objects** (Studio)
-
-<!--ID fa296272-22c3-4957-889d-5a57fba55c6a -->
-
-**#23494 Fixed runtime error when filtering in dropdown with numeric display values** (Web)
+<!--ID a6600148-dec0-4a52-8a86-55e325e8f958 -->
+**#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
-
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no known issues in this release.
-
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Tips and hints
 
 Tips and hints are design decisions or answers to support questions that may be of general interest.
@@ -146,5 +71,4 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
-
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
