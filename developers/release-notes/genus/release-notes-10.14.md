@@ -133,6 +133,9 @@ All resources (deployments/statefulSets) are scaled correctly after model public
 
 Modification of users in administrator group will only be possible from group administration
 
+<!--ID a6600148-dec0-4a52-8a86-55e325e8f958 -->
+**#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
