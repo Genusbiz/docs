@@ -17,7 +17,7 @@ genus-database-dictionary-service:
     scrapeInterval: 30s
 
 genus-object-storage-service:
-  enabled: false
+  enabled: true
   replicaCount: 1
   restartWithModelPublish: "true"
   affinityScheduling: 
