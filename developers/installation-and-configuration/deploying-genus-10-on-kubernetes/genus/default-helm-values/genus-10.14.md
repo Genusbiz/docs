@@ -173,10 +173,6 @@ redis:
       serviceMonitor:
         enabled: false
 
-genus-common-config:
-  enabled: true
-  replicaCount: 1
-
 genus-help-docs-service:
   enabled: true
   replicaCount: 1
