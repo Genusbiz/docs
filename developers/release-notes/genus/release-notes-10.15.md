@@ -60,6 +60,12 @@ There are no minor new functionality in this release.
 <!--ID ce6b8906-2f95-4f30-98f5-659708765a1a -->
 **#23505 Improved Tabl handling in Duration Input** (Web)
 
+<!--ID 54086acb-5747-44b3-ab62-db161d7860ff -->
+**#23506 Request to load names of Dashboards is only done when needed, reducing number of requests on startup** (Web)
+
+<!--ID a5b2c3e6-1533-47de-baab-ac491e0d5410 -->
+**#23507 Default value for Sitemap Apperance for new App is now Pinned** (Studio)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
