@@ -255,7 +255,7 @@ Non-sibling nodes previously had a spacing of x2, spacing of all nodes are now s
 **#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
 
 <!--ID ce6b8906-2f95-4f30-98f5-659708765a1a -->
-**#23505 Improved Tabl handling in Duration Input** (Web)
+**#23505 Improved Tab handling in Duration Input** (Web)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
