@@ -142,6 +142,19 @@ Modification of users in administrator group will only be possible from group ad
 <!--ID 54086acb-5747-44b3-ab62-db161d7860ff -->
 **#23506 Request to load names of Dashboards is only done when needed, reducing number of requests on startup** (Web)
 
+<!--ID c5fa235f-506b-441e-ae94-dde7cbc5e446 -->
+**#23508 Translated code domain members may cause errors when evaluating formulas on the web client**
+
+**IMPORTANT**
+
+If you have translated code domain members in your application model, you may experience errors when a formula defined on an object class property, such as a default or value formula, is evaluated on the web client.
+
+The error would look something like 
+
+*Invalid expression: timesheet.state = TimesheetState.draft. Errors: draft is not a construct of TimesheetStateClass.*
+
+If you experience this error, please upgrade to version 10.14 or 10.15. Before you publish the application model, make sure that you do a minor change to an arbitrary object class, such as enter a temporary description, apply changes, remove the description, and then save changes.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
