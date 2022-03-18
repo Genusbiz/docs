@@ -66,6 +66,19 @@ There are no minor new functionality in this release.
 <!--ID a5b2c3e6-1533-47de-baab-ac491e0d5410 -->
 **#23507 Default value for Sitemap Apperance for new App is now Pinned** (Studio)
 
+<!--ID c5fa235f-506b-441e-ae94-dde7cbc5e446 -->
+**#23508 Translated code domain members may cause errors when evaluating formulas on the web client**
+
+**IMPORTANT**
+
+If you have translated code domain members in your application model, you may experience errors when a formula defined on an object class property, such as a default or value formula, is evaluated on the web client.
+
+The error would look something like 
+
+*Invalid expression: timesheet.state = TimesheetState.draft. Errors: draft is not a construct of TimesheetStateClass.*
+
+If you experience this error, please upgrade to version 10.14 or 10.15. Before you publish the application model, make sure that you do a minor change to an arbitrary object class, such as enter a temporary description, apply changes, remove the description, and then save changes.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
