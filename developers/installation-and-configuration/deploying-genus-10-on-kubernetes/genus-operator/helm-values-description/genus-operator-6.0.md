@@ -10,6 +10,13 @@
 | global.timezone                                                                      | | "" |
 | global.enableSentry                                                                  | | "true" |
 | global.customer                                                                      | | "" |
+| global.database.vendorVersion                                                        | Can be any of:<br/> Microsoft SQL Server <br/> Microsoft SQL Server 2008 R2<br/> Microsoft SQL Server 2012<br/> Microsoft SQL Server 2014<br/> Microsoft SQL Server 2016<br/> Azure SQL<br/> Azure SQL V12<br/> ORACLE<br/> ORACLE 10.0g<br/> ORACLE 11g<br/> ORACLE 11g R2<br/> ORACLE 12.1c<br/> MYSQL<br/> MYSQL 5.7<br/> PostgreSQL<br/> PostgreSQL 9.2<br/> DB2<br/> DB2 10.1<br/> TIBCO TDV<br/> TIBCO TDV 8.2.0 | "" |
+| global.database.activeConnectionString                                               | | "" |
+| global.database.activeDb                                                             | | "" |
+| global.database.activeSchema                                                         | | "" |
+| global.database.descriptiveConnectionString                                          | | "" |
+| global.database.descriptiveDb                                                        | | "" |
+| global.database.descriptiveSchema                                                    | | "" |
 | global.ingress                                                                       | | |
 | global.ingress.annotations                                                           | | {} |
 | global.ingress.awsAlbControllerEnabled                                               | | false |
@@ -33,11 +40,6 @@
 |                                                                                      | | |
 | genus-kubernetes-operator-service                                                    | | |
 | genus-kubernetes-operator-service.replicaCount                                       | | 1 |
-| genus-kubernetes-operator-service.descriptiveConnectionString                        | | "" |
-| genus-kubernetes-operator-service.descriptiveSchema                                  | | "" |
-| genus-kubernetes-operator-service.activeConnectionString                             | | "" |
-| genus-kubernetes-operator-service.activeSchema                                       | | "" |
-| genus-kubernetes-operator-service.dbType                                             | | "" |
 | genus-kubernetes-operator-service.doRollingPodRestarts                               | | "true" |
 | genus-kubernetes-operator-service.phoneHome.enabled                                  | See [Phone Home](#phone-home) | "false" |
 | genus-kubernetes-operator-service.phoneHome.apiKey                                   | | "" |
