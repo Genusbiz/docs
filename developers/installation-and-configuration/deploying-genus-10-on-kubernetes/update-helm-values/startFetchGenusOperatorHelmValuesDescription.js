@@ -24,16 +24,16 @@ async function startFetchGenusOperatorHelmValuesDescription(api) {
 	//eslint-disable-next-line
 	console.log('Update Genus Operator Helm Values Description in Docs')
 
-	await fetchHelmValueDescriptionFromGitlab('5.1.0')
-	await fetchHelmValueDescriptionFromGitlab('4.10.2')
-
+	await fetchHelmValueDescriptionFromGitlab('develop', '6.1')
+	await fetchHelmValueDescriptionFromGitlab('release/6.0', '6.0')
+	await fetchHelmValueDescriptionFromGitlab('release/4.10', '4.10')
 }
 
-async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
+async function fetchHelmValueDescriptionFromGitlab(fromGitlabBranch, toGithubFile) {
 	const gitlabAccessToken = await valutClient.getSecret(GITLAB_ACCESS_TOKEN)
 
 	const options = {
-		url: baseHelmValueDescriptionUrlForGitlab + fromGitlabTag,
+		url: baseHelmValueDescriptionUrlForGitlab + fromGitlabBranch,
 		method: 'get',
 		headers: {
 			'PRIVATE-TOKEN': gitlabAccessToken.value,
@@ -59,7 +59,7 @@ async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
 	const body = response.data
 
 	const { githubSha, githubContent } = await new Promise((resolve) => {
-		githubApi.contents(baseHelmValueDescriptionUrlForGithub + fromGitlabTag + '.md', function (err, data) {
+		githubApi.contents(baseHelmValueDescriptionUrlForGithub + toGithubFile + '.md', function (err, data) {
 			if (!data) {
 				resolve({})
 				return
@@ -70,7 +70,7 @@ async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
 
 	if (!githubSha || !githubContent) {
 		//eslint-disable-next-line
-		console.log('1. Release ' + fromGitlabTag + ' not found in docs. Most likely not created')
+		console.log('1. Release ' + toGithubFile + ' not found in docs. Most likely not created')
 		return
 	}
 
@@ -78,29 +78,29 @@ async function fetchHelmValueDescriptionFromGitlab(fromGitlabTag) {
 
 	const refactoredContent = content
 		.split('./genus-operator/values.yaml')
-		.join('../default-helm-values/genus-' + fromGitlabTag + '.md')
+		.join('../default-helm-values/genus-' + toGithubFile + '.md')
 
 	if (githubContent === refactoredContent) {
 		//eslint-disable-next-line
-		console.log('2. Content is equal', fromGitlabTag)
+		console.log('2. Content is equal', toGithubFile)
 		return
 	}
 
 	if (body.blob_id === githubSha) {
 		//eslint-disable-next-line
-		console.log('3. SHA is equal', fromGitlabTag)
+		console.log('3. SHA is equal', toGithubFile)
 		return
 	}
 
 	await new Promise((resolve) => {
 		githubApi.updateContents(
-			baseHelmValueDescriptionUrlForGithub + fromGitlabTag + '.md',
+			baseHelmValueDescriptionUrlForGithub + toGithubFile + '.md',
 			'Auto update of helm-values from Gitlab',
 			refactoredContent,
 			githubSha,
 			function () {
 				//eslint-disable-next-line
-				console.log('Finished pushing updated helm-values to github', fromGitlabTag)
+				console.log('Finished pushing updated helm-values to github', toGithubFile)
 				resolve()
 			}
 		)

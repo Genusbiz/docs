@@ -24,16 +24,16 @@ async function startFetchGenusOperatorHelmValues(api) {
 	//eslint-disable-next-line
 	console.log('Update Default Genus Operator Helm Values in Docs')
 
-	await fetchHelmValuesFromGitlab('5.1.0')
-	await fetchHelmValuesFromGitlab('4.10.2')
-
+	await fetchHelmValuesFromGitlab('develop','6.1')
+	await fetchHelmValuesFromGitlab('release/6.0', '6.0')
+	await fetchHelmValuesFromGitlab('release/4.10', '4.10')
 }
 
-async function fetchHelmValuesFromGitlab(fromGitlabTag) {
+async function fetchHelmValuesFromGitlab(fromGitlabBranch, toGithubFile) {
 	const gitlabAccessToken = await valutClient.getSecret(GITLAB_ACCESS_TOKEN)
 
 	const options = {
-		url: baseHelmValueFilesUrlForGitlab + fromGitlabTag,
+		url: baseHelmValueFilesUrlForGitlab + fromGitlabBranch,
 		method: 'get',
 		headers: {
 			'PRIVATE-TOKEN': gitlabAccessToken.value,
@@ -59,7 +59,7 @@ async function fetchHelmValuesFromGitlab(fromGitlabTag) {
 	const body = response.data
 
 	const { githubSha, githubContent } = await new Promise((resolve) => {
-		githubApi.contents(baseHelmValueFilesUrlForGithub + fromGitlabTag + '.md', function (err, data) {
+		githubApi.contents(baseHelmValueFilesUrlForGithub + toGithubFile + '.md', function (err, data) {
 			if (!data) {
 				resolve({})
 				return
@@ -70,7 +70,7 @@ async function fetchHelmValuesFromGitlab(fromGitlabTag) {
 
 	if (!githubSha || !githubContent) {
 		//eslint-disable-next-line
-		console.log('1. Release ' + fromGitlabTag + ' not found in docs. Most likely not created')
+		console.log('1. Release ' + toGithubFile + ' not found in docs. Most likely not created')
 		return
 	}
 
@@ -78,25 +78,25 @@ async function fetchHelmValuesFromGitlab(fromGitlabTag) {
 
 	if (githubContent === formattedBodyContet) {
 		//eslint-disable-next-line
-		console.log('2. Content is equal', fromGitlabTag)
+		console.log('2. Content is equal', toGithubFile)
 		return
 	}
 
 	if (body.blob_id === githubSha) {
 		//eslint-disable-next-line
-		console.log('3. SHA is equal', fromGitlabTag)
+		console.log('3. SHA is equal', toGithubFile)
 		return
 	}
 
 	await new Promise((resolve) => {
 		githubApi.updateContents(
-			baseHelmValueFilesUrlForGithub + fromGitlabTag + '.md',
+			baseHelmValueFilesUrlForGithub + toGithubFile + '.md',
 			'Auto update of helm-values from Gitlab',
 			formattedBodyContet,
 			githubSha,
 			function () {
 				//eslint-disable-next-line
-				console.log('Finished pushing updated helm-values to github', fromGitlabTag)
+				console.log('Finished pushing updated helm-values to github: ', toGithubFile)
 				resolve()
 			}
 		)
@@ -107,5 +107,4 @@ async function fetchHelmValuesFromGitlab(fromGitlabTag) {
 		console.log(e)
 	})
 }
-
 module.exports = { startFetchGenusOperatorHelmValues }

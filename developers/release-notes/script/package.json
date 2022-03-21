@@ -4,7 +4,7 @@
   "description": "Push new or changed release notes from Actio to docs.genus.no. Username and password must be stored in update-release-notes.json.",
   "main": "update-release-notes.js",
   "scripts": {
-    "start": "node update-release-notes.js",
+    "start": "node ./src/update-release-notes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jtroset",
