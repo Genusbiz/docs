@@ -10,6 +10,14 @@ global:
   enableSentry: "true"
   customer: ""
   dnsSuffix: ""
+  database:
+    vendorVersion: ""
+    activeConnectionString: ""
+    activeDb: ""
+    activeSchema: ""
+    descriptiveConnectionString: ""
+    descriptiveDb: ""
+    descriptiveSchema: ""
   ingress:
     awsAlbControllerEnabled: false
     annotations: {}
@@ -33,11 +41,6 @@ genus-operator-frontend:
 
 genus-kubernetes-operator-service:
   replicaCount: 1
-  dbType: ""
-  descriptiveConnectionString: ""
-  descriptiveSchema: ""
-  activeConnectionString: ""
-  activeSchema: ""
   doRollingPodRestarts: "true"
   phoneHome:
     enabled: "false"
