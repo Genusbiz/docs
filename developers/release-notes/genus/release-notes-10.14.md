@@ -42,7 +42,7 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID undefined -->
+<!--ID befa232b-80c0-4490-b231-202914eb0e04 -->
 **#23499 Operator 6 requires Genus >= 10.14** (Operator)
 
 New label configuration requires Genus >= 10.14.
@@ -54,22 +54,22 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID undefined -->
+<!--ID 4f95fc25-7bb2-4d8d-9070-030d5bd7e8e0 -->
 **#23495 Start now functionality (one-time availability window)** (Operator)
 
 New button in Genus Operator availability schedule to instantly start up an environement outside of the availability schedule. A duration for how long the temporary window should last must be set.
 
-<!--ID undefined -->
+<!--ID fe655de0-7f60-48db-8fe4-013e6933c8e1 -->
 **#23496 It is now possible to edit existing availability windows** (Operator)
 
-<!--ID undefined -->
+<!--ID 4bae0e33-9a18-48ee-a191-5659acb1cef9 -->
 **#23497 Availability window schedule is now automatically applied** (Operator)
 
 Changes made to the availability window schedule is now automatically applied to the environment, without having to click the "Apply"-button. 
 
 To avoid the environment instantly going down when initially turning on the availability windows, a temporary half-hour availability window is automatically added in this case.
 
-<!--ID undefined -->
+<!--ID 7b8c1aef-d75b-4bc2-b916-0e1fe81a60c3 -->
 **#23500 Cumulative Values now available for all Categories** (Web)
 
 Until now, the accumulation of Value data has only been available for Tiles with a temporal Category. Cumulative data has now been made available for all Tiles with one-dimensional Categories.
@@ -79,21 +79,21 @@ This is configured through the Data menu choice "Accumulation" in the Dashboard 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID undefined -->
+<!--ID 5bd02a22-7ae2-40c2-b67d-3d71bc07b9b7 -->
 **#23480 Context menu is available by right click or ellipsis on resources in scheduler** (Web)
 
-<!--ID undefined -->
+<!--ID fa296272-22c3-4957-889d-5a57fba55c6a -->
 **#23494 Fixed runtime error when filtering in dropdown with numeric display values** (Web)
 
-<!--ID undefined -->
+<!--ID d50a566b-9840-4b49-b8b7-7a02855d8a1d -->
 **#23498 Operator scales pods correctly after model publication** (Operator)
 
 All resources (deployments/statefulSets) are scaled correctly after model publication.
 
-<!--ID undefined -->
+<!--ID a6600148-dec0-4a52-8a86-55e325e8f958 -->
 **#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
 
-<!--ID undefined -->
+<!--ID ce6b8906-2f95-4f30-98f5-659708765a1a -->
 **#23505 Improved Tab handling in Duration Input** (Web)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
