@@ -50,17 +50,17 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID undefined -->
+<!--ID 1d3ce605-7fae-4985-bca6-267ec3c4ba9d -->
 **#23465 Visibility "Yes | No | For Specified Groups" added to Sitemap Components** (Studio;Web)
 
 Visibility "Yes | No | For Specified Groups" added to Sitemap Components, allowing security group membership to control visibility of sitemap entries.
 
-<!--ID undefined -->
+<!--ID 5735754a-ac0f-4d52-9dd9-e0d2d31a6dea -->
 **#23470 Visibility and enabling of controls and page elements now allow scoping tospecified security groups** (Studio;Web)
 
 Visibility and enabling on controls and page elements is extended to allow for scoping tospecified security groups. The setting is found by expanding Visible/Enabled in the page designer. Change Scope to "For Specified Groups" and select Security Groups, to restrict visibility/enabling.
 
-<!--ID undefined -->
+<!--ID 71500820-74d4-441c-a606-68cd6051cc0f -->
 **#23486 Liveness- and Readiness-probe configuration options** (Services)
 
 It is now possible to configure readinessProbe and livenessProbe for mega-service, datamart-query-service, as well as for redis.
@@ -74,7 +74,7 @@ The following values can be configured for both readinessProbe and livenessProbe
 
 See [helm-values descriptions](https://docs.genus.no/developers/installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.13.html) for how to do this.
 
-<!--ID undefined -->
+<!--ID 7b8c1aef-d75b-4bc2-b916-0e1fe81a60c3 -->
 **#23500 Cumulative Values now available for all Categories** (Web)
 
 Until now, the accumulation of Value data has only been available for Tiles with a temporal Category. Cumulative data has now been made available for all Tiles with one-dimensional Categories.
@@ -84,22 +84,22 @@ This is configured through the Data menu choice "Accumulation" in the Dashboard 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID undefined -->
+<!--ID 2a85b846-323f-4dc3-9deb-b7092698b3db -->
 **#23461 Entering invalid values into Integer Date Edit made the application crash** (Desktop)
 
-<!--ID undefined -->
+<!--ID 6d9677f3-9d46-4ea6-b2b3-ddf8837d781d -->
 **#23463 Fixed error generating text or Html from template** (Desktop)
 
-<!--ID undefined -->
+<!--ID f2b287db-c2e9-4d18-bae7-5235e152414e -->
 **#23469 Context is available on create new object in data filters** (Web)
 
-<!--ID undefined -->
+<!--ID 1c76052b-7a0e-4718-bc38-b6fea7860586 -->
 **#23475 Fixed initial width of dialog for entering field values when running an action** (Desktop)
 
-<!--ID undefined -->
+<!--ID 58dcfc1d-40d6-4f81-9bdb-c711223c685e -->
 **#23482 Fixed proble with dialog not showing correctly when operned from a component from external module** (Web)
 
-<!--ID undefined -->
+<!--ID a6600148-dec0-4a52-8a86-55e325e8f958 -->
 **#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
