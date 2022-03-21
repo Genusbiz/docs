@@ -43,7 +43,7 @@ There is no deprecated functionality in this release.
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID befa232b-80c0-4490-b231-202914eb0e04 -->
-**#23499 Operator requires Genus >= 10.14** (Operator)
+**#23499 Operator 6 requires Genus >= 10.14** (Operator)
 
 New label configuration requires Genus >= 10.14.
 
