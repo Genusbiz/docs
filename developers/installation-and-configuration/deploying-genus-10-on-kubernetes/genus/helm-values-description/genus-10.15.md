@@ -8,12 +8,12 @@ All microservices can be configured with the following common helm values.
 | <microservice>.enabled                                           |  | true |
 | <microservice>.sentryDSN                                         | Link to Sentry DSN endpoint. | *Unique DSN for every microservice* |
 | <microservice>.replicaCount                                      |  | 1 |
-| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](../default-helm-values/genus-10.14.md)* |
-| <microservice>.resources.requests.memory                         |  | *See [values.yaml](../default-helm-values/genus-10.14.md)* |
-| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](../default-helm-values/genus-10.14.md)* |
-| <microservice>.resources.limits.memory                           |  | *See [values.yaml](../default-helm-values/genus-10.14.md)* |
-| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](../default-helm-values/genus-10.14.md)* |
-| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](../default-helm-values/genus-10.14.md)* |
+| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](../default-helm-values/genus-10.15.md)* |
+| <microservice>.resources.requests.memory                         |  | *See [values.yaml](../default-helm-values/genus-10.15.md)* |
+| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](../default-helm-values/genus-10.15.md)* |
+| <microservice>.resources.limits.memory                           |  | *See [values.yaml](../default-helm-values/genus-10.15.md)* |
+| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](../default-helm-values/genus-10.15.md)* |
+| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](../default-helm-values/genus-10.15.md)* |
 | <microservice>.serviceMonitor.scrapeInterval                     | Interval of Prometheus scraping the metrics endpoint | "30s"
 
 ## Release values
@@ -28,7 +28,6 @@ All microservices can be configured with the following common helm values.
 | genus-wopi-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
 | redis
 | redis.replica.replicaCount                                       | Number of slaves. The value should never be 2. Always 1 or >= 3  | 1 (No replication) |
-| genus-common-config                                              |  |  |
 | genus-help-docs-service                                          | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-web-frontend                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-web-frontend.serviceWorker.enabled                         | Wether or not to enable the service worker. It is highly recommended to keep this ``true`` for performance reasons | true |
