@@ -6,5 +6,6 @@ author: vka
 
 # Default Helm Values for Genus Operator
 
-- [Default Helm Values for Genus Operator 5.1.0](genus-operator-5.1.0.md)
-- [Default Helm Values for Genus Operator 4.10.2](genus-operator-4.10.2.md)
+- [Default Helm Values for Genus Operator 6.1](genus-operator-6.1.md)
+- [Default Helm Values for Genus Operator 6.0](genus-operator-6.0.md)
+- [Default Helm Values for Genus Operator 4.10](genus-operator-4.10.md)
