@@ -54,19 +54,19 @@ There are no minor new functionality in this release.
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID a6600148-dec0-4a52-8a86-55e325e8f958 -->
+<!--ID undefined -->
 **#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
 
-<!--ID ce6b8906-2f95-4f30-98f5-659708765a1a -->
+<!--ID undefined -->
 **#23505 Improved Tab handling in Duration Input** (Web)
 
-<!--ID 54086acb-5747-44b3-ab62-db161d7860ff -->
+<!--ID undefined -->
 **#23506 Request to load names of Dashboards is only done when needed, reducing number of requests on startup** (Web)
 
-<!--ID a5b2c3e6-1533-47de-baab-ac491e0d5410 -->
+<!--ID undefined -->
 **#23507 Default value for Sitemap Apperance for new App is now Pinned** (Studio)
 
-<!--ID c5fa235f-506b-441e-ae94-dde7cbc5e446 -->
+<!--ID undefined -->
 **#23508 Translated code domain members may cause errors when evaluating formulas on the web client**
 
 **IMPORTANT**
