@@ -28,6 +28,7 @@ All microservices can be configured with the following common helm values.
 | genus-wopi-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
 | redis
 | redis.replica.replicaCount                                       | Number of slaves. The value should never be 2. Always 1 or >= 3  | 1 (No replication) |
+| genus-common-config                                              |  |  |
 | genus-help-docs-service                                          | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-web-frontend                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-web-frontend.serviceWorker.enabled                         | Wether or not to enable the service worker. It is highly recommended to keep this ``true`` for performance reasons | true |
