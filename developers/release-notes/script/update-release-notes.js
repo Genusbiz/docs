@@ -1,31 +1,30 @@
 require("dotenv").config();
 
-var request = require("request");
 var github = require("octonode");
 
-const { createNewMarkdown } = require("./createNewMarkdown");
+const { createNewMarkdown } = require("./src/createNewMarkdown");
 
 const {
   readReleaseNoteFileFromGitHub,
-} = require("./readReleaseNoteFileFromGitHub");
+} = require("./src/readReleaseNoteFileFromGitHub");
 
 const {
   updateReleaseNoteFileInGitHub,
-} = require("./updateReleaseNoteFileInGitHub");
+} = require("./src/updateReleaseNoteFileInGitHub");
 
 const {
   breakOriginalMarkdownIntoSections,
-} = require("./breakOriginalMarkdownIntoSections");
+} = require("./src/breakOriginalMarkdownIntoSections");
 
 const {
   callReleaseNotesRestService,
-} = require("./callReleaseNotesRestService");
+} = require("./src/callReleaseNotesRestService");
 
-const { callReleasesRestService } = require("./callReleasesRestService");
+const { callReleasesRestService } = require("./src/callReleasesRestService");
 
 const {
   callOperationsSampleRestService,
-} = require("./callOperationsSampleRestService");
+} = require("./src/callOperationsSampleRestService");
 
 const { DefaultAzureCredential } = require("@azure/identity");
 const { SecretClient } = require("@azure/keyvault-secrets");
