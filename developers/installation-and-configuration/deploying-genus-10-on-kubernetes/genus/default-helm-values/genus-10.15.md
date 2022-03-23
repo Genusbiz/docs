@@ -386,7 +386,6 @@ genus-core-services:
   enabled: true
   restartWithModelPublish: "true"
   responseCompression: 'false'
-  requestCompression: 'false'
   genus-hello-world-service:
     restartWithModelPublish: "true"
   dataMartQueryService:
@@ -407,6 +406,7 @@ genus-core-services:
   megaService:
     replicaCount: 1
     coreMaxThreadCount: '4'
+    requestCompression: 'false'
     serviceMonitor:
       scrapeInterval: 30s
     affinityScheduling: 
