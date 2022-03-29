@@ -42,6 +42,41 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 12420123-35a2-42fd-8529-73c4fec98cb6 -->
+**#23478 Changed helm values** (Operator)
+
+We have changed how some of the configuration regarding the connection to database is done. The following changes must be made to all helm-value configuration files before updating to 10.13:
+
+**Please note that some of the values have also changed name.**
+
+These helm-values are removed:
+
+```
+genus-kubernetes-operator-service:
+  dbType: ""
+  descriptiveConnectionString: ""
+  descriptiveSchema: ""
+  activeConnectionString: ""
+  activeSchema: ""
+```
+
+and are replaced by:
+
+```
+global:
+  database:
+    activeConnectionString: ""
+    activeDb: ""
+    activeSchema: ""
+    descriptiveConnectionString: ""
+    descriptiveDb: ""
+    descriptiveSchema: ""
+    vendorVersion: ""
+    caseInsensitiveSearch: ""
+```
+
+**These values should be the same as for the Genus helm-charts. Especiallynote vendorVersion, which should have a different value than the old dbType**
+
 <!--ID befa232b-80c0-4490-b231-202914eb0e04 -->
 **#23499 Operator 6 requires Genus >= 10.14** (Operator)
 
