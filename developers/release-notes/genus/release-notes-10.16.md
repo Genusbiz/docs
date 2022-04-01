@@ -65,6 +65,9 @@ There are no major new functionality in this release.
 <!--ID ede35bb4-a5e6-4b6a-9c32-0cbf39883055 -->
 **#23513 Page Designer crashed when using custom breakpoint sizes** (Studio)
 
+<!--ID 892a94c8-99b2-4e6c-92d6-258a38318631 -->
+**#23514 Height of Autocomplete list in DropDown is restricted to improve reading** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
