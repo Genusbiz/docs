@@ -68,6 +68,11 @@ There are no major new functionality in this release.
 <!--ID 892a94c8-99b2-4e6c-92d6-258a38318631 -->
 **#23514 Height of Autocomplete list in DropDown is restricted to improve reading** (Desktop)
 
+<!--ID ea613f1d-a298-4779-901c-334dcf7e5acc -->
+**#23515 Default code domain member not assigned when creating a new object from a client action** (Web)
+
+If a default value formula not is defined for a field pointing to a code domain, the code domain member flagged as default should be assigned.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
