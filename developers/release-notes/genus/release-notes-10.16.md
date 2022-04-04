@@ -53,6 +53,11 @@ There are no major new functionality in this release.
 <!--ID 63c68cbb-bf28-4966-9887-8107d350e1a2 -->
 **#23512 Callout data is available in dev tools** (Web)
 
+<!--ID d0115d82-6da0-4df0-b54b-645ff8a9713e -->
+**#23516 App Context Title** (Studio;Web)
+
+A **context title** can now be added to the app bar by using the **Set App Context Title** effect.  The context title can be used to display information relevant to the context, for instance which company you are currently viewing the application as.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
