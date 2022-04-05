@@ -81,6 +81,12 @@ If a default value formula not is defined for a field pointing to a code domain,
 <!--ID 502df74d-27b4-419d-be2b-d642dfe9dd84 -->
 **#23517 Fixed export of DateTime to Excel** (Desktop)
 
+<!--ID cad3c7db-4980-462d-ba0f-4a46d484eb4b -->
+**#23518 Fixed input of percent numbers** (Web)
+
+<!--ID 23cbfd83-989d-4056-85f0-de05cd35822e -->
+**#23519 Width of dialogs in Dashboard Designer was too small** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
