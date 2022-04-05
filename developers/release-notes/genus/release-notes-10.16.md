@@ -78,6 +78,9 @@ A **context title** can now be added to the app bar by using the **Set App Conte
 
 If a default value formula not is defined for a field pointing to a code domain, the code domain member flagged as default should be assigned.
 
+<!--ID 502df74d-27b4-419d-be2b-d642dfe9dd84 -->
+**#23517 Fixed export of DateTime to Excel** (Desktop)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
