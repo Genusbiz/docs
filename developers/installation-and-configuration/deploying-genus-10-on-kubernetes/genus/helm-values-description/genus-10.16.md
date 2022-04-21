@@ -48,11 +48,11 @@ All microservices can be configured with the following common helm values.
 | genus-core-services                                              | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService                         | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService.coreMaxThreadCount      |  | "4" |
-| genus-core-services.dataMartQueryService.livenesProbe.initialDelaySeconds |  | 5 |
-| genus-core-services.dataMartQueryService.livenesProbe.periodSeconds       |  | 5 |
-| genus-core-services.dataMartQueryService.livenesProbe.timeoutSeconds      |  | 10 |
-| genus-core-services.dataMartQueryService.livenesProbe.successThreshold    |  | 1 |
-| genus-core-services.dataMartQueryService.livenesProbe.failureThreshold    |  | 1 |
+| genus-core-services.dataMartQueryService.livenessProbe.initialDelaySeconds |  | 5 |
+| genus-core-services.dataMartQueryService.livenessProbe.periodSeconds       |  | 5 |
+| genus-core-services.dataMartQueryService.livenessProbe.timeoutSeconds      |  | 10 |
+| genus-core-services.dataMartQueryService.livenessProbe.successThreshold    |  | 1 |
+| genus-core-services.dataMartQueryService.livenessProbe.failureThreshold    |  | 1 |
 | genus-core-services.dataMartQueryService.readinessProbe.initialDelaySeconds |  | 20 |
 | genus-core-services.dataMartQueryService.readinessProbe.periodSeconds       |  | 15 |
 | genus-core-services.dataMartQueryService.readinessProbe.timeoutSeconds      |  | 5 |
@@ -60,11 +60,11 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.dataMartQueryService.readinessProbe.failureThreshold    |  | 1 |
 | genus-core-services.megaService                                  | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.megaService.coreMaxThreadCount               |  | "4" |
-| genus-core-services.megaService.livenesProbe.initialDelaySeconds |  | 5 |
-| genus-core-services.megaService.livenesProbe.periodSeconds       |  | 5 |
-| genus-core-services.megaService.livenesProbe.timeoutSeconds      |  | 10 |
-| genus-core-services.megaService.livenesProbe.successThreshold    |  | 1 |
-| genus-core-services.megaService.livenesProbe.failureThreshold    |  | 1 |
+| genus-core-services.megaService.livenessProbe.initialDelaySeconds |  | 5 |
+| genus-core-services.megaService.livenessProbe.periodSeconds       |  | 5 |
+| genus-core-services.megaService.livenessProbe.timeoutSeconds      |  | 10 |
+| genus-core-services.megaService.livenessProbe.successThreshold    |  | 1 |
+| genus-core-services.megaService.livenessProbe.failureThreshold    |  | 1 |
 | genus-core-services.megaService.readinessProbe.initialDelaySeconds |  | 20 |
 | genus-core-services.megaService.readinessProbe.periodSeconds       |  | 15 |
 | genus-core-services.megaService.readinessProbe.timeoutSeconds      |  | 5 |
