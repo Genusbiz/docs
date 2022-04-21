@@ -193,7 +193,7 @@ genus-help-docs-service:
 genus-web-frontend:
   enabled: true
   replicaCount: 1
-  restartWithModelPublish: "false"
+  restartWithModelPublish: "true"
   serviceWorker:
     enabled: true
   affinityScheduling: 
@@ -386,7 +386,7 @@ genus-core-services:
   enabled: true
   restartWithModelPublish: "true"
   responseCompression: 'false'
-  genus-hello-world-service:
+  genus-core-service:
     restartWithModelPublish: "true"
   dataMartQueryService:
     replicaCount: 1
