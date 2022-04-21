@@ -58,6 +58,17 @@ There are no major new functionality in this release.
 
 A **context title** can now be added to the app bar by using the **Set App Context Title** effect.  The context title can be used to display information relevant to the context, for instance which company you are currently viewing the application as.
 
+<!--ID 932f21ea-f882-4feb-9e19-99322d50c496 -->
+**#23522 Assign values to child objects in create/modify object effects on web (built-in file data sources)** (Studio;Web)
+
+It is now possible to create child objects in the Create/Modify Object effect in the Client Action designer for built-in file data sources (General File, Mail Message, ...). This allows the creation of for instance To-addressees for a Mail Message on the client.
+
+User Story:
+As a BE I want to assign values to 1:N relationships in a mail message data set using the create or modify object effect in a client action so that I can send the mail message to a given set of recipients with attachments.
+
+<!--ID 4e6d73c5-b018-4348-acbf-a0f00d73d2c1 -->
+**#23523 Dashboard: Hide Excluded is added as option for Column Category for Two Dimensional Grid** (Studio;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
