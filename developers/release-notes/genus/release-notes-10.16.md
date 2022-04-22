@@ -72,7 +72,7 @@ As a BE I want to assign values to 1:N relationships in a mail message data set 
 <!--ID 42544ede-4259-4be7-a314-168147a4f9c7 -->
 **#23524 Dashboard: Delete action added to error tiles as context menu** (Studio;Web)
 
-Tiles containing (programming) errors can now be deleted by the user using the delete action in the error tile context menu.
+Tiles containing (programming) errors can now be deleted by the user, using the delete action in the error tile context menu.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
