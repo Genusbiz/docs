@@ -148,6 +148,8 @@ redis:
     enabled: true
     existingSecret: "generic-redis"
     existingSecretPasswordKey: "PASSWORD"
+  serviceAccount:
+    automountServiceAccountToken: false
   sentinel:
     enabled: true
   master:
