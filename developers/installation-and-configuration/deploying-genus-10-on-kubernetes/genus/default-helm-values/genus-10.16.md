@@ -152,13 +152,34 @@ redis:
     automountServiceAccountToken: false
   sentinel:
     enabled: true
+    resources:
+      request:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
   master:
+    resources:
+      request:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
       enabled: false
   replica:
     replicaCount: 1
+    resources:
+      request:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
