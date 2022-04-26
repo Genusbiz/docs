@@ -69,13 +69,34 @@ redis:
     existingSecret: "session-redis"
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
+    resources:
+      request:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     enabled: true
   master:
+    resources:
+      request:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
       enabled: false
   replica:
+    resources:
+      request:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     replicaCount: 1
     nodeSelector:
       kubernetes.io/os: linux
