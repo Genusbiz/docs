@@ -47,13 +47,35 @@ async function init() {
   const ghrepo = client.repo("genusbiz/docs");
 
   console.log("Update release notes for Genus");
-  await updateGenusDocs(ghrepo, "genus");
+
+  await updateGenusDocs(
+    ghrepo,
+    "genus",
+    "developers/release-notes/genus/release-notes-"
+  );
+
+  await updateGenusDocs(
+    ghrepo,
+    "genus",
+    "developers/release-notes/genus/older/release-notes-"
+  );
 
   console.log("Update release notes for Genus Operator");
-  await updateGenusDocs(ghrepo, "genus-operator");
+
+  await updateGenusDocs(
+    ghrepo,
+    "genus-operator",
+    "developers/release-notes/genus-operator/release-notes-"
+  );
+
+  await updateGenusDocs(
+    ghrepo,
+    "genus-operator",
+    "developers/release-notes/genus-operator/older/release-notes-"
+  );
 }
 
-async function updateGenusDocs(ghrepo, product) {
+async function updateGenusDocs(ghrepo, product, docsFilePath) {
   var releases = [];
 
   try {
@@ -97,11 +119,7 @@ async function updateGenusDocs(ghrepo, product) {
     if (aRelease.releaseNotes.length == 0) continue;
 
     try {
-      await readReleaseNoteFileFromGitHub(
-        "developers/release-notes/" + product + "/release-notes-",
-        aRelease,
-        ghrepo
-      );
+      await readReleaseNoteFileFromGitHub(docsFilePath, aRelease, ghrepo);
     } catch (error) {
       console.log(error);
       process.exit(1);
@@ -121,7 +139,7 @@ async function updateGenusDocs(ghrepo, product) {
     try {
       console.log(aRelease.name + ": Changes detected! Updating GitHub...");
       await updateReleaseNoteFileInGitHub(
-        "developers/release-notes/" + product + "/release-notes-",
+        docsFilePath,
         aRelease,
         "Auto update of " + aRelease.name + " release notes from Actio",
         ghrepo
