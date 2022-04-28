@@ -153,7 +153,7 @@ redis:
   sentinel:
     enabled: true
     resources:
-      request:
+      requests:
         memory: 50Mi
         cpu: 10m
       limits:
@@ -161,7 +161,7 @@ redis:
         cpu: 200m
   master:
     resources:
-      request:
+      requests:
         memory: 50Mi
         cpu: 10m
       limits:
@@ -174,7 +174,7 @@ redis:
   replica:
     replicaCount: 1
     resources:
-      request:
+      requests:
         memory: 50Mi
         cpu: 10m
       limits:
@@ -257,7 +257,7 @@ genus-authentication-service:
     enabled: false
     namespaceListForPodAntiAffinity: []
   resources:
-    request:
+    requests:
       memory: 50Mi
       cpu: 10m
     limits:
