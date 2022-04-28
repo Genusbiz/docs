@@ -27,7 +27,7 @@ global:
 genus-operator-frontend:
   replicaCount: 1
   resources:
-    request:
+    requests:
       memory: 50Mi
       cpu: 10m
     limits:
@@ -48,7 +48,7 @@ genus-kubernetes-operator-service:
     customerSampleCode: ""
   environmentAvailabilityControlEnabled: "false"
   resources:
-    request:
+    requests:
       memory: 50Mi
       cpu: 10m
     limits:
@@ -69,17 +69,17 @@ redis:
     existingSecret: "session-redis"
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
+    enabled: true
     resources:
-      request:
+      requests:
         memory: 50Mi
         cpu: 10m
       limits:
         memory: 500Mi
         cpu: 200m
-    enabled: true
   master:
     resources:
-      request:
+      requests:
         memory: 50Mi
         cpu: 10m
       limits:
@@ -91,7 +91,7 @@ redis:
       enabled: false
   replica:
     resources:
-      request:
+      requests:
         memory: 50Mi
         cpu: 10m
       limits:
