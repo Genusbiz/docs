@@ -50,12 +50,21 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID c3d4340b-1ebd-4cc1-b3a4-fe251f9606ef -->
+**#23528 Dashboard: Improved error handling in Dashboard Tiles** (Studio;Web)
+
+Errors are displayed in the same fashion in the designer and runtime (errors is listed in the footer of the tile).
+
+In addition, errors caused by no valid path between value and category is displayed in the designer to proactively prevent Bad Request-error runtime. Bad Request errors are displayed within the affected tile to allow better pinpointing of the error locations (prior to this the whole dashboard would diplay an error and could not be used).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 2722f502-677e-42a2-b4e4-c5e85c229439 -->
 **#23527 Missing value formatting in Grid Heatmap fixed** (Web)
+
+<!--ID dafddb4f-c92b-42ff-aeff-9695f4e63dd1 -->
+**#23529 Dashboard: Bug in Donwload as Excel Workbook in Grid Heatmap and Bubbles corrected** (Web)
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
