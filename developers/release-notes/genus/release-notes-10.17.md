@@ -64,7 +64,7 @@ In addition, errors caused by no valid path between value and category is displa
 **#23527 Missing value formatting in Grid Heatmap fixed** (Web)
 
 <!--ID dafddb4f-c92b-42ff-aeff-9695f4e63dd1 -->
-**#23529 Dashboard: Bug in Donwload as Excel Workbook in Grid Heatmap and Bubbles corrected** (Web)
+**#23529 Dashboard: Bug in Download as Excel Workbook in Grid Heatmap and Bubbles corrected** (Web)
 
 <!--ID 313e5a9c-3aa6-4c91-95b8-bdec7dffe899 -->
 **#23530 Dashboard: Bubbles tooltip corrected (displayed undefined prior to fix)** (Web)
