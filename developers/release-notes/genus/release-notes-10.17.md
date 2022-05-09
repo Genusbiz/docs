@@ -57,6 +57,9 @@ Errors are displayed in the same fashion in the designer and runtime (errors is 
 
 In addition, errors caused by no valid path between value and category is displayed in the designer to proactively prevent Bad Request-error runtime. Bad Request errors are displayed within the affected tile to allow better pinpointing of the error locations (prior to this the whole dashboard would diplay an error and could not be used).
 
+<!--ID 3014df5b-4695-4771-9b5d-56aa3428d5c5 -->
+**#23531 Dashboard: List tile now supports subset for filtering the category data source** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
