@@ -42,7 +42,15 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 617742ea-601c-43c4-8655-eabb667ada88 -->
+**#23532 Dashboard: Limit to N values requires sorting of the involved Data Source** (Studio;Web)
+
+The "Limit to N values" option has to be used in combination with sorting, else the result is not deterministic. We now enforce this by showing an error message in the tile, if Limit to N values is assigned without sorting. The error is displayed both designtime and runtime, hence **BREAKING**.
+
+Prior to this, some tile visualizations would limit the data (randomly) and others would return the whole data set without limiting it.
+
+**All dashboard defined in the appmodel should be opened after upgrade to verify that the setup is valid.**
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
