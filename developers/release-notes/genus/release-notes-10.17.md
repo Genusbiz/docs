@@ -82,6 +82,9 @@ In addition, errors caused by no valid path between value and category is displa
 <!--ID 313e5a9c-3aa6-4c91-95b8-bdec7dffe899 -->
 **#23530 Dashboard: Bubbles tooltip corrected (displayed undefined prior to fix)** (Web)
 
+<!--ID 2c86256d-6db5-446c-b333-69300bbbb5b4 -->
+**#23533 Dashboard: Refine data in Table-tile on given subset(s), before "Limit to N values" is applied.** (Studio;Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
