@@ -472,8 +472,8 @@ global:
   jobs:
     verifyModel:
       enabled: false
-      scriptOutput: ""
-      traceOutput: ""
+      scriptOutput: "scriptOutput.sql"
+      traceOutput: "traceOutput.txt"
   database:
     activeConnectionString: ""
     activeDb: ""
