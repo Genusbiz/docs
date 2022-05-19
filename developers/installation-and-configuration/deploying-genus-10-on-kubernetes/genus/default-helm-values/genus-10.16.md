@@ -469,6 +469,11 @@ genus-core-services:
 
 
 global:
+  jobs:
+    verifyModel:
+      enabled: false
+      scriptOutput: ""
+      traceOutput: ""
   database:
     activeConnectionString: ""
     activeDb: ""
