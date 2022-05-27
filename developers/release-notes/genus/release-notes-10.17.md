@@ -85,6 +85,9 @@ In addition, errors caused by no valid path between value and category is displa
 <!--ID 3014df5b-4695-4771-9b5d-56aa3428d5c5 -->
 **#23531 Dashboard: List tile now supports subset for filtering the category data source** (Web)
 
+<!--ID 649ae4b7-1111-43c1-90aa-c03f5c402573 -->
+**#23535 Dashboard: Sizing of columns in table related tiles is now default automatically given by value** (Studio;Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
