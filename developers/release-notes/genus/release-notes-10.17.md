@@ -56,7 +56,22 @@ Prior to this, some tile visualizations would limit the data (randomly) and othe
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 037a3f26-2619-4149-be4e-459d81c60fb8 -->
+**#23534 Automatically verify the model after upgrading Genus** (Services)
+
+A new feature called the verify-model-job has been added.
+
+This is an automatic Kubernetes-job that runs after Genus is deployed to Kubernetes. It uses existing config parameters to run Genus Meta Model Manager and verify that the meta model is looking good. The database is checked for any missing and unknown tables and columns and the results are printed to the log of the verify-model-pod, which can be lated in Operator. 
+
+The job is opt-in the 10.17 (might be changed to opt-out later), and can be enabled by setting the follwing helm-value:
+
+```
+global:
+  jobs:
+    verifyModel:
+      enabled: true
+```
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
