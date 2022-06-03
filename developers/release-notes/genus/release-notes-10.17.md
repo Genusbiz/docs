@@ -103,6 +103,9 @@ In addition, errors caused by no valid path between value and category is displa
 <!--ID 2c86256d-6db5-446c-b333-69300bbbb5b4 -->
 **#23533 Dashboard: Refine data in Table-tile on given subset(s), before "Limit to N values" is applied.** (Studio;Web)
 
+<!--ID 138f88db-f350-4756-b983-c13d436e1776 -->
+**#23536 Uncategorized values can now be used to summarize values which are not part of the category grouping** (Studio;Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
