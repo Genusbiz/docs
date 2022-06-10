@@ -106,6 +106,11 @@ In addition, errors caused by no valid path between value and category is displa
 <!--ID 138f88db-f350-4756-b983-c13d436e1776 -->
 **#23536 Uncategorized values can now be used to summarize values which are not part of the category grouping** (Studio;Web)
 
+<!--ID 346d709a-a661-442b-8cc3-a7b28253efa7 -->
+**#23537 Possible to add duplicate dictionary texts with the same namespace and value**
+
+Produces the following error if referenced in the expression language: "Duplicate constructs with name <dictionary-text-name> found in DictionaryTextClass. The name has to be unique. Right-hand-side is invalid or undefined".
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
