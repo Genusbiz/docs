@@ -111,6 +111,11 @@ In addition, errors caused by no valid path between value and category is displa
 
 Produces the following error if referenced in the expression language: "Duplicate constructs with name <dictionary-text-name> found in DictionaryTextClass. The name has to be unique. Right-hand-side is invalid or undefined".
 
+<!--ID bcf3747e-ad8b-4219-b3ef-08c01868a239 -->
+**#23538 The function Directory.currentLanguage() in the expression language returns incorrect result on web**
+
+An expression such as Directory.currentLanguage() = NaturalLanguage.norwegian_Bokm&aring;l_Norway does always return false even if the current language equals Norwegian Bokm&aring;l. Works on desktop, but not in the web client.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
