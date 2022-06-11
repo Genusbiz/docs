@@ -88,6 +88,11 @@ In addition, errors caused by no valid path between value and category is displa
 <!--ID 649ae4b7-1111-43c1-90aa-c03f5c402573 -->
 **#23535 Dashboard: Sizing of columns in table related tiles is now default automatically given by value** (Studio;Web)
 
+<!--ID 1bd9a352-cb9f-4582-9efc-9c2b8a114e33 -->
+**#23539 Name for Data Set changed to Data Partition**
+
+Name changed both to avoid conflict with data sets used in web pages and client actions (partitioning data in a data source), and introduce a more precise term. Technically speaking Genus can partition data by using schemas/different databases (e.g. Visma) or horizontally by filtering on a global dimension (e.g. Agresso).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
