@@ -93,6 +93,9 @@ In addition, errors caused by no valid path between value and category is displa
 
 Name changed both to avoid conflict with data sets used in web pages and client actions (partitioning data in a data source), and introduce a more precise term. Technically speaking Genus can partition data by using schemas/different databases (e.g. Visma) or horizontally by filtering on a global dimension (e.g. Agresso).
 
+<!--ID 756585a7-7d4d-4d38-b801-3807b06e9bf2 -->
+**#23540 Developer Tools: User interaction is disabled when paused on breakpoint in debugging an action.** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
