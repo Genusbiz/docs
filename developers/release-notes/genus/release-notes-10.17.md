@@ -124,6 +124,9 @@ Produces the following error if referenced in the expression language: "Duplicat
 
 An expression such as Directory.currentLanguage() = NaturalLanguage.norwegian_Bokm&aring;l_Norway does always return false even if the current language equals Norwegian Bokm&aring;l. Works on desktop, but not in the web client.
 
+<!--ID 961aa96e-0696-42dc-8f58-239e8e32c6e2 -->
+**#23541 Dashboard: Selection for dashboard embedded in modal page is now assigned correctly** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
