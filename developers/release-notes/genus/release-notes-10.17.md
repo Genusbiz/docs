@@ -127,6 +127,11 @@ An expression such as Directory.currentLanguage() = NaturalLanguage.norwegian_Bo
 <!--ID 961aa96e-0696-42dc-8f58-239e8e32c6e2 -->
 **#23541 Dashboard: Selection for dashboard embedded in modal page is now assigned correctly** (Web)
 
+<!--ID 8a33aaa1-e340-49ef-aca9-bc14522aaaf6 -->
+**#23542 Value for dictionary translations truncated after 60 characters**
+
+Changed to variable-length character string.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
