@@ -132,6 +132,9 @@ An expression such as Directory.currentLanguage() = NaturalLanguage.norwegian_Bo
 
 Changed to variable-length character string.
 
+<!--ID 1d3cff27-3615-47a5-bacf-05d0e7b99836 -->
+**#23544 Improved UX for tables displaying "built-in" concepts (User Administration, Analytics & Insights,..)** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
