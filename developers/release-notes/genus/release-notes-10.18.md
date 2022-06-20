@@ -46,7 +46,13 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 1bdd0354-3dd1-4ec8-b3ff-028c085d60a5 -->
+**#23545 Pie plot control is added** (Web)
+
+Pie plot is added (as a doughnut). The control will be expanded to include doughnut and pie, to avoid creating too many similar controls.
+
+The control does not aggregate itself, and depends on a binding with cardinality many and a number field. This field will be the displayed values in the plot.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
