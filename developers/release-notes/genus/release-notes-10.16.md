@@ -106,6 +106,9 @@ If a default value formula not is defined for a field pointing to a code domain,
 <!--ID c3581f30-cba4-4fdf-98d0-93d256c276fd -->
 **#23520 Events in scheduler now has a minimum width** (Web)
 
+<!--ID 1d3cff27-3615-47a5-bacf-05d0e7b99836 -->
+**#23544 Improved UX for tables displaying "built-in" concepts (User Administration, Analytics & Insights,..)** (Web)
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
