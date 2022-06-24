@@ -53,6 +53,13 @@ Pie plot is added (as a doughnut). The control will be expanded to include dough
 
 The control does not aggregate itself, and depends on a binding with cardinality many and a number field. This field will be the displayed values in the plot.
 
+<!--ID d32d21b5-55cb-45cd-ab0d-16d96f153cee -->
+**#23546 Bar plot control is added** (Web)
+
+Bar plot is added (as a columns, vertical bars). The control will be expanded to include horizontal bars, to avoid creating too many similar controls.
+
+The control does not aggregate itself, and depends on a binding with cardinality many and a number field. This field will be the displayed values in the plot.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
