@@ -66,6 +66,11 @@ The control does not aggregate itself, and depends on a binding with cardinality
 <!--ID b8ff4f37-78c5-4a75-b72f-ecd01b56ad83 -->
 **#23547 Designers now display an information bar when opened in read-only mode, and an Enable Editing button** (Studio;Web)
 
+<!--ID cfaa145a-e466-45e4-9a6e-69bc4645f980 -->
+**#23548 New Data filter type for components** (Web)
+
+We have added a new datafilter type for components in a page, called Data Binding. This filter binds the component data set to the page data set. This means that the two datasets are the same
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
