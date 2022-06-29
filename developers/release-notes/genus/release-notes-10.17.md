@@ -23,6 +23,15 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID bd5be0bf-ecde-4105-8c41-f0dd7e314df0 -->
+**#23549 Containerd** (Services)
+
+Genus version 10.17 now supports Containerd as runtime environment for containers. Containerd is the default container runtime for AKS version 1.23 and higher.
+
+To run Kubernetes version 1.23 and higher we recommend upgrading to 10.17.
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
