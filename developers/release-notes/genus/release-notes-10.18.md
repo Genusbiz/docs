@@ -71,6 +71,11 @@ The control does not aggregate itself, and depends on a binding with cardinality
 
 We have added a new datafilter type for components in a page, called Data Binding. This filter binds the component data set to the page data set. This means that the two datasets are the same
 
+<!--ID 43aacd62-1a20-4b16-9924-5d9ee5a7b8f3 -->
+**#23550 Buffer for availability windows and active environment switching** (Operator)
+
+It is now possible to configure a buffer time period for startup and shutdown of the environment. This buffer will effect when the environment goes up and down, which will improve the downtime both when switching between active and passive environment, and when entering an availability window. The buffer time period is configured in Genus Operator.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
