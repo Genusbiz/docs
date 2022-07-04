@@ -76,6 +76,11 @@ We have added a new datafilter type for components in a page, called Data Bindin
 
 It is now possible to configure a buffer time period for startup and shutdown of the environment. This buffer will effect when the environment goes up and down, which will improve the downtime both when switching between active and passive environment, and when entering an availability window. The buffer time period is configured in Genus Operator.
 
+<!--ID 573cf579-cce7-4831-9fb3-478c95e69111 -->
+**#23551 Relation Lookup** (Web)
+
+The Chip Input control has changed name to Relation Lookup. Parent data set and parent field are now possible to model for the control, which makes it possible to, for instance, filter the control in a repetaing container.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
