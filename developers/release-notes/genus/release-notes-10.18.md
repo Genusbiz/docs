@@ -81,6 +81,13 @@ It is now possible to configure a buffer time period for startup and shutdown of
 
 The Chip Input control has changed name to Relation Lookup. Parent data set and parent field are now possible to model for the control, which makes it possible to, for instance, filter the control in a repetaing container.
 
+<!--ID 7e3b0287-9e4f-4e6c-a415-8c6eefc774a1 -->
+**#23552 Definition of default web page for an object class**
+
+In the same way that you can specify a default desktop form for objects of a given type, you can specify a default web page of type form. The expression language has been extended to include a function which returns a link for a given object. The object is opened in the app given by the appPathSegment argument.
+
+*<an-object>.defaultWebPageLink(appPathSegment:string) : URL*
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
