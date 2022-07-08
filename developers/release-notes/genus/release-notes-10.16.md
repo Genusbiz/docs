@@ -109,6 +109,13 @@ If a default value formula not is defined for a field pointing to a code domain,
 <!--ID 1d3cff27-3615-47a5-bacf-05d0e7b99836 -->
 **#23544 Improved UX for tables displaying "built-in" concepts (User Administration, Analytics & Insights,..)** (Web)
 
+<!--ID 0392ca4d-0261-4e06-9cb1-0b4ed51a2507 -->
+**#23553 IMPORTANT! Rules of type On Before Validate / On After Validate not executed on web**
+
+Releated to rules defined for an object class. Rules defined on data source level within a module are executed as expected.
+
+A patch is available both for release 10.17 and 10.16.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
