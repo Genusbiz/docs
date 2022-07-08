@@ -60,6 +60,21 @@ Bar plot is added (as a columns, vertical bars). The control will be expanded to
 
 The control does not aggregate itself, and depends on a binding with cardinality many and a number field. This field will be the displayed values in the plot.
 
+<!--ID 3fe3ee5e-0748-45cf-8b65-60abd3b2c376 -->
+**#23554 Geolocation** (Studio;Web)
+
+**Geolocation** has been added to allow the user to provide their location to the application. The user's location information can be used to plot their location on a map, or display personalized information relevant to their location.
+
+For privacy reasons, the user is asked for permission to report location information. Usage of the user's location will trigger the browser to ask them for permission to access their location data. If they accept, then the browser will use the best available functionality on the device to access this information.
+
+To comply with the guidelines of the Geolocation API and to be able to create applications asking for permission to view the user's location at the appropriate time (ie. when a map is displayed and the location is needed), the following new **client action effects** have been added:
+- Start Monitor Geolocation Position (*Retrieve Once, Retrieve Each Time the Position of the Device Changes*)
+- Stop Monitor Geolocation Position
+
+The Geolocation is available in the expression language within the Geolocation class type. For example: Geolocation.coordinates().latitude()
+
+To listen for changes to the position of the user a new Page Event has been added to the Page Designer: **On Position Changed**
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
