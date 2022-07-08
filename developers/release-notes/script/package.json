@@ -18,7 +18,7 @@
     "atob": "^2.1.1",
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
-    "moment": "^2.22.1",
+    "moment": "^2.29.4",
     "octonode": "^0.9.2",
     "request": "^2.87.0"
   }
