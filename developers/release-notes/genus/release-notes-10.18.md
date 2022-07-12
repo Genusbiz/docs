@@ -103,6 +103,11 @@ In the same way that you can specify a default desktop form for objects of a giv
 
 *<an-object>.defaultWebPageLink(appPathSegment:string) : URL*
 
+<!--ID 1bb0fd88-61d3-4132-abb7-6d1cfeb9449a -->
+**#23555 Renamed desktop effect "Merge Documents" to "Combine Documents"**
+
+Based on terminology used by Adobe. Renamed to avoid confusion with *Merge Data to a Document* effect.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
