@@ -108,6 +108,9 @@ In the same way that you can specify a default desktop form for objects of a giv
 
 Based on terminology used by Adobe. Renamed to avoid confusion with *Merge Data to a Document* effect.
 
+<!--ID ccdc8d29-477c-430d-859e-945b6be4f1a2 -->
+**#23556 Renamed desktop effect "Process Message Queue" to "Manage Message Queue"**
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
