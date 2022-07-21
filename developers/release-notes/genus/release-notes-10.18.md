@@ -114,13 +114,13 @@ Based on terminology used by Adobe. Renamed to avoid confusion with *Merge Data 
 <!--ID d8d66865-46de-421c-b47e-e56ff6ba593a -->
 **#23557 Added drag and drop within organization chart** (Web)
 
-Det er lagt til drag and drop innenfor organisasjonskart.
+Drag and drop has been added to the organizational chart control
 
-Det er lagt p&aring; onDrop handlere p&aring; hvert niv&aring; i organisasjonskart som h&aring;ndterer dersom andre noder blir droppet p&aring; en node i det respektive niv&aring;et.
-Ved definering av onDrop kan man ogs&aring; velge gyldige "drag sources", som er data sources (med mulighet for &aring; begrense til data set) og kardinalitet som er lov &aring; droppe p&aring; nodene.
-N&aring;r drag sources er definert vil disse bli tilgjengelige som "Dragged Object(s)" i action interfacet til onDrop handlingen p&aring; de gyldige data sourcene.
+OnDrop handlers have been added to each level of the organizational chart. The handlers are executed when other nodes are dropped on the respective level.
+When defining onDrop, one can also choose valid "drag sources", which are the data sources (with the possibility of restricting to data sets) and cardinality that are allowed to drop.
+When valid drag sources are defined, these will be made available as "Dragged Object(s)" in the action interface of the onDrop action on entries with data sources that match the valid drag sources.
 
-Det er lov &aring; endre drag sources slik at man g&aring;r inn i en feil state mtp. action interfacet, men det skal bli gitt feilmelding p&aring; dette, slik at man vet at noe er i feil state. Dette er for &aring; enklere kunne g&aring; via en feil state for bedre brukervennlighet.
+It is permitted to modify valid drag sources so that one enters an invalid state in regard of the action interface. An error message will in this case be presented in the dialog, so that one knows a faulty state has been entered, allowing the business enigneer to correct the error. This will hopefiully make it easier to work, by not restricting changes, but rather inform if the changes introduce errors.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
