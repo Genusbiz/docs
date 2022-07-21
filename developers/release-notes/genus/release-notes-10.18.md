@@ -111,6 +111,17 @@ Based on terminology used by Adobe. Renamed to avoid confusion with *Merge Data 
 <!--ID ccdc8d29-477c-430d-859e-945b6be4f1a2 -->
 **#23556 Renamed desktop effect "Process Message Queue" to "Manage Message Queue"**
 
+<!--ID d8d66865-46de-421c-b47e-e56ff6ba593a -->
+**#23557 Added drag and drop within organization chart** (Web)
+
+Det er lagt til drag and drop innenfor organisasjonskart.
+
+Det er lagt p&aring; onDrop handlere p&aring; hvert niv&aring; i organisasjonskart som h&aring;ndterer dersom andre noder blir droppet p&aring; en node i det respektive niv&aring;et.
+Ved definering av onDrop kan man ogs&aring; velge gyldige "drag sources", som er data sources (med mulighet for &aring; begrense til data set) og kardinalitet som er lov &aring; droppe p&aring; nodene.
+N&aring;r drag sources er definert vil disse bli tilgjengelige som "Dragged Object(s)" i action interfacet til onDrop handlingen p&aring; de gyldige data sourcene.
+
+Det er lov &aring; endre drag sources slik at man g&aring;r inn i en feil state mtp. action interfacet, men det skal bli gitt feilmelding p&aring; dette, slik at man vet at noe er i feil state. Dette er for &aring; enklere kunne g&aring; via en feil state for bedre brukervennlighet.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
