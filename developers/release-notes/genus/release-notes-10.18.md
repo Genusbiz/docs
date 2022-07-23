@@ -122,6 +122,21 @@ When valid drag sources are defined, these will be made available as "Dragged Ob
 
 It is permitted to modify valid drag sources so that one enters an invalid state in regard of the action interface. An error message will in this case be presented in the dialog, so that one knows a faulty state has been entered, allowing the business enigneer to correct the error. This will hopefiully make it easier to work, by not restricting changes, but rather inform if the changes introduce errors.
 
+<!--ID f31f6ad6-ffa5-4c3b-b474-12c4bda2c240 -->
+**#23558 Start Page Tile improvements: Context Menu, wrapping of titles and screen tip** (Web)
+
+A context menu containing the following actions has been added to tiles in the start page:
+
+- Open
+- Open in New Tab
+- Copy Link Address
+- Show Small Tiles / Show Large Tiles
+- Pin / Unpin
+
+The pin/unpin button on start page tiles has been replaced with a "More Actions" button used to open the context menu. This is in accordance with universial design as actions are visible, easily available and more user friendly in cases where the user is performing navigation only by using the keyboard or is using the application on a mobile device.
+
+The title of an app will now use two lines if necessary, and has a screen tip displaying the full name on hover.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
