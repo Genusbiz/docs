@@ -137,6 +137,11 @@ The pin/unpin button on start page tiles has been replaced with a "More Actions"
 
 The title of an app will now use two lines if necessary, and has a screen tip displaying the full name on hover.
 
+<!--ID 975124ba-d770-4613-8f84-973f5c77cb51 -->
+**#23559 Control Style: Hover and Focused/Selected Color Set added to Container Header** (Studio;Web)
+
+Control style for container header now has the possibility to define a color set to be used on hover, and a color set to be used for the header when it is focused/selected (clicked).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
