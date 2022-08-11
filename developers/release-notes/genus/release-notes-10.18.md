@@ -147,6 +147,16 @@ Control style for container header now has the possibility to define a color set
 
 Input controls can be marked required regardless of data validation. Marking can be set with a boolean flag, or by an expression.
 
+<!--ID 97f9aea9-3326-4706-b1fd-a1ec20b221f5 -->
+**#23561 Link control is added** (Web)
+
+To better support page navigation, a Link control is added. The Link control can either hav a URL, or a Client Action conntected to it, supporting navigation either within the Genus page, or to another external web page.
+
+<!--ID 81ba14b7-b243-4153-8ed0-78ec24f8e6d5 -->
+**#23562 Password support for input fields** (Web)
+
+Input field now has support for password fields. The property connected needs to have interpretation "password" for this to work correctly.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
