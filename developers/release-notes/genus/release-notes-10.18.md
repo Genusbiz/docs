@@ -142,6 +142,11 @@ The title of an app will now use two lines if necessary, and has a screen tip di
 
 Control style for container header now has the possibility to define a color set to be used on hover, and a color set to be used for the header when it is focused/selected (clicked).
 
+<!--ID 8e7d5998-ebe0-49f3-bfbf-6b44b22489b7 -->
+**#23560 Mark required** (Web)
+
+Input controls can be marked required regardless of data validation. Marking can be set with a boolean flag, or by an expression.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
