@@ -42,7 +42,11 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 8233a12a-0b97-4627-b89b-400700c2b273 -->
+**#23563 New required privileges in order to send mail** (Studio;Web)
+
+We have added a new privilege called "Send mail". This privilege is required in order to be able to send mail from web, and should be designated to the correct security group. This privilege is introduced as there is a higher security demand when sending mails from web.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
