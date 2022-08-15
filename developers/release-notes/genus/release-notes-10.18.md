@@ -79,6 +79,15 @@ The Geolocation is available in the expression language within the Geolocation c
 
 To listen for changes to the position of the user a new Page Event has been added to the Page Designer: **On Position Changed**
 
+<!--ID 6682c853-f4f9-4348-a669-7fbe1195b27e -->
+**#23565 Security Overview and Review added to User Administration on web (Grant Matrix)** (Web)
+
+Grant Matrix has been added to User Administration on web. The following views are now available: Permissions View, Privileges View, Instance View and Data Partition View.
+
+These views facilitates a periodic review of important security aspects, such as privileges, Object Class permissions, and Data Partition access granted to security groups.
+
+[Genus Docs: Security Overview and Review](https://docs.genus.no/developers/defining-an-app-model/security/security-overview-and-review.html)
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
