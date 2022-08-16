@@ -170,6 +170,9 @@ To better support page navigation, a Link control is added. The Link control can
 
 Input field now has support for password fields. The property connected needs to have interpretation "password" for this to work correctly.
 
+<!--ID 181efa4b-726f-4228-9894-4b51a156d85d -->
+**#23566 Custom buttons can now be used in the Confirmation Message effect.** (Web)
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
