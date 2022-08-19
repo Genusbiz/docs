@@ -65,7 +65,7 @@ Minimum hardware requirements:
     *	Linux node hardware: 2 CPU, 8 GB RAM, 100 GB
     *	Windows node hardware: 4 CPU, 16 GB RAM, 100 GB
 *	Windows node OS: Windows Server 2019 -Server Core and Server with Desktop Experience (minimum version 1809/LTSC)
-*	Kubernetes version v.1.19 to v.1.22
+*	Kubernetes version v.1.19 to v.1.23
 *	Kubectl client for managing cluster
 
 Kubernetes provides architecture for sharing the worker nodes resources efficiently and scale up and down the number of nodes and pods as needed. 
