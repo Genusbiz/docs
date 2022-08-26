@@ -53,6 +53,17 @@ There are no major new functionality in this release.
 <!--ID 707553fa-ba24-43c5-9645-7a4e55896002 -->
 **#23568 Browser Title can now be assigned within a page in page settings (part of WCAG)** (Studio;Web)
 
+<!--ID 5e5b48e6-87ad-40ce-a16c-e1d1ebffc1c5 -->
+**#23569 New functions available in Expression Language**
+
+- WebRuntime.currentApp().title() *- returns then title for the current app*
+- WebRuntime.currentPage().title() *- returns then title for the current page*
+
+Introduced so that you can include this information in a custom defined browser tab title in your app. Other relevant functions you can use is
+
+- DataPartition.activeDataPartition().name() *- returns then name of the current data partition*
+- Directory.name() *- returns the name of your app model*
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
