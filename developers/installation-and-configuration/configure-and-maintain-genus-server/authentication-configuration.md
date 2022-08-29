@@ -13,7 +13,8 @@ Genus supports the following identity providers:
 - [Azure Active Directory](https://portal.azure.com)
 - [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
 - [xID by BankID](https://www.bankid.no/bedrift/kom-i-gang/)
-- [ID-Porten](https://samarbeid.difi.no/)
+- [ID-Porten](https://samarbeid.digdir.no/)
+- [AnsattPorten](https://samarbeid.digdir.no/)
 - __Genus Native__ (username/password) (Forms Authentication)
 - __Custom__ OAuth2 authentication for customer specific authentication
 
