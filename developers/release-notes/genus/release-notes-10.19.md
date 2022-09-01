@@ -67,7 +67,21 @@ Introduced so that you can include this information in a custom defined browser 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
+<!--ID b3977025-eefc-4524-ab7b-3ae0a90a6e77 -->
+**#23574 Dashboard: Material UI icons has been replaced with Fluent UI and global Genus style has been added** (Desktop;Studio;Web)
+
+All material UI icons has been replaced with Fluent UI icons, and the global Genus theme has been applied to Dashboard runtime and designer.
+
+This *may* result in a slightly different visual apperance of existing dashboards.
+
+
+Some of the changes includes:
+
+- Font-size for the Body style has been reduced from 16px to 14px.
+- Font-size used in the Action Bar is reduced from 16px to 14px, making the Action Bar more similar to action bars in other parts of Genus.
+- Font-familiy is now Segoe UI Web.
+- Font-weight is reduced for certain styles, making characters slimmer.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
