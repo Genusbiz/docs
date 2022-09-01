@@ -64,6 +64,11 @@ Introduced so that you can include this information in a custom defined browser 
 - DataPartition.activeDataPartition().name() *- returns then name of the current data partition*
 - Directory.name() *- returns the name of your app model*
 
+<!--ID aaca762e-006b-21b2-3491-e87a1ecef7b4 -->
+**#23575 Rating control available** (Web)
+
+The Rating control has been added to the control library. The control might seem similary to the Slider control. Given a range of unmbers, the user can, for istance, set a score with this control.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
