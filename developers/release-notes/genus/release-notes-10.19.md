@@ -69,6 +69,16 @@ Introduced so that you can include this information in a custom defined browser 
 
 The Rating control has been added to the control library. The control might seem similary to the Slider control. Given a range of unmbers, the user can, for istance, set a score with this control.
 
+<!--ID 75b5903c-785d-a788-5d9e-ce54b3e046a2 -->
+**#23578 Relation Dropdown** (Web)
+
+New control created - Relation Dropdown. Used to create relation objects. For instance the relation between an e-mail and a mailing list.
+
+<!--ID b32c1b66-efe0-ea5a-3f11-003cd0c90323 -->
+**#23579 Relation Chip** (Web)
+
+New control created - Relation Chip. Used to create relation objects, as width the existing Relation Lookup and Dropdown.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
