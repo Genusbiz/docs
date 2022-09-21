@@ -43,7 +43,7 @@ There is no deprecated functionality in this release.
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 12420123-35a2-42fd-8529-73c4fec98cb6 -->
-**#23478 Changed helm values** (Operator)
+**#23478 Changed helm values**
 
 We have changed how some of the configuration regarding the connection to database is done. The following changes must be made to all helm-value configuration files before updating to 10.13:
 
@@ -78,7 +78,7 @@ global:
 **These values should be the same as for the Genus helm-charts. Especiallynote vendorVersion, which should have a different value than the old dbType**
 
 <!--ID befa232b-80c0-4490-b231-202914eb0e04 -->
-**#23499 Operator 6 requires Genus >= 10.14** (Operator)
+**#23499 Operator 6 requires Genus >= 10.14**
 
 New label configuration requires Genus >= 10.14.
 
@@ -94,7 +94,7 @@ There are no minor new functionality in this release.
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 9681c2f8-e5e4-42fd-9f05-abce7e0b87ca -->
-**#23509 Test Release Notes Sync** (Operator)
+**#23509 Test Release Notes Sync**
 
 Test
 
