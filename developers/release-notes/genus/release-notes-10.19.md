@@ -51,7 +51,7 @@ There are no major new functionality in this release.
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 707553fa-ba24-43c5-9645-7a4e55896002 -->
-**#23568 Browser Title can now be assigned within a page in page settings (part of WCAG)** (Studio;Web)
+**#23568 Browser Title can now be assigned within a page in page settings (part of WCAG)**
 
 <!--ID 5e5b48e6-87ad-40ce-a16c-e1d1ebffc1c5 -->
 **#23569 New functions available in Expression Language**
@@ -65,17 +65,17 @@ Introduced so that you can include this information in a custom defined browser 
 - Directory.name() *- returns the name of your app model*
 
 <!--ID aaca762e-006b-21b2-3491-e87a1ecef7b4 -->
-**#23575 Rating control available** (Web)
+**#23575 Rating control available**
 
 The Rating control has been added to the control library. The control might seem similary to the Slider control. Given a range of unmbers, the user can, for istance, set a score with this control.
 
 <!--ID 75b5903c-785d-a788-5d9e-ce54b3e046a2 -->
-**#23578 Relation Dropdown** (Web)
+**#23578 Relation Dropdown**
 
 New control created - Relation Dropdown. Used to create relation objects. For instance the relation between an e-mail and a mailing list.
 
 <!--ID b32c1b66-efe0-ea5a-3f11-003cd0c90323 -->
-**#23579 Relation Chip** (Web)
+**#23579 Relation Chip**
 
 New control created - Relation Chip. Used to create relation objects, as width the existing Relation Lookup and Dropdown.
 
@@ -83,7 +83,7 @@ New control created - Relation Chip. Used to create relation objects, as width t
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID b3977025-eefc-4524-ab7b-3ae0a90a6e77 -->
-**#23574 Dashboard: Material UI icons has been replaced with Fluent UI and global Genus style has been added** (Desktop;Studio;Web)
+**#23574 Dashboard: Material UI icons has been replaced with Fluent UI and global Genus style has been added**
 
 All material UI icons has been replaced with Fluent UI icons, and the global Genus theme has been applied to Dashboard runtime and designer.
 
