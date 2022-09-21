@@ -26,7 +26,7 @@ Prior to upgrading to this release, you must:
 See also the following notes.
 
 <!--ID bd5be0bf-ecde-4105-8c41-f0dd7e314df0 -->
-**#23549 Containerd** (Services)
+**#23549 Containerd**
 
 Genus version 10.17 now supports Containerd as runtime environment for containers. Containerd is the default container runtime for AKS version 1.23 and higher.
 
@@ -52,7 +52,7 @@ There is no deprecated functionality in this release.
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 617742ea-601c-43c4-8655-eabb667ada88 -->
-**#23532 Dashboard: Limit to N values requires sorting of the involved Data Source** (Studio;Web)
+**#23532 Dashboard: Limit to N values requires sorting of the involved Data Source**
 
 The "Limit to N values" option has to be used in combination with sorting, else the result is not deterministic. We now enforce this by showing an error message in the tile, if Limit to N values is assigned without sorting. The error is displayed both designtime and runtime, hence **BREAKING**.
 
@@ -66,7 +66,7 @@ Prior to this, some tile visualizations would limit the data (randomly) and othe
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 037a3f26-2619-4149-be4e-459d81c60fb8 -->
-**#23534 Automatically verify the model after upgrading Genus** (Services)
+**#23534 Automatically verify the model after upgrading Genus**
 
 A new feature called the verify-model-job has been added.
 
@@ -85,17 +85,17 @@ global:
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID c3d4340b-1ebd-4cc1-b3a4-fe251f9606ef -->
-**#23528 Dashboard: Improved error handling in Dashboard Tiles** (Studio;Web)
+**#23528 Dashboard: Improved error handling in Dashboard Tiles**
 
 Errors are displayed in the same fashion in the designer and runtime (errors is listed in the footer of the tile).
 
 In addition, errors caused by no valid path between value and category is displayed in the designer to proactively prevent Bad Request-error runtime. Bad Request errors are displayed within the affected tile to allow better pinpointing of the error locations (prior to this the whole dashboard would diplay an error and could not be used).
 
 <!--ID 3014df5b-4695-4771-9b5d-56aa3428d5c5 -->
-**#23531 Dashboard: List tile now supports subset for filtering the category data source** (Web)
+**#23531 Dashboard: List tile now supports subset for filtering the category data source**
 
 <!--ID 649ae4b7-1111-43c1-90aa-c03f5c402573 -->
-**#23535 Dashboard: Sizing of columns in table related tiles is now default automatically given by value** (Studio;Web)
+**#23535 Dashboard: Sizing of columns in table related tiles is now default automatically given by value**
 
 <!--ID 1bd9a352-cb9f-4582-9efc-9c2b8a114e33 -->
 **#23539 Name for Data Set changed to Data Partition**
@@ -103,25 +103,25 @@ In addition, errors caused by no valid path between value and category is displa
 Name changed both to avoid conflict with data sets used in web pages and client actions (partitioning data in a data source), and introduce a more precise term. Technically speaking Genus can partition data by using schemas/different databases (e.g. Visma) or horizontally by filtering on a global dimension (e.g. Agresso).
 
 <!--ID 756585a7-7d4d-4d38-b801-3807b06e9bf2 -->
-**#23540 Developer Tools: User interaction is disabled when paused on breakpoint in debugging an action.** (Web)
+**#23540 Developer Tools: User interaction is disabled when paused on breakpoint in debugging an action.**
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 2722f502-677e-42a2-b4e4-c5e85c229439 -->
-**#23527 Missing value formatting in Grid Heatmap fixed** (Web)
+**#23527 Missing value formatting in Grid Heatmap fixed**
 
 <!--ID dafddb4f-c92b-42ff-aeff-9695f4e63dd1 -->
-**#23529 Dashboard: Bug in Download as Excel Workbook in Grid Heatmap and Bubbles corrected** (Web)
+**#23529 Dashboard: Bug in Download as Excel Workbook in Grid Heatmap and Bubbles corrected**
 
 <!--ID 313e5a9c-3aa6-4c91-95b8-bdec7dffe899 -->
-**#23530 Dashboard: Bubbles tooltip corrected (displayed undefined prior to fix)** (Web)
+**#23530 Dashboard: Bubbles tooltip corrected (displayed undefined prior to fix)**
 
 <!--ID 2c86256d-6db5-446c-b333-69300bbbb5b4 -->
-**#23533 Dashboard: Refine data in Table-tile on given subset(s), before "Limit to N values" is applied.** (Studio;Web)
+**#23533 Dashboard: Refine data in Table-tile on given subset(s), before "Limit to N values" is applied.**
 
 <!--ID 138f88db-f350-4756-b983-c13d436e1776 -->
-**#23536 Uncategorized values can now be used to summarize values which are not part of the category grouping** (Studio;Web)
+**#23536 Uncategorized values can now be used to summarize values which are not part of the category grouping**
 
 <!--ID 346d709a-a661-442b-8cc3-a7b28253efa7 -->
 **#23537 Possible to add duplicate dictionary texts with the same namespace and value**
@@ -134,7 +134,7 @@ Produces the following error if referenced in the expression language: "Duplicat
 An expression such as Directory.currentLanguage() = NaturalLanguage.norwegian_Bokm&aring;l_Norway does always return false even if the current language equals Norwegian Bokm&aring;l. Works on desktop, but not in the web client.
 
 <!--ID 961aa96e-0696-42dc-8f58-239e8e32c6e2 -->
-**#23541 Dashboard: Selection for dashboard embedded in modal page is now assigned correctly** (Web)
+**#23541 Dashboard: Selection for dashboard embedded in modal page is now assigned correctly**
 
 <!--ID 8a33aaa1-e340-49ef-aca9-bc14522aaaf6 -->
 **#23542 Value for dictionary translations truncated after 60 characters**
@@ -142,7 +142,7 @@ An expression such as Directory.currentLanguage() = NaturalLanguage.norwegian_Bo
 Changed to variable-length character string.
 
 <!--ID 1d3cff27-3615-47a5-bacf-05d0e7b99836 -->
-**#23544 Improved UX for tables displaying "built-in" concepts (User Administration, Analytics & Insights,..)** (Web)
+**#23544 Improved UX for tables displaying "built-in" concepts (User Administration, Analytics & Insights,..)**
 
 <!--ID 0392ca4d-0261-4e06-9cb1-0b4ed51a2507 -->
 **#23553 IMPORTANT! Rules of type On Before Validate / On After Validate not executed on web**
