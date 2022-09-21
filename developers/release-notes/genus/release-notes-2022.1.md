@@ -57,7 +57,7 @@ There are no major new functionality in this release.
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID c85d0be5-7607-42d9-bb36-862907a10df1 -->
-**#23525 Branding updated with current Genus Logo** (Desktop;Studio)
+**#23525 Branding updated with current Genus Logo**
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
