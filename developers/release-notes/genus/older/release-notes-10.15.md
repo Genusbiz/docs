@@ -51,22 +51,22 @@ There are no major new functionality in this release.
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 63c68cbb-bf28-4966-9887-8107d350e1a2 -->
-**#23512 Callout data is available in dev tools** (Web)
+**#23512 Callout data is available in dev tools**
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID a6600148-dec0-4a52-8a86-55e325e8f958 -->
-**#23504 Summary row displayed undefined in columns with advanced rendering** (Web)
+**#23504 Summary row displayed undefined in columns with advanced rendering**
 
 <!--ID ce6b8906-2f95-4f30-98f5-659708765a1a -->
-**#23505 Improved Tab handling in Duration Input** (Web)
+**#23505 Improved Tab handling in Duration Input**
 
 <!--ID 54086acb-5747-44b3-ab62-db161d7860ff -->
-**#23506 Request to load names of Dashboards is only done when needed, reducing number of requests on startup** (Web)
+**#23506 Request to load names of Dashboards is only done when needed, reducing number of requests on startup**
 
 <!--ID a5b2c3e6-1533-47de-baab-ac491e0d5410 -->
-**#23507 Default value for Sitemap Apperance for new App is now Pinned** (Studio)
+**#23507 Default value for Sitemap Apperance for new App is now Pinned**
 
 <!--ID c5fa235f-506b-441e-ae94-dde7cbc5e446 -->
 **#23508 Translated code domain members may cause errors when evaluating formulas on the web client**
@@ -82,7 +82,7 @@ The error would look something like
 If you experience this error, please upgrade to version 10.14 or 10.15. Before you publish the application model, make sure that you do a minor change to an arbitrary object class, such as enter a temporary description, apply changes, remove the description, and then save changes.
 
 <!--ID 5de383e0-f37a-4bb4-a8af-12899dac895a -->
-**#23510 New password was not filled in suggested password in "Repeat Password"** (Web)
+**#23510 New password was not filled in suggested password in "Repeat Password"**
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
