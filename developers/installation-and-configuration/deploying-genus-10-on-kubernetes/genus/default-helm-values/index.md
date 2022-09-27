@@ -6,7 +6,6 @@ author: vka
 
 # Default Helm Values for Genus 10
 
+- [Default Helm Values for Genus 10.20](genus-10.20.md)
 - [Default Helm Values for Genus 10.19](genus-10.19.md)
 - [Default Helm Values for Genus 10.18](genus-10.18.md)
-- [Default Helm Values for Genus 10.17](genus-10.17.md)
-- [Default Helm Values for Genus 10.16](genus-10.16.md)
