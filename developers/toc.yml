@@ -511,8 +511,6 @@
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-6.1.md
         - name: Genus Operator 6.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-6.0.md
-        - name: Genus Operator 4.10
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-4.10.md
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/index.md
         items:
@@ -522,8 +520,6 @@
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-6.1.md
         - name: Genus Operator 6.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-6.0.md
-        - name: Genus Operator 4.10
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-4.10.md
   - name: Installing Genus Desktop
     href: installation-and-configuration/installing-genus-desktop/index.md
     items:
