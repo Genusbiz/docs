@@ -10,10 +10,6 @@ global:
   enableSentry: "true"
   customer: ""
   dnsSuffix: ""
-  phoneHome:
-    enabled: "true"
-    apiKey: ""
-    customerSampleCode: ""
   database:
     vendorVersion: ""
     activeConnectionString: ""
@@ -46,7 +42,10 @@ genus-operator-frontend:
 genus-kubernetes-operator-service:
   replicaCount: 1
   doRollingPodRestarts: "true"
-
+  phoneHome:
+    enabled: "false"
+    apiKey: ""
+    customerSampleCode: ""
   environmentAvailabilityControlEnabled: "false"
   resources:
     requests:
