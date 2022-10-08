@@ -8,12 +8,12 @@ All microservices can be configured with the following common helm values.
 | <microservice>.enabled                                           |  | true |
 | <microservice>.sentryDSN                                         | Link to Sentry DSN endpoint. | *Unique DSN for every microservice* |
 | <microservice>.replicaCount                                      |  | 1 |
-| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](../default-helm-values/genus-10.16.md)* |
-| <microservice>.resources.requests.memory                         |  | *See [values.yaml](../default-helm-values/genus-10.16.md)* |
-| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](../default-helm-values/genus-10.16.md)* |
-| <microservice>.resources.limits.memory                           |  | *See [values.yaml](../default-helm-values/genus-10.16.md)* |
-| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](../default-helm-values/genus-10.16.md)* |
-| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](../default-helm-values/genus-10.16.md)* |
+| <microservice>.resources.requests.cpu                            |  | *See [values.yaml](../default-helm-values/genus-10.19.md)* |
+| <microservice>.resources.requests.memory                         |  | *See [values.yaml](../default-helm-values/genus-10.19.md)* |
+| <microservice>.resources.limits.cpu                              |  | *See [values.yaml](../default-helm-values/genus-10.19.md)* |
+| <microservice>.resources.limits.memory                           |  | *See [values.yaml](../default-helm-values/genus-10.19.md)* |
+| <microservice>.affinityScheduling.enabled                        |  | *See [values.yaml](../default-helm-values/genus-10.19.md)* |
+| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity|  | *See [values.yaml](../default-helm-values/genus-10.19.md)* |
 | <microservice>.serviceMonitor.scrapeInterval                     | Interval of Prometheus scraping the metrics endpoint | "30s"
 
 ## Release values
@@ -93,6 +93,9 @@ All microservices can be configured with the following common helm values.
 | global.database.descriptiveSchema                                |  | "" |
 | global.database.vendorVersion                                    | Can be any of:<br/> Microsoft SQL Server <br/> Microsoft SQL Server 2008 R2<br/> Microsoft SQL Server 2012<br/> Microsoft SQL Server 2014<br/> Microsoft SQL Server 2016<br/> Azure SQL<br/> Azure SQL V12<br/> ORACLE<br/> ORACLE 10.0g<br/> ORACLE 11g<br/> ORACLE 11g R2<br/> ORACLE 12.1c<br/> MYSQL<br/> MYSQL 5.7<br/> PostgreSQL<br/> PostgreSQL 9.2<br/> DB2<br/> DB2 10.1<br/> TIBCO TDV<br/> TIBCO TDV 8.2.0 | "" |
 | global.database.caseInsensitiveSearch                            |  | "" |
+| global.jobs 													   |  |  |
+| global.jobs.verifyModel										   |  |  |
+| global.jobs.verifyModel.enabled								   | Wether or not to run the verifyModel job after deploying Genus | false |
 | global.customer                                                  | The name of the customer who owns the environment | "" |
 | global.modelIdentifier                                           | The identifing name of the model. The name shared by all namespaces working together | "" |
 | global.namespaceName                                             | The name of the namespace where the chart is deployed to. Used for validation when deploying | "" |
@@ -105,3 +108,4 @@ All microservices can be configured with the following common helm values.
 | global.windowsTimeZone                                           | Time zone specified for Windows containers. For available time zone values use PowerShell command "Get-TimeZone -ListAvailable" | "W. Europe Standard Time" |
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" |
 | global.reportSensitiveBreadcrumbsToSentry                        | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" |
+| global.ingress.ingressWildCardPathEnabled                        | Adds wildcard into all ingresses. This is used in ALB and AGIC.      | false
