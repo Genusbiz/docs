@@ -152,13 +152,34 @@ redis:
     automountServiceAccountToken: false
   sentinel:
     enabled: true
+    resources:
+      requests:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
   master:
+    resources:
+      requests:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
       enabled: false
   replica:
     replicaCount: 1
+    resources:
+      requests:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
@@ -236,7 +257,7 @@ genus-authentication-service:
     enabled: false
     namespaceListForPodAntiAffinity: []
   resources:
-    request:
+    requests:
       memory: 50Mi
       cpu: 10m
     limits:
@@ -448,6 +469,11 @@ genus-core-services:
 
 
 global:
+  jobs:
+    verifyModel:
+      enabled: false
+      scriptOutput: "scriptOutput.sql"
+      traceOutput: "traceOutput.txt"
   database:
     activeConnectionString: ""
     activeDb: ""
