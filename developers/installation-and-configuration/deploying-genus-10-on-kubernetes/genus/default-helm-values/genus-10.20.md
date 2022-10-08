@@ -111,13 +111,13 @@ genus-mail-service:
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
-  resources: 
+  resources:
     requests:
-      memory: "32Mi"
-      cpu: "25m"
+      memory: 50Mi
+      cpu: 10m
     limits:
-      memory: "128Mi"
-      cpu: "500m"
+      memory: 500Mi
+      cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
     
@@ -142,7 +142,7 @@ redis:
   fullnameOverride: redis-sentinel
   architecture: "replication"
   commonLabels:
-    app.kubernetes.io/part-of: genus  
+    app.kubernetes.io/part-of: genus
     genus.no/restartWithModelPublish: "false"
   auth:
     enabled: true
@@ -152,13 +152,34 @@ redis:
     automountServiceAccountToken: false
   sentinel:
     enabled: true
+    resources:
+      requests:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
   master:
+    resources:
+      requests:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
       enabled: false
   replica:
     replicaCount: 1
+    resources:
+      requests:
+        memory: 50Mi
+        cpu: 10m
+      limits:
+        memory: 500Mi
+        cpu: 200m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
@@ -223,7 +244,7 @@ genus-authorization-service:
       memory: "32Mi"
       cpu: "25m"
     limits:
-      memory: "128Mi"
+      memory: "500Mi"
       cpu: "500m"
   serviceMonitor:
     scrapeInterval: 30s
@@ -236,7 +257,7 @@ genus-authentication-service:
     enabled: false
     namespaceListForPodAntiAffinity: []
   resources:
-    request:
+    requests:
       memory: 50Mi
       cpu: 10m
     limits:
@@ -448,6 +469,11 @@ genus-core-services:
 
 
 global:
+  jobs:
+    verifyModel:
+      enabled: false
+      scriptOutput: "scriptOutput.sql"
+      traceOutput: "traceOutput.txt"
   database:
     activeConnectionString: ""
     activeDb: ""
