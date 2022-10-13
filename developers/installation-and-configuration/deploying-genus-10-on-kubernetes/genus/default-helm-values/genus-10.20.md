@@ -469,6 +469,20 @@ genus-core-services:
 
 
 global:
+  networkPolicy:
+    enabled: false
+    loadBalancer:
+      ingress:
+      egress:
+    database:
+      ingress:
+      egress:
+    objectStorage:
+      ingress:
+      egress:
+    keyValueStore:
+      ingress:
+      egress:
   jobs:
     verifyModel:
       enabled: false
