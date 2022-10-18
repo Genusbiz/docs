@@ -483,6 +483,9 @@ global:
     keyValueStore:
       ingress:
       egress:
+    wopi: 
+      ingress:
+      egress: 
   jobs:
     verifyModel:
       enabled: false
