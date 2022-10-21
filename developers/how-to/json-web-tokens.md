@@ -12,7 +12,7 @@ A JWT Token consists of 3 parts:
 - Signature
 
 ## JWT in Genus
-JsonWebToken has been introduced as a class in the Genus Expression Language, with the following function members: createFromToken and createToken.
+JsonWebToken has been introduced as a class in the Genus Expression Language with the following function members: createFromToken and createToken.
 
 When using the createToken function in the  you'll need to provide the following items: private key for the certificate, and if required, the root CA certificate that issued the certificate.
 
@@ -64,4 +64,4 @@ These are the custom claims created to share information between parties that ag
 ## Example
 The following example creates a JWT to use towards Maskinporten:
 
-JsonWebToken.createToken("{\"x5c\": [\"" + localObject.certificate_base64 + "\"]}" , "{\"aud\": \"https://ver2.maskinporten.no/\", \"iss\": \"a42439c8-8f07-4754-aa72-21b153bf65f5\",\"scope\": \"svv:kjoretoy/periodiskkontroll\", \"exp\":"+ CalendarTime.now().addSeconds(120).toUnixTime(false).toString() +",\"iat\":"+ CalendarTime.now().toUnixTime(false).toString() +", \"jti\": \"E9BF7EBA-F120-4B4A-8C02-8BE07CB309E7\", \"resource\": \"https://www.test.vegvesen.no\"}", "RS256", localObject.privateKey, false).toString()
+JsonWebToken.createToken("{\"x5c\": [\"" + localObject.certificate + "\"]}" , "{\"aud\": \"https://ver2.maskinporten.no/\", \"iss\": \"a42439c8-8f07-4754-aa72-21b153bf65f5\",\"scope\": \"svv:kjoretoy/periodiskkontroll\", \"exp\":"+ CalendarTime.now().addSeconds(120).toUnixTime(false).toString() +",\"iat\":"+ CalendarTime.now().toUnixTime(false).toString() +", \"jti\": \"E9BF7EBA-F120-4B4A-8C02-8BE07CB309E7\", \"resource\": \"https://www.test.vegvesen.no\"}", "RS256", localObject.privateKey, false).toString()
