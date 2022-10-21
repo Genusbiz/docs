@@ -678,6 +678,8 @@
     href: how-to/translate-the-application-model-to-other-languages.md
   - name: Upload and download large Files
     href: how-to/upload-and-download-large-files.md
+  - name: JSON Web Tokens
+    href: how-to/json-web-tokens.md
 - name: Release notes
   href: release-notes/index.md
   items:
