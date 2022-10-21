@@ -11,4 +11,4 @@ author: jtroset
 * [Merge Data to a Document](merge-data-to-a-document/index.md)
 * [Search Across Many Data Sources](search-across-many-data-sources.md)
 * [Upload and Download Large Files](upload-and-download-large-files.md)
-* [JSON Web Tokens](json_web_tokens.md)
+* [JSON Web Tokens](json-web-tokens.md)
