@@ -1,7 +1,20 @@
 # JSON Web Tokens
 This is a "how to" describing the process of generating a JSON Web Token (JWT) in Genus using the RSA256 encryption algorithm.
 
-When using the createToken function in the Genus Expression Language you'll need to provide the following items: private key for the certificate, and if required, the root CA certificate that issued the certificate.
+## A little intro to JWT
+As per OpenID Standard:
+> JSON Web Token (JWT) is a means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is digitally signed using JSON Web Signature (JWS) and/or encrypted using JSON Web Encryption (JWE).
+
+A JWT Token consists of 3 parts:
+
+- Header
+- Payload
+- Signature
+
+## JWT in Genus
+JsonWebToken has been introduced as a class in the Genus Expression Language, with the following function members: createFromToken and createToken.
+
+When using the createToken function in the  you'll need to provide the following items: private key for the certificate, and if required, the root CA certificate that issued the certificate.
 
 If you have been provided a p12-file containing the certificate itself and the private key, you'll need to convert it to obtain the RSA private key. See the next section, else skip to the Create token section.
 
@@ -23,6 +36,10 @@ As the result you will get three files, and in certificate.key.rsa.pem you'll fi
 Copy the whole block and use it as the private key.
 
 ## Create token
+Use the JsonWebToken class and createToken function.
+
+<b>createToken(headerAsJsonString, claimsAsJsonString, signatureAlgorithm, privateKey, expandKeyFromEnvironment)</b>
+
 ### Headers
 
 
