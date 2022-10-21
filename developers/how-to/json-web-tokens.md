@@ -41,10 +41,12 @@ Use the JsonWebToken class and createToken function.
 <b>createToken(headerAsJsonString, claimsAsJsonString, signatureAlgorithm, privateKey, expandKeyFromEnvironment)</b>
 
 ### Headers
-
+You may provide optional headers to the createToken function. One of these headers may be the x5c.
 
 #### What is x5c
-The "x5c" (X.509 certificate chain) Header Parameter contains the X.509 public key certificate or certificate chain [RFC5280] corresponding to the key used to digitally sign the JWS. The certificate or certificate chain is represented as a JSON array of certificate value strings.
+The x5c field can be included in the JWT header, to provide a Self-contained JWT with token signing certificate details. The header contains the X.509 public key certificate or certificate chain [RFC5280] corresponding to the key used to digitally sign the JWS. The certificate or certificate chain is represented as a JSON array of certificate value strings.
+
+If the x5c is required, you'll need to copy the contents of the certificate.cert.pem file (generated in the ".p12 file bundle to RSA private key" section). Note that the x5c is an array and only the part within the -----BEGIN CERTIFICATE----- and -----END CERTIFICATE----- should be included (contratry to the private key where begin and end should be included).
 
 ### Claims
 The payload of the JWT contains claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims: registered, public, and private claims.
