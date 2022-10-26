@@ -469,6 +469,8 @@ genus-core-services:
 
 
 global:
+  networkPolicy:
+    enabled: false
   jobs:
     verifyModel:
       enabled: false
