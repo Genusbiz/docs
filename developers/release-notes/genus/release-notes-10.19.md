@@ -79,9 +79,17 @@ New control created - Relation Dropdown. Used to create relation objects. For in
 
 New control created - Relation Chip. Used to create relation objects, as width the existing Relation Lookup and Dropdown.
 
+<!--ID c17e5f37-a2ee-4654-b554-6f91ec09977e -->
+**#23582 Dashboard: Actions can now be assigned Symbol and Screen Tip (Improved expressiveness and layout)**
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID e451c7b2-608e-4aec-898b-ca9a54006a93 -->
+**#23567 File-utility-service memory and performance optimizations**
+
+File-utility-service now utilizes content-type headers when converting files. Additionaly, the "Combine Documents" effect has been revamped, reducing conversion time.
+
 <!--ID b3977025-eefc-4524-ab7b-3ae0a90a6e77 -->
 **#23574 Dashboard: Material UI icons has been replaced with Fluent UI and global Genus style has been added**
 
