@@ -23,6 +23,11 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 11f567d7-f302-987b-4a1d-52e672bdef07 -->
+**#23591 Genus 10.20 requires Genus Operator >= 6.2**
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
@@ -36,7 +41,15 @@ There are no end-of-life functionality identified in this release.
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There is no deprecated functionality in this release.
+<!--ID c886add8-fb8c-8b85-b27c-d863e75e6615 -->
+**#23587 Helm value global.deployed renamed to global.published**
+
+The helm value `global.deployed` is renamed to `global.published`. This value now accurately reflects what it represents - wether or not the namespace runs on a published version of the meta model. 
+
+This value should be 'true' for green and blue namespaces, and 'false' for origin namespaces.
+
+The old value is deprecated in 10.20, and will be removed in 10.21.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
@@ -64,7 +77,85 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID b00313e4-7b2b-34d8-32cd-f16927ccb727 -->
+**#23588 Added new GX language features**
+
+## New JsonWebToken class
+
+A new class, **JsonWebToken**, has been introduced with the following functions and properties:
+
+**Type members**
+
+* **createFromToken(token)** 
+  - Creates an instance of JsonWebToken based on the string representation of a JSON Web Token (JWT).
+
+* **createToken(headerAsJsonString, claimsAsJsonString, signatureAlgorithm, privateKey, expandKeyFromEnvironment)**
+  - Creates an instance of *JsonWebToken* based on the specified claims and signing algoithm/key. The *headerAsJsonString* and the *claimsAsJsonString* parameter is a valid JSON format string containing the header and claims as defined by [RFC 7519](https://www.rfc-editor.org/rfc/rfc7519). The *headerAsJsonString* parameter may be null or an empty string if no additional header data is required by the specified signature algorithm. The *signatureAlgorithm* may be one of the following values: "HS256", "HS384", "HS512", "RS256", "RS384", "RS512", "ES256", "ES256K", "ES384", and "ES512". To keep the *privateKey* a secret the *expandKeyFromEnvironment* parameter should be set to *true* (default) indicating that the *privateKey* parameter contains an expression using environment variable(s) on the form *"%SOME_ENVIRONMENT_VARIABLE%"*; otherwise, *false*, to indicate that the vaule of *privateKey* is to be used directly. 
+
+  * **NOTE:** 
+
+    * Specifying the private key directly as a string value is strongly discouraged in a production environment. Please use a separate store for secrets (like Vault) and make the value available as an environment variable instead.
+    * The algorithms "HS256", "HS384", "HS512" (HMAC+SHA256/384/512) are *symmetric*, using a secret key for both signing and signature verification. Any string is accepted as signing key, but make sure that you provide a strong cryptographic key.
+
+    * The other algorithms, "RS256", "RS384", "RS512" (RSA) and "ES256", "ES256K", "ES384", "ES512" (ECDSA), are all asymmetric and accepts a **private key in PEM format** for signing and a **public key in PEM format** for signature verification. **For more information on the PEM format, see [here](https://www.howtouselinux.com/post/ssl-certificate-pem-file)**.
+
+**Instance members**
+
+* **verifyTokenSignature(publicKey, expandKeyFromEnvironment)** 
+  - Verifies the signature of a signed JSON Web Token (JWT) and returns a boolean value *true* or *false* to indicate the result. The *publicKey* and *expandKeyFromEnvironment* parameters are used like *privateKey* and *expandKeyFromEnvironment* above.
+
+* **toString()** 
+  - Returns the JsonWebToken instance as a JSON Web Token (JWT) string.
+
+* **headerAsJsonString** (property) 
+  - The header part of the JSON Web Token (JWT) formatted as a string on JSON format.
+
+* **claimsAsJsonString** (property) 
+  - The claims part of the JSON Web Token (JWT) formatted as a string on JSON format.
+
+* **signature** (property) 
+  - The signature part of the JSON Web Token (JWT) formatted as a Bsee64 URL endcoded string.
+
+## New CalendarTime functions
+
+JWT claims contain date and time using the **Unix time** format, specified as the number of seconds that have elapsed since the Unix epoch (excluding leap seconds). The Unix epoch is 00:00:00 UTC on 1 January 1970.
+
+To support interoperability with Genus two new functions have been added to *CalendarTime* to provide conversion between CalendarTime and Unix time.
+
+**Type member**
+
+* **fromUnixTime(unixTime, returnAsUtc)** 
+  - returns a *CalendarTime* instance based on the specified 64-bit integer "unixTime" parameter value. *returnAsUtc* is a boolean value of *true* if the returned *CalendarTime* value should be based on UTC or *false* if the value should be based on local time.
+
+**Instance member**
+
+* **toUnixTime(inputIsUtc)** 
+  - returns a 64-bit integer representing Unix time value based on a *CalendarTime* instance. *inputIsUtc* is a boolean value of *true* if the *CalendarTime* value is based on UTC or *false* if the *CalendarTime* value represents local time.
+
+<!--ID b0c672c9-9acd-4638-a622-87ef10cf80ff -->
+**#23590 Added new GX language features**
+
+Features introduced in order to support starting an app with custom query parameters which can be parsed and included in logic at startup.
+
+**Access to the browser URL** 
+
+*WebRuntime.browserURL(): URL*
+
+Returns a value of type URL.
+
+
+**Extract the value for a given query parameter in an URL**
+
+*<url-value>.queryParameterByName(<name: string>): string | null*
+
+Returns a string or null. Note that the name of the parameter is case sensitive.
+
+So, to extract the value for a query parameter for the current browser URL you can write
+
+*WebRuntime.browserURL().queryParameterByName(<a-name>)*
+
+If the url of your page is "https://example.com/?searchTerm=abc", *queryParameterByName("searchTerm")* would return the string "abc".
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
