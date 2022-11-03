@@ -23,6 +23,17 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 08ca042b-f997-aa94-52da-4b86bcb8d0bc -->
+**#23585 It is now possible to reference Genus Releases using only major.minor version**
+
+It is now possible to reference a Genus Release using only the major and minor part of the version number. As an example, it is now possible to say that you want to deploy version "10.19" of Genus, instead of specifying the whole version number; "10.19.0-beta.12".
+
+When using this shorthand reference, you the latest version of Genus that matches the major and minor number is used. This means that you will probably get a new version of Genus every time you deploy, which might come with breaking changes. Using this reference in a production environment is therefore **not** recommended. 
+
+**Always specify the entire version number when deploying to a production environment.**
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
@@ -42,7 +53,13 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID ae331595-3d97-8eed-d02a-6a32d7ec2a2b -->
+**#23584 Viewports uses the width of the area it is inserted into instead of width of web page**
+
+The behavior for viewports has been changed so that the size it relates to is the size of the area a Page or component is inserted into.
+
+If the Component or Page is inserted into a Dialog, Callout, Tab Control or Embedded Content, the width of this area will determine the breakpoint instead of the width of the web page. This may lead to unpredicted behavior in existing cases where different viewport breakpoints are already in use.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -81,6 +98,17 @@ New control created - Relation Chip. Used to create relation objects, as width t
 
 <!--ID c17e5f37-a2ee-4654-b554-6f91ec09977e -->
 **#23582 Dashboard: Actions can now be assigned Symbol and Screen Tip (Improved expressiveness and layout)**
+
+<!--ID 5c09ae98-8a97-468f-9703-c78b7eea6dfd -->
+**#23583 New Page Event: On Live Update**
+
+On Live Update is added as a Data Event in page. The event can be used to trigger specified action on live update messages, and has the possibility to be triggered for (1) all event types, or (2) a scoped set of the following events types: Created, Modified or Deleted. In addition, the involved data can be fetched using dynamic hooks in the Data Event setup in the Data Exchange filtering.
+
+An example usage of this may be a view page displaying your tasks, and when one of the entries is modified (by another user), a snackbar displays an information box saying that "Task 1 was updated, and is now in state Awaiting Review".
+
+Note: Modified messages contains the updated data object, not the data object in the page where it is triggered.
+
+Note 2: If you want to use this feature, remember to enable Live Update for the involved object class and enable "Subscribe to Live Update" for the data source in your module (but do consider the overhead live update message distribution puts on the system, use with care).
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
