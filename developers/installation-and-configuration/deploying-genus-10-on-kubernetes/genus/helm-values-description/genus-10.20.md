@@ -45,6 +45,7 @@ All microservices can be configured with the following common helm values.
 | genus-live-update-input-service                                  | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-mail-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-mail-service.maxRequestSizeInMegaBytes                     |  | "100" |
+| genus-mail-service.databaseCommandTimeoutSeconds                 | The timeout in seconds for database commands. Should not be set to lower than the default. Can be increased when necessary. | "30" |
 | genus-core-services                                              | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService                         | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService.coreMaxThreadCount      |  | "4" |
