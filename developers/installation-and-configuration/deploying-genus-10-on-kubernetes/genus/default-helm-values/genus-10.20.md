@@ -120,6 +120,7 @@ genus-mail-service:
       cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
+  databaseCommandTimeoutSeconds: "30"
     
 genus-wopi-service:
   enabled: false
