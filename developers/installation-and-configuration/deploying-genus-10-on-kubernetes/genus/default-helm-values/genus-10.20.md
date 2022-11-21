@@ -516,6 +516,7 @@ global:
   traceLogDebug: 'false'
   traceLogTiming: 'false'
   enableSentry: 'true'
+  enableDebugInformation: 'false'
   reportSensitiveBreadcrumbsToSentry: 'false'
   jwkFromPem: ''
   image:
