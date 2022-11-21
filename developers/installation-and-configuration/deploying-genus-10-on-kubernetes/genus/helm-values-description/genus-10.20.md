@@ -108,5 +108,6 @@ All microservices can be configured with the following common helm values.
 | global.timezone                                                  | Time zone specified for Linux containers   | "/usr/share/zoneinfo/Europe/Oslo" |
 | global.windowsTimeZone                                           | Time zone specified for Windows containers. For available time zone values use PowerShell command "Get-TimeZone -ListAvailable" | "W. Europe Standard Time" |
 | global.enableSentry                                              | Set this value to "false" to not send crash reports to Sentry | "true" |
+| global.enableDebugInformation                                    | Set this value to "true" to include debugging information that may contain security sensitive information. *Never* set this to "true" in production environments! | "false" |
 | global.reportSensitiveBreadcrumbsToSentry                        | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" |
 | global.ingress.ingressWildCardPathEnabled                        | Adds wildcard into all ingresses. This is used in ALB and AGIC.      | false
