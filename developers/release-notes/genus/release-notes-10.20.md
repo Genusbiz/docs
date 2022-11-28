@@ -73,7 +73,34 @@ Grid Layout fundementals: https://css-tricks.com/snippets/css/complete-guide-gri
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 4e44ddd6-04d4-e302-3a65-2ed0d6e53335 -->
+**#23592 Org chart: Sibling levels, styling, navigation and more**
+
+<p>Several features have been added to the organizational chart.</p>
+
+**Sibling levels**
+<p>The configurability of levels have improved. Each level must now define its parent level, thereby defining the order of levels. Two levels can have the same parent level and thus be combined at the same depth in the chart.</p>
+
+**Styling**
+<p>Border styling has been added to both control and distinct levels. The styling cascades, meaning that styling properties configured on the control can be overridden on levels independently.</p>
+
+**Navigation by pan, zoom, and keyboard**
+<p>The scroll bars have been replaced by panning, yielding a more natural way to navigate the chart. Zooming has been added.</p>
+<p>Panning and zooming are both available through keyboard navigation:<br>
+
+* Panning is done with arrow keys or "h", "j", "k", and "l".
+* Zooming is done with +/-.
+* Return to default zoom and position (upper left corner) is done with "Esc".
+* Return to default position is done with "c".<br>
+
+The "c" shortcut is prone to change, i.e. being reassigned to centering on the focused node. The reset to default will then get a different shortcut.
+
+A description of the ways it is possible to navigate the org chart could be necessary, but this is left to be modeled if desirable.
+</p>
+
+**Expression in title and description**
+<p>Naming and description can now be configured using exprssions.</p>
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -156,10 +183,32 @@ So, to extract the value for a query parameter for the current browser URL you c
 
 If the url of your page is "https://example.com/?searchTerm=abc", *queryParameterByName("searchTerm")* would return the string "abc".
 
+<!--ID 0712296a-5ee4-6b89-22ba-f35b92b62728 -->
+**#23594 Sorting Apps**
+
+It's now possible to the Apps on the start page by selection the Sort option on the Apps node in studio
+
+<!--ID df68913e-1ea5-a55c-9ae2-82cf052b5cb4 -->
+**#23595 General Files can now be downloaded using the Download File effect**
+
+An example usage may be a call to a Server Action to create a mail merge document in a General File, which is transfered out to the Client Action and then to be downloaded on the client.
+
+Tech note: The filedata is stored in blob storage, and is fetched directly to avoid/reduce use of the database.
+
+<!--ID aabf33de-b275-c91b-bdc7-09a0837ea9ac -->
+**#23596 Time Zone can now be assigned for a Data Mart Load Plan availability window**
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no resolved issues in this release.
+<!--ID c8136416-703d-4e26-67ce-cb81c76fe943 -->
+**#23593 Live Update Subscription is required in the module.**
+
+The live update subscription must now be turned on in the module to receive live update messages.
+Due to a previous error, we received Live Update messages on data sources even though this was not switched on in the Module.
+
+Some solutions that listen to Live Update messages may no longer receive them cause of this fix.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
 
