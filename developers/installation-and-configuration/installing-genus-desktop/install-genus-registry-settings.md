@@ -123,7 +123,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\xx.0\Common\Security\Trusted Protocols\All Applications\genusstudiolink:]
 
 # If "1" or "2" below is already in use, replace with any available unique numeric name.
-[HKEY_CURRENT_USER\Software\Policies\Google\Chrome\URLWhitelist]
+[HKEY_CURRENT_USER\Software\Policies\Google\Chrome\URLAllowlist]
 "1"="genuslink:*"
 "2"="genusstudiolink:*"
 
