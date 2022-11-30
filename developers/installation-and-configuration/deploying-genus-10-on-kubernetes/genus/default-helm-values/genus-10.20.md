@@ -508,6 +508,7 @@ global:
   k8sNamespaceType: ''
   namespaceName: ''
   deployed: ''
+  published: ''
   virtualDirectory: '--'
   dataSetURL: ''
   altDataSetURLs: []
