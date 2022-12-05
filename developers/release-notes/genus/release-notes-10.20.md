@@ -117,7 +117,7 @@ The effect supports three strategies for interracting with the map:
 <!--ID b00313e4-7b2b-34d8-32cd-f16927ccb727 -->
 **#23588 Added new GX language features**
 
-## New JsonWebToken class
+### New JsonWebToken class
 
 A new class, **JsonWebToken**, has been introduced with the following functions and properties:
 
@@ -153,7 +153,7 @@ A new class, **JsonWebToken**, has been introduced with the following functions 
 * **signature** (property) 
   - The signature part of the JSON Web Token (JWT) formatted as a Bsee64 URL endcoded string.
 
-## New CalendarTime functions
+### New CalendarTime functions
 
 JWT claims contain date and time using the **Unix time** format, specified as the number of seconds that have elapsed since the Unix epoch (excluding leap seconds). The Unix epoch is 00:00:00 UTC on 1 January 1970.
 
