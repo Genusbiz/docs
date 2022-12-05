@@ -198,6 +198,24 @@ Tech note: The filedata is stored in blob storage, and is fetched directly to av
 <!--ID aabf33de-b275-c91b-bdc7-09a0837ea9ac -->
 **#23596 Time Zone can now be assigned for a Data Mart Load Plan availability window**
 
+<!--ID c6bec097-0e5c-8415-6251-2d7c5671f78c -->
+**#23608 More options to initialize map**
+
+New configurations for initializing map has been added. These are the same strategies as for the pan and zoom effect also introduced in this released. See that release note entry for more information.
+
+The initialization will, in contrast to the effect, try to use as much as possible of the data to initialize correctly. I.e. if only two values in the bound is available, this will be interpreted as a coordinate. If all initialization values fail, the map still defaults to Blindern with zoom 14.
+
+<!--ID d01a35f1-ef93-2a11-9c75-2ed446970cbc -->
+**#23610 Internal pan and zoom in Organizational Chart**
+
+The Org Chart is now zoomable and pannable, both with mouse and keys.
+
+Keys:
+- **+**/**-** for zooming
+- **arrows** or **h**, **j** ,**k** ,**l** for panning
+- panning is reset to origin with **c**
+- pan and zoom is reset to origin with **esc**
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -208,6 +226,13 @@ The live update subscription must now be turned on in the module to receive live
 Due to a previous error, we received Live Update messages on data sources even though this was not switched on in the Module.
 
 Some solutions that listen to Live Update messages may no longer receive them cause of this fix.
+
+<!--ID ae5155bc-25b0-04df-c413-34083b769847 -->
+**#23609 Improved clustering in Layer Map**
+
+Markers in expanded clusters are now possible to click without collapsing.
+
+The distance between markers in expanded clusters have been increased to avoid overlapping markers.
 
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Known issues
