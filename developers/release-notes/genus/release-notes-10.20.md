@@ -101,6 +101,16 @@ A description of the ways it is possible to navigate the org chart could be nece
 **Expression in title and description**
 <p>Naming and description can now be configured using exprssions.</p>
 
+<!--ID 40e31128-23b7-db38-9096-edb79c439959 -->
+**#23607 New Pan and Zoom Effect**
+
+A pan and zoom effect has been added to On Activate on buttons and on event handlers.  The effect is not available On Navigate To Page, due to the map not being available when this event is run. Initial view of Layer Maps can be defined with configurations in the control.
+
+The effect supports three strategies for interracting with the map:
+1. Auto: Fits all the markers in the map into view. It is based on data and not the markers themselves, so the effect will work on new data even though the markers have not been rendered yet. 
+2. Coordinate and zoom: Displays the provided coordinates and zoom. If zoom is not provided, a default of 14 is used.  
+3. Bounds: Displays the view defined by four coordinates. The fields are provided as north, west, south and east, but if i.e. north and south are switched, their coordinates will still define a bounding box in latitude.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -198,6 +208,37 @@ Tech note: The filedata is stored in blob storage, and is fetched directly to av
 <!--ID aabf33de-b275-c91b-bdc7-09a0837ea9ac -->
 **#23596 Time Zone can now be assigned for a Data Mart Load Plan availability window**
 
+<!--ID 81dda9a9-9e02-1a2c-ad0f-4d355202e965 -->
+**#23598 Client action designer multi select**
+
+By holding ctrl while selecting a new effect node in a client action designer tree, you can now select more than one node. Ctrl-pressing an previously selected node will unselect it. 
+
+Multi select is relevant for highlighting several nodes at once, grouping nodes together and for deleting more than one node at once.
+
+<!--ID f27ae635-ba19-382a-2ddb-a4961c9e6648 -->
+**#23599 Improved "esc" key shortcut in client action designer**
+
+Previously when pressing the "esc" key in the client action designer tree, it would just unselect the selected node. Pressing "esc" now will select the nearest parent node to the selected node, similarly to pressing "esc" in the page designer.
+
+If multiple nodes are selected, the selection will be cleared
+
+<!--ID 104488d4-0099-24fa-95d3-8e26dfd7ca4e -->
+**#23600 Added while nodes to client action**
+
+In the list of block nodes in the client action designer, you can now choose a while node. A while node acts like a while loop and expects child nodes within it. In the while node edit panel, one enters a boolean expression. The while node will evaluate the expression, and if it evaluates to "true" the child nodes will be sequentially executed. After all child nodes are executed, it will evaluate the expression once more and repeat untill the expression evaluates to false.
+
+Break and continue nodes are supported. If a break node is executed within a while node, the execution will break out of the loop. If a continue node is executed, the remaining child nodes will not be executed, and a new loop cycle will start.
+
+<!--ID 967bf7e3-6a27-f44c-1846-81547ca72fbc -->
+**#23602 More varied cursor modes on Layer Map**
+
+The cursor on Layer Map is now a [pointer](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#:~:text=information%20is%20available.-,pointer,-The%20cursor%20is)  when On Location Click is defined, [move](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#:~:text=to%20be%20copied.-,move,-Something%20is%20to) symbol when panning map by dragging with the mouse and [grab](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#:~:text=be%20carried%20out.-,grab,-Something%20can%20be) when On Location Click is not defined (as previous default)
+
+<!--ID 728c84d2-385d-45b2-129c-22cf9cfcc8f4 -->
+**#23604 Callout on Layer Map markers**
+
+Callout has been added to  On Activate on markers in Layer Maps
+
 <!--ID c6bec097-0e5c-8415-6251-2d7c5671f78c -->
 **#23608 More options to initialize map**
 
@@ -226,6 +267,23 @@ The live update subscription must now be turned on in the module to receive live
 Due to a previous error, we received Live Update messages on data sources even though this was not switched on in the Module.
 
 Some solutions that listen to Live Update messages may no longer receive them cause of this fix.
+
+<!--ID b117d2e3-2ef8-b16c-3755-b60e3cfd930a -->
+**#23601 Fixed end scope effect node behaviour**
+
+The end scope effect node in the client action designer tree will now only end a sequence of node executions of it is within a scope node.
+
+<!--ID ad11676e-d50e-4ed1-ccad-610ab55bf249 -->
+**#23605 Corrected wrong marker colors**
+
+Fixes an error where colors on markers only resulted in default regardless of configurations.
+
+<!--ID 5a7fa8c2-983e-2357-71de-2f9116585431 -->
+**#23606 Correct position of map markers**
+
+Previously, map markers rendered so that the lower left corner of the bounding box of the markers were placed on the defined coordinates. This resulted in weird behaviours when zooming and placing markers.
+
+The coordinates now match the point of the marker.
 
 <!--ID ae5155bc-25b0-04df-c413-34083b769847 -->
 **#23609 Improved clustering in Layer Map**
