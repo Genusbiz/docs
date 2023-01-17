@@ -46,6 +46,10 @@ All microservices can be configured with the following common helm values.
 | genus-mail-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-mail-service.maxRequestSizeInMegaBytes                     |  | "100" |
 | genus-mail-service.databaseCommandTimeoutSeconds                 | The timeout in seconds for database commands. Should not be set to lower than the default. Can be increased when necessary. | "30" |
+| genus-core-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
+| genus-core-service.tolerations                                   | | {} |
+| genus-core-service.volumeMounts                                  | | {} |
+| genus-core-service.hostAliases                                   | Add extra host entries to /etc/hosts  | {} |
 | genus-core-services                                              | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService                         | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService.coreMaxThreadCount      |  | "4" |
@@ -59,6 +63,8 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.dataMartQueryService.readinessProbe.timeoutSeconds      |  | 5 |
 | genus-core-services.dataMartQueryService.readinessProbe.successThreshold    |  | 1 |
 | genus-core-services.dataMartQueryService.readinessProbe.failureThreshold    |  | 1 |
+| genus-core-services.dataMartQueryService.tolerations             |  | {} |
+| genus-core-services.dataMartQueryService.volumeMounts            |  | {} |
 | genus-core-services.megaService                                  | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.megaService.coreMaxThreadCount               |  | "4" |
 | genus-core-services.megaService.livenessProbe.initialDelaySeconds |  | 5 |
@@ -71,6 +77,8 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.megaService.readinessProbe.timeoutSeconds      |  | 5 |
 | genus-core-services.megaService.readinessProbe.successThreshold    |  | 1 |
 | genus-core-services.megaService.readinessProbe.failureThreshold    |  | 1 |
+| genus-core-services.megaService.tolerations    |  | {} |
+| genus-core-services.megaService.volumeMounts    |  | {} |
 | genus-core-services.desktopFrontend                              | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.responseCompression                          |  | "false" |
 | genus-core-services.requestCompression                           |  | "false" |
