@@ -47,9 +47,8 @@ All microservices can be configured with the following common helm values.
 | genus-mail-service.maxRequestSizeInMegaBytes                     |  | "100" |
 | genus-mail-service.databaseCommandTimeoutSeconds                 | The timeout in seconds for database commands. Should not be set to lower than the default. Can be increased when necessary. | "30" |
 | genus-core-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
-| genus-core-service.tolerations                                   | See https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#concepts for example | {} |
+| genus-core-service.tolerations                                   | Overrides global.tolerations | {} |
 | genus-core-service.volumeMounts                                  | See https://kubernetes.io/docs/concepts/storage/volumes/#hostpath-configuration-example for example | {} |
-| genus-core-service.hostAliases                                   | Add extra host entries to /etc/hosts. See https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/#adding-additional-entries-with-hostaliases for example | {} |
 | genus-core-services                                              | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService                         | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService.coreMaxThreadCount      |  | "4" |
@@ -63,8 +62,8 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.dataMartQueryService.readinessProbe.timeoutSeconds      |  | 5 |
 | genus-core-services.dataMartQueryService.readinessProbe.successThreshold    |  | 1 |
 | genus-core-services.dataMartQueryService.readinessProbe.failureThreshold    |  | 1 |
-| genus-core-services.dataMartQueryService.tolerations             |  | {} |
-| genus-core-services.dataMartQueryService.volumeMounts            |  | {} |
+| genus-core-services.dataMartQueryService.tolerations             | Overrides global.tolerations | {} |
+| genus-core-services.dataMartQueryService.volumeMounts            | See https://kubernetes.io/docs/concepts/storage/volumes/#hostpath-configuration-example for example | {} |
 | genus-core-services.megaService                                  | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.megaService.coreMaxThreadCount               |  | "4" |
 | genus-core-services.megaService.livenessProbe.initialDelaySeconds |  | 5 |
@@ -77,8 +76,8 @@ All microservices can be configured with the following common helm values.
 | genus-core-services.megaService.readinessProbe.timeoutSeconds      |  | 5 |
 | genus-core-services.megaService.readinessProbe.successThreshold    |  | 1 |
 | genus-core-services.megaService.readinessProbe.failureThreshold    |  | 1 |
-| genus-core-services.megaService.tolerations    |  | {} |
-| genus-core-services.megaService.volumeMounts    |  | {} |
+| genus-core-services.megaService.tolerations                      | Overrides global.tolerations | {} |
+| genus-core-services.megaService.volumeMounts                     | See https://kubernetes.io/docs/concepts/storage/volumes/#hostpath-configuration-example for example | {} |
 | genus-core-services.desktopFrontend                              | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.responseCompression                          |  | "false" |
 | genus-core-services.requestCompression                           |  | "false" |
@@ -119,3 +118,5 @@ All microservices can be configured with the following common helm values.
 | global.enableDebugInformation                                    | Set this value to "true" to include debugging information that may contain security sensitive information. *Never* set this to "true" in production environments! | "false" |
 | global.reportSensitiveBreadcrumbsToSentry                        | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" |
 | global.ingress.ingressWildCardPathEnabled                        | Adds wildcard into all ingresses. This is used in ALB and AGIC.      | false
+| global.hostAliases                                               | Add extra host entries to /etc/hosts. See https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/#adding-additional-entries-with-hostaliases for example | {} |
+| global.tolerations                                               | See https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#concepts for example | {} |
