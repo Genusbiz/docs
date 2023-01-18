@@ -47,9 +47,9 @@ All microservices can be configured with the following common helm values.
 | genus-mail-service.maxRequestSizeInMegaBytes                     |  | "100" |
 | genus-mail-service.databaseCommandTimeoutSeconds                 | The timeout in seconds for database commands. Should not be set to lower than the default. Can be increased when necessary. | "30" |
 | genus-core-service                                               | *See [Microservice helm values](#microservice-helm-values)* |  |
-| genus-core-service.tolerations                                   | | {} |
-| genus-core-service.volumeMounts                                  | | {} |
-| genus-core-service.hostAliases                                   | Add extra host entries to /etc/hosts  | {} |
+| genus-core-service.tolerations                                   | See https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#concepts for example | {} |
+| genus-core-service.volumeMounts                                  | See https://kubernetes.io/docs/concepts/storage/volumes/#hostpath-configuration-example for example | {} |
+| genus-core-service.hostAliases                                   | Add extra host entries to /etc/hosts. See https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/#adding-additional-entries-with-hostaliases for example | {} |
 | genus-core-services                                              | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService                         | *See [Microservice helm values](#microservice-helm-values)* |  |
 | genus-core-services.dataMartQueryService.coreMaxThreadCount      |  | "4" |
