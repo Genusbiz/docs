@@ -1,10 +1,10 @@
 ---
-title: Release notes for Genus 10.21.
-description: User-visible changes to Genus from release 10.20 to 10.21.
+title: Release notes for Genus 10.22.
+description: User-visible changes to Genus from release 10.21 to 10.22.
 author: jtroset
 ---
 
-# Release notes for Genus 10.21
+# Release notes for Genus 10.22
 
 ## Introduction
 
