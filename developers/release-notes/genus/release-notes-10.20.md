@@ -208,6 +208,17 @@ Tech note: The filedata is stored in blob storage, and is fetched directly to av
 <!--ID aabf33de-b275-c91b-bdc7-09a0837ea9ac -->
 **#23596 Time Zone can now be assigned for a Data Mart Load Plan availability window**
 
+<!--ID 704b1d3f-6dc0-155a-7f34-f79a691cb639 -->
+**#23597 Client Action Effect grouping and ungrouping**
+
+When selecting one or more effect nodes in a client action designer tree, if the selected nodes are adjacent sibling nodes (same parent and with no non-selected nodes in between the selected ones), you can right click and in the context menu find the option to group the node(s) into a decision or a scope block. This shortcut will place the selected nodes within a new parent node: either a scope or a then-node connected to a decision node. 
+
+By right clicking a decision or a scope node with at least 1 child node, you can also chose the ungroup option in the context menu which performs the opposite effect.
+
+Note that the selection of nodes to be grouped or ungrouped has to be of only valid nodes (not else-if, case, else, etc.)
+
+The functionality is similar to the equivalent one in the page designer.
+
 <!--ID 81dda9a9-9e02-1a2c-ad0f-4d355202e965 -->
 **#23598 Client action designer multi select**
 
