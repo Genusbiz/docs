@@ -56,7 +56,16 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID 2865a886-f9c7-a5bb-59a8-9858df1ff030 -->
+**#23619 Added shift select**
+
+Hold shift while selecting a sibling client action effect to select it together with all sibling effects in between it and the originally selected effect.
+
+<!--ID cc443132-8241-452c-7e29-22629db4b17b -->
+**#23620 Added more fine-grained ungroup functionality to decision effects**
+
+If a decision effect is ungrouped, all grandchildren (children og then, else-if and else effects) will be ungrouped. If a then, else-if or an else-effect is ungrouped, only the children of that effect will be ungrouped.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
