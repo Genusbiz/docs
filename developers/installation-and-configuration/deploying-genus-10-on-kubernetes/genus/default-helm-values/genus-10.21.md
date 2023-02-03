@@ -140,7 +140,7 @@ genus-wopi-service:
     scrapeInterval: 30s
 
 redis:
-  fullnameOverride: redis-sentinel
+  nameOverride: redis-sentinel
   architecture: "replication"
   commonLabels:
     app.kubernetes.io/part-of: genus
@@ -505,8 +505,9 @@ global:
   nodeEnviroment: production
   customer: ''
   modelIdentifier: ''
-  k8sNamespaceType: ''
+  environmentType: ''
   namespaceName: ''
+  k8sRuntime: ''
   deployed: ''
   published: ''
   virtualDirectory: '--'
