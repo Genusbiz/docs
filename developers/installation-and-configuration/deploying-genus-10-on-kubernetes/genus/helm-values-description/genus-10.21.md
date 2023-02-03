@@ -106,8 +106,9 @@ All microservices can be configured with the following common helm values.
 | global.jobs.verifyModel.enabled								   | Wether or not to run the verifyModel job after deploying Genus | false |
 | global.customer                                                  | The name of the customer who owns the environment | "" |
 | global.modelIdentifier                                           | The identifing name of the model. The name shared by all namespaces working together | "" |
+| global.k8sRuntime                                      | The name provided when deploying the Genus chart. Used to group different instances of Genus running in the same namespace  | "" |
 | global.namespaceName                                             | The name of the namespace where the chart is deployed to. Used for validation when deploying | "" |
-| global.k8sNamespaceType                                          | Possible values are "origin", "green", "blue" or "operator" | "" |
+| global.environmentType                                          | Possible values are "origin", "green", "blue" or "operator" | "" |
 | global.deployed                                                  | Wether or not the namespace is running in a deployed state. Possible values are "true" or "false".  | "" |
 | global.virtualDirectory                                          |  | "--" |
 | global.dnsSuffix                                                 | The part of the URL that follows the host name. I.E: If the environment runs on app.example.com, dnsSuffix is "example.com"  | "" |
