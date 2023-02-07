@@ -207,7 +207,7 @@ genus-help-docs-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -226,7 +226,7 @@ genus-web-frontend:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -347,7 +347,7 @@ genus-internationalization-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m  
@@ -364,7 +364,7 @@ genus-webcal-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -450,7 +450,7 @@ genus-core-services:
     resources:
       requests:
         memory: 25Mi
-        cpu: 1m
+        cpu: 10m
       limits:
         memory: 100Mi
         cpu: 100m
