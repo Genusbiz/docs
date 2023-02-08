@@ -274,6 +274,8 @@
         - name: Effects
           href: defining-an-app-model/logic/action-orchestration/actions/effects/index.md
           items:
+          - name: Combine Documents
+            href: defining-an-app-model/logic/action-orchestration/actions/effects/combine-documents.md
           - name: Consume a REST Service
             href: defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-rest-service.md
           - name: Consume a WEB Service
@@ -298,8 +300,6 @@
             href: defining-an-app-model/logic/action-orchestration/actions/effects/invoke-a-file.md
           - name: Merge Data to a Document
             href: defining-an-app-model/logic/action-orchestration/actions/effects/merge-data-to-a-document.md
-          - name: Combine Documents
-            href: defining-an-app-model/logic/action-orchestration/actions/effects/combine-documents.md
           - name: Modify a User Account
             href: defining-an-app-model/logic/action-orchestration/actions/effects/modify-a-user-account.md
           - name: Open a Form
