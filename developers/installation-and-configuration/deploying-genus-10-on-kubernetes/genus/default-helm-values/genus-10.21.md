@@ -470,6 +470,10 @@ genus-core-services:
 
 
 global:
+  contentSecurityPolicy:
+    frameSrc: ""    
+    objectSrc: ""
+    imageSrc: ""
   networkPolicy:
     enabled: false
     loadBalancer:
