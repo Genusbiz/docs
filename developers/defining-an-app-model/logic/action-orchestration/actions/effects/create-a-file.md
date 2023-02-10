@@ -4,18 +4,26 @@ Use this effect to create a new file in a data source. The data source used is o
 
 The supported file types are:
 
-*   Microsoft Office Word Document (*.docx)
-*   Microsoft Office Word Macro-Enabled Document (*.docm)
-*   Microsoft Office Word 97-2003 Document (*.doc)
-*   Microsoft Office Excel Worksheet (*.xlsx)
-*   Microsoft Office Excel Macro-Enabled Worksheet (*.xlsm)
-*   Microsoft Office Excel 97-2003 Worksheet (*.xls)
-*   Microsoft Office PowerPoint Presentation (*.pptx)
-*   Microsoft Office PowerPoint Macro-Enabled Presentation (*.pptm)
-*   Microsoft Office PowerPoint 97-2003 Presentation (*.ppt)
-*   Microsoft Office Project Document (*.mpp)
+*   Microsoft Word Document (*.docx)
+*   Microsoft Word Macro-Enabled Document (*.docm)
+*   Microsoft Word 97-2003 Document (*.doc)
+*   Microsoft Excel Worksheet (*.xlsx)
+*   Microsoft Excel Macro-Enabled Worksheet (*.xlsm)
+*   Microsoft Excel 97-2003 Worksheet (*.xls)
+*   Microsoft PowerPoint Presentation (*.pptx)
+*   Microsoft PowerPoint Macro-Enabled Presentation (*.pptm)
+*   Microsoft PowerPoint 97-2003 Presentation (*.ppt)
+*   Microsoft Project Document (*.mpp)
 
-To create a file do the following:
+## To create a file do the following (Client Action):
+
+1.  In the **Name** box, optionally enter a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
+2.  In the **Data Set** box, select a data set. Only data sources of type **General File** is available.
+3.  In the **File Type** box, select the file type from the choices listed above.
+4.  In the **File Name** box type the name of the file, without extension.
+
+
+## To create a file do the following (Server Action):
 
 1.  In the **Name** box, optionally enter a name. The name is displayed in the action tree, if a name is not entered, a summary of the effect is displayed.
 2.  In the **Description** box, optionally enter a description.
