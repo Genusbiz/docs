@@ -1,4 +1,4 @@
-# Combine documents
+# Combine Documents
 Combines two or more documents into a single document. The output document can be saved as a PDF document or a Word document.
 
 The documents which are combined can be stored in different file formats. During the combine operation documents are converted to the selected output format. For example, you can combine a Word document, text document, and a picture, and save the result as a PDF document. Note that some conversions have limitations. For example, there is no easy one-to-one match between features of HTML and Microsoft Word documents. There are no headers/footers, sections, fields and tabs in HTML. Conversely, not all CSS attributes and rules can be mapped to a Microsoft Word document.
@@ -11,6 +11,8 @@ The documents which are combined can be stored in different file formats. During
 * Microsoft Word Document (*.docx)
 * Microsoft Excel Workbook 97-2003 (*.xls)
 * Microsoft Excel Workbook (*.xlsx)
+* Microsoft PowerPoint Presentation (*.pptx)
+* Microsoft PowerPoint 97-2003 Presentation (*.ppt)
 * Rich Text Format (*.rtf)
 * Text Document (*.txt)
 * HyperText Markup Language (*.html)
