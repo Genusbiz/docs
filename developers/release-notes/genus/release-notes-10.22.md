@@ -60,7 +60,44 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID 25b452f7-45d7-889c-b6ad-3f6d336d21a2 -->
+**#23624 New Client Action Effect: Merge Data To a Document**
+
+<b>Merge Data To a Document</b> is added as a new Client Action effect. The effect allows documents to be produced on the client using the File Utility Service directly, reducing the need for server roundtrips and transfering of file blobs to and from the server.
+<br><br>
+
+Excerpt from the Genus documentation:
+
+*Merging data is the process of producing one or more (and potentially large number of) documents from a template and a data source.*
+
+*The merge effect allows you to merge data to a Microsoft Word document or a Microsoft Excel workbook.*
+
+
+*Merged documents may be saved in various formats, like variants of the native Microsoft Word and Microsoft Excel formats, but also formats like Adobe Portable Document Format (pdf), Html, Open Document and more.*
+
+<!--ID caa3725e-a416-8337-6828-5b6617feed44 -->
+**#23625 New Client Action Effect: Combine Documents**
+
+<b>Combine Documents</b> is added as a new Client Action effect. The effect allows documents to be combined on the client using the File Utility Service directly, reducing the need for server roundtrips and transfering of file blobs to and from the server.
+<br><br>
+
+Excerpt from the Genus documentation:
+
+*Combines two or more documents into a single document. The output document can be saved as a PDF document or a Word document.*
+
+<!--ID 52a33d07-5e5d-f3bf-fef6-cf8a2419c085 -->
+**#23626 New Client Action Effect: Create a File**
+
+<b>Create a File</b> is added as a new Client Action effect. The effect allows files to be created on the client using the File Utility Service directly, reducing the need for server roundtrips and transfering of file blobs to and from the server.
+
+<!--ID 70ac2a4d-670e-62d1-672f-07c61567882a -->
+**#23627 General File can be assigned in the Open File effect, allowing files to be opened inline in browser**
+
+<!--ID b0a9d131-e8a9-4902-8ab2-6b080427fe41 -->
+**#23628 Preview of MS Office documents on web**
+
+Support for previewing MS Office documents added to the File Preview control (Excel, Word, and Power Point).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
