@@ -284,6 +284,15 @@ Some solutions that listen to Live Update messages may no longer receive them ca
 
 The end scope effect node in the client action designer tree will now only end a sequence of node executions of it is within a scope node.
 
+<!--ID 3d8a9e0b-cc69-3a2b-faaf-805e019040c3 -->
+**#23603 Correct wrong in positioning of Org Chart**
+
+Fixes an issue where async arrival of initial data resulted in the latest data not being rendered before a new change was made to the organizational chart.
+
+The initial animation will now be interrupted and change direction if new data arrives during the initial animation.
+
+To avoid artificats like this during initial loading, hide the org chart until all data is ready to be displayed.
+
 <!--ID ad11676e-d50e-4ed1-ccad-610ab55bf249 -->
 **#23605 Corrected wrong marker colors**
 
