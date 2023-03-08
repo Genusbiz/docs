@@ -48,7 +48,13 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID b88b617e-3815-6f60-84be-b771ac86e0c6 -->
+**#23622 Default filter on page and component**
+
+When a page or component is defined with default filter None, the page or component wil not show any data if you don't override the setting when the page or component is used. 
+
+Before 10.21 we assumed that this setting was wrong when mandatory filter where set and converted the filter to all objects.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
