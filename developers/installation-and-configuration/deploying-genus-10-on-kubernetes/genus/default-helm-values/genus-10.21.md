@@ -198,7 +198,7 @@ redis:
         enabled: false
 
 genus-help-docs-service:
-  enabled: true
+  enabled: false
   replicaCount: 1
   restartWithModelPublish: "false"
   affinityScheduling: 
