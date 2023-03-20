@@ -50,7 +50,7 @@ genus-key-value-store-service:
   serviceMonitor:
     scrapeInterval: 30s
 
-genus-message-queue-service:
+genus-redis-io-service:
   enabled: true
   replicaCount: 1
   restartWithModelPublish: "false"
