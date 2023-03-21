@@ -67,6 +67,23 @@ genus-redis-io-service:
   serviceMonitor:
     scrapeInterval: 30s
 
+genus-ibm-mq-io-service:
+  enabled: false
+  replicaCount: 1
+  restartWithModelPublish: "false"
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 50Mi
+      cpu: 10m
+    limits:
+      memory: 500Mi
+      cpu: 200m
+  serviceMonitor:
+    scrapeInterval: 30s
+
 genus-file-utility-service:
   enabled: true
   replicaCount: 1
