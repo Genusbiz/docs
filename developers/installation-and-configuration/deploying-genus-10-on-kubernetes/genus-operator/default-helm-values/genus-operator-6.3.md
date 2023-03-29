@@ -6,7 +6,7 @@ global:
   clusterName: ""
   subDomain: ""
   k8sNamespaceType: "operator"
-  timezone: ""
+  timezone: "Europe/Oslo"
   enableSentry: "true"
   customer: ""
   dnsSuffix: ""
