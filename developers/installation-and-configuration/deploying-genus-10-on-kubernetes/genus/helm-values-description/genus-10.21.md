@@ -48,50 +48,38 @@ All microservices can be configured with the following common helm values.
 | genus-mail-service.maxRequestSizeInMegaBytes | | "100" |
 | genus-mail-service.databaseCommandTimeoutSeconds | The timeout in seconds for database commands. Should not be set to lower than the default. Can be increased when necessary. | "30" |
 | genus-core-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-core-service.enabled | Set to true to use the new core-service. If true, genus-mega-service.enabled must be set to false  | false |
 | genus-core-service.tolerations | Overrides global.tolerations | {} |
 | genus-core-service.volumeMounts | See https://kubernetes.io/docs/concepts/storage/volumes/#hostpath-configuration-example for example | {} |
-| genus-core-services | _See [Microservice helm values](#microservice-helm-values)_ | |
-| genus-core-services.dataMartQueryService | _See [Microservice helm values](#microservice-helm-values)_ | |
-| genus-core-services.dataMartQueryService.coreMaxThreadCount | | "4" |
-| genus-core-services.dataMartQueryService.livenessProbe.initialDelaySeconds | | 5 |
-| genus-core-services.dataMartQueryService.livenessProbe.periodSeconds | | 5 |
-| genus-core-services.dataMartQueryService.livenessProbe.timeoutSeconds | | 10 |
-| genus-core-services.dataMartQueryService.livenessProbe.successThreshold | | 1 |
-| genus-core-services.dataMartQueryService.livenessProbe.failureThreshold | | 1 |
-| genus-core-services.dataMartQueryService.readinessProbe.initialDelaySeconds | | 20 |
-| genus-core-services.dataMartQueryService.readinessProbe.periodSeconds | | 15 |
-| genus-core-services.dataMartQueryService.readinessProbe.timeoutSeconds | | 5 |
-| genus-core-services.dataMartQueryService.readinessProbe.successThreshold | | 1 |
-| genus-core-services.dataMartQueryService.readinessProbe.failureThreshold | | 1 |
-| genus-core-services.dataMartQueryService.tolerations | Overrides global.tolerations | {} |
-| genus-core-services.dataMartQueryService.volumeMounts | See https://kubernetes.io/docs/concepts/storage/volumes/#hostpath-configuration-example for example | {} |
-| genus-core-services.megaService | _See [Microservice helm values](#microservice-helm-values)_ | |
-| genus-core-services.megaService.coreMaxThreadCount | | "4" |
-| genus-core-services.megaService.livenessProbe.initialDelaySeconds | | 5 |
-| genus-core-services.megaService.livenessProbe.periodSeconds | | 5 |
-| genus-core-services.megaService.livenessProbe.timeoutSeconds | | 10 |
-| genus-core-services.megaService.livenessProbe.successThreshold | | 1 |
-| genus-core-services.megaService.livenessProbe.failureThreshold | | 1 |
-| genus-core-services.megaService.readinessProbe.initialDelaySeconds | | 20 |
-| genus-core-services.megaService.readinessProbe.periodSeconds | | 15 |
-| genus-core-services.megaService.readinessProbe.timeoutSeconds | | 5 |
-| genus-core-services.megaService.readinessProbe.successThreshold | | 1 |
-| genus-core-services.megaService.readinessProbe.failureThreshold | | 1 |
-| genus-core-services.megaService.tolerations | Overrides global.tolerations | {} |
-| genus-core-services.megaService.volumeMounts | See https://kubernetes.io/docs/concepts/storage/volumes/#hostpath-configuration-example for example | {} |
-| genus-core-services.desktopFrontend | _See [Microservice helm values](#microservice-helm-values)_ | |
-| genus-core-services.responseCompression | | "false" |
-| genus-core-services.requestCompression | | "false" |
-| genus-core-services.winlogbeat.enabled | Set to true to use winlogbeat to ship the windows event log | false |
-| genus-core-services.filebeat.enabled | Set to true to use filebeat to ship the IIS access log | false |
-| genus-core-services.fluentd.enabled | Set to true to use fluentd to ship the windows event log | false |
-| genus-core-services.elasticsearch | These values are only used when either winlogbeat or filebeat is enabled | |
-| genus-core-services.elasticsearch.username | The username for the Elasticsearch user | "" |
-| genus-core-services.elasticsearch.password | The password for the Elasticsearch user | "" |
-| genus-core-services.elasticsearch.hosts | The host(s) for the Elasticsearch endpoint(s). Example: ["https://elastic.example.com:9299"] | [] |
-| genus-core-services.elasticsearch.cloudId | Cloud ID if using elasticcloud | "" |
-| genus-core-services.elasticsearch.cloudAuth | Cloud auth if using elasticcloud | "" |
-| genus-core-services.elasticsearch.kibanaHost | The host for the Kibana endpoint | "" |
+| genus-core-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-mq-subscriber-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-mq-subscriber-service.autoScaling | | |
+| genus-mq-subscriber-service.autoScaling.enabled | Enable to use horizontal pod autoscaling. | false |
+| genus-mq-subscriber-service.autoScaling.minReplicas | The minimum number of replicas to use when autoscaling | 1 |
+| genus-mq-subscriber-service.autoScaling.maxReplicas | The maximum number of replicas to use when autoscaling | 2 |
+| genus-mq-subscriber-service.autoScaling.targetCPUUtilizationPercentage | The target cpu utilization for each pod when autoscaling | 40 |
+| genus-scheduled-action-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-scheduled-action-service.autoScaling | | |
+| genus-scheduled-action-service.autoScaling.enabled | Enable to use horizontal pod autoscaling. | false |
+| genus-scheduled-action-service.autoScaling.minReplicas | The minimum number of replicas to use when autoscaling | 1 |
+| genus-scheduled-action-service.autoScaling.maxReplicas | The maximum number of replicas to use when autoscaling | 2 |
+| genus-scheduled-action-service.autoScaling.targetCPUUtilizationPercentage | The target cpu utilization for each pod when autoscaling | 40 |
+| genus-data-mart-query-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-mega-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-mega-service.enabled | Set to false if genus-core-service.enabled is true | true |
+| genus-mega-service.responseCompression | | "false" |
+| genus-mega-service.requestCompression | | "false" |
+| genus-mega-service.winlogbeat.enabled | Set to true to use winlogbeat to ship the windows event log | false |
+| genus-mega-service.filebeat.enabled | Set to true to use filebeat to ship the IIS access log | false |
+| genus-mega-service.fluentd.enabled | Set to true to use fluentd to ship the windows event log | false |
+| genus-mega-service.elasticsearch | These values are only used when either winlogbeat or filebeat is enabled | |
+| genus-mega-service.elasticsearch.username | The username for the Elasticsearch user | "" |
+| genus-mega-service.elasticsearch.password | The password for the Elasticsearch user | "" |
+| genus-mega-service.elasticsearch.hosts | The host(s) for the Elasticsearch endpoint(s). Example: ["https://elastic.example.com:9299"] | [] |
+| genus-mega-service.elasticsearch.cloudId | Cloud ID if using elasticcloud | "" |
+| genus-mega-service.elasticsearch.cloudAuth | Cloud auth if using elasticcloud | "" |
+| genus-mega-service.elasticsearch.kibanaHost | The host for the Kibana endpoint | "" |
+| genus-desktop-frontend | _See [Microservice helm values](#microservice-helm-values)_ | |
 | global | | |
 | global.database | | |
 | global.database.activeConnectionString | | "" |
@@ -110,7 +98,7 @@ All microservices can be configured with the following common helm values.
 | global.k8sRuntime | The name provided when deploying the Genus chart. Used to group different instances of Genus running in the same namespace | "" |
 | global.namespaceName | The name of the namespace where the chart is deployed to. Used for validation when deploying | "" |
 | global.environmentType | Possible values are "origin", "green", "blue" or "operator" | "" |
-| global.deployed | Wether or not the namespace is running in a deployed state. Possible values are "true" or "false". | "" |
+| global.published | Wether or not the namespace is running in a deployed state. Possible values are "true" or "false". | "" |
 | global.virtualDirectory | | "--" |
 | global.dnsSuffix | The part of the URL that follows the host name. I.E: If the environment runs on app.example.com, dnsSuffix is "example.com" | "" |
 | global.altDataSetURLs | | [] |
