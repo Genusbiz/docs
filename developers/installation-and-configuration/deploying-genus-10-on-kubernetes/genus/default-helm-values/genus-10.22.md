@@ -140,7 +140,7 @@ genus-wopi-service:
     scrapeInterval: 30s
 
 redis:
-  fullnameOverride: redis-sentinel
+  nameOverride: redis-sentinel
   architecture: "replication"
   commonLabels:
     app.kubernetes.io/part-of: genus
@@ -198,7 +198,7 @@ redis:
         enabled: false
 
 genus-help-docs-service:
-  enabled: true
+  enabled: false
   replicaCount: 1
   restartWithModelPublish: "false"
   affinityScheduling: 
@@ -207,7 +207,7 @@ genus-help-docs-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -226,7 +226,7 @@ genus-web-frontend:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -347,7 +347,7 @@ genus-internationalization-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m  
@@ -364,7 +364,7 @@ genus-webcal-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -450,7 +450,7 @@ genus-core-services:
     resources:
       requests:
         memory: 25Mi
-        cpu: 1m
+        cpu: 10m
       limits:
         memory: 100Mi
         cpu: 100m
@@ -470,6 +470,10 @@ genus-core-services:
 
 
 global:
+  contentSecurityPolicy:
+    frameSrc: ""    
+    objectSrc: ""
+    imageSrc: ""
   networkPolicy:
     enabled: false
     loadBalancer:
@@ -505,8 +509,9 @@ global:
   nodeEnviroment: production
   customer: ''
   modelIdentifier: ''
-  k8sNamespaceType: ''
+  environmentType: ''
   namespaceName: ''
+  k8sRuntime: ''
   deployed: ''
   published: ''
   virtualDirectory: '--'
