@@ -50,8 +50,25 @@ genus-key-value-store-service:
   serviceMonitor:
     scrapeInterval: 30s
 
-genus-message-queue-service:
+genus-redis-io-service:
   enabled: true
+  replicaCount: 1
+  restartWithModelPublish: "false"
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 50Mi
+      cpu: 10m
+    limits:
+      memory: 500Mi
+      cpu: 200m
+  serviceMonitor:
+    scrapeInterval: 30s
+
+genus-ibm-mq-io-service:
+  enabled: false
   replicaCount: 1
   restartWithModelPublish: "false"
   affinityScheduling: 
@@ -140,7 +157,7 @@ genus-wopi-service:
     scrapeInterval: 30s
 
 redis:
-  fullnameOverride: redis-sentinel
+  nameOverride: redis-sentinel
   architecture: "replication"
   commonLabels:
     app.kubernetes.io/part-of: genus
@@ -198,7 +215,7 @@ redis:
         enabled: false
 
 genus-help-docs-service:
-  enabled: true
+  enabled: false
   replicaCount: 1
   restartWithModelPublish: "false"
   affinityScheduling: 
@@ -207,7 +224,7 @@ genus-help-docs-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -226,7 +243,7 @@ genus-web-frontend:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -347,7 +364,7 @@ genus-internationalization-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m  
@@ -364,7 +381,7 @@ genus-webcal-service:
   resources:
     requests:
       memory: 25Mi
-      cpu: 1m
+      cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
@@ -402,58 +419,136 @@ genus-live-update-input-service:
     limits:
       memory: 500Mi
     cpu: 200m
-  
   serviceMonitor:
     scrapeInterval: 30s
   
-genus-core-services:
+genus-core-service:
+  enabled: false
+  serviceAlias: core-service
+  autoScaling:
+    enabled: false
+  replicaCount: 1
+  restartWithModelPublish: "true"
+  maxConcurrentModelInstances: 8
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+      cpu: 1000m
+  serviceMonitor:
+    scrapeInterval: 30s
+  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+  podDisruptionBudget:
+    enabled: false
+  onStartScript:
+    enabled: false
+
+genus-mq-subscriber-service:
   enabled: true
+  serviceAlias: mq-subscriber-service
+  autoScaling:
+    enabled: true
+    minReplicas: 1
+    maxReplicas: 2
+    targetCPUUtilizationPercentage: 40
+  maxConcurrentModelInstances: 8
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  restartWithModelPublish: "true"
+  podDisruptionBudget:
+    enabled: false
+  onStartScript:
+    enabled: false
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+      cpu: 1000m
+  serviceMonitor:
+    scrapeInterval: 30s
+  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+
+genus-scheduled-action-service:
+  enabled: true
+  serviceAlias: scheduled-action-service
+  autoScaling:
+    enabled: true
+    minReplicas: 1
+    maxReplicas: 2
+    targetCPUUtilizationPercentage: 40
+  maxConcurrentModelInstances: 8
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  restartWithModelPublish: "true"
+  podDisruptionBudget:
+    enabled: false
+  onStartScript:
+    enabled: false
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+      cpu: 1000m
+  serviceMonitor:
+    scrapeInterval: 30s
+  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+
+genus-data-mart-query-service:
+  enabled: true
+  serviceAlias: data-mart-query-service
+  replicaCount: 1
+  autoScaling:
+    enabled: false
+  coreMaxThreadCount: '4'
+  maxConcurrentModelInstances: 8
+  restartWithModelPublish: "true"
+  podDisruptionBudget:
+    enabled: false
+  onStartScript:
+    enabled: false
+  serviceMonitor:
+    scrapeInterval: 30s
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+      cpu: 1000m
+  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+
+genus-mega-service:
+  enabled: true
+  replicaCount: 1
+  coreMaxThreadCount: '4'
   restartWithModelPublish: "true"
   responseCompression: 'false'
-  genus-core-service:
-    restartWithModelPublish: "true"
-  dataMartQueryService:
-    replicaCount: 1
-    coreMaxThreadCount: '4'
-    serviceMonitor:
-      scrapeInterval: 30s
-    affinityScheduling: 
-      enabled: false
-      namespaceListForPodAntiAffinity: []
-    resources:
-      requests:
-        memory: 500Mi
-        cpu: 700m
-      limits:
-        memory: 4Gi
-        cpu: 1000m
-  megaService:
-    replicaCount: 1
-    coreMaxThreadCount: '4'
-    requestCompression: 'false'
-    serviceMonitor:
-      scrapeInterval: 30s
-    affinityScheduling: 
-      enabled: false
-      namespaceListForPodAntiAffinity: []
-    resources:
-      requests:
-        memory: 500Mi
-        cpu: 700m
-      limits:
-        memory: 4Gi
-        cpu: 1000m
-  desktopFrontend:
-    replicaCount: 1
-    serviceMonitor:
-      scrapeInterval: 30s
-    resources:
-      requests:
-        memory: 25Mi
-        cpu: 1m
-      limits:
-        memory: 100Mi
-        cpu: 100m
+  serviceMonitor:
+    scrapeInterval: 30s
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+      cpu: 1000m
   winlogbeat:
     enabled: false
   filebeat:
@@ -467,9 +562,42 @@ genus-core-services:
     cloudId: ''
     cloudAuth: ''
     kibanaHost: ''
+  sentryDSN: https://980e4eddb40d485c96fc3b656f5eee70@sentry.io/1447323
+
+genus-desktop-frontend:
+  enabled: true
+  replicaCount: 1
+  restartWithModelPublish: "false"
+  serviceMonitor:
+    scrapeInterval: 30s
+  resources:
+    requests:
+      memory: 25Mi
+      cpu: 10m
+    limits:
+      memory: 100Mi
+      cpu: 100m
+
+  
 
 
 global:
+   
+  enableSentry: "true"
+  enableSentryPerformance: "false"
+  disableTraceLog: "false"
+  ingress:
+    awsAlbControllerEnabled: false
+    ingressWildCardPathEnabled: false
+    tlsConfigEnabled: false
+  traceLog:
+    enabled: true
+    timing: false
+    debug: false
+  contentSecurityPolicy:
+    frameSrc: ""    
+    objectSrc: ""
+    imageSrc: ""
   networkPolicy:
     enabled: false
     loadBalancer:
@@ -489,6 +617,8 @@ global:
       egress: 
   jobs:
     verifyModel:
+      image:
+        repository: "genus.azurecr.io/genus/images/genus-meta-model-manager"
       enabled: false
       scriptOutput: "scriptOutput.sql"
       traceOutput: "traceOutput.txt"
@@ -505,8 +635,9 @@ global:
   nodeEnviroment: production
   customer: ''
   modelIdentifier: ''
-  k8sNamespaceType: ''
+  environmentType: ''
   namespaceName: ''
+  k8sRuntime: ''
   deployed: ''
   published: ''
   virtualDirectory: '--'
@@ -514,8 +645,6 @@ global:
   altDataSetURLs: []
   timezone: /usr/share/zoneinfo/Europe/Oslo
   windowsTimeZone: 'W. Europe Standard Time'
-  traceLogDebug: 'false'
-  traceLogTiming: 'false'
   enableSentry: 'true'
   enableDebugInformation: 'false'
   reportSensitiveBreadcrumbsToSentry: 'false'
@@ -523,5 +652,8 @@ global:
   image:
     tag: latest
     pullPolicy: Always
+  enableDesktopTransactionEncryption: false
+  responseCompression: false
+  requestCompression: false
 
 ```
