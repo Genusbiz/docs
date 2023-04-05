@@ -26,8 +26,7 @@ All microservices can be configured with the following common helm values.
 | genus-key-value-store-service     | _See [Microservice helm values](#microservice-helm-values)_ |         |
 | genus-file-utility-service        | _See [Microservice helm values](#microservice-helm-values)_ |         |
 | genus-wopi-service                | _See [Microservice helm values](#microservice-helm-values)_ |         |
-
-| redis
+| redis | | |
 | redis.replica.replicaCount | Number of slaves. The value should never be 2. Always 1 or >= 3 | 1 (No replication) |
 | genus-help-docs-service | _See [Microservice helm values](#microservice-helm-values)_ | |
 | genus-web-frontend | _See [Microservice helm values](#microservice-helm-values)_ | |
