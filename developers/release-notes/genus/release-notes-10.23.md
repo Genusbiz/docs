@@ -46,7 +46,19 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID c5326171-750e-f05d-cf4b-efadada22758 -->
+**#23630 Purpose built services for handling message queues and scheduled tasks (agents)**
+
+In 10.23 we are doing some changes to the genus-core-services-part of the genus runtime. This leads to some breaking changes in the helm-values used to configure a runtime. 
+
+Handling of message queues and scheduled tasks are being moved from the core-service (or mega-service) to their own services. This will make it easier to handle requests comming from web or rest, without being affected by heavy processing jobs being triggered by scheduled tasks (agents) or message queues. 
+
+This means that whereas before there might be a need for a seperate runtime to handle agents, these jobs will now run on their own service, and should not affect web or desktop users.
+
+To make these changes possible, we had to make some changes to the structure of the helm-charts, and how they are configured. Where before configuration for the mega-service and data-mart-query-service would be under "genus-core-services.megaService", it should now be under "genus-mega-service" directly on the root level of the config file. The same goes for the data-mart-query-service. 
+
+For a full description of how the value-files shoud look, see https://docs.genus.no/developers/installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.23.html
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
