@@ -582,7 +582,7 @@ genus-desktop-frontend:
 
 
 global:
-   
+  coreLinux: "false"
   enableSentry: "true"
   enableSentryPerformance: "false"
   disableTraceLog: "false"
