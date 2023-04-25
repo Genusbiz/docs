@@ -11,6 +11,9 @@ global:
   customer: ""
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: "true"
+  traceLog:
+    debug: false
+    timing: false
   phoneHome:
     enabled: "false"
     apiKey: ""
