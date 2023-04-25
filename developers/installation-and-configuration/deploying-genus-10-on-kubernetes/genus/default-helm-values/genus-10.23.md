@@ -586,6 +586,8 @@ global:
   enableSentry: "true"
   enableSentryPerformance: "false"
   disableTraceLog: "false"
+  featureFlags:
+    useScheduledActions: "false"
   ingress:
     awsAlbControllerEnabled: false
     ingressWildCardPathEnabled: false
