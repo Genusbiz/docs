@@ -33,6 +33,13 @@ Add the desired providers by selecting the provider type, set the display name a
   - _adfsTokenUrl_ should be  "https://adfs.example.com/adfs/oauth2/token/"
   - _adfsUserInfo_ should be  "https://adfs.example.com/adfs/userinfo"
   - _adfsCallbackUrl_ should be  "/-/auth/adfs/callback"
+- For __ID-Porten__:
+  - _idPortenIssuer_ should be "https://idporten.no"
+  - _idPortenAuthUrl_ should be "https://login.idporten.no/authorize"
+  - _idPortenTokenUrl_ should be "https://idporten.no/token"
+  - _idPortenUserInfo_ should be "https://idporten.no/userinfo"
+  - _idPortenAcrValues_ should be either "idporten-loa-substantial" or "idporten-loa-high". This indicates which [security level](https://eid.difi.no/en/security-and-privacy/different-levels-security) should be used.
+  - _idPortenCallbackUrl_ should be "/-/auth/idporten/callback"
 - __Genus Native__ has no extra config-settings
 - __Custom__ requires creating a file by Genus experts.
 
