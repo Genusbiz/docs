@@ -31,6 +31,8 @@ global:
     annotations: {}
     agicLetsEncryptEnabled: false
     ingressWildCardPathEnabled: false
+  rbac:
+    create: true
     
 genus-operator-frontend:
   replicaCount: 1
