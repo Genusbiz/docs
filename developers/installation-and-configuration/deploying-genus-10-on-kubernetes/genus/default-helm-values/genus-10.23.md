@@ -202,9 +202,6 @@ redis:
       kubernetes.io/os: linux
     persistence:
       enabled: false
-    podLabels:
-      app.kubernetes.io/part-of: genus
-      genus.no/restartWithModelPublish: "false"
   metrics:
     enabled: false
     serviceMonitor: 
