@@ -449,7 +449,7 @@ genus-mq-subscriber-service:
   enabled: true
   serviceAlias: mq-subscriber-service
   autoScaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 2
     targetCPUUtilizationPercentage: 40
@@ -477,7 +477,7 @@ genus-scheduled-action-service:
   enabled: true
   serviceAlias: scheduled-action-service
   autoScaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 2
     targetCPUUtilizationPercentage: 40
