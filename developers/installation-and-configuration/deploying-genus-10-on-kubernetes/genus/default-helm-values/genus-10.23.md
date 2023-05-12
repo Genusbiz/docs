@@ -162,6 +162,8 @@ redis:
   commonLabels:
     app.kubernetes.io/part-of: genus
     genus.no/restartWithModelPublish: "false"
+    genus.no/k8sRuntime: "{{ .Release.Name }}"
+    genus.no/environmentType: "{{ .Values.global.environmentType }}"
   auth:
     enabled: true
     existingSecret: "generic-redis"
