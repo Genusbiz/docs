@@ -8,11 +8,11 @@ Genus supports the following identity providers:
 - [Twitter](https://developer.twitter.com/en/docs/basics/developer-portal/guides/apps)
 - [Facebook](https://developers.facebook.com/)
 - [Github](https://github.com/settings/developers)
-- [Instagram](https://www.instagram.com/developer/authentication/)-->
+- [Instagram](https://www.instagram.com/developer/authentication/)
+- [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
+- [xID by BankID](https://www.bankid.no/bedrift/kom-i-gang/)-->
 - Active Directory Federation Services (a user for reading users is needed, contact the administrator)
 - [Azure Active Directory](https://portal.azure.com)
-- [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
-- [xID by BankID](https://www.bankid.no/bedrift/kom-i-gang/)
 - [ID-Porten](https://samarbeid.digdir.no/)
 - [AnsattPorten](https://samarbeid.digdir.no/)
 - __Genus Native__ (username/password) (Forms Authentication)
@@ -30,9 +30,11 @@ Add the desired providers by selecting the provider type, set the display name a
 - For __Active Directory FS__:
   - _adfsIssuer_ should be an url to the ADFS-server, i.e "https://adfs.example.com/adfs
   - _adfsAuthUrl_ should be "https://adfs.example.com/adfs/oauth2/authorize/"
-  - _adfsTokenUrl_ should be  "https://adfs.example.com/adfs/oauth2/token/"
-  - _adfsUserInfo_ should be  "https://adfs.example.com/adfs/userinfo"
-  - _adfsCallbackUrl_ should be  "/-/auth/adfs/callback"
+  - _adfsTokenUrl_ should be "https://adfs.example.com/adfs/oauth2/token/"
+  - _adfsUserInfo_ should be "https://adfs.example.com/adfs/userinfo"
+  - _adfsCallbackUrl_ should be "/-/auth/adfs/callback"
+  - _adfsPublicKey_ should be retrieved from https://adfs.example.com/adfs/discovery/keys, the "n" value
+  - _adfsExponent_ should be retrieved from https://adfs.example.com/adfs/discovery/keys, the "e" value
 - For __ID-Porten__:
   - _idPortenIssuer_ should be "https://idporten.no"
   - _idPortenAuthUrl_ should be "https://login.idporten.no/authorize"
