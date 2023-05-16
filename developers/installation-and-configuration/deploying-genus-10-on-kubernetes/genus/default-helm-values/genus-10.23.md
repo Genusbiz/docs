@@ -426,6 +426,9 @@ genus-core-service:
   serviceAlias: core-service
   autoScaling:
     enabled: false
+    minReplicas: 1
+    maxReplicas: 2
+    targetCPUUtilizationPercentage: 40
   replicaCount: 1
   restartWithModelPublish: "true"
   maxConcurrentModelInstances: 8
@@ -509,6 +512,9 @@ genus-data-mart-query-service:
   replicaCount: 1
   autoScaling:
     enabled: false
+    minReplicas: 1
+    maxReplicas: 2
+    targetCPUUtilizationPercentage: 40
   coreMaxThreadCount: '4'
   maxConcurrentModelInstances: 8
   restartWithModelPublish: "true"
