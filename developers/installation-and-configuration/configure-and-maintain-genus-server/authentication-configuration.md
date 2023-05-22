@@ -36,7 +36,7 @@ Add the desired providers by selecting the provider type, set the display name a
   - _adfsPublicKey_ should be retrieved from https://adfs.example.com/adfs/discovery/keys, the "n" value
   - _adfsExponent_ should be retrieved from https://adfs.example.com/adfs/discovery/keys, the "e" value
 - For __ID-Porten__:
-  - _idPortenIssuer_ should be "https://idporten.no/"
+  - _idPortenIssuer_ should be "https://idporten.no"
   - _idPortenAuthUrl_ should be "https://login.idporten.no/authorize"
   - _idPortenTokenUrl_ should be "https://idporten.no/token"
   - _idPortenUserInfo_ should be "https://idporten.no/userinfo"
