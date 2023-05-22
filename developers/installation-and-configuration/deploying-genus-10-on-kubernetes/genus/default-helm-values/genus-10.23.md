@@ -605,6 +605,10 @@ global:
     frameSrc: ""    
     objectSrc: ""
     imageSrc: ""
+    fontSrc: ""
+    styleSrc: ""
+    scriptSrc: ""
+    scriptSrcElem: ""
   networkPolicy:
     enabled: false
     loadBalancer:
