@@ -609,6 +609,7 @@ global:
     styleSrc: ""
     scriptSrc: ""
     scriptSrcElem: ""
+    frameAncestorsSrc: ""
   networkPolicy:
     enabled: false
     loadBalancer:
