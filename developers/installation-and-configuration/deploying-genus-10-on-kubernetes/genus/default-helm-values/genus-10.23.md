@@ -610,6 +610,7 @@ global:
     scriptSrc: ""
     scriptSrcElem: ""
     frameAncestorsSrc: ""
+    connectSrc: ""
   networkPolicy:
     enabled: false
     loadBalancer:
