@@ -42,22 +42,32 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID caab5952-5072-947f-67af-09b7cd38f082 -->
+**#23631 New default "Command Timeout" for all linux-rdbms-vendors**
+
+A default command timeout is introduced for all linux-rdbms-vendors.
+The new default is 30 seconds.
+Previous defaults could be vendor specific, even unlimited.
+**Command Timeout** can be specified as a parameter, in seconds, on a **Physical Database Connection**.
+Setting **Command Timeout** to a value <= 0 will result in no timeout.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID c5326171-750e-f05d-cf4b-efadada22758 -->
 **#23630 Purpose built services for handling message queues and scheduled tasks (agents)**
 
-In 10.23 we are doing some changes to the genus-core-services-part of the genus runtime. This leads to some breaking changes in the helm-values used to configure a runtime. 
+In 10.23 we are doing some changes to the genus-core-services-part of the Genus runtime. This leads to some breaking changes in the helm-values used to configure a runtime. 
 
-Handling of message queues and scheduled tasks are being moved from the core-service (or mega-service) to their own services. This will make it easier to handle requests comming from web or rest, without being affected by heavy processing jobs being triggered by scheduled tasks (agents) or message queues. 
+We are preparing for changing how the handling of message queues and scheduled actions are being done. This will be moved from the core-service (or mega-service) to their own services. This will make it easier to handle requests comming from web or rest, without being affected by heavy processing jobs being triggered by scheduled actions (agents) or message queues. 
 
 This means that whereas before there might be a need for a seperate runtime to handle agents, these jobs will now run on their own service, and should not affect web or desktop users.
 
 To make these changes possible, we had to make some changes to the structure of the helm-charts, and how they are configured. Where before configuration for the mega-service and data-mart-query-service would be under "genus-core-services.megaService", it should now be under "genus-mega-service" directly on the root level of the config file. The same goes for the data-mart-query-service. 
 
 For a full description of how the value-files shoud look, see https://docs.genus.no/developers/installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.23.html
+
+**While the value-files are updated in 10.23, the existing queue-functionaly will continue to work as before. The new message-queue and scheduled actions are available as experimental features in this version.**
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
