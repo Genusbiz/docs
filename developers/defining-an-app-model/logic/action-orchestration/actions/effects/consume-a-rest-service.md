@@ -41,7 +41,7 @@ Some REST services requires the request body to be defined in multipart/form for
 A Response Handler is used for handling the response from a call to a REST service. Use a condition to determine which responses that will be handled by each handler. The Response Handler is used to save the contents of the response into a data source.
 Based on the Content-Type of the body, the data in the response can be used to populate data sources of type XML, JSON, File, or import to a field in a data source.
 
-* For data of type JSON, a mapping is used to read the JSON dat into a data source besed on the rules in the mapping. It is possible to import only part of the JSON by entering a path from the root object.
+* For data of type JSON, a mapping is used to read the JSON data into a data source based on the rules in the mapping. It is possible to import only part of the JSON by entering a path from the root object.
 
 * For data of type XML, data will be read into the selected XML data source by using the schema for the data source, and it is also possible to perform an XML-validation on the data against the schema for the data source. It is also possible to enter an offset path using XPath syntax. 
 
