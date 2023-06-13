@@ -51,6 +51,18 @@ Previous defaults could be vendor specific, even unlimited.
 **Command Timeout** can be specified as a parameter, in seconds, on a **Physical Database Connection**.
 Setting **Command Timeout** to a value <= 0 will result in no timeout.
 
+<!--ID cb360a4b-36b8-a7e9-b836-f79c84271ec9 -->
+**#23633 New IdPorten config property**
+
+For identity provider IdPorten there is now a new required property: "idPortenEndsessionUrl"
+
+The value should be the "end_session_endpoint" found in the .well-known documentation for IdPorten:
+New IdPorten - test: https://test.idporten.no/.well-known/openid-configuration
+New IdPorten - prod: https://idporten.no/.well-known/openid-configuration
+
+Old IdPorten - test: https://oidc-ver2.difi.no/idporten-oidc-provider/.well-known/openid-configuration
+Old IdPorten - prod: https://oidc.difi.no/idporten-oidc-provider/.well-known/openid-configuration
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
