@@ -422,9 +422,8 @@ genus-live-update-input-service:
     scrapeInterval: 30s
   
 genus-core-service:
-  enabled: true
+  enabled: false
   serviceAlias: core-service
-  runOnWindows: false
   autoScaling:
     enabled: false
     minReplicas: 1
@@ -454,7 +453,6 @@ genus-core-service:
 genus-mq-subscriber-service:
   enabled: true
   serviceAlias: mq-subscriber-service
-  runOnWindows: false
   autoScaling:
     enabled: false
     minReplicas: 1
@@ -483,7 +481,6 @@ genus-mq-subscriber-service:
 genus-scheduled-action-service:
   enabled: true
   serviceAlias: scheduled-action-service
-  runOnWindows: false
   autoScaling:
     enabled: false
     minReplicas: 1
@@ -512,7 +509,6 @@ genus-scheduled-action-service:
 genus-data-mart-query-service:
   enabled: true
   serviceAlias: data-mart-query-service
-  runOnWindows: false
   replicaCount: 1
   autoScaling:
     enabled: false
@@ -540,6 +536,72 @@ genus-data-mart-query-service:
       cpu: 1000m
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
 
+genus-mega-service:
+  enabled: true
+  replicaCount: 1
+  coreMaxThreadCount: '4'
+  restartWithModelPublish: "true"
+  responseCompression: 'false'
+  serviceMonitor:
+    scrapeInterval: 30s
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+      cpu: 1000m
+  winlogbeat:
+    enabled: false
+  filebeat:
+    enabled: false
+  fluentd:
+    enabled: false
+  elasticsearch:
+    username: ''
+    password: ''
+    hosts: []
+    cloudId: ''
+    cloudAuth: ''
+    kibanaHost: ''
+  sentryDSN: https://980e4eddb40d485c96fc3b656f5eee70@sentry.io/1447323
+
+genus-legacy-data-mart-query-service:
+  enabled: false
+  replicaCount: 1
+  coreMaxThreadCount: '4'
+  restartWithModelPublish: "true"
+  responseCompression: 'false'
+  serviceMonitor:
+    scrapeInterval: 30s
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+      cpu: 1000m
+  winlogbeat:
+    enabled: false
+  filebeat:
+    enabled: false
+  fluentd:
+    enabled: false
+  elasticsearch:
+    username: ''
+    password: ''
+    hosts: []
+    cloudId: ''
+    cloudAuth: ''
+    kibanaHost: ''
+  sentryDSN: https://980e4eddb40d485c96fc3b656f5eee70@sentry.io/1447323
+  
 genus-desktop-frontend:
   enabled: true
   replicaCount: 1
@@ -553,6 +615,9 @@ genus-desktop-frontend:
     limits:
       memory: 100Mi
       cpu: 100m
+
+  
+
 
 global:
   coreLinux: "false"
