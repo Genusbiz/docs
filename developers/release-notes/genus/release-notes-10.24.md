@@ -42,7 +42,18 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 46c69a0c-8a29-f133-82c9-63d0a526d91a -->
+**#23634 Mega service is replaced by core-service**
+
+After 10.23, the mega-service is no more. It is replaced by the core-service, which runs on Linux as default. Please update your helm-value config files accordingly.
+
+If you wish to run the core-service on Windows, this can be done by setting the helm values like this:
+
+```
+genus-core-service:
+  runOnWindows: true
+```
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
