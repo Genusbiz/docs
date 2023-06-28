@@ -191,6 +191,9 @@ redis:
       kubernetes.io/os: linux
     persistence:
       enabled: false
+    extraEnvVars: 
+      - name: TZ
+        value: "{{ .Values.global.timeZone }}"
   replica:
     replicaCount: 1
     resources:
@@ -204,6 +207,9 @@ redis:
       kubernetes.io/os: linux
     persistence:
       enabled: false
+    extraEnvVars: 
+      - name: TZ
+        value: "{{ .Values.global.timeZone }}"
   metrics:
     enabled: false
     serviceMonitor: 
@@ -438,7 +444,7 @@ genus-core-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 500Mi
+      memory: 2Gi
       cpu: 700m
     limits:
       memory: 4Gi
@@ -627,8 +633,8 @@ global:
   virtualDirectory: '--'
   dataSetURL: ''
   altDataSetURLs: []
-  timezone: /usr/share/zoneinfo/Europe/Oslo
-  windowsTimeZone: 'W. Europe Standard Time'
+  timezone: Europe/Oslo
+  windowsTimezone: 'W. Europe Standard Time'
   enableSentry: 'true'
   enableDebugInformation: 'false'
   reportSensitiveBreadcrumbsToSentry: 'false'
@@ -636,8 +642,171 @@ global:
   image:
     tag: latest
     pullPolicy: Always
+  imagePullSecrets: 
+  - name: "genus-regcred-azure"
   enableDesktopTransactionEncryption: false
   responseCompression: false
   requestCompression: false
+
+  networking:
+    internalTLS: false
+    authenticationService:
+      main:
+        http: 3000
+        https: 9443
+    authorizationService:
+      main:
+        http: 4000
+        https: 9443
+    carddavService:
+      main:
+        http: 4000
+        https: 9443
+    coreService:
+      main:
+        http: 8181
+        https: 9443
+    dataMartQueryService:
+      main:
+        http: 8181
+        https: 9443
+    mqSubscriberService:
+      main:
+        http: 8181
+        https: 9443
+    scheduledActionService:
+      main:
+        http: 8181
+        https: 9443
+    desktopFrontend:
+      main:
+        http: 8080
+        https: 9443
+    megaService:
+      main:
+        http: 80
+        https: 9443
+    databaseDictionaryService:
+      main:
+        http: 8080
+        https: 9443
+    fileUtilityService:
+      main:
+        http: 8080
+        https: 9443
+    gatewayService:
+      main:
+        http: 3002
+        https: 9443
+      blocked:
+        http: 8404
+        http: 9404
+    helpDocsService:
+      main:
+        http: 8080
+        https: 9443
+    ibmMqIoService:
+      main:
+        http: 8094
+        https: 9443
+    internalTestingService:
+      main:
+        http: 8080
+        https: 9443
+    internationalizationService:
+      main:
+        http: 8080
+        https: 9443
+    keyValueStoreService:
+      main:
+        http: 8080
+        https: 9443
+    kubernetesOperatorService:
+      main:
+        http: 8080
+        https: 9443
+    liveUpdateInputService:
+      main:
+        http: 8099
+        https: 9443
+    mailService:
+      main:
+        http: 8080
+        https: 9443
+    messageQueueService:
+      main:
+        http: 8099
+        https: 9443
+    messageSubscriptionService:
+      external:
+        http: 8097
+        https: 9097
+      internal:
+        http: 8098
+        https: 9098
+    objectStorageService:
+      main:
+        http: 8080
+        https: 9443
+    operatorFrontend:
+      main:
+        http: 8080
+        https: 9443
+      metrics:
+        http: 9113
+        https: 9413
+      blocked:
+        http: 8404
+        http: 9404
+    redis:
+      main:
+        http: 6379
+        https: 9379
+      sentinel:
+        http: 26379
+        https: 9279
+    redisOperator:
+      main:
+        http: 6379
+        https: 9379
+      sentinel:
+        http: 26379
+        https: 9279
+    redisIoService:
+      main:
+        http: 8094
+        https: 9443
+    traceInputService:
+      main:
+        http: 8094
+        https: 9443
+    tracelogSubscriptionService:
+      main:
+        http: 8095
+        https: 9443
+    webFrontend:
+      main:
+        http: 8080
+        https: 9443
+      metrics:
+        http: 9113
+        https: 9413
+      blocked:
+        http: 8404
+        https: 9404
+    webcalService:
+      main:
+        http: 4000
+        https: 9443
+    wopiService:
+      main:
+        http: 8080
+        https: 9443
+    xmlUtilityService:
+      main:
+        http: 8080
+        https: 9443
+
+
 
 ```
