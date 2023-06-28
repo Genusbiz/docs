@@ -559,6 +559,9 @@ global:
   enableSentry: "true"
   enableSentryPerformance: "false"
   disableTraceLog: "false"
+  modelInstanceRecycling:
+    min: ""
+    max: ""
   featureFlags:
     useScheduledActions: "false"
   ingress:
