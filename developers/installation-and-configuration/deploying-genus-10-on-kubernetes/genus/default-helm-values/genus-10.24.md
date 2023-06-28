@@ -629,13 +629,14 @@ global:
   namespaceName: ''
   k8sRuntime: ''
   deployed: ''
+  contact: ""
+  sensitiveHttpHeaders: ""
   published: ''
   virtualDirectory: '--'
   dataSetURL: ''
   altDataSetURLs: []
   timezone: Europe/Oslo
   windowsTimezone: 'W. Europe Standard Time'
-  enableSentry: 'true'
   enableDebugInformation: 'false'
   reportSensitiveBreadcrumbsToSentry: 'false'
   jwkFromPem: ''
