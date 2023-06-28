@@ -11,6 +11,8 @@ global:
   customer: ""
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: "true"
+  imagePullSecrets: 
+  - name: "genus-regcred-azure"
   traceLog:
     debug: false
     timing: false
@@ -31,9 +33,42 @@ global:
     annotations: {}
     agicLetsEncryptEnabled: false
     ingressWildCardPathEnabled: false
+  nginx-exporter:
+    image: nginx/nginx-prometheus-exporter:0.8.0
   rbac:
     create: true
     
+  networking:
+    internalTLS: false 
+    kubernetesOperatorService:
+      main:
+        http: 8080
+        https: 9443
+    operatorFrontend:
+      main:
+        http: 8080
+        https: 9443
+      metrics:
+        http: 9113
+        https: 9413
+      blocked:
+        http: 8404
+        https: 9404
+    redisOperator:
+      main:
+        http: 6379
+        https: 9379
+      sentinel:
+        http: 26379
+        https: 9279
+    coreService:
+      main:
+        http: 8181
+        https: 9443
+    megaService:
+      main:
+        http: 80
+        https: 9443
 genus-operator-frontend:
   replicaCount: 1
   resources:
