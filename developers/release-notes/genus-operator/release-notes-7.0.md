@@ -42,7 +42,17 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID bb81312a-3ead-2412-5082-34dc94e9de05 -->
+**#23636 Changes to global.timezone helm value  (Genus and Genus Operator)**
+
+If the global.timezone helm value is specified in any of your helm value files, you will need to change this value in Genus 11.0, and Genus Operator 7.0.
+
+We are moving from a volumeMount to an environment variable approach to setting the timezone in the containers. 
+
+This means that were you before specified the path to the file specifying the timezone, now you must set the time zone code. This means that if it says ``global.timezone: "/usr/share/zoneinfo/Europe/Oslo"`` now, you should change it to ``global.timezone: "Europe/Oslo"``..
+
+``Europe/Oslo`` is the default value. If this is your local timezone, you can delete it from your helm value files.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
