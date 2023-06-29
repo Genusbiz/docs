@@ -143,11 +143,13 @@ redis:
       limits:
         memory: 500Mi
         cpu: 200m
-    replicaCount: 1
+    replicaCount: 3
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
       enabled: false
+  pdb:
+    create: true
   metrics:
     enabled: false
     serviceMonitor: 
