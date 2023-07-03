@@ -1,11 +1,10 @@
 ```yaml
 
-
 global:
   modelIdentifier: ""
   clusterName: ""
   subDomain: ""
-  k8sNamespaceType: "operator"  # Deprecated, eller? Ser ut som det fortsatt brukes i kubernetes-operator-service, men skjÃ¸nner ikke hvorfor. Er jo alltid "operator"
+  k8sNamespaceType: "operator"
   timezone: "Europe/Oslo"
   enableSentry: "true"
   customer: ""
