@@ -6,7 +6,6 @@
 | global.modelIdentifier                                                               | | "" |
 | global.clusterName                                                                   | | "" |
 | global.subDomain                                                                     | | "" |
-| global.k8sNamespaceType                                                              | | "operator" |
 | global.timezone                                                                      | | "" |
 | global.enableSentry                                                                  | | "true" |
 | global.customer                                                                      | | "" |
