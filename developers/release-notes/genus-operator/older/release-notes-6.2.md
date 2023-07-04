@@ -61,7 +61,15 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID e260e322-11a2-4731-a374-c57d75d29f37 -->
+**#23570 Phone Home is now opt-out instead of opt-in**
+
+Phone Home, the functionality that reports version number and license-information to Genus, is now opt-out instead of opt-in. To opt out of this, set the Helm Value
+
+```
+global.phoneHome.enabled: false
+```
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
