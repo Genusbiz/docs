@@ -484,8 +484,8 @@
       - name: Helm Values Description
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/index.md
         items:
-        - name: Genus 10.24
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.24.md
+        - name: Genus 11.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-11.0.md
         - name: Genus 10.23
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-10.23.md
         - name: Genus 10.22
@@ -495,8 +495,8 @@
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/index.md
         items:
-        - name: Genus 10.24
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.24.md
+        - name: Genus 11.0
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-11.0.md
         - name: Genus 10.23
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-10.23.md
         - name: Genus 10.22
@@ -685,8 +685,8 @@
   items:
   - name: Genus
     items:
-    - name: Genus 10.24
-      href: release-notes/genus/release-notes-10.24.md
+    - name: Genus 11.0
+      href: release-notes/genus/release-notes-11.0.md
     - name: Genus 10.23
       href: release-notes/genus/release-notes-10.23.md
     - name: Genus 10.22

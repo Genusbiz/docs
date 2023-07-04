@@ -1,10 +1,10 @@
 ---
-title: Release notes for Genus 10.24.
-description: User-visible changes to Genus from release 10.23 to 10.24.
+title: Release notes for Genus 11.0.
+description: User-visible changes to Genus from release 10.24 to 11.0.
 author: jtroset
 ---
 
-# Release notes for Genus 10.24
+# Release notes for Genus 11.0
 
 ## Introduction
 
@@ -29,20 +29,30 @@ Prior to upgrading to this release, you must:
 ## End-of-life functionality
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
+
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+
 There are no end-of-life functionality identified in this release.
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
+
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+
 There is no deprecated functionality in this release.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
+
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 46c69a0c-8a29-f133-82c9-63d0a526d91a -->
+
 **#23634 Mega service is replaced by core-service**
 
 After 10.23, the mega-service is no more. It is replaced by the core-service, which runs on Linux as default. Please update your helm-value config files accordingly.
@@ -55,18 +65,25 @@ genus-core-service:
 ```
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 ## Major new functionality
+
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+
 There are no major new functionality in this release.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 ## Minor new functionality
+
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID 02388a5d-ee79-f040-1a90-62ba4d97e271 -->
+
 **#23632 Access to request/response data for REST services in action flow**
 
-The *Action Orchestrator* object available in action flows extended to include request data for a published REST service and request/response data for last consumed REST service.
+The _Action Orchestrator_ object available in action flows extended to include request data for a published REST service and request/response data for last consumed REST service.
 
-The data is structured into two groups: *Rest Service - Last Consumed* and *Rest Service - Published*:
+The data is structured into two groups: _Rest Service - Last Consumed_ and _Rest Service - Published_:
 
 -- **Rest Service - Published**
 
@@ -89,7 +106,6 @@ The data is structured into two groups: *Rest Service - Last Consumed* and *Rest
 -------- Media Type
 
 -------- String Data
-
 
 -- **Rest Service - Last Consumed**
 
@@ -130,16 +146,25 @@ The data is structured into two groups: *Rest Service - Last Consumed* and *Rest
 ------ Status Text
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 ## Resolved issues
+
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+
 There are no resolved issues in this release.
+
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
+
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+
 There are no known issues in this release.
+
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
+
 ## Tips and hints
 
 Tips and hints are design decisions or answers to support questions that may be of general interest.
@@ -147,4 +172,5 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
+
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
