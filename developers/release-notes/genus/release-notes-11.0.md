@@ -80,7 +80,11 @@ This is no longer permitted. Genus will stop, and an error message will be gener
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID c8346668-3218-4386-bdd8-177666dde878 -->
+**#23641 New effect: Split Document**
+
+The Split Document effect separates pages in a document to new documents. It is the opposite of Combine Documents.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
