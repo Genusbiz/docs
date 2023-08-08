@@ -77,6 +77,8 @@ Is some cases, Genus has accepted a property to be modeled as a different type t
 
 This is no longer permitted. Genus will stop, and an error message will be generated describing the problematic property/column.
 
+Tip: Try https://<hostname>/--/api/session/studio/validation?format=md&level=error&rules=DataType
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
