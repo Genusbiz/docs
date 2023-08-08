@@ -70,6 +70,13 @@ This means that were you before specified the path to the file specifying the ti
 
 Due to changes to how we authenticate with the docker repository, any versions after Genus 11.0.0-alpha.4 will require Genus Operator 7.0.0-rc.0 or newer to run in the same namespace in order to be allowed to pull images.
 
+<!--ID de7d7ed9-b92e-e6b6-10ed-a4e4fa272fbe -->
+**#23642 Stricter data type interpretation**
+
+Is some cases, Genus has accepted a property to be modeled as a different type that the actual type in the database.
+
+This is no longer permitted. Genus will stop, and an error message will be generated describing the problematic property/column.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
