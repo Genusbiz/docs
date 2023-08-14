@@ -448,7 +448,6 @@ genus-core-service:
       cpu: 700m
     limits:
       memory: 4Gi
-      cpu: 1000m
   serviceMonitor:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
