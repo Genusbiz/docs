@@ -565,6 +565,11 @@ global:
   enableSentry: "true"
   enableSentryPerformance: "false"
   disableTraceLog: "false"
+  servicemonitor:
+    enabled: true
+  nodeExtraCACerts: ""
+  automountServiceAccountToken: false
+  clusterDomain: cluster.local
   modelInstanceRecycling:
     min: ""
     max: ""
@@ -701,7 +706,7 @@ global:
         https: 9443
       blocked:
         http: 8404
-        http: 9404
+        https: 9404
     helpDocsService:
       main:
         http: 8080
