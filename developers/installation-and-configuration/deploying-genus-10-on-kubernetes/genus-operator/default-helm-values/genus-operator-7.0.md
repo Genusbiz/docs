@@ -7,6 +7,11 @@ global:
   k8sNamespaceType: "operator"
   timezone: "Europe/Oslo"
   enableSentry: "true"
+  servicemonitor:
+    enabled: true
+  nodeExtraCACerts: ""
+  automountServiceAccountToken: false
+  clusterDomain: cluster.local
   customer: ""
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: "true"
