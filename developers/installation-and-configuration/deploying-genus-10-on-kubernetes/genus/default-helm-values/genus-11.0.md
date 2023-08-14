@@ -70,7 +70,7 @@ genus-redis-io-service:
 genus-ibm-mq-io-service:
   enabled: false
   replicaCount: 1
-  restartWithModelPublish: "false"
+  restartWithModelPublish: "true"
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
