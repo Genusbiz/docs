@@ -569,6 +569,8 @@ global:
   nodeExtraCACerts: ""
   automountServiceAccountToken: false
   clusterDomain: cluster.local
+  pitTlsTerminator:
+    enabled: false
   modelInstanceRecycling:
     min: ""
     max: ""
