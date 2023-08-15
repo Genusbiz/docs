@@ -23,6 +23,15 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 68febf68-b068-c1dd-4dc3-d8bc7c025513 -->
+**#23618 Helm config volumesMounts changed to volumeMounts**
+
+There was a typing error in the helm value for setting volumeMounts for datamartQueryService and CoreService. The correct spelling is "volumeMounts". If it says "volume**s**Mounts" in any config files, this must be changed to "volumeMounts".
+
+This is relevant for application using client certificates or startup scripts.
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
