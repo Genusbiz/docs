@@ -12,6 +12,8 @@ global:
   nodeExtraCACerts: ""
   automountServiceAccountToken: false
   clusterDomain: cluster.local
+  pitTlsTerminator:
+    enabled: false
   customer: ""
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: "true"
