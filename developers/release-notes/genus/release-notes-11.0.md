@@ -88,6 +88,20 @@ This is no longer permitted. Genus will stop, and an error message will be gener
 
 Tip: Try https://<hostname>/--/api/session/studio/validation?format=md&level=error&rules=DataType
 
+<!--ID 3cfca1e4-d0b5-80d8-99ff-f11eb5236a3e -->
+**#23643 Genus 11.0.0-alpha.27 and later fails with deploy error:  no matches for kind "ServiceMonitor"**
+
+Genus deploys servicemonitor-resouces which requires Prometheus to be installed in the Kubernetes cluster.    
+
+If you get the following error on deploy Prometheus is not installed:
+*Error: UPGRADE FAILED: [resource mapping not found for name: "klp-skade-origin-authentication-service-servicemonitor" namespace: "" from "": no matches for kind "ServiceMonitor" in version "monitoring.coreos.com/v1"*
+
+**Solution is either to:**
+- Install Prometheus in the cluster
+- Set the following helm-value under global:
+servicemonitor:
+&nbsp;&nbsp;&nbsp;&nbsp;enabled: false
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
