@@ -59,11 +59,11 @@ genus-redis-io-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 50Mi
-      cpu: 10m
+      memory: 200Mi
+      cpu: 50m
     limits:
-      memory: 500Mi
-      cpu: 200m
+      memory: 800Mi
+      cpu: 400m
   serviceMonitor:
     scrapeInterval: 30s
 
