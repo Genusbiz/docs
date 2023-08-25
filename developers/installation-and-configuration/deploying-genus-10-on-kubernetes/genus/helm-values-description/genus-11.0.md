@@ -99,6 +99,7 @@ All microservices can be configured with the following common helm values.
 | global.enableSentry | Set this value to "false" to not send crash reports to Sentry | "true" |
 | global.enableDebugInformation | Set this value to "true" to include debugging information that may contain security sensitive information. _Never_ set this to "true" in production environments! | "false" |
 | global.reportSensitiveBreadcrumbsToSentry | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" |
+| global.noSearchEngineIndexing | Set to "true" to add the header "X-Robots-Tag: noindex, nofollow, nosnippet, noarchive" to avoid indexing by search enginges such as Google | "false" |
 | global.ingress.ingressWildCardPathEnabled | Adds wildcard into all ingresses. This is used in ALB and AGIC. | false
 | global.hostAliases | Add extra host entries to /etc/hosts. See https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/#adding-additional-entries-with-hostaliases for example | {} |
 | global.tolerations | See https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#concepts for example | {} |
