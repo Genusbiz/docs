@@ -569,6 +569,7 @@ global:
   nodeExtraCACerts: ""
   automountServiceAccountToken: false
   clusterDomain: cluster.local
+  noSearchEngineIndexing: "false"
   pitTlsTerminator:
     enabled: false
   modelInstanceRecycling:
