@@ -63,6 +63,7 @@ genus-redis-io-service:
       cpu: 50m
     limits:
       memory: 800Mi
+      cpu: 1000m
   serviceMonitor:
     scrapeInterval: 30s
 
@@ -479,7 +480,6 @@ genus-mq-subscriber-service:
       cpu: 700m
     limits:
       memory: 4Gi
-      cpu: 1000m
   serviceMonitor:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
@@ -508,7 +508,6 @@ genus-scheduled-action-service:
       cpu: 700m
     limits:
       memory: 4Gi
-      cpu: 1000m
   serviceMonitor:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
@@ -541,7 +540,6 @@ genus-data-mart-query-service:
       cpu: 700m
     limits:
       memory: 4Gi
-      cpu: 1000m
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
 
 genus-desktop-frontend:
