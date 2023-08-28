@@ -422,7 +422,7 @@ genus-live-update-input-service:
       cpu: 10m
     limits:
       memory: 500Mi
-    cpu: 200m
+      cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
   
