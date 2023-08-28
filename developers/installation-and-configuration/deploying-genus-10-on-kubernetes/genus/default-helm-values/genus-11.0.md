@@ -63,7 +63,6 @@ genus-redis-io-service:
       cpu: 50m
     limits:
       memory: 800Mi
-      cpu: 400m
   serviceMonitor:
     scrapeInterval: 30s
 
