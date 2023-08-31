@@ -112,6 +112,15 @@ servicemonitor:
 
 The Split Document effect separates pages in a document to new documents. It is the opposite of Combine Documents.
 
+<!--ID ef32f590-ea52-5eac-76ef-2949ad03e51c -->
+**#23644 Handling of REST and SOAP requests moved to its own microservice**
+
+In version 11.0.0-beta.3, REST and SOAP requests are handled by a new microservice, called the rest-soap-service. 
+
+This means that they are now processed independently of traffic coming from Genus Web, and should improve performance in cases where there is simultaneous traffic coming from both sources.
+
+This also means that if you have made adjustsments to the default configuration for the core-service to handle heavy REST or SOAP traffic, these configuration changes should be made to the rest-soap-service instead.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
