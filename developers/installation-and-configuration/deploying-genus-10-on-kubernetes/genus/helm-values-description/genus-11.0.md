@@ -64,6 +64,13 @@ All microservices can be configured with the following common helm values.
 | genus-scheduled-action-service.autoScaling.minReplicas | The minimum number of replicas to use when autoscaling | 1 |
 | genus-scheduled-action-service.autoScaling.maxReplicas | The maximum number of replicas to use when autoscaling | 2 |
 | genus-scheduled-action-service.autoScaling.targetCPUUtilizationPercentage | The target cpu utilization for each pod when autoscaling | 40 |
+| genus-rest-soap-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-rest-soap-service.runOnWindows | Wether or not to run on a Windows node, using a Windows-version of the image | False |
+| genus-rest-soap-service.autoScaling | | |
+| genus-rest-soap-service.autoScaling.enabled | Enable to use horizontal pod autoscaling. | false |
+| genus-rest-soap-service.autoScaling.minReplicas | The minimum number of replicas to use when autoscaling | 1 |
+| genus-rest-soap-service.autoScaling.maxReplicas | The maximum number of replicas to use when autoscaling | 2 |
+| genus-rest-soap-service.autoScaling.targetCPUUtilizationPercentage | The target cpu utilization for each pod when autoscaling | 40 |
 | genus-data-mart-query-service | _See [Microservice helm values](#microservice-helm-values)_ | |
 | genus-data-mart-query-service.runOnWindows | Wether or not to run on a Windows node, using a Windows-version of the image | False |
 | genus-desktop-frontend | _See [Microservice helm values](#microservice-helm-values)_ | |
