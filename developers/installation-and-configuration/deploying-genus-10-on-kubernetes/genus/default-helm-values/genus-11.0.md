@@ -512,6 +512,34 @@ genus-scheduled-action-service:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
 
+genus-rest-soap-service:
+  enabled: true
+  serviceAlias: rest-soap-service
+  runOnWindows: false
+  autoScaling:
+    enabled: false
+    minReplicas: 1
+    maxReplicas: 2
+    targetCPUUtilizationPercentage: 40
+  maxConcurrentModelInstances: 8
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  restartWithModelPublish: "true"
+  podDisruptionBudget:
+    enabled: false
+  onStartScript:
+    enabled: false
+  resources:
+    requests:
+      memory: 500Mi
+      cpu: 700m
+    limits:
+      memory: 4Gi
+  serviceMonitor:
+    scrapeInterval: 30s
+  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+
 genus-data-mart-query-service:
   enabled: true
   serviceAlias: data-mart-query-service
@@ -680,6 +708,10 @@ global:
         http: 8181
         https: 9443
     scheduledActionService:
+      main:
+        http: 8181
+        https: 9443
+    restSoapService:
       main:
         http: 8181
         https: 9443
