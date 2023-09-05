@@ -24,10 +24,9 @@ async function startFetchGenusHelmValuesDescription(api) {
 	//eslint-disable-next-line
 	console.log('Update Genus Helm Values Description in Docs')
 
-	await fetchHelmValueDescriptionFromGitlab('master', '11.0')
+	await fetchHelmValueDescriptionFromGitlab('master', '11.1')
+	await fetchHelmValueDescriptionFromGitlab('release/11.0', '11.0')
 	await fetchHelmValueDescriptionFromGitlab('release/10.23', '10.23')
-	await fetchHelmValueDescriptionFromGitlab('release/10.22', '10.22')
-	await fetchHelmValueDescriptionFromGitlab('release/10.21', '10.21')
 
 }
 
