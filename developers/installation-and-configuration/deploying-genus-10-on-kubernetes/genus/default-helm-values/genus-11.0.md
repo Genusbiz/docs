@@ -434,9 +434,9 @@ genus-core-service:
   autoScaling:
     enabled: false
     minReplicas: 1
-    maxReplicas: 2
+    maxReplicas: 3
     targetCPUUtilizationPercentage: 40
-  replicaCount: 1
+  replicaCount: 2
   restartWithModelPublish: "true"
   maxConcurrentModelInstances: 8
   affinityScheduling: 
@@ -452,7 +452,8 @@ genus-core-service:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
   podDisruptionBudget:
-    enabled: false
+    enabled: true
+    minAvailable: 1
   onStartScript:
     enabled: false
 
