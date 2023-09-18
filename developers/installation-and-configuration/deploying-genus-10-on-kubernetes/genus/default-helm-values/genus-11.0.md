@@ -661,17 +661,16 @@ global:
   environmentType: ''
   namespaceName: ''
   k8sRuntime: ''
-  deployed: ''
   contact: ""
   sensitiveHttpHeaders: ""
-  published: ''
+  published: false
   virtualDirectory: '--'
   dataSetURL: ''
   altDataSetURLs: []
   timezone: Europe/Oslo
   windowsTimezone: 'W. Europe Standard Time'
-  enableDebugInformation: 'false'
-  reportSensitiveBreadcrumbsToSentry: 'false'
+  enableDebugInformation: false
+  reportSensitiveBreadcrumbsToSentry: false
   jwkFromPem: ''
   image:
     tag: latest
