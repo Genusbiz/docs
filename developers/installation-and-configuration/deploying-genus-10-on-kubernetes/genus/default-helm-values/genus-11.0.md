@@ -439,6 +439,7 @@ genus-core-service:
   replicaCount: 2
   restartWithModelPublish: true
   maxConcurrentModelInstances: 8
+  minConcurrentModelInstances: 0
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -470,6 +471,7 @@ genus-mq-subscriber-service:
     maxReplicas: 2
     targetCPUUtilizationPercentage: 40
   maxConcurrentModelInstances: 8
+  minConcurrentModelInstances: 0
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -501,6 +503,7 @@ genus-scheduled-action-service:
     maxReplicas: 2
     targetCPUUtilizationPercentage: 40
   maxConcurrentModelInstances: 8
+  minConcurrentModelInstances: 0
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -532,6 +535,7 @@ genus-rest-soap-service:
     maxReplicas: 2
     targetCPUUtilizationPercentage: 40
   maxConcurrentModelInstances: 8
+  minConcurrentModelInstances: 0
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -565,6 +569,7 @@ genus-data-mart-query-service:
     targetCPUUtilizationPercentage: 40
   coreMaxThreadCount: '4'
   maxConcurrentModelInstances: 8
+  minConcurrentModelInstances: 0
   restartWithModelPublish: true
   podDisruptionBudget:
     enabled: false
