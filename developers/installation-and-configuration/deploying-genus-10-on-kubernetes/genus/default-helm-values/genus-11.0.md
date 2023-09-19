@@ -451,6 +451,9 @@ genus-core-service:
   serviceMonitor:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+  modelInstanceRecycling:
+    min: ""
+    max: ""
   podDisruptionBudget:
     enabled: true
     minAvailable: 1
@@ -484,6 +487,9 @@ genus-mq-subscriber-service:
   serviceMonitor:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+  modelInstanceRecycling:
+    min: ""
+    max: ""
 
 genus-scheduled-action-service:
   enabled: true
@@ -512,6 +518,9 @@ genus-scheduled-action-service:
   serviceMonitor:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+  modelInstanceRecycling:
+    min: ""
+    max: ""
 
 genus-rest-soap-service:
   enabled: true
@@ -540,6 +549,9 @@ genus-rest-soap-service:
   serviceMonitor:
     scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+  modelInstanceRecycling:
+    min: ""
+    max: ""
 
 genus-data-mart-query-service:
   enabled: true
@@ -570,6 +582,9 @@ genus-data-mart-query-service:
     limits:
       memory: 4Gi
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
+  modelInstanceRecycling:
+    min: ""
+    max: ""
 
 genus-desktop-frontend:
   enabled: true
@@ -598,9 +613,6 @@ global:
   noSearchEngineIndexing: false
   pitTlsTerminator:
     enabled: false
-  modelInstanceRecycling:
-    min: ""
-    max: ""
   featureFlags:
     useScheduledActions: false
   ingress:
