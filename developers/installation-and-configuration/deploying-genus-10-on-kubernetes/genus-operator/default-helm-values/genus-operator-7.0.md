@@ -121,6 +121,8 @@ redis:
     existingSecret: "session-redis"
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     enabled: true
     resources:
       requests:
@@ -130,6 +132,8 @@ redis:
         memory: 500Mi
         cpu: 200m
   master:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     resources:
       requests:
         memory: 50Mi
@@ -142,6 +146,8 @@ redis:
     persistence:
       enabled: false
   replica:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     resources:
       requests:
         memory: 50Mi
@@ -157,6 +163,8 @@ redis:
   pdb:
     create: true
   metrics:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     enabled: false
     serviceMonitor: 
       enabled: false
