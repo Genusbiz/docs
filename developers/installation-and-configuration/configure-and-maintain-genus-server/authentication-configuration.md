@@ -48,6 +48,7 @@ Add the desired providers by selecting the provider type, set the display name a
   - _ansattPortenTokenUrl_ should be "https://ansattporten.no/token"
   - _ansattPortenUserInfo_ should be "https://ansattporten.no/userinfo"
   - _ansattPortenCallbackUrl_ should be "/-/auth/ansattporten/callback"
+  - _ansattPortenAuthorizationDetails_ should be [{"type": "ansattporten:altinn:service", "resource": "urn:altinn:resource:1234"}] where "1234" indicates the correctly registered resource.
 - __Genus Native__ has no extra config-settings
 - __Custom__ requires creating a file by Genus experts.
 
