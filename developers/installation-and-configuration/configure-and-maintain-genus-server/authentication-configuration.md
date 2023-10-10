@@ -42,6 +42,12 @@ Add the desired providers by selecting the provider type, set the display name a
   - _idPortenCallbackUrl_ should be "/-/auth/idporten/callback"
   - _idPortenEndsessionUrl_ should be "https://login.idporten.no/logout"
   - _idPortenPostLogoutUrl_ where to send the user after they log out
+- For __Ansattorten__ (see [prod .well-known](https://ansattporten.no/.well-known/openid-configuration) for production values and [test .well-known](https://test.ansattporten.no/.well-known/openid-configuration) for test values):
+  - _ansattPortenIssuer_ should be "https://idporten.no"
+  - _ansattPortenAuthUrl_ should be "https://login.ansattporten.no/authorize"
+  - _ansattPortenTokenUrl_ should be "https://ansattporten.no/token"
+  - _ansattPortenUserInfo_ should be "https://ansattporten.no/userinfo"
+  - _ansattPortenCallbackUrl_ should be "/-/auth/ansattporten/callback"
 - __Genus Native__ has no extra config-settings
 - __Custom__ requires creating a file by Genus experts.
 
