@@ -8,7 +8,7 @@ genus-database-dictionary-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 50Mi
+      memory: 300Mi
       cpu: 10m
     limits:
       memory: 500Mi
@@ -25,7 +25,7 @@ genus-object-storage-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 50Mi
+      memory: 100Mi
       cpu: 10m
     limits:
       memory: 500Mi
@@ -130,7 +130,7 @@ genus-mail-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 50Mi
+      memory: 300Mi
       cpu: 10m
     limits:
       memory: 500Mi
