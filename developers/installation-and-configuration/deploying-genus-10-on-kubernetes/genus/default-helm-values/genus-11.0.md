@@ -482,7 +482,7 @@ genus-mq-subscriber-service:
     enabled: false
   resources:
     requests:
-      memory: 500Mi
+      memory: 1Gi
       cpu: 700m
     limits:
       memory: 4Gi
@@ -514,7 +514,7 @@ genus-scheduled-action-service:
     enabled: false
   resources:
     requests:
-      memory: 500Mi
+      memory: 1Gi
       cpu: 700m
     limits:
       memory: 4Gi
@@ -546,7 +546,7 @@ genus-rest-soap-service:
     enabled: false
   resources:
     requests:
-      memory: 500Mi
+      memory: 1Gi
       cpu: 700m
     limits:
       memory: 4Gi
@@ -582,7 +582,7 @@ genus-data-mart-query-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 500Mi
+      memory: 1Gi
       cpu: 700m
     limits:
       memory: 4Gi
