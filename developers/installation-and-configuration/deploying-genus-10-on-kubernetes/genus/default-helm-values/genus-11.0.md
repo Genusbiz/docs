@@ -610,8 +610,8 @@ global:
   enableSentry: true
   enableSentryPerformance: false
   disableTraceLog: false
-  servicemonitor:
-    enabled: true
+  servicemonitor: #deprecated
+    enabled: true 
   nodeExtraCACerts: ""
   automountServiceAccountToken: false
   clusterDomain: cluster.local
@@ -697,7 +697,12 @@ global:
   enableDesktopTransactionEncryption: false
   responseCompression: false
   requestCompression: false
-
+  metrics:
+    serviceMonitor:
+      enabled: true
+      scrapeInterval: 30s
+    prometheusRule:
+      enabled: true
   networking:
     internalTLS: false
     authenticationService:
