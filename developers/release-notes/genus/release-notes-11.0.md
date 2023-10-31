@@ -99,6 +99,7 @@ If you get the following error on deploy Prometheus is not installed:
 **Solution is either to:**
 - Install Prometheus in the cluster
 - Set the following helm-value under global:
+ 
 ```
 servicemonitor:
   enabled: false
