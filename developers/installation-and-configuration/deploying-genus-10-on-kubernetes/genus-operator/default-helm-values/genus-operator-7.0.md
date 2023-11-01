@@ -118,7 +118,7 @@ redis:
   architecture: "replication"
   commonLabels:
     app.kubernetes.io/part-of: genus-operator
-    genus.no/restartWithModelPublish: false
+    genus.no/restartWithModelPublish: "false"
     genus.no/k8sRuntime: "{{ .Release.Name }}"
     genus.no/environmentType: "operator"
   auth:
