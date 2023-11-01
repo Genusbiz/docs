@@ -6,7 +6,7 @@ global:
   subDomain: ""
   k8sNamespaceType: "operator"
   timezone: "Europe/Oslo"
-  enableSentry: "true"
+  enableSentry: true
   servicemonitor:
     enabled: true
   nodeExtraCACerts: ""
@@ -16,14 +16,14 @@ global:
     enabled: false
   customer: ""
   dnsSuffix: ""
-  environmentAvailabilityControlEnabled: "true"
+  environmentAvailabilityControlEnabled: true
   imagePullSecrets: 
   - name: "genus-regcred-azure"
   traceLog:
     debug: false
     timing: false
   phoneHome:
-    enabled: "false"
+    enabled: false
     apiKey: ""
     customerSampleCode: ""
   database:
@@ -43,7 +43,12 @@ global:
     image: nginx/nginx-prometheus-exporter:0.8.0
   rbac:
     create: true
-    
+  metrics:
+    serviceMonitor:
+      enabled: true
+      scrapeInterval: 30s
+    prometheusRule:
+      enabled: true
   networking:
     internalTLS: false 
     kubernetesOperatorService:
@@ -92,7 +97,7 @@ genus-operator-frontend:
 
 genus-kubernetes-operator-service:
   replicaCount: 1
-  doRollingPodRestarts: "true"
+  doRollingPodRestarts: true
 
   resources:
     requests:
@@ -113,7 +118,7 @@ redis:
   architecture: "replication"
   commonLabels:
     app.kubernetes.io/part-of: genus-operator
-    genus.no/restartWithModelPublish: "false"
+    genus.no/restartWithModelPublish: false
     genus.no/k8sRuntime: "{{ .Release.Name }}"
     genus.no/environmentType: "operator"
   auth:
