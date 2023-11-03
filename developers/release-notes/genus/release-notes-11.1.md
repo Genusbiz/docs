@@ -23,6 +23,24 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 7f3aca95-ae93-7aa9-d11e-5554973ab627 -->
+**#23647 Changes to Helm values regarding enabling of serviceMontiors and prometheusRules**
+
+The helm value ``global.servicemonior.enabled``, which is used to disable deployment of serviceMonitors in cases where Prometheus is **not** running in the cluster, is moved to the following location, and is accompanied by a similar setting for disabling prometheusRules. Please note the capitalization of M in serviceMonitor.
+
+```
+global:
+  metrics:
+    serviceMonitor:
+      enabled: true (default) | false
+    prometheusRule:
+      enabled: true (default) | false
+```
+
+**This affectes both Genus 11.1 and Genus Operator 7.1.**
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
