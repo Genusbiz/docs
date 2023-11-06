@@ -61,11 +61,12 @@ There is no deprecated functionality in this release.
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 <!--ID c4e93764-d55e-d323-2419-d2035038c2cc -->
-**#23646 Helm values: "true" and "false" are now booleans instead of strings**
+**#23646 Helm values: "true" and "false" are now booleans instead of strings in some cases**
 
-In cases where "true" and "false" helm values were strings, they are now booleans, meaning they must **not** be quoted. The only exception to this is if they are under ``environmentVariables`` in the value-file; ``environmentVariables`` are always strings.
+In some cases where "true" and "false" helm values were strings, they are now booleans, meaning they must **not** be quoted. 
 
-The most common cases that will need to be updated are:
+The cases that will need to be updated are:
+
 ```
 global:
   published: true|false
