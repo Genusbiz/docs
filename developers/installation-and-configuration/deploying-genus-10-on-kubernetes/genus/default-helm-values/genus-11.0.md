@@ -13,8 +13,6 @@ genus-database-dictionary-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-object-storage-service:
   enabled: true
@@ -30,8 +28,6 @@ genus-object-storage-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-key-value-store-service:
   enabled: false
@@ -47,8 +43,6 @@ genus-key-value-store-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-redis-io-service:
   enabled: true
@@ -64,8 +58,6 @@ genus-redis-io-service:
     limits:
       memory: 800Mi
       cpu: 1000m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-ibm-mq-io-service:
   enabled: false
@@ -81,8 +73,6 @@ genus-ibm-mq-io-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-file-utility-service:
   enabled: true
@@ -99,8 +89,6 @@ genus-file-utility-service:
     limits:
       cpu: 1000m
       memory: 1000Mi
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-xml-utility-service:
   enabled: true
@@ -117,8 +105,6 @@ genus-xml-utility-service:
     limits:
       cpu: 500m
       memory: 1000Mi
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-mail-service:
   enabled: true
@@ -130,13 +116,11 @@ genus-mail-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 300Mi
+      memory: 150Mi
       cpu: 10m
     limits:
-      memory: 500Mi
+      memory: 300Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
   databaseCommandTimeoutSeconds: "30"
     
 genus-wopi-service:
@@ -153,8 +137,6 @@ genus-wopi-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 redis:
   nameOverride: redis-sentinel
@@ -233,8 +215,6 @@ genus-help-docs-service:
     limits:
       memory: 100Mi
       cpu: 100m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-web-frontend:
   enabled: true
@@ -252,8 +232,6 @@ genus-web-frontend:
     limits:
       memory: 100Mi
       cpu: 100m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-authorization-service:
   enabled: true
@@ -269,8 +247,6 @@ genus-authorization-service:
     limits:
       memory: "500Mi"
       cpu: "500m"
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-authentication-service:
   enabled: true
@@ -286,8 +262,6 @@ genus-authentication-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-gateway-service:
   enabled: true
@@ -305,8 +279,6 @@ genus-gateway-service:
     limits:
       memory: 500Mi
       cpu: 1000m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-trace-input-service:
   enabled: true
@@ -322,8 +294,6 @@ genus-trace-input-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-message-subscription-service:
   enabled: true
@@ -339,8 +309,6 @@ genus-message-subscription-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s   
 
 genus-tracelog-subscription-service:
   enabled: true
@@ -356,8 +324,6 @@ genus-tracelog-subscription-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s   
     
 genus-internationalization-service:
   enabled: true
@@ -373,8 +339,6 @@ genus-internationalization-service:
     limits:
       memory: 100Mi
       cpu: 100m  
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-webcal-service:
   enabled: true
@@ -385,13 +349,11 @@ genus-webcal-service:
     namespaceListForPodAntiAffinity: []
   resources:
     requests:
-      memory: 25Mi
+      memory: 50Mi
       cpu: 10m
     limits:
       memory: 100Mi
       cpu: 100m
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-carddav-service:
   enabled: true
@@ -402,13 +364,11 @@ genus-carddav-service:
     namespaceListForPodAntiAffinity: []
   resources: 
     requests:
-      memory: "32Mi"
+      memory: "50Mi"
       cpu: "25m"
     limits:
-      memory: "128Mi"
+      memory: "100Mi"
       cpu: "500m"
-  serviceMonitor:
-    scrapeInterval: 30s
 
 genus-live-update-input-service:
   enabled: true
@@ -424,8 +384,6 @@ genus-live-update-input-service:
     limits:
       memory: 500Mi
       cpu: 200m
-  serviceMonitor:
-    scrapeInterval: 30s
   
 genus-core-service:
   enabled: true
@@ -449,8 +407,6 @@ genus-core-service:
       cpu: 700m
     limits:
       memory: 4Gi
-  serviceMonitor:
-    scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
   modelInstanceRecycling:
     min: ""
@@ -486,8 +442,6 @@ genus-mq-subscriber-service:
       cpu: 700m
     limits:
       memory: 4Gi
-  serviceMonitor:
-    scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
   modelInstanceRecycling:
     min: ""
@@ -518,8 +472,6 @@ genus-scheduled-action-service:
       cpu: 700m
     limits:
       memory: 4Gi
-  serviceMonitor:
-    scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
   modelInstanceRecycling:
     min: ""
@@ -550,8 +502,6 @@ genus-rest-soap-service:
       cpu: 700m
     limits:
       memory: 4Gi
-  serviceMonitor:
-    scrapeInterval: 30s
   sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
   modelInstanceRecycling:
     min: ""
@@ -575,8 +525,6 @@ genus-data-mart-query-service:
     enabled: false
   onStartScript:
     enabled: false
-  serviceMonitor:
-    scrapeInterval: 30s
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
@@ -595,8 +543,6 @@ genus-desktop-frontend:
   enabled: true
   replicaCount: 1
   restartWithModelPublish: false
-  serviceMonitor:
-    scrapeInterval: 30s
   resources:
     requests:
       memory: 25Mi
@@ -610,8 +556,6 @@ global:
   enableSentry: true
   enableSentryPerformance: false
   disableTraceLog: false
-  servicemonitor: #deprecated
-    enabled: true 
   nodeExtraCACerts: ""
   automountServiceAccountToken: false
   clusterDomain: cluster.local
