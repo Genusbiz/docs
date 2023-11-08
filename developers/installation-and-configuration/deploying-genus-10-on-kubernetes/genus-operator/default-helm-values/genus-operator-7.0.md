@@ -101,10 +101,10 @@ genus-kubernetes-operator-service:
 
   resources:
     requests:
-      memory: 50Mi
+      memory: 200Mi
       cpu: 10m
     limits:
-      memory: 500Mi
+      memory: 400Mi
       cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
