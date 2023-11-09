@@ -12,7 +12,7 @@ Genus supports the following identity providers:
 - [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
 - [xID by BankID](https://www.bankid.no/bedrift/kom-i-gang/)-->
 - Active Directory Federation Services (a user for reading users is needed, contact the administrator)
-- [Azure Active Directory](https://portal.azure.com)
+- [Microsoft Entra ID](https://portal.azure.com) (formerly Azure Active Directory)
 - [ID-Porten](https://samarbeid.digdir.no/)
 - [AnsattPorten](https://samarbeid.digdir.no/)
 - __Genus Native__ (username/password) (Forms Authentication)
@@ -23,9 +23,9 @@ Genus supports the following identity providers:
 After registering and configuring with the desired providers, the setup for the identity providers can be done in Genus Studio under the Security settings. Some settings are not editable for all the identity providers.
 
 Add the desired providers by selecting the provider type, set the display name and the description, and select the color for the logon button. In the _Config_ field, fill out the client ID, client secret, callback URL and other required information.
-- For __Azure AD__:
+- For __Microsoft Entra ID__:
   - _azureAdResource_ should be "00000003-0000-0000-c000-000000000000", i.e. [Microsoft Graph](https://www.shawntabrizi.com/aad/common-microsoft-resources-azure-active-directory/)
-  - _azureAdTenant_ is the tenant the for Azure AD, i.e. "contoso.onmicrosoft.com
+  - _azureAdTenant_ is the tenant the for Microsoft Entra ID, i.e. "contoso.onmicrosoft.com
   - _azureAdCallbackUrl_ should be "/-/auth/azuread/callback"
 - For __Active Directory FS__:
   - _adfsIssuer_ should be an url to the ADFS-server, i.e "https://adfs.example.com/adfs
@@ -42,7 +42,7 @@ Add the desired providers by selecting the provider type, set the display name a
   - _idPortenCallbackUrl_ should be "/-/auth/idporten/callback"
   - _idPortenEndsessionUrl_ should be "https://login.idporten.no/logout"
   - _idPortenPostLogoutUrl_ where to send the user after they log out
-- For __Ansattorten__ (see [prod .well-known](https://ansattporten.no/.well-known/openid-configuration) for production values and [test .well-known](https://test.ansattporten.no/.well-known/openid-configuration) for test values):
+- For __AnsattPorten__ (see [prod .well-known](https://ansattporten.no/.well-known/openid-configuration) for production values and [test .well-known](https://test.ansattporten.no/.well-known/openid-configuration) for test values):
   - _ansattPortenIssuer_ should be "https://ansattporten.no"
   - _ansattPortenAuthUrl_ should be "https://login.ansattporten.no/authorize"
   - _ansattPortenTokenUrl_ should be "https://ansattporten.no/token"
