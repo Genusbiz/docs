@@ -139,6 +139,7 @@ genus-wopi-service:
       cpu: 200m
 
 redis:
+  enabled: true
   nameOverride: redis-sentinel
   architecture: "replication"
   commonLabels:
@@ -628,6 +629,7 @@ global:
   virtualDirectory: '--'
   dataSetURL: ''
   altDataSetURLs: []
+  lang: "nb_NO.UTF-8"
   timezone: Europe/Oslo
   windowsTimezone: 'W. Europe Standard Time'
   enableDebugInformation: false
