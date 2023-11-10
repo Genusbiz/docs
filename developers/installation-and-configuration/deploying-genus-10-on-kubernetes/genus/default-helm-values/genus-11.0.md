@@ -139,7 +139,7 @@ genus-wopi-service:
       cpu: 200m
 
 redis:
-  enabled: true
+  enabled: false
   nameOverride: redis-sentinel
   architecture: "replication"
   commonLabels:
