@@ -101,6 +101,13 @@ This should help with any .toUpper()-issues for Norwegian characters, and correc
 
 This setting can be overridden by setting the ``global.lang`` helm-value.
 
+<!--ID b4db7a8c-4ba3-66fc-be1a-b2fac76e7292 -->
+**#23650 Simplified Redis configuration**
+
+We have redesigned how we use Redis for storing live update messages, trace log messages and -level and a couple of other properties. This means that the Redis instance in the origin, green and blue environments are no longer used, and is therefore removed. 
+
+This should result in lower infrastructure cost, and better persistance for the properties mentioned above.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
