@@ -92,6 +92,15 @@ This should help prevent downtime in instances where Kubernetes reschedules the 
 
 It is important to note that when using PDB to specify minAvailable pods, there must be more than that minimum number of pods running. If that is not the case, the PDB will prevent nodes from draining, and potentially preventing Kubernetes from scaling the cluster properly.
 
+<!--ID d72ecc5c-0b7f-76a6-e274-d93435058c6e -->
+**#23649 Default LANG for core-service**
+
+Default LANG is now set to nb_NO.UTF-8 in the core-service (and rest-soap-service, data-mart-query-service, scheduled-action-service and mq-subscriber-service).
+
+This should help with any .toUpper()-issues for Norwegian characters, and correctly sort names starting with AA.
+
+This setting can be overridden by setting the ``global.lang`` helm-value.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
