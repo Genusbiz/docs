@@ -47,7 +47,7 @@ genus-key-value-store-service:
 genus-redis-io-service:
   enabled: true
   replicaCount: 1
-  restartWithModelPublish: false
+  restartWithModelPublish: true
   affinityScheduling: 
     enabled: false
     namespaceListForPodAntiAffinity: []
