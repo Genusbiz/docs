@@ -23,87 +23,88 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 7f3aca95-ae93-7aa9-d11e-5554973ab627 -->
+**#23647 Changes to Helm values regarding enabling of serviceMontiors and prometheusRules**
+
+The helm value ``global.servicemonior.enabled``, which is used to disable deployment of serviceMonitors in cases where Prometheus is **not** running in the cluster, is moved to the following location, and is accompanied by a similar setting for disabling prometheusRules. Please note the capitalization of M in serviceMonitor.
+
+```
+global:
+  metrics:
+    serviceMonitor:
+      enabled: true (default) | false
+    prometheusRule:
+      enabled: true (default) | false
+```
+
+**This affectes both Genus 11.1 and Genus Operator 7.1.**
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
 ## End-of-life functionality
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
-
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no end-of-life functionality identified in this release.
-
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
-
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There is no deprecated functionality in this release.
-
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
-
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID bb81312a-3ead-2412-5082-34dc94e9de05 -->
+<!--ID b05906d3-a519-f890-5bc2-e3b0df15e575 -->
+**#23648 Genus Operator scales down Scheduled Action service and Rest-Soap-service as described**
 
-**#23636 Changes to global.timezone helm value (Genus and Genus Operator)**
+Starting in 7.1, Genus Operator will start scaling down the Scheduled Action and Rest-Soap services when these services are disabled in the Runtimes page. 
 
-If the global.timezone helm value is specified in any of your helm value files, you will need to change this value in Genus 11.0, and Genus Operator 7.0.
-
-We are moving from a volumeMount to an environment variable approach to setting the timezone in the containers.
-
-This means that were you before specified the path to the file specifying the timezone, now you must set the time zone code. This means that if it says `global.timezone: "/usr/share/zoneinfo/Europe/Oslo"` now, you should change it to `global.timezone: "Europe/Oslo"`..
-
-`Europe/Oslo` is the default value. If this is your local timezone, you can delete it from your helm value files.
+Please make sure that the Runtimes are configured correctly before upgrading to this version, to avoid any unwanted downtime.
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Major new functionality
-
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID aa038fb8-9612-9dd3-99f8-2ae971b35090 -->
+<!--ID b44fd9d7-c16d-b7c7-3292-2bb0247f78c7 -->
+**#23651 Improvements to Availability windows**
 
-**#23616 Horizontal scaling from Operator**
+Availability windows have been improved in several ways:
 
-It is now possible to scale the individual microservices horizontally from Genus Operator.
+####  New availability editor
+It should now be easier to create and edit availability windows. The new editor can create several availability windows at the same time. This should make it a lot easier to create weekly schedules.
 
-Updating to this release of Genus Operator requires the script 41.0.18
+#### Enabling/disabling windows
+It is now possible to disable availability windows without deleting them.
+
+#### Timezone
+Availability windows are now created with timezone information. This means that going to and from daylight saving time should no longer impact the availability windows, as long as the correct timezone is specified.
+
+#### Backwards compatible
+All old availability windows will continue to function as before. However, it is recommended to create new availability windows with the correct timezone, as all old windows are created in UTC.
+
+#### Better information regarding environment status
+The information regarding current status of the different runtimes should be easier to see and understand. It should also be clearer whether or not an environment is set to be always up, or if it uses a schedule.
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Minor new functionality
-
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no minor new functionality in this release.
-
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Resolved issues
-
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no resolved issues in this release.
-
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
-
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no known issues in this release.
-
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Tips and hints
 
 Tips and hints are design decisions or answers to support questions that may be of general interest.
@@ -111,5 +112,4 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
-
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
