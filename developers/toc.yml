@@ -505,6 +505,8 @@
       - name: Helm Values Description
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/index.md
         items:
+        - name: Genus Operator 7.1
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-7.1.md
         - name: Genus Operator 7.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-7.0.md
         - name: Genus Operator 6.3
@@ -512,6 +514,8 @@
       - name: Default Helm Values
         href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/index.md
         items:
+        - name: Genus Operator 7.1
+          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-7.1.md
         - name: Genus Operator 7.0
           href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-7.0.md
         - name: Genus Operator 6.3
@@ -773,6 +777,8 @@
         href: release-notes/genus/older/release-notes-2013.1.md
   - name: Genus Operator
     items: 
+    - name: Version 7.1
+      href: release-notes/genus-operator/release-notes-7.1.md
     - name: Version 7.0
       href: release-notes/genus-operator/release-notes-7.0.md
     - name: Version 6.3
