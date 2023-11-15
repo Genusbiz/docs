@@ -107,7 +107,7 @@ All microservices can be configured with the following common helm values.
 | global.k8sRuntime | The name provided when deploying the Genus chart. Used to group different instances of Genus running in the same namespace | "" |
 | global.namespaceName | The name of the namespace where the chart is deployed to. Used for validation when deploying | "" |
 | global.environmentType | Possible values are "origin", "green", "blue" or "operator" | "" |
-| global.published | Wether or not the namespace is running in a deployed state. Possible values are true or false. |  |
+| global.published | Wether or not the namespace is running in a deployed state. Possible values are "true" or "false". | "" |
 | global.contact | Contact information (mail or phone number) for person to contact if we detect issues with the application | "" |
 | global.sensitiveHttpHeaders | Semi colon-separated list of sensitive headers which will not be logged | "" |
 | global.virtualDirectory | | "--" |
@@ -115,10 +115,10 @@ All microservices can be configured with the following common helm values.
 | global.altDataSetURLs | | [] |
 | global.timezone | Time zone specified for Linux containers | "Europe/Oslo" |
 | global.windowsTimezone | Time zone specified for Windows containers. Used when `global.runOnWindows` is true For available time zone values use PowerShell command "Get-TimeZone -ListAvailable" | "W. Europe Standard Time" |
-| global.enableSentry | Set this value to false to not send crash reports to Sentry | true |
-| global.enableDebugInformation | Set this value to true to include debugging information that may contain security sensitive information. _Never_ set this to true in production environments! | false |
-| global.reportSensitiveBreadcrumbsToSentry | Set this value to true to include sensitive information in Sentry reports. Should be true in development environments | false |
-| global.noSearchEngineIndexing | Set to true to add the header "X-Robots-Tag: noindex, nofollow, nosnippet, noarchive" to avoid indexing by search enginges such as Google | false |
+| global.enableSentry | Set this value to "false" to not send crash reports to Sentry | "true" |
+| global.enableDebugInformation | Set this value to "true" to include debugging information that may contain security sensitive information. _Never_ set this to "true" in production environments! | "false" |
+| global.reportSensitiveBreadcrumbsToSentry | Set this value to true to include sensitive information in Sentry reports. Should be "true" in development environments | "false" |
+| global.noSearchEngineIndexing | Set to "true" to add the header "X-Robots-Tag: noindex, nofollow, nosnippet, noarchive" to avoid indexing by search enginges such as Google | "false" |
 | global.ingress.ingressWildCardPathEnabled | Adds wildcard into all ingresses. This is used in ALB and AGIC. | false
 | global.hostAliases | Add extra host entries to /etc/hosts. See https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/#adding-additional-entries-with-hostaliases for example | {} |
 | global.tolerations | See https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/#concepts for example | {} |
