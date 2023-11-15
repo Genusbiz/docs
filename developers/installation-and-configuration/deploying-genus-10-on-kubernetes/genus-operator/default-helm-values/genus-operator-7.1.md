@@ -6,7 +6,7 @@ global:
   subDomain: ""
   k8sNamespaceType: "operator"
   timezone: "Europe/Oslo"
-  enableSentry: "true"
+  enableSentry: true
   servicemonitor:
     enabled: true
   nodeExtraCACerts: ""
@@ -16,14 +16,14 @@ global:
     enabled: false
   customer: ""
   dnsSuffix: ""
-  environmentAvailabilityControlEnabled: "true"
+  environmentAvailabilityControlEnabled: true
   imagePullSecrets: 
   - name: "genus-regcred-azure"
   traceLog:
     debug: false
     timing: false
   phoneHome:
-    enabled: "false"
+    enabled: false
     apiKey: ""
     customerSampleCode: ""
   database:
@@ -43,7 +43,12 @@ global:
     image: nginx/nginx-prometheus-exporter:0.8.0
   rbac:
     create: true
-    
+  metrics:
+    serviceMonitor:
+      enabled: true
+      scrapeInterval: 30s
+    prometheusRule:
+      enabled: true
   networking:
     internalTLS: false 
     kubernetesOperatorService:
@@ -92,14 +97,14 @@ genus-operator-frontend:
 
 genus-kubernetes-operator-service:
   replicaCount: 1
-  doRollingPodRestarts: "true"
+  doRollingPodRestarts: true
 
   resources:
     requests:
-      memory: 50Mi
+      memory: 200Mi
       cpu: 10m
     limits:
-      memory: 500Mi
+      memory: 400Mi
       cpu: 200m
   serviceMonitor:
     scrapeInterval: 30s
@@ -121,6 +126,8 @@ redis:
     existingSecret: "session-redis"
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     enabled: true
     resources:
       requests:
@@ -130,6 +137,8 @@ redis:
         memory: 500Mi
         cpu: 200m
   master:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     resources:
       requests:
         memory: 50Mi
@@ -142,6 +151,8 @@ redis:
     persistence:
       enabled: false
   replica:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     resources:
       requests:
         memory: 50Mi
@@ -157,6 +168,8 @@ redis:
   pdb:
     create: true
   metrics:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
     enabled: false
     serviceMonitor: 
       enabled: false
