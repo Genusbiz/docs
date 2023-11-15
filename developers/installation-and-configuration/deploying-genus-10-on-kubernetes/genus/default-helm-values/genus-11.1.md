@@ -497,6 +497,7 @@ global:
   automountServiceAccountToken: false
   clusterDomain: cluster.local
   noSearchEngineIndexing: false
+  sentryProxy: ''
   pitTlsTerminator:
     enabled: false
   featureFlags:
