@@ -102,10 +102,10 @@ genus-kubernetes-operator-service:
   resources:
     requests:
       memory: 200Mi
-      cpu: 10m
+      cpu: 50m
     limits:
       memory: 400Mi
-      cpu: 200m
+      cpu: 500m
   serviceMonitor:
     scrapeInterval: 30s
   affinityScheduling: 
@@ -126,9 +126,9 @@ redis:
     existingSecret: "session-redis"
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
+    enabled: true
     containerSecurityContext:
       allowPrivilegeEscalation: false
-    enabled: true
     resources:
       requests:
         memory: 50Mi
