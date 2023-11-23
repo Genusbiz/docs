@@ -57,7 +57,6 @@ genus-redis-io-service:
       cpu: 50m
     limits:
       memory: 800Mi
-      cpu: 1000m
 
 genus-ibm-mq-io-service:
   enabled: false
@@ -72,7 +71,6 @@ genus-ibm-mq-io-service:
       cpu: 10m
     limits:
       memory: 500Mi
-      cpu: 200m
 
 genus-file-utility-service:
   enabled: true
