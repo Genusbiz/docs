@@ -76,6 +76,11 @@ global:
 
 ```
 
+<!--ID b91ed3ea-7f8f-954e-5f6e-968bf38c629e -->
+**#23653 The "On Active" button in input fields will no longer be disabled when the input field has no value**
+
+If the "On Activate" is connected to an input field, a button is added to the right of the input field, which can be clicked to run the action. Previously, this button was disabled when the field was empty. This decision should be made by the business engineer, not the platform. Therefore, this restriction has been removed.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
