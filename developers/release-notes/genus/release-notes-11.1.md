@@ -113,6 +113,13 @@ We have redesigned how we use Redis for storing live update messages, trace log 
 
 This should result in lower infrastructure cost, and better persistance for the properties mentioned above.
 
+<!--ID 1b8e02ac-a9c5-7460-8573-1d4db98750ef -->
+**#23652 Identityprovider type MS Entra ID now supports samAccountName as account id property**
+
+**MS Entra ID** (previously known as Azure AD) now supports **samAccountName** as account id property in addition to **upn**. 
+To use  **samAccountName** one must add a new [ClaimsMappingPolicy](https://securecloud.blog/2019/06/06/add-samaccountname-to-azure-ad-access-token-jwt-with-claims-mapping-policy-and-avoiding-aadsts50146/) in Azure on the Authenticator app registration and set the property **acceptMappedClaims** to true in the app registration manifest.
+Any other account id property value than **samAccountName** will fallback to **upn**.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
