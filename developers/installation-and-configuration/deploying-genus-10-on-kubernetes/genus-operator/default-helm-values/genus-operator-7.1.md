@@ -17,6 +17,7 @@ global:
   customer: ""
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: true
+  authMethod: "MS Entra ID"
   imagePullSecrets: 
   - name: "genus-regcred-azure"
   traceLog:
