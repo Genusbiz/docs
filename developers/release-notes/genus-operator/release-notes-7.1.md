@@ -93,7 +93,17 @@ The information regarding current status of the different runtimes should be eas
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID 8bb483ce-ee9d-b94a-10dd-e54fbab288fb -->
+**#23654 Added metrics and resource utilization to pods**
+
+Operator now displasy CPU and memory usage metrics in the pod table. In addition, it will show a percentage of the usage and the set requests and limits. These metrics will give the user a quick overview of the resources of pods in an environment. 
+
+In order for Operator to have access to these metrics, the Kubernetes role is exended and access rights to the api resource `metrics.k8s.io` is added.
+
+If the Helm value `global.rbac.create` is set to `false` in the Helm value file, meaning that RBAC is set up manually, the following changes needs to be applied to get access to the new functionality: In the `role`-definition, add  `metrics.k8s.io` to the list of `apiGroups` . 
+
+If this change is not applied, the metric fields will be empty, and an error message is logged to the Operator pod.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
