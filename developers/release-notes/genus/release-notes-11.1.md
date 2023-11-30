@@ -81,6 +81,14 @@ global:
 
 If the "On Activate" is connected to an input field, a button is added to the right of the input field, which can be clicked to run the action. Previously, this button was disabled when the field was empty. This decision should be made by the business engineer, not the platform. Therefore, this restriction has been removed.
 
+<!--ID 9793156a-0e92-dba4-ae8d-6dbaaedeee13 -->
+**#23655 Sign in history has been removed**
+
+Sign-in history functionality has been removed from the platform. The following action must be performed. 
+**All occurrences of Delete Effects that delete sign-in history must be removed.**
+
+Without performing the described step, the error message *"Unhandled audit object storage. Id = 4627"* will be displayed to the user/or logged.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
