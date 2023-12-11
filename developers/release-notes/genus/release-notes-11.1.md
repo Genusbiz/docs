@@ -92,7 +92,31 @@ Without performing the described step, the error message *"Unhandled audit objec
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID c1d19bb8-e7a1-f424-b1e6-711362ccc23f -->
+**#23656 New features in the 4 chart controls:**
+
+* Bar, Line, Area (formerly BarPlot)
+   * BarPlot is now called Bar, Line, Area and is a dynamic chart control which supports charts of type Bar (Column), Line and Area.
+   * Bar, Line Area, also supports multiple data series.
+      * Show Average, Color Set and Type is moved into the data series edit (from the BarPlot control itself), so different data series can have different settings for color, average line and chart type.
+   * Data series using different value axes is now supported.
+   * Validation (in the designer) for multiple data series in Bar, Line, Area
+   * Improved default values in the configs.
+* Categories (formerly Category axes)
+   * The "Category axes" config is renamed to "Categories" and now supports chosing one of the created categories as *active* in the categories collection edit dialog. The chosen category wil be used for all data series in the control.
+      * If no category is chosen as active, the first/top one is used.
+* Data Series
+   * Increased the size of the data series collection edit dialog to reduce the need for scrolling to find all configs.
+   * Add a label config to a data series. (Shown in the tooltip when hovering over a point in the chart)
+* PiePlot
+   * Bug fixes for value labels, pie sizing and center label + center value
+   * Fixed PiePlot crashing on load when Scatter or Box Plot simultaneously was being loaded.
+   * Text in the center value or center label will now be cut off (ellipsis) if the rendered text length exceeds that of the pie's diameter of which the center label and value is in.
+   * Pie as default over Doughnut
+* Other
+   * The four chart controls are organized as their own section in the controls list in the page designer.
+   * Tests, bug fixes for all chart controls
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
