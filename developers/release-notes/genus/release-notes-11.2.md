@@ -4,7 +4,7 @@ description: User-visible changes to Genus from release 11.1 to 11.2.
 author: jtroset
 ---
 
-# Release notes for Genus 11.1
+# Release notes for Genus 11.2
 
 ## Introduction
 
