@@ -41,6 +41,15 @@ global:
 
 **This affectes both Genus 11.1 and Genus Operator 7.1.**
 
+<!--ID 1df954e5-1cef-4bc1-8fee-fb3eb8ecfa8a -->
+**#23658 Change in versioning strategy for Genus Opeartor**
+
+Starting with the version following 7.1 of Genus Operator, the version number will match the version number of Genus. 
+
+This means that the next version will be 11.2, and that version of Operator will work with the 11.2 version of Genus. In the future, all version numbers of Genus and Genus Operator will be 1:1.
+
+The reason for this is that we are working on moving some functionality from Genus Studio to Genus Operator, and for this to work, the versions will be tightly coupled and will need to be upgraded at the same time.
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
