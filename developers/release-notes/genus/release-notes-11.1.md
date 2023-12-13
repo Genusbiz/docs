@@ -41,6 +41,15 @@ global:
 
 **This affectes both Genus 11.1 and Genus Operator 7.1.**
 
+<!--ID 1df954e5-1cef-4bc1-8fee-fb3eb8ecfa8a -->
+**#23658 Change in versioning strategy for Genus Opeartor**
+
+Starting with the version following 7.1 of Genus Operator, the version number will match the version number of Genus. 
+
+This means that the next version will be 11.2, and that version of Operator will work with the 11.2 version of Genus. In the future, all version numbers of Genus and Genus Operator will be 1:1.
+
+The reason for this is that we are working on moving some functionality from Genus Studio to Genus Operator, and for this to work, the versions will be tightly coupled and will need to be upgraded at the same time.
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
@@ -88,6 +97,13 @@ Sign-in history functionality has been removed from the platform. The following 
 **All occurrences of Delete Effects that delete sign-in history must be removed.**
 
 Without performing the described step, the error message *"Unhandled audit object storage. Id = 4627"* will be displayed to the user/or logged.
+
+<!--ID 34504e67-a09f-4bbd-b248-f3fe3c49d788 -->
+**#23657 Background color is no longer set when a component is embedded in a page**
+
+Earlier, all components had a background color set implicitly. This caused problems when a component was embedded in for instance a repeating containter where the background changes depending on state (for instance on hover) As a result of this change, some components may no longer have the expected background. 
+
+You need to change your components where a specific color is desired.
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
