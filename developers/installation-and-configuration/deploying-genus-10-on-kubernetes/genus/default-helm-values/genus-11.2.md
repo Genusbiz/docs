@@ -299,10 +299,10 @@ genus-carddav-service:
     namespaceListForPodAntiAffinity: []
   resources: 
     requests:
-      memory: "50Mi"
+      memory: "100Mi"
       cpu: "25m"
     limits:
-      memory: "100Mi"
+      memory: "300Mi"
       cpu: "500m"
 
 genus-live-update-input-service:
@@ -492,6 +492,7 @@ global:
   enableSentryPerformance: false
   disableTraceLog: false
   nodeExtraCACerts: ""
+  operatorUrlOverride: ""
   automountServiceAccountToken: false
   clusterDomain: cluster.local
   noSearchEngineIndexing: false
