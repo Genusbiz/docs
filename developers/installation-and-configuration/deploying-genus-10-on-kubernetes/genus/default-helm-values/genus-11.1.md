@@ -492,7 +492,6 @@ global:
   enableSentryPerformance: false
   disableTraceLog: false
   nodeExtraCACerts: ""
-  operatorUrlOverride: ""
   automountServiceAccountToken: false
   clusterDomain: cluster.local
   noSearchEngineIndexing: false
