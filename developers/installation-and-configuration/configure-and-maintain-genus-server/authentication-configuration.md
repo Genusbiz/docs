@@ -1,6 +1,6 @@
 # Configure Authentication for Genus Services
 
-The new Genus authentication offers several ways to authenticate users, including third party identity providers like ID-Porten, BankID, etc. as well as Azure Active Directory, Genus Native and customer specific OAuth2 authentication. To use any of these identity providers one must register an app or authentication client with the desired identity providers and configure the authentication client correctly. Required information/setup for each provider include client ID, client secret and a callback URL which is generated and set up either by using their developer portals or by contacting the provider directly.
+The new Genus authentication offers several ways to authenticate users, including third party identity providers like ID-Porten, BankID, etc. as well as Microsoft Entra ID, Genus Native and customer specific OAuth2 authentication. To use any of these identity providers one must register an app or authentication client with the desired identity providers and configure the authentication client correctly. Required information/setup for each provider include client ID, client secret and a callback URL which is generated and set up either by using their developer portals or by contacting the provider directly.
 
 Genus supports the following identity providers:
 <!--
