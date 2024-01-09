@@ -30,7 +30,11 @@ Prior to upgrading to this release, you must:
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no end-of-life functionality identified in this release.
+<!--ID 2b93e5dc-69ac-4587-9a6d-629c67879b5e -->
+**#23662 End of life for agents and old message queue mechanism**
+
+Agents and the former message queue mechanism will be replaced in the next version  by scheduled actions and a new message queue mechanism, respectively. Version 10.23 serves as a "transitional" release in this regard, enabling users to switch between the old and new mechanisms.
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
