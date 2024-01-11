@@ -544,12 +544,9 @@ global:
       scriptOutput: "scriptOutput.sql"
       traceOutput: "traceOutput.txt"
   database:
-    activeConnectionString: ""
-    activeDb: ""
-    activeSchema: ""
-    descriptiveConnectionString: ""
-    descriptiveDb: ""
-    descriptiveSchema: ""
+    appModelConnectionString: ""
+    appModelDatabase: ""
+    appModelSchema: ""
     vendorVersion: ""
     caseInsensitiveSearch: ""
   dnsSuffix: ''
