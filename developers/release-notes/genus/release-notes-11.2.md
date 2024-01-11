@@ -67,7 +67,7 @@ Active and descriptive are now merged. This means that any the following helm va
 global:
   database:
     activeConnectionString      => appModelConnectionString
-    activeDb                    => appModelDb
+    activeDb                    => appModelDatabase
     activeSchema                => appModelSchema
     descriptiveConnectionString => DELETE
     descriptiveDb               => DELETE
