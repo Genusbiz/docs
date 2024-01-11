@@ -91,12 +91,9 @@ All microservices can be configured with the following common helm values.
 | genus-desktop-frontend | _See [Microservice helm values](#microservice-helm-values)_ | |
 | global | | |
 | global.database | | |
-| global.database.activeConnectionString | | "" |
-| global.database.activeDb | | "" |
-| global.database.activeSchema | | "" |
-| global.database.descriptiveConnectionString | | "" |
-| global.database.descriptiveDb | | "" |
-| global.database.descriptiveSchema | | "" |
+| global.database.appModelConnectionString | | "" |
+| global.database.appModelDatabase | | "" |
+| global.database.appModelSchema | | "" |
 | global.database.vendorVersion | Can be any of:<br/> Microsoft SQL Server <br/> Microsoft SQL Server 2008 R2<br/> Microsoft SQL Server 2012<br/> Microsoft SQL Server 2014<br/> Microsoft SQL Server 2016<br/> Azure SQL<br/> Azure SQL V12<br/> ORACLE<br/> ORACLE 10.0g<br/> ORACLE 11g<br/> ORACLE 11g R2<br/> ORACLE 12.1c<br/> MYSQL<br/> MYSQL 5.7<br/> PostgreSQL<br/> PostgreSQL 9.2<br/> DB2<br/> DB2 10.1<br/> TIBCO TDV<br/> TIBCO TDV 8.2.0 | "" |
 | global.database.caseInsensitiveSearch | | "" |
 | global.jobs | | |
