@@ -42,7 +42,40 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID b05bbeae-bccc-4816-a8a0-82cef1ab34d1 -->
+**#23661 Width & height are removed from several actions, instead being determined by page preferred size**
+
+Width and height are removed from the following client actions:
+   * open page modal
+   * open select objects dialog
+   * show callout
+
+Their sizing is now solely determined by the specified size of the contained page. In the case where the width or height of the page is specified as stretch, Genus now relies on "preferred width/height", found in the page config.
+
+Combining preferred width/height with non-stretchy viewports is not intended.
+
+Sizing specified by the contained page will not necessarily produce equal sizing as previous action configs. Layout introduced by these elements (e.g. modal borders, headers etc.) are additional to the page layout and size, whereas the previous configs determined the element's entire size.
+
+Additionally, "Page / Component" controllers specified as fit-to-content will now use the preferred width/height of the page, if specified.
+
+<!--ID 9d4819f2-d008-4c12-9507-88e2e24d20f2 -->
+**#23663 Active and descriptive are now merged**
+
+Active and descriptive are now merged. This means that any the following helm values must be updated after running script 46.0.23:
+
+```
+global:
+  database:
+    activeConnectionString      => appModelConnectionString
+    activeDb                    => appModelDb
+    activeSchema                => appModelSchema
+    descriptiveConnectionString => DELETE
+    descriptiveDb               => DELETE
+    descriptiveSchema           => DELETE
+```
+
+The value for appModelSchema should also be updated to the new name of the merged schema.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
