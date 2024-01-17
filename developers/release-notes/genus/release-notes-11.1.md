@@ -168,6 +168,12 @@ This should result in lower infrastructure cost, and better persistance for the 
 To use  **samAccountName** one must add a new [ClaimsMappingPolicy](https://securecloud.blog/2019/06/06/add-samaccountname-to-azure-ad-access-token-jwt-with-claims-mapping-policy-and-avoiding-aadsts50146/) in Azure on the Authenticator app registration and set the property **acceptMappedClaims** to true in the app registration manifest.
 Any other account id property value than **samAccountName** will fallback to **upn**.
 
+<!--ID 84a9266e-1fad-42ee-81a7-ea8dd4416590 -->
+**#23664 Trigger Server Action from Desktop**
+
+It is now possible to trigger a Server Action to run on the server from Desktop. 
+This is done using the _Run an Action_ effect and selecting the _Run on Server_ checkbox in the effect dialog.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
