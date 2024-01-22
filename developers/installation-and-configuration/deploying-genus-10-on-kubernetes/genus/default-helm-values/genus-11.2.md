@@ -44,6 +44,20 @@ genus-key-value-store-service:
       memory: 500Mi
       cpu: 200m
 
+genus-kafka-io-service:
+  enabled: false
+  replicaCount: 1
+  restartWithModelPublish: true
+  affinityScheduling: 
+    enabled: false
+    namespaceListForPodAntiAffinity: []
+  resources:
+    requests:
+      memory: 200Mi
+      cpu: 50m
+    limits:
+      memory: 800Mi
+
 genus-redis-io-service:
   enabled: true
   replicaCount: 1
@@ -710,6 +724,10 @@ global:
       sentinel:
         http: 26379
         https: 9279
+    kafkaIoService:
+      main:
+        http: 8094
+        https: 9443
     redisIoService:
       main:
         http: 8094
