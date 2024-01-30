@@ -519,6 +519,7 @@ global:
     awsAlbControllerEnabled: false
     ingressWildCardPathEnabled: false
     tlsConfigEnabled: false
+    secretNameOverride: ""
   traceLog:
     enabled: true
     timing: false
