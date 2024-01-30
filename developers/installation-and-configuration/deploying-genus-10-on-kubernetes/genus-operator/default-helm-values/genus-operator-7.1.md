@@ -15,6 +15,7 @@ global:
   pitTlsTerminator:
     enabled: false
   customer: ""
+  contact: ""
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: true
   authMethod: "MS Entra ID"
@@ -40,6 +41,7 @@ global:
     annotations: {}
     agicLetsEncryptEnabled: false
     ingressWildCardPathEnabled: false
+    secretNameOverride: ""
   nginx-exporter:
     image: nginx/nginx-prometheus-exporter:0.8.0
   rbac:
