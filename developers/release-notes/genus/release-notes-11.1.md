@@ -105,6 +105,11 @@ Earlier, all components had a background color set implicitly. This caused probl
 
 You need to change your components where a specific color is desired.
 
+<!--ID 58ebba74-247b-493d-aeea-0e0e00da5a3e -->
+**#23665 Default page p&aring; web**
+
+We can now define multiple page links to web pages on the Object Class and select one of them as default. The new page link also includes an app. The old definition witch only included a page is no longer available
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
