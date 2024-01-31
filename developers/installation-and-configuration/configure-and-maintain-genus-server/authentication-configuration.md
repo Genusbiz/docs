@@ -9,11 +9,11 @@ Genus supports the following identity providers:
 - [Facebook](https://developers.facebook.com/)
 - [Github](https://github.com/settings/developers)
 - [Instagram](https://www.instagram.com/developer/authentication/)
-- [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
 - [xID by BankID](https://www.bankid.no/bedrift/kom-i-gang/)-->
 - Active Directory Federation Services (a user for reading users is needed, contact the administrator)
 - [Microsoft Entra ID](https://portal.azure.com) (formerly Azure Active Directory)
 - [ID-Porten](https://samarbeid.digdir.no/)
+- [BankID](https://www.bankid.no/bedrift/kom-i-gang/)
 - [AnsattPorten](https://samarbeid.digdir.no/)
 - __Genus Native__ (username/password) (Forms Authentication)
 - __Custom__ OAuth2 authentication for customer specific authentication
@@ -42,6 +42,14 @@ Add the desired providers by selecting the provider type, set the display name a
   - _idPortenCallbackUrl_ should be "/-/auth/idporten/callback"
   - _idPortenEndsessionUrl_ should be "https://login.idporten.no/logout"
   - _idPortenPostLogoutUrl_ where to send the user after they log out
+- For __BankID__ (see [prod .well-known](https://auth.bankid.no/auth/realms/prod/.well-known/openid-configuration) for production values and [test .well-known](https://auth.current.bankid.no/auth/realms/current/.well-known/openid-configuration) for test values):
+  - _bankIDIssuer_ should be "https://auth.current.bankid.no/auth/realms/current"
+  - _bankIDAuthUrl_ should be "https://auth.bankid.no/auth/realms/prod/precheck/auth"
+  - _bankIDTokenUrl_ should be "https://auth.bankid.no/auth/realms/prod/protocol/openid-connect/token"
+  - _bankIDUserInfo_ should be "https://userinfo.bankid.no/userinfo"
+  - _bankIDUserInfoIssuer_ should be "https://auth.current.bankid.no/auth/realms/current"
+  - _bankIDCallbackUrl_ should be "/-/auth/bankid/callback"
+  - _bankIDCertUrl_ should be "https://auth.bankid.no/auth/realms/prod/protocol/openid-connect/certs"
 - For __AnsattPorten__ (see [prod .well-known](https://ansattporten.no/.well-known/openid-configuration) for production values and [test .well-known](https://test.ansattporten.no/.well-known/openid-configuration) for test values):
   - _ansattPortenIssuer_ should be "https://ansattporten.no"
   - _ansattPortenAuthUrl_ should be "https://login.ansattporten.no/authorize"
