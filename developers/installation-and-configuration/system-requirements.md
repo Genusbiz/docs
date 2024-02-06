@@ -60,7 +60,7 @@ We recommend keeping your computer up to date with the latest updates and servic
 **Infrastructure requirements**
 * Cloud or on-prem Kubernetes cluster running Linux worker nodes.
 Minimum hardware requirements:
-    *	Linux node hardware: 4 CPU, 16 GB RAM, 100 GB
+    *	4 CPU, 16 GB RAM, 100 GB
 *	Kubernetes version v.1.24 to v.1.27
 *	Kubectl client for managing cluster
 
