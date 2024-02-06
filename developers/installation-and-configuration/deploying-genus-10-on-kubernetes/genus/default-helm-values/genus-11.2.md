@@ -577,7 +577,7 @@ global:
   virtualDirectory: '--'
   dataSetURL: ''
   altDataSetURLs: []
-  lang: "en_US.UTF-8"
+  lang: "nb_NO.UTF-8"
   timezone: Europe/Oslo
   windowsTimezone: 'W. Europe Standard Time'
   enableDebugInformation: false
