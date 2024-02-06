@@ -58,16 +58,14 @@ We recommend keeping your computer up to date with the latest updates and servic
 *Versions later than 2022.1 run on Kubernetes clusters and not on traditional application servers as earlier versions.*
 
 **Infrastructure requirements**
-* Cloud or on-prem Kubernetes cluster running both Linux and Windows worker nodes (support for Windows containers).
+* Cloud or on-prem Kubernetes cluster running Linux worker nodes.
 Minimum hardware requirements:
-    *	Linux node hardware: 2 CPU, 8 GB RAM, 100 GB
-    *	Windows node hardware: 4 CPU, 16 GB RAM, 100 GB
-*	Windows node OS: Windows Server 2019 -Server Core and Server with Desktop Experience (minimum version 1809/LTSC)
-*	Kubernetes version v.1.19 to v.1.23
+    *	Linux node hardware: 4 CPU, 16 GB RAM, 100 GB
+*	Kubernetes version v.1.24 to v.1.27
 *	Kubectl client for managing cluster
 
 Kubernetes provides architecture for sharing the worker nodes resources efficiently and scale up and down the number of nodes and pods as needed. 
-We recommend a cluster of minimum of 2 windows and 3 linux worker nodes to provide redundance and performance.
+We recommend a cluster of minimum of 4 worker nodes to provide redundance and performance.
 
 **DevOps recommendations**
 *	Elastic Search or equivalent: For indexing and searching logs from cluster and microservices
