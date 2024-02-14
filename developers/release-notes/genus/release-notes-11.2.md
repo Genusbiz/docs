@@ -88,6 +88,19 @@ There are no major new functionality in this release.
 
 Test
 
+<!--ID 987319d9-0efa-46ea-8f86-b01a36ae8c80 -->
+**#23667 Changes to how scaling of pods work after downtime/restart/publishing**
+
+Previously, at the start of an availability window or after a restart of the runtime, Genus Operator would attempt to scale the microservices back to the number of replicas they would have before the downtime or the restart.
+
+This functionality has been simplified, and now works as follows:
+
+- If a deployment is scaled from Genus Operator, scale back to this value.
+- If a deployment is scaled by a Horizontal Pod Autoscaler (HPA), scale to 1 and let the HPA take it from there.
+- If none of the above, scale back to the default value set by the helm value when deploying Genus.
+
+In practice, the result will be the same as before, **except** if a deployment is scaled by a third party, such as from Kubectl. Previously, Genus Operator would attempt to scale back to this value, but this is no longer the case.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
