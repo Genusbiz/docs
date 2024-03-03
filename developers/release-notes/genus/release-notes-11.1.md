@@ -42,7 +42,7 @@ global:
 **This affectes both Genus 11.1 and Genus Operator 7.1.**
 
 <!--ID 1df954e5-1cef-4bc1-8fee-fb3eb8ecfa8a -->
-**#23658 Change in versioning strategy for Genus Opeartor**
+**#23658 Change in versioning strategy for Genus Operator**
 
 Starting with the version following 7.1 of Genus Operator, the version number will match the version number of Genus. 
 
