@@ -83,11 +83,6 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID c6d66445-7b8f-4cd3-906d-1bbd0231d126 -->
-**#23660 Test**
-
-Test
-
 <!--ID 987319d9-0efa-46ea-8f86-b01a36ae8c80 -->
 **#23667 Changes to how scaling of pods work after downtime/restart/publishing**
 
