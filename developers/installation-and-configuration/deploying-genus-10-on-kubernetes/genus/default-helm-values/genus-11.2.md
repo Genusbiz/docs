@@ -12,7 +12,7 @@ genus-database-dictionary-service:
       cpu: 10m
     limits:
       memory: 500Mi
-      cpu: 200m
+      cpu: 1000m
 
 genus-object-storage-service:
   enabled: true
