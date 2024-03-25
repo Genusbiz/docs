@@ -46,7 +46,15 @@ There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID fe3254e1-1189-4078-93f5-1308bca6794d -->
+**#23668 Runtimes is moved from Studio to Operator**
+
+The Runtimes page is removed from Genus Studio and its functionality is moved to Genus Operator. 
+
+It is now possible to create, edit and delete Genus Runtimes from Genus Operator. 
+
+The restart runtime function is removed. In cases where it is required to restart some or all the pods in a runtime, this can be done from Pods-table.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
