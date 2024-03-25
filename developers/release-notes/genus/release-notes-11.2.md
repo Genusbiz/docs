@@ -76,10 +76,51 @@ global:
 
 The value for appModelSchema should also be updated to the new name of the merged schema.
 
+<!--ID 83e267ba-b4c9-4f6d-86c9-50f0e101e031 -->
+**#23669 Changes to generic search on full text columns**
+
+Applies to generic search algorithm when there is more than one generic search field, and all are full-text fields.
+
+Consider the search for "AAA BBB" on a table MyTable with generic fields X and Y
+
+Before:
+
+SELECT ... FROM MyTable WHERE CONTAINS(X,'"AAA*"') AND CONTAINS(X,'"BBB*"')
+UNION
+SELECT ... FROM MyTable WHERE CONTAINS(X,'"AAA*"') AND CONTAINS(Y,'"BBB*"')
+UNION
+SELECT ... FROM MyTable WHERE CONTAINS(Y,'"AAA*"') AND CONTAINS(X,'"BBB*"')
+UNION
+SELECT ... FROM MyTable WHERE CONTAINS(Y,'"AAA*"') AND CONTAINS(Y,'"BBB*"')
+
+Now:
+
+SELECT ... FROM MyTable WHERE CONTAINS(X,'"AAA*"') AND CONTAINS(X,'"BBB*"')
+UNION
+SELECT ... FROM MyTable WHERE CONTAINS(Y,'"AAA*"') AND CONTAINS(Y,'"BBB*"')
+
+
+In short, all the words are expected to be found in a single field.
+
+For searches where tokens should be found cross multiple fields, use a combined (generated) search field, or use * where supported by the rdbms.
+
+In addition to this change, if the class has a lookup field, and the search term is compatible, it will generate an additional:
+
+UNION
+SELECT ... FROM MyTable WHERE <identifying-field> = 'AAA BBB'
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID fe3254e1-1189-4078-93f5-1308bca6794d -->
+**#23668 Runtimes is moved from Studio to Operator**
+
+The Runtimes page is removed from Genus Studio and its functionality is moved to Genus Operator. 
+
+It is now possible to create, edit and delete Genus Runtimes from Genus Operator. 
+
+The restart runtime function is removed. In cases where it is required to restart some or all the pods in a runtime, this can be done from Pods-table.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -95,6 +136,13 @@ This functionality has been simplified, and now works as follows:
 - If none of the above, scale back to the default value set by the helm value when deploying Genus.
 
 In practice, the result will be the same as before, **except** if a deployment is scaled by a third party, such as from Kubectl. Previously, Genus Operator would attempt to scale back to this value, but this is no longer the case.
+
+<!--ID 079cb193-adc2-4658-8008-71c133f40a88 -->
+**#23670 Paste functionality added to existing file drop zones**
+
+Controllers with file drop enabled now also accept pasting files. This is done by selecting the controller, either by clicking or tabbing, then pressing "ctrl-v".
+
+For repeating containers and tables, selecting descendent elements (internal components or rows/cells) also works.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
