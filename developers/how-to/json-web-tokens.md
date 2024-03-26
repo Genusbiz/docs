@@ -29,9 +29,11 @@ Download openssl.exe and run the following commands:
 
 As the result you will get three files, and in certificate.key.rsa.pem you'll find the following section:
 
+```
 -----BEGIN RSA PRIVATE KEY-----<br>
 .....<br>
 -----END RSA PRIVATE KEY-----<br>
+```
 
 Copy the whole block and use it as the private key.
 
@@ -66,4 +68,13 @@ These are the custom claims created to share information between parties that ag
 ## Example
 The following example creates a JWT to use towards Maskinporten:
 
-JsonWebToken.createToken("{\"x5c\": [\"" + localObject.certificate + "\"]}" , "{\"aud\": \"https://ver2.maskinporten.no/\", \"iss\": \"a42439c8-8f07-4754-aa72-21b153bf65f5\",\"scope\": \"svv:kjoretoy/periodiskkontroll\", \"exp\":"+ CalendarTime.now().addSeconds(120).toUnixTime(false).toString() +",\"iat\":"+ CalendarTime.now().toUnixTime(false).toString() +", \"jti\": \"E9BF7EBA-F120-4B4A-8C02-8BE07CB309E7\", \"resource\": \"https://www.test.vegvesen.no\"}", "RS256", localObject.privateKey, false).toString()
+```
+JsonWebToken.createToken(
+  "{\"x5c\": [\"" + localObject.certificate + "\"]}" ,
+  "{\"aud\": \"https://ver2.maskinporten.no/\", \"iss\": \"a42439c8-8f07-4754-aa72-21b153bf65f5\",\"scope\": \"svv:kjoretoy/periodiskkontroll\", \"exp\":"+ 
+  CalendarTime.utcNow().addSeconds(120).toUnixTime(true).toString() +",\"iat\":"+ CalendarTime.utcNow().toUnixTime(true).toString() +", \"jti\": \"E9BF7EBA-F120-4B4A- 
+  8C02-8BE07CB309E7\", \"resource\": \"https://www.test.vegvesen.no\"}",
+  "RS256",
+  localObject.privateKey,
+  false).toString()
+```
