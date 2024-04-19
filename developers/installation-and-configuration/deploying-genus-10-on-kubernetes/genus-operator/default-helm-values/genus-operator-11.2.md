@@ -18,7 +18,14 @@ global:
   contact: ""
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: true
-  authMethod: "MS Entra ID"
+  auth:
+    method: "MS Entra ID"
+    MSEntraId:
+      tenantId: ""
+      clientId: ""
+      clientSecret: ""
+      operatorGroupId: ""
+      redirectUri: ""
   imagePullSecrets: 
   - name: "genus-regcred-azure"
   traceLog:
