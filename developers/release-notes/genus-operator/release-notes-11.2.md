@@ -42,7 +42,24 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 9d4819f2-d008-4c12-9507-88e2e24d20f2 -->
+**#23663 Active and descriptive are now merged**
+
+Active and descriptive are now merged. This means that any the following helm values must be updated after running script 46.0.23:
+
+```
+global:
+  database:
+    activeConnectionString      => appModelConnectionString
+    activeDb                    => appModelDatabase
+    activeSchema                => appModelSchema
+    descriptiveConnectionString => DELETE
+    descriptiveDb               => DELETE
+    descriptiveSchema           => DELETE
+```
+
+The value for appModelSchema should also be updated to the new name of the merged schema.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
