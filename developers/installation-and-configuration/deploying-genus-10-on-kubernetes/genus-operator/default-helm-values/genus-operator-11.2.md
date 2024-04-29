@@ -19,7 +19,7 @@ global:
   dnsSuffix: ""
   environmentAvailabilityControlEnabled: true
   auth:
-    method: "MS Entra ID"
+    method: "Cookie"
     MSEntraId:
       tenantId: ""
       clientId: ""
