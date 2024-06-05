@@ -109,6 +109,48 @@ In addition to this change, if the class has a lookup field, and the search term
 UNION
 SELECT ... FROM MyTable WHERE <identifying-field> = 'AAA BBB'
 
+<!--ID b56a108e-9757-4a41-a1bd-568e2db28ef1 -->
+**#23673 Breaking change in Pie Plot and Bar, Line, Area (Bar Plot)**
+
+<b>The setup and meta model for these two chart controls is now altered in a way leading to a breaking change. The controls will need re-modelling. </b>
+ 
+<h3>Short version:</h3>
+The business engineer now needs to set a MANDATORY category, by choosing an object reference field from the main data binding of the control/data series. This effectively removes auto categories, i.e. there being a 1-1 relationship between a category and an object/data row in the main data binding. (Automatic generation of the categories). 
+<br/>
+<br/>
+<h3>Longer version:</h3>
+<h4>Pie Plot:</h4>
+Previously, one could use <b>auto categories</b> by having each "pie" in the chart originating from an object in the data binding. Now, after choosing a data binding, the business engineer has to choose a <b>category object reference</b> from a drop down (whose options are generated from the different reference fields available on the object class of the data binding).
+<br/>
+<br/>
+The business engineer then must choose one of two options for the categories: <b>Specified in data set</b> or <b>Derived from data</b>. 
+<br/>
+<br/>
+If Specified in data set is chosen, a data set of the same data source type must be chosen. The "pies" in the chart will then correspond 1-1 to objects in the chosen data set. Even if no object from the main data binding "points" to the category, the category will still be present in the pie, legend, and value labels, as an "empty pie".
+<br/>
+<br/>
+If Derived from data is chosen, no data set needs to be chosen. The only categories (pies) which will appear will be the ones referenced as field values from objects in the main data binding. 
+<br/>
+<br/>
+Another new config in the pie plot is the <b>Data may contain duplicates per category</b> switch. If enabled, the business engineer must choose a <b>local aggregation method</b> (sum, min or max) for handling the mapping of duplicate value objects into a single category. If disabled, and duplicates still occur in the runtime data, the pie plot will be replaced by an inline error message box. (Duplicates in the data prevents the use of functionality for exploring the source data of an Aggregate Object Class.)
+<br/>
+<br/>
+<h4>Bar, Line, Area:</h4>
+The changes in this control are similar but distributed in the category edit and data series edit modal. 
+<br/>
+<br/>
+As presently, the business engineer defines categories, value axes and data series separately in each their own modal. Choosing a category composition, category data set vs. derived categories and potentially a category data set is done in the category configuration. Allowing duplicate data per category and potentially a local aggregation method is done in the data series configuration. 
+<br/>
+<br/>
+Choosing a category field in each data series is now mandatory, rather than only required when a non-auto category was chosen as the axis category.
+<br/>
+<br/>
+<h5>Remark:</h5>
+The data set in context in the page designer will be affected by the categories being derived or not, and whether the control/data series allows duplicate data entries per category. 
+<br/>
+<br/>
+Selection is also affected by the same two parameters.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
