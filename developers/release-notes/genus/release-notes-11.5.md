@@ -30,7 +30,12 @@ Prior to upgrading to this release, you must:
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no end-of-life functionality identified in this release.
+<!--ID 5fec7424-254f-4ca1-8468-d4721e0d2434 -->
+**#23682 Audit Trail on built in types is deprecated**
+
+These audit trails had limited value as long as they mostly consisted of modified xml documents.
+Execution logs for appliccable types are still available, but now moved to a separate log.
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
