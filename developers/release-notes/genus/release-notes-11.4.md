@@ -52,6 +52,12 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 2fdcbc6e-f4e5-4e89-a171-55800ec9f34d -->
+**#23677 Need to specify Sql Server 2022**
+
+To handle DATETRUNC, *Sql Server 2022* is introduced as a vendor version.
+Models with database vendor version set to *Sql Server 2016* running on 2022 **must change this setting**.
+
 <!--ID 23508d6c-56a8-4dfd-80af-620bed13a445 -->
 **#23680 Data Marts are now part of the published model**
 
@@ -64,7 +70,18 @@ There are no major new functionality in this release.
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no minor new functionality in this release.
+<!--ID 1fd342a7-49c3-4a21-97b7-b7db6df0cc48 -->
+**#23678 Auto Focus target changed on Dialog, Callout, and Sidebar**
+
+The Dialog, Callout or Sidebar is now put in focus when opened, instead of its first descendent input control
+
+<!--ID 55c922e9-8f35-4917-bbdd-72530cf0de3a -->
+**#23681 User Management in Desktop**
+
+Adding a new user from a table or form in desktop is now routed to the User Administration web app.
+There is no direct mapping of user name, account profile, or such on the web (yet).
+If this functionality is in demand, let ut know.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
