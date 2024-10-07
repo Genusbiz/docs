@@ -23,6 +23,13 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 9c55ada5-2c30-4816-ad8d-caf280dde86f -->
+**#23676 Redis Upgrade**
+
+Operator version 11.3 includes a new version of Redis. When upgrading to this version all sessions will be removed. This means that all users will be logged out when upgrading to Operator 11.3
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
@@ -36,7 +43,13 @@ There are no end-of-life functionality identified in this release.
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There is no deprecated functionality in this release.
+<!--ID 416da1b5-160c-492e-9a34-2b45ce3ab5cc -->
+**#23672 Rerun -functionality for rest and soap services will be removed**
+
+The *Consume a Web Service* and *Consume a Rest Service* effects both have a **Rerun Attempts** functionality.
+This functionality does not provide the desired functionality, thus it will be removed in release 11.3.
+The functionality can normally be modelled with a *Descicion* - or *While* block.
+
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Breaking changes
 
