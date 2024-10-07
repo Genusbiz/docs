@@ -60,6 +60,11 @@ global:
 
 The value for appModelSchema should also be updated to the new name of the merged schema.
 
+<!--ID 7a6f20fd-785b-462c-9477-10d6bd15c044 -->
+**#23675 Mail Merge (Word) has stricter decimal separator interpretation (third party)**
+
+Mail Merge templates (Word based) with improper decimal separators may behave differently starting from 11.2. Previous versions of the third party library (Aspose) were seemingly more forgiving.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -71,6 +76,26 @@ The Runtimes page is removed from Genus Studio and its functionality is moved to
 It is now possible to create, edit and delete Genus Runtimes from Genus Operator. 
 
 The restart runtime function is removed. In cases where it is required to restart some or all the pods in a runtime, this can be done from Pods-table.
+
+<!--ID 504cee10-a7d3-42dc-b68d-5286e720fc5e -->
+**#23674 Genus Operator now supports signing in with MS Entra ID**
+
+It is now possible to choose to sign in with MS Entra ID for Genus Operator. This requires first setting up an application in Azure, and then setting the Helm values described below.
+
+To read about what to do in Azure, see the article "Setting up MS Entra ID (Azure AD) for login" in Community.
+
+The following Helm values must be configured to use MS Entra ID:
+```
+global:
+  auth:
+    method: "MS Entra ID" # default is "Cookie"
+    MSEntraId:
+      tenantId: "{See article about where to find this value}"
+      clientId: "{See article about where to find this value}"
+      clientSecret: "{See article about where to find this value}"
+      operatorGroupId: "{See article about where to find this value}"
+      redirectUri: "{See article about where to find this value}"
+```
 
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
