@@ -29,107 +29,60 @@ Prior to upgrading to this release, you must:
 ## End-of-life functionality
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
-
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no end-of-life functionality identified in this release.
-
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
-
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There is no deprecated functionality in this release.
-
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
-
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID b56a108e-9757-4a41-a1bd-568e2db28ef1 -->
-
-**#23673 Breaking change in Pie Plot and Bar, Line, Area (Bar Plot)**
-
-<b>The setup and meta model for these two chart controls is now altered in a way leading to a breaking change. The controls will need re-modelling. </b>
-
-<h3>Short version:</h3>
-The business engineer now needs to set a MANDATORY category, by choosing an object reference field from the main data binding of the control/data series. This effectively removes auto categories, i.e. there being a 1-1 relationship between a category and an object/data row in the main data binding. (Automatic generation of the categories). 
-<br/>
-<br/>
-<h3>Longer version:</h3>
-<h4>Pie Plot:</h4>
-Previously, one could use <b>auto categories</b> by having each "pie" in the chart originating from an object in the data binding. Now, after choosing a data binding, the business engineer has to choose a <b>category object reference</b> from a drop down (whose options are generated from the different reference fields available on the object class of the data binding).
-<br/>
-<br/>
-The business engineer then must choose one of two options for the categories: <b>Specified in data set</b> or <b>Derived from data</b>. 
-<br/>
-<br/>
-If Specified in data set is chosen, a data set of the same data source type must be chosen. The "pies" in the chart will then correspond 1-1 to objects in the chosen data set. Even if no object from the main data binding "points" to the category, the category will still be present in the pie, legend, and value labels, as an "empty pie".
-<br/>
-<br/>
-If Derived from data is chosen, no data set needs to be chosen. The only categories (pies) which will appear will be the ones referenced as field values from objects in the main data binding. 
-<br/>
-<br/>
-Another new config in the pie plot is the <b>Data may contain duplicates per category</b> switch. If enabled, the business engineer must choose a <b>local aggregation method</b> (sum, min or max) for handling the mapping of duplicate value objects into a single category. If disabled, and duplicates still occur in the runtime data, the pie plot will be replaced by an inline error message box. (Duplicates in the data prevents the use of functionality for exploring the source data of an Aggregate Object Class.)
-<br/>
-<br/>
-<h4>Bar, Line, Area:</h4>
-The changes in this control are similar but distributed in the category edit and data series edit modal. 
-<br/>
-<br/>
-As presently, the business engineer defines categories, value axes and data series separately in each their own modal. Choosing a category composition, category data set vs. derived categories and potentially a category data set is done in the category configuration. Allowing duplicate data per category and potentially a local aggregation method is done in the data series configuration. 
-<br/>
-<br/>
-Choosing a category field in each data series is now mandatory, rather than only required when a non-auto category was chosen as the axis category.
-<br/>
-<br/>
-<h5>Remark:</h5>
-The data set in context in the page designer will be affected by the categories being derived or not, and whether the control/data series allows duplicate data entries per category. 
-<br/>
-<br/>
-Selection is also affected by the same two parameters.
-
+There are no breaking changes in this release.
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Major new functionality
-
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no major new functionality in this release.
-
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Minor new functionality
-
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
+<!--ID 373b22d4-8db5-4bb9-8a51-e82900910e6e -->
+**#23684 Improvements in 2D Repeating Container**
 
-There are no minor new functionality in this release.
+To improve the preceived performance of 2D Repeating Container, we have added a few changes in the control that makes loading or scrolling feel smoother. Some of the new settings should be considered particularly for grids with distinct column and row headers. Part of goal with the improvements was to reduce the number of HTML elements added to the browser when using the 2D Repeating Container, as large data sets in the controls may be tough for the browser to handle.
+
+- **When scrolling, rendering will be postponed until the scroll operation has finished**. This will prevent the current problems with hang during scroll in previous versions of the component.
+- The new options **"Use Virtualization" and "Use Skeleton Loading" will give better control of appearance when loading and scrolling** a 2D Repeating Container. If Virtualization is turned on (default) cells outside the visible range will not be rendered. The setting "Use Skeleton Loading" (default on) will display a placeholder for cells until the content is loaded. If required, virtualization may be turned off, and all cells will be loaded initially. Setting this option allows smaller grids to be loaded completely from start, but may require more memory.  In all cases, cells positioned in a pinned row or column will be loaded initially. When using 2D Repeating Containers with large data sets, turning off "Use Skeleton Loading" will have an impact on performance, as the placeholder elements also contributes to the document size in the browser.
+- **Rows and Columns can have Color Sets and borders**. This gives the ability to style the 2D Repeating container as a grid without having to set background and borders on individual cells. Color Set can also be set conditionally. Moving large parts of the styling from cells to rows and columns will have an impact on performance.
+- The option **"Appear Interactive"** on grid cells will make the grid more alive. Appear Interactive will use the Color Set assigned to the cell and display the hover and focus states when the cell is hovered or if focus is set within the cell.
+
+<!--ID d59a8611-cb7f-4650-aab1-8de80a2a550f -->
+**#23685 Find Usage of Action Effect and Control Types**
+
+Added support for find usage of different server- and client effect types, and control types used in page and components. E.g. you can search for usage of a specific server action effect type, such as *Consume a REST Service*, located in global and local server actions, rules, REST services, and SOAP services. When opening an object containing the requested effect type, all effects of the given type is highlighted in the action flow.
+
+To initiate a search, select *Find Usage* in the *Action* window menu in Studio.
+
+<!--ID 88dc50e2-b78f-46bb-a6bc-62b2f76faf25 -->
+**#23686 Highlight Usage of Effect Types in Server Actions**
+
+To highlight where a given type of block or effect is located in the action flow, select *Highlight Usage* in the context menu in the pane containing blocks, controls, and effects.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Resolved issues
-
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no resolved issues in this release.
-
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
-
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no known issues in this release.
-
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Tips and hints
 
 Tips and hints are design decisions or answers to support questions that may be of general interest.
@@ -137,5 +90,4 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
-
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
