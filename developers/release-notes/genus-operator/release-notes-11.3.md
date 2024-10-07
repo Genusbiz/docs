@@ -51,7 +51,11 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 7a6f20fd-785b-462c-9477-10d6bd15c044 -->
+**#23675 Mail Merge (Word) has stricter decimal separator interpretation (third party)**
+
+Mail Merge templates (Word based) with improper decimal separators may behave differently starting from 11.2. Previous versions of the third party library (Aspose) were seemingly more forgiving.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
