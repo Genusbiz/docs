@@ -590,17 +590,6 @@
     items:
     - name: Troubleshooting http response headers
       href: installation-and-configuration/troubleshooting/troubleshooting-http-response-headers.md
-  - name: Archived articles
-    href: installation-and-configuration/archive/index.md
-    items:
-    - name: Install Genus Desktop on your computer
-      href: installation-and-configuration/archive/install-genus-desktop-client-on-your-computer.md
-    - name: Install Genus Desktop silently for your users
-      href: installation-and-configuration/archive/install-genus-desktop-clients-silently-for-your-users.md
-    - name: CSIDL Constant Values for Various Microsoft Windows Versions
-      href: installation-and-configuration/archive/csidl-constant-values-for-various-microsoft-windows-versions.md
-    - name: Genus Desktop installer details
-      href: installation-and-configuration/archive/genus-desktop-client--installer-details.md
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
