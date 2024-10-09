@@ -540,12 +540,6 @@
       href: installation-and-configuration/installing-genus-desktop/genus-launcher-command-line.md
     - name: Registry settings
       href: installation-and-configuration/installing-genus-desktop/install-genus-registry-settings.md
-  - name: Install Genus Services on an application server
-    href: installation-and-configuration/install-genus-server-on-an-application-server.md
-  - name: Install and configure Genus Apps for Web
-    href: installation-and-configuration/install-genus-apps-for-web.md
-  - name: Install a license on Genus Services
-    href: installation-and-configuration/install-license-on-genus-server.md
   - name: Configure and maintain Genus Services
     href: installation-and-configuration/configure-and-maintain-genus-server/index.md
     items:
