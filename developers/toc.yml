@@ -543,25 +543,6 @@
   - name: Configure and maintain Genus Services
     href: installation-and-configuration/configure-and-maintain-genus-server/index.md
     items:
-    - name: Genus Services configuration
-      href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/index.md
-      items:
-      - name: Options
-        href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/options.md
-      - name: Directory properties
-        href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/directory-properties.md
-      - name: Data set properties
-        href: installation-and-configuration/configure-and-maintain-genus-server/genus-server-configuration/data-set-properties.md
-    - name: Configure Genus Services - step by step
-      href: installation-and-configuration/configure-and-maintain-genus-server/configure-genus-server--step-by-step.md
-    - name: Install a license on Genus Services
-      href: installation-and-configuration/install-license-on-genus-server.md
-    - name: Configure Authentication for Genus Services
-      href: installation-and-configuration/configure-and-maintain-genus-server/authentication-configuration.md
-    - name: Genus Services - logical services
-      href: installation-and-configuration/configure-and-maintain-genus-server/genus-server--logical-services.md
-    - name: App Services recycling
-      href: installation-and-configuration/configure-and-maintain-genus-server/app-services-recycling.md
     - name: Special considerations for Microsoft Sql Server
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sql-server.md
     - name: Special considerations for Azure SQL
