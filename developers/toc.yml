@@ -553,8 +553,6 @@
     href: guidelines-and-best-practices/improving-genus-apps-performance.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
-  - name: Genus Apps for Web hardening
-    href: guidelines-and-best-practices/genus-apps-for-web-hardening.md
   - name: REST service guidelines
     href: guidelines-and-best-practices/rest-service-guidelines.md
   - name: Web service guidelines
