@@ -553,14 +553,6 @@
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-oracle.md
     - name: Special considerations for Sybase
       href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sybase.md
-    - name: Automatically delete old log files
-      href: installation-and-configuration/configure-and-maintain-genus-server/automatically-delete-old-log-files.md
-    - name: Tuning Web Service performance
-      href: installation-and-configuration/configure-and-maintain-genus-server/tuning-web-service-performance.md
-    - name: Monitoring Genus Services
-      href: installation-and-configuration/configure-and-maintain-genus-server/monitoring-genus-server.md
-    - name: Synchronizing cryptographic keys and settings in a application server cluster
-      href: installation-and-configuration/configure-and-maintain-genus-server/synchronizing-crypto-keys-in-a-cluster.md
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
