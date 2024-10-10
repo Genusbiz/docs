@@ -1,14 +1,3 @@
-- name: Overview
-  href: overview/index.md
-  items:
-  - name: What is Genus Apps?
-    href: overview/what-is-genus-apps.md
-  - name: Application scenarios
-    href: overview/application-scenarios.md
-  - name: Architecture
-    href: overview/architecture.md
-  - name: Terminology
-    href: ../terminology.md
 - name: Keyboard shortcuts
   href: defining-an-app-model/user-interface/keyboard-shortcuts.md
 - name: Defining an App Model
