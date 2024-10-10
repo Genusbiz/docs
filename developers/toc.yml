@@ -549,8 +549,6 @@
     href: guidelines-and-best-practices/improving-report-performance.md
   - name: Improving search performance
     href: guidelines-and-best-practices/improving-search-performance.md
-  - name: Improving Genus Apps performance
-    href: guidelines-and-best-practices/improving-genus-apps-performance.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
   - name: REST service guidelines
