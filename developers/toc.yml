@@ -556,18 +556,12 @@
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
-  - name: Action orchestration performance and maintainability
-    href: guidelines-and-best-practices/action-orchestration-performance-and-maintainability.md
-  - name: Deleting log entries in the history
-    href: guidelines-and-best-practices/deleting-log-entries-in-the-history.md
   - name: Improving report performance
     href: guidelines-and-best-practices/improving-report-performance.md
   - name: Improving search performance
     href: guidelines-and-best-practices/improving-search-performance.md
   - name: Improving Genus Apps performance
     href: guidelines-and-best-practices/improving-genus-apps-performance.md
-  - name: Genus web and Internet Explorer 11
-    href: guidelines-and-best-practices/genus-web-and-internet-explorer-11.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
   - name: Genus Apps for Web hardening
