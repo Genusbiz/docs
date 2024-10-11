@@ -12,8 +12,6 @@
       href: defining-an-app-model/getting-started/how-to-create-shortcuts-to-genus-studio-or-genus-desktop.md
     - name: Search and organize
       href: defining-an-app-model/getting-started/search-and-organize.md
-    - name: Deploy app model changes
-      href: defining-an-app-model/getting-started/deploy-app-model-changes.md
   - name: General settings
     href: defining-an-app-model/general-settings/index.md
     items:
