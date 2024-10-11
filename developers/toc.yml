@@ -304,8 +304,6 @@
         href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Tasks
       href: defining-an-app-model/logic/tasks.md
-    - name: Agents
-      href: defining-an-app-model/logic/agents.md
   - name: Services
     href: defining-an-app-model/services/index.md
     items:
