@@ -294,10 +294,6 @@
             href: defining-an-app-model/logic/action-orchestration/actions/effects/upload-a-file.md
           - name: Write to Log
             href: defining-an-app-model/logic/action-orchestration/actions/effects/write-to-log.md
-        - name: Defining Actions
-          href: defining-an-app-model/logic/action-orchestration/actions/defining-actions.md
-        - name: Action Diagram
-          href: defining-an-app-model/logic/action-orchestration/actions/action-diagram.md
       - name: Exception Handling
         href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Tasks
