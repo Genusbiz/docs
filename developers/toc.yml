@@ -214,8 +214,6 @@
           href: defining-an-app-model/logic/action-orchestration/data-sources/file-data-sources.md
         - name: Account data source
           href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
-        - name: The event history data source
-          href: defining-an-app-model/logic/action-orchestration/data-sources/the-event-history-data-source.md
       - name: Actions
         href: defining-an-app-model/logic/action-orchestration/actions/index.md
         items:
