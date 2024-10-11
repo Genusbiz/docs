@@ -423,16 +423,12 @@
       href: defining-an-app-model/security/security-data-sets.md
     - name: Security groups and user accounts
       href: defining-an-app-model/security/security-groups-and-user-accounts.md
-    - name: Sign In History
-      href: defining-an-app-model/security/sign-in-history.md
     - name: Security permissions
       href: defining-an-app-model/security/security-permissions.md
     - name: Security privileges
       href: defining-an-app-model/security/security-privileges.md
     - name: Security overview and review
       href: defining-an-app-model/security/security-overview-and-review.md
-    - name: Trusted users
-      href: defining-an-app-model/security/trusted-users.md
     - name: App model administrators
       href: defining-an-app-model/security/app-model-administrators.md
 - name: Installation and configuration
