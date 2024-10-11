@@ -196,26 +196,7 @@
       - name: Form Designer
         href: defining-an-app-model/user-interface/forms/form-designer.md
     - name: Keyboard shortcuts
-      href: defining-an-app-model/user-interface/keyboard-shortcuts.md
-    - name: Web (BETA)
-      href: defining-an-app-model/user-interface/web/index.md
-      items:
-      - name: Web forms
-        href: defining-an-app-model/user-interface/web/web-forms/index.md
-        items:
-        - name: Web form designer
-          href: defining-an-app-model/user-interface/web/web-forms/web-form-designer.md
-        - name: Web controls
-          href: defining-an-app-model/user-interface/web/web-forms/web-controls.md
-        - name: Action designer
-          href: defining-an-app-model/user-interface/web/web-forms/action-designer.md
-      - name: Web apps
-        href: defining-an-app-model/user-interface/web/web-apps/index.md
-        items:
-        - name: Settings
-          href: defining-an-app-model/user-interface/web/web-apps/settings.md
-        - name: Navigation menu
-          href: defining-an-app-model/user-interface/web/web-apps/navigation-menu.md          
+      href: defining-an-app-model/user-interface/keyboard-shortcuts.md  
   - name: Logic
     href: defining-an-app-model/logic/index.md
     items:
