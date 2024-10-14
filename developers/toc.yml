@@ -579,8 +579,6 @@
     href: how-to/report-an-error.md
   - name: Search across many data sources
     href: how-to/search-across-many-data-sources.md
-  - name: Show an analysis on a website
-    href: how-to/show-an-analysis-on-a-website.md
   - name: Translate the app model to other languages
     href: how-to/translate-the-application-model-to-other-languages.md
   - name: Upload and download large Files
