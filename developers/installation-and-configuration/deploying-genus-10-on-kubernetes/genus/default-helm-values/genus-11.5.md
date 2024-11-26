@@ -1,604 +1,1294 @@
 ```yaml
-genus-database-dictionary-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 300Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 1000m
 
-genus-object-storage-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 100Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
 
-genus-key-value-store-service:
-  enabled: false
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
-
-genus-kafka-io-service:
-  enabled: false
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 200Mi
-      cpu: 50m
-    limits:
-      memory: 800Mi
-
-genus-redis-io-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 200Mi
-      cpu: 50m
-    limits:
-      memory: 800Mi
-
-genus-ibm-mq-io-service:
-  enabled: false
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-
-genus-file-utility-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: false
-  maxRequestSizeInMegaBytes: '100'
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      cpu: 300m
-      memory: 300Mi
-    limits:
-      cpu: 1000m
-      memory: 1000Mi
-
-genus-xml-utility-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  maxRequestSizeInMegaBytes: '100'
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      cpu: 200m
-      memory: 300Mi
-    limits:
-      cpu: 500m
-      memory: 1000Mi
-
-genus-mail-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  maxRequestSizeInMegaBytes: '100'
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 150Mi
-      cpu: 10m
-    limits:
-      memory: 300Mi
-      cpu: 200m
-  databaseCommandTimeoutSeconds: "30"
-    
-genus-wopi-service:
-  enabled: false
-  replicaCount: 1
-  restartWithModelPublish: false
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
-
-genus-help-docs-service:
-  enabled: false
-  replicaCount: 1
-  restartWithModelPublish: false
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 25Mi
-      cpu: 10m
-    limits:
-      memory: 100Mi
-      cpu: 100m
-
-genus-web-frontend:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  serviceWorker:
-    enabled: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 25Mi
-      cpu: 10m
-    limits:
-      memory: 100Mi
-      cpu: 100m
-
-genus-authorization-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: "32Mi"
-      cpu: "25m"
-    limits:
-      memory: "500Mi"
-      cpu: "500m"
-
-genus-authentication-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
-
-genus-gateway-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  sessionDurationMinutes: "10080"
-  sessionInactivityMaxDurationMinutes: "60"
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 400m
-    limits:
-      memory: 500Mi
-      cpu: 1000m
-
-genus-trace-input-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: false
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
-
-genus-message-subscription-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: false
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
-
-genus-tracelog-subscription-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: false
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
-    
-genus-internationalization-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 25Mi
-      cpu: 10m
-    limits:
-      memory: 100Mi
-      cpu: 100m  
-
-genus-webcal-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 100Mi
-      cpu: 100m
-
-genus-carddav-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: true
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources: 
-    requests:
-      memory: "100Mi"
-      cpu: "25m"
-    limits:
-      memory: "300Mi"
-      cpu: "500m"
-
-genus-live-update-input-service:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: false
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 50Mi
-      cpu: 10m
-    limits:
-      memory: 500Mi
-      cpu: 200m
-  
 genus-core-service:
-  enabled: true
+  # @ignore
   serviceAlias: core-service
-  runOnWindows: false
-  autoScaling:
-    enabled: false
-    minReplicas: 1
-    maxReplicas: 3
-    targetCPUUtilizationPercentage: 40
   replicaCount: 2
-  restartWithModelPublish: true
-  maxConcurrentModelInstances: 8
-  minConcurrentModelInstances: 0
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
+  podDisruptionBudget:
+    enabled: true
+    minAvailable: 1
   resources:
     requests:
       memory: 2Gi
       cpu: 700m
     limits:
       memory: 4Gi
-  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
-  modelInstanceRecycling:
-    min: ""
-    max: ""
-  podDisruptionBudget:
-    enabled: true
-    minAvailable: 1
-  onStartScript:
-    enabled: false
 
 genus-mq-subscriber-service:
-  enabled: true
+  # @ignore
   serviceAlias: mq-subscriber-service
-  runOnWindows: false
-  autoScaling:
-    enabled: false
-    minReplicas: 1
-    maxReplicas: 2
-    targetCPUUtilizationPercentage: 40
-  maxConcurrentModelInstances: 8
-  minConcurrentModelInstances: 0
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  restartWithModelPublish: true
-  podDisruptionBudget:
-    enabled: false
-  onStartScript:
-    enabled: false
-  resources:
-    requests:
-      memory: 1Gi
-      cpu: 700m
-    limits:
-      memory: 4Gi
-  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
-  modelInstanceRecycling:
-    min: ""
-    max: ""
 
 genus-scheduled-action-service:
-  enabled: true
+  # @ignore
   serviceAlias: scheduled-action-service
-  runOnWindows: false
-  autoScaling:
-    enabled: false
-    minReplicas: 1
-    maxReplicas: 2
-    targetCPUUtilizationPercentage: 40
-  maxConcurrentModelInstances: 8
-  minConcurrentModelInstances: 0
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  restartWithModelPublish: true
-  podDisruptionBudget:
-    enabled: false
-  onStartScript:
-    enabled: false
-  resources:
-    requests:
-      memory: 1Gi
-      cpu: 700m
-    limits:
-      memory: 4Gi
-  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
-  modelInstanceRecycling:
-    min: ""
-    max: ""
 
 genus-rest-soap-service:
-  enabled: true
+  # @ignore
   serviceAlias: rest-soap-service
-  runOnWindows: false
-  autoScaling:
-    enabled: false
-    minReplicas: 1
-    maxReplicas: 2
-    targetCPUUtilizationPercentage: 40
-  maxConcurrentModelInstances: 8
-  minConcurrentModelInstances: 0
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  restartWithModelPublish: true
-  podDisruptionBudget:
-    enabled: false
-  onStartScript:
-    enabled: false
-  resources:
-    requests:
-      memory: 1Gi
-      cpu: 700m
-    limits:
-      memory: 4Gi
-  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
-  modelInstanceRecycling:
-    min: ""
-    max: ""
 
 genus-data-mart-query-service:
-  enabled: true
+  # @ignore
   serviceAlias: data-mart-query-service
-  runOnWindows: false
-  replicaCount: 1
-  autoScaling:
-    enabled: false
-    minReplicas: 1
-    maxReplicas: 2
-    targetCPUUtilizationPercentage: 40
-  coreMaxThreadCount: '4'
-  maxConcurrentModelInstances: 8
-  minConcurrentModelInstances: 0
-  restartWithModelPublish: true
-  podDisruptionBudget:
-    enabled: false
-  onStartScript:
-    enabled: false
-  affinityScheduling: 
-    enabled: false
-    namespaceListForPodAntiAffinity: []
-  resources:
-    requests:
-      memory: 1Gi
-      cpu: 700m
-    limits:
-      memory: 4Gi
-  sentryDSN: https://bb5777fbb0264b83a66a6c314d3dcb45@o35818.ingest.sentry.io/6487651
-  modelInstanceRecycling:
-    min: ""
-    max: ""
 
-genus-desktop-frontend:
-  enabled: true
-  replicaCount: 1
-  restartWithModelPublish: false
-  resources:
-    requests:
-      memory: 25Mi
-      cpu: 10m
-    limits:
-      memory: 100Mi
-      cpu: 100m
-
+# @schema
+# type: object
+# additionalProperties: false
+# @schema
 global:
-  coreLinux: false
-  enableSentry: true
+
+  redis: 
+    # @schema
+    # type: string
+    # @schema
+    # -- 
+    architecture: replication
+
+    # @schema
+    # type: string
+    # @schema
+    # -- 
+    overrides: "{}"
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- This property is used in the genusbiz/bootstrap image. Whether or not to use this file for deployment.
+  enabled: true
+
+  # @schema
+  # type: string
+  # @schema
+  # -- The name of the cluster. Used for logging and monitoring.
+  clusterName: ""
+
+  # @schema
+  # type: string
+  # @schema
+  # -- Use if you want to override the default hostname for the application, which the <deployment name>.<global.dnsSuffix>.
+  hostnameFQDN: ""
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Whether or not to send error reports to Sentry. Should be true in production environments.
+  enableSentry: true 
+  
+  # @schema
+  # type: string
+  # @schema
+  # -- Proxy for Sentry, if running in a restricted network
+  sentryProxy: ""
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Whether or not to send performance reports to Sentry. 
   enableSentryPerformance: false
-  disableTraceLog: false
+
+  # @schema
+  # type: string
+  # @schema
   nodeExtraCACerts: ""
+
+  # @schema
+  # type: string
+  # @schema
+  # -- The URL to Genus Operator. Only set if using hostnameFQDN to override default URL for Operator. 
   operatorUrlOverride: ""
-  automountServiceAccountToken: false
-  clusterDomain: cluster.local
+  
+  # @schema
+  # @schema
+  # -- Used to opt out of automounting API credentials. Change to true if this is something you want to do. [Read more](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
+  automountServiceAccountToken: false 
+
+  # @schema
+  # @schema
+  clusterDomain: cluster.local 
+  
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Set to true if you do not want the site to be indexed by search engines.
   noSearchEngineIndexing: false
-  sentryProxy: ''
+
   pitTlsTerminator:
     enabled: false
-  featureFlags:
-    useScheduledActions: false
+    image: "" 
+
+  # @schema
+  # type: object
+  # patternProperties:
+  #   "^.*":
+  #     "type": "string"
+  # additionalProperties: false
+  # @schema
+  # -- Use to set featureFlags for the application. Only do this if you know what you are doing.
+  featureFlags: {}
+    
   ingress:
-    awsAlbControllerEnabled: false
-    ingressWildCardPathEnabled: false
+
+    # @schema
+    # type: object
+    # patternProperties:
+    #   "^.*":
+    #     "type": "string"
+    # additionalProperties: false
+    # @schema
+    # -- Add extra annotations to the ingresses
+    annotations: {}
+
+    # @schema
+    # type: string
+    # @schema
+    # -- TODO 
+    ingressClassName: ""
+
+    # @schema
+    # @schema
+    # -- TODO
     tlsConfigEnabled: false
+
+    # @schema
+    # type: string
+    # @schema
+    # -- TODO 
+    pathType: "ImplementationSpecific"
+
+    # @schema
+    # @schema
+    # -- TODO
+    ingressWildCardPathEnabled: false 
+
+    # @schema
+    # @schema
+    # -- TODO
     secretNameOverride: ""
+
+    # @schema
+    # type: array
+    # items:
+    #   type: object
+    #   properties:
+    #     hosts:
+    #       type: array
+    #       description: "A list of hostnames associated with the TLS configuration."
+    #       items:
+    #         type: string
+    #         description: "The hostname to be covered by this TLS configuration, e.g., example.com."
+    #     secretName:
+    #       type: string
+    #       description: "The name of the Kubernetes Secret containing the TLS certificate and key."
+    #       required: false
+    #       example: "example-tls-secret"
+    # @schema
+    tls: []
+
+
   traceLog:
+    # @schema
+    # type: boolean
+    # @schema
+    # -- Enable trace logging
     enabled: true
+
+    # @schema
+    # type: boolean
+    # @schema
+    # -- Enable timing information in trace log
     timing: false
+
+    # @schema
+    # type: boolean
+    # @schema
+    # -- Expand trace logging with debugging information
     debug: false
+
   contentSecurityPolicy:
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for frames     
     frameSrc: ""    
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for objects       
     objectSrc: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for images       
     imageSrc: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for fonts       
     fontSrc: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for styles       
     styleSrc: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for scripts       
     scriptSrc: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for script elements       
     scriptSrcElem: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for frame ancestors       
     frameAncestorsSrc: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- Defined allowed sources for conncetions       
     connectSrc: ""
+
   networkPolicy:
+    # @schema
+    # type: boolean
+    # @schema
+    # -- Enable network policies
     enabled: false
+
+    # @schema
+    # type: object
+    # @schema
+    # -- Define network policies for external loadBalancer
     loadBalancer:
-      ingress:
-      egress:
-    database:
-      ingress:
-      egress:
+      
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     from: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      ingress: []
+
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     to: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      egress: []
+
+    # @schema
+    # type: object
+    # @schema
+    # -- Define network policies for database
+    database: 
+      
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     from: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      ingress: []
+
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     to: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      egress: []
+
+    # @schema
+    # type: object
+    # @schema
+    # -- Define network policies for external objectStorage
     objectStorage:
-      ingress:
-      egress:
+      
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     from: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      ingress: []
+
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     to: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      egress: []
+
+    # @schema
+    # type: object
+    # @schema
+    # -- Define network policies for external keyvaluestore       
     keyValueStore:
-      ingress:
-      egress:
-    wopi: 
-      ingress:
-      egress: 
+      
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     from: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      ingress: []
+
+      # @schema
+      # type: array
+      # items:
+      #   type: object
+      #   properties:
+      #     ports:
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           port: 
+      #             type: string
+      #           endPort:
+      #             type: integer
+      #           protocol:
+      #             type: string
+      #             enum: [TCP,UDP,SCTP]
+      #         additionalProperties: false
+      #     to: 
+      #       type: array
+      #       items:
+      #         type: object
+      #         properties:
+      #           ipBlock: 
+      #             type: object
+      #             properties:
+      #               cidr:
+      #                 type: string
+      #               except:
+      #                 type: array
+      #                 items:
+      #                   type: string
+      #           namespaceSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #           podSelector:
+      #             type: object
+      #             properties:
+      #               matchLabels:
+      #                 type: object
+      #                 patternProperties:
+      #                   "^.*":
+      #                     "type": "string"
+      #                 additionalProperties: false
+      #               matchExpressions:
+      #                 type: array
+      #                 items:
+      #                   type: object
+      #                   properties:
+      #                     key:
+      #                       type: string
+      #                       required: true
+      #                     operator:
+      #                       type: string
+      #                       enum: ["In", "NotIn", "Exists", "DoesNotExist"]
+      #                       required: true
+      #                     values:
+      #                       type: array
+      #                       items:
+      #                         type: string
+      #                 additionalProperties: false
+      #         additionalProperties: false
+      # @schema
+      egress: []
+
   jobs:
+  
+    # @schema
+    # deprecated: true
+    # @schema
     verifyModel:
       image:
         repository: "genus.azurecr.io/genus/images/genus-meta-model-manager"
       enabled: false
       scriptOutput: "scriptOutput.sql"
       traceOutput: "traceOutput.txt"
-  database:
-    appModelConnectionString: ""
-    appModelDatabase: ""
-    appModelSchema: ""
-    vendorVersion: ""
-    caseInsensitiveSearch: ""
+
+  # @schema
+  # required: true
+  # additionalProperties: false
+  # @schema
+  database: 
+    # @schema
+    # required: true
+    # enum: [Microsoft SQL Server,Microsoft SQL Server 2008 R2,Microsoft SQL Server 2012,Microsoft SQL Server 2014,Microsoft SQL Server 2016,Azure SQL,Azure SQL V12,ORACLE,ORACLE 10.0g,ORACLE 11g,ORACLE 11g R2,ORACLE 12.1c,MYSQL,MYSQL 5.7,MYSQL 8.0,PostgreSQL,PostgreSQL 9.2,DB2,DB2 10.1,TIBCO TDV,TIBCO TDV 8.2.0]
+    # @schema
+    vendorVersion: "" 
+
+    # @schema
+    # required: true
+    # type: string
+    # @schema
+    appModelConnectionString: "" 
+
+    # @schema
+    # type: string
+    # @schema
+    appModelDatabase: "" 
+    
+    # @schema
+    # required: true
+    # type: string
+    # @schema
+    appModelSchema: "" 
+
+    # @schema
+    # deprecated: true
+    # type: boolean
+    # @schema
+    # -- This property is not used in Genus Operator
+    caseInsensitiveSearch: true
+    
+    # @schema
+    # type: string
+    # @schema
+    # -- TODO
+    appModelConnectionOptions: ""
+
+  # @schema
+  # required: true
+  # type: string
+  # @schema
   dnsSuffix: ''
-  nodeEnviroment: production
+
+  # @schema
+  # required: true
+  # type: string
+  # @schema
+  # -- The name of the customer. Used for automatic error reporting
   customer: ''
+
+  # @schemas
+  # required: true
+  # type: string
+  # @schema
+  # -- The unique model identifier. 
   modelIdentifier: ''
+
+  # @schema
+  # enum: [origin,green,blue]
+  # @schema
+  # -- This property is used in the genusbiz/bootstrap image to identify the value file for Genus Operator
   environmentType: ''
+  
+  # @schema
+  # required: true
+  # type: string
+  # @schema
+  # -- This property is used in the genusbiz/bootstrap image. The namespace in which the application is running.
   namespaceName: ''
+  
+  # @schema
+  # type: string
+  # @schema
+  # -- This property is used in the genusbiz/bootstrap image. Should be the same as the deployment name.
   k8sRuntime: ''
+
+  # @schema
+  # required: true
+  # type: string
+  # @schema
+  # -- The name or email of a contact that can be reached in case of errors
   contact: ""
+
+  # @schema
+  # type: string
+  # @schema
+  # -- Semi colon-separated list of sensitive headers which will not be logged
   sensitiveHttpHeaders: ""
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Wether or not this runtime uses a published version of the app model. Should be true for green and blue environments, and false for origin
   published: false
-  virtualDirectory: '--'
+
+  # @schema
+  # type: string
+  # @schema
+  # -- The URL to the data set. 
   dataSetURL: ''
-  altDataSetURLs: []
+
+  # @schema
+  # type: string
+  # @schema
+  # -- The language of the application. Used for sorting and formatting.
   lang: "nb_NO.UTF-8"
+
+  # @schema
+  # type: string
+  # @schema
+  # -- The timezone of the application.
   timezone: Europe/Oslo
+  
+  # @schema
+  # type: string
+  # @schema
+  # -- The timezone of the application. Used for core-services, when runOnWindows is set to true.
   windowsTimezone: 'W. Europe Standard Time'
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Enable to add extra debug information to requests, such as server timing headers. Should be false if not actively debugging something, as it slighly impacts performance
   enableDebugInformation: false
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Enabling this will add extra information to error reports that are reported to Sentry. Can be turned on if there are no senstive information in the application.
   reportSensitiveBreadcrumbsToSentry: false
+
+  # @schema
+  # type: string
+  # readonly: true
+  # @schema
+  # @ignored
   jwkFromPem: ''
-  image:
-    tag: latest
-    pullPolicy: Always
+
+  # @schema
+  # @schema
+  # -- The name of the secret used for pulling images from a private registry. Only change this if you do not use the default images.
   imagePullSecrets: 
   - name: "genus-regcred-azure"
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Enable this to encrypt data transactions to and from Genus Desktop
   enableDesktopTransactionEncryption: false
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Enable this to compress responses to Genus Desktop
   responseCompression: false
+
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Enable this to compress requests to Genus Desktop
   requestCompression: false
+
   metrics:
     serviceMonitor:
-      enabled: true
+      
+      # @schema
+      # type: boolean
+      # @schema
+       # -- Whether or not to create a ServiceMonitor for Prometheus scraping. Requires that the ServiceMonitor CRD is installed.
+      enabled: true 
+
+      # @schema
+      # @schema
+      # -- How often Prometheus should scrape the metrics endpoint
       scrapeInterval: 30s
-    prometheusRule:
-      enabled: true
+
+  # @schema
+  # type: array
+  # item: 
+  #   type: object
+  #   properties: 
+  #     hostnames:
+  #       type: array
+  #       items:
+  #         type: string
+  #     ip:
+  #       type: string
+  #     additionalProperties: false
+  # @schema
+  # -- hostAlias holds the mapping between IP and hostnames that will be injected as an entry in the pod's hosts file.
+  hostAliases: []
+
+  # @schema
+  # type: object
+  # patternProperties:
+  #   "^.*":
+  #     "type": "string"
+  # additionalProperties: false
+  # @schema
+  # -- Add nodeSelectors to all pods. Comes in addtion to the default nodeSelector; "kubernetes.io/os: linux"
+  nodeSelector: {}
+
+  # @schema
+  # type: array
+  # items:
+  #   type: object
+  #   properties:
+  #     key:
+  #       type: string
+  #     operator:
+  #       type: string
+  #       enum: [Exists,Equal]
+  #     value:
+  #       type: string
+  #     effect:
+  #       type: string
+  #       enum: [NoSchedule,PreferNoSchedule,NoExecute]
+  #     tolerationSeconds:
+  #       type: integer
+  #     tolerationSecondsAfterFinish:
+  #       type: integer
+  #   additionalProperties: false
+  # @schema
+  # -- The pod this Toleration is attached to tolerates any taint that matches the triple <key,value,effect> using the matching operator <operator>.
+  tolerations: []
+
+  # @schema
+  # type: array
+  # items:
+  #   type: object
+  #   properties:
+  #     mountPath: 
+  #       type: [string, null]
+  #       required: true
+  #       description: Path within the container at which the volume should be mounted.  Must not contain ':'.
+  #     name: 
+  #       type: [string, null]
+  #       required: true
+  #       description: This must match the Name of a Volume.
+  #     readOnly:
+  #       type: boolean
+  #       required: false
+  #       description: Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
+  #     subPath:
+  #       type: [string, null]
+  #       required: false
+  #       description: Path within the volume from which the container's volume should be mounted. Defaults to \\ (volume's root).
+  # @schema
+  volumeMounts: []
+
+  # @schema
+  # type: array
+  # items: 
+  #   type: object
+  #   properties:
+  #     name:
+  #       type: string
+  # @schema
+  volumes: []
+
+  # @schema
+  # type: object
+  # patternProperties:
+  #   "^.*":
+  #     "type": "string"
+  # additionalProperties: false
+  # @schema
+  # -- Custom secrets to add to the core services
+  secret: {}
+
   networking:
+
+    # @schema
+    # type: boolean
+    # @schema
+    # -- Enable this to use the internal TLS certificate for all services, aka using https internally in the cluster 
     internalTLS: false
+
     authenticationService:
       main:
         http: 3000
@@ -710,7 +1400,7 @@ global:
         https: 9413
       blocked:
         http: 8404
-        http: 9404
+        https: 9404
     redis:
       main:
         http: 6379
@@ -718,7 +1408,7 @@ global:
       sentinel:
         http: 26379
         https: 9279
-    redisOperator:
+    redisOperator: #DEPRECATED
       main:
         http: 6379
         https: 9379
