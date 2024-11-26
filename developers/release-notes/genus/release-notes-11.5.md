@@ -47,7 +47,34 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 76d44a7b-b27c-47c3-ac13-5539eb45c9d0 -->
+**#23689 Log Cleanup Simplified**
+
+Cleanup of logs, including **Audit Trail**, **Execute Log** and **Read Log**, was previously performed by modelling a **Scheduled Task** with **Delete Objects** effect.
+
+This functionality is replaced with a much more elegant mechanism.
+
+Simply open **Genus Studio** | **Settings** | **Logging**, and specify the number of days you want the information in the logs to live. Specify 0 days if you do *not* want automatic cleaning of any of the logs.
+
+You should at the same time delete the old **Scheduled Actions**, as they will fail in this version.
+
+<!--ID a018b99e-e82f-4500-904a-0b24830ebf63 -->
+**#23690 All fields converted from Local time to UTC**
+
+All date-time fields defined by Genus (not the ones you define in your model) will change from local time interpretation to being interpreted as utc.
+In effect, all **Audit Trail** times and all fields of type "created date" and "modified date" will be off by the difference between the timezone defined on your installation and utc.
+Scripts for converting the existing data will be provided, but due to potentially large volumes of data, it can be difficult to run this script as an update.
+If the time difference is unimportant, leaving the history unchanged is an option.
+
+<!--ID d7662f20-e668-4ccb-a93b-9e155e75589a -->
+**#23696 Aggregate Reference Date now uses CalendarTime**
+
+Aggregate reference date now expects its expression to resolve to **CalendarTime** instead of **Day**. 
+
+Applications that run aggregates with the old reference date will crash.
+
+To fix this, edit your aggregate data sets so that their reference date expressions return a CalendarTime object.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
@@ -64,6 +91,9 @@ To improve the preceived performance of 2D Repeating Container, we have added a 
 - The new options **"Use Virtualization" and "Use Skeleton Loading" will give better control of appearance when loading and scrolling** a 2D Repeating Container. If Virtualization is turned on (default) cells outside the visible range will not be rendered. The setting "Use Skeleton Loading" (default on) will display a placeholder for cells until the content is loaded. If required, virtualization may be turned off, and all cells will be loaded initially. Setting this option allows smaller grids to be loaded completely from start, but may require more memory.  In all cases, cells positioned in a pinned row or column will be loaded initially. When using 2D Repeating Containers with large data sets, turning off "Use Skeleton Loading" will have an impact on performance, as the placeholder elements also contributes to the document size in the browser.
 - **Rows and Columns can have Color Sets and borders**. This gives the ability to style the 2D Repeating container as a grid without having to set background and borders on individual cells. Color Set can also be set conditionally. Moving large parts of the styling from cells to rows and columns will have an impact on performance.
 - The option **"Appear Interactive"** on grid cells will make the grid more alive. Appear Interactive will use the Color Set assigned to the cell and display the hover and focus states when the cell is hovered or if focus is set within the cell.
+- **Conditions on Color Set, Enabled and Screen Tip** is now available on cells. This means that it may be possible to move logic from containers inside the cells resulting in smaller document sizes.
+- **Visibility on columns and Rows**.
+- **Keyboard Support** for navigation between cells using the Tab- or Arrow keys
 
 <!--ID d59a8611-cb7f-4650-aab1-8de80a2a550f -->
 **#23685 Find Usage of Action Effect and Control Types**
@@ -76,6 +106,18 @@ To initiate a search, select *Find Usage* in the *Action* window menu in Studio.
 **#23686 Highlight Usage of Effect Types in Server Actions**
 
 To highlight where a given type of block or effect is located in the action flow, select *Highlight Usage* in the context menu in the pane containing blocks, controls, and effects.
+
+<!--ID 5aeb2817-a316-43cd-8d19-043def500da7 -->
+**#23688 Metrics for consume a REST service/SOAP service**
+
+We have introduced two new metrics, **`genus_consume_rest_duration_ms`** and **`genus_consume_soap_duration_ms`**. Both measures the number of milliseconds spent waiting for the external REST or SOAP service to process a request. The metrics are named based on the effect name, so in order to monitor the performance of specific services you need to name the effects accordingly.
+
+<!--ID bdfb14b4-b082-4a2b-b613-2d8ef2989579 -->
+**#23694 Designers now open in Web**
+
+Page, Client Action and App- designers now open in web browsers.  This allows the user to bookmark their favorite pages, apps and client actions. 
+
+All editors opened in Web also open as read only.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
