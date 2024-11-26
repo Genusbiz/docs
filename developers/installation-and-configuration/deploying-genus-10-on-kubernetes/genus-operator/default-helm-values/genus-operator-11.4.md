@@ -186,19 +186,13 @@ global:
   # type: object
   # additionalProperties: false
   # @schema
-  versionDeployment:
+  genusInstaller:
     
     # @schema
     # type: boolean
+    # description: Enable the Genus Installer
     # @schema
-    # -- Enable Version Deployment
     enabled: false
-
-    # @schema
-    # type: boolean
-    # @schema
-    # -- Enable Version Deployment for Genus Operator, giving Genus Operator the option to upgrade itself
-    enableSelfDeployment: false
 
     # @schema
     # type: string
@@ -244,21 +238,15 @@ global:
 
     # @schema
     # type: string
-    # description: When using GitOps (Flux or ArgoCD), this is the path to the Helm release config file for Genus Runtimes
+    # description: When using GitOps (Flux or ArgoCD), this is the path to the helm release config file
     # @schema
-    genusHelmReleaseConfigFilePath: ""
-
-    # @schema
-    # type: string
-    # description: When using GitOps (Flux or ArgoCD), this is the path to the Helm release config file for Genus Operator
-    # @schema
-    genusOperatorHelmReleaseConfigFilePath: ""
+    helmReleaseConfigFilePath: ""
 
     # @schema
     # type: string
     # description: The directory in the git repo containing the helm values files
     # @schema
-    helmValuesDirectory: "helm-values"
+    helmValueDirectory: ""
 
 
   phoneHome:
@@ -286,7 +274,6 @@ global:
   database: 
     # @schema
     # required: true
-    # enum: [%REPLACE_WITH_VENDOR_VERSION%]
     # @schema
     vendorVersion: "" 
 
@@ -312,12 +299,6 @@ global:
     caseInsensitiveSearch: true
   
   ingress:
-
-    # @schema
-    # type: string
-    # @schema
-    # -- TODO 
-    pathType: "ImplementationSpecific"
 
     # @schema
     # type: object
@@ -360,25 +341,6 @@ global:
     # -- TODO
     operatorFrontendTlsIngressEnabled: false
 
-  # @schema
-  # type: array
-  # items:
-  #   type: object
-  #   properties:
-  #     hosts:
-  #       type: array
-  #       description: "A list of hostnames associated with the TLS configuration."
-  #       items:
-  #         type: string
-  #         description: "The hostname to be covered by this TLS configuration, e.g., example.com."
-  #     secretName:
-  #       type: string
-  #       description: "The name of the Kubernetes Secret containing the TLS certificate and key."
-  #       required: false
-  #       example: "example-tls-secret"
-  # @schema
-    tls: []
-
   rbac:
     # @schema
     # @schema
@@ -406,576 +368,6 @@ global:
       # @schema
       # -- Whether or not to create PrometheusRules for alerting. Requires that the PrometheusRule CRD is installed.
       enabled: true 
-      
-      rules:
-        # coreServicePrometheusRules:
-        failingDataBaseTransactions:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-          
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0.05
-          
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-          
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: error
-          
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        highObjectScopeUtilization:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0.8
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        # generalPrometheusRules
-        kubePodCrashLooping:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 1
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 15m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: critical
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        containerRestarting:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 0
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        unhandledExceptions:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 0
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: error
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        fatalExceptions:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 0
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: error
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        failedRequests:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        # kubernetesOperatorPrometheusRules:
-        nonRunningPodsInActiveRuntime:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: critical
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        podsNotReadyInActiveRuntime:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: critical
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        nonRunningPodsInNonActiveRuntime:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        podsNotReadyInNonActiveRuntime:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        podsExistOutsideAvailabilityWindow:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        noControlLoopIsExecuted:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 120
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: error
-
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        # mailServicePrometheusRules:
-        failedMails:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: false
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 0
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: error
-
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        mailsSentWithWarnings:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 0
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        sendMailProcessStopped:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
-          for: 5m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: critical
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        mailsInFailedState:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 0
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: critical
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        # messageQueuePrometheusrules: 
-        stoppedSendingMessages:   
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: string
-          # @schema
-          # -- Timeperiod for how long the service is not sending a message before alerting
-          for: 15m
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: warning
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
-
-        # scheduled-aciton-prometheus-rules:
-        scheduledActionFailed:
-          # @schema
-          # type: boolean
-          # @schema
-          enabled: true
-
-          # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered
-          threshold: 0
-
-          # @schema
-          # enum: [info, warning, error, critical]
-          # @schema
-          # -- Severity of the alert
-          severity: error
-
-          # @schema
-          # type: object
-          # patternProperties:
-          #   "^.*":
-          #     "type": "string"
-          # additionalProperties: false
-          # @schema
-          additionalLabels: {}
 
   networking:
     # @schema
@@ -1013,8 +405,8 @@ global:
         # @schema
         # @schema
         https: 9404 
-    
-    redis:
+
+    redisOperator:
       main:
         # @schema
         # @schema
@@ -1041,6 +433,7 @@ global:
 
     megaService:
       main:
+      
         # @schema
         # @schema
         http: 80 
@@ -1105,8 +498,6 @@ global:
   # @schema
   # -- The pod this Toleration is attached to tolerates any taint that matches the triple <key,value,effect> using the matching operator <operator>.
   tolerations: []
-  redis:
-    architecture: "replication"
 
 redis:
   fullnameOverride: operator-redis
@@ -1128,17 +519,17 @@ redis:
       requests:
         # @schema
         # @schema
-        memory: 200Mi 
+        memory: 50Mi 
         # @schema
         # @schema
-        cpu: 100m 
+        cpu: 10m 
       limits:
         # @schema
         # @schema
-        memory: 1Gi 
+        memory: 500Mi 
         # @schema
         # @schema
-        cpu: 2000m 
+        cpu: 200m 
   master:
     containerSecurityContext:
       allowPrivilegeEscalation: false
@@ -1146,17 +537,17 @@ redis:
       requests:
         # @schema
         # @schema
-        memory: 200Mi 
+        memory: 50Mi 
         # @schema
         # @schema
-        cpu: 100m 
-      limits:
+        cpu: 10m 
+      limits: 
         # @schema
         # @schema
-        memory: 1Gi 
+        memory: 500Mi 
         # @schema
         # @schema
-        cpu: 2000m 
+        cpu: 200m 
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
@@ -1170,17 +561,17 @@ redis:
       requests:
         # @schema
         # @schema
-        memory: 200Mi 
+        memory: 50Mi 
         # @schema
         # @schema
-        cpu: 100m 
+        cpu: 10m 
       limits:
         # @schema
         # @schema
-        memory: 1Gi 
+        memory: 500Mi 
         # @schema
         # @schema
-        cpu: 2000m 
+        cpu: 200m 
     # @schema
     # @schema
     replicaCount: 3 
