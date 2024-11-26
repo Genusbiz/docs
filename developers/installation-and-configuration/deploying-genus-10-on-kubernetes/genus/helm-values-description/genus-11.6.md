@@ -8,12 +8,12 @@ All microservices can be configured with the following common helm values.
 | <microservice>.enabled                                            |                                                      | true                                     |
 | <microservice>.sentryDSN                                          | Link to Sentry DSN endpoint.                         | _Unique DSN for every microservice_      |
 | <microservice>.replicaCount                                       |                                                      | 1                                        |
-| <microservice>.resources.requests.cpu                             |                                                      | _See [values.yaml](../default-helm-values/genus-11.2.md)_ |
-| <microservice>.resources.requests.memory                          |                                                      | _See [values.yaml](../default-helm-values/genus-11.2.md)_ |
-| <microservice>.resources.limits.cpu                               |                                                      | _See [values.yaml](../default-helm-values/genus-11.2.md)_ |
-| <microservice>.resources.limits.memory                            |                                                      | _See [values.yaml](../default-helm-values/genus-11.2.md)_ |
-| <microservice>.affinityScheduling.enabled                         |                                                      | _See [values.yaml](../default-helm-values/genus-11.2.md)_ |
-| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity |                                                      | _See [values.yaml](../default-helm-values/genus-11.2.md)_ |
+| <microservice>.resources.requests.cpu                             |                                                      | _See [values.yaml](../default-helm-values/genus-11.6.md)_ |
+| <microservice>.resources.requests.memory                          |                                                      | _See [values.yaml](../default-helm-values/genus-11.6.md)_ |
+| <microservice>.resources.limits.cpu                               |                                                      | _See [values.yaml](../default-helm-values/genus-11.6.md)_ |
+| <microservice>.resources.limits.memory                            |                                                      | _See [values.yaml](../default-helm-values/genus-11.6.md)_ |
+| <microservice>.affinityScheduling.enabled                         |                                                      | _See [values.yaml](../default-helm-values/genus-11.6.md)_ |
+| <microservice>.affinityScheduling.namespaceListForPodAntiAffinity |                                                      | _See [values.yaml](../default-helm-values/genus-11.6.md)_ |
 | <microservice>.serviceMonitor.scrapeInterval                      | Interval of Prometheus scraping the metrics endpoint | "30s"                                    |
 
 ## Release values
