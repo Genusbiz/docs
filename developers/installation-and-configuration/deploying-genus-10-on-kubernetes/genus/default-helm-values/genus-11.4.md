@@ -37,19 +37,6 @@ genus-data-mart-query-service:
 # @schema
 global:
 
-  redis: 
-    # @schema
-    # type: string
-    # @schema
-    # -- 
-    architecture: replication
-
-    # @schema
-    # type: string
-    # @schema
-    # -- 
-    overrides: "{}"
-
   # @schema
   # type: boolean
   # @schema
@@ -150,12 +137,6 @@ global:
     tlsConfigEnabled: false
 
     # @schema
-    # type: string
-    # @schema
-    # -- TODO 
-    pathType: "ImplementationSpecific"
-
-    # @schema
     # @schema
     # -- TODO
     ingressWildCardPathEnabled: false 
@@ -164,26 +145,6 @@ global:
     # @schema
     # -- TODO
     secretNameOverride: ""
-
-    # @schema
-    # type: array
-    # items:
-    #   type: object
-    #   properties:
-    #     hosts:
-    #       type: array
-    #       description: "A list of hostnames associated with the TLS configuration."
-    #       items:
-    #         type: string
-    #         description: "The hostname to be covered by this TLS configuration, e.g., example.com."
-    #     secretName:
-    #       type: string
-    #       description: "The name of the Kubernetes Secret containing the TLS certificate and key."
-    #       required: false
-    #       example: "example-tls-secret"
-    # @schema
-    tls: []
-
 
   traceLog:
     # @schema
@@ -1025,6 +986,7 @@ global:
     appModelConnectionString: "" 
 
     # @schema
+    # required: true
     # type: string
     # @schema
     appModelDatabase: "" 
@@ -1402,6 +1364,13 @@ global:
         http: 8404
         https: 9404
     redis:
+      main:
+        http: 6379
+        https: 9379
+      sentinel:
+        http: 26379
+        https: 9279
+    redisOperator:
       main:
         http: 6379
         https: 9379
