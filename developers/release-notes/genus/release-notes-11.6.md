@@ -29,93 +29,62 @@ Prior to upgrading to this release, you must:
 ## End-of-life functionality
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
-
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 5fec7424-254f-4ca1-8468-d4721e0d2434 -->
-
-**#23682 Audit Trail on built in types is deprecated**
-
-These audit trails had limited value as long as they mostly consisted of modified xml documents.
-Execution logs for appliccable types are still available, but now moved to a separate log.
-
+There are no end-of-life functionality identified in this release.
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Deprecated functionality
 
 Deprecated functionality is available in this release, but will (most probably) no longer be available in the next release.
-
 <!--rntype04-start DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There is no deprecated functionality in this release.
-
 <!--rntype04-end   DEPRECATED. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Breaking changes
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
-
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no breaking changes in this release.
-
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Major new functionality
-
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no major new functionality in this release.
-
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Minor new functionality
-
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-<!--ID 373b22d4-8db5-4bb9-8a51-e82900910e6e -->
+<!--ID 0c8ff7a4-f274-4b19-9e6a-5950480a38bd -->
+**#23701 Effect "Download Tables as Excel File"**
 
-**#23684 Improvements in 2D Repeating Container**
+A new effect has been added to "On Activate," replicating the table component's built-in Excel download functionality. This feature is now externalized, allowing you to connect it to any desired table
 
-To improve the preceived performance of 2D Repeating Container, we have added a few changes in the control that makes loading or scrolling feel smoother. Some of the new settings should be considered particularly for grids with distinct column and row headers. Part of goal with the improvements was to reduce the number of HTML elements added to the browser when using the 2D Repeating Container, as large data sets in the controls may be tough for the browser to handle.
+<!--ID fb553031-2ff1-4573-9764-d6bd0ae389a6 -->
+**#23702 Conditional Expanded and Fullscreen for containers**
 
-- **When scrolling, rendering will be postponed until the scroll operation has finished**. This will prevent the current problems with hang during scroll in previous versions of the component.
-- The new options **"Use Virtualization" and "Use Skeleton Loading" will give better control of appearance when loading and scrolling** a 2D Repeating Container. If Virtualization is turned on (default) cells outside the visible range will not be rendered. The setting "Use Skeleton Loading" (default on) will display a placeholder for cells until the content is loaded. If required, virtualization may be turned off, and all cells will be loaded initially. Setting this option allows smaller grids to be loaded completely from start, but may require more memory. In all cases, cells positioned in a pinned row or column will be loaded initially. When using 2D Repeating Containers with large data sets, turning off "Use Skeleton Loading" will have an impact on performance, as the placeholder elements also contributes to the document size in the browser.
-- **Rows and Columns can have Color Sets and borders**. This gives the ability to style the 2D Repeating container as a grid without having to set background and borders on individual cells. Color Set can also be set conditionally. Moving large parts of the styling from cells to rows and columns will have an impact on performance.
-- The option **"Appear Interactive"** on grid cells will make the grid more alive. Appear Interactive will use the Color Set assigned to the cell and display the hover and focus states when the cell is hovered or if focus is set within the cell.
+- Conditional Expanded for Control
+    - A new field named Expanded has been introduced under the "General" section of the container. This enables conditional expansion or collapse of a container based on an expression. 
+       When this field is used, the standard collapse toggle in the header is disabled, and the container's state is determined exclusively by this field.
+- Conditional Full Screen for Control
+    - A new field named Fullscreen has been added under the "General" section of the container. This allows you to conditionally toggle fullscreen mode for a container based on an expression. When this field is used, the standard fullscreen toggle in the header is disabled, and the container's state is controlled by this field instead.
 
-<!--ID d59a8611-cb7f-4650-aab1-8de80a2a550f -->
+<!--ID fccfbc55-56a8-481a-9242-2221d9dce081 -->
+**#23703 Effect "Change Color Scheme"**
 
-**#23685 Find Usage of Action Effect and Control Types**
+A new effect has been added to "On Activate," allowing you to switch the color scheme (Light Mode, Dark Mode, or Browser Default) when triggered.
 
-Added support for find usage of different server- and client effect types, and control types used in page and components. E.g. you can search for usage of a specific server action effect type, such as _Consume a REST Service_, located in global and local server actions, rules, REST services, and SOAP services. When opening an object containing the requested effect type, all effects of the given type is highlighted in the action flow.
+<!--ID 8e1d9031-8af1-42c2-8ce2-87dedf176a3c -->
+**#23704 Effect: "Show History"**
 
-To initiate a search, select _Find Usage_ in the _Action_ window menu in Studio.
-
-<!--ID 88dc50e2-b78f-46bb-a6bc-62b2f76faf25 -->
-
-**#23686 Highlight Usage of Effect Types in Server Actions**
-
-To highlight where a given type of block or effect is located in the action flow, select _Highlight Usage_ in the context menu in the pane containing blocks, controls, and effects.
+A new effect has been added to "On Activate," extending the built-in Show History functionality found in the app bar and context menu. This effect lets you select a specific dataset to connect, displaying only datasets where auditing is enabled.
 
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Resolved issues
-
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no resolved issues in this release.
-
 <!--rntype08-end   RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Known issues
 
 Known issues are errors or lack of functionality. Known issues may be solved in a future release based on customer demand.
-
 <!--rntype09-start KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-
 There are no known issues in this release.
-
 <!--rntype09-end   KNOWN ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
-
 ## Tips and hints
 
 Tips and hints are design decisions or answers to support questions that may be of general interest.
@@ -123,5 +92,4 @@ Tips and hints are design decisions or answers to support questions that may be 
 There are no tips and hints specifically targeting this release.
 
 ## Change log
-
 <!--changelog CHANGELOG. DO NOT CHANGE THIS TAG. ANY CHANGES BELOW WILL BE DELETED.-->
