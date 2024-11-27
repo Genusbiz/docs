@@ -75,6 +75,11 @@ Applications that run aggregates with the old reference date will crash.
 
 To fix this, edit your aggregate data sets so that their reference date expressions return a CalendarTime object.
 
+<!--ID 8b31e870-6803-4265-b929-93816dc91394 -->
+**#23705 X-Forwarded headers is now used to verify origin**
+
+For clients using Genus endpoints with cross-site requests, there is now mandatory to send **x-forwarded-host** (same value as the **origin** header) and **x-forwarded-proto** (_http/https_) headers in addition to **origin** header. The **x-forwarded-port** header will also be considered if it as added, but this is optional.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
