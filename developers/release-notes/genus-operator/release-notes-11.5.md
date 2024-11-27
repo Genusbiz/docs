@@ -30,6 +30,11 @@ See also the following notes.
 
 The Server Action Debugger (now Server Inspector) now requires the privilege __Server Inspector__ to use. The feature flag \_\_GDEF_ACTION_DEBUGGER\_\_ that was used previously is depricated and is no longer in use.
 
+<!--ID d285a51e-2ac0-41b8-b397-39fe855ccb51 -->
+**#23695 Genus Desktop/Studio download size and disk footprint is significantly reduced**
+
+We have minimized dependencies on external software components, reducing the download size **from 224 MB to 82 MB**. Consequently, the disk footprint has decreased **from 678 MB to 337 MB**.
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
