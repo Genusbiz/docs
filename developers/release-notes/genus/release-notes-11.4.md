@@ -63,6 +63,12 @@ Models with database vendor version set to *Sql Server 2016* running on 2022 **m
 
 Data marts must be edited in the origin runtime, and becomes available to other runtimes as part of a model publication.
 
+<!--ID 2ccf36de-43b6-4b90-afdb-81363f9f0dc9 -->
+**#23706 No objects filter will now be taken into account**
+
+No objects filter will now be taken into account. In some cases, when transferring data to components, No Objects was ignored and all Objects in the data set was shown. 
+This is now fixed, so in these cases the data set will no longer show any data.
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
