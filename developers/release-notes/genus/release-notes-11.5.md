@@ -119,6 +119,11 @@ Page, Client Action and App- designers now open in web browsers.  This allows th
 
 All editors opened in Web also open as read only.
 
+<!--ID f5a98739-09b0-4058-86b6-4b694a9cc94b -->
+**#23700 Support for Redis with standalone architecture**
+
+It is now possible to connect to a Redis instance configured as standalone, as opposed to replication (sentinel).
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
