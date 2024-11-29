@@ -23,6 +23,28 @@ Prior to upgrading to this release, you must:
 
 <!--rntype01-start INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
 
+See also the following notes.
+
+<!--ID 0c04bcb8-d810-4c5f-8c8a-121a07a3265a -->
+**#23707 BREAKING CHANGE: Discontinuing support for Helm 2 charts. Switch to using Helm 3/oci charts.**
+
+The Azure container registry containing our Helm charts and container images are dropping support for Helm 2 charts. Genus have supported Helm 3 since version 10.22, and we will stop publishing Helm 2 charts after version 10.5.
+
+To switch over from deploying the old charts to the new charts, some changes must be done to the deploy pipelines or GitOps (Flux or ArgoCD) configuration.
+
+If you are deploying with pipelines, make sure that the pipeline job run on version 2.6.5 or newer of the `genusbiz/genus-bootstrap` image.
+
+If you are deploying with Flux or ArgoCD, make sure that the HelmRepository definition is of type: "oci", and that the url is "oci://genus.azurecr.io/genus/helm".
+
+More information about the change can be found [here](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-helm-repos).
+
+<!--ID 4f8d34a9-1b3c-4c03-b93b-a60713f1878a -->
+**#23708 Helm value validation when deploying Genus versions**
+
+The Helm values will now be validated before deploying, and attempting to deploy with invalid values will no longer work (unless the flag `--skip-schema-validation` is set). 
+
+Validation errors are displayed in the deploy log, or can be found using Version Deployment in Genus Operator.
+
 <!--rntype01-end   INSTALLATION / UPGRADE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 <!-- release note type 2 is missing. That's ok.-->
 
