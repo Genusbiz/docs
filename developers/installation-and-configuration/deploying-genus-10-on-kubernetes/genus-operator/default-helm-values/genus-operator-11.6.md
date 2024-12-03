@@ -623,7 +623,7 @@ global:
           # @schema
           additionalLabels: {}
 
-        # kubernetesOperatorPrometheusRules:
+        # genusOperatorPrometheusRules:
         nonRunningPodsInActiveRuntime:
           # @schema
           # type: boolean
@@ -982,7 +982,7 @@ global:
     # @schema
     internalTLS: false 
 
-    kubernetesOperatorService:
+    genusOperatorService:
       main:
         # @schema
         # @schema
