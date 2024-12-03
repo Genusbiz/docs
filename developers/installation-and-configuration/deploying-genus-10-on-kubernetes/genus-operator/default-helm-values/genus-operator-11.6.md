@@ -418,7 +418,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
+          # -- Percentage of database transactions that has failed
           threshold: 0.05
           
           # @schema
@@ -451,7 +451,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
+          # -- Percentage of object scope utilization before alert is sent
           threshold: 0.8
 
           # @schema
@@ -483,12 +483,6 @@ global:
           enabled: true
 
           # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 1
-
-          # @schema
           # type: string
           # @schema
           # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
@@ -518,7 +512,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered
+          # -- Number of restarts allowed before alerting
           threshold: 0
 
           # @schema
@@ -545,7 +539,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered
+          # -- Number of allowed unhandled exceptions within the timeperiod
           threshold: 0
 
           # @schema
@@ -572,7 +566,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered
+          # -- Number of allowed fatal exceptions within the timeperiod
           threshold: 0
 
           # @schema
@@ -599,7 +593,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
+          # -- Number of allowed failed requests within the timeperiod
           threshold: 0
 
           # @schema
@@ -623,8 +617,7 @@ global:
           # @schema
           additionalLabels: {}
 
-        # genusOperatorPrometheusRules:
-        nonRunningPodsInActiveRuntime:
+        serverErrors:
           # @schema
           # type: boolean
           # @schema
@@ -633,13 +626,35 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
+          # -- The percentage of resonses the gateway service returns whith a responsecode 5.. (server error) 
+          threshold: 0.2
+
+          # @schema
+          # enum: [info, warning, error, critical]
+          # @schema
+          # -- Severity of the alert
+          severity: error
+
+          # @schema
+          # type: object
+          # patternProperties:
+          #   "^.*":
+          #     "type": "string"
+          # additionalProperties: false
+          # @schema
+          additionalLabels: {}
+
+        # kubernetesOperatorPrometheusRules:
+        nonRunningPodsInActiveRuntime:
+          # @schema
+          # type: boolean
+          # @schema
+          enabled: true
 
           # @schema
           # type: string
           # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
+          # -- Timeperiod for how long the pods can be not running for the alert to be sent
           for: 5m
 
           # @schema
@@ -664,15 +679,9 @@ global:
           enabled: true
 
           # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
           # type: string
           # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
+          # -- Timeperiod for how long the pods can be in state "not ready" for the alert to be sent
           for: 5m
 
           # @schema
@@ -697,15 +706,9 @@ global:
           enabled: true
 
           # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
           # type: string
           # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
+          # -- Timeperiod for how long the pods can be not running for the alert to be sent
           for: 5m
 
           # @schema
@@ -730,15 +733,9 @@ global:
           enabled: true
 
           # @schema
-          # type: number
-          # @schema
-          # -- Threshold for when the alert is triggered within the timeperiod defined in for
-          threshold: 0
-
-          # @schema
           # type: string
           # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
+          # -- Timeperiod for how long the pods can be in state "not ready" for the alert to be sent
           for: 5m
 
           # @schema
@@ -801,7 +798,6 @@ global:
           # -- Severity of the alert
           severity: error
 
-
           # @schema
           # type: object
           # patternProperties:
@@ -821,7 +817,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered
+          # -- Rate of mails allowed in a failed state the last 5 minutes
           threshold: 0
 
           # @schema
@@ -829,7 +825,6 @@ global:
           # @schema
           # -- Severity of the alert
           severity: error
-
 
           # @schema
           # type: object
@@ -849,7 +844,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered
+          # -- Rate of mails allowed to be sent with warning last 5 minutes
           threshold: 0
 
           # @schema
@@ -876,7 +871,7 @@ global:
           # @schema
           # type: string
           # @schema
-          # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
+          # -- Timeperiod for how long the service can not respond before alerting
           for: 5m
 
           # @schema
@@ -903,7 +898,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered
+          # -- Number of mails allowed in a failed state 
           threshold: 0
 
           # @schema
@@ -949,6 +944,93 @@ global:
           # @schema
           additionalLabels: {}
 
+        readNotProcessedMessages:   
+          # @schema
+          # type: boolean
+          # @schema
+          enabled: true
+
+          # @schema
+          # type: string
+          # @schema
+          # -- Timeperiod for how long the service is not processing messages before alerting
+          for: 15m
+
+          # @schema
+          # enum: [info, warning, error, critical]
+          # @schema
+          # -- Severity of the alert
+          severity: info
+
+          # @schema
+          # type: object
+          # patternProperties:
+          #   "^.*":
+          #     "type": "string"
+          # additionalProperties: false
+          # @schema
+          additionalLabels: {}
+
+        moreAddedToQueueThanProcessed:   
+          # @schema
+          # type: boolean
+          # @schema
+          enabled: true
+
+          # @schema
+          # type: string
+          # @schema
+          # -- Timeperiod for how long the the queue length can increase before sending an alert
+          for: 15m
+
+          # @schema
+          # enum: [info, warning, error, critical]
+          # @schema
+          # -- Severity of the alert
+          severity: info
+
+          # @schema
+          # type: object
+          # patternProperties:
+          #   "^.*":
+          #     "type": "string"
+          # additionalProperties: false
+          # @schema
+          additionalLabels: {}
+
+        tooManyRetriesInQueue:   
+          # @schema
+          # type: boolean
+          # @schema
+          enabled: true
+
+          # @schema
+          # type: number
+          # @schema
+          # -- Threshold for when the alert is triggered
+          threshold: 10
+
+          # @schema
+          # type: string
+          # @schema
+          # -- Timeperiod for how long the queue can retrie queueing before sending an alert
+          for: 15m
+
+          # @schema
+          # enum: [info, warning, error, critical]
+          # @schema
+          # -- Severity of the alert
+          severity: info
+
+          # @schema
+          # type: object
+          # patternProperties:
+          #   "^.*":
+          #     "type": "string"
+          # additionalProperties: false
+          # @schema
+          additionalLabels: {}
+
         # scheduled-aciton-prometheus-rules:
         scheduledActionFailed:
           # @schema
@@ -959,7 +1041,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Threshold for when the alert is triggered
+          # -- Rate of scheduled actions that fail in the last minute
           threshold: 0
 
           # @schema
