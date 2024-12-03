@@ -37,20 +37,20 @@
 | genus-operator-frontend.affinityScheduling.enabled                                   | | false |
 | genus-operator-frontend.affinityScheduling.namespaceListForPodAntiAffinity           | | [] |
 |                                                                                      | | |
-| genus-kubernetes-operator-service                                                    | | |
-| genus-kubernetes-operator-service.replicaCount                                       | | 1 |
-| genus-kubernetes-operator-service.resources                                          | | |
-| genus-kubernetes-operator-service.resources.request                                  | | |
-| genus-kubernetes-operator-service.resources.request.memory                           | | 50Mi |
-| genus-kubernetes-operator-service.resources.request.cpu                              | | 10m |
-| genus-kubernetes-operator-service.resources.limits                                   | | |
-| genus-kubernetes-operator-service.resources.limits.memory                            | | 500Mi |
-| genus-kubernetes-operator-service.resources.limits.cpu                               | | 200m |
-| genus-kubernetes-operator-service.serviceMonitor                                     | | |
-| genus-kubernetes-operator-service.serviceMonitor.scrapeInterval                      | | 30s |
-| genus-kubernetes-operator-service.affinityScheduling                                 | | |
-| genus-kubernetes-operator-service.affinityScheduling.enabled                         | | false |
-| genus-kubernetes-operator-service.affinityScheduling.namespaceListForPodAntiAffinity | | [] |
+| genus-operator-service                                                    | | |
+| genus-operator-service.replicaCount                                       | | 1 |
+| genus-operator-service.resources                                          | | |
+| genus-operator-service.resources.request                                  | | |
+| genus-operator-service.resources.request.memory                           | | 50Mi |
+| genus-operator-service.resources.request.cpu                              | | 10m |
+| genus-operator-service.resources.limits                                   | | |
+| genus-operator-service.resources.limits.memory                            | | 500Mi |
+| genus-operator-service.resources.limits.cpu                               | | 200m |
+| genus-operator-service.serviceMonitor                                     | | |
+| genus-operator-service.serviceMonitor.scrapeInterval                      | | 30s |
+| genus-operator-service.affinityScheduling                                 | | |
+| genus-operator-service.affinityScheduling.enabled                         | | false |
+| genus-operator-service.affinityScheduling.namespaceListForPodAntiAffinity | | [] |
 |                                                                                      | | |
 | redis                                                                                | | |
 | redis.fullnameOverride                                                               | | operator-redis |
