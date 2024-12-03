@@ -57,7 +57,29 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 3ef669ef-c9c7-4249-a90c-22ac9b8e1c2b -->
+**#23709 Genus Operator dependency genus-kubernetes-operator-service renamed to genus-operator-service**
+
+Any Helm values for Genus Operator defined under genus-kubernetes-operator-service, must be moved to to under genus-operator-service instead.
+
+For example if you have the following in the Helm value files for genus operator:
+
+```yaml
+genus-kubernetes-operator-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
+It should now look like this:
+
+```yaml
+genus-operator-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
