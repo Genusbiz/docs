@@ -125,7 +125,15 @@ global:
   # @schema
   # -- Use to set featureFlags for the application. Only do this if you know what you are doing.
   featureFlags: {}
-    
+  
+  # @schema
+  # type: array
+  # items:
+  #   type: string
+  # @schema
+  allowedExternalOrigins: []
+
+
   ingress:
 
     # @schema
