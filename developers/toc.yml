@@ -492,8 +492,6 @@
     href: guidelines-and-best-practices/improving-search-performance.md
   - name: Security on search
     href: guidelines-and-best-practices/security-on-search.md
-  - name: REST service guidelines
-    href: guidelines-and-best-practices/rest-service-guidelines.md
   - name: Web service guidelines
     href: guidelines-and-best-practices/web-service-guidelines/index.md
     items:
