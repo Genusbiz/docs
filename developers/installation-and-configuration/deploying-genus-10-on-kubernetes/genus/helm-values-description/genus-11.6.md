@@ -37,7 +37,7 @@ All microservices can be configured with the following common helm values.
 | genus-gateway-service.sessionDurationMinutes | Maximum number of minutes for which a session may last, less than or equal to 0 means that the cookie doesn't expire | "10080" |
 | genus-gateway-service.sessionInactivityMaxDurationMinutes | Maximum number of minutes for which a session inactivity may last, renews duration if activity is in second half of period | "60" |
 | genus-trace-input-service | _See [Microservice helm values](#microservice-helm-values)_ | |
-| genus-message-subscription-service | _See [Microservice helm values](#microservice-helm-values)_ | |
+| genus-live-update-subscription-service | _See [Microservice helm values](#microservice-helm-values)_ | |
 | genus-tracelog-subscription-service | _See [Microservice helm values](#microservice-helm-values)_ | |
 | genus-internationalization-service | _See [Microservice helm values](#microservice-helm-values)_ | |
 | genus-webcal-service | _See [Microservice helm values](#microservice-helm-values)_ | |
