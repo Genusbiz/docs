@@ -31,6 +31,23 @@ genus-data-mart-query-service:
   # @ignore
   serviceAlias: data-mart-query-service
 
+
+genus-live-update-input-service:
+  # @ignore
+  serviceAlias: live-update-input-service
+
+genus-message-subscription-service:
+  # @ignore
+  serviceAlias: message-subscription-service
+
+genus-trace-input-service:
+  # @ignore
+  serviceAlias: trace-input-service
+
+genus-tracelog-subscription-service:
+  # @ignore
+  serviceAlias: tracelog-subscription-service
+
 # @schema
 # type: object
 # additionalProperties: false
