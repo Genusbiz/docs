@@ -36,9 +36,9 @@ genus-live-update-input-service:
   # @ignore
   serviceAlias: live-update-input-service
 
-genus-message-subscription-service:
+genus-live-update-subscription-service:
   # @ignore
-  serviceAlias: message-subscription-service
+  serviceAlias: live-update-subscription-service
 
 genus-trace-input-service:
   # @ignore
