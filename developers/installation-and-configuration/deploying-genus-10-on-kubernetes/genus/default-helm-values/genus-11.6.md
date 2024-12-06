@@ -1405,7 +1405,7 @@ global:
       main:
         http: 8099
         https: 9443
-    messageSubscriptionService:
+    liveUpdateSubscriptionService:
       external:
         http: 8097
         https: 9097
