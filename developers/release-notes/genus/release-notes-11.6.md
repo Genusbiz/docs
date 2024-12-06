@@ -64,7 +64,29 @@ There is no deprecated functionality in this release.
 
 This section lists important changes introduced in this release. You will need to use this list in order to understand the changes you might need to make to your application to support the new release.
 <!--rntype05-start BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no breaking changes in this release.
+<!--ID 21bde47c-946c-4c62-8128-38b101fb1a06 -->
+**#23710 Service "message-subscription-service" renamed**
+
+Any Helm values for message-subscription-service defined under genus-message-subscription-service, must be moved to genus-live-update-subscription-service
+
+For example if you have the following in the Helm value files:
+
+```yaml
+genus-message-subscription-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
+It should now look like this:
+
+```yaml
+genus-live-update-subscription-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
