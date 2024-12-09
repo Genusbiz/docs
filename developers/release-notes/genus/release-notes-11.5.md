@@ -75,6 +75,19 @@ Applications that run aggregates with the old reference date will crash.
 
 To fix this, edit your aggregate data sets so that their reference date expressions return a CalendarTime object.
 
+<!--ID 8b31e870-6803-4265-b929-93816dc91394 -->
+**#23705 Public REST endpoints now uses Helm value global.allowedExternalOrigins to verify origin**
+
+For clients using public Genus REST endpoints with cross-site requests it is now necessary to specify which origins that are allowed. The Helm value **global.allowedExternalOrigins** is an array containing every origin that will be accepted. The values here must match the origin header from the request. It is also possible to add '*' as a value, indicating then every origin is allowed (this is not recommended in must cases).
+
+Example:
+```yaml
+global:
+  allowedExternalOrigins:
+    - https://example.com
+    - https://example2.com
+```
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
