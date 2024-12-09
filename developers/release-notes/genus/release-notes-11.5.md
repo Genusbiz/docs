@@ -88,6 +88,27 @@ global:
     - https://example2.com
 ```
 
+<!--ID 92930086-2026-4189-b755-b2583c7b8e2f -->
+**#23711 Default typography has been updated**
+
+The typographic styles available in Genus has evolved and matches the typography settings in Microsoft products again. In App Models where typography has not been modified, the appearance of some font styles will appear differently than previous versions. Check the typography used in your app models and update as needed. 
+
+If you have already set your own typography styles, there is no need to change anything. 
+
+If the font styles have changed and you want to return to the legacy styles, the typographic styles should be updated manually in Studio. Navigate to Web\Theming and Styling and select Fonts. The changes are listed below:
+
+* Heading 1: 32 Semi Bold (was 42 Light)
+* Heading 2: 28  Semi Bold (was 28 Light)
+* Heading 3: 24 Semi Bold (was 20 Light)
+* Heading 4: 20 Semi Bold (was 17 Semi Bold)
+* Heading 5: 16 Semi Bold (was 14 Semi Bold)
+* Heading 6: 14 Semi Bold (was 14 Semi Bold)
+* Subtitle 1: 14 Semi Bold (was 14 Semi Bold)
+* Subtitle 2: 12 Semi Bold (was 12 Semi Bold)
+* Body 1: 14 Regular (was 42 Regular)
+* Body 2: 14, Regular (was 42 Regular) 
+* Caption: 12 Regular (was 11 Regular)
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
