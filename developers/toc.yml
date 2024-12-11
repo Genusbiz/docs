@@ -545,8 +545,6 @@
               href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/merge-report-data-to-a-microsoft-excel-document.md
         - name: Merge data to a Microsoft Word document
           href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md
-        - name: Test run merging template
-          href: how-to/merge-data-to-a-document/test-run-merging-template.md
     - name: Report an error
       href: how-to/report-an-error.md
     - name: Search across many data sources
