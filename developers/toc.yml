@@ -461,15 +461,6 @@
                   href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-11.5.md
                 - name: Genus Operator 11.4
                   href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-11.4.md
-    - name: Installing Genus Desktop
-      href: installation-and-configuration/installing-genus-desktop/index.md
-      items:
-        - name: Installation special folders
-          href: installation-and-configuration/installing-genus-desktop/install-genus-special-folders.md
-        - name: The Genus Desktop launcher command line
-          href: installation-and-configuration/installing-genus-desktop/genus-launcher-command-line.md
-        - name: Registry settings
-          href: installation-and-configuration/installing-genus-desktop/install-genus-registry-settings.md
     - name: Configure and maintain Genus Services
       href: installation-and-configuration/configure-and-maintain-genus-server/index.md
       items:
