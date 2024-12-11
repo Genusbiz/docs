@@ -1,15 +1,8 @@
 - name: Overview
   href: overview/index.md
   items:
-  - name: What is a Genus solution?
-    href: overview/what-is-a-genus-solution.md
   - name: Terminology
     href: ../terminology.md
-- name: Getting started
-  href: index.md
-  items:
-  - name: Start Genus Apps for desktop
-    href: getting-started/start-the-genus-desktop-client.md
 - name: Navigate, view, modify and control
   href: navigate-view-modify-and-control/index.md
   items:
