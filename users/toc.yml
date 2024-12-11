@@ -234,5 +234,3 @@
       href: analyze-report-and-discover/report/save-to-file-or-print-a-report.md
     - name: Data filters
       href: analyze-report-and-discover/report/data-filters.md
-- name: Automate, monitor and alert
-  href: automate-monitor-and-alert/index.md
