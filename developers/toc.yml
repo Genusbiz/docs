@@ -8,15 +8,6 @@
       items:
         - name: Search and organize
           href: defining-an-app-model/getting-started/search-and-organize.md
-    - name: General settings
-      href: defining-an-app-model/general-settings/index.md
-      items:
-        - name: Data sets
-          href: defining-an-app-model/general-settings/data-sets.md
-        - name: Calendar
-          href: defining-an-app-model/general-settings/calendar-settings.md
-        - name: Advanced settings
-          href: defining-an-app-model/general-settings/advanced-settings.md
     - name: Common concepts
       href: defining-an-app-model/common-concepts/index.md
       items:
