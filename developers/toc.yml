@@ -70,8 +70,6 @@
     - name: User interface
       href: defining-an-app-model/user-interface/index.md
       items:
-        - name: Navigation pane
-          href: defining-an-app-model/user-interface/navigation-pane.md
         - name: Tables
           href: defining-an-app-model/user-interface/tables/index.md
           items:
