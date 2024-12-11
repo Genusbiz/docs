@@ -3,11 +3,6 @@
 - name: Defining an App Model
   href: defining-an-app-model/index.md
   items:
-    - name: Getting started
-      href: defining-an-app-model/getting-started/index.md
-      items:
-        - name: Search and organize
-          href: defining-an-app-model/getting-started/search-and-organize.md
     - name: Common concepts
       href: defining-an-app-model/common-concepts/index.md
       items:
