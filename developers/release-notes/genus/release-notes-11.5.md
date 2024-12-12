@@ -54,7 +54,13 @@ Cleanup of logs, including **Audit Trail**, **Execute Log** and **Read Log**, wa
 
 This functionality is replaced with a much more elegant mechanism.
 
-Simply open **Genus Studio** | **Settings** | **Logging**, and specify the number of days you want the information in the logs to live. Specify 0 days if you do *not* want automatic cleaning of any of the logs.
+Simply open **Genus Studio** | **Settings** | **Logging**, and specify the number of days you want the information in the logs to live. Specify 0 days if you do *not* want automatic cleaning of any of the logs. The default value after upgrade is NULL which signifies 0 (no automatic cleaning).
+
+Cleaning is done by deleting the 3 oldest logs at a time every 10 seconds to avoid locking of the table. Both the number of logs deleted per cycle and frequency is configurable.
+
+Keep in mind that you should have a index (preferably clustered) sorted on created date to make sure the SQL-query is fast.
+
+If you already have a custom log cleaning method consider removing it.
 
 You should at the same time delete the old **Scheduled Actions**, as they will fail in this version.
 
