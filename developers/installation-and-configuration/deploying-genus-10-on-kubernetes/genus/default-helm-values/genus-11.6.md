@@ -23,9 +23,9 @@ genus-scheduled-action-service:
   # @ignore
   serviceAlias: scheduled-action-service
 
-genus-rest-soap-service:
+genus-exposed-web-service:
   # @ignore
-  serviceAlias: rest-soap-service
+  serviceAlias: exposed-web-service
 
 genus-data-mart-query-service:
   # @ignore
@@ -1342,7 +1342,7 @@ global:
       main:
         http: 8181
         https: 9443
-    restSoapService:
+    exposedWebService:
       main:
         http: 8181
         https: 9443
