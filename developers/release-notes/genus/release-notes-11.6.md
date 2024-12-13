@@ -87,6 +87,30 @@ genus-live-update-subscription-service:
       memory: 200Mi
 ```
 
+<!--ID a6b5a479-3504-4630-a34f-1a75ccb66e4c -->
+**#23715 Default value for repository.image for core-services now default to Linux only**
+
+Previously the default value for `image.repository` for core-services depended on wether or not `runOnWindows` was true. This is no longer the case.
+
+This means that if you have set `runOnWindows` to true, you must now also specify the `image.repository` value. The value here should be either "genus.azurecr.io/genus/images/core-service-ltsc2019" or "genus.azurecr.io/genus/images/core-service-ltsc2022", depending on the Windows version of your Windows nodes.
+
+This concerns the microservices `genus-core-service`, `genus-mq-subscriber-service`, `genus-exposed-web-service`, `genus-scheduled-action-service` and `genus-data-mart-service`.
+
+An example:
+If you previously had
+```yaml
+genus-core-service:
+  runOnWindows: true
+```
+
+You must now have
+```yaml
+genus-core-service: 
+  runOnWindows: true
+  image:
+     repository: genus.azurecr.io/genus/images/core-service-ltsc2019
+```
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
