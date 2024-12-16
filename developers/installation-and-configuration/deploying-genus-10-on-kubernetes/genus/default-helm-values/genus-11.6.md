@@ -40,9 +40,9 @@ genus-live-update-subscription-service:
   # @ignore
   serviceAlias: live-update-subscription-service
 
-genus-trace-input-service:
+genus-tracelog-input-service:
   # @ignore
-  serviceAlias: trace-input-service
+  serviceAlias: tracelog-input-service
 
 genus-tracelog-subscription-service:
   # @ignore
@@ -1441,7 +1441,7 @@ global:
       main:
         http: 8094
         https: 9443
-    traceInputService:
+    tracelogInputService:
       main:
         http: 8094
         https: 9443
