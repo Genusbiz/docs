@@ -87,6 +87,29 @@ genus-live-update-subscription-service:
       memory: 200Mi
 ```
 
+<!--ID 02059aa6-3f9f-4551-baca-ff20151060d4 -->
+**#23714 Service "rest-soap-service" renamed**
+
+Any Helm values for rest-soap-service defined under genus-rest-soap-service, must be moved to genus-exposed-web-service
+
+For example if you have the following in the Helm value files:
+
+```yaml
+genus-rest-soap-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
+It should now look like this:
+
+```yaml
+genus-exposed-web-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
 <!--ID a6b5a479-3504-4630-a34f-1a75ccb66e4c -->
 **#23715 Default value for repository.image for core-services now default to Linux only**
 
