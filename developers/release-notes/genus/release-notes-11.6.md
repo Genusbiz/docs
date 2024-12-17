@@ -134,6 +134,29 @@ genus-core-service:
      repository: genus.azurecr.io/genus/images/core-service-ltsc2019
 ```
 
+<!--ID 431c034a-badf-4e5b-85d4-c21def1d420d -->
+**#23716 Service "trace-input-service" renamed**
+
+Any Helm values for trace-input-service defined under genus-trace-input-service, must be moved to genus-tracelog-input-service
+
+For example if you have the following in the Helm value files:
+
+```yaml
+genus-trace-input-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
+It should now look like this:
+
+```yaml
+genus-tracelog-input-service:
+  resources:
+    requests: 
+      memory: 200Mi
+```
+
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
