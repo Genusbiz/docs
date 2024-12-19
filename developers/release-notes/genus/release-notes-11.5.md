@@ -111,8 +111,8 @@ If the font styles have changed and you want to return to the legacy styles, the
 * Heading 6: 14 Semi Bold (was 14 Semi Bold)
 * Subtitle 1: 14 Semi Bold (was 14 Semi Bold)
 * Subtitle 2: 12 Semi Bold (was 12 Semi Bold)
-* Body 1: 14 Regular (was 42 Regular)
-* Body 2: 14, Regular (was 42 Regular) 
+* Body 1: 14 Regular (was 14 Regular)
+* Body 2: 14, Regular (was 14 Regular) 
 * Caption: 12 Regular (was 11 Regular)
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
