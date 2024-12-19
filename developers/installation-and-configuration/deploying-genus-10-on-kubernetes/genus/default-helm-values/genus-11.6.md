@@ -18,18 +18,21 @@ genus-core-service:
 genus-mq-subscriber-service:
   # @ignore
   serviceAlias: mq-subscriber-service
-
+  replicaCount: 1
 genus-scheduled-action-service:
   # @ignore
   serviceAlias: scheduled-action-service
+  replicaCount: 1
 
 genus-exposed-web-service:
   # @ignore
   serviceAlias: exposed-web-service
+  replicaCount: 1
 
 genus-data-mart-query-service:
   # @ignore
   serviceAlias: data-mart-query-service
+  replicaCount: 1
 
 
 genus-live-update-input-service:
@@ -136,6 +139,12 @@ global:
   # WARNING: If specified, this will disable any scaling of the services in the runtime from Genus Operator, including for availability windows
   disableOperatorScaling: false
 
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Set this to true if you want to default to 2 replicas of each microservice
+  
+  highAvailability: false
   pitTlsTerminator:
     enabled: false
     image: "" 
