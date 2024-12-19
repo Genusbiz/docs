@@ -1039,7 +1039,7 @@ global:
   database: 
     # @schema
     # required: true
-    # enum: [Microsoft SQL Server,Microsoft SQL Server 2008 R2,Microsoft SQL Server 2012,Microsoft SQL Server 2014,Microsoft SQL Server 2016,Azure SQL,Azure SQL V12,ORACLE,ORACLE 10.0g,ORACLE 11g,ORACLE 11g R2,ORACLE 12.1c,MYSQL,MYSQL 5.7,MYSQL 8.0,PostgreSQL,PostgreSQL 9.2,DB2,DB2 10.1,TIBCO TDV,TIBCO TDV 8.2.0]
+    # enum: [%REPLACE_WITH_VENDOR_VERSION%]
     # @schema
     vendorVersion: "" 
 
