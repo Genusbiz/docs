@@ -129,6 +129,13 @@ global:
   # -- Set to true if you do not want the site to be indexed by search engines.
   noSearchEngineIndexing: false
 
+  # @schema
+  # type: boolean
+  # @schema
+  # -- Set this to true if you do not want any scaling of thie runtime from Genus Opeartor. 
+  # WARNING: If specified, this will disable any scaling of the services in the runtime from Genus Operator, including for availability windows
+  disableOperatorScaling: false
+
   pitTlsTerminator:
     enabled: false
     image: "" 
