@@ -1066,12 +1066,12 @@ global:
     appModelConnectionString: "" 
 
     # @schema
+    # required: true
     # type: string
     # @schema
     appModelDatabase: "" 
     
     # @schema
-    # required: true
     # type: string
     # @schema
     appModelSchema: "" 
