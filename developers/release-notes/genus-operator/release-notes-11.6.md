@@ -83,7 +83,17 @@ genus-operator-service:
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
 <!--rntype06-start MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no major new functionality in this release.
+<!--ID 9aece204-eaf2-44ae-b971-f6b009f4119d -->
+**#23718 Pod scaling improvements in Genus Operator**
+
+We have made several scaling-related improvements in this release.
+
+* We have added new Helm values `disableOperatorScaling` (per microservice) and `global.disableOperatorScaling`. Setting this to true will cause the provided `replicaCount` to always be used, and no scaling will be done by Genus Operator. This includes scaling down outside of availability windows, so use this option with caution.
+* Unless the Helm value described above is set to true, we no longer set the `replicas` property of the Kubernetes deployments. This means that deploying new Genus versions will no longer cause immediate up-and-down scaling of the various microservices.
+* The default number of pod replicas has been adjusted. This means that if you have made no changes to `replicaCount` or scaled from Genus Operator, there will be 2 replicas running for the microservices that are critical for not perceiving downtime on the web. This should make deployments and other interruptions less noticeable to the end users. The Helm value `global.highAvailability` can be set for a runtime to cause all microservices to run with 2 replicas by default.
+* It is now possible to enable and configure autoscaling in Genus Operator. This means it is no longer necessary to redeploy the runtime to turn this on or off.
+* Genus Operator will now automatically create and delete [Pod Disruption Budgets](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/#pod-disruption-budgets) (PDBs) depending on the number of replicas that are running. This should also help with minimizing the impact of interruptions and deployments of runtimes.
+
 <!--rntype06-end   MAJOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Minor new functionality
 <!--rntype07-start MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
