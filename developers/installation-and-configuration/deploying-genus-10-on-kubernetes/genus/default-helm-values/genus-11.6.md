@@ -59,7 +59,7 @@ global:
 
   redis: 
     # @schema
-    # type: string
+    # enum: [replication, standalone, cluster]
     # @schema
     # -- 
     architecture: replication
