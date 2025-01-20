@@ -1190,7 +1190,29 @@ global:
   redis:
     architecture: "replication"
 
+redis-cluster:
+  enabled: false
+  fullnameOverride: operator-redis
+  commonLabels:
+    app.kubernetes.io/part-of: genus-operator
+    genus.no/restartWithModelPublish: "false"
+    genus.no/k8sRuntime: "{{ .Release.Name }}"
+    genus.no/environmentType: "operator"
+  existingSecret: "session-redis" # @schema default:  "session-redis"
+  existingSecretPasswordKey: "PASSWORD"
+  redis:
+    nodeSelector:
+      kubernetes.io/os: linux
+  updateJob:
+    nodeSelector:
+      kubernetes.io/os: linux
+  metrics:
+    enabled: true
+    serviceMonitor: 
+      enabled: true
+
 redis:
+  enabled: true
   fullnameOverride: operator-redis
   architecture: "replication"
   commonLabels:
