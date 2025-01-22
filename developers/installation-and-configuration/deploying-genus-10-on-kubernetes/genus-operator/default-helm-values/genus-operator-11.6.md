@@ -1189,6 +1189,13 @@ global:
   tolerations: []
   redis:
     architecture: "replication"
+  
+  security:
+    # @schema
+    # type: boolean
+    # @schema
+    # -- Allows skipping image verification (Redis)
+    allowInsecureImages: false
 
 redis-cluster:
   enabled: false
