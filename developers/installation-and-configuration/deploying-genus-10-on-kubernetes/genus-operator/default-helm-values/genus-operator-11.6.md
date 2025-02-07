@@ -1220,6 +1220,11 @@ redis-cluster:
 
 redis:
   enabled: true
+  imagePullSecrets: 
+  - genus-regcred-azure
+  image: 
+    registry: genus.azurecr.io
+    repository: genus/images/bitnami-redis
   fullnameOverride: operator-redis
   architecture: "replication"
   commonLabels:
@@ -1233,6 +1238,9 @@ redis:
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
     enabled: true 
+    image: 
+      registry: genus.azurecr.io
+      repository: genus/images/bitnami-redis-sentinel
     containerSecurityContext:
       allowPrivilegeEscalation: false
     resources:
