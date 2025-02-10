@@ -502,6 +502,11 @@ global:
 redis:
   fullnameOverride: operator-redis
   architecture: "replication"
+  imagePullSecrets: 
+  - genus-regcred-azure
+  image: 
+    registry: genus.azurecr.io
+    repository: genus/images/bitnami-redis
   commonLabels:
     app.kubernetes.io/part-of: genus-operator
     genus.no/restartWithModelPublish: "false"
@@ -513,6 +518,9 @@ redis:
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
     enabled: true 
+    image: 
+      registry: genus.azurecr.io
+      repository: genus/images/bitnami-redis-sentinel
     containerSecurityContext:
       allowPrivilegeEscalation: false
     resources:
