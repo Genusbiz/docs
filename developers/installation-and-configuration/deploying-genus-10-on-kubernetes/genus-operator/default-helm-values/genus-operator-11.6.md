@@ -1194,8 +1194,8 @@ global:
     # @schema
     # type: boolean
     # @schema
-    # -- Allows skipping image verification (Redis)
-    allowInsecureImages: false
+    # -- Allows skipping image verification (Redis). Needed when using cached images
+    allowInsecureImages: true
 
 redis-cluster:
   enabled: false
@@ -1207,6 +1207,9 @@ redis-cluster:
     genus.no/environmentType: "operator"
   existingSecret: "session-redis" # @schema default:  "session-redis"
   existingSecretPasswordKey: "PASSWORD"
+  image:
+    registry: genus.azurecr.io
+    repository: bitnami/redis-cluster
   redis:
     nodeSelector:
       kubernetes.io/os: linux
@@ -1220,11 +1223,9 @@ redis-cluster:
 
 redis:
   enabled: true
-  imagePullSecrets: 
-  - genus-regcred-azure
   image: 
     registry: genus.azurecr.io
-    repository: genus/images/bitnami-redis
+    repository: bitnami/redis
   fullnameOverride: operator-redis
   architecture: "replication"
   commonLabels:
@@ -1240,7 +1241,7 @@ redis:
     enabled: true 
     image: 
       registry: genus.azurecr.io
-      repository: genus/images/bitnami-redis-sentinel
+      repository: bitnami/redis-sentinel
     containerSecurityContext:
       allowPrivilegeEscalation: false
     resources:
