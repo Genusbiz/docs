@@ -72,6 +72,13 @@ In effect, all **Audit Trail** times and all fields of type "created date" and "
 Scripts for converting the existing data will be provided, but due to potentially large volumes of data, it can be difficult to run this script as an update.
 If the time difference is unimportant, leaving the history unchanged is an option.
 
+<!--ID 27db6ba3-74c4-45ca-86b3-a8775b18037c -->
+**#23691 Breaking Change Notice: Style Format Update**
+
+Styles are now saved in a new format. When saving in either the Control Styles Editor or Style Settings Editor, the underlying data structure will permanently transition to this updated format.
+
+<b>Important</b>: This change is irreversible. Once saved in the new format, control styles will not be compatible with previous versions (below 11.5).
+
 <!--ID d7662f20-e668-4ccb-a93b-9e155e75589a -->
 **#23696 Aggregate Reference Date now uses CalendarTime**
 
@@ -151,6 +158,11 @@ To highlight where a given type of block or effect is located in the action flow
 **#23688 Metrics for consume a REST service/SOAP service**
 
 We have introduced two new metrics, **`genus_consume_rest_duration_ms`** and **`genus_consume_soap_duration_ms`**. Both measures the number of milliseconds spent waiting for the external REST or SOAP service to process a request. The metrics are named based on the effect name, so in order to monitor the performance of specific services you need to name the effects accordingly.
+
+<!--ID e2b4e0a2-a12d-47d3-9f6a-24cf9af684db -->
+**#23693 Server Inspector now reflects true runtime behavior**
+
+The server inspector has been updated to display and read only the fields that an action impacts, ensuring that inspections now accurately reflect runtime behavior, consistent with or without debugging.
 
 <!--ID bdfb14b4-b082-4a2b-b613-2d8ef2989579 -->
 **#23694 Designers now open in Web**
