@@ -330,6 +330,17 @@ global:
     annotations: {}
 
     # @schema
+    # type: object
+    # patternProperties:
+    #   "^.*":
+    #     "type": "string"
+    # additionalProperties: false
+    # @schema
+    # -- Add extra annotations to the active runtime ingress
+    activeAnnotations: {}
+
+
+    # @schema
     # type: string
     # @schema
     # -- TODO 
