@@ -52,7 +52,16 @@ Validation errors are displayed in the deploy log, or can be found using Version
 
 End-of-life functionality is functionality that was available in the previous release, but is no longer available in this release.
 <!--rntype03-start END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
-There are no end-of-life functionality identified in this release.
+<!--ID bed08e61-d0b4-49ad-9495-b05569ab502c -->
+**#23717 Table Naming Method is no longer in use**
+
+**Table Naming Method** was a feature used to concatenate the **Data Partition** identifier to a **Provider Name** on a table to simulate what would today be solved by using schemas.
+
+<!--ID c78b9d53-775f-44f3-97f7-cd946863b7f6 -->
+**#23721 Delete unused privilege: Log in as a SOAP user**
+
+This privilege is not in use. The permissions to a SOAP service is specified at each endpoint.
+
 <!--rntype03-end   END-OF-LIFE. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Deprecated functionality
 
@@ -156,6 +165,23 @@ genus-tracelog-input-service:
     requests: 
       memory: 200Mi
 ```
+
+<!--ID 610d797d-46ec-4e88-8c6c-6d859de65f25 -->
+**#23719 Updated Button Colors in Genus**
+
+Button colors generated from user-defined palettes have been slightly adjusted to better align with common standards. This fix ensures more consistent and expected color behavior across button states.
+
+<b>What You Need to Know:</b>
+- Improved Accuracy: Button colors now match the expected design standards more closely.
+- Affected States: Minor visual differences may appear in button states such as hover, pressed, disabled, and others.
+- Customized Styles Unchanged: If you have manually set button colors for a state, no action is required.
+
+<!--ID 032a4f27-b187-4a1c-9940-d505df4c05d0 -->
+**#23720 Change path for mounting certificates in microservices**
+
+If mounting any certificates in the services mentioned below, the path must be changed from `/home/appuser/certificates/` to `/opt/genus/certificates/ (or from  `C:\home\appuser\certificates\` to `C:\opt\genus\certificates\`for Windows containers).
+
+This change affects the `core-service`, `mq-subscriber-service`, `exposed-web-service`, `scheduled-action-service` and `data-mart-query-service`.
 
 <!--rntype05-end   BREAKING. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Major new functionality
