@@ -285,31 +285,87 @@ global:
   # @schema
   database: 
     # @schema
-    # required: true
+    # deprecated: true
     # enum: [%REPLACE_WITH_VENDOR_VERSION%]
     # @schema
     vendorVersion: "" 
 
     # @schema
-    # required: true
+    # deprecated: true
+    # type: string
     # @schema
     appModelConnectionString: "" 
 
     # @schema
     # required: true
+    # type: string
     # @schema
     appModelDatabase: "" 
     
     # @schema
-    # required: true
+    # type: string
     # @schema
     appModelSchema: "" 
 
     # @schema
     # deprecated: true
+    # type: boolean
     # @schema
     # -- This property is not used in Genus Operator
     caseInsensitiveSearch: true
+    
+    # @schema
+    # deprecated: true
+    # type: string
+    # @schema
+    # -- TODO
+    appModelConnectionOptions: ""
+
+    # @schema
+    # type: string
+    # @schema
+    appModelServer: ""
+
+    # @schema
+    # type: string
+    # @schema
+    appModelPort: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    appModelUserName: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    appModelPassword: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    appModelVendorVersion: ""
+    
+    # @schema
+    # type: string
+    # @schema
+    appModelIsCaseInsensitive: ""
+    
+    # @schema
+    # type: object
+    # @schema
+    appModelOptionsJson: {}
+    
+    # @schema
+    # type: object
+    # @schema
+    appModelFireDACOptionsJson: {}
+    
+    # @schema
+    # type: object
+    # @schema
+    appModelADONetOptionsJson: {}
+
   
   ingress:
 
