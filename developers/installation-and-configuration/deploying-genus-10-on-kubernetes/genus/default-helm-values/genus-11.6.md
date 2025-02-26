@@ -1055,7 +1055,7 @@ global:
   database: 
     # @schema
     # deprecated: true
-    # enum: [%REPLACE_WITH_VENDOR_VERSION%]
+    # type: string
     # @schema
     vendorVersion: "" 
 
@@ -1110,13 +1110,14 @@ global:
     # @schema
     appModelPassword: ""
     
+    # TODO: Replace type: string with "enum: [%REPLACE_WITH_VENDOR_VERSION%]" when we change over from old setting
     # @schema
     # type: string
     # @schema
     appModelVendorVersion: ""
     
     # @schema
-    # type: string
+    # type: boolean
     # @schema
     appModelIsCaseInsensitive: ""
     
@@ -1128,12 +1129,12 @@ global:
     # @schema
     # type: object
     # @schema
-    appModelFireDACOptionsJson: {}
+    appModelFiredacOptionsJson: {}
     
     # @schema
     # type: object
     # @schema
-    appModelADONetOptionsJson: {}
+    appModelAdonetOptionsJson: {}
 
   # @schema
   # required: true
