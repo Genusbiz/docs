@@ -1119,7 +1119,7 @@ global:
     # @schema
     # type: boolean
     # @schema
-    appModelIsCaseInsensitive: ""
+    appModelIsCaseInsensitive: true
     
     # @schema
     # type: object
