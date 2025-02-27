@@ -286,7 +286,7 @@ global:
   database: 
     # @schema
     # deprecated: true
-    # enum: [%REPLACE_WITH_VENDOR_VERSION%]
+    # enum: string
     # @schema
     vendorVersion: "" 
 
@@ -347,9 +347,9 @@ global:
     appModelVendorVersion: ""
     
     # @schema
-    # type: string
+    # type: boolean
     # @schema
-    appModelIsCaseInsensitive: ""
+    appModelIsCaseInsensitive: true
     
     # @schema
     # type: object
