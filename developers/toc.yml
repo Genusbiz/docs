@@ -458,6 +458,15 @@
           href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-oracle.md
         - name: Special considerations for Sybase
           href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sybase.md
+    - name: Installing Genus Desktop
+      href: installation-and-configuration/installing-genus-desktop/index.md
+      items:
+        - name: Installation special folders
+          href: installation-and-configuration/installing-genus-desktop/install-genus-special-folders.md
+        - name: The Genus Desktop launcher command line
+          href: installation-and-configuration/installing-genus-desktop/genus-launcher-command-line.md
+        - name: Registry settings
+          href: installation-and-configuration/installing-genus-desktop/install-genus-registry-settings.md 
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
