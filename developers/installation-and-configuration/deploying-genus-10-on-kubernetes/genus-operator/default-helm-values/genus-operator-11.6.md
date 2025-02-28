@@ -286,7 +286,7 @@ global:
   database: 
     # @schema
     # deprecated: true
-    # enum: string
+    # type: string
     # @schema
     vendorVersion: "" 
 
