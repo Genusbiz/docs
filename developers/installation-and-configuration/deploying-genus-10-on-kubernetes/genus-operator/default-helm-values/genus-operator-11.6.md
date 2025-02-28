@@ -355,7 +355,7 @@ global:
     # @schema
     # type: object
     # @schema
-    appModelFireDacOptionsJson: {}
+    appModelFiredacOptionsJson: {}
 
     # @schema
     # type: object
