@@ -5,7 +5,6 @@
 # additionalProperties: false
 # @schema
 global:
-
   # @schema
   # required: true
   # @schema
@@ -17,54 +16,54 @@ global:
   # @schema
   # -- This property is used in the genusbiz/bootstrap image. Should be the same as the deployment name.
   k8sRuntime: ""
-  
+
   # @schemas
   # required: true
   # @schema
-  # -- The unique model identifier. 
-  modelIdentifier: "" 
+  # -- The unique model identifier.
+  modelIdentifier: ""
 
   # @schema
   # type: string
   # @schema
   # -- The name of the cluster in which the application is running
-  clusterName: "" 
-  
+  clusterName: ""
+
   # @schema
   # required: true
   # @schema
   # -- This property is used in the genusbiz/bootstrap image. The namespace in which the application is running.
-  namespaceName: "" 
-  
+  namespaceName: ""
+
   # @schema
   # required: true
   # type: string
   # @schema
-  dnsSuffix: "" 
+  dnsSuffix: ""
 
   # @schema
   # type: string
   # @schema
   # -- If the application should be available at another URL than "<global.modelIdentifier>-operator.<global.dnsSuffix>", use this property to override it.
   hostnameFQDN: ""
-  
+
   # @schema
   # const: operator
   # required: true
   # @schema
   # -- This property is used in the genusbiz/bootstrap image to identify the value file for Genus Operator
-  environmentType: "operator" 
-  
+  environmentType: "operator"
+
   # @schema
   # @schema
-  # -- The TZ identifier for the timezone of the application. [Read more]https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) 
-  timezone: "Europe/Oslo" 
-  
+  # -- The TZ identifier for the timezone of the application. [Read more]https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+  timezone: "Europe/Oslo"
+
   # @schema
   # type: boolean
   # @schema
   # -- Whether or not to send error reports to Sentry. Should be true in production environments.
-  enableSentry: true 
+  enableSentry: true
 
   # @schema
   # type: string
@@ -77,27 +76,27 @@ global:
   # @schema
   # -- Path to a certificate file. When set, the well known "root" CAs (like VeriSign) will be extended with the extra certificates in file. The file should consist of one or more trusted certificates in PEM format. A message will be printed to stderr (once) if the file is missing or misformatted, but any errors are otherwise ignored
   nodeExtraCACerts: ""
-  
+
   # @schema
   # @schema
   # -- Used to opt out of automounting API credentials. Change to true if this is something you want to do. [Read more](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
-  automountServiceAccountToken: false 
-  
+  automountServiceAccountToken: false
+
   # @schema
   # @schema
-  clusterDomain: cluster.local 
+  clusterDomain: cluster.local
 
   pitTlsTerminator:
     enabled: false
     image: ""
-  
+
   # @schema
   # required: true
   # type: string
   # @schema
   # -- The name of the customer. Used for automatic error reporting
-  customer: "" 
-  
+  customer: ""
+
   # @schema
   # required: true
   # type: string
@@ -116,42 +115,41 @@ global:
     # additionalProperties: false
     # @schema
     MSEntraId:
-      
       # @schema
       # type: string
-      # @schema    
+      # @schema
       # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal
       tenantId: ""
-      
+
       # @schema
       # type: string
-      # @schema     
-      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal 
+      # @schema
+      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal
       clientId: ""
-      
+
       # @schema
       # type: string
-      # @schema     
-      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal 
+      # @schema
+      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal
       clientSecret: ""
-      
+
       # @schema
       # type: string
-      # @schema     
-      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal 
+      # @schema
+      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal
       operatorGroupId: ""
-      
+
       # @schema
       # type: string
-      # @schema     
-      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal 
+      # @schema
+      # -- Required if using auth.method: "MS Entra ID". Set up for authentication, and this value, can be found in the Azure portal
       redirectUri: ""
-  
+
   # @schema
   # @schema
   # -- The name of the secret used for pulling images from a private registry. Only change this if you do not use the image registry.
-  imagePullSecrets: 
-  - name: "genus-regcred-azure"
+  imagePullSecrets:
+    - name: "genus-regcred-azure"
 
   # @schema
   # additionalProperties: false
@@ -159,11 +157,11 @@ global:
   traceLog:
     # @schema
     # @schema
-    debug: false 
+    debug: false
 
     # @schema
     # @schema
-    timing: false 
+    timing: false
 
   # @schema
   # type: object
@@ -174,20 +172,19 @@ global:
   # @schema
   # -- Add nodeselectors to the pods. Comes in addtion to the default nodeselector, "kubernetes.io/os: linux"
   nodeSelector: {}
-  
+
   # @schema
   # type: object
   # @schema
   # -- Specify experimental features to enable with feature flags
-  featureFlags: 
+  featureFlags:
     deployGenus: false
-  
+
   # @schema
   # type: object
   # additionalProperties: false
   # @schema
   versionDeployment:
-    
     # @schema
     # type: boolean
     # @schema
@@ -260,19 +257,18 @@ global:
     # @schema
     helmValuesDirectory: "helm-values"
 
-
   phoneHome:
     # @schema
     # type: boolean
     # deprecated: true
     # @schema
     # -- Whether or not to send anonymous usage statistics to Genus. Deprecated. Not in use.
-    enabled: false 
+    enabled: false
 
     apiKey: ""
 
     customerSampleCode: ""
-  
+
   # @schema
   # type: string
   # @schema
@@ -283,29 +279,29 @@ global:
   # required: true
   # additionalProperties: false
   # @schema
-  database: 
+  database:
     # @schema
     # deprecated: true
     # type: string
     # @schema
-    vendorVersion: "" 
+    vendorVersion: ""
 
     # @schema
     # deprecated: true
     # type: string
     # @schema
-    appModelConnectionString: "" 
+    appModelConnectionString: ""
 
     # @schema
     # required: true
     # type: string
     # @schema
-    appModelDatabase: "" 
-    
+    appModelDatabase: ""
+
     # @schema
     # type: string
     # @schema
-    appModelSchema: "" 
+    appModelSchema: ""
 
     # @schema
     # deprecated: true
@@ -313,7 +309,7 @@ global:
     # @schema
     # -- This property is not used in Genus Operator
     caseInsensitiveSearch: true
-    
+
     # @schema
     # deprecated: true
     # type: string
@@ -330,49 +326,47 @@ global:
     # type: string
     # @schema
     appModelPort: ""
-    
+
     # @schema
     # type: string
     # @schema
     appModelUserName: ""
-    
+
     # @schema
     # type: string
     # @schema
     appModelPassword: ""
-    
+
     # @schema
     # type: string
     # @schema
     appModelVendorVersion: ""
-    
+
     # @schema
     # type: boolean
     # @schema
     appModelIsCaseInsensitive: true
-    
+
     # @schema
     # type: object
     # @schema
     appModelOptionsJson: {}
-    
-    # @schema
-    # type: object
-    # @schema
-    appModelFireDACOptionsJson: {}
-    
-    # @schema
-    # type: object
-    # @schema
-    appModelADONetOptionsJson: {}
 
-  
+    # @schema
+    # type: object
+    # @schema
+    appModelFireDacOptionsJson: {}
+
+    # @schema
+    # type: object
+    # @schema
+    appModelAdonetOptionsJson: {}
+
   ingress:
-
     # @schema
     # type: string
     # @schema
-    # -- TODO 
+    # -- TODO
     pathType: "ImplementationSpecific"
 
     # @schema
@@ -395,11 +389,10 @@ global:
     # -- Add extra annotations to the active runtime ingress
     activeAnnotations: {}
 
-
     # @schema
     # type: string
     # @schema
-    # -- TODO 
+    # -- TODO
     ingressClassName: ""
 
     # @schema
@@ -415,7 +408,7 @@ global:
     # @schema
     # @schema
     # -- TODO
-    ingressWildCardPathEnabled: false 
+    ingressWildCardPathEnabled: false
 
     # @schema
     # @schema
@@ -427,41 +420,40 @@ global:
     # -- TODO
     operatorFrontendTlsIngressEnabled: false
 
-  # @schema
-  # type: array
-  # items:
-  #   type: object
-  #   properties:
-  #     hosts:
-  #       type: array
-  #       description: "A list of hostnames associated with the TLS configuration."
-  #       items:
-  #         type: string
-  #         description: "The hostname to be covered by this TLS configuration, e.g., example.com."
-  #     secretName:
-  #       type: string
-  #       description: "The name of the Kubernetes Secret containing the TLS certificate and key."
-  #       required: false
-  #       example: "example-tls-secret"
-  # @schema
+    # @schema
+    # type: array
+    # items:
+    #   type: object
+    #   properties:
+    #     hosts:
+    #       type: array
+    #       description: "A list of hostnames associated with the TLS configuration."
+    #       items:
+    #         type: string
+    #         description: "The hostname to be covered by this TLS configuration, e.g., example.com."
+    #     secretName:
+    #       type: string
+    #       description: "The name of the Kubernetes Secret containing the TLS certificate and key."
+    #       required: false
+    #       example: "example-tls-secret"
+    # @schema
     tls: []
 
   rbac:
     # @schema
     # @schema
-    create: true 
+    create: true
 
   # @schema
   # additionalProperties: false
   # @schema
   metrics:
     serviceMonitor:
-
       # @schema
       # type: boolean
       # @schema
       # -- Whether or not to create a ServiceMonitor for Prometheus scraping. Requires that the ServiceMonitor CRD is installed.
-      enabled: true 
+      enabled: true
 
       # @schema
       # @schema
@@ -472,8 +464,8 @@ global:
       # @schema
       # @schema
       # -- Whether or not to create PrometheusRules for alerting. Requires that the PrometheusRule CRD is installed.
-      enabled: true 
-      
+      enabled: true
+
       rules:
         # coreServicePrometheusRules:
         failingDataBaseTransactions:
@@ -481,25 +473,25 @@ global:
           # type: boolean
           # @schema
           enabled: true
-          
+
           # @schema
           # type: number
           # @schema
           # -- Percentage of database transactions that has failed
           threshold: 0.05
-          
+
           # @schema
           # type: string
           # @schema
           # -- Timeperiod for how long the threshold is surpassed for the alert to be sent
           for: 5m
-          
+
           # @schema
           # enum: [info, warning, error, critical]
           # @schema
           # -- Severity of the alert
           severity: error
-          
+
           # @schema
           # type: object
           # patternProperties:
@@ -693,7 +685,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- The percentage of resonses the gateway service returns whith a responsecode 5.. (server error) 
+          # -- The percentage of resonses the gateway service returns whith a responsecode 5.. (server error)
           threshold: 0.2
 
           # @schema
@@ -965,7 +957,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Number of mails allowed in a failed state 
+          # -- Number of mails allowed in a failed state
           threshold: 0
 
           # @schema
@@ -983,8 +975,8 @@ global:
           # @schema
           additionalLabels: {}
 
-        # messageQueuePrometheusrules: 
-        stoppedSendingMessages:   
+        # messageQueuePrometheusrules:
+        stoppedSendingMessages:
           # @schema
           # type: boolean
           # @schema
@@ -1011,7 +1003,7 @@ global:
           # @schema
           additionalLabels: {}
 
-        readNotProcessedMessages:   
+        readNotProcessedMessages:
           # @schema
           # type: boolean
           # @schema
@@ -1038,7 +1030,7 @@ global:
           # @schema
           additionalLabels: {}
 
-        moreAddedToQueueThanProcessed:   
+        moreAddedToQueueThanProcessed:
           # @schema
           # type: boolean
           # @schema
@@ -1065,7 +1057,7 @@ global:
           # @schema
           additionalLabels: {}
 
-        tooManyRetriesInQueue:   
+        tooManyRetriesInQueue:
           # @schema
           # type: boolean
           # @schema
@@ -1129,86 +1121,85 @@ global:
   networking:
     # @schema
     # @schema
-    internalTLS: false 
+    internalTLS: false
 
     genusOperatorService:
       main:
         # @schema
         # @schema
-        http: 8080 
+        http: 8080
         # @schema
         # @schema
-        https: 9443 
+        https: 9443
 
     operatorFrontend:
       main:
         # @schema
         # @schema
-        http: 8080 
+        http: 8080
         # @schema
         # @schema
-        https: 9443 
+        https: 9443
       metrics:
         # @schema
         # @schema
-        http: 9113 
+        http: 9113
         # @schema
         # @schema
-        https: 9413 
+        https: 9413
       blocked:
         # @schema
         # @schema
-        http: 8404 
+        http: 8404
         # @schema
         # @schema
-        https: 9404 
-    
+        https: 9404
+
     redis:
       main:
         # @schema
         # @schema
-        http: 6379 
+        http: 6379
         # @schema
         # @schema
-        https: 9379 
+        https: 9379
       sentinel:
         # @schema
         # @schema
-        http: 26379 
+        http: 26379
         # @schema
         # @schema
-        https: 9279 
+        https: 9279
 
     coreService:
       main:
         # @schema
         # @schema
-        http: 8181 
+        http: 8181
         # @schema
         # @schema
-        https: 9443 
+        https: 9443
 
     megaService:
       main:
         # @schema
         # @schema
-        http: 80 
-        
+        http: 80
+
         # @schema
         # @schema
         https: 9443
 
-  
   # @schema
   # type: array
   # items:
   #   type: object
   #   properties:
-  #     mountPath: 
+  #     mountPath:
   #       type: [string, null]
   #       required: true
   #       description: Path within the container at which the volume should be mounted.  Must not contain ':'.
-  #     name: 
+  #     name:
   #       type: [string, null]
   #       required: true
   #       description: This must match the Name of a Volume.
@@ -1221,17 +1212,17 @@ global:
   #       required: false
   #       description: Path within the volume from which the container's volume should be mounted. Defaults to \\ (volume's root).
   # @schema
-  volumeMounts: [] 
-  
+  volumeMounts: []
+
   # @schema
   # type: array
-  # items: 
+  # items:
   #   type: object
   #   properties:
   #     name:
   #       type: string
   # @schema
-  volumes: [] 
+  volumes: []
 
   # @schema
   # type: array
@@ -1256,7 +1247,7 @@ global:
   tolerations: []
   redis:
     architecture: "replication"
-  
+
   security:
     # @schema
     # type: boolean
@@ -1285,12 +1276,12 @@ redis-cluster:
       kubernetes.io/os: linux
   metrics:
     enabled: true
-    serviceMonitor: 
+    serviceMonitor:
       enabled: true
 
 redis:
   enabled: true
-  image: 
+  image:
     registry: genus.azurecr.io
     repository: bitnami/redis
   fullnameOverride: operator-redis
@@ -1305,8 +1296,8 @@ redis:
     existingSecret: "session-redis" # @schema default:  "session-redis"
     existingSecretPasswordKey: "PASSWORD"
   sentinel:
-    enabled: true 
-    image: 
+    enabled: true
+    image:
       registry: genus.azurecr.io
       repository: bitnami/redis-sentinel
     containerSecurityContext:
@@ -1315,17 +1306,17 @@ redis:
       requests:
         # @schema
         # @schema
-        memory: 200Mi 
+        memory: 200Mi
         # @schema
         # @schema
-        cpu: 100m 
+        cpu: 100m
       limits:
         # @schema
         # @schema
-        memory: 1Gi 
+        memory: 1Gi
         # @schema
         # @schema
-        cpu: 2000m 
+        cpu: 2000m
   master:
     containerSecurityContext:
       allowPrivilegeEscalation: false
@@ -1333,23 +1324,23 @@ redis:
       requests:
         # @schema
         # @schema
-        memory: 200Mi 
+        memory: 200Mi
         # @schema
         # @schema
-        cpu: 100m 
+        cpu: 100m
       limits:
         # @schema
         # @schema
-        memory: 1Gi 
+        memory: 1Gi
         # @schema
         # @schema
-        cpu: 2000m 
+        cpu: 2000m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
       # @schema
       # @schema
-      enabled: false 
+      enabled: false
   replica:
     containerSecurityContext:
       allowPrivilegeEscalation: false
@@ -1357,47 +1348,47 @@ redis:
       requests:
         # @schema
         # @schema
-        memory: 200Mi 
+        memory: 200Mi
         # @schema
         # @schema
-        cpu: 100m 
+        cpu: 100m
       limits:
         # @schema
         # @schema
-        memory: 1Gi 
+        memory: 1Gi
         # @schema
         # @schema
-        cpu: 2000m 
+        cpu: 2000m
     # @schema
     # @schema
-    replicaCount: 3 
+    replicaCount: 3
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
       # @schema
       # @schema
-      enabled: false 
+      enabled: false
   pdb:
     # @schema
     # @schema
-    create: true 
+    create: true
   metrics:
     containerSecurityContext:
       allowPrivilegeEscalation: false
     # @schema
     # @schema
-    enabled: false 
-    serviceMonitor: 
+    enabled: false
+    serviceMonitor:
       # @schema
       # @schema
-      enabled: false 
+      enabled: false
     sentinel:
       # @schema
       # @schema
-      enabled: false 
+      enabled: false
       serviceMonitor:
         # @schema
         # @schema
-        enabled: false 
+        enabled: false
 
 ```
