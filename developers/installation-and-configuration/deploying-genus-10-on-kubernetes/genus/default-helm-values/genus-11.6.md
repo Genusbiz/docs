@@ -1071,7 +1071,7 @@ global:
     appModelServer: ""
 
     # @schema
-    # type: integer
+    # type: [string, integer]
     # @schema
     appModelPort: ""
     
