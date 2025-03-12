@@ -1053,20 +1053,8 @@ global:
   # additionalProperties: false
   # @schema
   database: 
-    # @schema
-    # deprecated: true
-    # type: string
-    # @schema
-    vendorVersion: "" 
 
     # @schema
-    # deprecated: true
-    # type: string
-    # @schema
-    appModelConnectionString: "" 
-
-    # @schema
-    # required: true
     # type: string
     # @schema
     appModelDatabase: "" 
@@ -1075,23 +1063,10 @@ global:
     # type: string
     # @schema
     appModelSchema: "" 
-
-    # @schema
-    # deprecated: true
-    # type: boolean
-    # @schema
-    # -- This property is not used in Genus Operator
-    caseInsensitiveSearch: true
     
     # @schema
-    # deprecated: true
     # type: string
-    # @schema
-    # -- TODO
-    appModelConnectionOptions: ""
-
-    # @schema
-    # type: string
+    # required: true
     # @schema
     appModelServer: ""
 
@@ -1102,17 +1077,19 @@ global:
     
     # @schema
     # type: string
+    # required: true
     # @schema
     appModelUserName: ""
     
     # @schema
     # type: string
+    # required: true
     # @schema
     appModelPassword: ""
     
-    # TODO: Replace type: string with "enum: [%REPLACE_WITH_VENDOR_VERSION%]" when we change over from old setting
     # @schema
-    # type: string
+    # enum: [%REPLACE_WITH_VENDOR_VERSION%]
+    # required: true
     # @schema
     appModelVendorVersion: ""
     
