@@ -298,7 +298,7 @@ global:
     appModelServer: ""
 
     # @schema
-    # type: string
+    # type: integer
     # @schema
     appModelPort: ""
     
