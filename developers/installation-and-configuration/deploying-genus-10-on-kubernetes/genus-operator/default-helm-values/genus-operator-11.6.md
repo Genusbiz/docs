@@ -279,46 +279,21 @@ global:
   # required: true
   # additionalProperties: false
   # @schema
-  database:
-    # @schema
-    # deprecated: true
-    # type: string
-    # @schema
-    vendorVersion: ""
+  database: 
 
     # @schema
-    # deprecated: true
     # type: string
     # @schema
-    appModelConnectionString: ""
-
+    appModelDatabase: "" 
+    
     # @schema
+    # type: string
+    # @schema
+    appModelSchema: "" 
+    
+    # @schema
+    # type: string
     # required: true
-    # type: string
-    # @schema
-    appModelDatabase: ""
-
-    # @schema
-    # type: string
-    # @schema
-    appModelSchema: ""
-
-    # @schema
-    # deprecated: true
-    # type: boolean
-    # @schema
-    # -- This property is not used in Genus Operator
-    caseInsensitiveSearch: true
-
-    # @schema
-    # deprecated: true
-    # type: string
-    # @schema
-    # -- TODO
-    appModelConnectionOptions: ""
-
-    # @schema
-    # type: string
     # @schema
     appModelServer: ""
 
@@ -326,37 +301,40 @@ global:
     # type: string
     # @schema
     appModelPort: ""
-
+    
     # @schema
     # type: string
+    # required: true
     # @schema
     appModelUserName: ""
-
+    
     # @schema
     # type: string
+    # required: true
     # @schema
     appModelPassword: ""
-
+    
     # @schema
-    # type: string
+    # enum: [%REPLACE_WITH_VENDOR_VERSION%]
+    # required: true
     # @schema
     appModelVendorVersion: ""
-
+    
     # @schema
     # type: boolean
     # @schema
     appModelIsCaseInsensitive: true
-
+    
     # @schema
     # type: object
     # @schema
     appModelOptionsJson: {}
-
+    
     # @schema
     # type: object
     # @schema
     appModelFiredacOptionsJson: {}
-
+    
     # @schema
     # type: object
     # @schema
