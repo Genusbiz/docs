@@ -29,12 +29,6 @@ genus-exposed-web-service:
   serviceAlias: exposed-web-service
   replicaCount: 1
 
-genus-data-mart-query-service:
-  # @ignore
-  serviceAlias: data-mart-query-service
-  replicaCount: 1
-
-
 genus-live-update-input-service:
   # @ignore
   serviceAlias: live-update-input-service
@@ -166,9 +160,7 @@ global:
   # @schema
   allowedExternalOrigins: []
 
-
   ingress:
-
     # @schema
     # type: object
     # patternProperties:
@@ -225,7 +217,6 @@ global:
     # @schema
     tls: []
 
-
   traceLog:
     # @schema
     # type: boolean
@@ -246,7 +237,6 @@ global:
     debug: false
 
   contentSecurityPolicy:
-    
     # @schema
     # type: string
     # @schema
@@ -313,7 +303,6 @@ global:
     # @schema
     # -- Define network policies for external loadBalancer
     loadBalancer:
-      
       # @schema
       # type: array
       # items:
@@ -494,8 +483,7 @@ global:
     # type: object
     # @schema
     # -- Define network policies for database
-    database: 
-      
+    database:
       # @schema
       # type: array
       # items:
@@ -677,7 +665,6 @@ global:
     # @schema
     # -- Define network policies for external objectStorage
     objectStorage:
-      
       # @schema
       # type: array
       # items:
@@ -859,7 +846,6 @@ global:
     # @schema
     # -- Define network policies for external keyvaluestore       
     keyValueStore:
-      
       # @schema
       # type: array
       # items:
@@ -1037,7 +1023,6 @@ global:
       egress: []
 
   jobs:
-  
     # @schema
     # deprecated: true
     # @schema
@@ -1052,18 +1037,17 @@ global:
   # required: true
   # additionalProperties: false
   # @schema
-  database: 
+  database:
+    # @schema
+    # type: string
+    # @schema
+    appModelDatabase: ""
 
     # @schema
     # type: string
     # @schema
-    appModelDatabase: "" 
-    
-    # @schema
-    # type: string
-    # @schema
-    appModelSchema: "" 
-    
+    appModelSchema: ""
+
     # @schema
     # type: string
     # required: true
@@ -1240,7 +1224,6 @@ global:
 
   metrics:
     serviceMonitor:
-      
       # @schema
       # type: boolean
       # @schema
@@ -1367,10 +1350,6 @@ global:
         http: 4000
         https: 9443
     coreService:
-      main:
-        http: 8181
-        https: 9443
-    dataMartQueryService:
       main:
         http: 8181
         https: 9443
