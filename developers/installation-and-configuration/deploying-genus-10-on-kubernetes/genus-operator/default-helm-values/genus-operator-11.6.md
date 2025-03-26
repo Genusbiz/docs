@@ -279,18 +279,17 @@ global:
   # required: true
   # additionalProperties: false
   # @schema
-  database: 
+  database:
+    # @schema
+    # type: string
+    # @schema
+    appModelDatabase: ""
 
     # @schema
     # type: string
     # @schema
-    appModelDatabase: "" 
-    
-    # @schema
-    # type: string
-    # @schema
-    appModelSchema: "" 
-    
+    appModelSchema: ""
+
     # @schema
     # type: string
     # required: true
@@ -301,40 +300,40 @@ global:
     # type: [string, integer]
     # @schema
     appModelPort: ""
-    
+
     # @schema
     # type: string
     # required: true
     # @schema
     appModelUserName: ""
-    
+
     # @schema
     # type: string
     # required: true
     # @schema
     appModelPassword: ""
-    
+
     # @schema
     # enum: [%REPLACE_WITH_VENDOR_VERSION%]
     # required: true
     # @schema
     appModelVendorVersion: ""
-    
+
     # @schema
     # type: boolean
     # @schema
     appModelIsCaseInsensitive: true
-    
+
     # @schema
     # type: object
     # @schema
     appModelOptionsJson: {}
-    
+
     # @schema
     # type: object
     # @schema
     appModelFiredacOptionsJson: {}
-    
+
     # @schema
     # type: object
     # @schema
@@ -374,26 +373,25 @@ global:
     ingressClassName: ""
 
     # @schema
+    # type: boolean
     # @schema
     # -- TODO
     tlsConfigEnabled: false
 
     # @schema
-    # @schema
-    # -- TODO
-    requireUniqueIngressHosts: false
-
-    # @schema
+    # type: boolean
     # @schema
     # -- TODO
     ingressWildCardPathEnabled: false
 
     # @schema
+    # type: string
     # @schema
     # -- TODO
     secretNameOverride: ""
 
     # @schema
+    # type: boolean
     # @schema
     # -- TODO
     operatorFrontendTlsIngressEnabled: false
@@ -419,6 +417,7 @@ global:
 
   rbac:
     # @schema
+    # type: boolean
     # @schema
     create: true
 
