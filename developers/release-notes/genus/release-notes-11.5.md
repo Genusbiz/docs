@@ -176,6 +176,13 @@ All editors opened in Web also open as read only.
 
 It is now possible to connect to a Redis instance configured as standalone, as opposed to replication (sentinel).
 
+<!--ID 431f1125-6f7d-4ba2-b681-e1bf864d467c -->
+**#23712 2D-repeating container cells can now be bound with date to match axes**
+
+In 2D-repeating container, it is now possible to match a time domain axis with a date field on your cell binding, or other time domain fields. 
+
+This should be especially relevant if you currently use a function to copy and convert a Date field into e.g. a Day field in order to match the axis of a 2D-repeater.
+
 <!--rntype07-end   MINOR. DO NOT CHANGE THESE TAGS. ANY CHANGES ABOVE WILL BE OVERWRITTEN.-->
 ## Resolved issues
 <!--rntype08-start RESOLVED ISSUES. DO NOT CHANGE THESE TAGS. ANY CHANGES BELOW WILL BE OVERWRITTEN.-->
