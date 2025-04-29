@@ -662,7 +662,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- The percentage of resonses the gateway service returns whith a responsecode 5.. (server error)
+          # -- The percentage of responses the gateway service returns with a response code 5.. (server error)
           threshold: 0.2
 
           # @schema
@@ -1049,7 +1049,7 @@ global:
           # @schema
           # type: string
           # @schema
-          # -- Timeperiod for how long the queue can retrie queueing before sending an alert
+          # -- Timeperiod for how long the queue can retry queueing before sending an alert
           for: 15m
 
           # @schema
@@ -1077,7 +1077,7 @@ global:
           # @schema
           # type: number
           # @schema
-          # -- Rate of scheduled actions that fail in the last minute
+          # -- Rate of scheduled actions that can fail in the last minute
           threshold: 0
 
           # @schema
