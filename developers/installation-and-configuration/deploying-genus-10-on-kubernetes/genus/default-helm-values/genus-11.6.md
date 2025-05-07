@@ -1337,50 +1337,62 @@ global:
     # -- Enable this to use the internal TLS certificate for all services, aka using https internally in the cluster 
     internalTLS: false
 
+    # @ignore
     authenticationService:
       main:
         http: 3000
         https: 9443
+    # @ignore
     authorizationService:
       main:
         http: 4000
         https: 9443
+    # @ignore
     carddavService:
       main:
         http: 4000
         https: 9443
+    # @ignore
     coreService:
       main:
         http: 8181
         https: 9443
+    # @ignore
     mqSubscriberService:
       main:
         http: 8181
         https: 9443
+    # @ignore
     scheduledActionService:
       main:
         http: 8181
         https: 9443
+    # @ignore
     exposedWebService:
       main:
         http: 8181
         https: 9443
+    # @ignore
     desktopFrontend:
       main:
         http: 8080
         https: 9443
+    # @ignore
     megaService:
       main:
         http: 80
         https: 9443
+    # @ignore
     databaseDictionaryService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     fileUtilityService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     gatewayService:
       main:
         http: 3002
@@ -1388,42 +1400,52 @@ global:
       blocked:
         http: 8404
         https: 9404
+    # @ignore
     helpDocsService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     ibmMqIoService:
       main:
         http: 8094
         https: 9443
+    # @ignore
     internalTestingService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     internationalizationService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     keyValueStoreService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     kubernetesOperatorService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     liveUpdateInputService:
       main:
         http: 8099
         https: 9443
+    # @ignore
     mailService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     messageQueueService:
       main:
         http: 8099
         https: 9443
+    # @ignore
     liveUpdateSubscriptionService:
       external:
         http: 8097
@@ -1431,10 +1453,12 @@ global:
       internal:
         http: 8098
         https: 9098
+    # @ignore
     objectStorageService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     operatorFrontend:
       main:
         http: 8080
@@ -1445,6 +1469,7 @@ global:
       blocked:
         http: 8404
         https: 9404
+    # @ignore
     redis:
       main:
         http: 6379
@@ -1452,22 +1477,27 @@ global:
       sentinel:
         http: 26379
         https: 9279
+    # @ignore
     kafkaIoService:
       main:
         http: 8094
         https: 9443
+    # @ignore
     redisIoService:
       main:
         http: 8094
         https: 9443
+    # @ignore
     tracelogInputService:
       main:
         http: 8094
         https: 9443
+    # @ignore
     tracelogSubscriptionService:
       main:
         http: 8095
         https: 9443
+    # @ignore
     webFrontend:
       main:
         http: 8080
@@ -1478,14 +1508,17 @@ global:
       blocked:
         http: 8404
         https: 9404
+    # @ignore
     webcalService:
       main:
         http: 4000
         https: 9443
+    # @ignore
     wopiService:
       main:
         http: 8080
         https: 9443
+    # @ignore
     xmlUtilityService:
       main:
         http: 8080
