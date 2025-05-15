@@ -1416,10 +1416,6 @@ global:
         http: 8080
         https: 9443
     # @ignore
-    internationalizationService:
-      main:
-        http: 8080
-        https: 9443
     # @ignore
     keyValueStoreService:
       main:
