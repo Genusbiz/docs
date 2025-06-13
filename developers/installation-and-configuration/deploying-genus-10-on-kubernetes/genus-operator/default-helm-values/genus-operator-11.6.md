@@ -1246,6 +1246,13 @@ redis-cluster:
     registry: genus.azurecr.io
     repository: bitnami/redis-cluster
   redis:
+    resources:
+      requests:
+        memory: 200Mi
+        cpu: 100m
+      limits:
+        memory: 1Gi
+        cpu: 2000m
     nodeSelector:
       kubernetes.io/os: linux
   updateJob:
@@ -1281,18 +1288,10 @@ redis:
       allowPrivilegeEscalation: false
     resources:
       requests:
-        # @schema
-        # @schema
         memory: 200Mi
-        # @schema
-        # @schema
         cpu: 100m
       limits:
-        # @schema
-        # @schema
         memory: 1Gi
-        # @schema
-        # @schema
         cpu: 2000m
   master:
     containerSecurityContext:
