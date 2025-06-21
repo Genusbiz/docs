@@ -110,6 +110,16 @@ global:
     # @schema
     # -- The authentication method used by the application. Use "Cookie" for signing in with username and password, or "MS Entra ID" for signing in with MS Entra Id (previously known as Azure AD)
     method: "Cookie"
+    
+    # @schema
+    # additionalProperties: false
+    # @schema
+    cookie:
+      # @schema
+      # type: integer
+      # @schema
+      # -- The duration in minutes before the session expires. After being inactive for this duration, the user will be logged out and need to log in again.
+      sessionExpireDurationMinutes: 60
 
     # @schema
     # additionalProperties: false
