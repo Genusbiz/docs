@@ -294,15 +294,6 @@
               href: defining-an-app-model/services/web-services/soap-faults.md
             - name: View the Execution History for a Web Service
               href: defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
-        - name: REST services
-          href: defining-an-app-model/services/rest-services/index.md
-          items:
-            - name: Create a REST service
-              href: defining-an-app-model/services/rest-services/create-a-rest-service.md
-            - name: REST service URI path segments
-              href: defining-an-app-model/services/rest-services/rest-service-uri-path-segments.md
-            - name: REST service metadata
-              href: defining-an-app-model/services/rest-services/rest-service-metadata.md
     - name: Data
       href: defining-an-app-model/data/index.md
       items:
