@@ -1262,7 +1262,6 @@ redis-cluster:
         cpu: 100m
       limits:
         memory: 1Gi
-        cpu: 2000m
     nodeSelector:
       kubernetes.io/os: linux
   updateJob:
@@ -1302,7 +1301,6 @@ redis:
         cpu: 100m
       limits:
         memory: 1Gi
-        cpu: 2000m
   master:
     containerSecurityContext:
       allowPrivilegeEscalation: false
@@ -1318,9 +1316,6 @@ redis:
         # @schema
         # @schema
         memory: 1Gi
-        # @schema
-        # @schema
-        cpu: 2000m
     nodeSelector:
       kubernetes.io/os: linux
     persistence:
@@ -1342,9 +1337,6 @@ redis:
         # @schema
         # @schema
         memory: 1Gi
-        # @schema
-        # @schema
-        cpu: 2000m
     # @schema
     # @schema
     replicaCount: 3
