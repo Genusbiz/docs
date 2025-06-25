@@ -15,12 +15,8 @@
               href: defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.md
             - name: Comments and constructs
               href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
-            - name: Data types
-              href: defining-an-app-model/common-concepts/advanced-expressions/data-types.md
             - name: Collection types
               href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
-            - name: Formula editor
-              href: defining-an-app-model/common-concepts/advanced-expressions/formula-editor.md
             - name: Examples
               href: defining-an-app-model/common-concepts/advanced-expressions/examples.md
         - name: Automatic formatting
