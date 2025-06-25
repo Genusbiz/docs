@@ -470,12 +470,6 @@
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
-    - name: Improving report performance
-      href: guidelines-and-best-practices/improving-report-performance.md
-    - name: Improving search performance
-      href: guidelines-and-best-practices/improving-search-performance.md
-    - name: Security on search
-      href: guidelines-and-best-practices/security-on-search.md
     - name: Web service guidelines
       href: guidelines-and-best-practices/web-service-guidelines/index.md
       items:
