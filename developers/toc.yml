@@ -398,53 +398,6 @@
 - name: Installation and configuration
   href: installation-and-configuration/index.md
   items:
-    - name: System requirements
-      href: installation-and-configuration/system-requirements.md
-    - name: Deploying Genus 10 on Kubernetes
-      href: installation-and-configuration/deploying-genus-10-on-kubernetes/index.md
-      items:
-        - name: Genus
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/index.md
-          items:
-            - name: Helm Values Description
-              href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/index.md
-              items:
-                - name: Genus 11.6
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-11.6.md
-                - name: Genus 11.5
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-11.5.md
-                - name: Genus 11.4
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/helm-values-description/genus-11.4.md
-            - name: Default Helm Values
-              href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/index.md
-              items:
-                - name: Genus 11.6
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-11.6.md
-                - name: Genus 11.5
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-11.5.md
-                - name: Genus 11.4
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus/default-helm-values/genus-11.4.md
-        - name: Genus Operator
-          href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/index.md
-          items:
-            - name: Helm Values Description
-              href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/index.md
-              items:
-                - name: Genus Operator 11.6
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-11.6.md
-                - name: Genus Operator 11.5
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-11.5.md
-                - name: Genus Operator 11.4
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/helm-values-description/genus-operator-11.4.md
-            - name: Default Helm Values
-              href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/index.md
-              items:
-                - name: Genus Operator 11.6
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-11.6.md
-                - name: Genus Operator 11.5
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-11.5.md
-                - name: Genus Operator 11.4
-                  href: installation-and-configuration/deploying-genus-10-on-kubernetes/genus-operator/default-helm-values/genus-operator-11.4.md
     - name: Configure and maintain Genus Services
       href: installation-and-configuration/configure-and-maintain-genus-server/index.md
       items:
@@ -458,15 +411,6 @@
           href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-oracle.md
         - name: Special considerations for Sybase
           href: installation-and-configuration/configure-and-maintain-genus-server/special-considerations-for-sybase.md
-    - name: Installing Genus Desktop
-      href: installation-and-configuration/installing-genus-desktop/index.md
-      items:
-        - name: Installation special folders
-          href: installation-and-configuration/installing-genus-desktop/install-genus-special-folders.md
-        - name: The Genus Desktop launcher command line
-          href: installation-and-configuration/installing-genus-desktop/genus-launcher-command-line.md
-        - name: Registry settings
-          href: installation-and-configuration/installing-genus-desktop/install-genus-registry-settings.md 
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
