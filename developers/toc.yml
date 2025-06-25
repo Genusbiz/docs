@@ -500,23 +500,11 @@
 - name: How to
   href: how-to/index.md
   items:
-    - name: Accessing selected text in form controls
-      href: how-to/accessing-selected-text-in-form-controls.md
-    - name: Attach a file or an email to an object
-      href: how-to/attach-a-file-or-an-email-to-an-object.md
-    - name: Repeated Column grouping in multidimensional tables
-      href: how-to/repeated-column-grouping-in-multidimensional-tables.md
-    - name: Exchange data with other applications
+      - name: Exchange data with other applications
       href: how-to/exchange-data-with-other-applications/index.md
       items:
-        - name: Exchanging files and objects
-          href: how-to/exchange-data-with-other-applications/exchanging-files-and-objects.md
-        - name: Export and import data
-          href: how-to/exchange-data-with-other-applications/export-and-import-data.md
         - name: Copy and paste data
           href: how-to/exchange-data-with-other-applications/copy-and-paste-data.md
-        - name: Microsoft Outlook integrations
-          href: how-to/exchange-data-with-other-applications/microsoft-outlook-integrations.md
     - name: Merge data to a document
       href: how-to/merge-data-to-a-document/index.md
       items:
@@ -529,10 +517,6 @@
               href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-excel-document/merge-report-data-to-a-microsoft-excel-document.md
         - name: Merge data to a Microsoft Word document
           href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md
-    - name: Report an error
-      href: how-to/report-an-error.md
-    - name: Search across many data sources
-      href: how-to/search-across-many-data-sources.md
     - name: JSON Web Tokens
       href: how-to/json-web-tokens.md
 - name: Release notes
