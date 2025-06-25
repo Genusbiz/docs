@@ -9,10 +9,3 @@ All functions and values are members of a data type, and there are two kinds of 
 
 Advanced Expressions are case sensitive.
 
-**Topics in "Advanced Expressions"**
-* [Operators and precedence](operators-and-precedence.md)
-* [Comments and constructs](comments-and-constructs.md)
-* [Data types](data-types.md)
-* [Collection Types](collection-types.md)
-* [Formula Editor](formula-editor.md)
-* [Examples](examples.md)
