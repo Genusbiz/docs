@@ -10,9 +10,3 @@ Actions are used by Tasks, Agents, Web Services and Rules to define operations t
 
 The actions can be viewed and edited in the hierarchical tree view shown above, or in a [diagram](action-diagram.md) which displays the action flow using a Business Process Modeling Notation inspired graphical notation.
 
-**Topics in "Actions"**
-* [Blocks](blocks/index.md)
-* [Controls](controls/index.md)
-* [Effects](effects/index.md)
-* [Defining Actions](defining-actions.md)
-* [Action Diagram](action-diagram.md)
