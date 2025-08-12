@@ -183,8 +183,3 @@
           href: how-to/merge-data-to-a-document/merge-data-to-a-microsoft-word-document.md
     - name: JSON Web Tokens
       href: how-to/json-web-tokens.md
-- name: Release notes
-  href: release-notes/index.md
-  items:
-    - name: About release stages
-      href: release-notes/release-stages.md
