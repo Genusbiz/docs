@@ -83,25 +83,6 @@
               href: defining-an-app-model/data/object-class-property/change-the-data-type-for-an-object-class-property.md
         - name: Schemas
           href: defining-an-app-model/data/schemas.md
-    - name: Security
-      href: defining-an-app-model/security/index.md
-      items:
-        - name: Account profiles
-          href: defining-an-app-model/security/account-profiles.md
-        - name: Effective memberships and permissions
-          href: defining-an-app-model/security/effective-memberships-and-permissions.md
-        - name: Security data sets
-          href: defining-an-app-model/security/security-data-sets.md
-        - name: Security groups and user accounts
-          href: defining-an-app-model/security/security-groups-and-user-accounts.md
-        - name: Security permissions
-          href: defining-an-app-model/security/security-permissions.md
-        - name: Security privileges
-          href: defining-an-app-model/security/security-privileges.md
-        - name: Security overview and review
-          href: defining-an-app-model/security/security-overview-and-review.md
-        - name: App model administrators
-          href: defining-an-app-model/security/app-model-administrators.md
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
