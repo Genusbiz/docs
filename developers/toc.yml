@@ -53,25 +53,6 @@
                   href: defining-an-app-model/logic/action-orchestration/data-sources/file-data-sources.md
                 - name: Account data source
                   href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
-            - name: Actions
-              href: defining-an-app-model/logic/action-orchestration/actions/index.md
-              items:
-                - name: Blocks
-                  href: defining-an-app-model/logic/action-orchestration/actions/blocks/index.md
-                  items:
-                    - name: Scope
-                      href: defining-an-app-model/logic/action-orchestration/actions/blocks/scope.md
-                - name: Effects
-                  href: defining-an-app-model/logic/action-orchestration/actions/effects/index.md
-                  items:
-                    - name: Consume a WEB Service
-                      href: defining-an-app-model/logic/action-orchestration/actions/effects/consume-a-web-service.md
-                    - name: Create Objects and Modify Objects
-                      href: defining-an-app-model/logic/action-orchestration/actions/effects/create-objects-and-modify-objects.md
-                    - name: Export Data
-                      href: defining-an-app-model/logic/action-orchestration/actions/effects/export-data.md
-                    - name: Import Data
-                      href: defining-an-app-model/logic/action-orchestration/actions/effects/import-data.md
             - name: Exception Handling
               href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Services
