@@ -40,19 +40,6 @@
         - name: Action orchestration
           href: defining-an-app-model/logic/action-orchestration/index.md
           items:
-            - name: Data sources
-              href: defining-an-app-model/logic/action-orchestration/data-sources/index.md
-              items:
-                - name: Add a data source
-                  href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-data-source.md
-                - name: Add a local object data source
-                  href: defining-an-app-model/logic/action-orchestration/data-sources/add-a-local-object-data-source.md
-                - name: Specifying a data filter for a data source
-                  href: defining-an-app-model/logic/action-orchestration/data-sources/specifying-a-data-filter-for-a-data-source.md
-                - name: File data sources
-                  href: defining-an-app-model/logic/action-orchestration/data-sources/file-data-sources.md
-                - name: Account data source
-                  href: defining-an-app-model/logic/action-orchestration/data-sources/the-account-data-source.md
             - name: Exception Handling
               href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Services
