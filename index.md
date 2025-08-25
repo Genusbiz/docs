@@ -11,18 +11,11 @@ Learn how to use Genus Apps to quickly create, deploy and change customized soft
 
 ## Developers
 * [Defining an app model](developers/defining-an-app-model/index.md)
-* [Installation and configuration](developers/installation-and-configuration/index.md)
-* [Security](developers/defining-an-app-model/security/index.md)
 * [Guidelines and best practices](developers/guidelines-and-best-practices/index.md)
 * [How to](developers/how-to/index.md)
 
 
 ## Users
-* [Overview](users/overview/index.md)
-* [Getting started](users/index.md)
-* [Navigate, view, modify and control](users/navigate-view-modify-and-control/index.md)
-* [Search and refine](users/search-and-refine/index.md)
 * [Analyze, report and discover](users/analyze-report-and-discover/index.md)
-* [Automate, monitor and alert](users/automate-monitor-and-alert/index.md)
 
 
