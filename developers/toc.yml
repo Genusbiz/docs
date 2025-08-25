@@ -97,7 +97,7 @@
 - name: How to
   href: how-to/index.md
   items:
-      - name: Exchange data with other applications
+    - name: Exchange data with other applications
       href: how-to/exchange-data-with-other-applications/index.md
       items:
         - name: Copy and paste data
