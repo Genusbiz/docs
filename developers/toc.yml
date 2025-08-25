@@ -1,47 +1,6 @@
-- name: Keyboard shortcuts
-  href: defining-an-app-model/user-interface/keyboard-shortcuts.md
 - name: Defining an App Model
   href: defining-an-app-model/index.md
   items:
-    - name: Common concepts
-      href: defining-an-app-model/common-concepts/index.md
-      items:
-        - name: Active object
-          href: defining-an-app-model/common-concepts/active-object.md
-        - name: Advanced expressions
-          href: defining-an-app-model/common-concepts/advanced-expressions/index.md
-          items:
-            - name: Operators and precedence
-              href: defining-an-app-model/common-concepts/advanced-expressions/operators-and-precedence.md
-            - name: Comments and constructs
-              href: defining-an-app-model/common-concepts/advanced-expressions/comments-and-constructs.md
-            - name: Collection types
-              href: defining-an-app-model/common-concepts/advanced-expressions/collection-types.md
-            - name: Examples
-              href: defining-an-app-model/common-concepts/advanced-expressions/examples.md
-        - name: Automatic formatting
-          href: defining-an-app-model/common-concepts/automatic-formatting.md
-        - name: Conditions
-          href: defining-an-app-model/common-concepts/conditions/index.md
-          items:
-            - name: Groups and expressions
-              href: defining-an-app-model/common-concepts/conditions/groups-and-expressions.md
-            - name: Operands
-              href: defining-an-app-model/common-concepts/conditions/operands.md
-            - name: Condition syntax structure
-              href: defining-an-app-model/common-concepts/conditions/condition-syntax-structure.md
-            - name: Examples
-              href: defining-an-app-model/common-concepts/conditions/examples.md
-        - name: Data binding
-          href: defining-an-app-model/common-concepts/data-binding.md
-    - name: Logic
-      href: defining-an-app-model/logic/index.md
-      items:
-        - name: Action orchestration
-          href: defining-an-app-model/logic/action-orchestration/index.md
-          items:
-            - name: Exception Handling
-              href: defining-an-app-model/logic/action-orchestration/exception-handling.md
     - name: Services
       href: defining-an-app-model/services/index.md
       items:
@@ -58,18 +17,6 @@
               href: defining-an-app-model/services/web-services/soap-faults.md
             - name: View the Execution History for a Web Service
               href: defining-an-app-model/services/web-services/view-the-execution-history-for-a-web-service.md
-    - name: Data
-      href: defining-an-app-model/data/index.md
-      items:
-        - name: Object class diagram
-          href: defining-an-app-model/data/object-class-diagram.md
-        - name: Object class property
-          href: defining-an-app-model/data/object-class-property/index.md
-          items:
-            - name: Change the Data Type for an Object Class Property
-              href: defining-an-app-model/data/object-class-property/change-the-data-type-for-an-object-class-property.md
-        - name: Schemas
-          href: defining-an-app-model/data/schemas.md
 - name: Guidelines and best practices
   href: guidelines-and-best-practices/index.md
   items:
@@ -97,11 +44,6 @@
 - name: How to
   href: how-to/index.md
   items:
-    - name: Exchange data with other applications
-      href: how-to/exchange-data-with-other-applications/index.md
-      items:
-        - name: Copy and paste data
-          href: how-to/exchange-data-with-other-applications/copy-and-paste-data.md
     - name: Merge data to a document
       href: how-to/merge-data-to-a-document/index.md
       items:
