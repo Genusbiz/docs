@@ -11,8 +11,3 @@ author: jtroset
 * [Guidelines and best practices](developers/guidelines-and-best-practices/index.md)
 * [How to](developers/how-to/index.md)
 
-
-## Users
-* [Analyze, report and discover](users/analyze-report-and-discover/index.md)
-
-
