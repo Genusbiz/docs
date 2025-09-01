@@ -1,6 +1,3 @@
 - name: Developers
   href: developers/
   topicHref: developers/overview/index.md
-- name: Users
-  href: users/
-  topicHref: users/overview/index.md
